@@ -16,7 +16,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: Run start-ci.sh
       run: |
-        ./scripts/start-ci.sh
+        chmod +x ./scripts/start-ci.sh
     - name: Commit files
       run: |
         git config --local user.email "action@github.com"
