@@ -2,9 +2,7 @@ name: Auto build new list
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
-on:
-  push:
-    
+on: [workflow_run]    
 jobs:
   build:
     runs-on: ubuntu-main
