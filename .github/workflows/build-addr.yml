@@ -4,13 +4,10 @@ name: Auto build new list
 # events but only for the master branch
 on:
   push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
     
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-main
     steps:
     - uses: actions/checkout@master
     - name: Run start-ci.sh
