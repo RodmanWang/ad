@@ -4,7 +4,7 @@ name: Auto build new list
 
 on:
   schedule:
-    - cron: "0 */3 * * *"
+    - cron: "5 * * * *"
 
 jobs:
   build:
