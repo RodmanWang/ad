@@ -12,7 +12,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@main
+    - uses: actions/checkout@master
     - name: Run start-ci.sh
       run: |
         ./scripts/start-ci.sh
