@@ -1,1 +1,2 @@
-抄自https://github.com/RodmanWang/anti-AD，自用。。
+抄自https://github.com/privacy-protection-tools/anti-AD，
+自用。。
