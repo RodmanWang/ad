@@ -100,4 +100,4 @@ cd ../
 
 php make-addr.php
 echo
-php ./tools/easylist-extend.php ../anti-ad-easylist.txt
+php ./tools/easylist-extend.php ../easylist.txt
