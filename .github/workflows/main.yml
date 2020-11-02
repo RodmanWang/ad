@@ -17,8 +17,3 @@ jobs:
         git config --local user.name "GitHub Action"
         git add *
         git commit -m "Auto renew the anti-AD list." -a
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.PERSON_TOKEN }}
-        branch: 'master'
