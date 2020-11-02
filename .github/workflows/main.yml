@@ -11,6 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@main
+            with:
+         persist-credentials: false
+         fetch-depth: 0
     - name: Run start-ci.sh
       run: |
         /bin/bash ./scripts/start-ci.sh
