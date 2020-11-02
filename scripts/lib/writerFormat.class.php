@@ -70,7 +70,7 @@ class writerFormat{
         'header' => "payload:\n#VER={DATE}\n#TOTAL_LINES={COUNT}\n",
         'full_domain' => 0,
         'name' => 'surge',
-        'filename' => '../AD.yaml',
+        'filename' => '../ad.yaml',
         'whitelist_attached' => array(
             'base-dead-hosts.txt' =>array(
                 'merge_mode' => 2, //0=单条，1=单条+子域名，2=根域名相当于1，非根域名相当于0
@@ -98,7 +98,7 @@ class writerFormat{
         'header' => "#VER={DATE}\n#TOTAL_LINES={COUNT}\n",
         'full_domain' => 0,
         'name' => 'surge3',
-        'filename' => '../AD.list',
+        'filename' => '../ad.list',
         'whitelist_attached' => array(
             'base-dead-hosts.txt' =>array(
                 'merge_mode' => 2, //0=单条，1=单条+子域名，2=根域名相当于1，非根域名相当于0
