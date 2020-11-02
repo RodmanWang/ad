@@ -6,15 +6,11 @@ name: CI
 # events but only for the master branch
 on:
   push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
-
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
+    - uses: actions/checkout@main
     - name: Run start-ci.sh
       run: |
         /bin/bash ./scripts/start-ci.sh
@@ -24,3 +20,8 @@ jobs:
         git config --local user.name "GitHub Action"
         git add *
         git commit -m "Auto renew the anti-AD list." -a
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.PERSON_TOKEN }}
+        branch: 'master'
