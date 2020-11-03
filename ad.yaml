@@ -1,6 +1,6 @@
 payload:
-#VER=20201103141036
-#TOTAL_LINES=41362
+#VER=20201103201233
+#TOTAL_LINES=41367
   - DOMAIN-SUFFIX,cda.0-shiny.com
   - DOMAIN-SUFFIX,00-gov.cn
   - DOMAIN-SUFFIX,001union.com
@@ -850,6 +850,7 @@ payload:
   - DOMAIN-SUFFIX,ad.dev.360.cn
   - DOMAIN-SUFFIX,ad.gamebox.360.cn
   - DOMAIN-SUFFIX,adapi.shouji.360.cn
+  - DOMAIN-SUFFIX,commercial.shouji.360.cn
   - DOMAIN-SUFFIX,service.jiagu.360.cn
   - DOMAIN-SUFFIX,mclean.f.360.cn
   - DOMAIN-SUFFIX,vconf.f.360.cn
@@ -1206,6 +1207,7 @@ payload:
   - DOMAIN-SUFFIX,51posj.cn
   - DOMAIN-SUFFIX,51posuiji.org.cn
   - DOMAIN-SUFFIX,91.51rmc.com
+  - DOMAIN-SUFFIX,51roadway.com
   - DOMAIN-SUFFIX,b1.51scw.net
   - DOMAIN-SUFFIX,code.51sotu.com
   - DOMAIN-SUFFIX,1.51sxue.cn
@@ -15890,7 +15892,6 @@ payload:
   - DOMAIN-SUFFIX,tianshu-x.gtimg.cn
   - DOMAIN-SUFFIX,swa.gtimg.com
   - DOMAIN-SUFFIX,wa.gtimg.com
-  - DOMAIN-SUFFIX,splashqqlive.gtimg.com
   - DOMAIN-SUFFIX,gtiou.com
   - DOMAIN-SUFFIX,gtlcgovlg.com
   - DOMAIN-SUFFIX,gtlp.net.cn
@@ -22995,7 +22996,6 @@ payload:
   - DOMAIN-SUFFIX,mmqidlebc.com
   - DOMAIN-SUFFIX,cnzz.mmstat.com
   - DOMAIN-SUFFIX,gm.mmstat.com
-  - DOMAIN-SUFFIX,wgo.mmstat.com
   - DOMAIN-SUFFIX,mmszxc.top
   - DOMAIN-SUFFIX,mmtro.com
   - DOMAIN-SUFFIX,mmtu.top
@@ -23692,6 +23692,7 @@ payload:
   - DOMAIN-SUFFIX,mygoodlives.com
   - DOMAIN-SUFFIX,api.myhappyads.com
   - DOMAIN-SUFFIX,myhard.com
+  - DOMAIN-SUFFIX,cdn.adm.myhayo.com
   - DOMAIN-SUFFIX,libfre.obs.cn-east-3.myhuaweicloud.com
   - DOMAIN-SUFFIX,teslaamg.obs.cn-east-3.myhuaweicloud.com
   - DOMAIN-SUFFIX,njs.myhx120.com
@@ -25604,6 +25605,7 @@ payload:
   - DOMAIN-SUFFIX,opencaded.online
   - DOMAIN-SUFFIX,opencdb84507.com
   - DOMAIN-SUFFIX,openclick.com
+  - DOMAIN-SUFFIX,opencmp.net
   - DOMAIN-SUFFIX,opengam.com
   - DOMAIN-SUFFIX,openguid.org
   - DOMAIN-SUFFIX,openhit.com
@@ -30362,6 +30364,7 @@ payload:
   - DOMAIN-SUFFIX,sankaudacityrefine.com
   - DOMAIN-SUFFIX,sankezhi.cn
   - DOMAIN-SUFFIX,sankyo.gr.jp
+  - DOMAIN-SUFFIX,sanmiyangguang.com
   - DOMAIN-SUFFIX,analytics.sanoma.fi
   - DOMAIN-SUFFIX,sat.sanoma.fi
   - DOMAIN-SUFFIX,sanseracingteam.com
@@ -32806,6 +32809,7 @@ payload:
   - DOMAIN-SUFFIX,sugodeku.com
   - DOMAIN-SUFFIX,sugqlryshxarn.com
   - DOMAIN-SUFFIX,imgf.gade.suimeng.la
+  - DOMAIN-SUFFIX,log-dmp.suishenyun.cn
   - DOMAIN-SUFFIX,suitarserviku.site
   - DOMAIN-SUFFIX,stats.suite101.com
   - DOMAIN-SUFFIX,suite6ixty6ix.com
@@ -33223,6 +33227,8 @@ payload:
   - DOMAIN-SUFFIX,tagsrvcs.com
   - DOMAIN-SUFFIX,g1.tagtic.cn
   - DOMAIN-SUFFIX,log.tagtic.cn
+  - DOMAIN-SUFFIX,adlog.tagtic.cn
+  - DOMAIN-SUFFIX,adopt-sdk.xg.tagtic.cn
   - DOMAIN-SUFFIX,news.tagtoo.co
   - DOMAIN-SUFFIX,tagtool.de
   - DOMAIN-SUFFIX,tagtray.com
@@ -38860,7 +38866,6 @@ payload:
   - DOMAIN-SUFFIX,storeconfig.mistat.intl.xiaomi.com
   - DOMAIN-SUFFIX,video.market.xiaomi.com
   - DOMAIN-SUFFIX,wtradv.market.xiaomi.com
-  - DOMAIN-SUFFIX,cnbj1.fds.api.xiaomi.com
   - DOMAIN-SUFFIX,data.mistat.intl.xiaomi.com
   - DOMAIN-SUFFIX,admob.xiaomi.com
   - DOMAIN-SUFFIX,xiaomiaoquan.com
