@@ -1,8 +1,8 @@
-! Checksum: SP4zgKMqMWCZDi6tbbM/Zw
+! Checksum: 0hATf72Unk8gdkHqOTmRyQ
 ! Title: AdGuard DNS filter
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.11.92
-! TimeUpdated: 2020-11-03T19:30:44+03:00
+! Version: 2.0.11.93
+! TimeUpdated: 2020-11-04T19:30:36+03:00
 ! Expires: 4 days (update frequency)
 !
 !
@@ -10,7 +10,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2020-11-03T15:46:50.604Z
+! Last modified: 2020-11-04T15:47:11.863Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.8
 !
@@ -25,6 +25,14 @@
 !
 !! https://a.bestcontentitem.top/warp/*?r=
 !
+||flagros2sii8fdbrh09.com^
+||showmeyouradsnow.com^
+||eetyed.com^
+||koertf.com^
+||bmcdn1.com^
+||rekodpro.com^
+||pinkpig2le8tt09.com^
+||mfhgehrnafra.com^
 ||madmanbears.com^
 ||watch.publicidadpro.com^
 ||ejirytuw.xyz^
@@ -3915,6 +3923,7 @@ vkcdnservice.appspot.com^
 ||constintptr.com^
 ||constituteshy.com^
 ||constrongyfe.site^
+||consultantsow.com^
 ||containstentaclesnell.com^
 ||contalyze.com^
 ||contaminatedefendantedifice.com^
@@ -7375,6 +7384,7 @@ vkcdnservice.appspot.com^
 ||martyappear.pro^
 ||marwinhitted.site^
 ||mascqybw.com^
+||massessede.top^
 ||mastedyel.club^
 ||matagrabolisez.website^
 ||matchedule.club^
@@ -8393,6 +8403,7 @@ vkcdnservice.appspot.com^
 ||orisapple.top^
 ||orminecommi.fun^
 ||ornamedev.club^
+||orrecede.top^
 ||ortantchangem.info^
 ||ortymarvin.top^
 ||orvzvaqig.com^
@@ -9752,6 +9763,7 @@ vkcdnservice.appspot.com^
 ||saiveewe.net^
 ||sal4m649fke3.com^
 ||salarmers.club^
+||saliencege.top^
 ||samtrg.com^
 ||sanddevelto.fun^
 ||sankaudacityrefine.com^
@@ -10948,6 +10960,7 @@ vkcdnservice.appspot.com^
 ||usjguyybhhtjos.com^
 ||usrvgxowmn.com^
 ||usshjrket.com^
+||ustbitsoct.top^
 ||ustedpicklyba.space^
 ||ustralpublicate.site^
 ||ustriptomorbie.site^
@@ -19763,6 +19776,7 @@ t.yesware.com
 ! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/344
 ! Disabled in DNS filter
 !
+||stat.alloha.tv^
 ||counter.web.money^
 ||stat.videonow.ru^
 ||insight.bellmetric.net^
@@ -24330,6 +24344,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||d1ros97qkrwjf5.cloudfront.net^
 ||d1t9uctetvi0tu.cloudfront.net^
 ||d1uanozc5el74n.cloudfront.net^
+||d1wirc5qsdb1y5.cloudfront.net^
 ||d1xfq2052q7thw.cloudfront.net^
 ||d1yu67rmchodpo.cloudfront.net^
 ||d1z2jf7jlzjs58.cloudfront.net^
@@ -26533,6 +26548,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ! `window.adswellBaseDomain`
 ! https://damskiy.xyz/vendor/lib/oY.js
 !
+||trofvido.com^
 ||extrablocks.ru^
 ||mpsuadv.ru^
 ||tut.prosmotrov.net^
@@ -32892,7 +32908,7 @@ us6odtasve.ru
 ! Source name: EasyList China ad servers
 ! Source: https://easylist-downloads.adblockplus.org/easylistchina.txt
 !
-||51roadway.com^
+||wo19.top^
 ||00-gov.cn^
 ||0024aaaa.com^
 ||00880808.com^
@@ -33011,6 +33027,7 @@ us6odtasve.ru
 ||51dmn.top^
 ||51fuliwang.cn^
 ||51jumintong.com^
+||51roadway.com^
 ||51sxzz.com^
 ||51xumei.com^
 ||5207470.com^
@@ -35944,8 +35961,11 @@ us6odtasve.ru
 ||runkao.net^
 ||stunninglover.com^
 ||watakaw133.xyz^
-||dirbfm.cn^
-||kgfnhf.cn^
+||hxsjxw.cn^
+||amghvzn.cn^
+||b2b5.net^
+||haiyinsiwang.com^
+||xixizaix.cn^
 ||01w47q.cn^
 ||0217qpineuxbcdhopswkvf.xyz^
 ||0224fqpowiuxybnmvdfghj.xyz^
@@ -36475,6 +36495,7 @@ us6odtasve.ru
 ||diangezan.me^
 ||dianshihuanping.cn^
 ||dierqingchun.com^
+||dirbfm.cn^
 ||djhhy.com^
 ||dkmnn.top^
 ||dldsrs.com^
@@ -36966,6 +36987,7 @@ us6odtasve.ru
 ||kexwdvj.cn^
 ||kfuih.cn^
 ||kg962.cn^
+||kgfnhf.cn^
 ||khuoy.com^
 ||kid9.info^
 ||kjdw.com.cn^
