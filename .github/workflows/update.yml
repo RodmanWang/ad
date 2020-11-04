@@ -1,7 +1,6 @@
 name: Auto update rule
 on:
-  schedule:
-    - cron: "0 0/6 * * *"
+  push:
 jobs:
   build:
     runs-on: ubuntu-latest
