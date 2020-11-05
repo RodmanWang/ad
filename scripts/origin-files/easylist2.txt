@@ -1,8 +1,8 @@
-! Checksum: kWbfTQmFULXOrx44GszHqg
+! Checksum: 11bkClM0NGCEZx1tr19h7A
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.12.50
-! TimeUpdated: 2020-11-05T08:03:16+03:00
+! Version: 2.0.12.53
+! TimeUpdated: 2020-11-05T14:31:24+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -267,7 +267,10 @@ pg-wuming.com#%#//scriptlet("abort-current-inline-script", "$", "!document.getEl
 ! https://github.com/AdguardTeam/AdguardFilters/issues/66280
 youneed.win#%#//scriptlet("abort-on-property-read", "daau_app")
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$redirect=googlesyndication-adsbygoogle,domain=youneed.win
+! https://github.com/AdguardTeam/AdguardFilters/issues/66986
 ! https://github.com/AdguardTeam/AdguardFilters/issues/65715
+bde4.com#@#a[href*=".yabo816."]
+bde4.com#$#a[href*=".yabo816."] { position: absolute !important; left: -3000px !important; }
 bde4.com#%#//scriptlet("set-constant", "canRunAds", "true")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/65194
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54689
@@ -1562,6 +1565,10 @@ _xiuno_com_ad/
 ##span[title="neteasefooter"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 .8ox.cn
+||fuycai.com^
+||xyadyzpsb.com^
+||qdkzjdsb.cn^
+||7791.com.cn^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -16111,6 +16118,9 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||zuowen.hydcd.com^
 ||zxw51.com^$third-party
 !#bejson.com
+bejson.com##.fxf-gg-left
+bejson.com##.t-big-margin[style="width: 200px;float: right"]
+bejson.com##.top-link1
 bejson.com##.be-json2-gap
 bejson.com##.float-right
 bejson.com##.modal-backdrop
