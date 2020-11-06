@@ -1,4 +1,4 @@
-||*^sdtfrom=^$redirect=noopmp3-0.1s,domain=qq.com
+||*^sdtfrom=^$media,redirect=noopmp3-0.1s,domain=qq.com
 ||201*.myhard.com^
 ||24h*-ad.24hstatic.com^
 ||8*.tianya.cn^
@@ -90,7 +90,7 @@
 ||log.zing*.vn^
 ||logger-*.dailymotion.com^
 ||lt*.tritondigital.com^
-||lts*.qq.com^*.ts?index=$redirect=noopmp3-0.1s,domain=qq.com
+||lts*.qq.com^*.ts?index=$media,redirect=noopmp3-0.1s,domain=qq.com
 ||marketplace-ios-*.hyprmx.com^
 ||mcdp-*.outbrain.com^
 ||mediate-ios-*.hyprmx.com^

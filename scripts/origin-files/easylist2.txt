@@ -1,8 +1,8 @@
-! Checksum: kveBXA6jhRxcgslt1V+vZg
+! Checksum: sTAH2t+keKybwGdsmIItbA
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.12.65
-! TimeUpdated: 2020-11-06T13:31:15+03:00
+! Version: 2.0.12.67
+! TimeUpdated: 2020-11-06T17:31:43+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -9242,6 +9242,7 @@ _yad_jsonp_
 ||haoqu99.com/d/haoqu/haoqu
 ||rijutv.com/statics/skin/hjtv-wap/js/plus.js
 szxx.com.cn###A0
+mydrivers.com##A[href*="/tourl.ashx?go="]
 yxlady.com##.game_wrap
 toolfk.com##WAVY ~ A
 hao123.com###puzzleBox
@@ -16129,19 +16130,14 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||zuowen.hydcd.com^
 ||zxw51.com^$third-party
 !#bejson.com
-bejson.com##.be-json2-gap
-bejson.com##.float-right
-bejson.com##.fxf-gg-left
+bejson.com##A[href*="/kuaikuai."]
+bejson.com##DIV[id^="shua"] + FONT[color="red"]
+bejson.com##UL[class^="top-link"]
 bejson.com##.modal-backdrop
-bejson.com##.t-big-margin[style="width: 200px;float: right"]
-bejson.com##.top-link
-bejson.com##.top-link1
 bejson.com##a[href*="layui.com"]
 bejson.com#?#:-abp-has(> [data-href*="://t.cn/"])
 bejson.com#?#:-abp-has(> a[href*="://t.cn/"])
-bejson.com##div[class^="xf-"]
 bejson.com##div[id^="shuangshi"]
-||bejson.com/static/ydxyt/
 !#bde4.com
 @@||jsdelivr.net/gh/bde4admin/*/prebid-ads.js$domain=bde4.com
 ||bde4.com^$csp=script-src 'self' * 'unsafe-inline'
@@ -18672,8 +18668,8 @@ getrelax.cc,sexylove.club##.loaded-popup-wrapper
 qq.com#@#.adsbox
 qq.com#@#.side_ad
 ##.txp_ad_center
-||*^sdtfrom=^$redirect=noopmp3-0.1s,domain=qq.com
-||lts*.qq.com^*.ts?index=$redirect=noopmp3-0.1s,domain=qq.com
+||*^sdtfrom=^$media,redirect=noopmp3-0.1s,domain=qq.com
+||lts*.qq.com^*.ts?index=$media,redirect=noopmp3-0.1s,domain=qq.com
 !#Rewrite filters
 !#Rijutv.com
 $script,third-party,domain=rijutv.com
