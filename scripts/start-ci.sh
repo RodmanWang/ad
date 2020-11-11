@@ -12,7 +12,6 @@ easylist=(
 )
 
 hosts=(
-  "https://www.malwaredomainlist.com/hostslist/hosts.txt"
   "https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts"
 )
 
