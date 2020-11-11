@@ -871,6 +871,11 @@ return array(
         'mclean.f.360.cn',
         'vconf.f.360.cn',
     ),
+    'gsgsr.xyz' => array(
+        'gsgsr.xyz',
+        'www.gsgsr.xyz',
+        'gdp.gsgsr.xyz',
+   ),
     
     
     
@@ -1419,6 +1424,4 @@ return array(
     'xifatime.com' => array('xifatime.com'),
     'yjkyj.cn' => array('yjkyj.cn'),
     'zamar.cn' => array('zamar.cn'),
-
-
 );
