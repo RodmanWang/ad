@@ -1,8 +1,8 @@
-! Checksum: ph/oO6rom1MUdJc+8N5+oA
+! Checksum: iWI4LaEy1fxobxcuYyDbUQ
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.13.39
-! TimeUpdated: 2020-11-16T11:30:59+03:00
+! Version: 2.0.13.43
+! TimeUpdated: 2020-11-16T20:31:04+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -325,6 +325,7 @@ nfmovies.com#$?#body > .hidden-xs > div[id]:has(> img[src^="/static/"][onclick^=
 nfmovies.com#$?#div[id^="aaaDiv"] { remove: true; }
 !
 !
+v2ex.com#?##Rightbar > div.box:has(> div.inner a[target="_blank"] > img[src*="cdn.v2ex.com/assets/sidebar/"])
 jable.tv#?#div[class="col-6 col-sm-4 col-lg-12"] > div.video-img-box:has(> div.img-box > a[href*="?banner="])
 csdn.net#?#aside > div.slide-outer:has(> div.box > div[adsid])
 csdn.net#?##feedlist_id > li:has(> div[id^="kp_box_"])
@@ -9284,7 +9285,9 @@ _yad_jsonp_
 ||zzzyk.com/js/
 ||c1km4.com/mobile/app.js
 ||hefeng-group.net/attach/20200605/Fl05PJWEPUSuVt1x6PeHbHiaQ59J.png
+||wnacg.*/1605524662754.
 szxx.com.cn###A0
+ruanyifeng.com##.entry-sponsor
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -14588,6 +14591,7 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
+@@||litv.tv/ads/ads.js
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.jpg#$domain=huhupan.com
