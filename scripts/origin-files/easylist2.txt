@@ -1,8 +1,8 @@
-! Checksum: d0vB9cIJ1GZDs6hT/Yy4fQ
+! Checksum: +h7XgHCPg0MgVD6XwrQplQ
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.13.44
-! TimeUpdated: 2020-11-17T03:31:01+03:00
+! Version: 2.0.13.46
+! TimeUpdated: 2020-11-17T17:31:18+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -14585,6 +14585,7 @@ perfectmatch.tw#@#.right_ad
 zdface.com#@#.top-ad
 andylain.com,bee.coupons,blogspot.com,blogspot.hk,blogspot.jp,blogspot.tw,comic.tw,jasonblog.tw#@#.vertical-ads
 i-cable.com#@#.video_ad
+bfmusic.com.tw#@#.ad_content
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 1point3acres.com,alotof.software,android-doc.com,apk.tw,battlecats-db.com,chtoen.com,dizhishengcheng.com,doitwell.tw,epinv.com,ff14angler.com,fxpan.com,haoweichi.com,logi.im,moa.tw,numberempire.com,playok.com,shenfendaquan.com,tingfm.com,yabook.org#@#div > .adsbygoogle
 brandsales.58.com#@#div[id^="ad_"]
@@ -18932,6 +18933,7 @@ zol.com.cn##span[class^="jisu-down"]
 ||withad.cn^
 coolpc.com.tw#@##mycookie
 dota2.com.cn#@##bdshare
+@@||soufunimg.com/??*/fshare.
 eastday.com#@##leftShare
 gfan.com,gfan.net.cn#@##shareBox
 sogou.com#@##shareContent
