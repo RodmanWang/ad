@@ -1,8 +1,8 @@
-! Checksum: 4lB9sKjHl/jGbS6r0IDRBg
+! Checksum: iYkIP553KA9et/bg7WhOsQ
 ! Title: AdGuard DNS filter
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.12.10
-! TimeUpdated: 2020-11-18T19:30:49+03:00
+! Version: 2.0.12.11
+! TimeUpdated: 2020-11-19T19:30:42+03:00
 ! Expires: 4 days (update frequency)
 !
 !
@@ -10,21 +10,11 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2020-11-18T15:54:04.954Z
+! Last modified: 2020-11-19T15:54:11.355Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.8
 !
-!
-! Source name: AdGuard Base filter ad servers
-! Source: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/EnglishFilter/sections/adservers.txt
-!
-!
-! Section contains list of advertising networks
-!
-! The rules with hints are at the end of file
-!
-!! https://a.bestcontentitem.top/warp/*?r=
-!
+||shubadubadlskjfkf.com^
 ||bunnymediaserver.com^
 ||bngpst.com^
 ||alifafdlnjeruif.com^
@@ -59,7 +49,6 @@
 ||hioeb.com^
 ||daemonclicks.com^
 ||throughhonouredhighest.com^
-||d227cncaprzd7y.cloudfront.net^
 ||declk.com^
 ||tujuvyfu.xyz^
 ||yydtbpms8tf4.com
@@ -285,7 +274,6 @@
 ||irtyd.com^
 ||rednews.me^
 ||dmrzm8vdeuibaj1.info^
-||n2hbmu7he2faa.online^
 ||pushisback.com^
 ||redirect750.us^
 ||healmsuoguurd.eu^
@@ -340,8 +328,6 @@
 ||lodder5.biz^
 ||go1news.biz^
 ||armaimapt.club^
-||mama.foor-zik.com^
-||foastail.net^
 ||t0p0ff3rs.com^
 ||rubird.ru^
 ||evadavdsp.pro^
@@ -394,9 +380,7 @@
 ||a.bestcontenttool.top^
 ||hq3x.com^
 ||pushmejs.com^
-||js.gouhei.top^
 ||hiqubonenete.tk^
-||wilwasharrabred.pro^
 ||ftigholm.site^
 ||publish.iptvz.net^
 ||start.parimatch.com^
@@ -441,7 +425,6 @@
 ||glokta.info^
 ||olineman.pro^
 ||qlkms.ga^
-||asg.xz2aab.xyz^
 ||neon.today^
 ||remotefilez.info^
 ||onewastansepa.pro^
@@ -453,7 +436,6 @@
 ||dorectertnerow.info^
 ||nuclearads.com^
 ||aniashboy.club^
-||qr-maker.me^
 ||m.hbstjt88.cn^
 ||6ki9d.cn^
 ||bitcoadz.pw^
@@ -482,7 +464,6 @@
 ||2e27bf1f09307aeb.com^
 ||e553bcf717698d33.com^
 ||f369a60bf483bcc9.com^
-||reberr.pro^
 ||sviklutt.site^
 ||bigyapan.hamropatro.com^
 ||adalytics.prixacdn.net^
@@ -509,7 +490,6 @@
 ||relapayssia.xyz^
 ||erxalim.xyz^
 ||nameketathar.pro^
-||deryjobmeetin.info^
 ||sylmyar.pw^
 ||kenvam.online^
 ||wmwloejxww.com^
@@ -1094,7 +1074,6 @@ www.llllllllllll.net^
 ||aclassigned.info^
 ||maraukog.info^
 ||acinster.info^
-||udriveme2.com^
 ||bidrev.net^
 ||2pxg8bcf.top^
 ||omoukkkj.stream^
@@ -1260,7 +1239,6 @@ www.llllllllllll.net^
 ||zepozipo.com^
 ||zinovila.com^
 ||zirobata.com^
-||rotibald.com^
 ||y6a7tqyr.com^
 ||tdblazing.com^
 ||hd100546b.com^
@@ -1375,7 +1353,6 @@ www.llllllllllll.net^
 ||niklesrov.com^
 ||rookads.com^
 ||fexperies.info^
-||anothinga.com^
 ||htreatory.info^
 ||wateranik.com^
 ||codeadnetwork.com^
@@ -1458,7 +1435,6 @@ www.llllllllllll.net^
 ||vkkpv.com^
 ||pastilon.com^
 ||cpmly.com^
-||xikrik.com^
 ||adbrn.com^
 ||shmokiads.com^
 ||fasttoss.com^
@@ -1555,7 +1531,6 @@ www.llllllllllll.net^
 ||block.s*block.com^
 ||boomads.com^
 ||brand.ad^
-||brassyobedientcotangent.com^
 ||bravo-lea.com^
 ||breeffnet.com^
 ||brethrengenotypeteledyne.com^
@@ -1596,7 +1571,6 @@ www.llllllllllll.net^
 ||e-n-t-e-r-n-e-x.com^
 ||e.lndjj.com^
 ||eclkspbn.com^
-||eerdckbwujcx.com^
 ||emediate.apmmedia.net^
 ||engine.adtidy.net^
 ||ep7kpqn8.online^
@@ -1633,7 +1607,6 @@ www.llllllllllll.net^
 ||growtaller4adults.com^
 ||growtaller4men.com^
 ||growtaller4women.com^
-||growth-flexvprosystem.com^
 ||heightboost.com^
 ||herezera.com^
 ||hgads.com^
@@ -1728,7 +1701,6 @@ www.llllllllllll.net^
 ||qadabra.com^
 ||qractv.com^
 ||quicksense.net^
-||qwtm.purecertainengine.com^
 ||rdsa2012.com^
 ||redichat.com^
 ||reeviveglobal.com^
@@ -1773,7 +1745,6 @@ www.llllllllllll.net^
 ||trafficmagnates.com^
 ||traforet.com^
 ||transpera.com^
-||u034024.778669.com^
 ||ujieva.com^
 ||videogenetic.com^
 ||voluumtrk2.com^
@@ -1788,13 +1759,8 @@ www.llllllllllll.net^
 ||www.fuze-hill*.xyz^
 ||www.fuze-sea*.xyz^
 ||xpostx.com^
-||xxyafiswqcqz.com^
 ||yesadvertising.com^
-||yuiop.trade^
-||yxbtyzqcczra.com^
-||zaperplop.info^
 ||zeti.com^
-||zptncsir.com^
 !
 ! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/142
 ||stripe.rs-1028-a.com^
@@ -1818,6 +1784,7 @@ www.llllllllllll.net^
 !
 ! Section contains the list of advertising networks, which are hosted on non advertising sites as subdomains
 !
+||s2.everydaygayporn.com^
 ||apiads.gg.pl^
 ||feedads.feedblitz.com^
 ||leroj.elitegol.tv^
@@ -2083,7 +2050,6 @@ www.llllllllllll.net^
 ||rsz.sk^
 ! https://github.com/AdguardTeam/AdguardFilters/issues/41373
 ||bannery.navratdoreality.cz^
-||uptopopunder.com^
 ! https://github.com/AdguardTeam/AdguardFilters/issues/58569
 ||a.b.napiszar.com^
 ! Indonesian telco injecting its ads
@@ -6433,6 +6399,7 @@ vkcdnservice.appspot.com^
 ||irritatecheaplyintrigue.com^
 ||irtyf.com^
 ||irtyvhrthhya.com^
+||irxqmnmmow.com^
 ||isekvtjiahm.com^
 ||isffnlbsuyinnv.com^
 ||isfxsiooyjad.com^
@@ -6896,6 +6863,7 @@ vkcdnservice.appspot.com^
 ||kjlahwtvckpaci.com^
 ||kjlvutytm.com^
 ||kjrjvvxcg.com^
+||kjvbobnqoms.com^
 ||kjzprdqjrhjz.com^
 ||kka20si.xyz^
 ||kkdvvaonvkmll.com^
@@ -12877,6 +12845,7 @@ vkcdnservice.appspot.com^
 ||adintend.com^
 ||adinterax.com^
 ||adinvigorate.com^
+||adiode.com^
 ||adip.ly^
 ||adiqglobal.com^
 ||adireland.com^
@@ -20006,6 +19975,8 @@ vkcdnservice.appspot.com^
 ||affex.org^
 ! Yesware
 t.yesware.com
+! Marketo tracking (see https://docs.marketo.com/display/public/DOCS/Configure+Protocols+for+Marketo)
+||mkto-*.com^
 !
 ! Source name: AdGuard Tracking Protection filter first-party trackers
 ! Source: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/tracking_servers_firstparty.txt
@@ -21132,6 +21103,9 @@ charlestownwyllie.oaklawnnonantum.com^
 ||g4555939705.co^
 ||g4754024040.co^
 ||g4952108375.co^
+||nxakpj4ac8gkd53.info^
+||sbgsodufuosmmvsdf.info^
+||z0uolej1qnxzub1.info^
 ! Third-party
 ||0emm.com^
 ||1-cl0ud.com^
@@ -21546,6 +21520,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||captora.com^
 ||capturemedia.network^
 ||capturly.com^
+||carambo.la^
 ||caramel.press^
 ||casalemedia.com^
 ||cashburners.com^
@@ -22192,6 +22167,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||idio.co^
 ||idtargeting.com^
 ||ifactz.com^
+||ifvox.com^
 ||igaming.biz^
 ||iljmp.com^
 ||illumenix.com^
@@ -24639,6 +24615,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||d2o67tzzxkqap2.cloudfront.net^
 ||d2oh4tlt9mrke9.cloudfront.net^
 ||d2r7bmv6l6bnd1.cloudfront.net^
+||d2rnkf2kqy5m6h.cloudfront.net^
 ||d2ry9vue95px0b.cloudfront.net^
 ||d2san7t27xb2pn.cloudfront.net^
 ||d2tcg4i9q4js4a.cloudfront.net^
@@ -25929,7 +25906,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||adpon.jp^
 ||af-z.jp^
 ||aid-ad.jp^
-||amoad.com^
 ||analyticsip.net^
 ||bigmining.com^
 ||blogranking.net^
@@ -26829,6 +26805,8 @@ charlestownwyllie.oaklawnnonantum.com^
 ! `window.adswellBaseDomain`
 ! https://damskiy.xyz/vendor/lib/oY.js
 !
+||nklgfgs.info^
+||8zp3wtw7783xta3n.com^
 ||hfajdjhicjcchhbeaeh.ru^
 ||ypnciu.com^
 ||prime-hunage.com^
@@ -31594,6 +31572,7 @@ us6odtasve.ru
 ! Eimg.jp
 ||adingo.jp.eimg.jp^
 !
+||amoad.com^
 ||caprofitx.com^
 ||x-value.net^
 ||mhub.work^
@@ -36305,12 +36284,15 @@ us6odtasve.ru
 ||runkao.net^
 ||stunninglover.com^
 ||watakaw133.xyz^
-||gbzumh.cn^
-||ywqpgy.com^
-||b83pmp.cn^
-||hbkhqc.com^
-||gng5.cn^
-||vq7736.com^
+||clxxkz.com.cn^
+||jinshzx.com^
+||maimaias.cn^
+||toujing7.top^
+||hp0hnj.cn^
+||enq5ur.cn^
+||ziyeaiying.com^
+||xiachouchou.com^
+||gflcsiot.com^
 ||01w47q.cn^
 ||0217qpineuxbcdhopswkvf.xyz^
 ||0224fqpowiuxybnmvdfghj.xyz^
@@ -36596,6 +36578,7 @@ us6odtasve.ru
 ||b0lc.cn^
 ||b2b5.net^
 ||b54ah.cn^
+||b83pmp.cn^
 ||babalink.net^
 ||babalink.top^
 ||baful.net^
@@ -36996,6 +36979,7 @@ us6odtasve.ru
 ||gaohuduo.cn^
 ||gb686.cn^
 ||gbeik.com^
+||gbzumh.cn^
 ||gc8fjz.cn^
 ||gcaog.com^
 ||gdfc0563.com^
@@ -37024,6 +37008,7 @@ us6odtasve.ru
 ||gmuqa.cn^
 ||gmxyorg.cn^
 ||gneusqa.cn^
+||gng5.cn^
 ||gnmbd.top^
 ||gnncc.cc^
 ||gobali.cn^
@@ -37091,6 +37076,7 @@ us6odtasve.ru
 ||hawbfa.com^
 ||hbbww.com^
 ||hbhxqcw.com^
+||hbkhqc.com^
 ||hblanghun.cn^
 ||hbnygj.com^
 ||hbttcc.com^
@@ -38026,6 +38012,7 @@ us6odtasve.ru
 ||vkuay.com^
 ||vodtw.la^*xhtml
 ||voterlin.cn^
+||vq7736.com^
 ||vvnna.com^
 ||vwb4p.cn^
 ||w13qh.cn^
@@ -38287,6 +38274,7 @@ us6odtasve.ru
 ||yushengyuancaishui.com^
 ||yuxiny.com^
 ||ywbwsm.com^
+||ywqpgy.com^
 ||ywqum.cn^
 ||ywxtmox.cn^
 ||yxhxs.com^
