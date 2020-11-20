@@ -1,8 +1,8 @@
-! Checksum: xESeir/srKZCmc/4gOIMDQ
+! Checksum: JYyRVNpDwJeV5+uptVQPbA
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.13.70
-! TimeUpdated: 2020-11-20T12:31:10+03:00
+! Version: 2.0.13.74
+! TimeUpdated: 2020-11-20T19:31:27+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -322,6 +322,8 @@ nfmovies.com#$#img[src^="/pic/tu/"] { visibility: hidden!important; }
 !
 ! Extended CSS rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/67998
+microsoftnews.msn.cn#?#.riverSections-DS-EntryPoint1-1 > div[style^="display: grid;"] > div[style^="grid-area:"]:last-child > .card-DS-card1-1 > div[class^="nativeAd-DS-card"]:upward(2)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/57243
 nfmovies.com#$?#body > .hidden-xs > div[id]:has(> img[src^="/static/"][onclick^="open"]) { position: absolute!important; top: -9999px!important; left: -9999px!important; bottom: unset!important; }
 nfmovies.com#$?#div[id^="aaaDiv"] { remove: true; }
@@ -377,6 +379,11 @@ apple.com.cn#$#main[role="main"] { padding-top: 0 !important; }
 !
 ! Section contains rules for specific websites
 !
+people.com.cn##.zh_left
+people.com.cn##.cont_banner
+people.com.cn##.ad_left
+microsoftnews.msn.cn##div[class^="nativeAd-DS-card"]
+||assets.msn.cn/bundles/v1/microsoftNews/latest/placement-manager.*.js$domain=microsoftnews.msn.cn
 zcool.com.cn##.main-wrapper-advlong-top
 boylove.cc##.reader-home-swiper
 emome.net##.source_advertising
@@ -438,6 +445,8 @@ nfmovies.com##a[href][onclick^="openurl()"] img[src^="/static/"]
 !
 ! White list. Fixing filtration errors (false-positive)
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/68017
+@@||dayanzai.me/image/ad/$image
 ! https://github.com/AdguardTeam/AdguardFilters/issues/66685
 bmvc2020-conference.com#@#div[id][style="width: 100%;"] > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/66625
@@ -6671,7 +6680,7 @@ _yad_jsonp_
 ||haiwaiyy.com/B970X90.gif
 ||hangzhou.com.cn/extra/flash/hzwarticle300.swf
 ||hanjutv.com/index.php?c=dudu_
-||hanjutv.com/statics/skin/hjtv-pc/js/push.js
+||hanjutv.com/statics/skin/*/js/plus.js
 ||hanjutvn.com/template/alifun/js/Tmall/
 ||hanzify.*/Main/Template/Images/chinabank.gif
 ||hao.rising.cn/catalog/bottom.html
@@ -14599,6 +14608,7 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
+@@$image,domain=hboav.com
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.jpg#$domain=huhupan.com
