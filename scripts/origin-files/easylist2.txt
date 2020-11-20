@@ -1,8 +1,8 @@
-! Checksum: DTgCmj7Eo1IhmemeT/FJoQ
+! Checksum: xESeir/srKZCmc/4gOIMDQ
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.13.68
-! TimeUpdated: 2020-11-20T08:31:01+03:00
+! Version: 2.0.13.70
+! TimeUpdated: 2020-11-20T12:31:10+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -11614,7 +11614,7 @@ newxue.com##.dashuggtop1
 qinbing.cn##.day
 ggcj.com##.dbxf
 games.qq.com##.dc-kf_list
-tophub.today##.dddxxx
+tophub.today##.c-d.c-d-e > .qc:nth-child(3)
 33lc.com##.ddnew
 chineseinla.com##.deal_discount
 8ziyuan.com##.deanadsside
@@ -14620,7 +14620,8 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@/adimage/*$domain=scyts.com|wacom.tw
 @@/adimages/*$domain=p9.com.tw
 @@/adimg/*$domain=laniqu.com|veryeast.cn
-@@/adjs_pic_$domain=168gamer.net|91wii.com|saraba1st.com
+@@/adjs_pic_$domain=168gamer.net|91wii.com
+@@_cpc_cpm_$domain=saraba1st.com
 @@/adLoader.$domain=shejiben.com
 @@/admanager/*$domain=woego.cn
 @@/adpic/*$domain=baike.baidu.com|czsrc.com|nieyou.com|ontheup.com.tw|zform.net
