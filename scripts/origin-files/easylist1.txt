@@ -1,8 +1,8 @@
-! Checksum: 5wkXhI8FOyo1HR9pzR4b9g
+! Checksum: 4J7HtfcM0Cv9+IHDBLwjCg
 ! Title: AdGuard DNS filter
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.12.15
-! TimeUpdated: 2020-11-23T19:30:54+03:00
+! Version: 2.0.12.16
+! TimeUpdated: 2020-11-24T19:30:50+03:00
 ! Expires: 4 days (update frequency)
 !
 !
@@ -10,7 +10,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2020-11-23T15:55:38.668Z
+! Last modified: 2020-11-24T15:56:30.779Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.8
 !
@@ -25,6 +25,13 @@
 !
 !! https://a.bestcontentitem.top/warp/*?r=
 !
+||boaphaps.net^
+||hullroleifs.com^
+||lavando2scas1hh1.com^
+||somedayanchovydepressing.com^
+||cdn.wadawada-stop-report-us.com^
+||rocketstars.online^
+||ninkorant.online^
 ||belaya2shu1ba1.com^
 ||1784tli497ys.com^
 ||sqhneencmysrk.com^
@@ -53,7 +60,6 @@
 ||1ts18.top^
 ||mediacpm.pl^
 ||plantationthrillednoncommittal.com^
-||showmeyouradsnow.com^
 ||bmcdn1.com^
 ||pinkpig2le8tt09.com^
 ||watch.publicidadpro.com^
@@ -4334,7 +4340,6 @@ vkcdnservice.appspot.com^
 ||dhb8psqhvz9a.com^
 ||dhxwczetwdkt.com^
 ||diametertwelfthvending.com^
-||dianomi.com^
 ||diantcummiere.info^
 ||dicalnatur.club^
 ||dicularstors.top^
@@ -6354,6 +6359,7 @@ vkcdnservice.appspot.com^
 ||independentdespisedevolution.com^
 ||indianship.club^
 ||indicaterhools.site^
+||indictmentchurchill.com^
 ||ineffieldinforget.site^
 ||ineldacarry.pro^
 ||inevitablemittenprefer.com^
@@ -14157,6 +14163,7 @@ vkcdnservice.appspot.com^
 ||dh956.com^
 ||dhundora.com^
 ||diamondtraff.com^
+||dianomi.com^
 ||dianomioffers.co.uk^
 ||digadser.com^
 ||digipathmedia.com^
@@ -18506,6 +18513,11 @@ vkcdnservice.appspot.com^
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||mon-va.byteoversea.com^
+||stat.wioau.com^
+||www.clarity.ms^
+||los.2hisnd.com^
+||wh.giftd.tech^
 ||privatelands.biz^
 ||click.vgnett.no^
 ||api.rubic.com.tr^
@@ -20012,6 +20024,14 @@ vkcdnservice.appspot.com^
 ||wirecomic.com^
 ||xovq5nemr.com^
 ||zbwp6ghm.com^
+!
+! TikTok
+||xlog.tiktokv.com^
+||xlog-va.tiktokv.com^
+||log*-*.tiktokv.com^
+||xlog*-*.tiktokv.com^
+||mcs-va.tiktokv.com^
+||mcs-va-*.tiktokv.com^
 ! https://github.com/AdguardTeam/AdguardFilters/issues/42797
 ! goguardian tracking
 ||beacon-fullpage-predictor.goguardian.com^
@@ -20882,6 +20902,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||track.appsflyer.com^
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 !
+||v-collector.dp.aws.charter.com^
 ||smetrics.cnn.com^
 ||metrics.claspws.tv^
 ||geolocation.onetrust.com^
@@ -26908,6 +26929,15 @@ charlestownwyllie.oaklawnnonantum.com^
 ! `window.adswellBaseDomain`
 ! https://damskiy.xyz/vendor/lib/oY.js
 !
+||traffer.biz^
+||tophitbit.com^
+||bpioqb.com^
+||ikinbugen.com^
+||bgkecb.com^
+.potopy.ru^
+||wvrney.com^
+.vipko.ru^
+||bfgvqx.com^
 ||bs-dante.ru^
 ||adverd.ru^
 ||nklgfgs.info^
@@ -31043,6 +31073,7 @@ us6odtasve.ru
 !
 ! Section contains the list of advertising networks, which are hosted on non advertising sites as subdomains
 !
+||vast4.kinogo.la^
 ||dsn-kuban.krasnodar.su^
 ||nativ.podruzke.ru^
 ||banner.zol.ru^
@@ -31945,6 +31976,14 @@ us6odtasve.ru
 ||chickensaladandads.com^
 ||adshot.de^
 ||content.acc-hd.de^
+!
+! Source name: AdGuard Chinese filter ad servers
+! Source: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/ChineseFilter/sections/adservers.txt
+!
+!
+! Section contains list of advertising networks
+!
+||count.xxxssk.com^
 ||tyjryuk.cn^
 ||v.rssnzw.cn^
 ||c.cqpsf.cn^
@@ -32588,6 +32627,7 @@ us6odtasve.ru
 ||eclkmpbn.com^
 ||eclkmpsa.com^
 ||edomz.com^
+||edspectsm.fun^
 ||epfcfhtjxqd.com^
 ||estoopsi.com^
 ||etoads.net^
@@ -32669,6 +32709,7 @@ us6odtasve.ru
 ||olmsoneenh.info^
 ||onclkds.com^
 ||openadserving.com^
+||ourtherss.top^
 ||p01.notifa.info^
 ||p02.notifa.info^
 ||p03.notifa.info^
@@ -36562,6 +36603,7 @@ us6odtasve.ru
 ||8v61j.cn^
 ||8yrn.cn^
 ||91cy.top^
+||91jiedai.cn^
 ||922x7c.cn^
 ||958so.cn^
 ||979067.com^
