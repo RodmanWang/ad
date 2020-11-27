@@ -1,8 +1,8 @@
-! Checksum: x/bOPu7IUHBcoxKcwhdF1g
+! Checksum: p6xlmw1TxBYIh/+nmxA+bg
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.14.13
-! TimeUpdated: 2020-11-27T02:30:58+03:00
+! Version: 2.0.14.16
+! TimeUpdated: 2020-11-27T07:31:00+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -9334,6 +9334,7 @@ _yad_jsonp_
 szxx.com.cn###A0
 szxx.com.cn###A1
 szxx.com.cn###A2
+tophub.today##.c-d.c-d-e > .qc + DIV
 gpcxw.com###AA2
 yahoo.com###ACT_crazy
 yahoo.com###ACT_takeover
@@ -14650,6 +14651,7 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=youneed.win
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.jpg#$domain=huhupan.com
@@ -16490,7 +16492,7 @@ fuliba.net,uliba.net##.widget_custom_html:nth-child(2)
 !#hboav.com
 @@$image,xmlhttprequest,domain=hboav.com
 @@||exosrv.com/splash.php?idzone=3361640$xmlhttprequest,domain=hboav.com
-@@||hboav.com/guga/das.js$~third-party
+@@||hboav.com/guga/ads.js$~third-party
 @@||hboav.com^$generichide
 @@||realsrv.com/iframe.php?idzone=3476965&size=300x250$subdocument,domain=hboav.com
 ||hboav.com/guga/$~subdocument
