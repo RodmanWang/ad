@@ -1,8 +1,8 @@
-! Checksum: yVPtUWXUibjUtAYvOueY7A
+! Checksum: Z8Tt29CbjF0sk76Hk7D17A
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.14.33
-! TimeUpdated: 2020-11-29T12:03:28+03:00
+! Version: 2.0.14.35
+! TimeUpdated: 2020-11-29T20:03:07+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -393,6 +393,7 @@ apple.com.cn#$#main[role="main"] { padding-top: 0 !important; }
 !
 ! Section contains rules for specific websites
 !
+||truvidplayer.com^$domain=technews.tw
 423down.com##h3 > a[href^="https://mp.weixin.qq.com/s/"][target="_blank"] > span
 ||store.7box.vip/ad/
 ||syndication.exosrv.com/splash.php?$xmlhttprequest,redirect=nooptext,important,domain=hboav.com
@@ -463,6 +464,9 @@ nfmovies.com##a[href][onclick^="openurl()"] img[src^="/static/"]
 !
 ! White list. Fixing filtration errors (false-positive)
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/68805
+@@||technews.tw^$generichide,badfilter
+@@||technews.tw/www/delivery/$badfilter
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67876
 new.qq.com#@##TopAd
 ! https://github.com/AdguardTeam/AdguardFilters/issues/68017
@@ -1612,6 +1616,7 @@ _xiuno_com_ad/
 ##span[title="neteasefooter"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 .8ox.cn
+||qudaoweiwang.com^
 ||djpt33.com^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
