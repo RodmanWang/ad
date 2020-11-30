@@ -1,8 +1,8 @@
-! Checksum: Lw7sLx1ngPeZAJemTiucgA
+! Checksum: DpEJdE/CBGAs/HOrIm7nVg
 ! Title: AdGuard DNS filter
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.12.21
-! TimeUpdated: 2020-11-29T19:30:31+03:00
+! Version: 2.0.12.22
+! TimeUpdated: 2020-11-30T19:31:33+03:00
 ! Expires: 4 days (update frequency)
 !
 !
@@ -10,7 +10,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2020-11-29T16:00:23.507Z
+! Last modified: 2020-11-30T16:01:31.532Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.8
 !
@@ -25,6 +25,7 @@
 !
 !! https://a.bestcontentitem.top/warp/*?r=
 !
+||sellerbackstagejolly.com^
 ||jc743hbc6.info^
 ||fathuntsgall.com^
 ||midootib.net^
@@ -41,7 +42,6 @@
 ||1784tli497ys.com^
 ||skinkexchange.com^
 ||shubadubadlskjfkf.com^
-||bunnymediaserver.com^
 ||bngpst.com^
 ||alifafdlnjeruif.com^
 ||gorskprof2it8og09.com^
@@ -102,7 +102,6 @@
 ||tombspyelates.com^
 ||nwa88nx9uxzh.com^
 ||developingstripes.com^
-||africaewgrhdtb.com^
 ||traffic-go.com^
 ||cratertadcite.com^
 ||mimilcnf.pro^
@@ -2254,6 +2253,7 @@ vkcdnservice.appspot.com^
 ||1f7de8569ea97f0614.com^
 ||1han-rit-ten.com^
 ||1hanritten.com^
+||1p1eqpotato.com^
 ||1re.re^
 ||1rkcd8exld.monster^
 ||1rm.xyz^
@@ -2801,6 +2801,7 @@ vkcdnservice.appspot.com^
 ||afftracks.online^
 ||afqveoju.com^
 ||afrfndbumyyt.com^
+||africaewgrhdtb.com^
 ||afshanthough.pro^
 ||afssdmin.com^
 ||afxvaqbbd.com^
@@ -3479,6 +3480,7 @@ vkcdnservice.appspot.com^
 ||bn5x.net^
 ||bnielrtzc.com^
 ||bnjuhrbpdjtjul.com^
+||bnjxyqdvoegi.com^
 ||bnlqhnqnqveo.com^
 ||bnqfbcnzdt.com^
 ||bnrsis.com^
@@ -3587,6 +3589,7 @@ vkcdnservice.appspot.com^
 ||bulovuni.pro^
 ||bungalowfollowbestowed.com^
 ||bunlxlhmsoizsa.com^
+||bunnymediaserver.com^
 ||bupserge.com^
 ||burbibape.com^
 ||bureaucracycrutch.com^
@@ -4084,6 +4087,7 @@ vkcdnservice.appspot.com^
 ||creaturesburglarfancied.com^
 ||creditiesv.club^
 ||creditions.club^
+||credulityseashoreemployed.com^
 ||crepaidrfcs.club^
 ||creptionear.club^
 ||cretaiformac.top^
@@ -4411,6 +4415,7 @@ vkcdnservice.appspot.com^
 ||disobeystewhit.com^
 ||disparitypuppetfestivity.com^
 ||displaycontentnetwork.com^
+||displaycontentprofit.com^
 ||displaynetworkprofit.com^
 ||displaynews.live^
 ||displayvertising.com^
@@ -4621,6 +4626,7 @@ vkcdnservice.appspot.com^
 ||e331ff4e674c083.com^
 ||e347bb14dc71778.com^
 ||e350570881272e.com^
+||e36ff49101.com^
 ||e376ef28103177cc.com^
 ||e521d17fa185a2.com^
 ||e5d944a25e468d.com^
@@ -5560,6 +5566,7 @@ vkcdnservice.appspot.com^
 ||gadspms.com^
 ||gagnibcan.com^
 ||gagpetwet.com^
+||gaietyejection.com^
 ||gaietyswamp.com^
 ||gaitdrummerauto.com^
 ||gaitheed.com^
@@ -5970,6 +5977,7 @@ vkcdnservice.appspot.com^
 ||hditers.com^
 ||hdosaoxfcogpl.com^
 ||hdslnhmjga.com^
+||hdvcode.com^
 ||hdwjwooqvnm.com^
 ||hdwkcfqzxhvx.com^
 ||headedtamhemp.com^
@@ -7476,6 +7484,7 @@ vkcdnservice.appspot.com^
 ||lutachechu.pro^
 ||lutcdiimmeze.com^
 ||lutsoops.net^
+||luvaihoo.com^
 ||luvnrybocrcgl.com^
 ||luxins.net^
 ||luxlnk.com^
@@ -7967,6 +7976,7 @@ vkcdnservice.appspot.com^
 ||mxsuikhqaggf.com^
 ||mxvncslrduda.com^
 ||mxysalqnbj.com^
+||my-hanson.com^
 ||myagkiy2sviter11f.com^
 ||mybestdc.com^
 ||myclickpush.com^
@@ -8683,6 +8693,7 @@ vkcdnservice.appspot.com^
 ||otyguqrpv.com^
 ||oucywciij.com^
 ||oudccdjvh.com^
+||oudseroa.com^
 ||oufauthy.net^
 ||ouftukoo.net^
 ||ougdqjentmp.com^
@@ -9349,6 +9360,7 @@ vkcdnservice.appspot.com^
 ||qbwjddqa.com^
 ||qcnrblgdonypg.com^
 ||qdanzopuyrbf.com^
+||qdatasales.com^
 ||qdgpsfmg.com^
 ||qdjnwlrjllti.com^
 ||qdksdycvbv.com^
@@ -9772,6 +9784,7 @@ vkcdnservice.appspot.com^
 ||revhpdxqul.com^
 ||reviourffg.club^
 ||revolutelyplan.info^
+||revprotect.com^
 ||revqwsjtu.com^
 ||revrtb.com^
 ||rewhichesa.info^
@@ -9954,6 +9967,7 @@ vkcdnservice.appspot.com^
 ||rsuwxqaoqpuueg.com^
 ||rsviqjzhvubz.com^
 ||rsvph.xyz^
+||rszimg.com^
 ||rtaliseintru.club^
 ||rtbvideobox.com^
 ||rtclx.com^
@@ -10157,6 +10171,7 @@ vkcdnservice.appspot.com^
 ||secured-phone.club^
 ||secureeavesdroppingdisguised.com^
 ||securegate.xyz^
+||securegate9.com^
 ||securesmrt-dt.com^
 ||sedativesandhandbook.com^
 ||seditieusement.website^
@@ -10920,6 +10935,7 @@ vkcdnservice.appspot.com^
 ||totogetica.com^
 ||touawopexnefx.com^
 ||toughopponent.com^
+||toukeedo.com^
 ||towardstic.club^
 ||toxicbraid.com^
 ||toybahyn.com^
@@ -11096,6 +11112,7 @@ vkcdnservice.appspot.com^
 ||ucumbholi.club^
 ||ucvrtwfh.com^
 ||ucxgfoqrbk.com^
+||udbvcevablxpk.com^
 ||udllxpudd.com^
 ||udmdtdjna.com^
 ||udtekwuh.com^
@@ -12468,6 +12485,7 @@ vkcdnservice.appspot.com^
 ||yxyfsghyk.com^
 ||yy9s51b2u05z.com^
 ||yycocbzc.com^
+||yydtbpms8tf4.com^
 ||yyivakszwh.com^
 ||yyjvimo.com^
 ||yyupkqqokrus.com^
@@ -18564,6 +18582,7 @@ vkcdnservice.appspot.com^
 ! ||bugly.qcloud.com^
 ! ||admob-app-id-*.firebaseio.com^
 ! ||events.split.io^
+! ||apptrace.com^
 !
 !
 ! ||ensighten.com^$third-party - not a tracker
@@ -18577,6 +18596,7 @@ vkcdnservice.appspot.com^
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||nlog.nethru.io^
 ||uc.xddi.ru^
 ||smetrics.capitalone.com^
 ||m-metrics.capitalone.com^
@@ -20169,6 +20189,8 @@ t.yesware.com
 ! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/344
 ! Disabled in DNS filter
 !
+||sl-h-statistics-ch-1.storeland.ru^
+||hc-analytics.idp.clogin.att.com^
 ||p.imgur.com^
 ||hummingbird.mavencoalition.io^
 ||smetrics.samsung.com^
@@ -20968,6 +20990,8 @@ charlestownwyllie.oaklawnnonantum.com^
 ||track.appsflyer.com^
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 !
+||notes-analytics-events.apple.com^
+||weather-analytics-events.apple.com^
 ||v-collector.dp.aws.charter.com^
 ||smetrics.cnn.com^
 ||metrics.claspws.tv^
@@ -23865,6 +23889,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||notify.solutions^
 ||olgtex.com^
 ||on-push.com^
+||onepush.app^
 ||onesignal.com^
 ||provesrc.com^
 ||psh.one^
@@ -26834,6 +26859,8 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tag.shopping-feed.com^
 ||track.sunmedia.tv^
 ||tracker.thinkindot.com^
+||tracking.smartmeapp.com^
+||webpixel.smartmeapp.com^
 ||collector.schibsted.io^
 ||counter.mtgnewmedia.se^
 ||vizzit.se^
@@ -26858,6 +26885,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ! https://forum.adguard.com/index.php?threads/ivoox-com-podcasts-issues.29530/
 ! ||addevweb.com^$third-party
 !
+||19bk5lo5q2.com^
 ||pregnancydiscreditbee.com^
 ||adsrv.eacdn.com^
 ||videoo.tv^
@@ -27026,6 +27054,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ! `window.adswellBaseDomain`
 ! https://damskiy.xyz/vendor/lib/oY.js
 !
+||farantitid.racing^
 ||zgxrht.com^
 ||gswtol.com^
 ||sayhinews.com^
@@ -31808,6 +31837,9 @@ us6odtasve.ru
 ! Eimg.jp
 ||adingo.jp.eimg.jp^
 !
+||afi-b.com^
+||p.storage-ad.com^
+||amaprop.net^
 ||gyro-n.com^
 ||amoad.com^
 ||caprofitx.com^
@@ -33456,8 +33488,7 @@ us6odtasve.ru
 ! Source name: EasyList China ad servers
 ! Source: https://easylist-downloads.adblockplus.org/easylistchina.txt
 !
-||qudaoweiwang.com^
-||djpt33.com^
+||ht12366.top^
 ||00-gov.cn^
 ||0024aaaa.com^
 ||00880808.com^
@@ -33986,6 +34017,7 @@ us6odtasve.ru
 ||dingyuanyao.cn^
 ||diuling.com^
 ||dizhonghaihotel.com^
+||djpt33.com^
 ||djsn888.com^
 ||djy518.com^
 ||dlhygj.com^
@@ -34739,6 +34771,7 @@ us6odtasve.ru
 ||quansj.cn^
 ||qubo94.com^
 ||qucaigg.com^
+||qudaoweiwang.com^
 ||queene.cn^
 ||quw18.com^
 ||qvpublish.com^
@@ -36553,7 +36586,8 @@ us6odtasve.ru
 ||runkao.net^
 ||stunninglover.com^
 ||watakaw133.xyz^
-||huhuhiiuio.com^
+||jxwef0.cn^
+||jsku.info^
 ||01w47q.cn^
 ||0217qpineuxbcdhopswkvf.xyz^
 ||0224fqpowiuxybnmvdfghj.xyz^
@@ -37423,6 +37457,7 @@ us6odtasve.ru
 ||huayi65.com^
 ||hudxqjg.cn^
 ||hueekqx.cn^
+||huhuhiiuio.com^
 ||huician.cn^
 ||huigoushop.com^
 ||huixingcheng.cn^
