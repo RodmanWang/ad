@@ -1,8 +1,8 @@
-! Checksum: nsf4FLoDANqmbVc7Q2QHEg
+! Checksum: UIL+2k7+cykliN+dQWWiwg
 ! Title: AdGuard DNS filter
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.12.23
-! TimeUpdated: 2020-12-01T19:30:40+03:00
+! Version: 2.0.12.24
+! TimeUpdated: 2020-12-02T19:30:38+03:00
 ! Expires: 4 days (update frequency)
 !
 !
@@ -10,7 +10,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2020-12-01T16:02:09.709Z
+! Last modified: 2020-12-02T16:03:06.688Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.8
 !
@@ -25,6 +25,8 @@
 !
 !! https://a.bestcontentitem.top/warp/*?r=
 !
+||sailcovertend.com^
+||mughaymil.site^
 ||robspabah.com^
 ||sellerbackstagejolly.com^
 ||jc743hbc6.info^
@@ -6121,6 +6123,7 @@ vkcdnservice.appspot.com^
 ||homeyloanedmes.work^
 ||honeycshfferufrew.com^
 ||honeymaria.com^
+||honfleurisez.xyz^
 ||honoursdashed.com^
 ||hoofstepfather.com^
 ||hooify.com^
@@ -9340,6 +9343,7 @@ vkcdnservice.appspot.com^
 ||pyllxjfkjhpjbq.com^
 ||pypkrvtepsha.com^
 ||pyqsbuaeqiku.com^
+||pyroguanites.xyz^
 ||pyzkbxspoon.com^
 ||pz7zrn0xxgyg.com^
 ||pzjdrhrlzdli.com^
@@ -9725,6 +9729,7 @@ vkcdnservice.appspot.com^
 ||reinformaln.top^
 ||reinspersian.com^
 ||reiqwxxd.com^
+||rejouassions.xyz^
 ||rekodpro.com^
 ||relaxingovercomeexaggerate.com^
 ||releasurezesa.site^
@@ -10768,6 +10773,7 @@ vkcdnservice.appspot.com^
 ||tepmpemrixd.com^
 ||teqhllxidowmi.com^
 ||terdaywe.top^
+||terephtalate.xyz^
 ||terialexperi.top^
 ||terialnevitiesini.info^
 ||terpeditors.club^
@@ -13263,7 +13269,6 @@ vkcdnservice.appspot.com^
 ||adsoptimal.com^
 ||adsovo.com^
 ||adsp.com^
-||adsparc.net^
 ||adspdbl.com^
 ||adspeed.com^
 ||adspruce.com^
@@ -18606,9 +18611,6 @@ vkcdnservice.appspot.com^
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
-!||i.snssdk.com/log/*
-!||i.snssdk.com/slardar/sdk.js
-!
 ||nlog.nethru.io^
 ||uc.xddi.ru^
 ||smetrics.capitalone.com^
@@ -19360,6 +19362,11 @@ vkcdnservice.appspot.com^
 !
 ! https://github.com/easylist/easylist/commit/a4d380ad1a3b33a0fab679a1a8c5a791321622b3
 ||functionalclam.com^
+!
+! Admiral domains
+! These domains are used for tracking purposes according to the data that is being sent there.
+! More info: https://getadmiral.com/products/measure
+||stiffgame.com^
 ||blushingbeast.com^
 ||observantice.com^
 ||balloonbit.com^
@@ -20202,6 +20209,7 @@ t.yesware.com
 ! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/344
 ! Disabled in DNS filter
 !
+||signal-collector.gemaltodigitalbankingidcloud.com^
 ||analytics.bi.encuentra24.com^
 ||sl-h-statistics-ch-1.storeland.ru^
 ||hc-analytics.idp.clogin.att.com^
@@ -21004,6 +21012,8 @@ charlestownwyllie.oaklawnnonantum.com^
 ||track.appsflyer.com^
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 !
+||us-tracking.nextdoor.com^
+||us-events.api.iheart.com^
 ||notes-analytics-events.apple.com^
 ||weather-analytics-events.apple.com^
 ||v-collector.dp.aws.charter.com^
@@ -27069,6 +27079,8 @@ charlestownwyllie.oaklawnnonantum.com^
 ! `window.adswellBaseDomain`
 ! https://damskiy.xyz/vendor/lib/oY.js
 !
+||pwwghcyzsn.info^
+||memtkh.com^
 ||b6c6k88qe1.ru^
 ||64a720ae27981a3.com^
 ||farantitid.racing^
@@ -32950,9 +32962,9 @@ us6odtasve.ru
 !
 ! Title: hostsVN
 ! Description: The filter contains ad and tracking networks in Vietnam.
-! Last modified: 27 Nov 2020 11:27 UTC+7
-! OriginalVersion: 2011271127
-! Blocked: 545 rules
+! Last modified: 02 Dec 2020 14:36 UTC+7
+! OriginalVersion: 2012021436
+! Blocked: 558 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
 !
@@ -32980,6 +32992,7 @@ us6odtasve.ru
 ||adservice.google.com.vn^
 ||adsota.com^
 ||adsparc.com^
+||adsparc.net^
 ||adsplay.net^
 ||adsplay.xyz^
 ||adtima*.zadn.vn^
@@ -33078,7 +33091,6 @@ us6odtasve.ru
 ||shopping.coccoc.com^
 ||smartconvert.co^
 ||sourcetobin.com^
-||sp.zalo.me^
 ||sporttv.today^
 ||static-ads.zaloapp.com^
 ||stats.zaloapp.com^
@@ -33261,6 +33273,7 @@ us6odtasve.ru
 ||analytics.vietnamfinance.vn^
 ||analytics.vnreview.vn^
 ||apl.headlines.pw^
+||counter.ntdvn.com^
 ||deqik.com^
 ||elogs.vnexpress.net^
 ||event.headlines.pw^
@@ -33271,6 +33284,7 @@ us6odtasve.ru
 ||invite.baomoi.com^
 ||la.vietid.net^
 ||lg.lotus.vn^
+||log-collector.shopee.vn^
 ||log.anninhthudo.vn^
 ||log.baodatviet.vn^
 ||log.baodauthau.vn^
@@ -33361,10 +33375,12 @@ us6odtasve.ru
 ||388bet.top^
 ||388bet.us^
 ||388bet.vip^
+||3kingclub.com^
 ||50soc.com^
 ||520xiaojin.com^
 ||789.club^
 ||789.fun^
+||789club.org^
 ||79lucky.com^
 ||888b.com^
 ||888b.in^
@@ -33378,6 +33394,7 @@ us6odtasve.ru
 ||aa88.in^
 ||ae888.com^
 ||betvietnam.info^
+||betvisa.com^
 ||big88.one^
 ||bong88net.com^
 ||bong99.com^
@@ -33404,6 +33421,7 @@ us6odtasve.ru
 ||gdwviet.com^
 ||go88.club^
 ||go88.com^
+||goal123.com^
 ||ibet889.com^
 ||income88.com^
 ||jbovn.com^
@@ -33448,17 +33466,22 @@ us6odtasve.ru
 ||rio66qc.club^
 ||sbc31.com^
 ||sieubomtan.com^
+||sky88.com^
 ||socvip.com^
 ||socvip9.club^
+||sodo14.com^
 ||sun.win^
 ||sv88.com^
 ||tai789.net^
+||taib52.club^
 ||taimacau.club^
 ||taiv8.com^
 ||tangsoc.com^
 ||thethaofb88.com^
 ||top88.club^
 ||top88.fun^
+||top88.uk^
+||v7ac.com^
 ||v8.club^
 ||v9bet.com^
 ||vic.fun^
@@ -33473,7 +33496,9 @@ us6odtasve.ru
 ||vn88.club^
 ||vn88.com^
 ||vua1004.club^
+||vua1005.club^
 ||vwinnow.com^
+||w388.com^
 ||w88.vin^
 ||w88bro.com^
 ||w88city.com^
@@ -33505,8 +33530,8 @@ us6odtasve.ru
 ! Source name: EasyList China ad servers
 ! Source: https://easylist-downloads.adblockplus.org/easylistchina.txt
 !
-||dagonghuzhu.com^
-||weifengtianxia.com^
+||jianxinshanghai.com^
+||fijipic.xyz^
 ||00-gov.cn^
 ||0024aaaa.com^
 ||00880808.com^
@@ -34003,6 +34028,7 @@ us6odtasve.ru
 ||d8ekco.com^
 ||dadjia.com^
 ||dafapai.com^
+||dagonghuzhu.com^
 ||dahanedu.com^
 ||daikuanfanli.com^
 ||dalianhengtai.com^
@@ -35089,6 +35115,7 @@ us6odtasve.ru
 ||webabcd.com^
 ||webofxm.cn^
 ||wecrtfr.com^
+||weifengtianxia.com^
 ||weihuiyungou.com^
 ||weiqiqu.cn^
 ||weizhenwx.com^
@@ -36605,9 +36632,7 @@ us6odtasve.ru
 ||runkao.net^
 ||stunninglover.com^
 ||watakaw133.xyz^
-||root85.com^
-||continuefaf.top^
-||spaung.cn^
+||dilqdiw.cn^
 ||01w47q.cn^
 ||0217qpineuxbcdhopswkvf.xyz^
 ||0224fqpowiuxybnmvdfghj.xyz^
@@ -37072,6 +37097,7 @@ us6odtasve.ru
 ||colorofgod.cn^
 ||comberry.cn^
 ||continuedsys.cn^
+||continuefaf.top^
 ||coolpadrom.cn^
 ||cooltool.cc^
 ||cornplus.cn^
@@ -38073,6 +38099,7 @@ us6odtasve.ru
 ||rockcoke.cn^
 ||romgv.com^
 ||rongnews.com^
+||root85.com^
 ||rqvfewi.cn^
 ||rrkykn.cn^
 ||rtslgov.cn^
@@ -38172,6 +38199,7 @@ us6odtasve.ru
 ||soso.ws^
 ||soueki.com^
 ||spahelani.com^
+||spaung.cn^
 ||sqa4e.xyz^
 ||sqtr1v.com^
 ||sqwscy.com^
