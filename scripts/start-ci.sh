@@ -8,7 +8,6 @@ easylist=(
   "https://easylist.to/easylist/fanboy-annoyance.txt"
   "https://filters.adtidy.org/extension/chromium/filters/15.txt"
   "https://filters.adtidy.org/extension/chromium/filters/224.txt"
-  "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt"
 )
 
 hosts=(
