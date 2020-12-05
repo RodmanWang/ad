@@ -1,8 +1,8 @@
-! Checksum: ajlScD2hB24moSEOhLY+qQ
+! Checksum: dxFNtBNqPqw67be5VBEjyQ
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.14.73
-! TimeUpdated: 2020-12-05T08:30:58+03:00
+! Version: 2.0.14.76
+! TimeUpdated: 2020-12-05T14:30:57+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1618,6 +1618,7 @@ _xiuno_com_ad/
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
 ##script + #coupletBox
 ##script + #rbbox
+##A[href*=".zhongguohao123.com/"]
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
@@ -9375,7 +9376,15 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||97rp.com/scrtips/
 szxx.com.cn###A0
+yxdj.com.cn##.m-a-linktwo
+yxdj.com.cn##.u-gs-btn
+itmop.com##.xiazaiqi
+uzzf.com##.topdown
+3h3.com###gaosu_down_bt
+3h3.com##.gaosu_div
+mydrivers.com##A[href*=".ashx?go="]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -11125,7 +11134,6 @@ chinanews.com##.add3
 chinanews.com##.add4
 bnmanhua.com,manhua123.net##.addg
 kuaihou.com##.address_like
-uzzf.com##.address_like:nth-child(-n+7)
 ck101.com##.adfixWp
 chinaz.com##.adfixbug
 duba.com,uu114.cn##.adfixed
@@ -11859,7 +11867,7 @@ xiaobaipan.com##.f_ad
 sgcn.com,wangjing.cn##.fad
 mobile01.com##.fast-ad
 duote.com##.fast-down-btn
-uzzf.com##.fastdownload
+uzzf.com##.f-uzzf-down
 qq.com##.father-ad
 duba.com,newduba.cn,uu114.cn##.fav_box
 mydrivers.com##.fbh_float
@@ -13699,7 +13707,6 @@ douyu.com##a[href*=".youzan.com"]
 duba.com,newduba.cn##a[href*=".zhhainiao.com/"]
 108.62.192.122,23.81.209.214,plus28.com##a[href*="/?Extend="]
 ctanet.cn##a[href*="/GoTo.asp?ID="] > img
-mydrivers.com##a[href*="/a.ashx?go="]
 kaitao.cn##a[href*="/a.php?id="]
 12580sky.com##a[href*="/ad."]
 instrument.com.cn##a[href*="/ad/"]
@@ -13714,7 +13721,6 @@ cableabc.com##a[href*="/img1/"]
 tucao.one##a[href*="/index.php?m=poster&"]
 ithome.com##a[href*="/lapin."]
 6park.com##a[href*="/link.php?key="]
-mydrivers.com##a[href*="/my.ashx?go="]
 doubibackup.com##a[href*="/rightad"]
 e0575.cn##a[href*="/showad.php?"]
 dzbhdm.com##a[href*="/xzgg/"]
