@@ -1,8 +1,8 @@
-! Checksum: 9Bm/2A09CL2/s2zsBPTvVA
+! Checksum: lhGNOD9uOso01tmLqEIn2w
 ! Title: AdGuard DNS filter
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.12.29
-! TimeUpdated: 2020-12-07T23:30:34+03:00
+! Version: 2.0.12.30
+! TimeUpdated: 2020-12-08T03:30:34+03:00
 ! Expires: 4 days (update frequency)
 !
 !
@@ -10,7 +10,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2020-12-07T20:05:24.706Z
+! Last modified: 2020-12-08T00:16:26.674Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.8
 !
@@ -2071,6 +2071,7 @@ www.llllllllllll.net^
 ||jor-el.net^
 ! https://github.com/AdguardTeam/AdguardFilters/issues/19323
 ||pijama.*.elasticbeanstalk.com^
+||zumads.vrixon.com^
 ! https://github.com/AdguardTeam/AdguardFilters/issues/64374
 ||partner.pocketing.tv^
 ||stream.spongead.com^
@@ -19455,11 +19456,6 @@ vkcdnservice.appspot.com^
 !
 ! https://github.com/easylist/easylist/commit/a4d380ad1a3b33a0fab679a1a8c5a791321622b3
 ||functionalclam.com^
-!
-! Admiral domains
-! These domains are used for tracking purposes according to the data that is being sent there.
-! More info: https://getadmiral.com/products/measure
-||stiffgame.com^
 ||blushingbeast.com^
 ||observantice.com^
 ||balloonbit.com^
@@ -19915,7 +19911,6 @@ vkcdnservice.appspot.com^
 ||zippywind.com^
 ||shopbreakfast.com^
 ||flimsythought.com^
-||materialmoon.com^
 ||defiantrice.com^
 ||ruddycast.com^
 ||preciousyoke.com^
@@ -24524,6 +24519,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||magnetairport.com^
 ||markedmeasure.com^
 ||massivemark.com^
+||materialmoon.com^
 ||meatydime.com^
 ||memorizeneck.com^
 ||movemeal.com^
@@ -24552,6 +24548,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||profitrumour.com^
 ||profusesupport.com^
 ||puffyloss.com^
+||puffypaste.com^
 ||puffypull.com^
 ||puffypurpose.com^
 ||q20jqurls0y7gk8.info^
@@ -24619,6 +24616,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||steadfastsound.com^
 ||steepsquirrel.com^
 ||stepplane.com^
+||stiffgame.com^
 ||stiffstem.com^
 ||storesurprise.com^
 ||stormyachiever.com^
@@ -36746,9 +36744,6 @@ us6odtasve.ru
 ||runkao.net^
 ||stunninglover.com^
 ||watakaw133.xyz^
-||d36gyu.cn^
-||aqvnurq.cn^
-||xuxiangkj.com^
 ||01w47q.cn^
 ||0217qpineuxbcdhopswkvf.xyz^
 ||0224fqpowiuxybnmvdfghj.xyz^
@@ -37019,6 +37014,7 @@ us6odtasve.ru
 ||applequan.com^
 ||apxyz.com^
 ||aquarius8.cn^
+||aqvnurq.cn^
 ||archrug.com^
 ||askfsh.cn^
 ||askspsl.cn^
@@ -37250,6 +37246,7 @@ us6odtasve.ru
 ||d1skp.cn^
 ||d1wn3.cn^
 ||d2wb1.cn^
+||d36gyu.cn^
 ||d5a5a.xyz^
 ||d663q.cn^
 ||d72l4.com^
@@ -38674,6 +38671,7 @@ us6odtasve.ru
 ||xunhuaji.cn^
 ||xurizhongguo.cn^
 ||xuro006.com^
+||xuxiangkj.com^
 ||xw1001.com^
 ||xxkio.com^
 ||xy98.com.cn^
