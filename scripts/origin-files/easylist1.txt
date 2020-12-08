@@ -1,8 +1,8 @@
-! Checksum: lhGNOD9uOso01tmLqEIn2w
+! Checksum: 0RLOPYQyK3LTmW8I4iEVBA
 ! Title: AdGuard DNS filter
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.12.30
-! TimeUpdated: 2020-12-08T03:30:34+03:00
+! Version: 2.0.12.31
+! TimeUpdated: 2020-12-08T09:30:34+03:00
 ! Expires: 4 days (update frequency)
 !
 !
@@ -10,7 +10,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2020-12-08T00:16:26.674Z
+! Last modified: 2020-12-08T06:12:33.043Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.8
 !
@@ -1813,6 +1813,7 @@ www.llllllllllll.net^
 ||d13k7prax1yi04.cloudfront.net^
 ||dq3yxnlzwhcys.cloudfront.net^
 ||rek.www.wp.pl^
+||d3mr7y154d2qg5.cloudfront.net^
 ||centent.streamp1ay.cc^
 ||dz5bomaog2c5t.cloudfront.net^
 ||s.remonti.org^
@@ -2484,6 +2485,7 @@ vkcdnservice.appspot.com^
 ||6f7mh6hfro.buzz^
 ||6gijbgjyzc14.com^
 ||6i4uibyg0c82.com^
+||6ped2nd3yp.com^
 ||6r1lihp31d.monster^
 ||6sxi6i74dk9m.com^
 ||6ujk8x9soxhm.com^
@@ -3933,6 +3935,7 @@ vkcdnservice.appspot.com^
 ||clasphs.xyz^
 ||classisingew.club^
 ||clawtoiltaupe.com^
+||clcassd.com^
 ||clcknads.pro^
 ||cldom.com^
 ||cleaneryelded.site^
@@ -4960,6 +4963,7 @@ vkcdnservice.appspot.com^
 ||eopbflgmxcr.com^
 ||eoqgguubvksu.com^
 ||eoredi.com^
+||eossbuqccjrfs.com^
 ||eozbwwxniksmb.com^
 ||eozegbfpvhasf.com^
 ||epbathcyav.com^
@@ -5009,6 +5013,7 @@ vkcdnservice.appspot.com^
 ||ernettesew.club^
 ||erniphiq.com^
 ||ernmentin.top^
+||erosyndc.com^
 ||errnaphim.site^
 ||errsensordiscourse.com^
 ||ersagreem.club^
@@ -5936,6 +5941,7 @@ vkcdnservice.appspot.com^
 ||gwwhheahisrtld.com^
 ||gwwzlwibbws.com^
 ||gwywsuemmf.com^
+||gxhxmy88.com^
 ||gxmjjxyyljtyf.com^
 ||gxordgtvjr.com^
 ||gxpijskyqwqfjw.com^
@@ -6805,6 +6811,7 @@ vkcdnservice.appspot.com^
 ||joyfullysacrificeralph.com^
 ||joynxonnxfnvqr.com^
 ||joyschema13.live^
+||joyvowdig.com^
 ||jpabviwck.com^
 ||jpdjbrpb.com^
 ||jphlsnzlxdz.com^
@@ -7418,6 +7425,7 @@ vkcdnservice.appspot.com^
 ||lluythjwk.com^
 ||lmcoiiwpguaorp.com^
 ||lmepqfsazb.com^
+||lmepskqkrrya.com^
 ||lmheeproc.com^
 ||lmjxlihzcvicyi.com^
 ||lmlvzeeag.com^
@@ -7778,6 +7786,7 @@ vkcdnservice.appspot.com^
 ||mhj765.xyz^
 ||mhorwseoai.com^
 ||mhviessolums.com^
+||mi82ltk3veb7.com^
 ||miahshnju.com^
 ||mibsooks.net^
 ||micmatchi.club^
@@ -8874,6 +8883,8 @@ vkcdnservice.appspot.com^
 ||padsecz.com^
 ||padskis.com^
 ||padslims.com^
+||padspms.com^
+||padsreds.com^
 ||paecbeeavmopbl.com^
 ||paegcsvchsdlbj.com^
 ||pagaynrbee.com^
@@ -9161,6 +9172,7 @@ vkcdnservice.appspot.com^
 ||poraryguib.club^
 ||poratedp.top^
 ||porchiteds.club^
+||poresresigntun.com^
 ||portedlysarcatc.info^
 ||portlytinytimeout.com^
 ||positious.club^
@@ -10725,6 +10737,7 @@ vkcdnservice.appspot.com^
 ||sviter2s1olenyami1.com^
 ||svolution.top^
 ||svrybecqxgdq.com^
+||svsatrerbxh.com^
 ||svsub.com^
 ||svuyfmzsxmjwa.com^
 ||svwsjxptbsvqo.com^
@@ -11476,6 +11489,7 @@ vkcdnservice.appspot.com^
 ||utzhcsrzrlhhxn.com^
 ||uuaajohul.com^
 ||uubforbdc2om.com^
+||uuboos.com^
 ||uudehlgu.com^
 ||uufbvpidyn.com^
 ||uujdthyg.com^
@@ -12006,6 +12020,7 @@ vkcdnservice.appspot.com^
 ||wmtyrdrpjbhnj.com^
 ||wnaibjbnqown.com^
 ||wndhsykmbe.com^
+||wndlkj.com^
 ||wndwhzjmfshthv.com^
 ||wnfjzjmc.com^
 ||wnhzlesdqzu.com^
@@ -12331,6 +12346,7 @@ vkcdnservice.appspot.com^
 ||xvcmsfoeheu.com^
 ||xviplxteu.com^
 ||xvlkfkjl.com^
+||xvnfyutv.com^
 ||xvomqsoivtiaxh.com^
 ||xvtbumnuj.com^
 ||xvucprzzwd.com^
@@ -23041,6 +23057,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||permutive.com^
 ||personalicanvas.com^
 ||personyze.com^
+||peruse.ai^
 ||petametrics.com^
 ||pgs.io^
 ||phonalytics.com^
@@ -32861,6 +32878,7 @@ us6odtasve.ru
 ||axzsd.pro^
 ||azxsd.pro^
 ||backwardkneesencroach.com^
+||badskies.com^
 ||baliadv.com^
 ||bcajjtbzmdrl.com^
 ||bellaads.com^
@@ -33068,9 +33086,9 @@ us6odtasve.ru
 !
 ! Title: hostsVN
 ! Description: The filter contains ad and tracking networks in Vietnam.
-! Last modified: 03 Dec 2020 14:51 UTC+7
-! OriginalVersion: 2012031451
-! Blocked: 560 rules
+! Last modified: 08 Dec 2020 11:43 UTC+7
+! OriginalVersion: 2012081143
+! Blocked: 564 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
 !
@@ -33282,6 +33300,7 @@ us6odtasve.ru
 ||adx.xemvtv.net^
 ||affiliate.k4.tinhte.vn^
 ||ailamtrieuphu.com^
+||ak9.6895588.com^
 ||alivar.com.vn^
 ||alivar.vn^
 ||amobi.vn^
@@ -33314,6 +33333,7 @@ us6odtasve.ru
 ||deltago.com^
 ||demopage.me^
 ||dt.vnecdn.com^
+||ff.imacdn.com^
 ||financial-agent.headlines.pw^
 ||fptad.com^
 ||genmonet.com^
@@ -33568,6 +33588,7 @@ us6odtasve.ru
 ||one88.vn^
 ||oneday88.com^
 ||playv8.com^
+||qq8788viet.com^
 ||r88.vn^
 ||red88.com^
 ||ric.win^
@@ -33586,6 +33607,7 @@ us6odtasve.ru
 ||taiv8.com^
 ||tangsoc.com^
 ||thethaofb88.com^
+||tin010.com^
 ||top88.club^
 ||top88.fun^
 ||top88.uk^
@@ -33801,7 +33823,6 @@ us6odtasve.ru
 ||6cc8cc.xyz^
 ||6dvip.com^
 ||6huu.com^
-||6ped2nd3yp.com^
 ||700ok.net^
 ||70lm.com^
 ||70yst.cn^
@@ -33958,7 +33979,6 @@ us6odtasve.ru
 ||axiba66.com^
 ||b588866.com^
 ||b96bcea4.cc^
-||badskies.com^
 ||baiapk.com^
 ||baiduace.com^
 ||baiduappu.top^
@@ -34076,7 +34096,6 @@ us6odtasve.ru
 ||cke199.com^
 ||ckseeknew.com^
 ||claz.com.cn^
-||clcassd.com^
 ||climbcoder.com^
 ||cmaxisolation.com^
 ||cmslayue.com^
@@ -34229,9 +34248,7 @@ us6odtasve.ru
 ||ekeide.com^
 ||eleobj.com^
 ||enohb.com^
-||eossbuqccjrfs.com^
 ||erdsyzb.com^
-||erosyndc.com^
 ||erqimall.net^
 ||ertongjiaju360.com^
 ||evefashion.cn^
@@ -34351,7 +34368,6 @@ us6odtasve.ru
 ||gwylm.com^
 ||gxejgs.com^
 ||gxgzyny.com^
-||gxhxmy88.com^
 ||gydag.com^
 ||gygdmy.com^
 ||gzdhzb.com^
@@ -34554,7 +34570,6 @@ us6odtasve.ru
 ||johtzj.com^
 ||jossuer.net^
 ||joyfuldoors.com^
-||joyvowdig.com^
 ||jozee.cn^
 ||jqsex.com^
 ||jqueryget.com^
@@ -34685,7 +34700,6 @@ us6odtasve.ru
 ||llguandongyan.com^
 ||llqss.top^
 ||llrnlzl.cn^
-||lmepskqkrrya.com^
 ||log.interest.mix.sina.com.cn^
 ||longchengtg.com^
 ||loveconer.com^
@@ -34740,7 +34754,6 @@ us6odtasve.ru
 ||mfcvxw.cn^
 ||mgtv-bbqn.oss-cn-beijing.aliyuncs.com^
 ||mgwcn.com^
-||mi82ltk3veb7.com^
 ||mieyisi.com^
 ||min1319.com^
 ||mindopu.com^
@@ -34852,8 +34865,6 @@ us6odtasve.ru
 ||p0y.cn^*.swf
 ||p3tt.com^
 ||p74.cc^
-||padspms.com^
-||padsreds.com^
 ||panel-cn.com^
 ||papa999.xyz^
 ||pay838.com^
@@ -35071,7 +35082,6 @@ us6odtasve.ru
 ||superli666.top^
 ||suukcn.com^
 ||suzhoujinghui.com^
-||svsatrerbxh.com^
 ||swtkc.cn^
 ||swzhaohuo.com.cn^
 ||sxbhzs.net^
@@ -35250,7 +35260,6 @@ us6odtasve.ru
 ||wjguc.com^
 ||wka8.com^
 ||wlkpa.cn^
-||wndlkj.com^
 ||wo19.top^
 ||wojiabaoye.com^
 ||wowips.com^
@@ -35384,7 +35393,6 @@ us6odtasve.ru
 ||xulizui6.com^
 ||xunlaile.com^
 ||xuqinqi.cn^
-||xvnfyutv.com^
 ||xwdsp.com^
 ||xww360.com^
 ||xxhrd.com^
@@ -35740,7 +35748,6 @@ us6odtasve.ru
 ||d0.xcar.com.cn^
 ||d1.3158.cn^
 ||d13jhr4vol1304.cloudfront.net^
-||d3mr7y154d2qg5.cloudfront.net^
 ||da.mgtv.com^
 ||de.as.pptv.com^
 ||dehua.ixinfan.com^
@@ -36744,6 +36751,8 @@ us6odtasve.ru
 ||runkao.net^
 ||stunninglover.com^
 ||watakaw133.xyz^
+||tatjhh.cn^
+||bmp.ovh^
 ||01w47q.cn^
 ||0217qpineuxbcdhopswkvf.xyz^
 ||0224fqpowiuxybnmvdfghj.xyz^
@@ -38472,7 +38481,6 @@ us6odtasve.ru
 ||uqpfh.cn^
 ||urlet.cn^
 ||ut0ej.cn^
-||uuboos.com^
 ||uunewcar.com^
 ||uuopp.com^
 ||uuwhg.com^
