@@ -1,8 +1,8 @@
-! Checksum: bMaPm592QVKXeNpZhxmLzA
+! Checksum: zYR1PeTa74QaIJyksUU71Q
 ! Title: AdGuard DNS filter
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.12.32
-! TimeUpdated: 2020-12-08T15:30:46+03:00
+! Version: 2.0.12.34
+! TimeUpdated: 2020-12-09T01:30:32+03:00
 ! Expires: 4 days (update frequency)
 !
 !
@@ -10,7 +10,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2020-12-08T12:13:30.872Z
+! Last modified: 2020-12-08T21:42:38.889Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.8
 !
@@ -25,6 +25,8 @@
 !
 !! https://a.bestcontentitem.top/warp/*?r=
 !
+||7kjfbgkjbfgb.club^
+||moncoerbb.com^
 ||tearpilotzoo.com^
 ||vividlobster.com^
 ||ijsprocode.com^
@@ -18671,6 +18673,7 @@ vkcdnservice.appspot.com^
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||track.customer.io^
 ||adblock-analytics.io^
 ||aukana.jp^
 ||stat.tiara.
@@ -32707,7 +32710,6 @@ us6odtasve.ru
 ||crmpilot.it^
 ||delosnetwork.it^
 ||digitalbees.it^
-||divascam.com^
 ||eadv.it^
 ||easymarketcrs.it^
 ||ebuzzing.it^
@@ -32749,7 +32751,6 @@ us6odtasve.ru
 ||prontocampaign.com^
 ||publy.net^
 ||radxcomm.com^
-||ragazzeinvendita.com^
 ||rcsadv.it^
 ||reachadv.it^
 ||rizzonelli.it^
@@ -33618,6 +33619,8 @@ us6odtasve.ru
 ! Source: https://easylist-downloads.adblockplus.org/easylistchina.txt
 !
 ||smart-start.com.cn^
+||pic12x20.com^
+||9kanw.com^
 ||00-gov.cn^
 ||0024aaaa.com^
 ||00880808.com^
@@ -36709,6 +36712,7 @@ us6odtasve.ru
 ||runkao.net^
 ||stunninglover.com^
 ||watakaw133.xyz^
+||bio-lifehealth.com^
 ||tatjhh.cn^
 ||bmp.ovh^
 ||duwowvo.cn^
@@ -39484,6 +39488,8 @@ us6odtasve.ru
 ! Once you enable private DNS, Android 9 starts resolving random domains looking like
 ! `*-dnsotls-ds.metric.gstatic.com` (for instance, `a5a6380f-dnsotls-ds.metric.gstatic.com`).
 !
+! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/506
+@@||email.corp.skyeng.ru^|
 ! https://github.com/AdguardTeam/AdguardFilters/issues/65326
 @@||go.scorptec.com.au^|
 ! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/468
