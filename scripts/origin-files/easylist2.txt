@@ -1,8 +1,8 @@
-! Checksum: qZItYgY8ev0IBtf/aLVFhw
+! Checksum: Ae8+xv7XKGFClvvDF9fihw
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.15.25
-! TimeUpdated: 2020-12-10T14:31:12+03:00
+! Version: 2.0.15.27
+! TimeUpdated: 2020-12-10T18:31:12+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4414,7 +4414,7 @@ $image,domain=ip.cn
 $image,third-party,domain=lady1.top
 $script,third-party,domain=52movieba.com|66s.cc|ab126.com|audio699.com|dm530.net|kan-tv.com|m.supfree.net|wltmv.com|xiepp.com
 $script,third-party,websocket,domain=52codes.net|m.ting56.com
-$script,third-party,xmlhttprequest,domain=btsow.surf
+$script,third-party,xmlhttprequest,domain=btsow.cam
 $websocket,domain=5nj.com|cechi8.com
 .194007.com/4058.gif
 .gif|$domain=7mshipin.org|viidii.info|xgan.cn
@@ -9357,6 +9357,7 @@ _yad_jsonp_
 ||zzzyk.com/js/
 ||labuladong.github.io/algo/pictures/ad/
 ||baidu.com/forum/pic/item/bf096b63f6246b60ced6e830fcf81a4c500fa29e.jpg
+||toolfk.com/common/other/elm.png
 crsky.com##.Adown_v_gs
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -14077,7 +14078,7 @@ mail.126.com,mail.163.com##div[id$="_FooterDiv"]
 anoneko.com,dmhy.org,ye1213.com##div[id$="_ad"] > a:first-child > img
 58.com##div[id$="_gdbg"]
 mail.126.com,mail.163.com##div[id$="_succAd"]
-mydrivers.com##div[id$="_tab"] > ul > li[style="height:143px;"]
+mydrivers.com##DIV[id$="_tab"] > UL > LI[style]
 my0511.com##div[id$="bdbc"]
 pixnet.net##div[id*="-AD-"]
 pixnet.net##div[id*="-Ad-"]
@@ -16534,6 +16535,7 @@ fuliba.net,uliba.net###focusslide
 fuliba.net,uliba.net##.widget_custom_html:nth-child(2)
 !#g
 !#hboav.com
+@@||5278.cc/js/gg0.js
 @@$image,xmlhttprequest,domain=hboav.com
 @@||5278.cc^$script,domain=hboav.com
 @@||hboav.com/guga/$script,~third-party
