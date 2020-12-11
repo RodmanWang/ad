@@ -1,8 +1,8 @@
-! Checksum: jtS0s52XFXVpE3Bn54G6+w
+! Checksum: jQxRF80hw9w+j9nn6rInfA
 ! Title: AdGuard DNS filter
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.12.43
-! TimeUpdated: 2020-12-10T21:30:32+03:00
+! Version: 2.0.12.44
+! TimeUpdated: 2020-12-11T03:30:30+03:00
 ! Expires: 4 days (update frequency)
 !
 !
@@ -10,7 +10,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2020-12-10T18:12:29.895Z
+! Last modified: 2020-12-11T00:16:33.999Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.8
 !
@@ -19156,7 +19156,6 @@ vkcdnservice.appspot.com^
 ||hotstats.gr^
 ||hqhrt.com^
 ||hurterkranach.net^
-||iadvize.com^
 ||ibillboard.com^
 ||ijncw.tv^
 ||ilk10.az^
@@ -19211,7 +19210,6 @@ vkcdnservice.appspot.com^
 ||api.segment.io^
 ||mletracker.com^
 ||mmetrix.mobi^
-||mmstat.com^
 ||mobtop.ru^
 ||monitor.phorm.com^
 ||moreusers.info^
@@ -26084,6 +26082,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||logly.co.jp^
 ||mediav.com^
 ||miaozhen.com^
+||mmstat.com^
 ||oadz.com^
 ||p0y.cn^
 ||phpstat.com^
@@ -26703,6 +26702,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||d17m68fovwmgxj.cloudfront.net^
 ||da.netease.com^
 ||epro.sogou.com^
+||fourier.taobao.com^
 ||g.yccdn.com^
 ||haostat.qihoo.com^
 ||hyrankhit.meldingcloud.com^
