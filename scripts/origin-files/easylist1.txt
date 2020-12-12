@@ -1,8 +1,8 @@
-! Checksum: ew7/4/N3d0OyI3aDxZnQGg
+! Checksum: Gcp+h8jX46U7ohXDOeXIMA
 ! Title: AdGuard DNS filter
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.12.49
-! TimeUpdated: 2020-12-12T03:30:31+03:00
+! Version: 2.0.12.50
+! TimeUpdated: 2020-12-12T09:30:30+03:00
 ! Expires: 4 days (update frequency)
 !
 !
@@ -10,7 +10,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2020-12-12T00:16:33.317Z
+! Last modified: 2020-12-12T06:06:13.267Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.8
 !
@@ -33588,7 +33588,6 @@ us6odtasve.ru
 ! Source name: EasyList China ad servers
 ! Source: https://easylist-downloads.adblockplus.org/easylistchina.txt
 !
-||depnegj.cn^
 ||00-gov.cn^
 ||0024aaaa.com^
 ||00880808.com^
@@ -34103,6 +34102,7 @@ us6odtasve.ru
 ||ddhtek.com^
 ||ddomm.com^
 ||deeplacer.com^
+||depnegj.cn^
 ||detuns.com^
 ||df3n43m.com^
 ||df77.com^
@@ -35937,7 +35937,6 @@ us6odtasve.ru
 @@||yzzkb.com.cn^*ad.
 ||immedlinkum.info^
 ||xayah.date^
-||bd1-china.xsfaya.com^
 ||003store.com^
 ||1.01fy.cn^
 ||1.1010pic.com^
@@ -36140,6 +36139,7 @@ us6odtasve.ru
 ||bd.czxuexi.com^
 ||bd.ershenghuo.com^
 ||bd1-china.6789.com^
+||bd1-china.xsfaya.com^
 ||bd1.365qilu.com^
 ||bd1.99danji.com^
 ||bd1.click.com.cn^
@@ -36684,12 +36684,7 @@ us6odtasve.ru
 ||runkao.net^
 ||stunninglover.com^
 ||watakaw133.xyz^
-||abi.run^
-||jisufeifei.com^
-||mxhbkj.cn^
-||ububyiw6655.xyz^
-||ohthub.com.cn^
-||jtwlj.cn^
+||qianggou8.top^
 ||01w47q.cn^
 ||0217qpineuxbcdhopswkvf.xyz^
 ||0224fqpowiuxybnmvdfghj.xyz^
@@ -36880,6 +36875,7 @@ us6odtasve.ru
 ||abckzo.cn^
 ||abeij.com^
 ||abfirst.cn^
+||abi.run^
 ||abie10.top^
 ||abie11.top^
 ||abie12.top^
@@ -37063,6 +37059,7 @@ us6odtasve.ru
 ||bqhnj.cn^
 ||bqqsdv73724.cn^
 ||brysj.vip^
+||bsjgqhe.cn^
 ||bslmw.com^
 ||btbalex.cn^
 ||btnvlvt.cn^
@@ -37686,6 +37683,7 @@ us6odtasve.ru
 ||jinxinyuan.cn^
 ||jioder3e.cn^
 ||jioeg.com^
+||jisufeifei.com^
 ||jiudiandyw.com^
 ||jiujhzp.com^
 ||jiumishow.com^
@@ -37720,6 +37718,7 @@ us6odtasve.ru
 ||jsvv587.com^
 ||jswnuq.cn^
 ||jsyjwj.com^
+||jtwlj.cn^
 ||julitenj.com^
 ||jullycn.com^
 ||jundazulin.com^
@@ -37934,6 +37933,7 @@ us6odtasve.ru
 ||muusn.cn^
 ||mwjpk.com^
 ||mx.biquge.info^
+||mxhbkj.cn^
 ||mxtailor.com^
 ||myams.cn^
 ||mydownba.com^
@@ -38005,6 +38005,7 @@ us6odtasve.ru
 ||octopuszyw.cn^
 ||oende.cn^
 ||oesnw.com^
+||ohthub.com.cn^
 ||oikqfwv.cn^
 ||oir85.cn^
 ||oiwjcsh001.top^
@@ -38217,6 +38218,7 @@ us6odtasve.ru
 ||sfanf.com^
 ||sffxcwc.cn^
 ||sguac.com^
+||sgyebd.com^
 ||shangyingwm.com^
 ||shanyuebrowser.com^
 ||shaque.vip^
@@ -38404,6 +38406,7 @@ us6odtasve.ru
 ||u0r9.cn^
 ||u2c8.cn^
 ||uauwkfk.cn^
+||ububyiw6655.xyz^
 ||uc4a.cn^
 ||ucaii.com^
 ||ucvqmvg.cn^
