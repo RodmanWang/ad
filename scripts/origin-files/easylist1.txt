@@ -1,8 +1,8 @@
-! Checksum: PJYUVYyowVsZP0hQsDKrfA
+! Checksum: TOcyLsyu4sgOF2ODJl0fqw
 ! Title: AdGuard DNS filter
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.12.47
-! TimeUpdated: 2020-12-11T19:30:40+03:00
+! Version: 2.0.12.48
+! TimeUpdated: 2020-12-11T21:30:31+03:00
 ! Expires: 4 days (update frequency)
 !
 !
@@ -10,7 +10,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2020-12-11T15:45:37.617Z
+! Last modified: 2020-12-11T18:12:33.084Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.8
 !
@@ -25,6 +25,8 @@
 !
 !! https://a.bestcontentitem.top/warp/*?r=
 !
+||promos.camsoda.com^
+||talazywho.pro^
 ||pollscoopiffy.com^
 ||sporedfryhum.com^
 ||mumlionslew.com^
@@ -16465,6 +16467,7 @@ vkcdnservice.appspot.com^
 ||smartad.ee^
 ||smartadtags.com^
 ||smartadv.ru^
+||smartasset.com^
 ||smartdevicemedia.com^
 ||smarttargetting.co.uk^
 ||smarttargetting.com^
