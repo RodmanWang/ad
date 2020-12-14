@@ -1,8 +1,8 @@
-! Checksum: Wslt55rPsHRQzGZd6rT3XA
+! Checksum: EnIXkT5nz9lUSZgU8Hz3Wg
 ! Title: AdGuard DNS filter
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.12.57
-! TimeUpdated: 2020-12-13T21:30:30+03:00
+! Version: 2.0.12.58
+! TimeUpdated: 2020-12-14T03:30:32+03:00
 ! Expires: 4 days (update frequency)
 !
 !
@@ -10,7 +10,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2020-12-13T18:11:50.678Z
+! Last modified: 2020-12-14T00:14:23.297Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.8
 !
@@ -33637,7 +33637,6 @@ us6odtasve.ru
 ! Source name: EasyList China ad servers
 ! Source: https://easylist-downloads.adblockplus.org/easylistchina.txt
 !
-||xyadtlyyc.vip^
 ||00-gov.cn^
 ||0024aaaa.com^
 ||00880808.com^
@@ -35391,6 +35390,7 @@ us6odtasve.ru
 ||xyadtlyya.cn^
 ||xyadtlyya.com^
 ||xyadtlyya.vip^
+||xyadtlyyc.vip^
 ||xyadyzpsb.com^
 ||xycnz.com^
 ||xycnzz.com^
@@ -36735,7 +36735,6 @@ us6odtasve.ru
 ||runkao.net^
 ||stunninglover.com^
 ||watakaw133.xyz^
-||hdvwm3.cn^
 ||01w47q.cn^
 ||0217qpineuxbcdhopswkvf.xyz^
 ||0224fqpowiuxybnmvdfghj.xyz^
@@ -37557,6 +37556,7 @@ us6odtasve.ru
 ||hcprzx.cn^
 ||hdfdm.com^
 ||hdminfeng.com^
+||hdvwm3.cn^
 ||hdweds.cn^
 ||hdzkjv.cn^
 ||headwell.cn^
