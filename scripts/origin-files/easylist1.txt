@@ -1,8 +1,8 @@
-! Checksum: anT+2h8HN01/uJjkzE4K7A
+! Checksum: z/R1GCy4fg/186W/7cvnag
 ! Title: AdGuard DNS filter
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-! Version: 2.0.12.66
-! TimeUpdated: 2020-12-15T15:30:46+03:00
+! Version: 2.0.12.67
+! TimeUpdated: 2020-12-15T21:30:33+03:00
 ! Expires: 4 days (update frequency)
 !
 !
@@ -10,14 +10,30 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2020-12-15T12:13:28.989Z
+! Last modified: 2020-12-15T18:12:28.497Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.8
 !
+!
+! Source name: AdGuard Base filter ad servers
+! Source: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/EnglishFilter/sections/adservers.txt
+!
+!
+! Section contains list of advertising networks
+!
+! The rules with hints are at the end of file
+!
+!! https://a.bestcontentitem.top/warp/*?r=
+!
+||rseyebrown.fun^
+||click.hooligapps.com^
 ||hyperoi.com^
 ||adstudio.cloud^
 ||midpopedge.com^
 ||yqorexok.xyz^
+||peppy2lon1g1stalk.com^
+||dbmdoldiqf.com^
+||saqthneauq.com^
 ||evasiondemandedlearning.com^
 ||promos.camsoda.com^
 ||talazywho.pro^
@@ -21148,6 +21164,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||track.appsflyer.com^
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 !
+||mobiletelemetry.ebay.com^
 ||tracker.departapp.com^
 ||us-tracking.nextdoor.com^
 ||us-events.api.iheart.com^
@@ -29032,7 +29049,6 @@ us6odtasve.ru
 ||excalatom.com^
 ||exchange.newsnet.in.ua^
 ||exchangenews.ru^
-||excluzive.net^
 ||exo.kiev.ua^
 ||exoticads.com^
 ||expert.ruab.ru^
@@ -32766,6 +32782,7 @@ us6odtasve.ru
 ||advit.it^
 ||advplace.com^
 ||affiliago.it^
+||affiliation.software^
 ||affiliationpartner.it^
 ||affiliazioni.me^
 ||affiliazioniweb.com^
@@ -36802,6 +36819,7 @@ us6odtasve.ru
 ||runkao.net^
 ||stunninglover.com^
 ||watakaw133.xyz^
+||bailequan.net.cn^
 ||aodepuo.cn^
 ||maro30.com^
 ||xuyssur.cn^
