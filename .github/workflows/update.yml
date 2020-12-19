@@ -2,6 +2,7 @@ name: Auto update rule
 on:
   schedule:
     - cron: "0 0/6 * * *"
+workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-20.04
