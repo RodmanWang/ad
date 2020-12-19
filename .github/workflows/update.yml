@@ -2,6 +2,16 @@ name: Auto update rule
 on:
   schedule:
     - cron: "0 0/6 * * *"
+        workflow_dispatch:
+    inputs:
+      name:
+        description: 'Person to greet'
+        required: true
+        default: 'Mona the Octocat'
+      home:
+        description: 'location'
+        required: false
+        default: 'The Octoverse'
 jobs:
   build:
     runs-on: ubuntu-20.04
