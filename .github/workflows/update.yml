@@ -1,6 +1,8 @@
 name: Auto update rule
 on:
-
+  push:
+    branches: [ master ]
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -16,7 +18,7 @@ jobs:
         git add *
         git commit -m "Auto update." -a
     - name: Push changes
-      uses: ad-m/github-push-action@master
+      uses: ad-m/github-push-action@v0.6.0
       with:
         github_token: ${{ secrets.PERSON_TOKEN }}
-        branch: ${{ github.ref }}
+        branch: 'master'
