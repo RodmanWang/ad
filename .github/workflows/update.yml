@@ -1,6 +1,4 @@
 name: Auto update rule
-on:
-
 jobs:
   build:
     runs-on: ubuntu-latest
