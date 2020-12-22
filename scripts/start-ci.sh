@@ -96,4 +96,5 @@ cat easylist*.txt | grep -E "^@@\|\|?[^\^=\/:]+?\^([^\/=\*]+)?$" | sort | uniq >
 
 cd ../
 
+echo
 php make-addr.php
