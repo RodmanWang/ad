@@ -1,7 +1,5 @@
 name: Auto update rule
 on:
-  push:
-    branches: [ master ]
   workflow_dispatch:
   
   schedule:
