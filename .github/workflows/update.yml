@@ -9,7 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@main
     - name: Run start-ci.sh
       run: |
         /bin/bash ./scripts/start-ci.sh
@@ -20,7 +20,7 @@ jobs:
         git add *
         git commit -m "Auto update." -a
     - name: Push changes
-      uses: ad-m/github-push-action@v0.6.0
+      uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.PERSON_TOKEN }}
         branch: 'master'
