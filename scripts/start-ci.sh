@@ -27,7 +27,7 @@ rm -f ./origin-files/easylist*
 rm -f ./origin-files/hosts*
 rm -f ./origin-files/strict-hosts*
 rm -f ./origin-files/dead-hosts*
- 
+
 for i in "${!easylist[@]}"
 do
   echo "开始下载 easylist${i}..."
