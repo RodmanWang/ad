@@ -195,7 +195,7 @@ return array(
     'img1.sj.qq.com' => 0,
     'issuecdn.baidupcs.com' => 0,
     'ppp.net' => 1,
-    
+    'httpdns.n.netease.com' => 0,
     
     
     
