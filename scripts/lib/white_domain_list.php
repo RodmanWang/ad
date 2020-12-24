@@ -192,7 +192,9 @@ return array(
     'bssdlbig.kugou.com' => 0, #286
     'tvzhe.com' => 0, #290
     'stats.gc.apple.com' => 0, #296
-    
+    'img1.sj.qq.com' => 0,
+    'issuecdn.baidupcs.com' => 0,
+    'ppp.net' => 1,
     
     
     
