@@ -1,10 +1,12 @@
-Version: 20201223182908
-!Total lines: 36000
+Version: 20201224223457
+!Total lines: 35938
+||*.wap.xsbiquge.com^
+||*serror*.wo.com.cn^
 ||201*.myhard.com^
 ||8*.tianya.cn^
+||a*.chajiaotong.com^
 ||ac*.786ip.com^
 ||ac*.faxingchina.com^
-||a*.chajiaotong.com^
 ||ac*.pingguolv.com^
 ||activity.*.miui.com^
 ||adi*.cnool.net^
@@ -24,13 +26,13 @@ Version: 20201223182908
 ||collector-*.elb.amazonaws.com^
 ||collector-*.px-client.net^
 ||collector-*.tvsquared.com^
+||d*.ruiwen.com^
+||d*.wanzhuang.com^
+||d*.xinshipu.com^
 ||datacollect*.abtasty.com^
 ||dm*.ppzuowen.com^
 ||dm*.yxlady.com^
 ||dn*.ixinwei.com^
-||d*.ruiwen.com^
-||d*.wanzhuang.com^
-||d*.xinshipu.com^
 ||fanpingbi*.gaokao.com^
 ||fpb*.51edu.com^
 ||gcw*.2liang.cn^
@@ -38,21 +40,20 @@ Version: 20201223182908
 ||hits-*.iubenda.com^
 ||iad-*.blaze.com^
 ||images.*.criteo.net^
+||imp*.tradedoubler.com^
 ||impservice*.yodao.com^
 ||impservice*.youdao.com^
-||imp*.tradedoubler.com^
 ||ja*.gamersky.com^
 ||js*.abolezi.com^
-||logger-*.dailymotion.com^
 ||log*.ku6.com^
 ||log-*.previewnetworks.com^
+||logger-*.dailymotion.com^
 ||mcdp-*.outbrain.com^
 ||metric*.rediff.com^
 ||metro-trending-*.amazonaws.com^
 ||minero-proxy-*.sh^
 ||mkto-*.com^
 ||ow*.biqugego.com^
-||*p2p*douyucdn.cn^
 ||ping.*.sogou.com^
 ||quickflix*.gridserver.com^
 ||rdi.*.criteo.com^
@@ -60,11 +61,10 @@ Version: 20201223182908
 ||same*.stockstar.com^
 ||sell*.etlong.com^
 ||sense-*.tapdb.net^
-||*serror*.wo.com.cn^
 ||sextronix.*.cdnaccess.com^
 ||static*.365inews.com^
-||stats2.*.fdnames.com^
 ||stats-*.p2pnow.ru^
+||stats2.*.fdnames.com^
 ||targeting.*.arcpublishing.com^
 ||tracker*.qcloud.com^
 ||trk*.vidible.tv^
@@ -72,7 +72,6 @@ Version: 20201223182908
 ||union*.365inews.com^
 ||vix.*.criteo.net^
 ||vtnlog-*.elb.amazonaws.com^
-||*.wap.xsbiquge.com^
 ||ya*.dwstatic.com^
 ||ad*.udn.com^
 ||*.mgr.consensu.org^
@@ -206,7 +205,6 @@ Version: 20201223182908
 ||01w47q.cn^
 ||0202.com.tw^
 ||020wujin.cn^
-||02123s.com^
 /^(\S+\.)?[0-9a-z]{16,}\.xyz$/
 ||weldc1.021ye.com^
 ||022aifang.com^
@@ -307,7 +305,6 @@ Version: 20201223182908
 ||0cf40a2064ce2.com^
 ||0ci.top^
 ||0d20bff8143.com^
-||0d2c9f1f83e0.com^
 ||0dbcf515975d.com^
 ||0dc3c6535c5.com^
 ||0doo.net^
@@ -527,7 +524,6 @@ Version: 20201223182908
 ||157ita684j.com^
 ||158779.com^
 ||158aq.com^
-||15976a3e57.com^
 ||15fa37b45d.com^
 ||15gifts.com^
 ||1.15lu.com^
@@ -546,10 +542,10 @@ Version: 20201223182908
 ||crashlytics.163.com^
 ||fa.163.com^
 ||fa.corp.163.com^
+||g.corp.163.com^
 ||g1.163.com^
 ||g1.corp.163.com^
 ||gb.corp.163.com^
-||g.corp.163.com^
 ||ir.mail.163.com^
 ||irpmt.mail.163.com^
 ||n.3g.163.com^
@@ -688,8 +684,10 @@ Version: 20201223182908
 ||1kxun.mobi^
 ||1kzh.com^
 ||1l1.cc^
+||1lan.tv^
 ||1lib.cn^
 ||1lo0.net^
+||1look.tv^
 ||1loop.com^
 ||1maode.com^
 ||1mb034.cn^
@@ -872,7 +870,6 @@ Version: 20201223182908
 ||2dpt.com^
 ||plugin.2easydroid.com^
 ||2f.com^
-||2fnrc.cn^
 ||2g2h.com^
 ||2g6gj3aojcrj.com^
 ||2giga.download^
@@ -891,7 +888,6 @@ Version: 20201223182908
 ||e.2l06k.cn^
 ||m.2l06k.cn^
 ||2l1f.cn^
-||2ledhenone.com^
 ||2leep.com^
 ||ym.2liang.com^
 ||2lwlh385os.com^
@@ -991,17 +987,17 @@ Version: 20201223182908
 ||35kds.com^
 ||c.mse.360.cn^
 ||s.360.cn^
-||sayhi.360.cn^
-||se.360.cn^
 ||s.so.360.cn^
 ||s.union.360.cn^
+||sayhi.360.cn^
+||se.360.cn^
 ||tf.360.cn^
 ||act.commercial.shouji.360.cn^
+||gamebox.360.cn^
 ||adapi.shouji.360.cn^
 ||adapter.shouji.360.cn^
-||gamebox.360.cn^
-||agd2.p.360.cn^
 ||agd.p.360.cn^
+||agd2.p.360.cn^
 ||api.shuaji.360.cn^
 ||cm.dmp.360.cn^
 ||commercial.shouji.360.cn^
@@ -1067,7 +1063,6 @@ Version: 20201223182908
 ||36500.com^
 ||36500.net^
 ||365339.top^
-||365bibi.com^
 ||365che.cc^
 ||mm.365dmp.com^
 ||dcapi.365kqzs.cn^
@@ -1274,7 +1269,6 @@ Version: 20201223182908
 ||4c13cac4bb.com^
 ||4c935d6a244f.com^
 ||4cr447ewncl4.com^
-||4dc9170788e.com^
 ||4dex.io^
 ||4df5ef.xyz^
 ||4dsbanner.net^
@@ -1454,6 +1448,7 @@ Version: 20201223182908
 ||ie.5500w.com^
 ||550b3ikb9j.com^
 ||550sky.com^
+||550tg.com^
 ||m.551144.com^
 ||wwww.551144.com^
 ||552239b90400b7.com^
@@ -1536,7 +1531,6 @@ Version: 20201223182908
 ||593pi.cn^
 ||59519.com^
 ||59a8e0d6fa2.com^
-||59ce3f2bf1b3.com^
 ||59cn7.com^
 ||59e6ea7248001c.com^
 ||59gt.cn^
@@ -1557,6 +1551,7 @@ Version: 20201223182908
 ||m.5d63b.cn^
 ||5dabf928ad9ad4.com^
 ||5db8d92zi2.com^
+||5dian.org^
 ||5dimes.com^
 ||eeo.5du5.com^
 ||yyo.5du5.com^
@@ -1920,7 +1915,6 @@ Version: 20201223182908
 ||7m0hj.cn^
 ||7m307.cn^
 ||7n32vb7tn4w7n373a.top^
-||7n3e8o.com^
 ||7news.site^
 ||7o2o.com^
 ||7penny.com^
@@ -1940,7 +1934,6 @@ Version: 20201223182908
 ||7x5.fr^
 ||7x7.fun^
 ||7x749.xyz^
-||7xz3.com^
 ||7y6.xyz^
 ||cp.7y7.com^
 ||7yucu023o36p.com^
@@ -2008,7 +2001,6 @@ Version: 20201223182908
 ||ac.86huoche.com^
 ||86kx.com^
 ||86pqvhdw5wpg.com^
-||ee.86rtg.cn^
 ||86sijiachetuoyun.com^
 ||ssp.86str.com^
 ||86up9en9vv.buzz^
@@ -3545,7 +3537,6 @@ Version: 20201223182908
 ||adyapper.com^
 ||adyoulike.com^
 ||adysis.com^
-||adytx.com^
 ||adyun.com^
 ||adzbazar.com^
 ||adzchoice.com^
@@ -3773,7 +3764,6 @@ Version: 20201223182908
 ||aibici.com^
 ||aicansecrea.fun^
 ||a1.aichagu.com^
-||aichaima.top^
 ||aickeeho.com^
 ||aiclicash.com^
 ||aiclk.com^
@@ -3797,7 +3787,6 @@ Version: 20201223182908
 ||aikan6.com^
 ||xxxa.aikeapp.com^
 ||aiks.wang^
-||ailaskarc.club^
 ||ailawlani.club^
 ||aileenvideos.pro^
 ||ailefen.com^
@@ -3987,8 +3976,8 @@ Version: 20201223182908
 ||ali-crm.ru^
 ||click.ali213.net^
 ||dsp.ali213.net^
-||bmp1.ali213.net^
 ||bmp.ali213.net^
+||bmp1.ali213.net^
 ||web.ali213.net^
 /^(\S+\.)?ali2[a-z]\.xyz$/
 ||aliadvert.ru^
@@ -4120,8 +4109,8 @@ Version: 20201223182908
 ||allmygreatestlife.com^
 ||allmyverygreatlife.com^
 ||allo-media.net^
-||smart2.allocine.fr^
 ||smart.allocine.fr^
+||smart2.allocine.fr^
 ||wbdds.allocine.fr^
 ||cfcn.allocine.net^
 ||allosponsor.com^
@@ -4289,8 +4278,8 @@ Version: 20201223182908
 ||amghmej.cn^
 ||amghrrz.cn^
 ||amghvzn.cn^
+||amhixwqagiz.ru^
 ||amhpbhyxfgvd.com^
-||amifgpprfrbsm.com^
 ||banners.amigos.com^
 ||amikay.com^
 ||aminopay.net^
@@ -4810,7 +4799,6 @@ Version: 20201223182908
 ||asparmany.site^
 ||aspartbib.site^
 ||aspartbus.site^
-||aspaskaim.club^
 ||asperencium.com^
 ||aspignitean.com^
 ||aspirinstaircase.com^
@@ -5247,8 +5235,8 @@ Version: 20201223182908
 ||babybubble.cn^
 ||b.babylon.com^
 ||babymoment.net^
-||titan01.babytree.com^
 ||titan.babytree.com^
+||titan01.babytree.com^
 ||backbeatmedia.com^
 ||photo.backerbiotech.cn^
 ||backlink-test.de^
@@ -5316,8 +5304,8 @@ Version: 20201223182908
 ||hpd.baidu.cn^
 ||imageplus.baidu.cn^
 ||ma.baidu.cn^
-||mobads.baidu.cn^
 ||mobads-logs.baidu.cn^
+||mobads.baidu.cn^
 ||mtj.baidu.cn^
 ||nsclick.baidu.cn^
 ||pups.baidu.cn^
@@ -5382,11 +5370,11 @@ Version: 20201223182908
 ||log.music.baidu.com^
 ||lxbjs.baidu.com^
 ||mipengine.baidu.com^
-||mobads.baidu.com^
 ||mobads-logs.baidu.com^
+||mobads.baidu.com^
 ||mountain.zhidao.baidu.com^
-||nadvideo2.baidu.com^
 ||nadvideo.baidu.com^
+||nadvideo2.baidu.com^
 ||nj.t.bcsp2p.baidu.com^
 ||nsclick.baidu.com^
 ||paimgcdn-feed.baidu.com^
@@ -5419,18 +5407,18 @@ Version: 20201223182908
 ||cdn-haokanapk.baidu.com^
 ||cleaner.baidu.com^
 ||click.bes.baidu.com^
-||cpro2.baidu.com^
 ||cpro.tieba.baidu.com^
 ||cpro.zhidao.baidu.com^
+||cpro2.baidu.com^
 ||cpu-admin.baidu.com^
 ||cpucdn.baidu.com^
-||dl1sw.baidu.com^
-||dl2.bav.baidu.com^
+||dl-vip.bav.baidu.com^
 ||dl.client.baidu.com^
 ||dl.ops.baidu.com^
+||dl1sw.baidu.com^
+||dl2.bav.baidu.com^
 ||dlsw.baidu.com^
 ||dlsw.br.baidu.com^
-||dl-vip.bav.baidu.com^
 ||download.bav.baidu.com^
 ||download.sd.baidu.com^
 ||dzl.baidu.com^
@@ -5481,12 +5469,12 @@ Version: 20201223182908
 ||unionimage.baidu.com^
 ||utility.baidu.com^
 ||videopush.baidu.com^
+||w.gdown.baidu.com^
+||w.x.baidu.com^
 ||wangmeng.baidu.com^
 ||weishi.baidu.com^
-||w.gdown.baidu.com^
 ||wisepush.video.baidu.com^
 ||wm.baidu.com^
-||w.x.baidu.com^
 ||yingxiao.baidu.com^
 ||znsv.baidu.com^
 ||usp1.baidu.com^
@@ -5543,6 +5531,7 @@ Version: 20201223182908
 ||baizhu.cc^
 ||bajarlo.net^
 ||bajieyy.cc^
+||bakaqddxhhsid.com^
 ||balancedingrent.com^
 ||balanderramed.site^
 ||balcekonspn.com^
@@ -5620,9 +5609,9 @@ Version: 20201223182908
 ||data.danmu.baofeng.com^
 ||eventlog.hd.baofeng.com^
 ||iphonelog.shouji.baofeng.com^
-||logger.treexml.baofeng.com^
 ||log.ltype.baofeng.com^
 ||log.nvwa.baofeng.com^
+||logger.treexml.baofeng.com^
 ||midinfo.baofeng.com^
 ||p2pmid.baofeng.com^
 ||pvlog.hd.baofeng.com^
@@ -5777,6 +5766,7 @@ Version: 20201223182908
 ||bcunr.com^
 ||bcuuipewdz.com^
 ||bcvcmedia.com^
+||bcvrczvqlm.com^
 ||bcvutcks.com^
 ||bcvxpffzmkqf.com^
 ||bd-gl.com^
@@ -6068,7 +6058,6 @@ Version: 20201223182908
 ||bgmtracker.com^
 ||bgn2zqlce1eiya.icu^
 ||bgpng.me^
-||bgqddlvq.com^
 ||bgrndi.com^
 ||bgtrtv.top^
 ||bgwbqsmj.com^
@@ -6315,7 +6304,6 @@ Version: 20201223182908
 ||bjyikao.org^
 ||bjzcbx.com^
 ||bkdg.net^
-||bkdurgyahjhb.com^
 ||bkembwdgujzp.com^
 ||bkhzwuddpxjmyu.com^
 ||bkjjepbwwgef.com^
@@ -6547,7 +6535,6 @@ Version: 20201223182908
 ||lq.booktxt.net^
 ||boom-boom-vroom.com^
 ||boomerang.com.au^
-||boomgamescloud-cdn.cn^
 ||boomtrain.com^
 ||booraipa.com^
 ||boostable.com^
@@ -6933,12 +6920,14 @@ Version: 20201223182908
 ||bxgz.cc^
 ||bxhevqnz.com^
 ||bxjpl.cn^
+||bxjt518.com^
 ||bxkpkskdox.com^
 ||bxmfuxxiqmw.com^
 ||bxmns.com^
 ||bxvbtafvyaoc.com^
-||js1.bxwns.com^
 ||js.bxwns.com^
+||js1.bxwns.com^
+||pic.by175.com^
 ||by8974.com^
 ||byaqcsehcj.com^
 ||bycxsh.com^
@@ -7357,7 +7346,6 @@ Version: 20201223182908
 ||cdnvideo.mobi^
 ||cdooewrzvec.com^
 ||cdouj.com^
-||cdqweuwvagrbd.com^
 ||xiazai.cdren.com^
 ||tracker.cds-tracking.com^
 ||cdshusen.cn^
@@ -7626,7 +7614,6 @@ Version: 20201223182908
 ||union.china.com.cn^
 ||x.china1715.com^
 ||china99315.cn^
-||bdasd.chinabig.com.cn^
 ||chinachooses.com^
 ||chinacobweb.com^
 ||sq1.chinacsky.com^
@@ -7651,6 +7638,7 @@ Version: 20201223182908
 ||chinaweichu.net^
 ||chinawms.cn^
 ||chinaxiedu.cn^
+||chinaxingyin.com^
 ||ns1.chinayms.com^
 ||chinayutai.cn^
 ||a2put.chinaz.com^
@@ -7671,7 +7659,6 @@ Version: 20201223182908
 ||chiuhua.com.cn^
 ||chkfdt.com^
 ||chlbiz.com^
-||chlekoyxrbi.com^
 ||chmae.com^
 ||chmproxy.bid^
 ||chnci.com^
@@ -8042,6 +8029,7 @@ Version: 20201223182908
 ||clmcom.com^
 ||clmmw.com^
 ||clnk.me^
+||clnlyfxit.com^
 ||clnyonxgsvov.com^
 ||cloakroomobsceneredress.com^
 ||clockdisplaystoring.com^
@@ -8220,6 +8208,7 @@ Version: 20201223182908
 ||d2rnkf2kqy5m6h.cloudfront.net^
 ||d2ry9vue95px0b.cloudfront.net^
 ||d2san7t27xb2pn.cloudfront.net^
+||d2sbzwmcg5amr3.cloudfront.net^
 ||d2sucq8qh4zqzj.cloudfront.net^
 ||d2szg1g41jt3pq.cloudfront.net^
 ||d2taktuuo4oqx.cloudfront.net^
@@ -8665,8 +8654,8 @@ Version: 20201223182908
 ||colupoqy.xyz^
 ||com-wkejf32ljd23409system.net^
 ||adlog.com.com^
-||dw.com.com^
 ||dw-eu.com.com^
+||dw.com.com^
 ||rok.com.com^
 ||e.xkqpco.com.com^
 ||m.xkqpco.com.com^
@@ -9229,7 +9218,6 @@ Version: 20201223182908
 ||crypto-webminer.com^
 ||cryptoads.space^
 ||cryptobara.com^
-||cryptocoinabout.com^
 ||cryptoloot.pro^
 ||cryptomine.pro^
 ||cryptonote.club^
@@ -9247,7 +9235,6 @@ Version: 20201223182908
 ||csaimall.com^
 ||csalsylqx.com^
 ||csbew.com^
-||csbthyhh.com^
 ||csdata1.com^
 ||adaccount.csdn.net^
 ||event.csdn.net^
@@ -9361,6 +9348,7 @@ Version: 20201223182908
 ||cvqgnkeqme.com^
 ||cvtr.io^
 ||cvxctbdyjwun.com^
+||cvypzafq.com^
 ||cwandzytnzplqn.com^
 ||cweiwoydalr.com^
 ||cwgads.com^
@@ -9439,6 +9427,7 @@ Version: 20201223182908
 ||czilladx.com^
 ||czjiuding.cn^
 ||czlhgz.com^
+||xls.czliangsheng.cn^
 ||czlongle.cn^
 ||czpush.com^
 ||czpwm.com^
@@ -10169,6 +10158,7 @@ Version: 20201223182908
 ||discussneatglobe.com^
 ||diseasonal.club^
 ||diseasons.club^
+||disembarkappendix.com^
 ||dislanelibrar.top^
 ||disloquerent.site^
 ||disloquerent.website^
@@ -10583,6 +10573,7 @@ Version: 20201223182908
 ||drxrc.com^
 ||drydrum.com^
 ||dryzapsol.com^
+||drzndwmqrgra.com^
 ||dsaiwxrneawj.com^
 ||dsdsds8848.xyz^
 ||dsdydk.com^
@@ -10697,7 +10688,6 @@ Version: 20201223182908
 ||duomai.com^
 ||e.duomeng.org^
 ||duomilm.com^
-||duoqumanhua.com^
 ||duoroumao.cn^
 ||wl.duoshitong.com^
 ||static.duoshuo.com^
@@ -10737,7 +10727,7 @@ Version: 20201223182908
 ||dviiocxrl.com^
 ||dvoyy3qexr.com^
 ||dvr8.com^
-||dvszrkspd.com^
+||dvtwezyzog.com^
 ||dvuneqnrkukud.com^
 ||dvvkdxejwh.com^
 ||dvzk66.cn^
@@ -10873,6 +10863,7 @@ Version: 20201223182908
 ||eaiatlexsotxbh.com^
 ||eailczoszdrz.com^
 ||eaintrolled.info^
+||ealeo.com^
 ||ealingtimes-gb.ealingtimes.co.uk^
 ||eamob.com^
 ||cdn.adc.eamobile.com^
@@ -10985,6 +10976,7 @@ Version: 20201223182908
 ||m.ecenf.com^
 ||ecezkkrm.com^
 ||log.ecgh.dk^
+||ecgopezooczg.com^
 ||echo-news-gb.echo-news.co.uk^
 ||echoazou.com^
 ||echomilly.com^
@@ -11095,7 +11087,6 @@ Version: 20201223182908
 ||eeeqi.cn^
 ||eeftordu.net^
 ||eeghegak.com^
-||eegjpwmi.com^
 ||eegnacou.com^
 ||eekia.com^
 ||eekrooha.com^
@@ -11179,6 +11170,7 @@ Version: 20201223182908
 ||ehu96t2p.com^
 ||m.ehwhwz.cn^
 ||ehxyz.com^
+||ei4f.cn^
 ||eicularentif.club^
 ||ct.eid.co.nz^
 ||7mx.eider.com^
@@ -11200,7 +11192,6 @@ Version: 20201223182908
 ||ejirytuw.xyz^
 ||ejiur.com^
 ||ejkeshrzwoe.com^
-||ejodwopthpg.com^
 ||ejoonsoo.net^
 ||ejrhtmwm.com^
 ||ejsehjv.cn^
@@ -11224,7 +11215,6 @@ Version: 20201223182908
 ||connect.ekomi.de^
 ||ekoocmujairt.com^
 ||ia.ekstrabladet.dk^
-||ekxfupdlyst.com^
 ||dmpcdn.el-mundo.net^
 ||metrics.el-mundo.net^
 ||ela-3-tnk.com^
@@ -11483,8 +11473,8 @@ Version: 20201223182908
 ||epochokaypeerless.com^
 ||epochweekly.com^
 ||a.eporner.com^
-||dot2.eporner.com^
 ||dot.eporner.com^
+||dot2.eporner.com^
 ||eportantin.club^
 ||epouunclxehmni.com^
 ||photo.epowuxiao.cn^
@@ -11508,7 +11498,6 @@ Version: 20201223182908
 ||eqljprszxo.com^
 ||eqnqxfrxsmuy.com^
 ||eqoivockikaue.com^
-||eqrbfjwnmxpy.com^
 ||equivalentliked.com^
 ||equjalkngu.com^
 ||erabaru.net^
@@ -11638,7 +11627,6 @@ Version: 20201223182908
 ||estrack.net^
 ||estranched.top^
 ||estrangefoolish.com^
-||estream.nu^
 ||estream.to^
 ||estream.xyz^
 ||esumptive.club^
@@ -11905,7 +11893,6 @@ Version: 20201223182908
 ||eympwecfhxy.com^
 ||eynusizl.com^
 ||eyouv.cn^
-||eyrqubnodswlkw.com^
 ||eysmaa.pw^
 ||eyzu80g9xcxa.com^
 ||liveviewer.ez.no^
@@ -11944,7 +11931,6 @@ Version: 20201223182908
 ||openvpn.f2pool.com^
 ||f2zd.com^
 ||f35ec1cf813.com^
-||f378d3c6a1d.com^
 ||f3a2dc11dfb33.com^
 ||f40f89d54b8.com^
 ||f4906b7c15ba.com^
@@ -11960,7 +11946,6 @@ Version: 20201223182908
 ||f8316b45436f.com^
 ||f853150605ccb.com^
 ||f92j5.com^
-||fa00c331ceacc.com^
 ||j.faacliltate.com^
 ||faayojxf.com^
 ||fabricww.com^
@@ -12171,7 +12156,6 @@ Version: 20201223182908
 ||fdoun.com^
 ||fdrgtt9edmej010.com^
 ||fdrqqpeengzj.com^
-||fdtpyqqsnzxvt.ru^
 ||fdxdjkswppg.com^
 ||fdxstats.xyz^
 ||fe95a992e6afb.com^
@@ -12401,6 +12385,7 @@ Version: 20201223182908
 ||finistentcou.top^
 ||finitiesstaffec.top^
 ||finized.co^
+||finsbfaizzx.com^
 ||fipipo.cn^
 ||firaxtech.com^
 ||fire-push.net^
@@ -12839,7 +12824,6 @@ Version: 20201223182908
 ||frgbgwnbjkgco.com^
 ||frhbrkjgerikm2f8mjek09.com^
 ||frhoobwj.com^
-||friend17.net^
 ||friendbuy.com^
 ||friendlyduck.com^
 ||friends2follow.com^
@@ -12899,8 +12883,8 @@ Version: 20201223182908
 ||fthkmwrkqg.com^
 ||ftigken.online^
 ||creatives1.ftimg.net^
-||dolphin4.ftimg.net^
 ||dolphin.ftimg.net^
+||dolphin4.ftimg.net^
 ||ftjcfx.com^
 ||ftkbsddgbqt.com^
 ||ftklr.com^
@@ -12937,7 +12921,6 @@ Version: 20201223182908
 ||fuhuikang360.com^
 ||fuialqqq.com^
 ||i4.fuimg.com^
-||fujianryt.com^
 ||boy.fujieace.com^
 ||fukbyehdjdf.com^
 ||fukkzdxfyrchhc.com^
@@ -13051,6 +13034,7 @@ Version: 20201223182908
 ||fyredet.xyz^
 ||fyrvxydxsrww.com^
 ||fytza.cn^
+||fyzyf.com^
 ||fz5akngy5o6r.com^
 ||fz863.com^
 ||fzbymy.com^
@@ -13157,7 +13141,6 @@ Version: 20201223182908
 ||mormont.gamer-network.net^
 ||atax.gamermetrics.com^
 ||gamersad.com^
-||gamersbanner.com^
 ||click.gamersky.com^
 ||gamescarousel.com^
 ||gamesims.ru^
@@ -13480,7 +13463,6 @@ Version: 20201223182908
 ||logs.ggweb.nl^
 ||ggxt.net^
 ||cp.ggyapp.com^
-||cpv-adv.ggytc.com^
 ||ggz55268.com^
 ||ggzikbwrri.com^
 ||ghdccdtxvnpo.com^
@@ -13533,8 +13515,8 @@ Version: 20201223182908
 ||truehits3.gits.net.th^
 ||t7z.cupid.ptqy.gitv.tv^
 ||mixer.cupid.ptqy.gitv.tv^
-||msga.ptqy.gitv.tv^
 ||msg.ptqy.gitv.tv^
+||msga.ptqy.gitv.tv^
 ||store.ptqy.gitv.tv^
 ||api.cupid.ptqy.gitv.tv^
 ||givemeb33f.com^
@@ -13704,8 +13686,8 @@ Version: 20201223182908
 ||ngads.go.com^
 ||oascentral.abclocal.go.com^
 ||seavideo-ak.espn.go.com^
-||weblog2.eseoul.go.kr^
 ||weblog.eseoul.go.kr^
+||weblog2.eseoul.go.kr^
 ||go2affise.com^
 ||go2app.org^
 ||go2cloud.org^
@@ -13764,8 +13746,8 @@ Version: 20201223182908
 ||gccode.gongchang.com^
 ||gongeeta.net^
 ||gongfanglong.cn^
-||log000.goo.ne.jp^
 ||log.gs3.goo.ne.jp^
+||log000.goo.ne.jp^
 ||adcdn.goo.ne.jp^
 ||goo2anywhere.com^
 ||gooblesdd.com^
@@ -13777,6 +13759,7 @@ Version: 20201223182908
 ||goodkee.cn^
 ||goodkino.biz^
 ||goodtag.it^
+||goodwold.top^
 ||google-analytics.com^
 ||google-rank.org^
 /^(\S+\.)?adservice\.google\./
@@ -13787,9 +13770,9 @@ Version: 20201223182908
 ||www-google-analytics.l.google.com^
 ||afd.l.google.com^
 ||mobileads.google.com^
+||pagead-tpc.l.google.com^
 ||pagead.google.com^
 ||pagead.l.google.com^
-||pagead-tpc.l.google.com^
 ||googleadservices.com^
 ||googleadsl.com^
 ||googleadsserving.cn^
@@ -13798,8 +13781,8 @@ Version: 20201223182908
 ||googleapi.club^
 ||clientservices.googleapis.com^
 ||clouderrorreporting.googleapis.com^
-||firebaselogging.googleapis.com^
 ||firebaselogging-pa.googleapis.com^
+||firebaselogging.googleapis.com^
 ||imasdk.googleapis.com^
 ||footprints-pa.googleapis.com^
 ||attributiontrackingga.googlecode.com^
@@ -13874,6 +13857,7 @@ Version: 20201223182908
 ||govertedlice.club^
 ||goverua.com^
 ||govgift.com^
+||govhunan.cn^
 ||goviral-content.com^
 ||govmetric.com^
 ||superwidget-assets.gowatchit.com^
@@ -13894,11 +13878,11 @@ Version: 20201223182908
 ||gqecfgovxbj.com^
 ||gqjyzoqme.com^
 ||gqqdlckj8y.com^
+||gqrwjsjbnoayff.com^
 ||gqsgcdcxsmxw.com^
 ||gqswg.com^
 ||gqtffirr.com^
 ||gquqjrbgaghpfq.com^
-||gqusxhuexmu.com^
 ||gr8y7z1xaq30.com^
 ||grabmyads.com^
 ||grabo.bg^
@@ -14017,7 +14001,6 @@ Version: 20201223182908
 ||groomaffections.com^
 ||grooptie.com^
 ||groorgex.net^
-||aggnr.groovesharks.org^
 ||groovinads.com^
 ||group-ib.ru^
 ||groupcommerce.com^
@@ -14029,6 +14012,7 @@ Version: 20201223182908
 ||growingio.com^
 ||growltoe.com^
 ||grownuplieutenant.com^
+||growthrx.in^
 ||mo.grqf.com.cn^
 ||grt02.com^
 ||grtnahd.cn^
@@ -14071,7 +14055,6 @@ Version: 20201223182908
 ||gstats.cn^
 ||gstralpolita.info^
 ||gsvyjunccsw.com^
-||gswaelxxh.com^
 ||gsycdb.com^
 ||gsycl.top^
 ||gszbba.cn^
@@ -14144,7 +14127,6 @@ Version: 20201223182908
 ||gugeys.com^
 ||gugulonger.cn^
 ||fbapi.guguread.com^
-||guhpyglt.com^
 ||guidashu.com^
 ||m.guifei99.com^
 ||guiheng.wang^
@@ -14157,6 +14139,7 @@ Version: 20201223182908
 ||mms.gulflive.com^
 ||gulliblecamp.com^
 ||mb.gulongbbs.com^
+||gulpduereason.com^
 ||gumbolersgthb.com^
 ||gumgo.cn^
 ||gumgum.com^
@@ -14497,7 +14480,6 @@ Version: 20201223182908
 ||hbaog.com^
 ||hbatna.cn^
 ||hbbww.com^
-||hbeuwgqt.ru^
 ||hbfls.vip^
 ||hbfqcy.com^
 ||hbfxmcgazuail.com^
@@ -14529,7 +14511,6 @@ Version: 20201223182908
 ||hcenc.com^
 ||hceykfajyioqkz.com^
 ||hcg82f2b.com^
-||hcgtkmes.com^
 ||hchg89.cn^
 ||hchig.com^
 ||hchik.com^
@@ -14567,8 +14548,8 @@ Version: 20201223182908
 ||hdysed.com^
 ||hdyzx.cn^
 ||hdzkjv.cn^
-||js2.hdzog.com^
 ||js.hdzog.com^
+||js2.hdzog.com^
 ||he2d.com^
 ||he7ll.com^
 ||cl.he9630.com^
@@ -14861,7 +14842,6 @@ Version: 20201223182908
 ||hiouschron.club^
 ||hipals.com^
 ||hiperstat.com^
-||hipersushiads.com^
 ||hipfowlzeal.cam^
 ||a8ht.hipp.fr^
 ||hiprofitnetworks.com^
@@ -14931,8 +14911,8 @@ Version: 20201223182908
 ||hjc1990.com^
 ||hjgen.cn^
 ||hjgtnhierc.com^
-||hjiebsdcxldu.com^
 ||hjiec.com^
+||hjjjsurdhtt.com^
 ||hjjnpx.com^
 ||hjkl888.com^
 ||hjklf.com^
@@ -14960,7 +14940,6 @@ Version: 20201223182908
 ||hl.cn^
 ||hlads.com^
 ||hlcnzz.com^
-||hldwmly.com^
 ||hlfjvpcpkynqco.com^
 ||hlgglm.com^
 ||knb.hlgmsy.com^
@@ -15343,8 +15322,8 @@ Version: 20201223182908
 ||hulemedia.com^
 ||hulkflugarb.com^
 ||hullroleifs.com^
-||t2.hulu.com^
 ||t-ak.hulu.com^
+||t2.hulu.com^
 ||tw.i.hulu.com^
 ||vortex.hulu.com^
 ||t2.huluim.com^
@@ -15405,7 +15384,6 @@ Version: 20201223182908
 ||hvduwoozla.com^
 ||hvegent.cn^
 ||hvie6u.cn^
-||hvitcycze.com^
 ||hw6.com^
 ||hwertd.xyz^
 ||hwhiffonprotect.info^
@@ -15493,7 +15471,7 @@ Version: 20201223182908
 ||m.hyzui.com^
 ||hz-sllace.com^
 ||hz3137.com^
-||adx.hzbxm.com^
+||hzbxm.com^
 ||hzdhr.cn^
 ||hzht666.com^
 ||hzhyhm.com^
@@ -15770,8 +15748,8 @@ Version: 20201223182908
 ||igllgmtrioka.com^
 ||igloohq.com^
 ||igmsjgadiz.com^
-||geobeacon.ign.com^
 ||g.ign.com^
+||geobeacon.ign.com^
 ||ignitioninstaller.com^
 ||ignitiontigercamera.com^
 ||ignoranttools.com^
@@ -15826,6 +15804,7 @@ Version: 20201223182908
 ||ijo5g.cn^
 ||ijpheyydhw1a.com^
 ||lm.ijq.tv^
+||ijriehir.com^
 ||ijugatdyiuwxq.com^
 ||api.ijunhai.com^
 ||ijuns.com^
@@ -15853,6 +15832,7 @@ Version: 20201223182908
 ||iljmp.com^
 ||ilkleygazette-gb.ilkleygazette.co.uk^
 ||ilkmawgod.site^
+||ilkrileashes.com^
 ||ilkwork.com^
 ||illallwoe.com^
 ||illazkka.com^
@@ -15896,8 +15876,8 @@ Version: 20201223182908
 ||imetrix.it^
 ||img1122.com^
 ||img18.com^
-||ak1.imgaft.com^
 ||ak.imgaft.com^
+||ak1.imgaft.com^
 ||imgfeedget.com^
 ||imglt.com^
 ||imgpak.xyz^
@@ -15999,8 +15979,9 @@ Version: 20201223182908
 ||indecentfaces.com^
 ||t.indeed.com^
 ||sp.independentmail.com^
-||videostat.index.hu^
+||index-markets.digital^
 ||videostat-new.index.hu^
+||videostat.index.hu^
 ||index.ru^
 ||index8.cn^
 ||indexstats.com^
@@ -16180,7 +16161,6 @@ Version: 20201223182908
 ||insuf.cn^
 ||insurads.com^
 ||inswebt.com^
-||intactoffers.cl^
 ||intangibleconcordant.com^
 ||integral-marketing.com^
 ||prcappzone.intel.com^
@@ -16368,11 +16348,11 @@ Version: 20201223182908
 ||act.vip.iqiyi.com^
 ||cupid.iqiyi.com^
 ||yuedu.iqiyi.com^
+||c.uaa.iqiyi.com^
 ||cards-css.iqiyi.com^
 ||cloudpush.iqiyi.com^
 ||cm.passport.iqiyi.com^
 ||cs-feige.iqiyi.com^
-||c.uaa.iqiyi.com^
 ||dx-cards-css.iqiyi.com^
 ||emoticon-sns.iqiyi.com^
 ||emoticon.sns.iqiyi.com^
@@ -16418,7 +16398,6 @@ Version: 20201223182908
 ||irjfsrocuzwkpf.com^
 ||irkdsu.ru^
 ||irkgxjcgl.com^
-||irkuj.com^
 ||iroby.com^
 ||ironbeast.io^
 ||ironicfolks.com^
@@ -16447,7 +16426,6 @@ Version: 20201223182908
 ||iscrv.com^
 ||isekvtjiahm.com^
 ||isffnlbsuyinnv.com^
-||isfxsiooyjad.com^
 ||isgmpykwv.com^
 ||isgow.com^
 ||ishahguv.com^
@@ -16597,7 +16575,6 @@ Version: 20201223182908
 ||iyfsearch.com^
 ||iyfubh.com^
 ||iyi.net^
-||iykehvusfrt.com^
 ||iyoowi.com^
 ||iyouhu.cn^
 ||iyozokiz.xyz^
@@ -16728,11 +16705,11 @@ Version: 20201223182908
 ||knicks.jd.com^
 ||mars.jd.com^
 ||x.jd.com^
-||cm.jd.com^
 ||c-nfa.jd.com^
+||cm.jd.com^
 ||du.jd.com^
-||img-x.jd.com^
 ||im-x.jd.com^
+||img-x.jd.com^
 ||jrad.jd.com^
 ||jrclick.jd.com^
 ||jzt.jd.com^
@@ -16753,7 +16730,6 @@ Version: 20201223182908
 ||jdlcg.cn^
 ||jdlhg.com^
 ||jdoqocy.com^
-||jdpqtgvzsoy.com^
 ||jdrftaau.com^
 ||jdtracker.com^
 ||jduiv.com^
@@ -16880,8 +16856,8 @@ Version: 20201223182908
 ||jiaqingli.cn^
 ||static.jiaquyi.com^
 ||jiasdart.cn^
-||id.jiathis.com^
 ||i.jiathis.com^
+||id.jiathis.com^
 ||lc.jiathis.com^
 ||v2.jiathis.com^
 ||v3.jiathis.com^
@@ -17131,7 +17107,6 @@ Version: 20201223182908
 ||josephcalculatedsewer.com^
 ||josipr.com^
 ||t.jossandmain.com^
-||josxzdszqaivb.com^
 ||jotchept.com^
 ||events.jotform.com^
 ||jotrening.com^
@@ -17158,7 +17133,6 @@ Version: 20201223182908
 ||jpush.io^
 ||jpushoa.com^
 ||jpuv.cn^
-||jpvmwnnwuzo.com^
 ||jpyoikrzrjcap.com^
 ||jqamhmztnukb.com^
 ||jqassets.do^
@@ -17173,7 +17147,6 @@ Version: 20201223182908
 ||jqpvv.cn^
 ||jqrbypfxzvkep.com^
 ||jqrcdn.do^
-||jqrnfkttwfxbcu.com^
 ||jqsex.com^
 ||jquerrycdn.do^
 ||jquery-cdn.do^
@@ -17184,6 +17157,7 @@ Version: 20201223182908
 ||jqwww.do^
 ||jqz9.com^
 ||jqzlmjaph.com^
+||jrarnqfvjijaa.com^
 ||zaoyx.jrchiji.cn^
 ||jrdkc.com^
 ||jrhaigou.com^
@@ -17236,6 +17210,7 @@ Version: 20201223182908
 ||jssumei.cn^
 ||jsszxx.com^
 ||jstdjq.com^
+||jsth999.com^
 ||jstracker.com^
 ||gp.jstv.com^
 ||tm.jsuol.com.br^
@@ -17362,7 +17337,6 @@ Version: 20201223182908
 ||img.jwgro.com^
 ||jwhfn.cn^
 ||jwiyr.com^
-||jwmnryeoc.com^
 ||jwmstats.com^
 ||jwmwtcmexc.com^
 ||jwpcdn.com^
@@ -17690,7 +17664,6 @@ Version: 20201223182908
 ||kguke.com^
 ||kgvzesfexmenm.com^
 ||kgxnaenrozyuh.com^
-||kgzcentyfo.com^
 ||kh2134.com^
 ||m.khaiu.com^
 ||khewwakrywmgxr.com^
@@ -18039,7 +18012,6 @@ Version: 20201223182908
 ||kuaizitech.com^
 ||kop.whwlldjeasd.kuaizq.com^
 ||nice.kuaizq.com^
-||kuaizuoffice.com^
 ||m1.kuanff.com^
 ||kuangtuiguoo18888.com^
 ||kubam.cn^
@@ -18059,8 +18031,8 @@ Version: 20201223182908
 ||gad.kugou.com^
 ||game.kugou.com^
 ||gcapi.sy.kugou.com^
-||install2.kugou.com^
 ||install.kugou.com^
+||install2.kugou.com^
 ||kgmobilestat.kugou.com^
 ||log.web.kugou.com^
 ||minidcsc.kugou.com^
@@ -18107,10 +18079,11 @@ Version: 20201223182908
 ||kustaucu.com^
 ||kutjilsi.com^
 ||s1.kutongji.com^
+||kuuad.com^
 ||deliver.kuwo.cn^
 ||ecomgxh.kuwo.cn^
-||log1.kuwo.cn^
 ||log.kuwo.cn^
+||log1.kuwo.cn^
 ||c.kuwo.cn^
 ||g.kuwo.cn^
 ||kwmsg.kuwo.cn^
@@ -18127,7 +18100,6 @@ Version: 20201223182908
 ||kvhnsbkhxhlgkv.com^
 ||kvhwrotf.com^
 ||ga.kvideo.io^
-||kvirgytkit.com^
 ||kvpizvilvz.com^
 ||kvygpqttzqhhl.com^
 ||api.kwaizt.com^
@@ -18141,7 +18113,6 @@ Version: 20201223182908
 ||v1.kwpewga.cn^
 ||kwwxnzcielmpy.com^
 ||kwzmlceez.com^
-||kxbpvlptnkrqvt.com^
 ||kxewpz.com^
 ||kxhie.com^
 ||kxicxovlajgoct.com^
@@ -18361,7 +18332,6 @@ Version: 20201223182908
 ||lcrmm.top^
 ||lcryooiliokm.com^
 ||lcvfar.com^
-||lcvofuqxovcao.com^
 ||lcwfab1.com^
 ||lcwfab2.com^
 ||lcwfab3.com^
@@ -18387,7 +18357,7 @@ Version: 20201223182908
 ||ldutvi.com^
 ||ldvatxaqcd.com^
 ||ldwidentconc.space^
-||api.push.le.com^
+||ldxdpitoeox.com^
 ||le123.cn^
 ||le4le.com^
 ||lead-123.com^
@@ -18551,7 +18521,6 @@ Version: 20201223182908
 ||letheyemo.site^
 ||letreach.com^
 ||letro.jp^
-||letsdoarbitrage.com^
 ||letsgetsocialnow.com^
 ||letsinfospree.com^
 ||letterboxtrail.com^
@@ -18895,6 +18864,7 @@ Version: 20201223182908
 ||lkjdwmhuqxupef.com^
 ||lkme.cc^
 ||lknbffkv.com^
+||lkpwmhjfvpctw.com^
 ||lkqd.net^
 ||lkrojmvmxxqze.com^
 ||lkskkssuoa.com^
@@ -19022,7 +18992,6 @@ Version: 20201223182908
 ||logxp.ru^
 ||logystowtencon.info^
 ||logz.ru^
-||lohappbnrpgypu.com^
 ||sp.lohud.com^
 ||sls2.loisirsencheres.com^
 ||loktrk.com^
@@ -19054,7 +19023,7 @@ Version: 20201223182908
 ||lookery.com^
 ||lookit-quick.com^
 ||lookit.cz^
-||cntr.lookmovie.ag^
+||cntr.lookmovie.io^
 ||lookmy.info^
 ||looksmart.com^
 ||loomufie.com^
@@ -19148,8 +19117,8 @@ Version: 20201223182908
 ||lrjglcmgbf.com^
 ||lrkvionrsnlc.com^
 ||lrswl.com^
+||lruvvletnhv.com^
 ||lrwwnbjiv.com^
-||lryfmcok.com^
 ||lsad.net^
 ||lsailington.club^
 ||lsawards.com^
@@ -19163,7 +19132,6 @@ Version: 20201223182908
 ||lslzdwmxvbxztr.com^
 ||lsper.top^
 ||lssqxbj.cn^
-||lstkchbeoey.com^
 ||news-log.lsttnews.com^
 ||lsxmg.com^
 ||ltcprtc.com^
@@ -19221,6 +19189,7 @@ Version: 20201223182908
 ||luotediao.net^
 ||luoyuanedu.cn^
 ||lupoot.com^
+||luqafzbdscd.com^
 ||luravius.com^
 ||lushcrush.com^
 ||lusrg.cn^
@@ -19290,7 +19259,6 @@ Version: 20201223182908
 ||lx2rv.com^
 ||lxgoewxns.com^
 ||lxhkqjqpswhg.com^
-||lxind.cn^
 ||lxoakdaejjryws.com^
 ||lxqcgj.com^
 ||lxting.com^
@@ -19455,6 +19423,7 @@ Version: 20201223182908
 ||maibahe300cc.com^
 ||maicaoren.cn^
 ||m.maiduoer.com^
+||bad.maienyanjing.cn^
 ||maihaimo.com^
 ||maihehd.com^
 ||maikuque.net^
@@ -19491,7 +19460,6 @@ Version: 20201223182908
 ||makecashtakingsurveys.biz^
 ||makeding.com^
 ||makedosupport.club^
-||bdjj.makepolo.net^
 ||makeupworddisparage.com^
 ||malakasonline.com^
 ||maldonandburnhamstandard-gb.maldonandburnhamstandard.co.uk^
@@ -19908,6 +19876,7 @@ Version: 20201223182908
 ||crayon.meishichina.com^
 ||ma1.meishij.net^
 ||ma2.meishij.net^
+||meiti1.net^
 ||meitissp.com^
 ||tuiguang.meitu.com^
 ||adui.tg.meitu.com^
@@ -19964,7 +19933,6 @@ Version: 20201223182908
 ||mendoc.cn^
 ||mendprayer.com^
 ||t.menepe.com^
-||dodi.meng-an.cn^
 ||meng1216.com^
 ||mengbingyuan.com^
 ||mengbli.com^
@@ -20062,7 +20030,9 @@ Version: 20201223182908
 ||ee.mfufanj.cn^
 ||m.mfufanj.cn^
 ||mfwjyreguafi.com^
+||mg17i.cn^
 ||mg2connext.com^
+||mgc-games.com^
 ||mgcash.com^
 ||mgcashgate.com^
 ||1.mgff.com^
@@ -20085,16 +20055,16 @@ Version: 20201223182908
 ||cmop.mgtv.com^
 ||imgaliyun.da.mgtv.com^
 ||imgaliyun.res.mgtv.com^
-||m2.da.mgtv.com^
 ||m.da.mgtv.com^
+||m2.da.mgtv.com^
 ||mobaliyun.res.mgtv.com^
-||mobile2.da.mgtv.com^
 ||mobile.da.mgtv.com^
+||mobile2.da.mgtv.com^
+||ott.da.mgtv.com^
 ||ott2.da.mgtv.com^
 ||ott3.da.mgtv.com^
-||ott.da.mgtv.com^
-||pc1.da.mgtv.com^
 ||pc.da.mgtv.com^
+||pc1.da.mgtv.com^
 ||pcvideoaliyun.titan.mgtv.com^
 ||pcweb-v1.log.mgtv.com^
 ||pcweb.v1.mgtv.com^
@@ -20102,8 +20072,8 @@ Version: 20201223182908
 ||v1-play.log.mgtv.com^
 ||v2.da.mgtv.com^
 ||v2.log.mgtv.com^
-||web2.da.mgtv.com^
 ||web.da.mgtv.com^
+||web2.da.mgtv.com^
 ||x.da.mgtv.com^
 ||y.da.mgtv.com^
 ||ynet.da.mgtv.com^
@@ -20186,9 +20156,9 @@ Version: 20201223182908
 ||statsfe1.ws.microsoft.com^
 ||statsfe2.ws.microsoft.com^
 ||telemetry.urs.microsoft.com^
-||vortex.data.microsoft.com^
 ||vortex-sandbox.data.microsoft.com^
 ||vortex-win-sandbox.data.microsoft.com^
+||vortex.data.microsoft.com^
 ||mobile.pipe.aria.microsoft.com^
 ||events.data.microsoft.com^
 ||microsoftaffiliates.net^
@@ -20285,6 +20255,7 @@ Version: 20201223182908
 ||mingysh.com^
 ||mingyueqingfengshe.com^
 ||miniatureabhor.com^
+||minimumkilledupdated.com^
 ||minimumpay.info^
 ||mining.be^
 ||mining.best^
@@ -20441,7 +20412,6 @@ Version: 20201223182908
 ||i.mmcdn.cn^
 ||mmeexisten.club^
 ||mmfusheng.com^
-||mmfvtvdqlwxyj.com^
 ||mmgads.com^
 ||mmhhjt.com^
 ||mmi-agency.com^
@@ -20574,8 +20544,8 @@ Version: 20201223182908
 ||log.moji.com^
 ||app.moji001.com^
 ||ugc.moji001.com^
-||cdn2.moji002.com^
 ||cdn.moji002.com^
+||cdn2.moji002.com^
 ||mojigaga.com^
 ||mojiva.com^
 ||mojoaffiliates.com^
@@ -20609,7 +20579,6 @@ Version: 20201223182908
 ||monetate.net^
 ||monetizer101.com^
 ||monetizze.com.br^
-||money-maker-script.info^
 ||money4ads.com^
 ||moneycosmos.com^
 ||moneymakercdn.com^
@@ -20675,6 +20644,7 @@ Version: 20201223182908
 ||morgdm.ru^
 ||morguecountryportray.com^
 ||moritava.com^
+||morningpiggy.com^
 ||morozhko.club^
 ||mors22.com^
 ||mortalunacceptable.com^
@@ -20832,16 +20802,16 @@ Version: 20201223182908
 ||expdb2.msn.com^
 ||partner.video.syndication.msn.com^
 ||proxypage.msn.com^
+||r.msn.com^
 ||rad.msn.com^
 ||rel.msn.com^
-||r.msn.com^
 ||srtb.msn.com^
 ||ads1.msn.com^
 ||ads2.msn.com^
 ||ac3.msn.com^
 ||adsyndication.msn.com^
-||catalog.video.msn.com^
 ||c.msn.com^
+||catalog.video.msn.com^
 ||h.msn.com^
 ||mobileads.msn.com^
 ||otf.msn.com^
@@ -20868,8 +20838,8 @@ Version: 20201223182908
 ||mtburn.com^
 ||mtcat.cn^
 ||mtezigrrabk.com^
-||log2.mtime.cn^
 ||log.mtime.cn^
+||log2.mtime.cn^
 ||logx.mtime.cn^
 ||logx.mtime.com^
 ||advert.mting.info^
@@ -20950,7 +20920,6 @@ Version: 20201223182908
 ||mutinyhq.com^
 ||mutinyhq.io^
 ||muttonvalet.com^
-||mutuza.win^
 ||muvflix.com^
 ||muvimtim.com^
 ||muyoozrkkyr.com^
@@ -20968,7 +20937,6 @@ Version: 20201223182908
 ||eur3.mvjcdn.com^
 ||mvtracker.com^
 ||mwhjamwra.com^
-||mwhtoxix.com^
 ||mwor.gq^
 ||mwslcqfoifw.com^
 ||mwstats.net^
@@ -21137,7 +21105,6 @@ Version: 20201223182908
 ||mz28ismn.com^
 ||mzcsdf.com^
 ||mzlit.com^
-||mzmtpdcouoa.com^
 ||mzol7lbm.com^
 ||aries.mzres.com^
 ||mzvwhksbwnj.com^
@@ -21263,8 +21230,8 @@ Version: 20201223182908
 ||sp.naver.com^
 ||veta.naver.com^
 ||wcs.naver.com^
-||adcreative.naver.com^
 ||adcr.naver.com^
+||adcreative.naver.com^
 ||adimg3.search.naver.net^
 ||naveretoolmes.com^
 ||navigator.io^
@@ -21309,7 +21276,6 @@ Version: 20201223182908
 ||ncefoundanges.info^
 ||nchap.com^
 ||nchte.com^
-||nchxiaxafowid.com^
 ||ncialappropo.site^
 ||ncilityinflati.club^
 ||nckjysyk.com^
@@ -21364,6 +21330,7 @@ Version: 20201223182908
 ||nedstat.net^
 ||nedstatbasic.net^
 ||nedstatpro.net^
+||neechube.net^
 ||neechuce.net^
 ||ct.needlive.com^
 ||neenaist.net^
@@ -21534,6 +21501,7 @@ Version: 20201223182908
 ||tmisc.home.news.cn^
 ||webd.home.news.cn^
 ||tags.news.com.au^
+||news02.biz^
 ||news07.biz^
 ||news19.biz^
 ||news2day.me^
@@ -21594,8 +21562,8 @@ Version: 20201223182908
 ||useg.nextdigital.com.hk^
 ||edmi.nextinpact.com^
 ||pam.nextinpact.com^
-||rel2.nextinpact.com^
 ||rel.nextinpact.com^
+||rel2.nextinpact.com^
 ||tim.nextinpact.com^
 ||zam.nextinpact.com^
 ||nextlandingads.com^
@@ -21711,8 +21679,8 @@ Version: 20201223182908
 ||nimsepee.net^
 ||ninaning.com^
 ||nindonsenat.club^
-||adc.api.nine.com.au^
 ||adc-js.nine.com.au^
+||adc.api.nine.com.au^
 ||adc.nine.com.au^
 ||omni.nine.com.au^
 ||ninebox.cn^
@@ -21802,6 +21770,7 @@ Version: 20201223182908
 ||nlcriuncacyys.com^
 ||nlkspjjcxyvr.com^
 ||nlqnmkn.cn^
+||nlteopgkeb.com^
 ||nlwy0.com^
 ||nlyjs2015.com^
 ||nlz0ini5uz9t.com^
@@ -21815,8 +21784,8 @@ Version: 20201223182908
 ||nmentsim.club^
 ||nmentthoutintellin.info^
 ||ctr-iwb.nmg.de^
-||ctr.nmg.de^
 ||ctr-opc.nmg.de^
+||ctr.nmg.de^
 ||nmkgs.cn^
 ||nmldqncelrpht.com^
 ||nmlhkj.com^
@@ -21968,12 +21937,12 @@ Version: 20201223182908
 ||sxcdn02.now.sh^
 ||sxcdn4.now.sh^
 ||sxcdn6.now.sh^
-||coincharts.now.sh^
-||coinhive-proxy-renxoslote.now.sh^
 ||coin-hive-stratum-bqywuwxwij.now.sh^
 ||coin-hive-stratum-cilswgfvet.now.sh^
 ||coin-hive-stratum-fcwcduvpjs.now.sh^
 ||coin-hive-stratum-yvvbqoavck.now.sh^
+||coincharts.now.sh^
+||coinhive-proxy-renxoslote.now.sh^
 ||coins.now.sh^
 ||coinstash1.now.sh^
 ||nunu-001.now.sh^
@@ -22016,7 +21985,6 @@ Version: 20201223182908
 ||nqtqrnfzvp.com^
 ||m.nqut.cn^
 ||nqwkzvqwa.com^
-||nqzmumesrbiy.com^
 ||nr-data.net^
 ||nr1234.com^
 ||nr7.us^
@@ -22093,7 +22061,6 @@ Version: 20201223182908
 ||nthsvpcd.com^
 ||nthtcs.com^
 ||jsjs.nthyn.com^
-||nticqzrucdg.com^
 ||ntierabery.club^
 ||eed.ntjrh.com^
 ||ntkjbweenycfq.com^
@@ -22284,7 +22251,6 @@ Version: 20201223182908
 ||oazbtactg.com^
 ||obahet.com^
 ||obaukads.com^
-||obboob.cn^
 ||obefjbb4mykw.com^
 ||obeip.com^
 ||obeus.com^
@@ -22335,14 +22301,12 @@ Version: 20201223182908
 ||odwofgksbcyoh.com^
 ||odysseus-nua.com^
 ||oebadu.com^
-||oecxrvamnvc.com^
 ||oedoxundnibwc.com^
 ||oefyjdykepx.com^
 ||oegzbchydxbjkz.com^
 ||oei1.gq^
 ||oende.cn^
 ||oeocriaq.cn^
-||oesnw.com^
 ||oeuanvyte.com^
 ||oevery.com^
 ||oevltdvzl.com^
@@ -22498,7 +22462,6 @@ Version: 20201223182908
 ||ometria.com^
 ||omfortsex.club^
 ||omg2.com^
-||omgnjvrjgpeg.com^
 ||omgpm.com^
 ||omguk.com^
 ||omiki.com^
@@ -22830,7 +22793,6 @@ Version: 20201223182908
 ||osdata.solutions^
 ||osdiqyuesejd.com^
 ||oselyprepartie.info^
-||osevrgzpsu.com^
 ||osiaffiliate.com^
 ||osidf.xyz^
 ||osimym.com^
@@ -22901,6 +22863,7 @@ Version: 20201223182908
 ||oulipiste.xyz^
 ||ouloutso.net^
 ||oultuwee.net^
+||oulvtrip.com^
 ||oumazg.com^
 ||ouncialliberte.site^
 ||ountapaveralle.info^
@@ -22925,8 +22888,8 @@ Version: 20201223182908
 ||oushenoo.net^
 ||ouslayer.co^
 ||ouslyrappre.club^
-||g2.ousns.net^
 ||g.ousns.net^
+||g2.ousns.net^
 ||ousseventi.info^
 ||oustoope.com^
 ||outbalancecapitalist.com^
@@ -23005,11 +22968,11 @@ Version: 20201223182908
 ||oxi23.cn^
 ||oxidy.com^
 ||oxipkvzcdzh.com^
-||oxpvwliy.com^
 ||oxrm.com^
 ||oxsng.com^
 ||oxtowerbus.club^
 ||oxtracking.com^
+||oxwwoeukjispema.ru^
 ||oxybe.com^
 ||osd.oxygem.it^
 ||oxygenpurpleairtight.com^
@@ -23035,9 +22998,9 @@ Version: 20201223182908
 ||ozora.work^
 ||ozrdgjalmch.com^
 ||ozrmnwplx.com^
+||ozsriqitazi.com^
 ||deliver.oztam.com.au^
 ||oztpeloyj.com^
-||ozugzufdxniu.com^
 ||ozvxadosic.com^
 ||ozwjhdler.com^
 ||p-advg.com^
@@ -23085,6 +23048,7 @@ Version: 20201223182908
 ||padsreds.com^
 ||padstm.com^
 ||paerst.cn^
+||pagaynrbee.com^
 ||page-hit.de^
 ||page.tl^
 ||page2rss.com^
@@ -23228,6 +23192,7 @@ Version: 20201223182908
 ||banners.passiondollars.com^
 ||passionfruitads.com^
 ||passive-earner.com^
+||passiveinitialclass.com^
 ||passivemarcoanyhow.com^
 ||passtechusa.com^
 ||passwz.com^
@@ -23314,7 +23279,6 @@ Version: 20201223182908
 ||33.pcpop.com^
 ||ashow.pcpop.com^
 ||count.pcpop.com^
-||pcrhfkuwp.com^
 ||pcskkmgjnubi.com^
 ||pcspeedup.com^
 ||uuu.pctowap.com^
@@ -23401,6 +23365,7 @@ Version: 20201223182908
 ||pepper.com^
 ||pepperjam.com^
 ||pepperjamnetwork.com^
+||peppy2lon1g1stalk.com^
 ||pepsgolfsintake.com^
 ||pepsico.com.cn^
 ||perceivecatastrophe.com^
@@ -23488,7 +23453,6 @@ Version: 20201223182908
 ||pgmrko89prom.com^
 ||pgonews.pro^
 ||pgpartner.com^
-||pgpfdravejq.com^
 ||pgpszwldfpc.com^
 ||pgpyce.com^
 ||pgradualirelev.info^
@@ -23529,8 +23493,8 @@ Version: 20201223182908
 ||s3.phluant.com^
 ||mdn1.phluantmobile.net^
 ||mdn2.phluantmobile.net^
-||mdn3origin.phluantmobile.net^
 ||mdn3.phluantmobile.net^
+||mdn3origin.phluantmobile.net^
 ||phmcgeqjticzbd.com^
 ||phoakrun.net^
 ||phoaksiw.com^
@@ -23707,7 +23671,6 @@ Version: 20201223182908
 ||pjchkuksy.com^
 ||pjcn.org^
 ||pjnjskdvmbnup.com^
-||pjshw.cn^
 ||pjtra.com^
 ||pv.pjtsu.com^
 ||pjtymy.cn^
@@ -23724,8 +23687,6 @@ Version: 20201223182908
 ||pkesports.cn^
 ||pkgebysm.com^
 ||pkhhyool.com^
-||pkirdfqe.com^
-||pklaowdpzwflvr.com^
 ||pkmkkjwknvf.com^
 ||accounts.pkr.com^
 ||pkscjfqekfahb.com^
@@ -23834,8 +23795,8 @@ Version: 20201223182908
 ||u45.pnc.com^
 ||u46.pnc.com^
 ||u47.pnc.com^
-||100.pncdn.cn^
 ||1.pncdn.cn^
+||100.pncdn.cn^
 ||pnd.gs^
 ||pndelfast.com^
 ||pnhdnlrzwu.com^
@@ -24048,8 +24009,8 @@ Version: 20201223182908
 ||powergg.top^
 ||powerjobs.com^
 ||powerlinks.com^
-||t.powerreviews.com^
 ||t-staging.powerreviews.com^
+||t.powerreviews.com^
 ||powisgadhot.com^
 ||poxaharap.com^
 ||poxeemso.com^
@@ -24137,7 +24098,6 @@ Version: 20201223182908
 ||prayuserparka.com^
 ||prazpf.cn^
 ||prchecker.info^
-||prcymjchczmbjj.com^
 ||preadyaggrego.club^
 ||prebid.org^
 ||precisionclick.com^
@@ -24673,7 +24633,6 @@ Version: 20201223182908
 ||media.pussycash.com^
 ||pussyeatingclub.com^
 ||pussyeatingclubcams.com^
-||pussyspace.com^
 ||pusure.com^
 ||putags.com^
 ||putanapartners.com^
@@ -24792,7 +24751,6 @@ Version: 20201223182908
 ||qcl777.com^
 ||report.qcloud.com^
 ||car.qcmrjx.com^
-||qcnrblgdonypg.com^
 ||qcsfxv.cn^
 ||qcupup.com^
 ||m.qcw.com^
@@ -25001,7 +24959,6 @@ Version: 20201223182908
 ||qkspafpgg.com^
 ||qksrv.net^
 ||qksz.net^
-||qkvklknzycrgo.com^
 ||qkxlyg.cn^
 ||qkxmnpxtr.com^
 ||qkykxrm.cn^
@@ -25016,8 +24973,8 @@ Version: 20201223182908
 ||qlitics.com^
 ||qloer.com^
 ||gu.qlogo.cn^
-||py2.qlogo.cn^
 ||py.qlogo.cn^
+||py2.qlogo.cn^
 ||qlonglong.com^
 ||qlssbq.cn^
 ||qlzn6i1l.com^
@@ -25034,7 +24991,6 @@ Version: 20201223182908
 ||qmovnrphbgqr.com^
 ||qmvezbh0l28w.com^
 ||qmxkmsmkjxlar.com^
-||qmzwcrordyc.com^
 ||qn-5.com^
 ||qnageoh3ns.com^
 ||a.qncye.net^
@@ -25042,7 +24998,6 @@ Version: 20201223182908
 ||qneit.com^
 ||qnemxzckwx.com^
 ||qneowzuyfzyfs.com^
-||qnfpskgtzkw.com^
 ||qnnawbvdyuql.com^
 ||advertisement.glb.qnniu.com^
 ||qnpov.cn^
@@ -25076,8 +25031,8 @@ Version: 20201223182908
 ||adsrich.qq.com^
 ||adss.video.qq.com^
 ||adstextview.qq.com^
-||adsview2.qq.com^
 ||adsview.qq.com^
+||adsview2.qq.com^
 ||adver.qq.com^
 ||aegis.qq.com^
 ||aeventlog.beacon.qq.com^
@@ -25086,16 +25041,16 @@ Version: 20201223182908
 ||analy.qq.com^
 ||api.youtu.qq.com^
 ||appchannel.html5.qq.com^
-||astrategy.beacon.qq.com^
 ||as.weixin.qq.com^
+||astrategy.beacon.qq.com^
 ||bkcommdata.v.qq.com^
 ||bksoup.v.qq.com^
 ||bsrv.qq.com^
 ||btrace.qq.com^
 ||btrace.video.qq.com^
 ||bugly.qq.com^
-||commdata.v.qq.com^
 ||c.ssp.qq.com^
+||commdata.v.qq.com^
 ||d3g.qq.com^
 ||data.qq.com^
 ||detect.mb.qq.com^
@@ -25109,9 +25064,9 @@ Version: 20201223182908
 ||huatuo.qq.com^
 ||iask.qq.com^
 ||isdspeed.qq.com^
+||wit.qq.com^
 ||jqmt.qq.com^
 ||jsapi.html5.qq.com^
-||wit.qq.com^
 ||life.html5.qq.com^
 ||log.tbs.qq.com^
 ||market.m.qq.com^
@@ -25163,8 +25118,8 @@ Version: 20201223182908
 ||xmaterial.tu.qq.com^
 ||zhizi.qq.com^
 ||2052.flash2-http.qq.com^
-||activeqq.3g.qq.com^
 ||act.qq.com^
+||activeqq.3g.qq.com^
 ||adfilter.imtt.qq.com^
 ||adsense.html5.qq.com^
 ||adsfile.qq.com^
@@ -25174,12 +25129,12 @@ Version: 20201223182908
 ||appsupport.qq.com^
 ||bs.l.qq.com^
 ||bugreportv2.qq.com^
+||c.l.qq.com^
 ||c2.l.qq.com^
 ||cb.l.qq.com^
 ||cdn.ark.qq.com^
 ||cfg.imtt.qq.com^
 ||client.show.qq.com^
-||c.l.qq.com^
 ||cm.l.qq.com^
 ||dir.minigame.qq.com^
 ||download.sj.qq.com^
@@ -25220,16 +25175,16 @@ Version: 20201223182908
 ||news.l.qq.com^
 ||news.mpush.qq.com^
 ||novelsns.html5.qq.com^
-||openapi.guanjia.qq.com^
 ||op.ssp.qq.com^
+||openapi.guanjia.qq.com^
+||p.l.qq.com^
+||p.store.qq.com^
 ||p2.l.qq.com^
 ||p3.l.qq.com^
 ||pcbrowser.dd.qq.com^
 ||pinghot.qq.com^
-||p.l.qq.com^
 ||pmir.3g.qq.com^
 ||pms.mb.qq.com^
-||p.store.qq.com^
 ||push.pgl.qq.com^
 ||pvstat.html5.qq.com^
 ||qqshow2-item.qq.com^
@@ -25241,18 +25196,18 @@ Version: 20201223182908
 ||setting.snswin.qq.com^
 ||showwxml.qq.com^
 ||soft.tbs.imtt.qq.com^
+||t.l.qq.com^
+||t.sj.qq.com^
 ||ta.qq.com^
 ||tdc.qq.com^
 ||tj.b.qq.com^
 ||tj.video.qq.com^
-||t.l.qq.com^
 ||tpush.html5.qq.com^
-||t.sj.qq.com^
 ||u.l.qq.com^
 ||union.discuz.qq.com^
 ||updatecenter.qq.com^
-||user1.game.qq.com^
 ||us.l.qq.com^
+||user1.game.qq.com^
 ||vd.l.qq.com^
 ||video.ureport.push.qq.com^
 ||wap.mpush.qq.com^
@@ -25280,15 +25235,14 @@ Version: 20201223182908
 ||s.qqhpg.com^
 ||qqhuhu.com^
 ||qqiat.com^
-||qqipjtzgo.com^
 ||a1.qqjay.com^
-||qqkxrlzaaul.com^
 ||qqm98.com^
 ||kn.qqqmdq.com^
 ||qqqmnopcixyi.com^
 ||qqqwes.com^
 ||js.qqsort.com^
 ||a1.qqtn.com^
+||qqtqicbvrwg.com^
 ||qqtx.me^
 ||hao.qquu8.com^
 ||img1.qqwangming6.com^
@@ -25339,11 +25293,9 @@ Version: 20201223182908
 ||qtdfg.com^
 ||qtmojo.cn^
 ||qtmojo.com^
-||qtsyxyakun.com^
 ||qttbfdygj.com^
 ||qttmjwno.com^
 ||qtupscp.tw^
-||qtwadryxicx.com^
 ||quadasdata.cn^
 ||quadran.eu^
 ||quadrinhoseroticos.net^
@@ -25434,7 +25386,6 @@ Version: 20201223182908
 ||quxveblgxgsi.com^
 ||quyaoya.com^
 ||quyejianzhan.tech^
-||quyxxofx.com^
 ||qvfwckuehf.com^
 ||qvmgjhspiebe.com^
 ||qvnlejvkkicf.com^
@@ -25469,12 +25420,12 @@ Version: 20201223182908
 ||feedback.qy.net^
 ||msg.qy.net^
 ||msgv6.qy.net^
+||qybzvfvqzpmxpu.com^
 ||qycjrkfzx.com^
 ||qyctj.com^
 ||qydhjirz.com^
 ||hades.qyer.com^
 ||qyhwqie.cn^
-||qyillxuyjdlmh.com^
 ||qyixifzol.com^
 ||qylxeorawht.com^
 ||qyqc4s.com^
@@ -25524,8 +25475,8 @@ Version: 20201223182908
 ||r8nr2lzeqakd.com^
 ||r932o.com^
 ||a.raasnet.com^
-||p0.raasnet.com^
 ||p.raasnet.com^
+||p0.raasnet.com^
 ||a2.rabbitpre.com^
 ||rablecerta.club^
 ||raccourir.xyz^
@@ -25614,8 +25565,6 @@ Version: 20201223182908
 ||rapt.com^
 ||t.raptorsmartadvisor.com^
 ||raqrhomcbhrzvl.com^
-||rarbgunblock.com^
-||rarbgunblocked.org^
 ||rareru.ru^
 ||raresummer.com^
 ||rarseene.com^
@@ -25669,7 +25618,6 @@ Version: 20201223182908
 ||d.rcmd.jp^
 ||rcogzcsan.com^
 ||rcsmetrics.it^
-||rcudacimrqdlk.com^
 ||rcurn.com^
 ||rcvhzfcnja.com^
 ||rcvlink.com^
@@ -25911,7 +25859,6 @@ Version: 20201223182908
 ||relap.io^
 ||relappro.com^
 ||relatedweboffers.com^
-||relaxspace.com.cn^
 ||relead.com^
 ||releasurezesa.site^
 ||relestar.com^
@@ -26274,7 +26221,6 @@ Version: 20201223182908
 ||rktch.com^
 ||rktu.com^
 ||rkvduvtdz.com^
-||rl972.cn^
 ||rlcciwjyl.com^
 ||rlcdn.com^
 ||rlets.com^
@@ -26287,7 +26233,6 @@ Version: 20201223182908
 ||rmawm7mw.top^
 ||rmbn.net^
 ||post.rmbn.ru^
-||rmcxw.net^
 ||rmedessents.club^
 ||rmetop.com^
 ||rmgserving.com^
@@ -26840,7 +26785,6 @@ Version: 20201223182908
 ||sbgsodufuosmmvsdf.info^
 ||m.sbief.com^
 ||sbietlbug.com^
-||sbiim.com^
 ||sbiotiatingf.club^
 ||sblcjzjp.com^
 ||sblftg.com^
@@ -26954,7 +26898,6 @@ Version: 20201223182908
 ||sdfjtwp.com^
 ||sdfsdvc.com^
 ||sdgreg.cn^
-||sdgvzdksjbl.com^
 ||sdhfbvd.com^
 ||sdhzstone.net^
 ||518.sdinfo.net^
@@ -27237,7 +27180,6 @@ Version: 20201223182908
 ||geobanner.sexfinder.com^
 ||sexflirtbook.com^
 ||sexiba.com^
-||sexilbbpnc.com^
 ||sexintheuk.com^
 ||sexitnow.com^
 ||sexlist.com^
@@ -27253,7 +27195,6 @@ Version: 20201223182908
 ||sexvertise.com^
 ||sexy-ch.com^
 ||sexy-more.com^
-||sexykittenporn.com^
 ||sexystat.com^
 ||fimg-resp.seznam.cz^
 ||sezvc.com^
@@ -27308,6 +27249,7 @@ Version: 20201223182908
 ||shalleda.com^
 ||shama5.com^
 ||app.shandjj.com^
+||shandongkuntuo.com^
 ||bdjs.shangc.net^
 ||dai18.shangc.net^
 ||b17.shangc.net^
@@ -27527,7 +27469,7 @@ Version: 20201223182908
 ||shujuwu.com^
 ||shunlige.com^
 ||shunxinyuancaiwu.cn^
-||ut2.shuqistat.com^
+||shuqistat.com^
 ||shuqw.com^
 ||shusacem.net^
 ||a1.shusanqi.com^
@@ -27819,7 +27761,6 @@ Version: 20201223182908
 ||skatehot.net^
 ||skeettools.com^
 ||skexyyqu.com^
-||skgnohfvkrcn.com^
 ||skimresources.com^
 ||skinected.com^
 ||ski1.skiset.com^
@@ -27877,6 +27818,7 @@ Version: 20201223182908
 ||slingpic.com^
 ||slinse.com^
 ||slivercommander.cn^
+||sljkj.com^
 ||sloansagnersro.com^
 ||sloeri.com^
 ||slogantrend.de^
@@ -28154,8 +28096,8 @@ Version: 20201223182908
 ||softwebzone.com^
 ||dsp.brand.sogo.com^
 ||cpc.sogou.com^
-||epro.sogou.com^
 ||e.sogou.com^
+||epro.sogou.com^
 ||golden1.sogou.com^
 ||husky.sogou.com^
 ||theta.sogou.com^
@@ -28205,6 +28147,7 @@ Version: 20201223182908
 ||123.sogoucdn.com^
 ||dl.wan.sogoucdn.com^
 ||galaxy.sogoucdn.com^
+||sogov587.top^
 ||dds.sogua.com^
 ||show.sogua.com^
 ||soholfit.com^
@@ -28261,6 +28204,7 @@ Version: 20201223182908
 ||solitudepeeves.com^
 ||solocpm.com^
 ||soloistforcefulvarious.com^
+||sololockscoin.com^
 ||solosegment.com^
 ||cache.soloth.com^
 ||soltitate.site^
@@ -28584,7 +28528,6 @@ Version: 20201223182908
 ||sstc360.com^
 ||ssucvdbxxlibn.com^
 ||ssumeras.top^
-||ssypntfmi.com^
 ||ssznrs.com^
 ||st123.info^
 ||stabiloseront.xyz^
@@ -28748,7 +28691,6 @@ Version: 20201223182908
 ||sthelensstar-gb.sthelensstar.co.uk^
 ||sthingtonwr.top^
 ||sthourselft.top^
-||7011.stia.cn^
 ||stickyadstv.com^
 ||stiffenpersevere.com^
 ||stiffgame.com^
@@ -29046,6 +28988,7 @@ Version: 20201223182908
 ||svfwer.top^
 ||svintificaneinevi.info^
 ||sviter2s1olenyami1.com^
+||svivqrhrh.ru^
 ||svjat0rx99.com^
 ||aff.svjump.com^
 ||svlu.net^
@@ -29370,19 +29313,19 @@ Version: 20201223182908
 ||et.tanx.com^
 ||ex.tanx.com^
 ||ifs.tanx.com^
-||opehs.tanx.com^
 ||ope.tanx.com^
+||opehs.tanx.com^
+||p.tanx.com^
 ||pcookie.tanx.com^
 ||phs.tanx.com^
-||p.tanx.com^
 ||rdstat.tanx.com^
 ||tanzhen.info^
 ||taobaly.cn^
-||adashbc.ut.taobao.com^
 ||adash.m.taobao.com^
+||adashbc.ut.taobao.com^
+||adashx.m.taobao.com^
 ||adashx4yt.m.taobao.com^
 ||adashxgc.ut.taobao.com^
-||adashx.m.taobao.com^
 ||amdc.m.taobao.com^
 ||amdcopen.m.taobao.com^
 ||bcfeedback.taobao.com^
@@ -29391,16 +29334,16 @@ Version: 20201223182908
 ||eco.taobao.com^
 ||err.taobao.com^
 ||fourier.taobao.com^
-||h-adashx4yt.ut.taobao.com^
 ||h-adashx.ut.taobao.com^
+||h-adashx4yt.ut.taobao.com^
 ||retcode.taobao.com^
 ||tns.simba.taobao.com^
 ||top.taobao.com^
 ||tunion-api.m.taobao.com^
 ||acs4baichuan.m.taobao.com^
-||adashbc.m.taobao.com^
 ||adash-c.m.taobao.com^
 ||adash-c.ut.taobao.com^
+||adashbc.m.taobao.com^
 ||agoodm.m.taobao.com^
 ||ai.m.taobao.com^
 ||ai.taobao.com^
@@ -29415,14 +29358,14 @@ Version: 20201223182908
 ||fav.simba.taobao.com^
 ||g.click.taobao.com^
 ||m-adash.m.taobao.com^
-||mclick.simba.taobao.com^
 ||m.simba.taobao.com^
+||mclick.simba.taobao.com^
 ||nbsdk-baichuan.taobao.com^
 ||openjmacs.m.taobao.com^
 ||pindao.huoban.taobao.com^
-||redirect.simba.taobao.com^
 ||re.m.taobao.com^
 ||re.taobao.com^
+||redirect.simba.taobao.com^
 ||rj.m.taobao.com^
 ||sdkinit.taobao.com^
 ||simaba.m.taobao.com^
@@ -29468,8 +29411,8 @@ Version: 20201223182908
 ||taomochou.cn^
 ||taorun.com^
 ||taose06.com^
-||img01.taotaosou.cn^
 ||img.taotaosou.cn^
+||img01.taotaosou.cn^
 ||re.taotaosou.com^
 ||show.kc.taotaosou.com^
 ||taotianran.cn^
@@ -29882,8 +29825,8 @@ Version: 20201223182908
 ||theonsiteline.com^
 ||theoutplay.com^
 ||adpai.thepaper.cn^
-||imgadpai.thepaper.cn^
 ||imgad.thepaper.cn^
+||imgadpai.thepaper.cn^
 ||thepayporn.com^
 ||thepiratebay-proxylist.se^
 ||thepornsurvey.com^
@@ -30213,6 +30156,7 @@ Version: 20201223182908
 ||tnative.ru^
 ||tnbyhwawsh.com^
 ||tncexvzu.com^
+||tncred.com^
 ||tnctrx.com^
 ||tngmn.com^
 ||tnlby.com^
@@ -30227,6 +30171,7 @@ Version: 20201223182908
 ||toapsira.net^
 ||toboads.com^
 ||toc.io^
+||tochgw.com^
 ||tockhsfluqjniu.com^
 ||todayapp.tv^
 ||todayjiaxiang.cn^
@@ -30248,6 +30193,7 @@ Version: 20201223182908
 ||fatads.toldya.com^
 ||tolethembehisy.club^
 ||tollfreeforwarding.com^
+||tollholdmeg.cam^
 ||tolyafbnjt9dedjj10.com^
 ||js.pub.tom.com^
 ||adserve2.tom.com^
@@ -30393,8 +30339,8 @@ Version: 20201223182908
 ||toushibao.com^
 ||tout-sur-le-web.com^
 ||go.toutapp.com^
-||dm.toutiao.com^
 ||d.toutiao.com^
+||dm.toutiao.com^
 ||partner.toutiao.com^
 ||dsp.toutiao.com^
 ||nativeapp.toutiao.com^
@@ -30417,10 +30363,8 @@ Version: 20201223182908
 ||tpbproxyone.org^
 ||tpdads.com^
 ||tpe163.com^
-||tpkmwnwbzetzbj.com^
 ||tplpages.com^
 ||tpm.pw^
-||tpmrwyhloretut.com^
 ||tpn134.com^
 ||tpnads.com^
 ||tpresearch.club^
@@ -30703,6 +30647,7 @@ Version: 20201223182908
 ||trpsm.xyz^
 ||trroawdnmt.com^
 ||trs.cn^
+||trtjigpsscmv9epe10.com^
 ||trtl.ws^
 ||tru.am^
 ||truconversion.com^
@@ -30910,7 +30855,6 @@ Version: 20201223182908
 ||tuwuyppwdj.com^
 ||tuxbpnne.com^
 ||tuxi.com.cn^
-||tuygdfsydexdeb.com^
 ||s1.tuzhaozhao.com^
 ||tuziluoluo.com^
 ||tv1s4d6klh4n.com^
@@ -30936,7 +30880,8 @@ Version: 20201223182908
 ||c.tvsou.com^
 ||b.tvsou.com^
 ||tvsxjbuo.com^
-||tvzhe.com^
+||mc.tvzhe.com^
+||md.tvzhe.com^
 ||tw.cx^
 ||twackle.com^
 ||twb98.com^
@@ -31100,9 +31045,7 @@ Version: 20201223182908
 ||ubertracking.info^
 ||ubibibi.com^
 ||ubiquitousyard.com^
-||ubnwujaioruel.com^
 ||ubontcdrvoce.com^
-||ubsxycbae.com^
 ||ububyiw6655.xyz^
 ||ubuntudeal.co.za^
 ||ubutplho.com^
@@ -31205,7 +31148,6 @@ Version: 20201223182908
 ||ufoukolt.com^
 ||ufow9xfashbm.com^
 ||ufpcdn.com^
-||ufrbfvelweoy.com^
 ||ufsomlskkso.com^
 ||ufstone.com^
 ||ufuuwfdwsayls.com^
@@ -31227,6 +31169,7 @@ Version: 20201223182908
 ||uhbixtfhwdtmd.com^
 ||uhedsplo.com^
 ||uhfdsplo.com^
+||uhicnlmab.com^
 ||uhjedvnlaq.com^
 ||uhodsplo.com^
 ||uhor8.cn^
@@ -31252,7 +31195,7 @@ Version: 20201223182908
 ||uistspregna.club^
 ||uitabletublis.info^
 ||uiwaqbvvhz.com^
-||uizhcjow.com^
+||uixsuffkzkhbj.com^
 ||ujccccb.com^
 ||ujesnwjqowcru.com^
 ||ujian.cc^
@@ -31408,7 +31351,6 @@ Version: 20201223182908
 ||data-optout-service.uca.cloud.unity3d.com^
 ||thind-gke-euw.prd.data.corp.unity3d.com^
 ||unityads.unitychina.cn^
-||unjqjnzvzyrtw.com^
 ||b.unjs.com^
 ||unkingdiabeth.club^
 ||unknowlejir.club^
@@ -31460,7 +31402,6 @@ Version: 20201223182908
 ||iosipa.b0.upaiyun.com^
 ||upapi.net^
 ||uparpu.com^
-||upcum.com^
 ||update-your-pc.info^
 ||upgraderservices.cf^
 ||upgulpinon.com^
@@ -31477,6 +31418,7 @@ Version: 20201223182908
 ||ads-sdk.upltv.com^
 ||report-ads-sdk.upltv.com^
 ||c-sta-cn.upltv.com^
+||logs.upnono.com^
 ||uponelectabuzzor.club^
 ||upptux.cn^
 ||mobilelog.upqzfile.com^
@@ -31634,6 +31576,7 @@ Version: 20201223182908
 ||utpgxaylxurhbc.com^
 ||utq55kl9vyqv.com^
 ||utrehter.com^
+||utrvcoqxyshvly.com^
 ||utstancecaricit.info^
 ||utubeconverter.com^
 ||app.uu.cc^
@@ -31660,10 +31603,10 @@ Version: 20201223182908
 ||uulvtpbx.com^
 ||uunak.cn^
 ||uunewcar.com^
-||526dimg.uunice.com^
 ||526d.uunice.com^
-||weld830.uunice.com^
+||526dimg.uunice.com^
 ||weld.uunice.com^
+||weld830.uunice.com^
 ||clk.uunt.com^
 ||uuopp.com^
 ||uuribxuxsbdfof.com^
@@ -31941,7 +31884,6 @@ Version: 20201223182908
 ||veuzlkpnbujf.com^
 ||g.vev.io^
 ||vevatom.com^
-||vexuchkhuin.com^
 ||vf5c.com^
 ||vf5yb4.cn^
 ||vfbvcshnc.com^
@@ -31961,6 +31903,7 @@ Version: 20201223182908
 ||vgkknrbzwfau.com^
 ||click.vgnett.no^
 ||vgnlhfdkmcdc.com^
+||vgodvvcwrshk.com^
 ||wall.vgr.com^
 ||vgszcaszzef.com^
 ||vgvzvqbzhh.com^
@@ -32097,7 +32040,6 @@ Version: 20201223182908
 ||viralninjas.com^
 ||viralvideos.pw^
 ||virashux.net^
-||virgbmkmear.com^
 ||da.virginmedia.com^
 ||virgo8.cn^
 ||virgul.com^
@@ -32183,7 +32125,7 @@ Version: 20201223182908
 ||vkpsmzj.cn^
 ||vksmmvykm.com^
 ||vkuay.com^
-||vkvvvnppfmm.com^
+||vkudpjuvg.com^
 ||vlexokrako.com^
 ||vlion.cn^
 ||vlitag.com^
@@ -32297,7 +32239,6 @@ Version: 20201223182908
 ||bk9gun.vpser.net^
 ||vptbn.com^
 ||vptggenzv.com^
-||vptgnqpknpdyq.com^
 ||vpwdweham.com^
 ||vpwlynobnnqg.com^
 ||p.vq6nsu.cn^
@@ -32321,8 +32262,8 @@ Version: 20201223182908
 ||vs9158.com^
 ||vs944.cn^
 ||vsbvvcyxz.com^
-||admin.vserv.mobi^
 ||a.vserv.mobi^
+||admin.vserv.mobi^
 ||c.vserv.mobi^
 ||sf.vserv.mobi^
 ||vsetfdtwhp.com^
@@ -32367,7 +32308,6 @@ Version: 20201223182908
 ||vvlian.com^
 ||vvnmwfnpkat.com^
 ||vvocm.com^
-||vvqpavyfkr.com^
 ||bu1.vvvdj.com^
 ||vvvulqn7.com^
 ||vw81e.cn^
@@ -32377,8 +32317,8 @@ Version: 20201223182908
 ||vwuyuahqf.com^
 ||vwws6.net^
 ||vwxgxculdbybw.com^
-||vwxptkkqbyppe.com^
 ||vxkfvzhduws.com^
+||vxnejgcewmbuk.com^
 ||vxrpmslex.com^
 ||vxsnk.com^
 ||vy74i.cn^
@@ -32627,6 +32567,7 @@ Version: 20201223182908
 ||wdsvc.net^
 ||wdvamhckdjr.com^
 ||wdymwzz.com^
+||wdzeuxkfvyv.com^
 ||wdzsb.com.cn^
 ||we-stats.com^
 ||m1.we556.com^
@@ -32828,7 +32769,6 @@ Version: 20201223182908
 ||weixiangzu.cn^
 ||badjs.weixinbridge.com^
 ||weixinfb.cn^
-||weixingshexiangji.net^
 ||weixinhuoyuan.com^
 ||weiyajz.cn^
 ||huatuo.weiyun.com^
@@ -32902,7 +32842,6 @@ Version: 20201223182908
 ||wgat5ln2wly8.com^
 ||wghjq.cn^
 ||wgimuuqvlumvyy.com^
-||wglbucuhxxxj.com^
 ||wgnlz.com^
 ||wgnpq.com^
 ||wgpsethooknqv.com^
@@ -32975,7 +32914,6 @@ Version: 20201223182908
 ||whizstats.com^
 ||whizzco.com^
 ||whkwpzz.cn^
-||whlvjuprdpkg.com^
 ||whoaremyfriends.com^
 ||whoaremyfriends.net^
 ||whoavaud.net^
@@ -33045,8 +32983,8 @@ Version: 20201223182908
 ||redeye.williamhill.com^
 ||serve.williamhillcasino.com^
 ||willioninterpr.club^
-||logging.wilmaa.com^
 ||log.wilmaa.com^
+||logging.wilmaa.com^
 ||wiltsglosstandard-gb.wiltsglosstandard.co.uk^
 ||wiltshiretimes-gb.wiltshiretimes.co.uk^
 ||wimaxnetworks.cn^
@@ -33143,6 +33081,7 @@ Version: 20201223182908
 ||wlgkqespz.com^
 ||wlgszt.com^
 ||wlknb.com^
+||wlkpa.cn^
 ||wlmarketing.com^
 ||wlnxskclqr.com^
 ||wlshotel.cn^
@@ -33240,6 +33179,7 @@ Version: 20201223182908
 ||worldssl.net^
 ||worldwidemailer.com^
 ||fun.wormania.io^
+||worsterring.com^
 ||c.wort-suche.com^
 ||worthathousandwords.com^
 ||worthersefim.club^
@@ -33376,8 +33316,8 @@ Version: 20201223182908
 ||wtzgaa.com^
 ||wu36n.cn^
 ||wu65.com^
-||nadscdn.wuaiso.com^
 ||nads.wuaiso.com^
+||nadscdn.wuaiso.com^
 ||wucheng.info^
 ||wudang05.com^
 ||wudejia.com^
@@ -33483,6 +33423,7 @@ Version: 20201223182908
 ||wzdpoitbmau.com^
 ||wzdzht7am5.com^
 ||wzfjsh.cn^
+||wzfoygianhe.com^
 ||wzfxiaggxcpjb.com^
 ||wzhagc.cn^
 ||wzhuze.com^
@@ -33675,6 +33616,7 @@ Version: 20201223182908
 ||xhbqczl.com^
 ||xhct66.com^
 ||xhera.cn^
+||xhgqgbomrrfstv.com^
 ||xhit.com^
 ||xhjtggrtkzo.com^
 ||xhkuhzqvtcadz.com^
@@ -33801,9 +33743,9 @@ Version: 20201223182908
 ||1.xilu.com^
 ||tongj.xilu.com^
 ||newspage.xilu.com^
-||adsebs.ximalaya.com^
 ||adse.wsa.ximalaya.com^
 ||adse.ximalaya.com^
+||adsebs.ximalaya.com^
 ||dns.ximalaya.com^
 ||adbehavior.ximalaya.com^
 ||adbs.ximalaya.com^
@@ -34026,10 +33968,10 @@ Version: 20201223182908
 ||kkds.xntk.net^
 ||xnwndbef.com^
 ||xnyemao.com^
-||xnyiljkfdwgu.com^
 ||xnzkqew.cn^
 ||xoalt.com^
 ||xoassxowovsrk.com^
+||xoekgcscpnipb.com^
 ||xogkpytfgyzy.com^
 ||xogvagdtgehxm.com^
 ||xoliter.com^
@@ -34072,7 +34014,6 @@ Version: 20201223182908
 ||xqxx520.com^
 ||xqzlhxzkcil.com^
 ||xr8wv50k1daj.com^
-||xrain.net^
 ||xrbmomiow.com^
 ||xrbvsiyyr.com^
 ||xref.io^
@@ -34098,7 +34039,6 @@ Version: 20201223182908
 ||1.xspic.com^
 ||rdbd.xsread.com^
 ||xsrs.com^
-||xssrmimmnq.ru^
 ||xstar.cc^
 ||xsu.cc^
 ||xswbmktpgcwcud.com^
@@ -34165,8 +34105,8 @@ Version: 20201223182908
 ||kkpgv2.xunlei.com^
 ||live.xunlei.com^
 ||record.kuai.xunlei.com^
-||soagw.pw.xunlei.com^
 ||soa-vip-ssl.xunlei.com^
+||soagw.pw.xunlei.com^
 ||upgrade.xl9.xunlei.com^
 ||advertpay-vip-ssl.xunlei.com^
 ||api-shoulei-ssl.xunlei.com^
@@ -34189,7 +34129,6 @@ Version: 20201223182908
 ||xvcmsfoeheu.com^
 ||xvideosharing.site^
 ||xvika.com^
-||xviplxteu.com^
 ||xvnfyutv.com^
 ||xvomqsoivtiaxh.com^
 ||xvtpvc.cn^
@@ -34202,6 +34141,7 @@ Version: 20201223182908
 ||xwoexbipp.com^
 ||xwprdjbayq.com^
 ||cc.xwscg.com^
+||xwuad.com^
 ||xww360.com^
 ||xxad.cc^
 ||xxccdshj.com^
@@ -34277,9 +34217,9 @@ Version: 20201223182908
 ||gg.xywy.com^
 ||hao123.xywy.com^
 ||page.xywy.com^
-||static.front.xywy.com^
 ||stat-y.xywy.com^
 ||stat-z.xywy.com^
+||static.front.xywy.com^
 ||xyxy01.com^
 ||xyz0k4gfs.xyz^
 ||xyztraffic.com^
@@ -34334,9 +34274,9 @@ Version: 20201223182908
 ||yads.yahoo.co.jp^
 ||adss.yahoo.com^
 ||aliunion.cn.yahoo.com^
+||gemini.yahoo.com^
 ||bats.video.yahoo.com^
 ||beap-bc.yahoo.com^
-||gemini.yahoo.com^
 ||cm.p4p.cn.yahoo.com^
 ||cookiex.ngd.yahoo.com^
 ||ganon.yahoo.com^
@@ -34410,8 +34350,8 @@ Version: 20201223182908
 ||yaohq.com^
 ||xiaomiir.yaokantv.com^
 ||adnetpub.yaolan.com^
-||adpubs.yaolan.com^
 ||adpub.yaolan.com^
+||adpubs.yaolan.com^
 ||ylads.yaolan.com^
 ||yaonilugg.com^
 ||cps.yaoqing.com^
@@ -34558,6 +34498,7 @@ Version: 20201223182908
 ||yfbiwkxjkaw.com^
 ||yfcxyejwyeyjse.com^
 ||yfcxzvdyrnp.com^
+||yfdrpdjbxjm.com^
 ||yfi8.com^
 ||yfibjzosrqrtmv.com^
 ||yfivoqeh.online^
@@ -34611,8 +34552,8 @@ Version: 20201223182908
 ||yidiansurong.com^
 ||static-ssp.yidianzixun.com^
 ||imagelx.yidianzixun.com^
-||lx-upload-log.yidianzixun.com^
 ||l.yidianzixun.com^
+||lx-upload-log.yidianzixun.com^
 ||mb.yidianzixun.com^
 ||oppo.yidianzixun.com^
 ||s.yidianzixun.com^
@@ -34732,8 +34673,8 @@ Version: 20201223182908
 ||p.yizuya.com^
 ||u.yizuya.com^
 ||yjaobumyovp.com^
-||abc.yjbys.com^
 ||a.yjbys.com^
+||abc.yjbys.com^
 ||d.yjbys.com^
 ||yjegf.com^
 ||yjfhadfc.com^
@@ -34766,6 +34707,7 @@ Version: 20201223182908
 ||a.yl-taikang.com^
 ||yl850555.com^
 ||yl89.cn^
+||yladm.com^
 ||ylcgewdtetazek.com^
 ||yldbt.com^
 ||hd.ylddq.com^
@@ -34773,13 +34715,11 @@ Version: 20201223182908
 ||yldr.io^
 ||ylflwbj.cn^
 ||ylihbkbiefgj.com^
-||c.ylist.cn^
 ||yljiaoluo.com^
 ||yljmeishi.cn^
 ||ylkqw.com^
 ||yllanala.pw^
 ||yllix.com^
-||yloidlvfhpkq.com^
 ||bdjs.ylq.com^
 ||ylqbiljjlyq.com^
 ||yltcgyud.com^
@@ -34819,7 +34759,6 @@ Version: 20201223182908
 ||d.ynjk120.com^
 ||ynjkkj.com^
 ||ynjyhm.com^
-||ynkakgknfljv.com^
 ||ynmbz.com^
 ||ynnke.com^
 ||ynopkisq.com^
@@ -34880,9 +34819,9 @@ Version: 20201223182908
 ||youboranqs01.com^
 ||youboranqs02.com^
 ||a.youdao.com^
+||c.youdao.com^
 ||union.youdao.com^
 ||conv.youdao.com^
-||c.youdao.com^
 ||gorgon.youdao.com^
 ||log.yex.youdao.com^
 ||corp.youdao.com^
@@ -34900,8 +34839,8 @@ Version: 20201223182908
 ||bdcode.youke.com^
 ||youkete.cn^
 ||b.smartvideo.youku.com^
-||cmstool.youku.com^
 ||c.yes.youku.com^
+||cmstool.youku.com^
 ||ems.youku.com^
 ||gamex.mobile.youku.com^
 ||hudong.pl.youku.com^
@@ -34914,9 +34853,9 @@ Version: 20201223182908
 ||store.xl.api.3g.youku.com^
 ||wan.youku.com^
 ||ykad-gateway.youku.com^
+||a-dxk.play.api.3g.youku.com^
 ||actives.youku.com^
 ||adp.atm.youku.com^
-||a-dxk.play.api.3g.youku.com^
 ||bsv.atm.youku.com^
 ||dev-push.m.youku.com^
 ||dl.g.youku.com^
@@ -34924,8 +34863,8 @@ Version: 20201223182908
 ||html.atm.youku.com^
 ||hz.youku.com^
 ||ipm.atm.youku.com^
-||lvip.youku.com^
 ||l.youku.com^
+||lvip.youku.com^
 ||m.atm.youku.com^
 ||mf.atm.youku.com^
 ||mobilemsg.youku.com^
@@ -34948,8 +34887,8 @@ Version: 20201223182908
 ||valp.atm.youku.com^
 ||valt.atm.youku.com^
 ||ykatr.youku.com^
-||ykrectab.youku.com^
 ||ykrec.youku.com^
+||ykrectab.youku.com^
 ||youlamedia.com^
 ||youle55.com^
 ||youlouk.com^
@@ -34996,6 +34935,7 @@ Version: 20201223182908
 ||youyoumw.com^
 ||tj.youzanyun.com^
 ||yowlcapkegs.com^
+||yoxus.cn^
 ||yoyi.com.cn^
 ||yoyi.tv^
 ||yoyozz.net^
@@ -35041,6 +34981,7 @@ Version: 20201223182908
 ||e.ysdangan.com^
 ||daima.ysdui.com^
 ||ysensionlatio.space^
+||ysgeuarbxfttib.com^
 ||ysgsq.cn^
 ||ysjweb.com^
 ||ysjwj.com^
@@ -35057,7 +34998,6 @@ Version: 20201223182908
 ||ytbnm.cn^
 ||ytcard.cn^
 ||ytcgivcxzawx.com^
-||ytcpfvgqp.com^
 ||ytelc.com^
 ||ytimm.com^
 ||ytmaitian.com^
@@ -35092,7 +35032,6 @@ Version: 20201223182908
 ||yuhuads.com^
 ||yuhuanjiuye.com^
 ||yujiangchu.com^
-||yujyjms.cn^
 ||yukhj.com^
 ||yule8.net^
 ||img1.yulu99.com^
@@ -35101,7 +35040,6 @@ Version: 20201223182908
 ||yumenetworks.com^
 ||yumi06.com^
 ||yumimobi.com^
-||yumzgezhl.com^
 ||yun-pdm2000.cn^
 ||yun-pdm5000.cn^
 ||help.yunaq.com^
@@ -35160,6 +35098,7 @@ Version: 20201223182908
 ||yw78.cn^
 ||ywadf.cn^
 ||ywbwsm.com^
+||ywcxuagtmrawx.com^
 ||ywemjekei.com^
 ||ywgjjhjay.com^
 ||ywidgets.awe.sm^
@@ -35176,8 +35115,8 @@ Version: 20201223182908
 ||ywywjrlbsuv.com^
 ||adsclick.yx.js.cn^
 ||yx4449.com^
-||lishi1.yxbao.com^
 ||lishi.yxbao.com^
+||lishi1.yxbao.com^
 ||yxbzsdthw.com^
 ||hao123.sina.yxcjqy.com^
 ||yxcpm.com^
@@ -35199,6 +35138,7 @@ Version: 20201223182908
 ||yxsnf.cn^
 ||yxsrshkmgiyn.com^
 ||yxszy.com^
+||yxvuvzrz.com^
 ||mldy.yxxgab.cn^
 ||yxxwyz.com^
 ||yxyenzslsk.com^
@@ -35336,6 +35276,7 @@ Version: 20201223182908
 ||zcrtd.com^
 ||static.zctx8.com^
 ||zcwjasfrog.com^
+||zcyclbncgubccl.com^
 ||zd6789.com^
 ||zdajdudqfq.com^
 ||zdbb.net^
@@ -35359,6 +35300,7 @@ Version: 20201223182908
 ||adclock.zdworks.com^
 ||nexstep.zdworks.com^
 ||push.zdworks.com^
+||zdydvjzexmp.com^
 ||ze5.com^
 ||zeads.com^
 ||zebestof.com^
@@ -35366,6 +35308,7 @@ Version: 20201223182908
 ||zedo.com^
 ||zedwhyex.com^
 ||zeegreen.net^
+||zeejuthu.com^
 ||zeerat.com^
 ||zeesiti.com^
 ||zeewepie.net^
@@ -35385,7 +35328,6 @@ Version: 20201223182908
 ||zenoviaexchange.com^
 ||zenoviagroup.com^
 ||zenwq.com^
-||zeokfeyraxls.com^
 ||zeotap.com^
 ||zeqqvubxtrh.com^
 ||zeqtblok.com^
@@ -35424,10 +35366,9 @@ Version: 20201223182908
 ||zgc66.com^
 ||zgclmw.cn^
 ||zgczjw.com^
-||zgdmsj.cn^
+||zgdfvih.cn^
 ||zgdtro.com^
 ||zgeuzenogpy.com^
-||zgfszs.com^
 ||zghs.net.cn^
 ||zgjckgys.com.cn^
 ||zgjjkk.com^
@@ -35515,6 +35456,7 @@ Version: 20201223182908
 ||zhizones.com^
 ||zhjfad.com^
 ||zhkbjqtstd.com^
+||zhkquyvfndeker.com^
 ||zhlala.com^
 ||zhlrcaahpuqh.com^
 ||zhmatou.com^
@@ -35542,7 +35484,6 @@ Version: 20201223182908
 ||zhuanfakong.com^
 ||hapic1.zhuangxiu22.com^
 ||1.zhuangxiu567.com^
-||d1.zhuangxiu6.com^
 ||zhuangzhaibancai.cn^
 ||zhuanrangyun.cn^
 ||zhuanyule.cn^
@@ -35675,7 +35616,6 @@ Version: 20201223182908
 ||znicvrdirncxq.com^
 ||znlgplt.com^
 ||znnzwdgu.com^
-||znuwbselijsmyj.com^
 ||znxblom.cn^
 ||znxvuabzgm.com^
 ||zo66.com^
@@ -35692,19 +35632,19 @@ Version: 20201223182908
 ||api.zol.com^
 ||apppv.zol.com.cn^
 ||imp.zol.com.cn^
+||p.zol.com.cn^
 ||pvnapp.zol.com.cn^
 ||pvnwap.zol.com.cn^
 ||pvtest.zol.com.cn^
-||p.zol.com.cn^
 ||cpro.zol.com.cn^
 ||dynamic.zol.com.cn^
 ||js.zol.com.cn^
 ||mstat.zol.com.cn^
-||pvc.zol.com.cn^
-||pvmsite.zol.com.cn^
-||pvm.zol.com.cn^
-||pvsite.zol.com.cn^
 ||pv.zol.com.cn^
+||pvc.zol.com.cn^
+||pvm.zol.com.cn^
+||pvmsite.zol.com.cn^
+||pvsite.zol.com.cn^
 ||wappv.zol.com.cn^
 ||ydjs.zol.com.cn^
 ||zona.pl^
@@ -35823,8 +35763,8 @@ Version: 20201223182908
 ||asd.zuhaowan8.com^
 ||bd1.zuimeitianqi.com^
 ||bd2.zuimeitianqi.com^
-||hwad.zuimeitianqi.com^
 ||hw.zuimeitianqi.com^
+||hwad.zuimeitianqi.com^
 ||zukxd6fkxqn.com^
 ||zumcontentdelivery.info^
 ||zunmi.cn^
@@ -35867,7 +35807,6 @@ Version: 20201223182908
 ||zx573.cn^
 ||zxa4kxw2nvox.com^
 ||zxavxgjcjmkh.com^
-||zxb918.com^
 ||zxcvxmtzs.com^
 ||zxdardwpsuf.com^
 ||zxevjtzvqlxy.com^
@@ -35903,7 +35842,6 @@ Version: 20201223182908
 ||zyiis.net^
 ||zylotcosp.com^
 ||zymbrlgu.cn^
-||zymerget.bi^
 ||zymro.com^
 ||zypenetwork.com^
 ||zyqp9.com^
@@ -35956,11 +35894,11 @@ Version: 20201223182908
 ||zzxlukodff.com^
 ||zzyonghao.com^
 @@||ad.10010.com^
-@@||ad2.uoocuniversity.com^
 @@||ad.abchina.com^
 @@||ad.filmweb.pl^
 @@||ad.kazakinfo.com^
 @@||ad.ourgame.com^
+@@||ad2.uoocuniversity.com^
 @@||ads.askgamblers.com^
 @@||ads.com^
 @@||ads.fuckingmachines.com^
