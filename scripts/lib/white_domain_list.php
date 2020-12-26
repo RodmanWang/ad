@@ -196,8 +196,7 @@ return array(
     'issuecdn.baidupcs.com' => 0,
     'ppp.net' => 1,
     'httpdns.n.netease.com' => 0,
-    
-    
+    'huoying666.com' => 0,
     
 
 
