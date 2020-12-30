@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: NN5jC/ApuNI2IajY6PZXjw
-! Version: 202012300011
+! Checksum: 3whODYBxyMWT0rGWUOz5Hg
+! Version: 202012300601
 ! Title: EasyList China+EasyList
-! Last modified: 30 Dec 2020 00:11 UTC
+! Last modified: 30 Dec 2020 06:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 !
@@ -8942,8 +8942,10 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||18comic.*/static/resources/images/JGG/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+18comic.org,18comic.vip##DIV[data-height="264"][data-width="956"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -74687,6 +74689,7 @@ mediamanager.co.za##.bnr
 armenpress.am##.bnrcontainer
 southerntimesafrica.com##.body-header-banner
 cmo.com.au,interiordesign.net##.boombox
+etherscan.io##.border-top
 pixxxels.cc##.bottom-a
 eplans.com,liligo.com,spanishdict.com##.bottom-banner
 livehdq.info##.bottom-bar
@@ -75658,6 +75661,7 @@ yellowpages.com.jo##.serp-right-banners
 studyfinds.org##.sfspot
 skins.be##.shortBioShadowB
 siliconrepublic.com##.show-for-medium-up
+etherscan.io##.showcase-banner-spacing
 mbauniverse.com##.shriresume-logo
 news.am,viva.co.nz##.side-banner
 gfycat.com##.side-slot
