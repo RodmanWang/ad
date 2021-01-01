@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: DjJI7WwWjFE9FE/30zMH4A
-! Version: 202101011201
+! Checksum: VBWA2xKh4kM+R9HkBMIn1g
+! Version: 202101011821
 ! Title: EasyList China+EasyList
-! Last modified: 01 Jan 2021 12:01 UTC
+! Last modified: 01 Jan 2021 18:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 !
@@ -1156,6 +1156,7 @@ _xiuno_com_ad/
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
+##A[href*="/mdapp03.com/"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
