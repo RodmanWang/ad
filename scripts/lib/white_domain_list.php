@@ -197,7 +197,7 @@ return array(
     'ppp.net' => 1,
     'httpdns.n.netease.com' => 0,
     'huoying666.com' => 0,
-    
+    'live.simcitybuildit.com'
 
 
 
