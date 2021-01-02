@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 4cjTiA5rDEZjPf5tLS/vOg
-! Version: 202101020601
+! Checksum: gta3OIVpLC/qoxd3qGWcdg
+! Version: 202101021201
 ! Title: EasyList China+EasyList
-! Last modified: 02 Jan 2021 06:01 UTC
+! Last modified: 02 Jan 2021 12:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 !
@@ -8950,8 +8950,13 @@ _yad_jsonp_
 ||zzzyk.com/js/
 ||vxotu.com/i/*.gif
 ||mikuclub.cn/down/pub/RQS.
+||ccement.com/index/index/fetchAd
+||ad.ccement.com^
+||ccement.com/js/ccement_new/open.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+dzbhdm.com##A[href*=".weixin.qq.com/"]
+dzbhdm.com##IMG[width="950"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -54687,6 +54692,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||growltoe.com^
 ||grownuplieutenant.com^
 ||grsdvgnr.com^
+||grtexch.com^
 ||grtyj.com^
 ||grubsoan.com^
 ||grudgeslylonging.com^
@@ -70392,7 +70398,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||literatureandlatte.com/gfx/buynowaffiliate.jpg
 ||livecrics.livet20worldcup.com/video.php$domain=iplstream.com
 ||liveperson.com/affiliates/
-||liveresources.mensxp.com^$third-party
 ||liveshows.com^*/live.js$third-party
 ||llnwd.net/o28/assets/*-sponsored-
 ||llnwd.net/tools/tags/interstitial/
@@ -70444,6 +70449,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||mediaplex.com/ad/js/$third-party
 ||medrx.telstra.com.au^
 ||memepix.com/spark.php?
+||mensxp.com^$third-party,xmlhttprequest
 ||metaboli.fr^*/adgude_$third-party
 ||metroland.com/wagjag/
 ||mfcdn.net/store/spotlight/
@@ -74109,7 +74115,7 @@ rockyou.com###zone1
 luxury-insider.com###zone_728x90
 ecoustics.com###zox-lead-bot
 voiceofsandiego.org##.-sponsored
-bendsource.com,federalnewsnetwork.com,sevendaysvt.com,styleweekly.com,tucsonweekly.com##.Ad
+bendsource.com,federalnewsnetwork.com,lonelyplanet.com,sevendaysvt.com,styleweekly.com,tucsonweekly.com##.Ad
 footballitaliano.co.uk##.Ad1
 stadiumastro.com##.Ads
 terradaily.com##.BDTX
@@ -74996,6 +75002,7 @@ tradingpost.com.au##.mainWrapper-csa
 designtaxi.com##.masonry-brick.dynamic-width
 pushsquare.com,songlyrics.com##.masthead
 lifesitenews.com##.matched-content-wrapper
+indiatimes.com##.mb-36 > .top-trending
 washingtonpost.com##.mb-lg-mod.bb.b
 thestar.com.my##.med-rec
 orlandoweekly.com##.medRectangle
@@ -75092,6 +75099,7 @@ axn-asia.com,onetvasia.com##.pane-dart-dart-tag-300x250-rectangle
 ncronline.org##.pane-ncr-blocks-home-first-ads
 ncronline.org##.pane-ncr-blocks-home-second-ads
 drupal.org##.pane-style-sponsor
+comedycentral.com.au##.pane-vimn-coda-gpt-panes
 tpblist.us##.panel-danger
 panarmenian.net##.panner_2
 myfigurecollection.net,prolificnotion.co.uk##.partner
@@ -75467,7 +75475,7 @@ speedtest.net##.top-placeholder
 donedeal.ie##.top-placement-container
 1340bigtalker.com##.top-right-banner
 solidfiles.com##.top-section
-belfastlive.co.uk,birminghammail.co.uk,bristolpost.co.uk,cambridge-news.co.uk,chroniclelive.co.uk,cornwalllive.com,coventrytelegraph.net,dailypost.co.uk,dailyrecord.co.uk,dailystar.co.uk,derbytelegraph.co.uk,devonlive.com,dublinlive.ie,essexlive.news,football.london,gazettelive.co.uk,getreading.co.uk,getsurrey.co.uk,glasgowlive.co.uk,gloucestershirelive.co.uk,grimsbytelegraph.co.uk,hertfordshiremercury.co.uk,hulldailymail.co.uk,irishmirror.ie,kentlive.news,lancs.live,leicestermercury.co.uk,lincolnshirelive.co.uk,liverpoolecho.co.uk,manchestereveningnews.co.uk,mirror.co.uk,mylondon.news,nottinghampost.com,plymouthherald.co.uk,somersetlive.co.uk,stokesentinel.co.uk,walesonline.co.uk##.top-slot
+belfastlive.co.uk,birminghammail.co.uk,bristolpost.co.uk,business-live.co.uk,cambridge-news.co.uk,chroniclelive.co.uk,cornwalllive.com,coventrytelegraph.net,dailypost.co.uk,dailyrecord.co.uk,dailystar.co.uk,derbytelegraph.co.uk,devonlive.com,dublinlive.ie,essexlive.news,football.london,gazettelive.co.uk,getreading.co.uk,getsurrey.co.uk,glasgowlive.co.uk,gloucestershirelive.co.uk,grimsbytelegraph.co.uk,hertfordshiremercury.co.uk,hulldailymail.co.uk,irishmirror.ie,kentlive.news,lancs.live,leicestermercury.co.uk,lincolnshirelive.co.uk,liverpoolecho.co.uk,manchestereveningnews.co.uk,mirror.co.uk,mylondon.news,nottinghampost.com,plymouthherald.co.uk,somersetlive.co.uk,stokesentinel.co.uk,walesonline.co.uk##.top-slot
 techcentral.ie,versus.com##.topBanner
 giveawayoftheday.com##.top_ab
 tiresandparts.net,weta.org##.top_banner
@@ -75476,6 +75484,7 @@ wallpapersmania.com##.top_pad_10
 roadtests.com##.topad
 dnaindia.com##.topadd
 streamable.com,tinyurl.com##.topbanner
+collinsdictionary.com##.topslot_container
 pagesinventory.com##.tpromo
 smallseotools.com##.tuny_baaz_ni_ana_
 joebucsfan.com##.tweet_div1
