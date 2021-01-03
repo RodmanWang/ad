@@ -3334,8 +3334,6 @@
 ||adpredictive.com^$third-party
 ||adpresenter.de^$third-party
 ||adpressi.com^$third-party
-||adprimemedia.com^*/video_report/attemptAdReport.php?
-||adprimemedia.com^*/video_report/videoReport.php?
 ||adpro.cn^
 ||adpro.cn^$third-party
 ||adpron.com^
@@ -4252,6 +4250,7 @@
 ||airsanguages.info^
 ||airserve.net^$third-party
 ||airstossiplarge.info^
+||airtable.com^*/reports
 ||aise9738.com^
 ||aiseet.aa.atianqi.com^
 ||aish.com^*-Subscribe-
@@ -4309,7 +4308,6 @@
 ||akamai.net^*/sitetracking/
 ||akamaihd.net^$script,domain=allmodern.com|birchlane.com|perigold.com|wayfair.co.uk|wayfair.com
 ||akamaihd.net^$script,domain=wayfair.de
-||akamaihd.net^*.gif$image,domain=globalnews.ca|inquirer.net
 ||akamaihd.net^*.gif?d=
 ||akamaihd.net^*/ads/$domain=player.theplatform.com
 ||akamaihd.net^*/gsd.html?d=
@@ -5343,7 +5341,6 @@
 ||as.payback.it^
 ||as.weixin.qq.com^
 ||as.yomonda.de^
-||as01.overbuff.com^
 ||as07d698u9.com^$third-party
 ||as1.m.hao123.com^
 ||as1.wenku.baidu.com^
@@ -5513,7 +5510,7 @@
 ||attenuatecripple.com^
 ||atterrounesh.info^
 ||atticwicket.com^$third-party
-||attn.tv^*/analytics.js
+||attn.tv^*/dtag.js
 ||attracta.com^$third-party
 ||attractivecap.com^$third-party
 ||attresswhethe.fun^
@@ -10371,6 +10368,7 @@
 ||d2fbkzyicji7c4.cloudfront.net^
 ||d2focgxak1cn74.cloudfront.net^
 ||d2g9nmtuil60cb.cloudfront.net^
+||d2gbtcuv3w9qyv.cloudfront.net^
 ||d2ghscazvn398x.cloudfront.net^
 ||d2glav2919q4cw.cloudfront.net^
 ||d2hvwfg7vv4mhf.cloudfront.net^
@@ -13173,6 +13171,11 @@
 ||etzyzocznjd.com^
 ||eu-survey.com^$third-party
 ||eu.groupondata.com^
+||eu1l.dotabuff.com^
+||eu1l.overbuff.com^
+||eu1l.speedrun.com^
+||eu1l.trackdota.com^
+||eu1l.valorbuff.com^
 ||eucsoft.com^$third-party
 ||eujjcfegnqfa.com^
 ||eukjktmw.com^
@@ -15417,7 +15420,6 @@
 ||gk1.582582.com^
 ||gk1.zjbiz.net^
 ||gk277.cn^
-||gk3o.trackdota.com^
 ||gk8j5woqk26f.com^
 ||gkgojxjucutvnt.com^
 ||gkpsrxgdbco.com^
@@ -19639,7 +19641,6 @@
 ||k7tju.xyz^
 ||k859n.cn^
 ||k99.cc^$third-party
-||k9v7.dotabuff.com^
 ||k9wi2d.cn^
 ||k9wz7.cn^
 ||k9x.net^$third-party
@@ -19828,6 +19829,7 @@
 ||keywordblocks.com^$third-party
 ||keywordmax.com^$third-party
 ||keywordpop.com^$third-party
+||keywords.complex.com^
 ||keywordsconnect.com^$third-party
 ||keywordstrategy.org^$third-party
 ||keyxel.com^$third-party
@@ -23135,6 +23137,7 @@
 ||monovolume.cc^*/up_btn.
 ||monsoonads.com^$third-party
 ||monstat.com^$third-party
+||montafp.top^
 ||montkpl.top^
 ||montwam.top^
 ||monu.delivery^$third-party
@@ -23316,7 +23319,6 @@
 ||mqnklgnucy.com^
 ||mqs.ioam.de^
 ||mquvqdhzgfyjl.com^
-||mqzy.dotabuff.com^
 ||mr-rank.de^$third-party
 ||mr087.cn^
 ||mr2cnjuh34jb.com^
@@ -24302,7 +24304,6 @@
 ||nixiclothing.com^
 ||nization.com^$third-party
 ||nj.t.bcsp2p.baidu.com^
-||nj1r.valorbuff.com^
 ||njawafwpmv.com^
 ||njcn888.com^
 ||njcyfpv.cn^
@@ -24330,7 +24331,6 @@
 ||nk26uvjrz0tt.com^
 ||nk295.cn^
 ||nkcz8.com^
-||nkeq.speedrun.com^
 ||nkjomdiztdy.com^
 ||nkjwmb.com^
 ||nkk31jjp.com^$third-party
@@ -24714,7 +24714,6 @@
 ||nvbwgk.com^
 ||nvcwpexqk.com^
 ||nvdljujp.com^
-||nvea.valorbuff.com^
 ||nvergetpatr.top^
 ||nvhzkdltdxfoax.com^
 ||nvikgaormj.com^
@@ -26075,6 +26074,7 @@
 ||pcgames.de^*/remotecampaigntracker.php
 ||pch.com^*/SpectrumAnalytics.js?
 ||pch.com^*/scripts/Analytics/
+||pci3oo5mg4mn-a.akamaihd.net^
 ||pcizpawioulv.com^
 ||pcjkmabp.com^
 ||pckeeper.com^*/pixels/
@@ -27049,7 +27049,6 @@
 ||pqlveeoq.com^
 ||pqmfbegdsuwqiz.com^
 ||pqnlorg.cn^
-||pqoz.trackdota.com^
 ||pqpuraoxacaxw.com^
 ||pquuiokltzjpeg.com^
 ||pqwtrq.xyz^
@@ -33366,6 +33365,7 @@
 ||tel-tel-fie.com^
 ||telegraph.co.uk^*/tmglmultitrackselector.js
 ||telemetric.dk^$third-party
+||telemetry.api.wmcdp.io^
 ||telemetry.art19.com^
 ||telemetry.jivosite.com^
 ||telemetry.reembed.com^
@@ -35889,7 +35889,6 @@
 ||uunewcar.com^
 ||uunriutbi.com^
 ||uuopp.com^
-||uuqz.overbuff.com^
 ||uuribxuxsbdfof.com^
 ||uusftafycvolbk.com^
 ||uuu.pctowap.com^
@@ -37259,6 +37258,7 @@
 ||weymsohsafjs.com^
 ||wf.taboola.com^
 ||wf321.com^
+||wfaffwshop.xyz^
 ||wfawhfxe.com^
 ||wfcvhhmumb.com^
 ||wfcxcblmy.com^
