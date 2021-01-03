@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202101030503
+! Version: 202101031147
 ! Title: EasyPrivacy
-! Last modified: 03 Jan 2021 05:03 UTC
+! Last modified: 03 Jan 2021 11:47 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5200,6 +5200,7 @@
 ://gdyn.*/1.gif?
 ://geoip.*/country.json
 ://ivwextern.
+://lightning.*/launch/
 ://metrika.*/analytics.
 ://mint.*/?js
 ://piwik.$domain=~matomo.org|~piwik.pro
@@ -11213,6 +11214,7 @@ _mongo_stats/
 ||isitelab.io/ite_sitecomV1ANA.min.js
 ||itracking.fccinteractive.com^
 ||iyisayfa.net/inc.php?
+||jac.yahoosandbox.com^
 ||jailbaitchan.com/tp/
 ||jangomail.com^*?UID$third-party
 ||javascriptcounter.appspot.com^
@@ -11762,6 +11764,7 @@ _mongo_stats/
 ||scout.haymarketmedia.com^$third-party
 ||scout.salesloft.com/r?tid=
 ||scout.us2.salesloft.com^$image
+||scribd.com^*/events
 ||scribol.com/traffix/widget_tracker/
 ||scripts.psyma.com^
 ||sdrive.skoda-auto.com^
@@ -17633,10 +17636,10 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||adobedtm.com/*-source.min.js$script,domain=backcountry.com|dollargeneral.com|kroger.com
 @@||adobedtm.com/*_source.min.js$script,domain=backcountry.com|kroger.com
 @@||adobedtm.com/extensions/$script,domain=atresplayer.com
-@@||adobedtm.com/launch-$script
+! @@||adobedtm.com/launch-$script
 @@||adobedtm.com^*/AppMeasurement.min.js$script,domain=apple.com|foodnetwork.com
 @@||adobedtm.com^*/AppMeasurement_Module_$script,domain=foodnetwork.com
-@@||adobedtm.com^*/launch-$script,xmlhttprequest
+! @@||adobedtm.com^*/launch-$script,xmlhttprequest
 @@||adobedtm.com^*/mbox-contents-$script,domain=absa.co.za|ally.com|americanexpress.com|backcountry.com|costco.com|fcbarcelona.com|firststatesuper.com.au|hgtv.com|lenovo.com|lowes.com|newyorker.com|nfl.com|oprah.com|pnc.com|shoppersdrugmart.ca|usanetwork.com|vanityfair.com|wired.com|wowway.net
 @@||adobedtm.com^*/s-code-$script
 @@||adobedtm.com^*/satellite-$script
