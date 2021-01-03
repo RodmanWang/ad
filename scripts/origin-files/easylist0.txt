@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: PzieFe3sz/m4E+1tyygxQw
-! Version: 202101031201
+! Checksum: 7EdV1jGI6jCdAnBgXkuIBA
+! Version: 202101031821
 ! Title: EasyList China+EasyList
-! Last modified: 03 Jan 2021 12:01 UTC
+! Last modified: 03 Jan 2021 18:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 !
@@ -34769,6 +34769,7 @@ _popunder+$popup
 ###most_popular_ad
 ###motionAd
 ###movads10
+###move-ad
 ###movieads
 ###mozo-ad
 ###mph-rightad
@@ -36117,6 +36118,7 @@ _popunder+$popup
 ###td_adunit2
 ###td_sponsorAd
 ###teads0
+###team_ad
 ###teaser-adtag-left
 ###teaser-adtag-right
 ###temp-ads
@@ -37786,6 +37788,7 @@ _popunder+$popup
 ##.ad-grid-container
 ##.ad-group
 ##.ad-grp
+##.ad-halfpage
 ##.ad-hdr
 ##.ad-head
 ##.ad-header
@@ -47815,6 +47818,7 @@ _popunder+$popup
 ##.subjects_ad
 ##.submenu_ad
 ##.subtitle-ad-container
+##.sudoku-ad
 ##.sugarad
 ##.suggAd
 ##.suggested-content--ads
@@ -72057,6 +72061,9 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||musicatorrents.com^*/script.
 ||musictarget.com*/!
 ||mygaming.co.za^*/partners/
+||mytuner.mobi^*/solitaire.png
+||mytuner.mobi^*/sudoku.png
+||mytuner.mobi^*/wordsearch.png
 ||myunique.info/wp-includes/js/pop.js
 ||namepros.com/images/backers/
 ||nativetimes.com/images/banners/
