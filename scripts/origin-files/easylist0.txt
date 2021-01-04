@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: t2zv/irQf64OrpTyONmE3Q
-! Version: 202101040601
+! Checksum: JgVMG/zz8T/2P1ffHPCmUQ
+! Version: 202101041201
 ! Title: EasyList China+EasyList
-! Last modified: 04 Jan 2021 06:01 UTC
+! Last modified: 04 Jan 2021 12:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 !
@@ -8962,6 +8962,9 @@ _yad_jsonp_
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+chemicalbook.com##.ad2
+chemicalbook.com##.ad3
+e-learn.cn###block-gyouer
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -13242,10 +13245,11 @@ tieba.baidu.com,wapp.baidu.com##a.fixed_bar
 onlinedown.net##a.qrcode_show
 maiche.com##a.some-img
 chexun.com##a[attr-outside-ad]
+ditu.so.com##.label-ads
 wenku.baidu.com##a[class*="tiger-"][class*="-dialog"]
 hao123.com##a[class^="gameyixing-link-"]
 csai.cn##a[class^="gg"]
-ditu.so.com##a[class^="index-bcItem-"]
+ditu.so.com##a[class^="index-bcItem"]
 toolfk.com##a[class^="tip-alert"]
 m4fz.com##a[data-etime]
 caibaojian.com##a[data-href*="aliyun"]
@@ -49695,8 +49699,7 @@ _popunder+$popup
 ##topadblock
 ! areanews.com.au,armidaleexpress.com.au,avonadvocate.com.au,batemansbaypost.com.au
 ##.grid > .container > #aside-promotion
-! google https://forums.lanik.us/viewtopic.php?f=62&t=45368&start=30
-##.commercial-unit-mobile-top
+! google
 ##div#main > div.D1fz0e
 ! revcontent
 ##.default_rc_theme
@@ -58703,7 +58706,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||rechampouinerai.website^
 ||rechaptalisent.xyz^
 ||recheriend.top^
-||recipetocook.recipes^
 ||reckedmane.club^
 ||recomine.club^
 ||recommendedscenery.com^
