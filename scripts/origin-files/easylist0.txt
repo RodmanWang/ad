@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: AcBwhrK7rcVsT9+Bl0WwjQ
-! Version: 202101041821
+! Checksum: kcHgnYjebb5uRYW2k3Dbrg
+! Version: 202101050021
 ! Title: EasyList China+EasyList
-! Last modified: 04 Jan 2021 18:21 UTC
+! Last modified: 05 Jan 2021 00:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 !
@@ -18726,8 +18726,6 @@ rjno1.com##div[style="display:none"]
 ||www.wifi588.net^*.gif
 !#T66y.com
 redircdn.com##.al
-||alicdn.com/img/ibank/*_1980598585.
-||alicdn.com/img/ibank/*_255861743.
 rvlev.com,t66y.com#?#.tpc_content:-abp-has(>b:nth-child(n+40)>span>a[onmouseover="this.style.background='#DEF5CD';"]:-abp-contains(91TV)) > :nth-child(-n+45)
 rvlev.com,t66y.com#?#.tpc_content:-abp-has(>b:nth-child(n+50)>span>a[onmouseover="this.style.background='#DEF5CD';"]:-abp-contains(91TV)) > :nth-child(-n+55)
 rvlev.com,t66y.com#?#[class]:-abp-has(>a[onmouseover="this.style.background='#DEF5CD';"]:nth-child(n+150):-abp-contains(/赌|娱|澳/)) > :nth-child(-n+155)
@@ -18741,6 +18739,8 @@ t66y.com##.tips
 ||2481e.com^$popup
 ||693836.com^$popup
 ||a1714.com^$popup
+||alicdn.com/img/ibank/*_1980598585.
+||alicdn.com/img/ibank/*_255861743.
 ||baidu-jxf.co^$popup
 ||e5yx.com^$popup
 ||h6295.com^$popup
@@ -21486,6 +21486,7 @@ fqsousou.com,kengso.com#@#.user-share
 /ads.compat.
 /ads.css
 /ads.dll/*
+/ads.entry_
 /ads.gif
 /ads.htm
 /ads.jplayer.
@@ -31881,6 +31882,7 @@ _popunder+$popup
 ###advertising_320
 ###advertising_728
 ###advertising_728_under
+###advertising__banner__content
 ###advertising_btm
 ###advertising_column
 ###advertising_container
@@ -35829,6 +35831,7 @@ _popunder+$popup
 ###sp-adv-banner-top
 ###sp-advtop1
 ###sp-advtop3
+###sp-top-ad-wrapper
 ###spec_offer_ad2
 ###special-deals-ad
 ###specialAd
@@ -45837,6 +45840,7 @@ _popunder+$popup
 ##.nativeAd-sponsor-position
 ##.nativeMessageAd
 ##.native_ad
+##.native_ad_inline
 ##.nativead
 ##.nativeadasideplaceholder
 ##.nativeads-unt
@@ -46165,6 +46169,7 @@ _popunder+$popup
 ##.paneladvert
 ##.panoramic_ad_placeholder
 ##.parade-ad-container
+##.paragraphAdinsert
 ##.paragraphs-item-advertisement
 ##.paralaxBackgorundAdwords
 ##.partial-ad
@@ -47165,6 +47170,7 @@ _popunder+$popup
 ##.sidebar-ads-block
 ##.sidebar-ads-no-padding
 ##.sidebar-ads-wrap
+##.sidebar-adsdiv
 ##.sidebar-adv-container
 ##.sidebar-advert
 ##.sidebar-advertisement
@@ -47233,6 +47239,7 @@ _popunder+$popup
 ##.sidebaradcontent
 ##.sidebarads
 ##.sidebaradsense
+##.sidebarbox__advertising
 ##.sidebarboxad
 ##.sidebox-ad
 ##.sideheadnarrowad
@@ -52288,7 +52295,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||bopvetgel.com^
 ||boratestfishke.info^
 ||bordeded.pro^
-||borderbrush.com^
 ||bororango.com^
 ||borotango.com^
 ||bostoppa.club^
@@ -60594,6 +60600,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||varylioness.com^
 ||vasgenerete.site^
 ||vashoaft.net^
+||vasstycom.com^
 ||vatname.info^
 ||vatskaylittl.club^
 ||vaultwrite.com^
@@ -68606,6 +68613,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||dtiserv2.com^$third-party
 ||dtprofit.com^$third-party
 ||duroternout.info^$third-party
+||dzhjmp.com^$third-party
 ||eadulttraffic.com^$third-party
 ||easy-dating.org^$third-party
 ||easyaccess.mobi^$third-party
@@ -73136,6 +73144,7 @@ $popup,third-party,domain=loader.to|play.hydracdn.network|streamtape.com|vidclou
 ||tryboobs.com/bf/
 ||tube18.sex/tube1.php
 ||txxx.com/media/vcdn.tsyndicate.com/videos/
+||upornia.com/sn4diyux.php
 ||videosdotados.com/lingering-violet-de46/
 ||vipergirls.to/clientscript/popcode.js
 ||vrsmash.com/assets/script
@@ -74420,6 +74429,7 @@ ccm.net##.ccm_pugoo__sponso
 digit.in##.center-add
 siberiantimes.com##.centerBannerRight
 giveawayoftheday.com##.center_ab
+cargurus.com##.cg-siteHeader-leaderBoardWrap
 androidweblog.com##.cgdyh > [data-adid]
 bigfooty.com##.chaching
 kaotic.com##.chaturbate
@@ -75264,7 +75274,7 @@ dealsofamerica.com##.tab_ext
 thelocal.at,thelocal.ch,thelocal.de,thelocal.dk,thelocal.es,thelocal.fr,thelocal.it,thelocal.no,thelocal.se##.taboola-row
 recombu.com##.takeover-right
 routesonline.com##.takeoverBanner
-cyberparse.co.uk,gizmochina.com,greekreporter.com,newsnext.live,nme.com##.td-a-rec
+cyberparse.co.uk,gizmochina.com,greekreporter.com,musictech.net,newsnext.live,nme.com##.td-a-rec
 alextimes.com##.td-a-rec-id-content_bottom
 telugubullet.com##.td-a-rec-id-custom-spot
 sonorannews.com##.td-a-rec-id-sidebar
