@@ -292,7 +292,27 @@ return array(
     '92caijing.com' => array('92caijing.com'), //广告联盟
     'mm100.com' => array('mm100.com'), //广告联盟
     'juyoufan.net' => array('juyoufan.net'), //博彩类
-    'hpplay.cn' => array('hpplay.cn'), //广告下发
+    'hpplay.cn' => array(
+            'imdns.hpplay.cn',
+            'vipauth.hpplay.cn',
+            'sl.hpplay.cn',
+            'hotupgrade.hpplay.cn',
+            'tvapp.hpplay.cn',
+            'image.hpplay.cn',
+            'gslb.hpplay.cn',
+            'adeng.hpplay.cn',
+            'conf.hpplay.cn',
+            'adcdn.hpplay.cn',
+            'pin.hpplay.cn',
+            'rp.hpplay.cn',
+    ), //广告下发 #306
+    'hpplay.com.cn' => array( #306
+        'h5.hpplay.com.cn',
+        'cdn.hpplay.com.cn',
+    ),
+    'cibn.cc' => array( #306
+        'hpplay.cdn.cibn.cc',
+    ),
     'supersonic.com' => array('logs.supersonic.com'), //交叉推广平台
     'advmob.cn' => array('advmob.cn'), //交叉推广平台
     'adnexus.mobi' => array('adnexus.mobi'), //广告平台
@@ -876,6 +896,16 @@ return array(
         'www.gsgsr.xyz',
         'gdp.gsgsr.xyz',
    ),
+   'zmzfile.com' => array( #299
+        'zmzfile.com',
+   ),
+   'playcvn.com' => array( #299
+        'playcvn.com',
+   ),
+   'mgtv.com' => array( #306
+        'da.mgtv.com',
+        'video.da.mgtv.com',
+   ),
     
     
     
@@ -1424,4 +1454,6 @@ return array(
     'xifatime.com' => array('xifatime.com'),
     'yjkyj.cn' => array('yjkyj.cn'),
     'zamar.cn' => array('zamar.cn'),
+
+
 );
