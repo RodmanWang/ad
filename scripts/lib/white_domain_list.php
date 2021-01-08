@@ -198,9 +198,10 @@ return array(
     'httpdns.n.netease.com' => 0,
     'huoying666.com' => 0,
     'live.simcitybuildit.com' => 0,
+    'subscription.iqiyi.com' => 0, 
+    'azureedge.net' => 0, 
 
-
-
+    
     'herokuapp.com' => -1,
     'netlify.com' => -1,
     'vidoza.net' => -1,
