@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: RZPQkq9puEve1xur82mdig
-! Version: 202101081821
+! Checksum: kVN0869vCf1O8oSdA3pZrQ
+! Version: 202101090021
 ! Title: EasyList China+EasyList
-! Last modified: 08 Jan 2021 18:21 UTC
+! Last modified: 09 Jan 2021 00:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 !
@@ -29602,7 +29602,6 @@ _popunder+$popup
 ###adBTF300x250
 ###adBTF300x250IC
 ###adBadges
-###adBanner
 ###adBanner1
 ###adBanner10
 ###adBanner120x600
@@ -44310,7 +44309,6 @@ _popunder+$popup
 ##.google_top_adsense1_footer
 ##.google_top_adsense_footer
 ##.google_txt_ads_mid_big_img
-##.googlead
 ##.googlead-sidebar
 ##.googleadArea
 ##.googlead_idx_b_97090
@@ -51977,6 +51975,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||avwincall.info^
 ||awakeexterior.com^
 ||away-stay.com^
+||awbbcre.com^
 ||awcpmsaiv.com^
 ||awdigit.info^
 ||awehobrasp.live^
@@ -61863,6 +61862,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||zlfgedpuxrbpgm.com^
 ||zlfzeuvk.com^
 ||zlink2.com^
+||zlink6.com^
 ||zlinkm.com^
 ||zlkrsqad.com^
 ||zllanqoglad.com^
@@ -68519,6 +68519,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||zedo.com^$popup
 ||zeroredirect1.com^$popup
 ||zlink2.com^$popup
+||zlink6.com^$popup
 ||zlinkm.com^$popup
 ||zryydi.com^$popup
 ! IP addresses
@@ -69698,7 +69699,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||aolcdn.com/os/music/img/*-skin.jpg
 ||api.140proof.com^$third-party
 ||api.bitp.it^$third-party
-||api.ticketnetwork.com/Events/TopSelling/domain=nytimes.com
+||api.ticketnetwork.com/Events/TopSelling/$domain=nytimes.com
 ||apihotels.net/onestream/events/
 ||apkmaza.net/wp-content/uploads/$third-party
 ||apnonline.com.au/img/marketplace/*_ct50x50.gif
@@ -78226,7 +78227,6 @@ www.google.com#@##videoads
 @@||gaybeeg.info^$generichide
 @@||google.com/ads/$domain=hinduladies.com
 @@||hclips.com/js/advertising.js
-@@||hentaienespañol.net^$generichide
 @@||hentaimoe.com/js/advertisement.js
 @@||imgadult.com/js/advertisement.js
 @@||indiangilma.com^$generichide
