@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: BtzyNhr8ZyiGg55o9M+Ezw
-! Version: 202101090611
+! Checksum: FT8jZ6YADpsgam63qVnsWQ
+! Version: 202101091201
 ! Title: EasyList China+EasyList
-! Last modified: 09 Jan 2021 06:11 UTC
+! Last modified: 09 Jan 2021 12:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 !
@@ -1159,6 +1159,7 @@ _xiuno_com_ad/
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
 ##script + #coupletBox
 ##script + #rbbox
+##.top_ad_ban
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
@@ -8976,6 +8977,9 @@ _yad_jsonp_
 ||kxmusic.top/tc/js/script.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+22vd.com##.ad
+icourse163.org##.promotion-banner-wrapper
+22vd.com##.widget_custom_html:last-child
 kxmusic.top##A[href*="smsf8.com"]
 kxmusic.cn##A[href*="smsf8.com"]
 szxx.com.cn###A1
@@ -14988,7 +14992,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||ttrar.com/statics/pos_js/jquery.gotop.js
 @@||tui.click/js/ads.js
 @@||tui.click^$generichide
-@@||tvb.com/player/*/videojs.ads.
+@@||tvb.com^*/videojs.ads.
 @@||twpkinfo.com/js/ads.min.js
 @@||udndata.com/ndapp/ads/$~third-party
 @@||udnplay.com/js/momo/adsbygoogle.js
@@ -16317,6 +16321,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels
 ||huosuniao.com^
 ||mohaijishu.cn^
+##.appguide-wrap[onclick*="bcebos.com"]
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
 ###downdiv > .downcode
 ##.box_con[style="border-radius:10px;background-color:#ff0000;padding:15px;"]
@@ -72296,6 +72301,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||webdevforums.com/images/inmotion_banner.gif
 ||webhostingtalk.com/images/style/lw-header.png
 ||whoownsfacebook.com/images/topbanner.gif
+||wikihow.com/x/zscsucgm?
 ||windowsreport.com/rwIvq95hjpZa.js
 ||wlcr.org/banners/
 ||worldstadiums.com/world_stadiums/bugarrishoes/
