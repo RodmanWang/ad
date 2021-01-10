@@ -1,6 +1,6 @@
 payload:
-#VER=20210110023337
-#TOTAL_LINES=37707
+#VER=20210110082715
+#TOTAL_LINES=37719
   - DOMAIN-SUFFIX,00-gov.cn
   - DOMAIN-SUFFIX,kwcdn.000dn.com
   - DOMAIN-SUFFIX,kwcscdn.000dn.com
@@ -3796,6 +3796,7 @@ payload:
   - DOMAIN-SUFFIX,afgr7.com
   - DOMAIN-SUFFIX,afgr8.com
   - DOMAIN-SUFFIX,afgr9.com
+  - DOMAIN-SUFFIX,afi-b.com
   - DOMAIN-SUFFIX,afj0.com
   - DOMAIN-SUFFIX,afjlb.com
   - DOMAIN-SUFFIX,aflrm.com
@@ -9142,7 +9143,10 @@ payload:
   - DOMAIN-SUFFIX,congtad.com
   - DOMAIN-SUFFIX,conhive.com
   - DOMAIN-SUFFIX,conjeller-chikemon.com
-  - DOMAIN-SUFFIX,connatix.com
+  - DOMAIN-SUFFIX,capi.connatix.com
+  - DOMAIN-SUFFIX,rtb.connatix.com
+  - DOMAIN-SUFFIX,tr.connatix.com
+  - DOMAIN-SUFFIX,trk.connatix.com
   - DOMAIN-SUFFIX,connectad.io
   - DOMAIN-SUFFIX,connectif.cloud
   - DOMAIN-SUFFIX,connectignite.com
@@ -9559,6 +9563,7 @@ payload:
   - DOMAIN-SUFFIX,cretextsma.info
   - DOMAIN-SUFFIX,crewita.co
   - DOMAIN-SUFFIX,analytics.liveact.cri-mw.jp
+  - DOMAIN-SUFFIX,tag.cribnotes.jp
   - DOMAIN-SUFFIX,cribsectstux.com
   - DOMAIN-SUFFIX,crimentasaju.site
   - DOMAIN-SUFFIX,criminglynuk.pro
@@ -9792,6 +9797,7 @@ payload:
   - DOMAIN-SUFFIX,cyberlink.pro
   - DOMAIN-SUFFIX,cybermonitor.com
   - DOMAIN-SUFFIX,cybernetentertainment.com
+  - DOMAIN-SUFFIX,trusted-web-seal.cybertrust.ne.jp
   - DOMAIN-SUFFIX,cybmas.com
   - DOMAIN-SUFFIX,cyboke.cn
   - DOMAIN-SUFFIX,cyclosen.club
@@ -11289,6 +11295,7 @@ payload:
   - DOMAIN-SUFFIX,dzxwnews.com
   - DOMAIN-SUFFIX,dzznyesmwj.com
   - DOMAIN-SUFFIX,api.e-cg.cn
+  - DOMAIN-SUFFIX,e-click.jp
   - DOMAIN-SUFFIX,partner.e-conomic.com
   - DOMAIN-SUFFIX,e-contenta.com
   - DOMAIN-SUFFIX,e-demx.com
@@ -12648,6 +12655,7 @@ payload:
   - DOMAIN-SUFFIX,confiant-integrations.global.ssl.fastly.net
   - DOMAIN-SUFFIX,dfapvmql-q.global.ssl.fastly.net
   - DOMAIN-SUFFIX,fyrsbckgi-c.global.ssl.fastly.net
+  - DOMAIN-SUFFIX,rtg-endpoint.global.ssl.fastly.net
   - DOMAIN-SUFFIX,fastonlineusers.com
   - DOMAIN-SUFFIX,fastpopclick.com
   - DOMAIN-SUFFIX,fastpopunder.com
@@ -13607,6 +13615,7 @@ payload:
   - DOMAIN-SUFFIX,fvptlxwm.com
   - DOMAIN-SUFFIX,fvugxwoy.com
   - DOMAIN-SUFFIX,fvwlzsm3tt921krvoq6.pro
+  - DOMAIN-SUFFIX,fw-ad.jp
   - DOMAIN-SUFFIX,fwbntw.com
   - DOMAIN-SUFFIX,fwccw.com
   - DOMAIN-SUFFIX,fwix.com
@@ -24517,6 +24526,7 @@ payload:
   - DOMAIN-SUFFIX,performance-based.com
   - DOMAIN-SUFFIX,performanceadexchange.com
   - DOMAIN-SUFFIX,performanceanalyser.net
+  - DOMAIN-SUFFIX,performancefirst.jp
   - DOMAIN-SUFFIX,performanceonclick.com
   - DOMAIN-SUFFIX,performanceplay.co.kr
   - DOMAIN-SUFFIX,performancerevenues.com
@@ -29385,6 +29395,7 @@ payload:
   - DOMAIN-SUFFIX,sntjim.com
   - DOMAIN-SUFFIX,sntzq.com
   - DOMAIN-SUFFIX,snuoen.com
+  - DOMAIN-SUFFIX,bvr.ast.snva.jp
   - DOMAIN-SUFFIX,snwpqybkb.com
   - DOMAIN-SUFFIX,qd.snwx.com
   - DOMAIN-SUFFIX,snxyf.com
@@ -33107,6 +33118,7 @@ payload:
   - DOMAIN-SUFFIX,uslycoloursewo.info
   - DOMAIN-SUFFIX,link.messaging.usnews.com
   - DOMAIN-SUFFIX,usocial.pro
+  - DOMAIN-SUFFIX,cookie.sync.usonar.jp
   - DOMAIN-SUFFIX,usswrite.com
   - DOMAIN-SUFFIX,ustbitsoct.top
   - DOMAIN-SUFFIX,ustedpicklyba.space
