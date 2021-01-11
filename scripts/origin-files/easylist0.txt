@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: l2vQcj4Xjzx+XOvtVu9Jxg
-! Version: 202101111211
+! Checksum: dB40NttXe7o83ueRPgFiCg
+! Version: 202101111831
 ! Title: EasyList China+EasyList
-! Last modified: 11 Jan 2021 12:11 UTC
+! Last modified: 11 Jan 2021 18:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 !
@@ -8980,6 +8980,7 @@ _yad_jsonp_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
+poxiaotv.com##[ontouchstart]
 szxx.com.cn###A0
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -40100,6 +40101,7 @@ _popunder+$popup
 ##.ads-300x250-sidebar
 ##.ads-300x300
 ##.ads-300x600
+##.ads-300x600-wrapper
 ##.ads-300x80
 ##.ads-301
 ##.ads-336-197-qu
@@ -47498,6 +47500,7 @@ _popunder+$popup
 ##.sn-ad-300x250
 ##.snarcy-ad
 ##.sng_card_ads
+##.snhb-ads
 ##.snoadnetwork
 ##.snoadrotatewidgetwrap
 ##.social-ad
