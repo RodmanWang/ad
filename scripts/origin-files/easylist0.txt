@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: SG1a/3GpEPWj+z8if55bVw
-! Version: 202101121211
+! Checksum: 9KBX+xfLveXam+wiaHx8XA
+! Version: 202101121831
 ! Title: EasyList China+EasyList
-! Last modified: 12 Jan 2021 12:11 UTC
+! Last modified: 12 Jan 2021 18:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 !
@@ -1166,6 +1166,7 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||govjiangsu.cn^
 ||govbeijing.cn^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
@@ -8981,7 +8982,7 @@ _yad_jsonp_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||kuaishouba.com/themes/default/images/*.gif
-||gllmh.com/style/js/glldp.js
+||gllmh.com/style/js/gll
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 baidu.com##.fengchao-wrap-feed
@@ -40187,6 +40188,9 @@ _popunder+$popup
 ##.ads-cnt
 ##.ads-code
 ##.ads-col
+##.ads-col-1
+##.ads-col-2
+##.ads-cols
 ##.ads-cont
 ##.ads-container-mediumrectangle
 ##.ads-container__inner
@@ -45482,6 +45486,7 @@ _popunder+$popup
 ##.mailad
 ##.main-ad
 ##.main-ads
+##.main-ads-line-2
 ##.main-advert
 ##.main-advertising
 ##.main-column-ad
