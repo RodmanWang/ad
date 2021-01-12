@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wUeAytTsSuZWKGWIQqDXxQ
-! Version: 202101120611
+! Checksum: SG1a/3GpEPWj+z8if55bVw
+! Version: 202101121211
 ! Title: EasyList China+EasyList
-! Last modified: 12 Jan 2021 06:11 UTC
+! Last modified: 12 Jan 2021 12:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 !
@@ -1166,6 +1166,7 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||govbeijing.cn^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -8979,8 +8980,12 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||kuaishouba.com/themes/default/images/*.gif
+||gllmh.com/style/js/glldp.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+baidu.com##.fengchao-wrap-feed
+kuaishouba.com##.index_adbox
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -29041,6 +29046,8 @@ _popunder+$popup
 ###ad-9
 ###ad-970
 ###ad-98
+###ad-Content_1
+###ad-Rectangle_1
 ###ad-a
 ###ad-a1
 ###ad-abs-b-0
@@ -57931,6 +57938,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||padspms.com^
 ||padsreds.com^
 ||paegcsvchsdlbj.com^
+||pafovocg.bid^
 ||pagaynrbee.com^
 ||paginw.com^
 ||pagiwp.com^
@@ -61286,6 +61294,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||wvahelphpfnhyx.com^
 ||wvbdtcyhgwy.com^
 ||wvesvozyuoxg.com^
+||wvgrpwdaol.bid^
 ||wvhsouzoan.com^
 ||wvlveodsvygn.com^
 ||wvoahyehtvj.com^
