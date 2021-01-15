@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: jxdAW2ifEebcbELK4b9yeA
-! Version: 202101150621
+! Checksum: uVMhHv8roPnJqcrGDO59Sw
+! Version: 202101151211
 ! Title: EasyList China+EasyList
-! Last modified: 15 Jan 2021 06:21 UTC
+! Last modified: 15 Jan 2021 12:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 !
@@ -806,7 +806,6 @@ _xiuno_com_ad/
 ##.ad_right_1
 ##.ad_right_2
 ##.ad_thread
-##.ad_top_close + .bd
 ##.adbox-bg.adscounter
 ##.add-gg
 ##.ads > a > img[src*=".sinaimg."]
@@ -8992,6 +8991,7 @@ _yad_jsonp_
 ||yjspw25.com/pc_
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+xsldh6.com##DIV[id^="slide"] > .pure-g:nth-child(3)
 jojf.cn##.banner
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -16347,6 +16347,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||buyuninfo.com^
 ||hnyoufan.com^
 ||g1mm3d.cn^
+||liulu888.com^
+||dnfkong.com^
 ||yanyanbiji.com^
 ||zln44.cn^
 bxwx555.org###addiv3
@@ -49680,6 +49682,7 @@ _popunder+$popup
 ##a[href^="https://uncensored.game/"]
 ##a[href^="https://uncensored3d.com/"]
 ##a[href^="https://understandsolar.com/signup/?lead_source="][href*="&tracking_code="]
+##a[href^="https://unreshiramor.com/"]
 ##a[href^="https://usenetxs.website/"]
 ##a[href^="https://vod09197d7.club/"]
 ##a[href^="https://watchmygirlfriend.tv/"]
@@ -59535,6 +59538,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||shikroux.net^
 ||shinasi.info^
 ||shinebliss.com^
+||shingleintelligenceurge.com^
 ||shinyspiesyou.com^
 ||shionmanc.club^
 ||shiptoud.com^
@@ -77714,6 +77718,7 @@ www.google.com#@##videoads
 @@||weatherbug.com/images/stickers/*/728x90/
 @@||weatherbug.com/style/stickers/*_728x90.css
 @@||wixstatic.com/media/*_300_250_$image,domain=lenislens.com
+@@||woodies.pl/wp-content/uploads/$image,~third-party
 @@||worlds-luxury-guide.com/sites/default/files/rectangle-300x250-newsletter.jpg
 @@||zorza-polarna.pl/environment/cache/images/300_250_
 ! *** easylist:easylist/easylist_allowlist_popup.txt ***
