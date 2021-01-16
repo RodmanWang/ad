@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: YiQrSmnFou3sx8wo+N6fHg
-! Version: 202101151841
+! Checksum: 77BMl74GF9/REmXj0uQdgQ
+! Version: 202101160041
 ! Title: EasyList China+EasyList
-! Last modified: 15 Jan 2021 18:41 UTC
+! Last modified: 16 Jan 2021 00:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 !
@@ -72567,6 +72567,7 @@ $image,script,subdocument,third-party,xmlhttprequest,domain=heapfiles.com|vidoza
 @@||ajax.googleapis.com/ajax/libs/$script,domain=heapfiles.com|vidoza.co|vidoza.net
 @@||cdn.vidoza.co/js/$script,domain=heapfiles.com|vidoza.co|vidoza.net
 @@||cdnjs.cloudflare.com/ajax/libs/$script,domain=heapfiles.com|vidoza.co|vidoza.net
+@@||google.com/recaptcha/$domain=vidoza.co|vidoza.net
 @@||vidoza.net^$image,script,domain=heapfiles.com|vidoza.co|vidoza.net
 ! govid.co
 $script,third-party,xmlhttprequest,domain=govid.co
