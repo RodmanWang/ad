@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: r5/hOkVDihm4xHlhdTuYSQ
-! Version: 202101160621
+! Checksum: +lyu168hodbSA22vpwOFRg
+! Version: 202101161211
 ! Title: EasyList China+EasyList
-! Last modified: 16 Jan 2021 06:21 UTC
+! Last modified: 16 Jan 2021 12:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 !
@@ -72570,7 +72570,7 @@ $image,script,subdocument,third-party,xmlhttprequest,domain=heapfiles.com|vidoza
 @@||ajax.googleapis.com/ajax/libs/$script,domain=heapfiles.com|vidoza.co|vidoza.net
 @@||cdn.vidoza.co/js/$script,domain=heapfiles.com|vidoza.co|vidoza.net
 @@||cdnjs.cloudflare.com/ajax/libs/$script,domain=heapfiles.com|vidoza.co|vidoza.net
-@@||google.com/recaptcha/$domain=vidoza.co|vidoza.net
+@@||google.com/recaptcha/$csp,domain=vidoza.co|vidoza.net
 @@||vidoza.net^$image,script,domain=heapfiles.com|vidoza.co|vidoza.net
 ! govid.co
 $script,third-party,xmlhttprequest,domain=govid.co
@@ -75407,6 +75407,7 @@ tutorialrepublic.com##.sidebar
 radiotoday.co.uk##.sidebar-column-secondary > .sidebar
 freshbusinessthinking.com##.sidebar-mpu
 spearswms.com##.sidebar-mpu-1
+davidwalsh.name##.sidebar-sda-large
 indianapublicmedia.org##.sidebar-upper-underwritings
 thebadandugly.com##.sidebar30
 celebritynetworth.com##.sidebarAvtBox
@@ -75654,6 +75655,7 @@ audiobookbay.net##[href="/dl-14-days-trial"]
 toumpano.net##[href="http://roz-tilefona.xbomb.net/"]
 daijiworld.com##[href="http://www.expertclasses.org/"]
 sqlfiddle.com##[href="https://entityframework-extensions.net/"]
+davidwalsh.name##[href="https://requestmetrics.com/"]
 mhktricks.org##[href="https://www.deepbrid.com/"]
 deshdoaba.com##[href="https://www.nsbinsures.com/"]
 noypigeeks.com##[href] > .litespeed-loaded
