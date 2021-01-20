@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: VZCRFLV03dLty/AXYEXn9g
-! Version: 202101200041
+! Checksum: UTqJmeqJkwhMSZZgR+P26A
+! Version: 202101200621
 ! Title: EasyList China+EasyList
-! Last modified: 20 Jan 2021 00:41 UTC
+! Last modified: 20 Jan 2021 06:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 !
@@ -9001,6 +9001,7 @@ _yad_jsonp_
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+nfstar.net##.bottom_fixed
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -21762,6 +21763,7 @@ fqsousou.com,kengso.com#@#.user-share
 /ads/generator/*
 /ads/get/*
 /ads/getall
+/ads/getPositions?
 /ads/google1.
 /ads/google2.
 /ads/google_
@@ -22311,6 +22313,7 @@ fqsousou.com,kengso.com#@#.user-share
 /adslides.
 /adsline.
 /AdsLoad.
+/adslot-
 /adslots.
 /adslug-
 /adslug_
@@ -38540,6 +38543,7 @@ _popunder+$popup
 ##.ad.sidebar-module
 ##.ad.size-300x250
 ##.ad.super
+##.ad.widget
 ##.ad01
 ##.ad01-obj
 ##.ad02
@@ -46017,6 +46021,7 @@ _popunder+$popup
 ##.native-advts
 ##.native-leaderboard-ad
 ##.native-sidebar-ad
+##.native.ad
 ##.nativeAd
 ##.nativeAd-sponsor-position
 ##.nativeMessageAd
@@ -72110,6 +72115,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||adserver.pandora.com^
 ||adss.yahoo.com^
 ||adswikia.com^*banner
+||adz.wattpad.com^
 ||afedmag.com/uploaded/images/banner-
 ||afloat.ie/images/banners/
 ||afr.com/assets/europa.
@@ -72475,6 +72481,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||wall.vgr.com^
 ||walmart.com^*/api/wpa?
 ||watoday.com.au/assets/europa.
+||wattpad.com/js/ados.min.js
 ||webconfs.com/wp-content/uploads/2017/08/300x250bw.png
 ||webdevforums.com/images/inmotion_banner.gif
 ||webhostingtalk.com/images/style/lw-header.png
@@ -74157,6 +74164,7 @@ khistocks.com,milb.com###standard_banner
 cucirca.eu###stanga
 geekwire.com###startup-resources-sidebar
 activistpost.com###stb-overlay
+cryptoslate.com###sticky-footer-global
 fool.com###sticky-wrapper
 afr.com###stickyLeaderboard
 gsmarena.com###subHeader
