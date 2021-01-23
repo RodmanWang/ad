@@ -5,10 +5,14 @@ source /etc/profile
 cd $(cd "$(dirname "$0")";pwd)
 
 easylist=(
-  "https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt"
-  "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt"
+  "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_English/filter.txt"
+  "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt"
   "https://easylist.to/easylist/fanboy-annoyance.txt"
-  "https://easylist.to/easylist/easyprivacy.txt"
+  "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_4_Social/filter.txt"
+  "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_14_Annoyances/filter.txt""
+  "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt"
+  "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_11_Mobile/filter.txt"
+  "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_7_Japanese/filter.txt"
   "https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt"
 )
 
@@ -20,6 +24,8 @@ hosts=(
 strict_hosts=(
   "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt"
   "https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser"
+  "https://curben.gitlab.io/malware-filter/urlhaus-filter-agh.txt"
+  "https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt"
 )
 
 dead_hosts=(
@@ -31,14 +37,6 @@ rm -f ./origin-files/easylist*
 rm -f ./origin-files/hosts*
 rm -f ./origin-files/strict-hosts*
 rm -f ./origin-files/dead-hosts*
-
-cp ./origin-files/yhosts-latest.txt ./origin-files/hosts1000.txt
-cp ./origin-files/some-else.txt ./origin-files/dead-hosts444.txt
-
-curl --connect-timeout 60 -s -o - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list \
- | grep -F 'DOMAIN-SUFFIX,' | sed 's/DOMAIN-SUFFIX,/127.0.0.1 /g' >./origin-files/hosts999.txt
-curl --connect-timeout 60 -s -o - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list \
- | grep -F 'DOMAIN-SUFFIX,' | sed 's/DOMAIN-SUFFIX,/127.0.0.1 /g' >./origin-files/hosts998.txt
 
 
 for i in "${!easylist[@]}"
