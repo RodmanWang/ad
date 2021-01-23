@@ -200,7 +200,11 @@ return array(
     'live.simcitybuildit.com' => 0,
     'subscription.iqiyi.com' => 0, 
     'azureedge.net' => 0, 
-
+    'surge.sh' => 0,
+    'ccclub.cmbchina.com' => 0,
+    'adv.ccb.com' => 0,
+    'conac.cn' => 0,
+    
     
     'herokuapp.com' => -1,
     'netlify.com' => -1,
