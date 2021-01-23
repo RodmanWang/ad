@@ -35,12 +35,8 @@ dead_hosts=(
 )
 
 rm -f ./origin-files/easylist*
-rm -f ./origin-files/hosts*
 rm -f ./origin-files/strict-hosts*
 rm -f ./origin-files/dead-hosts*
-
-cp ./origin-files/yhosts-latest.txt ./origin-files/hosts1000.txt
-cp ./origin-files/some-else.txt ./origin-files/dead-hosts444.txt
 
 for i in "${!easylist[@]}"
 do
