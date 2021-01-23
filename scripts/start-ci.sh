@@ -24,7 +24,6 @@ hosts=(
 strict_hosts=(
   "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt"
   "https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser"
-  "https://curben.gitlab.io/malware-filter/urlhaus-filter-hosts.txt"
 )
 
 dead_hosts=(
