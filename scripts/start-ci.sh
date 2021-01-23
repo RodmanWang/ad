@@ -15,7 +15,6 @@ easylist=(
   "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_7_Japanese/filter.txt"
   "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_15_DnsFilter/filter.txt"
   "https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt"
-  "https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt"
 )
 
 hosts=(
@@ -32,6 +31,7 @@ strict_hosts=(
 dead_hosts=(
   "https://raw.githubusercontent.com/notracking/hosts-blocklists-scripts/master/domains.dead.txt"
   "https://raw.githubusercontent.com/notracking/hosts-blocklists-scripts/master/hostnames.dead.txt"
+  "https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt"
 )
 
 rm -f ./origin-files/easylist*
