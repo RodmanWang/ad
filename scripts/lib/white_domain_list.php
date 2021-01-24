@@ -204,7 +204,7 @@ return array(
     'ccclub.cmbchina.com' => 0,
     'adv.ccb.com' => 0,
     'conac.cn' => 0,
-    
+    'mix.sina.com.cn' => 0,
     
     'herokuapp.com' => -1,
     'netlify.com' => -1,
