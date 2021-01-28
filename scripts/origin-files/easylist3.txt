@@ -4014,6 +4014,8 @@ cartoonbrew.com#%#//scriptlet("abort-on-property-read", "ad_block_test")
 @@||cinemaxx.de/assets/js/adblock_detection/adsense.js
 @@||wco.tv/inc/embed/ads.js
 tusubtitulo.com###bannerAdBlock
+delfi.ee#$#.C-ad-block-layer { display: none !important; }
+delfi.ee#$#body { overflow: visible !important; }
 salidzini.lv#%#//scriptlet('prevent-setTimeout', 'testAdBlock')
 one-click-tutorials.info,solvetube.site,getintopc.com#%#//scriptlet("set-constant", "pqdxwidthqt", "false")
 bendigoadvertiser.com.au#%#//scriptlet('set-cookie', 'dismissCheck', '1')
@@ -7949,6 +7951,8 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 ||cdn.privacy-mgmt.com^$important,domain=promipool.de|android-hilfe.de|wsj.com
 !
 !
+paesifantasma.it###cookie-law-message
+paesifantasma.it###splashbox-advcorner
 walmart.ca#?#.privacy-open > div > div[class] a[href$="/legal#Cookies"]:upward(3)
 trade.acdx.io###zc_notice
 geolatvija.lv###AnalyticsPrompt
@@ -11357,7 +11361,7 @@ tempmailaddress.com##.container > footer.text-center.hidden-xs
 downdetector.ru##.container[style="display: block;"]
 mobile.de##.cookie-banner-outer
 viafree.dk##.cookie-bar
-mega.nz,m.bosch-garden.com,birdinflight.com,petsathome.com,dnevnik.hr##.cookie-dialog
+m.bosch-garden.com,birdinflight.com,petsathome.com,dnevnik.hr##.cookie-dialog
 libertylondon.com##.cookie-disclaimer-message
 finder.com##.cookie-footer-bar
 eurogamer.net,eurogamer.pt,metabomb.net,nintendolife.com,usgamer.net,vg247.com##.cookie-gdpr
@@ -20149,6 +20153,9 @@ realty.yandex.ru##.Offer__taxiBannerContainer
 !-----------------------------------------------
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/67637#issuecomment-768913292
+kinopoisk.ru#?#div[class$="kinopoisk-media"] iframe.yandex_music:upward(2)
+kinopoisk.ru##.media-page-layout__trailer-promo
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72673
 barchart.com##.bc-premier-ads-block
 ! https://github.com/AdguardTeam/AdguardFilters/issues/71748
