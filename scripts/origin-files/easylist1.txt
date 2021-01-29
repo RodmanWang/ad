@@ -221,6 +221,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||breathebuds.com^
 ||a-i-ad.com^$third-party
 ||4sqt6jq.de^
 ||sprocket-ping.s3.amazonaws.com^
@@ -4519,6 +4520,7 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||stat.adultium.com^
 ||c1.wfinterface.com^
 ||l.typesquare.com^
 ||estat.zum.com^
@@ -9988,7 +9990,9 @@ ciokorea.com,adpiamall.com,live.joins.com,naver.com,jbe.go.kr#%#//scriptlet('set
 ! https://github.com/AdguardTeam/AdguardFilters/issues/35208
 @@||cdn-gl.imrworldwide.com/novms/*/ggng*.js$domain=dailytelegraph.com.au
 ! https://github.com/AdguardTeam/AdguardFilters/issues/34934
+||google-analytics.com/analytics.js$script,redirect=google-analytics,important,domain=polygon.com
 @@||google-analytics.com/analytics.js$domain=polygon.com
+@@||google-analytics.com/gtm/js?id=$domain=polygon.com
 ! sbs.com.au - broken video player
 @@||scdn.cxense.com/cx.js$domain=sbs.com.au
 ! https://github.com/AdguardTeam/AdguardFilters/issues/34387
