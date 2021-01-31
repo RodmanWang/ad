@@ -205,6 +205,7 @@ return array(
     'adv.ccb.com' => 0,
     'conac.cn' => 0,
     'mix.sina.com.cn' => 0,
+    'jwpcdn.com' => 0,
     
     'herokuapp.com' => -1,
     'netlify.com' => -1,
