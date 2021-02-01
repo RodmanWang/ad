@@ -1745,6 +1745,8 @@ bessarabia.ua,football.kulichki.net,jeotermalhaberler.com,glavcom.ua,hindustanti
 ! ###mc_embed_signup
 cachevalleydaily.com,bisnis.com,ilpost.it,bsblog.info,alcoparty.com.ua,codastory.com,informazionefiscale.it,kerch.fm,cinemablend.com,prostofinovo.ru,comss.ru,majorgeeks.com,buhgalter.com.ua,providr.com,24tv.ua,babylonbee.com,dexerto.com,football365.com,menrec.com,netdoktor.de,ottawamatters.com,retail-insider.com,walterfootball.com,wweek.com,zozhnik.ru###mc_embed_signup
 !
+fark.com##.newsletter_callout
+tass.ru##.social-news-buttons
 lsm.lv##.subscribe-form
 interestingengineering.com##.main-subscription
 interestingengineering.com##.slim-subscription
@@ -4612,7 +4614,6 @@ kinopoisk.ru##div[class*="adblock-warning"]
 sportsnet.ca##.sticky-sidebar > div > .bigbox_container_1
 sportsnet.ca##.sticky-sidebar > div > .bigbox_container_2
 2ip.ua#@#.adsbygoogle
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=2ip.ua
 @@||fastly.net/js/_ads/prebid-*-min.js$domain=spanishdict.com
 @@||androidcentral.com/sites/all/libraries/adblockdetection/adblockDetector.min.js
 @@||imore.com/sites/all/libraries/adblockdetection/adblockDetector.min.js
@@ -7967,6 +7968,9 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 ||cdn.privacy-mgmt.com^$important,domain=promipool.de|android-hilfe.de|wsj.com
 !
 !
+fantasy.lu###privacy_cookies
+setn.com##.privacy-area
+telenor.se#%#//scriptlet('set-cookie', 'telenorcookiepolicy', '1')
 deutsches-ausschreibungsblatt.de###cookie
 deutsches-ausschreibungsblatt.de##.modal-backdrop
 spreadshirt.com##.sprd-consent
@@ -13070,7 +13074,7 @@ video.tvzap.kataweb.it#%#document.cookie = "kw_3pc_enableds=false; domain=.kataw
 compress-or-die.com#%#document.cookie = "CookieConsent=1; path=/";
 mazda.com.tr#%#//scriptlet('remove-class', 'cookie-panel-enabled', '.cookie-panel-enabled[data-module="header"]')
 decrypt.co#%#document.cookie = "GDPR_Settings=1";
-crfashionbook.com,comicbook.com,metabomb.net,usgamer.net,eurogamer.it,eurogamer.net,eurogamer.pl,eurogamer.pt,rockpapershotgun.com,vg247.com#%#AG_onLoad(function(){if(-1==document.cookie.indexOf("OptanonAlertBoxClosed")){var a=new MutationObserver(function(){var b=document.querySelector("#onetrust-consent-sdk"),c=document.querySelector("button#onetrust-accept-btn-handler");b&&c&&(a.disconnect(),c.click(),b.style="display: none !important;")});a.observe(document,{childList:!0,subtree:!0});setTimeout(function(){a.disconnect()},1E4)}});
+metacritic.com,crfashionbook.com,comicbook.com,metabomb.net,usgamer.net,eurogamer.it,eurogamer.net,eurogamer.pl,eurogamer.pt,rockpapershotgun.com,vg247.com#%#AG_onLoad(function(){if(-1==document.cookie.indexOf("OptanonAlertBoxClosed")){var a=new MutationObserver(function(){var b=document.querySelector("#onetrust-consent-sdk"),c=document.querySelector("button#onetrust-accept-btn-handler");b&&c&&(a.disconnect(),c.click(),b.style="display: none !important;")});a.observe(document,{childList:!0,subtree:!0});setTimeout(function(){a.disconnect()},1E4)}});
 nieuwsblad.be#%#AG_onLoad(function(){if(-1==document.cookie.indexOf("euconsent")){var a=new MutationObserver(function(){document.getElementById("didomi-notice-agree-button")&&(document.getElementById("didomi-notice-agree-button").click(),a.disconnect())});a.observe(document,{childList:!0,subtree:!0});setTimeout(function(){a.disconnect()},5E3)}});
 freeyou.ag#%#//scriptlet('remove-class', 'fixed-body', 'body,html')
 rockpapershotgun.com#%#AG_onLoad(function(){var a=new MutationObserver(function(){if(document.querySelector(".optanon-alert-box-wrapper")){document.querySelector("button.accept-cookies-button").click(); a.disconnect();}});a.observe(document,{childList: !0, subtree: !0});setTimeout(function(){a.disconnect()},5000)});
@@ -13345,6 +13349,8 @@ m.timesofindia.com,m-timesofindia-com.cdn.ampproject.org$$amp-consent
 !######### White list. Fixing filtering errors #########
 !#######################################################
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/73404
+metacritic.com#@##onetrust-consent-sdk
 ! https://github.com/AdguardTeam/AdguardFilters/issues/73587
 airam.fi#@##cookie-consent
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72838
@@ -19667,6 +19673,7 @@ macwelt.de,pcwelt.de#%#AG_setConstant('firebase.messaging', 'noopFunc');
 ||gstatic.com/firebasejs/*/firebase.js$domain=novayagazeta.ru|comments.ua|kinosimka.net|ilan365.net|cnbcindonesia.com|haberzamani.net|oxy.cloud|allbasketball.org
 ||gstatic.com/firebasejs/*/firebase-messaging.js$domain=ukranews.com|comments.ua|meduza.io|coub.com|porno90.me|cnnamador.com|giallozafferano.it|wcostream.com|fptplay.vn|jooble.org|mobile01.com|myinstants.com|pdalife.ru|rg.ru|m.iguides.ru|donanimhaber.com|profile.ru|womanhit.ru|news.noteru.com|narodna-pravda.ua|newstm.in|sabah.com.tr|dreamstime.com|popbee.com|avtovzglyad.ru|allbasketball.org
 !
+wkyc.com##.page__notifications
 ||lsm.lv/service-worker.js
 ||karsolay.com/js/fcm-web-push.js
 ||musictor.org/didgesdle/ssw.js
@@ -20898,6 +20905,7 @@ aliexpress.ru,aliexpress.com##iframe[src^="https://campaign.aliexpress.com/"]
 ! Working rule, but JS: is.alicdn.com#%#if (typeof localStorage != 'undefined' && localStorage.setItem) { localStorage.setItem('2', '"{\"2USD_coupon_popup\":1}"'); }
 aliexpress.ru,aliexpress.com#$?##newuser-activity-config { remove: true; }
 !
+fark.com###abPleaBar
 sibnet.ru##.wink_notification__root
 codepile.net##.cp-ad
 rsload.net###dle-content a[href="/tutvce.html"]
