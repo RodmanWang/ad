@@ -7967,6 +7967,11 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 ||cdn.privacy-mgmt.com^$important,domain=promipool.de|android-hilfe.de|wsj.com
 !
 !
+deutsches-ausschreibungsblatt.de###cookie
+deutsches-ausschreibungsblatt.de##.modal-backdrop
+spreadshirt.com##.sprd-consent
+airam.fi#$##cookie-consent { display: none !important; }
+airam.fi#$#body { position: unset !important; }
 shop.miele.com.tr##.CerezPp
 ||powr.io/popup/u/$subdocument,domain=taxi-point.co.uk
 topographic-map.com##.popup
@@ -9524,7 +9529,7 @@ probier-club.de###cookiedingsbums
 stiftsbrauerei-schlaegl.at##.sisu-cookie-notice
 ba.no##amedia-privacybox
 alpirsbacher.de##._pm-banner
-nonciclopedia.org,generasia.com,tiplopedi.com,stupidedia.org##.mw-cookiewarning-container
+miraheze.org,nonciclopedia.org,generasia.com,tiplopedi.com,stupidedia.org##.mw-cookiewarning-container
 einrichtungsradar.de,heimkinoheld.de,foodlux.de###kb-cookie-banner
 sciencenews.org##div[class^="cookie-banner__wrapper"]
 stepstone.de##.info-banner__cookie-policy
@@ -10299,7 +10304,7 @@ ikea.com##.hnf-banner
 huawei.com##.huawei-bootom-cookie
 da-imnetz.de,fnp.de,wetterauer-zeitung.de##.id-CookieConsent
 shmoop.com##.initial-cmp-container-overlay
-forumusa.com,techgistafrica.com,burdurgazetesi.com,cybernews.com,artdogistanbul.com,freetuts.download,gradown.com,teachthought.com,techacrobat.com##.jnews-cookie-law-policy
+metaforya.com,forumusa.com,techgistafrica.com,burdurgazetesi.com,cybernews.com,artdogistanbul.com,freetuts.download,gradown.com,teachthought.com,techacrobat.com##.jnews-cookie-law-policy
 leroyseafood.com##.js-cookie-root
 vkusvill.ru##.js-cookie-warning
 cylance.com##.js-cookiePolicy
@@ -10654,7 +10659,7 @@ deluxe-marketing.com###dsgvo-cookie-container
 otosklep24.pl###dymek
 schuh-armbruster.de###egg-cookie-bar
 ephe.fr###elytics
-volkswagen.ch,volkswagenplus.ca,bhphotovideo.com,binekarac.vw.com.tr,latimes.com,scotsman.com###ensNotifyBanner
+beerwulf.com,volkswagen.ch,volkswagenplus.ca,bhphotovideo.com,binekarac.vw.com.tr,latimes.com,scotsman.com###ensNotifyBanner
 strato.de,strato.nl###eu-cookie-guideline
 rail.cc###eucookiebox
 forum-kulturystyka.pl###fk-terms
@@ -10905,7 +10910,7 @@ egmnow.com##.egm-cookie-flyout
 geekmall.eu##.espcookie
 angel.co##.eu_cookie_consent
 espanarusa.com##.eula-popup
-crucial.com,popsugar.co.uk,popsugar.com,popsugar.com.au##.evidon-consent-button
+pfizer.com.tr,crucial.com,popsugar.co.uk,popsugar.com,popsugar.com.au##.evidon-consent-button
 iotransfer.net,macbooster.net##.fl-accept
 drivereasy.com,iobit.com##.float-bar
 doctoralia.com.br,doktortakvimi.com,znanylekarz.pl##.floating-cookie-info
@@ -11856,7 +11861,7 @@ softonic.com###message-cookie
 digit-photo.com###messcookie
 magnus-spiele.de###mg-usercookie
 telekom.de###mms-cookie-disclaimer
-53grad-hamburg.de,myfairtrade.com,topfruits.de,liebeslust.de,melitta.de###mnd-cookie-bar
+meddax24.de,53grad-hamburg.de,myfairtrade.com,topfruits.de,liebeslust.de,melitta.de###mnd-cookie-bar
 hexagonmi.com,easycredit.de,unieuro.it,leica-geosystems.com###modal-cookie
 motorradonline.de###mps-cookie-hint
 quoka.de###msgCookie
@@ -13340,12 +13345,16 @@ m.timesofindia.com,m-timesofindia-com.cdn.ampproject.org$$amp-consent
 !######### White list. Fixing filtering errors #########
 !#######################################################
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/73587
+airam.fi#@##cookie-consent
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72838
 bva.bund.de#@##cookiebanner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72830
 happypenguin.altervista.org#@##cookieModal
 ! https://github.com/AdguardTeam/AdguardFilters/issues/73404
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=metacritic.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/73638
+beerwulf.com#@##cookiemessage
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72772
 sparda-bank-hamburg.de,sparda-b.de,sparda-sw.de#@#.cookie-consent:not(body):not(html)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72751
@@ -16162,6 +16171,8 @@ sodapdf.com##.be-tooltip
 !
 ! Specific sites
 !
+spreadshirt.com##.promo-popup
+||player.daznservices.com/player/releases/v*/unfilled/popup.chunk.js$domain=goal.com
 shop.miele.com.tr##iframe[src="https://miele.revotas.com/js/miele/newmemberpopup/form_d.html"]
 taxi-point.co.uk#?##POPUPS_ROOT:has(iframe[title="Wix Get Subscribers"][src*="wixapps.net"])
 ! nicovideo.jp banner on video
