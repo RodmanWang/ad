@@ -2948,6 +2948,7 @@ tsf.pt##.js-contentcollapse-root[data-type="box-newsletter-detail"]
 medium.com##.js-directEmailSignup
 travelask.ru##.js-footer-banner
 mytoys.de##.js-newsletter
+gamebillet.com##.alert-box-flexible
 haaretz.com##.js-newsletter--alerts
 rbc.ru##.js-subscribe-block
 kotaku.com##.js_newsletter-btn--subscribe
@@ -3633,6 +3634,8 @@ e.mail.ru,octavius.mail.ru#%#//scriptlet("set-constant", "Object.prototype.adv-l
 !
 ! Yandex.Weather
 !#if (!ext_ublock)
+! Yandex.Video
+yandex.*#%#//scriptlet("abort-on-property-write", "Object.prototype.adSystem")
 ! Yandex.Zen
 zen.yandex.ru,zen.yandex.ua,zen.yandex.by,zen.yandex.com,zen.yandex.com.tr,zen.yandex.fr,zen.yandex.kz,zen.yandex.md#%#//scriptlet("abort-on-property-read", "Object.prototype.adv")
 ! docviewer
@@ -4014,6 +4017,7 @@ muropaketti.com,visajourney.com,dennikn.sk,ixbt.com,encuentra24.com,cuerpomente.
 @@||cdn.ligainsider.de/uploads/elements/*/js/ads.js
 !#safari_cb_affinity
 !
+myfxbook.com#%#//scriptlet('set-cookie', 'lastAdBlockerMessageDisplayedDate', '1')
 client.googiehost.com##.banner
 pornorips.com#?#h1 > span:contains(AddBlocker)
 cablegratis.online##.alert-danger
@@ -5985,7 +5989,6 @@ wvnews.com#%#AG_setConstant('__tnt.advertisements', 'noopFunc');
 basicweb.ru#%#AG_setConstant('popUpInfo', 'noopFunc');
 gazzetta.it#%#AG_setConstant('adv_openx_oas_ads', 'true');
 thehindubusinessline.com#%#AG_setConstant('Adblock', 'false');
-myfxbook.com#%#AG_setConstant('adBlockerDetect', '1');
 !#endif
 !#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android)
 @@||marca.com^$generichide
@@ -5999,12 +6002,13 @@ wvnews.com#%#//scriptlet("set-constant", "__tnt.advertisements", "noopFunc")
 basicweb.ru#%#//scriptlet("set-constant", "popUpInfo", "noopFunc")
 gazzetta.it#%#//scriptlet("set-constant", "adv_openx_oas_ads", "true")
 thehindubusinessline.com#%#//scriptlet("set-constant", "Adblock", "false")
-myfxbook.com#%#//scriptlet("set-constant", "adBlockerDetect", "1")
 !#endif
 !
 ! Common safari_cb_affinity(general)
 !#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
 !#safari_cb_affinity(general)
+myfxbook.com###popupAdBlockPageContainer
+myfxbook.com##.modal-backdrop
 @@||cyberleninka.ru/*.js$domain=cyberleninka.ru
 @@||1point3acres.com^$generichide
 yock.games#@#.adBanner
@@ -7970,6 +7974,9 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 ||cdn.privacy-mgmt.com^$important,domain=promipool.de|android-hilfe.de|wsj.com
 !
 !
+metacritic.com##.ot-sdk-show-settings
+change.org#$#body { overflow: auto !important; }
+change.org#$#div[data-testid="cookie-wall-modal"] { display: none !important; }
 timgate.it##.cao-show
 anreiter.at#$##cliSettingsPopup ~ div.cli-modal-backdrop { display: none !important; }
 anreiter.at#$#body { overflow: auto !important; }
@@ -13223,9 +13230,8 @@ partsnl.nl#%#AG_onLoad(function() { if(document.cookie.indexOf("CPV") == -1) { s
 sportdiver.com,wakeboardingmag.com#%#document.cookie = "CookieConsent=1";
 egged.co.il#%#document.cookie = "hideSlide=true";
 !#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_ext_firefox)
-vibez.pl,kafeteria.pl,parenting.pl,abczdrowie.pl#%#AG_onLoad(function(){if(!(-1<document.cookie.indexOf("OAX")||"undefined"!=typeof localStorage&&null!==localStorage.getItem("crdab"))){var a=new MutationObserver(function(){var b=document.evaluate("//button[contains(text(), 'PRZECHODZ')]",document,null,XPathResult.ANY_TYPE,null).iterateNext();b&&(b.click(),a.disconnect())});a.observe(document,{childList:!0,subtree:!0});setTimeout(function(){a.disconnect()},1E4)}});
-fotoblogia.pl,gadzetomania.pl,open.fm,domodi.pl,homebook.pl,allani.pl,autocentrum.pl,polygamia.pl,komorkomania.pl,autokult.pl,money.pl,dobreprogramy.pl#%#AG_onLoad(function(){if(!(-1<document.cookie.indexOf("OAX")||"undefined"!=typeof localStorage&&null!==localStorage.getItem("crdab"))){var a=new MutationObserver(function(){var b=document.evaluate("//button[contains(text(), 'PRZECHODZ')]",document,null,XPathResult.ANY_TYPE,null).iterateNext();b&&(b.click(),a.disconnect())});a.observe(document,{childList:!0,subtree:!0});setTimeout(function(){a.disconnect()},1E4)}});
-so-magazyn.pl,o2.pl,pudelek.pl,wp.pl#%#AG_onLoad(function(){if(-1==document.cookie.indexOf("OAX")){var a=new MutationObserver(function(){var b=document.evaluate("//button[contains(text(), 'PRZECHODZ')]",document,null,XPathResult.ANY_TYPE,null).iterateNext();b&&(b.click(),a.disconnect())});a.observe(document,{childList:!0,subtree:!0});setTimeout(function(){a.disconnect()},1E4)}});
+vibez.pl,kafeteria.pl,parenting.pl,abczdrowie.pl,fotoblogia.pl,gadzetomania.pl,open.fm,domodi.pl,homebook.pl,allani.pl,autocentrum.pl,polygamia.pl,komorkomania.pl,autokult.pl,money.pl,dobreprogramy.pl#%#AG_onLoad(function(){if(!(-1<document.cookie.indexOf("OAX")||"undefined"!=typeof localStorage&&null!==localStorage.getItem("crdab"))){var a=new MutationObserver(function(){var b=document.evaluate("//button[contains(text(), 'PRZECHODZ')]",document,null,XPathResult.ANY_TYPE,null).iterateNext();b&&(a.disconnect(),setTimeout(function(){b.click()},1E3))});a.observe(document,{childList:!0,subtree:!0});setTimeout(function(){a.disconnect()},1E4)}});
+so-magazyn.pl,o2.pl,pudelek.pl,wp.pl#%#AG_onLoad(function(){if(-1==document.cookie.indexOf("OAX")){var a=new MutationObserver(function(){var b=document.evaluate("//button[contains(text(), 'PRZECHODZ')]",document,null,XPathResult.ANY_TYPE,null).iterateNext();b&&(a.disconnect(),setTimeout(function(){b.click()},1E3))});a.observe(document,{childList:!0,subtree:!0});setTimeout(function(){a.disconnect()},1E4)}});
 !#endif
 !
 !#if (adguard_app_windows || adguard_app_mac || adguard_app_android || adguard_ext_firefox)
@@ -18541,7 +18547,7 @@ hdkinoshka.net,timeallnews.ru###bg_popup
 expertreviews.co.uk,autoexpress.co.uk,alphr.com,itpro.co.uk###block-dennis-newsletter-newsletter-block
 softpedia.com###bottombubble
 androidcanavari.net###cboxOverlay
-stilearte.it,windowsable.com,indirin.co,unikampus.net,kadinbilgiportali.com,sagligimicinhersey.com,sosyalmedyapazarlama.com,rockistasyonu.com,bs16.com,akittv.com.tr,hukukbook.com,baskadunyalardavar.com,hukukiterimler.com,havadiskibris.com,asksozlerimiz.com,hukukiblog.com,ankaram.net,kliniksaglik.com,ciltbilgi.com,kitapkafalar.com,iyiyemektarifleri.net,bodrumguncelhaber.com,codewk.com,elitbursa.com,gggmedya.com,trafiksozluk.com,kahvve.com,finanssepeti.com,borsarti.com,atifzafrak.com,kadinlarkulubu.com,besttechinfo.com,maksatbilgi.com,gamesforpublic.de,filmlinks4u.is,formatatmak.com,gaste.org,geziseli.com,gozdehaber.org,haberdan.com,sarkidinle.gen.tr,z-news.link###check-also-box
+lafmacun.net,stilearte.it,windowsable.com,indirin.co,unikampus.net,kadinbilgiportali.com,sagligimicinhersey.com,sosyalmedyapazarlama.com,rockistasyonu.com,bs16.com,akittv.com.tr,hukukbook.com,baskadunyalardavar.com,hukukiterimler.com,havadiskibris.com,asksozlerimiz.com,hukukiblog.com,ankaram.net,kliniksaglik.com,ciltbilgi.com,kitapkafalar.com,iyiyemektarifleri.net,bodrumguncelhaber.com,codewk.com,elitbursa.com,gggmedya.com,trafiksozluk.com,kahvve.com,finanssepeti.com,borsarti.com,atifzafrak.com,kadinlarkulubu.com,besttechinfo.com,maksatbilgi.com,gamesforpublic.de,filmlinks4u.is,formatatmak.com,gaste.org,geziseli.com,gozdehaber.org,haberdan.com,sarkidinle.gen.tr,z-news.link###check-also-box
 fishki.net###chrome_popup
 bilecikhaber.com.tr###cm-social-overlay
 androidcanavari.net,dnepr24.com.ua###colorbox
@@ -21509,6 +21515,8 @@ newsweek.com##iframe[src="http://sns.europe.newsweek.com/newsletter?popup=1"]
 !######### JS tweaks ##########
 !##############################
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/72902
+uploaded.net#%#//scriptlet("adjust-setTimeout", "", "1000", "0.05")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72048
 dogemate.com#%#//scriptlet("adjust-setInterval", "#bt", "", "0.02")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72523
