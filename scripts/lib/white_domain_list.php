@@ -206,7 +206,11 @@ return array(
     'conac.cn' => 0,
     'mix.sina.com.cn' => 0,
     'jwpcdn.com' => 0,
-    
+    'retcode.taobao.com' => 0,
+    '3975.com' => 0,
+
+
+
     'herokuapp.com' => -1,
     'netlify.com' => -1,
     'vidoza.net' => -1,
