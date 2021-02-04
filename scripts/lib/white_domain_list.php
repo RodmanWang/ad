@@ -208,7 +208,7 @@ return array(
     'jwpcdn.com' => 0,
     'retcode.taobao.com' => 0,
     '3975.com' => 0,
-
+    'air.1688.com' => 0,
 
 
     'herokuapp.com' => -1,
