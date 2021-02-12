@@ -1,5 +1,6 @@
 ||*.feipukeplus.com^$domain=m.qqm4.com^
 ||*.wap.xsbiquge.com^
+||*^sdtfrom=^$media,redirect=noopmp3-0.1s,domain=qq.com
 ||*^sdtfrom=^$rewrite=abp-resource:blank-mp3,domain=qq.com^
 ||*serror*.wo.com.cn^
 ||201*.myhard.com^
@@ -113,6 +114,7 @@
 ||impservice*.youdao.com^
 ||iptracker-lb-*.amazonaws.com^
 ||itc.*^prod=ad&
+||itc.*^prod=ad&
 ||ja*.gamersky.com^
 ||ja*.gamersky.com^
 ||js*.abolezi.com^
@@ -123,6 +125,7 @@
 ||log-*.previewnetworks.com^
 ||logger-*.dailymotion.com^
 ||lt*.tritondigital.com^
+||lts*.qq.com^*.ts?index=$media,redirect=noopmp3-0.1s,domain=qq.com
 ||marketplace-ios-*.hyprmx.com^
 ||mcdp-*.outbrain.com^
 ||mcs-va-*.tiktokv.com^
@@ -163,6 +166,7 @@
 ||sell*.etlong.com^
 ||sense-*.tapdb.net^
 ||sock*-goguardian.pusher.com^
+||ssh.*.com^*!$script,third-party
 ||ssh.*.com^*!$script,third-party
 ||ssp*.rtb.beeline.ru^
 ||stat*.1internet.tv^
