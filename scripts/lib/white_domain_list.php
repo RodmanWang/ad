@@ -210,6 +210,13 @@ return array(
     '3975.com' => 0,
     'air.1688.com' => 0,
     'continuum.dds.microsoft.com' => 0,
+    'sec.resource.xiaomi.net' => 0,
+    'api.cortana.ai' => 0,
+    'mazu.3g.qq.com' => 0,
+    'umiwi.com' => 0,
+    'xmpush.xiaomi.com' => 0,
+    'doublecklick.net' => 1,
+    'issuecdn.baidupcs.com' => 0,
 
 
     'herokuapp.com' => -1,
