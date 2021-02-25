@@ -217,7 +217,7 @@ return array(
     'xmpush.xiaomi.com' => 0,
     'doublecklick.net' => 1,
     'issuecdn.baidupcs.com' => 0,
-
+    'duiba.com.cn' => 0,
 
     'herokuapp.com' => -1,
     'netlify.com' => -1,
