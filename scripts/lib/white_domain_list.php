@@ -218,7 +218,10 @@ return array(
     'doublecklick.net' => 1,
     'issuecdn.baidupcs.com' => 0,
     'duiba.com.cn' => 0,
-
+    'trib.al' => 0,
+    
+    
+    
     'herokuapp.com' => -1,
     'netlify.com' => -1,
     'vidoza.net' => -1,
