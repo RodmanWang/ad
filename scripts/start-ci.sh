@@ -5,7 +5,9 @@ source /etc/profile
 cd $(cd "$(dirname "$0")";pwd)
 
 easylist=(
-  "https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt"
+  "https://easylist-downloads.adblockplus.org/easylist.txt"
+  "https://easylist-downloads.adblockplus.org/easylistchina.txt"
+  "https://easylist-downloads.adblockplus.org/easyprivacy.txt""
   "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt"
   "https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt"
 )
@@ -16,7 +18,6 @@ hosts=(
 
 strict_hosts=(
   "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt"
-  "https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser"
 )
 
 dead_hosts=(
