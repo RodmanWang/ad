@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: gqV0HRJkPJg86eNK9d9qZQ
-! Version: 202103020001
+! Checksum: bJIoLIjXyTTg08nhCA6XTA
+! Version: 202103020601
 ! Title: EasyPrivacy
-! Last modified: 02 Mar 2021 00:01 UTC
+! Last modified: 02 Mar 2021 06:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3127,6 +3127,7 @@
 /omnidiggthis|
 /omnipagetrack.
 /omniture-app-measurement.
+/omniture-scode-prod.
 /omniture-visitorapi.
 /omniture.*&ref=
 /omniture.do;$image
@@ -11164,6 +11165,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dreamhost.com/*.cgi?$image,third-party
 ||drift.com/impressions/
 ||drift.com/track
+||drlimmode9ddd.cloudfront.net^
 ||dt1pxsve3tgas.cloudfront.net^
 ||dtym7iokkjlif.cloudfront.net/dough/
 ||du4rq1xqh3i1k.cloudfront.net^

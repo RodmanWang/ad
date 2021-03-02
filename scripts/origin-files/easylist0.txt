@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: SqWv9O/qtaQ6vJidl+/3BA
-! Version: 202103020000
+! Checksum: xjmpBzrk+lqk64tBHphwxQ
+! Version: 202103020600
 ! Title: EasyList
-! Last modified: 02 Mar 2021 00:00 UTC
+! Last modified: 02 Mar 2021 06:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -18935,6 +18935,7 @@ _popunder+$popup
 ##.ad-midleader
 ##.ad-mobile
 ##.ad-mobile-banner
+##.ad-mobile-flex-pos2
 ##.ad-mobile-mpu
 ##.ad-mod
 ##.ad-module
@@ -25657,6 +25658,7 @@ _popunder+$popup
 ##.homepage-banner-ad
 ##.homepage-footer-ad
 ##.homepage-footer-ads
+##.homepage-page__ff-ad-container
 ##.homepage-right-rail-ad
 ##.homepage-small-touts-ad
 ##.homepage-sponsoredlinks-container
@@ -54906,6 +54908,7 @@ rare.us##.post-block
 androidpolice.com##.post-header > .i-amphtml-layout-fixed-height
 mac-forums.com##.postMREC
 thejournal.ie##.postSponsored
+fastcompany.com##.post__promotion
 fastcodesign.com##.post__relative--recommender
 923thefox.com,hot1035.com##.posts-banner
 thetowner.com##.powered
