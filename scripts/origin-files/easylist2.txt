@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: m6u20BbTv8Tl0j31ZdAyoA
-! Version: 202103030601
+! Checksum: Q0/FutGyx+j5euKa6hIuvw
+! Version: 202103031201
 ! Title: EasyPrivacy
-! Last modified: 03 Mar 2021 06:01 UTC
+! Last modified: 03 Mar 2021 12:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -16095,7 +16095,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wellsfargo.com/tracking/
 ||wellsphere.com/?hit=
 ||whatcar.com/Client/Stats/
-||whatleaks.com/check_ports/?
 ||whistleout.com.au/track
 ||whstatic.com^*/ga.js?
 ||wikihow.com/ev/*?events=
@@ -16242,6 +16241,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||zylom.com^*/global_tracking.jsp?
 ||zylom.com^*/tracking_spotlight.js
 ||zytpirwai.net/track/
+! whatleaks.com
+||dns.whatleaks.com^
+||p0f.whatleaks.com
+||whatleaks.com/check_ports/?
 ! TraceDock
 ||apollo.plein.be^
 ||app1.maatwerkonline.nl^

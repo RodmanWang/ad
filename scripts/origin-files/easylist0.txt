@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 1+6u2r+S2Ibda+J0wvdbrw
-! Version: 202103030600
+! Checksum: yI6NXodhmcdqVH5OGTxsWg
+! Version: 202103031200
 ! Title: EasyList
-! Last modified: 03 Mar 2021 06:00 UTC
+! Last modified: 03 Mar 2021 12:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -51590,6 +51590,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||ad.search.ch^
 ||ad.spreaker.com^
 ||adaderana.lk/banners/
+||adblock-tester.com/banners/
 ||addirector.vindicosuite.com^
 ||adf.ly/*.php?u=$script
 ||adf.ly/external/*/int.php
@@ -55533,6 +55534,7 @@ whatmobile.com.pk##div[style^="height:610px"]
 napuzba.com##div[style^="width:336px"]
 gta3.com,gtagarage.com,gtasanandreas.net,myanimelist.net,pastebin.com##div[style^="width:728px;"]
 ebay.com##div[title="ADVERTISEMENT"]
+adblock-tester.com##embed[width="240"]
 xtremesystems.org##embed[width="728"]
 imgburn.com##font[face="Arial"][size="1"]
 realitytvworld.com##font[size="1"][color="gray"]
@@ -55572,6 +55574,7 @@ thedailysheeple.com##img[width="560"]
 autoaction.com.au,elitepvpers.com,irishcatholic.com##img[width="728"]
 elitepvpers.com##img[width="968"]
 broadbandforum.co##ins[data-ad-client]
+adblock-tester.com##object[width="240"]
 monova.org##script + [class] > [class]:first-child
 bbc.com##section[data-e2e="advertisement"]
 tempostorm.com##side-banners
@@ -55764,15 +55767,15 @@ multiup.eu,multiup.org#?#.col-md-4:-abp-contains(Usenet.nl)
 multiup.eu,multiup.org#?#.trtbl:-abp-has(.warnIp)
 nex-software.com#?#.toolinfo:-abp-has(a[href$="/reimage"])
 nex-software.com#?#h4:-abp-has(a[href$="/reimage"])
-pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]:-abp-has(div[title="Anzeige von"])
-pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]:-abp-has(div[title="Promocionado por"])
-pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]:-abp-has(div[title="Promoted by"])
-pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]:-abp-has(div[title="Promowane przez"])
-pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]:-abp-has(div[title="Publicidade de"])
-pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]:-abp-has(div[title="Sponsor:"])
-pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]:-abp-has(div[title="Sponsorisée par"])
-pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]:-abp-has(div[title="Sponsorizzato da"])
-pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]:-abp-has(div[title="Рекламодатель:"])
+pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]:-abp-has(div[title="Anzeige von"])
+pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]:-abp-has(div[title="Promocionado por"])
+pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]:-abp-has(div[title="Promoted by"])
+pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]:-abp-has(div[title="Promowane przez"])
+pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]:-abp-has(div[title="Publicidade de"])
+pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]:-abp-has(div[title="Sponsor:"])
+pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]:-abp-has(div[title="Sponsorisée par"])
+pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]:-abp-has(div[title="Sponsorizzato da"])
+pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]:-abp-has(div[title="Рекламодатель:"])
 quora.com#?#.question_page_content:-abp-has(div:-abp-contains(ad))
 quora.com#?#.question_page_content:-abp-has(div:-abp-contains(promoted))
 qwant.com#?#.result:-abp-has(.url:-abp-has(.info))
