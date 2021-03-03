@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: Q0/FutGyx+j5euKa6hIuvw
-! Version: 202103031201
+! Checksum: 9jW3nqu73ToJcdyZeKpflg
+! Version: 202103031801
 ! Title: EasyPrivacy
-! Last modified: 03 Mar 2021 12:01 UTC
+! Last modified: 03 Mar 2021 18:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1311,6 +1311,7 @@
 /clicktale.
 /clicktale/*
 /clicktale_
+/clicktalecdn.
 /ClickTaleFilter.
 /clicktrack-*.gif?
 /ClickTrack.
@@ -6956,6 +6957,7 @@ _mongo_stats/
 ||getrockerbox.com^$third-party
 ||getsmartcontent.com^$third-party
 ||getsmartlook.com^$third-party
+||getstat.net^$third-party
 ||getstatistics.se^$third-party
 ||getviously.com^$third-party
 ||gez.io^$third-party
@@ -8763,6 +8765,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||foxpush.com^$third-party
 ||foxpush.net^$third-party
 ||getback.ch^$third-party
+||getpush.net^$third-party
 ||getpushmonkey.com^$third-party
 ||getsupernova.com^$third-party
 ||gravitec.net^$third-party
