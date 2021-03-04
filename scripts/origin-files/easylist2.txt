@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 9jW3nqu73ToJcdyZeKpflg
-! Version: 202103031801
+! Checksum: RjjnvwA3XNrPxfgrF0ak0g
+! Version: 202103040001
 ! Title: EasyPrivacy
-! Last modified: 03 Mar 2021 18:01 UTC
+! Last modified: 04 Mar 2021 00:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1762,6 +1762,7 @@
 /elqnow/*
 /elqscr.js
 /elqtracking.
+/elqtrk.
 /elt.gif?
 /eluminate?
 /email/track/*$image
@@ -18137,7 +18138,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||cdn-ds.com/analytics/sockjs.js$script,domain=tuttleclickgenesis.com
 @@||cdn-net.com/cc.js$script,domain=uber.com|ubereats.com
 @@||cdn.optimizely.com/js/*.js$domain=compassion.com|creditsesame.com|freeshipping.com|heroku.com|historyvault.com|imageshack.com
-@@||certona.net^*/scripts/resonance.js$script,domain=canadiantire.ca
+@@||certona.net^*/scripts/resonance.js$script,domain=canadiantire.ca|finishline.com
 @@||changenow.io/js/tracking.js$script
 @@||chasecdn.com^*/@ccb-blueanalytics/$script,domain=chase.com
 @@||check.ddos-guard.net/check.js$script
