@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: YqeYQK7w8iQPOqDVelyDMQ
-! Version: 202103041200
+! Checksum: ZjerH3FMdTmyrNcukuGzJg
+! Version: 202103041800
 ! Title: EasyList
-! Last modified: 04 Mar 2021 12:00 UTC
+! Last modified: 04 Mar 2021 18:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -30704,6 +30704,7 @@ _popunder+$popup
 ##aside[itemtype="https://schema.org/WPAdBlock"]
 ##bottomadblock
 ##div[aria-label="Ads"]
+##div[cel_widget_id="dpx-sponsored-products-detail_csm_instrumentation_wrapper"]
 ##div[class*="-storyBodyAd-"]
 ##div[class*="_AdInArticle_"]
 ##div[class*="_browserAdOuterContainer_"]
