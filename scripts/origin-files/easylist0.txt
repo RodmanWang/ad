@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ZjerH3FMdTmyrNcukuGzJg
-! Version: 202103041800
+! Checksum: gwEM+zxgZhlJI6TcnC4rTg
+! Version: 202103050000
 ! Title: EasyList
-! Last modified: 04 Mar 2021 18:00 UTC
+! Last modified: 05 Mar 2021 00:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -56658,6 +56658,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||bannersnack.net^$domain=bannersnack.com
 @@||basinnow.com^*/advertise-$image,domain=basinnow.com
 @@||bbc.co.uk^*/adverts.js
+@@||bbc.gscontxt.net^$script,domain=bbc.com
 @@||bigfishaudio.com/banners/$image
 @@||bitcoinbazis.hu/advertise-with-us/$~third-party
 @@||blizzardwatch.com^*/bw-ads.js
