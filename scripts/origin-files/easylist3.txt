@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: UOhl1yjbi8Et1dB6vo66ww
-! Version: 202103071801
+! Checksum: AZsVYyLpHUhaSLPJaqM/uw
+! Version: 202103080001
 ! Title: EasyPrivacy
-! Last modified: 07 Mar 2021 18:01 UTC
+! Last modified: 08 Mar 2021 00:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -4412,6 +4412,7 @@
 /track?page_view
 /track?pid=
 /track?referer=
+/track?referrer=
 /track?scroll_view
 /Track?trackAction=
 /track?ts=*&domain=
@@ -6386,6 +6387,7 @@ _mongo_stats/
 ||coremotives.com^$third-party
 ||cost1action.com^$third-party
 ||countby.com^$third-party
+||counter.dev^$third-party
 ||counter.gd^$third-party
 ||counter.top.kg^$third-party
 ||counter160.com^$third-party
