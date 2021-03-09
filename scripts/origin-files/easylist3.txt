@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: jBeKrMFfUaIDOanHst1rtg
-! Version: 202103091201
+! Checksum: k9YS/twSd9gZqUBPAEHSBQ
+! Version: 202103091811
 ! Title: EasyPrivacy
-! Last modified: 09 Mar 2021 12:01 UTC
+! Last modified: 09 Mar 2021 18:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5523,6 +5523,7 @@ cgi-bin/counter
 /emimp/*$image
 /eo?_t=$image
 /exmo.email/open.html
+/gate.amnesty-international.*/open.php?
 /link.coindesk.com/img/*
 /link.e-mail.*/mo/$image
 /lzdmailer.letter.open?
@@ -11047,7 +11048,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||endorsal.io/check/
 ||ensighten.com/error/e.php?
 ||epimg.net/js/gdt/
-||epimg.net/t.gif
 ||epl.paypal-communication.com^$script
 ||epromote.co.za/track/
 ||erne.co/tags?
