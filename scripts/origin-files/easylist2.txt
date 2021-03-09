@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: M9bRu6svhgqGErGee1Fdfw
-! Version: 202103081752
+! Checksum: CibWe7WbrGusnnRD151TiA
+! Version: 202103082352
 ! Title: EasyList China
 ! Chinese supplement for the EasyList filters
-! Last Modified: 08 Mar 2021 17:52 UTC
+! Last Modified: 08 Mar 2021 23:52 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 ! License: https://easylist-downloads.adblockplus.org/COPYING
@@ -3797,7 +3797,7 @@ $websocket,domain=5nj.com|cechi8.com
 /ysm.ezprice.net/*
 ://*btbtt.*/imgs.js
 ://*btbtt.*/view/image/QT_
-://dmhy.org^*?$image
+://dmhy.org^*.*?$image
 ://www.*.js|$script,third-party,domain=159i.com|r3sub.com|thisav.com
 :88/lighttpd/default/
 ?method=baidu.ting.commercial.tactics&
@@ -3810,6 +3810,7 @@ _yad_jsonp_
 ||*.$image,rewrite=abp-resource:1x1-transparent-gif,third-party,domain=rmdown.com
 ||*/ad/$rewrite=abp-resource:blank-mp3,domain=huaren.tv
 ||*xav.*/guang/*.gif
+||anoneko.com^*.*?$image
 ||*xav.*/guang/*.jpg
 ||007.mx/flv/
 ||007ds.com/js/js/
@@ -8188,7 +8189,7 @@ _yad_jsonp_
 ||ww9874.com/asset/playerInit.js
 ||www-dnwx-com.anquanbao.cn/pic
 ||www.china.com.cn/node_$domain=news.china.com.cn
-||www.dmhy.org^*?$image
+||www.dmhy.org^*.*?$image
 ||wwwbaiducom.xyz/4/js4/
 ||wwwcdn.kimiss.net/btn/
 ||wx.sina.com.cn/iframe/pdps/

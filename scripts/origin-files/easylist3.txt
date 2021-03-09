@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: kM0BdBVWgftA2++B0zVBPQ
-! Version: 202103081801
+! Checksum: cBjlfVPWQMd7qU5MruU2mg
+! Version: 202103090001
 ! Title: EasyPrivacy
-! Last modified: 08 Mar 2021 18:01 UTC
+! Last modified: 09 Mar 2021 00:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -9913,6 +9913,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||seesaa.jp^$third-party
 ||segs.jp^$third-party
 ||sibulla.com^$third-party
+||smart-bdash.com^$third-party
 ||smart-counter.net^$third-party
 ||smartnews-ads.com^$third-party
 ||socdm.com^$third-party
@@ -15277,6 +15278,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sourceforge.net/log/
 ||sourcepoint.dexerto.com^
 ||sourcepoint.vice.com^$image
+||sourcesync.io/analytics|
 ||sovereignbank.com/utils/track.asp
 ||sp-mms.weather.com^
 ||sp.app.com^
@@ -21262,6 +21264,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||segment.io/analytics.js/*/analytics.min.js$script
 @@||segment.io/v1/$xmlhttprequest,domain=greentoe.com
 @@||serve-ts.amagi.tv^*/beacon?$xmlhttprequest,domain=watch.truecrimenetworktv.com
+@@||shopify.com/*assets/pixel.gif$image,domain=metrovac.com
 @@||siteapps.caa.co.uk/scripts/plugins/analytics/ga.min.js$script,~third-party
 @@||smartclient.com/smartclient/isomorphic/system/modules/isc_analytics.js$xmlhttprequest
 @@||solr.sas.com/query/$xmlhttprequest,domain=jmp.com
