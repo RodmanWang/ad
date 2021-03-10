@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: FzmxR87ZvXL4Mu91jtYBZQ
-! Version: 202103091810
+! Checksum: TajidlaHf1kVxcdxRkPQzA
+! Version: 202103100000
 ! Title: EasyList
-! Last modified: 09 Mar 2021 18:10 UTC
+! Last modified: 10 Mar 2021 00:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -629,7 +629,7 @@
 .com/adpicture
 .com/ads-
 .com/ads.$~script,~xmlhttprequest
-.com/ads/$image,object,subdocument,domain=~sabotage-films.com|~uze-ads.com
+.com/ads/$image,object,subdocument,domain=~sabotage-films.com
 .com/ads?
 .com/ads_
 .com/adv/$domain=~advantabankcorp.com|~archiproducts.com|~tritondigital.com
@@ -2590,7 +2590,7 @@
 /ads/jobroll-
 /ads/jquery.
 /ads/js.
-/ads/js/*$domain=~uze-ads.com
+/ads/js/*
 /ads/js_
 /ads/jsbannertext.
 /ads/labels/*
@@ -22263,6 +22263,10 @@ _popunder+$popup
 ##.advads-5
 ##.advads-sticky
 ##.advads-widget
+##.advads_ad_widget-2
+##.advads_ad_widget-3
+##.advads_ad_widget-4
+##.advads_ad_widget-5
 ##.advads_widget
 ##.advallyAdhesionUnit
 ##.advart
@@ -31421,6 +31425,7 @@ co-operative.coop,co-operativetravel.co.uk,cooptravel.co.uk#@#.AdBox
 backpage.com#@#.AdInfo
 chicagoreader.com#@#.AdSidebar
 buy.com,superbikeplanet.com#@#.AdTitle
+gamingcools.com#@#.Adsense
 home-search.org.uk#@#.AdvertContainer
 homeads.co.nz#@#.HomeAds
 travelzoo.com#@#.IM_ad_unit
@@ -36477,6 +36482,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||kwhsnwdpwsv.com^
 ||kwwxnzcielmpy.com^
 ||kxicxovlajgoct.com^
+||kxmvoppmbtzdi.com^
 ||kxqoiypoasab.com^
 ||kxswxnbr.com^
 ||kxuztynmbquxcf.com^
@@ -43198,7 +43204,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||connectad.io^$third-party
 ||connectignite.com^$third-party
 ||connectionads.com^$third-party
-||connexity.net^$third-party
 ||connexplace.com^$third-party
 ||connextra.com^$third-party
 ||consorcraightyc.info^$third-party
@@ -45529,7 +45534,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||revmob.com^$third-party
 ||revresda.com^$third-party
 ||revresponse.com^$third-party
-||revrtb.net^$third-party
 ||revsci.net^$third-party
 ||revstripe.com^$third-party
 ||rewardsaffiliates.com^$third-party
@@ -45555,7 +45559,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||ripplead.com^$third-party
 ||ristintriestenforth.info^$third-party
 ||ritchelu.com^$third-party
-||riverhit.com^$third-party
 ||rixaka.com^$third-party
 ||rmgserving.com^$third-party
 ||rmoreagricula.info^$third-party
@@ -48299,7 +48302,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||adsession.com^$third-party
 ||adsgangsta.com^$third-party
 ||adskape.ru^$third-party
-||adspyglass.com^$third-party
 ||adult3dcomics.com^$third-party
 ||adultforce.com^$third-party
 ||adultsense.com^$third-party
@@ -48360,7 +48362,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||chatinator.com^$third-party
 ||chopstick16.com^$third-party
 ||chtntr.com^$third-party
-||chystechagre.pro^$third-party
 ||citysex.com^$third-party
 ||clearac.com^$third-party
 ||clicadu.com^$third-party
@@ -48924,7 +48925,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||traffichunt.com^$third-party
 ||trafficlearn.com^$third-party
 ||trafficpimps.com^$third-party
-||trafficshop.com^$third-party
 ||trafficstars.com^$third-party
 ||traffictraffickers.com^$third-party
 ||trafficundercontrol.com^$third-party
@@ -53021,7 +53021,6 @@ $popup,third-party,domain=loader.to|play.hydracdn.network|streamtape.com|vidclou
 ||sunporno.com/bl.php
 ||taxidrivermovie.com^$~third-party,xmlhttprequest
 ||tbib.org/gaming/
-||tbib.org/gaming/clicker.php
 ||tbib.org/tbib.
 ||thegay.com/kadyrov/
 ||thehun.net/banners/
@@ -57379,6 +57378,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||stranger.se/socket.io/$~third-party
 @@||strangermeetup.com/socket.io/$~third-party
 @@||tabiat.gov.tr/KACMS/Files/ad-$image,~third-party
+@@||uze-ads.com/ads/$~third-party
 @@||valuecommerce.com^$image,domain=pointtown.com
 @@||velet.jp/images/adv/$image,~third-party
 @@||vidgyor.com/live/dai/js/videojs.ads.min.js$script,domain=zeebiz.com
