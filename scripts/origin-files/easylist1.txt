@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: xckycxgWuCLIVRD3tyC5Ug
-! Version: 202103111801
+! Checksum: fcN7c0NceoVX0HK16hq2mA
+! Version: 202103120000
 ! Title: EasyList
-! Last modified: 11 Mar 2021 18:00 UTC
+! Last modified: 12 Mar 2021 00:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -53084,8 +53084,6 @@ $popup,third-party,domain=loader.to|play.hydracdn.network|streamtape.com|vidclou
 ||taxidrivermovie.com^$~third-party,xmlhttprequest
 ||tbib.org/gaming/
 ||tbib.org/tbib.
-||thegay.com/classify/$script
-||thegay.com/kadyrov/
 ||thehun.net/banners/
 ||tits-guru.com/js/istripper4.js
 ||tryboobs.com/bf/
@@ -53136,6 +53134,12 @@ $websocket,domain=pornhub.com|pornhubthbh7ap3u.onion|redtube.com|redtube.com.br|
 @@||3movs.com/sd3/s/s/js/m/pr-before.js$script,~third-party
 ||3movs.com/ab-a.js
 ||3movs.com/sd3/
+! thegay.com
+@@||thegay.com/assets/jwplayer-*/jwplayer.core.controls.html5.js|
+@@||thegay.com/assets/jwplayer-*/jwplayer.js|
+@@||thegay.com/upd/*/assets/preview*.js|
+@@||thegay.com/upd/*/static/desktop/js/*.js|
+||thegay.com^$script
 ! *** easylist:easylist_adult/adult_specific_block_popup.txt ***
 .com./$popup,domain=pornhub.com|pornhubthbh7ap3u.onion
 ^utm_medium=pops^$popup,domain=ratedporntube.com|sextuberate.com

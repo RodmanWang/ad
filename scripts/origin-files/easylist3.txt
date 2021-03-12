@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: VUwcAr+qyiPgrYf4TNzkQA
-! Version: 202103111801
+! Checksum: /GVbDOpwCF6m3hzOCvNCVQ
+! Version: 202103120001
 ! Title: EasyPrivacy
-! Last modified: 11 Mar 2021 18:01 UTC
+! Last modified: 12 Mar 2021 00:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -4269,6 +4269,7 @@
 /tealiumTagsData.
 /telemetry/log/*
 /tenping.cpa.
+/testImpressions/*
 /testImpressions/beacon
 /textlink.php?text
 /thbeacon/*
@@ -4647,6 +4648,7 @@
 /trackingapi.
 /TrackingBreadcrumbs.
 /TrackingCentral.js
+/trackingcheck.min.js
 /trackingCode-
 /trackingCode.js
 /TrackingCookieCheck.
@@ -5482,6 +5484,7 @@ cgi-bin/counter
 ||meetrics.netbb-
 ! Email tracking pixels
 -track-email-open?
+.acemlna.com/Prod/link-tracker?
 .alcmpn.com/
 .app.returnpath.net/
 .bhphotovideo.com/mo/
@@ -5511,6 +5514,7 @@ cgi-bin/counter
 .sendibm1.com/mk/
 .simplicitycrm.com/rd/
 .starbucks.com/a/
+.titus.de/oo/$image
 .webex.com/q/
 .wix.com/_api/ping/
 .zalando.com/images/probe.png
@@ -6527,6 +6531,7 @@ _mongo_stats/
 ||domodomain.com^$third-party
 ||donreach.com^$third-party
 ||dotaki.com^$third-party
+||dotjs.com^$third-party
 ||dotomi.com^$third-party
 ||doubleclick.net/activity$third-party
 ||doubleclick.net/imp%$third-party
@@ -15007,6 +15012,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||playstation.com/beacon/
 ||playstation.net/event/
 ||plentyoffish.com/tracking.js
+||pnc.com/content/
 ||pnet.co.za/js/ga.js
 ||pocket-lint.com/media/pf304.js
 ||pokernews.com/track-views.php?
