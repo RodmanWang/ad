@@ -10,7 +10,6 @@ easylist=(
   "https://easylist-downloads.adblockplus.org/easylistchina.txt"
   "https://easylist-downloads.adblockplus.org/easyprivacy.txt"
   "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt"
-  "https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt"
 )
 
 hosts=(
