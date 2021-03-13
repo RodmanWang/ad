@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: utBMYrY37wHFB4yyq2NuwQ
-! Version: 202103131200
+! Checksum: dNSosmltQo07NlbVoZzOJw
+! Version: 202103131800
 ! Title: EasyList
-! Last modified: 13 Mar 2021 12:00 UTC
+! Last modified: 13 Mar 2021 18:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -16249,6 +16249,7 @@ _popunder+$popup
 ###remove_ads_button2
 ###removeadlink
 ###responsive-ad
+###responsive-ad-sidebar-container
 ###responsive_ad
 ###resultSponLinks
 ###resultsAdsBottom
@@ -32725,6 +32726,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||aktgw4u9z27l.com^
 ||alaccinalcom.top^
 ||alappropolylibe.site^
+||alawachi.net^
 ||albalbant.com^
 ||albarkale.site^
 ||albireo.xyz^
@@ -34666,6 +34668,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||eloquencer.com^
 ||elprogresse.top^
 ||elqsjecdav.com^
+||elsetormentshower.com^
 ||elsupposit.club^
 ||elyconsisterj.club^
 ||emagazing.fun^
@@ -38426,6 +38429,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||prxbxljcxnsso.com^
 ||pryrhoohs.site^
 ||ps7894.com^
+||psaughun.com^
 ||psedfenedc.fun^
 ||pseepsie.com^
 ||psensuds.net^
@@ -57075,6 +57079,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||netdna-ssl.com/sbly-ads/sbly-prebid-$domain=seeitlive.co
 @@||networkworld.com/www/js/ads/gpt_includes.js?
 @@||news4jax.com/gmg.static/ads/$script
+@@||nextcloud.com/remote.php/$~third-party,xmlhttprequest
 @@||nflcdn.com/static/site/$script,domain=nfl.com
 @@||nitropay.com/ads-$script,domain=lolalytics.com
 @@||notebookcheck.$image,~third-party
