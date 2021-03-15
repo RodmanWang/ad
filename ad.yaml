@@ -1,6 +1,6 @@
 payload:
-#VER=20210315200529
-#TOTAL_LINES=37085
+#VER=20210316020423
+#TOTAL_LINES=37087
   - DOMAIN-SUFFIX,00-gov.cn
   - DOMAIN-SUFFIX,001union.com
   - DOMAIN-SUFFIX,0024aaaa.com
@@ -11988,6 +11988,7 @@ payload:
   - DOMAIN-SUFFIX,ewvugujfhi.com
   - DOMAIN-SUFFIX,cdn-channels-pixel.ex.co
   - DOMAIN-SUFFIX,prd-collector-anon.ex.co
+  - DOMAIN-SUFFIX,prd-collector-platform.ex.co
   - DOMAIN-SUFFIX,exactag.com
   - DOMAIN-SUFFIX,exactdrive.com
   - DOMAIN-SUFFIX,exacttarget.com
@@ -30145,6 +30146,7 @@ payload:
   - DOMAIN-SUFFIX,svyksa.info
   - DOMAIN-SUFFIX,sw1block.com
   - DOMAIN-SUFFIX,sw2block.com
+  - DOMAIN-SUFFIX,sw9t.ml
   - DOMAIN-SUFFIX,swagtraffcom.com
   - DOMAIN-SUFFIX,smetrics.swalife.com
   - DOMAIN-SUFFIX,swan-swan-goose.com
