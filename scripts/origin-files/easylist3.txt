@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 9kETYDcECKLBHsDift7pMQ
-! Version: 202103150601
+! Checksum: 00zjWcygCLHSFYVVEEd9Og
+! Version: 202103151201
 ! Title: EasyPrivacy
-! Last modified: 15 Mar 2021 06:01 UTC
+! Last modified: 15 Mar 2021 12:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -7429,6 +7429,7 @@ _mongo_stats/
 ||nuggad.net^$third-party
 ||nuloox.com^$third-party
 ||numerino.cz^$third-party
+||nvidia.partners^$third-party
 ||nyltx.com^$third-party
 ||nytlog.com^$third-party
 ||o-s.io^$third-party
@@ -9227,6 +9228,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||unequalbrake.com^$third-party
 ||unknowncrate.com^$third-party
 ||untidyrice.com^$third-party
+||unwieldyhealth.com^$third-party
 ||verseballs.com^$third-party
 ||womanear.com^$third-party
 ||zlp6s.pw^$third-party
@@ -12416,6 +12418,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wsj.net/MW5/content/analytics/hooks.js
 ||wss.maven.io^$websocket
 ||wstat.wibiya.com^
+||wtbevents.pricespider.com^
 ||x.disq.us^
 ||x.weather.com^
 ||yahoo.co.jp/js/s_retargeting.js
@@ -16034,6 +16037,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dull.bankofamerica.com^$script,~third-party,xmlhttprequest
 ||eightieskids.com/cqaa2nlyb6jwvhk7amtptg4vak59chpgji9z9gd0dvrgby-pbhj2vyzsb7ttlmqp
 ||halifax-online.co.uk/scripts/16c9d93d/
+||newegg.com/pfssl.js
 ||rail.bankofamerica.com^$script,~third-party,xmlhttprequest
 ||tipsport.org/scripts/closure.js
 ! Forter
@@ -16044,7 +16048,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ! PerimeterX
 ||apartmenttherapy.com/jAYekY18/
 ||auctionzip.com/eKtvxkQ2/
-||bloomberg.com/8FCGYgk4/
+||bloomberg.com/8FCGYgk4/init.js
 ||booktopia.com.au/px_section_fetch/
 ||carbon38.com/7G7BfRT2/
 ||carolina.com/2gSJHc90/
@@ -21815,7 +21819,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||google-analytics.com/plugins/ua/ec.js$script,domain=health2000.co.nz
 @@||google.com/js/gweb/analytics/autotrack.js$domain=gradleplease.appspot.com|www.google.com
 @@||googletagmanager.com/gtag/js$script,domain=honeystinger.com|m.putlocker.how
-@@||googletagmanager.com/gtm.js$domain=ads.spotify.com|aim.steelseries.com|bsa-whitelabel.com|chipotle.com|easternbank.com|hbomax.com|medibank.com.au|newsletter.co.uk|nflgamepass.com|pioneer.eu|porsche.com|readyrefresh.com|redbull.com|royalbank.com|scotsman.com
+@@||googletagmanager.com/gtm.js$domain=ads.spotify.com|aim.steelseries.com|atptour.com|bsa-whitelabel.com|chipotle.com|easternbank.com|hbomax.com|medibank.com.au|newsletter.co.uk|nflgamepass.com|pioneer.eu|porsche.com|readyrefresh.com|redbull.com|royalbank.com|scotsman.com|trademe.co.nz
 @@||gov.au/Scripts/ga.js$script,~third-party
 @@||guce.advertising.com/collectIdentifiers$domain=guce.advertising.com
 @@||hearstapps.com/static/comscore.$script,domain=womenshealthmag.com
@@ -21879,9 +21883,6 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||mlb.com/scripts/stats/app/bbq_hashmgmt.js$script
 @@||mlbstatic.com/mlb.com/adobe-analytics/AppMeasurement-mlb.js$domain=mlb.com
 @@||mlbstatic.com/mlb.com/adobe-analytics/VisitorAPI.js$script,domain=mlb.com
-@@||monetate.net/img/$script,domain=newegg.com
-@@||monetate.net/js/$domain=newegg.com|nike.com
-@@||monetate.net/trk/$script,domain=newegg.com
 @@||mozu.com^*/analytics.js$script,domain=acehardware.com
 @@||mpsnare.iesnare.com/general5/wdp.js$domain=usbank.com
 @@||mpsnare.iesnare.com/snare.js$domain=citi.com|citibank.com|enmasse.com|login.skype.com|vitacost.com
@@ -21895,7 +21896,6 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||newrelic.com/public/charts/$subdocument,xmlhttprequest
 @@||nhl.com/components/shared/omniture-tracking-scripts/newRelic.js
 @@||nike.com/assets/measure/data-capture/analytics-client.min.js$script,~third-party
-@@||nike.com^*/optimizely.browser.umd.min.js$script,~third-party
 @@||nintendo.com/apps/noa/scripts/analytics.js
 @@||noaa.gov/maps/resources/scripts/ga.js$script,~third-party
 @@||noodid.ee/chordQuiz/$~third-party
@@ -22006,9 +22006,6 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||taboola.com/libtrc/impl.$script,domain=businessinsider.com|insider.com
 @@||tag.md-nx.com^$script,domain=weather.us
 @@||tagcommander.com^*/tc_$script
-@@||tags.news.com.au/prod/heartbeat/
-@@||tags.news.com.au/prod/metrics/metrics.js$script
-@@||tags.news.com.au/prod/nielsen/nielsen.js$script,domain=bestrecipes.com.au
 @@||target.microsoft.com/rest/$xmlhttprequest,domain=microsoft.com
 @@||tc.bankofamerica.com/c?
 @@||techrepublic.com^*/dw-tracking-1.0.js$~third-party
@@ -22032,7 +22029,6 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||ultimedia.com/js/common/jquery.gatracker.js
 @@||unileversolutions.com^*/config/analytics.js
 @@||unisys.com^*/track.gif$image,~third-party
-@@||unpkg.com/@optimizely/$domain=nike.com
 @@||usbank.com^*/adrum.js?$script
 @@||varagesale.com/assets/analytics-$script,~third-party
 @@||vast.com/vimpressions.js$domain=everycarlisted.com
@@ -22089,8 +22085,6 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 !@@||facebook.com/common/referer_frame.php$subdocument,domain=facebook.com
 !@@||messenger.com/common/referer_frame.php$subdocument,domain=messenger.com
 !@@||workplace.com/common/referer_frame.php$subdocument,domain=workplace.com
-! Cumulus Radio stations
-! https://github.com/uBlockOrigin/uAssets/issues/6359
 ! Tegna news sites
 @@/comscore.min.js$script,domain=1007sandiego.com|10tv.com|11alive.com|12news.com|12newsnow.com|13wmaz.com|760kfmb.com|971thefan.com|9news.com|abc10.com|cbs19.tv|cbs8.com|firstcoastnews.com|fox15abilene.com|kagstv.com|kare11.com|kcentv.com|kens5.com|kgw.com|khou.com|kiiitv.com|king5.com|kold.com|krem.com|ksdk.com|ktvb.com|kvue.com|myatltv.com|myfoxzone.com|newscentermaine.com|newswest9.com|thv11.com|wbir.com|wcnc.com|wfaa.com|wfmynews2.com|wgrz.com|whas11.com|wkyc.com|wltx.com|wthr.com|wtol.com|wtsp.com|wusa9.com|wvec.com|wwltv.com|wzzm13.com
 ! Expedia search breakage
