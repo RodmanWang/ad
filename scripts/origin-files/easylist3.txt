@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 1RzgbinoBtqXTDgYTUtR+w
-! Version: 202103151801
+! Checksum: uvFBgn74ckuEkH6f3CpMnw
+! Version: 202103160001
 ! Title: EasyPrivacy
-! Last modified: 15 Mar 2021 18:01 UTC
+! Last modified: 16 Mar 2021 00:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -11051,6 +11051,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||events.realgravity.com^
 ||events.shareably.net^
 ||events.splash-screen.net^
+||events.split.io^
 ||events.tubecup.org^
 ||events.whisk.com^
 ||events.yourcx.io^
@@ -20500,6 +20501,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||analytics.moviepilot.de^
 ||analytics.proxer.me^
 ||analytics.solidbau.at^
+||anibis.ch/static/js/sourceClickIdentification.js
 ||antenne.de^*/ivw_reload.js
 ||aol.de/cnt/
 ||aol.de/track/
