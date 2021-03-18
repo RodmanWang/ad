@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: d3NKeIfD/eNmqoEHSVcODw
-! Version: 202103181201
+! Checksum: PgRGzTXuqc5pqNI6nO8lkA
+! Version: 202103181801
 ! Title: EasyPrivacy
-! Last modified: 18 Mar 2021 12:01 UTC
+! Last modified: 18 Mar 2021 18:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -8343,6 +8343,7 @@ _mongo_stats/
 ||vinlens.com^$third-party
 ||vinub.com^$third-party
 ||viralninjas.com^$third-party
+||viraltrackings.com^$third-party
 ||virgul.com^$third-party
 ||virool.com^$third-party
 ||virtualnet.co.uk^$third-party
@@ -10355,6 +10356,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics-static.ugc.bazaarvoice.com^
 ||analytics.30m.com^
 ||analytics.agoda.com^
+||analytics.aimtell.com^
 ||analytics.amakings.com^
 ||analytics.anvato.net^
 ||analytics.apnewsregistry.com^
