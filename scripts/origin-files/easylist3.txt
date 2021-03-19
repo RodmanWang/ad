@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: YwvEELWYvKT1+DhxMDFQMw
-! Version: 202103190601
+! Checksum: 8e3AdlXWDOOEiAg2WSI5+A
+! Version: 202103191201
 ! Title: EasyPrivacy
-! Last modified: 19 Mar 2021 06:01 UTC
+! Last modified: 19 Mar 2021 12:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6548,6 +6548,7 @@ _mongo_stats/
 ||dwin2.com^$third-party
 ||dynameex.com^$third-party
 ||dynamicyield.com^$third-party
+||dynatrace.com^$third-party,domain=~dynatracelabs.com
 ||dynatracesaas.com^$third-party
 ||dyntrk.com^$third-party
 ||e-contenta.com^$third-party
@@ -11005,7 +11006,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dxwgpw0lkcum5.cloudfront.net^
 ||dy2xcjk8s1dbz.cloudfront.net^
 ||dymlo6ffhj97l.cloudfront.net^
-||dynatrace.com/jstag/$third-party
 ||dyv1bugovvq1g.cloudfront.net^
 ||e-activist.com^*/broadcast.record.message.open.do?
 ||e-merchant.com/^*/edr.js$third-party
