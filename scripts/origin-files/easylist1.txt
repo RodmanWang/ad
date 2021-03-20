@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: jrUQQhnE/6Vt4ldPe27Upg
-! Version: 202103200600
+! Checksum: r9pgdM+Q8x2hn8/4zoxvHA
+! Version: 202103201200
 ! Title: EasyList
-! Last modified: 20 Mar 2021 06:00 UTC
+! Last modified: 20 Mar 2021 12:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -56877,6 +56877,7 @@ babesandbitches.net##div[class^="banner"]
 pornjam.com##div[class^="right-player-"]
 tubepornclassic.com##div[id^="ad-"]
 hentaistream.com##div[id^="adx_ad-"]
+pornhub.com##div[id^="customSkin"]
 hentaistream.com##div[id^="hs_ad"]
 pornstarbyface.com##div[id^="sponcored-content-"]
 lewdgamer.com##div[id^="spot-"]
@@ -57336,6 +57337,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||history.com^$generichide
 @@||msn.com^$generichide
 @@||reuters.com^$generichide
+@@||slack.com^$generichide
 @@||smallseotools.com^$generichide
 @@||stclassifieds.sg^$generichide
 @@||thefreedictionary.com^$generichide
