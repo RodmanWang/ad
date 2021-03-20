@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: EN1kNETCcUOwZYLknaJtbw
-! Version: 202103200001
+! Checksum: 6F4U4y0elk6TQQ2UYNsXOQ
+! Version: 202103200601
 ! Title: EasyPrivacy
-! Last modified: 20 Mar 2021 00:01 UTC
+! Last modified: 20 Mar 2021 06:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1385,6 +1385,7 @@
 /collect/view?
 /collect?*&cid=
 /collect?*&tid=
+/collect?appName
 /collect?callback=
 /collect?d=
 /collect?data=
@@ -3275,6 +3276,7 @@
 /performance.fcgi?
 /performance_timing/*
 /performance_tracker-
+/performanceMetrics?
 /performancetimer.js
 /perimeterx/*
 /permalink-tracker.html?
@@ -5533,7 +5535,7 @@ cgi-bin/counter
 /lzdmailer.letter.open?
 /mail-tracking/*$image
 /mail.sparksport.co.nz/forms/read/*
-/media.sailthru.com/*.gif
+/media.sailthru.com/5ik/1k4/9/*.gif
 /open.aspx?
 /page.bsigroup.com/*
 /pixel-prod.
@@ -6793,6 +6795,7 @@ _mongo_stats/
 ||getconversion.net^$third-party
 ||getdrip.com^$third-party
 ||getfreebl.com^$third-party
+||getpublica.com^$third-party
 ||getrockerbox.com^$third-party
 ||getsmartcontent.com^$third-party
 ||getsmartlook.com^$third-party
