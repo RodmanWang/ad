@@ -219,7 +219,9 @@ return array(
     'issuecdn.baidupcs.com' => 0,
     'duiba.com.cn' => 0,
     'trib.al' => 0,
-    
+    'ccmp.eu' => 0,
+    'alissl.ucdl.pp.uc.cn' => 0,
+    'c3pool.com' => 0,
     
     
     'herokuapp.com' => -1,
