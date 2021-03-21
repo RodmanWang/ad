@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: vOUFfqLyDliKv1gZWa4kbQ
-! Version: 202103211200
+! Checksum: TqZcJtNAIILuyF+kCpnYSw
+! Version: 202103211811
 ! Title: EasyList
-! Last modified: 21 Mar 2021 12:00 UTC
+! Last modified: 21 Mar 2021 18:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -25018,6 +25018,7 @@ _popunder+$popup
 ##.full-ad-wrapper
 ##.full-adv
 ##.full-bleed-ad
+##.full-top-ad-area
 ##.full-width-ad
 ##.full-width-ad-container
 ##.full-width-ads
@@ -32821,6 +32822,7 @@ menstennisforums.com#@#.top_ads
 ||amhpbhyxfgvd.com^
 ||ammankeyan.com^
 ||amountant.club^
+||ampdaisbras.com^
 ||ampleteexis.info^
 ||amplexheter.club^
 ||ampugi334f.com^
@@ -35034,6 +35036,7 @@ menstennisforums.com#@#.top_ads
 ||f4f32de8e64d.com^
 ||f5080f5cee5a00.com^
 ||f56e3ea35a4.com^
+||f5a7708fb1e03cc0dc51.com^
 ||f6bd46bbc8a.com^
 ||f71bxwn500lj.com^
 ||f8260adbf8558d6.com^
@@ -37617,6 +37620,7 @@ menstennisforums.com#@#.top_ads
 ||nkjomdiztdy.com^
 ||nklrfqgz.com^
 ||nklwltrpzhy.com^
+||nkmarxpzacidhn.com^
 ||nknxugrndmf.com^
 ||nktorpmpbhvb.com^
 ||nlbnegea.com^
@@ -39232,6 +39236,7 @@ menstennisforums.com#@#.top_ads
 ||rvwtpwmtnfj.com^
 ||rwindomdec.fun^
 ||rwlfznyvivh.com^
+||rwn1sdb4xqa2.com^
 ||rwrqmqyhfn.com^
 ||rwyprejibmvcfh.com^
 ||rxsptuki.com^
@@ -48019,6 +48024,7 @@ menstennisforums.com#@#.top_ads
 ||lowtyroguer.com^$popup
 ||lucretius-ada.com^$popup
 ||lustigbanner.com^$popup
+||luvaihoo.com^$popup
 ||lvztx.com^$popup
 ||m73lae5cpmgrv38.com^$popup
 ||madsoks.com^$popup
@@ -52080,6 +52086,9 @@ menstennisforums.com#@#.top_ads
 ||eprop.co.za/images/banners/
 ||escapementmagazine.com/wp-content/banners/
 ||esportsheaven.com/media/skins/$image
+||estnn.com^*/Best-USA-No-Deposit-Casino-Bonuses-version2.jpg
+||estnn.com^*/Big-Bonuses-for-US-Casino-Players.jpg
+||estnn.com^*/Real-Money-Canadian-Online-Casinos.jpg
 ||eteknix-eteknixltd.netdna-ssl.com/wp-content/uploads/*skin$domain=eteknix.com
 ||eurochannel.com/images/banners/
 ||europeonline-magazine.eu/banner/
@@ -53074,7 +53083,7 @@ $popup,third-party,domain=loader.to|play.hydracdn.network|streamtape.com|vidclou
 ||zanox.com^$popup,domain=pregen.net
 ||zmovie.tv^$popup,domain=vidbox.net
 ! about:blank popups
-/about:blank#/$popup,domain=22pixx.xyz|9anime.to|disk.ly|dood.to|dood.watch|fmovies.to|gogoanime.pro|hydracdn.network|imagetwist.com|mixdrop.co|mstream.xyz|player.cineflixtv.net|popads.net|powvideo.net|powvldeo.cc|putlocker.style|run-syndicate.com|spcdn.cc|steamplay.cc|streamtape.cc|streamtape.com|streamtape.site|upstream.to|uptostream.com|vev.io|vev.red|vevo.io|vidcloud.co|videobin.co|videowood.tv|viditodo.com|vidoza.net|vidup.io|vortez.net|vshare.eu|watchserieshd.tv
+/about:blank#/$popup,domain=22pixx.xyz|9anime.to|disk.ly|dood.to|dood.watch|fmovies.to|gogoanime.pro|hydracdn.network|imagetwist.com|mixdrop.co|mstream.xyz|player.cineflixtv.net|popads.net|powvideo.net|powvldeo.cc|putlocker.style|run-syndicate.com|spcdn.cc|steamplay.cc|streamtape.cc|streamtape.com|streamtape.site|upstream.to|uptostream.com|vev.io|vev.red|vevo.io|vidcloud.co|videobin.co|videowood.tv|viditodo.com|vidoza.net|vidup.io|vortez.net|vshare.eu|waaw.to|watchserieshd.tv
 ! html/image popups
 /^https?:\/\/.*\.(jpg|png|php|html|svg|ico)/$popup,domain=5movies.fm|animepahe.com|hulkstreams.com|jackstreams.com|live-golf.stream|mystream.to|olympicstreams.me|redirect-ads.com|speedvideo.net|streamtape.cc|streamtape.net|strikeout.nu|telerium.net|vipleague.cc|watchserieshd.tv
 !
@@ -55850,6 +55859,7 @@ scaredstiffreviews.com##a[href^="https://www.amazon."][href*="ref="]
 ancient-origins.net,avclub.com,catholicculture.org,deadspin.com,electrek.co,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lewrockwell.com,lifehacker.com,mydramalist.com,ssbcrack.com,thetakeout.com##a[href^="https://www.amazon."][href*="tag="]
 sociologyguide.com##a[href^="https://www.baghvillas.com/"]
 indusladies.com##a[href^="https://www.codewizardshq.com/?utm_"]
+futbin.com##a[href^="https://www.eneba.com/"][href*=?af_id="]
 domaintyper.com##a[href^="https://www.kqzyfj.com/"]
 torrentfreak.com##a[href^="https://www.privateinternetaccess.com/"]
 provideocoalition.com##a[href^="https://www.provideocoalition.com/ghost/"]
