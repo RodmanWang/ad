@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /7+Z0c3ONElxpY7kqQSZPQ
-! Version: 202103212352
+! Checksum: zFHyQM0RgAvCFyKgSSpzmA
+! Version: 202103220552
 ! Title: EasyList China
 ! Chinese supplement for the EasyList filters
-! Last Modified: 21 Mar 2021 23:52 UTC
+! Last Modified: 22 Mar 2021 05:52 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 ! License: https://easylist-downloads.adblockplus.org/COPYING
@@ -1185,6 +1185,9 @@ _xiuno_com_ad/
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
 ##script + #coupletBox
 ##script + #rbbox
+##a[href*=".tnelb.xyz/"]
+##a[href*="/uuzb50.cc/"]
+##a[href*=".xjspa.in/"]
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
@@ -8713,8 +8716,10 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||easyai.tech/wp-content/uploads/*-576x1024.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+easyai.tech##.sidebar-inner > .widget_media_image:nth-child(n+2)
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
