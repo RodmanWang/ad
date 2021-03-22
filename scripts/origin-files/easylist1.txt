@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: J3JYPJwKCdljqMgxr2YZRg
-! Version: 202103221201
+! Checksum: WbG267TbiFTwF9GR17sF1g
+! Version: 202103221801
 ! Title: EasyList
-! Last modified: 22 Mar 2021 12:01 UTC
+! Last modified: 22 Mar 2021 18:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3517,7 +3517,6 @@
 /advertisements_
 /AdvertisementShare.
 /advertisementview/*
-/advertiser.$domain=~advertiser.adverbid.com|~advertiser.autorepairconnect.com|~advertiser.flossbank.com|~advertiser.growmobile.com|~advertiser.leadcalls.ru|~advertiser.livthecity.com|~advertiser.vungle.com|~linkpizza.com|~panel.rightflow.com|~trialpay.com|~unity3d.com
 /advertiser/*$domain=~admin.exoclick.com|~ads.microsoft.com|~ads.tiktok.com|~advertiser.flossbank.com|~affili.net|~affiliprint.com|~bingads.microsoft.com|~linkpizza.com|~mediance.com|~mobileapptracking.com|~trialpay.com
 /advertisers.$image,script,subdocument,domain=~advertisers.adgoal.de|~advertisers.adversense.com|~advertisers.careerone.com.au|~advertisers.dk|~advertisers.easyweddings.com.au|~advertisers.io|~advertisers.leadia.ru|~advertisers.ypfboost.ph|~panel.rightflow.com
 /advertisers/*$domain=~datalift360.com|~home.tapjoy.com|~panel.rightflow.com|~propelmedia.com|~publisuites.com|~qubeslate.com
@@ -4390,7 +4389,6 @@
 /css/ad-
 /css/ad.
 /css/ads-
-/css/ads.
 /css/ads300_
 /css/adsense
 /css/adv.
@@ -4842,7 +4840,6 @@
 /fwadmanager.
 /gadgets/ad/*
 /gads.html
-/gads.js
 /gadv-right.
 /gadv-top.
 /gafc.js
@@ -6789,7 +6786,6 @@
 /switchadbanner.
 /SWMAdPlayer.
 /syads.
-/synacor.js
 /synad2.
 /synad3.
 /sync2ad.
@@ -7407,7 +7403,6 @@
 ?adpage=
 ?adPageCd=
 ?adpartner=
-?ads=$domain=~booking.loganair.co.uk|~webtoolhub.com
 ?ads_params=
 ?adsdata=
 ?adsite=
@@ -27125,6 +27120,7 @@ _popunder+$popup
 ##.oio-zone-position
 ##.old-advertorial-block
 ##.omnitureAdImpression
+##.on-ad
 ##.on-demand-ad
 ##.onAd
 ##.on_player_ads
@@ -29706,6 +29702,7 @@ _popunder+$popup
 ##.wall_ad
 ##.wall_ad_hd
 ##.wallad
+##.wallpaper-ad-top
 ##.wallpaper-parade-ad-container
 ##.wantads
 ##.waterfall-ad-anchor
@@ -34971,6 +34968,7 @@ menstennisforums.com#@#.top_ads
 ||fancialeldak.site^
 ||fancialsilveun.club^
 ||fandmo.com^
+||faqrdrkwdhqgug.com^
 ||faracoon.com^
 ||farehitchlower.icu^
 ||faromen.online^
@@ -38443,6 +38441,7 @@ menstennisforums.com#@#.top_ads
 ||qexegqtytk.bid^
 ||qfigzwpgzzkf.com^
 ||qfjherc.com^
+||qfszmlxypcqqyb.com^
 ||qfwjclpckrdehi.com^
 ||qgevavwyafjf.com^
 ||qggcjrrjvlif.com^
