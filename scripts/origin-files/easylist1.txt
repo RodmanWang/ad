@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: TqZcJtNAIILuyF+kCpnYSw
-! Version: 202103211811
+! Checksum: gf1cc7i1bUNHUeu/epJF2A
+! Version: 202103220000
 ! Title: EasyList
-! Last modified: 21 Mar 2021 18:11 UTC
+! Last modified: 22 Mar 2021 00:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -17593,7 +17593,9 @@ _popunder+$popup
 ###wrapAdTop
 ###wrapCommentAd
 ###wrap_ad_main
+###wrapper-AD_G
 ###wrapper-AD_PUSH
+###wrapper-AD_R
 ###wrapper-advert-slider-top
 ###wrapperAdsTopLeft
 ###wrapperAdsTopRight
@@ -35310,7 +35312,6 @@ menstennisforums.com#@#.top_ads
 ||fountainwimp.com^
 ||fourthchoseark.com^
 ||fourthug.com^
-||foxrevenue.com^
 ||foydnzdtjcjg.com^
 ||fpesoigpyes.com^
 ||fpiikkttbl.com^
@@ -35318,6 +35319,7 @@ menstennisforums.com#@#.top_ads
 ||fpsekwpfk.com^
 ||fqbucxkfcya.com^
 ||fqhltvwpl.com^
+||fqjgxtyaqftpt.com^
 ||fqwrluzjti.com^
 ||francieseds.club^
 ||francoistsjacqu.info^
@@ -40650,6 +40652,7 @@ menstennisforums.com#@#.top_ads
 ||vfbvcshnc.com^
 ||vfghc.com^
 ||vfl81ea28aztw7y3.pro^
+||vfmfjoknzndbee.com^
 ||vfousvlr.com^
 ||vfsirfnosdx.com^
 ||vfsyklhwbxgq.com^
@@ -43983,6 +43986,7 @@ menstennisforums.com#@#.top_ads
 ||fouptauk.com^$third-party
 ||fourmtagservices.com^$third-party
 ||fouwazou.net^$third-party
+||foxrevenue.com^$third-party
 ||framentyder.pro^$third-party
 ||frameptp.com^$third-party
 ||free-domain.net^$third-party
@@ -52418,6 +52422,7 @@ menstennisforums.com#@#.top_ads
 ! prebid specific
 ||bustle.com^*/prebid-
 ||dw.com/js/advertisement/
+||wsj.net/pb/pb.js
 ! In-page video advertising.
 ||avantisvideo.com/avm/js/video-loader.js$script,third-party
 ||connatix.com/connatix.player.js$script,third-party
@@ -57285,7 +57290,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||ikea.com^*/img/ad_
 @@||ikea.com^*/img/ads/
 @@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=~spotify.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=api.screen9.com|audiomack.com|blastingnews.com|bloomberg.com|cbc.ca|cbsnews.com|cbssports.com|cdnmedia.tv|chicagotribune.com|clipsliver.com|cnet.com|comicbook.com|complex.com|cwtv.com|dailybreeze.com|distro.tv|forbes.com|fox35orlando.com|freep.com|gamejolt.com|goodhousekeeping.com|goodmorningamerica.com|healthmeans.com|iheart.com|independent.co.uk|indystar.com|insideedition.com|kizi.com|metacritic.com|metrolyrics.com|mobg.io|navbharattimes.indiatimes.com|news.sky.com|nflgamepass.com|nytimes.com|nytimes3xbfgragh.onion|play.ludigames.com|player.abacast.net|player.earthtv.com|player.performgroup.com|powr.com|rumble.com|snopes.com|thestreet.com|theverge.com|truvid.com|tvguide.com|ultimedia.com|usatoday.com|vidyomani.com|womenshealthmag.com|wsj.com|yiv.com|zeebiz.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=api.screen9.com|audiomack.com|blastingnews.com|bloomberg.com|cbc.ca|cbsnews.com|cbssports.com|cdnmedia.tv|chicagotribune.com|clipsliver.com|cnet.com|comicbook.com|complex.com|cwtv.com|dailybreeze.com|distro.tv|forbes.com|fox35orlando.com|freep.com|gamejolt.com|goodhousekeeping.com|goodmorningamerica.com|healthmeans.com|iheart.com|independent.co.uk|indystar.com|insideedition.com|kizi.com|metacritic.com|metrolyrics.com|mobg.io|navbharattimes.indiatimes.com|news.sky.com|nflgamepass.com|nytimes.com|nytimes3xbfgragh.onion|play.ludigames.com|player.abacast.net|player.earthtv.com|player.performgroup.com|powr.com|rumble.com|snopes.com|thestreet.com|theverge.com|truvid.com|tvguide.com|ultimedia.com|usatoday.com|vidyomani.com|womenshealthmag.com|yiv.com|zeebiz.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=bloomberg.co.jp|bloomberg.com|cbc.ca|sbs.com.au
 @@||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$domain=abcnews.go.com|brightcove.net
 @@||imdb-video.media-imdb.com^$domain=imdb.com
