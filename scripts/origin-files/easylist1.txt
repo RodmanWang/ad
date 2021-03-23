@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: MPQtd9POfiEgNxou2k4Wlw
-! Version: 202103231200
+! Checksum: urDmqzuPc4+A0gPCC+HbLA
+! Version: 202103231800
 ! Title: EasyList
-! Last modified: 23 Mar 2021 12:00 UTC
+! Last modified: 23 Mar 2021 18:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -10179,6 +10179,7 @@ _popunder+$popup
 ###ad-placeholder
 ###ad-placement
 ###ad-plate
+###ad-player
 ###ad-popup
 ###ad-popup1
 ###ad-position-a
@@ -12006,6 +12007,8 @@ _popunder+$popup
 ###adsSectionRight
 ###adsSquare
 ###adsSuperCTN
+###adsTG
+###adsTN
 ###adsTop
 ###adsTopLeft
 ###adsZone
@@ -21282,6 +21285,7 @@ _popunder+$popup
 ##.ads1000x100
 ##.ads11
 ##.ads12
+##.ads120
 ##.ads120_600
 ##.ads120_600-widget
 ##.ads120_80
@@ -21346,6 +21350,7 @@ _popunder+$popup
 ##.ads720x90
 ##.ads728
 ##.ads728_90
+##.ads728b
 ##.ads728x90
 ##.ads728x90-1
 ##.ads728x90-thumb
@@ -21727,6 +21732,7 @@ _popunder+$popup
 ##.adsense-header
 ##.adsense-heading
 ##.adsense-image-detail
+##.adsense-inline
 ##.adsense-left
 ##.adsense-links
 ##.adsense-links2
@@ -23070,6 +23076,7 @@ _popunder+$popup
 ##.articleEmbeddedAdBox
 ##.articleFooterAd
 ##.articleHeadAdRow
+##.articleHeaderAd
 ##.articlePage3rdPartyContentStrip
 ##.articleTopAd
 ##.article__ad-ir
@@ -26874,7 +26881,7 @@ _popunder+$popup
 ##.mrec-atf-sticky
 ##.mrec-btf-cont
 ##.mrec-hp-scrollable-cont
-##.mrec-scrollable-cont,
+##.mrec-scrollable-cont
 ##.mrecAds
 ##.mrec_advert
 ##.mrf-adv
@@ -28930,6 +28937,7 @@ _popunder+$popup
 ##.sticky_ad_wrapper
 ##.stickyad
 ##.stickyadv
+##.stky-ad-footer
 ##.stm-ad-player
 ##.stmAdHeightWidget
 ##.stock-ticker-ad-tag
@@ -31986,12 +31994,6 @@ anisearch.com#@#.chitikaAdBlock
 theladbible.com#@#.content_tagsAdTech
 topzone.lt#@#.forumAd
 soschildrensvillages.ca#@#.section-sponsor
-localeyes.dk#@#.text-ad
-localeyes.dk#@#.text-ad-links
-localeyes.dk#@#.text-ads
-localeyes.dk#@#.textAd
-localeyes.dk#@#.text_ad
-localeyes.dk,pixiz.com,televall.com.mx#@#.text_ads
 menstennisforums.com#@#.top_ads
 !---------------------------Third-party advertisers---------------------------!
 ! *** easylist:easylist/easylist_adservers.txt ***
@@ -32400,6 +32402,7 @@ menstennisforums.com#@#.top_ads
 ||889fb4992d4e8.com^
 ||88d7b6aa44fb8eb.com^
 ||8b0b17dc1f9f8010.com^
+||8b18a31eb3.com^
 ||8baf7ae42000024.com^
 ||8bef5bb6b351ca5e.com^
 ||8bf8170108e3304.com^
@@ -33874,6 +33877,7 @@ menstennisforums.com#@#.top_ads
 ||cominghamer.info^
 ||comm-news.com^
 ||commencerons.xyz^
+||commentaryharm.com^
 ||commercialvalue.org^
 ||commissai.space^
 ||commissed.club^
@@ -37448,6 +37452,7 @@ menstennisforums.com#@#.top_ads
 ||nistdeathersd.club^
 ||niteratebefo.top^
 ||nityannoun.top^
+||nixyoungjay.com^
 ||njmkilpqzibv.com^
 ||nk26uvjrz0tt.com^
 ||nkjomdiztdy.com^
@@ -37989,6 +37994,7 @@ menstennisforums.com#@#.top_ads
 ||pastimeswindle.com^
 ||pasturecompelscreen.com^
 ||patchovercome.com^
+||pateablyace.com^
 ||paternalhumiliate.com^
 ||patgsrv.com^
 ||patithatspartal.pro^
@@ -38105,6 +38111,7 @@ menstennisforums.com#@#.top_ads
 ||phooreew.net^
 ||phovihopy.pro^
 ||phsism.com^
+||phudreez.com^
 ||phultems.net^
 ||phvmjnkysnj.com^
 ||physicianhung.com^
@@ -39507,6 +39514,7 @@ menstennisforums.com#@#.top_ads
 ||stakenallisin.club^
 ||stakenpolise.site^
 ||standnizati.fun^
+||standpointpreparation.com^
 ||stardatis.com^
 ||stardedbio.club^
 ||stargoug.com^
@@ -41122,6 +41130,7 @@ menstennisforums.com#@#.top_ads
 ||zooahm2fx2v1.com^
 ||zop381q5o0q1.com^
 ||zorango.com^
+||zouhewee.com^
 ||zouloafi.net^
 ||zouphail.com^
 ||zpaanftgs.com^
@@ -54644,6 +54653,7 @@ amazon.ca,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.fr##.sbv-video-
 independent.co.uk##.sc-pscky.kBPJSk.sc-qQYBZ
 independent.co.uk##.sc-qZtCU.wIkUb.sc-qQYBZ
 newindianexpress.com##.scc
+readmng.com##.scroll_target_top
 minecraftservers.org##.second-banner
 wbur.org##.section--breakout
 nzherald.co.nz##.section-iframe
@@ -54860,6 +54870,7 @@ gpucheck.com##.unitBox
 wbur.org##.uw--rectangle
 wbur.org##.uw-label--bottom
 lasvegassun.com##.varWrapper
+fox10phoenix.com##.vendor-unit
 tetris.com##.verticalAx
 videogameschronicle.com##.vgc-boxout
 vice.com##.vice-ad__container
@@ -54879,6 +54890,7 @@ gearlive.com##.wellvert
 transfermarkt.co.uk##.werbung
 transfermarkt.co.uk##.werbung-skyscraper
 transfermarkt.co.uk##.werbung-skyscraper-container
+gadgethacks.com,reality.news,wonderhowto.com##.whtaph
 pch.com##.wide_banner
 headforpoints.com##.widget--aside.widget
 fijisun.com.fj##.widget-1
@@ -54913,11 +54925,13 @@ bit-tech.net##.xtag_container
 pravda.ru##.yaRtbBlock
 imdb.com##.yesScript
 shockwave.com##.ympb_target_banner
-ign.com##.zad
+ign.com,mashable.com##.zad
 thehackernews.com##.zoho-box
+swarajyamag.com##[class*="page-top-adv-wrapper"]
 hltv.org##[class*="widget"]
 zerohedge.com##[class^="Advert_"]
 uploader.link##[class^="ads"]
+swarajyamag.com##[class^="banner-ad-"]
 torlock.com##[class^="wrn"]
 gadgetsnow.com##[data-type="mtf"]
 naturalnewsblogs.com##[href*="/WBA/"]
@@ -55041,6 +55055,7 @@ python-graph-gallery.com##div > [href^="https://www.datacamp.com"]
 python-graph-gallery.com##div > [href^="https://www.dataquest.io/course/"]
 healthline.com##div.css-0 > div[class]:not([id])
 guru99.com##div.custom > .hidden-phone
+nexusradio.com##div[align=center]
 amazon.ca,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.fr##div[cel_widget_id*="_SponsoredProducts"]
 amazon.ca,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.fr##div[cel_widget_id*="_ad-placements-"]
 amazon.ca,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.fr##div[cel_widget_id="desktop-dp-sims_sb-dp-id"]
@@ -55371,6 +55386,7 @@ amazon.ca,amazon.co.uk,amazon.de,amazon.es,amazon.fr,amazon.in,amazon.it#?#.s-re
 cesoirtv.com#?#a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"]
 chess24.com#?#.video-series-entry:-abp-has( > .box-banner)
 china.ahk.de#?#.b-main__section:-abp-has(h2.b-section__header:-abp-contains(Advertisement))
+cleantechnica.com#?#.zox-side-widget:-abp-contains(/^Advertis/)
 download3k.com#?#p:-abp-has(.adsbygoogle)
 ebay.ca#?#li.s-item:-abp-has(span:-abp-contains(SPONSORED))
 ebay.co.uk,ebay.com,ebay.com.au#?#.b-module:-abp-has(h2:-abp-contains(Sponsored))
