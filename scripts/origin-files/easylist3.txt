@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: jcaRH7vBYy97iFcHSrmALg
-! Version: 202103250611
+! Checksum: ImQtBDNbet6c58vX0WXV+Q
+! Version: 202103251251
 ! Title: EasyPrivacy
-! Last modified: 25 Mar 2021 06:11 UTC
+! Last modified: 25 Mar 2021 12:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -7458,7 +7458,6 @@ _mongo_stats/
 ||nuggad.net^$third-party
 ||nuloox.com^$third-party
 ||numerino.cz^$third-party
-||nvidia.partners^$third-party
 ||nyltx.com^$third-party
 ||nytlog.com^$third-party
 ||o-s.io^$third-party
@@ -11204,7 +11203,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||go.com/capmon/GetDE/?
 ||go.optifuze.com^
 ||go.pardot.com^
-||go.techtarget.com^
+||go.techtarget.com^$image,xmlhttprequest
 ||go.toutapp.com^$third-party
 ||goadv.com^*/track.js
 ||goaww.com/stats.php
@@ -11614,6 +11613,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ns.rvmkitt.com^
 ||nspmotion.com/tracking/
 ||nude.hu/html/track.js
+||nvidia.partners/telemetry/
 ||o.addthis.com^
 ||o.aolcdn.com/js/mg1.js
 ||observer.ip-label.net^
@@ -11673,6 +11673,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pcrl.co/js/jstracker.min.js
 ||pdc.dmleonyc.com^
 ||pega.com/logserver
+||pegasus.unifygroup.com^
 ||pendo.io/data/ptm.gif
 ||penton.com/analytics/
 ||perf.dugout.com^
@@ -11721,6 +11722,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pixel.xmladfeed.com^$third-party
 ||pixel.yabidos.com^
 ||pixel.yola.com^
+||pixels.afcdn.com^
 ||pixhosting.com/ct/jct.php?
 ||pixlee.com/assets/pixlee_events.js
 ||planet49.com/log/
@@ -22264,7 +22266,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||chancro.jp/assets/lib/googleanalytics-$script
 @@||disneyplus.disney.co.jp/view/vendor/analytics/$~third-party
 @@||flipdesk.jp/wp/wp-content/themes/flipdesk/images/analytics3.png$image
-@@||googletagmanager.com/gtm.js$script,domain=book.impress.co.jp|sankei.com
+@@||googletagmanager.com/gtm.js$script,domain=book.impress.co.jp|kakuyomu.jp|sankei.com
 @@||in.treasuredata.com/js/*api_key$script,domain=retty.me
 @@||k-img.com/script/analytics/s_code.js$script,domain=kakaku.com
 @@||mediaweaver.jp^$image,domain=ismedia.jp

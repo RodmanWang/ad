@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: kelLIxEZTaaEOis4uk9A9g
-! Version: 202103250611
+! Checksum: qi4Swa0a5xIU3vwzzO8BLA
+! Version: 202103251250
 ! Title: EasyList
-! Last modified: 25 Mar 2021 06:11 UTC
+! Last modified: 25 Mar 2021 12:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -22978,6 +22978,7 @@ _popunder+$popup
 ##.amazonads
 ##.amp-ad
 ##.amp-ads
+##.amp-ads-container
 ##.amsSparkleAdWrapper
 ##.anc_ads_show
 ##.anchor-ad-wrapper
@@ -24865,6 +24866,7 @@ _popunder+$popup
 ##.fixed-ad-bottom--banner
 ##.fixed-ad300-1
 ##.fixed-ads-header
+##.fixed-automatic-ad-amp
 ##.fixedAds
 ##.fixedRightAd
 ##.fixed_ad
@@ -36165,6 +36167,7 @@ menstennisforums.com#@#.top_ads
 ||issuesconsultationsocially.com^
 ||istcommun.info^
 ||iszqveznr.com^
+||it7645-blockchain-news.club^
 ||itblisseyer.com^
 ||itchingadore.com^
 ||itdise.info^
@@ -39693,6 +39696,7 @@ menstennisforums.com#@#.top_ads
 ||svyksa.info^
 ||swagtraffcom.com^
 ||swan-swan-goose.com^
+||swarthycorrespond.com^
 ||swayexploitaccustom.com^
 ||swayshosshun.icu^
 ||sweatheru.club^
@@ -47157,6 +47161,7 @@ menstennisforums.com#@#.top_ads
 ||irtya.com^$popup
 ||irtyvhrthhya.com^$popup
 ||ismlks.com^$popup
+||it7645-blockchain-news.club^$popup
 ||itnuzleafan.com^$popup
 ||itrght.com^$popup
 ||ittorchicer.com^$popup
@@ -51682,11 +51687,6 @@ menstennisforums.com#@#.top_ads
 @@||cdncv.net^$script,xmlhttprequest,domain=cloudvideo.tv
 |http://$image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=cloudvideo.tv
 |https://$image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=cloudvideo.tv
-! Upstream
-@@||code.jquery.com^$script,domain=upstream.to
-@@||gstatic.com^$script,domain=upstream.to
-|http://$image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=upstream.to
-|https://$image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=upstream.to
 ! ymovies
 @@$websocket,domain=hydrax.net|playhydrax.com
 ! megaup.net
