@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: tKzubYUiy+mf2ATKe/XEsA
-! Version: 202103241831
+! Checksum: RE+t2Sd4OuUEYIqckuirIA
+! Version: 202103250041
 ! Title: EasyPrivacy
-! Last modified: 24 Mar 2021 18:31 UTC
+! Last modified: 25 Mar 2021 00:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1350,6 +1350,7 @@
 /cmslog.dll?
 /cn-fe-stats/*
 /cn-track?
+/cnavperf?
 /cnstats.
 /cnstats/*
 /cnt-combined.php?
@@ -2802,6 +2803,7 @@
 /logo.gif?a=
 /LogPage.aspx?
 /LogPageRequest?
+/logPerf?
 /logprogress.
 /logpstatus.
 /logpv.aspx?
@@ -3480,6 +3482,7 @@
 /prodtracker?
 /production/analytics.
 /profile_tracker.
+/promo/impression?
 /promo_tracking.
 /promo_tracking/*
 /promos/pixels?
@@ -3808,6 +3811,7 @@
 /sensor/statistic?
 /sensorsdata-
 /sensorsdata.$domain=~sensorsdata.cn
+/sentry.*/?sentry_key=
 /seo-track.
 /seo.googleAnalytics-
 /seo.googleAnalytics.
@@ -11039,6 +11043,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||edgesuite.net^*/googleanalyt
 ||edkt.io^*/edgekit.min.js
 ||edrone.me/trace?
+||eel.transistor.fm^
 ||egmontpublishing.dk/tracking/
 ||elpais.com/t.gif
 ||els-cdn.com^*/analytics.js
@@ -22213,7 +22218,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||ensighten.com^*/Bootstrap.js$domain=williamhill.it
 @@||google-analytics.com/analytics.js$domain=carnesvizzera.ch
 @@||googletagmanager.com/gtag/js$script,domain=timparty.tim.it
-@@||googletagmanager.com/gtm.js?$domain=iphoneitalia.com|la7.it|raiplayradio.it
+@@||googletagmanager.com/gtm.js$domain=iphoneitalia.com|la7.it|raiplayradio.it|savethechildren.it
 @@||ilsole24ore.com^*/fingerprint2.min.js?
 @@||imrworldwide.com/novms/*/ggcm*.js$domain=la7.it|sky.it|video.corriere.it
 @@||imrworldwide.com/v60.js$domain=capital.it|corriereadriatico.it|fanpage.it|huffingtonpost.it|ilgazzettino.it|ilmattino.it|ilmessaggero.it|leggo.it|m2o.it|quotidianodipuglia.it|video.deejay.it|video.espresso.repubblica.it|video.ilsecoloxix.it|video.lanuovasardegna.it|video.lastampa.it|video.rep.repubblica.it|video.repubblica.it
