@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7Smtpm3tj8L5dFCVE2PeSg
-! Version: 202103261211
+! Checksum: Q1VV3vUCQnbOFJCCBfEh+Q
+! Version: 202103261811
 ! Title: EasyList
-! Last modified: 26 Mar 2021 12:11 UTC
+! Last modified: 26 Mar 2021 18:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6285,6 +6285,7 @@
 /relatedads.
 /releases/ads/*
 /relevance_ad.
+/remaven.
 /remove-ads.
 /remove_ads.
 /render-ad/*
@@ -22774,6 +22775,8 @@ _popunder+$popup
 ##.advertising_hibu_mid
 ##.advertising_hibu_rig
 ##.advertising_images
+##.advertising_square
+##.advertising_top
 ##.advertising_widget
 ##.advertisingarea
 ##.advertisingarea-homepage
@@ -23231,10 +23234,13 @@ _popunder+$popup
 ##.banner-ad-block
 ##.banner-ad-container
 ##.banner-ad-footer
+##.banner-ad-image
+##.banner-ad-inner
 ##.banner-ad-label
 ##.banner-ad-large
 ##.banner-ad-row
 ##.banner-ad-space
+##.banner-ad-wrap
 ##.banner-ad-wrapper
 ##.banner-ads
 ##.banner-ads-300x250
@@ -29918,6 +29924,7 @@ _popunder+$popup
 ##.widget_sponsored_content
 ##.widget_supernews_ad
 ##.widget_text_adsense
+##.widget_themoneytizer_widget
 ##.widget_thesun_dfp_ad_widget
 ##.widget_uds-ads
 ##.widget_vb_sidebar_ad
@@ -29971,6 +29978,7 @@ _popunder+$popup
 ##.wptouch-ad
 ##.wpx-bannerize
 ##.wpx_bannerize
+##.wpx_bannerize_banner_box
 ##.wr-ad-slot
 ##.wr-home-top-adv
 ##.wrap-ad
@@ -32501,6 +32509,7 @@ menstennisforums.com#@#.top_ads
 ||a6x4effomlxe.com^
 ||a9d7c19f0282.com^
 ||aa53df329975c325.com^
+||aaaaaco.com^
 ||aabmxezph.com^
 ||aadajnnn133.xyz^
 ||aafdcq.com^
@@ -33293,6 +33302,7 @@ menstennisforums.com#@#.top_ads
 ||bestcontenthost.com^
 ||bestcontentjob.top^
 ||bestcontentoperation.top^
+||bestcontentplan.top^
 ||bestcontentservice.top^
 ||bestcontentuse.top^
 ||bestcpmnetwork.com^
@@ -33314,6 +33324,7 @@ menstennisforums.com#@#.top_ads
 ||betweenstep.online^
 ||beucsyzvwdzqu.com^
 ||bewailindigestionunhappy.com^
+||beyanmaan.com^
 ||bfb487de1f2da5c.com^
 ||bfc70a51929fff2d7fe.com^
 ||bfe4e6d364be199.com^
@@ -34204,6 +34215,7 @@ menstennisforums.com#@#.top_ads
 ||decisionediv.site^
 ||deckthroughout.com^
 ||deckulre.com^
+||decoctionembedded.com^
 ||decordingaudied.site^
 ||ded733b374cc1c3f.com^
 ||dedictimgd.club^
@@ -34424,6 +34436,7 @@ menstennisforums.com#@#.top_ads
 ||dorimnews.com^
 ||dormitysature.info^
 ||dormyawape.com^
+||dorothydrawing.com^
 ||dortoolr.com^
 ||dostophog.com^
 ||dosveggietotem.casa^
@@ -34477,6 +34490,7 @@ menstennisforums.com#@#.top_ads
 ||dtscout.com^
 ||dtsedge.com^
 ||duagzscxqwejvk.com^
+||duamilsyr.com^
 ||dubkenduo.com^
 ||dubvacasept.com^
 ||duchoono.com^
@@ -36829,6 +36843,7 @@ menstennisforums.com#@#.top_ads
 ||lowestpendulousdistract.com^
 ||lowtyroguer.com^
 ||loxbeelid.com^
+||loyalinvadeballoon.com^
 ||lplesacciner.top^
 ||lpoggqfdlmdsg.com^
 ||lpqlmevjhis.com^
@@ -38642,6 +38657,7 @@ menstennisforums.com#@#.top_ads
 ||quaetabib.com^
 ||quakedamnalight.com^
 ||qualityassura.biz^
+||qualityofeve.biz^
 ||quatrefeuillepolonaise.xyz^
 ||qudcsysviowa.com^
 ||questaurah.club^
@@ -39699,6 +39715,7 @@ menstennisforums.com#@#.top_ads
 ||supplyglossailment.com^
 ||supremish.club^
 ||suptaibo.com^
+||surfmdia.com^
 ||surge.systems^
 ||surgermystem.site^
 ||surgicalexpectingdecisive.com^
@@ -39976,6 +39993,7 @@ menstennisforums.com#@#.top_ads
 ||tlrrlomssbt.com^
 ||tme2wrwzz3wh.com^
 ||tmfkuesmlpto.com^
+||tmiscattlem.fun^
 ||tmjhdyghjm.com^
 ||tmnlsmvgrkoj.com^
 ||tmtxtltrid.com^
@@ -40003,6 +40021,7 @@ menstennisforums.com#@#.top_ads
 ||topcpmnetwork.com^
 ||topdisplaycontent.com^
 ||topdisplaynetwork.com^
+||topflownews.com^
 ||toplesstacticsdepend.com^
 ||topmaincash.com^
 ||topperformance.xyz^
@@ -40640,6 +40659,7 @@ menstennisforums.com#@#.top_ads
 ||watgzh.com^
 ||waugeboa.net^
 ||wautoosa.net^
+||waveclks.com^
 ||wavecurersquire.cam^
 ||wawpklaws.com^
 ||waxpigbaa.com^
@@ -43818,6 +43838,7 @@ menstennisforums.com#@#.top_ads
 ||linkwash.de^$third-party
 ||linkworth.com^$third-party
 ||linkybank.com^$third-party
+||linkyqueen.ga^$third-party
 ||linkz.net^$third-party
 ||lionsads.com^$third-party
 ||liqwid.net^$third-party
@@ -50014,6 +50035,7 @@ menstennisforums.com#@#.top_ads
 ||widget.engageya.com/engageya_loader.js
 ||widget.imshopping.com^$third-party
 ||widget.jobberman.com^$third-party
+||widget.justwatch.com^$third-party
 ||widget.searchschoolsnetwork.com^
 ||widget.sellwild.com^
 ||widget.shopstyle.com.au^
@@ -50125,6 +50147,7 @@ menstennisforums.com#@#.top_ads
 ||d1w24oanovvxvg.cloudfront.net^
 ||d1wi563t0137vz.cloudfront.net^
 ||d1ybdlg8aoufn.cloudfront.net^
+||d213cc9tw38vai.cloudfront.net^
 ||d21f25e9uvddd7.cloudfront.net^
 ||d21rudljp9n1rr.cloudfront.net^
 ||d227cncaprzd7y.cloudfront.net^
@@ -51019,6 +51042,7 @@ menstennisforums.com#@#.top_ads
 ||mediamanager.co.za/img/banners/
 ||mediaupdate.co.za/banner/
 ||metrotimes.com/binary/
+||mictests.com/myshowroom/view.php$subdocument
 ||mixdrop.co/xvideo-js
 ||monkeygamesworld.com/images/banners/
 ||mrskin.com^$script,third-party,domain=~mrskincdn.com
@@ -51202,7 +51226,7 @@ menstennisforums.com#@#.top_ads
 !
 /^https?:\/\/.*.(club|bid|xyz|site|pro|info|online|icu|monster|buzz|fun|website|re|me|casa|top|space|network|live|work|systems|me|ml|world|life)\/.*/$third-party,domain=9xupload.xyz|bdupload.asia|desiupload.co|flashx.tv|powvideo.net|powvldeo.me|videobin.co
 !
-/^https?:\/\/[0-9a-z]{11,20}.*.com\/.*/$third-party,domain=9xmovies.app|9xupload.xyz|mixdrop.co|mixdrop.to|ovagames.com|uproxy.to
+/^https?:\/\/[0-9a-z]{11,20}.*.com\/.*/$third-party,domain=9xmovies.app|9xupload.xyz|mixdrop.co|mixdrop.to|ovagames.com|uproxy.to|wowlive.info
 !
 ! Buff sites
 /^https?:\/\/[a-z0-9]{4,}\.(dotabuff|trackdota|speedrun|overbuff|dotabuff)\.com\/[a-z0-9]{1,6}.*/$script,~third-party,xmlhttprequest
@@ -55132,6 +55156,7 @@ swfchan.com###aaaa
 gaytube.com###ads
 flyingjizz.com###adv_inplayer
 milffox.com###advertising
+heavy-r.com###below_player_widgeta
 sexyandfunny.com###best-friends
 porntube.com###bottomBanner
 wankerhut.com###bottom_adv
@@ -56335,6 +56360,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||dr.dk/creatives/*/js_banner?adspaceid=$~third-party
 @@||dr.dk^*^sasfid=*&clicktag=$subdocument,domain=dr.dk
 @@||ebaykorea.com/ADS/$image,domain=gmarket.co.kr
+@@||fatimalife.com.br/api/v1/ad/$~third-party
 @@||felcia.co.uk/css/ads-common.css
 @@||felcia.co.uk/css/advert-view.css
 @@||felcia.co.uk/js/ads_common.js
