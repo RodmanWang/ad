@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: KaP9mXxVHTtG0YKHG+PIbQ
-! Version: 202103251821
+! Checksum: s0QvZGJIHeN0/Umr0JVrUw
+! Version: 202103260020
 ! Title: EasyList
-! Last modified: 25 Mar 2021 18:21 UTC
+! Last modified: 26 Mar 2021 00:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -27799,6 +27799,7 @@ _popunder+$popup
 ##.result-ad
 ##.result-sponsored
 ##.resultAd
+##.result__advertising
 ##.result_ad
 ##.result_item_ad-adsense
 ##.resultad
@@ -35666,6 +35667,7 @@ menstennisforums.com#@#.top_ads
 ||gyoajmeq.com^
 ||gyvxojjeamipc.com^
 ||gyyzsgri.com^
+||gyzjvioumudlx.com^
 ||gzivryjzal.com^
 ||gzmlvrvkven.com^
 ||h-l.icu^
@@ -40466,6 +40468,7 @@ menstennisforums.com#@#.top_ads
 ||veuzlkpnbujf.com^
 ||vevatom.com^
 ||vfbvcshnc.com^
+||vffvtxcykog.com^
 ||vfghc.com^
 ||vfl81ea28aztw7y3.pro^
 ||vfmfjoknzndbee.com^
@@ -41022,6 +41025,7 @@ menstennisforums.com#@#.top_ads
 ||yjfhadfc.com^
 ||yjnqrbfnocy.com^
 ||yjwtxskmswcjc.com^
+||yjyjnolllezo.com^
 ||yksjurzq.com^
 ||ylicxdkgkvfc.com^
 ||ylihbkbiefgj.com^
@@ -51244,6 +51248,7 @@ menstennisforums.com#@#.top_ads
 ||cloudfront.net^*/sponsors/$domain=indycar.com|overwatchleague.com
 ||cnn.com/ad/
 ||cntr.lookmovie.io^
+||coincheck.com/images/affiliates/
 ||coincodex.com^$subdocument,~third-party
 ||coingolive.com/assets/img/partners/
 ||collector.viki.io^
@@ -52592,6 +52597,7 @@ $websocket,domain=pornhub.com|pornhubthbh7ap3u.onion|redtube.com|redtube.com.br|
 @@||thegay.com/upd/20210122.*/static/desktop/js/chunk-common.js|
 @@||thegay.com/upd/20210122.*/static/desktop/js/chunk-vendors.js|
 @@||thegay.com/upd/20210122.*/static/desktop/js/index.js|
+@@||thegay.com/upd/20210122.*/static/desktop/js/signup.js|
 @@||thegay.com/upd/20210122.*/static/desktop/js/video.js|
 @@||thegay.com/upd/20210122.*/static/desktop/js/videos.js|
 ||thegay.com^$script
