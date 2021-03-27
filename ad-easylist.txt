@@ -1,5 +1,5 @@
-Version: 20210327175231
-!Total lines: 31544
+Version: 20210327201256
+!Total lines: 31729
 ||201*.myhard.com^
 ||8*.tianya.cn^
 ||a*.chajiaotong.com^
@@ -181,6 +181,7 @@ Version: 20210327175231
 /^(\S+\.)?[0-9a-z]{16,}\.xyz$/
 ||022aifang.com^
 ||025suyu.com^
+||0265331.com^
 ||027whht.com^
 ||033.com^
 ||0330vsdgdwer.xyz^
@@ -333,7 +334,7 @@ Version: 20210327175231
 ||ent1.12584.cn^
 ||img1.126.net^
 ||img3.126.net^
-/^(\S+\.)?(web)?stats?\./
+/^(\S+\.)?stat\..+?\.(com|cn|ru|it|de|cz|net|kr|ai|pl|th|fi|fr|jp|hu|bz|sk|se)$/
 ||yt-adp.ws.126.net^
 ||pg-ad-b1.nosdn.127.net^
 ||yt-adp.nosdn.127.net^
@@ -918,6 +919,7 @@ Version: 20210327175231
 ||4s5n.cn^
 ||4stats.de^
 ||4t6u1amm3t3n.com^
+||stats.4travel.jp^
 ||4u.pl^
 ||4v7vq7w8co.xyz^
 ||4wnet.com^
@@ -1220,6 +1222,7 @@ Version: 20210327175231
 ||7540.com^
 ||bulb.76.my^
 ||7651d44da06c.com^
+||stats.766.com^
 ||7676.com^
 ||76aede7d9af.com^
 ||76e.org^
@@ -2223,6 +2226,7 @@ Version: 20210327175231
 ||adnz.co^
 ||secureflashplayerfeedback.adobe.com^
 ||sstats.adobe.com^
+||stats.adobe.com^
 ||edge.adobedc.net^
 ||adobetag.com^
 ||adocean.pl^
@@ -2532,6 +2536,7 @@ Version: 20210327175231
 ||adultsense.net^
 ||adultsense.org^
 ||sstats.adultswim.com^
+||stats.adultswim.com^
 ||adultterritory.net^
 ||adunioncode.com^
 ||adunite.com^
@@ -2826,6 +2831,7 @@ Version: 20210327175231
 ||agilone.com^
 ||agkn.com^
 ||agkxwjwutrhw.com^
+||stats.agl.com.au^
 ||aglocobanners.com^
 ||agmtrk.com^
 ||agmx1h9wswdb.com^
@@ -3327,7 +3333,7 @@ Version: 20210327175231
 ||amerallyluke.club^
 ||sstats.americafirst.com^
 ||dbpbyh.americanas.com.br^
-||swebstats.americanbar.org^
+/^(\S+\.)?(webstats?|swebstats?|mywebstats?)\./
 ||s.americanblinds.com^
 ||metrics.americancityandcounty.com^
 ||laas.americanexpress.com^
@@ -3550,6 +3556,7 @@ Version: 20210327175231
 ||apjiangte.com^
 ||apkdo.com^
 ||apkonline.ru^
+||stats.aplus.com^
 ||apmebf.com^
 ||apmnqut.cn^
 ||apollofind.com^
@@ -3750,10 +3757,12 @@ Version: 20210327175231
 ||artfut.com^
 ||artgullyhep.com^
 ||articismstre.fun^
+||stats.articlesbase.com^
 ||log.artipbox.net^
 ||artisticdisgraceevidently.com^
 ||artpever.com^
 ||artqpnah.com^
+||artreconnect.com^
 ||artsmalle.pro^
 ||tracks.arubamediamarketing.it^
 ||etrack.ext.arubanetworks.com^
@@ -3815,6 +3824,7 @@ Version: 20210327175231
 ||metrics.asos.com^
 ||asoulrox.com^
 ||flagship.asp-host.co.uk^
+||stats.asp24.pl^
 ||aspanyarc.club^
 ||asparmany.site^
 ||aspartbib.site^
@@ -4024,6 +4034,7 @@ Version: 20210327175231
 ||sadbmetrics.autocasion.com^
 ||metrics.autodesk.com^
 ||al.autohome.com.cn^
+||stats.autohome.com.cn^
 ||autoid.com^
 ||autoline-top.com^
 ||automatad.com^
@@ -4037,6 +4048,7 @@ Version: 20210327175231
 ||www2.autopartswarehouse.com^
 ||autopilothq.com^
 ||autoremerciez.xyz^
+||stats.autoscout24.ch^
 ||hmgnjf.autoscout24.it^
 ||partners.autotrader.co.uk^
 ||oxbskt.autotrader.com.au^
@@ -4069,6 +4081,7 @@ Version: 20210327175231
 ||averallasew.club^
 ||averoconnector.com^
 ||avfgoatbyyerys.com^
+||stats.avg.com^
 ||metrics.aviasales.ru^
 ||oqbimz.aviasales.ru^
 ||pgs.aviationweek.com^
@@ -4237,6 +4250,7 @@ Version: 20210327175231
 ||babymoment.net^
 ||backbeatmedia.com^
 ||sstats.backcountry.com^
+||stats.backcountry.com^
 ||backlink-test.de^
 ||backlink-umsonst.de^
 ||backlinkdino.de^
@@ -4309,6 +4323,7 @@ Version: 20210327175231
 ||plugin.mobopay.baidu.com^
 ||dj1.baidu.com^
 ||isite.baidu.com^
+||sjh.baidu.com^
 ||baiduace.com^
 ||baiduccdn1.com^
 ||baidujavascript.com^
@@ -4496,6 +4511,7 @@ Version: 20210327175231
 ||bbbx.xyz^
 ||a1.api.bbc.co.uk^
 ||sa.bbc.co.uk^
+||stats.bbc.co.uk^
 ||ssc.api.bbc.com^
 ||ati-a1.946d001b783803c1.xhst.bbci.co.uk^
 ||r.bbci.co.uk^
@@ -4861,6 +4877,7 @@ Version: 20210327175231
 ||bidverdrd.com^
 ||bidvertiser.com^
 ||biemedia.com^
+||stats.big-boards.com^
 ||bigbootymania.com^
 ||bigcattracks.com^
 ||bigchoicegroup.com^
@@ -4887,6 +4904,7 @@ Version: 20210327175231
 ||as.bild.de^
 ||rem-track.bild.de^
 ||spr.bild.de^
+||stats.bildconnect.de^
 ||bildirt.com^
 ||bileth.pw^
 ||bilitycarrone.club^
@@ -4915,6 +4933,7 @@ Version: 20210327175231
 ||bingooverdosegroom.com^
 ||bingtonwr.top^
 ||bingyinq.com^
+||stats.binki.es^
 ||binlayer.com^
 ||binlayer.de^
 ||bio-lifehealth.com^
@@ -4947,6 +4966,7 @@ Version: 20210327175231
 ||bglog.bitauto.com^
 ||carstat.bitauto.com^
 ||log.bitauto.com^
+||stats.bitban.com^
 ||bitbeat7.com^
 ||bitclub.network^
 ||bitclubnetwork.com^
@@ -4962,7 +4982,9 @@ Version: 20210327175231
 ||bitcoset.com^
 ||metrics.bitdefender.com^
 ||sstats.bitdefender.com^
+||stats.bitdefender.com^
 ||biteti.com^
+||stats.bitgravity.com^
 ||vserv.bc.cdn.bitgravity.com^
 ||dii2.bitiba.cz^
 ||dii2.bitiba.de^
@@ -5087,6 +5109,7 @@ Version: 20210327175231
 ||blogdaka.cc^
 ||pr.blogflux.com^
 ||insights.blogfoster.com^
+||stats.blogg.se^
 ||bloggerads.net^
 ||bloggeramt.de^
 ||bloggerei.de^
@@ -5098,6 +5121,7 @@ Version: 20210327175231
 ||blogmeetsbrand.com^
 ||blogohertz.com^
 ||blogoman-24.com^
+||stats.blogoscoop.net^
 ||blogpatrol.com^
 ||blogrankers.com^
 ||blogranking.net^
@@ -5119,6 +5143,7 @@ Version: 20210327175231
 ||blu5fdclr.com^
 ||bluhostedbanners.blucigs.com^
 ||blueadvertise.com^
+||stats.bluebillywig.com^
 ||bluecava.com^
 ||blueconic.net^
 ||bluecore.com^
@@ -5155,6 +5180,7 @@ Version: 20210327175231
 ||bmst.pw^
 ||bmuju.com^
 ||bmvjnewxkyi.com^
+||stats.bmw.de^
 ||bmw100.cn^
 ||bmwzdfrra.com^
 ||bn5x.net^
@@ -5250,6 +5276,7 @@ Version: 20210327175231
 ||bookbudd.com^
 ||iunrts.booking.com^
 ||sstats.bookingbuddy.com^
+||stats.bookingbuddy.com^
 ||bookingdragon.com^
 ||bookingfreeze.com^
 ||bookofsex.com^
@@ -5596,6 +5623,7 @@ Version: 20210327175231
 ||buxflow.com^
 ||buxmllzyoxnr.com^
 ||buxp.org^
+||stats.buycostumes.com^
 ||buydee.org^
 ||buyeasy.by^
 ||buyflood.com^
@@ -5614,6 +5642,7 @@ Version: 20210327175231
 ||buzzads.com^
 ||buzzcity.net^
 ||buzzdeck.com^
+||stats.buzzea.com^
 ||pixiedust.buzzfeed.com^
 ||buzzonclick.com^
 ||buzzoola.com^
@@ -5710,6 +5739,7 @@ Version: 20210327175231
 ||cadslimz.com^
 ||cafe58cc6d0ac.com^
 ||click2.cafepress.com^
+||stats.cafepress.com^
 ||cage6west.com^
 ||cagelrib.net^
 ||caglaikr.net^
@@ -5778,6 +5808,7 @@ Version: 20210327175231
 ||camsoda1.com^
 ||camzap.com^
 ||sslstats.canadapost.ca^
+||stats.canadapost.ca^
 ||oms.canadianbusiness.com^
 ||omni.canadiantire.ca^
 ||eulerian.canal-plus.com^
@@ -5841,6 +5872,7 @@ Version: 20210327175231
 ||cb-mms.carbuyer.co.uk^
 ||cardmrket.com^
 ||cardniu.com^
+||stats.cardschat.com^
 ||care5alea.com^
 ||somni.carecredit.com^
 ||caredaily.me^
@@ -5876,6 +5908,7 @@ Version: 20210327175231
 ||vpnuyy.carters.com^
 ||carticuladx.club^
 ||sstats.cartoonnetwork.com^
+||stats.cartoonnetwork.com^
 ||carts.guru^
 ||cartstick.com^
 ||casalemedia.com^
@@ -6215,6 +6248,7 @@ Version: 20210327175231
 ||checkru.net^
 ||checkstat.nl^
 ||checkyofeed.com^
+||stats.cheddar.com^
 ||cheekugly.com^
 ||cheeltee.net^
 ||cheerysequelhoax.com^
@@ -6336,6 +6370,7 @@ Version: 20210327175231
 ||saa.chowhound.com^
 ||chpfgx.com^
 ||chpok.pw^
+||stats.christianpost.com^
 ||christiantop1000.com^
 ||christingera.site^
 ||christinglatvian.site^
@@ -6507,6 +6542,7 @@ Version: 20210327175231
 ||cleananalytics.com^
 ||cleanbrowser.network^
 ||cleaneryelded.site^
+||stats.clear-media.com^
 ||clear-request.com^
 ||clearac.com^
 ||clearadnetwork.com^
@@ -6542,6 +6578,7 @@ Version: 20210327175231
 ||cas.clickability.com^
 ||imp.clickability.com^
 ||s.clickability.com^
+||stats.clickability.com^
 ||clickable.com^
 ||clickable.net^
 ||clickad.pl^
@@ -6574,6 +6611,7 @@ Version: 20210327175231
 ||clickexperts.net^
 ||clickferret.com^
 ||clickforensics.com^
+||stats.clickforknowledge.com^
 ||clickfuse.com^
 ||clickganic.com^
 ||clickgate.biz^
@@ -7013,6 +7051,7 @@ Version: 20210327175231
 ||cloudpsvn.com^
 ||trk.cloudsna.com^
 ||cloudtracer101.com^
+||stats.cloudwp.io^
 ||clrstm.com^
 ||clubcollector.com^
 ||clubpenguinclub.com^
@@ -7027,6 +7066,7 @@ Version: 20210327175231
 ||news.cmatcherlink.com^
 ||cmaxisolation.com^
 ||cmbestsrv.com^
+||stats.cmcigroup.com^
 ||cmcintra.net^
 ||cmcore.com^
 ||cmebevvtjdffc.com^
@@ -7113,12 +7153,15 @@ Version: 20210327175231
 ||gim.co.il^
 ||linicom.co.il^
 ||live.alljobs.co.il^
+||stats.mako.co.il^
+||stats.ynet.co.il^
 ||sw88.disney.co.il^
 ||info.shavve.co.il^
 ||adgebra.co.in^
 ||inuxu.co.in^
 ||media.onlineteachers.co.in^
 ||netcore.co.in^
+||stats.ibtimes.co.in^
 ||adz.co.zw^
 ||smetrics.coachfactory.com^
 ||mms.coachmag.co.uk^
@@ -7313,6 +7356,7 @@ Version: 20210327175231
 ||bids.concert.io^
 ||concertainwqa.club^
 ||concesspon.top^
+||stats.concierge.com^
 ||conclusivehunt.com^
 ||concord.systems^
 ||concordhorace.com^
@@ -7355,6 +7399,7 @@ Version: 20210327175231
 ||connexity.net^
 ||connexplace.com^
 ||connextra.com^
+||conquestdrawers.com^
 ||consciencebarrowcash.com^
 ||consciencevenomous.com^
 ||consciouschairs.com^
@@ -7758,6 +7803,7 @@ Version: 20210327175231
 ||crsspxl.com^
 ||crtracklink.com^
 ||crtx.info^
+||stats.cruisingpower.com^
 ||cruisingsmallship.com^
 ||eec.crunchyroll.com^
 ||crupntgybilt.com^
@@ -8127,6 +8173,7 @@ Version: 20210327175231
 ||datadsk.com^
 ||datafeedfile.com^
 ||datafront.co^
+||stats.datahjaelp.net^
 ||datam.com^
 ||sstats.datamanie.cz^
 ||datamaster.com.cn^
@@ -8175,6 +8222,7 @@ Version: 20210327175231
 ||jc1.dayfund.cn^
 ||daylogs.com^
 ||daylskg.cn^
+||pxt.daz3d.com^
 ||dazhantai.com^
 ||dazhonghua.cn^
 ||dazibenwm.com^
@@ -8533,6 +8581,7 @@ Version: 20210327175231
 ||sadbmetrics.diariovasco.com^
 ||zlolhl.diary.ru^
 ||dicalnatur.club^
+||stats.dice.com^
 ||nova.dice.net^
 ||inqjal.dickssportinggoods.com^
 ||metrics.dickssportinggoods.com^
@@ -8553,6 +8602,7 @@ Version: 20210327175231
 ||diffusion-tracker.com^
 ||digadser.com^
 ||digeyule.xyz^
+||stats.digg.com^
 ||connect.digi.com^
 ||digiad.co^
 ||app.updates.digicert.com^
@@ -8560,6 +8610,7 @@ Version: 20210327175231
 ||digidip.net^
 ||digipathmedia.com^
 ||digital-metric.com^
+||stats.digital-natives.de^
 ||digitaladvertisingalliance.org^
 ||digitaladvisor.dk^
 ||ttauri.digitalcameraworld.com^
@@ -8633,6 +8684,7 @@ Version: 20210327175231
 ||disapprovalaccusedirt.com^
 ||disavowtwelve.com^
 ||discoreafr.fun^
+||stats.discotel.de^
 ||discountryvc.club^
 ||discountwound.com^
 ||discourteousrecitalparole.com^
@@ -8806,6 +8858,7 @@ Version: 20210327175231
 ||maling.dn.no^
 ||dnab.info^
 ||marketing.dnacenter.com^
+||stats.dnaindia.com^
 ||dnbizcdn.com^
 ||dnemkhkbsdbl.com^
 ||dnfkong.com^
@@ -8995,6 +9048,7 @@ Version: 20210327175231
 ||dreamine.com^
 ||cmp.dreamlab.pl^
 ||dreamrecord.cn^
+||stats.dreamsub.cc^
 ||dregardianfl.site^
 ||mhlfqc.dressbarn.com^
 ||dressuresl.top^
@@ -9023,6 +9077,7 @@ Version: 20210327175231
 ||adv.drtuber.com^
 ||eproof.drudgereport.com^
 ||drudgerynickname.com^
+||stats.drugstore.com^
 ||drunkersrr.club^
 ||www1.drwilsons.com^
 ||drwkzkncihwygw.com^
@@ -9119,6 +9174,7 @@ Version: 20210327175231
 ||market.duowan.com^
 ||other.v.duowan.com^
 ||playstats.v.duowan.com^
+||stats.v.duowan.com^
 ||vupload.duowan.com^
 ||dupinpu.com^
 ||dupiwipo.xyz^
@@ -9400,6 +9456,7 @@ Version: 20210327175231
 ||econdardseeg.site^
 ||econday.top^
 ||sstats.economist.com^
+||stats.economist.com^
 ||economyobserver.com^
 ||econverge.top^
 ||ecortb.com^
@@ -9433,6 +9490,7 @@ Version: 20210327175231
 ||edgyconnaterag.com^
 ||edhappearer.info^
 ||edhindexest.space^
+||stats.edicy.com^
 ||arrlrk.edigital.hu^
 ||edigitalsurvey.com^
 ||edimpleteexce.club^
@@ -9681,6 +9739,7 @@ Version: 20210327175231
 ||lp.embarcadero.com^
 ||embargainew.site^
 ||embassychopassembled.com^
+||stats.embedcdn.cc^
 ||embeddedanalytics.com^
 ||emberads.com^
 ||embertogethe.club^
@@ -9862,6 +9921,7 @@ Version: 20210327175231
 ||epfcfhtjxqd.com^
 ||epicgameads.com^
 ||sstats.epicurious.com^
+||stats.epicurious.com^
 ||epilot.com^
 ||a.epinv.com^
 ||epiodata.com^
@@ -10052,6 +10112,7 @@ Version: 20210327175231
 ||etargetnet.com^
 ||etcjliejxlcfw.com^
 ||etcodes.com^
+||stats.eteleon.de^
 ||etg98.com^
 ||eth-pocket.com^
 ||eth-pocket.de^
@@ -10128,6 +10189,7 @@ Version: 20210327175231
 ||evaporatedisturbedbarrier.com^
 ||evatelyenu.club^
 ||evcknbym.com^
+||eveaggravationloosen.com^
 ||evemasoil.com^
 ||evengparme.com^
 ||eventcapture03.com^
@@ -10174,6 +10236,7 @@ Version: 20210327175231
 ||exacttarget.com^
 ||a.exam58.com^
 ||beacon.examiner.com^
+||stats.examiner.com^
 ||examinerprospectsbutton.com^
 ||exapxl.de^
 ||excellenceads.com^
@@ -10268,6 +10331,7 @@ Version: 20210327175231
 ||extremereach.io^
 ||mailing.enews.extremetech.com^
 ||metrics.extremetech.com^
+||stats.extremetech.com^
 ||extyoasigus.com^
 ||exualpaignp.info^
 ||exusr.com^
@@ -10524,6 +10588,7 @@ Version: 20210327175231
 ||fcuit.com^
 ||fcunq.com^
 ||fcvwuevewdzpm.com^
+||stats.fd.nl^
 ||fd173.cn^
 ||fd7c.com^
 ||fd7qz88ckd.com^
@@ -10714,6 +10779,7 @@ Version: 20210327175231
 ||findepended.com^
 ||finderlocator.com^
 ||findicaterperty.site^
+||findlnk.com^
 ||findnewline.com^
 ||findswiftresults.com^
 ||findx2.info^
@@ -10755,6 +10821,7 @@ Version: 20210327175231
 ||iedc.fitbit.com^
 ||as.fitbook.de^
 ||fitbxtqgneq.com^
+||stats.fittkaumaass.de^
 ||webbc.fivecdm.com^
 ||collector.fiverr.com^
 ||hjgkdv.fiverr.com^
@@ -10955,6 +11022,7 @@ Version: 20210327175231
 ||followercounter.com^
 ||followfact.com^
 ||foloatoo.com^
+||stats.fomo.com^
 ||insight.fonecta.fi^
 ||fontainsuny.club^
 ||gmufag.fontanka.ru^
@@ -11079,6 +11147,7 @@ Version: 20210327175231
 ||francoistsjacqu.info^
 ||franecki.net^
 ||franeski.net^
+||stats.frankfurterneuepresse.de^
 ||info.franklin.edu^
 ||franklyclapmaggot.com^
 ||tp.frankonia.de^
@@ -11204,6 +11273,7 @@ Version: 20210327175231
 ||fryawlauk.com^
 ||fryirktan.com^
 ||stats-dc1.frz.io^
+||stats.fs.com^
 ||rffsds.fsastore.com^
 ||fsd2.digital^
 ||fsisolpouupevs.com^
@@ -11264,6 +11334,7 @@ Version: 20210327175231
 ||fundardsesaz.club^
 ||fungus.online^
 ||funklicks.com^
+||funkscar.com^
 ||funloadskin.club^
 ||funneld.com^
 ||perf.af.funneldrivers.com^
@@ -11567,6 +11638,7 @@ Version: 20210327175231
 ||gedus.cn^
 ||geede.info^
 ||geedoovu.net^
+||stats.geegain.com^
 ||metrics.geelongadvertiser.com.au^
 ||nsmetrics.geelongadvertiser.com.au^
 ||geethoap.com^
@@ -11594,6 +11666,7 @@ Version: 20210327175231
 ||wt.generali.de^
 ||generalizationentertain.com^
 ||generaltracking.de^
+||generatedough.com^
 ||genergyothe.top^
 ||genericlink.com^
 ||metrics.genesis.es^
@@ -11739,12 +11812,14 @@ Version: 20210327175231
 ||giantaffiliates.com^
 ||saa.giantbomb.com^
 ||gibeleftyeuro.com^
+||stats.gibson.com^
 ||giddyattendant.com^
 ||giddycoat.com^
 ||giddyuptrk.com^
 ||giecsodzyl.com^
 ||gievalonjing.club^
 ||stats-messages.gifs.com^
+||stats.gifs.com^
 ||gift2pair.com^
 ||jaomlf.giftmall.co.jp^
 ||swa.gifts.com^
@@ -12084,6 +12159,7 @@ Version: 20210327175231
 ||gouwubang.com^
 ||f-emc.ngsp.gov.vn^
 ||log.ttbc-hcm.gov.vn^
+||stats.muasamcong.gov.vn^
 ||govbeijing.cn^
 ||govbusi.info^
 ||govercomeb.club^
@@ -12122,6 +12198,7 @@ Version: 20210327175231
 ||graciamediaweb.com^
 ||graduateavenue.com^
 ||graduationtapingicicle.com^
+||stats.grafikart.fr^
 ||grafpedia.com^
 ||graftaub.com^
 ||grafthivecrocus.cam^
@@ -12525,6 +12602,7 @@ Version: 20210327175231
 ||reporting.handll.net^
 ||handtub.com^
 ||handy-tab.com^
+||stats.handyvertrag.de^
 ||rgzrys.hangikredi.com^
 ||hangorientalauto.com^
 ||go.hangzhou.com.cn^
@@ -12571,6 +12649,7 @@ Version: 20210327175231
 ||smetrics.harley-davidson.com^
 ||harm6stop.com^
 ||tr.voixduclient.harmonie-mutuelle.fr^
+||stats.harpercollins.com^
 ||harrenmedianetwork.com^
 ||harridan.cc^
 ||harriscote.pro^
@@ -12816,10 +12895,12 @@ Version: 20210327175231
 ||heylookhere.top^
 ||heyloyalty.com^
 ||heymatic.com^
+||stats.heyoya.com^
 ||heystaks.com^
 ||hezhenzi.com^
 ||hf18yg8q.com^
 ||hfc195b.com^
+||stats.hfet.org^
 ||hfjuki.com^
 ||hflvhua.com^
 ||hfoyjg.cn^
@@ -12883,6 +12964,7 @@ Version: 20210327175231
 ||highrevenuecpm.com^
 ||highter.top^
 ||highwayprinting.com^
+||stats.highwire.com^
 ||hihifenxiang.com^
 ||hihufu.cn^
 ||cdn.hiido.cn^
@@ -12933,6 +13015,7 @@ Version: 20210327175231
 ||hira-meki.jp^
 ||hiredringjuices.com^
 ||hirmatrix.hu^
+||stats.his-j.com^
 ||hislationaler.club^
 ||hiss3lark.com^
 ||hissq.com^
@@ -13581,6 +13664,7 @@ Version: 20210327175231
 ||ibpxl.net^
 ||ibryte.com^
 ||ibtfbbtjktu.com^
+||stats.ibtimes.co.uk^
 ||ic-live.com^
 ||ic86doc.com^
 ||icast.cn^
@@ -13813,7 +13897,6 @@ Version: 20210327175231
 ||imediaaudiences.com^
 ||imediarevenue.com^
 ||imetrix.it^
-||swebstats.imf.org^
 ||ak.imgaft.com^
 ||ak1.imgaft.com^
 ||imgfeedget.com^
@@ -13963,6 +14046,7 @@ Version: 20210327175231
 ||srepdata.indystar.com^
 ||ineedhits.com^
 ||ineffieldinforget.site^
+||stats.inergizedigitalmedia.com^
 ||metric.inetcore.com^
 ||inetinteractive.com^
 ||inevitablemittenprefer.com^
@@ -14237,6 +14321,7 @@ Version: 20210327175231
 ||investigatesupernatural.com^
 ||investingchannel.com^
 ||sstats.investors.com^
+||stats.investors.com^
 ||smetrics.investorsgroup.com^
 ||invincibledefybegun.com^
 ||invisioncloudstats.com^
@@ -14315,6 +14400,7 @@ Version: 20210327175231
 ||iplist.cc^
 ||iplocationtools.com^
 ||iwa.iplsc.com^
+||stats.ipmgroup.be^
 ||ipnamtuezkwi.com^
 ||st.ipornia.com^
 ||ippen.space^
@@ -14459,6 +14545,7 @@ Version: 20210327175231
 ||t.itsehoitoapteekki.fi^
 ||itslive.com^
 ||itsmore.cn^
+||stats.itsol.it^
 ||itspsmup.com^
 ||itsup.com^
 ||ittorchicer.com^
@@ -14467,6 +14554,7 @@ Version: 20210327175231
 ||itvgjuijuh.com^
 ||itw.me^
 ||info.itwcce.com^
+||stats.itweb.co.za^
 ||iu16wmye.com^
 ||iu1xoe7o.com^
 ||iublpudmdjky.com^
@@ -15214,6 +15302,7 @@ Version: 20210327175231
 ||geo.kaloo.ga^
 ||kalstats.kaltura.com^
 ||livestats.kaltura.com^
+||stats.kaltura.com^
 ||kameleoon.com^
 ||kameleoon.eu^
 ||kamnebo.info^
@@ -16188,6 +16277,7 @@ Version: 20210327175231
 ||librarierserty.site^
 ||metrics-api.librato.com^
 ||libreriamedina.com^
+||stats.libresse.no^
 ||eventapi.libring.com^
 ||libstat.com^
 ||flashstats.libsyn.com^
@@ -16679,6 +16769,7 @@ Version: 20210327175231
 ||losstrack.com^
 ||lostun.com^
 ||lote1otto.com^
+||stats.lotlinx.com^
 ||ssrlot.lotoquebec.com^
 ||lotteryaffiliates.com^
 ||mx.loubiqu.com^
@@ -17259,6 +17350,7 @@ Version: 20210327175231
 ||maxtracker.net^
 ||maxtraffic.com^
 ||smetrics.maxxia.com.au^
+||stats.maxxim.de^
 ||maxymiser.com^
 ||maxymiser.net^
 ||mayhemabjure.com^
@@ -17649,6 +17741,7 @@ Version: 20210327175231
 ||miaozhen.com^
 ||contadores.miarroba.com^
 ||contadores.miarroba.es^
+||stats.miarroba.info^
 ||miastina.pw^
 ||mibebu.com^
 ||mibsooks.net^
@@ -17782,6 +17875,7 @@ Version: 20210327175231
 ||minorexportshopping.com^
 ||minr.pw^
 ||minsistereron.site^
+||stats.mint.ca^
 ||mintake.com^
 ||insight.mintel.com^
 ||data.minute.ly^
@@ -17837,6 +17931,7 @@ Version: 20210327175231
 ||smetrics.mitsubishi-motors.com.au^
 ||report.mitsubishicars.com^
 ||sreport.mitsubishicars.com^
+||stats.mituyu.com^
 ||gg.miued.com^
 ||hot.browser.intl.miui.com^
 ||adv.sec.intl.miui.com^
@@ -18153,6 +18248,7 @@ Version: 20210327175231
 ||mortionaletak.site^
 ||mortionalgo.site^
 ||membership.mortonarb.org^
+||stats.mos.ru^
 ||mosa86.com^
 ||mosaiq.io^
 ||moshangflower.cn^
@@ -18331,6 +18427,7 @@ Version: 20210327175231
 ||msujd.cn^
 ||msypr.com^
 ||sstats.mt.com^
+||stats.mt.com^
 ||mtav1.com^
 ||mtburn.com^
 ||mtcat.cn^
@@ -18561,8 +18658,6 @@ Version: 20210327175231
 ||myvisitors.se^
 ||myvisualiq.net^
 ||mywebclick.net^
-||mywebstats.com.au^
-||mywebstats.org^
 ||mywondertrip.com^
 ||myyxapp.com^
 ||ggs.myzaker.com^
@@ -18749,6 +18844,7 @@ Version: 20210327175231
 ||ncourtainco.club^
 ||ncoyqc.com^
 ||nctionclarkingcu.fun^
+||stats.nctm.org^
 ||ncydissalc.club^
 ||ndardsferv.club^
 ||ndardsgreatm.fun^
@@ -18774,6 +18870,7 @@ Version: 20210327175231
 ||neatstats.com^
 ||nebadu.com^
 ||neblotech.com^
+||stats.nebula.fi^
 ||necessaryfiddlemister.com^
 ||neck6bake.com^
 ||metrics.necn.com^
@@ -18852,6 +18949,7 @@ Version: 20210327175231
 ||netapplications.com^
 ||netavenir.com^
 ||netbiscuits.net^
+||stats.netbopdev.co.uk^
 ||netcatx.com^
 ||netclickstats.com^
 ||netcoresmartech.com^
@@ -19590,6 +19688,7 @@ Version: 20210327175231
 ||nyhpwuns.com^
 ||nykps.com^
 ||nyltx.com^
+||stats.nymag.com^
 ||nyphtrue.com^
 ||nyrithenrebarro.info^
 ||nyshoptara.pro^
@@ -19841,6 +19940,7 @@ Version: 20210327175231
 ||okwan.cn^
 ||ol6nhf.cn^
 ||log.olark.com^
+||stats.olark.com^
 ||olc0.cn^
 ||olderdiverge.com^
 ||oldership.com^
@@ -19945,6 +20045,7 @@ Version: 20210327175231
 ||onerror.ga^
 ||onerror.gq^
 ||onerror.ml^
+||onesaimdew.com^
 ||onesegreativec.site^
 ||onesignal.com^
 ||onespot.com^
@@ -19952,6 +20053,7 @@ Version: 20210327175231
 ||csr.onet.pl^
 ||kropka.onet.pl^
 ||sgqcvfjvr.onet.pl^
+||stats.media.onet.pl^
 ||onetad.com^
 ||onetag-sys.com^
 ||onetag.io^
@@ -20054,6 +20156,7 @@ Version: 20210327175231
 ||oplo.org^
 ||oplwseln.com^
 ||opoapibs.net^
+||stats.opoloo.de^
 ||opoxv.com^
 ||oppaid.com^
 ||opportedag.top^
@@ -20224,6 +20327,7 @@ Version: 20210327175231
 ||ouhwjdv.cn^
 ||r1ztni.oui.sncf^
 ||sstats.oui.sncf^
+||stats.oui.sncf^
 ||v.oui.sncf^
 ||wblt.oui.sncf^
 ||data.ouigo.com^
@@ -20355,6 +20459,7 @@ Version: 20210327175231
 ||ozrmnwplx.com^
 ||deliver.oztam.com.au^
 ||oztpeloyj.com^
+||stats.ozwebsites.biz^
 ||ozwjhdler.com^
 ||ozyawn.com^
 ||p-advg.com^
@@ -20446,6 +20551,7 @@ Version: 20210327175231
 ||smetrics.panasonic.net^
 ||repvwz.panchemodan.ru^
 ||panda.network^
+||stats.pandora.com^
 ||tracker.pandora.com^
 ||smetrics.pandora.net^
 ||lg.tr.pandora.tv^
@@ -20540,6 +20646,7 @@ Version: 20210327175231
 ||passiveinitialclass.com^
 ||passivemarcoanyhow.com^
 ||passtechusa.com^
+||stats.paste2.org^
 ||pastimeswindle.com^
 ||pasturecompelscreen.com^
 ||wzyjup.patch.com^
@@ -20774,6 +20881,7 @@ Version: 20210327175231
 ||personalicanvas.com^
 ||ohjrxj.personalizationmall.com^
 ||personyze.com^
+||xt.persosa.com^
 ||perspoolothe.fun^
 ||perstago.pro^
 ||pertholin.com^
@@ -20858,6 +20966,7 @@ Version: 20210327175231
 ||phjml.cn^
 ||phmcgeqjticzbd.com^
 ||phoakrun.net^
+||stats.phoenix-widget.com^
 ||smetrics.phoenix.edu^
 ||phoenixnk.cn^
 ||phokukse.com^
@@ -20896,6 +21005,7 @@ Version: 20210327175231
 ||phywi.org^
 ||pi-stats.com^
 ||pi920.com^
+||stats.piaggio.com^
 ||pianistrefutationgoose.com^
 ||pianjjiicdn.com^
 ||j1.piaobing.com^
@@ -20925,6 +21035,8 @@ Version: 20210327175231
 ||pignuwoa.com^
 ||pigtisetdilqsi.com^
 ||pigtre.com^
+||pigvideo.cn^
+||pigvideo.com.cn^
 ||pigwinspath.icu^
 ||aydtkb.pikabu.ru^
 ||iia1.pikacn.com^
@@ -21212,6 +21324,7 @@ Version: 20210327175231
 ||smetrics.politicopro.com^
 ||polituremil.club^
 ||polkoa.com^
+||stats.polldaddy.com^
 ||pollscoopiffy.com^
 ||polluxnetwork.com^
 ||polmontventures.com^
@@ -21458,6 +21571,7 @@ Version: 20210327175231
 ||premiumads.com.br^
 ||partner.premiumdomains.com^
 ||premiumhdv.com^
+||stats.premiumsim.de^
 ||premiumstats.xyz^
 ||premiumvertising.com^
 ||preonesetro.com^
@@ -21554,6 +21668,7 @@ Version: 20210327175231
 ||proext.com^
 ||profbigo.com^
 ||professonsd.top^
+||stats.proff.no^
 ||proffigurufast.com^
 ||wkndiu.profi.ru^
 ||profilesnitch.com^
@@ -21621,6 +21736,7 @@ Version: 20210327175231
 ||proportly.club^
 ||props.id^
 ||propu.sh^
+||stats.propublica.org^
 ||prorentisol.com^
 ||prospecteye.com^
 ||mdws.prospera.ca^
@@ -21891,6 +22007,7 @@ Version: 20210327175231
 ||pusheify.com^
 ||pushengage.com^
 ||pushengage.im^
+||stats.pusher.com^
 ||pusherism.com^
 ||pushex.io^
 ||pushfullimitsdrunken.com^
@@ -22028,6 +22145,7 @@ Version: 20210327175231
 ||qdkzjdsb.cn^
 ||qdmeifeng.cn^
 ||qdmil.com^
+||stats.qdq.com^
 ||mtm.qdqmedia.com^
 ||qdsfzz.cn^
 ||qdwght.com^
@@ -22440,6 +22558,7 @@ Version: 20210327175231
 ||radiancethedevice.com^
 ||radiantskilled.com^
 ||dot-stat.radikal.ru^
+||stats.radio-canada.ca^
 ||insights.radiometer.com^
 ||czdxto.radiopopular.pt^
 ||metrics.radissonhotels.com^
@@ -22570,10 +22689,12 @@ Version: 20210327175231
 ||decals.rcgroups.com^
 ||decals.rcgroups.net^
 ||rchitereach.info^
+||stats.rcinet.ca^
 ||rclmc.top^
 ||d.rcmd.jp^
 ||rcogzcsan.com^
 ||rcsmetrics.it^
+||stats.rcsobjects.it^
 ||rcurn.com^
 ||rcvhzfcnja.com^
 ||rcvlink.com^
@@ -23350,6 +23471,7 @@ Version: 20210327175231
 ||rrshibwsq.com^
 ||rrsubway.com^
 ||rrvpscehvjuz.com^
+||stats.rs-online.com^
 ||rs-stripe.com^
 ||rs0.co.uk^
 ||rsafind.co.za^
@@ -23542,6 +23664,7 @@ Version: 20210327175231
 ||s8dj.com^
 ||s99i.org^
 ||s9w.cc^
+||stats.sa-as.com^
 ||saambaa.com^
 ||rpfkgf.saarbruecker-zeitung.de^
 ||saas-euw-1.com^
@@ -23570,6 +23693,7 @@ Version: 20210327175231
 ||verify.safesigned.com^
 ||safestsniffingconfessed.com^
 ||safestteacherwaiting.com^
+||stats.safeway.com^
 ||collection.saga.co.uk^
 ||fpc.sage.com^
 ||get.sage.com^
@@ -23691,6 +23815,7 @@ Version: 20210327175231
 ||saveddrummermover.com^
 ||saventireri.top^
 ||savoryorange.com^
+||stats.sawlive.tv^
 ||smetrics.saxobank.com^
 ||sayessedb.club^
 ||sayfibhat.club^
@@ -23858,6 +23983,8 @@ Version: 20210327175231
 ||searchdims.network^
 ||searchfeed.com^
 ||sftrack.searchforce.net^
+||stats.searchftps.net^
+||stats.searchftps.org^
 ||searchignite.com^
 ||searchmulty.com^
 ||searchpeack.com^
@@ -23944,6 +24071,7 @@ Version: 20210327175231
 ||seductionprofits.com^
 ||seeawhale.com^
 ||seecontentdelivery.info^
+||stats.seedr.com^
 ||seedtag.com^
 ||seehits.com^
 ||seeip.org^
@@ -24114,6 +24242,7 @@ Version: 20210327175231
 ||sexad.net^
 ||sexcounter.com^
 ||sexdatecash.com^
+||stats.sexemodel.com^
 ||sexengine.sx^
 ||geobanner.sexfinder.com^
 ||sexflirtbook.com^
@@ -24337,6 +24466,7 @@ Version: 20210327175231
 ||lyxfra.shopee.com.my^
 ||spigte.shopee.tw^
 ||pciidk.shopee.vn^
+||stats.shopify.com^
 ||shopilize.com^
 ||shopimind.com^
 ||smetrics.shopjapan.co.jp^
@@ -24350,6 +24480,7 @@ Version: 20210327175231
 ||tag.shopping-feed.com^
 ||shoppingads.com^
 ||smetrics.shoppremiumoutlets.com^
+||stats.shoppydoo.com^
 ||dp.shoprunner.com^
 ||logs-api.shoprunner.com^
 ||shoptimally.com^
@@ -24467,6 +24598,7 @@ Version: 20210327175231
 ||silverpop.com^
 ||silverpush.co^
 ||somni.silversea.com^
+||stats.sim.de^
 ||statistik.simaja.de^
 ||simaoer.com^
 ||simarl.com^
@@ -24488,6 +24620,7 @@ Version: 20210327175231
 ||simplyhired.com^
 ||simplyjmp.com^
 ||simplymeasured.com^
+||stats.simplytel.de^
 ||simrubwan.com^
 ||simvinvo.com^
 ||sstats.simzdarma.cz^
@@ -24568,6 +24701,7 @@ Version: 20210327175231
 ||insights.sitesearch360.com^
 ||sitesense-oo.com^
 ||sitestat.com^
+||stats.sitesuite.org^
 ||siteswithcontent.com^
 ||sitetag.us^
 ||sitetagger.co.uk^
@@ -24666,6 +24800,7 @@ Version: 20210327175231
 ||rimxqx.slickdeals.net^
 ||slidedeck.com^
 ||slideff.com^
+||stats.slideshare.net^
 ||slikslik.com^
 ||slim2disc.com^
 ||dtrk.slimcdn.com^
@@ -24734,6 +24869,7 @@ Version: 20210327175231
 ||smartfarming.cn^
 ||smartlook.com^
 ||webpixel.smartmeapp.com^
+||stats.smartmobil.de^
 ||smetrics.smartmove.us^
 ||smartnews-ads.com^
 ||smartocto.com^
@@ -24981,6 +25117,8 @@ Version: 20210327175231
 ||sombersurprise.com^
 ||sombes.com^
 ||somedayanchovydepressing.com^
+||stats.someecards.com^
+||somehowluxuriousreader.com^
 ||somennew.com^
 ||a02342.somersetcountygazette.co.uk^
 ||somethingprecursorfairfax.com^
@@ -25155,6 +25293,7 @@ Version: 20210327175231
 ||splashfloating.com^
 ||marketing.splashtop.com^
 ||eulerian.splendia.com^
+||stats.splinder.com^
 ||splinky.com^
 ||mms.splinternews.com^
 ||events.split.io^
@@ -25366,6 +25505,9 @@ Version: 20210327175231
 ||stat-rock.com^
 ||stat-track.com^
 ||stat-well.com^
+||stat.media^
+||stat.pl^
+||stat.social^
 ||stat24.com^
 ||stat24.ru^
 ||statcamp.net^
@@ -25406,6 +25548,10 @@ Version: 20210327175231
 ||smetrics.statnews.com^
 ||statowl.com^
 ||statpipe.ru^
+||stats.de^
+||stats.fr^
+||tracker.stats.in.th^
+||stats.lt^
 ||stats2.com^
 ||stats21.com^
 ||stats4all.com^
@@ -25454,6 +25600,7 @@ Version: 20210327175231
 ||steelhousemedia.com^
 ||steeltrader.com.cn^
 ||sstats.steepandcheap.com^
+||stats.steepandcheap.com^
 ||xrhrrk.steepandcheap.com^
 ||steepsquirrel.com^
 ||steepto.com^
@@ -25600,6 +25747,7 @@ Version: 20210327175231
 ||mujjrh.stylenanda.com^
 ||styleszelife.com^
 ||styleui.ru^
+||stats.stylight.it^
 ||smart.styria-digital.com^
 ||suangtianw.com^
 ||suapicvhgpwjp.com^
@@ -26123,6 +26271,7 @@ Version: 20210327175231
 ||tawk.to^
 ||taxel.jp^
 ||tsa.taxslayer.com^
+||stats.tazeros.com^
 ||tbaffiliate.com^
 ||tbaia.com^
 ||tbaocdn.com^
@@ -26165,6 +26314,7 @@ Version: 20210327175231
 ||beagle.prod.tda.link^
 ||tdain.com^
 ||sstats.tdameritrade.com^
+||stats.tdameritrade.com^
 ||tdayi.com^
 ||smetrics.tdc.dk^
 ||tddmp.com^
@@ -26224,6 +26374,7 @@ Version: 20210327175231
 ||marketing2.technologyadvice.com^
 ||mx.technolutions.net^
 ||qvnpxc.technopark.ru^
+||stats.technopia.it^
 ||technoratimedia.com^
 ||dlpjgh.techport.ru^
 ||orionis.techradar.com^
@@ -26259,7 +26410,9 @@ Version: 20210327175231
 ||tel-tel-fie.com^
 ||smetrics.tienda.telcel.com^
 ||ea.telecommandeonline.com^
+||stats.teledyski.info^
 ||omnistats.teleflora.com^
+||stats.sec.telefonica.com^
 ||telegramspun.com^
 ||gcpdata.telegraph.co.uk^
 ||metrics.telegraph.co.uk^
@@ -26739,6 +26892,7 @@ Version: 20210327175231
 ||tionscofferent.info^
 ||tiontablyvern.site^
 ||tippcom01.tipp24.com^
+||stats.tipser.com^
 ||tire1soak.com^
 ||smetrics.tirebusiness.com^
 ||tirrevealsdi.fun^
@@ -26986,6 +27140,7 @@ Version: 20210327175231
 ||totemcash.com^
 ||totifiquo.com^
 ||totogetica.com^
+||stats.tou.tv^
 ||touawopexnefx.com^
 ||touchbackgroundrusty.com^
 ||touchclarity.com^
@@ -27010,6 +27165,7 @@ Version: 20210327175231
 ||towardstic.club^
 ||marketing.towerfcu.org^
 ||towers-shield.com^
+||stats.townnews.com^
 ||metrics.townsvillebulletin.com.au^
 ||toxicbraid.com^
 ||qbqvef.toy.ru^
@@ -27484,6 +27640,7 @@ Version: 20210327175231
 ||metrics.tuneup.de^
 ||analy.tuniu.cn^
 ||tunnl.com^
+||stats.tunt.lv^
 ||tunviralbionic.com^
 ||tuoens.cn^
 ||tuoxintrade.cn^
@@ -27545,6 +27702,7 @@ Version: 20210327175231
 ||tweowhvrim.review^
 ||tweznpjocbka.com^
 ||twfilnym.com^
+||stats.twhl.xyz^
 ||twilightsex.com^
 ||twinpinenetwork.com^
 ||twinplan.com^
@@ -27552,6 +27710,7 @@ Version: 20210327175231
 ||jcaqvl.twinset.com^
 ||twinwalnutthy.com^
 ||twistads.com^
+||stats.twistage.com^
 ||twistyscash.com^
 ||client-event-reporter.twitch.tv^
 ||trowel.twitch.tv^
@@ -27788,6 +27947,7 @@ Version: 20210327175231
 ||ulclick.ru^
 ||uleakkpuzaea.com^
 ||ulink.cc^
+||stats.ulixes.pl^
 ||ad-beacon-v01.uliza.jp^
 ||ulngtppm.com^
 ||ulsterns.club^
@@ -27890,6 +28050,7 @@ Version: 20210327175231
 ||kwwvxn.uniqlo.com^
 ||uniqodo.com^
 ||core.unit-sense.net^
+||stats.united-domains.de^
 ||united-infos.net^
 ||unitethecows.com^
 ||go.unitusccu.com^
@@ -27989,6 +28150,7 @@ Version: 20210327175231
 ||uqdqwaolvyxbjc.com^
 ||uqyatperdvczfw.com^
 ||uralweb.ru^
+||stats.urban-media.com^
 ||urbanairship.com^
 ||urchrevening.info^
 ||urdercomp.space^
@@ -28088,6 +28250,7 @@ Version: 20210327175231
 ||usuallycrummy.com^
 ||usuarios-online.com^
 ||usurv.com^
+||stats.uswitch.com^
 ||uszaodwya.com^
 ||ut0ej.cn^
 ||utarget.co.uk^
@@ -28216,6 +28379,7 @@ Version: 20210327175231
 ||variabilitycomprehension.com^
 ||variablefitness.com^
 ||variti.net^
+||stats.varrando.com^
 ||vmstats.varrando.com^
 ||vartoken.com^
 ||vkgpor.varusteleka.fi^
@@ -28410,6 +28574,7 @@ Version: 20210327175231
 ||vidcdn.info^
 ||vidcoin.com^
 ||vidcpm.com^
+||stats.viddler.com^
 ||video-adblocker.com^
 ||video-loader.com^
 ||video-people.com^
@@ -28417,6 +28582,7 @@ Version: 20210327175231
 ||videoadex.com^
 ||videoclick.ru^
 ||videodeals.com^
+||stats.videodelivery.net^
 ||videoegg.com^
 ||videohub.com^
 ||videologygroup.com^
@@ -28589,6 +28755,7 @@ Version: 20210327175231
 ||viyouhui.com^
 ||vizaiced.net^
 ||sstats.vizergy.com^
+||stats.vizergy.com^
 ||al-smetrics.vizio.com^
 ||vizisense.net^
 ||vizury.com^
@@ -28600,6 +28767,7 @@ Version: 20210327175231
 ||vjsticdegj.com^
 ||vjsxvihazrwypb.com^
 ||vjuvorqe.com^
+||stats.vk-portal.net^
 ||vk77lnizckm6.com^
 ||vkaofq64zz.com^
 ||vkcdnservice.com^
@@ -28610,6 +28778,7 @@ Version: 20210327175231
 ||vkuay.com^
 ||vlexokrako.com^
 ||vlion.cn^
+||stats.vliplatform.com^
 ||vlitag.com^
 ||vlnwqiloadoqt.com^
 ||vlogexpert.com^
@@ -28720,6 +28889,7 @@ Version: 20210327175231
 ||providence.voxmedia.com^
 ||targeting.voxus.tv^
 /^(\S+\.)?voyage-prive\.[a-z]+(\.uk)?$/
+||stats.voyages-sncf.com^
 ||tr.email.voyagesleclerc.com^
 ||tr.news.voyagesleclerc.com^
 ||voyeurhit.com^
@@ -28779,6 +28949,7 @@ Version: 20210327175231
 ||vukhhjzd.com^
 ||vulging.pro^
 ||vulnerabletan.com^
+||stats.vulture.com^
 ||vulturechinamaternity.com^
 ||vungle.com^
 ||vupulse.com^
@@ -28900,6 +29071,7 @@ Version: 20210327175231
 ||warsalsintrol.site^
 ||warsomnet.com^
 ||warten-sie-mal.xyz^
+||stats.wartsila.com^
 ||warumbistdusoarm.space^
 ||smetrics.waseda-ac.co.jp^
 ||marketing.washington.org^
@@ -29067,6 +29239,7 @@ Version: 20210327175231
 ||webpu.sh^
 ||webpushcloud.info^
 ||analitica.webrpp.com^
+||stats.webs.com^
 ||websanalytic.com^
 ||websd8.com^
 ||webseeds.com^
@@ -29082,6 +29255,7 @@ Version: 20210327175231
 ||websitesampling.com^
 ||websitewelcome.com^
 ||webspectator.com^
+||stats.webstarts.com^
 ||webstatistika.lv^
 ||webstats4u.com^
 ||webtalking.ru^
@@ -29505,6 +29679,7 @@ Version: 20210327175231
 ||tracker.winload.de^
 ||winr.online^
 ||a02342.winsfordguardian.co.uk^
+||stats.winsim.de^
 ||winsistakesme.site^
 ||wipe.de^
 ||wipedstuffed.com^
@@ -29512,6 +29687,7 @@ Version: 20210327175231
 ||api.wipmania.com^
 ||wipowaxe.com^
 ||sstats.wired.com^
+||stats.wired.com^
 ||saa.wired2fish.com^
 ||wiredminds.de^
 ||wirenth.com^
@@ -29636,6 +29812,7 @@ Version: 20210327175231
 ||wordc.ga^
 ||wordego.com^
 ||refer.wordpress.com^
+||stats.wordpress.com^
 ||wordshipopa.club^
 ||tracker.wordstream.com^
 ||woredi.com^
@@ -29686,6 +29863,7 @@ Version: 20210327175231
 ||wp-monero-miner.de^
 ||wp-stats.com^
 ||s1.wp.com^
+||stats.wp.com^
 ||dot.wp.pl^
 ||entryhit.wp.pl^
 ||pixel6.wp.pl^
@@ -29696,6 +29874,7 @@ Version: 20210327175231
 ||wpdstat.com^
 ||wpe.red^
 ||wpfc.ml^
+||stats.wpmucdn.com^
 ||wpncdn.com^
 ||wpnjrm.com^
 ||wpnjs.com^
@@ -29788,8 +29967,10 @@ Version: 20210327175231
 ||wwbn.com^
 ||wwclickserv.club^
 ||wwclicktm.club^
+||stats.wwd.com^
 ||mms.wwe.com^
 ||wwgate.ru^
+||stats.wwitv.com^
 ||wwlolbs.com^
 ||wwrpfevyca.com^
 ||wwry.xyz^
@@ -30002,6 +30183,7 @@ Version: 20210327175231
 ||xiaopinwo.com^
 ||xiaoshuoyun.cn^
 ||xiaoyida.com^
+||xiaozhuvideo.cn^
 ||xiarikui08.com^
 ||bd1.xiby.cn^
 ||data.xici.net^
@@ -30606,6 +30788,7 @@ Version: 20210327175231
 ||yinoo.cn^
 ||yinvmh.com^
 ||yinyuehu.cn^
+||stats.yinyuetai.com^
 ||yinzantouzi.com^
 ||yiopqbbmugak.com^
 ||yipanhaocai.com^
@@ -30766,6 +30949,7 @@ Version: 20210327175231
 ||yourcommonfeed.com^
 ||events.yourcx.io^
 ||yourdatelink.com^
+||stats.yourfone.de^
 ||yourfreshposts.com^
 ||te.yourhome.de^
 ||tp.yourhome.de^
@@ -31265,6 +31449,7 @@ Version: 20210327175231
 ||zlx.com.br^
 ||zm232.com^
 ||creator.zmags.com^
+||stats.zmags.com^
 ||statsd.zmags.com^
 ||zmasxytjskg.com^
 ||zmbuidget.com^
@@ -31334,6 +31519,7 @@ Version: 20210327175231
 ||zop381q5o0q1.com^
 ||zorango.com^
 ||zorwrite.com^
+||stats.zotabox.com^
 ||zougg.com^
 ||zouhewee.com^
 ||zoujuhonglawyer.com^
@@ -31514,7 +31700,6 @@ Version: 20210327175231
 @@||tongji.*kuwo.cn^
 @@||tracking.epicgames.com^
 @@||tracker.eu.org^
-@@||stats.uptimerobot.com^
 @@||track.sendcloud.org^
 @@||log.mmstat.com^
 @@||adm.10jqka.com.cn^
