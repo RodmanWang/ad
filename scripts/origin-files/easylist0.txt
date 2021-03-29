@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: o9Rz9teioSegGl3865OwlA
-! Version: 202103291210
+! Checksum: QSdSyhoMpPKaulwzWzLWOA
+! Version: 202103291810
 ! Title: EasyList
-! Last modified: 29 Mar 2021 12:10 UTC
+! Last modified: 29 Mar 2021 18:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2408,7 +2408,7 @@
 /ads.dll/*
 /ads.entry_
 /ads.gif
-/ads.htm
+/ads.htm$domain=~games.wkb.jp
 /ads.jplayer.
 /ads.json?
 /ads.jsp
@@ -23173,6 +23173,7 @@ _popunder+$popup
 ##.avantgardia-ad-widget
 ##.avert-text
 ##.avertissement-download
+##.azk-adsense
 ##.b-ad
 ##.b-ad-footerBanner
 ##.b-ad-main
@@ -24856,6 +24857,7 @@ _popunder+$popup
 ##.field-59-companion-ad
 ##.field-name-shared-ad-placement-landscape
 ##.field-name-sticky-ads-div
+##.filmad
 ##.finpostsads
 ##.firefly-sidebar-ad
 ##.fireplaceadleft
@@ -25052,6 +25054,7 @@ _popunder+$popup
 ##.full-ad-wrapper
 ##.full-adv
 ##.full-bleed-ad
+##.full-bleed-ad-container
 ##.full-top-ad-area
 ##.full-width-ad
 ##.full-width-ad-container
@@ -31776,6 +31779,7 @@ ripley.cl#@#.dfp-ad-unit
 pccomponentes.com#@#.dfp-banner
 flightcentre.co.uk,out.com#@#.dfp-tag-wrapper
 dn.se#@#.displayAd
+anime-japan.jp#@#.display_ad
 deviantart.com#@#.download_ad
 bestgunsafepro.com#@#.easyazon-block
 economist.com#@#.ec-ads-remove-if-empty
@@ -33988,6 +33992,7 @@ menstennisforums.com#@#.top_ads
 ||circumferencefurfavour.com^
 ||circumscribevetofurther.com^
 ||circumstantialobtrusive.com^
+||circusbreadth.com^
 ||citinnoiddidn.pro^
 ||citizenshadowrequires.com^
 ||citizenshis.com^
@@ -34408,6 +34413,7 @@ menstennisforums.com#@#.top_ads
 ||ctureperform.info^
 ||cubics.com^
 ||cueyetwee.site^
+||cuisineenvoyadvertise.com^
 ||cularbernatio.club^
 ||culreelt.com^
 ||culttolerant.com^
@@ -40204,6 +40210,7 @@ menstennisforums.com#@#.top_ads
 ||seayipsex.com^
 ||sebadu.com^
 ||sebeagnjowtg.com^
+||sebpmnltgd.com^
 ||seclctpsih.com^
 ||seconomic.club^
 ||seconomica.info^
@@ -40726,6 +40733,7 @@ menstennisforums.com#@#.top_ads
 ||sweatrepercussionpatio.com^
 ||sweatywakelack.com^
 ||sweepawejasper.com^
+||sweetheartpartial.com^
 ||sweetnesswarnscreech.com^
 ||swesomepop.com^
 ||swimminghardworkingowners.com^
@@ -46545,6 +46553,7 @@ menstennisforums.com#@#.top_ads
 ||aocular.com^$popup,third-party
 ||apendit.com^$popup,third-party
 ||apesstration.top^$popup
+||apiecelee.com^$popup
 ||approp.pro^$popup,third-party
 ||aquete.com^$popup
 ||ar.voicefive.com^$popup,third-party
@@ -46641,6 +46650,7 @@ menstennisforums.com#@#.top_ads
 ||chauksoa.net^$popup
 ||check-out-this.site^$popup
 ||checkabil.com^$popup
+||circusbreadth.com^$popup
 ||cjl58f3agc.com^$popup
 ||cl96rwprue.com^$popup
 ||cldrck.com^$popup
@@ -54359,6 +54369,7 @@ y100.com##.threecolumn_rightcolumn
 supercompressor.com##.thrillist-ad
 coub.com##.timeline-banner
 aardvark.co.nz##.tinyprint
+last.fm##.tonefuze
 euobserver.com##.top
 artistdirect.com##.top-add
 automotive-fleet.com,businessfleet.com,cfl.ca,dnainfo.com,fleetfinancials.com,government-fleet.com,howsecureismypassword.net,ncaa.com,schoolbusfleet.com##.top-banner
