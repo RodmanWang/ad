@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: E8btZ4ycIMrWbkbuL3aa0Q
-! Version: 202103310021
+! Checksum: PXSn4qajO6C1g6tM2MosqQ
+! Version: 202103310601
 ! Title: EasyPrivacy
-! Last modified: 31 Mar 2021 00:21 UTC
+! Last modified: 31 Mar 2021 06:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -500,6 +500,7 @@
 /AdobeAnalyticsSDK.
 /AdobeCustomVideoMeasurement.swf
 /adobeMonitor.
+/adobevideoheartbeat.
 /adonis_event/*
 /adpixel.
 /adplogger/*
@@ -3428,6 +3429,7 @@
 /pladtrack.
 /planetstat.
 /platform-analytics-
+/plausible.js
 /player_counter.ashx?
 /PlayerDashboardLoggingService.svc/json/StartSession?
 /playerlogger.
@@ -5836,6 +5838,7 @@ _mongo_stats/
 ||g7131036060.co^
 ||g7329120395.co^
 ||g7527204730.co^
+||g7725289065.co^
 ||mors22.com^
 ||nxakpj4ac8gkd53.info^
 ||propeller-tracking.com^
@@ -11858,7 +11861,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||response.pure360.com^
 ||reverbnation.com/widgets/trk/
 ||rhapsody.com^*/pixel?
-||ria.ru/js/counter.js
 ||rich-agent.s3.amazonaws.com^
 ||richrelevance.com/rrserver/tracking?
 ||rlinks.one.in^
@@ -13187,6 +13189,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||xr.shinobi.jp^
 ||yahoo.co.jp/js/retargeting.js
 ! Korean
+||cafe24.com/cfa.js
 ||cafe24.com/weblog.js
 ||log.cizion.com^
 ||log.targetpush.co.kr^
