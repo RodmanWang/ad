@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 82KKsCcs6NbSMxOd9V3czg
-! Version: 202104010030
+! Checksum: Vl0MGzjz6vwxkEXraQWNjQ
+! Version: 202104010600
 ! Title: EasyList
-! Last modified: 01 Apr 2021 00:30 UTC
+! Last modified: 01 Apr 2021 06:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5028,9 +5028,9 @@
 /googleadmanager-
 /googleadpush.
 /googleadright.
-/googleads-$domain=~github.com
-/googleads.$~script,domain=~googleads.github.io
-/googleads/*$domain=~github.com
+/googleads-$domain=~github.com|~github.io
+/googleads.$~script,domain=~github.com|~github.io
+/googleads/*$domain=~github.com|~github.io
 /googleads1.
 /googleads2.
 /googleads3widetext.
@@ -51209,7 +51209,7 @@ menstennisforums.com#@#.top_ads
 ||richardroeper.com/assets/banner/
 ||rpgcodex.net^*/gog_button.jpg
 ||s.radioreference.com/sm/$image
-||s3.reutersmedia.net/resources/r/?f=$image
+||s3.reutersmedia.net/resources/r/?g=$image
 ||saabsunited.com/wp-content/uploads/*banner
 ||sareunited.com/uploaded_images/banners/
 ||sat24.com/bannerdetails.aspx?
