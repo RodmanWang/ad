@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: FNHlfIwh/X4ygikqyge3EA
-! Version: 202104020031
+! Checksum: jzZQLlo2sax+Ac+WWrTPUQ
+! Version: 202104020601
 ! Title: EasyPrivacy
-! Last modified: 02 Apr 2021 00:31 UTC
+! Last modified: 02 Apr 2021 06:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -8487,6 +8487,8 @@ _mongo_stats/
 ||wrating.com^$third-party
 ||wt-eu02.net^$third-party
 ||wt-safetag.com^$third-party
+||wtastats.com^$third-party
+||wtastats.ro^$third-party
 ||wtp101.com^$third-party
 ||wts.one^$third-party
 ||wtstats.com^$third-party
@@ -14337,6 +14339,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gumtree.com.au/?pc=
 ||gurgle.pcmag.com^
 ||h.cliphunter.com^
+||hankookilbo.com/service/kt/trk.js$script,domain=koreatimes.co.kr
 ||hanksgalleries.com/stxt/counter.php?
 ||harryrosen.com/analytics/
 ||harvester.eu.square-enix.com^
