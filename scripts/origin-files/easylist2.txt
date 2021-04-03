@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: cVxhmiHW8p2pa+E3rXoIQA
-! Version: 202104021821
+! Checksum: W5TNEwQ4Jq61XZyOfSKF7g
+! Version: 202104030021
 ! Title: EasyPrivacy
-! Last modified: 02 Apr 2021 18:21 UTC
+! Last modified: 03 Apr 2021 00:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -20636,6 +20636,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 ||dasoertliche.de/wws/
 ||dastelefonbuch.de^*/wws.js
 ||dat.de/inc/count.js
+||dejure.org/cgi-bin/sitzung.fcgi?
 ||dejure.org/cgi-bin/zux2?
 ||derwesten.de/stats/
 ||derwesten.de^*/click.js
