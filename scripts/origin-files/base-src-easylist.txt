@@ -784,7 +784,6 @@
 ||3r1kwxcd.top^$popup
 ||3rdads.com^
 ||3redlightfix.com^
-||3smedia.co.za^*/banner.
 ||3ue2j83u33.monster^
 ||3vlm.com^$third-party
 ||3wdf4.xyz^
@@ -1622,7 +1621,6 @@
 ||a.tvsou.com^
 ||a.typin.cn^
 ||a.ucoz.net^
-||a.vdo.ai^
 ||a.w3techs.com^
 ||a.wanzhuang.com^
 ||a.wifi33.com^
@@ -1745,7 +1743,6 @@
 ||a02342.yeovilexpress.co.uk^
 ||a02342.yourlocalguardian.co.uk^
 ||a03674778d27211eabe260a5fac8573f-298900439.eu-central-1.elb.amazonaws.com^
-||a04296f070c0146f314d-0dcad72565cb350972beb3666a86f246.r50.cf5.rackcdn.com^
 ||a0675c1160de6c6.com^
 ||a06bbd98194c252.com^
 ||a0b11.com^
@@ -1832,7 +1829,6 @@
 ||a6be07586bc4a7.com^
 ||a6f845e6c37b2833148.com^
 ||a6x4effomlxe.com^
-||a7.org^*=$xmlhttprequest
 ||a7shun.com^$third-party
 ||a7t89g4a.cn^
 ||a8.cyclemarket.jp^
@@ -1887,7 +1883,6 @@
 ||aadajnnn133.xyz^
 ||aaddcount.com^$third-party
 ||aaddzz.com^$third-party
-||aadvertismentt.com^$subdocument
 ||aafdcq.com^
 ||aafuck.xyz^$third-party
 ||aagmbroxruno.com^
@@ -2173,10 +2168,9 @@
 ||ad.52av.one^
 ||ad.52av.tv^
 ||ad.about.co.kr^
-||ad.adriver.ru^$domain=firstrownow.eu|kyivpost.com|uatoday.tv|unian.info
 ||ad.aloodo.com^$third-party
-||ad.aquamediadirect.com^$third-party
-||ad.bitbay.net^$third-party
+||ad.aquamediadirect.com^
+||ad.bitbay.net^
 ||ad.bitmedia.io^
 ||ad.bobi.tw^
 ||ad.byfuh.com^
@@ -2186,37 +2180,28 @@
 ||ad.doubleclick.net^$domain=spiegel.de
 ||ad.doubleclick.net^$third-party
 ||ad.edugram.com^
-||ad.flux.com^
-||ad.foxnetworks.com^
 ||ad.gt^$third-party
 ||ad.itweb.co.za^
 ||ad.jamba.net^
 ||ad.kddi-fs.com^
 ||ad.khan.co.kr^
-||ad.linkstorms.com^$third-party
 ||ad.linksynergy.com^$third-party
-||ad.livere.co.kr^
 ||ad.mail.ru^$image
 ||ad.masteranime.es^
-||ad.mesomorphosis.com^
 ||ad.mox.tv^$third-party
 ||ad.muyang888.top^
-||ad.netcommunities.com^$third-party
 ||ad.netmedia.hu^
-||ad.openmultimedia.biz^
 ||ad.outsidehub.com^
-||ad.pickple.net^
 ||ad.qn.img-space.com^
 ||ad.reklamport.com^
 ||ad.search.ch^
-||ad.sensismediasmart.com.au^
-||ad.smartmediarep.com^$third-party
+||ad.smartmediarep.com^
 ||ad.spreaker.com^
 ||ad.style^$third-party
 ||ad.udition.jp^
-||ad.valuecalling.com^$third-party
+||ad.valuecalling.com^
 ||ad.walkgame.com^
-||ad.wsod.com^$third-party
+||ad.wsod.com^
 ||ad.wurangxian.top^
 ||ad.yieldpartners.com^$third-party
 ||ad120m.com^
@@ -2228,6 +2213,7 @@
 ||ad1rtb.com^
 ||ad20.net^$third-party
 ||ad2adnetwork.biz^$third-party
+||ad2links.com^$third-party
 ||ad2up.com^$third-party
 ||ad4980.kr^$third-party
 ||ad4989.co.kr^$third-party
@@ -3279,7 +3265,6 @@
 ||affex.org^$third-party
 ||affifix.com^$third-party
 ||affilae.com^$third-party
-||affilate-img-affasi.s3.amazonaws.com^$third-party
 ||affilate.hh.ru^
 ||affilbox.cz^$third-party
 ||affili.st^$third-party
@@ -3334,7 +3319,6 @@
 ||affiliation.fotovista.com^
 ||affiliation.planethoster.info^$third-party
 ||affiliationcash.com^$third-party
-||affiliationjs.s3.amazonaws.com^
 ||affiliationworld.com^$third-party
 ||affiliationzone.com^$third-party
 ||affiliatly.com^$third-party
@@ -3545,7 +3529,6 @@
 ||airportedede.club^
 ||airpr.com^$third-party
 ||airpush.com^
-||airpushmarketing.s3.amazonaws.com^
 ||airsanguages.info^
 ||airserve.net^$third-party
 ||airstossiplarge.info^
@@ -3815,21 +3798,15 @@
 ||amazon-cornerstone.com^$third-party
 ||amazon.com^*/amazon-clicks/
 ||amazon.com^*/events/$domain=~aws.amazon.com
-||amazon.com^*/getaanad?$third-party
 ||amazon.com^*/token/
 ||amazon.com^*/vap-metrics/
 ||amazonaws.com^$popup,domain=ndtv.com
-||amazonaws.com^$script,subdocument,xmlhttprequest,domain=bittorrent.am|gelbooru.com|hdvid.tv|macupload.net|ndtv.com|ohmanhua.com|onvid.fun|onvid.pw|rawdevart.com|replaytvstreaming.com|streamplay.to|thelibertydaily.com|thevideobee.to|usersfiles.com|vidhd.icu|vshare.eu|yify-movies.net
-||amazonaws.com^$third-party,xmlhttprequest,domain=abcvideo.cc|animeheaven.ru|bdupload.info|bittorrent.am|c123movies.com|downloadpirate.com|hdvid.tv|macupload.net|ocean0fgames.com|onvid.fun|onvid.pw|sadeempc.com|skidrowreloaded.com|thevideobee.to|tsumino.com|vidhd.icu|vshare.eu|wizhdsports.is|yourvideohost.com
+||amazonaws.com^$script,subdocument,xmlhttprequest,domain=ndtv.com|streamplay.to|usersfiles.com|vshare.eu|yify-movies.net
+||amazonaws.com^$third-party,xmlhttprequest,domain=downloadpirate.com|vshare.eu
 ||amazonaws.com^*.kissinsights.com/
 ||amazonaws.com^*.kissmetrics.com/
-||amazonaws.com^*/Amazon/$domain=systemrequirementslab.com
 ||amazonaws.com^*/Test_oPS_Script_Loads?
-||amazonaws.com^*/ads/$image,domain=washingtonmonthly.com
-||amazonaws.com^*/direct/$domain=mycbseguide.com
-||amazonaws.com^*/funders-$domain=globalvoices.org
 ||amazonaws.com^*/pageviews
-||amazonaws.com^*/player_request_*/get_affiliate_
 ||amazonaws.com^*/pzyche.js
 ||amazonaws.com^*/track.js$domain=hitfix.com
 ||amazonaws.com^*/vis_opt.js
@@ -4549,6 +4526,7 @@
 ||asdnn1331.xyz^
 ||asdpoi.com^
 ||aseadnet.com^$third-party
+||asenytuhlhwrwz.com^
 ||asepurch.pro^$third-party
 ||aserve.directorym.com^
 ||asewlfjqwlflkew.com^
@@ -5908,7 +5886,6 @@
 ||bladswetis.com^
 ||blaghfpd.com^$third-party
 ||blaick.com^$third-party
-||blamads-assets.s3.amazonaws.com^
 ||blamads.com^$third-party
 ||blanketmemorize.com^
 ||blanketurban.com^
@@ -5959,7 +5936,6 @@
 ||blogranking.net^$third-party
 ||blogreaderproject.com^$third-party
 ||blogscounter.com^$third-party
-||blogsmithmedia.com^*/amazon_
 ||blogsontop.com^$third-party
 ||blogspot.com^*/300X250%2B%25281%2529.gif$domain=streamxxx.tv
 ||blogspot.com^*/Screenshot_383.png$domain=streamxxx.tv
@@ -6037,7 +6013,6 @@
 ||bntech.io^$third-party
 ||bntxt.com^
 ||bnuni.com^$third-party
-||bo-videos.s3.amazonaws.com^$third-party
 ||boafabie.com^
 ||boago.com^*_Takeover_
 ||boahwswzuebmmg.com^
@@ -7624,7 +7599,7 @@
 ||cloudflare.solutions^
 ||cloudflareinsights.com^$third-party
 ||cloudfront-labs.amazonaws.com^
-||cloudfront.net^$image,script,subdocument,xmlhttprequest,domain=171gifs.com|300mbfilms.org|4archive.org|69sugar.com|adbull.me|addic7ed.com|adultdouga.biz|agarios.org|amabitch.com|ancensored.com|andrija-i-andjelka.com|animeado.net|animeheaven.ru|animezone.pl|antenasport.eu|anyanime.com|arabp2p.com|archived.moe|asianxv.com|avpockiehd.com|azkempire.com|aznude.com|balkandownload.org|balkanje.com|bdupload.info|beelink.in|beforeitsnews.com|biology-online.org|bittorrent.am|blackboxrepack.com|blogqpot.com|brazzershd.co|c123movies.com|camwhores.co|capodeportes.net|cartoonth12.com|chronos.to|cloudyfiles.co|columbia-xxx.com|comedy.com|coroas40.com|crackingpatching.com|croco.site|dailyuploads.net|dblatino.com|dbzsuper.tv|desixnxx.net|devil-torrents.pl|discografiascompletas.net|downloadgameps3.com|downloadgamepsp.com|downloadming.io|drhmonegyi.net|ekasiwap.com|electro-torrent.pl|embedsr.to|erodouga69.com|erostar.jp|estrenosdoramas.net|etsmods.net|extremetech.com|extremotvplay.com|filmclub.tv|filmeserialeonline.org|filmesonlineplay.com|filmi7.com|flyordie.com|freeiptvlinks.net|freelivesports.co|frendz4m.com|fulldowngames.biz|fxporn.net|g17.com|gameofporn.net|gamepciso.com|garotosbrasil.com|gaycock4u.com|gaysex69.net|geekzone.co.nz|gelbooru.com|girlswithmuscle.com|goodvideohost.com|gravuregirlz.com|grcrt.net|hacknetfl1x.net|happy-foxie.com|hdarkzone.com|hdtube.co|hdvid.tv|hentai-id.tv|hentaiplay.net|hentaiplus.co|her69.net|hindimoviesonlines.net|hiper.cool|homeporn.tv|hon3yhd.com|hyperdebrid.net|igg-games.com|imgsmile.com|incestoporno.org|jav-for.me|javeu.com|javgay.com|javhd.pro|javkimochiii.com|javleak.com|javmobile.net|javmost.com|javonline.online|javrom.com|jazztv.co|jdownloader2premium.com|jizzman.com|jogostorrentgratis.net|jpfiles.eu|jpidols.tv|k18.co|kissanime.digital|kreskowkazone.pl|kreskowki.tv|lambingan.su|lecheanal.com|leech.ae|leosims.com|linksprotection.com|linx.cloud|livesoccertv.live|loonertube.com|macnwins.com|mactorrents.org|macupload.net|mangacanblog.com|maniacosporcomics.com|media1fire.com|megafilmeshdplus.org|meguminime.com|metaserie.com|milversite.me|minatosuki.com|minhaserie.me|mitemovie.com|mixdrop.to|mixhdporn.com|mkvtv.net|mmfilmes.com|mocnoi.com|movieshdgratis.com.mx|multiup.org|musculoduro.com.br|muvibg.com|mzansifun.com|mzansixxx.com|neko-miku.com|nekonime.com|nitroflare.com|ocean0fgames.com|ohmanhua.com|ohohd.com|ohyeah1080.com|omberbagi.com|omghype.com|ondeeubaixo.com|onvid.fun|onvid.pw|ouo.io|peliculasm.tv|peliculasmega1k.com|pelisxporno.com|phimotv.net|picanteeproibido.com.br|piratebay.co.in|pirateiro.com|pornfromcz.com|pornfromczech.com|pornlibrary.net|pornobae.com|pornocomics.net|pornvxl.com|programasvirtualespc.net|r34anim.com|rawdevart.com|reallifecamvd.com|reevown.com|rosextube.com|sadeempc.com|savvystreams.blogspot.com|scambiofile.info|seriescr.com|serieslatino.tv|seriesparaassistironline.org|sexix.net|sexloading.com|sexy-youtubers.com|sexyeroticgirls.com|shofonline.org|skidrowreloaded.com|sparknotes.com|srfiles.com|stadium-live.biz|streamingok.com|streamlord.com|streamp1ay.cc|streamplay.to|suki48.web.id|sweext.com|taxidrivermovie.com|temp-mail.org|theapricity.com|thebarchive.com|thelibertydaily.com|thepiratebay.org|thevideobee.to|torlock.com|torrentlocura.com|tousatu.biz|tsumino.com|tubeoffline.com|tuhentaionline.com|ufreetv.com|uplovd.com|usersfiles.com|v100v.net|verpeliculasporno.gratis|vertusnovelas.net|viddoto.com|video.az|videosnudes.com|vidhd.icu|vldtodo.com|vshare.eu|watchjavidol.com|webfirstrow.eu|xmovies1.com|xrares.com|xteenchan.com|xxgasm.com|yeucontrai.com|youpornzz.com|yourbittorrent.com|yourvideohost.com|zfilmeonline.eu|zw-net.com
+||cloudfront.net^$image,script,subdocument,xmlhttprequest,domain=300mbfilms.org|4archive.org|amabitch.com|comedy.com|coroas40.com|devil-torrents.pl|embedsr.to|mixdrop.to|multiup.org|omghype.com|pirateiro.com|streamp1ay.cc|streamplay.to|thepiratebay.org|usersfiles.com|video.az|vshare.eu|xrares.com
 ||cloudfront.net^$popup,domain=thepiratebay.org
 ||cloudfront.net^$script,domain=footballleagueworld.co.uk|footballtransfertavern.com|thisisfutbol.com|videocelts.com|vrv.co
 ||cloudfront.net^$script,domain=gentside.com
@@ -8651,6 +8626,7 @@
 ||cuoss.com^
 ||cupid.socialblade.com^
 ||cupidonmedia.com^
+||cupmidnithe.com^
 ||curalate.com^$third-party
 ||curated.fieldtest.cc^
 ||curedonswab.com^
@@ -8830,8 +8806,6 @@
 ||d1f1eryiqyjs0r.cloudfront.net^*/track.
 ||d1fs2ef81chg3.cloudfront.net^
 ||d1gp8joe0evc8s.cloudfront.net^
-||d1h28ftrn3kbj4.cloudfront.net^*/UnitSense.js
-||d1h28ftrn3kbj4.cloudfront.net^*/sticky-promo.js
 ||d1hi41nc56pmug.cloudfront.net^
 ||d1iazwv1n1tsyi.cloudfront.net^
 ||d1igp3oop3iho5.cloudfront.net^
@@ -9862,6 +9836,7 @@
 ||diseasonal.club^
 ||diseasons.club^
 ||disembarkappendix.com^
+||disgustingvoluntarilykiss.com^
 ||disinterestedreflectionmuscle.com^
 ||dislanelibrar.top^
 ||disloquerent.website^
@@ -11313,7 +11288,6 @@
 ||epochokaypeerless.com^
 ||eporner.com^$subdocument,~third-party
 ||eportantin.club^
-||epowernetworktrackerimages.s3.amazonaws.com^
 ||epresententifi.info^
 ||epro.sogou.com^
 ||eproof.com^$third-party
@@ -11401,6 +11375,7 @@
 ||erutinmo.snagajob.com^
 ||erutinmos.snagajob.com^
 ||erversarycompa.info^
+||ervicoren.online^
 ||es.puritan.com^
 ||es.sharpmarketing.eu^
 ||es54i9g7p7xh.com^
@@ -13087,7 +13062,6 @@
 ||gateway-banner.eravage.com^
 ||gateway.foresee.com^
 ||gateway.fortunelounge.com^
-||gateways.s3.amazonaws.com^
 ||gatorleads.co.uk^$third-party
 ||gaudiessept.space^
 ||gaug.es^$third-party
@@ -13347,7 +13321,6 @@
 ||gez.io^$third-party
 ||gezaehlt.de^$third-party
 ||gf108.com^
-||gfaf-banners.s3.amazonaws.com^
 ||gfbrfqfwwis.com^
 ||gfcowlrmdt.com^
 ||gfd80.com^
@@ -13563,6 +13536,7 @@
 ||gluokdhafryxtw.com^
 ||gluwhoas.com^
 ||glxmnews.pro^
+||glxtest.site^
 ||glzsji.nordman.ru^
 ||gm-it.consulting^$third-party
 ||gm682.com^
@@ -13573,8 +13547,7 @@
 ||gmodmp.jp^$third-party
 ||gmonitor.aliimg.com^
 ||gmossp-sp.jp^$third-party
-||gmstatic.net^*/amazonbadge.png
-||gmstatic.net^*/itunesbadge.png
+||gmpmuqniggyz.com^
 ||gmufag.74.ru^
 ||gmufag.e1.ru^
 ||gmufag.elle.ru^
@@ -14553,6 +14526,7 @@
 ||hingenerall.club^
 ||hinksdeba.top^
 ||hinkslovel.top^
+||hionedaugsbu.info^
 ||hiouschron.club^
 ||hipals.com^$third-party
 ||hiperdex.ml^
@@ -15222,8 +15196,6 @@
 ||ic-live.com^$third-party
 ||ic86doc.com^
 ||icast.cn^$third-party
-||icastcenter.com^*/amazon-buyfrom.gif
-||icastcenter.com^*/itunes.jpg
 ||iccompanzens.fun^
 ||icdirect.com^$third-party
 ||iceban.su^$third-party
@@ -15424,7 +15396,6 @@
 ||imagenpic.com^$script,~third-party
 ||imagenpic.com^$~third-party,xmlhttprequest
 ||images-amazon.com/images^*/analytics/$third-party
-||images-amazon.com^$domain=cloudfront.net
 ||images-amazon.com^*/1x1_trans.gif
 ||images-amazon.com^*/Analytics-
 ||images-amazon.com^*/AnalyticsReporter-
@@ -15798,6 +15769,7 @@
 ||inrd.ru^$third-party
 ||insanestudiedrick.com^
 ||insectadvertisesecretly.com^
+||insectdatabasesignificantly.com^
 ||inside-channels.ch^*/ping/
 ||inside-graph.com^$third-party
 ||inside-it.ch^*/ping/
@@ -16142,6 +16114,7 @@
 ||itempana.site^$third-party
 ||ithinkthereforeiam.net^$third-party
 ||itinerarymonarchy.com^
+||itineraryupper.com^
 ||itllnww6x277.com^
 ||itmcash.com^$third-party
 ||itmsc.cn^*ad0
@@ -16942,7 +16915,6 @@
 ||kbifqgyugzo.com^
 ||kbirdsind.top^
 ||kbn.korben.info^
-||kbnetworkz.s3.amazonaws.com^
 ||kbqebfcubeiaa.com^
 ||kbstyn.com^
 ||kbugxeslbjc8.com^
@@ -17536,6 +17508,7 @@
 ||layouttransparent.com^
 ||layshyjar.com^
 ||lazy8krti.com^
+||lbaetmvw.com^
 ||lbgchljyhjmev.com^
 ||lbnwrunyfupe.com^
 ||lc442.com^
@@ -17586,7 +17559,6 @@
 ||leadboxer.com^$third-party
 ||leadchampion.com^$third-party
 ||leadcola.com^$third-party
-||leaddyno-client-images.s3.amazonaws.com^
 ||leaddyno.com^$third-party
 ||leadelephant.com^$third-party
 ||leaderdownload.com^$popup,domain=fiberupload.net
@@ -17678,6 +17650,7 @@
 ||lenkmio.com^
 ||lenmit.com^$third-party
 ||lentainform.com^$third-party
+||lentduskyscold.com^
 ||leo1.leon-de-bruxelles.fr^
 ||leokross.com^$third-party
 ||leoneaningtoldre.pro^$third-party
@@ -19801,6 +19774,7 @@
 ||milasktic.com^
 ||mile0tire.com^
 ||mileporn.com^$third-party
+||milestonetelephone.com^
 ||milk.yesky.com.cn^
 ||milkygoodness.xyz^
 ||milkytarcub.com^
@@ -20731,6 +20705,7 @@
 ||navilytics.com^$third-party
 ||navrcholu.cz^$third-party
 ||navy9gear.com^
+||nawdwtocxqru.com^
 ||nawpush.com^
 ||naxrjxij.com^
 ||naytev.com^$third-party
@@ -20819,6 +20794,7 @@
 ||neesupee.com^
 ||neevateb.com^
 ||neewoapi.com^
+||nefczemmdcqi.com^
 ||negolist.com^
 ||negyuk.com^
 ||nehersheteen.pro^$third-party
@@ -20959,7 +20935,6 @@
 ||news-leader.com^*/analytics.js
 ||news-mars.com^
 ||news-venere.com^
-||news-whistleout.s3.amazonaws.com^$third-party
 ||news.bpost.be^
 ||news.cmatcherlink.com^
 ||news.co.uk^*/propensities?
@@ -22199,6 +22174,7 @@
 ||oqrjbnriumr.com^
 ||oqxyzvkwso.com^
 ||oracleinfinity.io^$third-party
+||oranegfodnd.com^
 ||orangeads.fr^$third-party
 ||oranges88.com^$third-party
 ||orarala.com^$third-party
@@ -22331,7 +22307,6 @@
 ||ountapaveralle.info^
 ||ountringch.club^
 ||ountryvener.club^
-||ouo.io^$script,third-party
 ||oupaumul.net^
 ||ouphowor.com^
 ||oupushee.com^
@@ -23792,7 +23767,6 @@
 ||processaryen.site^
 ||processor.asccommunications.com^
 ||proclivitysystems.com^$third-party
-||prod-skybet.s3.amazonaws.com^$domain=skysports.com
 ||prod.demand.intelsecurity.com^
 ||prod.untd.com^$third-party
 ||proditor.sparda.de^
@@ -23928,6 +23902,7 @@
 ||proveexclusionaye.com^
 ||provembe.club^
 ||provenpixel.com^$third-party
+||provers.pro^
 ||provesrc.com^$third-party
 ||providence.voxmedia.com^$third-party
 ||provider-direct.com^$third-party
@@ -23998,6 +23973,7 @@
 ||psuphuns.net^
 ||psurdoak.com^
 ||psvgnczo.com^
+||psxxbhheqxoy.com^
 ||psychologicaltotalnumeric.com^
 ||psylefywha.pro^
 ||pt-trx.com^$third-party
@@ -24686,6 +24662,7 @@
 ||qysyyg.com^
 ||qyttl.cn^
 ||qytyf.com^
+||qyvpgddwqynp.com^
 ||qyxwfe.com^
 ||qza7iorexyrp.com^
 ||qzbxfs.com^
@@ -25223,6 +25200,7 @@
 ||represiderp.top^
 ||reproachoctavian.com^
 ||reprocautious.com^$third-party
+||reprohibasse.xyz^
 ||repruggob.com^
 ||repstatic.it^*/nielsen_static_mapping_repubblica_
 ||republer.com^$third-party
@@ -25874,6 +25852,7 @@
 ||rwogij.dimehouse.fr^
 ||rwpads.com^$third-party
 ||rwrqmqyhfn.com^
+||rwxzeoqfj.com^
 ||rwyprejibmvcfh.com^
 ||rx616.cn^
 ||rxconkz.cn^
@@ -26430,7 +26409,6 @@
 ||secretbehindporn.com^$third-party
 ||secretexts.club^
 ||secretmedia.com^$third-party
-||secretmedia.s3.amazonaws.com^
 ||secretturtle.com^$third-party
 ||secure-12.com^
 ||secure-softwaremanager.com^$third-party
@@ -27268,7 +27246,6 @@
 ||smashnewtab.com^$third-party
 ||smashseek.com^
 ||smashsurprise.com^$third-party
-||smblock.s3.amazonaws.com^
 ||smct.co^$third-party
 ||smenqskfmpfxnb.bid^
 ||smetc.banfield.com^
@@ -27983,6 +27960,7 @@
 ||sociomantic.com^$third-party
 ||socital.com^*/socital.js
 ||socket.streamable.com^
+||socketboredomdigital.com^
 ||socketviking.net^$third-party
 ||socsi.in^$third-party
 ||sodhef.com^
@@ -29340,7 +29318,6 @@
 ||strictlyglobe.com^
 ||striesastanov.site^
 ||strikead.com^$third-party
-||strikeadcdn.s3.amazonaws.com^$third-party
 ||strikersucces.site^
 ||stringroadway.com^
 ||stripchat.com^*/widget/$third-party
@@ -29363,7 +29340,6 @@
 ||stsunfulnoth.top^
 ||stsywl.com^
 ||studyisland.com^*/ga.js
-||stuff-nzwhistleout.s3.amazonaws.com^
 ||stuff.co.nz^*/track.min.js
 ||stuffedprofessional.com^
 ||stumbledabetsuburb.com^
@@ -29389,6 +29365,7 @@
 ||sublimemedia.net^$third-party
 ||subliminalmp3s.com^*/banners/
 ||submarinebarbecueemigrant.com^
+||submarineundergonedebark.com^
 ||submissing.com^$third-party
 ||submitexpress.co.uk^$third-party
 ||submitnet.net^$third-party
@@ -29537,6 +29514,7 @@
 ||sushipool.com^$third-party
 ||susistorsde.club^
 ||susm0q6jys.com^$popup
+||suspensionpanthergalaxy.com^
 ||sut.dailyfx.com.hk^
 ||sut.dailyfx.com^
 ||suthome.com^$third-party
@@ -32573,6 +32551,7 @@
 ||usingde.com^$third-party
 ||usivbt.qoo10.com^
 ||usjguyybhhtjos.com^
+||uslioert.com^
 ||usounoul.com^
 ||usrkrz.zdravcity.ru^
 ||usswrite.com^$third-party
@@ -33084,6 +33063,7 @@
 ||vivi87.cn^
 ||vividcash.com^$third-party
 ||vividdefinedspiral.com^
+||vividlobster.com^
 ||vivistats.com^$third-party
 ||vivocha.com^$third-party
 ||vixnixxer.com^
@@ -33295,6 +33275,7 @@
 ||vyhezucha.pro^
 ||vyule.com^
 ||vyyikx.sixt.ch^
+||vzbbzzasjtn.com^
 ||vzcfqp.unibet.fr^
 ||vzcljugmtuno.com^
 ||vzeyba.shopee.co.id^
@@ -33841,7 +33822,6 @@
 ||whichtalk.com^$third-party
 ||whimsoplynx.com^
 ||whispercustom.com^
-||whistleout.s3.amazonaws.com^
 ||whistlingenrapturereprint.com^
 ||whiteboardnez.com^
 ||whiteclick.biz^$third-party
@@ -33940,7 +33920,9 @@
 ||wildxtraffic.com^$third-party
 ||wildxxxparties.com^$third-party
 ||wilfulpessimistic.com^
+||willingplatitude.com^
 ||willioninterpr.club^
+||willowdrainsuspend.com^
 ||willowmutilatebanking.com^
 ||wimsocou.com^
 ||win-alerts.pro^$popup
@@ -34032,6 +34014,7 @@
 ||wlshotel.cn^
 ||wlw.de^*/tracking/
 ||wlzdghlzjewbwv.com^
+||wlzohrpjbuq.com^
 ||wm-abms.com^
 ||wm.mipcdn.com^
 ||wm.szdushi.com.cn^
@@ -34712,6 +34695,7 @@
 ||xpwwqbkezdr.com^
 ||xpx7heciz9.com^
 ||xpxvok.cn^
+||xpywzbxjwbxafv.com^
 ||xpzdvubwncvi.com^
 ||xq0wju848zr.ga^
 ||xq12.com^$third-party
@@ -35817,6 +35801,7 @@
 ||zopqks.kavehome.com^
 ||zorango.com^
 ||zorwrite.com^
+||zosuptosta.pro^
 ||zougg.com^
 ||zouhewee.com^
 ||zoujuhonglawyer.com^
