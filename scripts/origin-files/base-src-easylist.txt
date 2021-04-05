@@ -2180,6 +2180,7 @@
 ||ad.doubleclick.net^$domain=spiegel.de
 ||ad.doubleclick.net^$third-party
 ||ad.edugram.com^
+||ad.fx168api.com^
 ||ad.gt^$third-party
 ||ad.itweb.co.za^
 ||ad.jamba.net^
@@ -2394,7 +2395,7 @@
 ||adextrem.com^$popup
 ||adextrem.com^$third-party
 ||adf.dahe.cn^
-||adf.ly^$popup,domain=urgrove.com
+||adf.ly^$script,third-party,domain=~j.gs|~q.gs
 ||adf01.net^$third-party
 ||adfangxiang.com^
 ||adfclick1.com^$popup,third-party
@@ -2786,6 +2787,7 @@
 ||ads.sportradar.com^
 ||ads.tremorhub.com^
 ||ads.uc.cn^
+||ads.yahoo.com^
 ||ads01.com^$third-party
 ||ads1-adnow.com^$third-party
 ||ads2-adnow.com^$third-party
@@ -3420,6 +3422,7 @@
 ||ahd.ruten.com.tw^
 ||aheadday.com^$third-party
 ||aheadmachine.com^$third-party
+||ahedsply.com^
 ||ahelessenge.club^
 ||ahhrtt.bnext.com.tw^
 ||ahhrtt.managertoday.com.tw^
@@ -3498,7 +3501,6 @@
 ||aintyjarde.top^
 ||ainupheader.club^
 ||aionfavoura.club^
-||aiosearch.com^$popup,domain=torrent-finder.info
 ||aiphotogram.club^
 ||aipmedia.com^$third-party
 ||aipofeem.net^
@@ -3779,7 +3781,6 @@
 ||amazon.com^*/events/$domain=~aws.amazon.com
 ||amazon.com^*/token/
 ||amazon.com^*/vap-metrics/
-||amazonaws.com^$popup,domain=ndtv.com
 ||amazonaws.com^$script,subdocument,xmlhttprequest,domain=ndtv.com|streamplay.to|usersfiles.com|vshare.eu|yify-movies.net
 ||amazonaws.com^$third-party,xmlhttprequest,domain=downloadpirate.com|vshare.eu
 ||amazonaws.com^*.kissinsights.com/
@@ -4736,6 +4737,7 @@
 ||aurdeert.net^
 ||aurdosti.com^
 ||aurjueeh.com^
+||aurtooks.com^
 ||auspicealibis.com^
 ||auspiciousvp.com^
 ||auspipe.com^$third-party
@@ -5174,6 +5176,7 @@
 ||barefootedenvy.com^
 ||barefoottearworthy.com^
 ||baremetrics.com^$third-party
+||baresi.xyz^
 ||barfsmiaowpit.com^
 ||bargainingpeacock.com^
 ||bargainingrip.com^
@@ -6894,6 +6897,7 @@
 ||cdnads.com^
 ||cdnanalytics.xyz^$third-party
 ||cdnapi.net^
+||cdnaqw.com^
 ||cdnasjdkajgfhgajfjkagfa.pro^
 ||cdnativ.com^
 ||cdnativepush.com^
@@ -7131,6 +7135,7 @@
 ||cherriesobituary.com^
 ||chersoat.com^
 ||ches5sort.com^
+||chestors.com^
 ||chexiw.com^
 ||chgdf.cn^
 ||chgilks.com^
@@ -7579,7 +7584,6 @@
 ||cloudflareinsights.com^$third-party
 ||cloudfront-labs.amazonaws.com^
 ||cloudfront.net^$image,script,subdocument,xmlhttprequest,domain=300mbfilms.org|4archive.org|amabitch.com|comedy.com|coroas40.com|devil-torrents.pl|embedsr.to|mixdrop.to|multiup.org|omghype.com|pirateiro.com|streamp1ay.cc|streamplay.to|thepiratebay.org|usersfiles.com|video.az|vshare.eu|xrares.com
-||cloudfront.net^$popup,domain=thepiratebay.org
 ||cloudfront.net^$script,domain=gentside.com
 ||cloudfront.net^$script,domain=phonearena.com
 ||cloudfront.net^*.bmp?
@@ -10401,6 +10405,7 @@
 ||dwtroouhdh.com^
 ||dxcssc.cn^
 ||dxe2.heip.fr^
+||dxgo95ahe73e8.cloudfront.net^
 ||dxjpqe.usereserva.com^
 ||dxkkb5tytkivf.cloudfront.net^
 ||dxpmedia.com^$third-party
@@ -10608,6 +10613,7 @@
 ||earchcreastil.top^
 ||eardepth-prisists.com^
 ||eardewova.com^
+||earliestinspectprone.com^
 ||earlinggea.info^
 ||early-birds.fr^$third-party
 ||early-birds.io^$third-party
@@ -10713,6 +10719,7 @@
 ||echineselearning.com^*/banner.jpg
 ||echoazou.com^
 ||echomilly.com^
+||echuanglm1.com^
 ||eclampsialemontree.net^$third-party
 ||eclick.baidu.com^
 ||eclick.vn^$third-party
@@ -10849,6 +10856,7 @@
 ||eergaroa.com^
 ||eergithi.com^
 ||eergurty.net^
+||eetaubuy.net^
 ||eetseemp.net^
 ||eetyed.com^
 ||eeveniccoll.club^
@@ -11815,6 +11823,7 @@
 ||f8272.com^$third-party
 ||f8316b45436f.com^
 ||f853150605ccb.com^
+||f87b88d3649456.com^
 ||f92j5.com^$third-party
 ||fabolele.com^$popup
 ||fabricww.com^$third-party
@@ -12192,7 +12201,6 @@
 ||filitrac.com^$third-party
 ||filmaster.tv^*/flm.tracker.min.js
 ||filmoljupci.com^
-||filmon.com^*&adn=$popup
 ||filthslowlycoolly.com^
 ||fimg-resp.seznam.cz^
 ||fimpromote.club^
@@ -12208,7 +12216,6 @@
 ||findbetterresults.com^$popup
 ||findepended.com^
 ||finderlocator.com^$third-party
-||findgrid.com^$popup,domain=amaderforum.com
 ||findicaterperty.site^
 ||findlnk.com^
 ||findlnk.com^$popup
@@ -13631,6 +13638,7 @@
 ||gomain.pro^$third-party
 ||gomnlt.com^$third-party
 ||gomo.cc^$popup
+||gompoozu.net^
 ||gondolagnome.com^$third-party
 ||goneviral.com^$third-party
 ||gonextpage.ru^
@@ -13639,7 +13647,6 @@
 ||gongfanglong.cn^
 ||gongxifacai21.top^
 ||goo.gl^$image,domain=cracksfiles.com|indishare.org
-||goo.gl^$popup,domain=amaderforum.com|dexerto.com
 ||goo.gl^$popup,domain=thisav.com
 ||goo.gl^$script,domain=transphoto.ru
 ||goo.gl^$subdocument,domain=backin.net
@@ -13756,6 +13763,7 @@
 ||gr8y7z1xaq30.com^
 ||grabmyads.com^$third-party
 ||grabo.bg^$third-party
+||graceofnoon.com^
 ||graciamediaweb.com^$third-party
 ||graduateavenue.com^
 ||graduationtapingicicle.com^
@@ -15004,6 +15012,7 @@
 ||huovernment.club^
 ||hupsouft.net^$third-party
 ||hupu.com^*/stream.js
+||hurawatch.com^$popup,domain=gogoanime.pro
 ||hurchasisounci.site^
 ||hurdleyreer.info^$third-party
 ||hurom365.cn^
@@ -15451,7 +15460,6 @@
 ||imglt.com^$third-party
 ||imgpak.xyz^
 ||imgpop.googlecode.com^$third-party
-||imgrock.net^$popup,~third-party
 ||imgs.cc^$domain=fun1shot.com
 ||imgshare.info^$image,domain=indishare.org
 ||imgskull.com^$xmlhttprequest
@@ -16855,7 +16863,6 @@
 ||kakam.info^
 ||kakayy.com^$third-party
 ||kakyomloctqiu.com^
-||kalemaro.com^$popup,domain=filatak.com
 ||kalespurhoes.com^
 ||kallout.com^*.php?id=
 ||kalmloda.com^
@@ -17544,7 +17551,6 @@
 ||leadcola.com^$third-party
 ||leaddyno.com^$third-party
 ||leadelephant.com^$third-party
-||leaderdownload.com^$popup,domain=fiberupload.net
 ||leaderhistliness.info^
 ||leaderpub.fr^$third-party
 ||leadfeeder.com^$third-party
@@ -17816,7 +17822,6 @@
 ||link.subscribe.ru^
 ||link2.strawberrynet.com^$image
 ||link5view.com^
-||linkbucks.com^*/?*=$popup
 ||linkbuddies.com^$third-party
 ||linkclicks.com^$third-party
 ||linkconnector.com^$third-party
@@ -18362,6 +18367,7 @@
 ||luoyuanedu.cn^
 ||lupoot.com^
 ||luqafzbdscd.com^
+||lureunsuccessful.com^
 ||lushcrush.com^$third-party
 ||lusrg.cn^
 ||lustmanicureput.com^
@@ -19801,7 +19807,6 @@
 ||mininghub.club^$third-party
 ||ministedik.info^
 ||ministsentr.club^
-||miniurls.co^*?ref=$popup
 ||miniusa.com^*/trackDeeplink.gif?
 ||miniye.xjts.cn^
 ||minkatu.com^$third-party
@@ -20182,6 +20187,7 @@
 ||mosslagoonbookcase.com^
 ||mosso.com^*/banners/
 ||mossyitalian.com^
+||mostaboutm.biz^
 ||mostviewed.xyz^
 ||motheregarded.info^
 ||motherehoom.pro^
@@ -20493,7 +20499,6 @@
 ||mycounter.com.ua^$third-party
 ||mycounter.ua^$third-party
 ||mydirtyhobby.com^$third-party,domain=~my-dirty-hobby.com|~mydirtyhobby.de
-||mydirtyhobby.de^$popup,domain=flashx.tv
 ||mydownba.com^
 ||mydrivers.com^*/hb/m_tm
 ||mydrivers.com^*/kkj_db_
@@ -21230,7 +21235,7 @@
 ||nord-raum.com^$third-party
 ||nordicresearch.com^$third-party
 ||nordvpn.com^$popup,domain=browserleaks.com
-||nordvpn.net^$popup,domain=browserleaks.com|thekat.li
+||nordvpn.net^$popup,domain=browserleaks.com
 ||norentisol.com^$third-party
 ||noretia.com^$third-party
 ||norm0care.com^
@@ -21656,7 +21661,6 @@
 ||oevqxivhquovq.com^
 ||oewabox.at^$third-party
 ||oeya.com^$domain=myptt.cc
-||of.downpit.com^$popup
 ||ofapes.com^$third-party
 ||ofbapmmo.com^
 ||ofdittor.com^
@@ -22304,6 +22308,7 @@
 ||oushenoo.net^
 ||ouslayer.co^$third-party
 ||ouslyrappre.club^
+||ousseghu.net^
 ||ousseventi.info^
 ||oustoope.com^
 ||outal.origo.hu^
@@ -22586,7 +22591,6 @@
 ||paripartners.ru^
 ||paripartners.ru^$popup
 ||parisianmacao.bet^
-||park.above.com^$popup
 ||parkingcrew.net^$third-party
 ||parkingpremium.com^$third-party
 ||parklogic.com^$third-party
@@ -24202,7 +24206,6 @@
 ||putags.com^$third-party
 ||putanapartners.com^$third-party
 ||putfeepea.site^
-||putlockers.fm^$popup,~third-party
 ||putrr12.com^
 ||putrr14.com^
 ||putrr14.com^$popup
@@ -24896,6 +24899,7 @@
 ||reactioncommerce.actonservice.com^
 ||reactx.com^$third-party
 ||readertracking.com^$third-party
+||readiong.net^
 ||readly-renterval.icu^
 ||readnotify.com^$third-party
 ||readpeak.com^$third-party
@@ -26729,7 +26733,6 @@
 ||share.dmhy.org^*.*?$image
 ||share.gzdsw.com^
 ||shareaholic.com^*/bake.gif?
-||shareasale.com^$popup,domain=9to5mac.com
 ||shareasale.com^$third-party
 ||sharecash.org^$popup,third-party
 ||sharecash.org^$third-party
@@ -27958,7 +27961,6 @@
 ||soflopxl.com^$third-party
 ||soft-com.biz^$third-party
 ||soft4dle.com^$third-party
-||softexter.com^$popup,domain=2drive.net
 ||softonic-analytics.net^$third-party
 ||softonicads.com^$third-party
 ||softpopads.com^$third-party
@@ -28323,7 +28325,7 @@
 ||spellresolute.com^
 ||spellsalsa.com^$third-party
 ||spencedsd.club^
-||spendcrazy.net^$popup,third-party,domain=animegalaxy.net|animenova.tv|animetoon.tv|animewow.eu|gogoanime.com|goodanime.eu|gooddrama.net|toonget.com
+||spendcrazy.net^$popup
 ||spendeivivar.site^
 ||sperans-beactor.com^
 ||sperans-beactor.com^$popup
@@ -28365,6 +28367,7 @@
 ||sponsoredtweets.com^$third-party
 ||sponsormob.com^$third-party
 ||sponsorpay.com^$third-party
+||sponsorselect.com^$popup
 ||sponsorselect.com^$third-party
 ||spontaneousguarded.com^
 ||spontaneousshady.com^
@@ -29859,7 +29862,6 @@
 ||tablesper.top^
 ||tabookbusines.info^
 ||taboola.com^$domain=independent.co.uk|scoopwhoop.com|technobuffalo.com
-||taboola.com^$popup,domain=ndtv.com|scoopwhoop.com
 ||taboola.com^*/log/
 ||taboola.com^*/notify-impression?$third-party
 ||taboolasyndication.com^*/log/
@@ -30223,6 +30225,7 @@
 ||teracreative.com^$third-party
 ||teraes.hgreg.com^
 ||teralog.techhub.co.kr^
+||teratedent.fun^
 ||tercept.com^$third-party
 ||terdaywe.top^
 ||terephtalate.xyz^
@@ -30555,7 +30558,6 @@
 ||titag.com^$third-party
 ||titanads1.com^
 ||titanads5.com^
-||titanbrowser.com^$popup,domain=amaderforum.com
 ||tithewtog.com^
 ||titoaktop.com^
 ||titorsbutaning.info^$third-party
@@ -32434,7 +32436,6 @@
 ||uptracs.com^$third-party
 ||uptrendsdata.com^$third-party
 ||upush.co^
-||upvid.co^*.html|$popup,domain=upvid.co
 ||upwwwuon.com^
 ||upwzuqfcvbeqo.com^
 ||upz1.destinia.lt^
@@ -32652,6 +32653,7 @@
 ||v11media.com^$third-party
 ||v12group.com^$third-party
 ||v1pweb.rocks^
+||v1sts.me^$third-party
 ||v2cigs.com^$third-party
 ||v3cdn.net^$third-party
 ||v3qdrfxuyzwb.com^
@@ -33419,7 +33421,6 @@
 ||watchmouse.com^*/jsrum/
 ||watchmygf.com^$popup
 ||watchmygf.to^$third-party
-||watchseries-online.nl/sp1^$popup
 ||watchsk.com^
 ||waterserver.cn^
 ||watersoul.com^$subdocument,third-party
@@ -33686,7 +33687,6 @@
 ||weethery.com^
 ||wegetpaid.net^
 ||wegotmedia.com^
-||wegrin.com^$popup,domain=watchfreemovies.ch
 ||wehoysp.cn^
 ||weidehuagong.com^
 ||weifengtianxia.com^
@@ -35016,6 +35016,7 @@
 ||ygiqfnn.cn^
 ||ygmpia.worten.pt^
 ||ygnoqu.cn^
+||ygqukhllchpw.com^
 ||ygsm.com^$third-party
 ||yguuoibdsscki.com^
 ||ygzkedoxwhqlzp.com^
@@ -35253,8 +35254,6 @@
 ||youshouge513.cn^
 ||youtube.local^$third-party
 ||youvisit.com^$third-party
-||youwatch.org^*^ban^$popup
-||youwatch.org^*^crr^$popup
 ||youweiprint.com^
 ||youwugong.jobui.com^
 ||youxiaoad.com^$third-party
@@ -35495,7 +35494,6 @@
 ||zanghaihua.org^
 ||zangocash.com^
 ||zanox-affiliate.de^$third-party
-||zanox.com^$popup,domain=pregen.net
 ||zanox.com^$third-party
 ||zantainet.com^
 ||zanyx.club^$popup
@@ -35759,7 +35757,6 @@
 ||zminer.zaloapp.com^
 ||zmlled.cn^
 ||zmnkduay.com^
-||zmovie.tv^$popup,domain=vidbox.net
 ||zmyuer.com^
 ||znaptag.com^
 ||zndsssp.dangbei.net^
