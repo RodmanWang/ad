@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: iJB9e0a9pwam6YgD5sALCQ
-! Version: 202104061201
+! Checksum: 1ghaF0gD6lyxppjQfFc0dQ
+! Version: 202104061821
 ! Title: EasyPrivacy
-! Last modified: 06 Apr 2021 12:01 UTC
+! Last modified: 06 Apr 2021 18:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -990,6 +990,8 @@
 /basicMetricsTracking.
 /basilic.php
 /batch.gif?
+/batch/1/OE/*
+/batch/1/OP/*
 /baynote-$script
 /baynote.
 /baynote/*
@@ -4166,6 +4168,7 @@
 /statspider?
 /statspixel.
 /StatsRadioAnalyticsHub.htm
+/statsservice.recordstats?
 /statstracker.
 /statstracker/*
 /statstracker?
@@ -8357,7 +8360,6 @@ _mongo_stats/
 ||verticalscope.com^$third-party
 ||verticalsearchworks.com^$third-party
 ||vertster.com^$third-party
-||vi-serve.com^$third-party
 ||video.oms.eu^$third-party
 ||videoplayerhub.com^$third-party
 ||videos.oms.eu^$third-party
@@ -13737,6 +13739,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||broadbandchoices.co.uk/track.js
 ||broadwayworld.com/regionalbug.cfm?
 ||brobible.com/?ACT
+||builder.io/api/v1/track
 ||bulb.76.my^
 ||bulgari.com/bulgari/wireframe_script/BulgariGa.js
 ||business.com/images2/anal.gif?
@@ -14163,8 +14166,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||flirt4free.com/pixel/
 ||flixist.com/img2.phtml
 ||flixster.com^*/pixels?
-||fls-*.amazon.*%
-||fls-*.amazon.*&
 ||flyasiana.com/wlo/
 ||flybmi.com/livetrack/
 ||flyjazz.ca/ow_ga.js
