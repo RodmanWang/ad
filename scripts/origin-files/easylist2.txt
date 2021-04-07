@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: WrzqYGoO4rlPrBazxfJicQ
-! Version: 202104070021
+! Checksum: gCd7VXGgsspGN2Q+rx7Baw
+! Version: 202104070601
 ! Title: EasyPrivacy
-! Last modified: 07 Apr 2021 00:21 UTC
+! Last modified: 07 Apr 2021 06:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -7559,6 +7559,7 @@ _mongo_stats/
 ||pass-1234.com^$third-party
 ||pathful.com^$third-party
 ||pbbl.co^$third-party
+||pbgrd.com^$third-party
 ||pbstck.com^$third-party
 ||pclicks.com^$third-party
 ||pcspeedup.com^$third-party
@@ -13899,6 +13900,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cr.org^*/tracking.js
 ||cracked.com/tracking/
 ||crackle.com/tracking/
+||creately.com/static/js/creately-analytics-
 ||creativecommons.org/elog/
 ||creativecommons.org^*/triples?
 ||creativefactory.zalando.
@@ -15197,6 +15199,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sharecast.com/counter.php
 ||shoes.com/WebServices/ClientLogging.
 ||shopautoweek.com/js/modules/tracker.js
+||shopeemobile.com^*/tr
 ||shopify.com/track.js
 ||shoplocal.com/dot_clear.gif?
 ||shopmetric.rediff.com^
