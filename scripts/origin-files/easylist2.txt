@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: NwpdljZsq/zCSt+DGMVMcQ
-! Version: 202104081211
+! Checksum: mZf2RCcGJA8UuFL2TDcp6w
+! Version: 202104081821
 ! Title: EasyPrivacy
-! Last modified: 08 Apr 2021 12:11 UTC
+! Last modified: 08 Apr 2021 18:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3926,6 +3926,7 @@
 /skype-analytics.
 /sl.gif?1=
 /slimstat/*
+/sluurpy_track.js
 /small.gif?type
 /smartpixel-1.js
 /smartpixel.$domain=~smartpixel.com|~smartpixel.tv
@@ -6107,6 +6108,7 @@ _mongo_stats/
 ||audienceamplify.com^$third-party
 ||audienceiq.com^$third-party
 ||audiencepixel.com^$third-party
+||audienceplay.com^$third-party
 ||audiencerate.com^$third-party
 ||audiens.com^$third-party
 ||audio.sex^$third-party
@@ -9532,6 +9534,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||trendcounter.de^$third-party
 ||trkme.net^$third-party
 ||txt.eu^$third-party
+||undom.net^$third-party
 ||uniconsent.com^$third-party
 ||universaltrackingcontainer.com^$third-party
 ||up-rank.com^$third-party
@@ -20769,6 +20772,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 ||rtlradio.de/stats.php?
 ||rtlradio.lu/stats.php?
 ||s.edeka.de^
+||sats.manager-magazin.de^
 ||schnaeppchenfuchs.com/js/default-$script
 ||secreta.de/tinc?
 ||shortnews.de/iframes/view_news.cfm?
