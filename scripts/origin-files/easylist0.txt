@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 0pbusK7yxApqEBtsOq83tQ
-! Version: 202104071820
+! Checksum: OIk25hKxi5tqqvomh1WIEg
+! Version: 202104080030
 ! Title: EasyList
-! Last modified: 07 Apr 2021 18:20 UTC
+! Last modified: 08 Apr 2021 00:30 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -18385,6 +18385,8 @@ _popunder+$popup
 ##.ad--section
 ##.ad--showmob
 ##.ad--sidebar
+##.ad--slider
+##.ad--slot
 ##.ad--sponsor-content
 ##.ad--square-rectangle
 ##.ad--stripe
@@ -18394,6 +18396,7 @@ _popunder+$popup
 ##.ad--top-label
 ##.ad--top-leaderboard
 ##.ad--top-slot
+##.ad--wrapper
 ##.ad-01
 ##.ad-02
 ##.ad-1
@@ -31477,6 +31480,7 @@ chicagotribune.com,puzzles.usatoday.com#@##div_prerollAd_1
 discuss.com.hk,uwants.com#@##featuread
 clickbd.com#@##featured-ads
 racingjunk.com#@##featuredAds
+wsj.com#@##footer-ads
 headlinestoday.intoday.in#@##footer_ad
 investopedia.com#@##footer_ads
 adultswim.com#@##game-ad
@@ -47919,6 +47923,7 @@ menstennisforums.com#@#.top_ads
 ||allosponsor.com^$third-party
 ||asiafriendfinder.com^$third-party
 ||bcash4you.com^$third-party
+||beachlinkz.com^$third-party
 ||betweendigital.com^$third-party
 ||black6adv.com^$third-party
 ||blackpics.net^$third-party
@@ -49491,6 +49496,7 @@ menstennisforums.com#@#.top_ads
 ||graboid.com/affiliates/
 ||graduateinjapan.com/affiliates/
 ||grammarly.com/embedded?aff=$third-party
+||graues.com^$domain=totemtattoo.com
 ||grindabuck.com/img/skyscraper.jpg
 ||groupon.com/javascripts/common/affiliate_widget/$third-party
 ||grouponcdn.com^*/affiliate_widget/$third-party
@@ -50718,6 +50724,7 @@ menstennisforums.com#@#.top_ads
 ||fbooksluts.com^$third-party
 ||feeds.videosz.com^
 ||fleshlight.com/images/banners/
+||fpcplugs.com/do.cgi?widget=
 ||gagthebitch.com/track/$third-party
 ||gashot.yurivideos.com^
 ||gateway-banner.eravage.com^
@@ -51349,6 +51356,7 @@ menstennisforums.com#@#.top_ads
 ||southfloridagaynews.com/images/banners/
 ||speedcafe.com^*-banner-
 ||speedcafe.com^*/partners/
+||speedcheck.org/partner/
 ||speedvideo.net/img/pla_
 ||spongepowered.org^*/assets/img/sponsors/
 ||sportpesanews.com/images/promo/
@@ -52040,6 +52048,7 @@ $popup,third-party,domain=cloudvideo.tv|loader.to|mystream.to|play.hydracdn.netw
 ||hotpornfile.org/UIojIMf8ei.js
 ||hottubeclips.com/stxt/banners/
 ||hottystop.com/t33638ba5008.js
+||hypnohub.net/assets/hub.js
 ||idealnudes.com/tf40bbdd1767.js
 ||imagebam.com/files/tpd.png
 ||imagefap.com/msnas.php
@@ -52473,6 +52482,7 @@ mozillazine.org###goobot
 gearlive.com,mediamass.net,noscript.net###google
 photojpl.com###google01
 mediamass.net###google3
+topwar.ru###google_full_story_mobile
 windows2universe.org###google_mockup
 mozillazine.org###gootop
 decider.com###gowatchit-inline
@@ -53355,7 +53365,10 @@ nowsci.com##.black_overlay
 fastpic.ru##.bleft
 wearedore.com##.bloc-pub
 rpgsite.net##.block
+autocar.co.uk##.block-autocar-ads-lazyloaded-mpu2
 autocar.co.uk##.block-autocar-ads-mpu-flexible1
+autocar.co.uk##.block-autocar-ads-mpu-flexible2
+autocar.co.uk##.block-autocar-ads-mpu1
 taxsutra.com##.block-banner
 pocket-lint.com##.block-inline
 pocket-lint.com##.block-mpu
@@ -53445,6 +53458,7 @@ filepuma.com##.cRight_footer
 ria.ru##.c_banners
 thecable.ng##.cableads_mid
 challonge.com##.cake-unit
+classicauctionreview.co.uk##.carlogobox
 ghacks.net##.category-sponsored
 yts.mx##.cborz-bordered
 supercheats.com##.cboth_sm
@@ -53808,6 +53822,7 @@ defenseone.com##.interstitial
 allnurses.com##.ipsAreaBackground
 allnurses.com##.ipsSpacer_both
 twitter.com##.is-promoted
+speedcheck.org##.isg-container
 2ip.me##.item-384
 947.co.za##.itunes
 kfm.co.za##.itunes-sml
@@ -54473,9 +54488,9 @@ swarajyamag.com##[class^="banner-ad-"]
 torlock.com##[class^="wrn"]
 gadgetsnow.com##[data-type="mtf"]
 naturalnewsblogs.com##[href*="/WBA/"]
-libtorrent.org,mailgen.biz,torrentfreak.com##[href*="://go.nordvpn.net/"]
+libtorrent.org,mailgen.biz,speedcheck.org,torrentfreak.com##[href*="://go.nordvpn.net/"]
 gamecopyworld.com,gamecopyworld.eu##[href*="@"]
-9jaflaver.com,alaskapublic.org,allkeyshop.com,ancient-origins.net,animeidhentai.com,arabtimesonline.com,carmag.co.za,cnx-software.com,coingolive.com,dailypost.ng,digitallydownloaded.net,downturk.net,elitepvpers.com,fresherslive.com,gizmochina.com,guidedhacking.com,hackernoon.com,hlstester.com,indishare.org,linkhub.icu,mbauniverse.com,motachashma.com,mydramalist.com,myreadingmanga.info,owaahh.com,parkablogs.com,premiumtimesng.com,resultuniraj.co.in,retail.org.nz,rtvonline.com,techspot.com,trancentral.tv,ultshare.com,vumafm.co.za,yeyeboyz.net,zmescience.com##[href*="bit.ly/"]
+9jaflaver.com,alaskapublic.org,allkeyshop.com,ancient-origins.net,animeidhentai.com,arabtimesonline.com,carmag.co.za,cnx-software.com,coingolive.com,dailypost.ng,digitallydownloaded.net,downturk.net,elitepvpers.com,fresherslive.com,gizmochina.com,guidedhacking.com,hackernoon.com,hlstester.com,indishare.org,linkhub.icu,mbauniverse.com,motachashma.com,mydramalist.com,myreadingmanga.info,owaahh.com,parkablogs.com,premiumtimesng.com,resultuniraj.co.in,retail.org.nz,rtvonline.com,techspot.com,totemtattoo.com,trancentral.tv,ultshare.com,vumafm.co.za,yeyeboyz.net,zmescience.com##[href*="bit.ly/"]
 whatleaks.com##[href*="doublevpn.com"]
 elitepvpers.com##[href*="https://bitly.com/"]
 elitepvpers.com##[href*="https://oddeven.net"]
@@ -55059,6 +55074,7 @@ yporn.tv###featured
 imagetwist.com###firopage
 milffox.com###fltd
 monstertube.com,youjizz.com###footer
+69gfs.com###footer .thumbs
 burningcamel.com###fp_promo
 mansurfer.com###gayporn
 cantoot.com###googlebox
@@ -55181,7 +55197,7 @@ mansurfer.com###top-ban
 hiddencamshots.com###top-banner
 nude.hu###topPartners
 extremetube.com###topRightsquare
-allureamateurs.net,mataporno.com,sexmummy.com,teenwantme.com,worldgatas.com,xpg.com.br###topbar
+69gfs.com,allureamateurs.net,mataporno.com,sexmummy.com,teenwantme.com,worldgatas.com,xpg.com.br###topbar
 gifsfor.com###topbar1
 motherless.com###topsites
 pervclips.com###tube_ad_category
@@ -55754,6 +55770,7 @@ hentaistream.com##div[id^="hs_ad"]
 pornstarbyface.com##div[id^="sponcored-content-"]
 lewdgamer.com##div[id^="spot-"]
 pornhub.com,pornhubthbh7ap3u.onion,youporn.com,youporngay.com##div[onclick*="bp1.com"]
+hypnohub.net##div[style$="height:255px;"]
 pornhub.com,pornhubthbh7ap3u.onion##div[style*="width: 315px; height: 300px;"]
 tube8.com##div[style="background-color: rgb(255, 255, 255); display: block;"]
 ceporn.net##div[style="border:4px solid;width:300px;height:250px;background:#7e7e7e;"]

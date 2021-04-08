@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 4VRP6IHXQdn2dbz0CMPeaw
-! Version: 202104071821
+! Checksum: erQKHwNgjMWXfp67wU0jnw
+! Version: 202104080031
 ! Title: EasyPrivacy
-! Last modified: 07 Apr 2021 18:21 UTC
+! Last modified: 08 Apr 2021 00:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -10117,6 +10117,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||madnet.ru^$third-party
 ||mediaplan.ru^$third-party
 ||mediatoday.ru^$third-party
+||metrika-informer.com^$third-party
 ||mgid.com^$third-party,domain=~marketgid.com|~marketgid.com.ua
 ||mokuz.ru^$third-party
 ||musiccounter.ru^$third-party
@@ -13164,7 +13165,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sweet-candy.jp/c.php?$third-party
 ||sync.shinobi.jp^
 ||t.adlpo.com^
-||t.felmat.net^
+||t.felmat.net^$third-party
 ||t.seesaa.net^
 ||tag.cribnotes.jp^
 ||torimochi.line-apps.com^
@@ -20684,6 +20685,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 ||inside-it.ch^*/ping/
 ||is.base.de^
 ||jobanova.de/stats.php?
+||jobs.ch^*/track/
 ||jolie.de^*/pic.gif?
 ||k-files.de/screen.js
 ||k-foren.de/screen.js
@@ -22102,6 +22104,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 @@||ksta.de^*/tracking/tracking.js$domain=ksta.de
 @@||orginio.de/api/analytics/$~third-party,xmlhttprequest
 @@||rtl.de^*/videotracking.min.js$domain=rtl.de
+@@||rtoaster.jp^$script,domain=melonbooks.co.jp
 @@||showheroes.com/playlist/vast3?$xmlhttprequest,domain=bz-berlin.de|kochbar.de|rtl.de|rtl2.de
 @@||showheroes.com/publishertag.js$domain=bz-berlin.de|kochbar.de|rtl.de|rtl2.de
 @@||showheroes.com/pubtag.js$domain=bz-berlin.de|kochbar.de|rtl.de|rtl2.de
@@ -22296,6 +22299,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 @@||googleadservices.com/pagead/conversion_async.js$script,domain=jp.square-enix.com
 @@||googletagmanager.com/gtm.js$script,domain=anond.hatelabo.jp|book.impress.co.jp|kakuyomu.jp|sankei.com
 @@||in.treasuredata.com/js/*api_key$script,domain=retty.me
+@@||k-img.com/javascripts/modules/rst/analytics.js?$domain=tabelog.com
 @@||k-img.com/script/analytics/s_code.js$script,domain=kakaku.com
 @@||mediaweaver.jp^$image,domain=ismedia.jp
 @@||nakanohito.jp^*/bi.js$domain=kenko-tokina.co.jp
