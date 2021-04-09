@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: B4F6fSzqlxmD9AV5JGamRA
-! Version: 202104090601
+! Checksum: 8Ql+aEuvOWyOeYPCfOTdng
+! Version: 202104091211
 ! Title: EasyPrivacy
-! Last modified: 09 Apr 2021 06:01 UTC
+! Last modified: 09 Apr 2021 12:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1321,6 +1321,7 @@
 /clicktracking-global.
 /clicktracking.
 /clicktracking/*
+/clickTrackingAjaxController?
 /ClickTracks_
 /ClickTracksCookies.
 /clicktrends/*
@@ -22118,6 +22119,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 @@||ksta.de/cre-1.0/tracking/call.js?$domain=ksta.de
 @@||ksta.de^*/api/tracking/service/ksta/templateclient.js$domain=ksta.de
 @@||ksta.de^*/tracking/tracking.js$domain=ksta.de
+@@||lzstatic.com^*/gdpr/consentHandler/google_analytics.js$~third-party
+@@||lzstatic.com^*/gdpr/consentHandler/optimizely.js$~third-party
 @@||orginio.de/api/analytics/$~third-party,xmlhttprequest
 @@||rtl.de^*/videotracking.min.js$domain=rtl.de
 @@||rtoaster.jp^$script,domain=melonbooks.co.jp
