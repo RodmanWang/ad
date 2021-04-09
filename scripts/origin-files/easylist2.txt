@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: L5Xwaf/o7+aodNmkb12Diw
-! Version: 202104090021
+! Checksum: B4F6fSzqlxmD9AV5JGamRA
+! Version: 202104090601
 ! Title: EasyPrivacy
-! Last modified: 09 Apr 2021 00:21 UTC
+! Last modified: 09 Apr 2021 06:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2880,6 +2880,7 @@
 /measurement/access/contents?
 /measurementBeacon.
 /media-analytics.min.
+/media-analytics/*
 /media_viewed_tracking.
 /medialaanUniversalTracker.
 /mediametrie.js
@@ -4405,6 +4406,7 @@
 /track/track.php?
 /track/usage.
 /track/view/*
+/track/view?
 /track/view|
 /track/visitors/?
 /track/visits/?
@@ -5849,6 +5851,7 @@ _mongo_stats/
 ||g7329120395.co^
 ||g7527204730.co^
 ||g7725289065.co^
+||g7923373400.co^
 ||mors22.com^
 ||nxakpj4ac8gkd53.info^
 ||propeller-tracking.com^
@@ -8195,6 +8198,7 @@ _mongo_stats/
 ||torbit.com^$third-party
 ||toro-tags.com^$third-party
 ||touchclarity.com^$third-party
+||tp88trk.com^$third-party
 ||tracc.it^$third-party
 ||trace-2000.com^$third-party
 ||trace.events^$third-party
@@ -11116,7 +11120,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||experience.contextly.com^
 ||f.email.bjs.com^*/1x2.gif
 ||facebook.com*/impression.php
+||facebook.com/adnw_request?
 ||facebook.com/ai.php?
+||facebook.com/ajax/bz?*__comet_req=
 ||facebook.com/brandlift.php
 ||facebook.com/common/cavalry_endpoint.php?
 ||facebook.com/method/links.getstats?
@@ -16150,6 +16156,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hotelscombined.com/QUkd4lO9/
 ||hotpads.com/xOR1K5b6/
 ||kerastase-usa.com/IZ/
+||kickstarter.com/Uy3R669N/init.js
 ||kiehls.com/IZ/G8ATFja1/
 ||kiva.org/r3pNVz1F/
 ||lancome-usa.com/IZ/
@@ -21207,6 +21214,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 ||sat.sanoma.fi^
 ||stats.fd.nl^
 ||tijd.be/fb/?
+||tweakers.net/x/scripts/min/TyYQlL.js
+||tweakers.net^*&p=$image
 ||vroom.be^*/stats.js?
 ||vroom.be^*/stats.php?
 ||webstatistieken.xs4all.nl^
