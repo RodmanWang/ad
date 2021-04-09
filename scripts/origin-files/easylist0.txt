@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: XEkv7ZOvj+BXhGPX44j+0g
-! Version: 202104091210
+! Checksum: i5kMBh9xRIeRMwe+XkJPzQ
+! Version: 202104091810
 ! Title: EasyList
-! Last modified: 09 Apr 2021 12:10 UTC
+! Last modified: 09 Apr 2021 18:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -204,6 +204,7 @@
 -ad4.
 -ad5.
 -ad_125x125.
+-ad_970x90-
 -ad_banner-
 -ad_injector/
 -ad_leaderboard/
@@ -8198,6 +8199,7 @@ _prx/ba_$script
 /jppolPrebid.
 /js/prebid-
 /newPrebid.
+/npm/prebid-
 /pb.min.
 /pbjs-*.js
 /pbjsandwich-
@@ -26784,6 +26786,7 @@ _popunder+$popup
 ##.mobile-ad-container
 ##.mobile-ad-nav
 ##.mobile-ad-negative-space
+##.mobile-ads
 ##.mobile-footer__ad
 ##.mobile-instream-ad-holder-single
 ##.mobile-related-ad
@@ -35428,6 +35431,7 @@ menstennisforums.com#@#.top_ads
 ||edencourtbrita.info^
 ||edestrathergo.club^
 ||edfsqfaeenij.com^
+||edfuyyweyz.com^
 ||edgeads.org^
 ||edgevertise.com^
 ||edgreateria.info^
@@ -35817,6 +35821,7 @@ menstennisforums.com#@#.top_ads
 ||evgywgur.com^
 ||eviclick.pro^
 ||evidentlycaricatureinside.com^
+||evngfyljnes.com^
 ||evnoxawvqhda.com^
 ||evokeelbowsoil.com^
 ||evokeframingimpossible.com^
@@ -49118,6 +49123,7 @@ menstennisforums.com#@#.top_ads
 ||coinmama.com/assets/img/banners/$third-party
 ||colmwynne.com^$image,third-party
 ||colorlabsproject.com^*/banner_
+||commercial.daznservices.com^
 ||complexmedianetwork.com/js/cmnUNT.js
 ||comx-computers.co.za/banners/$third-party
 ||conduit.com//banners/$third-party
@@ -53409,7 +53415,7 @@ theloop.ca##.bigBoxDesktop
 chipchick.com,megafileupload.com##.big_banner
 hellenicshippingnews.com,wasterecyclingnews.com##.bigbanner
 flyerland.ca,tcpalm.com,tiff.net##.bigbox
-9gag.com,sport360.fit##.billboard
+9gag.com,hotstar.com,sport360.fit##.billboard
 techspot.com##.billboard_placeholder
 techspot.com##.billboard_placeholder_home
 dailymail.co.uk,thisismoney.co.uk##.billboard_wrapper
