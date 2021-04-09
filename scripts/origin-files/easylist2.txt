@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: mZf2RCcGJA8UuFL2TDcp6w
-! Version: 202104081821
+! Checksum: L5Xwaf/o7+aodNmkb12Diw
+! Version: 202104090021
 ! Title: EasyPrivacy
-! Last modified: 08 Apr 2021 18:21 UTC
+! Last modified: 09 Apr 2021 00:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -15974,6 +15974,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||yahoo.com/neo/ygbeacon/
 ||yahoo.com/neo/ymstat
 ||yahoo.com/p.gif;
+||yahoo.com/p?
 ||yahoo.com/perf.gif?
 ||yahoo.com/serv?s
 ||yahoo.com/sig=$image
@@ -22132,11 +22133,12 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 @@||adobedtm.com^*/satelliteLib-$script,domain=fcbarcelona.fr|icimusique.ca|laredoute.be|laredoute.ch|laredoute.fr|lci.fr|nrj.fr|tou.tv
 @@||amazon-adsystem.com/aax2/apstag.js$script,domain=programme-tv.net
 @@||caf.fr^*/smarttag.js$script,~third-party
+@@||chronopost.fr/tracking-no-cms/resources/js/lib/atinternet/smarttag.prod.$script
 @@||connect.facebook.net^*/fbevents.js$domain=elinoi.com
 @@||forecast.lemonde.fr/p/event/pageview?$image,~third-party
 @@||getviously.com/js$script,domain=consoglobe.com|futura-sciences.com|gentsu.fr|gossip-room.fr|wamiz.com
 @@||google-analytics.com/analytics.js$domain=infoconso-multimedia.fr|viandesuisse.ch
-@@||googletagmanager.com/gtm.js$script,domain=linternaute.com|sciencesetavenir.fr|wamiz.com
+@@||googletagmanager.com/gtm.js$script,domain=chronopost.fr|linternaute.com|sciencesetavenir.fr|wamiz.com
 @@||maxmind.com/geoip/$xmlhttprequest,domain=dcshoes.fr
 @@||maxmind.com^*/geoip2.js?$script,domain=dcshoes.fr
 @@||pmdstatic.net/advertising-$script,xmlhttprequest,domain=programme-tv.net
