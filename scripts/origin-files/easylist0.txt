@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: i5kMBh9xRIeRMwe+XkJPzQ
-! Version: 202104091810
+! Checksum: rh75H1jfM+vFxq68TzswUQ
+! Version: 202104100030
 ! Title: EasyList
-! Last modified: 09 Apr 2021 18:10 UTC
+! Last modified: 10 Apr 2021 00:30 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -30907,9 +30907,11 @@ _popunder+$popup
 ##div[class^="pane-google-admanager-"]
 ##div[class^="proadszone-"]
 ##div[data-ad-underplayer]
+##div[data-adname]
 ##div[data-adservice-param-tagid="contentad"]
 ##div[data-adunit-path]
 ##div[data-adunit]
+##div[data-adzone]
 ##div[data-content="Advertisement"]
 ##div[data-id-advertdfpconf]
 ##div[data-mediatype="advertising"]

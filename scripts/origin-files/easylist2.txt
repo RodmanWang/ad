@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: EJFv10fJzVNxX4g2z043/A
-! Version: 202104091811
+! Checksum: HZ1JknJdyjBYKqZai+bxyg
+! Version: 202104100031
 ! Title: EasyPrivacy
-! Last modified: 09 Apr 2021 18:11 UTC
+! Last modified: 10 Apr 2021 00:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -20617,6 +20617,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 ||center.tv/counter/
 ||chefkoch.de/counter
 ||chefkoch.de/statistic_service/
+||chefkoch.de/tracking/
 ||chefkoch.de^*/pixel/
 ||chip.de/collect
 ||chip.de/stats?
@@ -20826,6 +20827,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 ||tracking.krone.at^
 ||tracking.linda.de^
 ||tracking.mobile.de^
+||tracking.noen.at^
 ||tracking.oe24.at^
 ||tracking.sport1.de^
 ||tracking.statravel.de^
@@ -21777,6 +21779,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 @@||lenovo.com/fea/js/adobeAnalytics/adobeAnalytics-searchComponent.js$xmlhttprequest,domain=lenovo.com
 @@||realtor.com/rentals/api/optimizely.js$script,~third-party
 @@||shop.bmw.com.au/assets/analytics-setup.js$~third-party
+@@||static.foxnews.com^*/VisitorAPI.js$domain=foxbusiness.com|foxnews.com
+@@||uniqlo.com^*/trackingservice/$~third-party
 ! @@||browser.sentry-cdn.com^$domain=cardiffmedia.co.uk|connect.shore.com|crrowd.com|gina-phillips.com|gracevanberkum.com|imperial.ac.uk|loveotv.com|onginnovations.com|simonparkes.org|stockforecasttoday.com|tekku.co.za|theangryviking1776.com|thegivingblock.com|thepittsburghoratory.org|truenews4u.com|washingtonpost.com|wix.com
 @@||browser.sentry-cdn.com^$domain=eco-clobber.co.uk
 @@||brsrvr.com/api/$xmlhttprequest,domain=dollargeneral.com
