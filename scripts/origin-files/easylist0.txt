@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: F5uU5ETABNUktcgqmh5PKQ
-! Version: 202104110600
+! Checksum: aIH/E1LEUn9EAjjD5lm9lA
+! Version: 202104111210
 ! Title: EasyList
-! Last modified: 11 Apr 2021 06:00 UTC
+! Last modified: 11 Apr 2021 12:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -33986,6 +33986,7 @@ menstennisforums.com#@#.top_ads
 ||canyboysho.info^
 ||cap-cap-pop.com^
 ||capacygre.top
+||caphaiks.com^
 ||cappens-dreperor.com^
 ||capsfogpeck.com^
 ||capsheirspages.com^
@@ -34912,6 +34913,7 @@ menstennisforums.com#@#.top_ads
 ||deductdoorwayfig.com^
 ||deemsteppemental.com^
 ||deepmetrix.com^
+||defaceproudlybarnacle.com^
 ||defeatedsunset.com^
 ||defeatureother.site^
 ||defeaturesher.club^
@@ -36066,6 +36068,7 @@ menstennisforums.com#@#.top_ads
 ||feesocrald.com^
 ||feewoajy.net^
 ||feidhartaime.pro^
+||feintstrainhog.com^
 ||feitiesogates.fun^
 ||fejla.com^
 ||fejwbcvvzclz.com^
@@ -36508,6 +36511,7 @@ menstennisforums.com#@#.top_ads
 ||generalizationentertain.com^
 ||generatedough.com^
 ||genergyothe.top^
+||genishury.pro^
 ||geniusdexchange.com^
 ||genuinealiaspuzzled.com^
 ||genuschaseslowly.com^
@@ -36551,6 +36555,7 @@ menstennisforums.com#@#.top_ads
 ||givingsol.com^
 ||givirsou.net^
 ||giwefepy.xyz^
+||giwzywnxnk.com^
 ||gjqbidroh.com^
 ||gjrswtzjn.com^
 ||gjslebmbiawh.com^
@@ -36819,6 +36824,7 @@ menstennisforums.com#@#.top_ads
 ||hailsserien.top^
 ||hailstoneclayfairy.com^
 ||hairdressercommentarydown.com^
+||hairsthoughtfulgovernor.com^
 ||haithoaz.net^
 ||halfcharitable.com^
 ||halleyperson.pro^
@@ -39199,6 +39205,7 @@ menstennisforums.com#@#.top_ads
 ||oackoubs.com^
 ||oadaheba.net^
 ||oageeedhvyyojj.com^
+||oagnatch.com^
 ||oaitcmlscwe.com^
 ||oakrkptc.com^
 ||oampitsa.com^
@@ -39551,6 +39558,7 @@ menstennisforums.com#@#.top_ads
 ||pakistant.club^
 ||palibs.tech^
 ||pallxylophone.xyz^
+||palpableequanimityshiver.com^
 ||panection.co^
 ||panicshaggy.com^
 ||panieswol.club^
@@ -42044,11 +42052,13 @@ menstennisforums.com#@#.top_ads
 ||ugmovxfikvhct.com^
 ||ugoupams.com^
 ||ugqdykbxe.com^
+||ugroocuw.net^
 ||uh9qulew9rjj.com^
 ||uhbixtfhwdtmd.com^
 ||uhedsplo.com^
 ||uhfdsplo.com^
 ||uhjedvnlaq.com^
+||uhkdsplo.com^
 ||uhodsplo.com^
 ||uhpdsplo.com^
 ||uhsmmaq4l2n5.com^
@@ -50467,6 +50477,7 @@ menstennisforums.com#@#.top_ads
 ! https://github.com/easylist/easylist/pull/6720
 /^https?:\/\/[a-z0-9]{7,}\.online\/[a-z0-9]{7,}\.js$/$script,third-party
 ! amazonaws (ad-fix)
+/^https?:\/\/.*.cloudfront.net\/[0-9a-zA-Z]{50,}/$script,third-party,xmlhttprequest,domain=~amazon.com
 /^https?:\/\/s3\.amazonaws\.com\/[a-f0-9]{45,}\/[a-f,0-9]{8,10}$/$script,third-party,xmlhttprequest,domain=~amazon.com
 /^https?:\/\/s3\.amazonaws\.com\/[a-f0-9]{45,}\/secure\.js/$script,third-party,xmlhttprequest,domain=~amazon.com
 ! charlotteobserver.com (audio advert)
@@ -51414,7 +51425,7 @@ menstennisforums.com#@#.top_ads
 ||richardroeper.com/assets/banner/
 ||rpgcodex.net^*/gog_button.jpg
 ||s.radioreference.com/sm/$image
-||s3.reutersmedia.net/resources/r/?h=$image
+||s3.reutersmedia.net/resources/$image
 ||saabsunited.com/wp-content/uploads/*banner
 ||sareunited.com/uploaded_images/banners/
 ||sat24.com/bannerdetails.aspx?
@@ -51544,7 +51555,7 @@ menstennisforums.com#@#.top_ads
 ||zdnet.com/m3d0s1/
 ||zkillboard.com/img/brave_switch.png
 !
-/^https?:\/\/.*.(club|bid|xyz|site|pro|info|online|icu|monster|buzz|fun|website|biz|re|me|casa|top|space|network|live|work|systems|me|ml|world|life)\/.*/$third-party,domain=9xupload.xyz|bdupload.asia|cloudfront.net|desiupload.co|flashx.tv|powvideo.net|powvldeo.me|videobin.co
+/^https?:\/\/.*.(club|bid|xyz|site|pro|info|online|icu|monster|buzz|fun|website|biz|re|me|casa|top|space|network|live|work|systems|me|ml|world|life)\/.*/$third-party,domain=9xupload.xyz|bdupload.asia|desiupload.co|flashx.tv|powvideo.net|powvldeo.me|videobin.co
 !
 /^https?:\/\/[0-9a-z]{11,20}.*.com\/.*/$third-party,domain=9xmovies.app|9xupload.xyz|cloudvideo.tv|dood.watch|mixdrop.co|mixdrop.to|mystream.to|ovagames.com|playtube.ws|strtape.cloud|supervideo.tv|uproxy.to|upstream.to|vidlox.me|vivo.sx|voe.sx|vupload.com|wowlive.info
 !
