@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: QmfFnSO7GY8ERWC1lR/JSg
-! Version: 202104110031
+! Checksum: /Q80iolvVmNWK/6XHqNy8w
+! Version: 202104110601
 ! Title: EasyPrivacy
-! Last modified: 11 Apr 2021 00:31 UTC
+! Last modified: 11 Apr 2021 06:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3438,6 +3438,7 @@
 /planetstat.
 /platform-analytics-
 /plausible.js
+/player/stats.php?
 /player_counter.ashx?
 /PlayerDashboardLoggingService.svc/json/StartSession?
 /playerlogger.
@@ -14734,6 +14735,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||modernsalon.com/includes/sc_video_tracking.js
 ||momtastic.com/libraries/pebblebed/js/pb.track.js
 ||moneysupermarket.com^*/ProphetInsert.js
+||monitor.channel4.com^
 ||monitor.ebay.com^
 ||monkeyquest.com/monkeyquest/static/js/ga.js
 ||monstercrawler.com/__kl.gif
@@ -15142,6 +15144,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rt.rakuten.co.jp^$~xmlhttprequest
 ||rta.dailymail.co.uk^
 ||rta2.metro.co.uk^
+||rta2.newzit.com^
 ||rte.ie/player/playertracker.js
 ||rtn.thestar.com^
 ||rum.kobo.com^
