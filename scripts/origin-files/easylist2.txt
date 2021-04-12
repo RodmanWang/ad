@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 200F2srP7Uy4Ke7CbAPCzw
-! Version: 202104120601
+! Checksum: aHTMXcrKy3U8QrdqsW5pOg
+! Version: 202104121211
 ! Title: EasyPrivacy
-! Last modified: 12 Apr 2021 06:01 UTC
+! Last modified: 12 Apr 2021 12:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -7047,6 +7047,7 @@ _mongo_stats/
 ||instana.io^$third-party
 ||instant.page^$third-party
 ||instapage.com^$third-party,domain=~pagedemo.co
+||instapagemetrics.com^$third-party
 ||instore.biz^$third-party
 ||intelimet.com^$third-party
 ||intelli-direct.com^$third-party
@@ -11130,6 +11131,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||facebook.com/method/links.getstats?
 ||facebook.com/tr$third-party
 ||fairfax.com.au/js/track/
+||fastcdn.co/js/sptw.js
 ||fcmatch.google.com^
 ||fcmatch.youtube.com^
 ||feed.informer.com/fdstats

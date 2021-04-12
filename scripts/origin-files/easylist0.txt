@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: M8rZkRmBx7wgzsBPl1X0vg
-! Version: 202104120600
+! Checksum: I1Zm1uid/YgFIxEU3zStoQ
+! Version: 202104121210
 ! Title: EasyList
-! Last modified: 12 Apr 2021 06:00 UTC
+! Last modified: 12 Apr 2021 12:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -40166,6 +40166,7 @@ menstennisforums.com#@#.top_ads
 ||pxhogrilyeov.com^
 ||pxjzhqcmuaa.com^
 ||pxlqyrteuuh.com^
+||pxmyjxebxgv.com^
 ||pxqxbkqcohsy.com^
 ||pxxxyhum.com^
 ||pycmdgig.com^
@@ -42092,6 +42093,7 @@ menstennisforums.com#@#.top_ads
 ||ujkqudpjtbztz.com^
 ||ujpbruxewv.com^
 ||ujpvnnmnsoypsa.com^
+||ujqcbxcjkc.com^
 ||ujqiqzsibnfclm.com^
 ||ujuqvalvvvof.com^
 ||ujxogbsw.com^
@@ -42466,6 +42468,7 @@ menstennisforums.com#@#.top_ads
 ||voterialijikol.site^
 ||vouceeco.com^
 ||vouhecem.net^
+||voupkdprug.com^
 ||vovhiwr.com^
 ||vowcertainly.com^
 ||vowifeba.xyz^
@@ -50493,7 +50496,6 @@ menstennisforums.com#@#.top_ads
 ! https://github.com/easylist/easylist/pull/6720
 /^https?:\/\/[a-z0-9]{7,}\.online\/[a-z0-9]{7,}\.js$/$script,third-party
 ! amazonaws (ad-fix)
-/^https?:\/\/.*.cloudfront.net\/[0-9a-zA-Z]{50,}/$script,third-party,xmlhttprequest,domain=~amazon.com
 /^https?:\/\/s3\.amazonaws\.com\/[a-f0-9]{45,}\/[a-f,0-9]{8,10}$/$script,third-party,xmlhttprequest,domain=~amazon.com
 /^https?:\/\/s3\.amazonaws\.com\/[a-f0-9]{45,}\/secure\.js/$script,third-party,xmlhttprequest,domain=~amazon.com
 ! charlotteobserver.com (audio advert)
