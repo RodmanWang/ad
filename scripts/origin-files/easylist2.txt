@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: sCPArHlSIYkzvYTX0F6iUA
-! Version: 202104131211
+! Checksum: lezuayUx1heWeH9CnQXj8Q
+! Version: 202104131811
 ! Title: EasyPrivacy
-! Last modified: 13 Apr 2021 12:11 UTC
+! Last modified: 13 Apr 2021 18:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5572,6 +5572,7 @@ cgi-bin/counter
 /page.bsigroup.com/*
 /pixel-prod.
 /pixel?cid=
+/pqt.email/o/*$image
 /sendmail.backerupdate.com/t/*
 /sptracking.
 /ss/o/*.gif
@@ -21791,6 +21792,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 @@||gettingpersonal.co.uk^*/scripts/app/shared/googleanalytics.js$script,~third-party
 @@||googleoptimize.com/optimize.js$script,domain=tentree.ca
 @@||lenovo.com/fea/js/adobeAnalytics/adobeAnalytics-searchComponent.js$xmlhttprequest,domain=lenovo.com
+@@||online.tivo.com/assets/tve/common/js/vendor/jsnlog/$script,~third-party
 @@||realtor.com/rentals/api/optimizely.js$script,~third-party
 @@||shop.bmw.com.au/assets/analytics-setup.js$~third-party
 @@||static.foxnews.com^*/VisitorAPI.js$domain=foxbusiness.com|foxnews.com
@@ -22401,7 +22403,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 @@||olx.pl^*/js/tracking/ninja.js$domain=olx.pl
 @@||pataks.pl/core,_assets$script,~third-party
 @@||polfan.pl/*/fingerprint2.min.js$script,~third-party
-@@||sgqcvfjvr.onet.pl^$script,domain=kobieta.onet.pl
+@@||sgqcvfjvr.onet.pl^$script,domain=kobieta.onet.pl|newsweek.pl
 @@||stat24.com/crossdomain.xml$domain=ipla.tv
 @@||urbanowiczhaft.pl/wp-content/plugins/duracelltomi-google-tag-manager/$~third-party
 @@||wp.pl^*/dot.gif?$xmlhttprequest,domain=open.fm|wp.tv
