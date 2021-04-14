@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 7vUHTIGexZFkWgyMWyXlzg
-! Version: 202104140021
+! Checksum: uoHrtW+QoA4PgThWlZCWDQ
+! Version: 202104140601
 ! Title: EasyPrivacy
-! Last modified: 14 Apr 2021 00:21 UTC
+! Last modified: 14 Apr 2021 06:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -7613,6 +7613,7 @@ _mongo_stats/
 ||pinpoll.com^$third-party
 ||pipfire.com^$third-party
 ||pippio.com^$third-party
+||piratepx.com^$third-party
 ||piwik.pro^$third-party,domain=~clearcode.cc|~clearcode.pl|~piwikpro.de
 ||pixel.ad^$third-party
 ||pixel.watch^$third-party
@@ -8547,6 +8548,7 @@ _mongo_stats/
 ||youborafds01.com^$third-party
 ||youboranqs01.com^$third-party
 ||youboranqs02.com^$third-party
+||your-analytics.org^$third-party
 ||your-counter.be^$third-party
 ||youramigo.com^$third-party
 ||youvisit.com^$third-party
@@ -11986,6 +11988,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||squarespace.com/universal/scripts-compressed/performance-$script,third-party
 ||srvmath.com^*/analytics.js
 ||ssl-images-amazon.com/images/*/common/1x1._*.gif$domain=~amazon.com
+||ssl-images-amazon.com/images/I/31YXrY93hfL.js$domain=imdb.com
 ||ssr.streamrail.net^
 ||st.cdnco.us^
 ||st.linkfire.com^
