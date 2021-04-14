@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: LzxSljN8vk6fRQI6X7Yvew
-! Version: 202104140600
+! Checksum: N767/8LN6bAD1uJEcbwBjA
+! Version: 202104141210
 ! Title: EasyList
-! Last modified: 14 Apr 2021 06:00 UTC
+! Last modified: 14 Apr 2021 12:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -30978,7 +30978,6 @@ _popunder+$popup
 ##div[itemtype="http://www.schema.org/WPAdBlock"]
 ##iframe[id^="google_ads_frame"]
 ##iframe[src*="mellowads.com"]
-##iframe[src="about:blank"]
 ##iframe[src^="http://ad.yieldmanager.com/"]
 ##iframe[src^="https://pagead2.googlesyndication.com/"]
 ##iframe[src^="https://tpc.googlesyndication.com/"]
@@ -36977,6 +36976,7 @@ menstennisforums.com#@#.top_ads
 ||ibtfbbtjktu.com^
 ||iccompanzens.fun^
 ||icedewear.site^
+||icgrohbeory.com^
 ||ichimaip.net^
 ||icjbnnjiung.com^
 ||icjvfvoh.com^
@@ -37848,6 +37848,7 @@ menstennisforums.com#@#.top_ads
 ||lrwwnbjiv.com^
 ||lsailington.club^
 ||lsckvlhhqlo.com^
+||lsxdcdnrrco.com^
 ||ltdome.com^
 ||lubedlegionpea.com^
 ||lubricantentrance.com^
@@ -39861,6 +39862,7 @@ menstennisforums.com#@#.top_ads
 ||qbcpicrtdje.com^
 ||qbddhjrwe.com^
 ||qbgrlltue.com^
+||qbjnwjtbfrxceq.com^
 ||qbkzvophvva.com^
 ||qdatasales.com^
 ||qel-qel-fie.com^
@@ -42615,6 +42617,7 @@ menstennisforums.com#@#.top_ads
 ||yfibjzosrqrtmv.com^
 ||yfivoqeh.online^
 ||yfomeimset.com^
+||yfzjhvllsioo.com^
 ||yg592gpmrh0q.com^
 ||ygqukhllchpw.com^
 ||yguuoibdsscki.com^
@@ -46518,6 +46521,7 @@ menstennisforums.com#@#.top_ads
 ||afriflatry.co^$popup,third-party
 ||agacelebir.com^$popup
 ||agalarvitaran.com^$popup
+||ahadsply.com^$popup
 ||ahbdsply.com^$popup
 ||ahscdn.com^$popup
 ||aidaigry.com^$popup
@@ -47330,6 +47334,7 @@ menstennisforums.com#@#.top_ads
 ||tfaln.com^$popup
 ||tfiph.com^$popup
 ||thansendmaterial-14.live^$popup
+||thaudray.com^$popup
 ||the-binary-trader.biz^$popup,third-party
 ||the-digital-market.net^$popup,third-party
 ||thebestgame2020.com^$popup
@@ -51101,7 +51106,7 @@ menstennisforums.com#@#.top_ads
 ! bit.ly
 /^https?:\/\/.*bit(ly)?\.(com|ly)\//$domain=1337x.to|eztv.io|eztv.tf|eztv.yt|fmovies.taxi|fmovies.world|fullmatchesandshows.com|limetorrents.info|megaup.net|mrunlock.kim|newser.com|sendit.cloud|torlock.com|uiz.io|userscloud.com|vev.io|vev.red|vidbull.tv|vidop.icu|vidup.io|yourbittorrent2.com|zippyshare.com
 ! Torrent/Pirate sites /sw.js
-/^https?:\/\/.*\/.*(sw[0-9a-z._-]{1,6}$|\.notify\.|-sw{1,5}\.).*/$script,domain=123films.cc|1337x.to|animekisa.tv|anonfiles.com|aparat.cam|bdupload.asia|bitfly.io|cashurl.in|clipwatching.com|clk.ink|cloudvideo.tv|cocomanhua.com|downloadpirate.com|eztv.io|eztv.tf|eztv.yt|filmix.co|filmlinks4u.is|flashx.pw|fmovies.taxi|fmovies.world|getlink.pro|igg-games.com|indishare.org|linksly.co|megaup.net|mixdrop.co|newser.com|nutritioninsight.com|ouo.press|powvideo.net|powvldeo.cc|primewire.sc|readcomiconline.to|sendit.cloud|sendspace.com|shrinke.me|shrinkhere.xyz|solarmovie.to|uiz.io|up-load.io|upload.ac|uploadever.com|uploadproper.net|uploadrive.com|uplovd.com|upstream.to|userscloud.com|v96-surf.com|vev.io|vev.red|vidbull.tv|videobin.co|vidlox.me|vidop.icu|vidoza.co|vidoza.net|vidtomp3.com|vidup.io|vumoo.life|watchtvseries.video|xtgem.com|xtits.com|yourbittorrent2.com|zippyshare.com
+/^https?:\/\/.*\/.*(sw[0-9a-z._-]{1,6}|\.notify\.).*/$script,domain=123films.cc|1337x.to|animekisa.tv|anonfiles.com|aparat.cam|bdupload.asia|bitfly.io|cashurl.in|clipwatching.com|clk.ink|cloudvideo.tv|cocomanhua.com|downloadpirate.com|filmix.co|filmlinks4u.is|flashx.pw|fmovies.taxi|fmovies.world|getlink.pro|igg-games.com|indishare.org|linksly.co|megaup.net|mixdrop.co|newser.com|nutritioninsight.com|ouo.press|powvideo.net|powvldeo.cc|primewire.sc|readcomiconline.to|sendit.cloud|sendspace.com|shrinke.me|shrinkhere.xyz|solarmovie.to|uiz.io|up-load.io|upload.ac|uploadever.com|uploadproper.net|uploadrive.com|uplovd.com|upstream.to|userscloud.com|v96-surf.com|vev.io|vev.red|vidbull.tv|videobin.co|vidlox.me|vidop.icu|vidoza.co|vidoza.net|vidtomp3.com|vidup.io|vumoo.life|watchtvseries.video|xtgem.com|xtits.com|yourbittorrent2.com|zippyshare.com
 /^https?:\/\/.*\/sw.js?.[a-zA-Z0-9%]{50,}/$script,~third-party
 ! filerio.in
 $script,third-party,domain=filerio.in
