@@ -222,6 +222,10 @@ return array(
     'ccmp.eu' => 0,
     'alissl.ucdl.pp.uc.cn' => 0,
     'c3pool.com' => 0,
+    'wtradv.market.xiaomi.com' => 0,
+    'update.avlyun.sec.miui.com' => 0,
+    'sugar.zhihu.com' => 0,
+    
     
     
     'herokuapp.com' => -1,
