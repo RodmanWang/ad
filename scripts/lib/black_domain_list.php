@@ -928,6 +928,14 @@ return array(
         'ad-display.wikawika.xyz',
         'ad-channel.wikawika.xyz',
    ),
+   'shujupie.com' => array( #379
+        'shujupie.com',
+        'umini.shujupie.com',
+   ),
+   'pcidata.cn' => array( #379
+        'pcidata.cn',
+        'spi.pcidata.cn',
+   ),
     
     
     
@@ -1482,6 +1490,4 @@ return array(
     'xifatime.com' => array('xifatime.com'),
     'yjkyj.cn' => array('yjkyj.cn'),
     'zamar.cn' => array('zamar.cn'),
-
-
 );
