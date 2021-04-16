@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: VZXEGYorlhRXbdYuw0VRjg
-! Version: 202104161102
+! Checksum: OdK/zIUb1Efv6GOaaDx1yQ
+! Version: 202104161202
 ! Title: EasyList China
 ! Chinese supplement for the EasyList filters
-! Last Modified: 16 Apr 2021 11:02 UTC
+! Last Modified: 16 Apr 2021 12:02 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 ! License: https://easylist-downloads.adblockplus.org/COPYING
@@ -486,7 +486,7 @@
 /tigtag_custom/include/couplet.
 /tigtag_custom/include/popup.
 /tisai/img/nav_980_90.gif
-/tuiguang/*
+/tuiguang/*$domain=~jikexiu.com
 /u/_sponsor/*
 /uc123_no/*/index/js/activity.
 /upload/vod/2018-08-05/201808051533458526.png
