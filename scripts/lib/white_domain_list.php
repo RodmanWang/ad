@@ -225,7 +225,7 @@ return array(
     'wtradv.market.xiaomi.com' => 0,
     'update.avlyun.sec.miui.com' => 0,
     'sugar.zhihu.com' => 0,
-    
+    'chtbl.com' => 0,
     
     
     'herokuapp.com' => -1,
