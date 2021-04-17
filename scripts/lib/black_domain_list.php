@@ -936,6 +936,9 @@ return array(
         'pcidata.cn',
         'spi.pcidata.cn',
    ),
+   '3.cn' => array( #392
+        'atom-log.3.cn',
+   ),
     
     
     
@@ -1490,4 +1493,6 @@ return array(
     'xifatime.com' => array('xifatime.com'),
     'yjkyj.cn' => array('yjkyj.cn'),
     'zamar.cn' => array('zamar.cn'),
+
+
 );
