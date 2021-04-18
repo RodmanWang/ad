@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: /rt9Itn+g7vf2VcIyVCFdg
-! Version: 202104181211
+! Checksum: 9xZIx/JGhN5mC62ryRGzjg
+! Version: 202104181811
 ! Title: EasyPrivacy
-! Last modified: 18 Apr 2021 12:11 UTC
+! Last modified: 18 Apr 2021 18:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3869,7 +3869,6 @@
 /SETCOOKAFF.
 /setcooki.
 /setcookie.php?
-/setcookie?
 /setcookieADV.js
 /SetSabreAnalyticsCookie.
 /setTDUID.do?
@@ -4208,6 +4207,7 @@
 /surphace_track.
 /surveyoverlay/*
 /svc/comscore/*
+/sw/analytics.js
 /swa_t.gif?
 /swatag.js
 /swfaddress.js?tracker=
@@ -21573,6 +21573,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 ||rbc.ru/count/
 ||rbc.ru/redir/stat/
 ||rbc.ru/rightarror.gif
+||ria.ru/ping?
 ||rt.ru/proxy?
 ||rutube.ru/counters.html?
 ||rutube.ru/dbg/player_stat?
