@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: diAIm0AtJ5oYWjWvvH+meA
-! Version: 202104191811
+! Checksum: aps2B7bdlC8zHNpWyyEq2g
+! Version: 202104200021
 ! Title: EasyPrivacy
-! Last modified: 19 Apr 2021 18:11 UTC
+! Last modified: 20 Apr 2021 00:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3706,6 +3706,7 @@
 /roitracker.
 /roitracker2.
 /roiTrax.
+/rollbar-snippet.
 /rollbar.js
 /rollbar.min.js
 /rolluptracker_
@@ -7839,6 +7840,7 @@ _mongo_stats/
 ||roiservice.com^$third-party
 ||roispy.com^$third-party
 ||roitesting.com^$third-party
+||rollbar.com^$third-party
 ||rollingcounters.com^$third-party
 ||roosterfirework.com^$third-party
 ||rp-rep.net^$third-party
@@ -22354,7 +22356,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 @@||adobedtm.com^*-libraryCode_source.min.js$script,domain=disneyplus.disney.co.jp
 @@||adobedtm.com^*/mbox-contents-$script,domain=fcbarcelona.jp|sony.jp
 @@||adobedtm.com^*/satelliteLib-$script,domain=fcbarcelona.jp|radiko.jp|sony.jp
-@@||ads-twitter.com/oct.js$domain=jp.square-enix.com
 @@||allabout.co.jp/mtx_cnt.js$script,~third-party
 @@||analytics.edgekey.net/config/$xmlhttprequest,domain=nhk.or.jp
 @@||analytics.edgekey.net/html5/akamaihtml5-min.js$domain=nhk.or.jp
