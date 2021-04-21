@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: T4+l3XTSh4DcjoXAwXynNg
-! Version: 202104211210
+! Checksum: TIRIZ5EECXrqU1etPgxA2g
+! Version: 202104211811
 ! Title: EasyList
-! Last modified: 21 Apr 2021 12:10 UTC
+! Last modified: 21 Apr 2021 18:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -22126,6 +22126,7 @@ _popunder+$popup
 ##.adunitrd
 ##.adup-ad-container
 ##.adv--desktop-top
+##.adv--h600
 ##.adv--intermingled
 ##.adv--leaderboard
 ##.adv--square
@@ -30840,6 +30841,7 @@ _popunder+$popup
 ##a[href^="https://watchmygirlfriend.tv/"]
 ##a[href^="https://weedzy.co.uk/"][href*="&utm_"]
 ##a[href^="https://windscribe.com/promo/"]
+##a[href^="https://wittered-mainging.com/"]
 ##a[href^="https://www.adskeeper.co.uk/"]
 ##a[href^="https://www.adultempire.com/"][href*="?partner_id="]
 ##a[href^="https://www.adxtro.com/"]
@@ -34810,6 +34812,7 @@ menstennisforums.com#@#.top_ads
 ||damsoloist.com^
 ||dana123.com^
 ||danachings.club^
+||dangerinsignificantinvent.com^
 ||dangerprickly.com^
 ||danmeneldur.com^
 ||dantbritingd.club^
@@ -47420,6 +47423,7 @@ menstennisforums.com#@#.top_ads
 ||shinebliss.com^$popup
 ||shopeasy.by^$popup
 ||shortpixel.ai^$popup
+||shoubsee.net^$popup
 ||showcasead.com^$popup
 ||sifuglie.com^$popup
 ||significantlyentering.com^$popup
@@ -51534,7 +51538,7 @@ spiegel.de##div[id*="/spon_dt/"]:not(#google_ads_iframe_\/6032\/spon_dt\/homepag
 ! Rewrite to internal resources rules for Adblock Plus
 ||slacker.com^*/getspot/?spotid=$media,rewrite=abp-resource:blank-mp3,domain=slacker.com
 ! *** easylist:easylist/easylist_specific_block_popup.txt ***
-$popup,third-party,domain=cloudvideo.tv|loader.to|mystream.to|play.hydracdn.network|playtube.ws|streamtape.com|strtape.cloud|supervideo.tv|upstream.to|vidcloud9.com|vidlox.me|vivo.sx|voe.sx|vupload.com
+$popup,third-party,domain=cloudvideo.tv|highstream.tv|loader.to|mystream.to|play.hydracdn.network|playtube.ws|streamtape.com|strtape.cloud|supervideo.tv|upstream.to|vidcloud9.com|vidlox.me|vivo.sx|voe.sx|vupload.com
 :text^$popup,domain=zippyshare.com
 ||adf.ly/_$popup
 ||beap.gemini.yahoo.com^$popup,domain=mail.yahoo.com
@@ -54277,6 +54281,7 @@ thesearchenginelist.com##a[href^="http://www.kqzyfj.com/"]
 2x4u.de##a[href^="http://www.myfreecams.com/?baf="]
 rpg.net##a[href^="http://www.rpg.net/ads/"]
 tundraheadquarters.com##a[href^="http://www.tkqlhce.com/"]
+qwant.com##a[href^="https://api.taboola.com/"]
 japantoday.com##a[href^="https://go.injapan.com/"]
 disasterscans.com##a[href^="https://go.onelink.me/"]
 mmos.com##a[href^="https://mmos.com/play/"]
@@ -54314,6 +54319,7 @@ games.dailymail.co.uk##div[class^="DisplayAd_"]
 issuu.com##div[class^="ExploreShelf__ad"]
 games.dailymail.co.uk##div[class^="GameTemplate__displayAdTop_"]
 games.dailymail.co.uk##div[class^="HomeCategory__adWrapper_"]
+qwant.com##div[class^="HomeFlag-module__CommercialFlagContainer"]
 games.dailymail.co.uk##div[class^="HomeTemplate__afterCategoryAd_"]
 versus.com##div[class^="LegendSingle__show"]
 games.dailymail.co.uk##div[class^="RightRail__displayAdRight_"]
