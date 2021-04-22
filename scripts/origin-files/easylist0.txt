@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: TIRIZ5EECXrqU1etPgxA2g
-! Version: 202104211811
+! Checksum: fHVtZVJabcsLfyhGGtqBTA
+! Version: 202104220031
 ! Title: EasyList
-! Last modified: 21 Apr 2021 18:10 UTC
+! Last modified: 22 Apr 2021 00:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3739,6 +3739,7 @@
 /affiliate/promo/*
 /affiliate/script.php?
 /affiliate/small_banner/*
+/affiliate_amazon.
 /affiliate_banner/*
 /affiliate_banners/*
 /affiliate_base/banners/*
@@ -18771,6 +18772,7 @@ _popunder+$popup
 ##.ad-divider
 ##.ad-dog
 ##.ad-dt
+##.ad-dx_wrp
 ##.ad-dynamic-showcase-top
 ##.ad-e
 ##.ad-element
@@ -20848,6 +20850,7 @@ _popunder+$popup
 ##.add_300x250
 ##.add_728x90_teckpage
 ##.add_baner
+##.add_top-wrp-in
 ##.add_topbanner
 ##.addarea
 ##.addarearight
@@ -30807,6 +30810,7 @@ _popunder+$popup
 ##a[href^="https://t.hrtyj.com/"]
 ##a[href^="https://t.mobtya.com/"]
 ##a[href^="https://tc.tradetracker.net/"] > img
+##a[href^="https://tm-offers.gamingadult.com/"]
 ##a[href^="https://topoffers.com/"][href*="/?pid="]
 ##a[href^="https://tour.mrskin.com/"]
 ##a[href^="https://track.52zxzh.com/"]
@@ -33089,6 +33093,7 @@ menstennisforums.com#@#.top_ads
 ||alliedsurfgrace.com^
 ||alliedthirteen.com^
 ||allottenuy.club^
+||allow-to-continue.com^
 ||allowfencelist.com^
 ||allowsscaffold.com^
 ||allpurposefrigilityfrigility.com^
@@ -33289,6 +33294,7 @@ menstennisforums.com#@#.top_ads
 ||asewlfjqwlflkew.com^
 ||asgclickkl.com^
 ||asgclickpop.com^
+||asgclickpp.com^
 ||ashcdn.com^
 ||ashingcontro.top^
 ||asiangfsex.com^
@@ -46680,6 +46686,7 @@ menstennisforums.com#@#.top_ads
 ||algocashmaster.net^$popup
 ||allaptair.club^$popup
 ||allashark.site^$popup
+||allow-to-continue.com^$popup
 ||allsporttv.com^$popup
 ||alonghelper.com^$popup
 ||alpinedrct.com^$popup
@@ -46701,6 +46708,7 @@ menstennisforums.com#@#.top_ads
 ||arielpri2nce8ss09.com^$popup
 ||arrlnk.com^$popup
 ||artpever.com^$popup
+||asgclickpp.com^$popup
 ||aslaprason.com^$popup
 ||atas.io^$popup
 ||atozdealinfo.com^$popup
@@ -51065,7 +51073,11 @@ menstennisforums.com#@#.top_ads
 ||traditionalmusic.co.uk/images/banners/
 ||truck1.eu/_BANNERS_/
 ||trucknetuk.com^*/sponsors/
+||tubeoffline.com/hh/
+||tubeoffline.com/images/nerd.png
 ||tubeoffline.com/itbimg/
+||tubeoffline.com/js/hot.min.js
+||tubeoffline.com/vpn.php
 ||turbobit.net/fd1/js/brinpopup.js
 ||turbobit.net/pus/
 ||tympanus.net/codrops/wp-content/banners/
@@ -51575,7 +51587,7 @@ $popup,third-party,domain=cloudvideo.tv|highstream.tv|loader.to|mystream.to|play
 ! about:blank popups
 /about:blank#/$popup,domain=22pixx.xyz|9anime.to|disk.ly|dood.to|dood.video|dood.watch|fcdn.stream|fmovies.to|french-stream.lol|gogoanime.pro|hydracdn.network|imagetwist.com|meomeo.pw|mixdrop.co|mp4upload.com|mstream.xyz|player.cineflixtv.com|player.cineflixtv.net|playtube.ws|popads.net|powvideo.net|powvldeo.cc|putlocker.style|run-syndicate.com|spcdn.cc|steamplay.cc|streamsb.net|streamtape.cc|streamtape.com|streamtape.site|streamz.vg|strtape.cloud|strtape.tech|tapecontent.net|upstream.to|uptostream.com|vev.io|vev.red|vevo.io|vidcloud.co|videobin.co|videowood.tv|viditodo.com|vidoza.net|vidup.io|voe.sx|vortez.net|vshare.eu|vumoo.to|waaw.to|watchserieshd.tv
 ! html/image popups
-/^https?:\/\/.*\.(jpg|png|php|html|svg|ico|js)/$popup,domain=5movies.fm|adf.ly|animepahe.com|cmovies.ac|dood.to|dood.video|dood.watch|fcdn.stream|french-stream.lol|hqq.to|hulkstreams.com|jackstream.net|jackstreams.com|meomeo.pw|mixdrop.co|mp4upload.com|mystream.to|olympicstreams.me|player.cineflixtv.com|putlockers.fm|redirect-ads.com|speedvideo.net|streamsb.net|streamtape.cc|streamtape.net|strikeout.nu|strtape.cloud|strtape.tech|tapecontent.net|telerium.net|upvid.co|vidnext.net|vido.fun|vipleague.cc|voe.sx|vumoo.to|watchserieshd.tv
+/^https?:\/\/.*\.(jpg|png|php|html|svg|ico|js)/$popup,domain=5movies.fm|adf.ly|animepahe.com|bhplay.me|cmovies.ac|dood.to|dood.video|dood.watch|fcdn.stream|french-stream.lol|hqq.to|hulkstreams.com|jackstream.net|jackstreams.com|meomeo.pw|mixdrop.co|mp4upload.com|mystream.to|olympicstreams.me|player.cineflixtv.com|putlockers.fm|redirect-ads.com|speedvideo.net|streamsb.net|streamtape.cc|streamtape.net|strikeout.nu|strtape.cloud|strtape.tech|tapecontent.net|telerium.net|upvid.co|vidnext.net|vido.fun|vipleague.cc|voe.sx|vumoo.to|watchserieshd.tv
 !
 /^https?:\/\/.*\.(info|pro|icu|app|xyz|pet|win|live|me|io|cc|pw|is|zone|bid|cf|ovh|site|review|ml)\.?(\/|:|$)/$popup,domain=dood.watch|fcdn.stream|fmovies.to|idup.io|mixdrop.co|mixdrop.to|mp4upload.com|powvideo.net|powvldeo.cc|putlocker.style|streamsb.net|strtape.cloud|thepiratebay.org|upstream.to|uptostream.com|vev.io|vevo.io|vidcloud.co|videobin.co|videowood.tv|viditodo.com|vidoza.net|vortez.net|vshare.eu
 ! semi-generic popup block
@@ -54186,7 +54198,7 @@ torlock.com##[class^="wrn"]
 gadgetsnow.com##[data-type="mtf"]
 naturalnews.com##[href*="/WBA-"]
 naturalnewsblogs.com##[href*="/WBA/"]
-libtorrent.org,mailgen.biz,speedcheck.org,torrentfreak.com##[href*="://go.nordvpn.net/"]
+libtorrent.org,mailgen.biz,speedcheck.org,torrentfreak.com,tubeoffline.com##[href*="://go.nordvpn.net/"]
 gamecopyworld.com,gamecopyworld.eu##[href*="@"]
 9jaflaver.com,alaskapublic.org,allkeyshop.com,ancient-origins.net,animeidhentai.com,arabtimesonline.com,carmag.co.za,cnx-software.com,coingolive.com,dailypost.ng,digitallydownloaded.net,downturk.net,elitepvpers.com,fresherslive.com,gizmochina.com,guidedhacking.com,hackernoon.com,hlstester.com,indishare.org,linkhub.icu,mbauniverse.com,motachashma.com,mydramalist.com,myreadingmanga.info,owaahh.com,parkablogs.com,premiumtimesng.com,resultuniraj.co.in,retail.org.nz,rtvonline.com,techspot.com,totemtattoo.com,trancentral.tv,ultshare.com,vumafm.co.za,yeyeboyz.net,zmescience.com##[href*="bit.ly/"]
 whatleaks.com##[href*="doublevpn.com"]
@@ -54294,6 +54306,7 @@ futbin.com##a[href^="https://www.eneba.com/"][href*="?af_id="]
 domaintyper.com##a[href^="https://www.kqzyfj.com/"]
 provideocoalition.com##a[href^="https://www.provideocoalition.com/ghost/"]
 ynetnews.com##a[href^="https://www.xplorer.co.il/"]
+tubeoffline.com##a[href^="https://www.xvinlink.com/?a_"]
 krapps.com##a[href^="index.php?adclick="]
 kitguru.net##a[id^="href-ad-"]
 home-barista.com,shtfplan.com,washingtontimes.com##a[onclick]
@@ -55698,6 +55711,11 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||z.moatads.com^$script,domain=reuters.com
 @@||zergnet.com^$image,script,stylesheet,domain=ci.craveonline.com|ci.gamerevolution.com|ci.momtastic.com|ci.thefashionspot.com|ci.totallyher.com
 @@||zohopublic.com^*/ADManager_$subdocument,xmlhttprequest,domain=manageengine.com|zohopublic.com
+! wordpress.org https://wordpress.org/plugins/woocommerce-google-adwords-conversion-tracking-tag/
+@@||ps.w.org^$image,domain=wordpress.org
+@@||s.w.org/wp-content/$stylesheet,domain=wordpress.org
+@@||wordpress.org/plugins/$domain=wordpress.org
+@@||wordpress.org/stats/plugin/$domain=wordpress.org
 ! uBO-CNAME (Specific allowlists)
 @@||hwcdn.net^$script,domain=mp4upload.com
 ! ezfunnels.com (https://forums.lanik.us/viewtopic.php?f=64&t=44355)
