@@ -201,6 +201,7 @@ $ARR_WHITE_RULE_LIST = array(
     '@@||counter-strike.net^' => 1, // #332
     '@@||ftp.bmp.ovh^' => 1, // #353
     '@@||profile*.se.360.cn^' => 1, // #381
+    '@@||pic.iask.cn^' => 1, // #397
 );
 
 //针对上游赦免规则anti-AD不予赦免的规则，即赦免名单的黑名单
@@ -378,4 +379,5 @@ if(($insert_pos > 0) && (fseek($new_fp, $insert_pos) === 0)){
 fclose($src_fp);
 fclose($new_fp);
 rename($src_file . '.txt', $src_file);
+file_put_contents($src_file . '.md5', md5_file($src_file));
 echo 'Time cost:', microtime(true) - START_TIME, "s, at ", date('m-d H:i:s'), "\n";
