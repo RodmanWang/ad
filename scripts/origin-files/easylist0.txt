@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: HMUxydfpBRa+LfHWoAmwxw
-! Version: 202104221203
+! Checksum: O/fZjVatAxcx4Kar/LZwtw
+! Version: 202104221813
 ! Title: EasyList
-! Last modified: 22 Apr 2021 12:03 UTC
+! Last modified: 22 Apr 2021 18:13 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -903,6 +903,8 @@
 /_js2/oas.
 /_scripts/_oas/*
 /_svc/ad/*
+/_xa/ads?
+/_xa/ads_
 /a-ads.$third-party
 /a/?ad=
 /a/ads/*
@@ -3828,6 +3830,7 @@
 /app/ads/*
 /apstag.js
 /aptads/*
+/apu.php?*&zoneid=
 /arcAdsJS/*
 /Article-Ad-
 /article-advert-
@@ -18654,6 +18657,7 @@ _popunder+$popup
 ##.ad-box-2
 ##.ad-box-300x250
 ##.ad-box-adsea
+##.ad-box-auto
 ##.ad-box-caption
 ##.ad-box-container
 ##.ad-box-title
@@ -27526,6 +27530,7 @@ _popunder+$popup
 ##.player_hide_ad
 ##.player_hover_ad
 ##.player_page_ad_box
+##.playerdads
 ##.playlist-row-ad
 ##.plistaList > .itemLinkPET
 ##.plistaList > .plista_widget_underArticle_item[data-type="pet"]
@@ -30873,6 +30878,8 @@ _popunder+$popup
 ##a[href^="https://www.pornhat.com/"][rel="nofollow"]
 ##a[href^="https://www.securegfm.com/"]
 ##a[href^="https://www.share-online.biz/affiliate/"]
+##a[href^="https://www.sheetmusicplus.com/"][href*="?aff_id="]
+##a[href^="https://www.sheetmusicplus.com/?aff_id="]
 ##a[href^="https://www.spyoff.com/"]
 ##a[href^="https://www.travelzoo.com/oascampaignclick/"]
 ##a[href^="https://www.vewwrmp.com/"]
@@ -34945,6 +34952,7 @@ menstennisforums.com#@#.top_ads
 ||dentalsadness.com^
 ||dentedporc.club^
 ||deparabides.club^
+||departureweathertraces.com^
 ||depictlicencegrandmother.com^
 ||depicturalki.club^
 ||deplaisamment.xyz^
@@ -48541,6 +48549,7 @@ menstennisforums.com#@#.top_ads
 ||artistdirect.com/partner/
 ||as.jivox.com/jivox/serverapis/getcampaignbysite.php?$object
 ||assets.betterbills.com/widgets/
+||assets.sheetmusicplus.com^$third-party
 ||associmg.com^*.gif?tag-
 ||astrology.com/partnerpages/
 ||augine.com/widget|$third-party
@@ -50001,6 +50010,8 @@ menstennisforums.com#@#.top_ads
 ||worldofjudaica.com/static/show/external/
 ||wp.com/*.postaffiliatepro.com/$third-party
 ||wp.com/adnetsreview.com/wp-content/uploads/*banner
+||wp.com/assets.sheetmusicplus.com/banner/
+||wp.com/assets.sheetmusicplus.com/smp/
 ||wp.com/stripe.rs-stripe.com/
 ||wp.com^*/linkwidgets/$domain=coedmagazine.com
 ||wpzoom.com/images/aff/$third-party
@@ -52521,6 +52532,7 @@ electronicshub.org###text-5
 ssbcrack.com###text-51
 quickonlinetips.com###text-57
 2smsupernetwork.com,times.co.zm###text-6
+yugatech.com###text-69
 nanoreview.net###the-app > .mb
 placehold.it###tla
 mma-core.com###tlbrd
@@ -54050,7 +54062,7 @@ naturalnews.com##[href*="/WBA-"]
 naturalnewsblogs.com##[href*="/WBA/"]
 libtorrent.org,mailgen.biz,speedcheck.org,torrentfreak.com,tubeoffline.com##[href*="://go.nordvpn.net/"]
 gamecopyworld.com,gamecopyworld.eu##[href*="@"]
-9jaflaver.com,alaskapublic.org,allkeyshop.com,ancient-origins.net,animeidhentai.com,arabtimesonline.com,carmag.co.za,cnx-software.com,coingolive.com,digitallydownloaded.net,downturk.net,elitepvpers.com,fresherslive.com,gizmochina.com,guidedhacking.com,hackernoon.com,hlstester.com,indishare.org,linkhub.icu,mbauniverse.com,mydramalist.com,myreadingmanga.info,owaahh.com,parkablogs.com,premiumtimesng.com,resultuniraj.co.in,retail.org.nz,rtvonline.com,techspot.com,totemtattoo.com,trancentral.tv,ultshare.com,vumafm.co.za,yeyeboyz.net,zmescience.com##[href*="bit.ly/"]
+9jaflaver.com,alaskapublic.org,allkeyshop.com,ancient-origins.net,animeidhentai.com,arabtimesonline.com,carmag.co.za,cnx-software.com,coingolive.com,digitallydownloaded.net,downturk.net,elitepvpers.com,fresherslive.com,gizmochina.com,guidedhacking.com,hackernoon.com,hlstester.com,indishare.org,linkhub.icu,mbauniverse.com,mydramalist.com,myreadingmanga.info,owaahh.com,parkablogs.com,premiumtimesng.com,resultuniraj.co.in,retail.org.nz,rtvonline.com,techspot.com,totemtattoo.com,trancentral.tv,ultshare.com,vumafm.co.za,yeyeboyz.net,yugatech.com,zmescience.com##[href*="bit.ly/"]
 whatleaks.com##[href*="doublevpn.com"]
 elitepvpers.com##[href*="https://bitly.com/"]
 elitepvpers.com##[href*="https://oddeven.net"]
@@ -54128,6 +54140,7 @@ filefleck.com,sadeempc.com,upload4earn.org##a[href*="javascript:"]
 twitter.com##a[href*="src=promoted_trend_click"]
 twitter.com##a[href*="src=promoted_trend_click"] + div
 unitconversion.org##a[href="../noads.html"]
+apkpure.com##a[href="https://www.macblurayplayer.com/spyhunter-malware-removal-windows.htm"]
 rarbg.to,rarbgaccess.org,rarbgmirror.com,rarbgmirror.org,rarbgproxy.com,rarbgproxy.org,rarbgunblock.com,rarbgunblocked.org##a[href][target="_blank"] > button
 facebook.com,shroomery.org##a[href^="/ads/"]
 lightreading.com##a[href^="/lg_redirect.asp?piddl_lgid_docid="]
@@ -54157,6 +54170,7 @@ domaintyper.com##a[href^="https://www.kqzyfj.com/"]
 provideocoalition.com##a[href^="https://www.provideocoalition.com/ghost/"]
 ynetnews.com##a[href^="https://www.xplorer.co.il/"]
 tubeoffline.com##a[href^="https://www.xvinlink.com/?a_"]
+yugatech.com##a[href^="https://yugatech.ph/"]
 krapps.com##a[href^="index.php?adclick="]
 kitguru.net##a[id^="href-ad-"]
 home-barista.com,shtfplan.com,washingtontimes.com##a[onclick]
@@ -55295,6 +55309,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 ! *** easylist:easylist/easylist_allowlist.txt ***
 @@||2mdn.net/instream/html5/ima3.js$script,domain=earthtv.com|zdnet.com
 @@||4cdn.org/adv/$image,xmlhttprequest,domain=4channel.org
+@@||4channel.org/adv/$image,xmlhttprequest,domain=4channel.org
 @@||abcnews.com/assets/js/prebid.min.js$~third-party
 @@||abcnews.com/assets/player/$script,~third-party
 @@||accuweather.com/bundles/prebid.$script
