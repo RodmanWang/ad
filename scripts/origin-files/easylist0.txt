@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: MHU/b+Afi3n2U05qZqrFGg
-! Version: 202104241210
+! Checksum: 0lPoWYZqfP/X50qPTiDcww
+! Version: 202104241811
 ! Title: EasyList
-! Last modified: 24 Apr 2021 12:10 UTC
+! Last modified: 24 Apr 2021 18:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2133,7 +2133,7 @@
 /admatcherclient.
 /admatik.
 /admaven.
-/admax.$domain=~admax.cn|~admax.co|~admax.co.jp|~admax.eu|~admax.fi|~admax.hu|~admax.info|admax.jp|~admax.net|~admax.nu|~admax.org|~admax.se|~admax.shinobi.jp|~admax.us
+/admax.$domain=~admax.cn|~admax.co|~admax.co.jp|~admax.eu|~admax.fi|~admax.hu|~admax.info|~admax.jp|~admax.net|~admax.nu|~admax.org|~admax.se|~admax.shinobi.jp|~admax.us
 /admax/*
 /admaxads.
 /admcoreext.
@@ -20710,6 +20710,7 @@ _popunder+$popup
 ##.adb-728x90
 ##.adb-bottom-outer
 ##.adb-top
+##.adbTrkWt
 ##.adback
 ##.adbadge
 ##.adban-hold-narrow
@@ -29962,6 +29963,7 @@ _popunder+$popup
 ##.widget_ad_widget
 ##.widget_adace_ads_widget
 ##.widget_admanagerwidget
+##.widget_admania_adbuilder_widgets
 ##.widget_adrotate_widgets
 ##.widget_ads
 ##.widget_ads_entries
@@ -30065,6 +30067,7 @@ _popunder+$popup
 ##.wnIframeAd
 ##.wnMultiAd
 ##.wnad
+##.worldplus-ad
 ##.wp-block-tpd-block-tpd-ads
 ##.wp125_write_ads_widget
 ##.wp125ad
@@ -33857,6 +33860,7 @@ menstennisforums.com#@#.top_ads
 ||browsers.support^
 ||browsobsolete.com^
 ||brqvld0p.com^
+||brrcaqvz.com^
 ||brtsumthree.com^
 ||brucelead.com^
 ||bruceleadx.com^
@@ -50629,6 +50633,7 @@ menstennisforums.com#@#.top_ads
 ||extremefuse.com/out.php?$popup
 ||fakehub.com/tour/$popup
 ||fantasti.cc/ajax/gw.php?$popup
+||fapcandy.com^$popup,third-party
 ||fleshlight-international.eu^*?link=$popup,third-party
 ||fling.com/enter.php?$popup
 ||flirt4free.com/_special/pops/$popup,third-party
@@ -51777,6 +51782,7 @@ $popup,third-party,domain=cloudvideo.tv|highstream.tv|loader.to|mystream.to|play
 ||pornvideoq.com/zCpWaxDcYr.js
 ||pornxp.com/*.vtt
 ||pornxp.com/sp
+||pururin.io/assets/js/pop.js
 ||realgfporn.com/js/bbbasdffdddf.php
 ||redtube.com^$subdocument,~third-party
 ||rencontre31.fr/wp-content/themes/rencontre31/images/popupPerso/
@@ -55763,6 +55769,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||politiken.dk/static/$script
 @@||portalbici.es^*-advertisement.$~third-party,xmlhttprequest
 @@||przegladpiaseczynski.pl/wp-content/plugins/wppas/$~third-party
+@@||r10s.jp/share/themes/ds/js/show_ads_randomly.js$domain=travel.rakuten.co.jp
 @@||s.yimg.jp/images/listing/tool/yads/yads-timeline-ex.js$domain=yahoo.co.jp
 @@||s0.2mdn.net/instream/html5/ima3.js$script,domain=tilt.fi
 @@||samplefan.com/img/ad/$image
