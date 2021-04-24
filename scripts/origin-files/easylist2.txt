@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: UqWh8Wu1/EiJ8/xTX9I81g
-! Version: 202104240031
+! Checksum: JdUzRRUUHHpXX5WX9fTWgw
+! Version: 202104240601
 ! Title: EasyPrivacy
-! Last modified: 24 Apr 2021 00:31 UTC
+! Last modified: 24 Apr 2021 06:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -359,6 +359,7 @@
 /?livehit=
 /?mob.ct=
 /?record&key=
+/?sentry_key=
 /?swift-performance-tracking
 /_/lite/performance/*
 /__analytics/*
@@ -3829,8 +3830,6 @@
 /sensor/statistic?
 /sensorsdata-
 /sensorsdata.$domain=~sensorsdata.cn
-/sentry.*/?sentry_key=
-/sentry/*/?sentry_key=
 /seo-track.
 /seo.googleAnalytics-
 /seo.googleAnalytics.
@@ -3876,6 +3875,7 @@
 /sfCounter/*
 /share/analytics?
 /shareCounts.
+/shared/sentry/*
 /shareTrackClient.
 /sherlock.gif?
 /shinystat.
@@ -7917,6 +7917,7 @@ _mongo_stats/
 ||semasio.net^$third-party
 ||sematext.com^$third-party
 ||sendtraffic.com^$third-party
+||sentry-cdn.com^$third-party,domain=~sentry.dev|~sentry.io
 ||sentry.io^$third-party
 ||seomonitor.ro^$third-party
 ||seomoz.org^$third-party
@@ -10644,7 +10645,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||breakingburner.com/stats.html?
 ||breakmedia.com/track.jpg?
 ||bright.bncnt.com^
-||browser.sentry-cdn.com^
 ||browserscope.org/user/beacon/
 ||bs.yandex.ru^
 ||btn.clickability.com^
@@ -11233,7 +11233,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gleam.io/seen?
 ||gleam.io^$script,third-party
 ||go.com/capmon/GetDE/?
-||go.pardot.com^
 ||go.techtarget.com^$image,xmlhttprequest
 ||go.toutapp.com^$third-party
 ||goadv.com^*/track.js
@@ -14339,6 +14338,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||go.com/globalelements/utils/tracking
 ||go.com/stat/
 ||go.com^*/analytics.js
+||go.pardot.com^
 ||go.theregister.com^$image
 ||golfsmith.com/ci/
 ||google.*/api/sclk?
