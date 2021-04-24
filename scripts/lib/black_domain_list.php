@@ -160,6 +160,7 @@ return array(
         'appcloud2.zhihu.com',
         'zhihu-web-analytics.zhihu.com',
         'event.zhihu.com',
+        'udd1i5.zhihu.com', #395
     ),
     'crashlytics.com' => array(
         'crashlytics.com'
@@ -939,8 +940,73 @@ return array(
    '3.cn' => array( #392
         'atom-log.3.cn',
    ),
-    
-    
+   'gz-data.com' => array( #402
+        'gz-data.com',
+        'www.gz-data.com',
+   ),
+   'gzads.com' => array( #402
+        'gzads.com',
+        'www.gzads.com',
+    ),
+    'gozendata.com' => array( #402
+        'gozendata.com',
+        'www.gozendata.com',
+    ),
+    'zhuangjizhuli.net' => array( #400
+        'www.zhuangjizhuli.net',
+        'zhuangjizhuli.net',
+    ),
+    'coumie.top' => array( #400
+        'coumie.top',
+        'softdown.coumie.top',
+    ),
+    'avbdf.com' => array( #400
+        'avbdf.com',
+        'hs.avbdf.com',
+    ),
+    'sxyunyou.cn' => array( #400
+        'sxyunyou.cn',
+        'hs.sxyunyou.cn',
+    ),
+    'sxdanke.cn' => array( #400
+        'sxdanke.cn',
+        'hbs.sxdanke.cn',
+    ),
+    'o7h.net' => array( #400
+        'o7h.net',
+        'www.o7h.net',
+    ),
+    'uzhuangji.cn' => array( #400
+        'xiazai.uzhuangji.cn',
+        'uzhuangji.cn',
+    ),
+    'sdxitong.com' => array( #400
+        'www.sdxitong.com',
+        'sdxitong.com',
+    ),
+    'haozhuangji.com' => array( #400
+        'www.haozhuangji.com',
+        'haozhuangji.com',
+    ),
+    'lao9123.com' => array( #400
+        'www.lao9123.com',
+        'lao9123.com',
+    ),
+    'pe8.com' => array( #400
+        'www.pe8.com',
+        'pe8.com',
+    ),
+    'ycxjtd.com' => array( #400
+        'cdn.ycxjtd.com',
+        'www.ycxjtd.com',
+        'ycxjtd.com',
+    ),
+    'pkkjxs.cn' => array( #400
+        'pkkjxs.cn',
+        'dbc.pkkjxs.cn',
+        'www.pkkjxs.cn',
+        'windows.pkkjxs.cn',
+    ),
     
     
     
