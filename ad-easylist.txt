@@ -1,5 +1,5 @@
-Version: 20210424141136
-!Total lines: 33410
+Version: 20210424201313
+!Total lines: 33426
 ||201*.myhard.com^
 ||8*.tianya.cn^
 ||a*.chajiaotong.com^
@@ -589,7 +589,7 @@ Version: 20210424141136
 ||258ydh.com^
 ||258zw.com^
 ||265958.com^
-/^(\S+\.)?ad([\d]|m|s)?\./
+/^(\S+\.)?ad([\d]+|m|s)?\./
 ||268mob.cn^
 ||272xb.com^
 ||273920d845b.com^
@@ -1867,17 +1867,13 @@ Version: 20210424141136
 /^(\S+\.)?ad[0-9]{3,}m.com$/
 ||ad1data.com^
 ||ad1rtb.com^
-||ad20.net^
 ||ad2adnetwork.biz^
 ||ad2links.com^
 ||ad2up.com^
-||ad4980.kr^
-||ad4989.co.kr^
 ||ad4game.com^
 ||ad4m.at^
 ||ad5track.com^
 ||ad6media.fr^
-||ad9377.com^
 ||adabra.com^
 ||webts.adac.de^
 ||adacado.com^
@@ -4110,6 +4106,7 @@ Version: 20210424141136
 ||avazu.net^
 ||avazudsp.net^
 ||avazutracking.net^
+||avbdf.com^
 ||avbpaaypbe.com^
 ||stats.avedictionary.com^
 ||avencio.de^
@@ -7746,6 +7743,7 @@ Version: 20210424141136
 ||tukuru.cotta.jp^
 ||couas.com^
 ||coull.com^
+||coumie.top^
 ||councedvdvg.club^
 ||counciladvertising.net^
 ||councingcan.space^
@@ -13304,6 +13302,7 @@ Version: 20210424141136
 ||gowin01.com^
 ||gowinxp.com^
 ||goym93w5e7jz.com^
+||gozendata.com^
 ||slewvr.gp.se^
 ||promos.gpniches.com^
 ||gpr.hu^
@@ -13629,8 +13628,10 @@ Version: 20210424141136
 ||gyvxojjeamipc.com^
 ||gyzjvioumudlx.com^
 ||gz-bz.cn^
+||gz-data.com^
 ||gz06x5tqlj.com^
 ||gz51la.com^
+||gzads.com^
 ||share.gzdsw.com^
 ||5.gzfenda.com^
 ||gzjtfzs.cn^
@@ -13769,6 +13770,7 @@ Version: 20210424141136
 ||2.haoxue360.com^
 ||haoyangmao.ltd^
 ||haoyoushuo.cn^
+||haozhuangji.com^
 ||haphazarddrunk.com^
 ||hapogzu9a19m5fhe56pb.pro^
 ||happeningaxis.com^
@@ -17176,6 +17178,7 @@ Version: 20210424141136
 ||lansrv050.com^
 ||lantata.com^
 ||lantuyj.com^
+||lao9123.com^
 ||283.laobanfa.com^
 ||laobei.top^
 ||wap1.laogu.wang^
@@ -21076,6 +21079,7 @@ Version: 20210424141136
 ||o5ikm6.cn^
 ||o626b32etkg6.com^
 ||o6ek91ag15.com^
+||o7h.net^
 ||z1.o8h7d.cn^
 ||oackoubs.com^
 ||oadaheba.net^
@@ -22117,6 +22121,7 @@ Version: 20210424141136
 ||pdywlbjkeq.work^
 ||metrics.pe.com^
 ||hd.pe.fr^
+||pe8.com^
 ||peacepowder.com^
 ||peachsquat.com^
 ||peak2poem.com^
@@ -22514,6 +22519,7 @@ Version: 20210424141136
 ||pkeeper3.ru^
 ||pkgebysm.com^
 ||pkhhyool.com^
+||pkkjxs.cn^
 ||pkldrgupis.com^
 ||pkmkkjwknvf.com^
 ||accounts.pkr.com^
@@ -25429,6 +25435,7 @@ Version: 20210424141136
 ||guang.sdsgwy.com^
 ||sdsttt.com^
 ||sdxctr.com^
+||sdxitong.com^
 ||sdxkdj.cn^
 ||sdyongyan.com.cn^
 ||sdytsh.com^
@@ -26439,7 +26446,6 @@ Version: 20210424141136
 ||log.snapdeal.com^
 ||solutions.snapfi.com^
 ||snapsed.club^
-||snapsmedia.io^
 ||webhit.snd.no^
 ||snd.tc^
 ||sndkorea.co.kr^
@@ -27538,6 +27544,7 @@ Version: 20210424141136
 ||sxbhzs.net^
 ||sxbxzc.com^
 ||sxcwycsbhte.com^
+||sxdanke.cn^
 ||sxdyrq.com^
 ||sxehny.cn^
 ||sxjcjdc.cn^
@@ -27554,6 +27561,7 @@ Version: 20210424141136
 ||sxybjjz.cn^
 ||sxying.top^
 ||sxympy.com^
+||sxyunyou.cn^
 ||sxz67.com^
 ||sxzcrq.com^
 ||sxzdxiskr.com^
@@ -29959,6 +29967,7 @@ Version: 20210424141136
 ||uyueread.com^
 ||uyyimqrmxcwuo.com^
 ||uzerly.net^
+||uzhuangji.cn^
 ||uziilrlvkiy.com^
 ||uzk4umokyri3.com^
 ||uznbehyrn.com^
@@ -32331,6 +32340,7 @@ Version: 20210424141136
 ||ycreateam.cn^
 ||ycurrentjobis.biz^
 ||ycx.kim^
+||ycxjtd.com^
 ||ycxtpbfcsl.com^
 ||ydbmligdloqmqi.com^
 ||ydcpc.com^
@@ -32543,7 +32553,6 @@ Version: 20210424141136
 ||ymztsuzm.com^
 ||ynbojie.com^
 ||ynbzxh.com^
-||ad123.ynet.com^
 ||ynhuya.cn^
 ||ynjkkj.com^
 ||ynjyhm.com^
@@ -33007,6 +33016,7 @@ Version: 20210424141136
 ||appcloud2.in.zhihu.com^
 ||appcloud2.zhihu.com^
 ||event.zhihu.com^
+||udd1i5.zhihu.com^
 ||zhinengap.com^
 ||zhiong.net^
 ||zhipinbook.cn^
@@ -33034,6 +33044,7 @@ Version: 20210424141136
 ||zhouqin520.top^
 ||zhqqozqbk.com^
 ||fw.zhuaji.org^
+||zhuangjizhuli.net^
 ||hapic1.zhuangxiu22.com^
 ||1.zhuangxiu567.com^
 ||zhuangzhaibancai.cn^
@@ -33410,3 +33421,8 @@ Version: 20210424141136
 @@||ftp.bmp.ovh^
 @@||profile*.se.360.cn^
 @@||pic.iask.cn^
+@@||ad.jp^
+@@||ad.azure.com^
+@@||ad.cityu.edu.hk^
+@@||edge-enterprise.activity.windows.com^
+@@||edge.activity.windows.com^
