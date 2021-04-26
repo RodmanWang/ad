@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 9DUfQDDln6T0BmcdMceCyQ
-! Version: 202104260610
+! Checksum: gOkAv2tOYNU7ozxjqsCWvg
+! Version: 202104261210
 ! Title: EasyList
-! Last modified: 26 Apr 2021 06:10 UTC
+! Last modified: 26 Apr 2021 12:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -51456,6 +51456,7 @@ spiegel.de##div[id*="/spon_dt/"]:not(#google_ads_iframe_\/6032\/spon_dt\/homepag
 $popup,third-party,domain=cloudvideo.tv|highstream.tv|loader.to|mystream.to|play.hydracdn.network|playtube.ws|streamtape.com|strtape.cloud|supervideo.tv|upstream.to|vidcloud9.com|vidlox.me|vivo.sx|voe.sx|vupload.com
 :text^$popup,domain=zippyshare.com
 ||adf.ly/_$popup
+||animesuge.io^$popup,domain=movies7.to
 ||beap.gemini.yahoo.com^$popup,domain=mail.yahoo.com
 ||bit.ly^$popup,domain=dexerto.com|eteknix.com|gdriveplayer.us|kitguru.com|ouo.io|ouo.press|sh.st
 ||casino-x.com^*&promo$popup
@@ -51469,7 +51470,7 @@ $popup,third-party,domain=cloudvideo.tv|highstream.tv|loader.to|mystream.to|play
 ||flashx.tv^$popup,~third-party,domain=flashx.tv
 ||flixhq.net/?$popup
 ||grammarly.com^$popup,domain=smallseotools.com
-||hurawatch.com^$popup,domain=gogoanime.pro
+||hurawatch.com^$popup,domain=9anime.to|gogoanime.pro
 ||kick4ss.net/*?$popup
 ||linkshrink.net^*#^$popup,domain=linkshrink.net
 ||movies7.to/?$popup
@@ -53951,6 +53952,7 @@ joebucsfan.com##.tweet_div1
 karnalguide.com##.two_third > .push20
 shaaditimes.com##.txt[style="border: solid 1px #A299A6; background-color: #FDFCFC;"]
 bizjournals.com##.u-bg-sponsored
+bulbagarden.net##.ub-emb-bar-frame
 doodrive.com##.uk-margin > [href] > img
 pixhost.to##.under-image
 gpucheck.com##.unitBox
@@ -54055,6 +54057,7 @@ coingolive.com##[href^="https://coinext.com.br/"]
 thehackernews.com##[href^="https://go.thn.li/"]
 headfonics.com##[href^="https://headfonics.com/linkout/"]
 imagetwist.com##[href^="https://imagetwist.com/pxt/"]
+kreationnext.com##[href^="https://kreationnext.com/servers-and-hosting/"]
 noypigeeks.com##[href^="https://nypgks.com/"]
 readlightnovel.org##[href^="https://readlightnovelnew.onelink.me/"]
 darknetdaily.com##[href^="https://shop.ledger.com/"]
@@ -54066,6 +54069,7 @@ unknowncheats.me##[href^="https://www.iwantcheats.net/"]
 gamecopyworld.com,gamecopyworld.eu##[href^="https://www.kinguin.net/"]
 nwanime.tv##[href^="https://www.nutaku.net/signup/landing/"]
 ownedcore.com##[href^="https://www.ownedcore.com/forums/b.php"]
+kreationnext.com##[href^="https://www.resiproxy.net"]
 majorgeeks.com##[href^="https://www.restoro.com/"]
 bikeroar.com##[href^="https://www.roaradventures.com/"]
 upload.ee##[href^="https://www.upload.ee/click.php"]
