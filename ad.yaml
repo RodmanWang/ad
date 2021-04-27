@@ -1,6 +1,6 @@
 payload:
-#VER=20210427022248
-#TOTAL_LINES=34759
+#VER=20210427083143
+#TOTAL_LINES=34787
   - DOMAIN-SUFFIX,00-gov.cn
   - DOMAIN-SUFFIX,0024aaaa.com
   - DOMAIN-SUFFIX,003store.com
@@ -3758,6 +3758,8 @@ payload:
   - DOMAIN-SUFFIX,appjiagu.com
   - DOMAIN-SUFFIX,metrics.apple.com
   - DOMAIN-SUFFIX,securemetrics.apple.com
+  - DOMAIN-SUFFIX,supportmetrics.apple.com
+  - DOMAIN-SUFFIX,trackingshipment.apple.com
   - DOMAIN-SUFFIX,iadsdk.apple.com
   - DOMAIN-SUFFIX,banners.itunes.apple.com
   - DOMAIN-SUFFIX,iad.apple.com
@@ -7013,6 +7015,7 @@ payload:
   - DOMAIN-SUFFIX,clerrrep.com
   - DOMAIN-SUFFIX,geoip.cleveland.com
   - DOMAIN-SUFFIX,mms.cleveland.com
+  - DOMAIN-SUFFIX,cleverads.vn
   - DOMAIN-SUFFIX,cleveritics.com
   - DOMAIN-SUFFIX,clevernt.com
   - DOMAIN-SUFFIX,cleverpush.com
@@ -11979,6 +11982,7 @@ payload:
   - DOMAIN-SUFFIX,fabricww.com
   - DOMAIN-SUFFIX,fabrkrup.com
   - DOMAIN-SUFFIX,fabrouter.com
+  - DOMAIN-SUFFIX,analytics.facebook.com
   - DOMAIN-SUFFIX,pixel.facebook.com
   - DOMAIN-SUFFIX,facebruek.online
   - DOMAIN-SUFFIX,faceearlobe.com
@@ -14758,6 +14762,10 @@ payload:
   - DOMAIN-SUFFIX,hiblcom.com
   - DOMAIN-SUFFIX,tracking.hibu.com
   - DOMAIN-SUFFIX,hickunwilling.com
+  - DOMAIN-SUFFIX,data.hicloud.com
+  - DOMAIN-SUFFIX,logbak.hicloud.com
+  - DOMAIN-SUFFIX,logservice.hicloud.com
+  - DOMAIN-SUFFIX,metrics-dra.dt.hicloud.com
   - DOMAIN-SUFFIX,hicltgxzl.com
   - DOMAIN-SUFFIX,hiconversion.com
   - DOMAIN-SUFFIX,hicpm10.com
@@ -15549,6 +15557,7 @@ payload:
   - DOMAIN-SUFFIX,iclbkrgjdstqt.com
   - DOMAIN-SUFFIX,iclickcdn.com
   - DOMAIN-SUFFIX,iclive.com
+  - DOMAIN-SUFFIX,metrics.icloud.com
   - DOMAIN-SUFFIX,icmlfqdb.com
   - DOMAIN-SUFFIX,icoawhou.com
   - DOMAIN-SUFFIX,icolor8.com
@@ -18406,6 +18415,7 @@ payload:
   - DOMAIN-SUFFIX,linkclicks.com
   - DOMAIN-SUFFIX,linkconnector.com
   - DOMAIN-SUFFIX,ads.linkedin.com
+  - DOMAIN-SUFFIX,analytics.pointdrive.linkedin.com
   - DOMAIN-SUFFIX,linkeinvitable.site
   - DOMAIN-SUFFIX,linkelevator.com
   - DOMAIN-SUFFIX,linkev.com
@@ -20064,6 +20074,8 @@ payload:
   - DOMAIN-SUFFIX,sreport.mitsubishicars.com
   - DOMAIN-SUFFIX,stats.mituyu.com
   - DOMAIN-SUFFIX,gg.miued.com
+  - DOMAIN-SUFFIX,sa.api.intl.miui.com
+  - DOMAIN-SUFFIX,tracking.miui.com
   - DOMAIN-SUFFIX,hot.browser.intl.miui.com
   - DOMAIN-SUFFIX,activity.browser.intl.miui.com
   - DOMAIN-SUFFIX,adv.sec.intl.miui.com
@@ -20845,6 +20857,7 @@ payload:
   - DOMAIN-SUFFIX,mz28ismn.com
   - DOMAIN-SUFFIX,mzirmall.com
   - DOMAIN-SUFFIX,mzol7lbm.com
+  - DOMAIN-SUFFIX,metrics.mzstatic.com
   - DOMAIN-SUFFIX,mzvwhksbwnj.com
   - DOMAIN-SUFFIX,mzy2014.com
   - DOMAIN-SUFFIX,n-core-pipe.com
@@ -23426,8 +23439,11 @@ payload:
   - DOMAIN-SUFFIX,pinocularoud.site
   - DOMAIN-SUFFIX,pinpoll.com
   - DOMAIN-SUFFIX,pinresentag.info
+  - DOMAIN-SUFFIX,analytics.pinterest.com
   - DOMAIN-SUFFIX,ct.pinterest.com
   - DOMAIN-SUFFIX,log.pinterest.com
+  - DOMAIN-SUFFIX,trk.pinterest.com
+  - DOMAIN-SUFFIX,widgets.pinterest.com
   - DOMAIN-SUFFIX,pinwu123.com
   - DOMAIN-SUFFIX,pinyoux.com
   - DOMAIN-SUFFIX,pinzhitmall.com
@@ -25515,6 +25531,7 @@ payload:
   - DOMAIN-SUFFIX,requestmetrics.com
   - DOMAIN-SUFFIX,requiresdetached.com
   - DOMAIN-SUFFIX,requivalfun.club
+  - DOMAIN-SUFFIX,rereddit.com
   - DOMAIN-SUFFIX,rereegny.net
   - DOMAIN-SUFFIX,reroplittrewheck.pro
   - DOMAIN-SUFFIX,res-x.com
@@ -26272,12 +26289,17 @@ payload:
   - DOMAIN-SUFFIX,samevay.com.cn
   - DOMAIN-SUFFIX,hubmetrics.samsclub.com
   - DOMAIN-SUFFIX,metrics.samsclub.com
+  - DOMAIN-SUFFIX,bigdata.ssp.samsung.com
   - DOMAIN-SUFFIX,bldr.mkt.samsung.com
   - DOMAIN-SUFFIX,channelusa.samsung.com
+  - DOMAIN-SUFFIX,insights.samsung.com
   - DOMAIN-SUFFIX,nmetrics.samsung.com
   - DOMAIN-SUFFIX,seao.business.samsung.com
   - DOMAIN-SUFFIX,smetrics.samsung.com
+  - DOMAIN-SUFFIX,samsungadhub.com
   - DOMAIN-SUFFIX,samsungads.com
+  - DOMAIN-SUFFIX,analytics-api.samsunghealthcn.com
+  - DOMAIN-SUFFIX,analytics.samsungknox.com
   - DOMAIN-SUFFIX,business.samsungusa.com
   - DOMAIN-SUFFIX,samtrg.com
   - DOMAIN-SUFFIX,samvaulter.com
@@ -33266,10 +33288,11 @@ payload:
   - DOMAIN-SUFFIX,xiaokeaiapp.com
   - DOMAIN-SUFFIX,xiaomeihq.info
   - DOMAIN-SUFFIX,xiaomengquan.cn
-  - DOMAIN-SUFFIX,data.mistat.intl.xiaomi.com
-  - DOMAIN-SUFFIX,data.mistat.xiaomi.com
   - DOMAIN-SUFFIX,ad.xiaomi.com
+  - DOMAIN-SUFFIX,mistat.xiaomi.com
+  - DOMAIN-SUFFIX,data.mistat.intl.xiaomi.com
   - DOMAIN-SUFFIX,admob.xiaomi.com
+  - DOMAIN-SUFFIX,app.chat.xiaomi.net
   - DOMAIN-SUFFIX,xiaomiaoquan.com
   - DOMAIN-SUFFIX,w.xiaopiaoyou.com
   - DOMAIN-SUFFIX,xiaopinwo.com
@@ -33659,16 +33682,21 @@ payload:
   - DOMAIN-SUFFIX,yanbenji.cn
   - DOMAIN-SUFFIX,count.yandeg.ru
   - DOMAIN-SUFFIX,yanderthundr.fun
+  - DOMAIN-SUFFIX,appmetrica.yandex.com
   - DOMAIN-SUFFIX,clck.yandex.com
+  - DOMAIN-SUFFIX,analytics.mobile.yandex.net
   - DOMAIN-SUFFIX,awaps.yandex.net
   - DOMAIN-SUFFIX,browser-updater.yandex.net
+  - DOMAIN-SUFFIX,extmaps-api.yandex.net
   - DOMAIN-SUFFIX,adfox.yandex.ru
+  - DOMAIN-SUFFIX,adsdk.yandex.ru
   - DOMAIN-SUFFIX,an.yandex.ru
   - DOMAIN-SUFFIX,awaps.yandex.ru
   - DOMAIN-SUFFIX,bs.yandex.ru
   - DOMAIN-SUFFIX,clck.yandex.ru
   - DOMAIN-SUFFIX,informer.yandex.ru
   - DOMAIN-SUFFIX,mc.yandex.ru
+  - DOMAIN-SUFFIX,yandexadexchange.net
   - DOMAIN-SUFFIX,yangdasen.cn
   - DOMAIN-SUFFIX,a.yangshengtang123.com
   - DOMAIN-SUFFIX,img.yangshengtang123.com
