@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: RbN7bqZBmeTu0fm3C6UPsg
-! Version: 202104300002
+! Checksum: S2jOs1aDf8srwhW1NlWvDQ
+! Version: 202104300552
 ! Title: EasyList China
 ! Chinese supplement for the EasyList filters
-! Last Modified: 30 Apr 2021 00:02 UTC
+! Last Modified: 30 Apr 2021 05:52 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 ! License: https://easylist-downloads.adblockplus.org/COPYING
@@ -1211,6 +1211,8 @@ _xiuno_com_ad/
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
 ##style + .vdgdo
+###rip[href*=".taobao.com"]
+##A[href*="/hth107.com/"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
@@ -8637,8 +8639,12 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||outbrain.com^$domain=wenxuecity.com
+||tlanyan.pp.ua/wp-content/uploads/meomiao.png
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+pp.ua###id_ad_image
+2345.com###rightXieCheng
 ahuys.cc##.vddb + a
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -18281,7 +18287,7 @@ zhujib.com#@#.social-top:not(html):not(body)
 cowtransfer.com#@#.socialButton
 storm.mg#@#.social_btn
 ali213.net#@#.subscribe-container
-5dm.tv#@#.tm-share-this
+5dm.app,5dm.tv#@#.tm-share-this
 laohu8.com#@#.tweet-article
 fqsousou.com,kengso.com#@#.user-share
 @@-social-bar.$domain=mobi.yahoo.com
