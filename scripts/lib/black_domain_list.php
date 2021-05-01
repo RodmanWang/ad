@@ -273,7 +273,7 @@ return array(
     'kingsoft-office-service.com' => array(
         'abroad-ad.kingsoft-office-service.com',
     ),
-    'amap.com' => array('logs.amap.com'),
+    'amap.com' => array('logs.amap.com','dualstack-logs.amap.com'),
     'tt114.net' => array('tt114.net'), //例如http://www.tt114.net/html/tlink.html
     'taobao.com' => array(
         'ip.taobao.com',
@@ -1006,6 +1006,18 @@ return array(
         'dbc.pkkjxs.cn',
         'www.pkkjxs.cn',
         'windows.pkkjxs.cn',
+    ),
+    'actonservice.com' => array( #精简域名
+        'actonservice.com',
+    ),
+    'daraz.com' => array( # 精简域名，太长了，似乎是个电商平台
+        'daraz.com',
+    ),
+    'llnw.net' => array( # 精简域名，这是个cdn服务商，可能误杀
+        'llnw.net',
+    ),
+    'windows.com' => array( #精简域名，这个是windows推送服务？
+        'wns.windows.com',
     ),
     
     
