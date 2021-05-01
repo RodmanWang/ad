@@ -21,7 +21,7 @@ define('WILDCARD_SRC', ROOT_DIR . 'origin-files/wildcard-src-easylist.txt');
 define('WHITERULE_SRC', ROOT_DIR . 'origin-files/whiterule-src-easylist.txt');
 
 $ARR_MERGED_WILD_LIST = array(
-    'ad*.udn.com' => null,
+    'ad*.udn.com$dnstype=A|CNAME' => null,
     '*.mgr.consensu.org' => null,
     'vs*.gzcu.u3.ucweb.com' => null,
     'ad*.goforandroid.com' => null,
@@ -122,12 +122,24 @@ $ARR_MERGED_WILD_LIST = array(
     'usage*.*' => null,
     'wlmonitor*.*' => null,
     'zjtoolbar*.*' => null,
+    'engage.3m*' => null,
+    '*.actonservice.com' => null,
+    '*-cor0*.api.p001.1drv.com' => null,
+    '*33*-*.1drv.com' => null,
+    '2cnjuh34j*.com' => null,
+    'ssc.southpark*' => null,
+    'tr.*.espmp-*fr.net' => null,
+    'tdep.vacansoleil.*' => null,
+    'da.hornbach.*' => null,
+    '*us*watcab*.blob.core.windows.net' => null,
 );
 
 $ARR_REGEX_LIST = array(
     '/9377[a-z]{2}\.com$/' => null,
-    '/^(\S+\.)?ad([\d]+|m|s)?\./' => null,
-    '/^(\S+\.)?affiliat(es|ion|e)\./' => null,
+    '/^(\S+\.)?ad(s?[\d]+|m|s)?\./' => null,
+    '/^(\S+\.)?advert/$dnstype=~CNAME' => null, // TODO 覆盖面很大
+    '/^(\S+\.)?affiliat(es?[0-9a-z]*?|ion[0-9\-a-z]*?|ly[0-9a-z\-]*?)\./' => null, // fixed #406
+    '/^(\S+\.)?s?metrics\./' => null, // TODO 覆盖面很大
     '/afgr[\d]{1,2}\.com$/' => null,
     '/^(\S+\.)?analytics(\-|\.)/' => null,
     '/^(\S+\.)?counter(\-|\.)/' => null,
@@ -161,6 +173,8 @@ $ARR_REGEX_LIST = array(
     '/^(\S+\.)?e7[0-9]{2,4}\.(net|com)?$/' => null, //组合
     '/^(\S+\.)?g[1-4][0-9]{8,9}\.com?$/' => null, //批量组合
     '/^(\S+\.)?hg[0-9]{4,5}\.com?$/' => null, //批量组合
+    '/^(\S+\.)?333[1-9]{2}[0-9]{2}\.com?$/' => null, //批量组合
+    '/^(\S+\.)?5551[0-9]{3}\.com?$/' => null, //批量组合
 
     // '/^(\S+\.)?(?=.*[a-f].*\.com$)(?=.*\d.*\.com$)[a-f0-9]{15,}\.com$/' => null,
 );
@@ -207,7 +221,9 @@ $ARR_WHITE_RULE_LIST = array(
     '@@||ad.cityu.edu.hk^' => 1, // #398
     '@@||edge-enterprise.activity.windows.com^' => 1, // #401
     '@@||edge.activity.windows.com^' => 1, // #401
-    
+    '@@||tracking-protection.cdn.mozilla.net^' => 1, // #407
+    '@@||skydrivesync.policies.live.net^' => 1, // #409
+
 );
 
 //针对上游赦免规则anti-AD不予赦免的规则，即赦免名单的黑名单
@@ -266,7 +282,12 @@ while(!feof($wild_fp)){
 
     $matched = false;
     foreach($ARR_REGEX_LIST as $regex_str => $regex_row){
-        if(preg_match($regex_str, str_replace('*', '',$matches[1]))){
+        $arr_regex = explode('/$', $regex_str);
+        $final_regex = $regex_str;
+        if(count($arr_regex) > 1){
+            $final_regex = $arr_regex[0] . '/';
+        }
+        if(preg_match($final_regex, str_replace('*', '',$matches[1]))){
             $matched = true;
         }
     }
@@ -285,18 +306,27 @@ while(!feof($src_fp)){
         continue;
     }
 
-    if((substr($row, 0, 1) === '!') && (substr($row, 0, 13) === '!Total lines:')){
-        $insert_pos = $written_size;
-    }
-
-    if(!preg_match('/^\|.+?/', $row)){
+    if((substr($row, 0, 1) === '!')){
+        if(substr($row, 0, 13) === '!Total lines:'){
+            $insert_pos = $written_size;
+        }
         $written_size += fwrite($new_fp, $row);
         continue;
     }
 
+//    if(!preg_match('/^\|.+?/', $row)){
+//        $written_size += fwrite($new_fp, $row);
+//        continue;
+//    }
+
     $matched = false;
     foreach($ARR_REGEX_LIST as $regex_str => $regex_row){
-        if(preg_match($regex_str, substr(trim($row), 2, -1))){
+        $arr_regex = explode('/$', $regex_str);
+        $final_regex = $regex_str;
+        if(count($arr_regex) > 1){
+            $final_regex = $arr_regex[0] . '/';
+        }
+        if(preg_match($final_regex, substr(trim($row), 2, -1))){
             $matched = true;
             if(!array_key_exists($regex_str, $wrote_wild)){
                 $written_size += fwrite($new_fp, "${regex_str}\n");
@@ -313,7 +343,13 @@ while(!feof($src_fp)){
     foreach($arr_wild_src as $core_str => $wild_row){
         $match_rule = str_replace(array('.', '*'), array('\\.', '.*'), $core_str);
         if(!array_key_exists($core_str, $wrote_wild)){
-            $written_size += fwrite($new_fp, "||${core_str}^\n");
+            $arr_wild_sub = explode('$', $core_str);
+            if(count($arr_wild_sub) > 1){
+                $written_size += fwrite($new_fp, "||${arr_wild_sub[0]}^\$${arr_wild_sub[1]}\n");
+            }else{
+                $written_size += fwrite($new_fp, "||${core_str}^\n");
+            }
+
             $line_count++;
             $wrote_wild[$core_str] = 1;
         }
@@ -357,11 +393,20 @@ foreach($ARR_WHITE_RULE_LIST as $row => $v){
     foreach($wrote_wild as $core_str => $val){
         if(substr($core_str, 0, 1) === '/'){
             $match_rule = $core_str;
+            $arr_regex = explode('/$', $match_rule);
         }else{
             $match_rule = str_replace(array('.', '*'), array('\\.', '.*'), $core_str);
             $match_rule = "/^${match_rule}/";
         }
-        if(preg_match($match_rule, $matches[1])){
+
+
+        $final_regex = $match_rule;
+        if(count($arr_regex) > 1){
+            $final_regex = $arr_regex[0] . '/';
+        }
+
+
+        if(preg_match($final_regex, $matches[1])){
             $domain = addressMaker::extract_main_domain($matches[1]);
             if(array_key_exists($domain, $black_domain_list) ||
                 (is_array($black_domain_list[$domain]) && in_array($matches[1], $black_domain_list[$domain]))
