@@ -7,6 +7,7 @@ cd $(cd "$(dirname "$0")";pwd)
 easylist=(
   "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_15_DnsFilter/filter.txt"
   "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt"
+  "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_17_TrackParam/filter.txt"
   "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt"
 )
 
