@@ -192,42 +192,47 @@ return array(
     'bssdlbig.kugou.com' => 0, #286
     'tvzhe.com' => 0, #290
     'stats.gc.apple.com' => 0, #296
-    'img1.sj.qq.com' => 0,
-    'issuecdn.baidupcs.com' => 0,
-    'ppp.net' => 1,
-    'httpdns.n.netease.com' => 0,
-    'huoying666.com' => 0,
-    'live.simcitybuildit.com' => 0,
-    'subscription.iqiyi.com' => 0, 
-    'azureedge.net' => 0, 
-    'surge.sh' => 0,
-    'ccclub.cmbchina.com' => 0,
-    'adv.ccb.com' => 0,
-    'conac.cn' => 0,
-    'mix.sina.com.cn' => 0,
-    'jwpcdn.com' => 0,
-    'retcode.taobao.com' => 0,
-    '3975.com' => 0,
-    'air.1688.com' => 0,
-    'continuum.dds.microsoft.com' => 0,
-    'sec.resource.xiaomi.net' => 0,
-    'api.cortana.ai' => 0,
-    'mazu.3g.qq.com' => 0,
-    'umiwi.com' => 0,
-    'xmpush.xiaomi.com' => 0,
-    'doublecklick.net' => 1,
-    'issuecdn.baidupcs.com' => 0,
-    'duiba.com.cn' => 0,
-    'trib.al' => 0,
-    'ccmp.eu' => 0,
-    'alissl.ucdl.pp.uc.cn' => 0,
-    'c3pool.com' => 0,
-    'wtradv.market.xiaomi.com' => 0,
-    'update.avlyun.sec.miui.com' => 0,
-    'sugar.zhihu.com' => 0,
-    'chtbl.com' => 0,
+    'img1.sj.qq.com' => 0, #294
+    'live.simcitybuildit.com' => 0, #303
+    'subscription.iqiyi.com' => 0, #306
+    'azureedge.net' => 0, #309
+    'surge.sh' => 0, // qq group, @frank
+    'ccclub.cmbchina.com' => 0, // #313
+    'adv.ccb.com' => 0, // #316
+    'conac.cn' => 0, // #317
+    'mix.sina.com.cn' => 0, // #320
+    'jwpcdn.com' => 0, // #322
+    'retcode.taobao.com' => 0, // #312
+    '3975.com' => 0, // #326
+    'air.1688.com' => 0, // #331
+    'continuum.dds.microsoft.com' => 0, // #335
+    'sec.resource.xiaomi.net' => 0, // #328
+    'api.cortana.ai' => 0, // #338
+    'mazu.3g.qq.com' => 0, // #340
+    'umiwi.com' => 0, // #341
+    'xmpush.xiaomi.com' => 0, // #343
+    'doublecklick.net' => 1, // 拼写错误的域名，https://github.com/privacy-protection-tools/anti-AD/pull/347/files
+    'issuecdn.baidupcs.com' => 0, // #350
+    'duiba.com.cn' => 0, // #352
+    'trib.al' => 0, // #357
+    'ccmp.eu' => 0, // #365
+    'alissl.ucdl.pp.uc.cn' => 0, // #370
+    'c3pool.com' => 0, // #371
+    'wtradv.market.xiaomi.com' => 0, // #377
+    'update.avlyun.sec.miui.com' => 0, // #387
+    'sugar.zhihu.com' => 0, // #380
+    'chtbl.com' => 0, // #390
+    'huoying666.com' => 0, // #405
+
     
     
+    
+    
+
+
+
+
+
     'herokuapp.com' => -1,
     'netlify.com' => -1,
     'vidoza.net' => -1,
