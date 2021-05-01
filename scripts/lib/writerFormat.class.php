@@ -64,12 +64,12 @@ class writerFormat{
         ),	
     );
     
-    /*Surge 兼容格式的屏蔽广告规则集*/
+    /*clash 兼容格式的屏蔽广告规则集*/
     const SURGE = array(
-        'format' => '  - DOMAIN-SUFFIX,{DOMAIN}',
+        'format' => '  - \'+.{DOMAIN}\'',
         'header' => "payload:\n#VER={DATE}\n#TOTAL_LINES={COUNT}\n",
         'full_domain' => 0,
-        'name' => 'surge',
+        'name' => 'clash',
         'filename' => '../ad.yaml',
         'whitelist_attached' => array(
             'base-dead-hosts.txt' =>array(
