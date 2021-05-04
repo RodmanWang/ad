@@ -1,7 +1,7 @@
 <?php
 //white_domain_list
 //白名单机制...，白名单是
-//@date 2021年5月4日
+//@date 2018年12月23日
 //value=-1,代表失效本条规则，暂只支持单域名（针对引入外部白名单时的精确控制）,当处于strict_mode时，排除此key，单条关闭strict_mode
 //value=0,代表仅加白单条域名
 //value=1,代表其下级域名全部加白（例如3级域名，则其4级子域名全部加白）
@@ -223,19 +223,29 @@ return array(
     'sugar.zhihu.com' => 0, // #380
     'chtbl.com' => 0, // #390
     'huoying666.com' => 0, // #405
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     'iflow.uczzd.cn' => 0, // uc搞笑段子
     'm.uczzd.cn' => 0, // uc搞笑段子
     'puds.ucweb.com' => 0, // uc小游戏
-
-    
-    
-    
-    
-
-
-
-
-
+    'image.zzd.sm.cn' => 0, // uc浏览器
     'herokuapp.com' => -1,
     'netlify.com' => -1,
     'vidoza.net' => -1,
