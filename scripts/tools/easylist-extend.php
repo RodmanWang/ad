@@ -13,12 +13,12 @@ error_reporting(7);
 date_default_timezone_set('Asia/Shanghai');
 define('START_TIME', microtime(true));
 define('ROOT_DIR', dirname(__DIR__) . '/');
-define('LIB_DIR', ROOT_DIR . 'lib/');
+const LIB_DIR = ROOT_DIR . 'lib/';
 
 $black_domain_list = require_once LIB_DIR . 'black_domain_list.php';
 require_once LIB_DIR . 'addressMaker.class.php';
-define('WILDCARD_SRC', ROOT_DIR . 'origin-files/wildcard-src-easylist.txt');
-define('WHITERULE_SRC', ROOT_DIR . 'origin-files/whiterule-src-easylist.txt');
+const WILDCARD_SRC = ROOT_DIR . 'origin-files/wildcard-src-easylist.txt';
+const WHITERULE_SRC = ROOT_DIR . 'origin-files/whiterule-src-easylist.txt';
 
 $ARR_MERGED_WILD_LIST = array(
     'ad*.udn.com$dnstype=A|CNAME' => null,
@@ -138,7 +138,7 @@ $ARR_MERGED_WILD_LIST = array(
 $ARR_REGEX_LIST = array(
     '/^(\S+\.)?9377[a-z0-9]{2}\.com$/' => ['m' => '$dnstype=A'],
     '/^(\S+\.)?ad(s?[\d]+|m|s)?\./' => null,
-//    '/^(\S+\.)?advert/$dnstype=~CNAME' => null, // TODO dnstype工作不正常，暂时关闭此规则
+    '/^(\S+\.)?advert/' => ['m' => '$denyallow=alibabacorp.com|alibabadns.com|alibabacorp.sm.cn|tanx.com'],
     '/^(\S+\.)?affiliat(es?[0-9a-z]*?|ion[0-9\-a-z]*?|ly[0-9a-z\-]*?)\./' => null, // fixed #406
     '/^(\S+\.)?s?metrics\./' => null, // TODO 覆盖面很大
     '/^(\S+\.)?afgr[\d]{1,2}\.com$/' => null,
@@ -224,7 +224,7 @@ $ARR_WHITE_RULE_LIST = array(
     '@@||edge.activity.windows.com^' => 1, // #401
     '@@||tracking-protection.cdn.mozilla.net^' => 1, // #407
     '@@||skydrivesync.policies.live.net^' => 1, // #409
-
+    '@@||dxcloud.episerver.net^' => 1, // #418
 );
 
 //针对上游赦免规则anti-AD不予赦免的规则，即赦免名单的黑名单
