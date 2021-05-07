@@ -1,10 +1,11 @@
-Version: 20210507230323
-!Total lines: 35315
+Version: 20210508021159
+!Total lines: 35268
 @@||5471782.fls.doubleclick.net^
 @@||a.adwolf.ru^
 @@||a.sellpoint.net^
 @@||ac.ebis.ne.jp^
 @@||admin.dable.io^
+@@||afi-b.com^
 @@||app.adjust.com^
 @@||app.appsflyer.com^
 @@||artifactory.appodeal.com^
@@ -68,11 +69,13 @@ Version: 20210507230323
 @@||edge.activity.windows.com^
 @@||tracking-protection.cdn.mozilla.net^
 @@||skydrivesync.policies.live.net^
+@@||dxcloud.episerver.net^
 /^(\S+\.)?9377[a-z0-9]{2}\.com$/$dnstype=A
 /^(\S+\.)?ad(s?[\d]+|m|s)?\./
 @@||ads.tdbank.com^
 @@||ads.tiktok.com^
 @@||adm.10jqka.com.cn^
+/^(\S+\.)?advert/$denyallow=alibabacorp.com|alibabadns.com|alibabacorp.sm.cn|tanx.com
 /^(\S+\.)?affiliat(es?[0-9a-z]*?|ion[0-9\-a-z]*?|ly[0-9a-z\-]*?)\./
 /^(\S+\.)?s?metrics\./
 /^(\S+\.)?afgr[\d]{1,2}\.com$/
@@ -2963,54 +2966,6 @@ Version: 20210507230323
 ||adversaldisplay.com^
 ||adversalservers.com^
 ||adverserve.net^
-||advert-layer.de^
-||advertag.in^
-||advertarium.com.ua^
-||advertbox.us^
-||advertclickme.com^
-||adverti.io^
-||advertica-cdn.com^
-||advertica.ae^
-||adverticum.net^
-||advertise.com^
-||advertise.ru^
-||advertisegame.com^
-||advertisement-nhatanh.com^
-||advertisementafterthought.com^
-||advertiseru.net^
-||advertiserurl.com^
-||advertiseserve.com^
-||advertisespace.com^
-||advertiseworld.com^
-||advertiseyourgame.com^
-||advertising.com^
-||advertising365.com^
-||advertisingiq.com^
-||advertisingsex.com^
-||advertisingvalue.info^
-||advertjunction.com^
-||advertland.ru^
-||advertlane.com^
-||advertlets.com^
-||advertlink.ru^
-||advertmarketing.com^
-||advertmedias.com^
-||advertmi.ru^
-||advertnative.com^
-||advertnetworks.com^
-||advertoly.com^
-||advertom.com^
-||advertone.ru^
-||advertop.ru^
-||advertpay.net^
-||advertrtb.com^
-||advertserve.com^
-||advertshot.ru^
-||advertstar.ru^
-||advertstream.com^
-||advertte.com^
-||adverttraf.com^
-||advertur.ru^
 ||adverweb.ru^
 ||advetvy.info^
 ||advfeeds.com^
@@ -3907,6 +3862,7 @@ Version: 20210507230323
 ||andsedrit.com^
 ||echo.andumb.com^
 ||andvqrqaeu.com^
+||andyfanfan.xyz^
 ||andyhoppe.com^
 ||anekaiklan.com^
 ||anelexpres.club^
@@ -4586,6 +4542,7 @@ Version: 20210507230323
 ||audiosech.club^
 ||audit8.com^
 ||t.auditedmedia.org.au^
+||auditioneasterhelm.com^
 ||smartpixel.auditorius.ru^
 ||adfiles.auditude.com^
 ||cdn.auditude.com^
@@ -4936,8 +4893,6 @@ Version: 20210507230323
 ||bahu.xyz^
 ||baiapk.com^
 ||baichuanbi.wang^
-||advertise.baicizhan.com^
-||advertise.baicizhan.org^
 ||baidu-jxf.co^
 ||afd.baidu.com^
 ||als.baidu.com^
@@ -10533,7 +10488,6 @@ Version: 20210507230323
 ||durocount.com^
 ||durpygckli.com^
 ||wew.dushiwenxue.net^
-||advertising.dushu.io^
 ||dustycondition.com^
 ||dustyrabbits.com^
 ||dustywave.com^
@@ -15218,7 +15172,6 @@ Version: 20210507230323
 ||huonvd.cn^
 ||huosuniao.com^
 ||huovernment.club^
-||u.huoying666.com^
 ||hupsouft.net^
 ||hupuzhibo.cn^
 ||hurchasisounci.site^
@@ -23696,7 +23649,6 @@ Version: 20210507230323
 ||polmontventures.com^
 ||apps.poln.co^
 ||polobook.club^
-||advert.polonsil.ru^
 ||polyad.net^
 ||polydarth.com^
 ||polymorphicads.jp^
@@ -24445,7 +24397,6 @@ Version: 20210507230323
 ||punpisurn.site^
 ||puntsueminima.work^
 ||punxdxucmi.com^
-||advert.punyu.com^
 ||pupsotdub.com^
 ||puqer.cn^
 ||ramp.purch.com^
@@ -25809,6 +25760,7 @@ Version: 20210507230323
 ||rh1hilm7j0ae.com^
 ||rhetoricalloss.com^
 ||rhfgjld.com^
+||rhhmaq.com^
 ||rhinoseo.com^
 ||rhklutlt.com^
 ||rhkwknlpkiqb.com^
@@ -28918,6 +28870,7 @@ Version: 20210507230323
 ||swxhp.pw^
 ||swyhome.com^
 ||swzhaohuo.com.cn^
+||sx9zy.cn^
 ||sxbhzs.net^
 ||sxbxzc.com^
 ||sxcwycsbhte.com^
@@ -32181,7 +32134,6 @@ Version: 20210507230323
 ||vn88.club^
 ||vn88.com^
 ||ad-admin.vnay.vn^
-||advert-admin.vnay.vn^
 ||follow.vnay.vn^
 ||log.vnay.vn^
 ||report.vnay.vn^
@@ -33432,6 +33384,7 @@ Version: 20210507230323
 ||wxspfkln.com^
 ||wxxfqc.com^
 ||wxyn0o3xmora.com^
+||wxyun168.xyz^
 ||wy213.com^
 ||wybutary.xyz^
 ||wycji.top^
