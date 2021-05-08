@@ -1,4 +1,4 @@
-Version: 20210508170312
+Version: 20210508200433
 !Total lines: 35176
 @@||5471782.fls.doubleclick.net^
 @@||a.adwolf.ru^
@@ -75,7 +75,7 @@ Version: 20210508170312
 @@||ads.tdbank.com^
 @@||ads.tiktok.com^
 @@||adm.10jqka.com.cn^
-/^(\S+\.)?advert/$denyallow=alibabacorp.com|alibabadns.com|alibabacorp.sm.cn|tanx.com
+/^(\S+\.)?advert/$denyallow=alibabacorp.com|alibabadns.com|sm.cn|tanx.com|alibaba-inc.com
 /^(\S+\.)?affiliat(es?[0-9a-z]*?|ion[0-9\-a-z]*?|ly[0-9a-z\-]*?)\./
 /^(\S+\.)?s?metrics\./
 /^(\S+\.)?afgr[\d]{1,2}\.com$/
@@ -25730,6 +25730,7 @@ Version: 20210508170312
 ||ribtopmop.com^
 ||ric-ric-rum.com^
 ||ric.win^
+||riccol.cn^
 ||ricead.com^
 ||richard-group.com^
 ||richaudience.com^
@@ -32390,7 +32391,6 @@ Version: 20210508170312
 ||waptrick.com^
 ||wardenchamberensue.com^
 ||warfarewithdigestion.com^
-||cpm.wargaming.net^
 ||rdr.wargaming.net^
 ||warlog.ru^
 ||warmafterthought.com^
