@@ -9,6 +9,8 @@ easylist=(
   "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt"
   "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_17_TrackParam/filter.txt"
   "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt"
+  "https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt"
+  "https://curben.gitlab.io/malware-filter/urlhaus-filter.txt"
 )
 
 hosts=(
@@ -22,8 +24,6 @@ strict_hosts=(
 dead_hosts=(
   "https://raw.githubusercontent.com/notracking/hosts-blocklists-scripts/master/domains.dead.txt"
   "https://raw.githubusercontent.com/notracking/hosts-blocklists-scripts/master/hostnames.dead.txt"
-  "https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt"
-  "https://curben.gitlab.io/malware-filter/urlhaus-filter.txt"
 )
 
 rm -f ./origin-files/easylist*
