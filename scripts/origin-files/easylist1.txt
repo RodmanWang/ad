@@ -74,6 +74,8 @@
 !
 ! Section contains list of advertising networks
 !
+||cnzz.991yue.com^$third-party
+||hf.soulplp.com^$third-party
 ||angryme.cn^$third-party
 ||gzhying1.cn^$third-party
 ||kebi1.top^$third-party
@@ -1919,7 +1921,9 @@ _xiuno_com_ad/
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
 ##style + .vdgdo
+##IMG[onclick="window.open(this.url)"][src*="qq.com"]
 ##A[href*=".betbar168.net"]
+##A[href*="/nf.brushshopy.com"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 .8ox.cn
 ||lpsgc.cn^
