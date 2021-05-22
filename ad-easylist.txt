@@ -1,5 +1,5 @@
-Version: 20210522082206
-!Total lines: 35336
+Version: 20210522101319
+!Total lines: 35354
 @@||5471782.fls.doubleclick.net^
 @@||a.adwolf.ru^
 @@||a.sellpoint.net^
@@ -72,6 +72,12 @@ Version: 20210522082206
 @@||tracking-protection.cdn.mozilla.net^
 @@||skydrivesync.policies.live.net^
 @@||dxcloud.episerver.net^
+@@||static3.iask.cn^
+@@||login-ishare.iask.com.cn^
+@@||wechat.ishare.iask.com.cn^
+@@||dw.iask.com.cn^
+@@||settings-win.data.microsoft.com^
+@@||insideruser.microsoft.com^
 /^(\S+\.)?9377[a-z0-9]{2}\.com$/$dnstype=A
 /^(\S+\.)?ad(s?[\d]+|m|s)?\./
 @@||ads.tdbank.com^
@@ -13740,6 +13746,7 @@ Version: 20210522082206
 ||stats.muasamcong.gov.vn^
 ||govbeijing.cn^
 ||govbusi.info^
+||govchongqing.cn^
 ||govercomeb.club^
 ||governmentpoultry.com^
 ||governrecycling.com^
@@ -16527,6 +16534,8 @@ Version: 20210522082206
 ||jczzjx.com^
 ||ads-union.jd.com^
 ||mercury.jd.com^
+||blackhole.m.jd.com^
+||firevent.jd.com^
 ||jd01estvpr.club^
 ||jddaw.com^
 ||jdgcjx.cn^
@@ -19746,7 +19755,7 @@ Version: 20210522082206
 ||diagnostics.support.microsoft.com^
 ||ieonlinews.microsoft.com^
 ||mobile.pipe.aria.microsoft.com^
-||events.data.microsoft.com^
+||nw-umwatson.events.data.microsoft.com^
 ||redir.metaservices.microsoft.com^
 ||settings-sandbox.data.microsoft.com^
 ||settings-win-ppe.data.microsoft.com^
@@ -19756,6 +19765,7 @@ Version: 20210522082206
 ||watson.microsoft.com^
 ||telemetry.urs.microsoft.com^
 ||teredo.ipv6.microsoft.com^
+||umwatsonc.events.data.microsoft.com^
 ||v10.vortex-win.data.microsoft.com^
 ||v20.vortex-win.data.microsoft.com^
 ||vortex-sandbox.data.microsoft.com^
@@ -26597,6 +26607,7 @@ Version: 20210522082206
 ||savoryorange.com^
 ||savorystructure.com^
 ||savoybettingcustomer.com^
+||sawadeca.com^
 ||sawayn.link^
 ||stats.sawlive.tv^
 ||sawnowepage.com^
@@ -29428,7 +29439,12 @@ Version: 20210522082206
 ||cdn.tekoapis.com^
 ||tel-tel-fie.com^
 ||stats.sec.telefonica.com^
+||telegram-cn.org^
+||telegram-vip.com^
+||telegramcn.org^
 ||telegramspun.com^
+||telegramsvip.com^
+||telegrcn.org^
 ||pix.telekom.de^
 ||telemetric.dk^
 ||telemetryverification.net^
@@ -33946,6 +33962,7 @@ Version: 20210522082206
 ||xueyanshan.com^
 ||xueyongbao.com^
 ||a.xuezizhai.com^
+||xujingch.com^
 ||xujx8.com^
 ||xulizui6.com^
 ||xunhuaji.cn^
@@ -34324,6 +34341,7 @@ Version: 20210522082206
 ||yingshidaquan.cc^
 ||yingyeping.com^
 ||yinlt.com^
+||yinmofun.com^
 ||yinmong.com^
 ||yinoo.cn^
 ||yinooo.com^
