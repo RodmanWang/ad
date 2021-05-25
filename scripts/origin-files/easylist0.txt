@@ -4,7 +4,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2021-05-25T06:17:48.255Z
+! Last modified: 2021-05-25T13:32:08.575Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -19,6 +19,7 @@
 !
 !! https://a.bestcontentitem.top/warp/*?r=
 !
+||combatmootcrucial.com^
 ||declinedisobey.com^
 ||farmcrapsubsist.com^
 ||linkedgraceless.com^
@@ -1076,7 +1077,6 @@
 ||start.parimatch.com^
 ||abskursin.com^
 ||kymirasite.pro^
-||impactserving.com^
 ||nakedreel.com^
 ||caligula.pro^
 ||doublepimpads.com^
@@ -5510,6 +5510,7 @@ vkcdnservice.appspot.com^
 ||commonvivacious.com^
 ||communited.club^
 ||communits.club^
+||companycouncilbreeze.com^
 ||compartmentnutsnovember.com^
 ||compensess.club^
 ||compensions.pro^
@@ -7015,6 +7016,7 @@ vkcdnservice.appspot.com^
 ||fifteenprefixselfemployed.com^
 ||fifteenthfeeding.com^
 ||fifteenthprohibition.com^
+||fiftyunderstood.com^
 ||filamentrectificationsetback.com^
 ||filetarget.com^
 ||filetarget.net^
@@ -8461,6 +8463,7 @@ vkcdnservice.appspot.com^
 ||kmqkdhqaqt.com^
 ||kmuvaerfumy.com^
 ||kneadbewitch.com^
+||kneestep.com^
 ||kneetournament.com^
 ||kniferasatte.info^
 ||knivestuitionconsequence.com^
@@ -9702,6 +9705,7 @@ vkcdnservice.appspot.com^
 ||notifypicture.info^
 ||notifysrv.com^
 ||notionnalisent.xyz^
+||notorietycheerypositively.com^
 ||notorietyharvest.com^
 ||noughttrustthreshold.com^
 ||nounstrenuous.com^
@@ -14989,6 +14993,7 @@ vkcdnservice.appspot.com^
 ||imp*.tradedoubler.com^
 ||impactradius-go.com^
 ||impactradius.com^
+||impactserving.com^
 ||impeacknow.xyz^
 ||implix.com^
 ||impore.com^
@@ -24049,7 +24054,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||gostats.org^
 ||gotrk.net^
 ||granify.com^
-||group-ib.ru^
 ||grumrt.com^
 ||gweini.com^
 ||gwmtracking.com^
@@ -30816,6 +30820,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ! Source: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/TurkishFilter/sections/adservers.txt
 !
 !
+||youtubex.top^
 ||inegolreklam.net^
 ||reklam8.net^
 ||api.adnsafe.org^
