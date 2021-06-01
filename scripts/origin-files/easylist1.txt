@@ -76,12 +76,11 @@
 !
 ||youqunjx.com^$third-party
 ||koudaiyundong.com^$third-party
-||muxingkj.com^$third-party
-||yeyemo4.com^$third-party
-||3336637.com^$third-party
-||3332899.com^$third-party
+||muxingkj.com^$third-party,image
+||yeyemo4.com^$third-party,image
+||3336637.com^$third-party,image
+||3332899.com^$third-party,image
 ||tu2.taohuaimg.com^$third-party
-||tinychinacdnweb.qiniu.com.w.kunlunno.com^
 ||mg.listc.cn^$third-party
 ||mimg.hicooer.cn^$third-party
 ||mscs.svaeuzh.cn^$third-party
@@ -523,6 +522,8 @@ _click*(com?
 !
 ! Section contains rules for specific websites
 !
+boniu123.cc##.left_side
+boniu123.cc##.right_side
 downsx.net##.adbox
 tw.news.yahoo.com###module-mktBanner
 ||jd.com/ddimg/$domain=bimiacg.net
