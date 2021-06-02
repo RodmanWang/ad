@@ -72,6 +72,10 @@ $removeparam=yclid
 ||pixel.adsafeprotected.com/services/pub?$removeparam=wr
 ||pixel.adsafeprotected.com/services/pub?$removeparam=sr
 ||pixel.adsafeprotected.com/services/pub?$removeparam=url
+! Ads tracking
+||cam4.com^$removeparam=act
+||cam4.com^$removeparam=suid
+||cam4.com^$removeparam=showSignupPopup
 !---------------------------------------------------------------------------!
 !-------------- Whitelist ------------------------------------------------------!
 !---------------------------------------------------------------------------!
@@ -87,6 +91,7 @@ $removeparam=yclid
 @@||t.send.vt.edu/r/?id=$removeparam=utm_medium
 @@||t.send.vt.edu/r/?id=$removeparam=utm_campaign
 ! https://github.com/AdguardTeam/AdguardFilters/issues/52925
+@@||przegladsportowy.pl/*&srcc=ucs$removeparam
 @@||auto-swiat.pl/*&srcc=ucs$removeparam
 @@||komputerswiat.pl/*&srcc=ucs$removeparam
 @@||noizz.pl/*&srcc=ucs$removeparam
