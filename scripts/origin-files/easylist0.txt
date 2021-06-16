@@ -4,7 +4,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2021-06-16T06:04:42.849Z
+! Last modified: 2021-06-16T13:59:08.072Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -19,6 +19,8 @@
 !
 !! https://a.bestcontentitem.top/warp/*?r=
 !
+||zwtvcdnb.com^
+||rontent.powvibeo.cc^
 ||revoltprohibit.com^
 ||therapistpopulationcommentary.com^
 ||cdn.allsportsflix.best^
@@ -4602,6 +4604,7 @@ vkcdnservice.appspot.com^
 ||becomesday.club^
 ||becominggland.com^
 ||bedaccustom.com^
+||bedbwgjjpxiuox.com^
 ||bedfundsevents.com^
 ||bedrapiona.com^
 ||bedrooming.club^
@@ -11765,6 +11768,7 @@ vkcdnservice.appspot.com^
 ||smenqskfmpfxnb.bid^
 ||smigro.info^
 ||smilingpilgrim.com^
+||smjdkmvhar.com^
 ||smjhzmln.com^
 ||smokedenforcementranch.com^
 ||smokerdecoy.com^
@@ -12748,6 +12752,7 @@ vkcdnservice.appspot.com^
 ||uscpn0c485wn.com^
 ||useconoming.club^
 ||usedbreat.club^
+||usemarketings.com^
 ||usemyreferral.link^
 ||usenet-nl.top^
 ||usenetbombastic.cyou^
@@ -16901,6 +16906,7 @@ vkcdnservice.appspot.com^
 ! Source: https://raw.githubusercontent.com/easylist/easylist/master/easylist/easylist_thirdparty.txt
 !
 ||1080872514.rsc.cdn77.org^
+||1675450967.rsc.cdn77.org^
 ||a.livesportmedia.eu^
 ||a.ucoz.net^
 ||ad.about.co.kr^
@@ -18127,6 +18133,8 @@ vkcdnservice.appspot.com^
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||srmdata.com^
+||eu.groupondata.com^
 ||beacon.digima.com^
 ||ac.miovp.com^
 ||quant.jp^
@@ -24546,7 +24554,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||oneimpress.io^
 ||onetag.io^
 ||oniad.com^
-||onlinepbx.ru^
 ||openlog.in^
 ||opstag.com^
 ||optimizelydata.com^
@@ -24700,7 +24707,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||sprinklecontent.com^
 ||spycounter.net^
 ||sqate.io^
-||srmdata.com^
 ||srv1010elan.com^
 ||ssm.codes^
 ||stackadapt.com^
@@ -32533,8 +32539,8 @@ charlestownwyllie.oaklawnnonantum.com^
 !
 ! Title: hostsVN
 ! Description: The filter contains ad and tracking networks in Vietnam.
-! Last modified: 16 Jun 2021 10:23 UTC+7
-! OriginalVersion: 2106161023
+! Last modified: 16 Jun 2021 15:21 UTC+7
+! OriginalVersion: 2106161521
 ! Blocked: 870 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
@@ -33365,6 +33371,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ! Source name: EasyList China ad servers
 ! Source: https://easylist-downloads.adblockplus.org/easylistchina.txt
 !
+||shenzhengov.work^
 ||00-gov.cn^
 ||0024aaaa.com^
 ||008844.cc^
@@ -36056,6 +36063,11 @@ charlestownwyllie.oaklawnnonantum.com^
 ||runkao.net^
 ||stunninglover.com^
 ||watakaw133.xyz^
+||lrwgc.com^
+||aigzk.com^
+||mrzhifu.net^
+||bjzshy.cn^
+||whbhsoft.cn^
 ||01tn.cn^
 ||027whht.com^
 ||0316dieroxiemzfjwmapk.xyz^
