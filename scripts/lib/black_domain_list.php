@@ -1028,9 +1028,19 @@ return array(
         'telegramsvip.com',
         'www.telegramsvip.com',
     ),
+    'ucweb.com' => array( // #442
+        'px-intl.ucweb.com',
+        'gjapplog.ucweb.com',
+    ),
+    'tradplus.cn' => array( // #444
+        'tradplus.cn',
+    ),
+    'tradplus.com' => array( // #444
+        'tradplus.com',
+    ),
     
     
-    
+
     
     // 批量添加域名
     '0202.com.tw' =>array('0202.com.tw', 'www.0202.com.tw'),
@@ -1596,6 +1606,8 @@ return array(
     'uc.cn' => array( // dns日志提取
         'coral-task.uc.cn',
         'applogios.uc.cn', // uc log
+        'gjapplog.uc.cn', // #442
+        'applog.ucdns.uc.cn', // #442
     ),
     'sm.cn' => array( // dns日志提取
         'huichuan-mc.sm.cn',
