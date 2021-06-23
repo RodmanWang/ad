@@ -74,6 +74,7 @@
 ||geoloc*.geo20120530.com^
 ||geoloc*.geostats.ovh^
 ||geoloc*.geovisite.ovh^
+||gmx.*^$removeparam=mc
 ||gonews*.net^
 ||gscounters.*.gigya.com^
 ||hits-*.iubenda.com^
@@ -93,6 +94,8 @@
 ||log*-*.tiktokv.com^
 ||log-*.previewnetworks.com^
 ||logger-*.dailymotion.com^
+||lotto.gmx.*^$removeparam=advertisementId
+||lotto.gmx.*^$removeparam=partnerId
 ||lt*.tritondigital.com^
 ||lts*.qq.com^*.ts?index=$media,redirect=noopmp3-0.1s,domain=qq.com
 ||marketplace-ios-*.hyprmx.com^
@@ -130,6 +133,7 @@
 ||s*.web.flashx.co^
 ||sam*.baby-kingdom.com^
 ||same*.stockstar.com^
+||shopping.gmx.*^$removeparam=origin
 ||sock*-goguardian.pusher.com^
 ||ssh.*.com^*!$script,third-party
 ||ssp*.rtb.beeline.ru^
