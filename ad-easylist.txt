@@ -1,5 +1,5 @@
-Version: 20210627200635
-!Total lines: 35844
+Version: 20210627214034
+!Total lines: 35733
 @@||5471782.fls.doubleclick.net^
 @@||a.adwolf.ru^
 @@||a.sellpoint.net^
@@ -79,12 +79,15 @@ Version: 20210627200635
 @@||dw.iask.com.cn^
 @@||settings-win.data.microsoft.com^
 @@||insideruser.microsoft.com^
+@@||metrics.vrch.at^
+@@||trackings.post.japanpost.jp^
+@@||track.aliexpress.com^
 /^(\S+\.)?9377[a-z0-9]{2}\.com$/$dnstype=A
 /^(\S+\.)?ad(s?[\d]+|m|s)?\./
 @@||ads.tdbank.com^
 @@||ads.tiktok.com^
 @@||adm.10jqka.com.cn^
-/^(\S+\.)?advert/$denyallow=alibabacorp.com|alibabadns.com|sm.cn|tanx.com|alibaba-inc.com
+/^(\S+\.)?advert/$denyallow=alibabacorp.com|alibabadns.com|sm.cn|tanx.com|alibaba-inc.com|tmall.com|taobao.com
 /^(\S+\.)?affiliat(es?[0-9a-z]*?|ion[0-9\-a-z]*?|ly[0-9a-z\-]*?)\./
 /^(\S+\.)?s?metrics\./
 /^(\S+\.)?afgr[\d]{1,2}\.com$/
@@ -98,8 +101,6 @@ Version: 20210627200635
 /^(\S+\.)?track(ing)?\./
 @@||tracking.epicgames.com^
 @@||track.sendcloud.org^
-/^(\S+\.)?tongji\./
-@@||tongji.*kuwo.cn^
 /^(\S+\.)?adservice\.google\./
 /^(\S+\.)?d[\d]+\.sina(img)?(\.com)?\.cn/
 /^(\S+\.)?sax[\dns]?\.sina\.com\.cn/
@@ -439,7 +440,6 @@ Version: 20210627200635
 ||16k6.com^
 ||170yy.com^
 ||1711811.com^
-||stat.v.17173.com^
 ||1740f665a91b68.com^
 ||175bar.com^
 ||176um.com^
@@ -561,7 +561,6 @@ Version: 20210627200635
 ||1xsultan.com^
 ||1yqbp.com^
 ||200218.com^
-||2005net.net^
 ||200ps.com^
 ||200stran.ru^
 ||200summit.com^
@@ -592,7 +591,6 @@ Version: 20210627200635
 ||m.21haodianmt.com^
 ||y.21haodianmt.com^
 ||dm.21hubei.com^
-||tj.21ic.com^
 ||21kk.cc^
 ||21sexturycash.com^
 ||220efda3143.com^
@@ -770,9 +768,6 @@ Version: 20210627200635
 ||bdcode.35d1.com^
 ||35d59588f15966.com^
 ||35kds.com^
-||s.360.cn^
-||s.so.360.cn^
-||s.union.360.cn^
 ||stat.m.360.cn^
 ||tf.360.cn^
 ||mclean.f.360.cn^
@@ -782,7 +777,6 @@ Version: 20210627200635
 ||360adshost.com^
 ||360direct.click^
 ||xne1ocient87zxz.360doc.cn^
-||webservice.360doc.com^
 ||360doo.com^
 ||hao.360hyzj.com^
 ||360i.com^
@@ -857,7 +851,6 @@ Version: 20210627200635
 ||uu1.3gu.com^
 ||3hbox.com^
 ||indieclick.3janecdn.com^
-||3jia5.com^
 ||3kbktygzr5.ru^
 ||3kingclub.com^
 ||3l4r8d61yz.com^
@@ -1007,7 +1000,6 @@ Version: 20210627200635
 ||51juejinjie.com.cn^
 ||51jumintong.com^
 ||m1.51kaowang.com^
-||51la.net^
 ||51maiwanju.com^
 ||51mld.cn^
 ||51mypc.cn^
@@ -1029,7 +1021,6 @@ Version: 20210627200635
 ||tracker.520call.me^
 ||520meirenyu.com^
 ||520xiaojin.com^
-||5251.net^
 ||525cm.com^
 ||5269120.com^
 ||526d.com^
@@ -1049,7 +1040,6 @@ Version: 20210627200635
 ||538b5d8f303be.com^
 ||5399.com^
 ||53gem.com^
-||53kf.com^
 ||54ca10abaa788.com^
 ||54kefu.net^
 ||55.la^
@@ -1066,7 +1056,6 @@ Version: 20210627200635
 ||55kk.tv^
 ||55labs.com^
 ||x.55peixun.com^
-||sp.qf.56.com^
 ||560378.com^
 ||563015cf3d.com^
 ||563217.com^
@@ -1111,7 +1100,6 @@ Version: 20210627200635
 ||5dydk.com^
 ||5e01f27136.com^
 ||5e6lud.cn^
-||5etv.com^
 ||5f6dmzflgqso.com^
 ||5fst22.cn^
 ||banner.5giay.vn^
@@ -1279,7 +1267,6 @@ Version: 20210627200635
 ||7527v.cn^
 ||7540.com^
 ||7651d44da06c.com^
-||stats.766.com^
 ||7676.com^
 ||76aede7d9af.com^
 ||76e.org^
@@ -1456,7 +1443,6 @@ Version: 20210627200635
 ||8c89e876bf0.com^
 ||8c9cc6d2b0e13.com^
 ||8c9cz5kp0o.com^
-||8cnd.com^
 ||8coins.net^
 ||8d6lbsvg3qkl.com^
 ||8dfaa2dc76855.com^
@@ -2468,7 +2454,6 @@ Version: 20210627200635
 ||adnium.com^
 ||adnmore.co.kr^
 ||adnoble.com^
-||a-m-s.adnonstop.com^
 ||adnova.ru^
 ||adnow.cc^
 ||adnow.com^
@@ -3382,7 +3367,6 @@ Version: 20210627200635
 ||aionfavoura.club^
 ||vhsrwd.aip24.pl^
 ||atiws.aipai.com^
-||mlog.aipai.com^
 ||aiphotogram.club^
 ||aipofeem.net^
 ||aipu.mobi^
@@ -4535,7 +4519,6 @@ Version: 20210627200635
 ||atoultou.com^
 ||atovub.com^
 ||atp.io^
-||atpanel.com^
 ||atraxio.com^
 ||atresadvertising.com^
 ||atrinsic.com^
@@ -4955,25 +4938,16 @@ Version: 20210627200635
 ||caclick.baidu.com^
 ||cb.baidu.com^
 ||cbjs.baidu.com^
-||cir-smart.baidu.com^
 ||cm.baidu.com^
 ||conf.international.baidu.com^
 ||cpro.baidu.com^
-||cpu.baidu.com^
-||crs.baidu.com^
 ||eclick.baidu.com^
 ||eduad.baidu.com^
 ||eiv.baidu.com^
-||fcm.baidu.com^
-||goutong.baidu.com^
 ||hao123union.baidu.com^
 ||hm.baidu.com^
-||imgstat.baidu.com^
-||log.music.baidu.com^
-||lxbjs.baidu.com^
 ||mobads.baidu.com^
 ||mountain.zhidao.baidu.com^
-||nsclick.baidu.com^
 ||plugin.mobopay.baidu.com^
 ||pos.baidu.com^
 ||usp1.baidu.com^
@@ -4998,7 +4972,6 @@ Version: 20210627200635
 ||baiduyubaidu.com^
 ||baifendian.com^
 ||baikalize.com^
-||stat.baike.com^
 ||baileyadopted.com^
 ||baileycommaserum.com^
 ||baimuyuan.com.cn^
@@ -5284,7 +5257,6 @@ Version: 20210627200635
 ||trck.bdi-services.de^
 ||ecma.bdimg.com^
 ||ecmb.bdimg.com^
-||bdp.cn^
 ||bdpuaw.com^
 ||cpro.bdrmb.cn^
 ||bdros.com^
@@ -5776,7 +5748,6 @@ Version: 20210627200635
 ||bit-ad.com^
 ||bitads.io^
 ||bitadv.co^
-||carstat.bitauto.com^
 ||stats.bitban.com^
 ||bitbeat7.com^
 ||bitclub.network^
@@ -5846,7 +5817,6 @@ Version: 20210627200635
 ||bjhjw.com.cn^
 ||bjhmdy.vip^
 ||bjhuhangjy.com^
-||bjmantis.net^
 ||bjmxcy.cn^
 ||bjpengyouhui.com^
 ||bjpwv.com^
@@ -6051,7 +6021,6 @@ Version: 20210627200635
 ||bobblewrite.com^
 ||bobi-bobi.info^
 ||bobi-mobi.info^
-||bobo.com^
 ||bobrilla.com^
 ||bodapet.com^
 ||bodaybo.net^
@@ -6383,7 +6352,6 @@ Version: 20210627200635
 ||btemegxbnalq.com^
 ||btez8.xyz^
 ||i.btg360.com.br^
-||s.btime.com^
 ||btloader.com^
 ||btmp4.net^
 ||btnativedirect.com^
@@ -6735,7 +6703,6 @@ Version: 20210627200635
 ||views.cancan.ro^
 ||canddi.com^
 ||candid.zone^
-||count.candou.com^
 ||caneswindfallquiver.com^
 ||cangnews.com^
 ||cangshu.info^
@@ -6920,7 +6887,6 @@ Version: 20210627200635
 ||ccscserver.com^
 ||cctg.cc^
 ||cctole.com^
-||imall.cctv.com^
 ||cctvgb.com.cn^
 ||ccuyuna.cn^
 ||cczuxie.com^
@@ -7229,7 +7195,6 @@ Version: 20210627200635
 ||cherniy2sviter11j.com^
 ||cherriesobituary.com^
 ||chersoat.com^
-||pv.cheshi.com^
 ||chesscherry.com^
 ||chesscolor.com^
 ||chestors.com^
@@ -7388,7 +7353,6 @@ Version: 20210627200635
 ||cietypostcoa.top^
 ||cifenqi.com^
 ||cifree.xyz^
-||cig.com.cn^
 ||cigarethalreads.fun^
 ||cigaretteprovenaffected.com^
 ||cigarettywu.club^
@@ -8331,7 +8295,6 @@ Version: 20210627200635
 ||cnlhg.cn^
 ||cnliken.com^
 ||jsf.cnlinfo.net^
-||stat.cnmo.com^
 ||mms.cnn.com^
 ||logg4u.cnnd.vn^
 ||sharefb.cnnd.vn^
@@ -8352,7 +8315,6 @@ Version: 20210627200635
 ||cntdy.mobi^
 ||cntingyun.com^
 ||cntrafficpro.com^
-||imall.cntv.cn^
 ||cnwywgyfrm.com^
 ||cnxad.com^
 ||cnxad.net^
@@ -9026,13 +8988,11 @@ Version: 20210627200635
 ||cqjjlsy.com^
 ||cqlupb.com^
 ||cqmjjx.cn^
-||cbjg.cqnews.net^
 ||phpad.cqnews.net^
 ||c.cqpsf.cn^
 ||v.cqpsf.cn^
 ||cqshaseng.com^
 ||cquotient.com^
-||stat.cqwb.com.cn^
 ||cqyhd.com^
 ||cqyirsc.com^
 ||cr-brands.net^
@@ -9291,7 +9251,6 @@ Version: 20210627200635
 ||cutescale.online^
 ||cuteturkey.com^
 ||cuttuberaxis.com^
-||stat.cutv.com^
 ||cux.io^
 ||st.cv46.ru^
 ||cvdow.com^
@@ -9497,7 +9456,6 @@ Version: 20210627200635
 ||dana123.com^
 ||dancemistake.com^
 ||k1.dancihu.com^
-||zndsssp.dangbei.net^
 ||dangerinsignificantinvent.com^
 ||dangerprickly.com^
 ||danilidi.ru^
@@ -9521,7 +9479,6 @@ Version: 20210627200635
 ||dapperfloor.com^
 ||daprocessary.club^
 ||dapxl.com^
-||log.daqi.com^
 ||daraz.com^
 ||darcyhi.com^
 ||darersan.co^
@@ -9910,7 +9867,6 @@ Version: 20210627200635
 ||dev4enki.com^
 ||devatics.com^
 ||devatics.io^
-||develenv.com^
 ||developerity.com^
 ||developermedia.com^
 ||developingstripes.com^
@@ -10660,9 +10616,6 @@ Version: 20210627200635
 ||js.duotegame.com^
 ||gt.duowan.com^
 ||market.duowan.com^
-||other.v.duowan.com^
-||playstats.v.duowan.com^
-||stats.v.duowan.com^
 ||vupload.duowan.com^
 ||duper8flash.com^
 ||dupinpu.com^
@@ -10765,6 +10718,7 @@ Version: 20210627200635
 ||dzsstye.com^
 ||dzubavstal.com^
 ||dzxwnews.com^
+||dzxzx.cn^
 ||e-click.jp^
 ||partner.e-conomic.com^
 ||e-contenta.com^
@@ -10802,7 +10756,6 @@ Version: 20210627200635
 ||e9c1khhwn4uf.com^
 ||e9emh.cn^
 ||ea1abaf867.com^
-||stat.ea3w.com^
 ||ea978ca12bb65.com^
 ||eabids.com^
 ||eacdn.com^
@@ -10843,7 +10796,6 @@ Version: 20210627200635
 ||easiesttangle.com^
 ||easou.com^
 ||easternpush.xyz^
-||bdstatic.eastmoney.com^
 ||cp2.eastmoney.com^
 ||emdcadvertise.eastmoney.com^
 ||same.eastmoney.com^
@@ -10866,7 +10818,6 @@ Version: 20210627200635
 ||easyhitcounters.com^
 ||easyhits4u.com^
 ||easyinline.com^
-||easyliao.com^
 ||easylist-to.xyz^
 ||easymarketcrs.it^
 ||easyresearch.se^
@@ -11125,7 +11076,6 @@ Version: 20210627200635
 ||ejfuh.com^
 ||ejhijgfghbeeidddadb.ru^
 ||e.ejiakm.net^
-||ejieban.com^
 ||ejin56.com^
 ||ejirytuw.xyz^
 ||ejmovec.ru^
@@ -11306,7 +11256,6 @@ Version: 20210627200635
 ||enerableoffi.club^
 ||energeticexample.com^
 ||energeticladybug.com^
-||count.enet.com.cn^
 ||enflaquat.xyz^
 ||enfreine.com^
 ||enfvikirzwt.com^
@@ -13172,7 +13121,6 @@ Version: 20210627200635
 ||gangstsurv.club^
 ||jiaoben.ganji.cn^
 ||ganjituiguang.ganji.com^
-||apistat.gao7.com^
 ||gaobata.com^
 ||images8.gaotie.cn^
 ||bdad.gaotie.net^
@@ -14608,6 +14556,7 @@ Version: 20210627200635
 ||hdfdm.com^
 ||hditers.com^
 ||hdjxmf.com^
+||hdketang.cn^
 ||hdminfeng.com^
 ||hdmtools.com^
 ||hdpreview.com^
@@ -14672,7 +14621,6 @@ Version: 20210627200635
 ||hebhec.cn^
 ||hebiichigo.com^
 ||hebkb.cn^
-||stat.hebnews.cn^
 ||hebzycw.com^
 ||hechaocheng.cn^
 ||heckagny.com^
@@ -14885,7 +14833,6 @@ Version: 20210627200635
 ||hihifenxiang.com^
 ||hihufu.cn^
 ||cdn.hiido.cn^
-||hiido.com^
 ||log.hiiir.com^
 ||hikeheoratth.info^
 ||hikin.online^
@@ -15023,7 +14970,6 @@ Version: 20210627200635
 ||hktedu.site^
 ||hktv10.com^
 ||hkv06j2p7pof.com^
-||stat.hkwb.net^
 ||hlads.com^
 ||hlcnzz.com^
 ||hldwmly.com^
@@ -15233,7 +15179,6 @@ Version: 20210627200635
 ||hoursesinc.club^
 ||housandq.club^
 ||adadmin.house365.com^
-||stat.house365.com^
 ||houseencircledisguised.com^
 ||admd.housefun.com.tw^
 ||housejomadkc.com^
@@ -15721,7 +15666,6 @@ Version: 20210627200635
 ||cdgfa.ifeng.com^
 ||deliver.ifeng.com^
 ||qcvf.ifeng.com^
-||stadig.ifeng.com^
 ||ztyumn.ifeng.com^
 ||iaclick.ifeng.com^
 ||avideo.ifengcdn.com^
@@ -15792,7 +15736,6 @@ Version: 20210627200635
 ||ijdjvaa.pro^
 ||cmplay.did.ijinshan.com^
 ||mlb.did.ijinshan.com^
-||stat.ijinshan.com^
 ||union.ijinshan.com^
 ||tj.ijinshan.com^
 ||ijldfpgu.biz^
@@ -15877,7 +15820,6 @@ Version: 20210627200635
 ||imetrix.it^
 ||img-c.net^
 ||img-perli.com^
-||stat.img-space.com^
 ||ak.imgaft.com^
 ||ak1.imgaft.com^
 ||imgcdnbet.com^
@@ -16120,7 +16062,6 @@ Version: 20210627200635
 ||infra.systems^
 ||infrashift.com^
 ||infvb.com^
-||cnpc.infzm.com^
 ||ingage.tech^
 ||ingeliteral.pro^
 ||ingenioustech.biz^
@@ -16436,7 +16377,6 @@ Version: 20210627200635
 ||iqcontentplatform.de^
 ||iqdata.ai^
 ||iqfp1.com^
-||msg.iqiyi.com^
 ||t7z.cupid.iqiyi.com^
 ||iqiyi.kim^
 ||iqiyi.pub^
@@ -16496,6 +16436,7 @@ Version: 20210627200635
 ||iskkrmwivxfmdjwxme.bid^
 ||islamclick.ru^
 ||islandofadvert.com^
+||isles.cn^
 ||ismatlab.com^
 ||ismlks.com^
 ||ismtampsshad.icu^
@@ -16570,7 +16511,6 @@ Version: 20210627200635
 ||itruni.com^
 ||itrustzone.site^
 ||itsibdi.info^
-||itsmore.cn^
 ||stats.itsol.it^
 ||itteholm.site^
 ||ittorchicer.com^
@@ -16626,7 +16566,6 @@ Version: 20210627200635
 ||ixiunv.com^
 ||ixnp.com^
 ||iy.com.cn^
-||count.iyaxin.com^
 ||iyfnzgb.com^
 ||iyfsearch.com^
 ||iygac.com^
@@ -16738,7 +16677,6 @@ Version: 20210627200635
 ||jbyy010.com^
 ||jscode.jbzj.com^
 ||mm.jbzj.com^
-||stat.jc001.cn^
 ||jc743hbc6.info^
 ||jcaik.com^
 ||jcboloni.cn^
@@ -17745,7 +17683,6 @@ Version: 20210627200635
 ||kneeansweras.com^
 ||kneestep.com^
 ||kneetournament.com^
-||knet.cn^
 ||knewy.com^
 ||kniferasatte.info^
 ||knittedcourthouse.com^
@@ -17911,7 +17848,6 @@ Version: 20210627200635
 ||1.kuaidiwo.cn^
 ||kuaidube.cn^
 ||kuaipaobiaoju.com^
-||kuaishang.cn^
 ||kuaiyan.com^
 ||pv.kuaizhan.com^
 ||kuaizitech.com^
@@ -18632,7 +18568,6 @@ Version: 20210627200635
 ||rad.live.com^
 ||ssw.live.com^
 ||watson.live.com^
-||live800.com^
 ||livead.jp^
 ||liveadexchanger.com^
 ||liveadoptimizer.com^
@@ -18883,7 +18818,6 @@ Version: 20210627200635
 ||loopredsglen.com^
 ||lootynews.com^
 ||loout.top^
-||looyu.com^
 ||lopfly.com^
 ||lophaszip.com^
 ||lopiner.ru^
@@ -18991,7 +18925,6 @@ Version: 20210627200635
 ||ltcprtc.com^
 ||ltcraft.ru^
 ||ltdome.com^
-||pv.ltn.com.tw^
 ||lubedlegionpea.com^
 ||lubowitz.biz^
 ||lubricantentrance.com^
@@ -19306,7 +19239,6 @@ Version: 20210627200635
 ||mallowsmother.com^
 ||cdn.malokacha.club^
 ||malpacascal.space^
-||statis1.mama.cn^
 ||mamamiyu.com^
 ||mamihlapinatana.xyz^
 ||mammaevict.com^
@@ -19794,7 +19726,6 @@ Version: 20210627200635
 ||meilides.com^
 ||meinlist.com^
 ||tk.meinprospekt.de^
-||meiqia.com^
 ||meishi0554.com^
 ||meishiba.com.cn^
 ||crayon.meishichina.com^
@@ -20047,7 +19978,6 @@ Version: 20210627200635
 ||midootib.net^
 ||client.midosoo.com^
 ||midpopedge.com^
-||miduoke.net^
 ||miedinherit.top^
 ||mieru-ca.com^
 ||miesobserv.fun^
@@ -20672,7 +20602,6 @@ Version: 20210627200635
 ||mpwe.net^
 ||mqgpo.com^
 ||content.mql5.com^
-||stat.mql5.com^
 ||mr-rank.de^
 ||mr2cnjuh34jb.com^
 ||mr5aqoqlegsp.com^
@@ -20744,8 +20673,6 @@ Version: 20210627200635
 ||mtdatahaba.rocks^
 ||mtecso.online^
 ||mtezigrrabk.com^
-||log.mtime.cn^
-||log2.mtime.cn^
 ||mtlkwvaybo.com^
 ||mtrack.nl^
 ||mtracking.com^
@@ -20865,7 +20792,7 @@ Version: 20210627200635
 ||mxwezmtyd.com^
 ||my-adv.ru^
 ||my-hanson.com^
-||my.my-hr.cn^
+||my-hr.cn^
 ||my-img.ru^
 ||my-ranking.de^
 ||my-stats.info^
@@ -20938,7 +20865,6 @@ Version: 20210627200635
 ||mykaren.ru^
 ||mykhtesikvuz.com^
 ||mykinotochka.ru^
-||mylikechat.com^
 ||mylinkbox.com^
 ||images.mylot.com^
 ||mynagor.com^
@@ -21903,7 +21829,6 @@ Version: 20210627200635
 ||novostimira.biz^
 ||novostisporta.info^
 ||novwolf.com^
-||cpms.now.com^
 ||party-vqgdyvoycc.now.sh^
 ||minero-proxy-01.now.sh^
 ||minero-proxy-02.now.sh^
@@ -21995,7 +21920,6 @@ Version: 20210627200635
 ||nszmz.com^
 ||nta1vb6cdlrl.com^
 ||ntadnddfgogpse.com^
-||ntalker.com^
 ||ntdvjlvau.com^
 ||ntedporchite.info^
 ||ntent.com^
@@ -22603,7 +22527,6 @@ Version: 20210627200635
 ||st.onlygip.tech^
 ||onlyjugpub.com^
 ||btn.onlylady.com^
-||olpv.onlylady.com^
 ||onlymega.com^
 ||onlyshow.top^
 ||onmarketer.net^
@@ -22710,7 +22633,7 @@ Version: 20210627200635
 ||opt-n.net^
 ||opt8.co^
 ||optad360.io^
-||optaim.com^
+||imp.optaim.com^
 ||opteama.com^
 ||opten.hu^
 ||optiads.org^
@@ -22721,7 +22644,6 @@ Version: 20210627200635
 ||optimatic.com^
 ||optimierung-der-website.de^
 ||optimix.asia^
-||optimix.cn^
 ||log.optimizely.com^
 ||optimizelydata.com^
 ||optimizesocial.com^
@@ -23322,19 +23244,15 @@ Version: 20210627200635
 ||pc3ads.com^
 ||st-n.pc5ads.com^
 ||pcads.ru^
-||count.pcauto.com.cn^
 ||pcdnlt.com^
 ||pcdodues.com^
-||count.pcgames.com.cn^
 ||btn.pchome.net^
-||stat.pchome.net^
 ||pcidata.cn^
 ||z1.pclady.com.cn^
 ||pclicks.com^
 ||pcmzn.com^
 ||pcnp.xyz^
 ||pcon.space^
-||bestpush.pconline.com.cn^
 ||ivy.pconline.com.cn^
 ||ashow.pcpop.com^
 ||pcshuju.com^
@@ -23743,6 +23661,7 @@ Version: 20210627200635
 ||pipeteesundid.com^
 ||pipfire.com^
 ||pipilida.com^
+||s1.pipishu.com^
 ||pippio.com^
 ||pipsol.net^
 ||piquantpigs.com^
@@ -24057,7 +23976,6 @@ Version: 20210627200635
 ||poosoahe.com^
 ||poosugap.com^
 ||pop-road47.info^
-||pop800.com^
 ||popadon.com^
 ||popads.media^
 ||popads.net^
@@ -25019,7 +24937,6 @@ Version: 20210627200635
 ||qawiman.com^
 ||qaykb.com^
 ||qbaka.net^
-||dig.qbao.com^
 ||cp.qbaobei.com^
 ||qbcpicrtdje.com^
 ||qbddhjrwe.com^
@@ -25106,7 +25023,6 @@ Version: 20210627200635
 ||qichetiemo.info^
 ||qichetuoyun.com.cn^
 ||qichexin.com^
-||qdp.qidian.com^
 ||qiditrade.com^
 ||qidou.com^
 ||qienews.cn^
@@ -25220,7 +25136,6 @@ Version: 20210627200635
 ||cfg.imtt.qq.com^
 ||e.qq.com^
 ||gdt.qq.com^
-||isdspeed.qq.com^
 ||log.tbs.qq.com^
 ||mqqad.html5.qq.com^
 ||pingma.qq.com^
@@ -25359,7 +25274,6 @@ Version: 20210627200635
 ||quizzicalzephyr.com^
 ||qujishu.com^
 ||qumagee.com^
-||bc.qunar.com^
 ||ent1.qunchua.cn^
 ||ent1.qunchua.com^
 ||quoashei.com^
@@ -27819,7 +27733,6 @@ Version: 20210627200635
 ||sin88.com^
 ||sina-img.club^
 ||adblock.sina.cn^
-||mixer.sina.cn^
 ||sa.sina.cn^
 ||beacon.sina.com.cn^
 ||log.interest.mix.sina.com.cn^
@@ -28328,8 +28241,6 @@ Version: 20210627200635
 ||pv.hd.sohu.com^
 ||pv.sohu.com^
 ||qpb.sohu.com^
-||vm.aty.sohu.com^
-||xls.go.sohu.com^
 ||agn.aty.sohu.com^
 ||sohu999.com^
 ||soilebol.com^
@@ -28398,7 +28309,6 @@ Version: 20210627200635
 ||soosooka.com^
 ||sootheside.com^
 ||sootuglyconfer.com^
-||soperson.com^
 ||sophang8.com^
 ||sophi.io^
 ||sophiasearch.com^
@@ -29445,7 +29355,6 @@ Version: 20210627200635
 ||syxcwxur.com^
 ||syxylyche.pro^
 ||syyycc.com^
-||syzjxz2018.cn^
 ||syznate.ru^
 ||syzzhd.cn^
 ||szahidalkath.fun^
@@ -29464,7 +29373,6 @@ Version: 20210627200635
 ||szjyfund.com^
 ||szmpc.cn^
 ||szmxwjm.com^
-||countpage.sznews.com^
 ||szoiuthrlzpdi.com^
 ||gold.szonline.net^
 ||szpengliye.com^
@@ -29697,7 +29605,6 @@ Version: 20210627200635
 ||tauptaup.com^
 ||tauptoat.com^
 ||tawdryson.com^
-||tawk.to^
 ||taxel.jp^
 ||stats.tazeros.com^
 ||tbaffiliate.com^
@@ -30246,12 +30153,10 @@ Version: 20210627200635
 ||tianjiunion.cn^
 ||tiankongzudui.com^
 ||tianqi777.com^
-||ip.tianqiapi.com^
 ||datas.tianqistatic.com^
 ||tiantianyinyue.cn^
 ||collect.tianya.cn^
 ||801.tianyaui.com^
-||click.tianyaui.com^
 ||tiaolianbao.com^
 ||tiaoweiyou.cn^
 ||tibacta.com^
@@ -30304,7 +30209,6 @@ Version: 20210627200635
 ||timbercooling.com^
 ||time4news.net^
 ||session.timecommerce.net^
-||stat.timedg.com^
 ||vm.timeinabottle.pw^
 ||ape-tagit.timeinc.net^
 ||timeophone.com^
@@ -30417,7 +30321,6 @@ Version: 20210627200635
 ||tjgxzs.com^
 ||tjhhr.com^
 ||tjiaa.com^
-||tjj.com^
 ||tjlms.cn^
 ||tjqonline.cn^
 ||tjys88.com^
@@ -30744,6 +30647,7 @@ Version: 20210627200635
 ||tpmedia-reactads.com^
 ||tpmedia.online^
 ||tpn134.com^
+||tpool.cn^
 ||tpresearch.club^
 ||tpresearchcre.fun^
 ||tptrk.ru^
@@ -31173,7 +31077,6 @@ Version: 20210627200635
 ||trzi30ic.com^
 ||ts-ads.icu^
 ||ts-ads.info^
-||stat.ts.cn^
 ||ts166.net^
 ||tsbluebox.com^
 ||tscarbornonnae.info^
@@ -31287,7 +31190,6 @@ Version: 20210627200635
 ||stats1.tune.pk^
 ||stats2.tune.pk^
 ||tunituttybanner.com^
-||analy.tuniu.cn^
 ||tunnl.com^
 ||gorod.tunt.lv^
 ||tunviralbionic.com^
@@ -31402,6 +31304,7 @@ Version: 20210627200635
 ||txtrk.com^
 ||txtxr.com^
 ||txtxz.org.cn^
+||txuesoft.cn^
 ||txwha3vuso66.com^
 ||txwhds.com.cn^
 ||txyhadai.com^
@@ -32229,7 +32132,6 @@ Version: 20210627200635
 ||sp.vcstar.com^
 ||vcwrigdrnh.com^
 ||vdazz.net^
-||log.vdisk.cn^
 ||vdna-assets.com^
 ||vdo.ai^
 ||vdoing.com^
@@ -33073,7 +32975,6 @@ Version: 20210627200635
 ||wasshimundme.ru^
 ||wastedcooperate.com^
 ||wastesshimssat.world^
-||apistat.wasu.cn^
 ||delivery.wasu.cn^
 ||acsystem.wasu.cn^
 ||adsc.wasu.tv^
@@ -33156,7 +33057,6 @@ Version: 20210627200635
 ||wearesaudis.net^
 ||weaselfundamental.com^
 ||x.weather.com^
-||analyse.weather.com.cn^
 ||ctc.weather.com.cn^
 ||mc.weather.com.cn^
 ||poster.weather.com.cn^
@@ -34123,7 +34023,6 @@ Version: 20210627200635
 ||xgctdamahrzy.com^
 ||xgdhmwbgilx.com^
 ||pics.xgo-img.com.cn^
-||stat.xgo.com.cn^
 ||xgraph.net^
 ||xgrwjbui.top^
 ||xgubafscfsf.com^
@@ -34182,7 +34081,6 @@ Version: 20210627200635
 ||xiaozhuvideo.cn^
 ||xiarikui08.com^
 ||bd1.xiby.cn^
-||data.xici.net^
 ||code.xidx.org^
 ||xiepl.com^
 ||xieyanmin.com.cn^
@@ -34443,8 +34341,6 @@ Version: 20210627200635
 ||xunhuaji.cn^
 ||xunkhuczqnuf.com^
 ||xunlaile.com^
-||kkpgv2.xunlei.com^
-||record.kuai.xunlei.com^
 ||stat.download.xunlei.com^
 ||xunzhuo123.com^
 ||xuossk3tu6hb.com^
@@ -34573,7 +34469,6 @@ Version: 20210627200635
 ||marketingsolutions.yahoo.com^
 ||nol.yahoo.com^
 ||pr.comet.yahoo.com^
-||tw.rd.yahoo.com^
 ||visit.webhosting.yahoo.com^
 ||admarketing.yahoo.net^
 ||analyze.yahooapis.com^
@@ -34872,7 +34767,6 @@ Version: 20210627200635
 ||yjxqy.com^
 ||yjyjnolllezo.com^
 ||ykanx.com^
-||l.ykimg.com^
 ||p-log.ykimg.com^
 ||kiki.ykjmy.com^
 ||ykpbgqc.top^
@@ -35069,7 +34963,6 @@ Version: 20210627200635
 ||yskanba.com^
 ||ysmhcwwvgtcx.com^
 ||ysnj74ed.com^
-||ysont.cn^
 ||ysowy.com^
 ||yspicb.site^
 ||ystammedre.info^
@@ -35122,7 +35015,6 @@ Version: 20210627200635
 ||yun-pdm5000.cn^
 ||yunchong6.cn^
 ||yundingmap.com^
-||stat.yunfan.com^
 ||yunfanlm.com^
 ||yunit.org^
 ||yunl1.com^
@@ -35186,7 +35078,6 @@ Version: 20210627200635
 ||yxxwyz.com^
 ||1.yxzw.com.cn^
 ||gt.yy.com^
-||stat.game.yy.com^
 ||yy32.com^
 ||yy58ju.com^
 ||yy9s51b2u05z.com^
@@ -35416,6 +35307,7 @@ Version: 20210627200635
 ||f.zgbmw.com.cn^
 ||zgc66.com^
 ||zgchaye123.com^
+||zgcqxjzny.cn^
 ||zgfszs.com^
 ||zghs.net.cn^
 ||zgjckgys.com.cn^
@@ -35450,7 +35342,6 @@ Version: 20210627200635
 ||21.zhaozongjie.com^
 ||zharezhi.info^
 ||zhekoudajie.com^
-||cdnlog.zhenai.com^
 ||zhengyahong.cn^
 ||zhengyejixie.com^
 ||zhengzhoupengbo.com^
@@ -35460,7 +35351,6 @@ Version: 20210627200635
 ||zhiboiot.cn^
 ||zhichi08.com^
 ||zhide-edu.cn^
-||pv.zhiding.cn^
 ||zhihei.com^
 ||lc-push.zhihu.com^
 ||appcloud2.in.zhihu.com^
@@ -35629,14 +35519,11 @@ Version: 20210627200635
 ||zodiakactive.com^
 ||pagesense-collect.zoho.com^
 ||p.zol-img.com.cn^
-||imp.zol.com.cn^
-||pvtest.zol.com.cn^
 ||p.zol.com.cn^
 ||banner.zol.ru^
 ||server.zombie-tv.org^
 ||zona1.at.ua^
 ||zonealta.com^
-||log.zongheng.com^
 ||zonolali.com^
 ||zontera.com^
 ||zonvid.com^
@@ -35650,7 +35537,6 @@ Version: 20210627200635
 ||zoonoapt.net^
 ||zoopy.xyz^
 ||zoosnet.net^
-||zoossoft.cn^
 ||zoossoft.net^
 ||zop381q5o0q1.com^
 ||zorango.com^
