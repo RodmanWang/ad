@@ -133,12 +133,13 @@ $ARR_MERGED_WILD_LIST = array(
     'da.hornbach.*' => null,
     '*us*watcab*.blob.core.windows.net' => null,
     'xn--wxtr9fwyxk9c.*' => null,
+    'tuiguang.*' => null,
 );
 
 $ARR_REGEX_LIST = array(
     '/^(\S+\.)?9377[a-z0-9]{2}\.com$/' => ['m' => '$dnstype=A'],
     '/^(\S+\.)?ad(s?[\d]+|m|s)?\./' => null,
-    '/^(\S+\.)?advert/' => ['m' => '$denyallow=alibabacorp.com|alibabadns.com|sm.cn|tanx.com|alibaba-inc.com'],
+    '/^(\S+\.)?advert/' => ['m' => '$denyallow=alibabacorp.com|alibabadns.com|sm.cn|tanx.com|alibaba-inc.com|tmall.com|taobao.com'],
     '/^(\S+\.)?affiliat(es?[0-9a-z]*?|ion[0-9\-a-z]*?|ly[0-9a-z\-]*?)\./' => null, // fixed #406
     '/^(\S+\.)?s?metrics\./' => null, // TODO 覆盖面很大
     '/^(\S+\.)?afgr[\d]{1,2}\.com$/' => null,
@@ -231,6 +232,9 @@ $ARR_WHITE_RULE_LIST = array(
     '@@||dw.iask.com.cn^' => 1, // #429
     '@@||settings-win.data.microsoft.com^' => 1, // #426
     '@@||insideruser.microsoft.com^' => 1, // #426
+    '@@||metrics.vrch.at^' => 1, // #440
+    '@@||trackings.post.japanpost.jp^' => 1, // #441
+    '@@||track.aliexpress.com^' => 1, // #446
 );
 
 //针对上游赦免规则anti-AD不予赦免的规则，即赦免名单的黑名单
@@ -737,7 +741,8 @@ foreach($arr_wild_src as $wild_rule => $wild_value){
 }
 
 $line_count += substr_count($src_content, "\n");
-$src_content = str_replace("!Total lines: 00000\n", '!Total lines: ' . ($line_count - 4) . "\n" . $attached_content, $src_content);
+$correct_magic = preg_match_all("/^\!.+?$/m", $src_content);
+$src_content = str_replace("!Total lines: 00000\n", '!Total lines: ' . ($line_count - $correct_magic) . "\n" . $attached_content, $src_content);
 
 file_put_contents($src_file, $src_content);
 file_put_contents($src_file . '.md5', md5_file($src_file));
