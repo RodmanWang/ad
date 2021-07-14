@@ -698,6 +698,12 @@ csdn.net#?##feedlist_id > li:has(> div[id^="kp_box_"])
 !------- JS rules ---------------------!
 !--------------------------------------!
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/87176
+! https://github.com/AdguardTeam/AdguardFilters/issues/54359
+! https://github.com/AdguardTeam/AdguardFilters/issues/26318
+! https://forum.adguard.com/index.php?threads/youku-com-v-qq-com.30749/
+m.youku.com,v.youku.com#%#//scriptlet('set-constant', 'Object.prototype._adData', 'emptyObj')
+youku.com#%#//scriptlet("adjust-setTimeout", "r--", "", "0.02")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/87994
 ifsp.tv#%#//scriptlet('set-constant', 'Object.prototype.ShouldPlayAds', '0')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/87232
@@ -874,15 +880,6 @@ http*://$script,third-party,xmlhttprequest,domain=cnbtspread.xyz
 ! https://github.com/AdguardTeam/AdguardFilters/issues/33275
 ! do not hide popup, because product selector will not work
 ||coolpc.com.tw/home/img/right2.html
-! https://github.com/AdguardTeam/AdguardFilters/issues/54359
-! https://github.com/AdguardTeam/AdguardFilters/issues/26318
-! https://forum.adguard.com/index.php?threads/youku-com-v-qq-com.30749/
-||acs.youku.com/*/mtop.youku.play.ups.appinfo.get/*/?jsv=$replace=/("ad":\{)[\s\S]*?(\}\,"playlog")/\$1\$2/,important
-! https://github.com/AdguardTeam/AdguardFilters/issues/69044
-! disabled redirects. It seems they are problematic here
-!||vali*.cp*.ott.cibntv.net/*.mp4?ccode*&duration=$redirect=noopmp4-1s,important,domain=~m.youku.com
-!||vali*.*.cibntv.net/*.mp4?$redirect=noopmp4-1s,important,domain=youku.com|~m.youku.com
-youku.com#%#//scriptlet("adjust-setTimeout", "r--", "", "0.02")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/35526
 ://m.*.cn/*.xmtl?$third-party
 ://m.*.cn/*/*.js?ssid=_
@@ -917,6 +914,7 @@ sohu.com##a[href*="_Click_Flow_recommend_"]
 ! https://uploads.adguard.com/up04___pqptj.png
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .result ~ div:not([class]):not([style])
 !
+huaban.com##.hb-ad
 xchina.co##.push-top
 xchina.co##div[style*="width: 300px;"][style*="height: 455px;"]
 ||xchina.co/upload/ad/
@@ -1710,6 +1708,11 @@ nfmovies.com##body div[id^="aaaDiv"]
 !
 ! The content replacement rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/87176
+! https://github.com/AdguardTeam/AdguardFilters/issues/54359
+! https://github.com/AdguardTeam/AdguardFilters/issues/26318
+! https://forum.adguard.com/index.php?threads/youku-com-v-qq-com.30749/
+||acs.youku.com/*/mtop.youku.play.ups.appinfo.get/*/?jsv=$replace=/("ad":\{)[\s\S]*?(\}\,"playlog")/\$1\$2/,important
 
 !---------------------------------------------------------------------------!
 !------ White list. Fixing filtration errors (false-positive)---------------!
@@ -3133,6 +3136,8 @@ _xiuno_com_ad/
 ##style + .vdgdo
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 .8ox.cn
+||ellenhilary.com^
+||lichenqx.com^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -7852,7 +7857,7 @@ _yad_jsonp_
 ||gd.ct10000.com/js/ecssstat.js
 ||gd.sina.com.cn/iframe/22/
 ||gd163.*/2018_ad/
-||gdbyhtl.net/adfix/
+||gdbyhtl.net^*adfix/
 ||gdcytv.cn^*.gif
 ||gdmm.com*/mybt/
 ||gdmm.com/api.php?mod=js&bid=2111
@@ -10658,6 +10663,7 @@ _yad_jsonp_
 ||emumax.com/assets/front/images/index.swf
 ||emumax.com/pc/images/cj/emu_1100x120.
 szxx.com.cn###A0
+77mh.cc###bdcotopnew
 emumax.com##.tbanner
 szxx.com.cn###A1
 szxx.com.cn###A2
