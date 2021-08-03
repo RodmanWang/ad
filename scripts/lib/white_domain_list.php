@@ -241,6 +241,13 @@ return array(
     'kanjiantu.com' => 0, // #451
     'edge-enterprise.activity.windows.com' => 0, // #401
     'edge.activity.windows.com' => 0, // #401
+    'ahd.ruten.com.tw' => 0, // #453
+    'cdn.ark.qq.com' => 0, // #461
+    'eq.10jqka.com.cn' => 0, // #463
+    'stat.10jqka.com.cn' => 0, // #463
+    'ozone.10jqka.com.cn' => 0, // #463
+    'gleam.io' => 0, // #472
+    'sogoucdn.com' => 0, // #471
 
 
 
