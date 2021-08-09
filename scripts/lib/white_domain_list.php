@@ -248,7 +248,7 @@ return array(
     'ozone.10jqka.com.cn' => 0, // #463
     'gleam.io' => 0, // #472
     'sogoucdn.com' => 0, // #471
-
+    'pub.alimama.com' => 0, // 淘宝联盟
 
 
 
