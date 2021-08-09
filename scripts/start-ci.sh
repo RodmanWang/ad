@@ -9,6 +9,7 @@ easylist=(
   "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt"
   "https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt"
   "https://curben.gitlab.io/malware-filter/urlhaus-filter.txt"
+  "https://secure.fanboy.co.nz/fanboy-annoyance.txt"
 )
 
 hosts=(
