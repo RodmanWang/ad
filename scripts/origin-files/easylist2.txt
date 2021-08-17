@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: d87Y6W2+wazVftn9xb7SUA
-! Version: 202108170300
+! Checksum: YaFrhGIUfS01ccPSc95W+w
+! Version: 202108170600
 ! Title: Fanboy's Annoyance List
-! Last modified: 2021-08-17 03:00 UTC
+! Last modified: 2021-08-17 06:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -27779,6 +27779,7 @@ _vpcookieconsent/
 ###privacy-cookie-info
 ###privacy-cookieMessage
 ###privacy-disclaimer
+###privacy-fixed-bottom
 ###privacy-footer
 ###privacy-hint
 ###privacy-information-cookie-notice
@@ -36015,6 +36016,7 @@ _vpcookieconsent/
 ||fundingchoicesmessages.google.com^
 !------------------------Specific element hiding rules------------------------!
 ceo.com###ActionBarCont
+medianama.com##.sub-form
 lawyers.com###ActivityFeedWrap
 crutchfield.com###ArchivedArticleModal
 wsj.com###ArticleRRTest_JobListings
@@ -40906,6 +40908,7 @@ aerzteblatt.de###pushy
 formulatv.com###resetUI
 rd.fi###zone-header-wrapper
 romait.it##.alert
+kokemaenjokilaakso.fi##[class|="col-sm"] > .boksiharmaa
 ziare.com##.modal-backdrop
 ziare.com##.modal__wp
 sindonews.com##.notif-box
@@ -49097,6 +49100,7 @@ yoigo.com#@#thor-cookies
 @@||stadt-bremerhaven.de/wp-content/uploads/*_twitter-$image
 @@||static.autojunk.nl/javascript/SocialMedia.js
 @@||static.canva.com/designThumbnails/pinterest.png
+@@||static.jaatama.fi/thumbs/images/fb-$image
 @@||static.parastorage.com/services/editor-elements/dist/facebookshare.$script,third-party
 @@||steelseries.com/bundles/spoutlet/js/SocialShare.min.js
 @@||stipple.cachefly.net^$domain=stipple.com
