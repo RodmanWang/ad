@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fxNJqnv3vcY5LAdYl3e6AA
-! Version: 202108170000
+! Checksum: d87Y6W2+wazVftn9xb7SUA
+! Version: 202108170300
 ! Title: Fanboy's Annoyance List
-! Last modified: 2021-08-17 00:00 UTC
+! Last modified: 2021-08-17 03:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -33613,6 +33613,7 @@ _vpcookieconsent/
 ##.prompt_cookies
 ##.propeller-cookieconsent
 ##.ps-Cookies
+##.ps-cookies
 ##.psg-cookie
 ##.pt-cookie-bar
 ##.public_legal_cookies
@@ -39410,6 +39411,8 @@ thenationalpulse.com##.widget_media_image
 youtube.com##.ytd-statement-banner-renderer
 zerohedge.com##[class^="Banner_"]
 chess24.com##[href^="http://events.chess24.com/deals/"]
+weather.com##[id^=WxuContentMedia] > [title="Featured Deal"]
+weather.com##[id^=WxuContentMedia] > [title="Top Deals"]
 aeon.co##div[class^="Banner__BannerWrapper-"]
 aeon.co##div[class^="SupportBar__Wrapper-"]
 ! Youtube TV promos
