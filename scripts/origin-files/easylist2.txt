@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: aJqMx3rSe5a+gk6jT5mURw
-! Version: 202108180000
+! Checksum: LselaCSfezdWA84cPhXFFw
+! Version: 202108180300
 ! Title: Fanboy's Annoyance List
-! Last modified: 2021-08-18 00:00 UTC
+! Last modified: 2021-08-18 03:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -35115,6 +35115,7 @@ _vpcookieconsent/
 ||www.youtube.com^$csp=worker-src 'none'
 ! 3rd-party sounds
 ||appspot.com/sounds/chatmsg.mp3
+||chatango.com/pcache/sounds/
 ||cleversite.ru/client/default/sound/
 ||cliengo.com^$media
 ||collectcdn.com^$media
@@ -36757,6 +36758,7 @@ nowmagazine.co.uk###international-iframe
 nowmagazine.co.uk###international-overlay
 loop21.com###intheloop
 indiatvnews.com###intvalwid
+deepl.com###iosAppAdPortal
 regator.com###iphoneSidebarAd
 kickstarter.com###iphone_tout
 wanamlite.com###ishare_e
@@ -39441,6 +39443,7 @@ instagram.com##.HoverCard
 ! medium.com blogs
 ##.screenContent > .u-bottom0
 ! Newsletter/signup elements
+topuniversities.com##.subscribe_news_letter
 e-day.ro,mtlblog.com###CoverPop-cover
 news.yahoo.com###Daily-Ticket-newsletter-promo-8U
 nextshark.com###FbridgeSGWidget
@@ -43763,6 +43766,7 @@ udn.com###story_related
 bcc.com.tw###topx
 huanqiukexue.com###totop
 cna.com.tw##.Subscription
+baidu.com##.app-bar
 baidu.com##.app-guide
 juejin.cn##.app-link
 sputniknews.cn##.arrowup
