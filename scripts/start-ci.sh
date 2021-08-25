@@ -23,7 +23,6 @@ dead_hosts=(
   "https://raw.githubusercontent.com/notracking/hosts-blocklists-scripts/master/domains.dead.txt"
   "https://raw.githubusercontent.com/notracking/hosts-blocklists-scripts/master/hostnames.dead.txt"
   "https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt"
-  "https://curben.gitlab.io/malware-filter/urlhaus-filter.txt"
 )
 
 rm -f ./origin-files/easylist*
