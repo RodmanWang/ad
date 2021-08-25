@@ -12,7 +12,7 @@
 
 class addressMaker{
 
-    const LINK_URL = 'https://github.com/privacy-protection-tools/anti-AD';
+    const LINK_URL = 'https://github.com/RodmanWang/ad';
 
     /**
      * 分离域名
