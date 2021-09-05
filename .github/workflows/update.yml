@@ -21,8 +21,6 @@ jobs:
         git config --local user.name "GitHub Action"
         git add *
         git commit -m "update : $(TZ=UTC-8 date "+%Y-%m-%d %H:%M:%S")"
-        git branch -D master
-        git branch -m master
         
     - name: Push changes
       uses: ad-m/github-push-action@master
