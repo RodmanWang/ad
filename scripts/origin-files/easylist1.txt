@@ -641,6 +641,8 @@ xiebruce.top#%#//scriptlet("prevent-addEventListener", "", "showRemoveAdBlocker"
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=xiebruce.top
 ! https://github.com/AdguardTeam/AdguardFilters/issues/90881
+ddrk.me#@#a[href*="/kt169.com"]
+ddrk.me#$#a[href*="/kt169.com"] { opacity: 0.001 !important; transform: scaleY(0.5) !important; }
 ddrk.me#@#a[href*="/entry/register/?i_code="]
 ddrk.me#$#a[href*="/entry/register/?i_code="] { position: absolute!important;right: -3000px!important; }
 ddrk.me#@#a[href="###"] img:not(#trk_hcaptcha):not([src^="https://captcha.su.baidu.com"])
@@ -11103,6 +11105,10 @@ _yad_jsonp_
 ||songsongyun.com/ads/
 ||3dmgame.com/page/hlbt/
 szxx.com.cn###A0
+vpsmm.com###uc
+vpsmm.com###media
+vpsmm.com###featured1
+landian.vip##.content-gg
 lusongsong.com###main > CENTER
 dzbhdm.com##A[href^="https://www.dzbhdm.com/news/"] > IMG[src^="https://www.dzbhdm.com/"]
 szxx.com.cn###A1
@@ -18687,6 +18693,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||shua66.vip^
 ||iscreen.top^
 ||weiweitop.top^
+||leejongsuk.top^
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
 ###content > div[style="padding:10px!important;border-radius:10px;background-color:green;"]
 ###downdiv > .downcode
