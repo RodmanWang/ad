@@ -1,5 +1,5 @@
-Version: 20210912170404
-!Total lines: 38277
+Version: 20210912200715
+!Total lines: 38284
 @@||5471782.fls.doubleclick.net^
 @@||a.adwolf.ru^
 @@||a.sellpoint.net^
@@ -86,8 +86,9 @@ Version: 20210912170404
 @@||track.aliexpress.com^
 @@||s.mvconf.f.360.cn^
 @@||widget.1688.com^
+@@||api.huangye.miui.com^
 /^(\S+\.)?9377[a-z0-9]{2}\.com$/$dnstype=A
-/^(\S+\.)?ad(s?[\d]+|m|s)?\./$denyallow=nucdn.net|azureedge.net
+/^(\S+\.)?ad(s?[\d]+|m|s)?\./$denyallow=nucdn.net|azureedge.net|alibabacorp.com|alibabadns.com
 @@||ads.tdbank.com^
 @@||ads.tiktok.com^
 @@||adm.10jqka.com.cn^
@@ -1375,6 +1376,7 @@ Version: 20210912170404
 ||7lstw4cd.top^
 ||7lyonline.com^
 ||7metodik.ru^
+||7moor-fs1.com^
 ||7mu36somt5.com^
 ||7n32vb7tn4w7n373a.top^
 ||7news.site^
@@ -5424,6 +5426,7 @@ Version: 20210912170404
 ||mgzs.cdn.bcebos.com^
 ||wxtp.cdn.bcebos.com^
 ||ys2000.cdn.bcebos.com^
+||staticsns.cdn.bcebos.com^
 ||httpdns.bcelive.com^
 ||bcfabscdt.com^
 ||bcfads.com^
@@ -21956,7 +21959,6 @@ Version: 20210912170404
 ||az693360.vo.msecnd.net^
 ||az708531.vo.msecnd.net^
 ||msecure108.com^
-||msedge.net^
 ||msgapp.com^
 ||msgose.com^
 ||tm.msgs.jp^
@@ -24129,6 +24131,10 @@ Version: 20210912170404
 ||oranges88.com^
 ||orarbeatrem.club^
 ||oratosaeron.com^
+||tk.oray.com^
+||sl-tk.oray.com^
+||sl-log.oray.net^
+||pubsub02.oray.net^
 ||orbengine.com^
 ||orbsclawand.com^
 ||orcapia.com^
@@ -26982,6 +26988,7 @@ Version: 20210912170404
 ||quqizo.com^
 ||qusyjoyo.xyz^
 ||qutaobi.com^
+||qutaovip.com^
 ||qutltjamq.com^
 ||qutreinr.pw^
 ||quxiandu.com^
