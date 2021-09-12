@@ -138,7 +138,7 @@ $ARR_MERGED_WILD_LIST = array(
 
 $ARR_REGEX_LIST = array(
     '/^(\S+\.)?9377[a-z0-9]{2}\.com$/' => ['m' => '$dnstype=A'],
-    '/^(\S+\.)?ad(s?[\d]+|m|s)?\./' => ['m' => '$denyallow=nucdn.net|azureedge.net'],
+    '/^(\S+\.)?ad(s?[\d]+|m|s)?\./' => ['m' => '$denyallow=nucdn.net|azureedge.net|alibabacorp.com|alibabadns.com'],
     '/^(\S+\.)?advert/' => ['m' => '$denyallow=alibabacorp.com|alibabadns.com|sm.cn|tanx.com|alibaba-inc.com|tmall.com|taobao.com'],
     '/^(\S+\.)?affiliat(es?[0-9a-z]*?|ion[0-9\-a-z]*?|ly[0-9a-z\-]*?)\./' => null, // fixed #406
     '/^(\S+\.)?s?metrics\./' => null, // TODO 覆盖面很大
@@ -237,6 +237,7 @@ $ARR_WHITE_RULE_LIST = array(
     '@@||track.aliexpress.com^' => 1, // #446
     '@@||s.mvconf.f.360.cn^' => 1, // #462
     '@@||widget.1688.com^' => 1, // #469
+    '@@||api.huangye.miui.com^' => 1, // #476
 );
 
 //针对上游赦免规则anti-AD不予赦免的规则，即赦免名单的黑名单
