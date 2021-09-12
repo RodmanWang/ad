@@ -611,6 +611,9 @@ return array(
     ),
     'huya.com' => array(
         'ylog.huya.com', // #86
+        'metric.huya.com', // https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
+        'statwup.huya.com', // https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
+        'e-stat.huya.com', // https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
     ),
 
     'grammarly.io' => array(
@@ -1038,8 +1041,27 @@ return array(
     'tradplus.com' => array( // #444
         'tradplus.com',
     ),
-    
-    
+    'qutaovip.com' => array( // #473
+        'qutaovip.com',
+        'api-ads.qutaovip.com',
+    ),
+    '7moor.com' => array( // #464
+        '7moor.com',
+    ),
+    '7moor-fs1.com' => array( // #464
+        '7moor-fs1.com',
+    ),
+    'oray.com' => array( // #464
+        'tk.oray.com',
+        'sl-tk.oray.com',
+    ),
+    'oray.net' => array( // #464
+        'sl-log.oray.net',
+        'pubsub02.oray.net',
+    ),
+    'bcebos.com' => array( // #489
+        'staticsns.cdn.bcebos.com',
+    ),
 
     
     // 批量添加域名
