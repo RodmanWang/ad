@@ -519,7 +519,8 @@ papalah.com#%#//scriptlet("abort-on-property-read", "adBlockDetected")
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@||papalah.com^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/37247
-rjno1.com#%#//scriptlet("prevent-setTimeout", "Goog_Osd_UnloadAdBlock")
+rjno1.com#%#//scriptlet("prevent-setTimeout", "/Goog_Osd_UnloadAdBlock|ad blocker/")
+rjno1.com#%#//scriptlet("abort-current-inline-script", "onload", "adblock")
 @@||rjno1.com^$csp=script-src 'self' *;style-src
 ||d5.sina.com.cn/litong/zhitou/leju/leju.js$script,redirect=noopjs,important,domain=rjno1.com
 !#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
@@ -745,6 +746,10 @@ nfmovies.com#$#a[onclick*="openurl"][target="_blank"] img[src^="/static/"] { pos
 !
 ! Extended CSS rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/94251
+rjno1.com#?#.post > div[class^="ivo"] > .adsbygoogle:upward(1)
+rjno1.com#?#.site-main > div[class^="ivo"]:has(.adsbygoogle)
+rjno1.com#?#.sidebar > div[class^="ivo"]:has(> .space > script:contains(slotbydup))
 ! https://github.com/AdguardTeam/AdguardFilters/issues/91017
 cartoon18.com#?#.container-fluid > .row > .item:has(> .card > .card-body > .lines > span.badge:contains(/^ad$/))
 ! https://github.com/AdguardTeam/AdguardFilters/issues/90640
@@ -10929,8 +10934,8 @@ _yad_jsonp_
 ||yxad.com/yxad/
 ||yxbao.com/js/bt_
 ||yxdd.com^$subdocument
-||yxdm.me/js/*_
-||yxdm.me/js/gad.js
+||yxdm.org/js/*_
+||yxdm.org/js/gad.js
 ||yxdown.com/cj/
 ||yxdown.com/pc/news/js/news
 ||yxdown.com/zt/zt/js/zt.js
@@ -12993,14 +12998,14 @@ wed114.cn##.adtwo
 114la.com,78dm.net,chinairn.com,dav01.com,qncye.com,qzwb.com,silisili.in,silver.org.cn,solidot.org,ylmf.com##.adv
 xmfish.com##.adv-760
 xmfish.com##.adv-960
-yxdm.me##.adv-bt
+yxdm.org##.adv-bt
 xinhuanet.com##.adv-column2
 wdzj.com##.adv-img
-yxdm.me##.adv0
+yxdm.org##.adv0
 shouji56.com##.adv01 + a
 qq.com##.adv1000
-kdhome.net,yxdm.me##.adv2
-kdhome.net,xinhuanet.com,yxdm.me##.adv3
+kdhome.net,yxdm.org##.adv2
+kdhome.net,xinhuanet.com,yxdm.org##.adv3
 myhack58.com##.adv32
 it165.net##.adv728a
 it165.net##.adv728b
@@ -18693,6 +18698,10 @@ bxwx3.org###addiv3
 ||chrjkn.cn^
 bxwx3.org###bdstatic
 55shuba.com###botDiv
+||whrhzz.com^
+||xuyangwl.cn^
+||zzssywh.cn^
+||apsxm.cn^
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
 ###content > div[style="padding:10px!important;border-radius:10px;background-color:green;"]
 ###downdiv > .downcode
@@ -21649,7 +21658,7 @@ fqsousou.com,kengso.com#@#.user-share
 @@||sinajs.cn/open/analytics/js/suda.js$domain=weibo.com|~widget.weibo.com
 @@||sinajs.cn/open/api/js/wb.js$domain=sc.sina.com.cn
 @@||sogou.com/pv.gif?*&stype=showskinpanel
-@@||sohu.com/cityjson$domain=114shouji.com|51credit.com|castech.com|eduyun.cn|ems.com.cn|jdboshi.com|jialingmm.net|lcm88.com|meiju11.com|mop.com|platinum-pen.com.cn|shouji.com.cn|skk.moe|vivo.com.cn|yxdm.me
+@@||sohu.com/cityjson$domain=114shouji.com|51credit.com|castech.com|eduyun.cn|ems.com.cn|jdboshi.com|jialingmm.net|lcm88.com|meiju11.com|mop.com|platinum-pen.com.cn|shouji.com.cn|skk.moe|vivo.com.cn|yxdm.org
 @@||sohu.com/integration-api/mix/region/*&refer=http
 @@||soufunimg.com/count/uvbforpc.js
 @@||stjscn.s-msn.com/portal/hp/2011/udctrack.
