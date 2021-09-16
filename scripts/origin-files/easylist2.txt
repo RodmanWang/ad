@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: YFVgN6Cs7kbdoLCs+HsIsw
-! Version: 202109160300
+! Checksum: u1iUaaC3pv86z9N+o9J5pw
+! Version: 202109160600
 ! Title: Fanboy's Annoyance List
-! Last modified: 2021-09-16 03:00 UTC
+! Last modified: 2021-09-16 06:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -925,7 +925,7 @@ _revotas_push.
 -redes-pinteres.
 -redes-twitter.
 -redes-youtube.
--share-bar/
+-share-bar/$~stylesheet
 -share-button.$~xmlhttprequest
 -share-buttons.$~xmlhttprequest
 -share-buttons/$~stylesheet
@@ -22818,6 +22818,7 @@ _vpcookieconsent/
 ###as-cookie-cutter
 ###askCookies
 ###askToAcceptCookies
+###ask_cookie_low
 ###ask_cookie_ok
 ###askcook
 ###askcookies
@@ -43514,6 +43515,7 @@ globaltuners.com,psychomedia.qc.ca,speedtestcustom.com,zerochan.net##div[style^=
 podbean.com##div[style^="z-index: 999999; position: fixed;"]
 invezz.com##div[x-data="CookieConsent()"]
 my.games##header > .gdpr
+shaw.ca##notification-block
 weatherbug.com##notification-footer
 satispay.com##p[class^="cookie-banner"]
 opentip.kaspersky.com##section[data-t="cks-dsc"] > div > div
