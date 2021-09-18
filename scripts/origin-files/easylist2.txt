@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: hJ4T1iXogafstJwKyqUVzg
-! Version: 202109180300
+! Checksum: zMDKcb28gSXKpzEEiWwIKA
+! Version: 202109180600
 ! Title: Fanboy's Annoyance List
-! Last modified: 2021-09-18 03:00 UTC
+! Last modified: 2021-09-18 06:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -35216,6 +35216,7 @@ _vpcookieconsent/
 ||outbrain.com^$third-party
 ! Embedded video Annoyances
 ||sendtonews.com/player/sidebar.php?$third-party
+||arc.io^$third-party
 ||bildirnet.com^$third-party
 ||braze.com^$third-party
 ||cappushino.com^$third-party
