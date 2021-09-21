@@ -1096,6 +1096,10 @@ $script,xmlhttprequest,third-party,domain=00ksw.com|01zww.com|0biquge.com|114zw.
 !
 !
 !
+finance.sina.com.cn##div[data-sudaclick="ad_content_top"]
+finance.sina.com.cn##div[data-sudaclick="ad_content_bottom"]
+finance.sina.com.cn##.side-btns-game2021
+finance.sina.com.cn##.f_app_screen_wrap
 com.tw###space > a[target="_blank"] > img[width="160"]
 4gamers.com.tw##.aroma-tab > a[href^="https://www.4gamers.com.tw/r/"][target="_blank"]
 4gamers.com.tw##.aroma-home-page-float-ads
@@ -2036,6 +2040,8 @@ nfmovies.com##body div[id^="aaaDiv"]
 !
 ! White list. Fixing filtration errors (false-positive)
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/94347
+@@||googleads.github.io/videojs-ima/node_modules/video.js/dist/video-js.min.css$domain=ulifestyle.com.hk
 ! https://github.com/AdguardTeam/AdguardFilters/issues/92316
 zcool.com.cn#@#.advtop
 @@||img.zcool.cn/ad_manager/location/$domain=zcool.com.cn
@@ -11158,6 +11164,8 @@ _yad_jsonp_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 szxx.com.cn###A0
+pornbest.org,ptt.sex###links
+pornbest.org,ptt.sex##.btn-group + .row
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -18740,6 +18748,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=bxwx00.com|00ksw
 !#Novels
 ||tinkshop.cn^
 ||ccymzg.cn^
+||woxts.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
