@@ -555,8 +555,8 @@ ruanyifeng.com#@#a > img[src*="wangbase.com/blogimg/asset/"]
 520cc.cc#@#iframe[width="300"][height="250"]
 ||520cc.cc/data/attachment/*.gif
 ! https://github.com/AdguardTeam/AdguardFilters/issues/46061#issuecomment-601842012
-t66y.com#%#//scriptlet('adjust-setTimeout', 'adhtml', '10001')
-t66y.com#%#//scriptlet('adjust-setTimeout', 'blockText', '1001')
+t66y.com#%#//scriptlet('adjust-setTimeout', 'adhtml', '10002')
+t66y.com#%#//scriptlet('adjust-setTimeout', 'blockText', '1002')
 !#if (adguard_app_windows || adguard_app_mac || adguard_app_android || adguard_ext_chromium || adguard_ext_edge)
 t66y.com$$script[tag-content="adhtml"][max-length="10000"]
 !t66y.com#%#//scriptlet("abort-current-inline-script", "$", "do_not_remove")
@@ -2192,6 +2192,7 @@ nfmovies.com#@?#div[id]:-abp-has(>img[onclick="openurl()"])
 -90mh-gg.
 .bid/ads/
 .blog/ads/
+/jsui/ads/*
 .cam/ads/
 .cc/ad/
 .cc/js/ads/
@@ -3526,9 +3527,26 @@ _xiuno_com_ad/
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
 ##style + .vdgdo
+##A[href*="/x5092.com"]
+##A[href*="/t4078.com:"]
+##A[href$="/hg6ee.com"]
+##A[href$="/88hjd7.com"]
+##A[href$="/aa8a1j.com"]
+##A[href$="/xh8k.vip"]
+##A[href$="/244017.cc"]
 ##A[href*=".madeqr.com/"] > IMG[src*=".pstatp.com/"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 .8ox.cn
+||761f1b3960.com^
+||113o.com^
+||3332219.com^
+||123456img.com^
+||qiyijiazhuangshi.com^
+||3332218.com^
+||3332655.com^
+||78dx8t.com^
+||hangoutairbags.com^
+||kevinhewu.com^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -11164,7 +11182,11 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||jsdelivr.net/gh/cloud-files/imgs/adamkoo-
+||51cdn.club:453/hf85/960x
+||ae-ap.com/template/web/images/
 szxx.com.cn###A0
+3dmgame.com###min_ad_con
 pornbest.org,ptt.sex###links
 pornbest.org,ptt.sex##.btn-group + .row
 szxx.com.cn###A1
@@ -18751,6 +18773,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=bxwx00.com|00ksw
 ||ccymzg.cn^
 ||woxts.cn^
 ||hongdejituan.vip^
+||lxlx.shop^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
