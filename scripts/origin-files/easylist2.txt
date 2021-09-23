@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: TzJ3Y1NTX+Aud2RitoxGOw
-! Version: 202109230300
+! Checksum: dEqWainka7T64eE8IfJ3Pg
+! Version: 202109230600
 ! Title: Fanboy's Annoyance List
-! Last modified: 2021-09-23 03:00 UTC
+! Last modified: 2021-09-23 06:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -5743,6 +5743,7 @@ _vpcookieconsent/
 ###pnlFooterNewsletterSignup
 ###popinNewsletter
 ###popular-newsletter
+###popup-newsletter
 ###popup-newsletter-software
 ###popupNewsletter
 ###popup_newslettter
@@ -7287,6 +7288,7 @@ _vpcookieconsent/
 ##.widget-subscribe
 ##.widget-subscribe_widget
 ##.widget-type-blog_subscribe
+##.widgetSidebarSubscription
 ##.widget__subscribe
 ##.widget_abonews
 ##.widget_bb_mailchimp_custom_signup_widget
@@ -39533,6 +39535,7 @@ weather.com##[id^=WxuContentMedia] > [title="Featured Deal"]
 weather.com##[id^=WxuContentMedia] > [title="Top Deals"]
 aeon.co##div[class^="Banner__BannerWrapper-"]
 aeon.co##div[class^="SupportBar__Wrapper-"]
+timeout.com##div[class^="_donationsContainer_"]
 phemex.com##p > [href^="https://phemex.com"]
 ! Youtube TV promos
 youtube.com##.ytd-primetime-promo-renderer
@@ -40022,6 +40025,7 @@ time.com##.cartoon-newsletter-container
 classicsdujour.com##.cdj-vip
 newrepublic.com##.center.popup
 wired.com##.cm-hero-wrapper
+wired.com##.cm-rail-container
 medpagetoday.com##.cme-join
 mercurynews.com##.cmg-mg2bn-collapsed
 cnbctv18.com##.cnbc-news-l
@@ -40031,6 +40035,7 @@ shropshirestar.com##.comments-cta
 vogue.com##.component-cnid-modal-backdrop
 vanityfair.com##.component-modal
 sbs.com.au##.connect-sbs
+wired.com##.consumer-marketing-unit--cm-footer
 wired.com##.consumer-marketing-unit--display-rail
 moneycontrol.com##.contact
 houseandleisure.co.za##.contact-us
@@ -40729,6 +40734,7 @@ howtogeek.com##div[class*="inpage"]
 producthunt.com##div[class*="subscribeToNewsletter"]
 usnews.com##div[class="KioskFirstClass__Container-"]
 legacy.com##div[class^="ArticleBody__BodyDescription_"] > p[style="text-align: center;"]
+wired.com##div[class^="ConsumerMarketingUnitThemedWrapper-"]
 pri.org##div[class^="CtaMessage_"]
 nytimes.com##div[class^="Dock-dock-"]
 nowthisnews.com,thrillist.com##div[class^="EmailAcquisitonstyles"]
@@ -40742,6 +40748,7 @@ reuters.com##div[class^="NewsletterCard__"]
 zerohedge.com##div[class^="SidebarNewsletter"]
 axios.com##div[class^="StreamCap__promoContainer"]
 aeon.co##div[class^="VideoNewsletterSignUpCard_"]
+timeout.com##div[class^="_inlineNewsletter_"]
 dallasnews.com##div[class^="app_cta-newsletter"]
 euronews.com##div[class^="mailmunch-"]
 livemint.com##div[class^="newslettersub"]
@@ -41037,6 +41044,8 @@ business-standard.com##.bg
 newsbreak.com##.bottom-10.fixed
 manutd.com##.custom-popup
 chicagotribune.com##.met-flyout
+phonearena.com##.ncTooltip
+phonearena.com##.ncTooltip__content
 techpowerup.com##.notice-content
 wowhead.com##.notifications-dialog
 post-gazette.com##.pg-notifybox
@@ -48216,8 +48225,8 @@ faberkabel.de#@##modalCookie
 imobiliare.ro#@##modalCookies
 microsoft.com#@##ms-cookie-banner
 thesocialmedwork.com#@##notice-cookie-block
-gq-magazine.co.uk,mail.com,rockpapershotgun.com,uefa.com#@##onetrust-banner-sdk
-gq-magazine.co.uk,mail.com,rockpapershotgun.com,uefa.com#@##onetrust-consent-sdk
+gq-magazine.co.uk,mail.com,rockpapershotgun.com,uefa.com,zdnet.com#@##onetrust-banner-sdk
+gq-magazine.co.uk,mail.com,rockpapershotgun.com,uefa.com,zdnet.com#@##onetrust-consent-sdk
 api.newsguardtech.com,rockpapershotgun.com#@##optanon
 ign.com#@##policyNotice
 theverge.com#@##privacy-consent
