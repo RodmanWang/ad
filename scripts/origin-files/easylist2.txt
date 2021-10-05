@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: RE+66Uzy6epKnrAxJzlatg
-! Version: 202110050600
+! Checksum: qYESkSINZMKwlwOMyqRwCw
+! Version: 202110050900
 ! Title: Fanboy's Annoyance List
-! Last modified: 2021-10-05 06:00 UTC
+! Last modified: 2021-10-05 09:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -30897,6 +30897,7 @@ _vpcookieconsent/
 ##.cookie__bar
 ##.cookie__consent
 ##.cookie__container
+##.cookie__floating
 ##.cookie__footer
 ##.cookie__inner
 ##.cookie__manager
@@ -34999,7 +35000,6 @@ _vpcookieconsent/
 ||linkwithin.com^$third-party
 ||list-manage.com/subscribe/
 ||list-manage1.com/subscriber-count?$third-party
-||live.primis.tech^$third-party
 ||live4sport.net^$third-party
 ||liveintent.com^$third-party
 ||lpages.co/serve-leadbox/$third-party
@@ -43379,6 +43379,7 @@ aw-lab.com##.privacy-data
 gigaom.com,gq.com.au,mta.tv,vocativ.com,zumba.com##.privacy-policy
 thenewdaily.com.au##.privacy-policy-slideup
 zmags.com##.privacyPrompt
+aiscore.com##.privaryClass
 parliament.scot##.projects-takeover
 espn.com##.promo-banner-container
 loggly.com##.promotion
