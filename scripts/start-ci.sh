@@ -20,11 +20,12 @@ easylist=(
 )
 
 hosts=(
-  "https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt"
+  "https://pgl.yoyo.org/as/serverlist.php?mimetype=plain.text"
 )
 
 strict_hosts=(
   "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt"
+  "https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser"
 )
 
 dead_hosts=(
