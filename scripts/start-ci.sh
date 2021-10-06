@@ -21,6 +21,7 @@ easylist=(
 
 hosts=(
   "https://pgl.yoyo.org/as/serverlist.php?mimetype=plain.text"
+  "https://curben.gitlab.io/malware-filter/urlhaus-filter-hosts.txt"
 )
 
 strict_hosts=(
