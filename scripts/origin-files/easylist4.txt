@@ -18934,6 +18934,12 @@ sodapdf.com##.be-tooltip
 ! Specific sites
 !######### Subscription popups add to subscriptions.txt #########
 !
+wikijob.co.uk#$#.popup-background { display: none !important; }
+wikijob.co.uk#$#body[style^="overflow:"] { overflow: auto !important; }
+4kdownload.com#$?#body > div.remodal-wrapper:has(> div#ouibounce-modal > div#popup-download-root) { display: none!important; }
+4kdownload.com#$#.remodal-overlay { display: none!important; }
+4kdownload.com#$#html { overflow: visible!important; }
+4kdownload.com#$#body { padding-right: 0!important; }
 zona.plus###zona-android
 zona.plus##.bookmark-bubble
 okazurand.net###ado-side-drawer
@@ -19096,7 +19102,8 @@ karofilm.ru#$#.fancybox-wrap { display: none!important; }
 karofilm.ru#$#.fancybox-overlay { display: none!important; }
 karofilm.ru#$##fancybox-loading { display: none!important; }
 karofilm.ru#$#.fancybox-margin { margin-right: 0!important; }
-karofilm.ru#$#html { overflow: visible!important; }
+karofilm.ru#$?#html { overflow: auto !important; }
+karofilm.ru#$?#body { overflow: auto !important; }
 ruten.com.tw#$#.ruten-event-notification { display: none !important; }
 ruten.com.tw#$#body { overflow: auto !important; }
 tide.com###global-sticker
@@ -26201,6 +26208,7 @@ quinhillyer.com,johnbiver.com,jasonmattera.com,ipatriot.com,hooligancharters.com
 ##.widget_blog_subscription
 ~norwichzen.org.uk,~dereferer.me###mc_embed_signup
 !
+wikijob.co.uk#?#div[class^="ResumeWidget-"]:has(> form[name="cvreview"] > input[name="email"])
 kripeshadwani.com##a[href="https://sendfox.com/kripeshadwani"]
 psycom.net###modalpop
 smith.ai#?#.blog__row div.bm40:has(> div[class] form#email-form)
@@ -30359,6 +30367,7 @@ iembra2or.com,battle-one.com,terbit21.online,wizardsubs.com,audio-sound-premium.
 ! #%#//scriptlet("remove-attr", "oncontextmenu|onselectstart|ondragstart", "body")
 novelpia.com,dragonball-tube.com,onepiece-tube.com,fairytail-tube.org,baho.com.tr,wholehk.com,siyasetcafe.com,webtv.dothome.co.kr,outdoornews.co.kr,egloos.com,novel.naver.com,eskisehirekspres.net#%#//scriptlet("remove-attr", "oncontextmenu|onselectstart|ondragstart", "body")
 !
+noticiasdlb.com#%#//scriptlet('prevent-addEventListener', '/contextmenu|copy/')
 melodelaa.link#%#//scriptlet("prevent-addEventListener", "/^(?:contextmenu|copy|cut)$/", "preventDefault")
 novelpia.com#%#//scriptlet('set-constant', 'disableclick', 'noopFunc')
 novelpia.com#%#//scriptlet('prevent-setInterval', '/\.css\(\'user-select\'\)/')
