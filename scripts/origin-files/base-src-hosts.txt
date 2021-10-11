@@ -10158,7 +10158,7 @@
 <form action="/as/serverlist.php">
 <head>
 <html>
-<input type=hidden name="startdate[day]" value="15">
+<input type=hidden name="startdate[day]" value="16">
 <input type=hidden name="startdate[month]" value="10">
 <input type=hidden name="startdate[year]" value="2001">
 <input type=hidden name=hostformat value="hosts">
@@ -10173,8 +10173,8 @@
 <p><table cellpadding=2 cellspacing=0>
 <p><table cellpadding=3 cellspacing=1>
 <td><b class=blue>3674</b></td>
-<td><b class=blue>Mon, 15 Oct 2001 00:00:00</b></td>
 <td><b class=blue>Sun, 10 Oct 2021 06:24:56 GMT</b></td>
+<td><b class=blue>Tue, 16 Oct 2001 00:00:00</b></td>
 <td><b class=blue>hosts -- in hosts file format</b></td>
 <td><input type=submit value="show list with this IP address"></td>
 <td><input type=text size=12 name=useip value="127.0.0.1"></td>
