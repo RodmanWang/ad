@@ -81,6 +81,8 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/76987
 youtube.com#%#AG_onLoad(function() {var a = new MutationObserver(function() {if (document.querySelector('yt-upsell-dialog-renderer')) {var b = document.querySelector('.ytd-popup-container[popup-size="UPSELL_DIALOG_RENDERER_POPUP_SIZE_LARGE"] #dismiss-button:not(.dismissed), .upsell-dialog-lightbox .upsell-dialog-dismiss-button button:not(.dismissed)');setTimeout(function() {b&&b.click()}, 3E2)}});a.observe(document, {childList: !0,subtree: !0});setTimeout(function() {a.disconnect()}, 3E3)});
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/95840
+ng.ru##img[src^="//telegram.im/widget-logo/"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/95680
 nuance.com###myModal
 nuance.com##.modal-backdrop
@@ -3003,6 +3005,7 @@ hgtv.com#@#.showads
 !
 !
 !
+testserver.pro#%#//scriptlet('prevent-setTimeout', 'adsbygoogle')
 webcamtaxi.com###bd_cortina
 webcamtaxi.com###blockerdetector
 webcamtaxi.com#%#//scriptlet("set-constant", "google_jobrunner", "noopFunc")
@@ -5301,6 +5304,12 @@ series.movie##.notice
 @@||cx30-forum.de^$generichide
 @@||telefon-treff.de/js/CW/adsbygoogle.js
 @@||telefon-treff.de^$generichide
+! https://github.com/AdguardTeam/AdguardFilters/issues/95766
+!#if (adguard_app_ios || adguard_ext_android_cb)
+@@||testserver.pro/js/pagead2.googlesyndication.com/pagead/js/*/show_ads_impl_fy2019.js
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=testserver.pro
+testserver.pro#@#.adsbygoogle
+!#endif
 ! https://github.com/AdguardTeam/AdguardFilters/issues/79903
 offertoro.com#@#.ads
 offertoro.com#@#.ad
@@ -7310,6 +7319,7 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 !
 !
 !
+videodownloaderultimate.com###idCookiebar
 aimina.com###agree_cookie
 nikkei.com##k2-privacy-notification
 repro.io###js-cookie-usage-popup
@@ -18950,6 +18960,10 @@ sodapdf.com##.be-tooltip
 ! Specific sites
 !######### Subscription popups add to subscriptions.txt #########
 !
+mitani-visual.jp###c-modal
+yourstory.com###broadcast-toast
+videodownloaderultimate.com#$##m_offer { display: none!important; }
+videodownloaderultimate.com#$#body { overflow: visible!important; padding-right: 0!important; }
 003ms.ru##.android_go
 1000.menu#%#//scriptlet('prevent-setTimeout', 'init_no_delay')
 blocksite.co###elementor-popup-modal-2435
@@ -20467,7 +20481,7 @@ interestingengineering.com#$##newsletter-modal { display: none !important; }
 interestingengineering.com#$#.modal-backdrop { display: none !important; }
 interestingengineering.com#$#body { overflow: auto !important; }
 catwalkyourself.com,egyptianstreets.com,sklum.com,comicbook.com###newsletterModal
-||cdn.viqeo.tv/js/vq_fly_widget.js$domain=liveinternet.ru|femmie.ru
+||cdn.viqeo.tv/js/vq_fly_widget.js$domain=liveinternet.ru|femmie.ru|solenka.info
 stylus.ua###roulette-widget
 livehindustan.com##.co-bannerparent
 livehindustan.com##.show_login_inner
@@ -26229,6 +26243,7 @@ quinhillyer.com,johnbiver.com,jasonmattera.com,ipatriot.com,hooligancharters.com
 ##.widget_blog_subscription
 ~norwichzen.org.uk,~dereferer.me###mc_embed_signup
 !
+eastasiaforum.org###eaf_subscribe_sidebar-2
 blog.irdeto.com#?#.et_pb_extra_column_sidebar > div[id^="custom_html-"] > .widgettitle:contains(Subscribe to the Blog):upward(1)
 wikijob.co.uk#?#div[class^="ResumeWidget-"]:has(> form[name="cvreview"] > input[name="email"])
 kripeshadwani.com##a[href="https://sendfox.com/kripeshadwani"]
@@ -28180,7 +28195,7 @@ dailycaller.com,idownloadblog.com,malwarebytes.com,mashable.com,nakedsecurity.so
 vox.com,recode.net###newsletter-signup-short-form
 bunte.de###newsletter-subscribe-teaser
 meedia.de###newsletter-teaser
-geek.com###newsletter-widget
+yourstory.com,geek.com###newsletter-widget
 businessinsider.com.pl###newsletter.biWdgItem
 filehorse.com###newsletter1
 gruenderszene.de###newsletter_box
