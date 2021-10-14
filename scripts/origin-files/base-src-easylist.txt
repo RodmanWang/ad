@@ -2764,6 +2764,8 @@
 ||abczdrowie.pl^$replace=/(abp:subscribe[\s\S]*?.=\(\)=>).===.(\,)/\$1{return}\$2/,script
 ||abczdrowie.pl^$replace=/(abp:subscribe[\s\S]*?.=function\(\)\{)return .===.(\}\,)/\$1return\$2/,script
 ||abdicatenoise.com^
+||abdittoan.com^$popup
+||abdittoan.com^$third-party
 ||abdmi.ru^$third-party
 ||abds.pingpingw.com^
 ||abedwest.com^
@@ -13399,6 +13401,7 @@
 ||counter1.fc2.com^
 ||counter160.com^$third-party
 ||counter2.blog.livedoor.com^
+||counter24.luxnet.ua^
 ||counter27.ch^$third-party
 ||counterbot.com^$third-party
 ||countercentral.com^$third-party
@@ -16650,6 +16653,7 @@
 ||dsptrack.mobshark.net^
 ||dspultra.com^
 ||dspultra.com^$popup
+||dss8l0f.cn^
 ||dssdr.top^
 ||dsstrk.com^
 ||dsstrk.com^$popup
@@ -17068,6 +17072,7 @@
 ||eaenjwd1cmftxjk.ru^$third-party
 ||eaes.2track.info^$document,popup
 ||eaesie.com^
+||eagath.com^
 ||eagerlydenote.com^
 ||eagernessrationalize.com^
 ||eagle.kudzu.com^
@@ -23727,6 +23732,7 @@
 ||hqtrk.com^$popup
 ||hqvwniado.com^
 ||hqwlm.com^
+||hqycr.cn^
 ||hqygz.com^
 ||hqysonbyddwta.com^
 ||hr44.com^
@@ -23896,6 +23902,7 @@
 ||hunchmotherhooddefine.com^
 ||hung.ch^$third-party
 ||hungerundo.com^
+||hunoso.com^
 ||hunt-leads.com^$third-party
 ||hunter-hub.com^
 ||hunterdelivery.com^$third-party
@@ -37523,6 +37530,7 @@
 ||portak.net^$third-party
 ||portakamus.com^$third-party
 ||portal.affincome.com^$domain=funporns.com
+||portalisimmo.com^
 ||portantreadedagree.info^
 ||portech315.net^$third-party
 ||portenttwinehypothetically.com^
@@ -40471,6 +40479,7 @@
 ||rnengage.com^$third-party
 ||rnffgv.wemakeprice.com^
 ||rng-snp-003.com^$third-party
+||rng1812.top^
 ||rnigait.com^
 ||rnlabs.com^$third-party
 ||rnldustal.com^$third-party
@@ -48936,6 +48945,7 @@
 ||toolset.vip^
 ||toonget.net.daraz.com^
 ||toonikab.com^
+||toonoost.net^
 ||toormpc.com^$third-party
 ||toospk.com^
 ||toothbrushnote.com^$third-party
@@ -51062,6 +51072,7 @@
 ||umbbs.cn^
 ||umbel.com^
 ||umbel.com^$third-party
+||umbrella.asia^
 ||umcbbt.com^
 ||umcbbt.com^$third-party
 ||umebiggestern.club^
@@ -53131,6 +53142,7 @@
 ||webvideomarketing.ru^$third-party
 ||webview.unityads.unity3d.com^
 ||webvisor.ru^$third-party
+||webvitals.luxnet.ua^
 ||webwap.org^$third-party
 ||webwise.com^$third-party
 ||webwise.net^$third-party
@@ -54461,6 +54473,7 @@
 ||xiald.com^
 ||xiancn.com^*/adv_content/
 ||xiandafood.cn^
+||xianglong360.cn^
 ||xianguangergaozhi.com^
 ||xiangwangdesh.com^
 ||xiangyudj.cn^
