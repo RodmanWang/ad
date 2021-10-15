@@ -2760,6 +2760,7 @@
 ||abcotvs.net^*/fban_
 ||abcpetulant.com^
 ||abcstats.com^$third-party
+||abcxs.net^
 ||abczdrowie.pl^$replace=/(<VAST[\s\S]*?>)[\s\S]*<\/VAST>/\$1<\/VAST>/,xmlhttprequest,other,~script
 ||abczdrowie.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*\n)//,script
 ||abczdrowie.pl^$replace=/(abp:subscribe[\s\S]*?.=\(\)=>).===.(\,)/\$1{return}\$2/,script
@@ -9053,6 +9054,7 @@
 ||bi.medscape.com^$app=~com.medscape.android
 ||bi.yeshen.com^
 ||bia.brightinfo.com^$third-party
+||bian123.icu^
 ||biandaosheng.com^
 ||bianxianmao.com^$third-party
 ||bianxianwu.com^
@@ -23870,6 +23872,7 @@
 ||hugo3c.tw^$csp=script-src 'self' * 'unsafe-inline'
 ||hugregregy.pro^$third-party
 ||huhai.cdwz8.cn^
+||huhangkuaiji.cn^
 ||huhughyaw.com^
 ||huhuhiiuio.com^
 ||huichenbz.com^
@@ -28128,6 +28131,7 @@
 ||liangzimo.ltd^
 ||liangziweixg.com^
 ||lianjie.phpwind.com^$third-party
+||lianjikeji.cn^
 ||lianle.com^$third-party
 ||lianmen1.joyyang.com^
 ||lianmeng.360.cn^$domain=~lianmeng.360.cn
@@ -32096,6 +32100,7 @@
 ||mm.welt.de^
 ||mm7.net^$third-party
 ||mm786.com^$popup,third-party
+||mm88m.top^
 ||mmaaxx.com^$third-party
 ||mmadsgadget.com^
 ||mmagesim.carte-gr.total.fr^
@@ -35666,6 +35671,7 @@
 ||owenexposure.com^
 ||oweveraldb.top^
 ||oweveredh.top^
+||owghrl6.cn^
 ||owhvte.alltime.ru^
 ||owkkdsfg.com^$third-party
 ||owl.boatingscout.com^
