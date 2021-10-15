@@ -24,7 +24,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <tr>
 <td>blocklist last updated:</td>
-<td><b class=blue>Wed, 13 Oct 2021 17:57:35 GMT</b></td>
+<td><b class=blue>Fri, 15 Oct 2021 12:23:24 GMT</b></td>
 </tr>
 
 
@@ -41,7 +41,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <tr>
 <td>total entries:</td>
-<td><b class=blue>3672</b></td>
+<td><b class=blue>3673</b></td>
 </tr>
 
 </table>
@@ -77,8 +77,8 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Wed, 13 Oct 2021 17:57:35 GMT
-# entries:        3672
+# last updated:   Fri, 15 Oct 2021 12:23:24 GMT
+# entries:        3673
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/as/serverlist.php?mimetype=plain.text
@@ -3445,6 +3445,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 tracking.jiffyworld.com
 127.0.0.1 tracking.markethero.io
 127.0.0.1 tracking.miui.com
+127.0.0.1 tracking.netalerts.io
 127.0.0.1 tracking.olx-st.com
 127.0.0.1 tracking.orixa-media.com
 127.0.0.1 tracking.publicidees.com
