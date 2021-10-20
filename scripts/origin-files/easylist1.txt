@@ -4837,6 +4837,7 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||analytics.marquiz.ru^
 ||webvitals.luxnet.ua^
 ||counter24.luxnet.ua^
 ||player-telemetry.vimeo.com^
@@ -17438,7 +17439,7 @@ _tracking.php?b=
 ! ||spiegel.de/static/sys/dimensionspixel.gif - breaks loading pictures on mobile
 !
 ! The site should be carefully checked when you add this rule
-||tags.tiqcdn.com/utag/*/prod/utag.js$domain=radissonhotels.com|post.ch|usnews.com
+||tags.tiqcdn.com/utag/*/prod/utag.js$domain=radissonhotels.com|post.ch|usnews.com|yemeksepeti.com
 !
 !
 ! TODO: replace `~domain.com` by exclusions after ext4.0 release
