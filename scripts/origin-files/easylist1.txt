@@ -4998,7 +4998,7 @@ nethunt.com/api/v1/track/email/$image
 ||eventapi.afreecatv.com^
 ||stat.nate.com^
 ||hitweb2.chosun.com^
-||track.clkfly.com^$document,popup
+||track.clkfly.com^$all
 ||pf.intuit.com^
 ||sci.intuit.com^
 ||track.libii.cn^
@@ -6264,7 +6264,6 @@ nethunt.com/api/v1/track/email/$image
 ||pixel.roymorgan.com^
 ||bdg-analytics.appspot.com^
 ||beacon.walmart.ca^
-||store-stc.zdn.vn^
 ||static-ads.zaloapp.com^
 ||log.api.zaloapp.com^
 ||stc.store.page.zaloapp.com^
@@ -17935,7 +17934,7 @@ the-ans.jp##.side-reccomend
 ||clck.yandex.ru^$other
 ||googletagmanager.com/ns.html?$third-party
 ||dubox.com/api/analytics
-||media.r18.com/track/$document,popup
+||media.r18.com/track/$all
 ||app.retargetapp.com/pixel/pixel.min.js
 ||peek-cloppenburg.at/assets/js/3rdparty/tags.tiqcdn.com/utag.js
 ||salesmanago.com/api/r.gif
@@ -20995,6 +20994,10 @@ $app=com.miui.analytics
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/96576
+! It's caused by EasyPrivacy, but issue occurs only with content blockers, so fixed in our filters
+!+ PLATFORM(ios, ext_safari)
+@@||bing.com/fd/ls/GLinkPing.aspx?
 ! https://github.com/AdguardTeam/AdguardFilters/issues/96375
 @@||googletagmanager.com/gtm.js$domain=gfn.ru
 ! https://github.com/easylist/easylist/pull/9436

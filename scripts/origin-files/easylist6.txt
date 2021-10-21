@@ -1052,6 +1052,8 @@ $script,xmlhttprequest,third-party,domain=00ksw.com|01zww.com|0biquge.com|114zw.
 !
 !
 !
+ouyaoxiazai.com##div[id^="cs_"] > *
+||ouyaoxiazai.com/static/img/cqthree.gif
 ||yemancomic.com/static/xiaomage.js
 ||yemancomic.com/static/maoshuang.js
 *$script,third-party,xmlhttprequest,domain=cnbtspread.xyz
@@ -3559,6 +3561,7 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 -*-*-*-*.panda|$script,third-party
 .8ox.cn
+||stgowan.com^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -18855,6 +18858,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
 ||rjigj.cn^
+||58zj.cc^
+||hdypw.com^
+||sjhl.club^
+||srmdz.vip^
+||youwenzhi.xyz^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
