@@ -91,6 +91,7 @@
 ||gonews*.net^$third-party
 ||gscounters.*.gigya.com^$third-party
 ||h*.adscope.co.kr^
+||hog.*^$removeparam=ad
 ||hostingcloud.*.wasm^
 ||i-*.ci360.sas.com^$third-party
 ||iad-*.appboy.com^
