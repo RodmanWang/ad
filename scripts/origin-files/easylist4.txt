@@ -19073,6 +19073,8 @@ sodapdf.com##.be-tooltip
 ! Specific sites
 !######### Subscription popups add to subscriptions.txt #########
 !
+bola.net###read_next
+bola.com###breaking-news
 washingtonpost.com##div[id^="softwall-intl-"]
 companyhouse.de#$#body { overflow: auto !important; padding-right: 0 !important; }
 companyhouse.de#$#div[id="ajax-modal"][style="display: block; padding-right: 17px;"] { display: none !important; }
@@ -20166,7 +20168,7 @@ protect-link.biz#$#div[aria-labelledby="myModalLabel"] { display: none !importan
 protect-link.biz#$#div[aria-labelledby="myModalLabel"] ~ div.modal-backdrop { display: none !important; }
 scamadviser.com#$##marketing-popup-overlay { display: none !important; }
 scamadviser.com#$#body { overflow: auto !important; }
-cryptopotato.com,improveyoursocialskills.com,journaldev.com##.moOptinForm
+drweb.de,khmertimeskh.com,cryptopotato.com,improveyoursocialskills.com,journaldev.com##.moOptinForm
 vimeo.com#?#main ~ div[class]:has(> button + p:contains(/^Upload.*all\sin\sHD/))
 yggtorrent.li##.ad-alert-message
 thedailybeast.com##.grecaptcha-badge[data-style="bottomright"]
@@ -21265,7 +21267,6 @@ usnews.com###zm_survey-prompt
 hasepost.de#$#.pum-overlay { display: none!important; }
 hasepost.de#$#html { overflow: visible!important; }
 vegasslotsonline.com###variation1_popup
-khmertimeskh.com##.moOptinForm.mo-has-name-email
 convertio.co##.chrome-app
 timesofisrael.com##.crm-bottom-popup
 timesofisrael.com##.modal-overlay.nlPopup
@@ -25746,6 +25747,7 @@ experts-exchange.com##.ctaSolutionStickyWrapper
 theguardian.com##.contributions__adblock
 ||contributions.guardianapis.com^
 !
+||visionplus.id/videocontents/vod/$domain=okezone.com
 bilibili.com##.video-page-game-card
 noripon.blog##.cta[style="background: #f2f2f2;"]
 gadgerba.com##.widget_text.sponsored
@@ -26416,6 +26418,7 @@ quinhillyer.com,johnbiver.com,jasonmattera.com,ipatriot.com,hooligancharters.com
 ##.widget_blog_subscription
 ~norwichzen.org.uk,~dereferer.me###mc_embed_signup
 !
+bola.net##.bola-social-bar
 edufever.com##div[class^="code-block code-block-"][style="margin: 8px 0; clear: both;"]
 meta.ua##.subscriptions
 profile.ru##div[data-amp-original-style="width:100%;min-height:60px;background:#eee;text-align:center;margin-bottom:10px;"]
@@ -27000,6 +27003,7 @@ klingel.de##section[role="dialog"]:has(> aside[aria-label^="Zum Newsletter"])
 aldi-nord.de##.mod-newsletter-teaser
 prostopravo.com.ua##.subscription-ad
 kansascity.com###story-cta-widget
+focus.ua##.c-post__channel--facebook
 focus.ua##.c-post__channel--telegram
 focus.ua##.c-post__channel--google
 haaretz.com#?#div[data-test="articleBody"] > div:not([class]):has(> aside > a[href^="mailto:doptint-subscribe"])
