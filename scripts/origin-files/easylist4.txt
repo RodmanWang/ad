@@ -4716,7 +4716,6 @@ thelawyersglobal.org#@#.ad-banner
 @@||kurs.com.ua^$generichide
 @@||gostanford.com/common/templates/dfp/dfp-component-template.html
 fr.de,innsalzach24.de,bgland24.de#@#div[id^="traffective-ad-"]
-@@||d1q4kshf6f0axi.cloudfront.net/js/_ads/adtech.js$domain=spanishdict.com
 @@||gamehag.com/js/ads-prebid.js
 !+ PLATFORM(ios, ext_android_cb)
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=kukuo.tw
@@ -4771,6 +4770,8 @@ parasportontario.ca,bikemania.org#@#.adg_row
 topcashback.com#@#.afs_ads
 delfi.ee#@#.ad-banner
 delfi.ee#@#.patronad
+!+ NOT_OPTIMIZED
+@@||d1q4kshf6f0axi.cloudfront.net/js/_ads/adtech.js$domain=spanishdict.com
 !
 ||gaua.hit.gemius.pl/xgemius.js$script,xmlhttprequest,redirect=nooptext,domain=1plus1.video,important
 !#safari_cb_affinity(privacy)
@@ -20370,7 +20371,6 @@ ultraten.net,uniqueten.net#$#html { overflow: visible !important; }
 bitly.com###wow-modal-overlay-7
 indiamart.com##.chtHnt
 howtogeek.com##div[id^="v2campaignpopup"]
-monsterindia.com###credential_picker_container
 revouninstaller.com#$##popupModal { display: none !important; }
 revouninstaller.com#$#.modal-backdrop { display: none !important; }
 revouninstaller.com#$#body { overflow: visible !important; padding-right: 0 !important; }
@@ -24150,6 +24150,7 @@ abendzeitung-muenchen.de###webpush-app
 ||fspark-ap.com^$third-party
 ||disrepush.com^$third-party
 ||merdihatus.com^$third-party
+||kursatarak.com^$third-party
 !
 /firebase.js$domain=novayagazeta.ru|comments.ua|kinosimka.net|ilan365.net|cnbcindonesia.com|haberzamani.net|oxy.cloud|allbasketball.org|auslogics.com|kartalyuvasi.com.tr|cnnindonesia.com|fbc.ua
 /firebase-messaging.js$domain=ukranews.com|comments.ua|meduza.io|coub.com|porno90.me|cnnamador.com|giallozafferano.it|wcostream.com|fptplay.vn|jooble.org|mobile01.com|myinstants.com|pdalife.ru|rg.ru|m.iguides.ru|donanimhaber.com|profile.ru|womanhit.ru|news.noteru.com|narodna-pravda.ua|newstm.in|sabah.com.tr|dreamstime.com|popbee.com|avtovzglyad.ru|allbasketball.org|tw.news.yahoo.com|takvim.com.tr|jn.pt|ria.ru|pars.host|calculator-online.net|operanewsapp.com|ahaber.com.tr|tamindir.com|concursosnobrasil.com.br|kompas.com|news.ebc.net.tw|recyclingtoday.com|homedecoratione.com|khersondaily.com|mirtesen.ru|womanhit.ru|belsat.eu|gearbest.com|op.gg|novayagazeta.ru|pocket-lint.com|turunculevye.com
@@ -30687,6 +30688,7 @@ iembra2or.com,battle-one.com,terbit21.online,wizardsubs.com,audio-sound-premium.
 ! #%#//scriptlet("remove-attr", "oncontextmenu|onselectstart|ondragstart", "body")
 novelpia.com,dragonball-tube.com,onepiece-tube.com,fairytail-tube.org,baho.com.tr,wholehk.com,siyasetcafe.com,webtv.dothome.co.kr,outdoornews.co.kr,egloos.com,novel.naver.com,eskisehirekspres.net#%#//scriptlet("remove-attr", "oncontextmenu|onselectstart|ondragstart", "body")
 !
+sedaily.com#%#//scriptlet('set-constant', 'NewsSource.addSource', 'noopFunc')
 bomtoon.com#%#//scriptlet('remove-attr', 'oncontextmenu|onselectstart|ondragstart', '.inner')
 bomtoon.com#%#//scriptlet('remove-attr', 'oncontextmenu|onselectstart|ondragstart', '#novel_inner_wrap')
 bomtoon.com#%#//scriptlet('remove-attr', 'oncontextmenu|onselectstart|ondragstart', 'article')
