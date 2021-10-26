@@ -99,6 +99,8 @@ $removeparam=pk_medium
 $removeparam=pk_source
 ! Branch.io ( https://stackoverflow.com/questions/37882810/what-is-meaning-of-branch-match-id )
 $removeparam=_branch_match_id
+! Valuecommerce ( https://help.valuecommerce.ne.jp/mer/dl/ITP2.0_for_iTAG.pdf )
+$removeparam=vc_lpp
 ! https://github.com/brave/brave-browser/issues/17507
 $removeparam=ml_subscriber
 $removeparam=ml_subscriber_hash
@@ -116,6 +118,8 @@ $removeparam=oly_enc_id
 ! The rules for specific sites
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/97935
+||jasonsavard.com^$removeparam=/cUrl|ref/
 ! https://www.expressvpn.com/tfk?a_aid=tf, https://vpnarea.com/front/member/signup?a_aid=torrentgalaxy
 $removeparam=a_aid,domain=expressvpn.com|vpnarea.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/97742
