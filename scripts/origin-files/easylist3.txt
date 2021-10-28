@@ -1267,6 +1267,8 @@ teyvatsokuho.com,extravelmoney.com,gigafree.net,fpsjp.net,lifestyle.livemint.com
 ! ##.sns_area
 sedaily.com,canshop.jp,koreatimes.co.kr,m.chosun.com,sports.donga.com##.sns_area
 !
+fingerprintjs.com##div[class^="ActionBar-module--root--"] > span[class^="ActionBar-module--publishDate--"] + div
+sweethentai.com##a[data-target="#modalSocial"]
 ||newsweekjapan.jp/js/sp/sns.js
 newsweekjapan.jp###socialTool
 bayreuther-tagblatt.de##.av-social-sharing-box
@@ -1343,6 +1345,7 @@ passportbdd.ru##.module-social-sharing
 americanhorrorstory.ru###sbox
 dailyportalz.jp##.social_button
 dailyportalz.jp##.widget-sns-box
+bahisanaliz27.com###OrtaBlok > div.hideMobil
 tts.ru##.blog_article-shareWrapper
 momiage.work##.sns-footer
 openworldnews.net,animanch.com##.snscount
@@ -2950,7 +2953,7 @@ cnbcindonesia.com##a[class*=" gtm_share_"]
 di.fm##.social-button.share
 forum.militaryparitet.com##.fancy-addthis-post
 onet.pl##.fbShare
-fakt.pl##.socialButtons
+medonet.pl,fakt.pl##.socialButtons
 fakt.pl##div[data-position="mobile"][data-run-module="local/main.social"]
 calculateaspectratio.com##.share > *
 vagalume.com.br###shareLyrics
@@ -9229,6 +9232,7 @@ designboom.com,livescience.com,pbtech.co.nz,peoplesworld.org,space.com##.fa-face
 ||mailget.net^$third-party
 ||my.hellobar.com^$third-party
 !
+||supersadovnik.ru/Content/scripts/bother.js
 24.hu##.fb-exit-popup-container
 shoneekapoor.com##.whatsapp
 oneindia.com###containerPop

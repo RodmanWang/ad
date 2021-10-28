@@ -2055,6 +2055,8 @@ m.xigua110.com##.ui-detail-info > div[style*="line-height:35px; text-align:cente
 !
 ! White list. Fixing filtration errors (false-positive)
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/97209
+@@||mcmod.cn/images/banner/
 ! https://github.com/AdguardTeam/AdguardFilters/issues/94347
 @@||googleads.github.io/videojs-ima/node_modules/video.js/dist/video-js.min.css$domain=ulifestyle.com.hk
 ! https://github.com/AdguardTeam/AdguardFilters/issues/92316
@@ -11265,6 +11267,7 @@ _yad_jsonp_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 szxx.com.cn###A0
+17travel.net##.ui_adblock
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -18887,7 +18890,15 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
 ||zcmnffq.cn^
+||zzkbsm.cn^
+||fxhfxhf.cc^
 ###asdw3
+||dcl5.cn^
+||febao.xyz^
+||dhxuiho.cn^
+||wpqsmse.cn^
+||wfeiso.top^
+||wzytop.top^
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
 ###content > div[style="padding:10px!important;border-radius:10px;background-color:green;"]
