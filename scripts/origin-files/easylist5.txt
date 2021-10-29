@@ -1282,6 +1282,11 @@ westseattleblog.com#@#.header-ad
 !
 ! Extended CSS rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/97863
+profile.ru#?#.main > div.container-fluid > div > div.float-right:contains(/^\s{8} $/)
+! app.famitsu.com placeholder
+app.famitsu.com#?#.news_section > ul > li > div.adcloud_frame:upward(1)
+! https://github.com/AdguardTeam/AdguardFilters/issues/96380
 sueddeutsche.de#?#div[itemprop="articleBody"] > div:has(> div[id^="iqadtile"])
 ! notebookcheck.com - left-over in article
 notebookcheck.com#?#div[class*="incontent-column"]:has(> div[class] > div[id^="div-gpt-ad"])
@@ -1946,9 +1951,6 @@ mobiltelefon.ru#$#header { margin-top: 0!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/22276
 sammobile.com#$#body > .g-29 + section.content { margin-top: 0!important; }
 sammobile.com#$#body > #home-slider + section.content { margin-top: 0!important; }
-! https://github.com/AdguardTeam/AdguardFilters/issues/9984
-m.dizilab.pw#$##player { display:block!important; }
-m.dizilab.pw#$#.previd-link { display:none!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/19018
 techcrunch.com#$#.mobile-header-nav { top: 0!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/17440
@@ -2491,6 +2493,14 @@ theinventory.com,avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,
 ! ##.ads
 cartoonpornvideos.com,m.economictimes.com,beethovenmaster.com,m.mistrzowie.org,m.ura.news,siirtpress.com,up.ymgt.xyz,google.de,www-bento-de.cdn.ampproject.org,m-economictimes-com.cdn.ampproject.org,m.winfuture.de##.ads
 !
+news.abplive.com##div[style="min-height:280px;"]
+tabootube.xxx##.wrap-spot
+tabootube.xxx##.sponsor
+profile.ru##div[data-typeitem="ad"]
+rbc.ua##.adsens-wrap
+app.famitsu.com###gam_sp_header_banner_1
+||cdn.r10.net/newbn/igtr.webp
+r10.net##.container > div > a[target="_blank"] > img
 golem.de##.iqadmarker
 golem.de##.list-ticker > .sp-article
 golem.de##.adsbygoogle
@@ -3889,7 +3899,6 @@ swedroid.se##.externalTopMobile
 maxfoodfun.com##.recommend-diy
 maxfoodfun.com##.discover-stream
 maxfoodfun.com###article-hot-wrapper
-m.dizilab.pw##.reklam2x
 niji-gazo.com##.partner-block
 niji-gazo.com##div[id*="-ad-block-"]
 turizmekstra.com##img[src^="https://www.turizminsesi.com/d/banner/"]
@@ -4407,7 +4416,6 @@ mp4mania.mobi##a[href^="http://abc.gogooffer.online"]
 goodtoknow.co.uk##.adContainerTop
 uproxx.com##[class^="uproxx_iframe_"][class*="ads_wrapper"]
 healthline.com###site-header ~aside[class^="css-"] > div[class^="css-"]
-m.dizilab.pw###textvideo
 m.mylust.com###wrapper div[class^="topb-"]
 m.muensterschezeitung.de##.wn_spo_banner
 medien-studieren.net,medienstudienfuehrer.de##.leaderboard .banner
@@ -5292,6 +5300,8 @@ anwap.club,anwap.film,anwap.mobi##body > div[class] > a > strong
 !
 ||app.adjust.com^$app=com.easybrain.nonogram|ru.pikabu.android|com.maroieqrwlk.unpin|com.touchtao.soccerkinggoogle|com.mobirix.zumaking2|com.mobirix.swipebrick2|com.mobirix.mahjongking2|com.mobirix.hit7.casino.slots|com.mobirix.gmm|com.mobirix.fishingchampionship|com.mobirix.airhockey|com.mobirix.abmon|com.mobirix.MultiplyWar
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/97849
+.ott.cibntv.net/youku/*.mp4?*&ykVideoShowType=2|$app=com.youku.phone
 ! https://github.com/AdguardTeam/AdguardFilters/issues/95618
 ||startup.mobile.yandex.net^$app=ru.rian.reader
 ! https://github.com/AdguardTeam/AdguardFilters/issues/95110
