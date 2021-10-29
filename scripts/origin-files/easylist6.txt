@@ -2055,6 +2055,8 @@ m.xigua110.com##.ui-detail-info > div[style*="line-height:35px; text-align:cente
 !
 ! White list. Fixing filtration errors (false-positive)
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/97793
+fuzhou.baixing.com#@#.ad-title
 ! https://github.com/AdguardTeam/AdguardFilters/issues/97209
 @@||mcmod.cn/images/banner/
 ! https://github.com/AdguardTeam/AdguardFilters/issues/94347
@@ -3570,6 +3572,7 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 -*-*-*-*.panda^$script,third-party
 .8ox.cn
+||guangzhengtwentynine.top^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -11266,6 +11269,7 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||juapp5.com/geek_image/chaopai.jpeg
 szxx.com.cn###A0
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -18890,6 +18894,13 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
 ||fkhfk.cn^
+||dzd9.cn^
+||hello211.top^
+||8t100.cn^
+||yingxunkeji.net^
+||wuzefei.top^
+||cxzgdse.cn^
+||xzcvfdwe.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
