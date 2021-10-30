@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: YrAyIhvrNxttKupMKrQOnA
-! Version: 202110300100
+! Checksum: 9ZWrBhcOyYdl80TOf0syHg
+! Version: 202110301250
 ! Title: Fanboy's Annoyance List
-! Last modified: 2021-10-30 01:00 UTC
+! Last modified: 2021-10-30 12:50 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -6335,6 +6335,7 @@ _vpcookieconsent/
 ##.ing-newsletter-box
 ##.inhouse__subscription-ribbon
 ##.injector-promo-newsletter
+##.inlaysignup-container
 ##.inline-breaking-news-newsletter
 ##.inline-email-signup-container
 ##.inline-newsletter-middle
@@ -39315,6 +39316,7 @@ apnews.com##div[class^="Component-apps-"]
 bloombergquint.com##div[class^="more-on-this-topic"]
 dailymail.co.uk,thisismoney.co.uk##div[class^="nextBtn-"]
 thisismoney.co.uk##div[class^="previousBtn-"]
+cheddar.com##div[class^="video__upnext_"]
 brighthub.com##div[data-bhtrackregion="Subscribe"]
 mail.zoho.com##div[data-id="zm-notifications-popover"]
 forbes.com##div[data-tracking-link-name="articleLink_ContribBylineFollow"]
@@ -40027,6 +40029,7 @@ mysteriesrunsolved.com##.cs-entry__subscribe
 cheatsheet.com##.cs-related-links
 mysteriesrunsolved.com##.cs-site-subscribe
 healthline.com##.css-11k39sg
+businessnewsdaily.com##.css-136b5zd-FloaterContainer
 nytimes.com##.css-mlcs8h.shown
 recipetineats.com##.cta
 thecourier.co.uk##.cta--bg
@@ -40066,6 +40069,7 @@ grasswire.com##.digest__container
 democracynow.org##.digest_container
 comicbook.com##.dimmer
 babble.com##.disney-id-box
+opendemocracy.net##.donation-cta-contenttop
 fromthegrapevine.com##.drk_overlay
 theneweuropean.co.uk##.e-edition
 atlassociety.org##.ePopup
@@ -42438,6 +42442,7 @@ legacy.com##div[class^="SocialSharing_"]
 dallasnews.com##div[class^="app_social-media"]
 aeon.co##div[class^="article__SocialShareBar-"]
 la-croix.com##div[class^="follow_"]
+cheddar.com##div[class^="headline__social_"]
 psyche.co##div[class^="ideas__SocialShareBarWrapper-"]
 engadget.com##div[class^="o-social_nav"]
 bloomberg.com##div[class^="share-article-button_"]
@@ -42450,6 +42455,7 @@ technologyreview.com##div[class^="socialList__wrapper-"]
 nbcnews.com##div[class^="socialShareWrapper_"]
 androidheadlines.com##div[class^="socialShare_"]
 psyche.co##div[class^="styled__SocialLinks-"]
+cheddar.com##div[class^="video__share_"]
 aeon.co##div[class^="videos__SocialShareBar-"]
 player.fm##div[data-action="share"]
 abc.net.au##div[data-component="ShareUtility"]
@@ -46249,6 +46255,7 @@ on.cc###acceptDisclaimer
 ctm.net###portalheader\:cookiepanel
 drweb.cn##.SHOWIT-msg_showed
 infiniti.com.tw##.c_128
+canva.cn##.jv5LaQ
 u-car.com.tw##.privacyforsite
 !
 ! ---------- Croatian ----------
