@@ -208,6 +208,7 @@
 .ad.kakaocorp.com^
 .ad.kakao.com^
 !
+||ad.endpo.in^
 ||exelbid.com^
 ||ssp-ad.momento.dev^
 ||adpies.com^
@@ -2485,16 +2486,17 @@ spielen.de###headerad
 !
 ! Common names
 ! ##amp-embed[type="outbrain"]
-spiegel.de,berliner-zeitung.de,businessinsider.de,braunschweiger-abendblatt.de,zeitung.de,bildderfrau.de,derwesten.de,finanzen.net,transfermarkt.de##amp-embed[type="outbrain"]
+ruhr24.de,spiegel.de,berliner-zeitung.de,businessinsider.de,braunschweiger-abendblatt.de,zeitung.de,bildderfrau.de,derwesten.de,finanzen.net,transfermarkt.de##amp-embed[type="outbrain"]
 ! ##amp-embed[type="taboola"]
 golem.de,news.de,independent.co.uk,tomshardware.com,techbook.de,sueddeutsche.de,hurriyet.com.tr,elmundo.es,timesnownews.com,biz-journal.jp,sankei.com,m.mynet.com,amp.ibtimes.co.uk,lifehacker.com,jalopnik.com,ndtv.com,gizmodo.com,cnbc.com##amp-embed[type="taboola"]
 ! ##amp-ad
-golem.de,berliner-zeitung.de,news.de,abendzeitung-muenchen.de,inside-digital.de,boerse.de,emtb-news.de,caravaning.de,areadvd.de,familie.de,derwesten.de,finanzen.net,o2.pl,onet.pl,whathifi.com,amp.n-tv.de,dni.ru,independent.co.uk,komputerswiat.pl,dobreprogramy.pl,amp.pcwelt.de,tomshardware.com,techbook.de,forbes.com,auto-swiat.pl,dialog.ua,mobile.reuters.com,spiegel.de,amp.welt.de,forum.xda-developers.com,sueddeutsche.de,amp.usatoday.com,m.gadgets.ndtv.com##amp-ad
+stern.de,ruhr24.de,golem.de,berliner-zeitung.de,news.de,abendzeitung-muenchen.de,inside-digital.de,boerse.de,emtb-news.de,caravaning.de,areadvd.de,familie.de,derwesten.de,finanzen.net,o2.pl,onet.pl,whathifi.com,amp.n-tv.de,dni.ru,independent.co.uk,komputerswiat.pl,dobreprogramy.pl,amp.pcwelt.de,tomshardware.com,techbook.de,forbes.com,auto-swiat.pl,dialog.ua,mobile.reuters.com,spiegel.de,amp.welt.de,forum.xda-developers.com,sueddeutsche.de,amp.usatoday.com,m.gadgets.ndtv.com##amp-ad
 ! ##.inline-ad-container
 theinventory.com,avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 ! ##.ads
 cartoonpornvideos.com,m.economictimes.com,beethovenmaster.com,m.mistrzowie.org,m.ura.news,siirtpress.com,up.ymgt.xyz,google.de,www-bento-de.cdn.ampproject.org,m-economictimes-com.cdn.ampproject.org,m.winfuture.de##.ads
 !
+sport.de###topbanner-mobile
 news.abplive.com##div[style="min-height:280px;"]
 tabootube.xxx##.wrap-spot
 tabootube.xxx##.sponsor
@@ -2515,7 +2517,7 @@ newsweekjapan.jp###induction-box
 banglatribune.com##.sticky_banner
 businessinsider.de##.mrec
 brigitte.de##.article__end > .footer-teaserblock.js-ob[data-canonical]
-brigitte.de##.ad-element
+stern.de,brigitte.de##.ad-element
 ga.de##aside[data-portal-id="mobilebanner"]
 extratipp.com##.id-Recommendation
 extratipp.com##.id-Story > .id-RatioPlaceholder[style*="calc"]
@@ -5005,6 +5007,7 @@ anwap.club,anwap.film,anwap.mobi##body > div[class] > a > strong
 ||graph.facebook.com^$app=codetivelab.macfinder.bluetooth.bluetoothmacfinder|codetivelab.bluetoothaurdino
 ||graph.facebook.com^$app=com.worldradios.roumanie
 ||graph.facebook.com^$app=com.shanga.walli
+||graph.facebook.com^$app=aplicacion.tiempo
 ||graph.facebook.com^$app=simple.babytracker.newbornfeeding.babycare|absworkout.bellyfatworkout.waistworkout.abdominalworkout|homeworkout.homeworkouts.workoutathome.musclebuilding|simplemath.math.games.subtractiongames.mathgames|sixpack.absworkout.abexercises.abs|workout.homeworkouts.workouttrainer|strong.vibrator.massage.vibration.forwomen
 ||graph.facebook.com^$app=io.kodular.anujanand301201.Dribbble
 ||graph.facebook.com^$app=com.cricbuzz.android
