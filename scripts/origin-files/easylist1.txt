@@ -262,6 +262,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||wipe.de^$third-party
 ||oremark.com^$third-party
 ||cbt.whatcounts.net^$third-party
 ||fireworkanalytics.com^$third-party
@@ -3672,6 +3673,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ! These domains are used for tracking purposes according to the data that is being sent there.
 ! More info: https://getadmiral.com/products/measure
 !
+||stakingsmile.com^$third-party
 ||rabbitrifle.com^$third-party
 ||cherriescare.com^$third-party
 ||conditionchange.com^$third-party
@@ -4855,6 +4857,8 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||c.pravo.ru^
+||weblog.coupang.com^
 ||buf.lemonde.fr^
 ||df.tanx.com^
 ||ems.youku.com^
@@ -18004,6 +18008,7 @@ charlestownwyllie.oaklawnnonantum.com^
 /logset.cgi?
 /thk-analytics/*$script
 /lunalys/analyzer/*
+/clicklog4pc.js
 ! ex. https://l.tenkomori.tv/script.php?i=5071tenmaya&site=blog.tenkomori.tv
 ://l.*/script.php?i=$script,~third-party
 !
@@ -18437,6 +18442,9 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|partifabrik.com|newsmax.com
 !
+tourister.ru##.nt-foot-item[style="overflow:hidden;"]
+||pravo.ru/assets/*/js/event.js
+||mercury.coupang.com/e.gif?
 ||lemonde.fr/bucket/*/js/smartTag.bundle.js
 ||n11scdn.akamaized.net/ha.js
 ||fivemsociety.com/analitik.js
@@ -22001,6 +22009,8 @@ $app=com.miui.analytics
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/98724
+@@||googletagmanager.com/gtag/js$domain=xl-bygg.no
 ! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/797
 @@||ced-ns.sascdn.com/diff/video/current/libs/js/controller.js$domain=ln24.be
 @@||ced.sascdn.com/tag/*/smart.js$domain=ln24.be
