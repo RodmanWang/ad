@@ -81,6 +81,9 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/76987
 youtube.com#%#AG_onLoad(function() {var a = new MutationObserver(function() {if (document.querySelector('yt-upsell-dialog-renderer')) {var b = document.querySelector('.ytd-popup-container[popup-size="UPSELL_DIALOG_RENDERER_POPUP_SIZE_LARGE"] #dismiss-button:not(.dismissed), .upsell-dialog-lightbox .upsell-dialog-dismiss-button button:not(.dismissed)');setTimeout(function() {b&&b.click()}, 3E2)}});a.observe(document, {childList: !0,subtree: !0});setTimeout(function() {a.disconnect()}, 3E3)});
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/97714
+reuters.com#%#//scriptlet("prevent-addEventListener", "scroll", "#sticky-video")
+reuters.com#%#//scriptlet("set-constant", "Object.prototype.enable_floating", "false")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/98683#issuecomment-956297233
 goo.ne.jp#$#.chrome-extension-banner { display: none!important; }
 goo.ne.jp#$#body.NR-col2a[style="padding-top: 50px;"] { padding-top: 0!important; }
@@ -3050,6 +3053,8 @@ hgtv.com#@#.showads
 !
 !
 !
+autogaleria.pl##.adblock
+autogaleria.pl#%#//scriptlet("set-constant", "isAdblockEnabled", "false")
 linuxsecurity.com##.adblocker-poopup-wrapper
 pixiz.com#%#//scriptlet('abort-current-inline-script', 'document.getElementById', 'flex')
 @@||brainly.lat/app/scripts/wp-banners.js
@@ -7396,6 +7401,11 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 !
 !
 !
+ibuypower.com###cookies-notify
+continental.com##.c-cookiebanner__modal
+||e-cdns-assets.dzcdn.net/common/js/gdpr-appliance/$domain=deezer.com
+autogaleria.pl##.cookie-dis
+igraal.com##.cookies-banner__overlay
 freepng.ru##.fot-fixd
 victorpest.com###gdpr-announcement
 kdanmobile.com#?#div[style="overflow:hidden"] > div[class^="styled__ContentWrapper-"]:has(a[href="/privacy_policy"])
@@ -14504,6 +14514,7 @@ consent2.ksta.de#%#AG_onLoad(function(){if(window.location.href.includes("consen
 privacy.lecker.de#%#AG_onLoad(function(){if(!document.cookie.includes("euconsent-v2")){var g=new MutationObserver(function(){setTimeout(function(){var b=document.querySelector('button.no-children[path="\[0,2,1\]"]');b&&b.click();},300);setTimeout(function(){var c=document.querySelector('div[title="Berechtigte Interessen"]'); c&&c.click();},300);setTimeout(function(){var d=document.querySelectorAll('label[aria-checked="true"] > .off'); d.forEach(function(d){d.click();});},800); var f=document.querySelector('button.no-children[path="\[0,3,0\]"]'); setTimeout(function(){f&&f.click();},1000);});g.observe(document,{childList:!0,subtree:!0});setTimeout(function(){g.disconnect()},3E4)}});
 privacy.madame.de#%#AG_onLoad(function(){if(!document.cookie.includes("euconsent-v2")){var g=new MutationObserver(function(){setTimeout(function(){var b=document.querySelector('button.no-children[path="\[0,2,1\]"]');b&&b.click();},300);setTimeout(function(){var c=document.querySelector('div[title="Berechtigte Interessen"]'); c&&c.click();},300);setTimeout(function(){var d=document.querySelectorAll('label[aria-checked="true"] > .off'); d.forEach(function(d){d.click();});},800); var f=document.querySelector('button.no-children[path="\[0,3,0\]"]'); setTimeout(function(){f&&f.click();},1000);});g.observe(document,{childList:!0,subtree:!0});setTimeout(function(){g.disconnect()},3E4)}});
 !
+iltalehti.fi#%#AG_onLoad(function(){if(-1==document.cookie.indexOf("TcString")){var a=new MutationObserver(function(){var b=document.querySelector("#alma-cmpv2-container button#almacmp-modalConfirmBtn");b&&(a.disconnect(),b.click())});a.observe(document,{childList:!0,subtree:!0});setTimeout(function(){a.disconnect()},1E4)}});
 terminix.com#%#//scriptlet('set-cookie', 'cookieconsent', 'true')
 seltmann-shop.de#%#AG_onLoad(function(){if(document.querySelector('div[id^="czgdpr-"]')){var a=new MutationObserver(function(){document.querySelectorAll('div[id^="czgdpr-"]:not([style*="display: none;"])').forEach(function(c){c.style="display: none !important;"});var b=document.querySelector("#czgdpr-notice-wrp #save");b&&(a.disconnect(),b.click())});a.observe(document,{childList:!0,subtree:!0});setTimeout(function(){a.disconnect()},1E4)}});
 franzen.de#%#//scriptlet('set-cookie', 'cookieDeclined', '1')
@@ -18830,7 +18841,8 @@ vodafone.ua#$#.smartbanner-show { margin-top: 0 !important; }
 !
 m.imgur.com#$#div[class^="SeeImgurOIA-"] { display: none!important; }
 m.imgur.com#$#body { overflow-y: visible!important; }
-!
+! https://github.com/AdguardTeam/AdguardFilters/issues/97865
+dailymail.co.uk#$#body.smart-banner { padding-top: 0 !important; }
 dailymail.co.uk#$##smartBanner { display: none !important; }
 dailymail.co.uk#$#.smart-banner.menu-mobile #mobile-content { margin-top: 0 !important; height: 100% !important; }
 dailymail.co.uk#$#.smart-banner.menu-mobile div.scrollable-content { height: 100% !important; }
@@ -24987,6 +24999,11 @@ disk.yandex.*##.mail360-banner
 !-----------------------------------------------
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/98753
+nintendosoundtrack.wixsite.com#$##WIX_ADS { display: none !important; }
+nintendosoundtrack.wixsite.com#$##site-root { top: 0 !important; }
+! https://github.com/AdguardTeam/AdguardFilters/issues/98764
+avgle.com###avyc
 ! https://github.com/AdguardTeam/AdguardFilters/issues/98567
 ||myjcom.jp/special/common/tvguide/banner/
 ! self-promo banners
@@ -26625,6 +26642,8 @@ quinhillyer.com,johnbiver.com,jasonmattera.com,ipatriot.com,hooligancharters.com
 ##.widget_blog_subscription
 ~norwichzen.org.uk,~dereferer.me###mc_embed_signup
 !
+winaero.com##.wsbp
+us.macmillan.com##.creator-card__sign-up
 sport.ru##.subs-link-block
 terminix.com#$##subscribeModal { display: none!important; }
 terminix.com#$#.modal-backdrop { display: none!important; }

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: p7e1AVEvNK3yOcbIWY6ydg
-! Version: 202111020100
+! Checksum: mixNjWgUBhDCbAaMoQ5kbA
+! Version: 202111021250
 ! Title: Fanboy's Annoyance List
-! Last modified: 2021-11-02 01:00 UTC
+! Last modified: 2021-11-02 12:50 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -5530,6 +5530,7 @@ _vpcookieconsent/
 ###newsletter-subscribe-box:not(html):not(body)
 ###newsletter-subscribe-sidebar
 ###newsletter-subscribe:not(html):not(body)
+###newsletter-subscription-dialog
 ###newsletter-subscription-inline
 ###newsletter-subscription:not(html):not(body)
 ###newsletter-text
@@ -7305,6 +7306,7 @@ _vpcookieconsent/
 ##div[id^="feature-newsletter"]
 ##div[id^="newsletter-subscribe-"]
 ##div[id^="wrapper_newsletter_"]
+##hl-newsletter-cta
 ##img[alt="Subscribe via E-mail Newsletter"]
 ##img[title="Subscribe to our daily email"]
 ! wix sites
@@ -38586,12 +38588,12 @@ insidehighered.com##.news-alert
 theprp.com##.news-feeds
 fyiliving.com##.news-signup
 nationalreview.com##.news-tip-cta
-yaoota.com,ziarulevenimentul.ro##.newsLetter
+yaoota.com##.newsLetter
 brobible.com,myrecipes.com##.newsSignup
 chosun.com##.news_arrows
 nme.com##.news_interaction_stats
 thenextweb.com##.newsbox
-zerohedge.com##.newsletter
+zerohedge.com,ziarulevenimentul.ro##.newsletter
 thepigskindoctors.com##.newsmail
 thedailybeast.com##.newsweekElsewhere
 bmwblog.com,entrepreneur.com,glamour.com,globes.co.il,grubstreet.com,gwinnettdailypost.com,porn5.com,radaronline.com##.next
@@ -40265,6 +40267,7 @@ premierchristian.news##.js-esend-user
 linuxjournal.com##.js-form-item-email
 datacenterdynamics.com##.js-mktoFormBlock
 gamespot.com##.js-nlsub
+creditcards.com##.js-signup-visibility
 highya.com##.js-swimingBlock-stoper
 avclub.com,deadspin.com,gizmodo.com,jalopnik.com,kotaku.com,lifehacker.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.js_modal_exit_intent
 avclub.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.js_subscribe
@@ -41189,6 +41192,7 @@ windowsnetworking.com###ctu-twi
 quillette.com###custom_html-2
 boomlive.in###custom_html-20
 headforpoints.com,whoprofits.org###custom_html-5
+ceoworld.biz###custom_html-7
 beautifuldecay.com,bretagnenohra.com###darkbackground
 freeriotpoint.net###den-bg
 freeriotpoint.net###den-main
@@ -43542,6 +43546,7 @@ tunein.com##div[class^="violator__container"]
 youtube.com##div[class^="ytd-consent"]
 patreon.com##div[data-tag="cookie-disclosure"]
 tunein.com##div[data-testid="gdpr-violatorContainer-true"]
+waydro.id##div[id="animatedComponent"][style^="transform:"]
 onlinetvrecorder.com##div[id^="d1"]
 globecast.com##div[id^="icegram_message_"]
 milwaukeetool.eu##div[id^="react_"] > [class^="OneTrust"]
@@ -47164,7 +47169,7 @@ tvguru.ru##.c-modal
 cardsmobile.ru##.cm-m_c-w
 2x2tv.ru##.cook-web
 hashrating.com,zettains.ru##.cookie
-2x2.su,advstreet.ru,glavred.info,skillbox.ru,unian.net##.cookies
+2x2.su,advstreet.ru,calltouch.ru,glavred.info,skillbox.ru,unian.net##.cookies
 lisa.ru##.disclamer
 4game.com##.fcw-wrap
 ozon.ru##.i4
