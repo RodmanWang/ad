@@ -267,6 +267,9 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||adbrix.io^$third-party
+||cc-api-data.adobe.io^
+||adg-data.kajicam.com^
 ||report.smartcount.net^$third-party
 ||bacon.getcarro.com^$third-party
 ||t.unbounce.com^$third-party
@@ -4866,6 +4869,7 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||views.romaniatv.net^
 ||d3pkntwtp2ukl5.cloudfront.net^
 ||analytics-api.dvdfab.cn^
 ||c.pravo.ru^
@@ -18453,6 +18457,9 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|partifabrik.com|newsmax.com
 !
+||api-web.pressplay.cc/marketing^
+||flog.pressplay.cc/batch_track^
+||spush.toptoon.com/log/
 ||rfk.finishline.com/api/event-rfkj/
 ||cams.xnxx.com/pixel/
 tourister.ru##.nt-foot-item[style="overflow:hidden;"]
@@ -21453,6 +21460,11 @@ $app=com.miui.analytics
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
 !
+||analytics.enjoymobiserver.com^
+||api.reproio.com^
+||log*.interactive-circle.jp^
+||b94.yahoo.co.jp^
+||api.smbeat.jp^
 ||api.simeji.me/*/sessionLog
 ||hibiki-track.logica.bz^
 ||log.mmstat.com^

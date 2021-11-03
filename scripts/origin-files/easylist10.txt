@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: GL+gloHMSomMsA/qx0Yi0Q
-! Version: 202111030100
+! Checksum: sl3F70GYCtF3bH5KttrIXQ
+! Version: 202111031250
 ! Title: Fanboy's Annoyance List
-! Last modified: 2021-11-03 01:00 UTC
+! Last modified: 2021-11-03 12:50 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -7610,12 +7610,12 @@ _vpcookieconsent/
 ###ast-scroll-top
 ###auto-top-link
 ###back-to-the-top
-###back-to-top
 ###back-to-top-arrow
 ###back-to-top-btn
 ###back-to-top-button
 ###back-to-top-icon
 ###back-to-top-scroll
+###back-to-top:not(html):not(body)
 ###back-top
 ###back-top-btn
 ###back-top-top
@@ -7623,14 +7623,14 @@ _vpcookieconsent/
 ###backToTop
 ###backToTopButton
 ###backToTop_RT
-###backTop
+###backTop:not(html):not(body)
 ###back_to_top
 ###back_to_top_now
 ###back_to_top_seaocore_button_common_21813
-###backtoTop
-###backtop
-###backtotop
+###backtoTop:not(html):not(body)
+###backtop:not(html):not(body)
 ###backtotop-scroll
+###backtotop:not(html):not(body)
 ###backtotopbutton
 ###backtotoplink
 ###base_scrollToTop
@@ -7830,7 +7830,6 @@ _vpcookieconsent/
 ##.b-footer__btn_up
 ##.b-scroll-to-top
 ##.b-scroll_to_top
-##.back-to-top
 ##.back-to-top-btn
 ##.back-to-top-button
 ##.back-to-top-container
@@ -7839,6 +7838,7 @@ _vpcookieconsent/
 ##.back-to-top-sticky
 ##.back-to-top-wrap
 ##.back-to-top-wrapper
+##.back-to-top:not(body):not(html)
 ##.back-to-top__button
 ##.back-to-top_button
 ##.back-top
@@ -33250,6 +33250,7 @@ _vpcookieconsent/
 ##.notification[ng-if*="cookieHint"]
 ##.notification__box--persistentcookie
 ##.notification__content-cookie
+##.notification__cookies
 ##.notification__item--cookie
 ##.notification__message.cookies
 ##.notification__wrapper[data-id="cookies"]
@@ -46087,6 +46088,7 @@ au-checkliste.de##.showAGP
 kleiderkreisel.de##.sticky-footer
 miles-and-more-kreditkarte.com##.stoerer
 payback.de##.stripe--fixed-bottom
+thomann.de##.thomann-cookie-consent-overlay
 sky.de##.top-notification-container
 bezirk-oberbayern.de,erkrath.de,haan.de##.tracking-box-wrap
 celle.de##.tracking-msg
@@ -47184,6 +47186,7 @@ lamoda.ru,lamoda.ua##.page > [class*="widget"]
 kamkabel.ru##.panel_152_wp
 pegast.ru##.pgs-top
 trudvsem.ru##.rostrud-notification
+sbis.ru##.sbisru-CookieAgreement
 tutu.ru##.style__disclaimer
 lada.ru##.styles_container__1obM5
 aliexpress.ru##.styles_wrapper__3isR2
