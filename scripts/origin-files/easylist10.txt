@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: mixNjWgUBhDCbAaMoQ5kbA
-! Version: 202111021250
+! Checksum: GL+gloHMSomMsA/qx0Yi0Q
+! Version: 202111030100
 ! Title: Fanboy's Annoyance List
-! Last modified: 2021-11-02 12:50 UTC
+! Last modified: 2021-11-03 01:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -48746,6 +48746,7 @@ yoigo.com#@#thor-cookies
 @@||usercentrics.eu^$script,subdocument,xmlhttprequest,domain=immowelt.de
 @@||virginmedia.com^*/cookie-disclaimer.
 @@||vistaalegre.com/public/js/vendor/$script,stylesheet,~third-party
+@@||vps2day.com/wp-content/plugins/complianz-gdpr/core/assets/js/cookieconsent.min.js$~third-party
 @@||washingtonpost.com/gdpr-consent/$subdocument,xmlhttprequest
 @@||wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js$~third-party
 @@||workingtitlefilms.com/site-content/plugins/nbcu-plugins/bwp-minify/$stylesheet
