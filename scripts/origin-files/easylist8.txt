@@ -74,6 +74,8 @@
 !
 ! Содержит доменные имена, использующиеся рекламными сетями.
 !
+||bogrex.com^$third-party
+||cozibaneco.com^$third-party
 ||ssp.bidvol.com^$third-party
 ||afa28048bf78ad9.com^$third-party
 ||07a1e05fd72d1b.com^$third-party
@@ -9207,6 +9209,8 @@ disk.yandex.*#%#//scriptlet('remove-class', 'has-fullscreen-banner','.public__ro
 !-----------------------
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/97393
+kinokong.org#$##wrapper { margin-top: 64px !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/98812
 73online.ru#$#.head-b { margin: 0 auto !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/98284
@@ -11820,6 +11824,9 @@ crazymailing.com,lotzon.pro,novosti-n.org,prokazan.ru,20minut.ua,alnews.com.ua,g
 !
 !
 !
+atorent.site##.message > div[style] a[rel="nofollow"] > img
+gsminfo.com.ua###stream-item-widget-4
+kinokong.org##div[style="margin: 6px 0;text-align: center;height:255px;"]
 pcprogs.net##noindex > center > a[rel="nofollow"]
 myshows.me##.clickioadunit300x600
 ||73online.ru/advert/*.gif
@@ -13079,7 +13086,7 @@ naked-science.ru##.ads_single
 naked-science.ru##.shesht-ad-side-banner
 skin.ru##.header-promo
 ||kapital-rus.ru/banners/
-elle.ua,harpersbazaar.com.ua##.adv_block_txt
+cosmo.com.ua,elle.ua,harpersbazaar.com.ua##.adv_block_txt
 elle.ua##.tizers-list
 kapital-rus.ru##.bannersInText
 ||im.kommersant.ru/banners/hb20*/hb.js
@@ -13376,6 +13383,7 @@ torrent-bro.ru##div[style="text-align:center;"] > a[target="_blank"] > img
 finanz.ru##.highlightbox
 apnews.com.ua##.post__lead-banner
 apnews.com.ua##.post__partners-news
+apnews.com.ua##.post__content-bottom-banner
 aqa.ru##div[style$="background-image: url(/forum/images/aqa-ads.png); background-repeat: no-repeat;"]
 aqa.ru##table[class="postrow d-none d-xl-table"]
 salonsecret.ru##div[class^="Post_banner__"]
@@ -13651,8 +13659,6 @@ vesti.ua##.vestiAds
 vesti.ua##.vestiTiserAds
 rabochy-put.ru###banner-head
 rabochy-put.ru##.b_banner-commercial-fixed
-apnews.com.ua##.post__lead-banner
-apnews.com.ua##.post__partners-news
 europaplus.ru##.infox
 textypesen.com##.box--promo
 zikurat.media###content-wrapper > a[target="_blank"]

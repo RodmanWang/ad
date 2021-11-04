@@ -24,13 +24,13 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <tr>
 <td>blocklist last updated:</td>
-<td><b class=blue>Tue, 02 Nov 2021 14:04:24 GMT</b></td>
+<td><b class=blue>Wed, 03 Nov 2021 16:32:22 GMT</b></td>
 </tr>
 
 
 <tr>
 <td>listing ad servers added after:</td>
-<td><b class=blue>Thu, 08 Nov 2001 00:00:00</b></td>
+<td><b class=blue>Fri, 09 Nov 2001 00:00:00</b></td>
 </tr>
 
 
@@ -41,7 +41,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <tr>
 <td>total entries:</td>
-<td><b class=blue>3677</b></td>
+<td><b class=blue>3678</b></td>
 </tr>
 
 </table>
@@ -55,7 +55,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <form action="/as/serverlist.php">
 <input type=hidden name=hostformat value="hosts">
-<input type=hidden name="startdate[day]" value="8">
+<input type=hidden name="startdate[day]" value="9">
 <input type=hidden name="startdate[month]" value="11">
 <input type=hidden name="startdate[year]" value="2001">
 
@@ -77,8 +77,8 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Tue, 02 Nov 2021 14:04:24 GMT
-# entries:        3677
+# last updated:   Wed, 03 Nov 2021 16:32:22 GMT
+# entries:        3678
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/as/serverlist.php?mimetype=plain.text
@@ -86,7 +86,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Thu, 08 Nov 2001 00:00:00
+# start date:    Fri, 09 Nov 2001 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
@@ -2261,6 +2261,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 leady.com
 127.0.0.1 leadzupc.com
 127.0.0.1 leaplunchroom.com
+127.0.0.1 leftliquid.com
 127.0.0.1 lemmatechnologies.com
 127.0.0.1 lettucelimit.com
 127.0.0.1 levelrate.de
