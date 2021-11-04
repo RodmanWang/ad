@@ -4870,6 +4870,7 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||aegis.qq.com^
 ||views.romaniatv.net^
 ||d3pkntwtp2ukl5.cloudfront.net^
 ||analytics-api.dvdfab.cn^
@@ -18458,6 +18459,7 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|partifabrik.com|newsmax.com
 !
+||instagram.com/logging/
 ||fastcdn.co/js/sptw.
 ||onedaythreeautumns.com/api/census/RecordHit
 ||api-web.pressplay.cc/marketing^
@@ -20814,6 +20816,8 @@ link.gmapp*.net$image
 !---- Domain pecific rules ----
 !------------------------------
 !
+||subhd.*^$cookie=/SuBhD.*/
+||subhdtw.*^$cookie=/SuBhD.*/
 ||joyn.de^$cookie=trackingSessionId
 ||tf1.fr^$cookie=atidvisitor
 ||tf1.fr^$cookie=ABTastySession
@@ -20870,6 +20874,11 @@ $cookie=wuuid,domain=duolingo.com|duolingo.cn
 !---- Generic rules -----------
 !------------------------------
 !
+!
+! Tradedoubler
+! The GUID Cookie holds an identifier to support server side storage of the user event history
+$cookie=TradeDoublerGUID
+$cookie=TRADEDOUBLER
 !
 ! Eloqua - collects information about how visitors use a website, for instance which pages visitors go to most often, and which search terms visitors used to get to our websites
 $cookie=ELOQUA
