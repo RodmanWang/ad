@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /RTJAtCrNZUq+kQ+wl3tmg
-! Version: 202111050100
+! Checksum: yYwPhA72/jrn+aX5W5g6FA
+! Version: 202111051250
 ! Title: Fanboy's Annoyance List
-! Last modified: 2021-11-05 01:00 UTC
+! Last modified: 2021-11-05 12:50 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -48247,7 +48247,7 @@ airam.fi,biotechusa.hu,hscollective.org,litebit.eu,luhta.com#@##cookie-consent
 analog.com#@##cookie-consent-container
 lauritz.com,qxl.de,qxl.dk,qxl.fi,qxl.no,qxl.se#@##cookie-container
 okazik.pl,skuola.net#@##cookie-dialog
-calciomercato.napoli.it,clever-zoeger.de,datakauppa.fi,ddz24.eu,lewento.de,management30.com,theorie-musik.de,wiadomosci-lodz.pl#@##cookie-law-info-bar
+calciomercato.napoli.it,clever-zoeger.de,datakauppa.fi,ddz24.eu,fantasyfootballgeek.co.uk,lewento.de,management30.com,theorie-musik.de,wiadomosci-lodz.pl#@##cookie-law-info-bar
 penny.hu,pennymarket.it#@##cookie-message
 bokadirekt.se,cancercentrum.se,d-power-modellbau.com,modellbau-metz.com,pelix-media.de,steinmetz-baldauf.de,zlm.nl#@##cookie-modal
 makelaarsland.nl#@##cookie-notice
@@ -48491,8 +48491,9 @@ infogreffe.fr#@#.trackingCookiesDisclaimer
 forbes.com,forbes.it,tmz.com#@#.truste_box_overlay
 forbes.com,forbes.it,tmz.com#@#.truste_overlay
 inspirock.com#@#.with-cookie
+fantasyfootballgeek.co.uk#@#.wt-cli-cookie-bar-container
 timeout.com#@#.xs-fixed[data-module="cookie_banner"]
-openfiber.it#@#[aria-label="cookieconsent"]
+fantasyfootballgeek.co.uk,openfiber.it#@#[aria-label="cookieconsent"]
 atutszkola.pl,meethue.com,mydziewczyny.pl,philips-hue.com,philips.ae,philips.am,philips.at,philips.az,philips.be,philips.bg,philips.by,philips.ca,philips.ch,philips.cl,philips.co.id,philips.co.il,philips.co.in,philips.co.jp,philips.co.ke,philips.co.kr,philips.co.nz,philips.co.th,philips.co.uk,philips.co.za,philips.com,philips.com.ar,philips.com.au,philips.com.bh,philips.com.br,philips.com.cn,philips.com.co,philips.com.eg,philips.com.ge,philips.com.gh,philips.com.hk,philips.com.kw,philips.com.lb,philips.com.mx,philips.com.my,philips.com.om,philips.com.pe,philips.com.ph,philips.com.pk,philips.com.qa,philips.com.sg,philips.com.tr,philips.com.tw,philips.com.uy,philips.com.vn,philips.cz,philips.de,philips.dk,philips.ee,philips.es,philips.fi,philips.fr,philips.gr,philips.hr,philips.hu,philips.ie,philips.iq,philips.it,philips.jo,philips.kz,philips.lt,philips.lv,philips.ma,philips.ng,philips.nl,philips.no,philips.pl,philips.pt,philips.ro,philips.rs,philips.ru,philips.sa,philips.se,philips.si,philips.sk,philips.ua,philips.uz#@#[data-cookie-id]
 apple.com#@#consent.consent
 mymuesli.com#@#cookies_consent
@@ -48726,7 +48727,7 @@ yoigo.com#@#thor-cookies
 @@||portal.aae.at/changeportal/js/lib/cookieconsent.js$script,~third-party
 @@||privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=freenet-funk.de
 @@||privacypolicies.com/public/uploads/$image,~third-party
-@@||quantcast.mgr.consensu.org^*/choice.js$domain=bikeperfect.com|cyclingnews.com|digitalcameraworld.com|einthusan.tv|gamesradar.com|guitarplayer.com|independent.co.uk|indy100.com|laptopmag.com|livescience.com|livingetc.com|mahjong.com|musicradar.com|pcgamer.com|realhomes.com|space.com|t3.com|techradar.com|tomsguide.com|whathifi.com|whattowatch.com
+@@||quantcast.mgr.consensu.org^*/choice.js$domain=bikeperfect.com|cyclingnews.com|digitalcameraworld.com|einthusan.tv|gamesradar.com|guitarplayer.com|independent.co.uk|indy100.com|laptopmag.com|livescience.com|livingetc.com|mahjong.com|musicradar.com|pcgamer.com|protothema.gr|realhomes.com|space.com|t3.com|techradar.com|tomsguide.com|whathifi.com|whattowatch.com
 @@||riwal.com/includes/js/components/cookiebar.js$script
 @@||santepubliquefrance.fr/rgpd/smarttag.js$script,~third-party
 @@||sdk.privacy-center.org^$script,domain=allocine.fr|corrieredellosport.it|franceculture.fr|franceinter.fr|francetvinfo.fr|gamestar.de|ivoox.com|jeuxvideo.com|lavanguardia.com|mundodeportivo.com|seguro.elespanol.com|tuttosport.com
@@ -48804,6 +48805,7 @@ yoigo.com#@#thor-cookies
 @@||nowegumy.pl/cookiecuttr.js
 @@||oasjs.kataweb.it/cookielex/kwdnt.js$domain=video.repubblica.it
 @@||ohga.it^*/remote-gdpr.min.js
+@@||orangeclickmedia.com/tech/libs/js.cookie.min.js$domain=protothema.gr
 @@||polenka.pl/wp-content/plugins/cookie-law-info/js/cookielawinfo.js$script
 @@||privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=esgentside.com|gentside.de|maxisciences.com|ohmymag.com
 @@||privacy-mgmt.com^$domain=bold.dk
