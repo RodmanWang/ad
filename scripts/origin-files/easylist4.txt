@@ -81,6 +81,9 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/76987
 youtube.com#%#AG_onLoad(function() {var a = new MutationObserver(function() {if (document.querySelector('yt-upsell-dialog-renderer')) {var b = document.querySelector('.ytd-popup-container[popup-size="UPSELL_DIALOG_RENDERER_POPUP_SIZE_LARGE"] #dismiss-button:not(.dismissed), .upsell-dialog-lightbox .upsell-dialog-dismiss-button button:not(.dismissed)');setTimeout(function() {b&&b.click()}, 3E2)}});a.observe(document, {childList: !0,subtree: !0});setTimeout(function() {a.disconnect()}, 3E3)});
 !
+! zoon.ru - annoying animated banner
+zoon.ru##.box-banner
+zoon.ru#?#.ss-contents > div.box-padding:has(> a.box-banner)
 ! top page banner
 avgle.com##.alert-success
 ! https://github.com/AdguardTeam/AdguardFilters/issues/97714
@@ -7419,6 +7422,7 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 !
 !
 !
+englishdom.com###gdpr-tooltip
 sberdevices.ru##div[class^="cookie-modules--root--"]
 uber.com###explicit_cookie_consent
 /klaro-cookie-consent/*$domain=calimove.com
@@ -19301,13 +19305,14 @@ sodapdf.com##.be-tooltip
 ! Specific sites
 !######### Subscription popups add to subscriptions.txt #########
 !
+daisomall.co.kr##.header_top
 bourns.com###BournsSurvey
 eepower.com###my_popup
 cookpad.com##.css-1c6thrl
 cookpad.com##.css-1ydy0aj
 cookpad.com##.css-37eo8b
 macwk.com##.el-notification
-zdrogi.pl#%#//scriptlet('set-local-storage-item', '__iberion__publisherPromptSeen', '3')
+biznesinfo.pl,rolnikinfo.pl,wawainfo.pl,wtv.pl,turysci.pl,pacjenci.pl,swiatsportu.pl,swiatgwiazd.pl,swiatzwierzat.pl,techgame.pl,domekiogrodek.pl,goniec.pl,zdrogi.pl#%#//scriptlet('set-local-storage-item', '__iberion__publisherPromptSeen', '3')
 auto-swiat.pl##.natPopup
 liveagent.com###demobar
 professor-excel.com##.hustle-popup
@@ -31002,6 +31007,7 @@ lezhinus.com,lezhin.com###viewer-coach
 qanda.ai##div[class^="Picture__Protector-"]
 codedosa.com###wpcp-error-message
 !--- CSS ---
+m.post.naver.com#$##cont { user-select: auto !important; }
 toptoon.com#$#html * { user-select: auto !important; -webkit-touch-callout: default !important; -webkit-user-select: auto !important; -moz-user-select: auto !important; -ms-user-select: auto !important; }
 toptoon.com#$#.document_img { pointer-events: auto !important; }
 brunch.co.kr#$#.article_view_disable_selection { -webkit-touch-callout: default!important; -moz-user-select: auto!important; -webkit-user-select: auto!important; -ms-user-select: auto!important; -o-user-select: auto!important; user-select: auto!important; -khtml-user-select: auto!important; }
