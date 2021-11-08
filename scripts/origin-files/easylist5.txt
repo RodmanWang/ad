@@ -2112,8 +2112,8 @@ nasimke.ru$$script[tag-content="function show_ads"][max-length="6000"]
 ! ##### TEMPORARY END #####
 !
 !
-! https://github.com/AdguardTeam/AdguardFilters/issues/95975#issuecomment-961249169
-048.ua$@$amp-ad
+! https://github.com/AdguardTeam/AdguardFilters/issues/95975#issuecomment-962839301
+5692.com.ua,048.ua$@$amp-ad
 ! https://github.com/AdguardTeam/AdguardFilters/issues/96947
 @@||imasdk.googleapis.com^$app=pl.polsatgo
 ! https://github.com/AdguardTeam/AdguardFilters/issues/95096
@@ -2515,6 +2515,7 @@ theinventory.com,avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,
 ! ##.ads
 cartoonpornvideos.com,m.economictimes.com,beethovenmaster.com,m.mistrzowie.org,m.ura.news,siirtpress.com,up.ymgt.xyz,google.de,www-bento-de.cdn.ampproject.org,m-economictimes-com.cdn.ampproject.org,m.winfuture.de##.ads
 !
+zn.ua##div[class^="mix_advert_ads_"]
 hentai-books.com##.sp-mieru
 mi-mollet.com###MM_SP_Billboard
 mi-mollet.com###MM_SP_readmore
