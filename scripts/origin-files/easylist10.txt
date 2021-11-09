@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Ce8a1mGzdns5rqrs1wRbqw
-! Version: 202111081250
+! Checksum: E3Q24Ogd5xTbUEfjcjB79A
+! Version: 202111090100
 ! Title: Fanboy's Annoyance List
-! Last modified: 2021-11-08 12:50 UTC
+! Last modified: 2021-11-09 01:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4472,7 +4472,6 @@ _youtube_social_
 /SwagCookiePermission/*
 /syncCookie/*
 /syno_cookie_
-/tarteaucitron.
 /tcf/cookie.
 /tcf2.js
 /Team23_SimpleCookie/*
@@ -5686,6 +5685,7 @@ _vpcookieconsent/
 ###pro_newsletter_signup
 ###promo-subscription
 ###promo-subscription-overlay
+###pu-email-form-covid-email-article
 ###quick-signup-article-widget
 ###rail-newsletter
 ###rb-newsletter
@@ -24638,6 +24638,7 @@ _vpcookieconsent/
 ###cookie_eu_bar
 ###cookie_eu_recht
 ###cookie_exit_form
+###cookie_exp
 ###cookie_fascia
 ###cookie_figyelmeztetes
 ###cookie_footer
@@ -38374,6 +38375,7 @@ inspire.com##.joinpopupnewtwo
 bitchmagazine.org,debka.com,esetindia.com,gizmag.com,mediamatters.org,ncregister.com##.jqmOverlay
 bitchmagazine.org,esetindia.com##.jqmWindow
 treehugger.com##.jquery-modal
+mims.com##.jquery-modal.blocker
 ecosia.org##.js-activate-install-box
 wired.com##.js-annotation
 dn.se##.js-article-preview
@@ -39112,6 +39114,7 @@ appeggs.com##.t_scrollsecondbar
 dallasobserver.com##.tab
 cbsnews.com##.tabbedPromoUnit
 dlife.com##.tabbedSynechronPanel
+gpfans.com##.taboonews
 businessinsider.com,insider.com##.targeted-recommended
 theandroidsoul.com##.tasConnect
 ebay.com##.tb-rs
@@ -43460,6 +43463,7 @@ e-lawresources.co.uk,mabknives.co.uk##.topbarBox
 untappd.com##.tos-banner
 thomsonreuters.com##.tr-DismissibleBanner
 troax.com##.troax-messages
+jigsawplanet.com##.ts-msg
 nfumutual.co.uk##.u-bg-padd
 head-fi.org##.u-bottomFixer
 asendiausa.com##.ui-alert
@@ -43726,6 +43730,7 @@ weinkenner.de##.sib_signup_form
 kostenlose-urteile.de##.simplemodal-container
 kostenlose-urteile.de##.simplemodal-overlay
 sportnews.bz##.social
+supermarkt-inside.de##.spu-bg
 spiegel.de##.sticky-home-link
 spiegel.de##.sticky-overlay
 netzwelt.de##.subscribeboard
@@ -45273,6 +45278,7 @@ transfermarkt.nl##.header-social
 iexprofs.nl,participaties.nl##.linkbar
 at5.nl,autoline-nl.be,autoline.nl,diningcity.nl,epochtimes.nl,gettyimages.nl,gids.tv,landrover.nl,nieuwsblad.be,nos.nl##.share
 europages.nl,knack.be,rtlnieuws.nl,voetbal24.be,voetbalnieuws.be##.social
+az.nl##.socials
 knack.be##.toolbar
 epochtimes.nl##.tools
 iexprofs.nl##.twitter
@@ -48500,6 +48506,7 @@ apple.com#@#consent.consent
 mymuesli.com#@#cookies_consent
 litebit.eu,vr.fi#@#div[class*="CookieConsent"]
 telenor.se#@#div[class*="cookie-consent-modal_"]
+justeat.it#@#div[class^="CookieBanner_"]
 what3words.com#@#div[class^="CookieNotice"]
 ee.co.uk,monese.com,ukvcas.co.uk#@#div[class^="cookie-banner"]
 berliner-volksbank.de,dovoba.de#@#div[class^="cookie-consent_"]
@@ -48643,7 +48650,7 @@ yoigo.com#@#thor-cookies
 @@||c.evidon.com/sitenotice/evidon-sitenotice-tag.js$script,domain=southpark.de|southparkstudios.nu
 @@||carport-diagnose.de/script/cookieconsent.min.js$script,~third-party
 @@||cdn.almamedia.fi/almacmp/$script,domain=iltalehti.fi
-@@||cdn.cookielaw.org^$script,stylesheet,xmlhttprequest,domain=cnn.com|comicbook.com|crfashionbook.com|crunchyroll.com|doctoroz.com|eurogamer.it|eurogamer.net|eurogamer.pl|eurogamer.pt|gamespot.com|gmx.com|gq-magazine.co.uk|mail.com|mtvuutiset.fi|popculture.com|reuters.com|rockpapershotgun.com|rp-online.de|rte.ie|trustpilot.com|tvn24.pl|uefa.com|usgamer.net|vimeo.com|wargaming.net|worldsurfleague.com
+@@||cdn.cookielaw.org^$script,stylesheet,xmlhttprequest,domain=cnn.com|comicbook.com|crfashionbook.com|crunchyroll.com|doctoroz.com|eurogamer.it|eurogamer.net|eurogamer.pl|eurogamer.pt|gamespot.com|glovoapp.com|gmx.com|gq-magazine.co.uk|mail.com|mtvuutiset.fi|popculture.com|reuters.com|rockpapershotgun.com|rp-online.de|rte.ie|trustpilot.com|tvn24.pl|uefa.com|usgamer.net|vimeo.com|wargaming.net|worldsurfleague.com
 @@||chasecdn.com^*/cookie.js$script,domain=chase.com
 @@||civiccomputing.com^*/cookieControl-$script,domain=amplitude.com|kit.co|msi.com|romania-insider.com|videogameschronicle.com
 @@||cloudflare.com^*/cookieconsent.min.js$domain=ehftv.com|pixieset.com|sammobile.com|xnview.com
@@ -48758,7 +48765,6 @@ yoigo.com#@#thor-cookies
 ! International
 @@.php?f=js/*.js,js$script,domain=undicom.pl
 @@||4ka.sk/js/cookiebar.min.js
-@@||ameli.fr/sites/all/modules/custom/ameli_tarte_au_citron/js/*/tarteaucitron.$script
 @@||amigosmuseoreinasofia.org/assets/js/cookiecuttr/jquery.cookie.js
 @@||bancaaltatoscana.it/framework/js/cookies.dyn.js
 @@||bccmilano.it/framework/js/cookies.dyn.js

@@ -267,6 +267,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||audienceplay.com^$third-party
 ||fusedeck.net^$third-party
 ||trk-egestas.com^$third-party
 ||d41.co^$third-party
@@ -839,7 +840,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||omappapi.com^$third-party
 ||pulsar.xlisting.jp^$third-party
 ||stats-stats.in.net^$third-party
-||lt.logly.co.jp^$image,third-party
+||lt.logly.co.jp^$third-party
 ||l.logly.co.jp^$third-party
 ||tagmanager.alright.network^$third-party
 ||statad.ru^$third-party
@@ -1491,7 +1492,8 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||artefact.is^$third-party
 ||assoctrac.com^$third-party
 ||astro-way.com^$third-party
-||atatus.com^$third-party
+||bm-rx.atatus.com^$third-party
+||br-rx.atatus.com^$third-party
 ||atdmt.com^$third-party
 ||athenainstitute.biz^$third-party
 ||atraxio.com^$third-party
@@ -4877,6 +4879,7 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||dmc1acwvwny3.cloudfront.net^
 ||analytics.sports.ru^
 ||aegis.qq.com^
 ||views.romaniatv.net^
@@ -18841,6 +18844,8 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|partifabrik.com|newsmax.com
 !
+||netflix.com/msl/playapi/cadmium/logblob/
+||netflix.com/api/ftl/probe?monotonic=
 ||daisomall.co.kr/collect.php
 ||cam.ink/eye.gif?
 ||adobe.io/system/log
@@ -21859,6 +21864,9 @@ $app=com.miui.analytics
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
 !
+||t.castle.io^
+||bs.nakanohito.jp^
+||tag.karte.io^
 ||alogsus.umeng.com^
 ||log*.happymod.com^
 ||log.pvpgang.com^
@@ -22445,6 +22453,11 @@ $app=com.miui.analytics
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! unbreak https://ozerki.ru/catalog/?q=%D0%BF%D0%B0%D1%80%D0%B0%D1%86%D0%B5%D1%82%D0%B0%D0%BC%D0%BE%D0%BB
+@@||cdn.retailrocket.*/*/tracking.js$domain=ozerki.ru
+! https://github.com/AdguardTeam/AdguardFilters/issues/98171
+@@||mc.yandex.ru/metrika/tag.js$domain=7flowers.ru
+||mc.yandex.ru/metrika/tag.js$script,redirect=metrika-yandex-watch,domain=7flowers.ru,important
 ! Vodafone app - error when viewing detail
 @@||dpm.demdex.net^$app=com.appseleration.android.selfcare
 ! ! https://github.com/AdguardTeam/Scriptlets/issues/160
