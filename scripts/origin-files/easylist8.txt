@@ -74,6 +74,9 @@
 !
 ! Содержит доменные имена, использующиеся рекламными сетями.
 !
+||temporarympay.com^$third-party
+||1qi.info^$all
+||elonreptiloid.com^$third-party
 ||aomngb.com^$third-party
 ||q0mn5t187u.ru^$third-party
 ||uwdvcn.com^$third-party
@@ -7350,6 +7353,7 @@ argumenti.ru#?#.online_top > ul > li:has(> p > a[href^="https://news.mirtesen.ru
 coronavirus-monitor.ru#?#.entry-content > div[style]:has(> ins.adsbygoogle)
 coronavirus-monitor.ru#?#.entry-content > center:has(> div[style] > div.mk-ad-container)
 !
+hallporn.com#?#article:has(> script[data-idzone])
 sports.ru#$?#main > article:has(> a[rel*="sponsored"]) { remove: true; }
 sports.ru#?#.aside-news-list > li.aside-news-list__item:has(> span.aside-news-list__advert)
 sports.ru#?#.nav-items-list > li.nav-items-list__item:has(> div.nav-item > a.nav-item__banner)
@@ -9291,6 +9295,8 @@ mp3xa.cc#$#body { margin: 0 auto 0 !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/86199
 vgtimes.ru#$#body { padding-top: 0 !important; background-image: none !important; pointer-events: none !important; }
 vgtimes.ru#$#body > * { pointer-events: auto !important; }
+! https://github.com/AdguardTeam/AdguardFilters/issues/99268
+limon.kg#$#.branding { background-image: none !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/85493
 abw.by#$#.adsbygoogle { position: absolute!important; left: -3000px!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/85297
@@ -11931,6 +11937,7 @@ glaza.info##div[class^="dle_"]
 oblgazeta.ru##.moduleAdjectiveTop
 oblgazeta.ru###adj_links > div[class^="banner-"]:not(:last-child)
 oblgazeta.ru###smi24
+limon.kg##.branding > div[class^="branding_"]
 brestcity.com##a[rel*="noopener"][rel*="nofollow"][target*="blank"] > img
 brestcity.com###text-142
 newxboxone.ru##.stream-item
@@ -12214,6 +12221,7 @@ winitpro.ru##.container > aside > div[style="padding-bottom:20px;"]:not([class])
 news.ru###unit_93900
 fontanka.ru##.A3ft
 vesti.ua##.mainBlockAds
+inter.ua##.clear_40
 lifehacker.ru##.widgets-renderer-item_posts-collection
 ||sex-studentki.top/front/js/all_a.js
 gameinside.ua##a[href^="http://bit.ly/"] > img
@@ -22251,6 +22259,7 @@ meduza.io##div.App-banner
 fontanka.ru###app div[class] > aside[class] + div[class] > section[class] > div > div:not([class]) + div[class] > div:first-child
 fontanka.ru##.jt-auto-block
 ! mirtesen.ru blogs
+||player.panda.video/loadCluster.js$domain=mirtesen.aif.ru|mirtesen.profile.ru|mirtesen.sovsport.ru|mirtesen.spletnik.ru|mirtesen.sputnik.ru|mirtesen.tsargrad.tv|mt.argumenti.ru|mt.karelinform.ru|mt.korolevriamo.ru|mt.riamobalashiha.ru|mt.subscribe.ru|social.iz.ru|social.primechaniya.ru|social.radioromantika.ru|social.sport.ru|social.steaklovers.menu|mirtesen.ru
 mirtesen.aif.ru,mirtesen.profile.ru,mirtesen.sovsport.ru,mirtesen.spletnik.ru,mirtesen.sputnik.ru,mirtesen.tsargrad.tv,mt.argumenti.ru,mt.karelinform.ru,mt.korolevriamo.ru,mt.riamobalashiha.ru,mt.subscribe.ru,social.iz.ru,social.primechaniya.ru,social.radioromantika.ru,social.sport.ru,social.steaklovers.menu,mirtesen.ru##.blog-post__video-ad
 mirtesen.aif.ru,mirtesen.profile.ru,mirtesen.sovsport.ru,mirtesen.spletnik.ru,mirtesen.sputnik.ru,mirtesen.tsargrad.tv,mt.argumenti.ru,mt.karelinform.ru,mt.korolevriamo.ru,mt.riamobalashiha.ru,mt.subscribe.ru,social.iz.ru,social.primechaniya.ru,social.radioromantika.ru,social.sport.ru,social.steaklovers.menu,mirtesen.ru##div[class^="adfox"]
 mirtesen.aif.ru,mirtesen.profile.ru,mirtesen.sovsport.ru,mirtesen.spletnik.ru,mirtesen.sputnik.ru,mirtesen.tsargrad.tv,mt.argumenti.ru,mt.karelinform.ru,mt.korolevriamo.ru,mt.riamobalashiha.ru,mt.subscribe.ru,social.iz.ru,social.primechaniya.ru,social.radioromantika.ru,social.sport.ru,social.steaklovers.menu,mirtesen.ru###very-right-column
@@ -23312,6 +23321,8 @@ puper.ebalovo.porn#@#.ads-iframe
 @@||yastatic.net/pcode/adfox/loader.js$domain=stylenews.ru
 ! https://github.com/AdguardTeam/AdguardFilters/issues/70644
 @@||an.yandex.ru/system/video-ads-sdk/adsdk.js$domain=armdb.org
+! https://github.com/AdguardTeam/AdguardFilters/issues/99347
+ictbuilder.nl,droitthemes.com#@#.banner_top
 ! https://github.com/AdguardTeam/AdguardFilters/issues/70435
 sexogolic.info#@#.ads-iframe
 @@||sexogolic.info/player/player_ads.html
