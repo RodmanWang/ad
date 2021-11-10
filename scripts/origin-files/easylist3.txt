@@ -333,6 +333,10 @@ lj_bookmarklet
 !
 ! Extended CSS rules
 !
+solvusoft.com##.grid_4 > div.side-box:has(> div#fb-root)
+ua-football.com#?#div.show-bottom-name:contains(/^Поделиться с друзьями:$/)
+ua-football.com#?#p:contains(/^Поделиться с друзьями:$/)
+ariel.co.uk#?#.exp-detail-left > .tips-head + .span12:has(> div[id$="pnlShare"])
 okko.tv#?#span:contains(Поделиться:):upward(1)
 realdgame.jp#?#.footer-wrap > h5:contains(SNSシェア)
 servicesdown.com#?#aside > div.px-3:has(> div.border > a.twitter-timeline)
@@ -745,7 +749,7 @@ progorodsamara.ru#?##MainContentBox > #CENTER > h3:contains(Вступай в г
 progorodsamara.ru#?##MainContentBox > #CENTER > h3:contains(Вступай в группу) ~ div[style*="float"][style*="width"]
 hentai365.ru#?#.card-content:has(> div.m-translation-view__share)
 dailycaller.com#?#ul.list-none > li:has(button[data-social])
-store.steampowered.com#?#.rightcol div.block > a[onclick]:has(> span:contains(Поделиться))
+store.steampowered.com#?#.rightcol div.block > a[onclick]:has(> span:contains(/Поделиться|Share/))
 epochtimes.jp#?#.sidebar >section[class="hidden-xs"]:has(> header > h3:contains(LINE NEWS))
 winnote.ru#?#article > .news-text > div:has(> .ya-share2)
 it-tehnik.ru#?#.content-area > .content-box:has(> .text-center > div > .social-button)
@@ -1282,6 +1286,24 @@ sportnews.to,nationalchronicle.in,analogictips.com,linearmotiontips.com,skymetwe
 ! ##.sns_area
 sedaily.com,canshop.jp,koreatimes.co.kr,m.chosun.com,sports.donga.com##.sns_area
 !
+note.com##.o-noteContentHeader__share
+note.com##.a-icon--share
+nazya.com###fav-container > span.rght
+censor.net##.news-social-wrapp
+profile.ru##.swiper-social-links
+oltest.ru##.m_share
+oltest.ru##.m_vk_like
+bungo-stray-dogs-wan.com##.st-Footer_Share
+bungo-movie.com##.footer-Share
+iwatobi-sc.com###footer-share
+movie-highspeed.com###shareWrap
+touken-hanamaru.jp###reShare
+game.ettoday.net##.et_social_1
+/files/tgparser/*$domain=armeniasputnik.am|sputniknews.ru
+karaoketexty.cz,karaoke-lyrics.net##.shareicon_desc
+asianefficiency.com##svg[data-id="icon-share-alt-solid"]
+migalhas.com.br##app-compartilhamento-baixo .topico__icones > a[target="_blank"]
+migalhas.com.br##app-compartilhamento-topo .topico__conteudo > a[target="_blank"]
 shabdkosh.com##span[data-bs-target="#share-modal"]
 premierleague.com##.socialShareSticky
 digikey.com##div[data-testid="share-popup-trigger"]
@@ -5922,7 +5944,6 @@ m.brigitte.de##.social-sharing-view-wrapper
 broadwayworld.com,m.brigitte.de##.social-icon
 ozengen.com##.google-widget
 schweizer-illustrierte.ch##.floating_social
-lcwaikiki.com##.option-share
 wunderweib.de##.sharingList
 pz-news.de###sebox_213_0
 blickamabend.ch##div[onclick^="shareWith"]
@@ -8775,7 +8796,7 @@ designboom.com,livescience.com,pbtech.co.nz,peoplesworld.org,space.com##.fa-face
 ##.icon-digg
 ~usepanda.com,~rottentomatoes.com,~detaykibris.com,~khabaronline.ir,~programme-tv.net,~mvideo.ru,~neoldu.com,~akhisarhaber.com,~nauchpoint.com,~bilecikhaber.com.tr,~canliradyodinle.web.tr,~dawanda.com,~godmode-trader.de,~infranken.de,~apkmirror.com,~ain.ua,~iguides.ru,~logaster.com,~minfin.com.ua,~pexels.com##.icon-gplus
 ~gidasanayim.com,~leitesculinaria.com,~androidpolice.com,~tokyohive.com,~teknolojioku.com,~entrepreneur.com,~weather.com,~t3n.de##.icon-google-plus
-~a-da-co-da.com,~beringtime.com,~allthingshair.com,~sunexpress.com,~autoscout24.de,~gardenista.com,~g2a.com,~dawanda.com,~budapester.com,~volvic.de,~wunderweib.de,~7up.com,~gofeminin.de,~pexels.com##.icon-pinterest
+~vogue.in,~a-da-co-da.com,~beringtime.com,~allthingshair.com,~sunexpress.com,~autoscout24.de,~gardenista.com,~g2a.com,~dawanda.com,~budapester.com,~volvic.de,~wunderweib.de,~7up.com,~gofeminin.de,~pexels.com##.icon-pinterest
 ~kaspersky.com,~kaspersky.be,~kaspersky.co.uk,~kaspersky.de,~kaspersky.dk,~kaspersky.es,~kaspersky.fr,~kaspersky.it,~kaspersky.nl,~kaspersky.no,~kaspersky.pt,~kaspersky.se,kaspersky.ru,~babla.co.id,~gidasanayim.com,~morfikirler.com,~gdata-software.com,~thehackernews.com,~nokia.com,~ozracing.com,~mobillsapp.com,~dailycaller.com,~siemens.com,~basf.com,~webref.ru##.icon-linkedin
 ~rottentomatoes.com,~slashdot.org##.icon-facebook-squared
 ##.icon-pinterest-share
