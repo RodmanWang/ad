@@ -1285,6 +1285,9 @@ westseattleblog.com#@#.header-ad
 !
 ! Extended CSS rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/98733
+radio.net#?##stationpage-holder > div:has(> div > div#RAD_NET_M_Station_Middle)
+radio.net#?#div[data-testid="RAD_NET_M_Search_Middle"] > div#RAD_NET_M_Search_Middle:upward(2)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/98485
 slovoidilo.ua#%#//scriptlet('remove-class', 'branding', 'body')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/97560
@@ -2520,6 +2523,7 @@ theinventory.com,avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,
 ! ##.ads
 cartoonpornvideos.com,m.economictimes.com,beethovenmaster.com,m.mistrzowie.org,m.ura.news,siirtpress.com,up.ymgt.xyz,google.de,www-bento-de.cdn.ampproject.org,m-economictimes-com.cdn.ampproject.org,m.winfuture.de##.ads
 !
+tsdm39.net##.wap_doze
 kinoafisha.info##.aka3evf3
 ua-football.com###main-menu > div[style^="width: 100%;"][style*="min-height: 90px;"]
 game.ettoday.net##.ad_pictxt_1
