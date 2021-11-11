@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: bIY06bk+J5OuCdPUEYGIJQ
-! Version: 202111110100
+! Checksum: cGizoVGIHD2MgE2z7LQBog
+! Version: 202111111250
 ! Title: Fanboy's Annoyance List
-! Last modified: 2021-11-11 01:00 UTC
+! Last modified: 2021-11-11 12:50 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -26325,6 +26325,7 @@ _vpcookieconsent/
 ###f-cookie-policy
 ###f6-cp-cookiebanner
 ###f_cookie
+###f_gdprheaderarea
 ###facebook-tracking-notice
 ###facerig-cookies
 ###faldon-cookies
@@ -35164,6 +35165,7 @@ _vpcookieconsent/
 ||chatango.com/pcache/sounds/
 ||cleversite.ru/client/default/sound/
 ||cliengo.com^$media
+||cloudfront.net/prod/media/$domain=birdeye.com
 ||collectcdn.com^$media
 ||driftqa.com/conductor/assets/media/
 ||echatsys.com/sounds/

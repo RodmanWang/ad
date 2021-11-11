@@ -24,7 +24,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <tr>
 <td>blocklist last updated:</td>
-<td><b class=blue>Sat, 06 Nov 2021 08:35:59 GMT</b></td>
+<td><b class=blue>Thu, 11 Nov 2021 10:00:20 GMT</b></td>
 </tr>
 
 
@@ -41,7 +41,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <tr>
 <td>total entries:</td>
-<td><b class=blue>3675</b></td>
+<td><b class=blue>3682</b></td>
 </tr>
 
 </table>
@@ -77,8 +77,8 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Sat, 06 Nov 2021 08:35:59 GMT
-# entries:        3675
+# last updated:   Thu, 11 Nov 2021 10:00:20 GMT
+# entries:        3682
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/as/serverlist.php?mimetype=plain.text
@@ -225,6 +225,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 ad.jacotei.com.br
 127.0.0.1 ad.jetsoftware.com
 127.0.0.1 ad.keenspace.com
+127.0.0.1 ad.lgappstv.com
 127.0.0.1 ad.liveinternet.ru
 127.0.0.1 ad.lupa.cz
 127.0.0.1 ad.media-servers.net
@@ -235,6 +236,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 ad.myapple.pl
 127.0.0.1 ad.mynetreklam.com.streamprovider.net
 127.0.0.1 ad.nachtagenten.de
+127.0.0.1 ad.nettvservices.com
 127.0.0.1 ad.nozonedata.com
 127.0.0.1 ad.nttnavi.co.jp
 127.0.0.1 ad.nwt.cz
@@ -717,6 +719,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 ads.rediff.com
 127.0.0.1 ads.redlightcenter.com
 127.0.0.1 ads.revjet.com
+127.0.0.1 ads.samsung.com
 127.0.0.1 ads.saymedia.com
 127.0.0.1 ads.schmoozecom.net
 127.0.0.1 ads.scifi.com
@@ -1943,6 +1946,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 freewebcounter.com
 127.0.0.1 freewheel.com
 127.0.0.1 freewheel.tv
+127.0.0.1 friendwool.com
 127.0.0.1 frightenedpotato.com
 127.0.0.1 frtyj.com
 127.0.0.1 frtyk.com
@@ -2004,6 +2008,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 gothamads.com
 127.0.0.1 gotraffic.net
 127.0.0.1 gp.dejanews.com
+127.0.0.1 gpm.samsungqbe.com
 127.0.0.1 gracefulsock.com
 127.0.0.1 graizoah.com
 127.0.0.1 grandioseguide.com
@@ -2268,6 +2273,8 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 lever-analytics.com
 127.0.0.1 lfeeder.com
 127.0.0.1 lfstmedia.com
+127.0.0.1 lgad.cjpowercast.com.edgesuite.net
+127.0.0.1 lgsmartad.com
 127.0.0.1 li.alibris.com
 127.0.0.1 li.azstarnet.com
 127.0.0.1 li.dailycaller.com
