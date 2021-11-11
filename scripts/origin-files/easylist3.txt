@@ -993,7 +993,7 @@ xn--b1aew.xn--p1ai#?#.ln-content-holder > div:has(> div[class] > table td.social
 ! https://github.com/AdguardTeam/AdguardFilters/issues/44288
 simplywall.st#?#div[data-cy-id="modal-ModalPortal-0-"]:not(:has(svg[data-cy-id="close-button"]))
 ! https://github.com/AdguardTeam/AdguardFilters/issues/61845#issuecomment-683684767
-timeline.com,netflixtechblog.com,medium.com#?#div[style*="position: absolute;"][style*="transform: translate"] button > svg[width="25"][height="25"][viewBox="0 0 25 25"] > path[d^="M22."]:not([fill-rule]):upward(1)
+towardsdatascience.com,timeline.com,netflixtechblog.com,medium.com#?#div[style*="position: absolute;"][style*="transform: translate"] button > svg[width="25"][height="25"][viewBox="0 0 25 25"] > path[d^="M22."]:not([fill-rule]):upward(1)
 !
 gog.com#?#div[gog-hide-by-window-name="galaxy_order_popup"] > div[gog-dropdown]:contains(share)
 gog.com#?#div[gog-hide-by-window-name="galaxy_order_popup"] > div[gog-dropdown]:contains(share) + span.order-message__separator
@@ -1288,6 +1288,10 @@ sportnews.to,nationalchronicle.in,analogictips.com,linearmotiontips.com,skymetwe
 ! ##.sns_area
 sedaily.com,canshop.jp,koreatimes.co.kr,m.chosun.com,sports.donga.com##.sns_area
 !
+puppet.com##.pm-social--share
+addressadda.com##.showshare
+clarin.com##.entry-head > div.content-top
+m.hvg.hu##.article-share_badges
 nhk.or.jp##.share-fixed
 nhk.or.jp##.nhk-snsbtn
 beskidlive.pl##.bw-social-share
@@ -9460,7 +9464,7 @@ siirtpress.com###kodac
 khersondaily.com###socialGroups
 outsidethebox.ms##.fixtop
 outsidethebox.ms##.dwpb-action
-blublu365.com###likeBox
+isitdownrightnow.com,blublu365.com###likeBox
 avtovod.com.ua###pblock
 kg.ua##div[id^="slidebox"]
 inforeactor.ru##.dialog-social-widgets-vk
