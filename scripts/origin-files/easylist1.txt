@@ -269,6 +269,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||events.busuu.com^
 ||intellimize.co^$third-party
 ||f.fingerprintjs.com^
 ||logs.viadata.store^$third-party
@@ -18858,6 +18859,7 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|partifabrik.com|newsmax.com
 !
+||ebbs.jp/spa.php?
 ||atlassian.com/gateway/api/*/batch
 ||api.atlassian.com/metal/ingest
 ||e.m6web.fr/events
@@ -22173,7 +22175,6 @@ $app=com.miui.analytics
 ||e-ssl.apsalar.com^
 ||collector-axa.cloud.ca.com^
 ||track.adform.net^
-||analytics.ff.avast.com^
 ||api.miui.security.xiaomi.com^
 ||metok.sys.miui.com^
 ||sync.adotmob.com^
@@ -22484,6 +22485,10 @@ $app=com.miui.analytics
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/98923
+cyber.dabamos.de#@#img[width="88"][height="31"]
+! unbreak https://globalcovidsummit.org/page/florida
+@@||uid.mavencoalition.io/v3$xmlhttprequest,domain=globalcovidsummit.org
 ! https://github.com/AdguardTeam/AdguardFilters/issues/97680
 @@||ssl.kaptcha.com/collect/$domain=balance.vanillagift.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/97681

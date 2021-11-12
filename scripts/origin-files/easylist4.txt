@@ -5078,6 +5078,8 @@ aternos.org##.ad.responsive-skyscraper
 @@||flashtalking.com/lgc|$domain=aternos.org
 @@||ib.adnxs.com/ut/v3/prebid|$domain=aternos.org
 @@||snigel-d.openx.net/w/1.0/arj?cc=1$domain=aternos.org
+@@||c.amazon-adsystem.com/*/bid?$xmlhttprequest,domain=aternos.org
+@@||bidder.criteo.com/cdb$xmlhttprequest,domain=aternos.org
 ! Redirect rules
 ||c.amazon-adsystem.com/bao-csm/aps-comm/aps_csm.js$script,redirect=noopjs,important,domain=aternos.org
 ||snigel-d.openx.net/*/arj|$redirect=nooptext,important,domain=aternos.org
@@ -5085,7 +5087,6 @@ aternos.org##.ad.responsive-skyscraper
 ||as-sec.casalemedia.com/cygnus|$redirect=nooptext,important,domain=aternos.org
 ||fastlane.rubiconproject.com/a/api/fastlane.json|$redirect=nooptext,important,domain=aternos.org
 ||flashtalking.com/lgc|$redirect=nooptext,important,domain=aternos.org
-||adengine.snigelweb.com/*/adngin.js$script,important,redirect=noopjs,domain=aternos.org
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/74570
 goodfon.ru#$#.ad-text.adBanner.adbanner.adBlock.adContent.adSense.Adsense.AdSense.pub_300x250m.pub_728x90.text-ad.text-ad-links.text-ads.text_ad.text_ads.TextAd.textAd.textad.textad { display: block !important; }
@@ -7434,6 +7435,10 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 !
 !
 !
+hclips.com##.cookies-policy-block
+||fc2.com/share/js/gdpr/pp_agreement
+ipipe.ru##.cookie_cntnr_st
+||cmp.aftonbladet.se/messagingNoTcfApi.js
 puppet.com##.pm-gdpr
 toptal.com###cookie-banner-host
 sonic.com###snc-data-disclosure
@@ -10382,7 +10387,7 @@ schwaebische.de#$#body.tc-modal-open { overflow: visible !important; }
 schwaebische.de#$#div[class*="tc-privacy-"]:not([style]) { display: none !important; }
 lopes.com.br,crysis.com##.cookiemodal
 pokemongolive.com,nianticlabs.com##ark-cookiebar
-medcentr-tula.ru,comparai.com.br,spimovel.com.br,ege-study.ru##.modal-cookie
+texterra.ru,medcentr-tula.ru,comparai.com.br,spimovel.com.br,ege-study.ru##.modal-cookie
 macupdate.com##.mu_cookie
 kleankanteen.ru.com###client-cookies-notice
 go2bus.ru###useragreement
@@ -15418,6 +15423,8 @@ m.timesofindia.com,m-timesofindia-com.cdn.ampproject.org$$amp-consent
 ! @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=rte.ie|digitaltrends.com|spiele.bild.de|spiele.stern.de|vanityfair.com|saarbruecker-zeitung.de|olympics.com|dziendobry.tvn.pl|bergfreunde.de|oe24.at|epicgames.com|toteraz.pl|natgeotv.com|midomi.com|bethesda.net|volksfreund.de|kawasaki.com|foxchannels.com.tr|ga.de|shop.mango.com|kralmuzik.com.tr|westernunion.com|roastmarket.de|new.cappex.com|vimeo.com|heute.at|ntv.com.tr|wargaming.net|metacritic.com|gq-magazine.co.uk|viafree.dk|viafree.fi|viafree.no|viafree.se|glamour.de|cbsnews.com|worldoftanks.ru|vg247.com|newyorker.com
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/97768#issuecomment-965743241
+@@||quantcast.mgr.consensu.org/choice/*/choice.js$domain=tomshardware.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/98632
 @@||cdn.privacy-mgmt.com^$domain=bold.dk
 ! https://github.com/AdguardTeam/AdguardFilters/issues/98780
@@ -25181,6 +25188,9 @@ disk.yandex.*##.mail360-banner
 !-----------------------------------------------
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/99512 promo banner
+www.yahoo.co.jp###TopLink
+yahoo.co.jp###qurireco a[href^="https://takarabako.yahoo.co.jp/?sc_"][data-ylk]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/98801
 yemeksepeti.com##.ys-promoted-reslist-items
 ! https://github.com/AdguardTeam/AdguardFilters/issues/98512
@@ -26158,6 +26168,11 @@ experts-exchange.com##.ctaSolutionStickyWrapper
 theguardian.com##.contributions__adblock
 ||contributions.guardianapis.com^
 !
+texterra.ru##.header-banner
+texterra.ru##.banner-content-promo
+texterra.ru###js_popup_promo
+texterra.ru###overlay-default
+texterra.ru##.main__header-banner-plug
 plus.espn.com##.popup-container
 hvg.hu#?#.content ~ section.articlebox:has(> div.articleitem a[href^="https://hvg.hu/brandchannel/"])
 edureka.co##.cta-ads-block-inline
@@ -26865,6 +26880,7 @@ quinhillyer.com,johnbiver.com,jasonmattera.com,ipatriot.com,hooligancharters.com
 ##.widget_blog_subscription
 ~news.un.org,~norwichzen.org.uk,~dereferer.me###mc_embed_signup
 !
+testbytes.net###sub_side
 toptal.com##.is-subscription
 livrariadavila.com.br#?#footer > div.linha-1:has(> div.coluna-1 > div.newsletter-texto)
 stxnext.com##.newsletter_module
@@ -29748,6 +29764,8 @@ mail.ru###subscriptionFormWeekMainBlockId
 !######### CSS tweaks #########
 !##############################
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/97768
+tomshardware.com#$#.xenforo-comment-widget { height: auto !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/98371
 garutexpress.id#$##wpsafe-link { display: block !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/98000
