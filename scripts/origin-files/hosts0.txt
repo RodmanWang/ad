@@ -24,13 +24,13 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <tr>
 <td>blocklist last updated:</td>
-<td><b class=blue>Fri, 12 Nov 2021 11:34:25 GMT</b></td>
+<td><b class=blue>Fri, 12 Nov 2021 21:37:25 GMT</b></td>
 </tr>
 
 
 <tr>
 <td>listing ad servers added after:</td>
-<td><b class=blue>Sat, 17 Nov 2001 00:00:00</b></td>
+<td><b class=blue>Sun, 18 Nov 2001 00:00:00</b></td>
 </tr>
 
 
@@ -41,7 +41,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <tr>
 <td>total entries:</td>
-<td><b class=blue>3684</b></td>
+<td><b class=blue>3685</b></td>
 </tr>
 
 </table>
@@ -55,7 +55,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <form action="/as/serverlist.php">
 <input type=hidden name=hostformat value="hosts">
-<input type=hidden name="startdate[day]" value="17">
+<input type=hidden name="startdate[day]" value="18">
 <input type=hidden name="startdate[month]" value="11">
 <input type=hidden name="startdate[year]" value="2001">
 
@@ -77,8 +77,8 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Fri, 12 Nov 2021 11:34:25 GMT
-# entries:        3684
+# last updated:   Fri, 12 Nov 2021 21:37:25 GMT
+# entries:        3685
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/as/serverlist.php?mimetype=plain.text
@@ -86,13 +86,14 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Sat, 17 Nov 2001 00:00:00
+# start date:    Sun, 18 Nov 2001 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
 127.0.0.1 123freeavatars.com
 127.0.0.1 180hits.de
 127.0.0.1 180searchassistant.com
+127.0.0.1 1link2020.com
 127.0.0.1 1rx.io
 127.0.0.1 207.net
 127.0.0.1 247media.com
