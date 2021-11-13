@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: UwwcF737hJkQdeVpApnYIA
-! Version: 202111130100
+! Checksum: EYxGK0zAJ7vtAkW2d3WwzA
+! Version: 202111131250
 ! Title: Fanboy's Annoyance List
-! Last modified: 2021-11-13 01:00 UTC
+! Last modified: 2021-11-13 12:50 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -6574,6 +6574,7 @@ _vpcookieconsent/
 ##.newsletter-image:not(html):not(body)
 ##.newsletter-inline-unit
 ##.newsletter-inline-widget
+##.newsletter-inline-wrapper
 ##.newsletter-inline:not(html):not(body)
 ##.newsletter-inner
 ##.newsletter-input
@@ -6623,6 +6624,7 @@ _vpcookieconsent/
 ##.newsletter-shortcode
 ##.newsletter-sidebar
 ##.newsletter-sidebar-widget
+##.newsletter-sidebar-wrapper
 ##.newsletter-sign-up-block
 ##.newsletter-sign-up-button
 ##.newsletter-sign-up-popup-mask
@@ -43144,7 +43146,6 @@ wizards.com##.css-3wNos.css-1CyK8
 argent.xyz##.css-fnrkut
 quixel.com##.css-wzviqn
 tannoy.com##.cv2-wrapper
-ratemyprofessors.com##.dQpRnT
 chess24.com##.dataConsentModal
 tensorflow.org##.devsite-footer-utility
 dhl.com##.dhl-cgk
@@ -43197,6 +43198,7 @@ palmbeachpost.com##.footer-wrapper
 crello.com##.footerNotificationWrapper___18I_O
 msn.com##.fpCdm
 f-secure.com##.fs-consent
+ratemyprofessors.com##.fyxlwo__overlay
 cgtn.com##.g-dialog
 scaleway.com##.gLLeaT
 themeflood.com##.gatewayContainer
