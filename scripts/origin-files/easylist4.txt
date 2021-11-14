@@ -25224,6 +25224,8 @@ disk.yandex.*##.mail360-banner
 !-----------------------------------------------
 !
 !
+! https://github.com/easylist/easylist/pull/9705#issuecomment-968065999
+||p.dmm.co.jp/p/bnr/dc/topics/large/book_
 ! https://github.com/AdguardTeam/AdguardFilters/issues/99512 promo banner
 www.yahoo.co.jp###TopLink
 yahoo.co.jp###qurireco a[href^="https://takarabako.yahoo.co.jp/?sc_"][data-ylk]
@@ -31723,6 +31725,7 @@ naobzorah.ru###shopBlock
 .ru/proxy_*.php?p___=*&part_url=*.php?callback=*&token=*&iso=
 .net/proxy_*.php?p___=*&part_url=*.php?callback=*&token=*&iso=
 !
+||widget.surveymonkey.com^$third-party
 ||dtbot.directtalk.com.br^$third-party
 ||acobot.ai^$third-party
 ||sf-thomas-cook.s*.amazonaws.com/chatsdk/
