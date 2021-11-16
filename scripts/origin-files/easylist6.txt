@@ -9690,12 +9690,11 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||mydrivers.com/images/hongbao
 ||mydrivers.com/images/icon/gg_
 ||mydrivers.com/m/apptuijian.
-||mydrivers.com/news/*/aly
+||mydrivers.com^*/aly11
 ||mydrivers.com/news/*843x80.
 ||mydrivers.com/news/*jd.png
 ||mydrivers.com/news/2017/db_
 ||mydrivers.com/news/2018/contentfoot.png
-||mydrivers.com/news/2018/wangluodianshi.gif
 ||mydrivers.com/news/taobao_tab.jpg
 ||mydrivers.com/www/gg_
 ||mydrivers.com^*/hb/m_tm
@@ -19006,6 +19005,14 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||gzgxbmh.cn^
 ||mlgsoji.cn^
 ||lhxwnzht.cn^
+||chmc.xyz^
+||7kzod8.cn^
+||zrbl21.cn^
+||banxf.com^
+||s1utu5g.cn^
+||haojun.info^
+||best-eye.cn^
+||katelin.top^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
