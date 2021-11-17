@@ -269,6 +269,8 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||uim.tifbs.net^$third-party
+||shonretimus.com^$third-party
 ||h.cloudengage.com^$third-party
 ||cdp.vemt.com^$third-party
 ||signifyd.com^$third-party
@@ -4896,6 +4898,7 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||snowplow-pixel.tradingview.com^
 ||f-log-at.grammarly.io^
 ||f-log-test.grammarly.io^
 ||tracking.swogo.net^
@@ -5053,8 +5056,6 @@ nethunt.com/api/v1/track/email/$image
 ||pla-tk.flipkart.net^
 ||stat.myshows.me^
 ||d2ieqaiwehnqqp.cloudfront.net^
-||lc.fresheye.com^
-||lcexp.fresheye.com^
 ||behave.noen.at^
 ||tracking.noen.at^
 ||track.wattpad.com^
@@ -6394,7 +6395,6 @@ nethunt.com/api/v1/track/email/$image
 ||adcounter*.uptolike.ru^
 ||analytics.spankbang.com^
 ||event.demirorenteknoloji.com^$third-party
-||felix.data.tm-awx.com^$third-party
 ||collect.data.tm-awx.com^$third-party
 ||t2.hulu.com^
 ||analytics-ingress.bitmovin.com^
@@ -19471,11 +19471,11 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|partifabrik.com|newsmax.com
 !
+||tm-awx.com/pageview
 textologia.ru##.bot_right
 ||manychat.com/js/visitor.js
 ||manychat.com/analytics/event
 ||manychat.com/pixel/logEvent
-||mark.isbank.com.tr/hit?
 ||unsplash.com/nabc^
 ||pa.7w.ro/js/trk.js
 ||paypal.com/tagmanager/pptm.js
@@ -23107,6 +23107,8 @@ $app=com.miui.analytics
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/99718
+@@||api.cxense.com/public/widget/data$domain=obozrevatel.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/98923
 cyber.dabamos.de#@#img[width="88"][height="31"]
 ! unbreak https://globalcovidsummit.org/page/florida
