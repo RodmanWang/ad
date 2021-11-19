@@ -1286,6 +1286,9 @@ westseattleblog.com#@#.header-ad
 !
 ! Extended CSS rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/98076
+tsn.ua#?#body > aside[class="l-sheet l-sheet__gap"]:has(> div > amp-ad)
+tsn.ua#?#body > aside[class="l-sheet l-sheet__gap"]:has(> div > amp-iframe)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/99187
 info.flightmapper.net#?#.mobile-v > .m-box:has(> div[class^="as_mobi_"])
 ! https://github.com/AdguardTeam/AdguardFilters/issues/98108
@@ -1868,6 +1871,8 @@ sasisa.ru#%#AG_onLoad(function() { window.Umobi = function() {}; });
 !-------CSS---------
 !-------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/99545
+dailyringtone.com#$#.bottom { bottom: 0!important; }
 ! overlay
 mudainodocument.com#$##im_interstitial_panel { display: none!important; }
 mudainodocument.com#$#.fixed { overflow: auto!important; position: static!important; }
@@ -2533,6 +2538,13 @@ theinventory.com,avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,
 ! ##.ads
 cartoonpornvideos.com,m.economictimes.com,beethovenmaster.com,m.mistrzowie.org,m.ura.news,siirtpress.com,up.ymgt.xyz,google.de,www-bento-de.cdn.ampproject.org,m-economictimes-com.cdn.ampproject.org,m.winfuture.de##.ads
 !
+pcmag.com##.article_ads
+||afisha.cheb.ru/css/ban/
+xtits.xxx##.container-holder > div[style="margin: 5px auto; text-align: center;"]
+dailyringtone.com##.google-footer-ad
+noonoo.tv##.partner-banner-flex
+pixnet.net##li[data-source^="ad_mobile_"]
+bloombergquint.com##div[class^="mobile-bottom-sticky-"]
 tecnoblog.net##.tb-ad-discrete-container
 futurezone.de##div[class^="contentAd-"]
 m.olx.ua###ad_page_gallery
