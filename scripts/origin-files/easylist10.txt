@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: zpQnfmZJ2RoTmFhuDc+p4Q
-! Version: 202111200100
+! Checksum: BdhYwhxuT22VpkgK3hL/pA
+! Version: 202111201250
 ! Title: Fanboy's Annoyance List
-! Last modified: 2021-11-20 01:00 UTC
+! Last modified: 2021-11-20 12:50 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -3717,6 +3717,7 @@ _youtube_social_
 /borlabs-cookie/*$~script
 /borlabs_cookie/*$~script
 /bt.cookies.
+/build/js/it-cc.js
 /bundle-gdpr.min.js
 /c4s_cookie_
 /calls/cookie.
@@ -3828,6 +3829,7 @@ _youtube_social_
 /cookie-message.
 /cookie-modal.js
 /cookie-module/*
+/cookie-monster/production/*
 /cookie-notice-
 /cookie-notice.
 /cookie-notice/*$~stylesheet
@@ -3893,6 +3895,7 @@ _youtube_social_
 /cookie_consent.$~stylesheet
 /cookie_consent/*
 /cookie_consent_
+/cookie_flyout.
 /cookie_gateway.
 /cookie_header.
 /cookie_hint.$~xmlhttprequest
@@ -23627,6 +23630,7 @@ _vpcookieconsent/
 ###cookie-consent-overlay
 ###cookie-consent-popup
 ###cookie-consent-root
+###cookie-consent-target
 ###cookie-consent-warning
 ###cookie-consent-window
 ###cookie-consent-wrapper
@@ -27360,6 +27364,7 @@ _vpcookieconsent/
 ###myh-cookieconsent-box
 ###mymodal_cookie
 ###mz-cookies-policy
+###mz_genericOverlay
 ###n2g_box_cookie_alerte_message
 ###nCookie
 ###nafets_imprint-cookie
@@ -33147,6 +33152,7 @@ _vpcookieconsent/
 ##.mycmpAlertBigBottom
 ##.mycookies
 ##.myshp_cookies_warning
+##.mz_cookieConsent
 ##.n--help_cookie-banner
 ##.n040-cookie-alert
 ##.naf-cookies-popup
@@ -34221,6 +34227,7 @@ _vpcookieconsent/
 ##.vc-cookieconsent
 ##.vf-CookieBar
 ##.vf-privacy-policy-popup
+##.vfcc__overlay
 ##.vg-cookie-notification-popup
 ##.vgcookies
 ##.viacomcookiebar
@@ -43672,7 +43679,7 @@ spot-a-shop.at,spot-a-shop.de,spot-a-shop.fi,spot-a-shop.fr,spot-a-shop.pl,spot-
 ! ABP Sepecific fixes
 minhaconexao.com.br#?#section[id][class]:-abp-has(:scope > div[class] > button[class][onclick^="onClickCookiesBannerWeb"])
 ! Scripts
-eduface.ru,solnyshko-ramdou60.edumsko.ru#@#.cookies_popup
+eduface.ru,edumsko.ru#@#.cookies_popup
 podleze-piekielko.pl#$#abort-on-property-read cookieman
 ! ABP Sepecific fixes
 ! ABP Sepecific fixes
@@ -45943,6 +45950,8 @@ bmw.de###layerWrapper
 gorreri.de###loggedbar
 literaturuebersetzer.de###mCCForm
 fh-muenster.de###matomo-wrapper
+meineapotheke.de###mea-cb-backdrop
+meineapotheke.de###mea-cb-wrapper
 emax-haustechnik.de###mediameetsFacebookPixel--notification
 funpot.net###message
 winfuture.de,winfuture.mobi###message_id
@@ -47238,6 +47247,7 @@ hashrating.com,zettains.ru##.cookie
 kaida-fish.ru##.custom_message
 lisa.ru##.disclamer
 4game.com##.fcw-wrap
+smartdrive.skoda-avto.ru##.gHUUHu
 ozon.ru##.i4
 friday.ru##.information
 patee.ru##.informer2
@@ -48328,6 +48338,7 @@ ad.win.nl#@##cookieConsentBox
 techopital.com#@##cookieConsentContainer
 indebuurt.nl,tweakers.net#@##cookieContainer
 researchaffiliates.com#@##cookieDialog
+snp.nl#@##cookieLayer
 tiger.nl#@##cookieMessage
 arbeiterkammer.at,brieftip.pl,britishairways.com,epolisbari.com,fotofairsicherung.de,kaliber.pl,mediathekviewweb.de,naszwybir.pl,onsbrabantnet.nl,tropicana.fr,woolworth.de#@##cookieModal
 dhbbank.nl#@##cookieModalCenter
@@ -48343,6 +48354,7 @@ www.free.fr#@##cookieconsent
 gocomics.com#@##cookieconsent-container
 gruenderservice.at#@##cookiehint
 porno720.pl,tvporno.pl#@##cookieinfo
+warta.pl#@##cookieman-modal
 qastack.fr#@##cookies-accept
 qastack.fr#@##cookies-consent
 paradoxplaza.com#@##cookies-info
