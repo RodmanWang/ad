@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: BdhYwhxuT22VpkgK3hL/pA
-! Version: 202111201250
+! Checksum: bv44Hx4Hd/mPj7ywnkxJzA
+! Version: 202111210100
 ! Title: Fanboy's Annoyance List
-! Last modified: 2021-11-20 12:50 UTC
+! Last modified: 2021-11-21 01:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -6453,6 +6453,7 @@ _vpcookieconsent/
 ##.mf-subscribe-widget
 ##.miniNewsletterSignupForm
 ##.mjs-whisper
+##.ml-webforms-popup-overlay
 ##.ml_signup_article
 ##.mo-has-email.moOptinForm
 ##.mo-optin-form-lightbox
@@ -7305,6 +7306,7 @@ _vpcookieconsent/
 ##[data-nc="nc-newsletter"]
 ##[data-target="#newsletter-modal"]
 ##[id^="mailchimp-signup-subscribe-"]
+##[id^="ml-webforms-popup-"]
 ##a[title="Daily Email Newsletter"]
 ##app-emailsubscribe
 ##div[class*="NewsletterSubscribe_"]
@@ -39458,7 +39460,9 @@ finestdaily.com##table[width="642"]
 wikihow.com###article_courses_banner
 theguardian.com###contact-the-guardian
 designtaxi.com###fancybar_link
+theshot.net.au###fixed_footer
 theguardian.com###g200-banner
+theshot.net.au###home_row_1
 alternet.org###kindest-container
 lastmomenttuitions.com###popups
 ghacks.net###stackcommerce_widget-4
@@ -39707,6 +39711,7 @@ ajc.com###fts
 crunchsports.com###ftsingupbtn
 draxe.com###gclidua
 click2houston.com,clickondetroit.com,clickorlando.com,ksat.com,news4jax.com,wsls.com###get-alerts
+crikey.com.au###get-the-worm
 patriotfetch.com###gform_widget-3
 playfield.io###hail-mary-modal
 healthleadersmedia.com###hcpro-misc-form
