@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: bv44Hx4Hd/mPj7ywnkxJzA
-! Version: 202111210100
+! Checksum: jd7LUGYXc8Ddx8cbCsOERQ
+! Version: 202111211250
 ! Title: Fanboy's Annoyance List
-! Last modified: 2021-11-21 01:00 UTC
+! Last modified: 2021-11-21 12:50 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -319,6 +319,7 @@
 /newsletter/style.
 /newsletter/subscriber/*
 /newsletter/subscription/*
+/newsletter2.
 /newsletter2011_
 /newsletter_arrow.
 /newsletter_background_
@@ -721,6 +722,7 @@ _site/gotop.
 /flying_push.
 /get_onesignal_
 /ilabspush.
+/imports/notifications.
 /inpl.webpush.
 /jquery-notification.
 /modules/notifications.
@@ -747,6 +749,7 @@ _site/gotop.
 /OneSignalSDKWorker.
 /openpushwoosh_
 /plugins/wp-notification-bars/*
+/prpushsw.
 /push-notification-
 /push-notification.
 /push-notification/*
@@ -5691,6 +5694,7 @@ _vpcookieconsent/
 ###promo-subscription
 ###promo-subscription-overlay
 ###pu-email-form-covid-email-article
+###pu-email-form-entertainment-email-article
 ###quick-signup-article-widget
 ###rail-newsletter
 ###rb-newsletter
@@ -8022,6 +8026,7 @@ _vpcookieconsent/
 ##.is-totop
 ##.itemBackToTop
 ##.itw-scrollTop
+##.ivu-back-top
 ##.iyc-views-ScrollUp
 ##.j-footer__btn_up
 ##.jquery-back-to-top
@@ -18280,6 +18285,7 @@ _vpcookieconsent/
 ##.sidebar--share-article
 ##.sidebar--social-list
 ##.sidebar--social-list--ul
+##.sidebar-action-share
 ##.sidebar-bluetweets
 ##.sidebar-component--social-share
 ##.sidebar-facebook
@@ -32090,6 +32096,7 @@ _vpcookieconsent/
 ##.flash-rgpd
 ##.flash[data-cookie="eu_cookie"]
 ##.flashmessage-cookies
+##.flatsome-cookies
 ##.flatsome-cookies--active
 ##.flazio-cookie
 ##.flc-cookie-notice
@@ -34299,6 +34306,7 @@ _vpcookieconsent/
 ##.website-cookie-banner
 ##.website-cookie-notification
 ##.wecookiepop-container
+##.welcome--cookies
 ##.welcome-cookies
 ##.welcome-privacy
 ##.wgt-cookies
@@ -34602,7 +34610,7 @@ _vpcookieconsent/
 ##div[data-components="pdr-ws1lib-header"]
 ##div[data-container-acceptcookies]
 ##div[data-cookie-law-banner-selector]
-##div[data-cookie-name="header_cookie_policy"]
+##div[data-cookie-name]
 ##div[data-cookie-notification]
 ##div[data-cookie-path]
 ##div[data-cookie-policy-modal]
@@ -35703,6 +35711,7 @@ _vpcookieconsent/
 ||donkeymob.com^$third-party
 ||ecookie.nl^$third-party
 ||fc2.com/share/js/gdpr/
+||gdpr-legal-cookie.beeclever.app^$third-party
 ||gdpr-service.herokuapp.com^$third-party
 ||gdpr.studybreakmedia.com^
 ||global.mgr.consensu.org^$third-party
@@ -38421,6 +38430,7 @@ hotukdeals.com##.js-keyword-alerts
 wired.com##.js-prefooter-rad
 medium.com##.js-promoCardWrapper
 euronews.com##.js-swiper-button
+mail.zoho.com##.jsBookmarkExtn
 avclub.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.js_commerce-inset-permalink
 haaretz.com##.jumping-jack-wrapper
 itwire.com##.jwDisqusArticleCounter
@@ -40043,6 +40053,7 @@ legit.ng##.c-footer-subscribe
 gq-magazine.co.uk##.c-infobar-wrapper
 newstalkzb.co.nz##.c-promo
 nature.com##.c-site-messages
+eater.com##.c-toaster
 politico.com##.california-playbook-sign-up-right-rail
 a16z.com##.call-to-action
 npr.org##.callout
@@ -40171,7 +40182,6 @@ online-convert.com,pdf2go.com,rt.com##.extension-browser
 classicalite.com##.f-subscform
 newseveryday.com##.f-subscribe
 foreignaffairs.com##.fa-user-simple-register-form
-huckberry.com##.fade
 innovationaus.com##.fade-bg
 slator.com##.fancybox-desktop
 christianpost.com##.fancybox-iframe
@@ -40369,7 +40379,6 @@ cambridge.org##.mod--style1
 answear.ua,businessoffashion.com,longreads.com,vogue.com,xconfessions.com##.modal
 abc15.com##.modal--content
 ba-bamail.com,blogtalkradio.com,breakingdefense.com,martechadvisor.com,medicalnewstoday.com,nordvpn.com,playfield.io,poolsupplies.com,pv-magazine.com##.modal-backdrop
-huckberry.com##.modal-content
 atimes.com,jns.org##.modal-overlay
 blogtalkradio.com##.modal-scrollable
 campaignlive.co.uk,thirdsector.co.uk##.modalOverlay
@@ -41468,6 +41477,7 @@ amartus.com,amazinglytimedphotos.com,androidzoom.com,ask.com,barneys.com,beefjac
 christianpost.com###social-apps
 animenewsnetwork.com###social-bookmarks
 cafemom.com###social-comment
+pinetools.com###social-icons
 omgchrome.com###social-listing
 seibertron.com###social-networking
 cert.org###social-options
@@ -43159,7 +43169,7 @@ forcepoint.com,geeksforgeeks.org##.cookie-consent
 7news.com.au##.cookie-consent--normal
 theatlantic.com##.cookie-disclaimer
 bitfeed.co##.cookiebanner
-21buttons.com,amnesty.org,aoc.com,asda.com,ashridge.org.uk,auto1.fi,auto10.com,belivehotels.com,chemistdirect.co.uk,cineworld.co.uk,coinbase.com,consumeraffairs.org.uk,crytek.com,custplace.com,dorotheum.com,dur.ac.uk,egyptair.com,eirsport.ie,enable-javascript.com,eurozine.com,feelunique.com,forsettlement.com,gartic.io,grandvision.com,graspop.be,guggenheim-bilbao.eus,hmv.com,hotel-spider.com,hse.ru,inagrm.com,indepth.dev,luxottica.com,mabanque.bnpparibas,macpaw.com,mailjet.com,mannheimerswartling.se,medela.co.uk,media-sense.com,mindshareworld.com,mindswarms.com,nedbank.co.za,ostrog.com,perfumesclub.co.uk,perfumesclub.com,pics.io,pjon.org,playgwent.com,proton.com,proxyparts.com,radeon-pro.github.io,renaultbryanston.co.za,renaultfourways.co.za,royalparks.org.uk,scamner.com,sharafdg.com,stuttafordvanlines.co.za,tescomobile.ie,testeri.fi,thenottingham.com,threadreaderapp.com,topographic-map.com,twinings.co.uk,ukcisa.org.uk,ukmail.com,umicore.com,unian.info,unknownphone.com,uptodown.com,urtekram.com,vizologi.com,volvocars.com,warhammerchampions.com,wilko.com,wizards.com##.cookies
+21buttons.com,amnesty.org,aoc.com,asda.com,ashridge.org.uk,auto1.fi,auto10.com,belivehotels.com,chemistdirect.co.uk,cineworld.co.uk,coinbase.com,consumeraffairs.org.uk,crytek.com,custplace.com,dorotheum.com,dur.ac.uk,egyptair.com,eirsport.ie,enable-javascript.com,eurozine.com,feelunique.com,forsettlement.com,gartic.io,grandvision.com,graspop.be,guggenheim-bilbao.eus,hmv.com,hotel-spider.com,hse.ru,inagrm.com,indepth.dev,luxottica.com,mabanque.bnpparibas,macpaw.com,mailjet.com,mannheimerswartling.se,medela.co.uk,media-sense.com,mindshareworld.com,mindswarms.com,nedbank.co.za,ostrog.com,perfumesclub.co.uk,perfumesclub.com,pics.io,pjon.org,playgwent.com,proton.com,proxyparts.com,radeon-pro.github.io,renaultbryanston.co.za,renaultfourways.co.za,royalparks.org.uk,scamner.com,sharafdg.com,stuttafordvanlines.co.za,tescomobile.ie,testeri.fi,thenottingham.com,threadreaderapp.com,topographic-map.com,twinings.co.uk,ukcisa.org.uk,ukmail.com,umicore.com,unian.info,unknownphone.com,uptodown.com,urtekram.com,vizologi.com,volvocars.com,warhammerchampions.com,wilko.com,winamp.com,wizards.com##.cookies
 austrian.com,austrianairlines.ag,austriantechnik.at##.cop
 semanticscholar.org##.copyright-banner
 bandcamp.com##.corp-banners
@@ -43169,6 +43179,7 @@ hik-connect.com##.coverShow
 videojug.com##.cp-alert-message
 mad-daily.com##.cp-info-bar-container
 louisvuitton.com##.cs_banner
+regus.com##.css-1egprsz
 wizards.com##.css-3wNos.css-1CyK8
 argent.xyz##.css-fnrkut
 quixel.com##.css-wzviqn
@@ -43379,6 +43390,7 @@ norma-ammunition.com##.on-screen-messages
 suncorp.com.au##.one-pixel-margin-bottom.sg-Box
 wpengine.com##.opt-in-modal
 origin.com##.origin-sitestripe
+cbsnews.com##.ot-fade-in
 vmware.com##.ot-sdk-show-settings
 flashscore.co.uk,flashscore.com,soccerstand.com##.otPlaceholder
 ratemyprofessors.com##.overlay
@@ -43678,6 +43690,7 @@ rp-online.de##.park-snackbar-cookies
 walmart.ca##.privacy-open > div > [class] > div[class^="css"]
 ! Multi-national sites
 spot-a-shop.at,spot-a-shop.de,spot-a-shop.fi,spot-a-shop.fr,spot-a-shop.pl,spot-a-shop.se###__next > div > div > div[class^="css"]
+globalblue.cn,globalblue.com,globalblue.ru##.gbnew-cookie-bar
 ! Include ubO specific
 !#include easylist_cookie_specific_uBO.txt
 !------------------------Specific ABP/uBO rules ------------------------!
@@ -45334,6 +45347,7 @@ transfermarkt.nl##.header-social
 iexprofs.nl,participaties.nl##.linkbar
 at5.nl,autoline-nl.be,autoline.nl,diningcity.nl,epochtimes.nl,gettyimages.nl,gids.tv,landrover.nl,nieuwsblad.be,nos.nl##.share
 europages.nl,knack.be,rtlnieuws.nl,voetbal24.be,voetbalnieuws.be##.social
+bricovideo.ovh##.social-icon
 az.nl##.socials
 knack.be##.toolbar
 epochtimes.nl##.tools
@@ -46561,6 +46575,7 @@ helmet.fi##.notifier_warning
 suomi24.fi##.s24_cc_banner-wrapper
 terveystalo.com##.st-consent-banner
 lehtodigital.fi##[class^="__ld_cookie_"]
+fyndiq.fi##[class^="CoookiePopupContent__ContainerWrapper"]
 sttinfo.fi##[class^="styledBarNotification__BarNotificationWrapper"]
 dplay.fi##div[class^="notification"]
 tv.telia.fi##div[ng-show^="model.notifications"]
@@ -47206,7 +47221,7 @@ portalinvatamant.ro###terms
 mobilier-mirjan24.ro###window_overlay
 basilica.ro##.alert
 bancatransilvania.ro##.bannerWrapper
-promenada.ro##.cookie
+fitfoodway.ro,promenada.ro##.cookie
 madalinliviu.ro,samsonite.ro##.cookies
 lexus.ro##.disclaimer
 bestkids.ro##.gdprPolicy
@@ -48971,7 +48986,7 @@ yoigo.com#@#thor-cookies
 @@||androidpolice.com/wp-content/themes/ap2/ap_resize/ap_resize.php?*_Twitter-$image
 @@||angvremya.ru/engine/classes/min/index.php?*/js/social-$stylesheet
 @@||animeworld.tv/dist/frontend/vendor/jssocials/jssocials.min.js
-@@||apis.google.com/js/platform.js$domain=9gag.com|animeworld.tv|arbolabc.com|archive.org|artstation.com|auth.uber.com|corrupt-a-file.net|coursehero.com|crello.com|deezer.com|discogs.com|dubox.com|duolingo.com|etoro.com|expensify.com|febbit.com|gazeta.uz|id.logi.com|jakdojade.pl|kroger.com|moshi.com|noez.de|oasgames.com|olx.pl|olx.ro|passeidireto.com|porticoindia.com|prntscr.com|sato.fi|typewriter.at
+@@||apis.google.com/js/platform.js$domain=9gag.com|animeworld.tv|arbolabc.com|archive.org|artstation.com|auth.uber.com|corrupt-a-file.net|coursehero.com|crello.com|deezer.com|discogs.com|dndbeyond.com|dubox.com|duolingo.com|etoro.com|expensify.com|febbit.com|gazeta.uz|id.logi.com|jakdojade.pl|kroger.com|moshi.com|noez.de|oasgames.com|olx.pl|olx.ro|passeidireto.com|porticoindia.com|prntscr.com|sato.fi|typewriter.at
 @@||app.degoo.com/assets/icons/$~third-party
 @@||app.hrlab.de/assets/icons/$image,domain=app.hrlab.de
 @@||apple.com/kb/resources/images/i_facebook.png
