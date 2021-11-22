@@ -24,13 +24,13 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <tr>
 <td>blocklist last updated:</td>
-<td><b class=blue>Thu, 18 Nov 2021 11:40:44 GMT</b></td>
+<td><b class=blue>Sun, 21 Nov 2021 21:15:58 GMT</b></td>
 </tr>
 
 
 <tr>
 <td>listing ad servers added after:</td>
-<td><b class=blue>Mon, 26 Nov 2001 00:00:00</b></td>
+<td><b class=blue>Tue, 27 Nov 2001 00:00:00</b></td>
 </tr>
 
 
@@ -41,7 +41,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <tr>
 <td>total entries:</td>
-<td><b class=blue>3689</b></td>
+<td><b class=blue>3698</b></td>
 </tr>
 
 </table>
@@ -55,7 +55,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <form action="/as/serverlist.php">
 <input type=hidden name=hostformat value="hosts">
-<input type=hidden name="startdate[day]" value="26">
+<input type=hidden name="startdate[day]" value="27">
 <input type=hidden name="startdate[month]" value="11">
 <input type=hidden name="startdate[year]" value="2001">
 
@@ -77,8 +77,8 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Thu, 18 Nov 2021 11:40:44 GMT
-# entries:        3689
+# last updated:   Sun, 21 Nov 2021 21:15:58 GMT
+# entries:        3698
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/as/serverlist.php?mimetype=plain.text
@@ -86,7 +86,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Mon, 26 Nov 2001 00:00:00
+# start date:    Tue, 27 Nov 2001 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
@@ -1027,6 +1027,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 advnt.com
 127.0.0.1 adwebone.com
 127.0.0.1 adwhirl.com
+127.0.0.1 adwords-track.com
 127.0.0.1 adwordsecommerce.com.br
 127.0.0.1 adworldnetwork.com
 127.0.0.1 adworx.at
@@ -1924,6 +1925,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 flurry.com
 127.0.0.1 fly-analytics.com
 127.0.0.1 folawn.com
+127.0.0.1 fontsctaticx.com
 127.0.0.1 foo.cosmocode.de
 127.0.0.1 foresee.com
 127.0.0.1 forex-affiliate.net
@@ -1951,6 +1953,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 freewheel.tv
 127.0.0.1 friendwool.com
 127.0.0.1 frightenedpotato.com
+127.0.0.1 frontstatics.com
 127.0.0.1 frtyj.com
 127.0.0.1 frtyk.com
 127.0.0.1 fullstory.com
@@ -1977,6 +1980,8 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 gammamaximum.com
 127.0.0.1 gaug.es
 127.0.0.1 gavvia.com
+127.0.0.1 gctatic.com
+127.0.0.1 gctatics.com
 127.0.0.1 gearwom.de
 127.0.0.1 gekko.spiceworks.com
 127.0.0.1 geo.digitalpoint.com
@@ -2022,6 +2027,8 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 greystripe.com
 127.0.0.1 groundtruth.com
 127.0.0.1 gscontxt.net
+127.0.0.1 gstaticx.com
+127.0.0.1 gstaticxs.com
 127.0.0.1 gtop100.com
 127.0.0.1 guardedschool.com
 127.0.0.1 guffawdecipher.com
@@ -2175,6 +2182,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 insightexpress.com
 127.0.0.1 insightexpressai.com
 127.0.0.1 inskinad.com
+127.0.0.1 inslco.bar
 127.0.0.1 inspectlet.com
 127.0.0.1 install.365-stream.com
 127.0.0.1 instantmadness.com
@@ -3036,6 +3044,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 sc-analytics.appspot.com
 127.0.0.1 scambiobanner.aruba.it
 127.0.0.1 scanscout.com
+127.0.0.1 scaraabresearch.com
 127.0.0.1 scarcesign.com
 127.0.0.1 scarfsmash.com
 127.0.0.1 scatteredheat.com
