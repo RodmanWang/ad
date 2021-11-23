@@ -94,6 +94,11 @@
 ||gscounters.*.gigya.com^$third-party
 ||h*.adscope.co.kr^
 ||hog.*^$removeparam=ad
+||host*.carl-ras.dk^
+||host*.ncoi.nl^
+||host*.nti.nl^
+||host*.polaroid.com^
+||host*.rvshare.com^
 ||hostingcloud.*.wasm^
 ||i-*.ci360.sas.com^$third-party
 ||iad-*.appboy.com^
@@ -113,6 +118,7 @@
 ||liveme-sensors-collect2-*.amazonaws.com^
 ||livestatic-*.netdna-ssl.com^$domain=telerium.tv
 ||log*-*.tiktokv.com^
+||log*-misc-lf.amemv.com^
 ||log*.happymod.com^
 ||log*.interactive-circle.jp^
 ||logger-*.dailymotion.com^
@@ -151,6 +157,7 @@
 ||real*traf.ru^$third-party
 ||report*.appmetrica.webvisor.com^
 ||report.*.qq.com^
+||retcode-*.arms.aliyuncs.com^
 ||rtbimp-loadbalancer-*.amazonaws.com^
 ||rum*.a.trbcdn.net^
 ||rum*.cdnvideo.ru^

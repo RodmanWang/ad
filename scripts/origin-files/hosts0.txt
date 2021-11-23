@@ -24,13 +24,13 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <tr>
 <td>blocklist last updated:</td>
-<td><b class=blue>Sun, 21 Nov 2021 21:15:58 GMT</b></td>
+<td><b class=blue>Mon, 22 Nov 2021 15:39:15 GMT</b></td>
 </tr>
 
 
 <tr>
 <td>listing ad servers added after:</td>
-<td><b class=blue>Tue, 27 Nov 2001 00:00:00</b></td>
+<td><b class=blue>Wed, 28 Nov 2001 00:00:00</b></td>
 </tr>
 
 
@@ -41,7 +41,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <tr>
 <td>total entries:</td>
-<td><b class=blue>3698</b></td>
+<td><b class=blue>3699</b></td>
 </tr>
 
 </table>
@@ -55,7 +55,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <form action="/as/serverlist.php">
 <input type=hidden name=hostformat value="hosts">
-<input type=hidden name="startdate[day]" value="27">
+<input type=hidden name="startdate[day]" value="28">
 <input type=hidden name="startdate[month]" value="11">
 <input type=hidden name="startdate[year]" value="2001">
 
@@ -77,8 +77,8 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Sun, 21 Nov 2021 21:15:58 GMT
-# entries:        3698
+# last updated:   Mon, 22 Nov 2021 15:39:15 GMT
+# entries:        3699
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/as/serverlist.php?mimetype=plain.text
@@ -86,7 +86,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Tue, 27 Nov 2001 00:00:00
+# start date:    Wed, 28 Nov 2001 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
@@ -2772,6 +2772,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 plista.com
 127.0.0.1 plotrabbit.com
 127.0.0.1 ployea.com
+127.0.0.1 pltraffic8.com
 127.0.0.1 pluckypocket.com
 127.0.0.1 plugrush.com
 127.0.0.1 pocketmath.com

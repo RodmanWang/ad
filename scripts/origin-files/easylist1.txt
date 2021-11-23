@@ -260,6 +260,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ! ||ensighten.com^$third-party - not a tracker
 !
 ! Be careful when blocking snssdk.com. It is used also for legal purposes
+||mon.snssdk.com^
 ||mcs.snssdk.com^
 ||i.snssdk.com^$domain=~i.snssdk.com
 ||log-hl.snssdk.com^
@@ -4769,8 +4770,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||commandersact.com^$third-party
 ! DataUnlocker
 ||dataunlocker.com^$third-party
-||monopoly-drain.ga^$third-party
-||friendly-community.tk^$third-party
+||delightful-development.ml^$third-party
 ! Wizaly
 ||wizaly.com^
 ! Ingenious Technologies
@@ -4904,6 +4904,27 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||statetc.nate.com^
+||host*.nti.nl^
+||host*.carl-ras.dk^
+||host*.ncoi.nl^
+||host*.polaroid.com^
+||host*.rvshare.com^
+||alpha.tracedock.com^
+||apollo.plein.nl^
+||beta.simpel.nl^
+||dtch.brunel.nl^
+||exc.ns.nl^
+||r.kleertjes.com^
+||s3.smartphonehoesjes.nl^
+||sta.tracedock.com^
+||style.onvz.nl^
+||tdapi.wickey.nl^
+||tdep.hema.nl^
+||tdep.kvk.nl^
+||tdk.petsplace.nl^
+||two.tracedock.com^
+||log.appdriver.jp^
 ||gtm.udemy.com^
 ||t.clic2buy.com^
 ||blue.fox8.com^
@@ -5914,8 +5935,6 @@ nethunt.com/api/v1/track/email/$image
 ||beacon.tingyun.com^
 ||pixel.anyclip.com^
 ||analysis.afreecatv.com^
-||ulogs.umeng.com^
-||ulogs.umengcloud.com^
 ||m.adtiming.com^
 ||trackcommon.hujiang.com^
 ||track.hujiang.com^
@@ -20241,8 +20260,8 @@ semprotyuk.com##div[style^="margin-bottom:150px;"][style*="padding-right:2em;"]
 ||n11scdn.akamaized.net/assets/javascripts/ha.js
 ||playbrain.io/analytics/
 ||linkwithin.com/pixel.png
-||hotstar.com/*/track
-||hotstar.com/*/identify
+||hotstar.com/*/track$domain=~bifrost-api.hotstar.com
+||hotstar.com/*/identify$domain=~bifrost-api.hotstar.com
 ||livedoor.jp/js/c2.js
 club-opel.com##.toplist
 insider.com##.taboola
@@ -22785,6 +22804,9 @@ $app=com.miui.analytics
 ||logs.supersonic.com^
 ||graph.facebook.com/*/activities?access_token=&event=
 ||graph.facebook.com/*?fields=supports_implicit_sdk_logging
+! Apps of Naver Corp https://github.com/AdguardTeam/AdguardFilters/pull/100824
+||ntracker-collector.naver.com^
+||ace.naver.com^
 ! xiaomi mi band app
 ||datacollector-*.dt.hicloud.com^
 ||app-analytics-ru.huami.com^
@@ -22854,6 +22876,21 @@ $app=com.miui.analytics
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
 !
+||statclick.nate.com^
+||aff-report.lbesecapi.com^
+||aff-policy.lbesecapi.com^
+||psi.lbesecapi.com^
+||report-ps.meettech.net^
+||f-log-mobile.grammarly.io^
+||f-log-mobile-ios.grammarly.io^
+||retcode-*.arms.aliyuncs.com^
+||log*-misc-lf.amemv.com^
+||msg.umengcloud.com^
+||ulogs.umeng.com^
+||ulogs.umengcloud.com^
+||ada-tr.staff-start.com^
+||analytics.liveact-vault.com^
+||dex50.deteql.net^
 ||api.statsig.com^
 ||logs-01.loggly.com^
 ||analytics.300624.com^
