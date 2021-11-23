@@ -1286,7 +1286,10 @@ westseattleblog.com#@#.header-ad
 !
 ! Extended CSS rules
 !
-! kakaku.com native ad
+! https://github.com/AdguardTeam/AdguardFilters/issues/99567
+womenshealth.de#?#.article__content > div > span.list__header:contains(/^Sponsored$/)
+! kakaku.com native ad, placeholder
+s.kakaku.com#?#.c-bnr span.c-global_pr:upward(.c-bnr)
 s.kakaku.com#?#.p-bnr span.c-global_pr:upward(.p-bnr)
 waterserver.kakaku.com#?#li.unit > a[href*="/jump.asp?"][onclick^="onclickcatalysttopcs"]:upward(1)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/98076
@@ -2545,6 +2548,10 @@ theinventory.com,avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,
 ! ##.ads
 cartoonpornvideos.com,m.economictimes.com,beethovenmaster.com,m.mistrzowie.org,m.ura.news,siirtpress.com,up.ymgt.xyz,google.de,www-bento-de.cdn.ampproject.org,m-economictimes-com.cdn.ampproject.org,m.winfuture.de##.ads
 !
+m.spox.com###content > .ct > .miksfh > div[style^="min-height:"]
+news.livedoor.com#?#.article-list > li:has(span.article-list-pr)
+interia.pl##body .common-ad
+prcm.jp##.enlargement-ad
 oricon.co.jp##.top-inline-banner
 oricon.co.jp##article > div[style="margin-bottom: 20px; min-height:100px;"]
 viarum.ru##.flat__4_out
@@ -3102,7 +3109,7 @@ filmix.ac,filmix.tech,filmix.zone###branding_zone
 filmix.ac,filmix.tech,filmix.zone###information > div[style="height:200px!important;overflow:hidden"]
 estadao.com.br##.pAd-mold
 estadao.com.br##.pAd-banner
-mag2.com##.page_bottom_fixed_ad_wap
+tripeditor.com,mag2.com##.page_bottom_fixed_ad_wap
 sondakika.com##.add_masthead
 pcgames.de##.sponsored
 glavred.info##div[style*="display: flex; height:250px;"]

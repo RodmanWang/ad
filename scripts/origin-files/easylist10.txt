@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: qX7d/+aa8ak0dymYjTLu1w
-! Version: 202111230100
+! Checksum: 01vGXwAIpQIj52JCJYOmKg
+! Version: 202111231250
 ! Title: Fanboy's Annoyance List
-! Last modified: 2021-11-23 01:00 UTC
+! Last modified: 2021-11-23 12:50 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -40572,6 +40572,7 @@ asianjournal.com##.sgpb-popup-overlay
 androidauthority.com##.shadowed[style="width: 320px;"]
 medicaldaily.com##.share
 shoutmeloud.com##.shoutmeloud_sidebar_optin_inr
+substack.com##.show-subscribe
 womenonwheels.co.za##.side-form-r
 hotelnewsresource.com##.sidebar-block-signup
 caribjournal.com##.sidebar-form
@@ -46338,6 +46339,8 @@ efax.fr##.stickyFooter
 tupperware.fr##.topRibbon
 le-dictionnaire.com##.topdisclaimer
 ugc.fr##.ui-dialog[aria-describedby*="gdpr"] ~ .ui-widget-overlay
+ouedkniss.com##.v-dialog--persistent[style="transform-origin: center center; max-width: 400px;"]
+ouedkniss.com##.v-overlay
 cafpi.fr##.warning
 quellecompagnie.com##.whatever
 businessinsider.fr,voici.fr##div[class^="sp_message_container"]
