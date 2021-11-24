@@ -2548,6 +2548,13 @@ theinventory.com,avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,
 ! ##.ads
 cartoonpornvideos.com,m.economictimes.com,beethovenmaster.com,m.mistrzowie.org,m.ura.news,siirtpress.com,up.ymgt.xyz,google.de,www-bento-de.cdn.ampproject.org,m-economictimes-com.cdn.ampproject.org,m.winfuture.de##.ads
 !
+t-online.de##div[id^="ma_"]
+m.winfuture.de###main > div[align="center"]
+elespanol.com###sticky_container
+iphonetweak.fr##.pubMobile > div.ArticlePreview
+overdrive.in##.add_placeholder_300_250
+m.quoka.de##.qbanner
+m.quoka.de##.qx_search-result__list-item:not([id])
 m.spox.com###content > .ct > .miksfh > div[style^="min-height:"]
 news.livedoor.com#?#.article-list > li:has(span.article-list-pr)
 interia.pl##body .common-ad
@@ -3903,7 +3910,6 @@ txxx.com###im-block_wrapper
 laogu.cc##.rowIvy
 ||v.laogu.wang/template/*/images/g_js^
 mobil.express.de,mobil.mopo.de##article[data-title="ANZEIGE"]
-t-online.de##div[id^="ma_ar_"]
 fapality.com##.had
 lexico.com##.banbox
 goblintvfree.com##.banner
@@ -4595,8 +4601,6 @@ gotporn.com##.advertisement
 porn.com##.m-zone
 pornhd.com##.leaderboard-container
 ||teknoseyir.com/wp-content/themes/ts/sponsor-mobile.php
-t-online.de##div[itemprop="articleBody"] > #ma_ar
-t-online.de###ma_mrec
 m.dnn.de##.pdma-adaside-declaration
 thechive.com##.phone-ad
 finance.yahoo.com###mrt-node-Col1-1-GeminiBrokerBtnsMobileWeb
@@ -5141,6 +5145,7 @@ anwap.club,anwap.film,anwap.mobi##body > div[class] > a > strong
 ||graph.facebook.com^$app=com.booking
 !
 ! Blocking Facebook mobile ads
+||graph.facebook.com^$app=com.pixelpoint
 ||graph.facebook.com^$app=com.oddlyspaced.burnermedia.burnerguard|com.techburner.freshwalls|com.techburner.wallpaper|com.techburner.scanner.pdfeditor.android|com.techburner.burnerbits
 ||graph.facebook.com^$app=com.imo.android.imoimhd
 ||graph.facebook.com^$app=com.touchtao.soccerkinggoogle|com.mobirix.zumaking2|com.mobirix.swipebrick2|com.mobirix.mahjongking2|com.mobirix.hit7.casino.slots|com.mobirix.gmm|com.mobirix.fishingchampionship|com.mobirix.airhockey|com.mobirix.abmon|com.mobirix.MultiplyWar

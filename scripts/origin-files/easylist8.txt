@@ -6767,14 +6767,14 @@ sdamgia.ru$$script[tag-content="adb=1"]
 ! START: Yandex
 !
 ! old cookies: Bismuth|computer|discussion|^specific\$|^engineer|instruction|telecommunications|pronunciation|involved|^adequate
-$cookie=/blcrm|bltsr|PIwsfZeu|computer/,domain=yandex.by|yandex.com|yandex.com.tr|yandex.fr|yandex.kz|yandex.ru|yandex.ua
+$cookie=/blcrm|bltsr|FxuGQqNNo|computer/,domain=yandex.by|yandex.com|yandex.com.tr|yandex.fr|yandex.kz|yandex.ru|yandex.ua
 !
-auto.ru,avito.ru,baby.ru,businessman.ru,dni.ru,e1.ru,echo.msk.ru,fb.ru,forexpf.ru,gismeteo.by,gismeteo.kz,gismeteo.md,gismeteo.ru,gorodrabot.ru,infoniac.ru,it-tehnik.ru,kakprosto.ru,kinopoisk.ru,liveinternet.ru,mathb-ege.sdamgia.ru,mk.ru,nkj.ru,ohotniki.ru,oko-planet.su,otzovik.com,razlozhi.ru,sdamgia.ru,syl.ru,vz.ru#%#//scriptlet('remove-cookie', '/blcrm|bltsr|PIwsfZeu|computer/')
+auto.ru,avito.ru,baby.ru,businessman.ru,dni.ru,e1.ru,echo.msk.ru,fb.ru,forexpf.ru,gismeteo.by,gismeteo.kz,gismeteo.md,gismeteo.ru,gorodrabot.ru,infoniac.ru,it-tehnik.ru,kakprosto.ru,kinopoisk.ru,liveinternet.ru,mathb-ege.sdamgia.ru,mk.ru,nkj.ru,ohotniki.ru,oko-planet.su,otzovik.com,razlozhi.ru,sdamgia.ru,syl.ru,vz.ru#%#//scriptlet('remove-cookie', '/blcrm|bltsr|FxuGQqNNo|computer/')
 ! TODO: add domains auto.ru and kinopoisk.ru to the rule below after the next release of AG for macos (current 2.3.2)
-$cookie=/blcrm|bltsr|PIwsfZeu|computer/,domain=baby.ru|businessman.ru|dni.ru|e1.ru|echo.msk.ru|fb.ru|forexpf.ru|gismeteo.by|gismeteo.kz|gismeteo.md|gismeteo.ru|gorodrabot.ru|infoniac.ru|it-tehnik.ru|kakprosto.ru|liveinternet.ru|mk.ru|nkj.ru|ohotniki.ru|oko-planet.su|otzovik.com|rambler.ru|razlozhi.ru|sdamgia.ru|syl.ru|vz.ru
+$cookie=/blcrm|bltsr|FxuGQqNNo|computer/,domain=baby.ru|businessman.ru|dni.ru|e1.ru|echo.msk.ru|fb.ru|forexpf.ru|gismeteo.by|gismeteo.kz|gismeteo.md|gismeteo.ru|gorodrabot.ru|infoniac.ru|it-tehnik.ru|kakprosto.ru|liveinternet.ru|mk.ru|nkj.ru|ohotniki.ru|oko-planet.su|otzovik.com|rambler.ru|razlozhi.ru|sdamgia.ru|syl.ru|vz.ru
 $cookie=/^los\$/,domain=auto.ru
 ! zen.yandex.ru - broken resources
-~passport.yandex.ru,~zen.yandex.ru,yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua#%#//scriptlet('remove-cookie', '/blcrm|bltsr|PIwsfZeu|computer/')
+~passport.yandex.ru,~zen.yandex.ru,yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua#%#//scriptlet('remove-cookie', '/blcrm|bltsr|FxuGQqNNo|computer/')
 !
 ! makes kinopoisk.ru redirect to sso.kinopoisk.ru and back endlessly
 ! ||kinopoisk.ru^$cookie=/consultant|introductory|knowledge|transfer|technology|workplace/
@@ -11883,6 +11883,14 @@ crazymailing.com,lotzon.pro,novosti-n.org,prokazan.ru,20minut.ua,alnews.com.ua,g
 !
 !
 !
+fastpic.org##a[target="_blank"][style*="position: fixed; display: block; width: 100%; height: 100%;"]
+translate.ru##.mddlAdvBlock
+||sms-acktiwator.ru/uploads/go/$media
+sms-acktiwator.ru##video[width^="468"]
+sms-acktiwator.ru##div[class="col-md-6"] > a[target="_blank"]
+migeek.ru##.flat_after_1_p
+unian.net##.bnr-block__bnr
+liveposts.ru##.col-sm-3 > div[style^="min-height: 700px;"]
 brestcity.com##a[target="_new"] > img
 internet-technologies.ru##div[data-region="main-bottom"]
 kinoafisha.info##.showtimes_ads
@@ -12293,7 +12301,6 @@ namobilu.com##.b_adsen_wrap
 toprepack.com##noindex > center
 toprepack.com##body > noindex > a[target="_blank"]
 ||toprepack.com/templates/games/images/bg.jpg
-dota2.ru##.adsincont
 ||xebalovo.com/get-pro/
 pornoakt.click##img[alt^="Баннер"]
 kinoafisha.info##.aside_item
@@ -13282,7 +13289,6 @@ pravda.com.ua##.unit_header_banner
 uznayvse.ru##.ad_content_img
 uznayvse.ru##div[class^="cls_placeholder_"]
 uznayvse.ru##div[data-sid="partners_widget_uznayvseru"]
-dota2.ru##.banvrekun
 ||comments.ua/img/elits.png
 pikabu.ru##.ads-placeholder_centered
 ||autotheme.info/wp-content/uploads/*/Rekl-300h300.jpg
@@ -21942,14 +21948,11 @@ rezkify.com,aghdrezka.com,hdrezka.re,bestofkinopoisk.com,rezkance.com,rezkery.co
 ||24smi.org/adw/
 ||24smi.org/adwiles
 !
-||dota2.ru/img/pmo*ua.jpg
-||dota2.ru/img/lbmaybrand*.jpg
-dota2.ru##body > div[id] > div[class] > div > a[rel="nofollow noreferrer noopener"]
-dota2.ru##.subline + style + div > a[target="_blank"][rel="nofollow"]
-dota2.ru##.lern
-dota2.ru##.bankreken
-dota2.ru##.a-in-after
+dota2.ru##.header > div[class^="banner"]
+dota2.ru##.banvrekun
+dota2.ru##.adsincont
 dota2.ru##.bn-btm
+dota2.ru##.a-in-after
 !
 /js/iMessage.js$domain=doctorhouse.tv|besstidniki.ru
 doctorhouse.tv,besstidniki.ru##.player > iframe + div
@@ -22224,7 +22227,7 @@ roem.ru###prnews-promo
 !+ NOT_OPTIMIZED
 roem.ru##.branding-wrapper
 !+ NOT_OPTIMIZED
-roem.ru##.factus-promo-wrapper
+roem.ru##.factus-slidered
 !+ NOT_OPTIMIZED
 superomsk.ru##.banner-reklama
 !+ NOT_OPTIMIZED
@@ -22585,14 +22588,14 @@ youla.ru##.product_item--ad
 ! END: mail.ru
 !
 ! otzovik.com
-otzovik.com##.produkt-cohtent div.product-nav-wrap + div[class] ~ div[class]:not([style]):not([class="bottom-row"])
-otzovik.com##.produkt-cohtent div.product-nav-wrap + div[class] > noindex + div[class] > div[class]:not([itemprop])
-otzovik.com##.produkt-cohtent div.product-header > h1.product-name + div + div[class]
-otzovik.com##.produkt-cohtent div.product-header > span.identifier + div + div[class]
-otzovik.com##.produkt-cohtent div.product-header ~ div[style^="position:"] ~ div[class]
-otzovik.com##.produkt-cohtent div.review-contents + [class]
-otzovik.com##.produkt-cohtent div.review-contents > div.review-panel + div[class]
-otzovik.com##.produkt-cohtent div.review-contents > div.review-body > span[style]
+otzovik.com##.produkt-cogtent div.product-nav-wrap + div[class] ~ div[class]:not([style]):not([class="bottom-row"])
+otzovik.com##.produkt-cogtent div.product-nav-wrap + div[class] > noindex + div[class] > div[class]:not([itemprop])
+otzovik.com##.produkt-cogtent div.product-header > h1.product-name + div + div[class]
+otzovik.com##.produkt-cogtent div.product-header > span.identifier + div + div[class]
+otzovik.com##.produkt-cogtent div.product-header ~ div[style^="position:"] ~ div[class]
+otzovik.com##.produkt-cogtent div.review-contents + [class]
+otzovik.com##.produkt-cogtent div.review-contents > div.review-panel + div[class]
+otzovik.com##.produkt-cogtent div.review-contents > div.review-body > span[style]
 ! Ukr
 otzovik.com##.adbroun_block
 otzovik.com##div[class^="pr3_"]
