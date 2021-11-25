@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: GSrwY1pCfP9WWGbsMeruww
-! Version: 202111241250
+! Checksum: AJUaTSsx/jeGcLHj4g9oAA
+! Version: 202111250100
 ! Title: Fanboy's Annoyance List
-! Last modified: 2021-11-24 12:50 UTC
+! Last modified: 2021-11-25 01:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -371,6 +371,8 @@
 /popups/subscribe-
 /promonewsletters-
 /proxy/newsletter/*
+/rdstation-popup.
+/rdstation-popups/*
 /redesign/newsletter/*
 /reg_newsletter.
 /registrazione/newsletter/*
@@ -6439,6 +6441,7 @@ _vpcookieconsent/
 ##.mailmunch-popover-content
 ##.mailmunch-scrollbox
 ##.mailpoet_form
+##.mailpoet_form_popup_overlay
 ##.main-footer__newsletter
 ##.mainbody-subscribe
 ##.markato-form-wrapper-tall
@@ -7262,6 +7265,7 @@ _vpcookieconsent/
 ##.widget_jnews_module_element_ads
 ##.widget_mailchimpsf_widget
 ##.widget_mailerlite_widget
+##.widget_mailpoet_form
 ##.widget_mc4wp_form_widget
 ##.widget_mwn_newsletter
 ##.widget_mymail_signup
@@ -43359,6 +43363,7 @@ motorsport.com##.ms-footer-messages
 motorsport.com##.ms-header-messages
 faapy.com##.msg
 firstsave.co.uk##.msgBox
+cablexpress.com##.mura-cta__container
 riot.im##.mx_MatrixToolbar
 ft.com##.n-messaging-slot
 biblio.co.uk,comfortclick.com##.navbar-fixed-bottom.navbar

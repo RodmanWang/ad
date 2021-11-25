@@ -208,6 +208,7 @@
 .ad.kakaocorp.com^
 .ad.kakao.com^
 !
+||mobi.yanosik.pl^
 ||videoads-cloud.rovio.com^
 ||vmap.v.ad-generation.jp^
 ||iyes.youku.com^
@@ -2551,6 +2552,9 @@ theinventory.com,avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,
 ! ##.ads
 cartoonpornvideos.com,m.economictimes.com,beethovenmaster.com,m.mistrzowie.org,m.ura.news,siirtpress.com,up.ymgt.xyz,google.de,www-bento-de.cdn.ampproject.org,m-economictimes-com.cdn.ampproject.org,m.winfuture.de##.ads
 !
+health.tvbs.com.tw##.ad_mo_top
+health.tvbs.com.tw##.fly_outbox
+mobil.dasoertliche.de##.tao-ad-wrapper-topics
 t-online.de##div[id^="ma_"]
 m.winfuture.de###main > div[align="center"]
 elespanol.com###sticky_container
@@ -4665,7 +4669,7 @@ tubedupe.com##iframe[src^="//tubedupe.com/banners/"]
 dnepr.info##.img-top-abs
 ||tubous.fuckandcdn.com/tubous/tubousstatic/ads/mobile/
 ||ahmestatic.fuckandcdn.com/ah-me/ahmestatic/mobile/ads/
-goodporn.to,ashemale.one,titsbox.com,m.sunporno.com,tubous.com,m.ah-me.com##.spot
+goodporn.to,ashemale.one,titsbox.com,tubous.com,m.ah-me.com##.spot
 m.tubewolf.com##.block-ads > b
 m.tubewolf.com##.block-ads > .banner
 m.milliyet.com.tr##div[id^="adv_"]
@@ -5454,6 +5458,8 @@ anwap.club,anwap.film,anwap.mobi##body > div[class] > a > strong
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/101150
+||startup.mobile.yandex.net^$app=ru.ria.ria
 ! https://github.com/AdguardTeam/AdguardFilters/issues/100543
 ||startup.mobile.yandex.net^$app=ru.babyk.android
 ! https://github.com/AdguardTeam/AdguardFilters/issues/99488
