@@ -7388,6 +7388,7 @@ okko.sport#?#div[class]:has(> div[class] > div[class]:contains(/^коэффиц�
 okko.sport#?#button:has(> span:contains(/^прогнозы$/))
 okko.sport##div[class]:has(> iframe[src^="https://clients-static.okko.tv/web/banners/winline/"])
 !
+motor.ru#?#h2[class$=" heading"]:contains(Новости партнёров)
 kinoafisha.info#?#.article_content > div[class]:has(> div[id^="notsy_container_"])
 dachnye-sovety.ru#?#main > h6:contains(/^РЕКОМЕНДУЕМ ПОЧИТАТЬ:$/)
 obozrevatel.com#?#.slider_track > article.newsImg:has(> div._ads_recreativ)
@@ -11883,6 +11884,7 @@ crazymailing.com,lotzon.pro,novosti-n.org,prokazan.ru,20minut.ua,alnews.com.ua,g
 !
 !
 !
+trashbox.ru###div_branding_ears
 telesputnik.ru##a[href="https://www.megabitus.com/"]
 letidor.ru##.zalipuha
 everwell.ru##.offers_row
