@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: QIk6MtiAAZEa6ykEf1EazA
-! Version: 202111260100
+! Checksum: 6BKr1K/kA1zpO/XRnWmEGg
+! Version: 202111261250
 ! Title: Fanboy's Annoyance List
-! Last modified: 2021-11-26 01:00 UTC
+! Last modified: 2021-11-26 12:50 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -21815,6 +21815,7 @@ _vpcookieconsent/
 ##div[class$="_share_this"]
 ##div[class$="_social_icons_widget"]
 ##div[class*="_share_tools_"]
+##div[class^="ArticleHeader__share_"]
 ##div[class^="ArticleShareLinks_"]
 ##div[class^="Component-followAp-"]
 ##div[class^="FooterSocialLinks"]
@@ -35074,6 +35075,7 @@ _vpcookieconsent/
 ||r42tag.com^$third-party
 ||rankdirectory.org^$third-party
 ||rating-widget.com^$third-party
+||rdstation.com.br^$third-party
 ||readability.com/embed.js$third-party
 ||realclearpolitics.com^*/widget_wrapper_$third-party
 ||recommendedbookies.co.uk^$third-party
@@ -37930,6 +37932,7 @@ geektime.com##.bottom
 chriskresser.com,stlucianewsonline.com,thedarewall.com##.bottom-bar
 game-debate.com##.bottom-fixed-bar
 livemint.com##.bottom-fixed-box
+alarabiya.net##.bottom-nav
 patient.co.uk##.bottom-nudge
 imdb.com##.bottom-rhs
 dailywire.com##.bottom-right
@@ -46806,6 +46809,7 @@ jusan.it###privacy-popup
 comitatoparalimpico.it,coni.it,federnuoto.it,federscherma.it,fibis.it,fise.it###privacy-wrapper
 pagomeno.it###privacyBanner
 cinquantamila.corriere.it,cinquantamila.it###privacy_advisor
+rds.it###rds-cookie-preferences
 samaritansonlus.org###sB_injected
 netbet.it###sec-banner-div
 malpensabusiness.it###showMessage
@@ -46915,6 +46919,7 @@ smtvsanmarino.sm##.privacy-top
 italradio.org##.privacyStatement
 idoctors.it##.privacy_bottom
 peer.tv##.rain1-cp-container
+rds.it##.rds-modal-popup
 casevacanza.it##.react-onclickoutside
 prelex.it##.rstboxes
 juzaphoto.com##.s_bluebox
