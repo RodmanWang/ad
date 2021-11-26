@@ -270,6 +270,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||delivery.satr.jp^$third-party
 ||i-cmg-amlg-prod.appspot.com^$third-party
 ||a.myfidevs.io^$third-party
 ||capture-api.autopilotapp.com^$third-party
@@ -4908,6 +4909,8 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||frog.yuanfudao.com^
+||clog*.yuanfudao.com^
 ||analytics.send.cm^
 ||s.union.360.cn^
 ||fclog.baidu.com^
@@ -19800,7 +19803,7 @@ _tracking.php?b=
 ! ||spiegel.de/static/sys/dimensionspixel.gif - breaks loading pictures on mobile
 !
 ! The site should be carefully checked when you add this rule
-||tags.tiqcdn.com/utag/*/prod/utag.js$domain=radissonhotels.com|post.ch|usnews.com|yemeksepeti.com
+||tags.tiqcdn.com/utag/*/prod/utag.js$domain=radissonhotels.com|post.ch|usnews.com|yemeksepeti.com|krymr.com
 !
 !
 ! TODO: replace `~domain.com` by exclusions after ext4.0 release
@@ -19826,6 +19829,7 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|partifabrik.com|newsmax.com
 !
+||akamaihd.net/log?
 ||op.szlcsc.com/getFloatAdvertising?callback=
 ||media*.marktjagd.com/*/1x1.gif
 ||middleware.marktjagd.de/proxy/trackings
@@ -23511,6 +23515,9 @@ $app=com.miui.analytics
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! cotizadorsalud.mapfre.com.mx - incorrect blocking
+! Example link - https://cotizadorsalud.mapfre.com.mx/quote-cart
+@@||googletagmanager.com/gtm.js$domain=cotizadorsalud.mapfre.com.mx
 ! https://github.com/AdguardTeam/AdguardFilters/issues/99983
 @@||wwa.wipe.de/wwa.js$domain=mobil.dasoertliche.de
 ! https://github.com/AdguardTeam/AdguardFilters/issues/100280
@@ -26423,7 +26430,7 @@ mozilla-russia.org#@#img[width="88"][height="31"]
 @@||ultimedia.com/js/common/jquery.gatracker.js
 @@||unifi.me/mootools/classes/*-tracking
 @@||ups.com/*/WebTracking/track&dcs
-@@||ups.com/WebTracking/$xmlhttprequest
+@@||ups.com/WebTracking/
 @@||urlcheck.hulu.com/crossdomain.xml
 @@||uverseonline.att.net/report/click_tracking_nes.json
 @@||v.me/personal/assets/ntpagetag-$script

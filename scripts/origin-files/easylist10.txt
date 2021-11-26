@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: j9QWFjEb9OeON39DEd/J0Q
-! Version: 202111251250
+! Checksum: QIk6MtiAAZEa6ykEf1EazA
+! Version: 202111260100
 ! Title: Fanboy's Annoyance List
-! Last modified: 2021-11-25 12:50 UTC
+! Last modified: 2021-11-26 01:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -6930,6 +6930,7 @@ _vpcookieconsent/
 ##.popupSubscribe
 ##.portlet--newsletter
 ##.portletSubscribeFormPortlet
+##.post-card--newsletter
 ##.post-newsletter
 ##.postSubscribeByEmail
 ##.pre-footer-email-signup
@@ -11597,6 +11598,7 @@ _vpcookieconsent/
 ##.SocialRow
 ##.SocialSection
 ##.SocialShare
+##.SocialShare-socialShare
 ##.SocialShares
 ##.SocialSharing
 ##.SocialSharingContainer
@@ -16772,6 +16774,7 @@ _vpcookieconsent/
 ##.post-footer-share
 ##.post-footer-social
 ##.post-footer__share
+##.post-full-content__social-footer
 ##.post-header-section-social
 ##.post-header_sharing-counter
 ##.post-header_social-row
@@ -34185,6 +34188,7 @@ _vpcookieconsent/
 ##.ug3-cookie-info-container
 ##.ui-cookie-blocked-page-cover
 ##.ui-cookie-blocked-warning-container
+##.ui-cookie-message
 ##.ui-cookie-notice
 ##.ui-cookie-policy
 ##.ui-cookie-tooltip
@@ -35205,6 +35209,8 @@ _vpcookieconsent/
 ||ziprecruiter.com/jobs-widget/$third-party
 ||zoomanalytics.co^$third-party
 ||zotabox.com^*/widgets.js$third-party
+! Newsletter
+||secondstreetapp.com/embed/$subdocument
 ! Youtube testing
 ||music.youtube.com^$csp=worker-src 'none'
 ||www.youtube.com^$csp=worker-src 'none'
@@ -39864,6 +39870,7 @@ pulselive.co.ke###signUpContainer
 campusreform.org###signUpForm
 chicagoreporter.com,washingtonmonthly.com###signup
 clarionproject.org###signup-0603
+ably.com###signup-alert
 247wallst.com###signupbar
 shareblue.com###signupnow
 shareblue.com###signupnowhome
@@ -40955,6 +40962,7 @@ bravotube.net,rt.com##.btn-up
 onlyfans.com##.btn_up
 hamodia.com##.btp
 getdroidtips.com##.btp-top
+qmul.ac.uk##.btt__inner
 gamestop.com##.bttbtn
 diplo.de##.c-top-link--default
 alarabiya.net,aurecongroup.com,boomlive.in,caltex.co.za,drivesouth.co.nz,gasoline-station.com,millenniumpost.in,pastebin.com,premierchristian.news,rti.org.tw,sammobile.com,secondnexus.com,shine.cn,suninternational.com,unifiedlayers.com,wifi.id##.cd-top
@@ -41579,6 +41587,7 @@ nationalgeographic.com##.Article__Footer
 nationalgeographic.com##.Article__Header__Share
 yahoo.com##.Btn-t
 comicbookmovie.com##.CBMFollow
+cnbc.com##.CNBCFooter-share
 alwaght.com##.FollowLinks
 rt.com##.Footer-telegram
 techimperia.com##.FooterLeft.paddingright0
@@ -42283,7 +42292,7 @@ myfitnesspal.com##.social_profile
 forbes.com,impactloud.com,technobuffalo.com,thehindu.com,thenextweb.com##.socialize
 bidorbuy.co.za##.socialnetwork
 tecmint.com##.socialprofiles
-xhamster.com##.socials
+instant-gaming.com,xhamster.com##.socials
 apnews.com##.socials-0-2-26
 asurascans.com##.socialts
 guernicamag.com##.socio3
@@ -43191,7 +43200,7 @@ forcepoint.com,geeksforgeeks.org##.cookie-consent
 7news.com.au##.cookie-consent--normal
 theatlantic.com##.cookie-disclaimer
 bitfeed.co##.cookiebanner
-21buttons.com,amnesty.org,aoc.com,asda.com,ashridge.org.uk,auto1.fi,auto10.com,belivehotels.com,chemistdirect.co.uk,cineworld.co.uk,coinbase.com,consumeraffairs.org.uk,crytek.com,custplace.com,dorotheum.com,dur.ac.uk,egyptair.com,eirsport.ie,enable-javascript.com,eurozine.com,feelunique.com,forsettlement.com,gartic.io,grandvision.com,graspop.be,guggenheim-bilbao.eus,hmv.com,hotel-spider.com,hse.ru,inagrm.com,indepth.dev,luxottica.com,mabanque.bnpparibas,macpaw.com,mailjet.com,mannheimerswartling.se,medela.co.uk,media-sense.com,mindshareworld.com,mindswarms.com,nedbank.co.za,ostrog.com,perfumesclub.co.uk,perfumesclub.com,pics.io,pjon.org,playgwent.com,proton.com,proxyparts.com,radeon-pro.github.io,renaultbryanston.co.za,renaultfourways.co.za,royalparks.org.uk,rusvpn.com,scamner.com,sharafdg.com,stuttafordvanlines.co.za,tescomobile.ie,testeri.fi,thenottingham.com,threadreaderapp.com,topographic-map.com,twinings.co.uk,ukcisa.org.uk,ukmail.com,umicore.com,unian.info,unknownphone.com,uptodown.com,urtekram.com,vizologi.com,volvocars.com,warhammerchampions.com,wilko.com,winamp.com,wizards.com##.cookies
+21buttons.com,amnesty.org,aoc.com,asda.com,ashridge.org.uk,auto1.fi,auto10.com,belivehotels.com,chemistdirect.co.uk,cineworld.co.uk,coinbase.com,consumeraffairs.org.uk,crytek.com,custplace.com,dorotheum.com,dur.ac.uk,egyptair.com,eirsport.ie,enable-javascript.com,eurozine.com,feelunique.com,forsettlement.com,gartic.io,grandvision.com,graspop.be,guggenheim-bilbao.eus,hmv.com,hotel-spider.com,hse.ru,huntshowdown.com,inagrm.com,indepth.dev,luxottica.com,mabanque.bnpparibas,macpaw.com,mailjet.com,mannheimerswartling.se,medela.co.uk,media-sense.com,mindshareworld.com,mindswarms.com,nedbank.co.za,ostrog.com,perfumesclub.co.uk,perfumesclub.com,pics.io,pjon.org,playgwent.com,proton.com,proxyparts.com,radeon-pro.github.io,renaultbryanston.co.za,renaultfourways.co.za,royalparks.org.uk,rusvpn.com,scamner.com,sharafdg.com,stuttafordvanlines.co.za,tescomobile.ie,testeri.fi,thenottingham.com,threadreaderapp.com,topographic-map.com,twinings.co.uk,ukcisa.org.uk,ukmail.com,umicore.com,unian.info,unknownphone.com,uptodown.com,urtekram.com,vizologi.com,volvocars.com,warhammerchampions.com,wilko.com,winamp.com,wizards.com##.cookies
 austrian.com,austrianairlines.ag,austriantechnik.at##.cop
 semanticscholar.org##.copyright-banner
 bandcamp.com##.corp-banners
@@ -43586,6 +43595,7 @@ wizards.com##.wiz-block-sticky-inline
 theweathernetwork.com##.woahbar
 fubo.tv##.wrapper
 xvideos.com##.x-message
+eneba.com##.xIPhuO
 dideo.ir##.youtube-terms-banner
 youtube.com##.yt-consent
 yahoo.com##.yucs-eprivacy
@@ -49133,6 +49143,7 @@ yoigo.com#@#thor-cookies
 @@||dropboxstatic.com/static/compiled/js/$script,domain=dropbox.com
 @@||dropboxstatic.com/static/js/modules/clean/$script,domain=dropbox.com
 @@||dropboxstatic.com^$stylesheet,domain=dropbox.com
+@@||dropboxstatic.com^*/share_button.$domain=dropbox.com
 @@||dropboxstatic.com^*/share_link_$script,domain=dropbox.com
 @@||dsreps.com/js/social-icons-bio.js?
 @@||duckduckgo.com/assets/icons/favicons/youtube.png
