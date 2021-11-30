@@ -203,6 +203,7 @@ donnerwetter.de#?#.col-xs-12 > div.block.prepend-top[-ext-has='> div.blocktitle-
 hdreactor.club,hdreactor.su,hdreactor.tv,hdreactor.net#?#.sidebar > div.menu-wrap > div.menu-head:contains(Счетчики)
 hdreactor.club,hdreactor.su,hdreactor.tv,hdreactor.net#?#.sidebar > div.menu-wrap > div.menu-head:contains(Счетчики) + div.menu-head1
 !
+qiita.com#?#div[class^="css"] > div > div[id^="logly-"]:upward(2)
 m.crank-in.net#?#div[id^="_popIn_trend_ranking"]:upward(1)
 business.nikkei.com#?#.l-content_footer.recommendesInfomation:contains(あなたにオススメ)
 fatcatslim.ru#?#.sidebar > div.widget:has(> div > a[href$="liveinternet.ru/click"])
@@ -3305,7 +3306,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||tagsrvcs.com^$third-party
 ||tagtray.com^$third-party
 ||tailtarget.com^$third-party
-||tamedia.ch^$third-party
 ||tanx.com^$third-party
 ||tapfiliate.com^$third-party
 ||taps.io^$third-party
@@ -23646,6 +23646,8 @@ $app=com.miui.analytics
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! https://www.reddit.com/r/uBlockOrigin/comments/r4z0zj/how_to_unblock_elements_tweets_blocked_by_jsnofloc/
+@@||googletagmanager.com/gtm.js$script,domain=insideevs.com
 ! https://github.com/uBlockOrigin/uAssets/issues/10629
 ||cxense.com/cx.js$script,redirect=noopjs,domain=nlab.itmedia.co.jp,important
 @@||cxense.com/cx.js$domain=nlab.itmedia.co.jp
