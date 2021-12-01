@@ -352,6 +352,8 @@
 ! These rules are against all kinds of ad blocking reinjection/circumvention scripts
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/101672
+freedidi.com#@#.adsBanner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/98258
 @@||slit.cn/source/plugin/unadblock/*.js
 slit.cn#%#//scriptlet("abort-current-inline-script", "alert", "typeof(ad)")
@@ -810,6 +812,8 @@ nfmovies.com#$?#body > .hidden-xs > div[id]:has(> img[src^="/static/"][onclick*=
 nfmovies.com#$?#div[id^="aaaDiv"] { remove: true; }
 !
 !
+cw.com.tw#?#.adActive > div[class^="leaflet"]:has(> div[id^="div-gpt-ad"])
+cw.com.tw#?#.adActive > .list-link:has(> ul > li > div[id^="div-gpt-ad"])
 breathofthewild-link.com#?#div[id^="cc-matrix-"] > div.j-htmlCode:has(> ins.adsbygoogle)
 ddl826.pixnet.net#?#.article-body > div.forward ~ div[style^="position:"][style*="important"]
 koding.work#?#.sidebar > .widget_text:has(> .textwidget > .adsbygoogle)
@@ -1084,6 +1088,9 @@ $script,xmlhttprequest,third-party,domain=00ksw.com|01zww.com|0biquge.com|114zw.
 !
 !
 !
+freedidi.com##.sidebar-content > div[id^="custom_html-"]
+cw.com.tw##.banner
+cw.com.tw##.cw__advertising
 18comic.vip##.bot-per > *
 ||jmcomic1.cc/iframe_v*?type=exo&idzone=
 dianyingim.com##iframe[src="/buffer.html"]
@@ -3654,7 +3661,6 @@ ubmcmm.baidustatic.com
 ##a[href*=".bayiyy.com/download."]
 ##a[href*=".betbar168.net"]
 ##a[href*=".birthcaker.cn"]
-##a[href*=".biwbmsyt.cn"]
 ##a[href*=".c43066a9.com"]
 ##a[href*=".cangpie.com/"]
 ##a[href*=".caohang.com.cn/"]
@@ -3703,14 +3709,12 @@ ubmcmm.baidustatic.com
 ##a[href*=".tduou.com/"]
 ##a[href*=".tea123.me"]
 ##a[href*=".thejierou.net"]
-##a[href*=".tnelb.xyz/"]
 ##a[href*=".ttz5.cn"]
 ##a[href*=".tudown.com/"]
 ##a[href*=".wenpie.com/"]
 ##a[href*=".wensixuetang.com/"]
 ##a[href*=".wjLkj.com/"]
 ##a[href*=".xingxingdm.com:"]
-##a[href*=".xjspa.in/"]
 ##a[href*=".xlddz.net/"]
 ##a[href*=".xlgqy.com/"]
 ##a[href*=".xrzzk.com/"]
@@ -19045,6 +19049,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels
 ||uqjflmw.cn^
 ||51teach.club^
+||czxym168.cn^
+||manggo.fun^
+||bt-xd.com^
+||sanyoon.cn^
+||ychbgss.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -22873,7 +22882,7 @@ fqsousou.com,kengso.com#@#.user-share
 @@||tmall.com/add?
 @@||tracklog.58.com/referrer$~third-party
 @@||udn.com/mall/images/spacer.gif?
-@@||viu.com^*/tracking/tracking.js
+@@||viu.com^*/tracking/
 @@||wl.jd.com/joya.js
 @@||wl.jd.com/wl.js
 @@||yimg.com/ss/rapid3.js$domain=style.yahoo.com.tw|tw.answers.yahoo.com

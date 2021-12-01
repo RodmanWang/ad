@@ -77,6 +77,9 @@
 ! https://www.eff.org/deeplinks/2021/03/googles-floc-terrible-idea
 #%#//scriptlet('set-constant', 'Document.prototype.interestCohort', 'undefined')
 !
+! cw.com.tw - incorrect blocking - fixing video player (at the bottom)
+! Example link - https://www.cw.com.tw/article/5119022
+cw.com.tw#%#//scriptlet("set-constant", "qg", "noopFunc")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/98801
 yemeksepeti.com#%#//scriptlet("set-constant", "optimizely.get", "noopFunc")
 ! https://github.com/AdguardTeam/Scriptlets/issues/160
@@ -271,6 +274,10 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||more-data.ru^$third-party
+||f-log-editor.grammarly.io^
+||gnar-grammarly-com^
+||cdn.sophi.io^$third-party
 ||vought.removeads.workers.dev^
 ||clickiocdn.com^$third-party
 ||delivery.satr.jp^$third-party
@@ -4911,6 +4918,9 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||log.polarisoffice.com^
+||logconfig.polarisoffice.com^
+||t.n.mcdonalds.de^
 ||ploz.mangadex.org^
 ||cm.bilibili.com^
 ||pix2.services.tvn.pl^
@@ -19492,6 +19502,7 @@ charlestownwyllie.oaklawnnonantum.com^
 !+ NOT_OPTIMIZED
 /.well-known/private-click-measurement
 !
+/com.snowplowanalytics.$domain=~snowplowanalytics.com
 .com.br/tracking.set^|
 .com.br/cliente/trackRemote^|
 ! jentis.com tracker
@@ -19948,6 +19959,7 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|partifabrik.com|newsmax.com
 !
+||grammarly.com/api/tracking/
 ||googletagmanager.com/gtm/
 ||static.vocstatic.com/tag-manager/latest/vtm.js
 ||bilibili.com/x/frontend/finger/fpfmc?
@@ -22947,7 +22959,6 @@ $app=com.miui.analytics
 ||tracker.mtrtb.com^
 ||tracking.ws.eurosport.com^
 ||tracker.rqmob.com^
-||logconfig.polarisoffice.com
 ||analysis.polarisoffice.com
 ||stream.shuzilm.cn/report
 ||daa.shuzilm.cn/report
@@ -23029,6 +23040,10 @@ $app=com.miui.analytics
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
 !
+||msga.cupid.iqiyi.com^
+||ndct-data.video.iqiyi.com^
+||ibd-as-api.iq.com^
+||data.mistat.intl.xiaomi.com^
 ||statclick.nate.com^
 ||aff-report.lbesecapi.com^
 ||aff-policy.lbesecapi.com^
@@ -23648,6 +23663,10 @@ $app=com.miui.analytics
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! cw.com.tw - incorrect blocking - fixing video player (at the bottom)
+! Example link - https://www.cw.com.tw/article/5119022
+!+ PLATFORM(ios, ext_android_cb)
+@@||cdn.qgraph.io/dist/aiqua-wp.js$domain=cw.com.tw
 ! https://www.reddit.com/r/uBlockOrigin/comments/r4z0zj/how_to_unblock_elements_tweets_blocked_by_jsnofloc/
 @@||googletagmanager.com/gtm.js$script,domain=insideevs.com
 ! https://github.com/uBlockOrigin/uAssets/issues/10629
@@ -24937,9 +24956,16 @@ ciokorea.com,adpiamall.com,live.joins.com,naver.com,jbe.go.kr#%#//scriptlet('set
 ! https://github.com/AdguardTeam/AdguardFilters/issues/46437
 !+ PLATFORM(ext_safari, ios)
 @@||wfpscripts.webspectator.com/bootstrap/$script,domain=gpfans.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/101200
 ! https://github.com/AdguardTeam/AdguardFilters/issues/46273
-@@||gapl.hit.gemius.pl/gplayer.js$domain=player.antyradio.pl
-@@||hit.gemius.pl/*gemius.js$domain=player.antyradio.pl
+!#if (adguard_app_windows || adguard_app_mac || adguard_app_android)
+||gemius.pl/gstream.js$script,redirect=noopjs,domain=player.antyradio.pl|player.radiozet.pl|player.chillizet.pl|player.meloradio.pl
+||gapl.hit.gemius.pl/gplayer.js$script,redirect=noopjs,domain=player.antyradio.pl|player.radiozet.pl|player.chillizet.pl|player.meloradio.pl
+!#endif
+!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android)
+@@||gemius.pl/gstream.js$domain=player.antyradio.pl|player.radiozet.pl|player.chillizet.pl|player.meloradio.pl
+@@||gapl.hit.gemius.pl/gplayer.js$domain=player.antyradio.pl|player.radiozet.pl|player.chillizet.pl|player.meloradio.pl
+!#endif
 ! https://github.com/AdguardTeam/AdguardFilters/issues/46563
 @@||google-analytics.com/analytics.js$domain=dmax.com.tr
 @@||googletagmanager.com/gtm.js^$domain=dmax.com.tr
@@ -26769,7 +26795,6 @@ mozilla-russia.org#@#img[width="88"][height="31"]
 ! Latvian
 @@/webtracking/*$domain=pasts.lv
 ! Polish
-@@||gemius.pl/gstream.js
 @@||kropka.onet.pl^*/onet.js$domain=tvnwarszawa.pl
 @@||tablica.pl^*/xtcore.js
 ! Portuguese
