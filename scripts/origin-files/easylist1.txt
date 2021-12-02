@@ -5434,7 +5434,7 @@ nethunt.com/api/v1/track/email/$image
 ||counter.pixplug.in^
 ||analytics.webgains.io^
 ||candac.iridion.de^
-||cunda.prudsys-rde.de^
+||prudsys-rde.de^
 ||tr.junaroad.com^
 ||tracker.shopclues.com^
 ||beacon.itmedia.jp^
@@ -19945,7 +19945,7 @@ _tracking.php?b=
 ! https://github.com/AdguardTeam/Scriptlets/issues/160 - simon.com
 ! https://www.reddit.com/r/uBlockOrigin/comments/pyfove/ublock_origin_breaks_corsairs_website_when_using/ (Firefox)
 ||googletagmanager.com/gtm.js?$third-party,script,redirect=googletagmanager-gtm,domain=~corsair.com|~olx.*|~simon.com
-||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices-gpt
+||googletagservices.com/tag/js/gpt.js$xmlhttprequest,script,redirect=googletagservices-gpt
 ! fix https://golf.com/news/tour-confidential-match-play-concession-augusta-womens-am/
 ||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices-gpt,domain=~golf.com
 !
@@ -19959,6 +19959,7 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|partifabrik.com|newsmax.com
 !
+||dspnow.ru/beacon/
 ||grammarly.com/api/tracking/
 ||googletagmanager.com/gtm/
 ||static.vocstatic.com/tag-manager/latest/vtm.js
