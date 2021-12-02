@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 73DS3cnO07A8kwQbYeC6WA
-! Version: 202112020100
+! Checksum: airlfOCnmoL9iKNVIFe5Yg
+! Version: 202112021250
 ! Title: Fanboy's Annoyance List
-! Last modified: 2021-12-02 01:00 UTC
+! Last modified: 2021-12-02 12:50 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -35569,6 +35569,7 @@ _vpcookieconsent/
 ||networkedblogs.com^$third-party
 ||newsharecounts.com^$third-party
 ||opensharecount.com^$third-party
+||patreon.com/becomePatronButton.bundle.js$third-party
 ||pepper.com^$third-party
 ||pinterest.com/images/$third-party
 ||pinterest.com/js/pinit_main.js$third-party
@@ -42972,6 +42973,7 @@ nbcnews.com###overaly_dy_message
 jukegames.com,n-mobile.net###overbox3
 testmy.net###overlay
 allestoringen.be,allestoringen.nl,aussieoutages.com,canadianoutages.com,downdetctor.cl,downdetector.ae,downdetector.ca,downdetector.co.nz,downdetector.co.uk,downdetector.co.za,downdetector.com,downdetector.com.ar,downdetector.com.br,downdetector.dk,downdetector.es,downdetector.fi,downdetector.fr,downdetector.hk,downdetector.ie,downdetector.in,downdetector.it,downdetector.jp,downdetector.mx,downdetector.no,downdetector.pl,downdetector.pt,downdetector.ru,downdetector.se,downdetector.sg,downdetector.web.tr,xn--allestrungen-9ib.at,xn--allestrungen-9ib.ch,xn--allestrungen-9ib.de###overlay.container
+blacklibrary.com###overlayMask
 belkin.com###pagebanner
 pdfescape.com###pdfe_cmp
 themilitarystore.co.uk###pixelpop
@@ -43452,6 +43454,7 @@ castrol.com##.nv-notification-header
 decider.com,nypost.com,pagesix.com##.nyp-sitewide-notice
 norma-ammunition.com##.on-screen-messages
 suncorp.com.au##.one-pixel-margin-bottom.sg-Box
+girlfriend.com##.opacity-100.translate-y-0
 wpengine.com##.opt-in-modal
 origin.com##.origin-sitestripe
 cbsnews.com##.ot-fade-in
