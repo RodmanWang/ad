@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 4Wr4kQITzVEwKN7E7mSVFQ
-! Version: 202112030100
+! Checksum: pwwYIlN3laulwBfr+GpE7Q
+! Version: 202112031250
 ! Title: Fanboy's Annoyance List
-! Last modified: 2021-12-03 01:00 UTC
+! Last modified: 2021-12-03 12:50 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -727,7 +727,7 @@ _site/gotop.
 /imports/notifications.
 /inpl.webpush.
 /jquery-notification.
-/modules/notifications.
+/modules/notifications.$domain=~forum.vivaldi.net
 /mp-web-notification.
 /multi-desktop-notification.
 /myPushDc.
@@ -3805,7 +3805,7 @@ _youtube_social_
 /cookie-check.js
 /cookie-choices.
 /cookie-compliance.
-/cookie-consent-
+/cookie-consent-$domain=~github.com|~gitlab.com
 /cookie-consent.
 /cookie-consent/*
 /cookie-consent?
@@ -39554,6 +39554,7 @@ themarkup.org##.js-promotion
 time.com##.magazine-outer
 atlasobscura.com##.membership-creative
 euobserver.com##.membership-upsell
+monkeytype.com##.merchBanner
 finecooking.com##.meter-bar
 propublica.org##.module-donate
 last.fm##.mpu-subscription-upsell
