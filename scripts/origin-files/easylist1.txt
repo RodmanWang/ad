@@ -246,6 +246,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !
 ! The list of bug-tracker services(Sentry, etc.)
 ! Add as commented rules. Will be used in additional list and/or strict DNS
+! ||api.loganalytics.io^
 ! ||crashlyticsreports-pa.googleapis.com^
 ! ||e.crashlytics.com^
 ! ||settings.crashlytics.com^
@@ -23036,6 +23037,8 @@ $app=com.miui.analytics
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
 !
+||uts-front.line-apps.com^
+||nelo2-col.linecorp.com^
 ||msga.cupid.iqiyi.com^
 ||ndct-data.video.iqiyi.com^
 ||ibd-as-api.iq.com^
@@ -24463,8 +24466,6 @@ nnmclub.ro,nnm-club.t0r.xyz,nnm-club-me.appspot.com,nnm-club.lib,nnm-club.me,nnm
 ||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices-gpt,domain=straitstimes.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/64772
 @@||cdn.optimizely.com/js/*.js$domain=ruggable.com
-! lk.gosuslugi.ru - fixed a click on columns in the top
-@@||mc.yandex.ru/metrika/tag.js$domain=lk.gosuslugi.ru
 ! https://forum.adguard.com/index.php?threads/piano-io-tinypass-com.39875/
 @@||googletagmanager.com/gtm.js$domain=thecompanion.app
 ! https://github.com/AdguardTeam/AdguardFilters/issues/79410
@@ -24891,9 +24892,6 @@ ciokorea.com,adpiamall.com,live.joins.com,naver.com,jbe.go.kr#%#//scriptlet('set
 @@/track?*&ref=$~script,~xmlhttprequest,~other,~image
 @@/track_click?$~script,~xmlhttprequest,~other,~image
 !#endif
-! https://github.com/AdguardTeam/AdguardFilters/issues/48215
-@@||google-analytics.com/gtm/js?id=$domain=15min.lt
-@@||google-analytics.com/analytics.js$domain=15min.lt
 ! https://github.com/AdguardTeam/AdguardFilters/issues/48066
 @@||t2.hulu.com/*/adinteraction^$domain=player.hulu.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/48010

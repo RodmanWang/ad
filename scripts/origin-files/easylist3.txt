@@ -333,6 +333,7 @@ lj_bookmarklet
 !
 ! Extended CSS rules
 !
+adme.ru#?#amp-social-share:upward(1)
 gotovim-doma.ru#?#h3:contains(/^Поделись рецептом/)
 ren.tv#?#div[class^="Footer_"] > div[class*="BtnGrpShort_"]:has(> div > div[class^="YShare_"])
 boredteachers.com#?#main > div.py-8:has(> div.flex > a.share-network-facebook)
@@ -1308,6 +1309,11 @@ archives.gov,sportnews.to,nationalchronicle.in,analogictips.com,linearmotiontips
 ! ##.sns_area
 sedaily.com,canshop.jp,koreatimes.co.kr,m.chosun.com,sports.donga.com##.sns_area
 !
+mobile.mi.com##.product-information__share
+blog.fc2.com##ul.entry-footer-sns-ul
+j-town.net##.entry-contents_share-list > a#facebook
+j-town.net##.ft-share-button
+sobesednik.ru##div[class="mb-5 flex flex-col items-center border p-5"]
 streamdb0web.securenetsystems.net##.songShareLink[onclick^="shareApp"]
 khabaronline.ir##.item-sharing
 tvinfo.de##.sn
@@ -2386,7 +2392,7 @@ babyclub.de##.social-links-container
 censor.net##.footer_theme
 diy.obi.ru##.rating-section-share
 chiepedia.club,geek.sc##.fab-btn
-mhr-movie.com,proof0309.com,flatdmkobo.com,anime-torrent.com,trovivo.com,makuring.com,appl-y.com,taisy0.com,chiepedia.club,geek.sc##.sns-btn
+cinema-sketch.com,mhr-movie.com,proof0309.com,flatdmkobo.com,anime-torrent.com,trovivo.com,makuring.com,appl-y.com,taisy0.com,chiepedia.club,geek.sc##.sns-btn
 edaily.co.kr##.reporter_sns
 badische-zeitung.de,amuelle.jp##.social-button
 yle.fi##div[class^="ShareControls__"]
@@ -8210,7 +8216,7 @@ m.dailian.co.kr##.responsive_col1 > .h3_area:nth-child(3)
 m.ebn.co.kr##.list_4 > .top_box
 m.edaily.co.kr##.social-login
 m.g-enews.com##.v_btns_rt
-topgate.co.jp,m.gobalnews.com##.sns-list
+nta.co.jp,topgate.co.jp,m.gobalnews.com##.sns-list
 m.joseilbo.com##.sns_icon_set
 m.kmib.co.kr##.article_sns
 m.newspim.com##.snslink
