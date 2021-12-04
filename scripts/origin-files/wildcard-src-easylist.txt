@@ -90,11 +90,9 @@
 ||geoloc*.geo20120530.com^
 ||geoloc*.geostats.ovh^
 ||geoloc*.geovisite.ovh^
-||gmx.*^$removeparam=mc
 ||gonews*.net^$third-party
 ||gscounters.*.gigya.com^$third-party
 ||h*.adscope.co.kr^
-||hog.*^$removeparam=ad
 ||host*.carl-ras.dk^
 ||host*.ncoi.nl^
 ||host*.nti.nl^
@@ -124,8 +122,6 @@
 ||log*.interactive-circle.jp^
 ||logger-*.dailymotion.com^
 ||logs*.smithsonian.museum^$third-party
-||lotto.gmx.*^$removeparam=advertisementId
-||lotto.gmx.*^$removeparam=partnerId
 ||lt*.tritondigital.com^
 ||lts*.qq.com^*.ts?index=$media,redirect=noopmp3-0.1s,domain=qq.com
 ||marketplace-*.hyprmx.com^
@@ -147,7 +143,6 @@
 ||pixelapi-*.cs.mysamba.tv^
 ||pl*.puhtml.com^
 ||play*.videos.vidto.me^
-||play.google.*^$removeparam=referrer
 ||po*.877zw.com^
 ||policy*.cookieinformation.com^$third-party
 ||popup*.lifterapps.com^$domain=linuxandubuntu.com
@@ -168,7 +163,6 @@
 ||sam*.baby-kingdom.com^
 ||same*.stockstar.com^
 ||sdk.*.braze.com^$third-party
-||shopping.gmx.*^$removeparam=origin
 ||siteintercept*.qualtrics.com^$third-party
 ||snowplow-collector-*.amazonaws.com^$third-party
 ||sock*-goguardian.pusher.com^
