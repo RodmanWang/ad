@@ -1012,7 +1012,7 @@ xn--b1aew.xn--p1ai#?#.ln-content-holder > div:has(> div[class] > table td.social
 ! https://github.com/AdguardTeam/AdguardFilters/issues/44288
 simplywall.st#?#div[data-cy-id="modal-ModalPortal-0-"]:not(:has(svg[data-cy-id="close-button"]))
 ! https://github.com/AdguardTeam/AdguardFilters/issues/61845#issuecomment-683684767
-towardsdatascience.com,timeline.com,netflixtechblog.com,medium.com#?#div[style*="position: absolute;"][style*="transform: translate"] button > svg[width="25"][height="25"][viewBox="0 0 25 25"] > path[d^="M22."]:not([fill-rule]):upward(1)
+codeburst.io,towardsdatascience.com,timeline.com,netflixtechblog.com,medium.com#?#div[style*="position: absolute;"][style*="transform: translate"] button > svg[width="25"][height="25"][viewBox="0 0 25 25"] > path[d^="M22."]:not([fill-rule]):upward(1)
 !
 gog.com#?#div[gog-hide-by-window-name="galaxy_order_popup"] > div[gog-dropdown]:contains(share)
 gog.com#?#div[gog-hide-by-window-name="galaxy_order_popup"] > div[gog-dropdown]:contains(share) + span.order-message__separator
@@ -1309,6 +1309,12 @@ archives.gov,sportnews.to,nationalchronicle.in,analogictips.com,linearmotiontips
 ! ##.sns_area
 sedaily.com,canshop.jp,koreatimes.co.kr,m.chosun.com,sports.donga.com##.sns_area
 !
+slivy.news##.cs-entry__after-share-buttons
+rockmods.net##.share-spring
+wilsoncenter.org##.selection-sharer
+momenty.org##app-share-social-buttons
+plusstyle.jp###float_btn
+theasianschool.net###sab-single-sshare
 mobile.mi.com##.product-information__share
 blog.fc2.com##ul.entry-footer-sns-ul
 j-town.net##.entry-contents_share-list > a#facebook
@@ -2178,7 +2184,6 @@ wonderzine.com##.hype-panel > h6
 news247.gr##.article-body > span[style="position:relative;top: 46px;font-weight: normal;color: #215b87;font-size: 18px;width: 80px;"]
 sportliga.com##.share-with
 filmhafizasi.com##.share-float
-leverageedu.com,macmagazine.com.br,freetutorialonline.com,hightimes.com##.pk-share-buttons-wrap
 codegena.com,macmagazine.com.br,hightimes.com##.cs-entry__after-share-buttons
 genk.vn##.kmnw-content
 free-mobi.org##.fm-share
@@ -3101,7 +3106,7 @@ commentcamarche.net,linternaute.com##.app_share_mod
 noticiasaominuto.com,noticiasaominuto.com.br##.news-social-bottom
 eroskosmos.org##div[class="sidebar"][style="height: 395px"]
 tolknews.ru##a[class^="ya-share"]
-primegaming.blog,vocal.media,embed.acast.com,netflixtechblog.com,medium.com,timeline.com,windscribe.com,towardsdatascience.com##button[aria-label^="Share on"]
+codeburst.io,primegaming.blog,vocal.media,embed.acast.com,netflixtechblog.com,medium.com,timeline.com,windscribe.com,towardsdatascience.com##button[aria-label^="Share on"]
 masterofmalt.com###SocialShareContainer
 segnidalcielo.it##.bottom-entry-post-share
 ipb-board.ru##li[data-blocktitle="Рассказать о форуме"]
@@ -5368,7 +5373,7 @@ travel.spot-app.jp##.post-meta.bottom > .loop-share-num > [class^="bg-"]
 hollywoodreporter.com##.social-container > .js-pgm-social-share
 yugioh.com###sidebar > .facebook-block
 ameblo.jp##._1JtRssPb
-pokemongo-get.com,genda-yousuke.com,naoki440.info,npolaris.net,pasokatu.com,toolmania.info,gamegaz.com,nobitaka.com,mutyun.com,9ketsuki.info##.sns-buttons
+otakaranet.com,pokemongo-get.com,genda-yousuke.com,naoki440.info,npolaris.net,pasokatu.com,toolmania.info,gamegaz.com,nobitaka.com,mutyun.com,9ketsuki.info##.sns-buttons
 islandpacket.com##.share-tools-wrapper
 itmedia.co.jp##.wrap_social_big
 itmedia.co.jp###masterSocialbuttonTop
@@ -6884,7 +6889,7 @@ vancouverok.com###socialWidgetPopup
 euronews.com##.bottom-meta--share
 euronews.com##.article__social--links
 yourporn.sexy##.blog_post_share
-tv8.it,regionalwolfenbuettel.de,regionalgoslar.de,regionalwolfsburg.de,regionalbraunschweig.de##.shareicon
+firstpost.com,tv8.it,regionalwolfenbuettel.de,regionalgoslar.de,regionalwolfsburg.de,regionalbraunschweig.de##.shareicon
 itop-gear.ru###socblock
 pcwelt.de##.socialMedia
 xsport.ua##.social-sharer-holder
@@ -8411,6 +8416,7 @@ betanews.com##.social-links-wrap
 ! hide share button in youtube player
 ##.ytp-share-button
 !
+##.pk-share-buttons-wrap
 ##.mh-social-nav
 ##a[href^="https://www.facebook.com/v2.8/dialog/share?"]
 ~twitter.com##a[href^="https://www.twitter.com/intent/tweet?"]
