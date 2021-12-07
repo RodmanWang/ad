@@ -1005,6 +1005,9 @@ bookdl.org#?#div[style$="width:320px;height:235px;"][-ext-has='div.fb-like-box']
 bookdl.org#?#div[style*="width: 320px; height: 235px;"][-ext-has='div.fb-like-box']
 golem.de#?#li[class="text1"][-ext-has='div[class$="social-bar social-sidebar"]']
 turkanime.tv#?#td[valign="top"][style="padding-left:10px; padding-top:10px; padding-right:5px;"] div[-ext-has='span.ui-blok-title:contains(FACEBOOK)']
+! https://github.com/AdguardTeam/AdguardFilters/issues/100320
+plainenglish.io,betterprogramming.pub#?#span[tabindex] ~ div:not([class]) > div[class] > div[class] > div[class]:has(> div:not([class]) > span:not([class]) > a[href^="https://medium.com/m/signin?actionUrl="]) ~ [class]
+plainenglish.io,betterprogramming.pub#?#span[tabindex] ~ div:not([class]) > div[class] > div[class]:has(> div[class] a[href^="https://medium.com/m/signin?actionUrl="] > svg) ~ div[class]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/94773
 geeksgod.com#?#.elementor-widget-wrap > .elementor-element:has(> div[class] h2[class]:contains(Join our groups))
 geeksgod.com#?#.elementor-widget-wrap > .elementor-element:has(> div[class] h2[class]:contains(Join our groups)) + [class]
@@ -1312,6 +1315,8 @@ archives.gov,sportnews.to,nationalchronicle.in,analogictips.com,linearmotiontips
 ! ##.sns_area
 sedaily.com,canshop.jp,koreatimes.co.kr,m.chosun.com,sports.donga.com##.sns_area
 !
+topics.nintendo.co.jp##.topics-snsBts
+testim.io,newzit.com##div[class^="share"]
 upwork.com##.social-links-wrap-refresh
 thelogicalindian.com##.ind-social-wrapper
 jpost.com##.article-subline-share
@@ -1338,7 +1343,7 @@ j-town.net##.ft-share-button
 sobesednik.ru##div[class="mb-5 flex flex-col items-center border p-5"]
 cooltechzone.com##.field-name-ds-share
 streamdb0web.securenetsystems.net##.songShareLink[onclick^="shareApp"]
-khabaronline.ir##.item-sharing
+isna.ir,khabaronline.ir##.item-sharing
 tvinfo.de##.sn
 superuser.com##.js-social-container
 ren.tv##.news-delimiter.nomarginbottom
@@ -1438,7 +1443,7 @@ milliyet.com.tr##.social-bar-v2
 milliyet.com.tr##ul[data-hj-share-title]
 lab.syncer.jp##.sb1
 magesypro.com##div[data-wpusb-component="buttons-section"]
-fanclove.jp##.sns-area
+biglobe.ne.jp,fanclove.jp##.sns-area
 kamigame.jp##.share-base
 cronista.com##.share > ul > li:not(.comments)
 texterra.ru##.article-info-old__share
@@ -1447,6 +1452,7 @@ puppet.com##.pm-social--share
 addressadda.com##.showshare
 clarin.com##.entry-head > div.content-top
 m.hvg.hu##.article-share_badges
+xi.express##span[class*="Footer_share__"]
 nhk.or.jp##.share-fixed
 nhk.or.jp##.nhk-snsbtn
 beskidlive.pl##.bw-social-share
@@ -1753,7 +1759,6 @@ newsd.in##.followusgoogle
 animationxpress.com##.widget_simple_facebook_page_feed_widget
 testsigma.com##.share_blog
 maximuzz.ru##.full-track__share
-newzit.com##div[class^="share"]
 mel.fm##.share-button__link
 typepad.com##.entry-footer-share
 typepad.com###twitter

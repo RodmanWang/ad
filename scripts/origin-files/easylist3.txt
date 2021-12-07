@@ -2401,6 +2401,8 @@ laroche-posay.pl##.obj_onglets_fix .youtube
 thediplomat.com###td-share-bar
 einthusan.tv###social-wrapper
 einthusan.tv#$##social-wrapper { position: absolute!important; left: -3000px!important; }
+xi.express##span[class*="Footer_like__"]
+xi.express##span[class*="Footer_dislike__"]
 trthaber.com##.insta
 trthaber.com##.app-buttons-container
 trthaber.com##.social-icons-container-ftr
@@ -7581,6 +7583,8 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 !
 !
 !
+account.xiaomi.com##.mi-cookie-banner
+account.xiaomi.com##div[class^="Mui-src-portals-mobile-components-CookieBanner-"]
 kitbag.com##.cookie-consent-container-v2
 it-szkola.edu.pl##.md-cookie-blocker
 dalmatinskiportal.hr##.accept-cookies-modal
@@ -11600,7 +11604,7 @@ icq.com##.ca_wrap
 xing.com##.consent_wrapper
 xing.com##div[class^="cookie-consent-CookieConsent-container-"]
 wibc.com###ed-tos-bubble
-newsnation.in###gdprbx
+herzindagi.com,newsnation.in###gdprbx
 uhrzeit.org###cookieContraption
 shopdisney.de#$##disney-explicit-consent-prompt { position: absolute!important; left: -2000px!important; }
 mdv.de###BorlabsCookieBoxWrap
@@ -12203,7 +12207,7 @@ samsung.com##.gb-gnb__notice-bar
 careers.google.com##.gc-cookie-bar
 zomato.com##.gdbr_banner_wrapper
 fanpage.it##.gdpr-bar
-avaaz.org##.gdpr-block
+simcast.com,avaaz.org##.gdpr-block
 surveymonkey.de,petri.com,surveymonkey.com,canadapost.ca,research.net,thurrott.com##.gdpr-cookie-banner
 navbharattimes.indiatimes.com##.gdpr-cookiebanner
 nejm.org,vpnranks.com##.gdpr-msg
@@ -14906,6 +14910,8 @@ consent2.ksta.de#%#AG_onLoad(function(){if(window.location.href.includes("consen
 privacy.lecker.de#%#AG_onLoad(function(){if(!document.cookie.includes("euconsent-v2")){var g=new MutationObserver(function(){setTimeout(function(){var b=document.querySelector('button.no-children[path="\[0,2,1\]"]');b&&b.click();},300);setTimeout(function(){var c=document.querySelector('div[title="Berechtigte Interessen"]'); c&&c.click();},300);setTimeout(function(){var d=document.querySelectorAll('label[aria-checked="true"] > .off'); d.forEach(function(d){d.click();});},800); var f=document.querySelector('button.no-children[path="\[0,3,0\]"]'); setTimeout(function(){f&&f.click();},1000);});g.observe(document,{childList:!0,subtree:!0});setTimeout(function(){g.disconnect()},3E4)}});
 privacy.madame.de#%#AG_onLoad(function(){if(!document.cookie.includes("euconsent-v2")){var g=new MutationObserver(function(){setTimeout(function(){var b=document.querySelector('button.no-children[path="\[0,2,1\]"]');b&&b.click();},300);setTimeout(function(){var c=document.querySelector('div[title="Berechtigte Interessen"]'); c&&c.click();},300);setTimeout(function(){var d=document.querySelectorAll('label[aria-checked="true"] > .off'); d.forEach(function(d){d.click();});},800); var f=document.querySelector('button.no-children[path="\[0,3,0\]"]'); setTimeout(function(){f&&f.click();},1000);});g.observe(document,{childList:!0,subtree:!0});setTimeout(function(){g.disconnect()},3E4)}});
 !
+filmweb.pl#%#//scriptlet("set-constant", "consentManagerIsOn", "false")
+filmweb.pl#%#//scriptlet("set-constant", "rodo.checkIsDidomiConsent", "noopFunc")
 saudia.com#%#//scriptlet("set-cookie", "sv_gdpr", "true")
 bethesda.net#%#//scriptlet("set-cookie", "user-seen-tos-update", "true")
 autohero.com#%#//scriptlet('set-cookie', 'consent', '0')
@@ -16599,9 +16605,12 @@ pepper.pl#@#.cookies-message
 @@||cdn.privacy-mgmt.com/wrapper/tcfv2/v1/gdpr/native-message$domain=businessinsider.de
 ! https://github.com/AdguardTeam/AdguardFilters/issues/75671
 coding.ms#@#.cookie-consent:not(body):not(html)
+! ! https://github.com/AdguardTeam/AdguardFilters/issues/102226
 ! filmweb.pl - incorrect blocking
 @@||sdk.privacy-center.org/*/loader.js$domain=filmweb.pl
 @@||sdk.privacy-center.org/sdk.*.js$domain=filmweb.pl
+!+ PLATFORM(ios, ext_android_cb)
+@@||sdk.privacy-center.org/ui-gdpr-*.js$domain=filmweb.pl
 ! https://github.com/AdguardTeam/AdguardFilters/issues/75479
 @@||cdn.civiccomputing.com/*/cookieControl-*.min.js$domain=videogameschronicle.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/75247
@@ -19797,6 +19806,7 @@ sodapdf.com##.be-tooltip
 ! Specific sites
 !######### Subscription popups add to subscriptions.txt #########
 !
+||rarejob.com/cms/wp-content/themes/awaken/js/fix-banner.js
 descomplica.com.br##div[class^="Modal__Wrapper-"]
 koronawirusunas.pl#%#//scriptlet("prevent-setTimeout", "#PatronModal")
 nsctotal.com.br#$#.tp-modal { display: none !important; }
@@ -19827,6 +19837,9 @@ freestudyweb.tumblr.com##.follow-teaser
 daagreat.com##.admask
 daagreat.com##.admaskContent
 majordomo.ru###perenos-saita
+reclameaqui.com.br##.brand-page
+reclameaqui.com.br#$##headerbar-touchpoint { display: none !important; }
+reclameaqui.com.br#$##page-header { padding-top: 0px !important; }
 redhotpawn.com##.rhp-static-footer
 xn----etbbecbrbp5ahkja1ae7v.xn--p1ai##.read-more
 henryharvin.com##.chaty-widget
@@ -26742,6 +26755,9 @@ experts-exchange.com##.ctaSolutionStickyWrapper
 theguardian.com##.contributions__adblock
 ||contributions.guardianapis.com^
 !
+||darkreader.org/elements/backers-graph.js
+support.mozilla.org###doc-contributors + section.sumo-page-section
+sharperimpressionspainting.com#?#.sidebar > section.widget:has(> div.textwidget > p[style] > a[href="https://www.sharperimpressionspainting.com/get-your-free-quote/"])
 youtubedownload.minitool.com##.article-top-banner
 bignox.com##.egg-section
 kite.com##.promo
@@ -27492,6 +27508,8 @@ quinhillyer.com,johnbiver.com,jasonmattera.com,ipatriot.com,hooligancharters.com
 ##.widget_blog_subscription
 ~curvegames.com,~news.un.org,~norwichzen.org.uk,~dereferer.me###mc_embed_signup
 !
+medlineplus.gov###gov-delivery-section
+testim.io##.r-sub-s
 nerolac.com##.row > div[class^="col-"] > div.green-container
 operanews.com##div[id$="_panelNewsletterInputs"]
 valorinveste.globo.com##.section-assine-newsletter
@@ -27605,6 +27623,8 @@ standard.co.uk##.piano-placement
 thehansindia.com###partner_social_share_links
 couponfollow.com###alets-subscribe
 couponfollow.com###topSub
+koko.by##.cs-sidebar__inner > div.powerkit_opt_in_subscription_widget
+koko.by##.cs-sidebar__inner > div.powerkit_social_links_widget
 arstechnica.com###follow-us
 ava-may.de###shopify-section-newsletter-modal
 vivat.de##.footer__top
@@ -30121,7 +30141,7 @@ primamedia.ru##.news_subscribe_form
 stackoverflow.com##.newsletter-anon
 polizeinews.ch##.newsletter-banner
 maclife.de##.newsletter-blk
-koko.by,steuertipps.de,glamour.pl,przyslijprzepis.pl,kobieta.pl,daemmen-und-sanieren.de,vigo.de,libhunt.com,dreamstime.com,antyweb.pl,brennenstuhl.com,pianetadesign.it,saashub.com,developer.mozilla.org,disqus.com,notebooki.pl,schweizer-illustrierte.ch##.newsletter-box
+steuertipps.de,glamour.pl,przyslijprzepis.pl,kobieta.pl,daemmen-und-sanieren.de,vigo.de,libhunt.com,dreamstime.com,antyweb.pl,brennenstuhl.com,pianetadesign.it,saashub.com,developer.mozilla.org,disqus.com,notebooki.pl,schweizer-illustrierte.ch##.newsletter-box
 it-times.de##.newsletter-box.teaser-box--blue
 verbraucherzentrale.de,verbraucherzentrale.nrw##.newsletter-button
 britannica.com##.newsletter-c
@@ -31249,7 +31269,7 @@ sonixgvn.net#%#//scriptlet("adjust-setInterval", "count--", "", "0.02")
 dlsharefile.com#%#//scriptlet("adjust-setInterval", "#Download-Card", "", "0.02")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72365
 ! https://gist.github.com/AdamWr/980e793d14527b22f517247e560beada
-pairom.com,adshrink.it#%#AG_onLoad(function(){var a;if("object"===typeof _sharedData&&"string"===typeof(null==(a=_sharedData[0])?void 0:a.destination)&&(a=_sharedData[0].destination,a=(new DOMParser).parseFromString(a,"text/html").documentElement.textContent,a.startsWith("http")))try{window.location=a}catch(b){}});
+adshnk.com,pairom.com,adshrink.it#%#AG_onLoad(function(){var a;if("object"===typeof _sharedData&&"string"===typeof(null==(a=_sharedData[0])?void 0:a.destination)&&(a=_sharedData[0].destination,a=(new DOMParser).parseFromString(a,"text/html").documentElement.textContent,a.startsWith("http")))try{window.location=a}catch(b){}});
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72159
 render-state.to#%#//scriptlet("adjust-setTimeout", "params.redirect", "5000", "0.02")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/71905

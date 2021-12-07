@@ -284,6 +284,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||gnar.grammarly.com^
 ||cdn.sophi.io^$third-party
 ||vought.removeads.workers.dev^
+||trk.reclameaqui.com.br^
 ||clickiocdn.com^$third-party
 ||delivery.satr.jp^$third-party
 ||i-cmg-amlg-prod.appspot.com^$third-party
@@ -14780,12 +14781,14 @@ charlestownwyllie.oaklawnnonantum.com^
 !
 ! Fixing the issues
 !
-! https://github.com/AdguardTeam/AdguardFilters/issues/102192
-||api3.fotmob.com^$badfilter
 ! unblock https://form.ict-toshiba.jp/contact_form_recipewizard
 ||form.ict-toshiba.jp^$badfilter
 ! cart blocked at www.matsuzaka-steak.com
 ||cart.matsuzaka-steak.com^$badfilter
+! https://github.com/AdguardTeam/AdguardFilters/issues/102236
+! Temporary rule
+! TODO: remove it when issue with CNAME trackers will be fixed
+||bukalapak.com^$badfilter
 
 !-------------------------------------------------------------------------------!
 !-------------- General (unsorted) url blocking --------------------------------!
@@ -15258,6 +15261,7 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|partifabrik.com|newsmax.com
 !
+topics.nintendo.co.jp##.topics-recommend__headline
 ||kitbag.com/api/track|
 ||static.actu.fr/assets/js/smarttag*.js
 ||cdn.lr-ingest.io/logger-1.min.js
@@ -19584,8 +19588,11 @@ demae-can.com#%#//scriptlet('remove-attr', 'data-trm-action|data-trm-category|da
 @@||googletagmanager.com/gtm.js$domain=kruidvat.nl
 ! fix wechat
 @@||data.mistat.xiaomi.com^$app=com.tencent.mm
+! https://github.com/AdguardTeam/AdguardFilters/issues/102126
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72365
-@@||cdn.trackjs.com/agent/v*/latest/t.js$domain=pairom.com|adshrink.it
+||cdn.trackjs.com/agent/v*/latest/t.js$script,redirect=noopjs,domain=adshnk.com|pairom.com|adshrink.it
+!+ PLATFORM(ios, ext_android_cb, ext_safari)
+@@||cdn.trackjs.com/agent/v*/latest/t.js$domain=adshnk.com|pairom.com|adshrink.it
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72103
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@||anymind360.com/js/*/ats.js$domain=automaton-media.com
