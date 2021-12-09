@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: zJerHhKqqEoIs2sVuvlwKw
-! Version: 202112081250
+! Checksum: 8L2Cv+WxiEfbVOOEL1U0PA
+! Version: 202112090100
 ! Title: Fanboy's Annoyance List
-! Last modified: 2021-12-08 12:50 UTC
+! Last modified: 2021-12-09 01:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -36075,7 +36075,9 @@ _vpcookieconsent/
 ||platform.twitter.com/js/button.$domain=focus.de|spiegel.de|transfermarkt.de
 ||twitter.com/js/timeline.$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
 /messaging.js$domain=computerworld.com|digitalartsonline.co.uk|greenbot.com|itworld.com|macworld.com|networkworld.com|pcwelt.de|pcworld.com|tecchannel.de|techadvisor.co.uk|techadvisor.fr|techhive.com|vkmag.com
+/mms/get_site_data?$domain=bloomberg.com
 /wp-content/blog-plugins/wordads-classes/js/banner.bundle.js
+/wrapperMessagingWithoutDetection.js$domain=bloomberg.com
 ||7plus.com.au/js/CookieNotice
 ||agicssecurity.com/Header/ajax/cookie.php
 ||appconsent.io^
@@ -48139,7 +48141,7 @@ dropbox.com,ge.tt,gfycat.com,kuaishou.com,recite.com,redgifs.com#@#.share-page
 flickr.com,imgur.com,safety.olx.ua,tobii.com,youtube.com#@#.share-panel
 mediafire.com#@#.share-popup
 inman.com,simpletax.ca#@#.share-section
-3d-load.net#@#.share-simple
+3d-load.net,gridtalk.nl#@#.share-simple
 bild.de#@#.share-text
 linkedin.com#@#.share-title
 mediafire.com#@#.share-twitter
@@ -48851,7 +48853,7 @@ yoigo.com#@#thor-cookies
 @@||files.bbci.co.uk^*/cookie-banner/$script,domain=bbc.co.uk
 @@||flowbox.io/wp-content/plugins/uk-cookie-consent/
 @@||gamersgate.com/js/cookieconsent.js$script,~third-party
-@@||gdpr-wrapper.privacymanager.io/gdpr/$script,domain=nettivuokraus.com
+@@||gdpr-wrapper.privacymanager.io/gdpr/$script,domain=nettivuokraus.com|parra.nu
 @@||gearbest.com/static/dist/minjs/jcookie.js
 @@||geolocation.onetrust.com/cookieconsentpub/$script,domain=~cnbc.com|~metacritic.com
 @@||gizmochina.com/wp-content/plugins/cookie-law-info/public/js/cookie-law-info-public.js$~third-party

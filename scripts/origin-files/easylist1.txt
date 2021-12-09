@@ -276,6 +276,9 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||tagcachestaticx.com^$third-party
+||backbone.rossel.tech^$third-party
+||tamgrt.com^$third-party
 ||fitanalytics.com^$third-party
 ||a.amnet.tw^$third-party
 ||vm5.i7akpd1.xyz^$third-party
@@ -4921,6 +4924,9 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||sli.familyhandyman.com^$third-party
+||p.alcmpn.com^$third-party
+||collector.xhwide1.com^
 ||ut.gamersyde.com^
 ||pcapp-data-collect.youku.com^
 ||log.polarisoffice.com^
@@ -18502,6 +18508,10 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|partifabrik.com|newsmax.com
 !
+||click.email.rdaenthusiast.com/open.aspx
+||pelismart.com/wp-content/plugins/perfmatters/js/analytics-minimal.js
+||hotels.com/taps/v*/Impr?
+||hotels.com/taps/v*/PageView?
 topics.nintendo.co.jp##.topics-recommend__headline
 ||kitbag.com/api/track|
 ||static.actu.fr/assets/js/smarttag*.js
@@ -18960,7 +18970,7 @@ semprotyuk.com##div[style^="margin-bottom:150px;"][style*="padding-right:2em;"]
 ||gold.contentsfeed.com/lb/sd/nw$domain=sportsseoul.com
 ||gtr1.yes24.com/wlo/Logging
 ||analytics.fsho.st/tracker.js
-||poki.com/observer/t.js
+||a.poki.com/observer/$script
 ||wcs.naver.com^$image
 ||las.danawa.com/log/
 ||tmgrup.com.tr/videojs/js/lib/streamsense.min.js
@@ -21164,8 +21174,6 @@ $cookie=_gat
 $cookie=AMP_TOKEN
 ! Contains campaign related information for the user.
 $cookie=/^_gac_/
-! Used to persist session state.
-$cookie=/^_ga_/
 ! Used to throttle request rate.
 $cookie=/^_dc_gtm_UA-/
 ! ---
@@ -22242,6 +22250,10 @@ $app=com.miui.analytics
 !#endif
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/102387
+@@||googletagmanager.com/gtm.js$domain=independent.co.uk
+@@||google-analytics.com/analytics.js$domain=independent.co.uk
+@@||google-analytics.com/gtm/js?id=$domain=independent.co.uk
 ! https://github.com/AdguardTeam/AdguardFilters/issues/102277
 @@||googletagmanager.com/gtm.js$domain=ask.com
 ! https://github.com/easylist/easylist/pull/9971
