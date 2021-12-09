@@ -7590,6 +7590,8 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 !
 !
 !
+lindner-norit.com##.cn-layer
+floristikwerkstatt-mueller.com##.flash[data-cookie="eu_cookie"]
 fdp.de#?#body > #sliding-popup:has(> .eu-cookie-compliance-banner)
 lexicool.com###cookie_consent_popup
 filewhopper.com##.cl_js_inited
@@ -15186,7 +15188,7 @@ polyas.de#%#(function() { try { if ("undefined" != typeof localStorage) { localS
 timeanddate.com#%#AG_onLoad(function() {var b = document.querySelector('body');var g = new MutationObserver(function() {if (b && b.style.overflow === 'hidden') { var c = document.querySelector('.fc-primary-button');c&&c.click();}});g.observe(document, {childList: !0,subtree: !0});setTimeout(function() {g.disconnect()}, 1E4)});
 shop.raiwa.net,schroeder-bauzentrum.de#%#document.cookie = "cookieSettings= ";
 asklepios.com#%#//scriptlet('set-cookie', 'askk.cookie-overlay-shown', 'true')
-hagengrote.de#%#//scriptlet('abort-current-inline-script', '$', '#modal-consent')
+vorteilshop.com,hagengrote.de#%#//scriptlet('abort-current-inline-script', '$', '#modal-consent')
 hildegardis-krankenhaus.de,st-agatha-krankenhaus.de#%#//scriptlet("abort-current-inline-script", "document.createElement", "consent.cookiebot.com")
 momondo.de#%#//scriptlet('set-cookie', 'DATA_CONSENT', 'false')
 schuh-okay.de,abc-schuhe.com#%#(function() { try { if ("undefined" != typeof localStorage) { localStorage.setItem("cookiePreference", "required") } } catch (ex) {} })();
@@ -26806,6 +26808,7 @@ experts-exchange.com##.ctaSolutionStickyWrapper
 theguardian.com##.contributions__adblock
 ||contributions.guardianapis.com^
 !
+app.raindrop.io##.svSidebar > a[class^="upgrade-"]
 softwaretestinghelp.com##.widget_rp4wp_related_posts_widget + aside.widget
 ||darkreader.org/elements/backers-graph.js
 support.mozilla.org###doc-contributors + section.sumo-page-section
@@ -27560,6 +27563,7 @@ quinhillyer.com,johnbiver.com,jasonmattera.com,ipatriot.com,hooligancharters.com
 ##.widget_blog_subscription
 ~curvegames.com,~news.un.org,~norwichzen.org.uk,~dereferer.me###mc_embed_signup
 !
+wrestling-online.com#?#.wpb_wrapper > div.wpb_wrapper ~ div.td_block_wrap:has(> div.td_mod_wrap div#groupsio_unstyled_embed_signup)
 seonews.ru##.sidebar > div.index-banner-wrapper
 colgate.com###gigya-screen-dialog-page-overlay
 colgate.com##.gigya-screen-dialog-main
@@ -30914,6 +30918,8 @@ newsweek.com##iframe[src="http://sns.europe.newsweek.com/newsletter?popup=1"]
 !######### JS tweaks ##########
 !##############################
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/102451
+forex-gold.net#%#//scriptlet("adjust-setInterval", "timeleft", "", "0.02")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/102076
 hamsterss.website#%#//scriptlet("adjust-setInterval", "show_download_links", "", "0.02")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/101846
