@@ -226,6 +226,7 @@
 !
 ! Contains unsorted urls
 !
+/wp-content/plugins/add-to-any/addtoany.min.
 /xeory-core/modules/xeory-social/*
 /simplicity2/images/line-btn
 ||plugins.mixi.jp/favorite.pl
@@ -1318,7 +1319,9 @@ archives.gov,sportnews.to,nationalchronicle.in,analogictips.com,linearmotiontips
 ! ##.sns_area
 sedaily.com,canshop.jp,koreatimes.co.kr,m.chosun.com,sports.donga.com##.sns_area
 !
+sungrove.co.jp##.c-sns-share
 bellingcat.com##.social--share
+straightedgestyle.com###sns-tops
 radiko.jp##.top-sns__col
 salemaxinmobiliaria.com##.compartir
 fullhdfilmizle.pw##.new-detail-share > ul > li:not(.like):not(.date)
@@ -1884,8 +1887,8 @@ skysports.com##.sdc-site-share
 konsultacjejst.pl##.fbBox
 ranker.com##span[class^="title_shareContainer_"]
 inploid.com###main_question_share_div
-crossbike.biz###sns-bottoms
-kotyanlife.info,daij1n.info,crossbike.biz##.sns-msg
+straightedgestyle.com,crossbike.biz###sns-bottoms
+straightedgestyle.com,kotyanlife.info,daij1n.info,crossbike.biz##.sns-msg
 acefitness.org##.post-full__share
 talasexpresshaber.com##.sharing-container
 ||cashify.in/static/post/svgs/share-*.svg
@@ -4224,7 +4227,7 @@ sysadmintips.ru##.social-share-wrap
 toolss.net,rumusrumus.com,rumus.co.id##.idblog-social-share
 gazeta.ua##.article-footer div.pull-right
 donanimhaber.com##.paylas-kapsam > a[href][onclick^="window.open("]
-ddizi.co##.tw-color
+ddizi1.org,ddizi.co##.tw-color
 gq.com,techcrunch.com,wired.com##.article__social-share
 inyourpocket.com##.header_socials
 komkur.info##.usocial_block
