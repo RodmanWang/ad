@@ -276,6 +276,8 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||leadrebel.io^$third-party
+||nessainy.net^$third-party
 ||tagcachestaticx.com^$third-party
 ||backbone.rossel.tech^$third-party
 ||tamgrt.com^$third-party
@@ -286,7 +288,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||analytics.tiendaenoferta.com^$third-party
 ||cl.qualaroo.com^$third-party
 ||more-data.ru^$third-party
-||f-log-editor.grammarly.io^
 ||gnar.grammarly.com^
 ||cdn.sophi.io^$third-party
 ||vought.removeads.workers.dev^
@@ -311,7 +312,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||prodmp.ru^$third-party
 ||events.busuu.com^
 ||intellimize.co^$third-party
-||f.fingerprintjs.com^
 ||logs.viadata.store^$third-party
 ||hitapi.pulpoar.com^
 ||api.dataroid.com^$third-party
@@ -4924,6 +4924,7 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||log.radiko.jp^
 ||tl.tradetracker.net^
 ||ts.tradetracker.net^
 ||tc.tradetracker.net^
@@ -4973,8 +4974,6 @@ nethunt.com/api/v1/track/email/$image
 ||events-service.coinbase.com^
 ||snowplow-pixel.tradingview.com^
 ||analytics.clic2buy.com^
-||f-log-at.grammarly.io^
-||f-log-test.grammarly.io^
 ||tracking.swogo.net^
 ||pixel.bridge.dooca.store^
 ||pixels.ingbank.com.tr^
@@ -18511,6 +18510,8 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|partifabrik.com|newsmax.com
 !
+||bownow.jp/js/*/trace.js?referer=
+||freehostedscripts.net/ocounter.php
 ||click.email.rdaenthusiast.com/open.aspx
 ||pelismart.com/wp-content/plugins/perfmatters/js/analytics-minimal.js
 ||hotels.com/taps/v*/Impr?
@@ -18577,7 +18578,6 @@ textologia.ru##.bot_right
 ||steamchina.com/events/
 ||steamchina.com/default/usabilitytracking
 ||dtm-dre.platform.hicloud.com/download/web/dtm.js
-||log.radiko.jp/view.gif?
 ||netflix.com/msl/playapi/cadmium/logblob/
 ||netflix.com/api/ftl/probe?monotonic=
 ||daisomall.co.kr/collect.php
@@ -21610,6 +21610,10 @@ $app=com.miui.analytics
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
 !
+||logend.cookpad.com^
+||viva.api.xiaoying.co^
+||ub-xjp.vvbrd.com^
+||rtlog*.tiktokv.com^
 ||uts-front.line-apps.com^
 ||nelo2-col.linecorp.com^
 ||msga.cupid.iqiyi.com^
@@ -21621,8 +21625,7 @@ $app=com.miui.analytics
 ||aff-policy.lbesecapi.com^
 ||psi.lbesecapi.com^
 ||report-ps.meettech.net^
-||f-log-mobile.grammarly.io^
-||f-log-mobile-ios.grammarly.io^
+||f-log-*.grammarly.io^
 ||retcode-*.arms.aliyuncs.com^
 ||log*-misc-lf.amemv.com^
 ||msg.umengcloud.com^
