@@ -285,6 +285,12 @@ return array(
     'da.mmarket.com' => 0, // #501
     'log-upload.mihoyo.com' => 0, // #502
     'wl.spotify.com' => 0, // #508
+    's1.wp.com' => 0, // #510
+    'lc-cn-n1-shared.com' => 0, // #512
+    'instant.page' => 0, // #514
+    'jspassport.ssl.qhimg.com' => 0, // #515
+    'service.signalr.net' => 0, // #519
+    'threatbook.cn' => 0, // #522
 
 
 
