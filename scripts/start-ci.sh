@@ -11,10 +11,9 @@ easylist=(
   "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_14_Annoyances/filter.txt"
   "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_11_Mobile/filter.txt"
   "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt"
-  "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_7_Japanese/filter.txt"
-  "https://raw.githubusercontent.com/List-KR/List-KR/master/filter.txt"
   "https://secure.fanboy.co.nz/fanboy-annoyance.txt"
   "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt"
+  "https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt"
 )
 
 hosts=(
@@ -25,7 +24,6 @@ hosts=(
 
 strict_hosts=(
   "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt"
-  
   "https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser"
 )
 
