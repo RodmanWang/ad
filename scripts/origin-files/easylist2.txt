@@ -347,6 +347,7 @@ boredteachers.com#?#main > div.py-8:has(> div.flex > a.share-network-facebook)
 topcoder.com#?#div[class] ~ h3[class]:contains(share)
 defkey.com#?#small:contains(/^Share this page on:$/)
 my.ua#?#button:has(> span:contains(Поделиться))
+24smi.org#?#.row-flex ~ div[class]:has(> div.js-share)
 downloadfreecourse.com#?#.sidebar-widget:has(> div.widget-head > h4:contains(Follow Us))
 flipkart.com#?#svg + span[style]:contains(Share):upward(1)
 cybrhome.com#?#div[class] > div.SocialMediaShareButton:upward(1)
@@ -1319,6 +1320,7 @@ originalnews.nico,archives.gov,sportnews.to,nationalchronicle.in,analogictips.co
 ! ##.sns_area
 sedaily.com,canshop.jp,koreatimes.co.kr,m.chosun.com,sports.donga.com##.sns_area
 !
+gigazine.net##.followbeta
 premium-passport.jp###sns-bottoms
 msi.com###content-socialshare
 kolesa.ru##.social-sharing-block
@@ -1369,6 +1371,7 @@ slivy.news##.cs-entry__after-share-buttons
 rockmods.net##.share-spring
 wilsoncenter.org##.selection-sharer
 momenty.org##app-share-social-buttons
+24smi.org##.js-share
 plusstyle.jp###float_btn
 theasianschool.net###sab-single-sshare
 mobile.mi.com##.product-information__share
@@ -4484,7 +4487,7 @@ kulturologia.ru,novate.ru##.postLikesBox
 chosun.com##.news_left_aside_sns > li > a[class^="share_"]
 chosun.com##.news_left_aside_sns > div#news_left_aside_sns_more_id
 tomiks33.ru##.index-follow
-techbang.com##.side-share
+thepatriotjournal.com,techbang.com##.side-share
 techbang.com##.total-share
 lolhehehe.com##.bl_likebox
 t24.com.tr,tproger.ru,millionacres.com,lolhehehe.com##.share-story
@@ -8628,6 +8631,7 @@ betanews.com##.social-links-wrap
 ~pinterest.com##a[href^="https://pinterest.com/share?url="]
 ~pinterest.com##a[href^="//pinterest.com/pin/create/"]
 ~pinterest.com##a[href^="https://pinterest.com/pin/create/"]
+~whatsapp.com##a[href^="//api.whatsapp.com/send?text="]
 ~whatsapp.com##a[href^="https://api.whatsapp.com/send/?text="]
 ~whatsapp.com##a[href^="https://api.whatsapp.com/send?text="]
 ~whatsapp.com##a[href^="https://web.whatsapp.com/send?text="]

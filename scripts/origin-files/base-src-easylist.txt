@@ -3697,6 +3697,7 @@
 ||abczdrowie.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*\n)//,script
 ||abczdrowie.pl^$replace=/(abp:subscribe[\s\S]*?.=\(\)=>).===.(\,)/\$1{return}\$2/,script
 ||abczdrowie.pl^$replace=/(abp:subscribe[\s\S]*?.=function\(\)\{)return .===.(\}\,)/\$1return\$2/,script
+||abczlnycba.icu^
 ||abdicatenoise.com^
 ||abdittoan.com^$popup
 ||abdittoan.com^$third-party
@@ -7917,6 +7918,7 @@
 ||apps-ssl.net.zooplus.fr^
 ||apps.azhelp.ru^$third-party
 ||apps.imaginecommunications.com^
+||apps.media-lab.ai^
 ||apps.poln.co^$third-party
 ||apps.relationshipone.com^
 ||apps.tpe.net.zooplus.de^
@@ -8306,6 +8308,7 @@
 ||assandart.site^
 ||assaulttra.one^
 ||assembledscout.com^
+||assemblyexchange.com^$third-party
 ||assertednodding.com^
 ||assertnourishingconnection.com^
 ||assessment.vetassess.com.au^
@@ -9862,6 +9865,7 @@
 ||beibeigoudai.com^
 ||beibhw.cn^
 ||beidouxin.com^*html?
+||beidw.com^
 ||beifb.com^
 ||beifd.com^
 ||beifmu.com^
@@ -9885,6 +9889,7 @@
 ||beiwm.com^
 ||beixbw.cn^
 ||beixcw.cn^
+||beiyc.com^
 ||beizhoujt.cn^
 ||beizhoujt.cn^
 ||beizkw.cn^
@@ -12655,6 +12660,7 @@
 ||cfhijdsb.cn^
 ||cfhjqg.sonyunara.jp^
 ||cfhy.xyz^
+||cfpl.online^
 ||cfrsqptn.com^
 ||cfsaze.retailmenot.com^
 ||cftrack.com^$third-party
@@ -23254,6 +23260,7 @@
 ||globbiz.cn^
 ||globel.co.uk^$third-party
 ||globetrackr.com^$third-party
+||globsads.com^$third-party
 ||globwo.online^
 ||globwo.online^$popup
 ||glodrips.com^
@@ -23468,6 +23475,7 @@
 ||goaffmy.com^$popup
 ||goajuzey.com^
 ||goalebim.com^
+||goaljet.ltd^
 ||goaltraffic.com^$third-party
 ||goasrv.com^
 ||goat.aicontentdojo.com^
@@ -26191,6 +26199,7 @@
 ||hxqu.com^$third-party
 ||hxrylvbm.com^
 ||hxscba.com^
+||hxskjll.cn^
 ||hxspc.com^
 ||hxsq.app^$third-party
 ||hxssj.cn^
@@ -28812,6 +28821,7 @@
 ||jpwind.com^*/scroll.js
 ||jpyjdpal.xyz^
 ||jpzwomhbxoalxu.com^
+||jqcfgnm.cn^
 ||jqcgyjwidktu.xyz^
 ||jqk72ugyl2pz.com^
 ||jqlzwb.bauhaus.fi^
@@ -35301,6 +35311,7 @@
 ||muvflix.com^$popup
 ||muvimtim.com^
 ||muxingkj.com^$third-party,image
+||muybjar.cn^
 ||muyijia.shop^
 ||muyoozrkkyr.com^
 ||muzotur.info^$third-party
@@ -45303,6 +45314,7 @@
 ||shspdt.com^$domain=11papapa.com
 ||shtiesen.cn^
 ||shua66.vip^
+||shuaiqiwudixiaoliangzaidddd.icu^
 ||shuake.ink^
 ||shuangshiyihightgo.top^
 ||shuazili.wang^
@@ -48763,7 +48775,7 @@
 ||static.chameleon.ad/js/router.js^
 ||static.chilli.ee^$domain=kava.ee
 ||static.doubleclick.net^
-||static.elfsight.com^$third-party,domain=~cafemarta.ch
+||static.elfsight.com^$third-party,domain=~cafemarta.ch|~trestlebrewing.com
 ||static.exosrv.com^$domain=syndication.exosrv.com
 ||static.fapdex.com/nb^
 ||static.fastpic.org^$subdocument
@@ -49611,6 +49623,7 @@
 ||stucystymy.com^
 ||studcat.infra.systems^
 ||study.vu.edu.au^
+||studytest.icu^
 ||stuff.wikiporno.org^
 ||stuffedprofessional.com^
 ||stuffpotencydisciple.com^
@@ -55742,6 +55755,7 @@
 ||w55c.net^$third-party
 ||w65p.com^
 ||w65p.com^
+||w6gis5.com^
 ||w7.berlin.de^
 ||w7.weihnachteninberlin.de^
 ||w8.com.cn^
@@ -56489,6 +56503,7 @@
 ||whathuvopu.com^
 ||whathuvopu.com^$popup
 ||whatismyip.win^$third-party
+||whatisupman.site^
 ||whatisuptodaynow.com^
 ||whatisuptodaynow.com^$popup
 ||whatsapp-sharing.com^$third-party
@@ -58307,6 +58322,7 @@
 ||xueyongbao.com^
 ||xueyongbao.com^
 ||xuhycaphe.com^
+||xujie.xyz^
 ||xujingch.com^
 ||xujx8.com^
 ||xujx8.com^
@@ -59285,6 +59301,7 @@
 ||yuesenshangmao.cn^
 ||yuetx.cc^
 ||yueyelive.com^
+||yueyuego.com^
 ||yueyuelao.cn^
 ||yufuyan.cn^
 ||yuggcd.com^
@@ -59389,6 +59406,7 @@
 ||ywwm.net^
 ||ywxi.net^
 ||ywxi.net^
+||ywzkiug.cn^
 ||yx1.managershare.com^
 ||yxcpm.com^
 ||yxdd.com^$subdocument
@@ -59673,6 +59691,7 @@
 ||zf678.com^
 ||zfacts.com^$third-party
 ||zferral.com^
+||zfgan.com^
 ||zfjiu.com^
 ||zfkmw.com^
 ||zfkmw.com^
@@ -60237,6 +60256,7 @@
 ||zx-jsp.com^
 ||zx573.cn^
 ||zxa4kxw2nvox.com^
+||zxakeax.cn^
 ||zxbumj.edreams.it^
 ||zxcdn.com^
 ||zxclan.com^
