@@ -19256,7 +19256,7 @@ _tracking.php?b=
 !
 ! TODO: check the whitelist file from time to time to remove unnecessary exceptions
 ||mc.yandex.ru/metrika/tag.js$script,redirect=metrika-yandex-tag
-||mc.yandex.ru/metrika/watch.js$script,redirect=metrika-yandex-watch,domain=~disk.yandex.*|~docviewer.yandex.*|~tv.yandex.*|~music.yandex.*
+||mc.yandex.ru/metrika/watch.js$script,redirect=metrika-yandex-watch,domain=~disk.yandex.*|~docviewer.yandex.*|~tv.yandex.*|~music.yandex.*|~plus.yandex.*
 ! TODO: replace `~domain.com` by exclusions after ext4.0 release
 ! https://github.com/AdguardTeam/AdguardForWindows/issues/3973
 ! Probably caused by overriding "dataLayer.push" function
@@ -19281,6 +19281,8 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|partifabrik.com|newsmax.com
 !
+||tumblr.com/impixu?
+||tumblr.com/analytics.html?
 ||seznam.cz/*/hit/?
 ||wp.com/*/a8c-analytics.js
 ||bownow.jp/js/*/trace.js?referer=
@@ -23027,6 +23029,8 @@ $app=com.miui.analytics
 !#endif
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/102634
+@@||slike.indiatimes.com/feed/playerconfig/*.json$domain=zoomtventertainment.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/103023
 ||googletagmanager.com/gtag/js$script,other,redirect=googletagmanager-gtm,domain=filmomaniak.pl
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
