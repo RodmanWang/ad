@@ -3878,6 +3878,7 @@ ubmcmm.baidustatic.com
 .8ox.cn
 ||lm213.com^
 ||lzljhs.com^
+||govshenzhen.cn^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -11397,7 +11398,13 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||aliyuncs.com/huijiad/huijiad.js?
 szxx.com.cn###A0
+sina.com.cn##div[class*="game"]
+sina.com.cn##div[class*="farmpop"]
+acglala.me##a[href*=".taobao.com"]
+acglala.me##a[href*=".tmall.com"]
+acglala.me##a[href*=".h-ero.games"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -19162,6 +19169,12 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||bensxw.cn^
 ||720fly.club^
 ||pandan.love^
+||uqakkye.cn^
+||oelco.cn^
+||fenkang.tech^
+||aysccnn.cn^
+||oey53uw-1ye.cn^
+||rjnjjin.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
