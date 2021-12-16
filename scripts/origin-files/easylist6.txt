@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2RxHOii13Lm+TdqeccIx0g
-! Version: 202112160100
+! Checksum: Kvn8bQnFZYV0YxQqnx4GPg
+! Version: 202112161250
 ! Title: Fanboy's Annoyance List
-! Last modified: 2021-12-16 01:00 UTC
+! Last modified: 2021-12-16 12:50 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -6109,6 +6109,7 @@ _vpcookieconsent/
 ##.daily-newsletter
 ##.daily-newsletter-anmeldung_r
 ##.daily_email_signup
+##.default-newsletter
 ##.desktop-newsletter
 ##.divFooterEmailSignUp
 ##.divSubscrbtionBox
@@ -34852,6 +34853,7 @@ _vpcookieconsent/
 ||clevergirlscollective.com^$third-party
 ||cloudfront.net/js/slide.js
 ||cmpmedica.com/ssonp/networkbar.js$third-party
+||coinhive.com^$third-party
 ||communicatoremail.com^$subdocument,third-party
 ||complexmedianetwork.com^$third-party
 ||connect.ekomi.de^$third-party
@@ -38182,6 +38184,7 @@ self.com##.featurehed
 reference.com,tiktok.com##.feedback
 youbeauty.com##.feedback-link
 uk.msn.com##.feedbackImageContainer
+intel.com##.feedbackTool
 nymag.com##.feedbackWrap
 ilyke.net##.feedback_button
 computingunleashed.com,nytimes.com,technologyreview.com##.feeds
@@ -39480,6 +39483,7 @@ euractiv.com###contribs_banner
 designtaxi.com###fancybar_link
 theshot.net.au###fixed_footer
 theguardian.com###g200-banner
+lifesitenews.com###give-insert
 theshot.net.au###home_row_1
 alternet.org###kindest-container
 lastmomenttuitions.com###popups
@@ -39509,7 +39513,9 @@ thenextweb.com##.corona-wrapper
 rawstory.com##.cp-info-bar
 alternet.org##.cp-info-bar-container
 designtaxi.com##.displayboard
+lifesitenews.com##.donate-callout
 peoplesworld.org##.donate_strip
+revolver.news##.donation-header
 nzherald.co.nz##.down.premium-toaster
 dealnews.com##.engagement
 dealnews.com##.engagement-container
@@ -39816,6 +39822,7 @@ cnbc.com###optIn-embedded
 phoneradar.com###optin
 draxe.com###optin-footer
 devisesquare.com###overlay
+irishpost.com###overlay-form-container
 thenewdaily.com.au###page-overlay
 thepostgame.com###pageModalDimmed
 perezhilton.com###ph_classic_nlf
@@ -40353,6 +40360,7 @@ economist.com##.layout-article-promo
 texasmonthly.com##.list-newsletter-block__newsletter-signup
 lifeslittlemysteries.com##.llm_newsletter
 wakingtimes.com##.lp-bar__iframe-wrapper
+lifesitenews.com##.lsn-petitions
 lifesitenews.com##.lsn-subscribe
 history.com##.m-brand-engagement
 minnpost.com##.m-form-minnpost-form-processor-mailchimp
@@ -43411,7 +43419,7 @@ nianticlabs.com,pokemongolive.com##.nl-cpb
 xing-news.com##.no-cookie
 psychcentral.com##.no-hash
 blogfree.net##.note
-brightree.com,cgtrader.com,cortesdecima.com,dialight.com,discordapp.com,dotmailer.com,exposition-osiris.com,keenfootwear.com,medicalxpress.com,outsideonline.com,phys.org,shire.com,techxplore.com,ubuntu18.com##.notice
+brightree.com,cgtrader.com,cortesdecima.com,dialight.com,discordapp.com,dotmailer.com,exposition-osiris.com,keenfootwear.com,medicalxpress.com,outsideonline.com,phys.org,revolver.news,shire.com,techxplore.com,ubuntu18.com##.notice
 anime2enjoy.com##.notice-board
 veritasbooksonline.com##.notice-wrap
 square-enix-games.com##.notice_Notices_29tRQ
