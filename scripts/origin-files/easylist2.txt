@@ -1322,6 +1322,13 @@ originalnews.nico,archives.gov,sportnews.to,nationalchronicle.in,analogictips.co
 ! ##.sns_area
 sedaily.com,canshop.jp,koreatimes.co.kr,m.chosun.com,sports.donga.com##.sns_area
 !
+topics.smt.docomo.ne.jp##.m-social-button-list
+unyoo.jp##.social-action
+rumaysho.com##.facebook-widget
+rumaysho.com##.latest-tweets-widget
+dekiru.net##.module-individual-article-item-share
+wroclawskisport.pl###fblbx
+wroclawskisport.pl##iframe[data-src^="//www.facebook.com/plugins/like.php"]
 square-enix.com###sns_navi
 hiroba.dqx.jp##.social_btnArea
 dq.h1g.jp###openModal
@@ -2548,8 +2555,8 @@ samfw.com##[id^="btn-share"]
 jalopnik.com,theroot.com##.share-tools-static
 watchmovie.movie##.video-socialshare-container
 cssreference.io##.footer-share
-dizipal96.com,dizipal97.com,dizipal98.com,dizipal99.com,dizipal100.com,dizipal101.com,dizipal102.com,dizipal103.com,dizipal104.com,dizipal105.com,dizipal106.com,dizipal107.com##button[onclick^="window.open ('http://www.facebook.com/sharer.php?"]
-dizipal96.com,dizipal97.com,dizipal98.com,dizipal99.com,dizipal100.com,dizipal101.com,dizipal102.com,dizipal103.com,dizipal104.com,dizipal105.com,dizipal106.com,dizipal107.com##button[onclick^="javascript:window.open('https://twitter.com/intent/tweet?"]
+dizipal109.com,dizipal110.com,dizipal111.com,dizipal112.com,dizipal113.com,dizipal114.com,dizipal115.com,dizipal116.com,dizipal117.com,dizipal118.com,dizipal119.com,dizipal120.com,dizipal121.com,dizipal122.com,dizipal123.com,dizipal124.com,dizipal125.com,dizipal126.com,dizipal127.com,dizipal128.com,dizipal129.com,dizipal130.com,dizipal131.com,dizipal132.com,dizipal133.com,dizipal134.com,dizipal135.com,dizipal136.com,dizipal137.com,dizipal138.com,dizipal139.com,dizipal140.com,dizipal141.com,dizipal142.com,dizipal143.com,dizipal144.com,dizipal145.com,dizipal146.com,dizipal147.com,dizipal148.com,dizipal149.com,dizipal150.com,dizipal151.com,dizipal152.com,dizipal153.com,dizipal154.com,dizipal155.com,dizipal156.com,dizipal157.com,dizipal158.com,dizipal159.com,dizipal160.com##button[onclick^="window.open ('http://www.facebook.com/sharer.php?"]
+dizipal109.com,dizipal110.com,dizipal111.com,dizipal112.com,dizipal113.com,dizipal114.com,dizipal115.com,dizipal116.com,dizipal117.com,dizipal118.com,dizipal119.com,dizipal120.com,dizipal121.com,dizipal122.com,dizipal123.com,dizipal124.com,dizipal125.com,dizipal126.com,dizipal127.com,dizipal128.com,dizipal129.com,dizipal130.com,dizipal131.com,dizipal132.com,dizipal133.com,dizipal134.com,dizipal135.com,dizipal136.com,dizipal137.com,dizipal138.com,dizipal139.com,dizipal140.com,dizipal141.com,dizipal142.com,dizipal143.com,dizipal144.com,dizipal145.com,dizipal146.com,dizipal147.com,dizipal148.com,dizipal149.com,dizipal150.com,dizipal151.com,dizipal152.com,dizipal153.com,dizipal154.com,dizipal155.com,dizipal156.com,dizipal157.com,dizipal158.com,dizipal159.com,dizipal160.com##button[onclick^="javascript:window.open('https://twitter.com/intent/tweet?"]
 koravidstream.com##.open-share-toolbar
 crowdin.com##.share-cell
 lybrate.com###shareBtnLeft
@@ -3439,7 +3446,7 @@ stern.de##.ArticleMeta-sharing
 silkyhands.ru##.soviet-share
 me.fo##.nd_share_block
 ||kraj.by/data/img/news/settings/subscribe/$image
-aydinlik.com.tr##share-buttons
+rivegauche.ru,aydinlik.com.tr##share-buttons
 enerjigazetesi.ist##.dc-social-float
 lifehacker.ru##.desktop-fixed-bar
 news18.com##.fxt_share
@@ -5421,7 +5428,7 @@ smhn.info##.share_top
 gofundme.com##.js-share-facebook
 wgrz.com##.sticky-sharing
 plejada.pl,onet.pl###content-share-top > [class*="_share"]
-gamespark.jp###snsBtn
+s.inside-games.jp,gamespark.jp###snsBtn
 antutu.pw,polscygracze.pl##.bb-post-share-box
 androidpolice.com,radiokp.ru,www-androidpolice-com.cdn.ampproject.org,windowsreport.com,eg.ru##amp-addthis
 yan.vn##.imgShareFB
@@ -5840,7 +5847,7 @@ berliner-zeitung.de##.whatsapp-widget-blz
 tokado.ru##.widget_facebook_right
 incrussia.ru##.banner-links
 nv.ua##.new__social
-kinobase.org,kinovod234.cc,kinovod.net##a[onclick^="sharer."]
+kinob.net,kinobase.org,kinovod234.cc,kinovod.net##a[onclick^="sharer."]
 popularmechanics.com##.social-button-group
 hdonline.is##.sb-likeshare
 yeniasir.com.tr##.detail-social > ul > li > a[data-type="facebook"]
@@ -7913,7 +7920,7 @@ m.focus.de##.social_sticky
 gamer.ru##.social_vk
 m.timesofindia.com##.socialcont
 wn.de##.socialmedia_article_linkbox
-archive.vanityfair.com,tubefilter.com,101.ru,glavcom.ua,javhdx.tv##.socials
+unyoo.jp,archive.vanityfair.com,tubefilter.com,101.ru,glavcom.ua,javhdx.tv##.socials
 igate.com.ua,kommersant.ru##.socials-link
 familyhandyman.com##.socialshare
 f1comp.ru##.socikonki
@@ -8392,7 +8399,7 @@ yandex.ru##.response__share > div.share-icons
 !+ NOT_OPTIMIZED
 realsound.jp##ul[class^="sns_bts"]
 !+ NOT_OPTIMIZED
-gamespark.jp##.box-sns
+s.inside-games.jp,gamespark.jp##.box-sns
 !+ NOT_OPTIMIZED
 news18.com##div[class*="Footer_newftrshare_"]
 !+ PLATFORM(ios, ext_android_cb, android)
