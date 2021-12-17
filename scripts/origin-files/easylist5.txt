@@ -358,6 +358,8 @@
 ! These rules are against all kinds of ad blocking reinjection/circumvention scripts
 !
 !
+! https://github.com/uBlockOrigin/uAssets/issues/10953
+tingfm.com#%#//scriptlet("prevent-setTimeout", "adblock")
 ! https://github.com/uBlockOrigin/uAssets/issues/10833
 ! TODO:
 ||bbs.pcbeta.com/data/cache/common_jnmhixxsgemicq.js
@@ -1101,6 +1103,7 @@ $script,xmlhttprequest,third-party,domain=00ksw.com|01zww.com|0biquge.com|114zw.
 !
 !
 !
+apk.tw##.postlist > div > div[style="margin:0px 0px 0px 0px;width:300px;height:250px;overflow:hidden;"]
 bella.tw##.hide-mobile[style]
 12377.cn###notice
 feebee.com.tw###afsh_bsearch_list_top
@@ -3647,6 +3650,7 @@ ubmcmm.baidustatic.com
 ##img[onclick="window.open(this.url)"][src*="qq.com"]
 ##img[onclick^="window.open"][src*=".360buyimg.com"]
 ##img[onclick^="window.open"][src*="pc.qq.com"]
+##.ayx[style="position: fixed;bottom: -10px;right:0;z-index:999;width:250px"]
 ##img[src$="/img/tianbo.gif"]
 ##img[src*=".qpic.cn"][width="980"][height="80"]
 ##img[src*=".sinaimg."][style="width:1025px;height:80px"]
@@ -3876,6 +3880,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/ayx600.com/"]
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
+##a[onclick*=".lyty665.com"]
 .8ox.cn
 ||00-gov.cn^
 ||000123456789.site^
@@ -11401,6 +11406,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 szxx.com.cn###A0
+chinanews.com.cn###ad_right_fc1
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -19159,6 +19165,15 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||wsrrfoa.cn^
 ||gojokey.club^
 ||arts-cloud.net^
+||beiwc.com^
+||rgt0hv5.cn^
+||xqtzp.cn^
+||ybnndud.cn^
+||vvsbt.cn^
+||1v1.ink^
+||beiyicc.cn^
+||beiwh.com^
+||sylvia.cloud^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]

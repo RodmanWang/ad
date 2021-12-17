@@ -24,7 +24,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <tr>
 <td>blocklist last updated:</td>
-<td><b class=blue>Wed, 15 Dec 2021 20:40:58 GMT</b></td>
+<td><b class=blue>Fri, 17 Dec 2021 09:44:29 GMT</b></td>
 </tr>
 
 
@@ -41,7 +41,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <tr>
 <td>total entries:</td>
-<td><b class=blue>3690</b></td>
+<td><b class=blue>3691</b></td>
 </tr>
 
 </table>
@@ -77,8 +77,8 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Wed, 15 Dec 2021 20:40:58 GMT
-# entries:        3690
+# last updated:   Fri, 17 Dec 2021 09:44:29 GMT
+# entries:        3691
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/as/serverlist.php?mimetype=plain.text
@@ -1112,7 +1112,6 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 analytics.dnsfilter.com
 127.0.0.1 analytics.emarketer.com
 127.0.0.1 analytics.ext.go-tellm.com
-127.0.0.1 analytics.fkz.re
 127.0.0.1 analytics.google.com
 127.0.0.1 analytics.htmedia.in
 127.0.0.1 analytics.icons8.com
@@ -2155,6 +2154,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 incentaclick.com
 127.0.0.1 inclk.com
 127.0.0.1 incognitosearches.com
+127.0.0.1 incoming-telemetry.thunderbird.net
 127.0.0.1 incoming.telemetry.mozilla.org
 127.0.0.1 indexexchange.com
 127.0.0.1 indexstats.com
@@ -2673,6 +2673,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 outbrain.com
 127.0.0.1 overconfidentfood.com
 127.0.0.1 overture.com
+127.0.0.1 owebanalytics.com
 127.0.0.1 owebmoney.ru
 127.0.0.1 owlsr.us
 127.0.0.1 owneriq.net
@@ -3181,6 +3182,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 sponsorpro.de
 127.0.0.1 sponsors.thoughtsmedia.com
 127.0.0.1 spookysleet.com
+127.0.0.1 sportsad.net
 127.0.0.1 spot.fitness.com
 127.0.0.1 spotlessstamp.com
 127.0.0.1 spotscenered.info
@@ -3627,7 +3629,6 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 voodoo-ads.io
 127.0.0.1 vpon.com
 127.0.0.1 vrs.cz
-127.0.0.1 vrtzcontextualads.com
 127.0.0.1 vs.tucows.com
 127.0.0.1 vtracy.de
 127.0.0.1 vungle.com
