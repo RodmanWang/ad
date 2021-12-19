@@ -24,7 +24,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <tr>
 <td>blocklist last updated:</td>
-<td><b class=blue>Fri, 17 Dec 2021 09:44:29 GMT</b></td>
+<td><b class=blue>Sun, 19 Dec 2021 03:28:34 GMT</b></td>
 </tr>
 
 
@@ -41,7 +41,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <tr>
 <td>total entries:</td>
-<td><b class=blue>3691</b></td>
+<td><b class=blue>3709</b></td>
 </tr>
 
 </table>
@@ -77,8 +77,8 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Fri, 17 Dec 2021 09:44:29 GMT
-# entries:        3691
+# last updated:   Sun, 19 Dec 2021 03:28:34 GMT
+# entries:        3709
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/as/serverlist.php?mimetype=plain.text
@@ -304,6 +304,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 adcannyads.com
 127.0.0.1 adcash.com
 127.0.0.1 adcast.deviantart.com
+127.0.0.1 adcel.co
 127.0.0.1 adcell.de
 127.0.0.1 adcenter.net
 127.0.0.1 adcentriconline.com
@@ -931,6 +932,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 adskpak.com
 127.0.0.1 adsmart.com
 127.0.0.1 adsmart.net
+127.0.0.1 adsmetadata.startappservice.com
 127.0.0.1 adsmogo.com
 127.0.0.1 adsnative.com
 127.0.0.1 adsoftware.com
@@ -1101,7 +1103,6 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 ambiguousquilt.com
 127.0.0.1 ambitiousagreement.com
 127.0.0.1 americash.com
-127.0.0.1 amplitude.com
 127.0.0.1 amung.us
 127.0.0.1 analytics-production.hapyak.com
 127.0.0.1 analytics.adpost.org
@@ -1147,10 +1148,14 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 anxiousapples.com
 127.0.0.1 apathetictheory.com
 127.0.0.1 api.amplitude.com
+127.0.0.1 api.eu.amplitude.com
 127.0.0.1 api.intensifier.de
 127.0.0.1 api.kameleoon.com
+127.0.0.1 api.lab.amplitude.com
 127.0.0.1 api.rudderlabs.com
+127.0.0.1 api2.amplitude.com
 127.0.0.1 apolloprogram.io
+127.0.0.1 app-analytics-v2.snapchat.com
 127.0.0.1 app-analytics.snapchat.com
 127.0.0.1 app.pendo.io
 127.0.0.1 appboycdn.com
@@ -1296,6 +1301,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 baremetrics.com
 127.0.0.1 barnesandnoble.bfast.com
 127.0.0.1 basebanner.com
+127.0.0.1 basketballbelieve.com
 127.0.0.1 baskettexture.com
 127.0.0.1 bat.bing.com
 127.0.0.1 batbuilding.com
@@ -1537,6 +1543,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 cloisteredhydrant.com
 127.0.0.1 closedcows.com
 127.0.0.1 cloudcoins.biz
+127.0.0.1 cloudflare-dacdn.visualwebsiteoptimizer.com
 127.0.0.1 cloudflareinsights.com
 127.0.0.1 clrstm.com
 127.0.0.1 cluster.adultworld.com
@@ -1754,6 +1761,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 dsp.colpirio.com
 127.0.0.1 dsp.io
 127.0.0.1 dstillery.com
+127.0.0.1 dustywave.com
 127.0.0.1 dyntrk.com
 127.0.0.1 e-m.fr
 127.0.0.1 e-planning.net
@@ -1806,6 +1814,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 engage.webshrinker.com
 127.0.0.1 engage.windows.com
 127.0.0.1 engagebdr.com
+127.0.0.1 engageya.com
 127.0.0.1 engine.espace.netavenir.com
 127.0.0.1 enginenetwork.com
 127.0.0.1 enormousearth.com
@@ -1844,6 +1853,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 everesttech.net
 127.0.0.1 evergage.com
 127.0.0.1 eversales.space
+127.0.0.1 evidon.com
 127.0.0.1 evyy.net
 127.0.0.1 exanae.com
 127.0.0.1 exchange-it.com
@@ -2066,7 +2076,6 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 hitbox.com
 127.0.0.1 hitcounters.miarroba.com
 127.0.0.1 hitfarm.com
-127.0.0.1 hitiz.com
 127.0.0.1 hitlist.ru
 127.0.0.1 hitlounge.com
 127.0.0.1 hitometer.com
@@ -2164,6 +2173,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 inetlog.ru
 127.0.0.1 infinite-ads.com
 127.0.0.1 infinityads.com
+127.0.0.1 infoevent.startappservice.com
 127.0.0.1 infolinks.com
 127.0.0.1 information.com
 127.0.0.1 inmobi.com
@@ -2272,7 +2282,6 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 leadclick.com
 127.0.0.1 leadingedgecash.com
 127.0.0.1 leadplace.fr
-127.0.0.1 leady.com
 127.0.0.1 leadzupc.com
 127.0.0.1 leaplunchroom.com
 127.0.0.1 leftliquid.com
@@ -2382,6 +2391,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 marketing.hearstmagazines.nl
 127.0.0.1 marketing.net.brillen.de
 127.0.0.1 marketing.net.home24.de
+127.0.0.1 marketing.net.occhiali24.it
 127.0.0.1 marketing.nyi.net
 127.0.0.1 marketing.osijek031.com
 127.0.0.1 marketingsolutions.yahoo.com
@@ -2415,6 +2425,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 mediaarea.eu
 127.0.0.1 mediabridge.cc
 127.0.0.1 mediacharger.com
+127.0.0.1 mediafuse.com
 127.0.0.1 mediageneral.com
 127.0.0.1 mediaiqdigital.com
 127.0.0.1 mediamath.com
@@ -2518,6 +2529,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 myads.net
 127.0.0.1 myads.telkomsel.com
 127.0.0.1 myaffiliateprogram.com
+127.0.0.1 mybbc-analytics.files.bbci.co.uk
 127.0.0.1 mybestmv.com
 127.0.0.1 mybetterdl.com
 127.0.0.1 mybloglog.com
@@ -2559,6 +2571,8 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 netcommunities.com
 127.0.0.1 netdirect.nl
 127.0.0.1 netincap.com
+127.0.0.1 netmera-web.com
+127.0.0.1 netmera.com
 127.0.0.1 netmng.com
 127.0.0.1 netpool.netbookia.net
 127.0.0.1 netshelter.net
@@ -2892,6 +2906,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 r1.visualwebsiteoptimizer.com
 127.0.0.1 r2.visualwebsiteoptimizer.com
 127.0.0.1 r3.visualwebsiteoptimizer.com
+127.0.0.1 rabbitrifle.com
 127.0.0.1 radar.cedexis.com
 127.0.0.1 radarurl.com
 127.0.0.1 radiate.com
@@ -3166,6 +3181,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 spannersalesman.com
 127.0.0.1 sparklingshelf.com
 127.0.0.1 sparkstudios.com
+127.0.0.1 speakol.com
 127.0.0.1 specially4u.net
 127.0.0.1 specificmedia.co.uk
 127.0.0.1 specificpop.com
@@ -3302,6 +3318,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 t.firstpromoter.com
 127.0.0.1 t.insigit.com
 127.0.0.1 t.irtyd.com
+127.0.0.1 t.leady.com
 127.0.0.1 t.news.browns-restaurants.co.uk
 127.0.0.1 t.salesmatemail.com
 127.0.0.1 taboola.com
@@ -3429,6 +3446,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 track.freemmo2017.com
 127.0.0.1 track.game18click.com
 127.0.0.1 track.hexcan.com
+127.0.0.1 track.mailalert.io
 127.0.0.1 track.mailerlite.com
 127.0.0.1 track.segmetrics.io
 127.0.0.1 track.software-codes.com
