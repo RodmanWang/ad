@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: iFPXMYH0LZAaZipHH7b+3g
-! Version: 202112191250
+! Checksum: JoldmopteoPCnVuvT6KGLg
+! Version: 202112200100
 ! Title: Fanboy's Annoyance List
-! Last modified: 2021-12-19 12:50 UTC
+! Last modified: 2021-12-20 01:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -9727,6 +9727,7 @@ _vpcookieconsent/
 ###md_follow
 ###mediacontentsharebuttons
 ###mediasocialfollow
+###mega-footer-social-media
 ###menu--social-channels
 ###menu-cuckoo-social-menu
 ###menu-footer-social-icons
@@ -16371,6 +16372,7 @@ _vpcookieconsent/
 ##.newarticle__social
 ##.newdetailsocialwrapper
 ##.newheader__old-social
+##.news-article-social-icons-wrapper
 ##.news-article__share-content
 ##.news-content-share
 ##.news-detail-share
@@ -25752,6 +25754,7 @@ _vpcookieconsent/
 ###cp_cookie_bar
 ###cp_wrap
 ###cpnb_manager_wrap_close_bg
+###cpnb_warningBoxBgOverlay
 ###cpolicy-bar
 ###cpolicy-holder
 ###cpolicyHolder
@@ -29536,6 +29539,7 @@ _vpcookieconsent/
 ##.c09--cookie
 ##.c24-cookie
 ##.c2g_daimler_cookie_dialog_overlay
+##.c62-cookies-bar
 ##.cAcceptBar
 ##.cGDPR
 ##.cGDPR_Notice_Community
@@ -36126,6 +36130,7 @@ _vpcookieconsent/
 ||privacypolicy.trgr.be^
 ||propcom.co.uk/cookie/
 ||purevpn.com/loadGdprView
+||push-content.springernature.io^$script
 ||sheinsz.ltwebstatic.com/she_dist/assets/backup-onetrust.$script,domain=shein.co.uk
 ||sp.knowyourmeme.com^
 ||stromnetz-hamburg.de/matomo/js/
@@ -39797,7 +39802,7 @@ newscientist.com###marketingtertiary
 gearbest.com###mask
 rapidtvnews.com###masthead
 bcheights.com,cargofacts.com,cnn.com,dailyhive.com,egyptianstreets.com,etv.co.za,evonomics.com,fn.com,gimmesomeoven.com,kveller.com,lawandcrime.com,longreads.com,mtlblog.com,narrative.ly,nesthq.com,psychcentral.com,psypost.org,reductress.com,reliefweb.int,runthetrap.com,spectrumlocalnews.com,tennesseestar.com,themichiganstar.com,theminnesotasun.com,theohiostar.com,wweek.com###mc-embedded-subscribe-form
-99fm.com.na,activistmommy.com,ahtribune.com,alreporter.com,androidauthority.com,apriorit.com,artafricamagazine.org,bcheights.com,bhekisisa.org,bitguru.co.uk,biznews.com,blog.cloudflare.com,bowenislandundercurrent.com,breakingisraelnews.com,breakingnews.ie,burnabynow.com,californiasunday.com,capitolhillseattle.com,caribjournal.com,chinafile.com,churchmilitant.com,circuitdigest.com,cjr.org,cointelegraph.com,current.org,dailyfreepress.com,dailytimes.com.pk,dailytrust.com.ng,delta-optimist.com,exstreamist.com,firstpost.com,fusion.net,gaystarnews.com,ghafla.com,groovekorea.com,howlermagazine.com,ikeahackers.net,indiaclimatedialogue.net,iowapublicradio.org,iphoneincanada.ca,jewishinsider.com,justrunlah.com,majorgeeks.com,maoritelevision.com,monetarywatch.com,national-justice.com,nbc.na,newsthump.com,newtimes.co.rw,newzimbabwe.com,nextbigfuture.com,nodez.co,nsnews.com,ny1.com,nyc.gov,politifact.com,premiumtimesng.com,providr.com,punchng.com,rawstory.com,registerguard.com,richmond-news.com,rightwingtribune.com,rnw.org,russia-insider.com,sciencealert.com,sciencebulletin.org,seattletimes.com,secretflying.com,spokesman.com,sporttechie.com,stellar.ie,swissinfo.ch,techjuice.pk,technobuffalo.com,theartnewspaper.com,thegrayzone.com,theloadout.com,thenationalnews.com,thenewsflasher.com,thequint.com,thestar.com.my,thestranger.com,thethaiger.com,theyeshivaworld.com,trancentral.tv,tricitynews.com,truthuncensored.net,wayfm.com,worldhistory.org,worldreligionnews.com,wpr.org,wttw.com###mc_embed_signup
+99fm.com.na,activistmommy.com,ahtribune.com,alreporter.com,androidauthority.com,apriorit.com,artafricamagazine.org,bcheights.com,benwajdi.com,bhekisisa.org,bitguru.co.uk,biznews.com,blog.cloudflare.com,bowenislandundercurrent.com,breakingisraelnews.com,breakingnews.ie,burnabynow.com,californiasunday.com,capitolhillseattle.com,caribjournal.com,chinafile.com,churchmilitant.com,circuitdigest.com,cjr.org,cointelegraph.com,current.org,dailyfreepress.com,dailytimes.com.pk,dailytrust.com.ng,delta-optimist.com,exstreamist.com,firstpost.com,fusion.net,gaystarnews.com,ghafla.com,groovekorea.com,howlermagazine.com,ikeahackers.net,indiaclimatedialogue.net,iowapublicradio.org,iphoneincanada.ca,jewishinsider.com,justrunlah.com,majorgeeks.com,maoritelevision.com,monetarywatch.com,national-justice.com,nbc.na,newsthump.com,newtimes.co.rw,newzimbabwe.com,nextbigfuture.com,nodez.co,nsnews.com,ny1.com,nyc.gov,politifact.com,premiumtimesng.com,providr.com,punchng.com,rawstory.com,registerguard.com,richmond-news.com,rightwingtribune.com,rnw.org,russia-insider.com,sciencealert.com,sciencebulletin.org,seattletimes.com,secretflying.com,spokesman.com,sporttechie.com,stellar.ie,swissinfo.ch,techjuice.pk,technobuffalo.com,theartnewspaper.com,thegrayzone.com,theloadout.com,thenationalnews.com,thenewsflasher.com,thequint.com,thestar.com.my,thestranger.com,thethaiger.com,theyeshivaworld.com,trancentral.tv,tricitynews.com,truthuncensored.net,wayfm.com,worldhistory.org,worldreligionnews.com,wpr.org,wttw.com###mc_embed_signup
 activistmommy.com###mc_embed_signup-footer
 moneyweb.co.za###mc_embed_signup1
 priceonomics.com###mc_embed_signup_nojs
@@ -48928,7 +48933,7 @@ yoigo.com#@#thor-cookies
 @@||quantcast.mgr.consensu.org^*/choice.js$domain=bikeperfect.com|cyclingnews.com|digitalcameraworld.com|einthusan.tv|gamesradar.com|guitarplayer.com|independent.co.uk|indy100.com|laptopmag.com|livescience.com|livingetc.com|mahjong.com|musicradar.com|pcgamer.com|protothema.gr|realhomes.com|space.com|t3.com|techradar.com|tomsguide.com|whathifi.com|whattowatch.com
 @@||riwal.com/includes/js/components/cookiebar.js$script
 @@||santepubliquefrance.fr/rgpd/smarttag.js$script,~third-party
-@@||sdk.privacy-center.org^$script,domain=allocine.fr|corrieredellosport.it|franceculture.fr|franceinter.fr|francetvinfo.fr|gamestar.de|ivoox.com|jeuxvideo.com|lavanguardia.com|mundodeportivo.com|seguro.elespanol.com|tuttosport.com
+@@||sdk.privacy-center.org^$script,domain=allocine.fr|corrieredellosport.it|franceculture.fr|franceinter.fr|francetvinfo.fr|gamestar.de|ivoox.com|jeuxvideo.com|lavanguardia.com|mundodeportivo.com|seguro.elespanol.com|tuttosport.com|vecernji.hr
 @@||se.com/myschneider/assets/onetrust.$~third-party
 @@||shop.bora-sauna.de/components/cookieconsent2/build/cookieconsent.min.js
 @@||shop.dangerfield.com.au/min/$script,stylesheet

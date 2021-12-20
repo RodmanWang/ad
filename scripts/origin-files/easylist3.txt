@@ -5543,6 +5543,7 @@ cc-fan.tv,cn-fan.tv,fox-fan.tv,nf-fan.tv#@#.text_ads
 ! Common safari_cb_affinity(general,privacy)
 !#safari_cb_affinity(general,privacy)
 !#if (adguard_app_ios || adguard_ext_android_cb)
+otomobilgunluklerim.com#@##adcontent
 @@||kurs.com.ua^$generichide
 @@||brainly.com/app/scripts/wp-banners.js
 @@||pixiz.com/wp-banners.js
@@ -11981,8 +11982,8 @@ clario.co,sketchfab.com,internations.org##.js-gdpr-banner
 uniqlo.com##.h-modal-cookie
 gilmoreglobal.com,cronycle.com##.dialog-lightbox-widget-content
 123rf.com###tnc-bar
-horecatrends.pl,portalspozywczy.pl#$#.rodo { display: none!important; }
-horecatrends.pl,portalspozywczy.pl#$#body.windowOpen { overflow: visible!important; }
+rynekzdrowia.pl,horecatrends.pl,portalspozywczy.pl#$#.rodo { display: none !important; }
+rynekzdrowia.pl,horecatrends.pl,portalspozywczy.pl#$#body.windowOpen { overflow: auto !important; }
 visionexpress.pl##body > div[style*="position: fixed;"][style*="z-index:"][style*="background-color"]:not([class]):not([id])
 zrzutka.pl##.plicy
 find.com.tr###KVK_Cerez
@@ -14190,7 +14191,7 @@ cnn.com,liveuamap.com##.user-msg
 wohnwagen-forum.de,pesgalaxy.com,forum.gameware.at##.userNotice
 androidcentral.com##.usr-msg
 chevrolet.ru,cadillac.ru,opel.de##.ut_cookie_privacy_c1
-vavtv.com.tr,aspor.com.tr,ahaber.com.tr,atv.com.tr,cosmopolitanturkiye.com,fikriyat.com,fotomac.com.tr,turkuvazkitap.com.tr,turkuvazradyolar.com,yeniasir.com.tr##.veriAltBar
+paradergi.com.tr,vavtv.com.tr,aspor.com.tr,ahaber.com.tr,atv.com.tr,cosmopolitanturkiye.com,fikriyat.com,fotomac.com.tr,turkuvazkitap.com.tr,turkuvazradyolar.com,yeniasir.com.tr##.veriAltBar
 bravofly.de##.vg-cookie-notification-popup
 nick.com.pl,comedycentral.tv,viva.tv##.viacomcookiebar
 viamichelin.de##.vmapi-infocookies-wrapper
@@ -15874,6 +15875,8 @@ m.timesofindia.com,m-timesofindia-com.cdn.ampproject.org$$amp-consent
 ! @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=cc.com|3sat.de|zdf.de|costco.com|giantbomb.com|glovoapp.com|rte.ie|digitaltrends.com|spiele.bild.de|spiele.stern.de|vanityfair.com|saarbruecker-zeitung.de|olympics.com|dziendobry.tvn.pl|bergfreunde.de|oe24.at|epicgames.com|toteraz.pl|natgeotv.com|midomi.com|volksfreund.de|kawasaki.com|foxchannels.com.tr|ga.de|shop.mango.com|kralmuzik.com.tr|westernunion.com|roastmarket.de|new.cappex.com|vimeo.com|heute.at|ntv.com.tr|wargaming.net|metacritic.com|gq-magazine.co.uk|viafree.dk|viafree.fi|viafree.no|viafree.se|glamour.de|cbsnews.com|worldoftanks.ru|vg247.com|newyorker.com|games.miamiherald.com
 !
+! https://github.com/uBlockOrigin/uAssets/issues/10991
+@@||sdk.privacy-center.org^$script,domain=vecernji.hr
 ! https://github.com/AdguardTeam/AdguardFilters/issues/102010
 3sat.de#@##onetrust-consent-sdk
 ! https://github.com/AdguardTeam/AdguardFilters/issues/102072
@@ -18435,6 +18438,10 @@ amp-reddit-com.cdn.ampproject.org##.AppSelectorModal__body
 reddit.com#%#(function() { try { if ("undefined" != typeof localStorage) { localStorage.setItem("bannerLastClosed", "Thu Sep 16 2030 16:46:52 GMT+0300") } } catch (ex) {} })();
 reddit.com#%#(function() { try { if ("undefined" != typeof localStorage) { localStorage.setItem("pillLastClosed", "Thu Sep 16 2030 16:46:52 GMT+0300") } } catch (ex) {} })();
 !
+stayway.jp#?#.css-0 > div > div[class^="css-"] > img[src$="/app-icon.png"]:upward(1)
+stayway.jp##.css-0 > script[type="application/ld+json"] + div
+aumo.jp#$##js-smartBannerLink { display: none!important; }
+aumo.jp#$##wrapper-js[style^="padding-top:"] { padding-top: 48px!important; }
 ||bangumi.skyperfectv.co.jp/i/TV_guide_app_
 context.reverso.net###side-badges
 eapteka.ru##.notifications__item--mobile > .notification:not(.cookie-informer)
@@ -19957,6 +19964,8 @@ sodapdf.com##.be-tooltip
 ! Specific sites
 !######### Subscription popups add to subscriptions.txt #########
 !
+abema.tv#$#.body--prevent-scroll { overflow: auto!important; }
+abema.tv#$#.com-onboarding-OnboardingModalContainerView--enter-done { display: none!important; }
 cp.glico.jp###sec_modal_banner
 gd.ru#$#.paywall[data-window-name-for-ga] { display: none !important; }
 gd.ru#$#.megaShadow { display: none !important; }
@@ -19968,6 +19977,7 @@ m.baidu.com##div[class^="mkt-ball-wrapper__"]
 lkslodz.pl#%#//scriptlet('set-cookie', 'modal_rss', 'true')
 diocese-quimper.fr###alteriade_PH_loader
 digitalidentity.co.jp##div[class^="bnr_floating"]
+toyokeizai.net##div[class^="SURVIN_GUIDE_"]
 yenidonem.com.tr##.floating-wpp
 blog-jp.janetter.net##.tmblr-iframe--follow-teaser
 ||cxense.com/cx.cce.js$domain=gamespark.jp|inside-games.jp
@@ -20604,6 +20614,7 @@ logitech.com#$#.email-subscription-modal { display: none !important; }
 flipboard.com##.anchored-dialog.signup-cta
 digify.com###elementor-popup-modal-7782
 mens.tasclap.jp##.c-notice
+mens.tasclap.jp##.l-action-button-recommend
 vbee.vn##.banner-fix
 purkle.com.au#$#body { overflow: auto !important; }
 purkle.com.au#$##myProfileAccessQuestions { display: none !important; }
@@ -25911,12 +25922,16 @@ disk.yandex.*##.mail360-banner
 !-----------------------------------------------
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/101656
+||radiko.jp/res/feed/
 ! https://github.com/AdguardTeam/AdguardFilters/issues/103167
 pixiv.net##.premium-denki-t-footer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/102072
 businessinsider.de##.ll_partnerexpert
 ! https://github.com/AdguardTeam/AdguardFilters/issues/103381
 animatetimes.com##.c-banner-pc
+! https://github.com/AdguardTeam/AdguardFilters/issues/102073
+toyokeizai.net###induction-banner
 ! footer promo on mobile
 smartlog.jp###smlg_footer_ad
 ! https://github.com/AdguardTeam/AdguardFilters/issues/102619
@@ -29401,7 +29416,7 @@ towardsdatascience.com#?##root div:has(> h2:contains(Sign up for The Daily Pick)
 hashicorp.com##div[class^="BlogNewsletterSignup_blogNewsletterSignup"]
 insidermonkey.com,jpost.com##.daily-newsletter
 insidermonkey.com##.daily-newsletter + .email-privacy-policy-warning
-oyuncukuru.org,buneymis.net,siberkalem.com##.widget-mailchimp-subscribe
+otomobilgunluklerim.com,oyuncukuru.org,buneymis.net,siberkalem.com##.widget-mailchimp-subscribe
 vpncompare.co.uk,genbeta.com##.section-newsletter
 xataka.com#?#.aside-box:has(> form.newsletter-form)
 moneylo.fr#?#main > section:has(> div[class^="Section__Content-"] > div[class^="Subscribe__FormContainer-"])
@@ -32349,7 +32364,7 @@ comico.jp#$#.comic-image * { pointer-events: auto!important; }
 97fm.com.br#$#body { -webkit-touch-callout: default !important; -moz-user-select: auto !important; -webkit-user-select: auto !important; -ms-user-select: auto !important; -o-user-select: auto !important; user-select: auto !important; -khtml-user-select: auto !important; }
 bomtoon.com,novelpia.com#$#.no-drag { -webkit-touch-callout: default!important; -moz-user-select: auto!important; -webkit-user-select: auto!important; -ms-user-select: auto!important; -o-user-select: auto!important; user-select: auto!important; -khtml-user-select: auto!important; }
 toonnbook.nate.com#$#div#wrap.viewer { -webkit-touch-callout: default!important; -moz-user-select: auto!important; -webkit-user-select: auto!important; -ms-user-select: auto!important; -o-user-select: auto!important; user-select: auto!important; -khtml-user-select: auto!important; }
-bufftoon.plaync.com#$#img { touch-action: auto!important; pointer-events: auto!important; -webkit-touch-callout: default!important; -moz-user-select: auto!important; -webkit-user-select: auto!important; -ms-user-select: auto!important; -o-user-select: auto!important; user-select: auto!important; -khtml-user-select: auto!important; }
+toomics.com,bufftoon.plaync.com#$#img { touch-action: auto!important; pointer-events: auto!important; -webkit-touch-callout: default!important; -moz-user-select: auto!important; -webkit-user-select: auto!important; -ms-user-select: auto!important; -o-user-select: auto!important; user-select: auto!important; -khtml-user-select: auto!important; }
 m.novel.naver.com#$#._not_select { -webkit-touch-callout: default!important; -moz-user-select: auto!important; -webkit-user-select: auto!important; -ms-user-select: auto!important; -o-user-select: auto!important; user-select: auto!important; -khtml-user-select: auto!important; }
 page.kakao.com#$#.disableImageSave { pointer-events: auto!important; }
 novelmt.com#$#.chapter-content { user-select: auto !important; }
