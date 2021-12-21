@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: W0DvNYE4uB/O6Pxijrubyw
-! Version: 202112210100
+! Checksum: RWohDK0C6F5eXSysdL8mSQ
+! Version: 202112211300
 ! Title: Fanboy's Annoyance List
-! Last modified: 2021-12-21 01:00 UTC
+! Last modified: 2021-12-21 13:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -7757,7 +7757,6 @@ _vpcookieconsent/
 ###scrolltoptop
 ###scrolltotop
 ###scrolltotop_button
-###scrollup:not(body)
 ###scrollup_button
 ###site-scroll-top
 ###siteBackToTop_small_box
@@ -8141,7 +8140,6 @@ _vpcookieconsent/
 ##.scrolltop:not(body):not(html)
 ##.scrolltotopbutton
 ##.scrollup-container
-##.scrollup:not(body):not(html)
 ##.scroolTop:not(body):not(html)
 ##.sf-back-to-top
 ##.sh-back-to-top
@@ -47860,7 +47858,6 @@ tandfonline.com#@#.scrollToTop
 krasnodar.ru#@#.scrollTop
 hyperoptic.com,playtech.co.nz,porozmawiajmyoit.pl,scan.co.uk,zdorovodeti.ru#@#.scroll_top:not(body):not(html)
 ltn.com.tw,theuptake.org#@#.scrolltop:not(body):not(html)
-chorus.co.nz,jdpower.com#@#.scrollup:not(body):not(html)
 github.com,kifi.com,okcupid.com,retailmenot.com,zoom.us#@#.signup-email
 dualshockers.com#@#.socialfooter
 blackboat.com#@#.sqs-announcement-bar
@@ -48767,6 +48764,7 @@ yoigo.com#@#thor-cookies
 @@||klout.com/static/images/*icon
 @@||l.yimg.com/zz/combo?*social
 @@||libreprojects.net/logos/
+@@||lightboxcdn.com/vendor/$script,domain=adweek.com
 @@||livefyre.com/site_media/images/auth/$image
 @@||makeuseoflimited.netdna-cdn.com/pages/*/images/social.png$domain=makeuseof.com
 @@||my.leadpages.net/template/$script,domain=weddingjams.com
@@ -48856,7 +48854,7 @@ yoigo.com#@#thor-cookies
 @@||c.evidon.com/sitenotice/evidon-sitenotice-tag.js$script,domain=southpark.de|southparkstudios.nu
 @@||carport-diagnose.de/script/cookieconsent.min.js$script,~third-party
 @@||cdn.almamedia.fi/almacmp/$script,domain=iltalehti.fi
-@@||cdn.cookielaw.org^$script,stylesheet,xmlhttprequest,domain=cnn.com|comicbook.com|crfashionbook.com|crunchyroll.com|doctoroz.com|eurogamer.it|eurogamer.net|eurogamer.pl|eurogamer.pt|gamespot.com|geizhals.de|glovoapp.com|gmx.com|gq-magazine.co.uk|mail.com|mtvuutiset.fi|popculture.com|reuters.com|rockpapershotgun.com|rp-online.de|rte.ie|trustpilot.com|tvn24.pl|uefa.com|usgamer.net|vimeo.com|wargaming.net|worldsurfleague.com
+@@||cdn.cookielaw.org^$script,stylesheet,xmlhttprequest,domain=adweek.com|cnn.com|comicbook.com|crfashionbook.com|crunchyroll.com|doctoroz.com|eurogamer.it|eurogamer.net|eurogamer.pl|eurogamer.pt|gamespot.com|geizhals.de|glovoapp.com|gmx.com|gq-magazine.co.uk|mail.com|mtvuutiset.fi|popculture.com|reuters.com|rockpapershotgun.com|rp-online.de|rte.ie|trustpilot.com|tvn24.pl|uefa.com|usgamer.net|vimeo.com|wargaming.net|worldsurfleague.com
 @@||chasecdn.com^*/cookie.js$script,domain=chase.com
 @@||civiccomputing.com^*/cookieControl-$script,domain=amplitude.com|kit.co|msi.com|romania-insider.com|videogameschronicle.com
 @@||cloudflare.com^*/cookieconsent.min.js$domain=ehftv.com|pixieset.com|sammobile.com|xnview.com
@@ -49618,7 +49616,7 @@ yoigo.com#@#thor-cookies
 @@||telepolis.pl/media/cache/resolve/content_box/images/$image
 @@||teslarati.com/wp-content/themes/teslarati-mag/images/facebook_circle.png
 @@||teslarati.com/wp-content/themes/teslarati-mag/images/twitter_circle.png
-@@||tf1.fr/public/*/universal-view-ui-button-share-$script,~third-party
+@@||tf1.fr/public/*-share-$script,~third-party
 @@||tgcom24.mediaset.it/assets/js/amd/socialcount.js
 @@||tgstat.ru/js/share2/share.js$script,~third-party
 @@||thebluealliance.com/images/icons/$image,domain=thebluealliance.com

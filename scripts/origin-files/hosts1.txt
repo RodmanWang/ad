@@ -24,7 +24,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <tr>
 <td>blocklist last updated:</td>
-<td><b class=blue>Sun, 19 Dec 2021 03:28:34 GMT</b></td>
+<td><b class=blue>Tue, 21 Dec 2021 03:01:25 GMT</b></td>
 </tr>
 
 
@@ -41,7 +41,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <tr>
 <td>total entries:</td>
-<td><b class=blue>3709</b></td>
+<td><b class=blue>3710</b></td>
 </tr>
 
 </table>
@@ -77,8 +77,8 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Sun, 19 Dec 2021 03:28:34 GMT
-# entries:        3709
+# last updated:   Tue, 21 Dec 2021 03:01:25 GMT
+# entries:        3710
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/as/serverlist.php?mimetype=plain.text
@@ -2006,6 +2006,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 go-clicks.de
 127.0.0.1 go-mpulse.net
 127.0.0.1 go-rank.de
+127.0.0.1 go.icann.org
 127.0.0.1 go2affise.com
 127.0.0.1 goingplatinum.com
 127.0.0.1 goldstats.com
