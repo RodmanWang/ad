@@ -24,13 +24,13 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <tr>
 <td>blocklist last updated:</td>
-<td><b class=blue>Tue, 21 Dec 2021 03:01:25 GMT</b></td>
+<td><b class=blue>Tue, 21 Dec 2021 18:15:38 GMT</b></td>
 </tr>
 
 
 <tr>
 <td>listing ad servers added after:</td>
-<td><b class=blue>Wed, 26 Dec 2001 00:00:00</b></td>
+<td><b class=blue>Thu, 27 Dec 2001 00:00:00</b></td>
 </tr>
 
 
@@ -41,7 +41,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <tr>
 <td>total entries:</td>
-<td><b class=blue>3710</b></td>
+<td><b class=blue>3717</b></td>
 </tr>
 
 </table>
@@ -55,7 +55,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <form action="/as/serverlist.php">
 <input type=hidden name=hostformat value="hosts">
-<input type=hidden name="startdate[day]" value="26">
+<input type=hidden name="startdate[day]" value="27">
 <input type=hidden name="startdate[month]" value="12">
 <input type=hidden name="startdate[year]" value="2001">
 
@@ -77,8 +77,8 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Tue, 21 Dec 2021 03:01:25 GMT
-# entries:        3710
+# last updated:   Tue, 21 Dec 2021 18:15:38 GMT
+# entries:        3717
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/as/serverlist.php?mimetype=plain.text
@@ -86,7 +86,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Wed, 26 Dec 2001 00:00:00
+# start date:    Thu, 27 Dec 2001 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
@@ -1311,6 +1311,8 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 bbn.img.com.ua
 127.0.0.1 beachfront.com
 127.0.0.1 beacon.gu-web.net
+127.0.0.1 beam-ws.giraffe360.com
+127.0.0.1 beam.giraffe360.com
 127.0.0.1 beamincrease.com
 127.0.0.1 bebi.com
 127.0.0.1 beemray.com
@@ -1854,6 +1856,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 evergage.com
 127.0.0.1 eversales.space
 127.0.0.1 evidon.com
+127.0.0.1 evs.sgmt.loom.com
 127.0.0.1 evyy.net
 127.0.0.1 exanae.com
 127.0.0.1 exchange-it.com
@@ -2757,6 +2760,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 pietexture.com
 127.0.0.1 pilotaffiliate.com
 127.0.0.1 pimproll.com
+127.0.0.1 ping.hashnode.com
 127.0.0.1 ping.ublock.org
 127.0.0.1 pipedream.wistia.com
 127.0.0.1 pippio.com
@@ -3080,6 +3084,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 securemetrics.apple.com
 127.0.0.1 sedoparking.com
 127.0.0.1 sedotracker.com
+127.0.0.1 segment-cdn.producthunt.com
 127.0.0.1 selectivesummer.com
 127.0.0.1 semasio.net
 127.0.0.1 sendmepixel.com
@@ -3322,6 +3327,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 t.leady.com
 127.0.0.1 t.news.browns-restaurants.co.uk
 127.0.0.1 t.salesmatemail.com
+127.0.0.1 t.visitorqueue.com
 127.0.0.1 taboola.com
 127.0.0.1 tag.links-analytics.com
 127.0.0.1 tagan.adlightning.com
@@ -3449,6 +3455,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 track.hexcan.com
 127.0.0.1 track.mailalert.io
 127.0.0.1 track.mailerlite.com
+127.0.0.1 track.miro.com
 127.0.0.1 track.segmetrics.io
 127.0.0.1 track.software-codes.com
 127.0.0.1 track.themaccleanup.info
