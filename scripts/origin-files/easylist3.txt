@@ -7641,6 +7641,9 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 !
 !
 !
+live-tracking.locusmap.app###ktCookieStatement
+velken.de##.blur--bg
+||h.seznam.cz/js/cmp2/scmp-int.js$domain=slovnik.seznam.cz
 portrumia.pl##.js-Cookies
 yourcountdown.to##.gdpr-toggle
 sugi-net.jp##.wrap-gdpr
@@ -7655,6 +7658,7 @@ minilu.de###dcCookieHelper--bg
 velocitytechsolutions.com##div[data-wzb="CookieNotification"]
 softpos.eu#$#body { overflow: auto !important; }
 softpos.eu#$#.modal-rodo { display: none !important; }
+socratesdergi.com##div[class^="CookieBanner"]
 woolet.co##.ec-notices__wrap
 salonsecret.ru##div[class^="CookieWarning_"]
 entclick.com##.app-gdpr-notice
@@ -7805,7 +7809,7 @@ itech.co.ua##.seopress-user-message
 vivino.com###cookie-notice-container
 lenstip.com###id01.w3-modal
 m1cu.org##.alert-fixed[style]
-pixnet.net###gdpr-cover
+fox-saying.com,pixnet.net###gdpr-cover
 discountreactor.com##.cookies-mass
 casita.com##div[class*="styles_cookie-section__"]
 allegro.pl#$#body { overflow-y: auto !important; }
@@ -8286,7 +8290,7 @@ nordicnest.de#?##container > div[class]:has(> div[class] > div[class] > div[clas
 ||components2.gazzettaobjects.it/rcs_cpmt$domain=~video.gazzetta.it
 ||stihl.de/etc.clientlibs/stihl-frontend/clientlibs/components/content/cookie/cookielayer/
 petz.com.br##.policy-warning-banner
-||cdn.consentmanager.net^$domain=kundendienst-info.de|baunetz.de|rabe-bike.de|heinze.de|ais-online.de|dasoertliche.de|reno.de|walbusch.de|mathe-lexikon.at|katzen-forum.net|deutsche-apotheker-zeitung.de|brandible.de|my.games|vergleich.org
+||cdn.consentmanager.net^$domain=kundendienst-info.de|baunetz.de|rabe-bike.de|heinze.de|ais-online.de|dasoertliche.de|reno.de|walbusch.de|mathe-lexikon.at|katzen-forum.net|deutsche-apotheker-zeitung.de|brandible.de|my.games|vergleich.org|finanztip.de|baunetzwissen.de
 mod.io###achtung-overlay
 bringmeister.de##div[data-testid="cookiePopup"]
 planetkey.de##.survey.alert-box
@@ -14183,7 +14187,7 @@ shazam.com##.policy-label
 cocukludunya.com,iddaa.com,ciceksepeti.com##.policy-popup
 decuro.de##.popupBase.notification
 ratemyprofessors.com##.preventAcceptance.balaMainContainer
-gazeteoku.com,konhaber.com,haberfokus.com,belge.com.tr,medyatava.com,memurhaber.com,borsamatik.com.tr,dbschenker.com,elele.com.tr,superhaber.tv,dunya.com,gazeteciler.com,gazeteduvar.com.tr,f5haber.com,medyafaresi.com,internethaber.com,aceis.org.br,brilliant.org,elmaelma.com,internetspor.com,tv100.com,afs.org.br,cosdna.com,eksiup.com,greyhound.com,hpe.com##.privacy-banner
+internetistanbul.com,gazeteoku.com,konhaber.com,haberfokus.com,belge.com.tr,medyatava.com,memurhaber.com,borsamatik.com.tr,dbschenker.com,elele.com.tr,superhaber.tv,dunya.com,gazeteciler.com,gazeteduvar.com.tr,f5haber.com,medyafaresi.com,internethaber.com,aceis.org.br,brilliant.org,elmaelma.com,internetspor.com,tv100.com,afs.org.br,cosdna.com,eksiup.com,greyhound.com,hpe.com##.privacy-banner
 fraunhofer.de##.privacy-piwik
 thescore.com##.privacy-popup-wrapper
 speedtest.net##.privacy-update
@@ -15068,6 +15072,8 @@ consent2.ksta.de#%#AG_onLoad(function(){if(window.location.href.includes("consen
 privacy.lecker.de#%#AG_onLoad(function(){if(!document.cookie.includes("euconsent-v2")){var g=new MutationObserver(function(){setTimeout(function(){var b=document.querySelector('button.no-children[path="\[0,2,1\]"]');b&&b.click();},300);setTimeout(function(){var c=document.querySelector('div[title="Berechtigte Interessen"]'); c&&c.click();},300);setTimeout(function(){var d=document.querySelectorAll('label[aria-checked="true"] > .off'); d.forEach(function(d){d.click();});},800); var f=document.querySelector('button.no-children[path="\[0,3,0\]"]'); setTimeout(function(){f&&f.click();},1000);});g.observe(document,{childList:!0,subtree:!0});setTimeout(function(){g.disconnect()},3E4)}});
 privacy.madame.de#%#AG_onLoad(function(){if(!document.cookie.includes("euconsent-v2")){var g=new MutationObserver(function(){setTimeout(function(){var b=document.querySelector('button.no-children[path="\[0,2,1\]"]');b&&b.click();},300);setTimeout(function(){var c=document.querySelector('div[title="Berechtigte Interessen"]'); c&&c.click();},300);setTimeout(function(){var d=document.querySelectorAll('label[aria-checked="true"] > .off'); d.forEach(function(d){d.click();});},800); var f=document.querySelector('button.no-children[path="\[0,3,0\]"]'); setTimeout(function(){f&&f.click();},1000);});g.observe(document,{childList:!0,subtree:!0});setTimeout(function(){g.disconnect()},3E4)}});
 !
+kjell.com#%#//scriptlet("set-cookie", "ccValues", "1")
+energetyka24.com,space24.pl,cyberdefence24.pl,defence24.pl,defence24.com#%#//scriptlet('set-local-storage-item', 'd24Cookie', 'true')
 galaxy-centrum.pl#%#//scriptlet("set-cookie", "cookies-shown", "true")
 banbye.pl#%#//scriptlet('set-local-storage-item', 'cookiesDismissed', 'true')
 bitburger.de#%#//scriptlet('set-cookie', 'cookies-general', 'true')
@@ -15602,7 +15608,7 @@ pixivision.net#%#document.cookie = "privacy_policy_agreement=2; path=/";
 cdn.privacy-mgmt.com#%#AG_onLoad(function(){if(window.self!==window.top&&document.referrer.startsWith("https://ekstrabladet.dk/")){var a=new MutationObserver(function(){var b=document.querySelector('button.message-button[path="[0,3,3]"]');b&&(a.disconnect(),b.click())});a.observe(document,{childList:!0,subtree:!0});setTimeout(function(){a.disconnect()},1E4)}});
 politainment.no#%#document.cookie = "complianz_consent_status=allow; path=/;";
 sourcepoint.n-tv.de#%#AG_onLoad(function(){if(!document.cookie.includes("euconsent-v2")){var g=new MutationObserver(function(){setTimeout(function(){var b=document.querySelector('button[title^="Einstellungen"]');b&&b.click();},800);setTimeout(function(){var c=document.querySelectorAll('.page-action');c[0]&&c[0].click();},800);setTimeout(function(){var d=document.querySelector('.is-checked'),f=document.querySelector('button[title="Auswahl speichern"]');d&&d.click();f&&f.click()},1000)});g.observe(document,{childList:!0,subtree:!0});setTimeout(function(){g.disconnect()},1E4)}});
-boursorama.com,cnews.fr,programme-television.org,dn.se,lasprovincias.es#%#AG_onLoad(function(){if(!document.cookie.includes("euconsent-v2")){var b=new MutationObserver(function(){if("object"===typeof Didomi){var a,c=document.querySelector('button#didomi-notice-agree-button');c&&(null===(a=Didomi)||void 0===a?0:a.setUserAgreeToAll)&&(b.disconnect(),c.click())}});b.observe(document,{childList:!0,subtree:!0});setTimeout(function(){b.disconnect()},1E4)}});
+marianne.net,boursorama.com,cnews.fr,programme-television.org,dn.se,lasprovincias.es#%#AG_onLoad(function(){if(!document.cookie.includes("euconsent-v2")){var b=new MutationObserver(function(){if("object"===typeof Didomi){var a,c=document.querySelector('button#didomi-notice-agree-button');c&&(null===(a=Didomi)||void 0===a?0:a.setUserAgreeToAll)&&(b.disconnect(),c.click())}});b.observe(document,{childList:!0,subtree:!0});setTimeout(function(){b.disconnect()},1E4)}});
 filmstarts.de#%#AG_onLoad(function(){if(!document.cookie.includes("euconsent-v2")){var b=new MutationObserver(function(){if("object"===typeof Didomi){var a,c=document.querySelector('#didomi-popup button#didomi-notice-agree-button');c&&(null===(a=Didomi)||void 0===a?0:a.setUserAgreeToAll)&&(b.disconnect(),c.click())}});b.observe(document,{childList:!0,subtree:!0});setTimeout(function(){b.disconnect()},1E4)}});
 gamestar.de#%#AG_onLoad(function(){if(!document.cookie.includes("euconsent-v2")){var b=new MutationObserver(function(){if("object"===typeof Didomi){var a,c=document.querySelector('#cmp-modal > #cmp-container a.btn.cmp-accept');c&&(null===(a=Didomi)||void 0===a?0:a.setUserAgreeToAll)&&(b.disconnect(),c.click())}});b.observe(document,{childList:!0,subtree:!0});setTimeout(function(){b.disconnect()},1E4)}});
 digitalfoundry.net#%#AG_onLoad(function(){if(-1==document.cookie.indexOf("OptanonAlertBoxClosed")){var a=new MutationObserver(function(){var b=document.querySelector(".optanon-alert-box-wrapper"),c=document.querySelector("button.accept-cookies-button");b&&c&&(a.disconnect(),c.click(),b.style="display: none !important;")});a.observe(document,{childList:!0,subtree:!0});setTimeout(function(){a.disconnect()},1E4)}});
@@ -15927,6 +15933,9 @@ m.timesofindia.com,m-timesofindia-com.cdn.ampproject.org$$amp-consent
 ! @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=cc.com|3sat.de|zdf.de|costco.com|giantbomb.com|glovoapp.com|rte.ie|digitaltrends.com|spiele.bild.de|spiele.stern.de|vanityfair.com|saarbruecker-zeitung.de|olympics.com|dziendobry.tvn.pl|bergfreunde.de|oe24.at|epicgames.com|toteraz.pl|natgeotv.com|midomi.com|volksfreund.de|kawasaki.com|foxchannels.com.tr|ga.de|shop.mango.com|kralmuzik.com.tr|westernunion.com|roastmarket.de|new.cappex.com|vimeo.com|heute.at|ntv.com.tr|wargaming.net|metacritic.com|gq-magazine.co.uk|viafree.dk|viafree.fi|viafree.no|viafree.se|glamour.de|cbsnews.com|worldoftanks.ru|vg247.com|newyorker.com|games.miamiherald.com
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/103677
+! TODO: can be replace by redirect resource if it will be added
+@@||sdk.privacy-center.org^$domain=marianne.net
 ! https://github.com/AdguardTeam/AdguardFilters/issues/103764
 ! https://github.com/AdguardTeam/Scriptlets/issues/172
 ! TODO: can be replace by redirect resource if it will be added
@@ -26000,6 +26009,8 @@ disk.yandex.*##.mail360-banner
 !-----------------------------------------------
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/103712
+lab.sonicmoov.com###side-banner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/104024
 robotstart.info##.r-col > div.widget:first-child
 ! https://github.com/AdguardTeam/AdguardFilters/issues/103131
@@ -27837,6 +27848,20 @@ quinhillyer.com,johnbiver.com,jasonmattera.com,ipatriot.com,hooligancharters.com
 ##.widget_blog_subscription
 ~curvegames.com,~news.un.org,~norwichzen.org.uk,~dereferer.me###mc_embed_signup
 !
+mfo-matratzen.de#$#div[class*="newspopup_"] { display: none!important; }
+mfo-matratzen.de#$#body { overflow: visible!important; }
+albelli.de#$#.newsletter-popup-modal { overflow: visible!important; }
+albelli.de#$#body { overflow: visible!important; padding-right: 0!important; }
+albelli.de##.arc3-newsletter-bar
+baunetzwissen.de###eye_catcher
+make-it-in-germany.com##div[id^="popup"]
+agro-center.de#$?#.container > div.modal:has(a[href="https://agro-center.de/newsletteranmeldung/"]) { display: none!important; }
+agro-center.de#$#.modal-backdrop { display: none!important; }
+agro-center.de#$#body { overflow: visible!important; padding-right: 0!important; }
+ideeundspiel.com#$##newsletter-popup-modal___BV_modal_outer_ { display: none !important; }
+ideeundspiel.com#$#body.modal-open { overflow: auto !important; padding-right: 0 !important; }
+marianne.net##.tc-subscription-bar
+marianne.net#%#//scriptlet('set-cookie', 'mrn_nl_abo', '1')
 moses-verlag.de#%#//scriptlet('set-local-storage-item', 'newsletter-flyout', '1')
 m.vz.ru##main > div.signature
 f5.com##div[class*="-newsletter-signup-"]
@@ -28403,9 +28428,9 @@ bdnews24.com##iframe[src="https://newsletter.bdnews24.com/bangla/embedded"]
 waz.de,nrz.de##.inline-block--wide[data-widget*="Content Wetter (hier: Newsletter)"]
 waz.de,otz.de,nrz.de,braunschweiger-zeitung.de,abendblatt.de,nrz.de,morgenpost.de,wolfsburger-nachrichten.de,wolfenbuetteler-zeitung.de,thueringer-allgemeine.de###piano-newsletter-inline
 waz.de,otz.de,nrz.de,braunschweiger-zeitung.de,abendblatt.de,wolfsburger-nachrichten.de,wolfenbuetteler-zeitung.de,morgenpost.de##.newsletter-cleverreach
-waz.de,nrz.de,braunschweiger-zeitung.de,abendblatt.de,wolfsburger-nachrichten.de,wolfenbuetteler-zeitung.de,ynet.co.il#$#html > body.tp-modal-open { overflow: auto !important; }
-waz.de,nrz.de,braunschweiger-zeitung.de,abendblatt.de,wolfsburger-nachrichten.de,wolfenbuetteler-zeitung.de,ynet.co.il#$#div[class="tp-modal"][style="z-index: 300050; display: block;"] { display: none !important; }
-waz.de,nrz.de,braunschweiger-zeitung.de,abendblatt.de,wolfsburger-nachrichten.de,wolfenbuetteler-zeitung.de,ynet.co.il#$#div[class="tp-modal"][style="z-index: 300050; display: block;"] ~ div.tp-backdrop { display: none !important; }
+morgenpost.de,waz.de,nrz.de,braunschweiger-zeitung.de,abendblatt.de,wolfsburger-nachrichten.de,wolfenbuetteler-zeitung.de,ynet.co.il#$#html > body.tp-modal-open { overflow: auto !important; }
+morgenpost.de,waz.de,nrz.de,braunschweiger-zeitung.de,abendblatt.de,wolfsburger-nachrichten.de,wolfenbuetteler-zeitung.de,ynet.co.il#$#div[class="tp-modal"][style="z-index: 300050; display: block;"] { display: none !important; }
+morgenpost.de,waz.de,nrz.de,braunschweiger-zeitung.de,abendblatt.de,wolfsburger-nachrichten.de,wolfenbuetteler-zeitung.de,ynet.co.il#$#div[class="tp-modal"][style="z-index: 300050; display: block;"] ~ div.tp-backdrop { display: none !important; }
 buy.tinypass.com##.plus-banner[external-event-trackingvars*="Banner-"][external-event-trackingvars*="-sticky" i]
 mebel169.ru###show-coupon-btn
 weltsparen.de###newsletter-subscription-modal
