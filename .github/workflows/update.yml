@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   
   schedule:
-    - cron:  '30 0/12 * * *'
+    - cron:  '30 21/12 * * *'  #北京时间
 jobs:
   build:
     runs-on: ubuntu-latest
