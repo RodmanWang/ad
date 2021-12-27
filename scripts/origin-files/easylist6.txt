@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: rEk5ZF/2FnWtvF6ij9JImA
-! Version: 202112262000
+! Checksum: 8L+5K5UUENWiue1ezDmIFQ
+! Version: 202112272000
 ! Title: Fanboy's Annoyance List
-! Last modified: 2021-12-26 20:00 UTC
+! Last modified: 2021-12-27 20:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4566,6 +4566,9 @@ _site_cookie_
 _vpcookieconsent/
 ! https://github.com/AdguardTeam/AdguardFilters/blob/master/AnnoyancesFilter/sections/cookies_specific.txt#L53
 /pp-t-a-c.js$script
+! fanboy_newsletter_general_block.txt
+! fanboy_newsletter_international_block.txt
+! fanboy_newsletter_specific_block.txt
 !------------------------General element hiding rules-------------------------!
 ###FooterboardMobile
 ###LiShare
@@ -14353,6 +14356,7 @@ _vpcookieconsent/
 ##.g-share
 ##.g-social
 ##.g1-drop-the-socials
+##.g1-social
 ##.g1-social-icons
 ##.g1-socials-item
 ##.g1-socials-section
@@ -29461,6 +29465,7 @@ _vpcookieconsent/
 ##.c-cookie--disclaimer
 ##.c-cookie-banner
 ##.c-cookie-banner--default
+##.c-cookie-banner-container
 ##.c-cookie-bar
 ##.c-cookie-block
 ##.c-cookie-consent
@@ -32631,6 +32636,7 @@ _vpcookieconsent/
 ##.js-cookie-alert
 ##.js-cookie-alert1
 ##.js-cookie-banner
+##.js-cookie-banner-container
 ##.js-cookie-banner-terminal
 ##.js-cookie-bar
 ##.js-cookie-close
@@ -34795,6 +34801,9 @@ _vpcookieconsent/
 ##.rcc-panel
 ##.recocliv2
 ##.show.cp-wrap
+! fanboy_newsletter_general_hide.txt
+! fanboy_newsletter_specific_hide.txt
+! fanboy_newsletter_international_hide.txt
 !-------------------------Third-party blocking rules--------------------------!
 ||123cursors.com^$third-party
 ||1worldonline.com^$third-party
@@ -35671,6 +35680,7 @@ _vpcookieconsent/
 ||youtube.com/subscribe_embed?$third-party
 ||youtube.com/subscribe_widget$third-party
 ||zextit.com/partners/$third-party
+! fanboy_newsletter_thirdparty.txt
 ||admiral.mgr.consensu.org^$third-party
 ||akamaihd.net/cpmt/
 ||alma-cmp.almamedia.io^
@@ -35693,6 +35703,7 @@ _vpcookieconsent/
 ||consentag.eu^$third-party
 ||consentframework.com^$third-party
 ||consentmanager.mgr.consensu.org^$third-party
+||consentmanager.net^$third-party
 ||cookie-accept.com^$third-party
 ||cookie-script.com^$third-party
 ||cookie.support^$third-party
@@ -46330,6 +46341,7 @@ guideastuces.com###agreeMsg
 decrypterlenergie.org,ecrypterlenergie.org###alert-mention
 zdnet.fr###catfish
 iti-maps.fr###cc_overlay
+lci.fr###content
 skitour.fr###coo_aut
 keskeces.com###cook
 paconsulting.com###cookPop
@@ -48482,7 +48494,7 @@ www.free.fr#@##cookieconsent
 gocomics.com#@##cookieconsent-container
 gruenderservice.at#@##cookiehint
 porno720.pl,tvporno.pl#@##cookieinfo
-warta.pl#@##cookieman-modal
+jku.at,warta.pl#@##cookieman-modal
 qastack.fr#@##cookies-accept
 qastack.fr#@##cookies-consent
 paradoxplaza.com#@##cookies-info
@@ -49742,3 +49754,7 @@ yoigo.com#@#thor-cookies
 @@||material.cmiscm.com/images/share.png
 @@||privacypal.co/assets/img/fb.jpg
 @@||volkswagen-electrique.fr/img/share/share.jpg
+! fanboy_newsletter_allowlist.txt
+! fanboy_newsletter_allowlist_general_hide.txt
+! fanboy_newsletter_specific_uBO.txt
+! fanboy_newsletter_specific_ABP.txt
