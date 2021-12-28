@@ -30,7 +30,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <tr>
 <td>listing ad servers added after:</td>
-<td><b class=blue>Tue, 01 Jan 2002 00:00:00</b></td>
+<td><b class=blue>Wed, 02 Jan 2002 00:00:00</b></td>
 </tr>
 
 
@@ -41,7 +41,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <tr>
 <td>total entries:</td>
-<td><b class=blue>3679</b></td>
+<td><b class=blue>3678</b></td>
 </tr>
 
 </table>
@@ -55,7 +55,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <form action="/as/serverlist.php">
 <input type=hidden name=hostformat value="hosts">
-<input type=hidden name="startdate[day]" value="1">
+<input type=hidden name="startdate[day]" value="2">
 <input type=hidden name="startdate[month]" value="1">
 <input type=hidden name="startdate[year]" value="2002">
 
@@ -78,7 +78,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Sat, 25 Dec 2021 17:32:40 GMT
-# entries:        3679
+# entries:        3678
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/as/serverlist.php?mimetype=plain.text
@@ -86,7 +86,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Tue, 01 Jan 2002 00:00:00
+# start date:    Wed, 02 Jan 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
@@ -1828,7 +1828,6 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 everesttech.net
 127.0.0.1 evergage.com
 127.0.0.1 eversales.space
-127.0.0.1 evidon.com
 127.0.0.1 evs.sgmt.loom.com
 127.0.0.1 evyy.net
 127.0.0.1 exanae.com

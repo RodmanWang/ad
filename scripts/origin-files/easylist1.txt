@@ -278,6 +278,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||ast.red.asp.appirits.com^$third-party
 ||pagesense.io^$third-party
 ||livetracker.*.pangea-cms.com^$third-party
 ||t.irtyc.com^
@@ -495,7 +496,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||a.ddli.jp^
 ||b92.yahoo.co.jp^
 ||cf-native.karte.io^
-||lptag.liveperson.net^
 ||pub.toku-tag.jp^$third-party
 ||s.adroll.com^
 ||script-ad.mobadme.jp^
@@ -4931,6 +4931,7 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||anon-stats.eff.org^
 ||improving.wuzhuiso.com^
 ||analytics.tebilisim.com^
 ||analytics-sdk.yle.fi^
@@ -19420,6 +19421,8 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|partifabrik.com|newsmax.com
 !
+||iterable.com/analytics.js
+||rs.mail.ru/*.gif$image,redirect=1x1-transparent.gif,domain=my.mail.ru
 ||jsdelivr.net/*/fp.min.js
 ||yeniakit.com.tr/process/analytics
 ||ae-api.ximera.com/api/*/gtm
@@ -22545,6 +22548,7 @@ $app=com.miui.analytics
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
 !
+||mapi-log.qoo*.jp^
 ||events.api.red.wemesh.ca^
 ||piano_log.kingsoft.jp^
 ||prod-plague-bacon.miniclippt.com^
@@ -23419,8 +23423,6 @@ pizzakiosk.ee#@#img[width="88"][height="31"]
 ||citiintl.122.2o7.net/b/ss/citiintlemeapolandprod$image,redirect=1x1-transparent.gif,domain=citibankonline.pl
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@||citiintl.122.2o7.net/b/ss/citiintlemeapolandprod$domain=citibankonline.pl
-! www.uniqlo.com/jp/ja/checkout/payment - broken after choosing delivery method
-@@||lptag.liveperson.net/tag/tag.js$domain=uniqlo.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/91822
 @@||ak.sail-horizon.com/spm/spm.v*.min.js$domain=usnews.com
 @@||googletagmanager.com/gtag/$domain=usnews.com
@@ -23465,9 +23467,6 @@ pizzakiosk.ee#@#img[width="88"][height="31"]
 @@||googletagmanager.com/gtm.js$domain=shockwave.com
 ! fix history on Firefox
 @@||dsb.yahoo.co.jp/api/v1/stream$xmlhttprequest,domain=gyao.yahoo.co.jp
-! https://github.com/AdguardTeam/AdguardFilters/issues/90774
-@@||lptag.liveperson.net/tag/tag.js$domain=freedommobile.ca
-@@||lptag.liveperson.net/lptag/api^$domain=freedommobile.ca
 ! https://github.com/AdguardTeam/AdguardFilters/issues/90683
 @@||googletagmanager.com/gtag/js?id=$domain=rotana.net
 ||googletagmanager.com/gtag/js?id=$script,other,redirect=noopjs,domain=rotana.net,important
