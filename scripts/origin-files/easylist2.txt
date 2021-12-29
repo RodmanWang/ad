@@ -1330,6 +1330,8 @@ japanese.joins.com,sedaily.com,canshop.jp,koreatimes.co.kr,m.chosun.com,sports.d
 ! ##.content__post--meta-social
 otomobilgunluklerim.com,tilki.net,ekosayfa.com,bilisimogretmeni.com,azbuz.org,siberkalem.com,teknobird.com,buneymis.net,teknoxhaber.com,fosforludusunceler.com,kirtkirtla.com,oyuncukuru.org,denizcilikbilgileri.com,hknkr.com,kadioglublog.com##.content__post--meta-social
 !
+tripnote.jp###fb-like-box
+beautyhack.ru##.art-controls
 ci-labo.com##.m-journal-box-header-sns
 shinchosha.co.jp##.mod-sns2
 shinchosha.co.jp##.sns_btn_box
@@ -7999,7 +8001,7 @@ radyo.trt.net.tr##.social-icons-small
 acura.com##.social-icons:not(.last)
 theatlantic.com##.social-kit__item
 rzn.info,skidkaonline.ru##.social-like
-rlsnet.ru,culture.pl,transfermarkt.de,pclab.pl,yeniakit.com.tr,calciomercato.it,ikinciyeni.com,outlookindia.com,dailymail.co.uk##.social-links
+beautyhack.ru,rlsnet.ru,culture.pl,transfermarkt.de,pclab.pl,yeniakit.com.tr,calciomercato.it,ikinciyeni.com,outlookindia.com,dailymail.co.uk##.social-links
 sovsport.ru##.social-list
 idnes.cz##.social-list-bubble
 imhonet.ru##.social-net
@@ -8658,7 +8660,7 @@ betanews.com##.social-links-wrap
 ##a[href^="https://social-plugins.line.me/lineit/share?url="]
 ##amp-facebook-like
 ##amp-social-share
-##a[href^="http://line.naver.jp/R/msg/text/?"]
+##a[href^="http://line.naver.jp/R/msg/text/"]
 ##.vf-share-bar-vertical
 ##.wpusb-btn
 ##.ampz_facebook
@@ -10266,6 +10268,9 @@ designervn.net#@#.fb-share-button
 !#endif
 ! #End Social locker
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/104706
+news.nicovideo.jp#@#.share-facebook
+news.nicovideo.jp#@#.share-twitter
 ! https://github.com/AdguardTeam/AdguardFilters/issues/104102
 gazetekadikoy.com.tr#@#.social-box
 ! https://github.com/AdguardTeam/AdguardFilters/issues/104054 unhide follow buttons

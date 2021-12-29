@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /6PO4Hx13Uvur74qBTl6mA
-! Version: 202112291650
+! Checksum: kU2IOyLXHRaEylwEe77GMA
+! Version: 202112292200
 ! Title: Fanboy's Annoyance List
-! Last modified: 2021-12-29 16:50 UTC
+! Last modified: 2021-12-29 22:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -549,6 +549,7 @@ _site/gotop.
 /t2push.
 /wdt_notifyjson.
 /web-push-
+/web-push-notification/*
 /web-push-worker.
 /web-push.
 /web-push/init.
@@ -34327,6 +34328,7 @@ _subscribers_newsletters/
 ##.occ-footer__newsletter--container
 ##.oi-dailyalerts
 ##.oi-dailyalerts-signup
+##.omeda-newsletter-block
 ##.omniture_email
 ##.open-modal-email-panel
 ##.openNewsletter
@@ -35091,7 +35093,6 @@ _subscribers_newsletters/
 ||sail-personalize.com^$third-party
 ||sailthru.com^$third-party
 ||sales-pop-dot-autoketing-production-sdk.appspot.com^$third-party
-||sample.dragonforms.com^$subdocument,third-party
 ||savvysource.com^$third-party
 ||scorespro.com^$third-party
 ||scoutle.com^$third-party
@@ -35786,6 +35787,7 @@ _subscribers_newsletters/
 ||sp-prod.net^$third-party,domain=~11freunde.de|~autobild.de|~bike-bild.de|~bild.de|~boerse-online.de|~bold.dk|~businessinsider.de|~businessinsider.fr|~bz-berlin.de|~caramia.de|~clever-tanken.de|~computerbild.de|~edelblech.de|~faz.net|~finanzen.at|~finanzen.ch|~finanzen.net|~fitbook.de|~gentside.com|~gofeminin.de|~idealo.at|~idealo.co.uk|~idealo.de|~idealo.es|~idealo.fr|~idealo.it|~immonet.de|~insider.com|~kombi.de|~maxisciences.com|~meinestadt.de|~metal-hammer.de|~musikexpress.de|~myhomebook.de|~n24.de|~noizz.de|~onmeda.de|~politico.eu|~rollingstone.de|~sportbild.de|~stylebook.de|~techbook.de|~testbild.de|~transfermarkt.at|~transfermarkt.ch|~transfermarkt.co.uk|~transfermarkt.com|~transfermarkt.com.tr|~transfermarkt.de|~transfermarkt.fr|~transfermarkt.it|~transfermarkt.nl|~transfermarkt.pl|~transfermarkt.pt|~transfermarkt.us|~travelbook.de|~tvspielfilm.de|~vip.de|~welt.de|~wieistmeineip.at|~wieistmeineip.ch|~wieistmeineip.de|~zuio.tv
 ! fanboy_newsletter_thirdparty.txt
 ||lightboxcdn.com/vendor/$script,third-party
+||sample.dragonforms.com^$subdocument,third-party
 ||secondstreetapp.com/embed/$subdocument
 !--------------------------Specific blocking filters--------------------------!
 ||4chan.org/b/*.swf
@@ -35896,6 +35898,7 @@ _subscribers_newsletters/
 ||alibaba.com/sw.js
 ||annahar.com/assets/js/notifications.js
 ||bdstatic.com/linksubmit/push.js
+||dailymail.co.uk^*/sw.js
 ||gadgetsnow.com/sw.cms
 ||hindustantimes.com^*/ht-notification-
 ||indiatimes.com/pn/
@@ -36037,6 +36040,7 @@ _subscribers_newsletters/
 ||agicssecurity.com/Header/ajax/cookie.php
 ||appconsent.io^
 ||asus.com/js/*/alert-info.js
+||cmp.cdn.thesun.ie^
 ||cmp.infopro-digital.com^
 ||cmp.osano.com^
 ||cmp.parool.nl^
@@ -36076,7 +36080,14 @@ _subscribers_newsletters/
 ||push-content.springernature.io^$script
 ||sheinsz.ltwebstatic.com/she_dist/assets/backup-onetrust.$script,domain=shein.co.uk
 ||sourcepoint.avclub.com^
+||sourcepoint.deadspin.com^
 ||sourcepoint.dexerto.com^
+||sourcepoint.gizmodo.com^
+||sourcepoint.jalopnik.com^
+||sourcepoint.lifehacker.com^
+||sourcepoint.theonion.com^
+||sourcepoint.theroot.com^
+||sourcepoint.thetakeout.com^
 ||sp.knowyourmeme.com^
 ||stromnetz-hamburg.de/matomo/js/
 ||t13.9to5google.com^
@@ -42378,6 +42389,7 @@ singtel.com##.ux-consent-banner
 whitepages.com##.v-snack__content
 kusmitea.com##.veil
 dailysabah.com##.veriAltBar
+medium.com##.vi.vh.vg.mk.es.eq
 robertozeno.com##.video-mask
 remosoftware.com##.visitornotice
 trendyol.com##.vnotify-container
