@@ -41,7 +41,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <tr>
 <td>total entries:</td>
-<td><b class=blue>3681</b></td>
+<td><b class=blue>3679</b></td>
 </tr>
 
 </table>
@@ -78,7 +78,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Wed, 29 Dec 2021 13:27:43 GMT
-# entries:        3681
+# entries:        3679
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/as/serverlist.php?mimetype=plain.text
@@ -87,7 +87,6 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
 # start date:    Sat, 05 Jan 2002 00:00:00
-127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
 127.0.0.1 123freeavatars.com
@@ -257,6 +256,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 ad0.bigmir.net
 127.0.0.1 ad01.mediacorpsingapore.com
 127.0.0.1 ad1.emule-project.org
+127.0.0.1 ad1.eventmanager.co.kr
 127.0.0.1 ad1.kde.cz
 127.0.0.1 ad1.pamedia.com.au
 127.0.0.1 ad2.iinfo.cz
@@ -2903,7 +2903,6 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 rate.ru
 127.0.0.1 ratings.lycos.com
 127.0.0.1 rayjump.com
-127.0.0.1 re-directme.com
 127.0.0.1 reachjunction.com
 127.0.0.1 reactx.com
 127.0.0.1 readgoldfish.com
@@ -3509,7 +3508,6 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 trk.bad-tool-tell-doubt.xyz
 127.0.0.1 trk.bc.shutterfly.com
 127.0.0.1 trk.bee-data.com
-127.0.0.1 trk.enemy-adult-scared-there.xyz
 127.0.0.1 trk.pinterest.com
 127.0.0.1 trk.techtarget.com
 127.0.0.1 trk42.net
