@@ -19275,6 +19275,9 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|partifabrik.com|newsmax.com
 !
+||webapp-middleware.21buttons.com/event_log/
+||dailymail.co.uk/geo/edgedata.html
+||cbsivideo.com/measurements/
 ||cm.bilibili.com/cm/api/$xmlhttprequest
 ||feeds.ibt.com/track.gif
 ||paypal.com/webapps/mch/cmd/?
@@ -21749,6 +21752,7 @@ link.gmapp*.net$image
 !---- Domain pecific rules ----
 !------------------------------
 !
+||21buttons.com^$cookie=21b.user.generated.id
 $cookie=vocuser_uuid,domain=ideal.es|elcorreo.com
 $cookie=ev_sid,domain=ideal.es|elcorreo.com
 ||subhd.*^$cookie=/SuBhD.*/
@@ -23060,6 +23064,9 @@ $app=com.miui.analytics
 !#endif
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/105456
+@@||googletagmanager.com/gtm.js$domain=oresundsbron.com
+||googletagmanager.com/gtm.js$script,xmlhttprequest,redirect=googletagmanager-gtm,domain=oresundsbron.com,important
 ! https://github.com/AdguardTeam/AdguardFilters/issues/103018
 !+ PLATFORM(windows, mac, android)
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=stressless.com
@@ -23068,8 +23075,7 @@ $app=com.miui.analytics
 @@||google-analytics.com/analytics.js$domain=stressless.com
 !#endif
 ! https://github.com/easylist/easylist/pull/10347
-@@||googletagmanager.com/gtm.js$script,domain=cmoa.jp
-@@||googletagmanager.com/gtag/js$script,domain=cmoa.jp
+@@||google-analytics.com/analytics.js$domain=cmoa.jp
 ! https://github.com/easylist/easylist/pull/10345
 @@||cdn.petametrics.com^$script,domain=comics.mecha.cc
 @@||query.petametrics.com^$image,xmlhttprequest,domain=comics.mecha.cc
