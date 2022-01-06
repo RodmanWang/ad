@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: oeExFJfgZOrWWv7+3eUSig
-! Version: 202201060450
+! Checksum: 0Q+J5LKRmcvsDqZAeysG0g
+! Version: 202201061250
 ! Title: Fanboy's Annoyance List
-! Last modified: 2022-01-06 04:50 UTC
+! Last modified: 2022-01-06 12:50 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -42532,6 +42532,7 @@ uber.com##[data-baseweb="toaster"]
 mobile.twitter.com##[data-reactroot] > [class] + [class]:last-child
 jooble.org##[data-test-name="_termsOfServices"]
 backmarket.com##[data-test="banner"]
+jabref.org##[style^="background-color: rgb(24, 28, 31);"]
 visnos.com##[style^="font-size: 20px; text-align: center;"]
 iubenda.com##a[style="padding-top: 10px; display: block;"]
 shab.ch##agb-bar
