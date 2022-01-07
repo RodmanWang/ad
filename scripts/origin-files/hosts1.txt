@@ -87,6 +87,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
 # start date:    Sat, 12 Jan 2002 00:00:00
+127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
 127.0.0.1 123freeavatars.com
@@ -855,6 +856,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 adserver.echdk.pl
 127.0.0.1 adserver.friendfinder.com
 127.0.0.1 adserver.generationiron.com
+127.0.0.1 adserver.gilligan.tech
 127.0.0.1 adserver.html.it
 127.0.0.1 adserver.hwupgrade.it
 127.0.0.1 adserver.ilango.de
@@ -1875,7 +1877,6 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 faultycanvas.com
 127.0.0.1 faultyfowl.com
 127.0.0.1 fave.co
-127.0.0.1 fc.webmasterpro.de
 127.0.0.1 feathr.co
 127.0.0.1 feebleshock.com
 127.0.0.1 feedbackresearch.com
@@ -2363,6 +2364,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 marinsm.com
 127.0.0.1 markedcrayon.com
 127.0.0.1 markedpail.com
+127.0.0.1 market-buster.com
 127.0.0.1 marketing.888.com
 127.0.0.1 marketing.hearstmagazines.nl
 127.0.0.1 marketing.net.brillen.de
@@ -2732,7 +2734,6 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 pietexture.com
 127.0.0.1 pilotaffiliate.com
 127.0.0.1 pimproll.com
-127.0.0.1 ping.hashnode.com
 127.0.0.1 ping.ublock.org
 127.0.0.1 pipedream.wistia.com
 127.0.0.1 pippio.com
@@ -2754,7 +2755,6 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 plista.com
 127.0.0.1 plotrabbit.com
 127.0.0.1 ployea.com
-127.0.0.1 ploz.mangadex.org
 127.0.0.1 pltraffic8.com
 127.0.0.1 pluckypocket.com
 127.0.0.1 plugrush.com
