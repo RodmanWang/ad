@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: bCSbgVg4l6Ahf4jVNvNfvg
-! Version: 202201062100
+! Checksum: we6/vQISAImeBVt7A88jxg
+! Version: 202201070450
 ! Title: Fanboy's Annoyance List
-! Last modified: 2022-01-06 21:00 UTC
+! Last modified: 2022-01-07 04:50 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4199,6 +4199,7 @@ _youtube_social_
 /SwagCookiePermission/*
 /syncCookie/*
 /syno_cookie_
+/tcf-cmp-resources/*
 /tcf/cookie.
 /tcf2.js
 /Team23_SimpleCookie/*
@@ -42245,6 +42246,7 @@ hertz247.co.uk,hertz247.com,hertzcarsales.co.uk##.lbContainer
 hertz247.co.uk,hertz247.com,hertzcarsales.co.uk##.lb_overlay
 olymp.com##.legal-banner
 yahoo.com##.legal-footer
+foxsports.com##.legal-message-container
 99airdrops.com,bluenile.com##.legal-notice
 jw.org##.legal-notices-client--notice
 sacoorbrothers.com##.legal-warning
@@ -43401,6 +43403,7 @@ politize.com.br##.popup-overlay
 monster.co.uk##.popup-widget
 businessinsider.com##.popup-wrapper
 sheetmusicplus.com##.popupNeedDelayAppear
+rugbyworldcup.com##.popupRegistrationForm--show
 srnnews.com,styletread.co.nz,styletread.com.au##.popup_overlay
 yesmagazine.org##.portlet-static-give-gifts-banner-ad
 venturebeat.com##.post-boilerplate
@@ -46239,6 +46242,7 @@ hillwig.de,spaetzlesuche.de##.ui-widget-overlay
 anisearch.de##.urgent-msg
 cebit.de,domotex.de,hannovermesse.de,ligna.de,messe.de##.user-notes-notification
 aiseesoft.de##.usernotice_pop
+spiegel.de##.v-snack__wrapper
 gartentraeume-sachsen-anhalt.de##.vcModalTarget
 oeaw.ac.at##.warning-popup
 regupedia.de##.wr_regupedia-header-cookie
