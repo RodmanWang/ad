@@ -22,6 +22,7 @@ const WHITERULE_SRC = ROOT_DIR . 'origin-files/whiterule-src-easylist.txt';
 
 $ARR_MERGED_WILD_LIST = array(
     'ad*.udn.com$dnstype=A|CNAME' => null,
+    'p*-ad-sign.byteimg.com' => null, // #529
     '*.mgr.consensu.org' => null,
     'vs*.gzcu.u3.ucweb.com' => null,
     'ad*.goforandroid.com' => null,
@@ -239,6 +240,11 @@ $ARR_WHITE_RULE_LIST = array(
     '@@||widget.1688.com^' => 1, // #469
     '@@||api.huangye.miui.com^' => 1, // #476
     '@@||ads.privacy.qq.com^' => 1, // #505
+    '@@||future.biz.weibo.com^' => 1, // #527
+    '@@||ad-putting.gw.zt-express.com^' => 1, // #534
+    '@@||api.onedrive.com^' => 1, // #540
+    '@@||files.1drv.com^' => 1, // #540
+    '@@||skyapi.live.net^' => 1, // #540
 );
 
 //针对上游赦免规则anti-AD不予赦免的规则，即赦免名单的黑名单
