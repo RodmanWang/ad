@@ -67,7 +67,6 @@ return array(
     'hexun.com' => array('hxsame.hexun.com'),
     '2345.com' => array('2345.com'),
     '51.la' => array('51.la'),
-    '55.la' => array('55.la'),
     'ddns.name' => array('ddns.name'),
     '7clink.com' => array('7clink.com'),
     '88shu.cn' => array('88shu.cn'),
@@ -1072,7 +1071,7 @@ return array(
         'vali-g1.cp31.ott.cibntv.net',
     ),
     'byteimg.com' => array(
-        'p6-ad-sign.byteimg.com/', // #513
+        'p6-ad-sign.byteimg.com', // #513
     ),
 
     
@@ -1635,7 +1634,7 @@ return array(
         'llnw.net',
     ),
     'windows.com' => array( #精简域名，这个是windows推送服务？
-        'wns.windows.com',
+        'hk2.wns.windows.com', // 不能直接屏蔽wns.windows.com #532
     ),
     'uc.cn' => array( // dns日志提取
         'coral-task.uc.cn',
