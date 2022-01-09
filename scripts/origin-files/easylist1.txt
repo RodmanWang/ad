@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: DTqZ8odFvrGmNjtzodsipw
-! Version: 202201082126
+! Checksum: L49oE7hwCnvGJUUkWExj7A
+! Version: 202201090436
 ! Title: EasyPrivacy
-! Last modified: 08 Jan 2022 21:26 UTC
+! Last modified: 09 Jan 2022 04:36 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -4987,6 +4987,7 @@
 /wdg/tracking-
 /wdg_tracking-
 /web-analytics.
+/web-analytics/*
 /web-api/log/*
 /web-vitals.
 /web-vitals/*
@@ -26043,6 +26044,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||live.house.gov/js/analytics.$script,~third-party
 @@||musiclab.chromeexperiments.com/bin/lib/angulartics-google-analytics.js
 @@||natureetdecouvertes.com^*/pixel.png$~third-party
+@@||nike.com^*/optimizely.browser.umd.min.js$~third-party
 @@||online.tivo.com/assets/tve/common/js/vendor/jsnlog/$script,~third-party
 @@||onlinebanking.usbank.com/TUX/public/libs/adobe/appmeasurement.js$script,~third-party
 @@||oyster.com/wp-content/plugins/smartertravel-shared/assets/js/tracking.min.js$~third-party
