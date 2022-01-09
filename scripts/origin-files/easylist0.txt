@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2ysyLE0EoDrvgf6JdM/7ew
-! Version: 202201090435
+! Checksum: 5n67IofJmv5j2cXAbtmoVA
+! Version: 202201091245
 ! Title: EasyList
-! Last modified: 09 Jan 2022 04:35 UTC
+! Last modified: 09 Jan 2022 12:45 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -22109,6 +22109,7 @@ _800x80_
 ##.advertising-banner
 ##.advertising-block
 ##.advertising-box-top-teaser
+##.advertising-container
 ##.advertising-container-top
 ##.advertising-content
 ##.advertising-fixed
@@ -51292,6 +51293,7 @@ tf2r.com#@#.adverts
 ||liveperson.com/affiliates/
 ||lottoelite.com/banners/
 ||lp.ncdownloader.com^
+||ltkcdn.net/ltkrev.js
 ||madisonlogic.com^$third-party
 ||magniwork.com/banner/
 ||mahndi.com/images/banner/
@@ -55858,6 +55860,7 @@ ebay.com##div[title="ADVERTISEMENT"]
 adblock-tester.com##embed[width="240"]
 imgburn.com##font[face="Arial"][size="1"]
 realitytvworld.com##font[size="1"][color="gray"]
+grammar-monster.com##footer
 law.com,topcultured.com##h3
 greatist.com##hl-adsense
 drive.com.au##hr
