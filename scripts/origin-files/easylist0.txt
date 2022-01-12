@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: xzD0Frjr50IpSPXGfxrAeA
-! Version: 202201120435
+! Checksum: zOhIrPFQNvH6r/AYVnIYAg
+! Version: 202201121245
 ! Title: EasyList
-! Last modified: 12 Jan 2022 04:35 UTC
+! Last modified: 12 Jan 2022 12:45 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5616,7 +5616,6 @@
 /resources/ads/*
 /resources/ads_
 /responsive-ad-
-/responsive-ad.
 /responsive-ads.
 /responsive/ad_
 /responsive_ads.
@@ -5637,7 +5636,6 @@
 /richoas.
 /right-ad-
 /right_ad.
-/right_ad^
 /right_ad_
 /right_ads.
 /rightad.
@@ -6794,7 +6792,6 @@ _ad_units_
 _ad_url=
 _ad_utils-
 _ad_vertical.
-_ad_video_
 _ad_view=
 _ad_widesky.
 _ad_wrapper.
@@ -49188,6 +49185,7 @@ tf2r.com#@#.adverts
 ||clickbank.net/*offer_id=$popup,third-party
 ||clickcay.com^$popup,third-party
 ||clickfuse.com^$popup
+||clickmetertracking.com^$popup
 ||clickmngr.com^$popup
 ||clickosmedia.com^$popup
 ||clickppcbuzz.com^$popup
@@ -49273,6 +49271,7 @@ tf2r.com#@#.adverts
 ||dblmove.com^$popup
 ||dddomainccc.com^$popup
 ||debrium-surbara.com^$popup
+||defas.site^$popup
 ||defenseaspirinlike.com^$popup
 ||deline-sunction.com^$popup
 ||deliverydom.com^$popup
@@ -51483,6 +51482,7 @@ tf2r.com#@#.adverts
 ||socialmonkee.com/images/
 ||squirrels.getsquirrel.co^
 ||srv.dynamicyield.com^
+||srv.tunefindforfans.com^
 ||srx.com.sg/srx/media/
 ||ssl-images-amazon.com/images/*/DAsf-
 ||ssl-images-amazon.com/images/*/MAsf-
@@ -54653,6 +54653,8 @@ slantmagazine.com##.gray_bg
 slantmagazine.com##.gray_bgBottom
 greatandhra.com##.great_andhra_main_add_rotator1
 mma-core.com##.grec
+greekcitytimes.com##.greek-adlabel
+greekcitytimes.com##.greek-after-content
 curioustic.com##.grey
 topminecraftservers.org##.grey-section
 sportingnews.com##.grid-aside
