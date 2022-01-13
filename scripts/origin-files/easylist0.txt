@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: aUvPTW8tNkSv4vkvJcZpAA
-! Version: 202201131245
+! Checksum: Av/S6lsa5TH4BRZ/AGwolw
+! Version: 202201132125
 ! Title: EasyList
-! Last modified: 13 Jan 2022 12:45 UTC
+! Last modified: 13 Jan 2022 21:25 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -12996,6 +12996,7 @@ _800x80_
 ###dfp-atf
 ###dfp-banner
 ###dfp-billboard1
+###dfp-billboard2
 ###dfp-btf
 ###dfp-footer-desktop
 ###dfp-global_top
@@ -24619,6 +24620,7 @@ _800x80_
 ##.frontpage-mpu-section-ad
 ##.frontpage-right-ad
 ##.frontpage-right-ad-hide
+##.frontpage__article--ad
 ##.frontpage_ads
 ##.fs-ad-block
 ##.fs1-advertising
@@ -37780,6 +37782,7 @@ tf2r.com#@#.adverts
 ||guardedfebruaryenclosed.com^
 ||guardiandigitalcomparison.co.uk^
 ||guardssentinelcreepy.com^
+||guerrilla-links.com^
 ||guffawdecipher.com^
 ||guffawsister.com^
 ||guffsview.com^
@@ -40017,6 +40020,7 @@ tf2r.com#@#.adverts
 ||maxonclick.com^
 ||maxserving.com^
 ||mayhemabjure.com^
+||maymooth-stopic.com^
 ||mayordiminution.com^
 ||maze4aem56jf.com^
 ||mazzappa.fun^
@@ -49491,6 +49495,7 @@ tf2r.com#@#.adverts
 ||grtyj.com^$popup
 ||grygrothapi.pro^$popup
 ||gsniper2.com^$popup
+||guerrilla-links.com^$popup
 ||gvcaffiliates.com^$popup,third-party
 ||h3lw971ym6.com^$popup
 ||h8vzwpv.com^$popup
@@ -49703,6 +49708,7 @@ tf2r.com#@#.adverts
 ||matevictim.com^$popup
 ||mathafuda.pro^$popup
 ||mattoadbayed.icu^$popup
+||maymooth-stopic.com^$popup
 ||mb-npltfpro.com^$popup
 ||mb01.com^$popup
 ||mb102.com^$popup
@@ -56106,6 +56112,7 @@ mail.yahoo.com###slot_LREC
 yahoo.com###viewer-LREC2-iframe
 yahoo.com##.Feedback
 yahoo.com##.ads
+yahoo.com##.caas-da
 yahoo.com##.darla
 yahoo.com##.darla-container
 yahoo.com##.darla-lrec-ad
