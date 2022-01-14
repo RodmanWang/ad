@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: pHgNzF38DwyGm4I5ikAf+Q
-! Version: 202201140435
+! Checksum: DKZIciXpTHpbIXfPnsbu5Q
+! Version: 202201141245
 ! Title: EasyList
-! Last modified: 14 Jan 2022 04:35 UTC
+! Last modified: 14 Jan 2022 12:45 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -12394,6 +12394,7 @@ _800x80_
 ###boxAd300
 ###boxAdContainer
 ###boxAdvert
+###boxLREC
 ###boxLightImageGalleryAd
 ###box_ad
 ###box_ad_container
@@ -25422,6 +25423,7 @@ _800x80_
 ##.horisont_ads
 ##.horiz_adspace
 ##.horizontal-ad
+##.horizontal-ad-container
 ##.horizontal-ad-holder
 ##.horizontal-ad-wrapper
 ##.horizontal-ad2
@@ -26185,6 +26187,7 @@ _800x80_
 ##.lr-ad
 ##.lr-pack-ad
 ##.lr_skyad
+##.lrec-container
 ##.lsn-yahooAdBlock
 ##.lt_ad
 ##.lt_ad_call
