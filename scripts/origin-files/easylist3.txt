@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: X8IaJdf+g1JA8J7ACKlXSw
-! Version: 202201150437
+! Checksum: dFgrYdjIYwQEpPQZgFCFIw
+! Version: 202201151247
 ! Title: EasyList China
 ! Chinese supplement for the EasyList filters
-! Last Modified: 15 Jan 2022 04:37 UTC
+! Last Modified: 15 Jan 2022 12:47 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 ! License: https://easylist-downloads.adblockplus.org/COPYING
@@ -1611,6 +1611,9 @@ ubmcmm.baidustatic.com
 .8ox.cn
 ||00-gov.cn^
 ||hanjw1988.com^
+||eccbb.com^
+||tuuihea.top^
+||xiqqq.com^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
@@ -9244,8 +9247,16 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||eepw.com.cn/event/action/rightbd/microchip*.js
+||pkvs.com/public/as.js
+||pkvs.com/public/300/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+cps.com.cn##.couplet-le
+instrument.com.cn##.swiper-container
+eepw.com.cn###startvideo
+ijiandao.com###index_top_ad
+ijiandao.com##DIV[class^="banner_h_"]
 javhope.com###havhope
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -17081,6 +17092,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||ojtqzxu.cn^
 ||rctxsbw.cn^
 ||exgrao.cn^
+||cmall.club^
+||xglryxd.cn^
+||rctxlac.cn^
+||cyccy.cn^
 ##a[href*=".hxctiao.com:"]
 ##a[href*=".hxsp331.com"]
 ##a[href*=".jiq339.com/"]
