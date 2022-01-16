@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 8lNq6oIrW92OmZ2tnwn9WQ
-! Version: 202201160436
+! Checksum: 2SyekM+h/pyjcbZldb41TQ
+! Version: 202201161246
 ! Title: EasyPrivacy
-! Last modified: 16 Jan 2022 04:36 UTC
+! Last modified: 16 Jan 2022 12:46 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -26816,6 +26816,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||stats.g.doubleclick.net/dc.js$domain=netcombo.com.br
 @@||tags.t.tailtarget.com/t3m.js?$domain=superesportes.com.br
 @@||tm.jsuol.com.br/uoltm.js$script,domain=uol.com.br
+@@||netmede.pt/code/ga.min.js$script,domain=netmede.pt
 !
 !---------- Romanian ----------
 !
