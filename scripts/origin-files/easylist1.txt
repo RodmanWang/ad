@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: +wzUhkQQbNmy3mbjZ4DFEA
-! Version: 202201171246
+! Checksum: QzK5CZzT7Ltdlmp+2AzgnA
+! Version: 202201172126
 ! Title: EasyPrivacy
-! Last modified: 17 Jan 2022 12:46 UTC
+! Last modified: 17 Jan 2022 21:26 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -26471,6 +26471,10 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||widgets.trustedshops.com/reviews/tsSticker/$domain=koziol-shop.de
 @@||zeit.de/cre-*/tracking/call.js?$domain=zeit.de
 @@||zeit.de/cre-*/tracking/tracking.js$domain=zeit.de
+!
+!---------- Greek -----------
+!
+@@||extreme-ip-lookup.com/json/$xmlhttprequest,domain=skaitv.gr
 !
 !---------- French ----------
 !
