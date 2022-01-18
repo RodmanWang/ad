@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: QzK5CZzT7Ltdlmp+2AzgnA
-! Version: 202201172126
+! Checksum: vBD6tIMPNhyO3VUE2Dyzbg
+! Version: 202201180436
 ! Title: EasyPrivacy
-! Last modified: 17 Jan 2022 21:26 UTC
+! Last modified: 18 Jan 2022 04:36 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -7731,6 +7731,7 @@ _mongo_stats/
 ||revenuepilot.com^$third-party
 ||revenuescience.com^$third-party
 ||revenuewire.net^$third-party
+||revhunter.tech^$third-party
 ||revoffers.com^$third-party
 ||revolvermaps.com^$third-party
 ||rewardtv.com^$third-party
@@ -15057,6 +15058,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ssc.api.bbc.com^
 ||st.sawlive.tv^
 ||stan.xing.com^
+||stape.fun/stat/
 ||starfiles.co/analytics.php
 ||stat.livesportbar.net^
 ||stat.pubhtml5.com^
@@ -15278,6 +15280,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||zerohedge.com/statistics-ajax?
 ||zillowstatic.com/contact-pixel/$image,domain=zillow.com
 ||zion-telemetry.api.cnn.io^
+! akamaihd.net
+||akamaihd.net^$image,domain=globalnews.ca
 ! Plausible selfhosted
 ||jeremiahlee.com/fanboynz.js
 ! confection.io
@@ -25426,6 +25430,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||npo-data.nl/tags/tag.min.js
 ||npo.nl/tag/atinternet/
 ||pcmweb.nl/track/
+||pipeline.rd.nl^
 ||rtl.nl/system/track/
 ||sanoma.nl/pixel/
 ||sat.sanoma.fi^
