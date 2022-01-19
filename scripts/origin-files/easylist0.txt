@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: bGL0Jb9dSjqqn3hCTcohfg
-! Version: 202201190435
+! Checksum: t0SSwHQ/5otl41sRb2rXEA
+! Version: 202201191245
 ! Title: EasyList
-! Last modified: 19 Jan 2022 04:35 UTC
+! Last modified: 19 Jan 2022 12:45 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -768,7 +768,7 @@
 /ad-leaderboard.
 /ad-left.
 /ad-letter.
-/ad-lib/*
+/ad-lib/*$~image
 /ad-lil.
 /ad-link/*
 /ad-loader-
