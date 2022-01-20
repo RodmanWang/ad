@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: vrq6Ywv120LrLiWeJGzppw
-! Version: 202201200436
+! Checksum: j4nOhLzP2jwv11C+yJvPQw
+! Version: 202201201246
 ! Title: EasyPrivacy
-! Last modified: 20 Jan 2022 04:36 UTC
+! Last modified: 20 Jan 2022 12:46 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -8590,6 +8590,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pushex.io^$third-party
 ||pushible.com^$third-party
 ||pushify.com^$third-party
+||pushmaster-cdn.xyz^
 ||pushnami.com^$third-party
 ||pushwoosh.com^$third-party
 ||reconditerespect.com^$third-party
@@ -11386,6 +11387,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bzgint.com/CUNCollector/
 ||bzpics.com/jslib/st.js?
 ||c-date.com/pixel/
+||c.amazinglybrilliant.com.au^
 ||c.imedia.cz^
 ||c.live.com^
 ||c.mgid.com^
@@ -14587,6 +14589,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||fresnel-events.vimeocdn.com^
 ||ft.com/ingest?
 ||fujifilm.com/js/shared/analyzer.js
+||fullscreen.nz/v1/tracking/$domain=threenow.co.nz
 ||g.ign.com^
 ||g.mashable.com^
 ||g.pcmag.com^
