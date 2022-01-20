@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: ukxvkN+obSz47yrkPAYmPw
-! Version: 202201192126
+! Checksum: vrq6Ywv120LrLiWeJGzppw
+! Version: 202201200436
 ! Title: EasyPrivacy
-! Last modified: 19 Jan 2022 21:26 UTC
+! Last modified: 20 Jan 2022 04:36 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -784,6 +784,7 @@
 /api/v2/jsonlogger
 /apilog?
 /apis/cpt.php?
+/apis/facebook_conversion
 /apitracking.
 /apixel?
 /app-measurement?
@@ -1190,7 +1191,7 @@
 /cklog.js
 /cl.gif?pvID=
 /clacking.js
-/clarity-*.js$domain=~clarity-labs.kaminario.com|~make.services
+/clarity-*.js$domain=~clarity-labs.kaminario.com|~clarity.imply.io|~make.services
 /clarity-api-
 /class.tracking.js
 /clear.gif?
@@ -1864,6 +1865,7 @@
 /fb-pixel-
 /fb-tracking.js
 /fb_pixel-
+/fb_pixel_page_
 /fbanalytics/*
 /fbcounter/*
 /fbevents-amd.js
@@ -14617,6 +14619,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||go.pardot.com^
 ||go.theregister.com^$image
 ||gofundme.com/track
+||gog-statics.com/js/frontpagelogintracking-$script,domain=gog.com
+||gog-statics.com/js/loginTracking-$script,domain=gog.com
 ||google.com/dssw.js
 ||google.com/images/phd/px.gif
 ||google.com/log?
