@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: g6RPPyA+jC2z/oGSrg2t7A
-! Version: 202201212126
+! Checksum: x9DWCVAHAaaty4JzgSzTNQ
+! Version: 202201220436
 ! Title: EasyPrivacy
-! Last modified: 21 Jan 2022 21:26 UTC
+! Last modified: 22 Jan 2022 04:36 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1115,6 +1115,7 @@
 /cdn-cgi/bm/cv/*
 /cdn-cgi/ping?$image
 /cdn-cgi/rum?
+/cdn-cgi/zaraz/*
 /cdn-monitoring-pixel.
 /cdn.stats2?
 /cdn5.js?
@@ -5827,6 +5828,7 @@ _mongo_stats/
 ||seadform.net^
 ||seoab.io^
 ||site24x7rum.eu^
+||sixtrk.com^
 ||sjpf.io^
 ||solutionshindsight.net^
 ||speedyfox.io^
@@ -26058,6 +26060,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||d41.co/tags/ff-2.min.js$domain=ads.spotify.com
 @@||daan.dev/wp-content/*/caos-supports-google-analytics-$image,~third-party
 @@||dashboard.unity3d.com/services/analytics/$~third-party
+@@||docs.google.com/document/
 @@||etsy.com/api/v3/ajax/bespoke/*log_performance_metrics=$~third-party
 @@||geo.gorillanation.com/geo.php$script,domain=sherdog.com
 @@||gettingpersonal.co.uk^*/scripts/app/shared/googleanalytics.js$script,~third-party
@@ -26119,7 +26122,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||cdn-net.com/cc.js$script,domain=butterfieldonline.com|uber.com|ubereats.com
 @@||cdn.optimizely.com/js/*.js$domain=compassion.com|creditsesame.com|freeshipping.com|heroku.com
 @@||cdn.segment.com/analytics-next/$domain=app.cryptotrader.tax|givingassistant.org
-@@||cdn.segment.com/analytics.js/$script,domain=app.cryptotrader.tax|fender.com|givingassistant.org
+@@||cdn.segment.com/analytics.js/$script,domain=app.cryptotrader.tax|fender.com|givingassistant.org|my.foxnews.com
 @@||cdn.segment.com/next-integrations/integrations/intercom/*/intercom.dynamic.js.gz$script,domain=app.cryptotrader.tax
 @@||cdn.segment.com/next-integrations/integrations/vendor/commons.$script,domain=app.cryptotrader.tax
 @@||cdn.segment.com/v1/projects/$domain=app.cryptotrader.tax|benchling.com|givingassistant.org
