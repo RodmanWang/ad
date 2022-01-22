@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: x9DWCVAHAaaty4JzgSzTNQ
-! Version: 202201220436
+! Checksum: lJm6d/YLFhxcCokXnvEHLA
+! Version: 202201221236
 ! Title: EasyPrivacy
-! Last modified: 22 Jan 2022 04:36 UTC
+! Last modified: 22 Jan 2022 12:36 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -965,6 +965,7 @@
 /beacon/timing?
 /beacon/track/*
 /beacon/user-data
+/beacon/v1/batch?
 /beacon/vtn_loader.gif?
 /beacon?
 /beacon_async.
@@ -5217,7 +5218,7 @@
 ://d.*/track.js
 ://email.*/blankpixel.gif
 ://ensighten.
-://fathom.$domain=~fathom.info|~fathom.video|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
+://fathom.$domain=~fathom.info|~fathom.io|~fathom.video|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
 ://geoip.*/country.json
 ://ivwextern.
 ://lightning.*/launch/
