@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: E8bW/H+TcLyeCDiselN9eA
-! Version: 202201232125
+! Checksum: XM0tuwJZPbjdxXJa8IGbeA
+! Version: 202201240435
 ! Title: EasyList
-! Last modified: 23 Jan 2022 21:25 UTC
+! Last modified: 24 Jan 2022 04:35 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -8107,6 +8107,7 @@ _800x80_
 ###AdvertiseFrame
 ###Advertisement1
 ###Advertisement2
+###AdvertisementDiv
 ###AdvertisementLeaderboard
 ###AdvertisementRightColumnRectangle
 ###Advertisements
@@ -9214,6 +9215,7 @@ _800x80_
 ###adATF300x250
 ###adATF728x90
 ###adAd
+###adAside
 ###adBTF300x250
 ###adBTF300x250IC
 ###adBadges
@@ -30959,6 +30961,7 @@ _800x80_
 ##a[href^="https://www.sugarinstant.com/?partner_id="]
 ##a[href^="https://www.travelzoo.com/oascampaignclick/"]
 ##a[href^="https://www.vewwrmp.com/"]
+##a[href^="https://www.vfreecams.com/in/?track="]
 ##a[href^="https://www.what-sexdating.com/"]
 ##a[href^="https://www.xvinlink.com/?a_fid="]
 ##a[href^="https://zononi.com/"]
@@ -53994,6 +53997,7 @@ forums.somethingawful.com###notregistered
 gizbot.com###offersblocksection
 vapingunderground.com###oio-banner-5
 onlinemschool.com###oms_left
+livestreamfails.com###oranum_livefeed_container_0
 powvideo.net,streamplay.to###overlay
 rabbitstream.net,rapid-cloud.ru,streamrapid.ru###overlay-container
 modthesims.info###pagenavigation > div > small
@@ -55681,6 +55685,7 @@ alaskahighwaynews.ca,bowenislandundercurrent.com,burnabynow.com,coastreporter.ne
 independent.ie##.slot1
 independent.ie##.slot4
 imdb.com##.slot_wrapper
+skinnyms.com##.sm-above-header
 bikeexif.com##.small
 tbs.com##.smallBanners
 startup.ch##.smallbanner

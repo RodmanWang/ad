@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: dqkocNVHG7pKyIK705w+Eg
-! Version: 202201232126
+! Checksum: LT+mJ4OUMUkorrtshnkSPQ
+! Version: 202201240436
 ! Title: EasyPrivacy
-! Last modified: 23 Jan 2022 21:26 UTC
+! Last modified: 24 Jan 2022 04:36 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5462,6 +5462,7 @@ cgi-bin/counter
 /notifications/beacon/*
 /open.aspx?
 /open.html?$image
+/p1x1.gif
 /page.bsigroup.com/*
 /pixel-prod.
 /pixel?cid=
@@ -6065,6 +6066,7 @@ _mongo_stats/
 ||angorch-cdr7.com^$third-party
 ||angsrvr.com^$third-party
 ||anrdoezrs.net^$third-party
+||answerbook.com^$third-party
 ||answerscloud.com^$third-party
 ||anti-cheat.info^$third-party
 ||antiblock.info^$third-party
@@ -7776,7 +7778,7 @@ _mongo_stats/
 ||rqtrk.eu^$third-party
 ||rrimpl.com^$third-party
 ||rs0.co.uk^$third-party
-||rs6.net^$script,third-party
+||rs6.net^$image,script,third-party
 ||rstg.io^$third-party
 ||rsvpgenius.com^$third-party
 ||rtb123.com^$third-party
@@ -26015,6 +26017,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||akamaihd.net^*/analyticssdk.js$script,domain=ubisoft.com
 @@||akamaized.net^*/resource/assets/$xmlhttprequest,domain=funplusgame.com
 @@||amazonaws.com/production$xmlhttprequest,domain=ipa-reader.xyz
+@@||analytics-static.ugc.bazaarvoice.com/prod/$script,domain=hisense.co.uk
 @@||analytics.amplitude.com^$~third-party
 @@||analytics.edgekey.net/ma_library/html5/html5_malibrary.js$script,domain=mxplayer.in
 @@||analytics.itunes.apple.com^$~third-party
