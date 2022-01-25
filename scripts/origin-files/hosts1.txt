@@ -24,7 +24,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <tr>
 <td>blocklist last updated:</td>
-<td><b class=blue>Mon, 24 Jan 2022 09:42:35 GMT</b></td>
+<td><b class=blue>Tue, 25 Jan 2022 09:38:21 GMT</b></td>
 </tr>
 
 
@@ -41,7 +41,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <tr>
 <td>total entries:</td>
-<td><b class=blue>3678</b></td>
+<td><b class=blue>3679</b></td>
 </tr>
 
 </table>
@@ -77,8 +77,8 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Mon, 24 Jan 2022 09:42:35 GMT
-# entries:        3678
+# last updated:   Tue, 25 Jan 2022 09:38:21 GMT
+# entries:        3679
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/as/serverlist.php?mimetype=plain.text
@@ -2375,6 +2375,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 matheranalytics.com
 127.0.0.1 mathtag.com
 127.0.0.1 matomo.activate.cz
+127.0.0.1 matomo.crossiety.app
 127.0.0.1 matomo.gals24.ru
 127.0.0.1 matomo.hdweb.ru
 127.0.0.1 matomo.kmkb.ru
