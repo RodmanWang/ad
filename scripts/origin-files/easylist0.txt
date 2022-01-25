@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: YFDb1lLkw/GMt4AzBMvh3g
-! Version: 202201242125
+! Checksum: rMTOqBs9RKz4U8jWMtp8pA
+! Version: 202201250435
 ! Title: EasyList
-! Last modified: 24 Jan 2022 21:25 UTC
+! Last modified: 25 Jan 2022 04:35 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -10479,6 +10479,7 @@ _800x80_
 ###adlove
 ###adlrec
 ###adm-inline-article-ad-1
+###adm-inline-article-ad-2
 ###admain
 ###admaintop
 ###admanagerResultListBox
@@ -26240,6 +26241,8 @@ _800x80_
 ##.m-advertisement--container
 ##.m-block-ad
 ##.m-card-group--rightrail-ad
+##.m-content-advert
+##.m-content-advert-wrap
 ##.m-dfp-ad-text
 ##.m-gallery-overlay--ad-top
 ##.m-header-ad
@@ -26945,6 +26948,7 @@ _800x80_
 ##.o-ads-content
 ##.o-advert
 ##.o-listing__ad
+##.o-site-header__advert
 ##.o-story-content__ad
 ##.oad-ad
 ##.oas-ad
@@ -56079,6 +56083,7 @@ topfiveforex.com##[href^="https://iqoption.com/"]
 staticice.com.au##[href^="https://kogan.sjv.io/"]
 topfiveforex.com##[href^="https://luckyfish.io/"]
 manhuaplus.com##[href^="https://manhuaplussoulland.onelink.me/"]
+123putlocker.io##[href^="https://moneynow.one/"]
 manganelo.com##[href^="https://oackoubs.com/"]
 topfiveforex.com##[href^="https://olymptrade.com/"]
 mmos.com##[href^="https://plarium.com/landings/"]

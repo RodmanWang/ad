@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: JMZvjwkkEDWTrjtVD/wd0A
-! Version: 202201242126
+! Checksum: GMDdZw9CnaQWGOFKQXRAlQ
+! Version: 202201250436
 ! Title: EasyPrivacy
-! Last modified: 24 Jan 2022 21:26 UTC
+! Last modified: 25 Jan 2022 04:36 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -579,6 +579,7 @@
 /analytics-v1.
 /analytics.*/event?
 /analytics.*/ping/?
+/analytics.*/track
 /analytics.ad.
 /analytics.ashx
 /analytics.asmx
@@ -5395,6 +5396,7 @@ cgi-bin/counter
 .klclick.com/$image
 .list-manage.com/track/
 .mailbutler.io/tracking/
+.mailgun.patreon.com/o/$image
 .mailing.*/oo/$image
 .maillist-manage.com/clicks/$image
 .members.babbel.com/mo/
@@ -7645,7 +7647,7 @@ _mongo_stats/
 ||pushauction.com^$third-party
 ||pvd.to^$third-party
 ||pxaction.com^$third-party
-||pxf.io^$third-party
+||pxf.io^$image,script,third-party
 ||pxi.pub^$third-party
 ||pymx5.com^$third-party
 ||pzz.events^$third-party
@@ -26011,7 +26013,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||adobedtm.com^*/s-code-$script
 @@||adobedtm.com^*/satellite-$script
 @@||adobedtm.com^*/satelliteLib-$script,domain=absa.co.za|americanexpress.com|argos.co.uk|auspost.com.au|backcountry.com|bmw.com.au|collegeboard.org|costco.com|crackle.com|crimewatchdaily.com|directline.com|eonline.com|fcbarcelona.com|firststatesuper.com.au|godigit.com|hgtv.com|jeep.com|laredoute.co.uk|laredoute.com|lenovo.com|lowes.com|malaysiaairlines.com|mastercard.us|mathworks.com|monoprice.com|nbcnews.com|nfl.com|nflgamepass.com|nofrills.ca|oprah.com|oracle.com|pnc.com|realtor.com|redbull.tv|repco.co.nz|searspartsdirect.com|shoppersdrugmart.ca|smooth.com.au|stuff.co.nz|subaru.com|telegraph.co.uk|timewarnercable.com|usanetwork.com|vanityfair.com|wired.com|wowway.net
-@@||aeries.net/aeries/scripts/require/analytics/views/$script,~third-party
+@@||aeries.net^*/require/analytics/views/$script,~third-party
 @@||ajio.com/static/assets/vendors~static/chunk/common/libraries/fingerprintjs2.$script,~third-party
 @@||akamaihd.net/worldwide_analytics/$script,domain=ubi.com|ubisoft.com
 @@||akamaihd.net^*/analyticssdk.js$script,domain=ubisoft.com
