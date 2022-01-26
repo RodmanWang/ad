@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: GSoVieIpPkptxjgcQSg17w
-! Version: 202201260436
+! Checksum: 29PFmNT0d2+CjLg38a8+EA
+! Version: 202201261236
 ! Title: EasyPrivacy
-! Last modified: 26 Jan 2022 04:36 UTC
+! Last modified: 26 Jan 2022 12:36 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -11876,6 +11876,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||geckofoot.com/gfvisitormap.aspx?
 ||gem.com/api/o/$image,third-party
 ||gemius.mgr.consensu.org^
+||genesis.malwarebytes.com^
 ||geni.us/snippet.js
 ||geni.us/snippet.min.js
 ||geo.ertya.com^
@@ -26031,6 +26032,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||analytics.tercept.com/js/ga.js$script,~third-party
 @@||analytics.twitter.com^$domain=analytics.twitter.com
 @@||ancestrycdn.com/ui-static/lib/tracking/$domain=ancestry.com
+@@||apc-pli.com/api/tracking/$~third-party,xmlhttprequest
 @@||api.cxense.com/public/widget/data?$domain=bizjournals.com|marketwatch.com|wsj.com
 @@||api.getmakerlog.com/discussions/$~third-party,websocket,xmlhttprequest
 @@||api.ipify.org^$script,domain=right-on.co.jp
