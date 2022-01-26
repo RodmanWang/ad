@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: VJ7+jrEvW++oT1WU4EUxxw
-! Version: 202201252125
+! Checksum: U94PNrADz6UG3Zsrx/5bqQ
+! Version: 202201260435
 ! Title: EasyList
-! Last modified: 25 Jan 2022 21:25 UTC
+! Last modified: 26 Jan 2022 04:35 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5235,6 +5235,7 @@
 /page-peel
 /page/ad/*
 /pagead.
+/pagead/1p-user-list/*
 /pagead/ads?
 /pagead/conversion.
 /pagead/conversion/*
@@ -15930,6 +15931,7 @@ _800x80_
 ###sticky-ads-top
 ###sticky-custom-ads
 ###sticky-footer-ad
+###sticky-footer-ads
 ###sticky-rail-ad
 ###sticky-top-ad-spacer
 ###sticky-top-ad-wrap
@@ -16852,6 +16854,7 @@ _800x80_
 ##.AdsenseForum
 ##.AdsenseLarge
 ##.AdsenseTechsupport
+##.Adsinnov_flex_adcontainer
 ##.Adspottop
 ##.Adtext
 ##.Adv300x250
@@ -23366,8 +23369,6 @@ _800x80_
 ##.bsaProContainerNew
 ##.bsa_ads
 ##.bsa_it_ad
-##.bsac
-##.bsac-container
 ##.bt_ad
 ##.btf-ad-medRect
 ##.btfAds
@@ -27688,6 +27689,7 @@ _800x80_
 ##.responsive-ad
 ##.responsive-ad-wrapper
 ##.responsive-ads
+##.responsive-vertial-ad-wrapper
 ##.responsiveAdHiding
 ##.responsiveAdsense
 ##.responsive_ad_top
@@ -27713,6 +27715,7 @@ _800x80_
 ##.reviewpage_ad2
 ##.reviews-box-ad
 ##.reviews-display-ad
+##.revive-ad
 ##.revolvyad_inner
 ##.rf_circ_ad_460x205
 ##.rg-ad
@@ -56008,6 +56011,7 @@ dailynewsegypt.com##.widget_rotatingbanners
 twistedsifter.com##.widget_sifter_ad_bigbox_widget
 acprimetime.com,brigantinenow.com,downbeachbuzz.com##.widget_sp_image
 screenbinge.com,streamingrant.com##.widget_sp_image-image-link
+gamertweak.com##.widget_srlzycxh
 lostintechnology.com,webkinznewz.ganzworld.com##.widget_text
 nypost.com##.widget_text.no-mobile.box
 helpnetsecurity.com##.widgetized_wrapper
