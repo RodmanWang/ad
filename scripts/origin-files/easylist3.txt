@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: eEVH/Pd1U0FXC90bfN+WsA
-! Version: 202201270436
+! Checksum: ubobIBTZ48FVR/X69M6y7w
+! Version: 202201271246
 ! Title: EasyList China
 ! Chinese supplement for the EasyList filters
-! Last Modified: 27 Jan 2022 04:36 UTC
+! Last Modified: 27 Jan 2022 12:46 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 ! License: https://easylist-downloads.adblockplus.org/COPYING
@@ -17159,6 +17159,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||xingtu.ltd^
 ||hayasp.top^
 ||ayk.cx^
+||19oxfkn.cn^
+||tianhenggo.xyz^
+||xiaohuancha.club^
+||hulewangsi.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
