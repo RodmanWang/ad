@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: IMlZ1kxPcV5aX7Q9KApZ7g
-! Version: 202201271250
+! Checksum: te6F2HZ7uZ7x3CgAESufvQ
+! Version: 202201272100
 ! Title: Fanboy's Annoyance List
-! Last modified: 2022-01-27 12:50 UTC
+! Last modified: 2022-01-27 21:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -28476,6 +28476,7 @@ _subscribers_newsletters/
 ##.cookie-slide-container
 ##.cookie-slide-down
 ##.cookie-slider
+##.cookie-snack
 ##.cookie-snippet
 ##.cookie-splash
 ##.cookie-statement
@@ -30389,6 +30390,7 @@ _subscribers_newsletters/
 ##.gdprmodal-backdrop
 ##.gdprpopup
 ##.gdprrhs
+##.gdrp-banner-content
 ##.gdrp-cookie-banner-wrapper
 ##.gdrp-popup-content
 ##.gdrp-wrap.gdrp-show
@@ -35108,6 +35110,7 @@ m###teaser-newsletter
 ##div[class^="NewsletterPopup_"]
 ##div[class^="NewsletterSignup-"]
 ##div[class^="mpp-container-position"]
+##div[class^="newsletter-signup-container_"]
 ##div[class^="rightrail-newsletter-"]
 ##div[id^="feature-newsletter"]
 ##div[id^="newsletter-subscribe-"]
@@ -43227,6 +43230,7 @@ censor.net###usage_notice
 busybeeblog.com###user_disclaimer
 iboysoft.com###user_popup
 bunkerworld.com###userprompt
+wpbakery.com###vcv-top-banner
 factmag.com###vf-pop
 vive.com###vive-cookie-notice
 ritdye.com###vue-app > .v_bg\:peach-300
