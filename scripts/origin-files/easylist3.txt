@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kpbtLYvgUznEqeif6/um0g
-! Version: 202201280436
+! Checksum: NMT7Qpl6r3sRxg3bpaWxPg
+! Version: 202201281237
 ! Title: EasyList China
 ! Chinese supplement for the EasyList filters
-! Last Modified: 28 Jan 2022 04:36 UTC
+! Last Modified: 28 Jan 2022 12:37 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 ! License: https://easylist-downloads.adblockplus.org/COPYING
@@ -4348,6 +4348,7 @@ $websocket,domain=5nj.com|cechi8.com
 /ysm.ezprice.net/*
 ://*btbtt.*/imgs.js
 ://*btbtt.*/view/image/QT_
+://dmhy.gate.*/*.*?$image
 ://dmhy.org^*.*?$image
 ://www.*.js|$script,third-party,domain=159i.com|r3sub.com|thisav.com
 _vmind.qqvideo.tc.qq.com^
@@ -17156,6 +17157,13 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels
 ||zhentao.shop^
 ||blockai.me^
+||ivqd8oi.cn^
+||itjie.xyz^
+||lxxy.xyz^
+||status500.xyz^
+||msjxxz.com^
+||51lx.ink^
+||wjxs.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
