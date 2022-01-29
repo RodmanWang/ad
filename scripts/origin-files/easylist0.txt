@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fejebEUIGKUM1HlwpsJ2yA
-! Version: 202201290435
+! Checksum: e1W6BSK9qmTXeRfrBwoKZA
+! Version: 202201291235
 ! Title: EasyList
-! Last modified: 29 Jan 2022 04:35 UTC
+! Last modified: 29 Jan 2022 12:35 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5141,7 +5141,6 @@
 /o2contentad.
 /oas-config.
 /oas.aspx
-/oas.js
 /oas/ad/*
 /oas/banners/*
 /oas/iframe.
@@ -39939,6 +39938,7 @@ tf2r.com#@#.adverts
 ||mjlpqbklxgt.com^
 ||mjlsiopjesbn.com^
 ||mjsyqwpqnjbgua.com^
+||mjyhgt.xyz^
 ||mk1lyl406xmp.com^
 ||mkhoj.com^
 ||mkjsqrpmxqdf.com^
@@ -53958,7 +53958,6 @@ mobafire.com##.exhibit-vertical
 streamingmedia.com##.expand
 yourbittorrent.com##.extneed
 thefinancialexpress-bd.com##.extraLink
-unsplash.com##.eziW_
 formula1.com##.f1-dfp-banner-wrapper
 audiophilereview.com##.f7e65-midcontent
 audiophilereview.com##.f7e65-sidebar-ad-widget
@@ -54921,6 +54920,7 @@ sciencedaily.com##.unit1
 sciencedaily.com##.unit2
 gpucheck.com##.unitBox
 pcgamingwiki.com##.upcoming-releases.home-card:first-child
+letterboxd.com##.upgrade-kicker
 wbur.org##.uw--rectangle
 wbur.org##.uw-label--bottom
 lasvegassun.com##.varWrapper
@@ -56487,7 +56487,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||hutchgo.advertserve.com^$domain=hutchgo.com|hutchgo.com.cn|hutchgo.com.hk|hutchgo.com.sg|hutchgo.com.tw
 @@||hw-ads.datpiff.com/news/$image,domain=datpiff.com
 @@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=~spotify.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=247sports.com|api.screen9.com|bbc.com|blastingnews.com|bloomberg.com|cbsnews.com|cbssports.com|chicagotribune.com|cnet.com|crhoy.com|distro.tv|einthusan.tv|embed.comicbook.com|etonline.com|games.usatoday.com|howstuffworks.com|iheart.com|insideedition.com|metacritic.com|missoulian.com|newsweek.com|paralympic.org|player.abacast.net|player.earthtv.com|player.performgroup.com|popculture.com|scrippsdigital.com|tdn.com|truvid.com|zdnet.com|zeebiz.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=247sports.com|=tubitv.com|api.screen9.com|bbc.com|blastingnews.com|bloomberg.com|cbsnews.com|cbssports.com|chicagotribune.com|cnet.com|crhoy.com|distro.tv|einthusan.tv|embed.comicbook.com|etonline.com|games.usatoday.com|howstuffworks.com|iheart.com|insideedition.com|metacritic.com|missoulian.com|newsweek.com|paralympic.org|player.abacast.net|player.earthtv.com|player.performgroup.com|popculture.com|scrippsdigital.com|tdn.com|truvid.com|zdnet.com|zeebiz.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=247sports.com|bloomberg.co.jp|bloomberg.com|cbc.ca|embed.comicbook.com|sbs.com.au
 @@||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$domain=abcnews.go.com|brightcove.net
 @@||img-cdn.mediaplex.com^$image,domain=betfair.com
