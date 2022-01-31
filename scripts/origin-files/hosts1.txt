@@ -24,7 +24,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <tr>
 <td>blocklist last updated:</td>
-<td><b class=blue>Tue, 25 Jan 2022 09:38:21 GMT</b></td>
+<td><b class=blue>Mon, 31 Jan 2022 15:25:00 GMT</b></td>
 </tr>
 
 
@@ -41,7 +41,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <tr>
 <td>total entries:</td>
-<td><b class=blue>3679</b></td>
+<td><b class=blue>3680</b></td>
 </tr>
 
 </table>
@@ -77,8 +77,8 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Tue, 25 Jan 2022 09:38:21 GMT
-# entries:        3679
+# last updated:   Mon, 31 Jan 2022 15:25:00 GMT
+# entries:        3680
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/as/serverlist.php?mimetype=plain.text
@@ -3513,6 +3513,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 trk42.net
 127.0.0.1 trkn.us
 127.0.0.1 trknths.com
+127.0.0.1 trkoptimizer.com
 127.0.0.1 trmit.com
 127.0.0.1 truckstomatoes.com
 127.0.0.1 truehits.net
