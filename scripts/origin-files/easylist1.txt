@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: TyrfkwQKsJ2GsB7cMz72Vw
-! Version: 202201302126
+! Checksum: sRCJdl2VhEuE1kv1fuUUAg
+! Version: 202201310436
 ! Title: EasyPrivacy
-! Last modified: 30 Jan 2022 21:26 UTC
+! Last modified: 31 Jan 2022 04:36 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5312,6 +5312,7 @@ _gaTrack.js
 _google_analytics.
 _googleAnalytics.
 _googleAnalytics_
+_GoogleTagManager/
 _gpt_bootstrap_
 _gstat.gif?uid=
 _hitcount1.
@@ -10605,6 +10606,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking*.euroads.fi^$third-party
 ||userneeds.com^$third-party
 ||vihtori-analytics.fi^$third-party
+! Georgian
+||tbcconnect.ge^$third-party
 ! Greek
 ||linkwi.se^$third-party
 ! Hebrew
@@ -26513,6 +26516,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||spatialbuzz.com/piwik/piwik.js$domain=spatialbuzz.com
 @@||spiegel.de/layout/js/http/netmind-$script
 @@||stroeerdigitalgroup.de/metatag/live/bauer-autozeitung/metaTag.min.js$domain=autozeitung.de
+@@||stuttgarter-nachrichten.de/cre-1.0/tracking/call.js?$script,~third-party
+@@||stuttgarter-nachrichten.de/cre-1.0/tracking/tracking.js$script,~third-party
 @@||sunday.de/skin/*/googleanalytics.js$script
 @@||taboola.com/libtrc/$script,domain=bild.de|bz-berlin.de|computerbild.de|fitbook.de|jetzt.de|metal-hammer.de|musikexpress.de|noizz.de|rollingstone.de|stylebook.de|sueddeutsche.de|techbook.de|travelbook.de|welt.de|wieistmeineip.at|wieistmeineip.ch|wieistmeineip.de
 @@||taboola.com^*/json?tim=$domain=sueddeutsche.de
