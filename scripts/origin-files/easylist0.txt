@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: kAvDKzxh6RnMMw+JEqa1PQ
-! Version: 202201312125
+! Checksum: HZ/YOZhPZCG6iW87Zi5Akw
+! Version: 202202010435
 ! Title: EasyList
-! Last modified: 31 Jan 2022 21:25 UTC
+! Last modified: 01 Feb 2022 04:35 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2860,7 +2860,7 @@
 /adtaily_
 /adtaobao.
 /adTargeting.$domain=~adtargeting.com
-/adtech.$~script,domain=~adtech.co.uk|~adtech.md
+/adtech.$~script,domain=~adtech.co.uk|~adtech.io|~adtech.md
 /adtech/*
 /adtech;
 /adtech_$domain=~adtech.co.uk
@@ -22452,6 +22452,7 @@ _800x80_
 ##.aolSponsoredLinks
 ##.aopsadvert
 ##.ap_str_ad
+##.apexAd
 ##.apiAdMarkerAbove
 ##.apiAds
 ##.apiButtonAd
@@ -37970,6 +37971,7 @@ tf2r.com#@#.adverts
 ||hotgvibe.com^
 ||hothta.com^
 ||hotideiasnetwork.ga^
+||hotnaturey.xyz^
 ||hotrodsvmsize.casa^
 ||hotterenvisage.com^
 ||houdodoo.net^
@@ -43070,6 +43072,7 @@ tf2r.com#@#.adverts
 ||rukoval.com^
 ||rulejanuary.com^
 ||rulinecrea.xyz^
+||rulkerton.site^
 ||rumerrand.com^
 ||rummyaffiliates.com^
 ||run-syndicate.com^
@@ -52117,6 +52120,7 @@ tf2r.com#@#.adverts
 ! In-page video advertising.
 ||api.fw.tv^
 ||avantisvideo.com/avm/js/video-loader.js$script,third-party
+||brid.tv^$script,domain=spin.com|thewrap.com
 ||c.jsrdn.com^$script,domain=muscleandfitness.com
 ||channelexco.com/player/$third-party
 ||connatix.com^$third-party
@@ -52144,7 +52148,6 @@ tf2r.com#@#.adverts
 ||players.brightcove.net^$script,domain=businessinsider.com.au|gizmodo.com.au|kotaku.com.au|lifehacker.com.au|pedestrian.tv
 ||playwire.com/bolt/js/$script,third-party
 ||rumble.com^$domain=tiphero.com
-||services.brid.tv^$script,domain=spin.com
 ||sportrecs.com/redirect/embed/
 ||ultimedia.com/js/common/smart.js$script,third-party
 ||vidazoo.com/basev/$script,third-party
@@ -55561,6 +55564,8 @@ realclearpolitics.com###realclear_jwplayer_container
 uproxx.com###upx-mm-player-wrap
 newseveryday.com###vplayer_large
 sciencetimes.com##.article-videoplayer
+thewrap.com##.aspect-ratio-box-inside
+thewrap.com##.brid-default-skin
 mb.com.ph##.code-block
 techwalla.com##.component-article-section-jwplayer-wrapper
 ladbible.com##.css-1tc48v6
