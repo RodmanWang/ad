@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: GxPb75T4QGljznE1oIr3Fg
-! Version: 202202022100
+! Checksum: t10/OGcZfJRujU6cFUVZog
+! Version: 202202030400
 ! Title: Fanboy's Annoyance List
-! Last modified: 2022-02-02 21:00 UTC
+! Last modified: 2022-02-03 04:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -16176,7 +16176,6 @@ _subscribers_newsletters/
 ##.single-share-logo
 ##.single-share-pinterest
 ##.single-sharing-btns
-##.single-social
 ##.single-social-button
 ##.single-social-button-email
 ##.single-social-button-whatsapp
@@ -19936,6 +19935,7 @@ _subscribers_newsletters/
 ###CookieConsentBanner
 ###CookieConsentCheck2
 ###CookieConsentContainer
+###CookieConsentDialog
 ###CookieConsentDiv
 ###CookieConsentGdpr
 ###CookieConsentMessage
@@ -20016,6 +20016,7 @@ _subscribers_newsletters/
 ###CookiePolicy_div
 ###CookiePopup
 ###CookiePrivacy
+###CookiePrivacyNotice
 ###CookiePubSet
 ###CookieQBanner
 ###CookieReportsBanner
@@ -20155,6 +20156,7 @@ _subscribers_newsletters/
 ###GCUCookiePolicyWarning
 ###GDPR-acceptDialogWrapper
 ###GDPR-alert
+###GDPR-cookies-notice
 ###GDPRAlertBanner
 ###GDPRConsent
 ###GDPRConsentBar
@@ -20186,6 +20188,7 @@ _subscribers_newsletters/
 ###GruUiWrapper
 ###HCECookieManagerContainer
 ###HFS_CookieHint
+###HFS_CookieHintBg
 ###HGLCookieWarning
 ###Header_Header_ctl00_cookieDisclamer
 ###HolderForCookieInfo
@@ -20330,15 +20333,18 @@ _subscribers_newsletters/
 ###__layout div[class*="cookie-popup"]
 ###__loadCookie
 ###__ndcc_cookieImpliedConsent
+###__next div[aria-labelledby*="cookie-dialog"]
 ###__next div[class*="CookieConsent"]
 ###__next div[class*="CookieMesage"]
 ###__next div[class*="CookieNotice"]
+###__next div[class*="CookiePolicy"]
 ###__next div[class*="CookieWidget"]
 ###__next div[class*="GdprBanner"]
 ###__next div[class*="GdprParentWrapper"]
 ###__next div[class*="PrivacyNotification"]
 ###__next div[class*="PrivacyPolicy"]
 ###__next div[class*="StyledCookieLayer"]
+###__next div[class*="cookie-message"]
 ###__next div[class*="privacy-notification"]
 ###__next div[data-selector="container@cookiebar"]
 ###__ntk_banner_cookie
@@ -20363,6 +20369,7 @@ _subscribers_newsletters/
 ###_cookies-overlay
 ###_cookies-popup
 ###_cookies_info
+###_ctl0_pop_up_cnil
 ###_evh-button
 ###_evh-ric
 ###_evidon-barrier-wrapper
@@ -20510,7 +20517,7 @@ _subscribers_newsletters/
 ###aio-gdpr-cookie-notice
 ###ajaxCookiesMessage
 ###ajaxStyleJamCookiesMessage
-###akceptacja
+###akceptacja_cookies
 ###akceptcookie
 ###aldi-nord-cookiehint
 ###alert-biscotti
@@ -20977,6 +20984,7 @@ _subscribers_newsletters/
 ###caseys-cookie-modal
 ###caspian_cookiebar
 ###catapult-cookie-bar
+###cb-cookie_consent
 ###cb-cookieoverlay
 ###cbcookies-bottom
 ###cbcookies-top
@@ -20995,6 +21003,8 @@ _subscribers_newsletters/
 ###cc-wrapper
 ###cc.cc_dialog
 ###ccMessage
+###cc__modal__container
+###cc__pageBlock
 ###cc_bandeau
 ###cc_banner
 ###cc_banner-wrapper
@@ -21143,6 +21153,7 @@ _subscribers_newsletters/
 ###cmp-widget-wrapper
 ###cmpBackdrop
 ###cmpBanner
+###cmplz-cookiebanner-container
 ###cms-cookie-wrapper
 ###cms-cookies-consent
 ###cms-module-legal-privacy-hint
@@ -21220,6 +21231,7 @@ _subscribers_newsletters/
 ###complianceBanner
 ###complianceCookie
 ###compliancecookie
+###comspace-usercentrics
 ###confermaCookie
 ###confidentialite_cookie
 ###confirm-cookie-modal
@@ -21234,12 +21246,14 @@ _subscribers_newsletters/
 ###consenso_cookie
 ###consent-agreement
 ###consent-banner
+###consent-banner-container
 ###consent-bar
 ###consent-block
 ###consent-bump
 ###consent-cookie
 ###consent-cookie-container:not(html):not(body)
 ###consent-footer
+###consent-layer-modal
 ###consent-manager
 ###consent-manager-backdrop
 ###consent-manager-container:not(html):not(body)
@@ -21415,6 +21429,7 @@ _subscribers_newsletters/
 ###cookie-banner-backdrop
 ###cookie-banner-bespoke
 ###cookie-banner-container:not(html):not(body)
+###cookie-banner-host
 ###cookie-banner-message
 ###cookie-banner-panel
 ###cookie-banner-root
@@ -21515,6 +21530,7 @@ _subscribers_newsletters/
 ###cookie-contract
 ###cookie-control
 ###cookie-control-master
+###cookie-control-prompt
 ###cookie-controll
 ###cookie-cookie-div
 ###cookie-copy
@@ -21857,6 +21873,7 @@ _subscribers_newsletters/
 ###cookie-uni-kl
 ###cookie-usage-alert
 ###cookie-usage-notice
+###cookie-usage-panel
 ###cookie-use-notice-wrapper
 ###cookie-uzenet
 ###cookie-varsel
@@ -21948,6 +21965,7 @@ _subscribers_newsletters/
 ###cookieAuth
 ###cookieBAR
 ###cookieBG
+###cookieBackdrop
 ###cookieBalk
 ###cookieBan
 ###cookieBandeau
@@ -21970,6 +21988,8 @@ _subscribers_newsletters/
 ###cookieBar
 ###cookieBarBC
 ###cookieBarContainer
+###cookieBarRGPDOverlay
+###cookieBarRGPDPop
 ###cookieBarVisible
 ###cookieBarWrapper
 ###cookieBgOverlay
@@ -22101,6 +22121,7 @@ _subscribers_newsletters/
 ###cookieHead
 ###cookieHeader
 ###cookieHint
+###cookieHintExt
 ###cookieHintModalGeneral
 ###cookieHint_container
 ###cookieHinweis
@@ -22388,6 +22409,7 @@ _subscribers_newsletters/
 ###cookieWallBackground
 ###cookieWallBar
 ###cookieWallModal
+###cookieWallOverlay
 ###cookieWarn
 ###cookieWarnBox
 ###cookieWarning
@@ -22469,6 +22491,7 @@ _subscribers_newsletters/
 ###cookie_baner
 ###cookie_banner
 ###cookie_banner_container
+###cookie_banner_footer
 ###cookie_bar
 ###cookie_bar_big_container
 ###cookie_bar_container
@@ -22835,6 +22858,7 @@ _subscribers_newsletters/
 ###cookieconsent-frame
 ###cookieconsent-implicit-popup
 ###cookieconsent_banner
+###cookieconsent_bar
 ###cookieconsent_container
 ###cookieconsent_dialog
 ###cookieconsent_text
@@ -23279,6 +23303,7 @@ _subscribers_newsletters/
 ###cookiesLegal
 ###cookiesLegalMessage
 ###cookiesLequipe
+###cookiesLightbox
 ###cookiesMainWarningDiv
 ###cookiesManagerFrameBox
 ###cookiesMensajePolitica
@@ -23857,6 +23882,8 @@ _subscribers_newsletters/
 ###divCookieNotification
 ###divCookieNotify
 ###divCookiePolicy
+###divCookieStickyLayer
+###divCookieStickyLayerBackdrop
 ###divCookieUsedNote
 ###divCookieWarning
 ###divCookies
@@ -24535,6 +24562,7 @@ _subscribers_newsletters/
 ###globalCookieBar
 ###globalCookies
 ###global_default_cookie_policy
+###glowCookies-banner
 ###gm-cookies
 ###gn-cookie-accept
 ###golem-cookie-accept
@@ -24713,6 +24741,7 @@ _subscribers_newsletters/
 ###iib-cookies
 ###iimGdprRoot
 ###ij-policy-disclaimer
+###ikanos-privacy-cookielayer
 ###ilovecookies
 ###imPolicycookiemessage
 ###im_cookie_message
@@ -25046,6 +25075,7 @@ _subscribers_newsletters/
 ###lightbox-gdpr
 ###lineCookieInfo
 ###lisa-consent-container
+###litespot-pro-cookie-ify
 ###lldcookiepop
 ###lm-cookie-policy
 ###lmf_privacy_cookiebar
@@ -25108,6 +25138,7 @@ _subscribers_newsletters/
 ###mcCookiesLawMessage
 ###mcc-cookie-overlay
 ###mcd_cookie_popup
+###mch-cookie-consent
 ###mcookie
 ###md-cookie-directive
 ###mde-consent-modal-container
@@ -25169,6 +25200,7 @@ _subscribers_newsletters/
 ###mmMS--notification
 ###mm_t07_cookie_box
 ###mmmmm-cookies
+###mms-consent-portal-container
 ###mms-cookie-disclaimer
 ###mmsCookieLayer
 ###mn_cookieinfo_holder
@@ -25188,6 +25220,7 @@ _subscribers_newsletters/
 ###mod_cookie
 ###mod_cookie_c
 ###mod_gdpr_container
+###modal-aviso-cookies
 ###modal-bannercookies
 ###modal-card-email-notice
 ###modal-cookie
@@ -25230,6 +25263,7 @@ _subscribers_newsletters/
 ###morph-cookie-bar
 ###moscacookie
 ###mostrar_aceptcookie
+###moto-cookies-container
 ###motorsCookieMsg
 ###mow_cookie_info_dialog
 ###mp-misc-cookie-bar
@@ -25291,6 +25325,7 @@ _subscribers_newsletters/
 ###mz_genericOverlay
 ###n2g_box_cookie_alerte_message
 ###nCookie
+###nacc-overlay
 ###nafets_imprint-cookie
 ###name-ga-cookie-accept-bar
 ###nav-cookie
@@ -25321,6 +25356,7 @@ _subscribers_newsletters/
 ###nextcookie
 ###nfPPBar
 ###nf_cookiebanner
+###nfa-cookie-cookie-banner
 ###nfcCookieNote
 ###nfcookieAcceptModal
 ###nge_box_cookie_alerte_message
@@ -25362,6 +25398,7 @@ _subscribers_newsletters/
 ###noticeAboutCookies
 ###noticeCookies
 ###noticePopup
+###noticePrivacy
 ###notice_cnil
 ###notice_privacy
 ###notice_visitor
@@ -25428,6 +25465,7 @@ _subscribers_newsletters/
 ###oddcookie
 ###ode-cookie-popup
 ###oe-cookie-consent-dialogue
+###oemaceptacion
 ###ogcc_barContainer
 ###oil-privacy-button
 ###oil-privacy-form
@@ -25674,6 +25712,7 @@ _subscribers_newsletters/
 ###popup-cookie-wall
 ###popup-cookieConsent
 ###popup-cookies
+###popup-cookies-bottom
 ###popup-cookies-police
 ###popup-disclaimer
 ###popup-gdpr
@@ -25867,6 +25906,7 @@ _subscribers_newsletters/
 ###ramka_ciasteczka_info
 ###rapidweaver_privacy_message
 ###ras-cookie-container
+###razer-pro-cookie-ify
 ###rb-cookie-container
 ###rb_cookieBox
 ###rbiCookiePolicy_pushDownBoxWrapper
@@ -25934,6 +25974,7 @@ _subscribers_newsletters/
 ###root [class*="CookiePolicyWidget"]
 ###root div[aria-label="cookieconsent"]
 ###root div[class*="CookiesConsent"]
+###root div[class*="CookiesPopUp"]
 ###root div[class*="cookieMonster-wrapper"]
 ###root div[class*="cookies-policy"]
 ###root div[data-test*="Cookie-Banner"]
@@ -26043,6 +26084,7 @@ _subscribers_newsletters/
 ###site-cookie-notice
 ###site-cookie-policy
 ###site-cookies
+###site-cookies-banner
 ###site-footer__cookies
 ###site-footer_alert_cookie
 ###site-notification-cookie-consent
@@ -26056,6 +26098,7 @@ _subscribers_newsletters/
 ###site_footer__cookie_consent
 ###site_info_cookies
 ###site_msg_cookie
+###sitecookiebanner
 ###sitemanager-cookie-bar
 ###siteusescookiewarningstrip
 ###siu_cookiehinweis
@@ -26697,6 +26740,7 @@ _subscribers_newsletters/
 ##.CookieNotification-bar
 ##.CookieNotificationPopUp
 ##.CookieNotificationTopBar
+##.CookieNotify
 ##.CookieNotifyWidget__wrapper
 ##.CookieOptIn
 ##.CookieOverlay
@@ -26837,6 +26881,7 @@ _subscribers_newsletters/
 ##.SLNotificationBar
 ##.SP-CookieUsageNotification
 ##.Section-Cookie
+##.SiteLayout-cookieBar
 ##.SiteMessage--cookie
 ##.SiteUseCookies
 ##.SiteWideCookie
@@ -27106,6 +27151,7 @@ _subscribers_newsletters/
 ##.aszfLayerContent
 ##.atm-cookies-disclaimer
 ##.atvi-cookie-disclaimer
+##.atvi-privacy-policy-module
 ##.aurora-nanobar
 ##.auskunft-cookies
 ##.austria_cookie_law
@@ -27124,6 +27170,7 @@ _subscribers_newsletters/
 ##.avia-cookie-consent-wrap
 ##.avia-cookiemessage-bottom
 ##.aviso-cookies
+##.aviso-gestion-cookies
 ##.avisoCookie
 ##.avisoCookies
 ##.avisoPoliticacookies
@@ -27347,6 +27394,7 @@ _subscribers_newsletters/
 ##.block_cookie_popup
 ##.block_mess_cookies
 ##.blockcookies
+##.blocknav-gestion-cookies
 ##.bloque-cookies
 ##.bloque_ventanaCookies
 ##.bls-cookie-policy
@@ -27428,6 +27476,7 @@ _subscribers_newsletters/
 ##.c-consent
 ##.c-consent-form
 ##.c-consentLayer__innerBox
+##.c-consentTracking
 ##.c-consentcookie
 ##.c-consentcookie--active
 ##.c-cookie
@@ -27484,6 +27533,7 @@ _subscribers_newsletters/
 ##.c-floating.c-window
 ##.c-fnd-cookie-acceptance
 ##.c-footer__cookies
+##.c-gc-cookiebar
 ##.c-gdpr-banner
 ##.c-gdprbar
 ##.c-headband-cookies
@@ -27798,6 +27848,7 @@ _subscribers_newsletters/
 ##.consent-toast
 ##.consent-toolbar
 ##.consent-ui--banner
+##.consent-wall-overlay
 ##.consent-wrapper
 ##.consent-wrapper-active
 ##.consent.cookies
@@ -27829,6 +27880,7 @@ _subscribers_newsletters/
 ##.container-cookie-consent
 ##.container-cookie-notice
 ##.container-cookie-policy
+##.container-cookie-popup
 ##.container-cookies
 ##.container-cookiesBar
 ##.container-fluid.cookies
@@ -27869,6 +27921,7 @@ _subscribers_newsletters/
 ##.coockies
 ##.coockies-message
 ##.coockiesPolicy
+##.coockies_alert
 ##.coockiesfixed
 ##.cook-accept
 ##.cook-popup
@@ -28100,6 +28153,7 @@ _subscribers_newsletters/
 ##.cookie-control-bar
 ##.cookie-control-container
 ##.cookie-control-content
+##.cookie-control__banner
 ##.cookie-copy
 ##.cookie-cover
 ##.cookie-cube
@@ -28158,6 +28212,7 @@ _subscribers_newsletters/
 ##.cookie-go
 ##.cookie-guard-msg
 ##.cookie-guideline
+##.cookie-handling-new
 ##.cookie-header
 ##.cookie-hint
 ##.cookie-hint-container
@@ -28343,6 +28398,7 @@ _subscribers_newsletters/
 ##.cookie-notifications
 ##.cookie-notifier
 ##.cookie-notifier-content
+##.cookie-notifikasjon
 ##.cookie-notify
 ##.cookie-notify-block
 ##.cookie-notify-container
@@ -28669,6 +28725,8 @@ _subscribers_newsletters/
 ##.cookieConsentBar
 ##.cookieConsentBarContainer
 ##.cookieConsentContent
+##.cookieConsentFooter
+##.cookieConsentHinweisOverlay
 ##.cookieConsentPanel
 ##.cookieConsentPopup
 ##.cookieConsentShort
@@ -28905,6 +28963,7 @@ _subscribers_newsletters/
 ##.cookie_banner-handled
 ##.cookie_banner_background
 ##.cookie_banner_container
+##.cookie_banner_footer
 ##.cookie_banniere
 ##.cookie_bar
 ##.cookie_bar_base
@@ -29144,6 +29203,7 @@ _subscribers_newsletters/
 ##.cookieinfo-content
 ##.cookieinfo:not(body)
 ##.cookieinfobannerWrapper
+##.cookieinfobar
 ##.cookieinfoblock
 ##.cookieinfoholder
 ##.cookieinformation
@@ -29180,6 +29240,7 @@ _subscribers_newsletters/
 ##.cookiemelding-container
 ##.cookiemeldung
 ##.cookiemessage
+##.cookiemessage__overlay
 ##.cookiemessageblock
 ##.cookiemessageplaceholder
 ##.cookiemodal
@@ -29464,6 +29525,7 @@ _subscribers_newsletters/
 ##.cookiesAlert
 ##.cookiesAlertBox
 ##.cookiesAlertWrapper
+##.cookiesBackground
 ##.cookiesBanner
 ##.cookiesBannerBlock
 ##.cookiesBannerShown
@@ -29512,6 +29574,7 @@ _subscribers_newsletters/
 ##.cookiesOverlay2
 ##.cookiesOverlay2Box
 ##.cookiesPanel
+##.cookiesPanelBackground
 ##.cookiesPie
 ##.cookiesPiskot
 ##.cookiesPolicy
@@ -29556,6 +29619,7 @@ _subscribers_newsletters/
 ##.cookies__wraper
 ##.cookies__wrapper
 ##.cookies_accept
+##.cookies_accept_containter
 ##.cookies_acceptance
 ##.cookies_active
 ##.cookies_advice
@@ -30147,6 +30211,7 @@ _subscribers_newsletters/
 ##.fo-cookies-policy
 ##.fond_bandeau_coockies
 ##.fool_text_cookie
+##.footer div[id*="CookieBannerLink"]
 ##.footer-cnil
 ##.footer-cnil-wr
 ##.footer-cookie
@@ -30172,6 +30237,7 @@ _subscribers_newsletters/
 ##.footer__cookies
 ##.footer__eu-cookie
 ##.footer__gdrp
+##.footer__privacy-cookie
 ##.footer_cnil
 ##.footer_cookie
 ##.footer_cookie_bar
@@ -30609,6 +30675,7 @@ _subscribers_newsletters/
 ##.initial-cmp-container-overlay
 ##.inner_cnil
 ##.innoPrivacy
+##.ins-el-cookie-alert
 ##.inscookies-banner-container
 ##.intercept-cookies
 ##.ip-cookie-banner
@@ -30707,6 +30774,7 @@ _subscribers_newsletters/
 ##.js-cookie-consent-block
 ##.js-cookie-consent-module
 ##.js-cookie-consent-overlay
+##.js-cookie-consent-wrap
 ##.js-cookie-container:not(html):not(body)
 ##.js-cookie-copy
 ##.js-cookie-data-warning
@@ -30766,8 +30834,10 @@ _subscribers_newsletters/
 ##.js-cookieloop
 ##.js-cookiemodal
 ##.js-cookies
+##.js-cookies-agreement
 ##.js-cookies-agreement-notification
 ##.js-cookies-alert
+##.js-cookies-backdrop
 ##.js-cookies-banner
 ##.js-cookies-block
 ##.js-cookies-box
@@ -30808,6 +30878,7 @@ _subscribers_newsletters/
 ##.js-main-cookie-banner
 ##.js-message-cookies
 ##.js-modal-cookie
+##.js-modal-first-cookie
 ##.js-nanobar-first-login
 ##.js-nn-cookie
 ##.js-notify-cookie
@@ -30821,6 +30892,7 @@ _subscribers_newsletters/
 ##.js-privacy-consent
 ##.js-privacy-notification
 ##.js-privacy-policy-alert
+##.js-privacy-policy-message-box
 ##.js-react-component-CookieNotification
 ##.js-setcookiepolicy
 ##.js-silent-consent
@@ -30940,6 +31012,8 @@ _subscribers_newsletters/
 ##.leyCookies
 ##.lf-cookie-law-default
 ##.lg-cookie
+##.lgcookieslaw-banner
+##.lgcookieslaw-overlay
 ##.lgcookieslaw_banner
 ##.lgi-bgcontainer-privacybanner
 ##.lgi_privacybanner
@@ -31131,6 +31205,7 @@ _subscribers_newsletters/
 ##.mod_cookieconfirmation
 ##.mod_cookies
 ##.mod_privacy_optin
+##.mod_privacy_optin_slim
 ##.modal--cookie
 ##.modal--cookies
 ##.modal--cookies-backdrop
@@ -31301,6 +31376,7 @@ _subscribers_newsletters/
 ##.noat-cookie-consent__banner
 ##.noe_cookie_cnil
 ##.nokia-cookies-wrapper
+##.nonmodal--cookie
 ##.normativa-cookies
 ##.note_cookie
 ##.notice--cookie
@@ -31500,6 +31576,7 @@ _subscribers_newsletters/
 ##.pageFooter-acceptCookies
 ##.pageHCookie
 ##.page__cookie
+##.page__cookie-disclaimer
 ##.page__disclaimer--cookies
 ##.page__gdpr
 ##.page__survey-cookie-info
@@ -31553,6 +31630,7 @@ _subscribers_newsletters/
 ##.piwik-notice-container
 ##.pix-cookie-banner
 ##.pj-ui-cookie-banner
+##.pko-cookie-rodo-overlay
 ##.pl-cookies
 ##.pl-cookies-cta
 ##.pl-cookies-cta-contain
@@ -31686,6 +31764,7 @@ _subscribers_newsletters/
 ##.privacy-module
 ##.privacy-note:not(html):not(body)
 ##.privacy-notice--simple
+##.privacy-notice-background
 ##.privacy-notice-inner
 ##.privacy-notice:not(html):not(body)
 ##.privacy-notification-container
@@ -31867,6 +31946,8 @@ _subscribers_newsletters/
 ##.rodo-accept
 ##.rodo-alert
 ##.rodo-info
+##.rodo-info-box
+##.rodo-info-box-overlay
 ##.rodo-info__content
 ##.rodo-info__overlay
 ##.rodo-modal
@@ -31910,6 +31991,7 @@ _subscribers_newsletters/
 ##.s20-cookie-banner__container
 ##.s2mCookiesOptinDialog
 ##.s360-cookie-hint-wrapper
+##.sams-cookie-modal
 ##.sanoma-optin-bar
 ##.save-cookies
 ##.save-cookies-rte
@@ -32153,6 +32235,7 @@ _subscribers_newsletters/
 ##.texteAlerteCookie
 ##.texto_cookies
 ##.tg-info-cookie
+##.th-cookie-banner
 ##.thb-cookie-bar
 ##.thcookie-overlay
 ##.the-cookie-banner
@@ -32246,6 +32329,7 @@ _subscribers_newsletters/
 ##.tx-pnfcnil
 ##.tx-tandncookie
 ##.tx_cookiemonster_dataprotection_overlay
+##.tx_fe_cookies
 ##.txc_cookie_infobox
 ##.txtcoockies
 ##.tygh-top-cookies
@@ -32440,6 +32524,7 @@ _subscribers_newsletters/
 ##.wordpress-gdpr-popup
 ##.wp-gdpr-cookie-notice-wrap
 ##.wp-privacy-prompt-dialog-box
+##.wp-pt-cookie-consent
 ##.wp-statistics-opt-out
 ##.wp_privacy_cookie_wall-prompt-dialog-box
 ##.wpc-cookie-warning
@@ -32587,6 +32672,7 @@ _subscribers_newsletters/
 ##amedia-privacybox
 ##amp-consent
 ##amp-user-notification
+##app-accept-cookie
 ##app-aviso-cookie
 ##app-banner[arialabel*="Cookies"]
 ##app-cookie
@@ -32601,7 +32687,9 @@ _subscribers_newsletters/
 ##app-cookie-warning
 ##app-cookies-banner
 ##app-cookies-consent
+##app-cookies-policy
 ##app-cookies-policy-updated
+##app-cookies-toast
 ##app-rodo
 ##app-root app-cookie-acceptance
 ##ark-cookiebar
@@ -32614,6 +32702,7 @@ _subscribers_newsletters/
 ##cg-cookies-banner
 ##cloudflare-app[app="cookiless"]
 ##cloudflare-app[app="tibrr-cookie-consent"]
+##cmm-cookie-banner
 ##cmpviews-cookies-accept
 ##cn-cookie-agreement
 ##col-cookie-info-banner
@@ -32622,6 +32711,7 @@ _subscribers_newsletters/
 ##consent-notification
 ##cook-disclaimer
 ##cookie-agreement-block
+##cookie-alert
 ##cookie-bar
 ##cookie-confirmation
 ##cookie-consent
@@ -35123,6 +35213,7 @@ m###teaser-newsletter
 ##GANNETT-ATOMS-COMPONENT-NEWSLETTER-CTA
 ##[class^="NewsletterSubscribe"]
 ##[class^="styles__NewsletterSub"]
+##[data-ajax-newsletter-subscription-container]
 ##[data-block-type="block:newsletter"]
 ##[data-module="newsletter-signup"]
 ##[data-nc="nc-newsletter"]
@@ -36454,7 +36545,7 @@ m###teaser-newsletter
 ||sp.knowyourmeme.com^
 ||stromnetz-hamburg.de/matomo/js/
 ||t13.9to5google.com^
-||tags.tiqcdn.com^$script,domain=firstdirect.com
+||tags.tiqcdn.com^$script,domain=firstdirect.com|santander.pl|swisscom.ch
 ||vandalism-sounds.com^*/notices.min.js
 ||vinted.*/api/*/banners
 ||windguru.cz/forms/consent.php
@@ -41631,6 +41722,7 @@ msnbc.com##[class^="share__"]
 cnn.com##[class^="social-sharestyles"]
 scientificamerican.com##[data-mobile-context-nav-tab="share"]
 shazam.com##[data-shz-cmd="share"]
+kissjav.com##[href="#share"]
 alternativeto.net##[href="http://twitter.com/alternativeto"]
 flickr.com##[href="http://twitter.com/flickr"]
 imdb.com##[href="http://twitter.com/imdb"]
@@ -46297,7 +46389,7 @@ mixable.de###ccDialog
 hosteurope.de###cche
 badkissingen.de,wuerzburg.de###chint
 meteoradar.ch,metradar.ch###closeonaction
-toolbrothers.com###cm
+beianrufsex.com,toolbrothers.com###cm
 freiewelt.net###cmmodal
 jmmgc.com###cnotice
 aktienportal1.de,eifelzeitung.de,ep1.de###coPolicyMain
@@ -48564,7 +48656,6 @@ nextinpact.com#@#.sharrre
 theatlantic.com,youtube.com#@#.show-share
 500px.com#@#.show_social
 supercomfysleep.com#@#.simple_social
-recorder.ro#@#.single-social
 login.aliexpress.com#@#.sns-btns
 gry-online.pl#@#.social-16
 tvp.info#@#.social-article
@@ -48911,6 +49002,7 @@ finanzen.ch#@#.cookie-overlay
 bbcstudios.com,cvce.eu,fotopuzzle.de,hearst.co.uk#@#.cookie-policy
 fotopuzzle.de#@#.cookie-policy-wrapper
 60millions-mag.com#@#.cookie-popup
+realme.com#@#.cookie-privacy
 lot.com#@#.cookie-promo
 epolisbari.com,schwaebisch-hall.de,telecomitalia.it#@#.cookie-text
 drewag.de,enso.de,lvbet.pl,proglib.io,sudoku.com#@#.cookie-visible
