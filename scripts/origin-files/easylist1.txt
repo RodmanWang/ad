@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: D/iBgG7CxrJop27zXeVC6A
-! Version: 202202032126
+! Checksum: DiAGSHnsPb+E82RVkZNS2g
+! Version: 202202040426
 ! Title: EasyPrivacy
-! Last modified: 03 Feb 2022 21:26 UTC
+! Last modified: 04 Feb 2022 04:26 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -15358,6 +15358,7 @@ medicalxpress.com,techxplore.com##.embed-responsive-trendmd
 /^https?:\/\/www\.myservices\.equifax\.ca\/TSPD\/[0-9a-f]{30,}/$script,domain=equifax.ca
 ||127.0.0.1^$third-party,domain=ameriprise.com|beachbody.com|chick-fil-a.com|citi.com|ebay-kleinanzeigen.de|ebay.at|ebay.be|ebay.ca|ebay.ch|ebay.cn|ebay.co.uk|ebay.com|ebay.com.au|ebay.com.hk|ebay.com.my|ebay.com.sg|ebay.de|ebay.es|ebay.fr|ebay.ie|ebay.it|ebay.nl|ebay.ph|ebay.pl|equifax.ca|equifax.com|globo.com|gumtree.com|lendup.com|mbna.ca|rusneb.ru|sciencedirect.com|sky.com|spectrum.net|td.com|tiaa.org|vedacheck.com|wepay.com|whatleaks.com
 ||all3dp.com/kbcbqexpqvz8wrk88augy7b.js
+||citibank.com.ph/tmx/js/
 ||drfdisvc.walmart.com^
 ||ebay.com/nkfytkqtoxtljvzbxhr.js$script,domain=ebay.com
 ||ir.ebaystatic.com/rs/c/9527tracking/configuration.js$script,domain=ebay.com
@@ -26576,6 +26577,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 !
 @@||collector.leaddyno.com/shopify.js$script,domain=s4l.us
 @@||nbe.com.eg/NBEeChannelManager/CallMW.aspx$~third-party
+@@||rudaw.net/images/pixel.gif$~third-party
 @@||static.leaddyno.com/js$script,domain=s4l.us
 !
 !---------- Bosnian ----------

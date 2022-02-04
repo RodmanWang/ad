@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yE9nOcVNO3qpvuUDwshHJw
-! Version: 202202032126
+! Checksum: GuKyV3ptASBt0x6al2SWtQ
+! Version: 202202040426
 ! Title: EasyList China
 ! Chinese supplement for the EasyList filters
-! Last modified: 03 Feb 2022 21:26 UTC
+! Last modified: 04 Feb 2022 04:26 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 ! License: https://easylist-downloads.adblockplus.org/COPYING
@@ -1231,6 +1231,8 @@ ubmcmm.baidustatic.com
 ##.rtcenter_game
 ##.scupioadslot
 ##.self-gg
+###ChapterView > .slide-baidu
+##.container > .slide-baidu
 ##.spon-img[src*=".alicdn."]
 ##.static-a2d
 ##.stui-pannel > .recommend-two
@@ -1623,6 +1625,7 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||00-gov.cn^
+||xhfrt.cn^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
@@ -6122,7 +6125,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||ditiezu.com/banner/badatu.png
 ||divcss5.com*/ibeifeng/
 ||divcss5.com*/liping/
-||diyibanzhu555.com/js/html
 ||diyifanwen.com/siteimages/jiqiren
 ||diyijjj.com/data/content
 ||dj155.com/gg/
@@ -17181,6 +17183,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||chenjie.site^
+||cyfyb2.site^
+||jyzao.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
