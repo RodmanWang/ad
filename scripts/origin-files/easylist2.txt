@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: nOQAMggIlwyGo1pkDg/enw
-! Version: 202202040400
+! Checksum: Q2tAE5J4x4uwEtW3h6yk2Q
+! Version: 202202041200
 ! Title: Fanboy's Annoyance List
-! Last modified: 2022-02-04 04:00 UTC
+! Last modified: 2022-02-04 12:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -33550,8 +33550,11 @@ _subscribers_newsletters/
 ###promo-subscription
 ###promo-subscription-overlay
 ###pu-email-form-covid-email-article
+###pu-email-form-daily-email-article
 ###pu-email-form-entertainment-email-article
+###pu-email-form-home-email-article
 ###pu-email-form-opinion-email-article
+###pu-email-form-television-email-article
 ###quick-signup-article-widget
 ###rail-newsletter
 ###rb-newsletter
@@ -36221,7 +36224,7 @@ m###teaser-newsletter
 ||truendo.com^$third-party
 ||trustarc.com^$third-party
 ||trustarc.mgr.consensu.org^
-||uniconsent.mgr.consensu.org^$third-party
+||uniconsent.mgr.consensu.org^*.cmp.js$third-party
 ||usercentrics.eu^$third-party
 ||volksbund-cookie.de^$third-party
 ||widget.clym-sdk.net^$third-party
@@ -36299,6 +36302,7 @@ m###teaser-newsletter
 ||thrillist.com/campaigns/vortexInfo/$script
 ||tunein.com/account/newiframe/signup/*conversionPopup
 ||tutorvista.com/iframe_container/
+||walletinvestor.com/static/frontend/images/nys/
 ||washingtonmonthly.com/interstitial
 ||wikimedia.org/wiki/Special:BannerLoader?$domain=wikipedia.org
 ||wikimedia.org/wiki/Special:BannerRandom?$domain=wikipedia.org
@@ -38310,7 +38314,7 @@ onlymyhealth.com##.articlenav
 bizjournals.com##.articlesBottomPromo
 technologyreview.com##.articlesidebar
 theglobeandmail.com##.articletoolbar
-bozemandailychronicle.com,denvergazette.com,fauquier.com,galvnews.com,heraldcourier.com,psu.edu##.asset-paging
+bozemandailychronicle.com,denvergazette.com,fauquier.com,galvnews.com,heraldcourier.com,nashvillescene.com,psu.edu##.asset-paging
 wvnews.com##.asset-paging-container
 eweek.com##.assetNew
 stuff.co.nz##.assignment_icon
@@ -39978,6 +39982,7 @@ pocketgamer.com###site-background
 ghacks.net###stackcommerce_widget-4
 slideserve.com###suggestion
 ghacks.net###the-day-in-history
+nashvillescene.com###tncms-region-article_bottom
 insidethegames.biz###top-story-alert
 theweek.com###us77-test
 independent.co.uk###vouchercodes
@@ -40051,6 +40056,7 @@ propublica.org##.site-header__banner-link
 rollingstone.com##.size-900x1800
 slate.com##.slate-plus-promo
 stuff.co.nz##.spade_3g.spade_3f.spade_3e
+imobie.com##.sprtadv
 bleepingcomputer.com##.stackcommerce-widget
 goodmorningamerica.com##.sticky-footer
 indiatimes.com##.stickyBand
@@ -40072,6 +40078,7 @@ youtube.com##.ytd-statement-banner-renderer
 zerohedge.com##[class^="Banner_"]
 chess24.com##[href^="http://events.chess24.com/deals/"]
 phemex.com##[href^="https://phemex.com/bonus"]
+walletinvestor.com##[href^="https://premium.walletinvestor.com/"]
 weather.com##[id^=WxuContentMedia] > [title="Featured Deal"]
 weather.com##[id^=WxuContentMedia] > [title="Top Deals"]
 aeon.co##div[class^="Banner__BannerWrapper-"]
@@ -41784,6 +41791,7 @@ legacy.com##div[class^="GalleryOvCarousel__share_"]
 reuters.com##div[class^="ShareButtons__"]
 reuters.com##div[class^="SiteFooter__social_"]
 epicgames.com##div[class^="SocialLinks-"]
+cnbc.com##div[class^="SocialShare-"]
 zerohedge.com##div[class^="SocialSharingButtons_"]
 legacy.com##div[class^="SocialSharing_"]
 dallasnews.com##div[class^="app_social-media"]
@@ -42350,7 +42358,7 @@ nytimes.com##.abe45aa6
 sunweb.co.uk##.absolute-dialog
 greenfields.eu##.accept-alert
 mymuesli.com##.active.mask
-akeebabackup.com,displays.agneovo.com,imunify360.com,luxos.com,reshade.me,v-tac.eu##.activebar-container
+akeebabackup.com,displays.agneovo.com,imunify360.com,luxos.com,v-tac.eu##.activebar-container
 svitla.com##.agree-popup
 ticketmaster.ca##.agree-terms
 adata.com,ahlulbayt.tv,altervista.org,askdifference.com,asklion.co.uk,bankid.com,cfainstitute.org,convert-my-image.com,costaclub.com,efinancialcareers.com,gambling-affiliation.com,hattrick.org,kenweego.com,lawyersonline.co.uk,lifescience.net,linuxcompatible.org,lonelyplanet.com,m-a.org.uk,nature.com,netweather.tv,norwegian.com,pozyx.io,streema.com,supercell.com,theonlinesurgery.co.uk,tindie.com,ukpressonline.co.uk,vernemq.com,viewsonic.com,viewsoniceurope.com,warp2search.net,youngsseafood.co.uk##.alert
@@ -42531,6 +42539,7 @@ nordpass.com##.fixed.bg-grey-darkest
 developer.arm.com##.fixedPolicyBox
 bleacherreport.com##.fixedRegion
 spinnaker-watches.com##.fixedbar
+imobie.com##.fixedbot
 iotransfer.net##.fl-accept
 change.org##.flash-message-announcement
 deutscheam.com,dws.com##.flash-message__wrapper
@@ -50129,6 +50138,7 @@ androidauthority.com,bayern.de,socialitelife.com#@#.newsletter-content
 attentionactivist.com#@#.newsletter-form
 foreignaffairs.com,novojornal.co.ao,upim.com#@#.newsletter-modal
 action.com,billabong.com,socialitelife.com,strikerconcepts.com,tactxflashlights.com,urbanedcsupply.com#@#.newsletter-popup
+oremikids.com#@#.newsletter-section:not(html):not(body)
 subscriptions.theinformation.com#@#.newsletter-wrapper
 paypal.com#@#.newsletter.row:not(html):not(body)
 bidorbuy.co.za#@#.newsletterContainer
