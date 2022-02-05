@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: XNFQUeZxm7aOk+cgBw6C2Q
-! Version: 202202050425
+! Checksum: hNglnCcdHhWQxL1wENOTtQ
+! Version: 202202051225
 ! Title: EasyList
-! Last modified: 05 Feb 2022 04:25 UTC
+! Last modified: 05 Feb 2022 12:25 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -15934,6 +15934,7 @@ _800x80_
 ###sticky-custom-ads
 ###sticky-footer-ad
 ###sticky-footer-ads
+###sticky-left-ad
 ###sticky-rail-ad
 ###sticky-top-ad-spacer
 ###sticky-top-ad-wrap
@@ -22787,6 +22788,7 @@ _800x80_
 ##.bannerWrapAdwords
 ##.banner_160x600
 ##.banner_234x90
+##.banner_240x400
 ##.banner_250x250
 ##.banner_300_250
 ##.banner_300x250
@@ -27706,6 +27708,7 @@ _800x80_
 ##.resourceImagetAd
 ##.respAds
 ##.responsive-ad
+##.responsive-ad-header-container
 ##.responsive-ad-wrapper
 ##.responsive-ads
 ##.responsive-vertial-ad-wrapper
@@ -54579,6 +54582,7 @@ itweb.co.za##.itw-content-zone
 ownedcore.com##.iv-note
 distractify.com,radaronline.com##.jRAIxB
 psypost.org##.jeg_midbar
+radaronline.com##.jkqdnZ
 romania-insider.com##.job-item
 johncodeos.com##.johnc-widget
 marinelink.com,maritimejobs.com,maritimepropulsion.com,yachtingjournal.com##.jq-banner
@@ -55349,6 +55353,7 @@ fastpic.ru##.vright
 vaughn.live##.vs_v75_MvnAbvsLowerThirdWrapper
 ebook-searcher.com##.w-100
 userscript.zone##.w300
+goodfon.com##.wallpapers__banner240
 dailymail.co.uk##.watermark
 watson.ch##.watson-ad
 wbal.com##.wbal-banner
@@ -55505,6 +55510,7 @@ mmos.com##[href^="https://plarium.com/landings/"]
 spys.one##[href^="https://socksescort.com/"]
 steamanalyst.com##[href^="https://static.steamanalyst.com/steam/delivery/"]
 highshortinterest.com##[href^="https://tinyurl.com/"]
+mailshub.in##[href^="https://www.amazon.in/"]
 businessonhome.com##[href^="https://www.binance.com/en/register?ref="]
 bleepingcomputer.com##[href^="https://www.bleepingcomputer.com/go/"]
 seganerds.com##[href^="https://www.canadacasino.ca/"]
@@ -56036,8 +56042,6 @@ google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##.commercial-unit-mobile-top > .v7hl4d
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##.commercial-unit-mobile-top > div[data-pla="1"]
 duckduckgo.com##.js-results-ads
-history.com##.m-header-ad
-history.com##.m-in-content-ad-row
 polygon.com,tweaktown.com##.ob-smartfeed-wrapper
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##AMP-AD
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##[data-text-ad]

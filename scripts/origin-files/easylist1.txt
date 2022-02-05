@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: BYIhbgMGr0tyPwYn+XAd0w
-! Version: 202202050426
+! Checksum: bAo+0NWkupxLLbUt2C7Ajg
+! Version: 202202051226
 ! Title: EasyPrivacy
-! Last modified: 05 Feb 2022 04:26 UTC
+! Last modified: 05 Feb 2022 12:26 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -11143,6 +11143,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||amp-error-reporting.appspot.com^
 ||amplify.outbrain.com^$third-party
 ||amplifypixel.outbrain.com^
+||ampproject.org/preconnect.gif
 ||ams-pageview-public.s3.amazonaws.com^
 ||an.yandex.ru^
 ||analyse.bcovery.com^
@@ -12160,6 +12161,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||liverail.com/?metric=
 ||liverail.com/track/?
 ||livestats.kaltura.com^
+||loader.zeroform.com^
 ||location3.com/analytics/
 ||log-*.previewnetworks.com^
 ||log.aimtell.com^
@@ -14656,6 +14658,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gofundme.com/track
 ||gog-statics.com/js/frontpagelogintracking-$script,domain=gog.com
 ||gog-statics.com/js/loginTracking-$script,domain=gog.com
+||goodfon.com/stat/
 ||google.com/dssw.js
 ||google.com/images/phd/px.gif
 ||google.com/log?
@@ -26121,6 +26124,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||moengage.com/webpush/$script,domain=olx.com.lb
 @@||mparticle.com/js/v2/*/mparticle.js$script,domain=cnbc.com
 @@||musiclab.chromeexperiments.com/bin/lib/angulartics-google-analytics.js
+@@||myaccount.depositprotection.com/Scripts/lib/jsnlog/$script,~third-party
 @@||natureetdecouvertes.com^*/pixel.png$~third-party
 @@||nike.com^*/optimizely.browser.umd.min.js$~third-party
 @@||nintendolife.com/themes/base/javascript/fingerprint.js$~third-party
@@ -26136,6 +26140,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||shopify.com/shopifycloud/boomerang/shopify-boomerang-$domain=rydewear.com
 @@||smartrevise.online/css/analytics.min.css$~third-party
 @@||smartrevise.online/js/teacher.analytics.min.js$~third-party
+@@||snap.licdn.com/li.lms-analytics/insight.min.js$domain=msci.com
 @@||songstats.com/api/v1/analytics/track_data$~third-party,xmlhttprequest
 @@||starbucks.ca^*/optimizely.$script,~third-party
 @@||starbucks.com^*/optimizely.$script,~third-party
