@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Q0Q1cgtiqDPIs16riGybTg
-! Version: 202202080435
+! Checksum: mfPIjpHv7B+P/iDsULuhhQ
+! Version: 202202081245
 ! Title: EasyList
-! Last modified: 08 Feb 2022 04:35 UTC
+! Last modified: 08 Feb 2022 12:45 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -24440,7 +24440,6 @@ _800x80_
 ##.f-item-ad
 ##.fN-affiliateStrip
 ##.f_Ads
-##.fa-ad
 ##.fa-google-ad
 ##.facebook-ad
 ##.fbCalendarAds
@@ -55900,7 +55899,7 @@ whatmobile.com.pk##div[style^="background-color:#EBEBEB;"]
 realpython.com##div[style^="display:block;position:relative;"]
 add0n.com,crazygames.com##div[style^="height: 90px;"]
 malaysiakini.com##div[style^="height:250px"]
-crazygames.com##div[style^="height:250px;"]
+crazygames.com,tenforums.com##div[style^="height:250px;"]
 malaysiakini.com##div[style^="height:600px"]
 whatmobile.com.pk##div[style^="height:610px"]
 google.co.in,google.co.uk,google.com,google.com.bd,google.com.pk##div[style^="margin-bottom:15px"][class^="jsx-"]
