@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Ac8zZvIMoUvTKJ6isPVHMQ
-! Version: 202202082125
+! Checksum: 7K39+bYgUPdGSo2HsJ+BrQ
+! Version: 202202090435
 ! Title: EasyList
-! Last modified: 08 Feb 2022 21:25 UTC
+! Last modified: 09 Feb 2022 04:35 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -19,6 +19,7 @@
 &ad_network_
 &ad_slot=
 &ad_sub=
+&ad_system=
 &ad_time=
 &ad_type=
 &ad_url=
@@ -7417,7 +7418,6 @@ _prebid_
 /adblockpopup.
 /adbuddy.$domain=~adbuddy.be|~adbuddy.beeldstudio.be
 /ads-blocking-detector.
-/adsblocker.
 /anti-adblock/*$~stylesheet
 /anti_ab.
 /antiblock_script/*
@@ -21419,6 +21419,7 @@ _800x80_
 ##.adtexts
 ##.adthrive
 ##.adthrive-ad
+##.adthrive-content
 ##.adthrive-header
 ##.adthrive-header-container
 ##.adthx
@@ -54438,6 +54439,7 @@ dailyfx.com##.dfx-article__sidebar
 notes.io##.directMessageBanner
 audiokarma.org##.discussionListItem > center
 govevents.com,protipster.com##.display
+pixabay.com##.display-gtty-item
 israelnationalnews.com##.div300
 jpost.com##.divConnatix
 tigerdroppings.com##.divHLeaderFull
@@ -55204,7 +55206,6 @@ mirror.co.uk##.shopwindow-adslot
 mirror.co.uk##.shopwindow-advertorial
 skins.be##.shortBioShadowB
 siliconrepublic.com##.show-for-medium-up
-pixabay.com##.show-gtty-item
 bscscan.com,etherscan.io##.showcase-banner-spacing
 winx-club-hentai.com##.shr34
 mbauniverse.com##.shriresume-logo
