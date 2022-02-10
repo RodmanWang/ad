@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: ZRsnkcaW6NFHbjN7BuANBA
-! Version: 202202092126
+! Checksum: ffPU05jUrBDqmoepBHI9Ow
+! Version: 202202100436
 ! Title: EasyPrivacy
-! Last modified: 09 Feb 2022 21:26 UTC
+! Last modified: 10 Feb 2022 04:36 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -225,7 +225,7 @@
 .statData-eup.
 .stats?action=
 .svc/?tracking_id=
-.tealium.$domain=~tealium.com
+.tealium.$domain=~tealium.co.jp|~tealium.com
 .track.actions.get?
 .track_Visit?
 .trackArticleAction&
@@ -6069,7 +6069,6 @@ _mongo_stats/
 ||analitits.com^$third-party
 ||analitycs.net^$third-party
 ||analoganalytics.com^$third-party
-||analytics-egain.com^$third-party
 ||analyticschecker.com^$third-party
 ||analyticson.com^$third-party
 ||analyticswizard.com^$third-party
@@ -7679,7 +7678,7 @@ _mongo_stats/
 ||quantummetric.com^$third-party
 ||quartic.pl^$third-party
 ||qubitproducts.com^$third-party
-||questionpro.com^$third-party,domain=~questionpro.com.au
+||questionpro.com^$third-party,domain=~questionpro.com.au|~questionpro.eu
 ||questradeaffiliates.com^$third-party
 ||quillion.com^$third-party
 ||quintelligence.com^$third-party
