@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ViZj4ny3PCFKX4a860WBEw
-! Version: 202202110435
+! Checksum: 14tbzFLJtbywjQKU6ijDDQ
+! Version: 202202111235
 ! Title: EasyList
-! Last modified: 11 Feb 2022 04:35 UTC
+! Last modified: 11 Feb 2022 12:35 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -25266,6 +25266,7 @@ _800x80_
 ##.header-banner-ads
 ##.header-banner-advertising
 ##.header-bannerad
+##.header-content-ad-container
 ##.header-google-ads
 ##.header-google-adsense970
 ##.header-menu-horizontal-ads
@@ -27210,6 +27211,7 @@ _800x80_
 ##.panel-adsense
 ##.panel-advert
 ##.panel-body-adsense
+##.panel.ad
 ##.panel__column--vc-advert
 ##.panel__row--with-vc-advert
 ##.panel_ad
@@ -28495,6 +28497,7 @@ _800x80_
 ##.skyscraper-ad
 ##.skyscraper-ad-1
 ##.skyscraper-ad-container
+##.skyscraper.ad
 ##.skyscraperAd
 ##.skyscraper_ad
 ##.skyscraper_bannerAdHome
@@ -54629,6 +54632,8 @@ permies.com##.forum-top-banner
 newsroom.co.nz##.foundingpartners
 theiphoneappreview.com##.frame
 moviemistakes.com##.freestarad
+tripstodiscover.com##.fs-dynamic
+tripstodiscover.com##.fs-dynamic__label
 alphr.com##.fs-pushdown-sticky
 ghacks.net##.ftd-item.home-posts
 lovepanky.com##.full-width.row > .medium-12:first-child
