@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: t2sNgcscUnPMpLFJegwITw
-! Version: 202202120400
+! Checksum: +Bpd5j0zDpC0MeOnYOV+aw
+! Version: 202202121200
 ! Title: Fanboy's Annoyance List
-! Last modified: 2022-02-12 04:00 UTC
+! Last modified: 2022-02-12 12:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1233,6 +1233,7 @@ _revotas_push.
 /flickr_25x25.
 /flickr_32.
 /flickr_icon_
+/flipboard-icon.
 /floating-social/*
 /flw-twitter.
 /follow-facebook.
@@ -1952,6 +1953,7 @@ _revotas_push.
 /partnerNavSocialButtons.
 /pict-fb.
 /pin-icon-
+/pin-icon.
 /pin-interest-icon.
 /pin-share.
 /pin_it_button.
@@ -9362,6 +9364,7 @@ _subscribers_newsletters/
 ##.Sharer_inner
 ##.Sharer_link
 ##.Shariff
+##.Sharing-list
 ##.SharingContainer
 ##.SidebarBox--facebook
 ##.SidebarBox--social
@@ -16056,6 +16059,8 @@ _subscribers_newsletters/
 ##.sharrre
 ##.sharrre-container
 ##.sharrre_widget
+##.shars__socials
+##.shars__visible
 ##.show-all-sharetool
 ##.show-share
 ##.show-share-count
@@ -16407,6 +16412,7 @@ _subscribers_newsletters/
 ##.socail-area
 ##.socail-icons
 ##.socail-share
+##.socailMediaLinks
 ##.socail_media
 ##.socailmain
 ##.socblock
@@ -28076,6 +28082,7 @@ _subscribers_newsletters/
 ##.cookie-block-visible
 ##.cookie-body-overlay
 ##.cookie-book
+##.cookie-bottom
 ##.cookie-box
 ##.cookie-box-en
 ##.cookie-box-wrapper
@@ -34764,6 +34771,7 @@ m###teaser-newsletter
 ##.newsletterdiv
 ##.newsletterform_wrap
 ##.newslettergf_wrapper
+##.newsletterlinebox
 ##.newslettermodal
 ##.newsletteronpage
 ##.newsletterpop_dialog_background
@@ -36262,6 +36270,7 @@ joekraus.com##.subscribe-links
 politicsweb.co.za##.subscribe-long
 merriam-webster.com##.subscribe-modal
 xconfessions.com##.subscribe-modal__frame
+wccftech.com##.subscribe-now
 metro.us##.subscribe-now-box
 ganeshaspeaks.com,philadelphiaherald.com##.subscribe-section
 mybroadband.co.za##.subscribe-submit
@@ -38578,6 +38587,7 @@ phoronix.com###main > script + [style]
 motogp.com###main_footer
 indiatimes.com###mainblkdiv
 news.com.au###makenewshome
+startpage.com###marketing-tag-container
 macnews.de###marktplatz
 cryptocoinsnews.com###mashbar-header
 hotair.com,laboratoryequipment.com,mail.com,medicalnewstoday.com,newrepublic.com,rdmag.com,scientificcomputing.com,tnr.com,townhall.com###mask
@@ -45601,6 +45611,7 @@ joekraus.com##.subscribe-links
 politicsweb.co.za##.subscribe-long
 merriam-webster.com##.subscribe-modal
 xconfessions.com##.subscribe-modal__frame
+wccftech.com##.subscribe-now
 metro.us##.subscribe-now-box
 ganeshaspeaks.com,philadelphiaherald.com##.subscribe-section
 mybroadband.co.za##.subscribe-submit
@@ -47334,6 +47345,7 @@ waraa-elahdath.com##.smedia
 akhbaralsabah.com,al-akhbar.com,algerietelecom.dz,alkessa.com,almirbad.com,aqsatv.ps,ceroms.com,dzair-tube.com,egyrep.com,europages.ma,fakartany.com,felesteen.ps,fxnewstoday.ae,hamas.ps,hannibaltv.com.tn,midad.com,nessma.tv,raseef22.com,rotana.net,sbc.sa,tunisna.tv##.social
 midad.com##.social-app
 alahlionline.com##.social-network
+rt.com##.socials
 nooun.net##.socila
 wesalhaq.tv##.tele
 skynewsarabia.com##.telegram
