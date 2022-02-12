@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Y0XagaZeZ7yfP6g1Rm7pgg
-! Version: 202202112125
+! Checksum: F5n6hqaBuVTRGnqxcKlBqw
+! Version: 202202120435
 ! Title: EasyList
-! Last modified: 11 Feb 2022 21:25 UTC
+! Last modified: 12 Feb 2022 04:35 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -7808,6 +7808,7 @@ _800x80_
 /popupads.$popup
 /realmedia/ads/*$popup
 /show?bver=$popup
+/smartpop/*$popup
 /srvclk.php?$popup
 /tr?id=*&tk=$popup
 ://adn.*/zone/$popup
@@ -52531,6 +52532,8 @@ tf2r.com#@#.adverts
 ||s.yimg.com/zh/mrr/$image,domain=mail.yahoo.com
 ||saabsunited.com/wp-content/uploads/*banner
 ||sareunited.com/uploaded_images/banners/
+||sat-universe.com/wos2.png
+||sat-universe.com/wos3.gif
 ||scoot.co.uk/delivery.php
 ||sedo.cachefly.net^$domain=~sedoparking.com
 ||seeklogo.com/img/partners/
@@ -53506,6 +53509,7 @@ forums.anandtech.com,forums.tomsguide.com,forums.tomshardware.com###footer_leade
 hwhills.com###footerbanner
 feedicons.com###footerboard
 titantv.com###frankly
+stonetoss.com###friends
 imgbox.com###full-page-redirect
 reviewgeek.com###future_Y_R_0_1
 filmibeat.com,oneindia.com###fw-int-ad
@@ -53680,7 +53684,7 @@ my.juno.com###newsCarousel
 livelaw.in###news_on_exit
 searchfiles.de###nextuse
 seroundtable.com###ninja_box
-pcgamesn.com###nn_bfa_wrapper
+pcgamesn.com###nn_astro_wrapper
 techraptor.net###nn_lb1
 techraptor.net###nn_lb2
 techraptor.net###nn_lb3
@@ -55000,6 +55004,7 @@ vocm.com##.nccBigBox
 danpatrick.com##.needsclick
 depositfiles.com,dfiles.eu##.network_downloader
 play.typeracer.com##.newNorthWidget
+pcgamesn.com##.new_affiliate_embed
 transfermarkt.com##.newsansicht-topspielerprofil
 moddb.com##.nextmediaboxtop
 democraticunderground.com##.nhome-mediumrectangle-container
@@ -55291,6 +55296,7 @@ beermoneyforum.com,geekdoing.com,studentdoctor.net##.samBannerUnit
 resetera.com##.samCodeUnit
 beermoneyforum.com##.samTextUnit
 teamfortress.tv##.sau
+pcgamesn.com##.saw-wrap
 animehub.ac##.sb-subs
 independent.co.uk##.sc-hYYkYm
 scotsman.com##.sc-igwadP
@@ -56062,7 +56068,7 @@ drive.com.au##hr
 avanigo.com##iframe.lazyloaded
 micky.com.au##iframe[height="90"]
 coincodex.com,yourbittorrent.com##iframe[src]
-123-movies.ninja,4anime.gg,dramacool.pk,mangadna.com,vanime.co,watchseries.ninja,ytmp3.cc##iframe[style*="z-index: 2147483647"]
+123-movies.ninja,4anime.gg,animekisa.tv,dramacool.pk,mangadna.com,vanime.co,watchseries.ninja,ytmp3.cc##iframe[style*="z-index: 2147483647"]
 fansshare.com##iframe[width="300"]
 shoesession.com##iframe[width="732"]
 windycitymediagroup.com,windycitytimes.com##img[alt*="Sponsor"]
@@ -57538,7 +57544,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||friends.ponta.jp/app/assets/images/$~third-party
 @@||fwmrm.net/ad/g/$script,domain=viafree.se
 @@||fwmrm.net^*/LinkTag2.js$domain=viafree.se
-@@||g.doubleclick.net/gampad/ads?$domain=edy.rakuten.co.jp|gamestar.de|pccomponentes.com|video.tv-tokyo.co.jp|vogue.de|voici.fr
+@@||g.doubleclick.net/gampad/ads?$domain=edy.rakuten.co.jp|gamestar.de|pccomponentes.com|tv-tokyo.co.jp|vogue.de|voici.fr
 @@||g.doubleclick.net/gpt/pubads_impl_$domain=edy.rakuten.co.jp|gamestar.de|gentside.com|pccomponentes.com|vogue.de|voici.fr
 @@||gakushuin.ac.jp/ad/common/$~third-party
 @@||games.wkb.jp/ykg/javascripts/*/adsense_$script,domain=games.wkb.jp
