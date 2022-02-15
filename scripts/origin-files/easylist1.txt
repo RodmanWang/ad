@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: KsXZy8F0uzxwS6MRdGAGpQ
-! Version: 202202150436
+! Checksum: DK495rpopzb2i2T+bzjHKw
+! Version: 202202151246
 ! Title: EasyPrivacy
-! Last modified: 15 Feb 2022 04:36 UTC
+! Last modified: 15 Feb 2022 12:46 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -4550,6 +4550,7 @@
 /tracking/adobe.js
 /tracking/adobe/*
 /tracking/ads.
+/tracking/airdog
 /tracking/analytics/*
 /tracking/article.
 /tracking/article/*
@@ -4575,6 +4576,7 @@
 /tracking/impression
 /tracking/index.
 /tracking/ipify
+/tracking/jitney/*
 /tracking/json2.
 /tracking/log.php?
 /tracking/log?
@@ -5310,6 +5312,7 @@ _ComScore.
 _effectLog-
 _event_tracking-
 _event_tracking.
+_event_tracking?
 _ga-events_
 _ga_code.
 _ga_tag.
@@ -14346,7 +14349,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||affiliates.vpn.ht^
 ||agoda.com/api/pixel/
 ||ai.iol.io^
-||airbnb.*/tracking/
 ||airtable.com/internal/$xmlhttprequest
 ||airtable.com^*/reports
 ||akamai.net^*/button.clickability.com/
