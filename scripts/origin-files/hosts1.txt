@@ -24,7 +24,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <tr>
 <td>blocklist last updated:</td>
-<td><b class=blue>Fri, 04 Feb 2022 22:38:06 GMT</b></td>
+<td><b class=blue>Tue, 15 Feb 2022 17:12:49 GMT</b></td>
 </tr>
 
 
@@ -41,7 +41,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <tr>
 <td>total entries:</td>
-<td><b class=blue>3673</b></td>
+<td><b class=blue>3675</b></td>
 </tr>
 
 </table>
@@ -77,8 +77,8 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Fri, 04 Feb 2022 22:38:06 GMT
-# entries:        3673
+# last updated:   Tue, 15 Feb 2022 17:12:49 GMT
+# entries:        3675
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/as/serverlist.php?mimetype=plain.text
@@ -1770,6 +1770,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 em1.yoursantander.co.uk
 127.0.0.1 email-clk.adguard.com
 127.0.0.1 email-opn.adguard.com
+127.0.0.1 email.m1.bktrksmail.com
 127.0.0.1 emanog.com
 127.0.0.1 emebo.com
 127.0.0.1 emebo.io
@@ -1978,6 +1979,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 go-rank.de
 127.0.0.1 go.eu.sparkpostmail1.com
 127.0.0.1 go.icann.org
+127.0.0.1 go.usa.gov
 127.0.0.1 go2affise.com
 127.0.0.1 goingplatinum.com
 127.0.0.1 goldstats.com
