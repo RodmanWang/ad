@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: +O4Aplbf3rPjYmC6r0h/0A
-! Version: 202202142126
+! Checksum: KsXZy8F0uzxwS6MRdGAGpQ
+! Version: 202202150436
 ! Title: EasyPrivacy
-! Last modified: 14 Feb 2022 21:26 UTC
+! Last modified: 15 Feb 2022 04:36 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6283,6 +6283,7 @@ _mongo_stats/
 ||c4tracking01.com^$third-party
 ||cache.am^$third-party
 ||cactusglobal.io^$third-party
+||cactusmedia.com^$third-party
 ||cadreon.com^$third-party
 ||call-tracking.co.uk^$third-party
 ||callisto.fm^$third-party
@@ -26487,6 +26488,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||googletagmanager.com/gtm.js?$domain=autorevue.cz|e15.cz|mobilmania.cz|zive.cz
 @@||hlidacstatu.cz/scripts/highcharts-6/modules/heatmap.js
 @@||seznam.cz/?spec=*&url=$image,domain=search.seznam.cz
+@@||tvcom-static.ssl.cdn.cra.cz/*/videojs.ga.js$script,domain=tvcom.cz
 !
 !---------- Danish ----------
 !
