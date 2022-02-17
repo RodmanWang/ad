@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: z6IRgkywanlmTE1tImfqxg
-! Version: 202202162125
+! Checksum: nPCQrGuM0R7F55/EQRwpRg
+! Version: 202202170435
 ! Title: EasyList
-! Last modified: 16 Feb 2022 21:25 UTC
+! Last modified: 17 Feb 2022 04:35 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -868,7 +868,6 @@
 /ad.min.
 /ad.php3?
 /ad.php?
-/ad.php|
 /ad.popup?
 /ad.premium-
 /ad.redirect.
@@ -1090,6 +1089,7 @@
 /ad?currentview=
 /ad?data=
 /ad?iframe_
+/ad?keyword=
 /ad?pos_
 /ad?sponsor=
 /ad?type=
@@ -12059,6 +12059,7 @@ _800x80_
 ###banner_adv
 ###banner_advertisement
 ###banner_adverts
+###banner_atf__container
 ###banner_content_ad
 ###banner_mpu1
 ###banner_mpu3
@@ -12757,6 +12758,7 @@ _800x80_
 ###cornerad
 ###cosponsor
 ###cosponsorTab
+###coupangAd
 ###coverADS
 ###coverads
 ###cpad_242306
@@ -22406,6 +22408,7 @@ _800x80_
 ##.adzone_ad_9
 ##.adzone_skyscraper
 ##.af-block-ad-wrapper
+##.af-label-ads
 ##.afc-box
 ##.aff-big-unit
 ##.aff-iframe
@@ -26221,6 +26224,7 @@ _800x80_
 ##.list-feature-ad
 ##.list-footer-ad
 ##.listAdvertGenerator
+##.list_bottom_ad
 ##.listad
 ##.listicle--ad-rail
 ##.listing-card-ad
@@ -29009,6 +29013,7 @@ _800x80_
 ##.store-ads
 ##.story-ad
 ##.story-ad-container
+##.story-ad-right
 ##.story-header-ad
 ##.story-inline-advert
 ##.story-page-embedded-ad
@@ -29798,6 +29803,8 @@ _800x80_
 ##.view_ads_content_bg
 ##.view_ads_top_bg
 ##.view_ads_top_bg_middle
+##.view_bottom_ad
+##.view_center_ad
 ##.view_rig_ad
 ##.views-field-field-ad
 ##.views-field-field-adbox-1
@@ -30267,6 +30274,7 @@ _800x80_
 ##[class^="Ad-adContainer"]
 ##[class^="AdvertisingSlot_"]
 ##[class^="div-gpt-ad"]
+##[data-ad-cls]
 ##[data-ad-manager-id]
 ##[data-ad-module]
 ##[data-ad-width]
@@ -50035,6 +50043,7 @@ tf2r.com#@#.adverts
 ||px1alsry.com^$popup
 ||pxlk9.net.^$popup
 ||pxlk9.net^$popup
+||pxlk9.org^$popup
 ||pyq6n.com^$popup
 ||q8ntfhfngm.com^$popup
 ||qazwsx.click^$popup
@@ -53918,6 +53927,8 @@ sciencealert.com###rt-header
 pages.ebay.com###rtm_1658
 ebay.com###rtm_html_441
 flaticon.com###s-p
+skylinewebcams.com###s1123
+skylinewebcams.com###s4152
 wsj.com###saving-united-coupon-list
 flatpanelshd.com###sb-site > .hidden-xs.container
 hwhills.com###sb_left_tower
@@ -57131,13 +57142,16 @@ freebdsmxxx.org##[href^="https://t.me/joinchat/"]
 sexhimmel.com##[href^="https://www.amarotic.com/"]
 porngames.club##[href^="https://www.porngames.club/friends/out.php"]
 koreanstreamer.xyz##[href^="https://www.saltycams.com"]
+tube8.com,tube8.es,tube8.fr##[id][style="display: block;"]
 tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com,youporngay.com##[src*="blob:"]
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr##[src^="bLob:"]
+tube8.com,tube8.es,tube8.fr##[src^="bloB:https://www.tube8."]
 hentaigasm.com##[src^="https://add2home.files.wordpress.com/"]
 analpornpix.com##[src^="https://analpornpix.com/t/153"]
 tubedupe.com##[src^="https://tubedupe.com/player/html.php?aid="]
 porngames.club##[src^="https://wheelwheel.space/"]
 pornhub.com,pornhubthbh7ap3u.onion##[srcdoc]
+tube8.com,tube8.es,tube8.fr##[style*="background-color: rgb(255, 255, 255)"]
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com,youporngay.com##[style*="base64"]
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com,youporngay.com##[style*="blob:"]
 porn.com##a[href*="&ref="]
@@ -57661,6 +57675,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||ad.smartmediarep.com/NetInsight/$domain=programs.sbs.co.kr
 @@||ads-twitter.com/oct.js$domain=jp.square-enix.com
 @@||ads.instacart.com/admin/$~third-party
+@@||adsafeprotected.com/iasPET.1.js$domain=la7.it
 @@||adsafeprotected.com/services/$domain=reuters.com
 @@||adservice.sbs.co.kr/NetInsight/$domain=programs.sbs.co.kr
 @@||adswizz.com/adswizz/js/SynchroClient*.js$script,third-party,domain=esradio.libertaddigital.com
