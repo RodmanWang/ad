@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 57QS5j7aNoG0Y0ekCwVDUg
-! Version: 202202171236
+! Checksum: Qd6NanwGlm8MT8qYl9R/tA
+! Version: 202202172126
 ! Title: EasyPrivacy
-! Last modified: 17 Feb 2022 12:36 UTC
+! Last modified: 17 Feb 2022 21:26 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6285,7 +6285,6 @@ _mongo_stats/
 ||burstbeacon.com^$third-party
 ||burt.io^$third-party
 ||buzzdeck.com^$third-party
-||byside.com^$third-party
 ||bytemgdd.com^$third-party
 ||c-o-u-n-t.com^$third-party
 ||c-rings.net^$third-party
@@ -13120,6 +13119,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||weather.ca/counter.gif?
 ||web-soft.in/counters/
 ||web1.51.la^
+||webcare.byside.com^
 ||webedia.fr/js/gs.js
 ||weblog.livesport.eu^
 ||weblogger-dynamic-lb.playdom.com^
