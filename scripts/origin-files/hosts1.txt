@@ -24,13 +24,13 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <tr>
 <td>blocklist last updated:</td>
-<td><b class=blue>Tue, 15 Feb 2022 17:12:49 GMT</b></td>
+<td><b class=blue>Fri, 18 Feb 2022 00:25:12 GMT</b></td>
 </tr>
 
 
 <tr>
 <td>listing ad servers added after:</td>
-<td><b class=blue>Fri, 22 Feb 2002 00:00:00</b></td>
+<td><b class=blue>Sat, 23 Feb 2002 00:00:00</b></td>
 </tr>
 
 
@@ -41,7 +41,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <tr>
 <td>total entries:</td>
-<td><b class=blue>3675</b></td>
+<td><b class=blue>3677</b></td>
 </tr>
 
 </table>
@@ -55,7 +55,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <form action="/as/serverlist.php">
 <input type=hidden name=hostformat value="hosts">
-<input type=hidden name="startdate[day]" value="22">
+<input type=hidden name="startdate[day]" value="23">
 <input type=hidden name="startdate[month]" value="2">
 <input type=hidden name="startdate[year]" value="2002">
 
@@ -77,8 +77,8 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Tue, 15 Feb 2022 17:12:49 GMT
-# entries:        3675
+# last updated:   Fri, 18 Feb 2022 00:25:12 GMT
+# entries:        3677
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/as/serverlist.php?mimetype=plain.text
@@ -86,7 +86,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Fri, 22 Feb 2002 00:00:00
+# start date:    Sat, 23 Feb 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
@@ -2216,6 +2216,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 kanoodle.com
 127.0.0.1 kargo.com
 127.0.0.1 karonty.com
+127.0.0.1 katie.v4.byetnc.com
 127.0.0.1 kesmatic.com
 127.0.0.1 keymedia.hu
 127.0.0.1 kindads.com
@@ -2519,6 +2520,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 myvisualiq.net
 127.0.0.1 n69.com
 127.0.0.1 naj.sk
+127.0.0.1 naj22.proasdf.com
 127.0.0.1 nappyattack.com
 127.0.0.1 naradxb.com
 127.0.0.1 nastydollars.com
