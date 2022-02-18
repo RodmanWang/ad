@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: IL8OczPj6o5/YAEX+aA4GQ
-! Version: 202202180436
+! Checksum: 7bFRvDoqQDHgYwaEBew9jA
+! Version: 202202181246
 ! Title: EasyList China
 ! Chinese supplement for the EasyList filters
-! Last modified: 18 Feb 2022 04:36 UTC
+! Last modified: 18 Feb 2022 12:46 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 ! License: https://easylist-downloads.adblockplus.org/COPYING
@@ -9340,6 +9340,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+cnblogs.com###cnblogs_c2
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -17183,6 +17184,13 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||mzy1.xyz^
 ||wy8.wang^
 ||vqlrwgj.cn^
+||quanwu.shop^
+||lpjgr.top^
+||gxhc.ink^
+||xije.ren^
+||tanshan.site^
+||haodiwh.top^
+||jiehe.me^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -21779,7 +21787,6 @@ fqsousou.com,kengso.com#@#.user-share
 !-------------------------------Fixed EasyPrivacy-----------------------------!
 @@.google-analytics.com%2Fanalytics.js$domain=free.com.tw
 @@/analytics.php?$domain=xcar.com.cn
-@@/beacon.min.js$domain=qq.com
 @@/fingerprint2.js$domain=fangcloud.com|fx678.com|gxpf.cn|pop-fashion.com
 @@/fingerprint2.min.js$domain=csdn.net|neets.cc|passport.vpgame.com
 @@/fingerprintjs2.min.js$domain=imooc.com
