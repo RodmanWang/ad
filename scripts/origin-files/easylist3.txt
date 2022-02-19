@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: x8RHZK99AWs0VbMhDeZ3HQ
-! Version: 202202190436
+! Checksum: 0BYMgf+3pWoSojjZ+HX6Xw
+! Version: 202202191236
 ! Title: EasyList China
 ! Chinese supplement for the EasyList filters
-! Last modified: 19 Feb 2022 04:36 UTC
+! Last modified: 19 Feb 2022 12:36 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 ! License: https://easylist-downloads.adblockplus.org/COPYING
@@ -1148,6 +1148,7 @@ ubmcmm.baidustatic.com
 ##.hongbao_hd
 ##.hzxld
 ##.iHead960x90
+##.davwheat-ad
 ##.ibtad
 ##.index-top-aassd
 ##.index-top-ad
@@ -1621,6 +1622,8 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||qsnyswg.cn^
+||5ibanma.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -11795,7 +11798,6 @@ bbs.it168.com##.daoh2 + .bor8
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.dasense
 newxue.com##.dashuggtop
 newxue.com##.dashuggtop1
-wuenci.com##.davwheat-ad
 qinbing.cn##.day
 ggcj.com##.dbxf
 games.qq.com##.dc-kf_list
@@ -17166,6 +17168,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||honoka.design^
 ||sxrs.shop^
 ||jnkangnuo.com^
+||mygqhvz.cn^
+||jlyayxz.cn^
+||dlvjmr.cn^
+||hxbylm.vip^
+||lingquanba.wang^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
