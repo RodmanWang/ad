@@ -316,6 +316,16 @@ return array(
     'xj-n-tax.gov.cn' => 0, #503
     'zazhipu.com' => 0, #503
     'ztgame.com' => 0, #503
+    'yximgs.com' => 0, #554
+    'cdn.cnbj1.fds.api.mi-img.com' => 0, #556
+    'browser.mi-img.com' => 0, #556
+    'pic.imgdb.cn' => 0, #565
+    'ip-tracker.org' => 0, #578
+    'is.snssdk.com' => 0, #579
+    'down.360safe.com' => 0, #577
+    'soup.v.qq.com' => 0, #576
+    'live-trace.bilibili.com' => 0, #561, #517
+    'live800.com' => 0, #573
 
 
 
