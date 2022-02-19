@@ -254,7 +254,6 @@ return array(
         'adv.sec.miui.com',
         'api.brs.intl.miui.com',
         'api.newsfeed.intl.miui.com',
-        'huangye.miui.com',
         'browser.miui.com',
 
     ),
@@ -1073,7 +1072,19 @@ return array(
     'byteimg.com' => array(
         'p6-ad-sign.byteimg.com', // #513
     ),
-
+    'gvt2.com' => array(
+        'gvt2.com', // #558
+    ),
+    
+    '95516.com' => array(
+        'ads.95516.com', // #552
+    ),
+    
+    'dealmoon.com' => array(
+        'analytics.dealmoon.com', // #575
+    ),
+    
+    
     
     // 批量添加域名
     '0202.com.tw' =>array('0202.com.tw', 'www.0202.com.tw'),
