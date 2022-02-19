@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: eUfFlUZ7pHwIwXp8S/D0Uw
-! Version: 202202191235
+! Checksum: uwaxfyf4ivqn6/NYDb63Iw
+! Version: 202202192125
 ! Title: EasyList
-! Last modified: 19 Feb 2022 12:35 UTC
+! Last modified: 19 Feb 2022 21:25 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -26408,6 +26408,7 @@ _800x80_
 ##.mantis__recommended__item--external
 ##.mantis__recommended__item--sponsored
 ##.manual-ad
+##.map-ad
 ##.mapAdvertising
 ##.map_google_ad
 ##.map_media_banner_ad
@@ -54794,6 +54795,8 @@ dailyfx.com##.dfx-article__sidebar
 notes.io##.directMessageBanner
 audiokarma.org##.discussionListItem > center
 govevents.com,protipster.com##.display
+flightconnections.com##.display-box
+flightconnections.com##.display-box-2
 pixabay.com##.display-gtty-item
 israelnationalnews.com##.div300
 jpost.com##.divConnatix
@@ -55526,6 +55529,7 @@ rebelnews.com##.rn-sidebar-ad
 realitytea.com##.roadblock
 surinenglish.com##.roba
 roblox.com##.roblox-skyscraper
+flightconnections.com##.route-display-box
 designtaxi.com##.row.displayboard
 steamanalyst.com##.row.tpbcontainer
 bikechatforums.com##.row2[style="padding: 5px;"]
