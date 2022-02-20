@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: uwaxfyf4ivqn6/NYDb63Iw
-! Version: 202202192125
+! Checksum: pqFRcuVqUaHFAAExkBSfYA
+! Version: 202202200435
 ! Title: EasyList
-! Last modified: 19 Feb 2022 21:25 UTC
+! Last modified: 20 Feb 2022 04:35 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -818,7 +818,7 @@
 /ad-skyscraper.
 /ad-source/*
 /ad-sovrn.
-/ad-space/*
+/ad-space/*$~image
 /ad-specs.
 /ad-sprite.
 /ad-srv.
@@ -3196,7 +3196,6 @@
 /adwolf.
 /adword.
 /adwords/*$domain=~google.com
-/adwordstracking.js
 /adWorking/*
 /adworks.$domain=~adworks.att.com|~adworks.co.il|~adworks.fi|~adworks.jobijoba.io|~adworks.net
 /adworks/*
