@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: bFzD0fHrQpN50o/5fm2RGw
-! Version: 202202200400
+! Checksum: kwjvbXGFz6yE4zY7l4K4MQ
+! Version: 202202201250
 ! Title: Fanboy's Annoyance List
-! Last modified: 2022-02-20 04:00 UTC
+! Last modified: 2022-02-20 12:50 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -10979,6 +10979,7 @@ _subscribers_newsletters/
 ##.dmg-social-icon
 ##.dn-sns
 ##.dni-social-feed
+##.doc-menu-social
 ##.doc-videoshare
 ##.docked-sharebar
 ##.docked-sharebar-docking-container
@@ -22055,6 +22056,7 @@ _subscribers_newsletters/
 ###cookieConfigForm
 ###cookieConfirm
 ###cookieConfirmDiv
+###cookieConfirmation
 ###cookieConfirmationBar
 ###cookieConfirmationContainer
 ###cookieConsens
@@ -25655,6 +25657,7 @@ _subscribers_newsletters/
 ###pnl-cookies
 ###pnl-cookies-warning
 ###pnlApproveCookiesUsage
+###pnlCookieBanner
 ###pnlCookieBar
 ###pnlCookieInfo
 ###pnlCookieMessage
@@ -27358,12 +27361,14 @@ _subscribers_newsletters/
 ##.bannierecookie
 ##.bar--cookie-bar
 ##.bar--cookienote
+##.bar--cookies
 ##.bar-cookie
 ##.bar-cookies
 ##.bar-cookies-gtm
 ##.bar-cookies-ph
 ##.bar-eu-cookies
 ##.bar.cookie
+##.bar.udc-bar-holder
 ##.barCookie
 ##.barra-cookies
 ##.barra-cookies-modal
@@ -30044,6 +30049,7 @@ _subscribers_newsletters/
 ##.divCookiePopUp
 ##.divCookiePopUpContainer
 ##.divCookieWarning
+##.divCookiebotTab
 ##.divCookiesWarning
 ##.divLeyCookies
 ##.div_CookieLaw
@@ -30580,6 +30586,7 @@ _subscribers_newsletters/
 ##.gdpr_discplaimer
 ##.gdpr_gdpr-composer-panel__toolbar
 ##.gdpr_hdr
+##.gdpr_infobar_postion_bottom
 ##.gdpr_ip
 ##.gdpr_main
 ##.gdpr_msg
@@ -31136,6 +31143,7 @@ _subscribers_newsletters/
 ##.lcc-modal[data-cookie-key*="cookie_consent"]
 ##.ld-cookie-notice
 ##.lds-cookie-consent
+##.left.udc-holder
 ##.legal-acknowledgement:not(body):not(html)
 ##.legal-cookie
 ##.legal-cookie-eu-hint
@@ -31231,6 +31239,7 @@ _subscribers_newsletters/
 ##.mac-header-cookie-banner-section
 ##.main-cookie-title
 ##.main-cookie-warning
+##.main-cookies
 ##.main-cookies-warning
 ##.main-footer-cookie-info
 ##.main-privacy-popup
@@ -31365,6 +31374,8 @@ _subscribers_newsletters/
 ##.modal-ley-cookies
 ##.modal-strip[data-cookie]
 ##.modal.sm_optin_bg
+##.modal.udc-bar-holder
+##.modal.udc-ovr
 ##.modal__content--cookies
 ##.modal__cookie--message
 ##.modal__cookies
@@ -31396,6 +31407,7 @@ _subscribers_newsletters/
 ##.moduloCookieAlert
 ##.mol-ads-cmp
 ##.moneseCookies
+##.moove-gdpr-align-center
 ##.moove-gdpr-dark-scheme
 ##.moove_gdpr_cookie_info_bar
 ##.moove_gdpr_cookie_modal_open
@@ -32217,6 +32229,8 @@ _subscribers_newsletters/
 ##.show-cookie:not(body)
 ##.show-eu-cookie
 ##.show-gdpr:not(body)
+##.show.udc-bar-holder
+##.show.udc-ovr
 ##.showGDPR
 ##.showPrivacyCookie
 ##.show[class*="cookie-notice"]
@@ -33195,6 +33209,7 @@ _subscribers_newsletters/
 ! fanboy_newsletter_general_hide.txt
 ###Bloque_EX_Newsletter
 ###EmailOptin
+###FooterNewsletter
 ###GlobalSlotHeaderNewsletter
 ###HPNewsletter
 ###Masthead-Newsletter
@@ -43346,7 +43361,7 @@ mathsisfun.com###cookOK
 add0n.com,aflite.co.uk,aon.com,atom42.co.uk,bakersmall.co.uk,bbvonline.net,best-faucets.com,betradar.com,bookingsouthtyrol.com,boscolohotels.com,boxnation.com,disclose.ngo,e-doggy.com,eqavet.eu,essentraextrusion.eu,flexerasoftware.com,fremantlemedia.com,gulfstream.com,iadvize.com,keyboardco.com,kicc.org.uk,kmcchain.eu,lonewolfonline.net,mobileroadie.com,mouseprice.com,nspcc.org.uk,oilplusltd.com,onenessscotland.org,pentagon-group.co.uk,phpipam.net,prestashop.com,pretix.eu,priorygroup.com,rodacciai.fr,sainsburysenergy.com,simmons-simmons.com,stiripesurse.ro,tadeevo.com,technutty.co.uk,thebmc.co.uk,toomeymotorgroup.co.uk,tutsandtips.com,tvcorner.com,unsee.cc,wheatley-group.com,windpress.info,zbmath.org###cookie
 gorillas.io###cookie-settings
 gezondheidsplein.nl###cookieForm
-anpost.ie,any.run,aquariumforums.co.uk,arag.com,atleticodemadrid.com,ayraviation.com,bl.uk,canadiansolar.com,celulares.com,cifas.org.uk,coinsofhope.eu,cork1point.com,educalingo.com,eitb.eus,emrf.eu,emunewz.net,eporner.com,fbhvc.co.uk,feyenoord.com,film-news.co.uk,forbiddenplanet.co.uk,freemeteo.ch,freemeteo.com,fulltilt.com,globalpetrolprices.com,gpstraining.co.uk,gta5grand.com,harper-adams.ac.uk,history.bnpparibas,homecinemachoice.com,humbersideairport.com,ibeesoft.com,imperiaonline.org,inmobi.com,irishjobs.ie,iso-chemie.eu,izikart.co.uk,jomast.co.uk,lloydsbankinggroup.com,mareespeche.com,metbiocat.eu,noisli.com,panfurware.com,phonearena.com,picload.org,playclassic.games,pokernews.com,police.uk,premiumcredit.co.uk,private.com,proteum.co.uk,puromarketing.com,radiocaroline.co.uk,rdnester.eu,rotterdam.info,scl.org,studentski.net,tablademareas.com,tellows-au.com,tellows-fi.com,tellows-ng.com,tellows-tr.com,tellows.asia,tellows.at,tellows.be,tellows.co,tellows.co.nz,tellows.co.uk,tellows.co.za,tellows.com,tellows.com.br,tellows.cz,tellows.de,tellows.dk,tellows.es,tellows.fr,tellows.gr,tellows.hu,tellows.in,tellows.it,tellows.jp,tellows.mx,tellows.net,tellows.nl,tellows.org,tellows.pl,tellows.pt,tellows.ru,tellows.se,tellows.tw,the-tls.co.uk,theatre-news.com,tranny.one,tsb.co.uk,wsws.org,xnostars.com###cookies
+anpost.ie,any.run,aquariumforums.co.uk,arag.com,atleticodemadrid.com,ayraviation.com,bl.uk,canadiansolar.com,celulares.com,cifas.org.uk,coinsofhope.eu,cork1point.com,educalingo.com,eitb.eus,emrf.eu,emunewz.net,eporner.com,fbhvc.co.uk,feyenoord.com,film-news.co.uk,forbiddenplanet.co.uk,freemeteo.ch,freemeteo.com,fulltilt.com,globalpetrolprices.com,gpstraining.co.uk,gta5grand.com,harper-adams.ac.uk,history.bnpparibas,homecinemachoice.com,humbersideairport.com,ibeesoft.com,imperiaonline.org,inmobi.com,irishjobs.ie,iso-chemie.eu,izikart.co.uk,jomast.co.uk,lloydsbankinggroup.com,mareespeche.com,metbiocat.eu,noisli.com,panfurware.com,phonearena.com,picload.org,playclassic.games,pokernews.com,police.uk,premiumcredit.co.uk,private.com,proteum.co.uk,puromarketing.com,radiocaroline.co.uk,rdnester.eu,rotterdam.info,saint-gobain.co.uk,scl.org,studentski.net,tablademareas.com,tellows-au.com,tellows-fi.com,tellows-ng.com,tellows-tr.com,tellows.asia,tellows.at,tellows.be,tellows.co,tellows.co.nz,tellows.co.uk,tellows.co.za,tellows.com,tellows.com.br,tellows.cz,tellows.de,tellows.dk,tellows.es,tellows.fr,tellows.gr,tellows.hu,tellows.in,tellows.it,tellows.jp,tellows.mx,tellows.net,tellows.nl,tellows.org,tellows.pl,tellows.pt,tellows.ru,tellows.se,tellows.tw,the-tls.co.uk,theatre-news.com,tranny.one,tsb.co.uk,wsws.org,xnostars.com###cookies
 patience-is-a-virtue.org###copy > p
 dsm.com,ortograf.ws,tesco.ie###cp
 streamlivesex.com###cp-wrapper
@@ -43455,7 +43470,7 @@ eurocirc.org###msgBox_error
 betsson.com###msgwrapper
 mtn.co.za,mtnbusiness.co.za###my-welcome-message
 rockstarcoders.com###myAlert
-exemproject.eu,kon-boot.com,tcf.org###myModal
+exemproject.eu,interface.com,kon-boot.com,tcf.org###myModal
 spandidos-publications.com###navbar
 nba.com###nba_tos
 aptoide.com###news
@@ -43657,7 +43672,7 @@ mymuesli.com##.active.mask
 akeebabackup.com,displays.agneovo.com,imunify360.com,luxos.com,v-tac.eu##.activebar-container
 svitla.com##.agree-popup
 ticketmaster.ca##.agree-terms
-adata.com,ahlulbayt.tv,altervista.org,askdifference.com,asklion.co.uk,bankid.com,cfainstitute.org,convert-my-image.com,costaclub.com,efinancialcareers.com,gambling-affiliation.com,hattrick.org,kenweego.com,lawyersonline.co.uk,lifescience.net,linuxcompatible.org,lonelyplanet.com,m-a.org.uk,nature.com,netweather.tv,norwegian.com,openuserjs.org,pozyx.io,streema.com,supercell.com,theonlinesurgery.co.uk,tindie.com,ukpressonline.co.uk,vernemq.com,viewsonic.com,viewsoniceurope.com,warp2search.net,youngsseafood.co.uk##.alert
+adata.com,ahlulbayt.tv,altervista.org,askdifference.com,asklion.co.uk,bankid.com,cfainstitute.org,communitycouncils.scot,convert-my-image.com,costaclub.com,efinancialcareers.com,gambling-affiliation.com,hattrick.org,kenweego.com,lawyersonline.co.uk,lifescience.net,linuxcompatible.org,localcouncillor.scot,lonelyplanet.com,m-a.org.uk,nature.com,netweather.tv,norwegian.com,openuserjs.org,pozyx.io,streema.com,supercell.com,theonlinesurgery.co.uk,tindie.com,ukpressonline.co.uk,vernemq.com,viewsonic.com,viewsoniceurope.com,warp2search.net,youngsseafood.co.uk##.alert
 itvmedia.co.uk##.alert--active
 espn.com##.alert--fixed
 goodmorningamerica.com,historicengland.org.uk##.alert-banner
@@ -43689,7 +43704,6 @@ cryptoquant.com##.ant-row-center
 leo.org##.app-footer-content
 crucial.com##.app-light > div[style*="fixed"]
 start.me##.app__message
-mubi.com##.appear-enter-done
 annualreviews.org##.ar-news-footer
 argaam.com##.argaam-policy
 linkedin.com##.artdeco-global-alert
@@ -43720,7 +43734,7 @@ matrixgames.com,slitherine.com##.blockingOverlay
 vinylgourmet.com##.blockrollingtext
 abplive.in##.blur-bg
 educative.io##.border-primary-lightP1.border-t.flex-col.flex
-burnleyfootballclub.com,cherryservers.com,mirabilisapartments.com,moonpay.com,truecaller.com,vilavitaparc.com,webcatalog.io##.bottom-0
+burnleyfootballclub.com,centricabusinesssolutions.ie,cherryservers.com,mirabilisapartments.com,moonpay.com,truecaller.com,vilavitaparc.com,webcatalog.io##.bottom-0
 jdslabs.com##.bottom-5
 asket.com##.bottom-fixed-container
 ofisitebg.com##.bottom-freezed-bar
@@ -43750,6 +43764,7 @@ viralnova.com##.cc-banner
 wallpapershome.com##.cc-dialog
 wedolit.eu,zesty.tech##.cc-window
 gll.gg##.ccINgy
+solas.ie##.cc_dialog
 drakecircus.com##.ccc-widget
 hannity.com##.ccpa
 orcadian.co.uk##.cd-container
@@ -43759,6 +43774,7 @@ fsr.eui.eu##.ce-banner
 fromsmash.com##.cgu-container
 kbs.co.kr##.chrome_pick
 stayinwales.co.uk##.ckinfo-panel
+salmonsoftware.ie##.cli-modal-backdrop
 singular.com.cy##.cm-notification-container
 cnn.com##.cnn-toast--tos
 scnat.ch##.command-bar
@@ -43799,9 +43815,11 @@ louisvuitton.com##.cs_banner
 regus.com##.css-1egprsz
 curve.com##.css-1s1090j
 streamelements.com##.css-1tg1tld
-wizards.com##.css-3wNos.css-1CyK8
+mubi.com##.css-1usnlyf
+wizards.com##.css-3wNos
 airhelp.com##.css-4l2e5b
 argent.xyz##.css-fnrkut
+northgatevehiclehire.ie##.css-t3ntlq
 quixel.com##.css-wzviqn
 hisense.co.uk##.curtain
 tannoy.com##.cv2-wrapper
@@ -43935,6 +43953,7 @@ insighttimer.com##.items-start.flex.rounded
 itv.com##.itv-glob-foot__cookies
 ada.com##.ivXBYD.mafdaq-0
 slideshare.net##.j-tos-update-banner
+fairfx.com##.jdbeLT
 forumcommunity.net##.jnote
 princesrisborough.com##.jpiwikGrowler
 princesrisborough.com##.jpiwikOverlay
@@ -43996,7 +44015,7 @@ mitele.es##.mitele-consent
 transparency.org##.mk-c-modal
 amazon.com##.mo-wp
 airnewzealand.eu,przekroj.pl,qv.co.nz,thelittleboxoffice.com##.modal
-airnewzealand.eu,arlingtoncemetery.mil,arthrex.com,axminster.co.uk,daf.be,daf.co.uk,daf.com,daf.fr,daf.global,daf.nl,daf.ru,daf.se,daftrucks.de,daftrucks.dk,daftrucks.it,daftrucks.pl,daftrucks.sk,ferratum.co.uk,fiveguys.co.uk,flaine.com,flipsnack.com,kon-boot.com,lam.co.mz,medtronic.com,primaresearch.org,qv.co.nz##.modal-backdrop
+airnewzealand.eu,arlingtoncemetery.mil,arthrex.com,axminster.co.uk,daf.be,daf.co.uk,daf.com,daf.fr,daf.global,daf.nl,daf.ru,daf.se,daftrucks.de,daftrucks.dk,daftrucks.it,daftrucks.pl,daftrucks.sk,ferratum.co.uk,fiveguys.co.uk,flaine.com,flipsnack.com,interactivebrokers.ie,kon-boot.com,lam.co.mz,medtronic.com,primaresearch.org,qv.co.nz##.modal-backdrop
 myanimelist.net##.modal-container
 myanimelist.net##.modal-content
 environmental-finance.com##.modal-dialog
@@ -44112,6 +44131,7 @@ thenewdaily.com.au##.privacy-policy-slideup
 zmags.com##.privacyPrompt
 aiscore.com##.privaryClass
 parliament.scot##.projects-takeover
+caithnesslodges.scot##.prominent
 espn.com##.promo-banner-container
 loggly.com##.promotion
 newscientist.com##.prompt
@@ -44136,6 +44156,7 @@ jeffs.com,scandinaviansoul.com##.rstboxes
 welcometothejungle.co##.s1u7oiza-0
 sanitas.com##.sanitas-cookie-alert-container
 scaleway.com##.sc-AxjAm.pdqDT.sc-kcRExk.dhjYCX
+mydress.com##.sc-LzLqH.kaclpw
 paladins.com,realmroyale.com,smitegame.com##.sc-bdVaJa
 live365.com##.sc-csuQGl
 drivetribe.com##.sc-epGmkI
@@ -44234,8 +44255,9 @@ easeus.com,fonelab.com##.usernotice_pop
 blueislands.com##.usn-notification
 visualiq.com##.utilityBar
 singtel.com##.ux-consent-banner
+rypsv.scot##.v-dialog
 andyguitar.co.uk##.v-dialog__content
-andyguitar.co.uk##.v-overlay
+andyguitar.co.uk,rypsv.scot##.v-overlay
 whitepages.com##.v-snack__content
 kusmitea.com##.veil
 dailysabah.com##.veriAltBar
@@ -44284,7 +44306,6 @@ myscience.org##body > .block > .center
 openbookpublishers.com##body > .menu-header
 facebook.com##body:not([style^="margin-bottom"]) div[data-testid="cookie-policy-banner"]
 medium.com##div > .branch-journeys-top
-spotify.com##div > div[aria-live="polite"]
 transamerica.com##div.bannerAlert--isHidden
 yahoo.com##div.js-applet-view-container-main > div.fixed-win[style^="background:"]
 tacobell.co.uk##div[am-cookie]
@@ -44642,6 +44663,7 @@ yoigo.com##thor-cookies
 ! scripts
 ubuntu.com##+js(aeld, DOMContentLoaded, js-revoke-cookie-manager)
 kiuruvesilehti.fi,urjalansanomat.fi##+js(aeld, scroll, innerHeight)
+spotify.com##div > div[aria-live="polite"]:not([data-testid="top-result-card"])
 vr.fi##+js(aeld, wheel, preventDefault)
 al.com,allkpop.com,calendarpedia.co.uk,ccn.com,cinemablend.com,cleveland.com,comicsands.com,duffelblog.com,foxvalleyfoodie.com,gamepur.com,gamerevolution.com,interestingengineering.com,keengamer.com,listenonrepeat.com,mandatory.com,merriam-webster.com,mlive.com,musicfeeds.com.au,newatlas.com,pgatour.com,playstationlifestyle.net,readlightnovel.org,secondnexus.com,sevenforums.com,sport24.co.za,sportsnaut.com,superherohype.com,thefashionspot.com,theodysseyonline.com,toledoblade.com,totalbeauty.com,westernjournal.com,windows101tricks.com##+js(aopr, __cmpGdprAppliesGlobally)
 digikey.com##+js(aopr, __headerData)
@@ -44656,6 +44678,7 @@ danskebank.*##+js(rc, cookie-consent-banner-open, html)
 ! Generichide fixes
 blackwot.ru,terravision.eu###catapult-cookie-bar
 ft.com##.o-cookie-message
+github.io###cookie-bar
 dogemate.com###cconsent-bar
 europa.eu###cookie-consent-banner
 analog.com###cookie-consent-container
@@ -44694,6 +44717,26 @@ fandom.com##[data-tracking-opt-in-overlay="true"]
 taloon.com##[id="gdprpopup"]
 macdrop.net,dropgalaxy.*###gdpr-cookie-notice
 stfly.*###cookie-pop
+! konicaminolta.us
+konicaminolta.us###termsModal
+konicaminolta.us##.modal-backdrop
+konicaminolta.us##body,html:style(height: auto !important; overflow: auto !important)
+! elavon.ie
+elavon.ie##.cookiePolicy
+elavon.ie##body,html:style(height: auto !important; overflow: auto !important)
+! enva.com
+enva.com##.modal-backdrop
+enva.com##body,html:style(height: auto !important; overflow: auto !important)
+! hotelscombined.ie
+hotelscombined.ie##.YSUE-mod-layer-default
+hotelscombined.ie##body,html:style(height: auto !important; overflow: auto !important)
+! debenhams.com
+debenhams.com##.gKBhsL
+debenhams.com##body,html:style(height: auto !important; overflow: auto !important)
+! continental-tyres.co.uk
+continental-tyres.co.uk##body,html:style(height: auto !important; overflow: auto !important)
+! beaconhospital.ie
+beaconhospital.ie##body,html:style(height: auto !important; overflow: auto !important)
 ! 4kfilme.de
 4kfilme.de##* > .wp-exclude-emoji
 4kfilme.de##div[id^="a"]
@@ -48720,7 +48763,14 @@ cuevana3.io###mdl-ads
 comptabilisation.fr###message_wrap
 maxifoot.fr###mfcok1
 giappo.com###normativa
-store-opart.fr###ocw_conteneur
+cartodebat.fr###notice
+altaprofits.com,aujourdhui.com###notification
+infojobs.net###notification-type
+all-bikes.fr,store-opart.fr###ocw_conteneur
+laurentwillen.be###overlay-bg
+formulacionquimica.com###pck
+pharmasimple.com###pharmabiscuit-popin
+legalstart.fr###pop
 darricau.com###popup
 clinique-veterinaire.fr###userConsentPolicy
 burgerking.fr##.aAjnr
