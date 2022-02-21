@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: JYbbgqztWrQoCMHWkNIH+w
-! Version: 202202211250
+! Checksum: PdmVIcSw/JxvVFNqo0eGkw
+! Version: 202202212100
 ! Title: Fanboy's Annoyance List
-! Last modified: 2022-02-21 12:50 UTC
+! Last modified: 2022-02-21 21:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -34501,6 +34501,7 @@ m###teaser-newsletter
 ##.js-react-mailchimp-newsletter
 ##.js-sidebar-signup
 ##.js-subscription-combo-box
+##.js-tealium-newsletter
 ##.js_newsletter-btn--subscribe
 ##.js_newsletter-form-inline
 ##.keystone-newsletter-class
@@ -44978,8 +44979,9 @@ elring.ae,elring.cn,elring.com,elring.com.tr,elring.de,elring.fr,elring.it,elrin
 ! n26.com
 n26.com##body,html:style(overflow: auto !important; position: initial !important;)
 ! bild.de 
-arnnet.com.au,bunte.de,techbook.de,metal-hammer.de,macworld.co.uk,maxisciences.com,ohmymag.com,voici.fr,geo.de,businessinsider.de,computerbild.de,heise.de,meinestadt.de,schwarzwaelder-bote.de,bild.de##body,html:style(overflow: auto !important; position: initial !important;)
-arnnet.com.au,bunte.de,techbook.de,metal-hammer.de,macworld.co.uk,maxisciences.com,ohmymag.com,voici.fr,geo.de,businessinsider.de,computerbild.de,heise.de,meinestadt.de,schwarzwaelder-bote.de,bild.de##div[id^="sp_message_container_"]
+politico.eu##+js(aopr, window._sp_)
+arnnet.com.au,bunte.de,techbook.de,metal-hammer.de,macworld.co.uk,maxisciences.com,ohmymag.com,voici.fr,geo.de,businessinsider.de,computerbild.de,heise.de,meinestadt.de,politico.eu,schwarzwaelder-bote.de,bild.de##body,html:style(overflow: auto !important; position: initial !important;)
+arnnet.com.au,bunte.de,techbook.de,metal-hammer.de,macworld.co.uk,maxisciences.com,ohmymag.com,voici.fr,geo.de,businessinsider.de,computerbild.de,heise.de,meinestadt.de,politico.eu,schwarzwaelder-bote.de,bild.de##div[id^="sp_message_container_"]
 ! liberdade.bessahotel.com
 bessahotel.com##.cli-modal-backdrop
 bessahotel.com##body,html:style(overflow: auto !important; position: initial !important;)
