@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 9/eS3/A1V+PL0/t53ffyzQ
-! Version: 202202212125
+! Checksum: F0WYos8ktT9ILWblIbffEg
+! Version: 202202220435
 ! Title: EasyList
-! Last modified: 21 Feb 2022 21:25 UTC
+! Last modified: 22 Feb 2022 04:35 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -731,13 +731,13 @@
 /ad-exchange.
 /ad-feature-
 /ad-feedback.
-/ad-feedback/*
+/ad-feedback/*$~image
 /ad-fix-
 /ad-flashgame.
 /ad-format.
-/ad-forumhome/*
+/ad-forumhome/*$~image
 /ad-frame.
-/ad-frame/*
+/ad-frame/*$~image
 /ad-gallery.$~stylesheet
 /ad-half_
 /ad-hcm.
@@ -18511,6 +18511,7 @@ _800x80_
 ##.ad-under-video
 ##.ad-unit
 ##.ad-unit--leaderboard
+##.ad-unit-2
 ##.ad-unit-300
 ##.ad-unit-300-wrapper
 ##.ad-unit-970x90
@@ -21060,6 +21061,7 @@ _800x80_
 ##.adsboth
 ##.adsbottom
 ##.adsbottombox
+##.adsbox--masthead
 ##.adsbox-square
 ##.adsbox970x90
 ##.adsbox990x90
@@ -31764,6 +31766,7 @@ hifi-classic.net#@#aside[itemtype="https://schema.org/WPAdBlock"]
 news.artnet.com#@#div[data-ad-targeting]
 cookinglight.com#@#div[data-native_ad]
 out.com#@#div[id^="dfp-ad-"]
+saitama-np.co.jp#@#div[id^="div-gpt-"]
 forums.overclockers.ru#@#div[id^="yandex_ad"]
 ! webike domains, fix broken page
 japan-webike.be,japan-webike.ca,japan-webike.ch,japan-webike.dk,japan-webike.ie,japan-webike.it,japan-webike.kr,japan-webike.nl,japan-webike.se,webike-china.cn,webike.ae,webike.co.at,webike.co.hu,webike.co.il,webike.co.uk,webike.com.ar,webike.com.bd,webike.com.gr,webike.com.kh,webike.com.mm,webike.com.ru,webike.com.tr,webike.com.ua,webike.cz,webike.de,webike.es,webike.fi,webike.fr,webike.hk,webike.id,webike.in,webike.la,webike.mt,webike.mx,webike.my,webike.net,webike.net.br,webike.net.pl,webike.ng,webike.no,webike.nz,webike.ph,webike.pk,webike.pt,webike.sg,webike.tw,webike.vn#@#.ad_box
@@ -53534,7 +53537,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|animeworld.biz|apl100.me|apl1
 ! (/sw.js)
 /^https?:\/\/.*\/.*sw[0-9._].*/$script,xmlhttprequest,domain=1vag.com|4tube.com|adult-channels.com|analdin.com|biguz.net|bogrodius.com|chikiporn.com|daftsex.com|fantasti.cc|fuqer.com|fux.com|hclips.com|heavy-r.com|megapornx.com|milfzr.com|mypornhere.com|niceporn.xxx|porn555.com|pornchimp.com|pornerbros.com|pornj.com|pornl.com|pornototale.com|porntube.com|sexu.com|sss.xxx|thisav.com|titkino.net|tubepornclassic.com|tuberel.com|tubev.sex|txxx.com|vidmo.org|vpornvideos.com|xozilla.com|youporn.lc|youpornhub.it|yourdailypornstars.com
 !
-/^https?:\/\/.*\/[a-z0-9A-Z_]{2,15}\.(php|jx|jsx|1ph|jsf|jz|jsm|j$)/$image,script,subdocument,domain=4tube.com|alotporn.com|alrincon.com|anyporn.com|anysex.com|badjojo.com|bdsmstreak.com|bigtitslust.com|bravotube.net|cockmeter.com|daftporn.com|erome.com|exoav.com|fantasti.cc|fapality.com|fapnado.com|fetishshrine.com|freeporn8.com|gfsvideos.com|hdporn24.org|hdpornmax.com|hdtube.porn|hellporno.com|hottorrent.org|iceporn.com|imx.to|katestube.com|lustypuppy.com|manhwa18.cc|maturetubehere.com|momxxxfun.com|openloadporn.co|orsm.net|pervclips.com|porn-plus.com|porndr.com|pornicom.com|pornotrack.net|pornrabbit.com|pornwatchers.com|pornwhite.com|pussy.org|rule34.art|sexvid.xxx|sexytorrents.info|shameless.com|sleazyneasy.com|smutty.com|sortporn.com|stileproject.com|str8ongay.com|tnaflix.com|urgayporn.com|vikiporn.com|wankoz.com|xbabe.com|xcafe.com|xxx-torrent.net|xxxdessert.com|xxxonxxx.com|xxxrip.net|yourlust.com|youx.xxx|zbporn.tv
+/^https?:\/\/.*\/[a-z0-9A-Z_]{2,15}\.(php|jx|jsx|1ph|jsf|jz|jsm|j$)/$image,script,subdocument,domain=4tube.com|alotporn.com|alrincon.com|anyporn.com|anysex.com|badjojo.com|bdsmstreak.com|bigtitslust.com|bravotube.net|cockmeter.com|daftporn.com|erome.com|exoav.com|fantasti.cc|fapality.com|fapnado.com|fetishshrine.com|freeporn8.com|gfsvideos.com|hdporn24.org|hdpornmax.com|hdtube.porn|hellporno.com|hottorrent.org|iceporn.com|imx.to|katestube.com|lustypuppy.com|manhwa18.cc|maturetubehere.com|megatube.xxx|momxxxfun.com|openloadporn.co|orsm.net|pervclips.com|porn-plus.com|porndr.com|pornicom.com|pornotrack.net|pornrabbit.com|pornwatchers.com|pornwhite.com|pussy.org|rule34.art|sexvid.xxx|sexytorrents.info|shameless.com|sleazyneasy.com|smutty.com|sortporn.com|stileproject.com|str8ongay.com|tnaflix.com|urgayporn.com|vikiporn.com|wankoz.com|xbabe.com|xcafe.com|xxx-torrent.net|xxxdessert.com|xxxonxxx.com|xxxrip.net|yourlust.com|youx.xxx|zbporn.tv
 ! eporner
 /^https?:\/\/.*\.eporner\.com\/[0-9a-f]{10,}\/$/$script,domain=eporner.com
 ! websocket ads
@@ -53971,6 +53974,7 @@ whatshappening.com.ph###mrecCarousel
 nitrome.com###mu_3_container
 atlantatribune.com,footballleagueworld.co.uk,ripplecoinnews.com,tribune.net.ph###mvp-leader-wrap
 twinfinite.net###mvp-main-content-wrap
+mangareader.cc###myModal
 mediaupdate.co.za###mycarousel
 comicbook.com###native-plus-top1
 comicbook.com###native-plus-top2
@@ -56849,6 +56853,7 @@ javfor.tv###smac12403o0
 xbooru.com,xxxymovies.com###smb
 instawank.com###snackbar
 hd-easyporn.com###special_column
+megatube.xxx###sponsor-widget
 flingtube.com###sponsoredBy
 w3avenue.com###sponsorsbox
 maxjizztube.com,yteenporn.com###spotxt
@@ -56912,6 +56917,7 @@ porngals4.com##.affl
 darknessporn.com##.after-boxes
 hentaidude.xxx##.ai_widget
 hotmovs.com,upornia.com##.app-banners
+hotmovs.tube##.app-banners__wrapper
 xnxxhd.pro##.approve
 fuqer.com##.area
 sextb.net##.asg-overlay
@@ -57125,7 +57131,7 @@ hentaistream.com##.othercontent
 beemtube.com##.overspot
 javtiful.com##.p-0[style="margin-top: 0.45rem !important"]
 empflix.com##.pInterstitialx
-hclips.com##.partners-wrap
+hclips.com,hotmovs.tube##.partners-wrap
 xfantazy.com##.partwidg1
 vxxx.com##.pgyytpktyka
 bigtitslust.com,sortporn.com##.pignr.item
@@ -57243,11 +57249,14 @@ watchmygf.tv##.video-aside-spot
 sexseeimage.com##.video-block-happy
 comicsxxxgratis.com,video.javdock.com##.video-container
 boyfriendtv.com##.video-extra-wrapper
+megatube.xxx##.video-filter-1
 ok.xxx,pornhat.com##.video-link
 pornzog.com##.video-ntv
 pornhdtube.tv##.video-overlay
+hotmovs.tube##.video-page > .block_label > div
 thegay.com##.video-page__content > .right
 pornhd.com##.video-player-overlay
+hotmovs.tube##.video-right-top
 pornez.net##.video-sidebar
 pornhub.com,pornhubthbh7ap3u.onion##.video-wrapper > #player + [class]
 javynow.com##.videos-ad__ad
