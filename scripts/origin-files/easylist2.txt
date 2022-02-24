@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: H95GVw1Re4jaR4q1DMAfVQ
-! Version: 202202232100
+! Checksum: sqZAVX+dmGpWaJRYvlTlHQ
+! Version: 202202240400
 ! Title: Fanboy's Annoyance List
-! Last modified: 2022-02-23 21:00 UTC
+! Last modified: 2022-02-24 04:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -137,6 +137,7 @@
 ! Taboola
 -taboola-article.
 -taboola-loader.
+-widget-taboola-
 /ad-taboola.min.js
 /components/taboola/*
 /modulo/taboola/*
@@ -3192,6 +3193,7 @@ _instagram_badge
 _instagram_hover.
 _instagram_icon.
 _linkedin_32.
+_linkedin_icon.
 _linkedin_icon_
 _linkedin_social_
 _links/share.
@@ -3286,6 +3288,7 @@ _sprite_social.
 _sprite_social_
 _stumble_btn.
 _stumble_upon.
+_tiktok_icon.
 _tumblr_hover.
 _twitter_box_
 _twitter_btn.
@@ -3665,6 +3668,7 @@ _youtube_social_
 /cookieBannerTop.
 /cookiebar-
 /cookiebar.js
+/cookiebar/*
 /cookiebar_$~stylesheet
 /cookiebox.
 /cookiec.json
@@ -9480,6 +9484,7 @@ _subscribers_newsletters/
 ##._rmSocial
 ##._socialF
 ##._socialsScr
+##._wf-social
 ##._wrapShares
 ##.a-btn-facebook
 ##.a-footer-share
@@ -10920,6 +10925,7 @@ _subscribers_newsletters/
 ##.det-media-fb-btn
 ##.det-media-tw-btn
 ##.detShare
+##.detail-article__share-button
 ##.detail-page-share
 ##.detail-share
 ##.detail-share-btIco
@@ -13882,6 +13888,7 @@ _subscribers_newsletters/
 ##.menu-header-social-container
 ##.menu-item-follow
 ##.menu-item-type-social
+##.menu-latest-footer-social-menu-container
 ##.menu-link-facebook
 ##.menu-link-instagram
 ##.menu-link-twitter
@@ -14355,6 +14362,7 @@ _subscribers_newsletters/
 ##.p-button-social
 ##.p-footer-c-section--social
 ##.p-footer-global-block-item02-other-social
+##.p-footer-social
 ##.p-post-shareItem
 ##.p-post-shareList
 ##.p-share
@@ -23779,6 +23787,7 @@ _subscribers_newsletters/
 ###ctl01_ctl00_CookiePreferencesControl
 ###ctl01_pnlCookieBanner
 ###ctl01_uiCookieBanner
+###ctl04_cookies
 ###ctl06_pnlCookieBanner
 ###ctl08_Cookies
 ###ctl10_pnlCookieBanner
@@ -26137,6 +26146,7 @@ _subscribers_newsletters/
 ###site-banner-gdpr
 ###site-cookie-notice
 ###site-cookie-policy
+###site-cookiebar
 ###site-cookies
 ###site-cookies-banner
 ###site-footer__cookies
@@ -26161,6 +26171,7 @@ _subscribers_newsletters/
 ###sizzle-gdpr-supressor
 ###sk-cookies
 ###skcookies
+###skv-cookie-banner
 ###sky-cookie-bar
 ###skycom-cookie-wrapper
 ###sl_cookie_info
@@ -26277,6 +26288,7 @@ _subscribers_newsletters/
 ###tarteaucitronAlertBig
 ###tarteaucitronRoot
 ###tbweb_cookies_footer
+###tc-consent
 ###tc-privacy-wrapper
 ###tc_priv_CustomOverlay
 ###tc_privacy
@@ -27599,6 +27611,7 @@ _subscribers_newsletters/
 ##.c-cookies-bar
 ##.c-cookies-block
 ##.c-cookies-consent
+##.c-cookies-info
 ##.c-cookiesDisclaimer
 ##.c-cookiesPanel
 ##.c-cookies__alert
@@ -27889,6 +27902,7 @@ _subscribers_newsletters/
 ##.complianceoverlay
 ##.component--message__cookies
 ##.component-consent-banner-consent-banner
+##.component-cookie
 ##.component-cookie-alert
 ##.component-cookie-banner
 ##.component-cookie-bar
@@ -27949,6 +27963,7 @@ _subscribers_newsletters/
 ##.consentBarWrapper
 ##.consentContainer
 ##.consentOverlayContent
+##.consentPopup
 ##.consentWrapper
 ##.consent[ng-controller="cookieConsentCtrl"]
 ##.consent__alert
@@ -28181,6 +28196,7 @@ _subscribers_newsletters/
 ##.cookie-confirmation
 ##.cookie-consent
 ##.cookie-consent--GDPR
+##.cookie-consent--box
 ##.cookie-consent--ep3
 ##.cookie-consent--normal
 ##.cookie-consent--show
@@ -28432,6 +28448,7 @@ _subscribers_newsletters/
 ##.cookie-melding-wrapper
 ##.cookie-mention
 ##.cookie-mes
+##.cookie-mess
 ##.cookie-message-2020
 ##.cookie-message-banner
 ##.cookie-message-bar
@@ -28577,6 +28594,7 @@ _subscribers_newsletters/
 ##.cookie-policy-inform
 ##.cookie-policy-layer
 ##.cookie-policy-message
+##.cookie-policy-modal
 ##.cookie-policy-msg
 ##.cookie-policy-note
 ##.cookie-policy-notice
@@ -28654,6 +28672,8 @@ _subscribers_newsletters/
 ##.cookie-settings__container
 ##.cookie-settings__overlay
 ##.cookie-show
+##.cookie-show-bar
+##.cookie-show-bar-bottom
 ##.cookie-sign
 ##.cookie-signbody
 ##.cookie-siteusage-notice
@@ -30366,6 +30386,7 @@ _subscribers_newsletters/
 ##.floating-cookie-policy
 ##.flowCookie
 ##.fm-cookieBanner
+##.fn-cookie-show-bar
 ##.fnn-cookiemanager
 ##.fo-cookies-policy
 ##.foi-cookie-banner
@@ -30408,6 +30429,7 @@ _subscribers_newsletters/
 ##.footprint_cookie
 ##.force-eu-cookies
 ##.form--cookie-bar
+##.form-box-cookiemessage
 ##.formidaCookie
 ##.forum-cookie-notices
 ##.fp-cookie-bar
@@ -31512,6 +31534,8 @@ _subscribers_newsletters/
 ##.nbn-cookie-info
 ##.nbsCookieNotice
 ##.ncgWeAreUsingCookies
+##.ncmp__banner
+##.ncmp__normalise
 ##.nd-cookieBar
 ##.neCookiesMessage
 ##.nedfinity-cookie-consent-notification
@@ -32075,6 +32099,7 @@ _subscribers_newsletters/
 ##.q-silent-consent
 ##.q_cookies
 ##.qa-cookie-notice
+##.qa-snackbar-ccpa
 ##.qb-cookielaw-bar
 ##.qc-cmp-showing
 ##.qc-cmp-ui-container
@@ -32100,6 +32125,7 @@ _subscribers_newsletters/
 ##.react-cookie-banner
 ##.react-cookie-gdpr-blocker
 ##.react-cookie-gdpr-dialog
+##.react-cookie-law-dialog
 ##.react-navi-ea-cookie-disclaimer
 ##.react-reveal[class*="cookie-banner"]
 ##.readcookie
@@ -32263,6 +32289,7 @@ _subscribers_newsletters/
 ##.show-banner-cookies
 ##.show-concord-banner
 ##.show-cookie-consent
+##.show-cookie-container
 ##.show-cookie-policy
 ##.show-cookie-popup:not(body):not(html)
 ##.show-cookie:not(body)
@@ -32333,12 +32360,14 @@ _subscribers_newsletters/
 ##.smrt-ncookies-alert
 ##.smt-cookie-note
 ##.sncmp-app_gdpr
+##.snigel-cmp-framework
 ##.so-cookie-wrapper
 ##.so-gdpr__cookie-notification
 ##.soe-cookie-policy
 ##.sol-cookie-container
 ##.sol-cookie-cover
 ##.sol-cookie-message
+##.sos-cookie
 ##.souhlas-cookies
 ##.sovrn-gdpr
 ##.sp-cookie-banner
@@ -36061,6 +36090,7 @@ sandiegouniontribune.com##.inline_embedded
 americaninno.com##.inno-newsletter--box
 spglobal.com##.inset-cta
 lawenforcementtoday.com##.inside-right-sidebar
+popsugar.com##.instant-subscribe
 itweb.co.za##.itw-subscribe
 newsroom.co.nz##.j-cta-side-form
 thenewcivilrightsmovement.com##.join
@@ -38087,7 +38117,6 @@ nationalobserver.com###article-slidein
 itworld.com###article-toolbar
 pastemagazine.com###article-tools
 macworld.co.uk###articleFooterIconsContainer
-dailymail.co.uk###articleIconLinksContainer
 scientificamerican.com###articleRightNavTop
 hbr.org###articleToolbarTopRD
 dailyfinance.com###articleToolsBot
@@ -41306,6 +41335,7 @@ briefing.com##table[style="vertical-align: top; text-align: left;\a \9          
 osnews.com##table[width="285"]
 finestdaily.com##table[width="642"]
 ! Self-promo Ads
+thurrott.com###announcment-banner
 wikihow.com###article_courses_banner
 theguardian.com###bottom-banner
 theguardian.com###contact-the-guardian
@@ -41418,6 +41448,7 @@ pjmedia.com,townhall.com##.thm-piano-eop
 thenextweb.com##.tnw-ad-wrapper
 redstate.com##.tp-container-inner
 finance.yahoo.com##.wafer-img
+thurrott.com##.widget > [href="https://www.thurrott.com/thurrott-premium"]
 cpuid.com##.widget-advert-300-sticky
 cpuid.com##.widget-advert-336
 thenationalpulse.com##.widget_media_image
@@ -42340,6 +42371,7 @@ android4fans.com##.consigliaci_su_google
 click2houston.com,clickondetroit.com,clickorlando.com,ksat.com,local10.com,news4jax.com,wsls.com##.contact
 gizmodo.com.au,kotaku.com.au,lifehacker.com.au##.contact-module
 gyazo.com##.container > #gyazo + #buttons
+dailymail.co.uk##.container-3zJLP
 belivehotels.com##.container_sscc
 qz.com##.context-promotion
 goafricaonline.com##.coords-network
@@ -43674,6 +43706,7 @@ postaffiliatepro.com##.CookieLaw
 perforce.com##.EUc
 talixo.com##.FloatingBoxesContainerBottom
 onebrandssweepstakes.com,tjc.co.uk##.GDPR
+whitebit.com##.LNBt
 tunnelmb.net##.MqsPw
 fwg-vg-linz.de##.Mrku11502
 jsonquerytool.com##.MuiDialog-root
@@ -44752,6 +44785,7 @@ lumiafirmware.com###cookiesdirective
 nekomeowmeow.com###eu-cookie-law
 medicalnewstoday.com###modal-host
 germany.travel##.consent
+experian.com.se##.cookieMessage
 litecompare.com##.cookie-revoke-hidden
 hexagame.io##.cookieWarning
 chelseafc.com##.cookies-message
@@ -44772,6 +44806,18 @@ fandom.com##[data-tracking-opt-in-overlay="true"]
 taloon.com##[id="gdprpopup"]
 macdrop.net,dropgalaxy.*###gdpr-cookie-notice
 stfly.*###cookie-pop
+! hemglass.se
+hemglass.se##.elementor-element-e125116
+hemglass.se##.dialog-type-lightbox
+hemglass.se##body,html:style(height: auto !important; overflow: auto !important)
+! jllsweden.se
+jllsweden.se##.ensNotifyBannerWrapper
+jllsweden.se##body,html:style(height: auto !important; overflow: auto !important)
+! esatto.se
+esatto.se##.iQaTEm
+esatto.se##body,html:style(height: auto !important; overflow: auto !important)
+! mexiconewsdaily.com
+mexiconewsdaily.com##body,html:style(height: auto !important; overflow: auto !important)
 ! silverboats.fi
 silverboats.fi##.modal-privacy-tool
 silverboats.fi##.modal-backdrop
@@ -45736,6 +45782,7 @@ sandiegouniontribune.com##.inline_embedded
 americaninno.com##.inno-newsletter--box
 spglobal.com##.inset-cta
 lawenforcementtoday.com##.inside-right-sidebar
+popsugar.com##.instant-subscribe
 itweb.co.za##.itw-subscribe
 newsroom.co.nz##.j-cta-side-form
 thenewcivilrightsmovement.com##.join
@@ -47513,7 +47560,6 @@ aftonbladet.se##.abArticleToolbar
 aftonbladet.se##.abPremiumTeaserSalesPitch
 kronofogden.se,minameddelanden.se,minmyndighetspost.se##.alertWrap
 skatteverket.se,tullverket.se##.alertWrp
-traningspartner.se##.sd-object-if > .sd-object-code
 emol.com##.social-tools-emol-g1
 fass.se##.starttopdialog
 motordoctor.se##.top-btn
@@ -47815,6 +47861,7 @@ rtl.fr##.shared-logo
 fracademic.com##.smm
 lepoint.fr##.snlinks
 20minutes.fr,africa1.com,buyindz.com,courrierinternational.com,europages.fr,europe1.fr,formulatv.com,gamergen.com,gmx.fr,grostracteurspassion.com,jeu.video,journaldugeek.com,korben.info,ladepeche.fr,leboncoin.fr,ledevoir.com,lemondeinformatique.fr,lorientlejour.com,medisite.fr,methodelafayfemme.fr,misk.tn,monacomatin.mc,petitfute.com,radioorient.com,renaultsport.com,rustica.fr,sudouest.fr##.social
+ouest-france.fr##.socials
 fr.msn.com##.stbp-tbl
 telerama.fr##.t12-user-resoc
 epochtimes.fr##.tools
@@ -49866,6 +49913,7 @@ aquaphor.ru###modal-kuki
 forum-windows.net###ntf
 cmoto.ru,kolibry-rotang.com###oct-policy
 alter-science.info,alterexit.info,viziya.info###pop
+calltouch.ru###poppup-food
 rgs.ru###rgs-main-context-bar
 linux-info.ru###trumpet_message
 smpbank.ru##.E_KUV0ozvj
@@ -50020,57 +50068,64 @@ draeger.com##dw-global-notification
 !
 ! ---------- Swedish ----------
 !
-dagenssamhalle.se###__next > div:last-child
+apricon.se###approvebox
+alde.se###cc--main
 kb.se,skanetrafiken.se###cookie
-hkr.se,inscale.se###cookies
-recept100.se###cxcx
-v6.se###layer
+apricon.se###glass
 hotellhudik.se,strandhotel.se###mb_modules_popups_Container
+svd.se###schibsted-data-controller-sticky
+fragasyv.se###siteflash
 electrokit.com###top-bar
-sverigesradio.se###user-message-container
-arbetsmarknadsnytt.se,svensktnaringsliv.se###warning
-kvalster.se,valster.se###y
-coop.se##.Alert
-vk.se##.ReactModal__Content
-armemuseum.se,atg.se,folkuniversitetet.se,fora.se,klaramaten.se,konkurrensverket.se,lernia.se,netonnet.se,osthammar.se,tullverket.se##.alert
-kronofogden.se,minameddelanden.se,minmyndighetspost.se##.alertWrap
-elkedjan.se##.avalanche-message
+kvalster.se###y
+newsworthy.se##.Snack
+barnebys.se##._1jurJi
+sl.se##._2Ip6f9Jcpe_edCoe1Ts2mM
+lth.se,netonnet.se,osthammar.se,tullverket.se##.alert
+torebrings.se##.alert-box
+minmyndighetspost.se##.alertWrap
 sellpy.se##.bERasM
-inexchange.se##.bannerContainer
+st1.se##.backdrop
 fz.se##.blck-info
 nacka.se##.c-message
+kulturbolaget.se##.c-messages
+inet.se##.c1hsuii6
+ekuriren.se,kkuriren.se##.cdk-overlay-container
+jak.se##.consent-backdrop
+omsystembolaget.se##.consent-handler
 kitchentime.se,olisen.se##.cookie
-bokadirekt.se,havkom.se,lfv.se,nobis.se,oru.se##.cookies
-xlbygg.se##.cookievarning-wrap:not(body):not(html)
+st1.se##.cookie-consent-modal
+bokadirekt.se,bolagsverket.se,havkom.se,hotelskeppsholmen.se,lfv.se,nobis.se,nobishotel.se,operakallaren.se,oru.se,stallmastaregarden.se##.cookies
 icebug.se##.css-4uxznl
 lifebutiken.se##.cuGsyh
-ancon.io,commerz.se##.dialog-lightbox-message
-lexus.se##.disclaimer
+ancon.io,rwi.se##.dialog-lightbox-message
 eddler.se##.dk-header-info-message
-eniro.se##.e-banner
-arsadata.se##.form-box-cookiemessage
+rwi.se##.elementor-location-popup
 sydsvenskan.se##.gdpr
-telia.se##.global-level-alert
-radioplay.se##.gpsZPr
-gp.se##.gpsecGRCookieContainer
-asedo.se##.infobanner
+jobbsafari.se##.hBzXzJ
+bus4you.se##.header__banner
 irishantverk.se##.infobar-bottom
 otsuka.se##.inset-0.fixed
 marginalen.se##.is-active.modal
 filminstitutet.se##.js-info-banner
 nudient.se##.jss113
+digg.se##.key-182uxz
 sapabuildingsystem.se##.message
-hemglass.se##.message-popup
-motala.se##.notice.notice-message
-lidl.se,proff.se##.notification
+lidl.se##.notification
 osterbottenstidning.fi,sydin.fi,vasabladet.fi##.online-notifications
-expressen.se##.pa-dialog
+reco.se##.pms
 smhi.se##.polopolyNotification
-verktygsboden.se##.sd-object-if.sd-object.NORMAL
-laga.se##.site-info-message
+alltombostad.se##.pop_box
+get-digital.se##.privacy-wrapper
+torebrings.se##.reveal-modal-bg
+traningspartner.se##.sd-object-if > .sd-object-code
+polder.se##.sd-object-if.sd-object
 lysa.se##.snackbar-wrapper
-expressen.se##.terms-dialog
-dplay.se##div[class^="notification"]
+mu.se##.t886
+verktygsboden.se##.wp27nvx
+hemfrid.se##.xdmFo
+ikalender.se##[style^="width:100%;background-color:#F0F0F0;"]
+hejalbert.se##div[class^="styles_cookiesContainer_"]
+vk.se##div[style^="display: flex; align-items: center;"]
 itab.se##div[style^="position: fixed; left: 0px; top: 0px;"]
 !
 ! ---------- Thai ----------
@@ -50176,6 +50231,7 @@ infiniti-vietnam.com.vn##.c_128
 ||cmp.lepoint.fr^
 ||cnil.links-lab.fr^
 ||consent.prismamedia.com^
+||consentement.ouest-france.fr^
 ||cookies.leadplace.fr^
 ||docteurclic.com/ajax/ajax_get_disc.aspx
 ||gmx.fr/uim/bidding/consent.js
@@ -51398,7 +51454,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||retrogames.cc/js/cookieconsent.min.js$~third-party
 @@||riwal.com/includes/js/components/cookiebar.js$script
 @@||santepubliquefrance.fr/rgpd/smarttag.js$script,~third-party
-@@||sdk.privacy-center.org^$script,domain=allocine.fr|bfmtv.com|bonduelle.it|cnews.fr|corrieredellosport.it|dumpert.nl|dziennikwschodni.pl|dziennikzachodni.pl|filmweb.pl|fip.fr|franceculture.fr|franceinter.fr|francetvinfo.fr|funradio.fr|gamepro.de|gamestar.de|gloswielkopolski.pl|gofeminin.de|ivoox.com|jeuxvideo.com|jofogas.hu|lavanguardia.com|lequipe.fr|marianne.net|melty.fr|metronieuws.nl|mundodeportivo.com|naszemiasto.pl|okdiario.com|onmeda.de|podcasts.leparisien.fr|rtl.be|rtl.fr|seguro.elespanol.com|standaard.be|telegraaf.nl|tuttosport.com|vecernji.hr
+@@||sdk.privacy-center.org^$script,domain=allocine.fr|bfmtv.com|bonduelle.it|cnews.fr|corrieredellosport.it|dumpert.nl|dziennikwschodni.pl|dziennikzachodni.pl|filmweb.pl|fip.fr|franceculture.fr|franceinter.fr|francetvinfo.fr|funradio.fr|gamepro.de|gamestar.de|gloswielkopolski.pl|gofeminin.de|ivoox.com|jeuxvideo.com|jofogas.hu|lavanguardia.com|leboncoin.fr|lequipe.fr|marianne.net|melty.fr|metronieuws.nl|mundodeportivo.com|naszemiasto.pl|okdiario.com|onmeda.de|podcasts.leparisien.fr|rtl.be|rtl.fr|seguro.elespanol.com|standaard.be|strefabiznesu.pl|telegraaf.nl|tuttosport.com|vecernji.hr
 @@||se.com/myschneider/assets/onetrust.$~third-party
 @@||shop.bora-sauna.de/components/cookieconsent2/build/cookieconsent.min.js
 @@||sonnenverlauf.de/scripts/cookieconsent.min.js$~third-party

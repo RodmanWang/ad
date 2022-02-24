@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: IISyLWAFlmkAFC1MFmJ9JA
-! Version: 202202232126
+! Checksum: n5WsP+sc1gqAgaveL1lizw
+! Version: 202202240436
 ! Title: EasyPrivacy
-! Last modified: 23 Feb 2022 21:26 UTC
+! Last modified: 24 Feb 2022 04:36 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -771,6 +771,7 @@
 /api/analytics|
 /api/cmp_tracker
 /api/ComScorePageView
+/api/ipv4check?
 /api/log?
 /api/lt/ref?
 /api/metrics$other
@@ -5125,6 +5126,7 @@
 /wpblog.gif?
 /wpengine-analytics/*
 /wprum.
+/wps-visitor-counter/*
 /wpstatistics/*
 /wrapper/metrics/*
 /Wrappers?cmd=
@@ -5822,11 +5824,13 @@ _mongo_stats/
 ||impactcdn.com^
 ||impactradius-event.com^
 ||imrworldwide.com^
+||imzahrwl.xyz^
 ||innerskinresearch.com^
 ||instantfox.co^
 ||irs01.com^
 ||krxd.net^
 ||ldnlyap.com^
+||leadhit.io^
 ||liadm.com^
 ||liveyield.com^
 ||lltrck.com^
@@ -6310,6 +6314,7 @@ _mongo_stats/
 ||callmeasurement.com^$third-party
 ||callrail.com^$third-party
 ||callreports.com^$third-party
+||calltouch.ru^$third-party
 ||calltrackingmetrics.com^$third-party
 ||calltracks.com^$third-party
 ||campaigncog.com^$third-party
@@ -12953,6 +12958,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracker.keywordintent.com^
 ||tracker.marinsoftware.com^
 ||tracker.mrpfd.com^
+||tracker.nitropay.com^
 ||tracker.roitesting.com^
 ||tracker.softcube.com^
 ||tracker.timesgroup.com^
@@ -14368,6 +14374,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||acronymfinder.com/~/tr.ashx
 ||activate.latimes.com/pc/caltimes/?pulse2001=
 ||active.com/ig.track.js
+||adblockstreamtape.site/stat/
 ||adc-js.nine.com.au^
 ||adc.9news.com.au^
 ||adc.api.nine.com.au^
