@@ -403,16 +403,16 @@ linovelib.com#$#body[style] { overflow: auto !important; }
 !+ PLATFORM(ios, ext_android_cb)
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=linovelib.com
 ! https://github.com/uBlockOrigin/uAssets/issues/11152
-||nos.netease.com/fps-pro/frontends/house_index/index/js/index-ad.js?$script,redirect=noopjs,domain=rjno1.com,important
-@@||nos.netease.com/fps-pro/frontends/house_index/index/js/index-ad.js?$domain=rjno1.com
+rjno1.com#$#div[class^="aqn"] { position: absolute !important; left: -4000px !important; }
+@@||pos.baidu.com^$script,domain=rjno1.com
+||pos.baidu.com^$script,redirect=noopjs,domain=rjno1.com,important
+@@||cpro.baidu.com/cpro/ui/rt.js$domain=rjno1.com
+||cpro.baidu.com/cpro/ui/rt.js$script,redirect=noopjs,domain=rjno1.com,important
+@@||cpro.baidustatic.com/cpro/ui/cm.js$script,domain=rjno1.com
 @@||hm.baidu.com/hm.js?$script,domain=rjno1.com
-@@||home.163.com/special/$script,redirect=noopjs,domain=rjno1.com
-||home.163.com/special/$script,redirect=noopjs,domain=rjno1.com,important
 @@||rjno1.com^$generichide
 @@||pagead2.googlesyndication.com/$script,xmlhttprequest,domain=rjno1.com
-||bdstatic.com/hunter/alog/dp.min.js$script,redirect=noopjs,domain=rjno1.com,important
 ||g.doubleclick.net/pagead/ads?$subdocument,redirect=noopframe,domain=rjno1.com,important
-@@||bdstatic.com/hunter/alog/dp.min.js$domain=rjno1.com
 @@||g.doubleclick.net/pagead/ads?$subdocument,domain=rjno1.com
 ! https://github.com/uBlockOrigin/uAssets/issues/11148
 zhangxinxu.com#@#.sldebar_out + *,style[id] + a[class]
@@ -4038,6 +4038,8 @@ ubmcmm.baidustatic.com
 .8ox.cn
 ||hjqsyyy.com^
 ||wuxiann.top^
+||utlnjry.top^
+||npftmqv.cn^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -7448,7 +7450,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||91danji.com/js/lmt.js
 ||91hs005.xyz/p/
 ||91jbz.com/file/script/A
-||91mjw.com/images/tga.jpg
 ||91nrtt.com/vod/
 ||91p20.space/fans/
 ||91p52.com/movie.mp4
@@ -16568,7 +16569,7 @@ linux.cn##a[href^="https://linux.cn/go/"]
 github.com##a[href^="https://openwrite.cn/"]
 xblian.com##a[href^="https://page.pe/"]
 cjjjs.com,cnblogs.com,fastadmin.net##a[href^="https://promotion.aliyun.com/"]
-91mjw.com,hahamx.cn##a[href^="https://s.click.taobao.com/"]
+hahamx.cn##a[href^="https://s.click.taobao.com/"]
 kkw360.com##a[href^="https://sourl.cn/"]
 dzbhdm.net##a[href^="https://www.dzbhdm.com/news/"] > img[src^="https://www.dzbhdm.com/"]
 weebly.com##a[href^="https://www.ebay.com"]
@@ -19628,6 +19629,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||rushwei.ltd^
 ||sngsn.fun^
 ||tbscw.biz^
+||shappapa.top^
+||mcaspkd.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
