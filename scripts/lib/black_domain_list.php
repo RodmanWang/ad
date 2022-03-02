@@ -1083,6 +1083,46 @@ return array(
     'dealmoon.com' => array(
         'analytics.dealmoon.com', // #575
     ),
+    'cmpassport.com' => array(
+        'cmpassport.com', // #547
+        'config.cmpassport.com', // #547
+        'www.cmpassport.com', // #547
+        'wap.cmpassport.com', // #547
+    ),
+    'wo.cn' => array(
+        'hmrz.wo.cn', // #547
+        'id.mail.wo.cn', // #547
+        'mdn.open.wo.cn', // #547
+    ),
+    'id6.me' => array(
+        'id6.me', // #547
+    ),
+    'wostore.cn' => array(
+        'opencloud.wostore.cn', // #547
+    ),
+    'wosms.cn' => array(
+        'auth.wosms.cn', // #547
+    ),
+    'zijieapi.com' => array(
+        'ads5-normal-hl.zijieapi.com', // #592
+        'ads3-normal-hl.zijieapi.com', // #592
+    ),
+    'cncrk.com' => array(
+        'js.cncrk.com', // #583
+    ),
+    'dianshihome.com' => array(
+        'api.dianshihome.com', // #571
+        'cdn.dianshihome.com', // #571
+    ),
+    'dianshige.com' => array(
+        'api.dianshige.com', // #571
+    ),
+    'tvfuwu.com' => array(
+        'pushapi.tvfuwu.com', // #571
+    ),
+    'cdnimg.org' => array(
+        'pushapi.cdnimg.org', // #571
+    ),
     
     
     
