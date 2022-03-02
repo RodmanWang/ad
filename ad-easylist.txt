@@ -1,5 +1,5 @@
-Version: 20220302205510
-!Total lines: 51961
+Version: 20220303053449
+!Total lines: 51988
 @@||5471782.fls.doubleclick.net^
 @@||a.adwolf.ru^
 @@||a.sellpoint.net^
@@ -104,6 +104,7 @@ Version: 20220302205510
 @@||iufostworldcongress-singapore.com^
 @@||ad.ext.azure.com^
 @@||ad.ext.azure.cn^
+@@||torproject.org^
 /^(\S+\.)?9377[a-z0-9]{2}\.com$/$dnstype=A
 /^(\S+\.)?ad(s?[\d]+|m|s)?\./$denyallow=nucdn.net|azureedge.net|alibabacorp.com|alibabadns.com
 @@||ads.tdbank.com^
@@ -4772,6 +4773,7 @@ Version: 20220302205510
 ||amazon-indonesia.vip^
 ||aan.amazon.com^
 ||aax-eu-dub.amazon.com^
+||9w2zed1szg.execute-api.us-east-1.amazonaws.com^
 ||adpublisher.s3.amazonaws.com^
 ||ams-pageview-public.s3.amazonaws.com^
 ||cdj-dap.s3-ap-northeast-1.amazonaws.com^
@@ -5182,6 +5184,7 @@ Version: 20220302205510
 ||aoyou3.top^
 ||aoyou4.top^
 ||ap-srv.net^
+||ap3lorf0il.com^
 ||capture-api.ap3prod.com^
 ||ap72el.com^
 ||agent.apacheorg.xyz^
@@ -8422,6 +8425,7 @@ Version: 20220302205510
 ||boubeeth.com^
 ||boudja.com^
 ||boudougu.com^
+||boudutoo.net^
 ||boughtinvulnerablenothing.com^
 ||bouillerines.site^
 ||bounce-ads.de^
@@ -9608,6 +9612,7 @@ Version: 20220302205510
 ||cdnfile.xyz^
 ||cdnfjz.com^
 ||cdngain.com^
+||pushapi.cdnimg.org^
 ||cdnjke.com^
 ||cdnjsp.wang^
 ||cdnkimg.com^
@@ -11338,8 +11343,7 @@ Version: 20220302205510
 ||cmmeglobal.com^
 ||cmnfybfjn.xyz^
 ||cmoneba.ru^
-||log1.cmpassport.com^
-||log.cmpassport.com^
+||cmpassport.com^
 ||cmpgns.net^
 ||cookies.cmpnet.com^
 ||mms.cmpsky.com^
@@ -11360,6 +11364,7 @@ Version: 20220302205510
 ||cnbole.net^
 ||stat.cncenter.cz^
 ||cnco.me^
+||js.cncrk.com^
 ||cncsdn.cn^
 ||cncy8.com^
 ||cndaizi.com^
@@ -12528,7 +12533,6 @@ Version: 20220302205510
 ||btn.createsend1.com^
 ||creative-serving.com^
 ||creativecdn.com^
-||creativecommons.org^
 ||creativedisplayformat.com^
 ||creativeformatsnetwork.com^
 ||shop.creativeideaindia.com^
@@ -12924,6 +12928,7 @@ Version: 20220302205510
 ||cya2.net^
 ||cyacc.com^
 ||cyan92010.com^
+||cybba.solutions^
 ||cyberaircraftcast.com^
 ||cyberbounty.com^
 ||cybermonitor.com^
@@ -13987,6 +13992,9 @@ Version: 20220302205510
 ||diannaodian.com^
 ||dianomi.com^
 ||dianomioffers.co.uk^
+||api.dianshige.com^
+||api.dianshihome.com^
+||cdn.dianshihome.com^
 ||dianshihuanping.cn^
 ||pic1.dianshu119.com^
 ||dianwenwang.com^
@@ -18368,6 +18376,7 @@ Version: 20220302205510
 ||funlove.pw^
 ||funneld.com^
 ||backstage.funnelenvy.com^
+||funnelytics.io^
 ||funny-bloopers.com^
 ||funnyairplane.com^
 ||e.funnymel.com^
@@ -22377,6 +22386,7 @@ Version: 20220302205510
 ||id1.cn^
 ||id5-sync.com^
 ||id528.com^
+||id6.me^
 ||idasai.com^
 ||idaschop.ru^
 ||sebar.idblognetwork.com^
@@ -26606,7 +26616,6 @@ Version: 20220302205510
 ||ligatus.de^
 ||eg.light2gr0w.me^
 ||lightblue.red^
-||lightboxcdn.com^
 ||lightcushion.com^
 ||lighterobliterate.com^
 ||lighterplumberlimits.com^
@@ -33154,6 +33163,7 @@ Version: 20220302205510
 ||instore.pagomeno.it^
 ||paht.tech^
 ||pahtag.tech^
+||pahtgq.tech^
 ||pahtzh.tech^
 ||pahujalawacademy.com^
 ||paibopse.com^
@@ -33508,11 +33518,13 @@ Version: 20220302205510
 ||ivy.pconline.com.cn^
 ||pcovestudio.com^
 ||ashow.pcpop.com^
+||pcrfwtio.xyz^
 ||pcshijie.cn^
 ||pcshuju.com^
 ||pcspeedup.com^
 ||c.pcswtw.cn^
 ||v.pcswtw.cn^
+||pcsyendormup.com^
 ||pctext.ru^
 ||pctlwm.com^
 ||pctracking.net^
@@ -34735,6 +34747,7 @@ Version: 20220302205510
 ||powermelting.com^
 ||t-staging.powerreviews.com^
 ||t.powerreviews.com^
+||grow.powerstep.com^
 ||powerteam-competitions.com^
 ||powertechequipment.com^
 ||powertraf.com^
@@ -37694,6 +37707,7 @@ Version: 20220302205510
 ||riverpush.com^
 ||production-tracking.riviu.co^
 ||rivrai.com^
+||rivulussati.com^
 ||rixaka.com^
 ||riyadahalfeker.com^
 ||riycecerfpjreyx.xyz^
@@ -39739,7 +39753,7 @@ Version: 20220302205510
 ||hrm.shopquare.in^
 ||logs-api.shoprunner.com^
 ||shopsutike.com^
-||app.shoptarget.com.br^
+||shoptarget.com.br^
 ||shoptimally.com^
 ||shoptylasty.pro^
 ||shopusuallyvirtue.com^
@@ -44695,6 +44709,7 @@ Version: 20220302205510
 ||transactionale.com^
 ||transferencia.co^
 ||transfto.com^
+||transientspecialowl.com^
 ||eel.transistor.fm^
 ||transiz.ru^
 ||translateoatmeal.com^
@@ -44752,6 +44767,7 @@ Version: 20220302205510
 ||trcksrvrs.com^
 ||trdyx.cn^
 ||treacherousaccentbruise.com^
+||treacherouslongingjunkie.com^
 ||treadbun.com^
 ||treasuredata.com^
 ||treasuresensignron.com^
@@ -45215,6 +45231,7 @@ Version: 20220302205510
 ||tvbxcg6.com^
 ||logger.tvchosun.com^
 ||measure.ic.tver.jp^
+||pushapi.tvfuwu.com^
 ||stat.tvigle.ru^
 ||tvjovemhits.com^
 ||tvlipevrj.com^
@@ -47186,6 +47203,7 @@ Version: 20220302205510
 ||vlion.cn^
 ||vliplatform.com^
 ||vlitag.com^
+||vlkjkhhxfh.top^
 ||vlnk.me^
 ||vlott88.com^
 ||vloudsze.com^
@@ -48459,6 +48477,7 @@ Version: 20220302205510
 ||wibengineering.com^
 ||cdn.wibiya.com^
 ||statistics.wibiya.com^
+||wickedreports.com^
 ||tdapi.wickey.nl^
 ||wicktrown.co^
 ||widebanner.com^
@@ -48764,6 +48783,9 @@ Version: 20220302205510
 ||wnprot.com^
 ||wnsoth.cn^
 ||wnys1.com^
+||hmrz.wo.cn^
+||id.mail.wo.cn^
+||mdn.open.wo.cn^
 ||wo19.top^
 ||wo1990.com^
 ||wo685.com^
@@ -48910,7 +48932,9 @@ Version: 20220302205510
 ||woryuc.com^
 ||wos.lv^
 ||woshiyunying.com^
+||auth.wosms.cn^
 ||wosork.com^
+||opencloud.wostore.cn^
 ||wotheshop.com^
 ||wotto.cn^
 ||wotufeiye.com^
@@ -49123,6 +49147,7 @@ Version: 20220302205510
 ||wwclicktm.club^
 ||stats.wwd.com^
 ||wwddgg.work^
+||wwfepjszewf.com^
 ||wwfx.xyz^
 ||wwgate.ru^
 ||wwgdwl.com^
@@ -51504,6 +51529,8 @@ Version: 20220302205510
 ||zihengfx.com^
 ||ziig.com.cn^
 ||zijaipse.com^
+||ads5-normal-hl.zijieapi.com^
+||ads3-normal-hl.zijieapi.com^
 ||zijuejueta.com^
 ||zikroarg.com^
 ||zim-zim-zam.com^
