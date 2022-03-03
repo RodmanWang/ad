@@ -24,7 +24,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <tr>
 <td>blocklist last updated:</td>
-<td><b class=blue>Wed, 02 Mar 2022 22:26:29 GMT</b></td>
+<td><b class=blue>Thu, 03 Mar 2022 16:50:49 GMT</b></td>
 </tr>
 
 
@@ -41,7 +41,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <tr>
 <td>total entries:</td>
-<td><b class=blue>3674</b></td>
+<td><b class=blue>3675</b></td>
 </tr>
 
 </table>
@@ -77,8 +77,8 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Wed, 02 Mar 2022 22:26:29 GMT
-# entries:        3674
+# last updated:   Thu, 03 Mar 2022 16:50:49 GMT
+# entries:        3675
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/as/serverlist.php?mimetype=plain.text
@@ -238,6 +238,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 ad.preferances.com
 127.0.0.1 ad.profiwin.de
 127.0.0.1 ad.prv.pl
+127.0.0.1 ad.reachlocal.com
 127.0.0.1 ad.simflight.com
 127.0.0.1 ad.simgames.net
 127.0.0.1 ad.style
