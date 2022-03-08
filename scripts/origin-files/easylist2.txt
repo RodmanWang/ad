@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: A6JvY9HYapfcXh0r81LOSg
-! Version: 202203072100
+! Checksum: vZawTwEvx7jhjUIqAc2TcQ
+! Version: 202203080400
 ! Title: Fanboy's Annoyance List
-! Last modified: 2022-03-07 21:00 UTC
+! Last modified: 2022-03-08 04:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -25259,6 +25259,7 @@ _subscribers_newsletters/
 ###lp_eu_container
 ###lpcookies
 ###lscookiesMax
+###lsp_cookie_bar
 ###lst-cookie-banner
 ###lsw-cookie-bottom-box
 ###lvp_cookiewarning
@@ -27506,6 +27507,7 @@ _subscribers_newsletters/
 ##.bandeau-cookies
 ##.bandeau-information-cookies
 ##.bandeau-sellsecure
+##.bandeau-wrapper
 ##.bandeauCookie
 ##.bandeauCookies
 ##.bandeau_consent
@@ -30792,6 +30794,8 @@ _subscribers_newsletters/
 ##.fr_showCookieLegalInfo
 ##.frame-small.cookies
 ##.framework_cookies
+##.freeprivacypolicy-com---nb
+##.freeprivacypolicy-com---nb-simple
 ##.frontendPrivacy__consentBanner
 ##.fs-cc-banner_component
 ##.fs-cookie-bar
@@ -32919,8 +32923,6 @@ _subscribers_newsletters/
 ##.tao-cookie-hint
 ##.tar_cookiesBar
 ##.tarteaucitronBeforeVisible
-##.tatsu-bg-overlay
-##.tatsu-clearfix
 ##.taxcodeandprivacy-cookienotice-bar
 ##.tbcookie
 ##.tc-cookie-banner
@@ -35199,6 +35201,7 @@ m###teaser-newsletter
 ##.newsletter-popup-background
 ##.newsletter-popup-container
 ##.newsletter-popup-desktop
+##.newsletter-popup-on-scroll-version
 ##.newsletter-popup-subscribe-block
 ##.newsletter-popup-wrap
 ##.newsletter-popup-wrapper
@@ -36363,6 +36366,7 @@ m###teaser-newsletter
 ! ||www.youtube.com^$csp=worker-src 'none'
 ! 3rd-party sounds
 ||acquire.io/assets/sound/
+||app.chaport.com/sounds/
 ||app.onlim.com/app/assets/audios/
 ||appspot.com/sounds/chatmsg.mp3
 ||carrotquest.app/sounds/
@@ -36895,6 +36899,7 @@ m###teaser-newsletter
 ||donkeymob.com^$third-party
 ||ecookie.nl^$third-party
 ||fc2.com/share/js/gdpr/
+||freeprivacypolicy.com^$third-party
 ||gdpr-legal-cookie.beeclever.app^$third-party
 ||gdpr-service.herokuapp.com^$third-party
 ||gdpr.studybreakmedia.com^
@@ -39877,6 +39882,7 @@ filehippo.com,slate.com,straitstimes.com##.next-story
 shoko.fr##.next-up
 usatoday.com##.next-wrap
 contactmusic.com,gizbot.com##.nextArticle
+memeburn.com##.nextCard
 cnet.com##.nextPreview
 msn.com##.next_article
 forbes.com##.next_article_button
@@ -40713,9 +40719,11 @@ philosophynow.org###welcome_box
 imgur.com##.EmeraldBanner
 talkingpointsmemo.com##.Footer__ModalAds
 marieclaire.com.au##.MagDriver
+disk.yandex.com##.PSHeader-Center
 aarp.org##.aarpe-site-banner
 worldhistory.org##.ahe-ad
 science.org##.alert-donation
+disk.yandex.com##.app-promo-banner
 aarp.org##.backgroundParsys
 out.com##.bean-house-promo
 restofworld.org##.bottom-bar
@@ -40762,6 +40770,7 @@ atlasobscura.com##.membership-creative
 euobserver.com##.membership-upsell
 monkeytype.com##.merchBanner
 finecooking.com##.meter-bar
+disk.yandex.com##.mobile-badges
 propublica.org##.module-donate
 last.fm##.mpu-subscription-upsell
 newsweek.com##.msub
@@ -43017,6 +43026,7 @@ yow.ca###sticky
 tesco.com###sticky-bar-wrapper
 ffonts.net,whatfontis.com###sticky-popup
 firefoxosdevices.org###storage-notice
+tatsubuilder.com###tatsu-header-container
 google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk###taw > div > [data-ved]
 cars.co.za###terms-and-conditions
 classicalradio.com,di.fm,jazzradio.com,radiotunes.com,rockradio.com,zenradio.com###terms-message-region
@@ -43264,7 +43274,7 @@ theatlantic.com##.cookie-disclaimer
 athleticgreens.com##.cookie_LRb5A
 bitfeed.co##.cookiebanner
 paymentcloudinc.com##.cookiebtn
-21buttons.com,amnesty.org,aoc.com,arbiton.com,asda.com,ashridge.org.uk,auto1.fi,auto10.com,belivehotels.com,chemistdirect.co.uk,cineworld.co.uk,coinbase.com,consumeraffairs.org.uk,crytek.com,custplace.com,diahelp.net,dorotheum.com,dur.ac.uk,egyptair.com,eirsport.ie,enable-javascript.com,eurozine.com,feelunique.com,forsettlement.com,gartic.io,grandvision.com,graspop.be,guggenheim-bilbao.eus,hmv.com,hopdoddy.com,hotel-spider.com,hse.ru,huntshowdown.com,inagrm.com,indepth.dev,luxottica.com,mabanque.bnpparibas,macpaw.com,mailjet.com,mannheimerswartling.se,martinrandall.com,medela.co.uk,media-sense.com,mindshareworld.com,mindswarms.com,modirum.com,nedbank.co.za,o-ma-god.com,orientalmart.co.uk,ostrog.com,perfumesclub.co.uk,perfumesclub.com,pics.io,pjon.org,playgwent.com,proton.com,proxyparts.com,radeon-pro.github.io,renaultbryanston.co.za,renaultfourways.co.za,royalparks.org.uk,rusvpn.com,scamner.com,sellix.io,sharafdg.com,spiderfoot.net,stuttafordvanlines.co.za,tescomobile.ie,testeri.fi,thenottingham.com,threadreaderapp.com,topographic-map.com,twinings.co.uk,ukcisa.org.uk,ukmail.com,umicore.com,unian.info,unknownphone.com,uptodown.com,urtekram.com,vizologi.com,volvocars.com,warhammerchampions.com,wilko.com,winamp.com,wizards.com,wyylde.com,yookur.com##.cookies
+21buttons.com,amnesty.org,aoc.com,arbiton.com,asda.com,ashridge.org.uk,auto1.fi,auto10.com,belivehotels.com,bemob.com,chemistdirect.co.uk,cineworld.co.uk,coinbase.com,consumeraffairs.org.uk,crytek.com,custplace.com,diahelp.net,dorotheum.com,dur.ac.uk,egyptair.com,eirsport.ie,enable-javascript.com,eurozine.com,feelunique.com,forsettlement.com,gartic.io,grandvision.com,graspop.be,guggenheim-bilbao.eus,hmv.com,hopdoddy.com,hotel-spider.com,hse.ru,huntshowdown.com,inagrm.com,indepth.dev,luxottica.com,mabanque.bnpparibas,macpaw.com,mailjet.com,mannheimerswartling.se,martinrandall.com,medela.co.uk,media-sense.com,mindshareworld.com,mindswarms.com,modirum.com,nedbank.co.za,o-ma-god.com,orientalmart.co.uk,ostrog.com,perfumesclub.co.uk,perfumesclub.com,pics.io,pjon.org,playgwent.com,proton.com,proxyparts.com,radeon-pro.github.io,renaultbryanston.co.za,renaultfourways.co.za,royalparks.org.uk,rusvpn.com,scamner.com,sellix.io,sharafdg.com,spiderfoot.net,stuttafordvanlines.co.za,tescomobile.ie,testeri.fi,thenottingham.com,threadreaderapp.com,topographic-map.com,twinings.co.uk,ukcisa.org.uk,ukmail.com,umicore.com,unian.info,unknownphone.com,uptodown.com,urtekram.com,vizologi.com,volvocars.com,warhammerchampions.com,wilko.com,winamp.com,wizards.com,wyylde.com,yookur.com##.cookies
 px.dev##.cookies-banner-module--banner--UON8z
 coop.co.uk##.coopssn-c-cookienotice
 austrian.com,austrianairlines.ag,austriantechnik.at##.cop
@@ -43897,7 +43907,7 @@ vanguard.com,vanguardinvestments.dk,vanguardinvestments.se##.disclaimer_box
 vanguard.com,vanguardinvestments.dk,vanguardinvestments.se##.transbox
 ! mobile.twitter.com
 mobile.twitter.com###react-root > div > div > .rn-gvpnoh
-twitter.com##.r-13qz1uu.r-tvv088.css-1dbjc4n
+! twitter.com##.r-13qz1uu.r-tvv088.css-1dbjc4n
 mobile.twitter.com##.rn-gvpnoh.rn-eps6nq.rn-13qz1uu
 ! Custom Filters
 sonarhome.pl##.fixed:has(.cookies-scrollbar)
@@ -45190,6 +45200,8 @@ d-power-modellbau.com,modellbau-metz.com,steinmetz-baldauf.de#@##cookie-modal:no
 defencediscountservice.co.uk#@##cookie-popup:not(html):not(body)
 epolisbari.com#@##cookieModal
 d-power-modellbau.com,modellbau-metz.com#@##cookieform
+qastack.com.de#@##cookies-accept
+qastack.com.de#@##cookies-consent
 laboratoire-cellmade.fr#@##cookiesInfo
 laboratoire-cellmade.fr#@##cookiesPop
 britishairways.com#@##ensModalWrapper[role]
@@ -46014,6 +46026,7 @@ toyota.jp##.global-footer-pagetop-href
 nomuraholdings.com##.l-Footer__pagetop
 so-net.ne.jp##.link-top
 gazoo.com##.mailmag_link
+video.laxd.com##.noLoginSticker
 ntv.co.jp##.ntv-pageTop
 nikkei.com##.nui-footer-newman__to-top
 gamespark.jp,nna.jp,response.jp##.page-top
@@ -47658,7 +47671,7 @@ infojobs.net###cmpContainer
 assurland.com###consentManagementPlatform
 grillofrance.fr###cookie
 izmopics.com,smart-mulhouse.fr###cookieConcernPanel
-123comparer.fr,arlestourisme.com,enmark2.com,my-meteo.com,solutions-numeriques.com###cookies
+123comparer.fr,arlestourisme.com,enmark2.com,my-meteo.com,retraitesdeletat.gouv.fr,solutions-numeriques.com###cookies
 cliffordchance.com###div_cc_cc
 lactease.com###doria_banner_content
 calendrier-lunaire.net###ezcc
@@ -47678,14 +47691,17 @@ darricau.com###popup
 clinique-veterinaire.fr###userConsentPolicy
 bmgproductionmusic.fr##.Notification
 talixo.fr##.TrackingInfoBox
+maprocuration.gouv.fr##.VoteDisclaimer_voteDisclaimerContainer__27qgl
 poool.fr##.Xj54sYVCrpQ88itWMgaP
 burgerking.fr##.aAjnr
 camara.net##.activebar-container
+ants.gouv.fr##.ants-208
 jumia.ci,jumia.co.ke,jumia.com.eg,jumia.com.gh,jumia.com.ng,jumia.com.tn,jumia.dz,jumia.ma,jumia.sn,jumia.ug##.banner
 cv.fr##.bg-gray-900.p-5
 medpets.fr##.bottom-0
 wimotic.fr##.bottom-6
 shopee.fr##.bpGouG
+moncompteformation.gouv.fr##.cdk-overlay-container
 gecina.fr##.cky-modal-backdrop
 lirelactu.fr##.container-0-5
 ffr.fr,kora.fr,narbutas.fr,quelpneu.com,weareplaystation.fr##.cookie
@@ -47700,6 +47716,7 @@ aeg-powertools.eu##.exarIq
 radiosetv.com##.fck
 weclap.fr##.front_web_app_main_menu_front-web-app-main-menu-component_front_show_cookie_container
 arlettie.com##.gCKAuc
+1jeune1solution.gouv.fr##.gdpr_consent_widget__2StXk
 mesvoisins.fr##.goodhood-components__2PKga
 woodbrass.com##.hidden-sm.hidden-md.row
 apec.fr##.info-sanitaire
@@ -49091,6 +49108,7 @@ kernel.ua##.wrapper-small-footer
 !
 ! ---------- Japanese ----------
 !
+||gdpr.laxd.com^
 !
 ! ---------- Korean ----------
 !
