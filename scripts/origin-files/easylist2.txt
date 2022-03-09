@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Djs4R4rf8Tp4UGYAWYQvjw
-! Version: 202203091250
+! Checksum: mZ4K5zQPc12kc8k/+E8MLw
+! Version: 202203092100
 ! Title: Fanboy's Annoyance List
-! Last modified: 2022-03-09 12:50 UTC
+! Last modified: 2022-03-09 21:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -15455,6 +15455,7 @@ _subscribers_newsletters/
 ##.share-viber
 ##.share-video
 ##.share-video-link
+##.share-wa
 ##.share-wb
 ##.share-weather-fb
 ##.share-weibo
@@ -34348,6 +34349,7 @@ _subscribers_newsletters/
 ###sidebar-email-subscription
 ###sidebar-email-widget
 ###sidebar-newsletter
+###sidebar-newsletter-form
 ###sidebar-subscribe
 ###sidebar-subscribe-box
 ###sidebar_newsletter
@@ -35313,6 +35315,7 @@ m###teaser-newsletter
 ##.newsletter-signup:not(html):not(body)
 ##.newsletter-signup__container
 ##.newsletter-signup__popup-bg
+##.newsletter-signupform-large
 ##.newsletter-simple
 ##.newsletter-slideout
 ##.newsletter-small
@@ -45156,6 +45159,7 @@ am730.com.hk##.news-pagination
 metrotime.be###mc_embed_signup
 manners.nl###subscribe
 participaties.nl,voetbalnieuws.be##.newsletter
+gezondheidsnet.nl##.nieuwsbrief
 techzine.nl##.quicksubscribe
 ! Greek
 news247.gr##.newsletter-form
@@ -45182,6 +45186,7 @@ fides.org###subcribe-nl
 fm-world.it###subscribe-form
 eticamente.net###subscribeDataTable
 aquilabasket.it,bitcity.it,lavocedeltrentino.it###subscription-form
+focusrisparmio.com##.Subscribe
 agi.it##.agi-newsletter
 onefootball.com##.digest-signup
 donnamoderna.com##.donnam-footer-newsletter
@@ -46822,7 +46827,7 @@ transfermarkt.nl##.header-social
 100p.nl##.holder-social
 iexprofs.nl,participaties.nl##.linkbar
 at5.nl,autoline-nl.be,autoline.nl,diningcity.nl,epochtimes.nl,gettyimages.nl,gids.tv,landrover.nl,nieuwsblad.be,nos.nl##.share
-europages.nl,knack.be,rtlnieuws.nl,voetbal24.be,voetbalnieuws.be##.social
+europages.nl,knack.be,rtlnieuws.nl,tweakers.net,voetbal24.be,voetbalnieuws.be##.social
 bricovideo.ovh##.social-icon
 az.nl##.socials
 knack.be##.toolbar
