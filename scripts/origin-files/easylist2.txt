@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: mZ4K5zQPc12kc8k/+E8MLw
-! Version: 202203092100
+! Checksum: JEA61I3y2+vQf+X29hlutw
+! Version: 202203100400
 ! Title: Fanboy's Annoyance List
-! Last modified: 2022-03-09 21:00 UTC
+! Last modified: 2022-03-10 04:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -6337,6 +6337,7 @@ _subscribers_newsletters/
 ##.c-install-banner
 ##.cept-banner-link
 ##.js-openAppBox
+##.smart-banner-download
 ##.smartbanner-android
 ##.smartbanner-container
 ##.smartbanner-desktop
@@ -7666,6 +7667,7 @@ _subscribers_newsletters/
 ###mvp-post-soc-wrap
 ###mvp-top-nav-soc
 ###nSocial
+###native-addthis
 ###nav-fb-link
 ###nav-fbook
 ###nav-gplus
@@ -32782,6 +32784,7 @@ _subscribers_newsletters/
 ##.sg-cookie-policy
 ##.sg-cookie-policy-popup
 ##.sg-cw-cookie
+##.sgcc-cookies
 ##.sgdpr-box
 ##.sgs-cookies-consent
 ##.sgsCookies
@@ -40621,9 +40624,9 @@ yahoo.com##.yom-pbar
 yellowpages.com##.yplightbox_overlay
 yellowpages.com##.yplightbox_screen
 yahoo.com##.ysc-promos
-youtube.com##.ytp-ce-playlist
-youtube.com##.ytp-pause-overlay
-youtube.com##.ytp-title-channel
+youtube-nocookie.com,youtube.com##.ytp-ce-playlist
+youtube-nocookie.com,youtube.com##.ytp-pause-overlay
+youtube-nocookie.com,youtube.com##.ytp-title-channel
 bloomberg.com##BB-MINI-PLAYER
 kk.org##[alt="Follow Me"]
 pcworld.in,portableapps.com##[alt="RSS"]
@@ -48785,6 +48788,7 @@ tvguru.ru##.c-modal
 cardsmobile.ru##.cm-m_c-w
 web-axioma.ru##.confform
 2x2tv.ru##.cook-web
+mnogo.ru##.cook_LFPnK
 everpharma.ru,hashrating.com,key-test.ru,narbutas.ru,onlinesim.ru,rutoken.ru,tw1.ru,yavitrina.ru,zettains.ru##.cookie
 2x2.su,advstreet.ru,calltouch.ru,glavred.info,kituramirus.com,skillbox.ru,sprinter-avto.com,stanumamoy.com,unian.net##.cookies
 kaida-fish.ru##.custom_message
@@ -50296,6 +50300,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||ibadual.com/design/ibadual/javascript/cookieconsent.min.js$~third-party
 @@||impossible3ds.com/wp-content/plugins/uk-cookie-consent/js/uk-cookie-consent-js$~third-party
 @@||intersport.no/cookiewall?$~third-party
+@@||jaybirdsport.com/etc.clientlibs/logitech-common/clientlibs/onetrust.$~third-party
 @@||khl.ru^*/cookieconsent.min.js
 @@||lacoste.com^*/cookie-consent.js
 @@||lightningmaps.org^*/cookieconsent.$script,stylesheet
@@ -50315,7 +50320,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||retrogames.cc/js/cookieconsent.min.js$~third-party
 @@||riwal.com/includes/js/components/cookiebar.js$script
 @@||santepubliquefrance.fr/rgpd/smarttag.js$script,~third-party
-@@||sdk.privacy-center.org^$script,domain=allocine.fr|bfmtv.com|bonduelle.it|cnews.fr|corrieredellosport.it|dumpert.nl|dziennikwschodni.pl|dziennikzachodni.pl|filmweb.pl|fip.fr|franceculture.fr|franceinter.fr|francetvinfo.fr|funradio.fr|gamepro.de|gamestar.de|gloswielkopolski.pl|gofeminin.de|ivoox.com|jeuxvideo.com|jofogas.hu|lavanguardia.com|leboncoin.fr|lequipe.fr|marianne.net|melty.fr|metronieuws.nl|mundodeportivo.com|naszemiasto.pl|okdiario.com|onmeda.de|podcasts.leparisien.fr|rtl.be|rtl.fr|seguro.elespanol.com|standaard.be|strefabiznesu.pl|telegraaf.nl|tuttosport.com|vecernji.hr
+@@||sdk.privacy-center.org^$script,domain=allocine.fr|bfmtv.com|bonduelle.it|cnews.fr|corrieredellosport.it|dumpert.nl|dziennikwschodni.pl|dziennikzachodni.pl|filmweb.pl|fip.fr|franceculture.fr|franceinter.fr|francetvinfo.fr|funradio.fr|gamepro.de|gamestar.de|gloswielkopolski.pl|gofeminin.de|ivoox.com|jeuxvideo.com|jofogas.hu|lavanguardia.com|leboncoin.fr|lequipe.fr|marianne.net|melty.fr|metronieuws.nl|mundodeportivo.com|naszemiasto.pl|onmeda.de|podcasts.leparisien.fr|rtl.be|rtl.fr|seguro.elespanol.com|standaard.be|strefabiznesu.pl|telegraaf.nl|tuttosport.com|vecernji.hr
 @@||se.com/myschneider/assets/onetrust.$~third-party
 @@||shop.bora-sauna.de/components/cookieconsent2/build/cookieconsent.min.js
 @@||sonnenverlauf.de/scripts/cookieconsent.min.js$~third-party
