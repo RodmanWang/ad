@@ -1184,6 +1184,8 @@ $script,xmlhttprequest,third-party,domain=00ksw.com|01zww.com|0biquge.com|114zw.
 !
 !
 !
+xixik.com###news_contents_left > .left_gg
+||img.xixik.net/custom/section/*/banner-$domain=xixik.com
 slashview.com##div[id^="Advertis"]
 ddxsku.com##.adhtml
 sunnylife.tw##.post-entry > div[style="min-width: 300px; min-height:300px;"]
@@ -11791,7 +11793,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 szxx.com.cn###A0
-939394.xyz##a[href^="/"][href$="/index.html"] > img
+939394.xyz##a[href^="/"][href$=".html"] > img[src*=".gif"]:not([data-original])
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -19697,6 +19699,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||housewedding.cn^
 ||mtbraqc.cn^
 ||mmoqgsl.cn^
+||xshijie.xyz^
+||nnopp.website^
+||sthouw.vip^
+||xulilin.ltd^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
