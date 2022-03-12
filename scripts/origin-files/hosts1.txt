@@ -30,7 +30,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <tr>
 <td>listing ad servers added after:</td>
-<td><b class=blue>Sat, 16 Mar 2002 00:00:00</b></td>
+<td><b class=blue>Sun, 17 Mar 2002 00:00:00</b></td>
 </tr>
 
 
@@ -55,7 +55,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <form action="/as/serverlist.php">
 <input type=hidden name=hostformat value="hosts">
-<input type=hidden name="startdate[day]" value="16">
+<input type=hidden name="startdate[day]" value="17">
 <input type=hidden name="startdate[month]" value="3">
 <input type=hidden name="startdate[year]" value="2002">
 
@@ -86,7 +86,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Sat, 16 Mar 2002 00:00:00
+# start date:    Sun, 17 Mar 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
