@@ -11041,7 +11041,7 @@
 <form action="/as/serverlist.php">
 <head>
 <html>
-<input type=hidden name="startdate[day]" value="17">
+<input type=hidden name="startdate[day]" value="18">
 <input type=hidden name="startdate[month]" value="3">
 <input type=hidden name="startdate[year]" value="2002">
 <input type=hidden name=hostformat value="hosts">
@@ -11056,7 +11056,7 @@
 <p><table cellpadding=2 cellspacing=0>
 <p><table cellpadding=3 cellspacing=1>
 <td><b class=blue>3671</b></td>
-<td><b class=blue>Sun, 17 Mar 2002 00:00:00</b></td>
+<td><b class=blue>Mon, 18 Mar 2002 00:00:00</b></td>
 <td><b class=blue>Thu, 10 Mar 2022 09:07:12 GMT</b></td>
 <td><b class=blue>hosts -- in hosts file format</b></td>
 <td><input type=submit value="show list with this IP address"></td>
