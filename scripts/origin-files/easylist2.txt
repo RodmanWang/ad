@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: qbG9DK3sw4Eo7ZzV+ZgJSQ
-! Version: 202203150400
+! Checksum: XCY7JAM2Po5q7KdQOUzgVw
+! Version: 202203151250
 ! Title: Fanboy's Annoyance List
-! Last modified: 2022-03-15 04:00 UTC
+! Last modified: 2022-03-15 12:50 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -3769,6 +3769,7 @@ _youtube_social_
 /CookiePrompter-
 /CookieReportsDisclaimer.
 /cookies-anekis.
+/cookies-await-consent
 /cookies-banner$script
 /cookies-compliant.
 /cookies-consent.
@@ -30598,6 +30599,7 @@ _subscribers_newsletters/
 ##.dismiss-cookie
 ##.dismiss_cookies
 ##.dismissable-cookie-policy
+##.display-cookie
 ##.display_cookie_btn
 ##.display_cookies
 ##.div-banner-cookie-centrale
@@ -33641,6 +33643,7 @@ _subscribers_newsletters/
 ##[aria-labelledby="ui-dialog-title-cookiebox"]
 ##[cnn-cookie-policy]
 ##[cookie-unique-name]
+##[data-alert-cookie]
 ##[data-at-selector="cookie-banner"]
 ##[data-bind="visible: showCookieWarning"]
 ##[data-cookie-id]
@@ -37210,7 +37213,6 @@ m###teaser-newsletter
 ||privacymanager.io^$third-party
 ||publy.net^$third-party
 ||pubtech.ai^$third-party
-||quantcast.mgr.consensu.org^$third-party
 ||scrookie.nl^$third-party
 ||sddan.mgr.consensu.org^$third-party
 ||secureprivacy.ai/secureprivacy-plugin/$third-party
@@ -39449,6 +39451,7 @@ itworld.com##.br-tw
 lostlettermen.com##.brdrCntr-09
 rdmag.com##.breadcrumblink
 dropbox.com##.bromo
+apkcombo.com##.browser-extension
 3dprint.com##.bsub
 healio.com##.btm-leaderboard
 now.msn.com##.btmright
@@ -41381,6 +41384,7 @@ newyorker.com##div[class^="NewsletterSubscribe_"]
 tbsnews.net###___tbspushdiv
 deepl.com###dl_app_banner_popup
 kizi.com###kizi-popover-dialog
+tdtube.net###main-fixed
 livejapan.com###ptcd_modal_dialog
 google.com###pushdown
 fiercecable.com###pusher-ad
@@ -43829,7 +43833,7 @@ riot.im##.mx_MatrixToolbar
 ft.com##.n-messaging-slot
 biblio.co.uk,comfortclick.com##.navbar-fixed-bottom.navbar
 businessoffashion.com##.navbar-notification
-findicons.com,freeimages.com##.navbar-qards
+findicons.com,freeimages.com,vector.me##.navbar-qards
 userbenchmark.com##.nb-parent
 wik-walsoe.com##.ncm-ready
 gog.com##.ng-scope._floating-banner
@@ -46941,6 +46945,8 @@ nouvelobs.com##.follobs
 francetvinfo.fr,silicon.fr##.follow
 rtbf.be##.footer-main__site-links
 rtl.fr##.gg
+gamekult.com##.gk__footer__social-bar
+gamekult.com##.gk__share__label
 lci.tf1.fr,liberation.fr,loi1901.com,silicon.fr##.google
 franceantilles.fr,ladepeche.fr,programme-tv.net##.gplus
 commentwiki.fr,dzfoot.com,lci.fr,sudouest.fr##.header-social
@@ -47775,6 +47781,7 @@ der-audio-verlag.de###notification
 berentzen-gruppe.de###notifications
 sh-mueller.de###notify
 manikowski.de###notify2
+unicef.de###onetrust-consent-sdk
 fxgrow.de###openModal2
 rundfunkbeitrag.de###optInId
 ihk-nuernberg.de,xn--allestrungen-9ib.de###overlay
@@ -50676,6 +50683,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||oakley.com/_ui/dist/scripts/modules/notifications.js$script,~third-party
 @@||paste.crdroid.net/assets/js/modules/notifications.js$script,~third-party
 @@||st.mycdn.me/static/*/WebPush.js$script,domain=ok.ru
+@@||webpush.jp/js/browserpushv3.js$domain=zakzak.co.jp
 @@/cookie*/jquery.cookie.js$script,~third-party,domain=~albeco.com.pl
 @@/cookie_law/plugin.js$script,~third-party
 @@/zig_cookiepolicybar/*/CookieBar.js$script,~third-party
@@ -50763,7 +50771,6 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||policy.app.cookieinformation.com^$domain=skousen.dk|skousen.no|whiteaway.com|whiteaway.no|whiteaway.se
 @@||portal.aae.at^*/cookieconsent.js$script,~third-party
 @@||privacypolicies.com/public/uploads/$image,~third-party
-@@||quantcast.mgr.consensu.org^*/choice.js$domain=bikeperfect.com|cyclingnews.com|digitalcameraworld.com|einthusan.tv|express.co.uk|gamesradar.com|guitarplayer.com|independent.co.uk|indy100.com|laptopmag.com|livescience.com|livingetc.com|mahjong.com|musicradar.com|pcgamer.com|protothema.gr|realhomes.com|space.com|t3.com|techradar.com|tomsguide.com|whattowatch.com
 @@||retrogames.cc/js/cookieconsent.min.js$~third-party
 @@||riwal.com/includes/js/components/cookiebar.js$script
 @@||santepubliquefrance.fr/rgpd/smarttag.js$script,~third-party
@@ -50832,9 +50839,6 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||ohga.it^*/remote-gdpr.min.js
 @@||orangeclickmedia.com/tech/libs/js.cookie.min.js$domain=protothema.gr
 @@||polenka.pl/wp-content/plugins/cookie-law-info/js/cookielawinfo.js$script
-@@||quantcast.mgr.consensu.org/GVL-v2/$domain=express.co.uk|independent.co.uk|money.it
-@@||quantcast.mgr.consensu.org/tcfv2/$domain=centrometeoitaliano.it|express.co.uk|fantacalcio.it|gianlucadimarzio.com|ilbianconero.com|independent.co.uk|money.it
-@@||quantcast.mgr.consensu.org^*/choice.js$domain=centrometeoitaliano.it|express.co.uk|fantacalcio.it|formulapassion.it|gianlucadimarzio.com|ilbianconero.com|money.it
 @@||rai.it^*/cookie.pack.js$script
 @@||rainews.it/dl/components/js/cookiebanner/$script,xmlhttprequest
 @@||rainews.it^*/cookie.pack.js$script
