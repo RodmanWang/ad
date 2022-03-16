@@ -4,7 +4,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2022-03-16T00:02:21.810Z
+! Last modified: 2022-03-16T12:01:20.407Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -6934,6 +6934,7 @@ vkcdnservice.appspot.com^
 ||corruptegypttook.com^
 ||corwrite.com^
 ||coseik.com^
+||cosherymudejar.com^
 ||cosimotable.pro^
 ||cosmeticsgenerosity.com^
 ||cosmjs.com^
@@ -7796,6 +7797,7 @@ vkcdnservice.appspot.com^
 ||dubodufy.com^
 ||dubvacasept.com^
 ||duchoono.com^
+||ducina.com^
 ||ducmissy.com^
 ||ducubchooa.com^
 ||dudslubesviol.com^
@@ -25845,7 +25847,6 @@ vkcdnservice.appspot.com^
 ||logconfig.polarisoffice.com^
 ||t.n.mcdonalds.de^
 ||ploz.mangadex.org^
-||pix2.services.tvn.pl^
 ||frog.yuanfudao.com^
 ||clog*.yuanfudao.com^
 ||analytics.send.cm^
@@ -30607,7 +30608,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tophitbit.com^
 ||tpm.pw^
 ||upravel.com^
-||uptolike.com^
 ||utraff.com^
 ||variti.net^
 ||vira.ru^
@@ -38193,10 +38193,15 @@ charlestownwyllie.oaklawnnonantum.com^
 ! Source name: EasyList China ad servers
 ! Source: https://raw.githubusercontent.com/easylist/easylistchina/master/easylistchina.txt
 !
+||yinyating.top^
+||hylmkele.com^
+||ttayy.cn^
+||lm779.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
+||crsgd.xyz^
 ||00xvppy.cn^
 ||01fen.com^
 ||022aifang.com^
@@ -41333,6 +41338,16 @@ charlestownwyllie.oaklawnnonantum.com^
 ||wzjs1.oss-accelerate.aliyuncs.com^
 ||eeree.top^
 ||benwang.love^
+||wansan66.top^
+||lksw1.top^
+||redmix.me^
+||hsc.ink^
+||jfsldq.top^
+||nomcyk.cn^
+||jingyue.co^
+||xn--xkry73b.online^
+||liusuqin.fun^
+||32jiang.com^
 ||000123456789.online^
 ||000123456789.space^
 ||01tn.cn^

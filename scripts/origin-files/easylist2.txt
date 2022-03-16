@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fzSvyKoZyftVJfGdWHqUwQ
-! Version: 202203160400
+! Checksum: J3GMxy0z8s6vKWMI5Rl/bw
+! Version: 202203161300
 ! Title: Fanboy's Annoyance List
-! Last modified: 2022-03-16 04:00 UTC
+! Last modified: 2022-03-16 13:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -26087,7 +26087,6 @@ _subscribers_newsletters/
 ###privacyCookiesPolicyMessageContainer
 ###privacyDisclaimer
 ###privacyHint
-###privacyInfo
 ###privacyNotePopupContainer
 ###privacyNoticeUpdate
 ###privacyNotification
@@ -48910,6 +48909,7 @@ nordiskporselen.com###kjeks
 homenet.no###toast-container
 steinhandel.no###topbar
 netonnet.no##.alert
+ngi.no##.bcc-container
 nextgentel.no##.blocker
 kitchentime.no,parat.com##.cookie
 lexus.no##.disclaimer
@@ -49749,6 +49749,7 @@ engie.fr,gaz-tarif-reglemente.fr,happ-e.fr,nasa.gov#@##backToTop
 rmf24.pl#@##backTop:not(html):not(body)
 zdorovodeti.ru#@##back_to_top:not(html):not(body)
 nasa.gov#@##backtoTop
+bookaacruises.com,united.com#@##backtoTop:not(html):not(body)
 aqa-shop.ru,megalight18.net,mk-78.ru,stp-shop.ru#@##backtop
 gcnlive.com,guildwars2.com,iosysos.com,nasa.gov#@##backtotop
 arma3.com,dayz.com#@##go-top
