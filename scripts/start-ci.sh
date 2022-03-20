@@ -18,7 +18,6 @@ easylist=(
 hosts=(
   "https://curben.gitlab.io/malware-filter/urlhaus-filter-hosts.txt"
   "https://raw.githubusercontent.com/RodmanWang/ad/master/scripts/origin-files/ad-hosts.txt"
-  "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt"
 )
 
 strict_hosts=(
