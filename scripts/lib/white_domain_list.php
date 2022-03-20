@@ -334,8 +334,6 @@ return array(
     'empic.dfcfw.com' => 0, #593
     'wxapp.lvyadx.cn' => 0, #584
     'canyoublockit.com' => 0, #601
-    'mail.qq.com' => 0,
-    'mail.google.com' => 0,
 
 
 
