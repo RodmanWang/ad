@@ -332,6 +332,8 @@ return array(
     'gbfek.dfcfw.com' => 0, #593
     'dfscdn.dfcfw.com' => 0, #593
     'empic.dfcfw.com' => 0, #593
+    'wxapp.lvyadx.cn' => 0, #584
+    'canyoublockit.com' => 0, #601
 
 
 
