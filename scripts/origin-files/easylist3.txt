@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ifJ4wXRAUcXji4loj/tXGg
-! Version: 202203240400
+! Checksum: nUIazCLUhxBQqDJyZ14D5A
+! Version: 202203241300
 ! Title: Fanboy's Annoyance List
-! Last modified: 2022-03-24 04:00 UTC
+! Last modified: 2022-03-24 13:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -21831,7 +21831,6 @@ _subscribers_newsletters/
 ###cookie-law-enforcer
 ###cookie-law-fix
 ###cookie-law-info-again
-###cookie-law-info-bar ~ .cli-modal-backdrop
 ###cookie-law-infos
 ###cookie-law-message
 ###cookie-law-notif
@@ -34260,6 +34259,14 @@ _subscribers_newsletters/
 ##ytd-consent-bump-renderer
 ##ytd-mealbar-promo-renderer
 ##ytg-notification-footer
+! cookie-law-info-bar
+###cookie-law-info-bar ~ .cli-modal-backdrop
+###footer > #cookie-law-info-bar
+###footercontent > #cookie-law-info-bar
+##.container > #cookie-law-info-bar
+##.footer > #cookie-law-info-bar
+##.site > #cookie-law-info-bar
+##.site-content > #cookie-law-info-bar
 ! starbucks.co.th,ikey.com,movildata.com,pepscan.com
 ! https://publicwww.com/websites/master-popups-cookieplus/
 ##.mpp-container-position-bottom-bar
@@ -39077,7 +39084,7 @@ bullettmedia.com###post-footer-nav
 imgur.com###post-jump-container
 ambotv.com,lawandcrime.com,mediaite.com,wired.com###post-nav
 motorauthority.com###postNav
-lithub.com,myfitnesspal.com,theorbital.co.uk###post_more_wrapper
+lithub.com,myfitnesspal.com,securityaffairs.co,theorbital.co.uk###post_more_wrapper
 daniweb.com###postbit-ad
 the-leader.com###ppslider
 motherjones.com###pre-page
@@ -41395,6 +41402,7 @@ lifesitenews.com###give-insert
 theshot.net.au###home_row_1
 alternet.org###kindest-container
 foodnetwork.com###mod-editorial-promo-1
+finance.yahoo.com###monalixa-stickyfooter
 lastmomenttuitions.com###popups
 pocketgamer.com###site-background
 ghacks.net###stackcommerce_widget-4
@@ -41447,6 +41455,7 @@ artnews.com##.get-the-magazine__outer
 npr.org##.global-modal
 insideedition.com##.got-tip
 mydailyfreedom.com,patriotfetch.com##.gpoll_enabled_wrapper
+finance.yahoo.com##.has-beacon-click
 bowhuntingmag.com,firearmsnews.com,flyfisherman.com,gameandfishmag.com,gundogmag.com,gunsandammo.com,handgunsmag.com,in-fisherman.com,northamericanwhitetail.com,outdoorchannelplus.com,petersenshunting.com,shootingtimes.com,wildfowlmag.com##.has-promo
 myanimelist.net##.header-mini-banner
 themarkup.org##.header-stripe
@@ -44696,6 +44705,8 @@ sc.com,uobgroup.com.sg##.m-warning-alert
 foolproof.com.sg##.notification-banner
 steadfast.com.sg##.notification-bar
 banjaran.com.sg##.overlay-mobile-styles-enabled
+! cookie-law-info-bar
+afterbuy.de,divx.com,egotastic.com,endnote.com,ezfacility.com,financedigest.com,fon.com,fondometasalute.it,freeupscmaterials.org,geopostcodes.com,hasitleaked.com,iqformat.me,mathletics.com,maurizioblondet.it,medhub.com,mobalytics.gg,ngpvan.com,opensubtitles.website,osdownloader.org,peopleadmin.com,pivigames.blog,portal.ciee.org.br,revcontent.com,sansan.com,swoca.net,vendini.com,winaero.com,wpthemedetector.com###cookie-law-info-bar
 ! elementor-popup-modal
 caldigit.com##.elementor-element-31e18001
 whatson.is##.elementor-location-popup
@@ -51419,6 +51430,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||battleforthenet.com/images/logos/$domain=battleforthenet.com
 @@||bauen-und-heimwerken.de/plugins/content/myshariff/js/shariff.min.js
 @@||bdstatic.com^*/share_$domain=baidu.com
+@@||beacons.ai/images/social_icons/$image,~third-party
 @@||bento.de/upload/images/_*-Instagram.$domain=bento.de
 @@||bento.de/upload/images/_*/facebook-$domain=bento.de
 @@||bitbucket-connect-icons.s3.amazonaws.com^$image,domain=bitbucket.org
