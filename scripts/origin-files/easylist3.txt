@@ -2501,6 +2501,8 @@ windowstechblog.nl#%#AG_onLoad(function() { window.bizpanda = {}; });
 izlemac75.net##body > div[style*="width:100%;text-align:center"]
 izlemac75.net##body > div#reload
 !
+sport.segodnya.ua##body > div > div.amp__form
+sport.segodnya.ua##body > div > div.amp__form + footer
 ntv.com.tr##.article-socialFrame-widget
 news.cookpad.com##a[href="https://line.me/R/ti/p/%40oa-cookpadnews"]
 nv.ua##section[data-type="advertising"]
@@ -7815,6 +7817,9 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 !
 !
 !
+javhd.com##.jcookie
+ubs.com##.privacysettings__banner
+ubs.com##.lightbox__container
 abc.net.au##div[data-component="CookieBanner"]
 global.miui.com###__next > div.fixed.rounded-t.transition-all
 viagogo.jp###gdprHeader
@@ -8803,7 +8808,7 @@ plarium.com##div[class^="Notificationsstyled__CookiesWrapper-"]
 fidelity.de##.fil-cookie-policy
 canadalife.de##.cookie-dialog__background-overlay
 mtu.pl,ergohestia.pl##div[id^="cookie"][id$="_outer"]
-actavera.eu,inwestomat.eu##body #cookie-law-info-bar
+wealthseed.eu,actavera.eu,inwestomat.eu##body #cookie-law-info-bar
 ihunt.ro###cookiessection
 routledge.com###cconsent-pop
 talentedge.com##.cookie-strip-bar
@@ -8946,7 +8951,7 @@ nordicnest.de#?##container > div[class]:has(> div[class] > div[class] > div[clas
 ||stihl.de/etc.clientlibs/stihl-frontend/clientlibs/components/content/cookie/cookielayer/
 petz.com.br##.policy-warning-banner
 kicker.de#$#body { overflow: auto !important; }
-||cdn.consentmanager.net^$domain=kundendienst-info.de|baunetz.de|rabe-bike.de|heinze.de|ais-online.de|dasoertliche.de|reno.de|walbusch.de|mathe-lexikon.at|katzen-forum.net|deutsche-apotheker-zeitung.de|brandible.de|my.games|vergleich.org|finanztip.de|baunetzwissen.de|trusted.de|universal-music.de|web2.cylex.de|mey-edlich.de|schuhe.de|qiez.de|benz24.de|hervis.de|avena.de|heimwerker.de|bauemotion.de|nw.de|kicker.de|herold.at|kalledaskabel.de
+||cdn.consentmanager.net^$domain=kundendienst-info.de|baunetz.de|rabe-bike.de|heinze.de|ais-online.de|dasoertliche.de|reno.de|walbusch.de|mathe-lexikon.at|katzen-forum.net|deutsche-apotheker-zeitung.de|brandible.de|my.games|vergleich.org|finanztip.de|baunetzwissen.de|trusted.de|universal-music.de|web2.cylex.de|mey-edlich.de|schuhe.de|qiez.de|benz24.de|hervis.de|avena.de|heimwerker.de|bauemotion.de|nw.de|kicker.de|herold.at|kalledaskabel.de|bussgeldkatalog.org
 mod.io###achtung-overlay
 bringmeister.de##div[data-testid="cookiePopup"]
 planetkey.de##.survey.alert-box
@@ -15707,6 +15712,7 @@ privacy.lecker.de#%#AG_onLoad(function(){if(!document.cookie.includes("euconsent
 privacy.madame.de#%#AG_onLoad(function(){if(!document.cookie.includes("euconsent-v2")){var g=new MutationObserver(function(){setTimeout(function(){var b=document.querySelector('button.no-children[path="\[0,2,1\]"]');b&&b.click();},300);setTimeout(function(){var c=document.querySelector('div[title="Berechtigte Interessen"]'); c&&c.click();},300);setTimeout(function(){var d=document.querySelectorAll('label[aria-checked="true"] > .off'); d.forEach(function(d){d.click();});},800); var f=document.querySelector('button.no-children[path="\[0,3,0\]"]'); setTimeout(function(){f&&f.click();},1000);});g.observe(document,{childList:!0,subtree:!0});setTimeout(function(){g.disconnect()},3E4)}});
 consent.gamingbible.co.uk,consent.unilad.co.uk#%#AG_onLoad(function(){if(window.location.href.includes("consentUUID")){var g=new MutationObserver(function(){var b=document.querySelector('button[title*="Accept" i]');b&&(g.disconnect(),b.click())});g.observe(document,{childList:!0,subtree:!0});setTimeout(function(){g.disconnect()},1E4)}});
 !
+heldenlounge.de#%#document.cookie="cookienote=set; path=/;";
 newbalance.ru#%#//scriptlet('set-local-storage-item', 'cookieDate', 'emptyObj')
 ekstrabladet.dk#%#//scriptlet('set-cookie', 'CookieConsent', '1')
 ieatfoodtours.co.uk,londraculturale.it,onceinrome.com,weliketuscany.it#%#//scriptlet('set-cookie', 'fh_should_track', 'false')
@@ -27865,6 +27871,8 @@ myanimelist.net##.footer-mini-banner
 mail.yahoo.co.jp###mhd_uhd_pc
 yahoo.co.jp###msthdPrLink
 login.yahoo.co.jp###ads
+! banner https://kakaku.com/item/K0001272155/?lid=20190108pricemenu_hot
+kakaku.com##.bnrBb
 ! https://kakaku.com/pc/ self-promo
 kakaku.com##.p-dell
 ! banner https://kakaku.com/item/J0000034135/?lid=pc_prbox01_pc_J0000034135
@@ -29389,6 +29397,9 @@ turkuazgazetesi.net,yenialanya.com,mansetaydin.com,seskocaeli.com,kocaelibarisga
 ##.widget_blog_subscription
 ~nothing.tech,~mega-debrid.eu,~curvegames.com,~news.un.org,~norwichzen.org.uk,~dereferer.me###mc_embed_signup
 !
+||cdn-cms.bnea.io/feeds/interstitials$domain=bandainamcoent.com
+bussgeldkatalog.org###slidein
+onliner.by##.news-promo
 cybernews.com##.subscribe__modal
 lnews.jp##.sp-btn-mail-magazine
 nakanune.ru##a[href="https://t.me/nakanuneru"] > img
@@ -32920,6 +32931,11 @@ magazine.skyeng.ru##.tg-banner
 !######### CSS tweaks #########
 !##############################
 !
+! https://github.com/easylist/easylist/issues/11448 timer
+loanapply.info#$##showlink { display: block !important; }
+loanapply.info#$#.to:style { display: block !important; }
+loanapply.info#$##pleasewait { display none !important; }
+loanapply.info#$##pleasewaits { display none !important; }
 ! jardima.com timer
 jardima.com#$##wpsafe-generate { display: block !important; }
 jardima.com#$##wpsafe-link { display: block !important; }
