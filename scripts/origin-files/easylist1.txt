@@ -5092,6 +5092,7 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||counter.mgronline.com^
 ||omapi.fangraphs.com^
 ||sp.minds.com^
 ||event-action.popinfo.jp^
@@ -20773,6 +20774,10 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|partifabrik.com|newsmax.com|bolgehastanesi.com|ewtc.de
 !
+||cdn1.edgedatg.com/aws/apps/datg/web-js-telemetry-service/*/production/js/datgts.js
+||cdn1.edgedatg.com/aws/abc/scripts/adobe-analytics2.js
+||apnews.com/newrelic/newrelic.browser.prod.js
+||commerce.adobedc.net/collector^$third-party
 ||youtube.com/api/stats/atr?
 ||youtube.com/api/stats/delayplay?
 ||nakanune.ru/count/img.php
