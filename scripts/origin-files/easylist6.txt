@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: c2WbvnEpCdigAKNsFItGtQ
-! Version: 202203282100
+! Checksum: I4492o86kxR6NmA8xIOthw
+! Version: 202203290400
 ! Title: Fanboy's Annoyance List
-! Last modified: 2022-03-28 21:00 UTC
+! Last modified: 2022-03-29 04:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -5971,12 +5971,10 @@ _subscribers_newsletters/
 ##.scroll__top
 ##.scroll_to_top
 ##.scroll_to_top_icon
-##.scroll_top:not(body):not(html)
 ##.scroll_top_btn
 ##.scrollbtntop
 ##.scrollto_top
 ##.scrolltop-btn
-##.scrolltop:not(body):not(html)
 ##.scrolltotopbutton
 ##.scrollup-container
 ##.scroolTop:not(body):not(html)
@@ -24702,7 +24700,6 @@ _subscribers_newsletters/
 ###gdpr-box
 ###gdpr-btn:not(button):not(input)
 ###gdpr-confirm
-###gdpr-consent
 ###gdpr-consent-banner
 ###gdpr-consent-box
 ###gdpr-consent-form-wrapper
@@ -31500,8 +31497,6 @@ _subscribers_newsletters/
 ##.gdprLegalNotification
 ##.gdprManagerMessage
 ##.gdprMessage
-##.gdprModal--visible
-##.gdprModal__placeholder
 ##.gdprNotice
 ##.gdprPopup
 ##.gdpr[data-gdpr-popup]
@@ -34080,6 +34075,7 @@ _subscribers_newsletters/
 ##[data-test="cookie-banner"]
 ##[data-test="gdpr-modal"]
 ##[data-testid="cookienotice-container"]
+##[data-testid="cookies_footer"]
 ##[data-testid="main-cookies-banner-container"]
 ##[data-token="gdpr_cookie_notice"]
 ##[data-type="cookie-addsense"]
@@ -35318,6 +35314,7 @@ m###teaser-newsletter
 ##.boxNewsletter:not(html):not(body)
 ##.box_newsletter:not(html):not(body)
 ##.box_toggle_newsletter
+##.boxzilla-iscriviti-alla-newsletter
 ##.bpage-email-signup
 ##.brief-newsletter:not(html):not(body)
 ##.bs-mailchimp-newsletter:not(html):not(body)
@@ -43665,6 +43662,7 @@ perimeterx.com###gatsby-focus-wrapper > div > .open
 play.google.com###gb > div[style*="background-color"]
 gdata-software.com,gdatasoftware.com###gd-cookiebar
 tampabay.com###gdpr
+facebookblueprint.com###gdpr-consent
 groundtruth.com###gdpr-modal
 pofcosolution.com###gdprModal
 lloyd.com###globalerror
@@ -45271,7 +45269,8 @@ legit.ng##.c-footer-subscribe
 gq-magazine.co.uk##.c-infobar-wrapper
 newstalkzb.co.nz##.c-promo
 nature.com##.c-site-messages
-eater.com,vox.com##.c-toaster
+polygon.com##.c-three-up-breaker__main
+eater.com,polygon.com,vox.com##.c-toaster
 politico.com##.california-playbook-sign-up-right-rail
 a16z.com##.call-to-action
 npr.org##.callout
@@ -45439,6 +45438,7 @@ legit.ng##.l-header__subscribe
 gawker.com##.lMQ
 axios.com##.landing-page-cta
 economist.com##.layout-article-promo
+punchdrink.com##.lead-capture-campaign
 texasmonthly.com##.list-newsletter-block__newsletter-signup
 lifeslittlemysteries.com##.llm_newsletter
 wakingtimes.com##.lp-bar__iframe-wrapper
@@ -48867,6 +48867,7 @@ knowledgehub.nl##.css-1szuh9m
 thermostaat.eu,watispilling.nl##.fancybox-overlay
 vanweelbethesda.nl##.footer-msg
 aalst.be##.footer-notification
+cheapoutdoor.nl##.gdprModal
 business.gov.nl##.hUapAL
 stelcomfortshop.nl##.header-notice
 independer.nl##.ind-cbar
@@ -48980,6 +48981,7 @@ clipper-teas.fi##.v--modal-overlay
 apollonian.eu##.v-snack--bottom
 varma.fi##.varma-footer-sticky
 silmaasema.fi##.veil
+duodecim.fi,kdlehti.fi##.wt-cli-cookie-bar-container
 sttinfo.fi##[class^="styledBarNotification__BarNotificationWrapper"]
 vertaa.fi##div > .cg-57
 lido.fi##div[class^="CookiesTooltipStyle_"]
@@ -49055,6 +49057,7 @@ fressnapf.hu##.grey-popup-layer
 rtlmost.hu##.hBHund
 tarifaexpert.hu##.lablec_suti_szabaly
 mall.hu##.legal-consent-wrap
+otpingatlanlizing.hu##.modal
 polipc.hu##.mysticky-welcomebar-fixed-wrap
 bonuszbrigad.hu##.newASZFLayer2
 4ig.hu##.not01-notification-container
@@ -49139,6 +49142,7 @@ molgroupitaly.it###mgit_notification
 e-tv.it###my-agile-privacy-notification-area
 meteomonopoli.it###my_privacy_widget
 demaiogroup.it###normativa
+castroniaviacatania.com###overlay
 tecnolatte.it###page_hider
 pusc.it###pixelfabrica-cs-banner
 frescomarket.it,informacatania.it,tuoclub.it,tuodi.it###popup
@@ -49190,7 +49194,7 @@ sevensalerno.it##.cw_container
 dentisti-italia.it##.di-banner
 migliori-siti-di-incontri.it##.disclaimer
 lsdlibri.it##.fullscreen_box_legale
-meterspec.it##.gdprModal
+castroniaviacatania.com,meterspec.it##.gdprModal
 vienormali.it##.info
 ilmanifesto.it##.info-banner
 lsdlibri.it##.inibisci_sfondo
@@ -49582,6 +49586,7 @@ autopitonline.ro,piese-auto-oradea.ro,vest-auto.ro###cookies
 pajurca.ro###cookiesmodal
 arb.ro,tigernails.ro,trendresidence.ro###gdpr-modal
 mediafax.ro###ot-sdk-btn
+castroniaviacatania.com###overlay
 portalinvatamant.ro,portalprotectiadatelor.ro###terms
 mobilier-mirjan24.ro###window_overlay
 basilica.ro##.alert
@@ -49590,6 +49595,7 @@ certificat-covid.gov.ro##.bottom-banner.card > .card-body
 fitfoodway.ro,promenada.ro##.cookie
 madalinliviu.ro,samsonite.ro##.cookies
 lexus.ro##.disclaimer
+castroniaviacatania.com,premiumtools.ro##.gdprModal
 bestkids.ro##.gdprPolicy
 expertulbanilor.ro,imobiliare.ro##.modal-backdrop
 idea-bank.ro,lidl.ro##.notification
@@ -49714,6 +49720,7 @@ lvsas.sk,sbsjager.sk##.cookies
 daffer.sk##.csXMIs
 lexus.sk##.disclaimer
 nbazar.sk##.eu
+diamante.sk##.gdprModal
 nabytok-aldo.sk##.modal
 autoobuv.sk,bpq.sk,claudianum.sk,nabytok-aldo.sk##.modal-backdrop
 ndsas.sk##.navbar-fixed-top > .container
@@ -50249,8 +50256,6 @@ tandfonline.com#@#.scrollToTop
 krasnodar.ru#@#.scrollTop
 nove.eu#@#.scrollTop:not(body):not(html)
 readmng.com#@#.scroll_to_top
-hyperoptic.com,playtech.co.nz,porozmawiajmyoit.pl,scan.co.uk,zdorovodeti.ru#@#.scroll_top:not(body):not(html)
-ltn.com.tw,theuptake.org#@#.scrolltop:not(body):not(html)
 dualshockers.com#@#.socialfooter
 blackboat.com#@#.sqs-announcement-bar
 ctpost.com#@#.taboola-frame
@@ -52053,7 +52058,7 @@ billabong.com#@##NewsletterSignup
 patch.com#@##email-modal-wrapper
 hearthis.at#@##email-overlay
 rbxactive.com#@##email-sign-up
-upim.com,wagingnonviolence.org#@##newsletter-modal
+blukids.com,croff.it,upim.com,wagingnonviolence.org#@##newsletter-modal
 exposurelights.com,socialitelife.com,tactxflashlights.com,thefirefly.com#@##newsletter-popup
 dnevnik.bg#@##newsletterBar
 thehunt.com#@##signup-popup
@@ -52067,7 +52072,7 @@ otisoatmilk.co.nz#@#.modal--newsletter
 attentionactivist.com#@#.newsletter-block
 androidauthority.com,bayern.de,socialitelife.com#@#.newsletter-content
 attentionactivist.com#@#.newsletter-form
-foreignaffairs.com,novojornal.co.ao,upim.com#@#.newsletter-modal
+blukids.com,croff.it,foreignaffairs.com,novojornal.co.ao,upim.com#@#.newsletter-modal
 action.com,billabong.com,socialitelife.com,strikerconcepts.com,tactxflashlights.com,urbanedcsupply.com#@#.newsletter-popup
 oremikids.com#@#.newsletter-section:not(html):not(body)
 subscriptions.theinformation.com#@#.newsletter-wrapper
