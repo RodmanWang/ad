@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: cIPPhgsvWRvUIRb4BJsHAA
-! Version: 202203301300
+! Checksum: DTT1nx63JQZ/8C83lVS8nA
+! Version: 202203302100
 ! Title: Fanboy's Annoyance List
-! Last modified: 2022-03-30 13:00 UTC
+! Last modified: 2022-03-30 21:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -16884,6 +16884,7 @@ _subscribers_newsletters/
 ##.social-media-head-icons
 ##.social-media-header
 ##.social-media-icon
+##.social-media-icon-hack
 ##.social-media-icon-list
 ##.social-media-icons
 ##.social-media-icons-menu
@@ -48517,6 +48518,7 @@ fairplane.de##.wt-cli-cookie-bar-container
 meinungsstark.de##[role="dialog"]
 berlin-buehnen.de##div.md\:tw-prose-xl.tw-prose
 berlin-buehnen.de##div.tw-prose > .hydrated > aside
+deluxemusic.de##div[class^="CookieBanner-"]
 alltours.de##div[class^="CookieNotificationBox_"]
 oebv.net##form > div
 !

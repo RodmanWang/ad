@@ -7824,6 +7824,9 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 !
 !
 !
+youtube.com##ytd-consent-bump-v2-lightbox
+youtube.com##tp-yt-iron-overlay-backdrop
+||rabe-bike.de/uc/app/browser-ui/latest/loader.js
 starlingbank.com##div[class^="CookieModal-module--"]
 zobacz-online.ml##cookie-notice
 veed.io##div[fs-cc="banner"]
@@ -19495,6 +19498,7 @@ early-riser.com#?#div[class] ~ h1[style]:contains(Newsletter) + p + div[class]
 ##head[prefix~="medium-com:"] ~ body .js-openInAppButton
 ##head[prefix~="medium-com:"] ~ body .js-postActionsBarContent > .js-readNextInteractions
 !
+zara.com##.native-app-banner
 floristics.info##.star-site-w
 blogtag.ameba.jp#?##app > aside[class^="sc-"] > div[class^="sc-"] > a[href^="https://ameblo.page.link"]:upward(2)
 bbc.com##section[aria-label="Уведомление"]
@@ -21276,6 +21280,9 @@ theoryandpractice.ru##a[href^="https://form.typeform.com/"]
 ! Specific sites
 !######### Subscription popups add to subscriptions.txt #########
 !
+jpshowbiz.us#%#//scriptlet("prevent-setTimeout", "alert")
+app-liv.jp##.p-fixed-dl
+app-liv.jp##.inventory_banner_overlay
 holod.media###engb
 ||embed.typeform.com/next/embed.js$domain=hush.ca
 buhexpert8.ru###popupvideo
@@ -21320,7 +21327,7 @@ qobuz.com##.store-launch-injector
 qobuz.com##.modal-backdrop
 noklapja.hu#$#.blurry { filter: none !important; }
 noklapja.hu#$#.m-fbPopup { display: none !important; }
-news.mynavi.jp###pianoj_ribbon
+nikkei.com,news.mynavi.jp###pianoj_ribbon
 44.ua,056.ua,032.ua,04868.com.ua,karelia.news,5692.com.ua,0629.com.ua,01.kg,0154.by,0472.ua,048.ua,0512.com.ua,0522.ua,0532.ua,0552.ua,056.ua,0564.ua,061.ua,06153.com.ua,0642.ua,62.ua,7152.kz,7232.kz,city04.kz,go152.by,go232.by,inaktau.kz,inalmaty.kz,inastana.kz,inatyrau.kz,inkaragandy.kz,inshymkent.kz,kaskelenec.kz,oshto.kg,qapshagai-city.kz,uralskcity.kz##.push-panel
 video.laxd.com##.noLoginSticker
 slack.com###slack_101_jp_banner
@@ -21543,7 +21550,7 @@ heros-ultraman.com##.sw-Bnr_Footer
 any-video-converter.com##div[id^="banner_"]
 any-video-converter.com##.active-popup
 social-dog.net###banner
-tech-camp.in###js-popup
+bauhutte.jp,tech-camp.in###js-popup
 fukuishimbun.co.jp###follow-footer
 lotte.co.jp##.topModalWrap
 chaturbate.com##.RoomSignupPopup
@@ -22443,7 +22450,7 @@ growney.de#$##bio_ep_bg { display: none !important; }
 growney.de#$##bio_ep { display: none !important; }
 growney.de#$#body { overflow: auto !important; }
 efahrer.chip.de###pop-up-subscriber-form
-comss.ru#$##getsitecontrol { display: none!important; }
+comss.ru#$#[id^="getsitecontrol"] { display: none!important; }
 comss.ru#$#html { overflow: visible!important; }
 dicoall.com##.Black_Screen
 oglobo.globo.com#$#body { overflow: auto !important; }
@@ -29446,6 +29453,11 @@ turkuazgazetesi.net,yenialanya.com,mansetaydin.com,seskocaeli.com,kocaelibarisga
 ##.widget_blog_subscription
 ~copays.org,~nothing.tech,~mega-debrid.eu,~curvegames.com,~news.un.org,~norwichzen.org.uk,~dereferer.me###mc_embed_signup
 !
+zara.com##.layout-footer-newsletter
+rayon.in.ua##.patriot-image
+svoi.city##.sc-tg-subscribe
+svoi.city##.sc-google-news-link
+nikkei.com###in-article-newsletter-signup
 bessarabiainform.com##a[href="https://t.me/bessarabiainformcom"]
 mozilla.org##.mzp-c-newsletter
 1tv.od.ua##.telegram-link-block
@@ -29757,7 +29769,7 @@ qt.io##.c-sidebar-newsletter
 playmaker24.ru##.tg-popup
 playmaker24.ru##.ya-news-block
 playmaker24.ru##.subscrite-widget-wrap
-theage.com.au##section[data-testid="article-body-bottom"] div[data-testid="registration-prompt"]
+smh.com.au,theage.com.au##section[data-testid="article-body-bottom"] div[data-testid="registration-prompt"]
 calvinklein.com.br##.vtex-modal-layout-0-x-modal--newsletter-block-class
 fernsehserien.de##.erinnerungs-service
 agroxxi.ru##.yadzen
