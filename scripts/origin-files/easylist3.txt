@@ -105,6 +105,8 @@ lefigaro.fr##.fig-free-embed div[id^="figaro-live-flive-channel-"][floated-video
 surfshark.com##.post-content .get-surfshark
 ! https://github.com/AdguardTeam/AdguardFilters/issues/71439#issuecomment-1057720690
 rifme.net###content li.greysmall
+! https://github.com/AdguardTeam/AdguardFilters/issues/111160
+event.rakuten.co.jp##.Permission
 ! https://github.com/AdguardTeam/AdguardFilters/issues/105849
 oxu.az##article.news + h2.news-share-title
 oxu.az##article.news ~ div.news-share-container
@@ -666,8 +668,9 @@ zhihu.com#$#body.ModalWrap-body { overflow: visible !important; }
 zhihu.com#$#.Body--Mobile .ContentItem .RichContent--unescapable > .RichContent-inner:not([style]) + button.ContentItem-expandButton { display: none !important; }
 zhihu.com#%#//scriptlet('remove-class', 'is-collapsed', '.Body--Mobile .ContentItem .is-collapsed.RichContent--unescapable')
 zhihu.com#%#//scriptlet('remove-attr', 'style', '.Body--Mobile .ContentItem .RichContent--unescapable > .RichContent-inner[style^="max-height:"]')
+! https://github.com/AdguardTeam/AdguardFilters/issues/114295
 ! https://github.com/AdguardTeam/AdguardFilters/issues/78751
-brainly.pl#%#(function(){try{if("undefined"!=typeof localStorage){for(var b=[],a=0;a<localStorage.length;a++)localStorage.key(a).startsWith("flexible-funnel-")&&b.push(localStorage.key(a));for(a=0;a<b.length;a++)localStorage.removeItem(b[a])}}catch(c){}})();
+brainly.com,brainly.pl#%#(function(){try{if("undefined"!=typeof localStorage){for(var b=[],a=0;a<localStorage.length;a++)localStorage.key(a).startsWith("flexible-funnel-")&&b.push(localStorage.key(a));for(a=0;a<b.length;a++)localStorage.removeItem(b[a])}}catch(c){}})();
 !+ PLATFORM(windows, mac, android, ext_chromium)
 brainly.pl##.js-react-bottom-banner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/79085
@@ -3331,6 +3334,7 @@ hgtv.com#@#.showads
 !
 !
 !
+royaleapi.com##.adblock_message
 ||omapi.fangraphs.com^
 @@||components2.corriereobjects.it/rcs_data-tracking/*/distro/openx/corriere/openx_async.js
 corriere.it#%#//scriptlet("set-constant", "isAdblockEnable", "false")
@@ -7821,6 +7825,9 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 !
 !
 !
+tver.jp#?#.ReactModalPortal a[class^="terms-modal_privacy"]:upward(.ReactModalPortal)
+khronos.org###cookie_decline
+polpharma.pl##.app__cookies
 calendardate.com##body > div[style="position: fixed; left: 0px; bottom: 0px; width: 100%;"]
 metabo.com##nsd-cookie-banner
 ||metabo.com/*/metabo/src/js/nsd-cookie-banner/nsd-cookie-banner.min.js
@@ -12800,7 +12807,7 @@ xn--giant-dsseldorf-5vb.de###cookiePopupModal
 subpng.com,allfreeapk.com###cookieScriptId ~ .fot-fixd
 104.ua###cookie__page
 historiapojazdu.gov.pl###cookie_agree
-fahrrad-riese.de,huebel-bonn.de,gencgazete.net###cookie_information
+alpha-bikes.de,fahrrad-riese.de,huebel-bonn.de,gencgazete.net###cookie_information
 michelin.com###cookie_opt_in_top_bar_container
 amigo-spiele.de,book-n-drive.de,drive-carsharing.com,facciabuco.com###cookiedialog
 technogym.com,technogym.ru###cookiepolicy-dropdown
@@ -15745,6 +15752,7 @@ privacy.lecker.de#%#AG_onLoad(function(){if(!document.cookie.includes("euconsent
 privacy.madame.de#%#AG_onLoad(function(){if(!document.cookie.includes("euconsent-v2")){var g=new MutationObserver(function(){setTimeout(function(){var b=document.querySelector('button.no-children[path="\[0,2,1\]"]');b&&b.click();},300);setTimeout(function(){var c=document.querySelector('div[title="Berechtigte Interessen"]'); c&&c.click();},300);setTimeout(function(){var d=document.querySelectorAll('label[aria-checked="true"] > .off'); d.forEach(function(d){d.click();});},800); var f=document.querySelector('button.no-children[path="\[0,3,0\]"]'); setTimeout(function(){f&&f.click();},1000);});g.observe(document,{childList:!0,subtree:!0});setTimeout(function(){g.disconnect()},3E4)}});
 consent.gamingbible.co.uk,consent.unilad.co.uk#%#AG_onLoad(function(){if(window.location.href.includes("consentUUID")){var g=new MutationObserver(function(){var b=document.querySelector('button[title*="Accept" i]');b&&(g.disconnect(),b.click())});g.observe(document,{childList:!0,subtree:!0});setTimeout(function(){g.disconnect()},1E4)}});
 !
+musescore.com#%#//scriptlet('set-cookie-reload', '_mu_open_in_up_close_new', '1')
 notion.site,notion.so#%#//scriptlet('set-cookie', 'notion_cookie_consent', '0')
 nbsklep.pl#%#//scriptlet('set-cookie', 'newbalance_policy', 'true')
 readspeaker.com#%#//scriptlet('remove-class', 'show--consent', 'html.show--consent')
@@ -16014,7 +16022,7 @@ starfieldtech.com#%#//scriptlet('set-cookie', 'pwinteraction', '1')
 futterhaus.de#%#//scriptlet('remove-class', 'is-blurred-cookiebox', 'html.is-blurred-cookiebox')
 petsdeli.de#%#//scriptlet('set-cookie', 'visited', 'yes')
 consent2.rundschau-online.de#%#AG_onLoad(function() { setTimeout(function() { var el = document.querySelector('button[title^="Akzeptieren"]'); if(el) el.click(); }, 500); });
-lemonde.fr#%#AG_onLoad(function(){if(-1==document.cookie.indexOf("euconsent-v2")){var a=new MutationObserver(function(){var b=document.querySelector(".gdpr-lmd-standard button.gdpr-lmd-button--main[data-gdpr-expression]");b&&(a.disconnect(),b.click())});a.observe(document,{childList:!0,subtree:!0});setTimeout(function(){a.disconnect()},1E4)}});
+lemonde.fr#%#AG_onLoad(function(){if(-1==document.cookie.indexOf("euconsent-v2")){var a=new MutationObserver(function(){var b=document.querySelector(".gdpr-lmd-wall button.gdpr-lmd-button--main[data-gdpr-expression]");b&&(a.disconnect(),b.click())});a.observe(document,{childList:!0,subtree:!0});setTimeout(function(){a.disconnect()},1E4)}});
 uhrforum.de#%#//scriptlet('remove-attr', 'style', 'body[style*="overflow: hidden;"]')
 mydpd.at#%#//scriptlet('set-cookie', 'cc', '1')
 erlangen-hoechstadt.de#%#//scriptlet("set-constant", "cookieselectionOverlay.load", "noopFunc")
@@ -19503,6 +19511,7 @@ early-riser.com#?#div[class] ~ h1[style]:contains(Newsletter) + p + div[class]
 ##head[prefix~="medium-com:"] ~ body .js-openInAppButton
 ##head[prefix~="medium-com:"] ~ body .js-postActionsBarContent > .js-readNextInteractions
 !
+tenor.com##.UpsellPill
 lulucos-bys.jp##.p-article__app-dl-banner
 lulucos-bys.jp##.p-article__app-download-banner
 lulucos-bys.jp##.m-banner-download-app-top-fixed
@@ -19611,6 +19620,8 @@ nhac.vn#$#header.header-setup[style^="height:"] { height: 87px !important; }
 mhealth.ru##.pwa-nameplate
 academia.edu#$?#body > div:has(> div.ds-Modal button:contains(/^Get the app$/)) { display: none!important; }
 academia.edu#$#body { overflow: auto!important; }
+retty.me##.app-store-banner-wrap
+retty.me##.js-app-store-banner
 hatalike.jp##.hdr_app_wrap
 gu-global.com###smbn_app
 clubdam.com##.bnr-app
@@ -21280,6 +21291,7 @@ theoryandpractice.ru##a[href^="https://form.typeform.com/"]
 ! Specific sites
 !######### Subscription popups add to subscriptions.txt #########
 !
+ozerki.ru##.express_popup
 lulucos-bys.jp##.m-navi-expert
 quizlet.com##.SetPageTermsStickyBanner
 quizlet.com###UniversalUpsellTarget
@@ -21362,6 +21374,7 @@ thebulletin.org##.uabb-sticky-apply
 vogue.cz##div[class^="FloatedWrapper"]
 smartairfilters.com##.hustle-slidein
 ||impress.co.jp/sites/all/libraries/AlertifyJS/build/alertify.
+wazap.com##.ui_member_popup
 yahoo.co.jp##.sn-modInterstitial
 alis.to##.area-article-registration-footer
 kado-de.jp##.footer-fixed-banner
@@ -29460,6 +29473,7 @@ turkuazgazetesi.net,yenialanya.com,mansetaydin.com,seskocaeli.com,kocaelibarisga
 ##.widget_blog_subscription
 ~copays.org,~nothing.tech,~mega-debrid.eu,~curvegames.com,~news.un.org,~norwichzen.org.uk,~dereferer.me###mc_embed_signup
 !
+partnerkin.com##.subscriber_form
 zara.com##.layout-footer-newsletter
 rayon.in.ua##.patriot-image
 svoi.city##.sc-tg-subscribe
@@ -33359,6 +33373,8 @@ newsweek.com##iframe[src="http://sns.europe.newsweek.com/newsletter?popup=1"]
 !##############################
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/114291
+newzflair.com,newzmagic.com#%#//scriptlet("adjust-setInterval", "/Please Wait|Go to download/", "", "0.02")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/114082
 techacode.com#%#//scriptlet("adjust-setTimeout", "#proceed", "*", "0.02")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/113948
