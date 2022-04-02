@@ -7632,6 +7632,7 @@ slate.com#@#.ad-container
 /icocookies.
 /impresacookiepolicy/*
 /InfoCookies.
+/ipc_show_cookie_banner.js
 /iubenda_cs.
 /jbcookies.
 /jjp_eucookie_
@@ -7828,6 +7829,9 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 filecloud.com###gdpr_accept
 ||compliance-pack.carlsberggroup.com/cbgCConsent.js
 mitsubishi.com##.l-cookieAlert
+||cmp.ganref.jp^
+||cmp.netatopi.jp^
+||cmp.seniorguide.jp^
 ||cmp.impress.co.jp^
 tver.jp#?#.ReactModalPortal a[class^="terms-modal_privacy"]:upward(.ReactModalPortal)
 khronos.org###cookie_decline
@@ -27393,6 +27397,8 @@ disk.yandex.*##.mail360-banner
 ! Adblock detection
 @@||yastatic.net/daas/atom.js$domain=mail.yandex.by|mail.yandex.kz|mail.yandex.ru|mail.yandex.ua|mail.yandex.com|mail.yandex.com.tr
 !-----------------------------------------------
+! https://github.com/AdguardTeam/AdguardFilters/issues/114069
+vector.co.jp###vec_banner_block
 ! https://github.com/AdguardTeam/AdguardFilters/issues/113513
 ||news-postseven.com/uploads/*/banner_300x300.png
 ! m.faz.net - main page self-promo ad as popup
