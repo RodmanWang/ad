@@ -320,6 +320,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||taplytics.com^$third-party
 ||event-stream.spot.im^
 ||1ee085aa-4c05-43a8-a4fe-fafedbedd062.xyz^
 ||track.swaptrap.live^
@@ -391,7 +392,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||track.91app.io^$third-party
 ||track.stat.pet^$third-party
 ||cdn.teleportapi.com^$third-party
-||api.rollbar.com^$third-party
 ||fouanalytics.com^$third-party
 ||analitits.com^$third-party
 ||rtxpx-a.akamaihd.net^$third-party
@@ -5108,6 +5108,9 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||ts.delfi.lt^
+||metrics.beyondwords.io^
+||launcher.spot.im^
 ||api.data.ciceksepeti.com^
 ||wlog.tmon.co.kr^
 ||analytics.appservice.tech^
@@ -20629,6 +20632,11 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|partifabrik.com|newsmax.com|bolgehastanesi.com|ewtc.de
 !
+||prtimes.jp/common/*/html/js/heatmap-senddata.js
+||prtimes.jp/common/js/GTMhead.js
+||prtimes.jp/common/js/googleana.js
+||js.hubspot.com/analytics/
+||cdn.cubki.jp/shopping_tracker.js
 ||checkoutshopper-live.adyen.com/checkoutshopper/*/analytics
 ||wondershare.com/trk
 ||petco.com/track-production/analytics.js
@@ -24461,7 +24469,6 @@ $app=com.miui.analytics
 ||api.gameanalytics.com^
 ||api.gimbal.com^
 ||api.sec.miui.com^
-||api.taplytics.com^
 ||appmetrica.yandex.net^
 ||appmetrica.yandex.com^
 ||ar.umeng.com^
@@ -24535,7 +24542,6 @@ $app=com.miui.analytics
 ||oc.umeng.com^
 ||online-metrix.net^
 ||openstat.net^
-||ping.taplytics.com^
 ||ping.xlmc.sandai.net^
 ||pingma.qq.com/mstat/
 ||pingma.qq.com^
@@ -24699,6 +24705,13 @@ $app=com.miui.analytics
 !#endif
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/114505
+@@||scdn.cxense.com/cx.js$domain=delfi.lt
+@@||api.cxense.com/public/widget/data?json=$domain=delfi.lt
+! https://github.com/AdguardTeam/AdguardFilters/issues/114600
+||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=filmzie.com
+!+ PLATFORM(ios, ext_android_cb, ext_safari)
+@@||googletagmanager.com/gtm.js$domain=filmzie.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/114561
 @@||lp.sophos.com/email-preferences-
 ! https://github.com/AdguardTeam/AdguardFilters/issues/114397
