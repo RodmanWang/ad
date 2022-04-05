@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Kib3hJH6euJEY2YdEQQuBg
-! Version: 202204051300
+! Checksum: IOKMwmBUALQg4pUZaKzKKw
+! Version: 202204052100
 ! Title: Fanboy's Annoyance List
-! Last modified: 2022-04-05 13:00 UTC
+! Last modified: 2022-04-05 21:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -29364,6 +29364,7 @@ _subscribers_newsletters/
 ##.cookie-popup__content
 ##.cookie-popup__heading
 ##.cookie-pp
+##.cookie-preference__overlay
 ##.cookie-preferences-banner
 ##.cookie-privacy
 ##.cookie-privacy-banner
@@ -34160,6 +34161,7 @@ _subscribers_newsletters/
 ##[data-name="cookieNotice"]
 ##[data-name^="CookiesNotification"]
 ##[data-notification="CookiePolicyAgreement"]
+##[data-qa="CookieBar"]
 ##[data-qa="txtGdprCookiePopup"]
 ##[data-react-class="EUCookieBanner"]
 ##[data-rgpd-inc]
@@ -44634,6 +44636,7 @@ devonlive.com##.pwa-prompt
 sdrplugins.com##.px_-h-auto.px_-z-index-10000
 decrypt.co##.py-3.max-w-full
 picarto.tv##.qHsVk
+support.sia.tech##.r-l13dpy
 niceareas.co.uk##.rayAlertBox
 blacklimba.com##.recommendation-modal__backdrop
 hazlitt.net##.region-masthead-inner
@@ -50123,6 +50126,7 @@ alfa-tv.ua##.cook
 agroportal.ua,kaktus.ua,svitroslyn.ua##.cookie
 auto24.org,binomo.com,compendium.com.ua,darnitsa.ua,unian.ua##.cookies
 gigatrans.ua##.coook
+shotam.info##.dialog-lightbox-message
 amway.ua##.disclaimer-container
 squad.ua##.footerPolicy_style_2j8xK
 my.ua##.gLfiyr
