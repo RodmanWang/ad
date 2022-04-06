@@ -208,6 +208,11 @@
 .ad.kakaocorp.com^
 .ad.kakao.com^
 !
+||cdn.jampp.com^
+||imgx.jampp.com^
+||static.jampp.com^
+||adx-tk.rayjump.com^
+||dspunion.com^
 ||rossoad.com^
 ||athena.api.kwalee.com^
 ||mobondhrd.appspot.com^
@@ -2716,6 +2721,7 @@ scmp.com,theinventory.com,avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalo
 ! ##.ads
 cartoonpornvideos.com,m.economictimes.com,beethovenmaster.com,m.mistrzowie.org,m.ura.news,siirtpress.com,up.ymgt.xyz,google.de,www-bento-de.cdn.ampproject.org,m-economictimes-com.cdn.ampproject.org,m.winfuture.de##.ads
 !
+mobile.baidu.com##.detail-banner
 psychologies.ru###div-hb-low-wrap
 s.tabelog.com##.js-floating-tieup-banner
 s.tabelog.com##.contents-ad
@@ -5972,6 +5978,8 @@ anwap.club,anwap.film,anwap.mobi##body > div[class] > a > strong
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/114381
+@@||s9.cnzz.com^$app=com.unionpay
 ! https://github.com/AdguardTeam/AdguardFilters/issues/114631
 ||startup.mobile.yandex.net^$app=ru.yandex.rasp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/108978
