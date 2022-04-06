@@ -5110,6 +5110,7 @@ nethunt.com/api/v1/track/email/$image
 ||telemetry.mozilla.org^
 !
 ||ts.delfi.lt^
+||tracking.gvm.com.tw^
 ||metrics.beyondwords.io^
 ||launcher.spot.im^
 ||api.data.ciceksepeti.com^
@@ -20204,6 +20205,10 @@ charlestownwyllie.oaklawnnonantum.com^
 ! Umami
 /umami.js
 !
+/com_jrealtimeanalytics/*
+/koko-analytics/*
+/top-10-tracker.min.js
+/bsp-analytics.
 /acclog.cgi?
 /acclog.js
 /pixel_tracking?
@@ -20633,6 +20638,7 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|partifabrik.com|newsmax.com|bolgehastanesi.com|ewtc.de
 !
+chinatimes.com##.popin-recommend
 ||static.sahibinden.com/assets/analytics*.js
 ||prtimes.jp/common/*/html/js/heatmap-senddata.js
 ||prtimes.jp/common/js/GTMhead.js
@@ -23331,11 +23337,12 @@ link.gmapp*.net$image
 ! Good: ||lemurov.net^$cookie=flat_r_mb
 ! Bad:  ||monerominer.rocks^$third-party (should be in adservers.txt)
 !
-!
 !------------------------------
 !---- Domain pecific rules ----
 !------------------------------
 !
+||ok.ru^$cookie=_statid
+||ok.ru^$cookie=mtrc
 ||popmech.ru^$cookie=popmech_nuid
 ||productreview.com.au^$cookie=pr_guest_id
 ||productreview.com.au^$cookie=pr_visitor_id
@@ -23402,10 +23409,10 @@ $cookie=wuuid,domain=duolingo.com|duolingo.cn
 ! ad networks
 ||exoclick.com^$cookie
 ||realsrv.com^$cookie
+!
 !------------------------------
 !---- Generic rules -----------
 !------------------------------
-!
 !
 ! flocktory.com - identifier of the user
 $cookie=flocktory-uuid

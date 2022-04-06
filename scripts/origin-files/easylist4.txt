@@ -1199,6 +1199,8 @@
 !+ PLATFORM(ios, ext_android_cb)
 ||chefkoch.de/magazin/sites/default/files/styles/*/public/media/image/*/*_*x*.jpg
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/114806
+eromanga-kishin.com#@#.ad_widget
 ! https://github.com/uBlockOrigin/uAssets/issues/10674
 @@||t7z.cupid.iqiyi.com/show2?$xmlhttprequest,domain=m.iqiyi.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/85017
@@ -2036,9 +2038,9 @@ news.owata-net.com#$#.adnetwork.article-interstitial.overlay { display: none!imp
 news.owata-net.com#$#html[style="overflow: hidden;"] { overflow: auto!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/96652
 coolaler.com#$#.message-inner { display: flex !important; }
-! shikotch.net overlay on mobile
-shikotch.net#$##is_w_area { display: none!important; }
-shikotch.net#$#html.inv_scroll_cancel { overflow: auto!important; }
+! https://github.com/AdguardTeam/AdguardFilters/issues/114749
+jav.direct,shikotch.net#$##is_w_area { display: none!important; }
+jav.direct,shikotch.net#$#html.inv_scroll_cancel { overflow: auto !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/92726
 izi.ua#$#div[class^="ProductFooter__root-"] { height: 0 !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/92579
@@ -2721,6 +2723,15 @@ scmp.com,theinventory.com,avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalo
 ! ##.ads
 cartoonpornvideos.com,m.economictimes.com,beethovenmaster.com,m.mistrzowie.org,m.ura.news,siirtpress.com,up.ymgt.xyz,google.de,www-bento-de.cdn.ampproject.org,m-economictimes-com.cdn.ampproject.org,m.winfuture.de##.ads
 !
+m.augsburger-allgemeine.de##.swiper-container-ads
+jav.direct##div[style^="width: 300px; height: 250px"]
+trinixy.ru##div.mdl-card[style^="text-align: center;"]
+sirogohan.com##.sp-banner
+yomiuri.co.jp##.p-ad-txt-wrap
+yomiuri.co.jp##.p-ad-list-item
+eromanga-kishin.com##.ad_morelow
+eromanga-kishin.com###spwrapper
+eromanga-kishin.com##.picad2row
 yomiuri.co.jp##.home-2021-ad-head-sp
 yomiuri.co.jp##.sp_ad_banner
 nukerumannga.com,ero-mangasokuhou.com,ero-mangalife.com,eromanga-cafe.com,doujincafe.com##.archive > div[style="margin:0 auto;"]:not([class])
@@ -2951,7 +2962,7 @@ m.sport-express.ru##div[style*="width:325px;"][style*="height: 250px;"]
 softportal.com##.cardPageDescMain > div[style*="float:left;"][style*="max-width:100%;"]
 rg.ru###articleContainer + div.b-contacts__wrap
 heise.de##.article-body > .visible-xs > .visible-xs[style*="min-height:"]
-ero-cluster.com,chinshiko-outfit.com,eromanga-pon.com###ad_inview_area
+ddd-smart.net,ero-cluster.com,chinshiko-outfit.com,eromanga-pon.com###ad_inview_area
 eromanga-pon.com##.ad_big
 ||eromanga-castle.com/famsiro1.html
 dojinwatch.com,eromanga-castle.com,eromanga-cafe.com,doujincafe.com,nukerumannga.com,ero-mangalife.com,ero-mangasokuhou.com,ero-manga-platinum.net,erodoujinjohoukan.com,erodoujinshi-world.com,ero-comic-hunter.net,eromanga-cafe.com,eromanga-sevendays.net,moeero-library.com##.cntiframe
@@ -5983,6 +5994,8 @@ anwap.club,anwap.film,anwap.mobi##body > div[class] > a > strong
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/114506
+||cdn.skt-asum.com^$app=com.skt.prod.dialer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/114381
 @@||s9.cnzz.com^$app=com.unionpay
 ! https://github.com/AdguardTeam/AdguardFilters/issues/114631
