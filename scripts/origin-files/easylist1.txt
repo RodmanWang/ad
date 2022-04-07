@@ -319,7 +319,8 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
-||pinpoll.com^$third-party
+||stlog.d.dmkt-sp.jp^
+||dynatrace-managed.com^
 ||cdn.reproio.com^
 ||init.blackcrow.ai^
 ||taplytics.com^$third-party
@@ -4931,6 +4932,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||wkclick.baidu.com^
 !
 ! popin.cc tracking
+||trace.popin.cc^
 ||rlog.popin.cc^
 ||log.popin.cc^
 ||r.popin.cc^
@@ -5110,6 +5112,9 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||alxc.addlv.smt.docomo.ne.jp^
+||pa.pinpoll.com^
+||d2wu036mkcz52n.cloudfront.net^
 ||ts.delfi.lt^
 ||tracking.gvm.com.tw^
 ||metrics.beyondwords.io^
@@ -20639,6 +20644,9 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|partifabrik.com|newsmax.com|bolgehastanesi.com|ewtc.de
 !
+bizjournals.com##.c1-ad-sticky
+||player.filmizle.vip/js/video.counters.2.js
+||dxlive.com/js/dtrace.js
 chinatimes.com##.popin-recommend
 ||static.sahibinden.com/assets/analytics*.js
 ||prtimes.jp/common/*/html/js/heatmap-senddata.js
@@ -21423,9 +21431,6 @@ the-ans.jp##.side-reccomend
 ||scv.band.us/jackpotlog/*/logs
 ||gate.upclick.com/btn/visitor.min.js
 ||macg.co/modules/statistics/statistics.php
-||popin.cc/td_js_sdk_
-||popin.cc/popin_discovery5-$script
-||popin.cc/popin_discovery/$script
 ||bilanx.dcard.tw/*/configs
 ||bilanx.dcard.tw/*/events
 ||dcf.espn.com/privacy/
@@ -24854,9 +24859,11 @@ suki-kira.com#%#//scriptlet("remove-attr", "disabled", "button.vote-submit")
 @@||cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/2.1.0/fingerprint2.js$script,domain=picoworkers.com
 !#if (adguard_app_windows || adguard_app_mac || adguard_app_android)
 ||picoworkers.com/login.php$replace=/\/fingerprint2.js" integrity="/\/fingerprint2.js" _integrity="/
+! TODO: remove after extension release (next after 4.0.159) Must be checked if fingerprintjs2 redirect is supported
 ||cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/2.1.0/fingerprint2.js$script,redirect=fingerprintjs,domain=picoworkers.com,important
 !#endif
 ! https://github.com/AdguardTeam/AdguardFilters/issues/108296
+! TODO: remove after extension release (next after 4.0.159) Must be checked if fingerprintjs2 redirect is supported
 ||new.hnair.com/hainanair/ibe/static/scripts/new/profile/fingerprint2.js$script,redirect=fingerprintjs,important
 @@||new.hnair.com/hainanair/ibe/static/scripts/new/profile/fingerprint2.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/108678
@@ -24899,8 +24906,9 @@ ntp.msn.com#@%#navigator.getBattery = undefined;
 ! https://github.com/AdguardTeam/AdguardFilters/issues/106408
 @@||online.a1.by/l/v/track.php?event=$domain=a1.by
 ! https://github.com/AdguardTeam/Scriptlets/issues/141#issuecomment-921042595
-||cloudflare.com/ajax/libs/fingerprintjs2/$script,redirect=fingerprintjs,domain=gamebox.gesoten.com,important
 @@||cloudflare.com/ajax/libs/fingerprintjs2/$script,domain=gamebox.gesoten.com
+! TODO: remove after extension release (next after 4.0.159) Must be checked if fingerprintjs2 redirect is supported
+||cloudflare.com/ajax/libs/fingerprintjs2/$script,redirect=fingerprintjs,domain=gamebox.gesoten.com,important
 ! riteaid.com
 @@||rfksrv.com/rfk/js/*/init.js$script,domain=riteaid.com
 ! jolie.de/maedche.de - broken picture gallery
@@ -25366,8 +25374,6 @@ woman.excite.co.jp#%#//scriptlet('remove-attr', 'data-woman-ex', 'a[href][data-w
 @@||googletagmanager.com/gtm.js$script,domain=dpoint.jp
 ! https://github.com/hirorpt/filters/commit/7368d27f494e7fd3e9c3f460d72fab7b370892fd
 @@||googletagmanager.com/gtm.js$script,domain=maidonanews.jp
-! https://github.com/AdguardTeam/AdguardFilters/issues/83191
-@@||popin.cc/popin_discovery/$script,domain=mainichikirei.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/82604
 @@||stuttgarter-zeitung.de/cre-*/tracking/tracking.js
 ! jolie.de - picture gallery broken
