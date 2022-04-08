@@ -79,6 +79,8 @@
 ! Bad: example.org###rek (should be in specific.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/114901
+popin.cc#%#//scriptlet('set-local-storage-item', '_ss_pp_id', '')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/114227
 valleybreeze.com#%#//scriptlet('remove-attr', 'hidden', '#asset-content[hidden]')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/112998
@@ -319,6 +321,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||analytics*.prezly.com^
 ||gapp1.com^
 ||stlog.d.dmkt-sp.jp^
 ||dynatrace-managed.com^
@@ -4933,6 +4936,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||wkclick.baidu.com^
 !
 ! popin.cc tracking
+||a.popin.cc^
 ||trace.popin.cc^
 ||rlog.popin.cc^
 ||log.popin.cc^
@@ -23392,6 +23396,11 @@ $cookie=ev_sid,domain=ideal.es|elcorreo.com
 ||businessinsider.com^$cookie=/traffic_src|^_sp_/
 ||vc.ru^$cookie=/osnova-aid|fingerprint|adblock-state/
 !
+! PopIn
+||popin.cc^$cookie=_ss_pp_id
+||popin.cc^$cookie=_td
+||popin.cc^$cookie=uid
+||dashboard.popin.cc^$cookie=laravel_session
 ! Taplytics
 ||taplytics.com^$cookie=/^_tl_/
 ! sharethrough.com ad analytics
@@ -24725,6 +24734,8 @@ $app=com.miui.analytics
 !#endif
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/114932
+@@||launcher.spot.im/spot/$script,domain=jac.yahoosandbox.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/28191
 ||googletagmanager.com/gtag/js$script,redirect=google-analytics,domain=av01.tv,important
 @@||googletagmanager.com/gtag/js$domain=av01.tv|javhd.com
