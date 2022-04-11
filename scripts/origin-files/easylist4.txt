@@ -3007,7 +3007,6 @@ unian.net,tsn.ua,glavred.info,odnaminyta.com,112.ua##amp-iframe[src^="https://ht
 m.sport-express.ru##.se-brandedbuttons
 m.ebay-kleinanzeigen.de###srp-sticky
 bakuwaro.com,jiwasoku.com##div[style*="padding: 0px; text-align: center; width: 100%; height: 3"]
-tz.de##.wv_story_el_insertedAd
 tripnote.jp###button-booking
 oricon.co.jp##.break-ad-box
 beauty.oricon.co.jp##aside[style="text-align:center;margin-top:3px;min-height:100px; margin-bottom: 20px;"]
@@ -3030,7 +3029,7 @@ tw.appledaily.com##.THISISANADHERE
 zoomtventertainment.com##amp-img[alt="taboola"]
 zoomtventertainment.com##.adv-blocker
 zoomtventertainment.com##div[class^="Layout-atfAd-"]
-tz.de,merkur.de##.wv_story_el_insertedAd
+hna.de,tz.de,merkur.de##.wv_story_el_insertedAd
 porndoe.com##.-up-mobile
 technopat.net##.b-container-ad
 technopat.net###adhousesticky
@@ -3433,7 +3432,6 @@ sains.sindonews.com###me-div-gpt-ad-parallax
 spanishdict.com###adTopSmall-container
 ||amazon-adsystem.com/widgets/$important,domain=dqname.jp
 dqname.jp##.ui-link[href*="//happymail."]
-m.ygosu.com##ul#article_list > li.notice
 serpadres.es##div[class^="button"][class*="_mobile"]
 altema.jp##.head_koukoku_wrapper
 ukr.net##.lazy-load-banner
@@ -4335,8 +4333,6 @@ youjizz.com##.underPlayerPr
 ||cdn.nsimg.net/cache/landing/pr/*/yjmobile-*.xml$domain=youjizz.com
 news.de,boerse.de,gadgetsnow.com,www-firstpost-com.cdn.ampproject.org,firstpost.com,m.economictimes.com,m-economictimes-com.cdn.ampproject.org,hurriyet.com.tr,m.news.de##amp-fx-flying-carpet[height="300px"]
 prothomalo.com##.anchor_ad_wrapper
-tgd.kr##body > div[style="background: #efefef;padding:0;"]
-tgd.kr##div[align="center"][style^="width:320px;height:50px;"][style*="background:url(https://upload.tgd.kr/banner/"]
 m.baidu.com##.afd-ad
 bz-berlin.de##.container > .row > .hidden-sm:not([class*="pos-"])
 ||23wxc.com/js/adgd.js
@@ -5614,6 +5610,12 @@ livejournal.com##.mdspost-aside__item--banner
 ! END: Livejournal.com
 !
 !
+!+ NOT_OPTIMIZED
+mz.de###ad-top-banner-mobile
+!+ NOT_OPTIMIZED
+mz.de###ad-footer-mobile
+!+ NOT_OPTIMIZED
+mz.de###middle-ad-mobile
 !+ NOT_OPTIMIZED
 golem.de##li[id^="mob_afcbecoh"]
 !+ NOT_OPTIMIZED
