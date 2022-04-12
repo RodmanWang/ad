@@ -323,6 +323,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||wurfl.io^$third-party
 ||t.trsbf.com^
 ||t.powerreviews.com^$third-party
 ||analytics*.prezly.com^
@@ -5121,6 +5122,8 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||b.travel-assets.com^
+||ev.api.bdg.com^
 ||tracking.live.oe24.at^
 ||momowa.momoshop.com.tw^
 ||montelena-rcv.gmarket.co.kr^
@@ -19840,7 +19843,7 @@ charlestownwyllie.oaklawnnonantum.com^
 !
 ! dynaTrace Monitor
 /ruxitagentjs_
-/dynatrace-$domain=~dynatrace.com|~github.com
+/dynatrace-$domain=~dynatrace.com|~github.com|~github.io
 !
 ! YouTube
 /log_event?
@@ -19864,6 +19867,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ! Umami
 /umami.js
 !
+/?p=%2F*&h=https%3A%2F%2F*&r=&sid=*&qs=*&cid=$image,~third-party
 /video.counters.2.js?
 /w.gif?
 /com_jrealtimeanalytics/*
@@ -20299,6 +20303,8 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|partifabrik.com|newsmax.com|bolgehastanesi.com|ewtc.de
 !
+||expedia.com/api/uisprime/track
+||expedia.com/taps/v1/Impr?
 ||hitfm.ru/*yandex-metrika.js
 ||hitfm.ru/uploads/vk-pixel.js
 ||next.rikunabi.com/rnc/contents/pub/common/js/I2A.js
