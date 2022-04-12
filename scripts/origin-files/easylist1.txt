@@ -323,6 +323,8 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||client.botchk.net^
+||b.px-cdn.net^
 ||wurfl.io^$third-party
 ||t.trsbf.com^
 ||t.powerreviews.com^$third-party
@@ -20303,6 +20305,7 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|partifabrik.com|newsmax.com|bolgehastanesi.com|ewtc.de
 !
+||askanydifference.com/beardeddragon/gilamonster.js
 ||expedia.com/api/uisprime/track
 ||expedia.com/taps/v1/Impr?
 ||hitfm.ru/*yandex-metrika.js
@@ -23017,6 +23020,9 @@ link.gmapp*.net$image
 !---- Domain pecific rules ----
 !------------------------------
 !
+||manomano.de^$cookie=mm_visitor_id
+||manomano.de^$cookie=mm_ab_test_version
+||manomano.de^$cookie=mm_ab_tests
 ||ok.ru^$cookie=_statid
 ||ok.ru^$cookie=mtrc
 ||popmech.ru^$cookie=popmech_nuid

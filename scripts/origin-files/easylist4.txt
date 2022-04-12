@@ -1987,6 +1987,8 @@ sasisa.ru#%#AG_onLoad(function() { window.Umobi = function() {}; });
 !-------CSS---------
 !-------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/114941
+s.kakaku.com#$#body div.subCtsArea { display: none!important; }
 ! https://github.com/uBlockOrigin/uAssets/issues/12688
 w3schools.com#$#@media (max-width: 727px) { #tryitLeaderboard ~ .trytopnav { top: 0!important; } }
 w3schools.com#$#@media (max-width: 727px) { #tryitLeaderboard ~ #container { top: 48px!important; } }
@@ -2741,6 +2743,7 @@ scmp.com,theinventory.com,avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalo
 ! ##.ads
 cartoonpornvideos.com,m.economictimes.com,beethovenmaster.com,m.mistrzowie.org,m.ura.news,siirtpress.com,up.ymgt.xyz,google.de,www-bento-de.cdn.ampproject.org,m-economictimes-com.cdn.ampproject.org,m.winfuture.de##.ads
 !
+webun.jp###JP_wbn_sp_article_underarticle
 idou.me##.ad__search-infeed-banner
 girlswalker.com##.dfp_recommend_for_sp
 girlswalker.com##.dfp_single_banner_for_sp
@@ -2900,7 +2903,7 @@ m.olx.*##div[class^="baxter-placeholder--ads--"]
 realestate.yahoo.co.jp##.YadsBanner
 genius.com##div[class^="InreadAd"]
 litlib.net###gnzdfoot
-appmedia.jp##.ad_sp_header
+4travel.jp,appmedia.jp##.ad_sp_header
 volksstimme.de###ad-top-banner-s-mobile
 ||game8.jp/assets/smart_phone/ads/
 game8.jp##.l-jack__top
