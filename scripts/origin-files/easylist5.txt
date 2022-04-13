@@ -414,9 +414,10 @@ linovelib.com#$#body[style] { overflow: auto !important; }
 !+ PLATFORM(ios, ext_android_cb)
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=linovelib.com
 ! https://github.com/uBlockOrigin/uAssets/issues/11152
+rjno1.com#%#//scriptlet('prevent-setTimeout', '/_show\(".+?"\); ?\}/')
 rjno1.com#%#//scriptlet("set-constant", "google_global_correlator", "1")
 rjno1.com#%#//scriptlet("set-constant", "google_image_requests", "emptyArr")
-rjno1.com#%#//scriptlet("abort-current-inline-script", "EventTarget.prototype.addEventListener", "event.target.tagName")
+rjno1.com#%#//scriptlet("prevent-addEventListener", "error", "event.target.tagName")
 !+ PLATFORM(ext_ublock)
 rjno1.com#%#//scriptlet('abort-on-stack-trace', 'document.getElementById', '/google|inlineScript/')
 !+ NOT_PLATFORM(ios, ext_android_cb)
@@ -433,6 +434,10 @@ rjno1.com#$#div[class^="aqn"] { position: absolute !important; left: -4000px !im
 @@||pagead2.googlesyndication.com/$script,xmlhttprequest,domain=rjno1.com
 ||g.doubleclick.net/pagead/ads?$subdocument,redirect=noopframe,domain=rjno1.com,important
 @@||g.doubleclick.net/pagead/ads?$subdocument,domain=rjno1.com
+!+ NOT_PLATFORM(windows, mac, android)
+||img*.126.net/ntesrich/*/adControl-indexx-v*.js?v=$script,redirect=noopjs,domain=rjno1.com
+!+ PLATFORM(ios, ext_android_cb, ext_safari)
+@@||img*.126.net/ntesrich/*/adControl-indexx-v*.js?v=$domain=rjno1.com
 ! https://github.com/uBlockOrigin/uAssets/issues/11148
 zhangxinxu.com#@#.sldebar_out + *,style[id] + a[class]
 zhangxinxu.com#$#.sldebar_out + * { height: 0!important; }
@@ -1183,6 +1188,8 @@ $script,xmlhttprequest,third-party,domain=00ksw.com|01zww.com|0biquge.com|114zw.
 !
 !
 !
+||bnextmedia.s3.hicloud.net.tw/dp_cp/cp_prebid
+||bnextmedia.s3.hicloud.net.tw/dp_cp/mt_programmatic_ad.js
 moneynet.com.tw##.ads-fixed-bottom
 v2ex.com##div[class^="wwads-"]
 healthylives.tw###contentBox > div[style^="width:336px;height: 280px;"]
@@ -5466,7 +5473,6 @@ ubmcmm.baidustatic.com
 ||kaixinjiehun.com^$third-party
 ||kakayy.com^$third-party
 ||kanfaxing.com^
-||kangaroobro.com^
 ||kanwby.com^
 ||kbneks00.online^
 ||kc-valves.com^
@@ -11737,7 +11743,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||kangaroobro.com/bn.js
 szxx.com.cn###A0
+ziyuanwu.com###modules-17
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -19642,8 +19650,12 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||huosai.net.cn^
+||zhyl.info^
+||ozhbccs.cn^
 ||lhj.asia^
 ||zgnz020.mobi^
+||liuyangyang.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -24315,7 +24327,7 @@ fqsousou.com,kengso.com#@#.user-share
 @@/hitCount.$script,domain=on.cc
 @@/hitCount_$xmlhttprequest,domain=on.cc
 @@/iplookup.$domain=cankaoxiaoxi.com|dongfeng-nissan.com.cn|huomao.com|loldk.com|sina.com.cn
-@@/sensorsdata.$domain=36kr.com|binance.com|by56.com|canon.com.cn|imooc.com|modian.com|saicskoda.com.cn|shanbay.com|tianyancha.com
+@@/sensorsdata.$domain=36kr.com|binance.com|by56.com|canon.com.cn|chuanglan.com|imooc.com|modian.com|saicskoda.com.cn|shanbay.com|tianyancha.com
 @@/setCookie?$domain=ctrip.com|ctrip.com.hk|pinyin.cn
 @@/urchin.js$domain=on.cc
 @@||10010.com/mall/common/js/fa.js?referer=
