@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /XgHxFTO5CTykOQD3Drqxg
-! Version: 202204122100
+! Checksum: gM0662bSeRjFhuCZQLtwYw
+! Version: 202204130400
 ! Title: Fanboy's Annoyance List
-! Last modified: 2022-04-12 21:00 UTC
+! Last modified: 2022-04-13 04:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -3943,7 +3943,7 @@ _youtube_social_
 /gdpr.js
 /gdpr.min.
 /gdpr/*/loader.js
-/gdpr/assets/*
+/gdpr/assets/*$domain=~hartmanngruppe.net
 /gdpr/bundle.
 /gdpr/cmp/*
 /GDPR/consentStorage.
@@ -10714,6 +10714,7 @@ _subscribers_newsletters/
 ##.column-social
 ##.comedy_share
 ##.comedy_share_title
+##.comment-share__buttons
 ##.comment-sharing-share
 ##.comment-social
 ##.commentShare
@@ -15671,6 +15672,7 @@ _subscribers_newsletters/
 ##.share__back-to-top
 ##.share__btn--js
 ##.share__button
+##.share__button-container
 ##.share__buttons
 ##.share__call-to-action
 ##.share__comments
@@ -18292,6 +18294,9 @@ _subscribers_newsletters/
 ##.thim-author-social
 ##.thr-social-share
 ##.thread-share
+##.thread-share-bar
+##.thread-share-bar-buttons
+##.thread-share__button
 ##.thread-submission-socialSharing
 ##.ticker-tweet
 ##.tile_facebook
@@ -20763,6 +20768,7 @@ _subscribers_newsletters/
 ###avisoCookie
 ###avisoCookies
 ###avisoCookiesLayer
+###avisoUsoCookies
 ###aviso_cookie
 ###aviso_cookies
 ###avisocoockies
@@ -26712,6 +26718,7 @@ _subscribers_newsletters/
 ###szcookiewrp
 ###szkCookieInfoBox
 ###szoCookieBar
+###t2meucookielaw
 ###t3CookieNotice
 ###t4m-dsgvo-consent
 ###t_cookieInfo
@@ -28676,6 +28683,7 @@ _subscribers_newsletters/
 ##.content_cookies
 ##.conteudo-cookie-accepted
 ##.conteudoCookies
+##.contiene-cookie
 ##.contieneCookies
 ##.coo-banner
 ##.coo_banner-notice
@@ -43235,7 +43243,7 @@ empoweringparents.com##.social-icon
 justthenews.com##.social-icons
 gaystarnews.com##.social-images
 cinenews.be##.social-line
-screencrush.com,skinnyms.com,thepostmillennial.com##.social-links
+metro.us,screencrush.com,skinnyms.com,thepostmillennial.com##.social-links
 gamerant.com##.social-list
 system-ns.com##.social-login
 autotrader.ca,clickhole.com,gbtimes.com,metascan-online.com,uanews.org##.social-network
@@ -45996,7 +46004,7 @@ metro.co.uk##.spot-im-spotlight
 phonearena.com##.spot_disclaimer
 500px.com,raprnb.com,the-line-up.com,theisraelwire.com,thestack.com,xredmedia.com##.spu-bg
 500px.com,androidsage.com##.spu-box
-flaunt.com##.sqs-popup-overlay
+flaunt.com,newblueontario.com##.sqs-popup-overlay
 superdataresearch.com##.sqs-slide
 flaunt.com##.sqs-slide-container
 superdataresearch.com##.sqs-slide-layer
@@ -46041,6 +46049,7 @@ xconfessions.com##.subscribe-modal__frame
 wccftech.com##.subscribe-now
 metro.us##.subscribe-now-box
 ganeshaspeaks.com,philadelphiaherald.com##.subscribe-section
+metro.us##.subscribe-section-container
 mybroadband.co.za##.subscribe-submit
 medicaldaily.com##.subscribe-to
 hindustantimes.com##.subscribe-update
@@ -51199,10 +51208,10 @@ chronicle.com#@#.bcpNotificationBar
 volantino.carrefour.it#@#.c-cookie
 openfiber.it,rete.toscana.it,supertennis.tv#@#.cc-banner
 bing.com,czuczu.pl,experian.com,ibs.it,lafeltrinelli.it,supertennis.tv#@#.cc-container
-cyberforum.de#@#.cc-floating
-rete.toscana.it#@#.cc-revoke
-cyberforum.de#@#.cc-window[aria-describedby*="consent"]
-cyberforum.de#@#.cc-window[aria-label*="consent"]
+cyberforum.de,hartmanngruppe.net#@#.cc-floating
+hartmanngruppe.net,rete.toscana.it#@#.cc-revoke
+cyberforum.de,hartmanngruppe.net#@#.cc-window[aria-describedby*="consent"]
+cyberforum.de,hartmanngruppe.net#@#.cc-window[aria-label*="consent"]
 morningstar.ca,mysoapbox.com,tangerine.ca#@#.cc_container
 hellomtg.com,mbanc.com,primejumbo.com#@#.ccpa-banner
 cooleffect.org#@#.ce-banner
