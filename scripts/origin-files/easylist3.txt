@@ -5881,6 +5881,7 @@ slate.com#@#.ad-container
 !######### General element hiding rules ################
 !#######################################################
 !
+##.etiCookieBanner
 ###cmplz-cookiebanner-container
 ###iubenda-cs-banner
 ##.cookie-agreement-wrapper
@@ -7857,12 +7858,13 @@ ladbible.com,hitc.com,dualshockers.com,is.fi,7sur7.be,vtm.be,welt.de,gamingbible
 techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#div[class^="sp_veil"] { display: none !important; }
 techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#body { overflow: visible !important; }
 !
-/wrapperMessagingWithoutDetection.js$script,domain=lovelybooks.de|hannover.de|visit-hannover.com|wetteronline.de|autozeitung.de|sportbible.com|vox.de|essen-und-trinken.de|jameda.de|gutefrage.net|planetiphone.de|computerfrage.net|helpster.de|dpd.com|dpd.de|duden.de|sky.de|sky.com|cardscout.de|meineorte.com|tecchannel.de|itpro.co.uk|tvnow.at|tvnow.de|netdoktor.de|computerwoche.de|the-sun.com|thescottishsun.co.uk|thesun.co.uk|thesun.ie|handelsblatt.com|macwelt.de|lancashiretelegraph.co.uk|idealo.de|myhomebook.de|4players.de|n-page.de|planet3ds.de|planetds.de|planetgameboy.de|planetswitch.de|planetvita.de|playstationportable.de|portablegaming.de|denofgeek.com|classicfm.com|globalplayer.com|radio.pl|politico.eu|expertreviews.co.uk|radio.net|rtlplus.de|rtl-passion.de|geo-television.de|gruenderkueche.de|techstage.de|praxisvita.de|kn-online.de|nnn.de|geo.de|leserreisen.mz-web.de|kuechengoetter.de|cio.de|cio.com|tv14.de|nitro-tv.de|elektroauto-news.net|channelpartner.de|nowtv.it|macworld.com|radio.de|svz.de|axelspringer.com|businessinsider.es|sueddeutsche.de|livingathome.de|jetzt.de|leonberger-kreiszeitung.de|finanzfrage.net|frag-mutti.de|bestcheck.de|dexerto.com|techadvisor.com|stuff.tv|baby-und-familie.de|netmoms.de|testedich.de|toggo.de|senioren-ratgeber.de|autoexpress.co.uk|shz.de|prignitzer.de|meine.noz.de|mediaimpact.de|ad-alliance.de|studyflix.de|speed.io|computerhoy.com|liberation.fr|auto-motor-und-sport.de|mcnmotorcycleshow.com|familie.de|oekotest.de|csoonline.com|dailyresearchplot.com|menshealth.de|camping.info|badoo.com|eiu.com|stern.de|7sur7.be|flugrevue.de
+/wrapperMessagingWithoutDetection.js$script,domain=lovelybooks.de|hannover.de|visit-hannover.com|wetteronline.de|autozeitung.de|sportbible.com|vox.de|essen-und-trinken.de|jameda.de|gutefrage.net|planetiphone.de|computerfrage.net|helpster.de|dpd.com|dpd.de|duden.de|sky.de|sky.com|cardscout.de|meineorte.com|tecchannel.de|itpro.co.uk|tvnow.at|tvnow.de|netdoktor.de|computerwoche.de|the-sun.com|thescottishsun.co.uk|thesun.co.uk|thesun.ie|handelsblatt.com|macwelt.de|lancashiretelegraph.co.uk|idealo.de|myhomebook.de|4players.de|n-page.de|planet3ds.de|planetds.de|planetgameboy.de|planetswitch.de|planetvita.de|playstationportable.de|portablegaming.de|denofgeek.com|classicfm.com|globalplayer.com|radio.pl|politico.eu|expertreviews.co.uk|radio.net|rtlplus.de|rtl-passion.de|geo-television.de|gruenderkueche.de|techstage.de|praxisvita.de|kn-online.de|nnn.de|geo.de|leserreisen.mz-web.de|kuechengoetter.de|cio.de|cio.com|tv14.de|nitro-tv.de|elektroauto-news.net|channelpartner.de|nowtv.it|macworld.com|radio.de|svz.de|axelspringer.com|businessinsider.es|sueddeutsche.de|livingathome.de|jetzt.de|leonberger-kreiszeitung.de|finanzfrage.net|frag-mutti.de|bestcheck.de|dexerto.com|techadvisor.com|stuff.tv|baby-und-familie.de|netmoms.de|testedich.de|toggo.de|senioren-ratgeber.de|autoexpress.co.uk|shz.de|prignitzer.de|meine.noz.de|mediaimpact.de|ad-alliance.de|studyflix.de|speed.io|computerhoy.com|liberation.fr|auto-motor-und-sport.de|mcnmotorcycleshow.com|familie.de|oekotest.de|csoonline.com|dailyresearchplot.com|menshealth.de|camping.info|badoo.com|eiu.com|stern.de|7sur7.be|flugrevue.de|playpilot.com
 /wrapperMessagingWithoutDetection.*.js$script,domain=netzwelt.de
 ||cdn.privacy-mgmt.com^$important,domain=promipool.de|android-hilfe.de|wsj.com
 !
 !
 !
+merlion.com###policyBlockForFirstVisit
 gxc.gg##.ReactModal__Overlay--after-open._
 eazycars.de###mmMS--notification
 ofuxico.com.br##.lgpd-popup
@@ -8907,7 +8909,7 @@ hoper.pl,teroplan.*,e-podroznik.pl##.ep-cookies-info-wrapper
 eurotherm.com##.site-cookie-pref
 ripe.net##app-cookie-consent
 esenlik.com.tr##.kisiselveri-popup
-afisha.ru#?#div[id^="react"] > div[class]:has(> div[class] > div[class] a[href^="https://help.rambler.ru/legal/"])
+afisha.ru#?#div[id="content"] > div[class]:has(> div[class] > div[class] a[href^="https://help.rambler.ru/legal/"])
 tazedirekt.com##fe-product-cookie-indicator
 swatch.com#$#div[data-widget="explicitCookieModal"] { display: none!important; }
 swatch.com#$#.b-modal_overlay { display: none!important; }
@@ -9243,7 +9245,6 @@ findamasters.com#$#body.modal-open { overflow: auto !important; padding-right: 0
 downloads.descendant.me###cookieConsent
 prospects.ac.uk##.cookies-callout-wrapper
 megabike24.de###amgdpr-cookie-block
-mytrip.com,seat24.de##.etiCookieBanner
 roedl.de##.divCookieBar
 obi.de##.cookiepolicy--active
 ferchau.com##.modal
@@ -11085,7 +11086,7 @@ shopware.com##.cookie--permission
 transcend-info.com###legal_notice
 towa-digital.com###Towa-Gdpr-Plugin
 beckett.design###apc
-hellweg.de,elbandi.de,leitermann.de,zeitauktion.com,baywa-baumarkt.de,fahrradgigant.de,tabakguru.de,maas-natur.de,moebel-rieger.de,auditorium.de,jeanswelt.de,top-werbemittel.de,weka-holzbau.com##.cookie-permission-container
+18-grad.de,hellweg.de,elbandi.de,leitermann.de,zeitauktion.com,baywa-baumarkt.de,fahrradgigant.de,tabakguru.de,maas-natur.de,moebel-rieger.de,auditorium.de,jeanswelt.de,top-werbemittel.de,weka-holzbau.com##.cookie-permission-container
 zeichenfabrik.at##.informational-banner[data-role="cookie-notice"]
 antwerpes.com###ap-cookieinfo
 mybet.com##div[class^="indexstyles__CookiesPanel-"]
@@ -16738,7 +16739,7 @@ cubbiescrib.com#%#AG_onLoad(function() { setTimeout(function() { if(document.get
 si.com#%#AG_onLoad(function() { setTimeout(function() { if(document.getElementsByClassName("gdpr")[0].isvisible = true) { document.cookie = "euConsent=true"; location.reload(); }; }, 1000); });
 bt.dk#%#document.cookie = "CookieConsent=1";
 myprivacy.medialaan.be#%#AG_onLoad(function() { setTimeout(function() { document.getElementsByClassName("form__button-group")[0].submit(); }, 300); });
-cmp.hln.be,cmp.ad.nl,cmp.dpgmedia.be#%#AG_onLoad(function(){if(-1==document.cookie.indexOf("euconsent-v2")){var a=new MutationObserver(function(){var b=document.querySelector('.message-component > button[title="Akkoord"]') || document.querySelector('.message-component > button[title="D’accord"]');b&&(a.disconnect(),b.click())});a.observe(document,{childList:!0,subtree:!0});setTimeout(function(){a.disconnect()},1E4)}});
+cmp.hln.be,cmp.ad.nl,myprivacy.dpgmedia.be,cmp.dpgmedia.be#%#AG_onLoad(function(){if(-1==document.cookie.indexOf("euconsent-v2")){var a=new MutationObserver(function(){var b=document.querySelector('.message-component > button[title="Akkoord"]') || document.querySelector('.message-component > button[title$="accord"]');b&&(a.disconnect(),b.click())});a.observe(document,{childList:!0,subtree:!0});setTimeout(function(){a.disconnect()},1E4)}});
 evaair.com#%#document.cookie = "_EVAcookieaccept=Y";
 hbvl.be#%#document.cookie = "C_05 = {%22C%22:%221.0%22%2C%22ID%22:%229dee0a48-e1b7-475f-9456-da27157e009e%22%2C%22P%22:%22' + location.href + '%22%2C%22T%22:%222018-08-04T17:54:39.929Z%22%2C%22V%22:%22Y%22%2C%22F%22:1}; path=/; domain=.hbvl.be";
 standaard.be#%#document.cookie = "C_05 = {%22C%22:%221.0%22%2C%22ID%22:%229dee0a48-e1b7-475f-9456-da27157e009e%22%2C%22P%22:%22' + location.href + '%22%2C%22T%22:%222018-08-04T17:54:39.929Z%22%2C%22V%22:%22Y%22%2C%22F%22:1}; path=/; domain=.standaard.be";
@@ -19703,6 +19704,7 @@ job.nifty.com##.bnr-area
 erecipe.woman.excite.co.jp##.appdl_container
 access.line.me##.MdMN01Banner
 hidemy.name##.main-download-popup
+tunein.com#%#//scriptlet('set-cookie', 'navBasedDialogManager', 'true')
 kinarino.jp#%#//scriptlet('set-cookie-reload', 'hide_app_banner', '1')
 bushikaku.net##.ad__foot-lower
 bushikaku.net##.banner
@@ -28913,6 +28915,7 @@ experts-exchange.com##.ctaSolutionStickyWrapper
 theguardian.com##.contributions__adblock
 ||contributions.guardianapis.com^
 !
+videolan.org##.sponsors-carousel-wrapper
 rakuten-sec.co.jp##a[data-ratid="header-long-banner_ads_mobile"]
 smartpress.by##body div.top-box
 interviewbit.com##.ribbon-banner
@@ -29774,6 +29777,7 @@ turkuazgazetesi.net,yenialanya.com,mansetaydin.com,seskocaeli.com,kocaelibarisga
 ##.widget_blog_subscription
 ~copays.org,~nothing.tech,~mega-debrid.eu,~curvegames.com,~news.un.org,~norwichzen.org.uk,~dereferer.me###mc_embed_signup
 !
+ukrinform.pl,ukrinform.jp,ukrinform.fr,ukrinform.de,ukrinform.es,ukrinform.net##div[data-name="int_hidden"]
 vnnews.ru##div[class^="telega_sub"]
 webcg.net##.mailmagazine-widget
 gooday.nikkei.co.jp##.gdy-side-sns
@@ -35441,6 +35445,7 @@ twgreatdaily.com$$script[tag-content="indexOf|css|fn|this|attr|unselectable|cons
 ##.blogroll_wrapper_4
 ##.blogroll_wrapper_honbun
 !
+newsoku.blog##.headrsssp
 newsoku.blog##.headrsspc
 newsoku.blog##.headrsssppc
 newsoku.blog##.rss_scroll_sp
@@ -36271,6 +36276,7 @@ subbota.ua##aside.sidebar > div[id^="custom_html-"]
 !
 ! Donation widgets (which are really annoying only)
 !
+focus.ua##.js-cat-required
 tsn.ua##.c-donate
 ||i.lb.ua/static/donate/news.png
 delo.ua##.c-support

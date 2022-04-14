@@ -208,6 +208,8 @@
 .ad.kakaocorp.com^
 .ad.kakao.com^
 !
+||alxm.addlv.smt.docomo.ne.jp^
+||alxd.addlv.smt.docomo.ne.jp^
 ||cdn.jampp.com^
 ||imgx.jampp.com^
 ||static.jampp.com^
@@ -2731,7 +2733,7 @@ spielen.de###headerad
 mbasic.facebook.com,d.facebook.com,free.facebook.com,free.facebookcorewwwi.onion,mbasic.facebookcorewwwi.onion,d.facebookcorewwwi.onion,m.facebook.com,m.facebookcorewwwi.onion,b-m.facebook.com,b-m.facebookcorewwwi.onion,mobile.facebook.com,mobile.facebookcorewwwi.onion,0.facebook.com,0.facebookcorewwwi.onion##div[role="article"][data-ft*='"originated_from_recommendation":"1"']
 !! new interface
 !!! Ad in menu
-m.facebook.com##div[data-type="vscroller"][data-comp-id] > div[style]:not([data-action-id]):not([data-focusable="true"]):not([style*="1px"])
+m.facebook.com##div[data-type="vscroller"][data-comp-id] > div[tabindex] + div[style]:not([data-action-id]):not([data-focusable="true"]):not([style*="1px"])
 !
 ! Common names
 ! ##amp-embed[type="outbrain"]
@@ -2745,6 +2747,8 @@ scmp.com,theinventory.com,avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalo
 ! ##.ads
 cartoonpornvideos.com,m.economictimes.com,beethovenmaster.com,m.mistrzowie.org,m.ura.news,siirtpress.com,up.ymgt.xyz,google.de,www-bento-de.cdn.ampproject.org,m-economictimes-com.cdn.ampproject.org,m.winfuture.de##.ads
 !
+news.liga.net##.partner-logo
+news.kstyle.com##.mdSP20Ads
 full-count.jp##.erase_space-ad ~ p[style="clear:both;"]
 webun.jp###JP_wbn_sp_article_underarticle
 idou.me##.ad__search-infeed-banner
@@ -6023,6 +6027,8 @@ anwap.club,anwap.film,anwap.mobi##body > div[class] > a > strong
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/115498
+||mradx.net^$app=easy.sudoku.puzzle.solver.free
 ! https://github.com/AdguardTeam/AdguardFilters/issues/114506
 ||cdn.skt-asum.com^$app=com.skt.prod.dialer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/114381
