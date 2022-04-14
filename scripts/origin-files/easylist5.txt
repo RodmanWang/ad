@@ -418,8 +418,6 @@ rjno1.com#%#//scriptlet('prevent-setTimeout', '/_show\(".+?"\); ?\}/')
 rjno1.com#%#//scriptlet("set-constant", "google_global_correlator", "1")
 rjno1.com#%#//scriptlet("set-constant", "google_image_requests", "emptyArr")
 rjno1.com#%#//scriptlet("prevent-addEventListener", "error", "event.target.tagName")
-!+ PLATFORM(ext_ublock)
-rjno1.com#%#//scriptlet('abort-on-stack-trace', 'document.getElementById', '/google|inlineScript/')
 !+ NOT_PLATFORM(ios, ext_android_cb)
 ||jspassport.ssl.qhimg.com^$script,redirect=noopjs,domain=rjno1.com
 @@||googletagmanager.com/gtag/js$script,domain=rjno1.com
@@ -11730,9 +11728,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zx590.com/assets/style/js/paigu.js
 ||zxdy777.com/myimg/
 ||zxip.com/2013_ad/
-||zxzj.fun/slade
-||zxzj.fun/t.js
-||zxzjtv.com/upload/vod/yuyua.png
+||zxzjtv.com/slade
+||zxzjtv.com/t.js
 ||zywlyy.cn/JS/
 ||zzbaike.com/main/*-20
 ||zzbaike.com/main/arvixe
@@ -14124,7 +14121,7 @@ ifeng.com##.cont_bottom_YySmall
 u-car.com.tw##.contad
 u-car.com.tw##.contad_text
 dragon-guide.net##.container > .gutter:first-child
-zxzj.fun##.container > .none
+zxzjtv.com##.container > .none
 ygdy8.cc##.container > a[href^="/"]
 rijutv.co##.container > div[style="height: 128px;"]
 vpsdx.com##.container-fluid > .gsfha3 > .gsfha3
@@ -17795,6 +17792,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||ecma.bdimg.com/holmes/*.svg
 @@||eden.international/script/ad_banner/
 @@||eden.org.tw^*/ad_banner/
+@@||doc110.com^*/ad.css?$stylesheet
 @@||edgesuite.net^*/ad.css?
 @@||edmondpoon.com^$generichide
 @@||edu.cn^*/ad.css?$stylesheet
@@ -19657,6 +19655,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||jiatu.co^
 ||weix.xyz^
 ||llhhbb.top^
+||dhhpm.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
