@@ -87,13 +87,20 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/76987
 youtube.com#%#AG_onLoad(function() {var a = new MutationObserver(function() {if (document.querySelector('yt-upsell-dialog-renderer')) {var b = document.querySelector('.ytd-popup-container[popup-size="UPSELL_DIALOG_RENDERER_POPUP_SIZE_LARGE"] #dismiss-button:not(.dismissed), .upsell-dialog-lightbox .upsell-dialog-dismiss-button button:not(.dismissed)');setTimeout(function() {b&&b.click()}, 3E2)}});a.observe(document, {childList: !0,subtree: !0});setTimeout(function() {a.disconnect()}, 3E3)});
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/115659
+ign.com##.premium-content-block
+ign.com##.infeed-player
+! https://github.com/AdguardTeam/AdguardFilters/pull/112714
+! twitch.tv - promoted stream tiles
+twitch.tv##div.tw-tower > div:has(div.promoted-card-stat__promotion)
+! https://github.com/AdguardTeam/AdguardFilters/issues/113750
+turkishairlines.com#?##page_wrapper > section.nopadding:has(> div.middle-wrapper img[title^="Turkish Airlines"])
 ! https://github.com/AdguardTeam/AdguardFilters/issues/115444
 crunchyroll.com##.welcome-featured-media
 ! https://github.com/AdguardTeam/AdguardFilters/issues/115178
 eurosport.tvn24.pl#%#//scriptlet('prevent-requestAnimationFrame', 'toggleFloatingClass')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/115052
-||img.weblogssl.com/*/js/dailymotion-$domain=xataka.com
-xataka.com##.base-asset-video
+xataka.com,applesfera.com##.base-asset-video
 ! https://github.com/AdguardTeam/AdguardFilters/issues/114333#issuecomment-1093685116
 niusnews.com##div[class^="divLogin"]
 niusnews.com##.divMPop
@@ -7865,6 +7872,7 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 !
 !
 !
+fundacja.santander.pl##.awb-show
 m.censor.net###usage-notice-message
 merlion.com###policyBlockForFirstVisit
 gxc.gg##.ReactModal__Overlay--after-open._
@@ -19702,6 +19710,7 @@ early-riser.com#?#div[class] ~ h1[style]:contains(Newsletter) + p + div[class]
 ##head[prefix~="medium-com:"] ~ body .js-openInAppButton
 ##head[prefix~="medium-com:"] ~ body .js-postActionsBarContent > .js-readNextInteractions
 !
+google.*##body > div[style="min-height: 100%; display: none;"] + div[style="visibility: visible;"] > div[jsowner]
 sofy.jp##.app-dl-fixed
 job.nifty.com##.bnr-area
 erecipe.woman.excite.co.jp##.appdl_container
@@ -20803,7 +20812,7 @@ narodna-pravda.ua##.mobile_apps
 narodna-pravda.ua##.copyright > a[rel="noopener"] > img
 bing.com###hc_opalinst_cta
 bing.com###bnp_ttc_div
-carsensor.net,vesselfinder.com##.applink
+zexy.net,carsensor.net,vesselfinder.com##.applink
 vesselfinder.com###map-sidebar > #sbup
 androidinsider.ru###google-play-app-post
 zdnet.de,neberitrubku.ru##.appPromo
@@ -21588,6 +21597,8 @@ theoryandpractice.ru##a[href^="https://form.typeform.com/"]
 ! Specific sites
 !######### Subscription popups add to subscriptions.txt #########
 !
+zexy.net##.campain-banner--fixed
+pogoda.interia.pl##.inpl-tout-sticky.body__common-header--fixed .vjs-fixedmonitor-wrapper-fixed
 at-s.com##.bnr_popup01
 fx-rashinban.com##.bmMessageBln
 crunchyroll.com##.erc-js-auth-modal
@@ -32924,7 +32935,7 @@ tonkosti.ru##.journal-subscribe
 tsf.pt##.js-contentcollapse-root[data-type="box-newsletter-detail"]
 medium.com##.js-directEmailSignup
 travelask.ru##.js-footer-banner
-mytoys.de##.js-newsletter
+transparency.org,mytoys.de##.js-newsletter
 gamebillet.com##.alert-box-flexible
 haaretz.com##.js-newsletter--alerts
 rbc.ru##.js-subscribe-block
@@ -33390,6 +33401,8 @@ magazine.skyeng.ru##.tg-banner
 !######### CSS tweaks #########
 !##############################
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/115570
+news.kstyle.com##div[style*="width:640px;"][style*="height:253px;"] + aside > div.MdMN12Line
 ! https://github.com/AdguardTeam/AdguardFilters/issues/115284
 itigic.com#$#body { padding-bottom: 0!important; }
 ! https://github.com/uBlockOrigin/uAssets/issues/12468
@@ -35454,6 +35467,8 @@ twgreatdaily.com$$script[tag-content="indexOf|css|fn|this|attr|unselectable|cons
 ##.blogroll_wrapper_4
 ##.blogroll_wrapper_honbun
 !
+kisslog2.com##.rss_wrapper
+kisslog2.com##.ranking-wrap
 newsoku.blog##.headrsssp
 newsoku.blog##.headrsspc
 newsoku.blog##.headrsssppc
@@ -36285,6 +36300,8 @@ subbota.ua##aside.sidebar > div[id^="custom_html-"]
 !
 ! Donation widgets (which are really annoying only)
 !
+proagro.com.ua#$#.td-outer-container { background-image: none !important; cursor: default !important; }
+proagro.com.ua#%#//scriptlet("abort-on-property-read", "wpsite_clickable_data")
 focus.ua##.js-cat-required
 tsn.ua##.c-donate
 ||i.lb.ua/static/donate/news.png
