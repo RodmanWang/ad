@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: qQbfv5zHclgu5S/laKe3sw
-! Version: 202204160400
+! Checksum: UKCzQF7GBtgjz6Tc4sIBHg
+! Version: 202204161250
 ! Title: Fanboy's Annoyance List
-! Last modified: 2022-04-16 04:00 UTC
+! Last modified: 2022-04-16 12:50 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -28308,8 +28308,6 @@ _subscribers_newsletters/
 ##.cc-dialog-wrapper
 ##.cc-dialog[aria-label="cookie-consent"]
 ##.cc-fixed-bottom
-##.cc-floating
-##.cc-grower
 ##.cc-individual-cookie-settings
 ##.cc-individual-cookie-settings-overlay
 ##.cc-message-bottom
@@ -28325,8 +28323,6 @@ _subscribers_newsletters/
 ##.cc-window-banner
 ##.cc-window.cookie
 ##.cc-window.cookie-model
-##.cc-window[aria-describedby*="consent"]
-##.cc-window[aria-label*="consent"]
 ##.cc-wrapper > .cc-inner
 ##.cc[data-notice="cookies"]
 ##.cc__bg
@@ -31486,6 +31482,7 @@ _subscribers_newsletters/
 ##.gdpr-area
 ##.gdpr-ask-modal
 ##.gdpr-banner
+##.gdpr-banner--slideup
 ##.gdpr-banner-container
 ##.gdpr-banner-content-wrapper
 ##.gdpr-banner-processed
@@ -32315,6 +32312,7 @@ _subscribers_newsletters/
 ##.lgi-bgcontainer-privacybanner
 ##.lgi_privacybanner
 ##.lgpd > .lgpd-wrapper
+##.lgpd-banner
 ##.lgpd-content
 ##.lgpd-div
 ##.lgpd-message
@@ -45040,6 +45038,7 @@ aktiivikristinusko.fi,aktiveschristentum.de,aktivkeresztenyseg.hu,aktivkristendo
 shopee.es,shopee.fr,shopee.pl##.bpGouG
 leuchtturm1917.com,leuchtturm1917.de##.cc-overlay
 fr.vanguard,it.vanguard,nl.vanguard,vanguard.co.uk,vanguardmexico.com##.cdk-overlay-container
+baskbank.com,johnson.ca##.coh-container
 bancontact.com,bancontactpayconiq.com,payconiq.be##.cookie
 st1.com,st1.fi,st1.se##.cookie-consent-modal
 royaldesign.co.uk,royaldesign.com,royaldesign.de,royaldesign.dk,royaldesign.fi,royaldesign.jp,royaldesign.kr,royaldesign.no,royaldesign.se##.e1trcp210
@@ -49635,7 +49634,7 @@ lexus.no##.disclaimer
 ruter.no##.fixed-messages
 sveip.no##.kake_wrap
 forsvaret.no##.message-bar
-dnbeiendom.no##.modal-backdrop
+dnbeiendom.no,elektroskandia.no##.modal-backdrop
 dekk1.no##.name_infobar.ModuleGroup
 nrk.no##.nrk-masthead__info-banner
 bodohavn.no##.privacy
