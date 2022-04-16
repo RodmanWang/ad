@@ -16862,6 +16862,8 @@ m.timesofindia.com,m-timesofindia-com.cdn.ampproject.org$$amp-consent
 !+ PLATFORM(windows, mac, android)
 @@||geolocation.onetrust.com/cookieconsentpub/*/geo/location
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/115738
+spielaffe.de#$##pregamePlayButton { display: block !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/115461
 sklepyabc.pl#@##cookieModal
 ! https://github.com/AdguardTeam/AdguardFilters/issues/115521
@@ -28940,6 +28942,7 @@ experts-exchange.com##.ctaSolutionStickyWrapper
 theguardian.com##.contributions__adblock
 ||contributions.guardianapis.com^
 !
+ryukyushimpo.jp##.topic-ticker_box-topics
 cloud.mail.ru##.marketingPromo-banner
 videolan.org##.sponsors-carousel-wrapper
 rakuten-sec.co.jp##a[data-ratid="header-long-banner_ads_mobile"]
@@ -29804,6 +29807,7 @@ turkuazgazetesi.net,yenialanya.com,mansetaydin.com,seskocaeli.com,kocaelibarisga
 ##.widget_blog_subscription
 ~copays.org,~nothing.tech,~mega-debrid.eu,~curvegames.com,~news.un.org,~norwichzen.org.uk,~dereferer.me###mc_embed_signup
 !
+||edugram.com/partnersforms/widget/?component=popupEmailForm
 yenicaggazetesi.com.tr##a[href^="https://news.google.com/publications/"]
 pravda.com.ua##.block_post > div[style="margin-top: 25px;"]
 ukrinform.pl,ukrinform.jp,ukrinform.fr,ukrinform.de,ukrinform.es,ukrinform.net##div[data-name="int_hidden"]
@@ -33410,6 +33414,9 @@ magazine.skyeng.ru##.tg-banner
 !######### CSS tweaks #########
 !##############################
 !
+! m.facebook.com - allows right clicking image to open it directly in a new tab
+m.facebook.com#$#.ssr #screen-root { pointer-events: auto !important; }
+m.facebook.com#$#.ssr #screen-root img { pointer-events: auto !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/115570
 news.kstyle.com##div[style*="width:640px;"][style*="height:253px;"] + aside > div.MdMN12Line
 ! https://github.com/AdguardTeam/AdguardFilters/issues/115284
@@ -35505,7 +35512,7 @@ bottisoku.blog.2nt.com##div[style^="width:1200px;height:280px"]
 eromanga-cafe.com###custom_html-4
 eromanga-cafe.com###custom_html-7
 eromanga-cafe.com##.loop-single-widget
-dojinwatch.com,eromanga-castle.com,doujincafe.com,ero-manga-platinum.net,ero-mangasokuhou.com,ero-comic-hunter.net,eromanga-cafe.com,eromanga-sevendays.net,moeero-library.com##.boxi800
+dojin-pandemic.com,dojinwatch.com,eromanga-castle.com,doujincafe.com,ero-manga-platinum.net,ero-mangasokuhou.com,ero-comic-hunter.net,eromanga-cafe.com,eromanga-sevendays.net,moeero-library.com##.boxi800
 otakumix.doorblog.jp###rss1
 otakumix.doorblog.jp##iframe[src="http://otakumix.doorblog.jp/testrss.html"]
 openworldnews.net###headline
@@ -35686,6 +35693,7 @@ full-count.jp#?#section > div.c-heading:has(> p.c-heading__en:contains(RECOMMEND
 .ru/proxy_*.php?p___=*&part_url=*.php?callback=*&token=*&iso=
 .net/proxy_*.php?p___=*&part_url=*.php?callback=*&token=*&iso=
 !
+||partner-widget.vse-sdal.com^
 ||perimeterx.widget.insent.ai^
 ozon.ru##div[data-widget="webFeedbackForm"]
 ||widget.happyfoxchat.com^

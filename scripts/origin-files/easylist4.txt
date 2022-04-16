@@ -1315,6 +1315,8 @@ westseattleblog.com#@#.header-ad
 ! Bad: example.org##main > div.ad (should be in specific.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/115714
+grapee.jp#?#aside > div[class^="mod-ads-area"]:upward(1)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/113176
 iphone-mania.jp##.related:contains(PR)
 iphone-mania.jp##.related:contains(PR) + div.top_new_menu_ul
@@ -2307,6 +2309,8 @@ nasimke.ru$$script[tag-content="function show_ads"][max-length="6000"]
 ! ##### TEMPORARY END #####
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/115709
+ign.com#@#.zad.billboard
 ! https://github.com/AdguardTeam/AdguardFilters/issues/114968
 @@||g.doubleclick.net/tag/js/gpt.js$domain=koigaku.machicon.jp
 @@||g.doubleclick.net/gpt/pubads_impl_$script,domain=koigaku.machicon.jp
@@ -3017,7 +3021,7 @@ heise.de##.article-body > .visible-xs > .visible-xs[style*="min-height:"]
 ddd-smart.net,ero-cluster.com,chinshiko-outfit.com,eromanga-pon.com###ad_inview_area
 eromanga-pon.com##.ad_big
 ||eromanga-castle.com/famsiro1.html
-dojinwatch.com,eromanga-castle.com,eromanga-cafe.com,doujincafe.com,nukerumannga.com,ero-mangalife.com,ero-mangasokuhou.com,ero-manga-platinum.net,erodoujinjohoukan.com,erodoujinshi-world.com,ero-comic-hunter.net,eromanga-cafe.com,eromanga-sevendays.net,moeero-library.com##.cntiframe
+dojin-pandemic.com,dojinwatch.com,eromanga-castle.com,eromanga-cafe.com,doujincafe.com,nukerumannga.com,ero-mangalife.com,ero-mangasokuhou.com,ero-manga-platinum.net,erodoujinjohoukan.com,erodoujinshi-world.com,ero-comic-hunter.net,eromanga-cafe.com,eromanga-sevendays.net,moeero-library.com##.cntiframe
 pe.com##body #mobile-adhesion
 bfm.ru##.banner-mobile-wrap
 kino.de##.alice-root-topmobile2-container
@@ -3690,6 +3694,7 @@ t-online.de##.Tml6--anz
 t-online.de###Tgb-88799072
 golem.de##.media__teaser-list > li[class*="li-hb-"]
 golem.de###screen > div.clearfix[style*="margin:"][style*="clear:"][style*="min-height"]
+grapee.jp##.box_outbrain
 grapee.jp##div[id^="guno-m"]
 hdblog.it##.news-blocks > div[style^="margin: 16px;height: 90px;background: #000;"]
 hdblog.it##.related-news > .notizie_list > div[style="padding: 0px 16px;height: 250px;"]
