@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /HdqDpYWJhuzHLhsl8TmeQ
-! Version: 202204191300
+! Checksum: PdqJVOoY/jgwquLoBoW2Hg
+! Version: 202204192100
 ! Title: Fanboy's Annoyance List
-! Last modified: 2022-04-19 13:00 UTC
+! Last modified: 2022-04-19 21:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -17750,6 +17750,7 @@ _subscribers_newsletters/
 ##.socialheader
 ##.socialicns
 ##.socialicon
+##.socialiconheader
 ##.socialicons
 ##.socialicons-header
 ##.socialicontd
@@ -38547,6 +38548,7 @@ hostgator.com###alertBar
 latimes.com###alertSignUp
 indiainfoline.com###alertWrapper
 revision3.com###alertsCallout
+123apps.com,mp3cut.net,online-video-cutter.com###allapps-extension-popup
 mediabistro.com###altLinks
 foxnews.com###am-signup
 viewbug.com###ambassadors
@@ -43441,7 +43443,7 @@ myfitnesspal.com##.social_profile
 forbes.com,impactloud.com,technobuffalo.com,thehindu.com,thenextweb.com##.socialize
 bidorbuy.co.za##.socialnetwork
 tecmint.com##.socialprofiles
-instant-gaming.com,xhamster.com##.socials
+instant-gaming.com,iranpress.com,xhamster.com##.socials
 apnews.com##.socials-0-2-26
 asurascans.com##.socialts
 guernicamag.com##.socio3
@@ -44122,7 +44124,7 @@ amazon.com###pldn-deep-link
 scutt.eu###pojemnik
 holidayfactory.co.za###polgpr
 simsdom.com###policies
-buyamower.co.uk,reddingo.com###policy
+buyamower.co.uk,reddingo.com,you.dj###policy
 apkpure.com###policy-info
 eccles.utah.edu###policy-message
 nba.com###policy_wrapper
@@ -45450,7 +45452,7 @@ nhs.uk###nhsuk-feedback-banner
 bustedcoverage.com,coed.com###nl-container
 qz.com###nl-form
 africanreporter.co.za,albertonrecord.co.za,alexnews.co.za,barbertontimes.co.za,bedfordviewedenvalenews.co.za,benonicitytimes.co.za,bereamail.co.za,boksburgadvertiser.co.za,brakpanherald.co.za,capricornreview.co.za,carletonvilleherald.com,citybuzz.co.za,comarochronicle.co.za,corridorgazette.co.za,estcourtnews.co.za,eyethunews.co.za,fourwaysreview.co.za,germistoncitynews.co.za,hazyviewherald.co.za,heidelbergnigelheraut.co.za,highvelder.co.za,highwaymail.co.za,joburgeastexpress.co.za,kathorusmail.co.za,kemptonexpress.co.za,kormorant.co.za,krugersdorpnews.co.za,ladysmithgazette.co.za,letabaherald.co.za,maritzburgsun.co.za,midrandreporter.co.za,newcastleadvertiser.co.za,northcliffmelvilletimes.co.za,northcoastcourier.co.za,northeasterntribune.co.za,northernnatalcourier.co.za,northglennews.co.za,parysgazette.co.za,phoenixsun.co.za,potchefstroomherald.co.za,publiceyemaritzburg.co.za,randburgsun.co.za,randfonteinherald.co.za,rekordcenturion.co.za,rekordeast.co.za,rekordmoot.co.za,rekordnorth.co.za,reviewonline.co.za,ridgetimes.co.za,risingsunchatsworth.co.za,risingsunlenasia.co.za,risingsunoverport.co.za,roodepoortnorthsider.co.za,roodepoortrecord.co.za,rosebankkillarneygazette.co.za,sandtonchronicle.co.za,sedibengster.com,southcoastherald.co.za,southcoastsun.co.za,southerncourier.co.za,southlandssun.co.za,sowetourban.co.za,springsadvertiser.co.za,standertonadvertiser.co.za,tembisan.co.za,vaalweekblad.com,vryheidherald.co.za,westside-eldos.co.za,witbanknews.co.za,zululandobserver.co.za###nl-main
-silicon.co.uk###nl-overlay
+silicon.co.uk,silicon.de,silicon.es,silicon.fr,silicon.pt###nl-overlay
 indianexpress.com###non_subscribed_banner
 ramblinwreck.com###olark-wrapper
 carsalesbase.com###omnisend-dynamic-container
@@ -46217,6 +46219,7 @@ technologyreview.com##.stayConnected__wrapper--22zXu
 timesofoman.com##.stayUpdated
 ncaa.com##.sticky-button-section
 fbi.gov##.sticky-footer
+appgrooves.com##.sticky-signup-section
 protocol.com##.sticky-target
 tn.com.ar##.sticky_top
 politico.com##.story-related
@@ -46613,6 +46616,7 @@ wentronic.com,wentronic.pl#@#cookie-modal
 ! ---------- Non-english Annoyances ----------
 !
 ##.odkl-klass-stat
+||pichak.net/blogcod/$third-party
 ||push.cnnindonesia.com^
 !
 ! ---------- Non-english Site Specific Hiding Rules ----------
@@ -46888,6 +46892,7 @@ samastech.com###chslidingbox
 mothhel.net###main-fixed
 mawdoo3.com###move-down
 adsports.ae###movetop
+alkawthartv.ir###scroll
 thawrah2day.com##.featured-post
 al-sharq.com##.n-letter
 aljadeed.tv##.nextPrevNews
