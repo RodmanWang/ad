@@ -3178,8 +3178,8 @@ fosspost.org,portalvirtualreality.ru,pingvin.pro,bonobono.com,curbsideclassic.co
 ! infranken.de,merkur.de#@##ad-21
 !
 ! adregain.ru script
-unixhow.com,forums.rusmedserv.com,vsthouse.ru,primpogoda.ru,gitjournal.tech#%#//scriptlet("abort-on-property-write", "adregain_wall")
-forums.rusmedserv.com,vsthouse.ru,primpogoda.ru,gitjournal.tech#%#//scriptlet("abort-on-property-read", "ad_nodes")
+unixhow.com,vsthouse.ru,primpogoda.ru,gitjournal.tech#%#//scriptlet("abort-on-property-write", "adregain_wall")
+vsthouse.ru,primpogoda.ru,gitjournal.tech#%#//scriptlet("abort-on-property-read", "ad_nodes")
 !
 ! livejournal.com, razlozhi.ru
 ! LiveJournal blogs with separate domains
@@ -4062,7 +4062,7 @@ borderlands.com##div[ads-blocked="adsBlocked"]
 ||amazonaws.com/sp-sw-sdk-production^
 ||ddnk.advertur.ru/v1/s/loader.js$script,redirect=noopjs,domain=video.alexfilm.cc
 @@||gsurl.be/advertisement.js
-||tinypass.com^$domain=thechive.com|thelocal.de|independent.co.uk|scotsman.com|inquirer.com|pinknews.co.uk|insider.com|blick.ch|torontosun.com|montrealgazette.com
+||tinypass.com^$domain=thechive.com|independent.co.uk|scotsman.com|inquirer.com|pinknews.co.uk|insider.com|blick.ch|torontosun.com|montrealgazette.com
 ||buhgalter.com.ua/assets/templates/base/js/blocker.js
 coinhub.pw#?#body > center:contains(Turn off your adblocker)
 milehighreport.com##div[class^="adblock-whitelist-messaging"]
@@ -13812,7 +13812,7 @@ dn.se##.gdpr-header-container
 meteoblue.com,ajinomoto.co.jp,wsj.com##.gdpr-message
 iqcode.com,brooksbrothers.com,ascm.org,verywellfit.com,2ememain.be,cyclegear.com,verywellhealth.com##.gdpr-notification
 moduscreate.com##.gdpr-show
-juksy.com,prothomalo.com,hikvision.com,norway.no,radiozu.ro##.gdpr-wrapper
+wps.com,juksy.com,prothomalo.com,hikvision.com,norway.no,radiozu.ro##.gdpr-wrapper
 skins.cash##.gdpr__container
 hubpages.com##.gdpr_popup_wrap
 divarese.com.tr,network.com.tr##.gizlilik-cookies
@@ -21636,6 +21636,8 @@ theoryandpractice.ru##a[href^="https://form.typeform.com/"]
 ! Specific sites
 !######### Subscription popups add to subscriptions.txt #########
 !
+researchgate.net##.lite-page-tooltip__content
+tumblr.com##.tmblr-iframe--follow-teaser
 okwave.jp##.following_buttons
 aljazeera.com##.container--red
 ecuabet.com###main-wrapper > app-menu-mobile > div[class]:not([id])
@@ -29862,9 +29864,12 @@ turkuazgazetesi.net,yenialanya.com,mansetaydin.com,seskocaeli.com,kocaelibarisga
 ##.widget_blog_subscription
 ~copays.org,~nothing.tech,~mega-debrid.eu,~curvegames.com,~news.un.org,~norwichzen.org.uk,~dereferer.me###mc_embed_signup
 !
+timeout.ru#?#div[data-stk-css="stkLNQgn"]
+timeout.ru##div[data-stk-css="stkLNQgn"] + hr
+thelocal.de##.ml-manual-widget-container
 cpp.libhunt.com##.text-strong-invite
 timeout.ru##.circle-wrapper
-timeout.ru#?#.ads > div.square:has(> a[title="Time Out в Viber"])
+timeout.ru#?#.square:has(> a[title="Time Out в Viber"])
 bittorrent.com#?#.prodnews-container div[class^="col-"] > div.row:has(> div[class] > div[id="emailFormContainer"])
 deon.pl##aside .subscription-widget
 accordancebible.com#?#.flex-grow > div.bg-primary:has(> div.container div.newsletter-signup)
