@@ -1315,6 +1315,8 @@ westseattleblog.com#@#.header-ad
 ! Bad: example.org##main > div.ad (should be in specific.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/116197
+duplichecker.com#?#.data_inbox > div[style]:has(> div > span > ._ap_apex_ad)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/115714
 grapee.jp#?#aside > div[class^="mod-ads-area"]:upward(1)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/116048
@@ -2747,7 +2749,7 @@ m.facebook.com##div[data-mcomponent="MContainer"] > div[data-mcomponent="MContai
 m.facebook.com##div[data-mcomponent="MContainer"] > div[data-mcomponent="MContainer"][style*="display: none !important;"] + div[data-mcomponent="MContainer"] + div[data-mcomponent="MContainer"] + div[data-mcomponent="MContainer"]
 m.facebook.com##div[data-mcomponent="MContainer"] > div[data-mcomponent="MContainer"][style*="display: none !important;"] + div[data-mcomponent="MContainer"] + div[data-mcomponent="MContainer"] + div[data-mcomponent="MContainer"] + div[data-mcomponent="MContainer"]
 !!! Ad in menu
-m.facebook.com##div[data-type="vscroller"][data-comp-id] > div[tabindex] + div[style]:not([data-action-id]):not([data-focusable="true"]):not([style*="1px"])
+m.facebook.com##div[data-type="vscroller"][data-comp-id] > div.bg-s3[tabindex][data-focusable="true"] + div[style]:not([data-action-id]):not([data-focusable="true"]):not([style*="1px"])
 !
 ! Common names
 ! ##amp-embed[type="outbrain"]

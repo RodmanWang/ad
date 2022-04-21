@@ -2025,6 +2025,11 @@ facebook.com###ssrb_stories_end ~ div[class] > div[class] > div[class*=" "] > di
 m.facebook.com##span[data-top-of-feed-unit-type="megaphone_story"] > div[data-sigil="m-megaphone"]
 ! corona information in profile timeline
 facebook.com##div[data-pagelet="ProfileTimeline"] a[href^="https://www.facebook.com/coronavirus_info"]
+! Suggested post from a public group when viewing groups feed
+m.facebook.com#?#div[data-type="vscroller"] > div[data-mcomponent="MContainer"]:has(> div[data-actual-height] > div[data-actual-height] > div[data-mcomponent*="TextArea"] > .native-text:contains(Suggested post from a public group))
+m.facebook.com##div[data-type="vscroller"] > div[data-mcomponent="MContainer"][style*="display: none !important;"] + div[style*="height:1px;"]
+! do not enable - will stop loading new posts (sometimes whole page are "Suggested post from a public group")
+! m.facebook.com##div[data-type="vscroller"] > div[data-mcomponent="MContainer"][style*="display: none !important;"] + div[style*="height:1px;"] + div[style*="height:1px;"]
 !
 ! 44.ua - notification about browser extension
 44.ua##.exp-line
@@ -19751,6 +19756,8 @@ early-riser.com#?#div[class] ~ h1[style]:contains(Newsletter) + p + div[class]
 ##head[prefix~="medium-com:"] ~ body .js-openInAppButton
 ##head[prefix~="medium-com:"] ~ body .js-postActionsBarContent > .js-readNextInteractions
 !
+operanewsapp.com##.footer-wrapper
+ficbook.net##.install-app-container
 chiebukuro.yahoo.co.jp###app_bnr
 translate.google.*##div[class][jsname] > div[class] > c-wiz > div[class][jsname][style^="transform: matrix("]
 budzdorov.ru##.popup-metadata-popup__paranja
@@ -20616,7 +20623,7 @@ coolapk.com##a[onclick="weixinDownload();"]
 smotrim.ru,tieba.baidu.com,m.economictimes.com,trip.com#$#body { overflow: auto !important; }
 trip.com#$##ibu_tcp_h5_install_pop { display: none !important; }
 trip.com###top-install
-iq.com,news.awa.fm,trip.com##.download
+operanewsapp.com,iq.com,news.awa.fm,trip.com##.download
 trip.com##.download-bg
 trip.com##.tcp-h5-install-bottom
 trip.com###ibu_app_download_banner
@@ -21651,9 +21658,13 @@ theoryandpractice.ru##a[href^="https://form.typeform.com/"]
 ! Specific sites
 !######### Subscription popups add to subscriptions.txt #########
 !
+imdb.com##.media-viewer > div[data-testid="media-viewer__touch-handler"]
+||potepan.com/wp-content/themes/potepan-style/js/article-detail/popUpBanner.js
+style.potepan.com##.FixedFooterSection
 kildosklinika.lt###footer-bottom
 kildosklinika.lt##.fix-right-menu
 messari.io##.jss2
+ruten.com.tw##div[class^="ruten-event"]
 2kmovie.cc#$#body.modal-open { overflow: auto !important; }
 2kmovie.cc#$##modalshare { display: none !important; }
 2kmovie.cc#$#.modal-backdrop { display: none !important; }
@@ -27211,6 +27222,9 @@ abendzeitung-muenchen.de###webpush-app
 /firebase.js$domain=novayagazeta.ru|comments.ua|kinosimka.net|ilan365.net|cnbcindonesia.com|haberzamani.net|oxy.cloud|allbasketball.org|auslogics.com|kartalyuvasi.com.tr|cnnindonesia.com|fbc.ua|astv.ru|pln-pskov.ru
 /firebase-messaging.js$domain=focus.ua|ukranews.com|comments.ua|coub.com|porno90.me|cnnamador.com|giallozafferano.it|wcostream.com|fptplay.vn|jooble.org|mobile01.com|myinstants.com|pdalife.ru|rg.ru|m.iguides.ru|donanimhaber.com|profile.ru|womanhit.ru|news.noteru.com|narodna-pravda.ua|newstm.in|sabah.com.tr|dreamstime.com|popbee.com|avtovzglyad.ru|allbasketball.org|tw.news.yahoo.com|takvim.com.tr|jn.pt|ria.ru|pars.host|calculator-online.net|operanewsapp.com|ahaber.com.tr|tamindir.com|concursosnobrasil.com.br|kompas.com|news.ebc.net.tw|recyclingtoday.com|homedecoratione.com|khersondaily.com|mirtesen.ru|womanhit.ru|belsat.eu|gearbest.com|op.gg|novayagazeta.ru|pocket-lint.com|turunculevye.com|bloomberght.com|stardima.com|aksam.com.tr|portamur.ru|fishki.net|ranking.goo.ne.jp|ohmymag.com|mgronline.com|semnasem.org|bluradio.com|carwale.com
 !
+ficbook.net#$##notificationsSubscribeModal { display: none!important; }
+ficbook.net#$#body { overflow: visible!important; padding-right: 0!important; }
+ficbook.net#$##notificationsSubscribeModal ~ .modal-backdrop { display: none!important; }
 indiatimes.com##.notification_popup
 ||149.56.24.226/service-worker.js
 ||vz.ru/static/js/push.js
@@ -29018,10 +29032,12 @@ theguardian.com##.contributions__adblock
 ||contributions.guardianapis.com^
 !
 financialsense.com##.pane-bundle-promo
+||crio.do/blog/assets/images/crio-offerings
 bookwalker.jp##.ad-new-member
 bookwalker.jp##.side-deals
 bookwalker.jp##.o-beginner-banner
 bookwalker.jp##.bnr-list-area
+ruten.com.tw###rt-top-ad
 tvnet.lv##.digipakett-branding-root-container
 ecuabet.com##div[name="asb-banners"]
 ||ecuabet.com/banner-
@@ -29893,7 +29909,11 @@ turkuazgazetesi.net,yenialanya.com,mansetaydin.com,seskocaeli.com,kocaelibarisga
 ##.widget_blog_subscription
 ~copays.org,~nothing.tech,~mega-debrid.eu,~curvegames.com,~news.un.org,~norwichzen.org.uk,~dereferer.me###mc_embed_signup
 !
+ficbook.net##.header-holder > div.alert
+reform.news,reform.by##div[class="b-r b-r--after_p_1"]
+reform.news,reform.by##.b-r > noindex
 cerave.ru##.sticky-subscribe
+crio.do###ghost-portal-root
 flatout.com.br##.gg-crowdfunding-subscribe
 ||popup-static.unisender.com/service/loader.js
 posthaus.com.br#?##root > div[offset="0"] > div[class]:has(> div[overflow="auto"] > div[class] > form div[name="newsEmail"])
@@ -33890,7 +33910,8 @@ newsweek.com##iframe[src="http://sns.europe.newsweek.com/newsletter?popup=1"]
 !######### JS tweaks ##########
 !##############################
 !
-!
+! https://github.com/AdguardTeam/AdguardFilters/issues/115679
+uploadrar.com#%#//scriptlet("adjust-setTimeout", "tick", "1000")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/116036
 pomvideo.cc#%#//scriptlet("adjust-setTimeout", "grecaptcha", "*", "0.02")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/115711
