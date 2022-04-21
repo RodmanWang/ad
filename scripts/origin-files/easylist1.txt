@@ -324,6 +324,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||cyberanalytics.nl^
 ||analytics.test.cheggnet.com^
 ||03c844c9-d265-4006-a39d-400e6cb40bb7.xyz^
 ||sitealyse.de^$third-party
@@ -5141,6 +5142,7 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||tr.discuss.com.hk^
 ||ymprove.gmx.net^
 ||events.release.narrativ.com^
 ||delog.afreecatv.com^
@@ -20703,6 +20705,7 @@ _tracking.php?b=
 !
 /analytics.js$domain=freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|newsmax.com|bolgehastanesi.com|ewtc.de
 !
+||google.*/maps/*/log
 /\/js\/[a-z]{3}\d\.js$/$script,~third-party,domain=eegg.fun
 ||s-cdn.phonearena.com/js/ops/taina.js
 ||static.narrativ.com/tags/narrativ-pub.
