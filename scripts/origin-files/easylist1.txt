@@ -635,7 +635,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||a.mt.ru^$third-party
 ||ev.tpocdm.com^
 ||tafrebadus.com^$third-party
-||unblockia.com^$third-party
 ||connectier.io^$third-party
 ||services.bionika-digital.ru^
 ||perk0mean.com^$third-party
@@ -20273,6 +20272,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ! Umami
 /umami.js
 !
+/cdn-cgi/challenge-platform/h/g/beacon/*$xmlhttprequest,~third-party
 /?p=%2F*&h=https%3A%2F%2F*&r=&sid=*&qs=*&cid=$image,~third-party
 /video.counters.2.js?
 /w.gif?
@@ -20708,6 +20708,7 @@ _tracking.php?b=
 !
 /analytics.js$domain=freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|newsmax.com|bolgehastanesi.com|ewtc.de
 !
+||bo.kodflix.com/statsclick.php
 ||twitter.com/1.1/jot/client_event.json
 ||cdn.attn.tv/*/dtag.js
 ||google.*/maps/*/log
