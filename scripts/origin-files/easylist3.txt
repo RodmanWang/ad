@@ -1910,6 +1910,8 @@ wikipedia.org###frb-nag
 kitguru.net###check-also-box
 ! https://github.com/AdguardTeam/AdguardFilters/issues/5992
 dn.se##.navigation__top-container
+! twitter.com - You might like elements in timeline
+twitter.com#?#section[aria-labelledby][role="region"] > div[aria-label] > div[style] > div[style^="transform: translate"] article[data-testid="tweet"]:has(> div[class] > div[class] > div[class] a[href^="/i/topics"][dir="auto"])
 ! https://github.com/AdguardTeam/AdguardFilters/issues/6011
 mobile.twitter.com##header[role="banner"] + ._2FU3NGw4 > ._1363jyKz.thXr_Z-z
 ! mozilla.org - was this page helpful widget
@@ -21689,6 +21691,9 @@ theoryandpractice.ru##a[href^="https://form.typeform.com/"]
 ! Specific sites
 !######### Subscription popups add to subscriptions.txt #########
 !
+biz.nuro.jp#$#.is-fixed { overflow: auto !important; }
+biz.nuro.jp#$#.m-modal { display: none !important; }
+biz.nuro.jp#$#.m-modal-bg { display: none !important; }
 timesnownews.com##.__player.__dock
 cookpad.com##aside[id$="_modal"][data-key]
 koinbox.net###app-widget
