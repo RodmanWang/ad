@@ -2298,6 +2298,8 @@ m.xigua110.com##.ui-detail-info > div[style*="line-height:35px; text-align:cente
 ! Bad:  @@||example.org^$stealth (should be in AdGuard Base - whitelist_stealth.txt)
 !
 !
+! gamersglobal.de - broken main page
+gamersglobal.de#@#.gg-box
 ! https://github.com/AdguardTeam/AdguardFilters/issues/115152
 @@||img*.kangaroobro.com/images/$image,domain=leyuman.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/114332
@@ -4144,6 +4146,7 @@ ubmcmm.baidustatic.com
 ||00-gov.cn^
 ||seainan333.com^
 ||000123456789.site^
+||ycdywl.com^
 ||23wm.cc^
 ||0024aaaa.com^
 ||008844.cc^
@@ -19700,6 +19703,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||hntk.top^
+||khlgdkxien.com^
+||lawful.wang^
 ||65432.shop^
 ||xianggou.club^
 ##a[href$=".120ydrayy.com"]
