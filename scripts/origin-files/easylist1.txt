@@ -324,6 +324,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||bentonow.com^$third-party
 ||sdk.51.la^$third-party
 ||adtriba.com^$third-party
 ||acuityplatform.com^$third-party
@@ -24056,7 +24057,6 @@ $app=com.miui.analytics
 ||data.mistat.rus.xiaomi.com^
 ||data.mistat.xiaomi.com^
 ||data.sec.miui.com^
-||dc.services.visualstudio.com/v2/track
 ||demdex.net^
 ||dsg.sc.omtrdc.net^
 ||ep.xone.com^
@@ -24263,6 +24263,10 @@ $app=com.miui.analytics
 !#endif
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/116471
+||googletagmanager.com/gtm.js$script,xmlhttprequest,redirect=googletagmanager-gtm,domain=whoer.net
+!+ PLATFORM(ios, ext_android_cb, ext_safari)
+@@||googletagmanager.com/gtm.js$domain=whoer.net
 ! https://github.com/AdguardTeam/AdguardFilters/issues/116246
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@||google-analytics.com/analytics.js$domain=gala.fr

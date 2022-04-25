@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: CUJ2UyMHcO+TLqJkLh7s0Q
-! Version: 202204251300
+! Checksum: wzR71N4656+u3AOwSTJZ2A
+! Version: 202204252100
 ! Title: Fanboy's Annoyance List
-! Last modified: 2022-04-25 13:00 UTC
+! Last modified: 2022-04-25 21:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -29492,6 +29492,7 @@ _subscribers_newsletters/
 ##.cookie-notice-dialog
 ##.cookie-notice-fixed
 ##.cookie-notice-footer
+##.cookie-notice-full-container
 ##.cookie-notice-inner
 ##.cookie-notice-overlay
 ##.cookie-notice-popup
@@ -32328,6 +32329,7 @@ _subscribers_newsletters/
 ##.js-cookie-msg
 ##.js-cookie-notation
 ##.js-cookie-notice
+##.js-cookie-notice-full-container
 ##.js-cookie-notification
 ##.js-cookie-notification-banner
 ##.js-cookie-notify
@@ -49799,6 +49801,7 @@ telia.fi##.notification
 kotipizza.fi##.notification-warning
 molnlycke.fi##.notifications
 vierumaki.fi##.overlays > .background
+evl.fi##.site-overlay
 timma.fi##.t-body-small.justify-content-center
 ifarm.fi##.t886
 teosto.fi##.u-position-fixed.u-zindex-100
