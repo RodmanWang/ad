@@ -1,5 +1,5 @@
-Version: 20220426125453
-!Total lines: 52843
+Version: 20220426211542
+!Total lines: 52847
 @@||abc.es^
 @@||accounts.ea.com^
 @@||ads.taboola.com^
@@ -88,6 +88,7 @@ Version: 20220426125453
 /^(\S+\.)?9377[a-z0-9]{2}\.com$/$dnstype=A
 /^(\S+\.)?ad(s?[\d]+|m|s)?\./$denyallow=nucdn.net|azureedge.net|alibabacorp.com|alibabadns.com
 @@||ads.amazon^
+@@||ads.cs.washington.edu^
 @@||ads.delfi.lv^
 @@||ads.instacart.com^
 @@||ads.kazakh-zerno.net^
@@ -247,7 +248,6 @@ Version: 20220426125453
 ||022aifang.com^
 ||022hfxx.cn^
 ||023hysj.com^
-||025suyu.com^
 ||0265331.com^
 ||img.0279.net^
 ||b1.027art.com^
@@ -1140,6 +1140,7 @@ Version: 20220426125453
 ||51.la^
 ||510medicaltrans.com^
 ||5150ab4aa5.com^
+||516624.com^
 ||amradmin.5173.com^
 ||517kp.com^
 ||517m.cn^
@@ -1705,7 +1706,6 @@ Version: 20220426125453
 ||js.9136.com^
 ||91756.cn^
 ||t.91chs.com^
-||91cy.top^
 ||91eto.xyz^
 ||91friend.com^
 ||91funcy.com^
@@ -1977,7 +1977,6 @@ Version: 20220426125453
 ||activate.aami.com.au^
 ||assets1.aami.com.au^
 ||aammbxlhyvefy.xyz^
-||aamnpekfrpfvv.top^
 ||aamsitecertifier.com^
 ||aanqylta.com^
 ||aaoomqpaydap.com^
@@ -3139,6 +3138,7 @@ Version: 20220426125453
 ||adsupplyads.com^
 ||adsupplyssl.com^
 ||adsurve.com^
+||adsvcs.com^
 ||adsvert.com^
 ||adsvids.com^
 ||adsvolum.com^
@@ -3627,7 +3627,6 @@ Version: 20220426125453
 ||agogdebitape.com^
 ||rodo.agora.pl^
 ||agorahtag.tech^
-||agpligj.cn^
 ||agrafestickled.com^
 ||agrantsem.com^
 ||agrarianeruption.com^
@@ -3757,6 +3756,7 @@ Version: 20220426125453
 ||aiks.wang^
 ||ailamed-immobilier.com^
 ||ailawlani.club^
+||ailehui9149.com^
 ||ailezhai.cn^
 ||aili.com^
 ||ailiby.cn^
@@ -5043,7 +5043,6 @@ Version: 20220426125453
 ||aptausad.com^
 ||aptimorph.com^
 ||renton.apttechsol.com^
-||apublishingc.biz^
 ||apugod.work^
 ||apus.tech^
 ||apvdr.com^
@@ -5980,7 +5979,6 @@ Version: 20220426125453
 ||pp.awmplus.com^
 ||awmserve.com^
 ||awnxcexsy.xyz^
-||awokedoubtless.com^
 ||awpcrpu.com^
 ||awprt.com^
 ||awptjmp.com^
@@ -6863,7 +6861,6 @@ Version: 20220426125453
 ||beanstock.com^
 ||beapassionjunkie.com^
 ||bearad.com^
-||bearcatpumps.com.cn^
 ||plausible.bearer.sh^
 ||beastbeef.com^
 ||beastintruder.com^
@@ -6901,7 +6898,6 @@ Version: 20220426125453
 ||lthbdc.become.co.jp^
 ||becomeapartner.io^
 ||becomesday.club^
-||becominggland.com^
 ||becomspectua.club^
 ||becoquin.com^
 ||becorsolaom.com^
@@ -9897,7 +9893,6 @@ Version: 20220426125453
 ||cgjfanun12on.com^
 ||cgjyesqhxzzm.com^
 ||ftp.cgmma.com.br^
-||cgpal.cl^
 ||cgskqg.com^
 ||chabazar.com^
 ||chachors.net^
@@ -9941,6 +9936,7 @@ Version: 20220426125453
 ||inspire.changehealthcare.com^
 ||sfpc.changehealthcare.com^
 ||stats.changelog.com^
+||changement.pro^
 ||changetip.com^
 ||changeyourlife-2022.com^
 ||changhehengqi.com^
@@ -10096,6 +10092,7 @@ Version: 20220426125453
 ||chenqinghui.xyz^
 ||chensenconter.com^
 ||chenvq.cn^
+||chenwang.top^
 ||chenyanjiao.cn^
 ||chenyaxin.xyz^
 ||chenyayun.com.cn^
@@ -11270,6 +11267,7 @@ Version: 20220426125453
 ||dmtw0i4zln92b.cloudfront.net^
 ||dmz3nd5oywtsw.cloudfront.net^
 ||dn3uy6cx65ujf.cloudfront.net^
+||dnh523js9661q.cloudfront.net^
 ||dnhfi5nn2dt67.cloudfront.net^
 ||dnk2wr2ch6zxa.cloudfront.net^
 ||dnn4px252i5wx.cloudfront.net^
@@ -12136,6 +12134,7 @@ Version: 20220426125453
 ||tr.email.contact-landrover.fr^
 ||tag.contactatonce.co.uk^
 ||contactline.top^
+||contactlines.top^
 ||contactlink.top^
 ||contactmonkey.com^
 ||contactrobertroy.com^
@@ -13074,7 +13073,6 @@ Version: 20220426125453
 ||cyglujeshu.com^
 ||cygnus.com^
 ||cyih0e43aty7.com^
-||cyitohoteasqwe.top^
 ||cyjaruvndimgaa.com^
 ||cykynethe.com^
 ||z1.cyla.cn^
@@ -13978,6 +13976,7 @@ Version: 20220426125453
 ||wph2.destinia.us^
 ||destinocuenca.com^
 ||destinylocation.info^
+||destinymc.co.za^
 ||destroyedspear.com^
 ||deswhatlike.biz^
 ||detachedbates.com^
@@ -14215,6 +14214,7 @@ Version: 20220426125453
 ||didit.com^
 ||static.diditaxi.com.cn^
 ||didna.io^
+||didnkinrab.com^
 ||didorenko.org^
 ||didpuprat.com^
 ||die-rankliste.com^
@@ -14343,6 +14343,7 @@ Version: 20220426125453
 ||diplomadosagedream.com^
 ||diplomahawaii.com^
 ||diptaich.com^
+||diqkldlh.com^
 ||dircont3.com^
 ||favelaink.direcionare.com^
 ||loreal.direcionare.com^
@@ -14725,8 +14726,6 @@ Version: 20220426125453
 ||docols.net^
 ||docomo-analytics.com^
 ||alxc.addlv.smt.docomo.ne.jp^
-||alxd.addlv.smt.docomo.ne.jp^
-||alxm.addlv.smt.docomo.ne.jp^
 ||docqacvwhgbxv.com^
 ||docs-construction.com^
 ||docsrmmeil.com^
@@ -15740,7 +15739,6 @@ Version: 20220426125453
 ||easystopadblock.com^
 ||easytarget.ru^
 ||easytomessage.com^
-||service.easytrace.mn^
 ||easytracking.de^
 ||tdf1.easyviaggio.com^
 ||tr.info.easyviaggio.com^
@@ -15997,6 +15995,7 @@ Version: 20220426125453
 ||edvic.com.ng^
 ||m.edweek.org^
 ||sm.edweek.org^
+||edwhitnes.info^
 ||edxlewni.com^
 ||edysn.cn^
 ||ee6a35c1eeee.com^
@@ -16018,7 +16017,6 @@ Version: 20220426125453
 ||eekdwmda.com^
 ||eeksidro.com^
 ||eelfadechi.com^
-||eeltaung.com^
 ||dronespark.eendaan.nl^
 ||eengaums.com^
 ||eensoans.com^
@@ -16939,6 +16937,7 @@ Version: 20220426125453
 ||estoopsi.com^
 ||estrack.net^
 ||estrangefoolish.com^
+||estream.nu^
 ||estream.to^
 ||estream.xyz^
 ||estuaryresidental.com^
@@ -17168,6 +17167,7 @@ Version: 20220426125453
 ||ewruuqe5p8ca.com^
 ||arvb.ewtcbedtmx.ru^
 ||avb-sing.ewtcbedtmx.ru^
+||ewtuyytdf45.com^
 ||ewxewjponmh.xyz^
 ||sanalytics.ewz.ch^
 ||bxlsct.ex-shop.net^
@@ -17796,6 +17796,7 @@ Version: 20220426125453
 ||fearlessmigrantstate.com^
 ||fearpeaceoversight.com^
 ||feastoffortuna.com^
+||featassuage.com^
 ||featbooksterile.com^
 ||feature.fm^
 ||featuredusers.com^
@@ -18479,7 +18480,6 @@ Version: 20220426125453
 ||foagoasu.net^
 ||foamyfood.com^
 ||foapsovi.net^
-||foavistu.net^
 ||foazasis.com^
 ||focalex.com^
 ||focanainternet.com.br^
@@ -19636,6 +19636,7 @@ Version: 20220426125453
 ||geeksrn.com.br^
 ||geeksundigne.com^
 ||gees.com.pl^
+||geesopso.net^
 ||log.geetest.com^
 ||geethoap.com^
 ||gefadythi.pro^
@@ -19849,6 +19850,7 @@ Version: 20220426125453
 ||squirrels.getsquirrel.co^
 ||getstat.net^
 ||getstatistics.se^
+||gettate.date^
 ||getterobes.cam^
 ||gettingusingpoison.com^
 ||delivery.gettopple.com^
@@ -19960,6 +19962,7 @@ Version: 20220426125453
 ||jdgtgb.giga.de^
 ||gigaads.xyz^
 ||gigacpmserv.com^
+||gigamega.su^
 ||giganticgroup.in^
 ||pw.gigazine.net^
 ||gigcount.com^
@@ -20167,6 +20170,7 @@ Version: 20220426125453
 ||globel.co.uk^
 ||globemerchant.com^
 ||globereflecting.com^
+||globeshyso.com^
 ||globestats.com^
 ||globetrackr.com^
 ||horizon-track.globo.com^
@@ -20395,7 +20399,6 @@ Version: 20220426125453
 ||zxvttq.goldapple.ru^
 ||dog.goldcanvas.com^
 ||goldclick.xyz^
-||goldenasiacapital.com^
 ||goldenchance2022.com^
 ||goldeneggtrainingschool.co.uk^
 ||marketing.goldenhelix.com^
@@ -20771,7 +20774,6 @@ Version: 20220426125453
 ||greenrecru.biz^
 ||payment.greenschool.org^
 ||greensprite.top^
-||greensuy.net^
 ||info.greentarget.com^
 ||greentechits.com^
 ||greentouchuae.com^
@@ -20792,7 +20794,6 @@ Version: 20220426125453
 ||gremsaup.net^
 ||grenatorkovsh.site^
 ||campaigns.grenke.com^
-||grensauy.com^
 ||grepdata.com^
 ||grescasa.com^
 ||gresic.com^
@@ -21241,6 +21242,7 @@ Version: 20220426125453
 ||habitualbasin.com^
 ||habitualhumor.com^
 ||habitualorthodox.com^
+||habkjav.cn^
 ||habserver01.com^
 ||habyc.com^
 ||campaign.hach.com.cn^
@@ -21506,6 +21508,7 @@ Version: 20220426125453
 ||hatedgeographical.com^
 ||hatefulrequest.com^
 ||b.hatena.ne.jp^
+||hathyneglu.com^
 ||hatipogluhali.com^
 ||hats-47b.com^
 ||hatsadamantpushed.com^
@@ -22162,7 +22165,6 @@ Version: 20220426125453
 ||hivecn.cn^
 ||info.hiway.org^
 ||hiway91.com^
-||hixili.top^
 ||hiya.com.tr^
 ||hizestusti.com^
 ||hizlireklam.com^
@@ -22345,7 +22347,6 @@ Version: 20220426125453
 ||holiestcoseys.com^
 ||rxqqaq.hollandandbarrett.com^
 ||hollekeamboina.com^
-||hollercatastrophe.co^
 ||hollercatastrophe.com^
 ||hollomart.com^
 ||hollowafterthought.com^
@@ -23560,6 +23561,7 @@ Version: 20220426125453
 ||imagingworld.in^
 ||connect.imam-us.org^
 ||online-metrix.imars.cloud^
+||imbueautoworx.co.za^
 ||imcht.net^
 ||imcpqxmtlapagng.com^
 ||j.imdb.cn^
@@ -23597,7 +23599,6 @@ Version: 20220426125453
 ||imieifiles.website^
 ||imiek.com^
 ||imim.me^
-||imimtord.net^
 ||imitrk.com^
 ||qjcpcy.imkosmetik.com^
 ||imlidc.cn^
@@ -25453,7 +25454,6 @@ Version: 20220426125453
 ||lreust.joshinweb.jp^
 ||joshipolar.com^
 ||quokka.joshuawood.net^
-||josymixmyhome.com.br^
 ||jotchept.com^
 ||joticy.com^
 ||jotpoolwarren.com^
@@ -25760,7 +25760,6 @@ Version: 20220426125453
 ||jutwrench.com^
 ||jutyledu.pro^
 ||juuhe.com^
-||juvbzle.cn^
 ||juvenilebind.com^
 ||juwymapy.xyz^
 ||juxiangyou.com^
@@ -25778,7 +25777,6 @@ Version: 20220426125453
 ||jwg365.cn^
 ||jwjocqgh.xyz^
 ||jwl.hk.cn^
-||jwlbfrmz.com^
 ||jwmfxp.xyz^
 ||jwmstats.com^
 ||info.jwpepper.com^
@@ -26541,6 +26539,7 @@ Version: 20220426125453
 ||sp.knowyourmeme.com^
 ||sp.knoxnews.com^
 ||marketing.knoxville.org^
+||kntdjvwod.top^
 ||kntswafuos.com^
 ||knubbyknit.com^
 ||knujamgz.com^
@@ -26717,6 +26716,7 @@ Version: 20220426125453
 ||stats.krauss.io^
 ||krblog.top^
 ||pkbefa.krc.com.tr^
+||krdmqluvudizq.com^
 ||kredithaapna.online^
 ||plausible.kreya.app^
 ||krezol-group.com^
@@ -26919,7 +26919,6 @@ Version: 20220426125453
 ||kybladfrtfc.com^
 ||kyfunahi.pro^
 ||kykcusq.cn^
-||kykmuyi.cn^
 ||kyle.pub^
 ||capybara.kylewinton.com^
 ||zeabyz.kyliecosmetics.com^
@@ -27700,6 +27699,7 @@ Version: 20220426125453
 ||eventapi.libring.com^
 ||libstat.com^
 ||licantrum.com^
+||licencerings.com^
 ||old.liceum9.ru^
 ||lichee.fun^
 ||lichenqx.com^
@@ -28709,6 +28709,7 @@ Version: 20220426125453
 ||lyjiuban.com^
 ||lyjxwlkj.com^
 ||lyjz001.com^
+||xt.lykj988.com^
 ||lylfj.cn^
 ||lylifa.com^
 ||lynmo.cn^
@@ -28746,7 +28747,6 @@ Version: 20220426125453
 ||lzljhs.com^
 ||lzls.ltd^
 ||g.lznews.cn^
-||lzpgstae.com^
 ||lzqicpumq.com^
 ||lzrikate.com^
 ||lzscagcpmroyyz.com^
@@ -28852,6 +28852,7 @@ Version: 20220426125453
 ||skink.madewithlove.com^
 ||madfinders.com^
 ||madgett.xyz^
+||madicon.co.za^
 ||madingipapuosalai.lt^
 ||madisonlitton.me^
 ||madisonlogic.com^
@@ -29378,6 +29379,7 @@ Version: 20220426125453
 ||maximum-tech.com^
 ||ape.maximzubarev.com^
 ||apply.maxlend.com^
+||hdc.maxli.cn^
 ||gayal.maxmasnick.com^
 ||maxonclick.com^
 ||saa.maxpreps.com^
@@ -30676,6 +30678,7 @@ Version: 20220426125453
 ||monerominer.rocks^
 ||gs.monerorx.com^
 ||monetate.net^
+||monetiza.co^
 ||js.monetize-ssp.com^
 ||monetizer101.com^
 ||monetizze.com.br^
@@ -31117,7 +31120,6 @@ Version: 20220426125453
 ||multitiendallamativo.cl^
 ||nvcqii.multivarka.pro^
 ||multiview.com^
-||mumgee.co.za^
 ||mumosy.com^
 ||dai18.mumu01.com^
 ||lkiqkq.mumzworld.com^
@@ -31273,6 +31275,7 @@ Version: 20220426125453
 ||myaffiliates.com^
 ||myagkiy2sviter11f.com^
 ||myaiou.com^
+||myams.cn^
 ||med.myandroderm.com^
 ||stats.myangular.life^
 ||rqyxdk.myanimelist.net^
@@ -31403,7 +31406,6 @@ Version: 20220426125453
 ||myroofiq.com^
 ||myrrhicfoeman.com^
 ||myrrhiskie.com^
-||mysafeurl.com^
 ||myschoolhn.com^
 ||mysdvvf.com^
 ||metrika.myseldon.com^
@@ -31582,6 +31584,7 @@ Version: 20220426125453
 ||nandinidusane.com^
 ||nandlookfo.fun^
 ||nanfallenconvicted.com^
+||a.nanhuwang.com^
 ||nanigans.com^
 ||nankuan.xin^
 ||nanofine.cn^
@@ -31758,7 +31761,6 @@ Version: 20220426125453
 ||ck.ncclick.co.kr^
 ||ncdnunc.com^
 ||lp.ncdownloader.com^
-||nceicurrently.biz^
 ||nceinbutiwo.biz^
 ||ncerningy.club^
 ||ncesspervice.co^
@@ -32103,6 +32105,7 @@ Version: 20220426125453
 ||news-easy.org^
 ||news-gamma.com^
 ||news-headlines.co^
+||news-hefoja.cc^
 ||news-jupiter.com^
 ||news-mars.com^
 ||repdata.news-press.com^
@@ -32112,6 +32115,7 @@ Version: 20220426125453
 ||push.news-pro.today^
 ||news-robot.com^
 ||news-venere.com^
+||news-yakaja.cc^
 ||news02.biz^
 ||statistics.news1.kr^
 ||news2day.me^
@@ -32765,6 +32769,7 @@ Version: 20220426125453
 ||novawedevent.com^
 ||novelhunger.com^
 ||novelty.media^
+||abj.noveltypolytechnic.edu.ng^
 ||novembershopsconvene.com^
 ||mdws.noventis.ca^
 ||noviceavengeclemency.com^
@@ -33462,7 +33467,6 @@ Version: 20220426125453
 ||okm918.com^
 ||hcjpbc.okmagazine.com^
 ||okna-master.su^
-||oknoplastik.sk^
 ||oko.net^
 ||okokw.com^
 ||oksdyydvwrbrjf.xyz^
@@ -33782,7 +33786,6 @@ Version: 20220426125453
 ||ootchoft.com^
 ||oouth.com^
 ||oowelamdgta.com^
-||ooxoatse.com^
 ||ooxxsearch.com^
 ||l.ooyala.com^
 ||l.player.ooyala.com^
@@ -34063,6 +34066,7 @@ Version: 20220426125453
 ||vldmag.osoujihonpo.com^
 ||ospreymedialp.com^
 ||osqoglv.cn^
+||osseasougan.com^
 ||osskanger.com^
 ||osspalkiaom.com^
 ||ossshucklean.com^
@@ -34687,7 +34691,6 @@ Version: 20220426125453
 ||pastetext.net^
 ||pastimebeakjudgement.com^
 ||butterfly.pastimelabs.net^
-||pastimeswindle.com^
 ||pastoralcorn.com^
 ||pastoralroad.com^
 ||pastreflected.com^
@@ -34915,7 +34918,6 @@ Version: 20220426125453
 ||pegasusconsultores.com^
 ||pegasuson.com^
 ||pegasusplate.com^
-||pegaumsi.com^
 ||peggedolga.com^
 ||pegloang.com^
 ||pegristofi.com^
@@ -34990,6 +34992,7 @@ Version: 20220426125453
 ||peretdiamondschool.com^
 ||perfb.com^
 ||perfdrive.com^
+||perfect999.site^
 ||perfectaudience.com^
 ||bannershotlink.perfectgonzo.com^
 ||featured.perfectionholic.com^
@@ -35272,6 +35275,7 @@ Version: 20220426125453
 ||stats.photovisionprints.com^
 ||phouvemp.net^
 ||phoviheca.com^
+||phox2ey.bid^
 ||stat.php-d.com^
 ||phpape.com^
 ||yolo.phpliveregex.com^
@@ -35762,7 +35766,6 @@ Version: 20220426125453
 ||podiumpresto.com^
 ||podosupsurge.com^
 ||podsolnu9hi10.com^
-||podwonclarity.com^
 ||poedlov.cn^
 ||ea.poeleaboismaison.com^
 ||poemattoso.com.br^
@@ -36165,6 +36168,7 @@ Version: 20220426125453
 ||ppee.xyz^
 ||ppfrlfe.com^
 ||ppinstall.com^
+||ppj338.cn^
 ||ppndr.xyz^
 ||ppoi.org^
 ||sfgysl.ppomppu.co.kr^
@@ -36782,7 +36786,6 @@ Version: 20220426125453
 ||ptaubsih.com^
 ||ptaughar.com^
 ||ptaulrou.net^
-||ptauphie.com^
 ||ptauphiw.net^
 ||ptauxofi.net^
 ||ptavizap.net^
@@ -37317,6 +37320,7 @@ Version: 20220426125453
 ||qhdymdc.com^
 ||m71.qhdzfs.cn^
 ||qhgbkr.cn^
+||qhlmb.com^
 ||qhmrasvwzbwjpz.com^
 ||qhnwj.com^
 ||qhqofqeivtno.com^
@@ -38223,7 +38227,6 @@ Version: 20220426125453
 ||rebikuny.com^
 ||reblownwinare.website^
 ||rebrancardera.site^
-||rebuildcroakdeployment.com^
 ||recallen.info^
 ||guineapig.recap.io^
 ||recastcompellease.com^
@@ -39152,7 +39155,6 @@ Version: 20220426125453
 ||t.rolltide.com^
 ||rolltrafficroll.com^
 ||rolmscvzkp.com^
-||rolrotoo.net^
 ||romalitod.com^
 ||romance-net.com^
 ||romanianpoints.com^
@@ -39582,6 +39584,7 @@ Version: 20220426125453
 ||ry0.rythmefm.com^
 ||jhzwle.ryuryumall.jp^
 ||rywnvzd.cn^
+||rywoments.info^
 ||ryxfyjvcdugdf.com^
 ||ryynoljdarrw.com^
 ||rz261.cn^
@@ -40031,6 +40034,7 @@ Version: 20220426125453
 ||scatteredoutillicit.com^
 ||scatteredstream.com^
 ||news.scbiznews.com^
+||scblqvoiypcoy.top^
 ||scbywiqkm.com^
 ||ostrich.scd-rv.com.au^
 ||scdcd333.cn^
@@ -42865,7 +42869,6 @@ Version: 20220426125453
 ||statuncore.com^
 ||status500.xyz^
 ||statuscake.com^
-||staulrut.net^
 ||stavki-na-sporte.ru^
 ||stawhoph.com^
 ||marketing.stay-rlhc.com^
@@ -43077,7 +43080,6 @@ Version: 20220426125453
 ||strawberriescane.com^
 ||stats.strawberry.rocks^
 ||strawberryinhabitcell.com^
-||strawldeli.biz^
 ||elqtracking.strayer.edu^
 ||streakattempt.com^
 ||go.streakwave.com^
@@ -43619,6 +43621,7 @@ Version: 20220426125453
 ||sxtyhl.top^
 ||sxxfmc.com^
 ||sxybjjz.cn^
+||sxying.top^
 ||sxympy.com^
 ||sxyunyou.cn^
 ||sxyyedu.cn^
@@ -44897,6 +44900,7 @@ Version: 20220426125453
 ||thodowaro.com^
 ||thofandew.com^
 ||thogrypufe.pro^
+||tholected.com^
 ||thomageothe.club^
 ||xaguwy.thomas-muenz.ru^
 ||thomasmanton.com^
@@ -45188,6 +45192,7 @@ Version: 20220426125453
 ||tj-yijiajing.com^
 ||tj-yyy.cn^
 ||tjcghyy.cn^
+||tjcttxdfrlb.com^
 ||tjfot.com^
 ||tjgasbjinlx.xyz^
 ||tjgxzs.com^
@@ -45288,7 +45293,6 @@ Version: 20220426125453
 ||agility.tntdrama.com^
 ||sanalytics.tntdrama.com^
 ||sanalytics.tntgo.tv^
-||tnticnpqp.top^
 ||sanalytics.tntsports.cl^
 ||sanalytics.tntsports.com.ar^
 ||sanalytics.tntsports.com.br^
@@ -45570,7 +45574,6 @@ Version: 20220426125453
 ||toufangke.com^
 ||toughvolume.com^
 ||touglesy.net^
-||toujing4.top^
 ||toujing5.top^
 ||toujing7.top^
 ||toujing9.top^
@@ -46431,6 +46434,7 @@ Version: 20220426125453
 ||twfaebgpngpx.xyz^
 ||stats.twhl.xyz^
 ||twilightsex.com^
+||twilighttents.com^
 ||eventgw.twilio.com^
 ||support.twilio.com^
 ||twinadsrv.com^
@@ -48443,6 +48447,7 @@ Version: 20220426125453
 ||volthamfondue.com^
 ||prime-e.voltiun.cl^
 ||voltskegscurate.com^
+||volumeearthquakedozen.com^
 ||pl.volunteeringauckland.org.nz^
 ||pl.volunteeringwaikato.org.nz^
 ||pl.volunteermarlborough.org.nz^
@@ -48510,8 +48515,8 @@ Version: 20220426125453
 ||tw.api.vpon.com^
 ||bk9gun.vpser.net^
 ||vptbn.com^
-||vpts.co.za^
 ||vpvbojamkoxo.com^
+||vpvbojamkoxo.top^
 ||vpyqdlrweoc.com^
 ||vq7736.com^
 ||vqlrwgj.cn^
@@ -48535,6 +48540,7 @@ Version: 20220426125453
 ||vrizead.com^
 ||vrmynha.cn^
 ||vrptgslcxm.com^
+||vrqsvrnjrhdmek.com^
 ||vrrzmvb.cn^
 ||vrsshsdaa.com^
 ||vrstage.com^
@@ -48566,6 +48572,7 @@ Version: 20220426125453
 ||gmdcft.vsemayki.ru^
 ||vserv.mobi^
 ||vsexshop.ru^
+||vsheying.top^
 ||vshorts.in^
 ||1.vsimg.com^
 ||vsjxqhfkccx.xyz^
@@ -49745,7 +49752,6 @@ Version: 20220426125453
 ||wkfdymfxmyckr.com^
 ||wkihmvgilwj.com^
 ||wkitservices.com^
-||wkjava.top^
 ||wkll7glfazgp.com^
 ||wknaczrxjrj.com^
 ||tag.wknd.ai^
@@ -49963,7 +49969,6 @@ Version: 20220426125453
 ||c.wort-suche.com^
 ||worthathousandwords.com^
 ||worthersefim.club^
-||worthlessjeepphysician.com^
 ||worthyadvertising.com^
 ||worthylighteravert.com^
 ||woshiyunying.com^
@@ -50961,7 +50966,6 @@ Version: 20220426125453
 ||xxdlg.cn^
 ||xxe2.com^
 ||xxecldsp.xyz^
-||xxgiwqv.cn^
 ||xxhrd.com^
 ||xxia.xyz^
 ||xxjuefi.cn^
@@ -51227,7 +51231,6 @@ Version: 20220426125453
 ||ydcpc.com^
 ||ydfz.org^
 ||ydgege.xyz^
-||ydggvnh.cn^
 ||yditweb.cn^
 ||ascaribros.ydns.eu^
 ||ydqcjy.cn^
@@ -51640,7 +51643,6 @@ Version: 20220426125453
 ||youlejia.xyz^
 ||youliangyouxian.xyz^
 ||youlouk.com^
-||subs.youmaker.com^
 ||youmetrix.co.uk^
 ||youmi.net^
 ||youmw.com^
@@ -51814,6 +51816,7 @@ Version: 20220426125453
 ||yttz113.com^
 ||ytuxrqbxf.com^
 ||yu0123456.com^
+||yu520o.top^
 ||yuailairuci.com^
 ||yuandongoffice.com^
 ||frog.yuanfudao.com^
@@ -51970,6 +51973,7 @@ Version: 20220426125453
 ||yystzl.cn^
 ||yysvzaodorhv.com^
 ||q1.yyxwzx.com^
+||yyy6999.com^
 ||yyys.shop^
 ||yaoqing.yz049.com^
 ||yzaosite.com^

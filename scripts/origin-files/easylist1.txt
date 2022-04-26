@@ -5145,6 +5145,7 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||dnh523js9661q.cloudfront.net^
 ||tr.discuss.com.hk^
 ||ymprove.gmx.net^
 ||events.release.narrativ.com^
@@ -19756,7 +19757,7 @@ charlestownwyllie.oaklawnnonantum.com^
 /plugins/aurora-heatmap$stylesheet,script
 /logExecutionStats?
 /busting/*/gtm-
-/wordpress/wp-json/pum/*/analytics/*
+/pum/*/analytics/*
 /gaaddons.js
 /wp-content/plugins/google-analytics-premium/*
 /js/ad_insight/*
@@ -20132,6 +20133,8 @@ _tracking.php?b=
 !
 /analytics.js$domain=freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|newsmax.com|bolgehastanesi.com|ewtc.de
 !
+||fin.rainbownine.net/js/across_adn_
+||wct-1.com/wct.js
 ||bpt.webedia-group.com/pixel.png?
 ||xaas3.jp/tracking/$third-party
 ||virtualcarshop.jp/js/ga.js
@@ -20717,7 +20720,7 @@ petyado.com##td[valign="top"][height="10"] > table[width="795"]
 ||zyuken.net/gcp_remote/ads_imp/
 ||api.fw.tv/embed/
 seshop.com,shoeisha.co.jp###cceol
-/wp-content/plugins/google-analytics-dashboard-for-wp/*$domain=xpornass.com
+/wp-content/plugins/google-analytics-dashboard-for-wp/*$domain=xpornass.com|vitacig.eu.com
 ||static.vocento.com/tag-manager/latest/vtm.js
 ||cdn.jsdelivr.net/npm/rrweb@latest/dist/rrweb.
 -vlybypoc2019.cloudfunctions.net/vtrack?vid=
@@ -20950,7 +20953,6 @@ the-ans.jp##.side-reccomend
 ||cdn.digitaloceanspaces.com/pixel/lp.js
 ||maillist-manage.com/wa/ActionLogger?
 ||softland.co.kr/exec/front/eclog/
-||virtual-dba.com/wp-json/pum/*/analytics/
 ||softland.co.kr/app/Eclog/js/cid.generate.js
 ||push.soft-com.biz/api/ui/metrics
 ||cdn.megadata.co.kr/dist/prod/enp_tracker_
@@ -21050,7 +21052,6 @@ inside-games.jp##.cx-subhead
 business.nikkei.com##.cbCxense
 koneta.nifty.com###custom_html-2
 ||api.aws.mapquest.com/logger
-||yuzde100yerli.com/wp-json/pum/v*/analytics/?event=
 ||mysexgames.com/statstracker.php
 ||churchtechtoday.com/?wordfence_lh=
 ||playep.pro/pl/vendor/stat.min.js
@@ -22954,6 +22955,8 @@ $cookie=wuuid,domain=duolingo.com|duolingo.cn
 !---- Generic rules -----------
 !------------------------------
 !
+! WeCanTrack - used to track the visitor’s session
+$cookie=_wctrck
 ! flocktory.com - identifier of the user
 $cookie=flocktory-uuid
 ! wisepops.com widget counter
@@ -24263,6 +24266,8 @@ $app=com.miui.analytics
 !#endif
 !
 !
+! https://github.com/tofukko/filter/issues/66
+@@||googletagmanager.com/gtm.js$domain=rbbtoday.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/116471
 ||googletagmanager.com/gtm.js$script,xmlhttprequest,redirect=googletagmanager-gtm,domain=whoer.net
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
