@@ -324,6 +324,9 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||track.storm.mg^
+||track.unidata.ai^
+||cdp.cloud.unity3d.com^
 ||bentonow.com^$third-party
 ||sdk.51.la^$third-party
 ||adtriba.com^$third-party
@@ -5147,6 +5150,7 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||analytics.fontanka.ru^
 ||dnh523js9661q.cloudfront.net^
 ||tr.discuss.com.hk^
 ||ymprove.gmx.net^
@@ -24280,6 +24284,8 @@ $app=com.miui.analytics
 !#endif
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/116392
+@@||p.typekit.net/*.css$domain=fedandfit.com
 ! https://github.com/tofukko/filter/issues/66
 @@||googletagmanager.com/gtm.js$domain=rbbtoday.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/116471
