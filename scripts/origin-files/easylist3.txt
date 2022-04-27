@@ -7921,6 +7921,7 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 !
 !
 !
+zoominfo.com###cookies_note
 truevirtualworld.com##.card-cookie
 cire.pl#$#body[style*="overflow"] { overflow: auto !important; }
 acf.international##div[class^="CookieConsentModal"]
@@ -8874,7 +8875,7 @@ winboard.org#$#html > body[data-template] { overflow: visible !important; }
 winboard.org#$#.p-pageWrapper { filter: none!important; }
 gesund.de##.privacy-settings
 loft.com.br#?##__next > div.MuiGrid-root:has( > div.MuiGrid-root > div.MuiGrid-root > p.MuiTypography-root > a[href="https://loft.vc/politica-de-privacidade"])
-wire.com,qzlyrics.com,codespeedy.com###cookie-law-div
+playlistcalculator.net,wire.com,qzlyrics.com,codespeedy.com###cookie-law-div
 iplogger.org###message
 myresume.ru##.rulesInfo
 galeriadaarquitetura.com.br###divPolitica
@@ -13252,7 +13253,7 @@ buffet-crampon.com##.doyoulikecookies
 moebel-und-garten.de,vorname.com,eltern.de##.dsgvo
 sol.de##.dsgvo-container
 nyxcosmetics.com.tr,kiehls.com.tr,bauhaus.com.tr##.duyuru-camp
-really-learn-english.com,buildcomputers.net,grammarbank.com##.eucookiebar
+build-gaming-computers.com,really-learn-english.com,buildcomputers.net,grammarbank.com##.eucookiebar
 hvv.de##.f-cookie-banner
 counterpath.zendesk.com##.flash-cookie
 defacto.com.tr##.footer-cookie-info
@@ -21758,12 +21759,14 @@ theoryandpractice.ru##a[href^="https://form.typeform.com/"]
 ! Specific sites
 !######### Subscription popups add to subscriptions.txt #########
 !
+techgig.com###cubewrapid
 104.com.tw##.popup-container
 getpocket.com##div[data-cy="mylist-flyaway-extensions"]
 theatlantic.com###paywall
 s.shufoo.net###okiniiri-fuwatto-banner
 lektsii.com###divmyclose
 tsargrad.tv##.air-popup
+clubdam.com##.l-page-bottom__cv
 clubdam.com##.newrelease_cv_floatbtn
 dmarket.docomo.ne.jp#$##firstArea.welcome-cover { display: none !important; }
 dmarket.docomo.ne.jp#$##container[style^="position: fixed"] { position: static !important; }
@@ -29171,6 +29174,13 @@ experts-exchange.com##.ctaSolutionStickyWrapper
 theguardian.com##.contributions__adblock
 ||contributions.guardianapis.com^
 !
+content.techgig.com##.topbanner_tg_inner
+content.techgig.com##.tg-clients-banners-rhs
+||znetlive.com/*/flash-banner-2.gif
+||dailyhostnews.com/pdf/flash-banner-1.gif
+znetlive.com##.ab-block-cta
+techgig.com##div[class="container pad16"]
+timesofindia.indiatimes.com#?#p + a[href="/toi-plus/plans"]:upward(1)
 ||livenewsworld.com/wp-content/*/pum/
 blognone.com###above_comments
 javtiful.com##.wrapper > div.container > div.alert-danger
@@ -29504,7 +29514,7 @@ vedantu.com#?#div[class^="Main_automatedSideBar"] > div[class^="AutomatedModules
 kaspersky.*##.promo-card
 timesofindia.indiatimes.com##.article_content br ~ a[href^="https://timesofindia.indiatimes.com/most-searched-products/"]
 analytics.twitter.com##.home-columns div[data-type="advertiser"]
-byjus.com#?#.sidebar > div.bgc-white:has(> div.relatedlinks-widget)
+byjus.com#?#.sidebar > div.bgc-white:has(> div.relatedlinks-widget > div.widget-content > a[target="_blank"] > img)
 wikipedia.org##.cn-fundraising
 blog.ipleaders.in##.td-ss-main-sidebar
 xvideos.com###content > div.mobile-hide + div[class]
@@ -29592,7 +29602,9 @@ proshop.dk##.site-background-banner
 proshop.dk##a[data-action="campaignClick"][data-position="bottom-left"]
 proshop.dk##.site-top-banner
 byjus.com###top-banner-register
-byjus.com#?#.sidebar > div.bgc-white:has(> div.relatedlinks-widget > div.widget-content > a[onclick*="sidebar register click"])
+byjus.com#?#.join-byjus-form-widget:upward(1)
+byjus.com#?#.sidebar > div.bgc-white:has(> div.ask-about-widget)
+byjus.com#?#.sidebar > div.bgc-white:has(> div.register-free-widget)
 m.naver.com##.id_cui_commemoration_banner
 minhaoperadora.com.br##.minha-conteudo
 teknolojihabercim.com##div[style^="width: auto; height: auto; padding:10px;"]
@@ -30052,6 +30064,9 @@ turkuazgazetesi.net,yenialanya.com,mansetaydin.com,seskocaeli.com,kocaelibarisga
 ##.widget_blog_subscription
 ~copays.org,~nothing.tech,~mega-debrid.eu,~curvegames.com,~news.un.org,~norwichzen.org.uk,~dereferer.me###mc_embed_signup
 !
+kinopoisk.ru##div[data-ui-id="post"] > div[style^="background-color:rgba(247, 247, 247, 1);"][style*="border-radius:10px"]
+guru99.com##.af-form-wrapper
+insights.sei.cmu.edu##.subscribe_small
 lamoda.pl##article + a[href="/newsletter"]
 ||adebiportal.kz/web/images/tlg*.png
 adebiportal.kz##p + hr
@@ -32902,7 +32917,7 @@ m.timesofindia.com##.newsletter_wdgt
 eyestech.in,simpleflying.com,netpeak.net##.post-subscribe
 oknamedia.ru##.social-media-and-subscription-buttons
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.js_related-stories-inset
-leverageedu.com,andpro.ru,mskc.pro,gastronom.ru,makeup.ru,migranturus.com,te-st.ru,bosco.ru,makeup.com.ua,netdoktor.de,sierratradingpost.com,rizonesoft.com,avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.footer-subscribe
+trashexpert.ru,leverageedu.com,andpro.ru,mskc.pro,gastronom.ru,makeup.ru,migranturus.com,te-st.ru,bosco.ru,makeup.com.ua,netdoktor.de,sierratradingpost.com,rizonesoft.com,avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.footer-subscribe
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.js_subscribe
 24tv.ua##.subscribe-revolver-wrap
 ricksdailytips.com##.tag-newsletter
@@ -36018,6 +36033,7 @@ full-count.jp#?#section > div.c-heading:has(> p.c-heading__en:contains(RECOMMEND
 .ru/proxy_*.php?p___=*&part_url=*.php?callback=*&token=*&iso=
 .net/proxy_*.php?p___=*&part_url=*.php?callback=*&token=*&iso=
 !
+||boldchat.com^$third-party
 rakuten.co.jp###rexSurveyRoot
 ||partner-widget.vse-sdal.com^
 ||easyliao.com^$third-party

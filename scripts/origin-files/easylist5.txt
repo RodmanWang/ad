@@ -981,8 +981,6 @@ iwatchme2u.com#%#//scriptlet("adjust-setTimeout", "video-ad-timeout", "*", "0.02
 o8tv.com#%#//scriptlet("abort-current-inline-script", "document.write", "tips")
 ! popup
 xvideo.cc#%#//scriptlet("set-constant", "poped", "true")
-! https://github.com/AdguardTeam/AdguardFilters/issues/91356
-cocomanga.com#%#//scriptlet("set-constant", "atob", "undefined")
 ! https://github.com/uBlockOrigin/uAssets/issues/9650
 msn.cn#%#//scriptlet("json-prune", "*", "list.*.link.ad list.*.link.kicker")
 msn.cn#%#//scriptlet('hide-in-shadow-dom', 'msft-article[id^="native_ad_nativead"]')
@@ -1370,7 +1368,6 @@ dcfever.com##.container > .row > .col-md-12[style^="margin-top:"][style*="text-a
 pianba.net###jiedoubanban
 cartoon18.com##.embed-responsive.position-relative > a[href^="http"]:not([href^="/"]):not([href*="cartoon18.com"])
 cartoon18.com##.embed-responsive.position-relative + .card-body > .lines > span.badge + a[href^="http"]:not([href^="/"]):not([href*="cartoon18.com"])
-||cartoon18.com/images/friend/*/*.gif?
 speedtest.cn##.speed-bottom-ads
 jianshu.com##div[aria-label="amc-ad"]
 mmff30.com##span[id$="_gg"]
@@ -13648,7 +13645,6 @@ sina.com.tw##.adbig300_mid
 appledaily.com.tw##.adblock_splash
 17173.com,cdyee.com,chinaz.com,eastmoney.com,epochtimes.com,hsw.cn,ifeng.com,lantian.tv,phoenixtv.com,pyccoo.cn,xineurope.com,yesky.com##.adbox
 plays01.com##.adbox-bg
-dwnews.com##.adbox-top
 ifeng.com##.adbox03
 qq.com##.adbutton-Aritcle-QQ
 qq.com##.adcent
@@ -19730,6 +19726,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
 ||fengfeng.fun^
+||txmsw.mobi^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
