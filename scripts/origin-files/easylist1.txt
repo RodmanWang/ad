@@ -5151,6 +5151,9 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||eventbus.intuit.com^
+||zion.qbo.intuit.com^
+||analytics-production.hapyak.com^
 ||static.cloudflareinsights.com^
 ||mobile.slgnt.eu^
 ||eum*.instana.io^
@@ -20147,6 +20150,10 @@ _tracking.php?b=
 !
 /analytics.js$domain=freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|newsmax.com|bolgehastanesi.com|ewtc.de
 !
+||cheaptickets.com/cl/2x2.gif?
+||ebookers.com/cl/2x2.gif?
+||wotif.com/cl/2x2.gif?
+||buondua.com/hit/?
 ||hentai.name/js/track.js
 ||ws.zoominfo.com/pixel/
 ||b2b.ainews.kz/script/v*/ainews-click.js
@@ -24290,6 +24297,9 @@ $app=com.miui.analytics
 !#endif
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/116712
+@@||googletagmanager.com/gtm.js$domain=cnbctv18.com
+@@||googletagmanager.com/gtag/js?id=$domain=cnbctv18.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/116392
 @@||p.typekit.net/*.css$domain=fedandfit.com
 ! https://github.com/tofukko/filter/issues/66
