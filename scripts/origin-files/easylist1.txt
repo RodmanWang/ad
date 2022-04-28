@@ -324,6 +324,8 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||pix.hyj.mobi^
+||libs.aseads.com^$third-party
 ||brandlock.io^$third-party
 ||track.storm.mg^
 ||track.unidata.ai^
@@ -5151,6 +5153,7 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||n730.timesunion.com^
 ||eventbus.intuit.com^
 ||zion.qbo.intuit.com^
 ||analytics-production.hapyak.com^
@@ -20155,6 +20158,7 @@ _tracking.php?b=
 ||wotif.com/cl/2x2.gif?
 ||buondua.com/hit/?
 ||hentai.name/js/track.js
+||demo.zeenews.com/ads/counter.php
 ||ws.zoominfo.com/pixel/
 ||b2b.ainews.kz/script/v*/ainews-click.js
 ||rokt.com/v1/events^
@@ -20481,7 +20485,7 @@ bcnretail.com###_popIn_recommend
 ||wp.com/*/a8c-analytics.js
 ||motorsport.com/pageinfo/stat/
 ||bownow.jp/js/*/trace.js?referer=
-||freehostedscripts.net/ocounter.php
+||freehostedscripts.net/ocounter.
 ||click.email.rdaenthusiast.com/open.aspx
 ||pelismart.com/wp-content/plugins/perfmatters/js/analytics-minimal.js
 ||hotels.com/taps/v*/Impr?
@@ -24297,6 +24301,10 @@ $app=com.miui.analytics
 !#endif
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/116798
+||smetrics.nintendo.com/id?d_visid_ver=$xmlhttprequest,redirect=nooptext
+!+ PLATFORM(ios, ext_android_cb, ext_safari)
+@@||smetrics.nintendo.com/id?d_visid_ver=$domain=en-americas-support.nintendo.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/116712
 @@||googletagmanager.com/gtm.js$domain=cnbctv18.com
 @@||googletagmanager.com/gtag/js?id=$domain=cnbctv18.com

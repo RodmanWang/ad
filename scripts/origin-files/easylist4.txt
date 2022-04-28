@@ -1313,6 +1313,7 @@ westseattleblog.com#@#.header-ad
 ! Bad: example.org##main > div.ad (should be in specific.txt)
 !
 !
+hobbyconsolas.com#?#.main-content > div > div[data-dfp-display]:upward(1)
 m.mobile.de#?#article[data-testid="srp-regular-ad"] + div[class]:has(> div[id^="m_srp_slot_"][data-label="Anzeige"]:only-child)
 fontanka.ru#?##adv_mob_sticky-mobile-smi:upward(2)
 adme.ru#?#div[data-test-id="article-content"] > div[class*=" "] > div > div:contains(Реклама):upward(2)
@@ -1672,6 +1673,8 @@ rambler.ru#?#main > div[class] ~ div[class] > div[class] div[class] > a[href^="h
 pornhub.com,pornhubthbh7ap3u.onion#%#AG_onLoad(function() { if (typeof redirect !== 'function') return; var str = redirect.toString(); var m = str.match(/\'(\/view.*)\'/); if (m.length != 2) return; var link = m[1]; window.location.href = m[1]; });
 !#################
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/116834
+mumsnet.com#%#//scriptlet('remove-class', 'pt-[100px]', '#main-container')
 ! m.sunporno.com popunder
 m.sunporno.com#%#//scriptlet("abort-current-inline-script", "$", "exoMobilePop")
 ! https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/433
@@ -2545,6 +2548,11 @@ scmp.com,theinventory.com,avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalo
 ! ##.ads
 cartoonpornvideos.com,m.economictimes.com,beethovenmaster.com,m.mistrzowie.org,m.ura.news,siirtpress.com,up.ymgt.xyz,google.de,www-bento-de.cdn.ampproject.org,m-economictimes-com.cdn.ampproject.org,m.winfuture.de##.ads
 !
+pinkpanfan.com###custom_html-11
+pinkpanfan.com###mobile_text-3
+pinkpanfan.com###mobile_text-5
+smbiz.asahi.com##.ad-sp-side-rect
+||tonxton.com/sp-ad/
 mobile.de###mobile-home .home > .brand-placement
 nazoq.com##.spUser
 tsargrad.tv##.article__content + div.article__footer ~ div.article__footer
@@ -2553,6 +2561,10 @@ m.motorsport-total.com##.anzeige-block
 soccer.yahoo.co.jp##.sc-modAd
 sports.yahoo.co.jp###ad-smon
 sports.yahoo.co.jp###ydn-nm
+mumsnet.com###div-mn-non-standard-mobile
+mumsnet.com##div[id^="div_m_talk"]
+mumsnet.com##div[class^="my-"][aria-hidden]
+mumsnet.com###main-container > #mn-reskin + div[class^="bg-gray-100"]
 edh.tw###retargeting_upbn
 m.sabah.com.tr##.adv-content
 ||s.mycar-life.com/amp-itd.html
