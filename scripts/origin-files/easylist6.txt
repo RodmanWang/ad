@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ukzJ5gtYCGxoCZMx0ryoFw
-! Version: 202204272100
+! Checksum: WYEQ6Y0gbB2D8Z0OR4Xk6Q
+! Version: 202204280500
 ! Title: Fanboy's Annoyance List
-! Last modified: 2022-04-27 21:00 UTC
+! Last modified: 2022-04-28 05:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -562,6 +562,7 @@ _site/gotop.
 /web-push/init.
 /webalert-notification
 /webnotf.js
+/webnotification.
 /webpush-production.js
 /webpush.
 /webpush/*
@@ -11135,6 +11136,7 @@ _subscribers_newsletters/
 ##.element-sharethis
 ##.element-socialbookmarks
 ##.element-socials
+##.elementor-shape-bottom
 ##.elementor-social-icon
 ##.elementor-social-icons-wrapper
 ##.elementor-widget-facebook-page
@@ -51208,7 +51210,7 @@ mega.nz#@#.notification-button
 online.rsb.ru#@#.notifications-wrapper
 bimmertoday.de,bmwblog.com,carlsenfritzoe.no,meineschufa.de,push.abs-cbn.com,schufa.de#@#.push-container:not(body):not(html)
 dvhab.ru#@#.push-notification
-asbclassic.co.nz,envirowaste.co.nz,harmoney.co.nz,harmoney.com.au,rocketlabusa.com,underconsideration.com#@#.push-wrap:not(body):not(html)
+asbclassic.co.nz,envirowaste.co.nz,harmoney.co.nz,harmoney.com.au,mstream.io,rocketlabusa.com,underconsideration.com#@#.push-wrap:not(body):not(html)
 arabbank.com.au,operon.pl#@#.push-wrapper:not(body):not(html)
 rescuetime.com#@#.web-notification
 ! Mobile notifications
