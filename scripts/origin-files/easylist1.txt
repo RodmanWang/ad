@@ -5154,6 +5154,8 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||gtm.vanmoof.com^
+||pc3.vanmoof.com^
 ||ad.bench.utorrent.com^
 ||n730.timesunion.com^
 ||eventbus.intuit.com^
@@ -22919,6 +22921,7 @@ link.gmapp*.net$image
 !---- Domain pecific rules ----
 !------------------------------
 !
+||thirdweb.com^$cookie=/^ph_phc_/
 ||manomano.de^$cookie=mm_visitor_id
 ||manomano.de^$cookie=mm_ab_test_version
 ||manomano.de^$cookie=mm_ab_tests
@@ -24311,6 +24314,9 @@ $app=com.miui.analytics
 !#endif
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/116904
+@@||googletagmanager.com/gtag/js$domain=photopea.com
+||googletagmanager.com/gtag/js$script,redirect=google-analytics,domain=photopea.com,important
 ! https://github.com/AdguardTeam/AdguardFilters/issues/116848
 !+ PLATFORM(ios, ext_safari)
 @@||rctech.net/forum/clientscript/vbulletin_analytics.js$domain=rctech.net
