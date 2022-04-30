@@ -7928,6 +7928,14 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 !
 !
 !
+pokerist.com##.cookies_popup
+polizei.brandenburg.de###pbb-cookielaw
+polizei.bayern.de###__BVID__6___BV_modal_outer_
+green.ch##div[data-nezzo-cookie]
+horgen.ch##.optin-stats
+r-m.de##div[data-content="privacy-settings-layer"]
+amplerbikes.com#?#main > div[class]:has(> div[class] > button > span > svg[alt="Cookies akzeptieren"])
+schindelhauerbikes.com###etrpop
 grueneerde.com#$#.CookieWarningComponent { display: none!important; }
 grueneerde.com#$#html { overflow: visible!important; }
 vanmoof.com##.ost-overlay-container
@@ -9253,7 +9261,7 @@ nordicnest.de#?##container > div[class]:has(> div[class] > div[class] > div[clas
 ||stihl.de/etc.clientlibs/stihl-frontend/clientlibs/components/content/cookie/cookielayer/
 petz.com.br##.policy-warning-banner
 kicker.de#$#body { overflow: auto !important; }
-||consentmanager.net^$domain=tausendkind.de|hausgarten.net|kundendienst-info.de|baunetz.de|rabe-bike.de|heinze.de|ais-online.de|dasoertliche.de|reno.de|walbusch.de|mathe-lexikon.at|katzen-forum.net|deutsche-apotheker-zeitung.de|brandible.de|my.games|vergleich.org|finanztip.de|baunetzwissen.de|trusted.de|universal-music.de|web2.cylex.de|mey-edlich.de|schuhe.de|qiez.de|benz24.de|hervis.de|avena.de|heimwerker.de|bauemotion.de|nw.de|kicker.de|herold.at|kalledaskabel.de|bussgeldkatalog.org|plantopedia.de|poetschke.de|weltbild.de|genialokal.de|jokers.de
+||consentmanager.net^$domain=tausendkind.de|hausgarten.net|kundendienst-info.de|baunetz.de|rabe-bike.de|heinze.de|ais-online.de|dasoertliche.de|reno.de|walbusch.de|mathe-lexikon.at|katzen-forum.net|deutsche-apotheker-zeitung.de|brandible.de|my.games|vergleich.org|finanztip.de|baunetzwissen.de|trusted.de|universal-music.de|web2.cylex.de|mey-edlich.de|schuhe.de|qiez.de|benz24.de|hervis.de|avena.de|heimwerker.de|bauemotion.de|nw.de|kicker.de|herold.at|kalledaskabel.de|bussgeldkatalog.org|plantopedia.de|poetschke.de|weltbild.de|genialokal.de|jokers.de|leoncycle.de
 mod.io###achtung-overlay
 bringmeister.de##div[data-testid="cookiePopup"]
 planetkey.de##.survey.alert-box
@@ -9448,7 +9456,7 @@ elu24.ee#$#body { overflow: auto !important; }
 sm.ms##.accept_to_chat
 partyfiesta.com##div[id^="cookiesplus-"]
 handelsangebote.de,marktjagd.de##.box-cookie-consent
-||infomaniak.com/js/rgpd/ik-rgpd.js
+||web-components.storage.infomaniak.com/current/*/module-rgpd/
 godaddy.com###gtm_privacy
 magnethastanesi.com.tr###pupdata-popup
 sumup.de##div[data-selector="container@cookiebar"]
@@ -14845,7 +14853,7 @@ jannonce.be###policyMessage
 ign.com###policyNotice
 esprit.de###policy_header
 zara.com###popup-announcements
-bafa.de,bka.de,antyweb.pl,stylevamp.de,venalia.ru###privacy
+polizei.de,bafa.de,bka.de,antyweb.pl,stylevamp.de,venalia.ru###privacy
 beaconstac.com,asics.com###privacy-policy-modal
 shop.nationalgeographic.com###privacy-policy-popup
 tu-dresden.de###privacy-statement
@@ -19844,6 +19852,8 @@ early-riser.com#?#div[class] ~ h1[style]:contains(Newsletter) + p + div[class]
 ##head[prefix~="medium-com:"] ~ body .js-openInAppButton
 ##head[prefix~="medium-com:"] ~ body .js-postActionsBarContent > .js-readNextInteractions
 !
+k-jz.com###smart_app_banner
+k-jz.com###app_guide
 m.facebook.com##div[data-type="vscroller"] > div[style="margin-top:5px; height:167px; z-index:0; width:360px;"][data-mcomponent="MContainer"][data-tti-phase]
 storm.mg#%#//scriptlet("set-cookie", "app_download_banner", "true")
 storm.mg###floating_bottom_ad
@@ -21780,6 +21790,7 @@ theoryandpractice.ru##a[href^="https://form.typeform.com/"]
 ! Specific sites
 !######### Subscription popups add to subscriptions.txt #########
 !
+polizei.brandenburg.de##div[style*="width: 750px;"][style^="height: auto;"]
 thirdweb.com#%#//scriptlet('set-local-storage-item', 'hasShownWelcome', 'true')
 ||websiteplanet.com/wp-content/themes/websiteplanet/js/popup-ctrl-d.
 rocketpool.net###bug-bounty
@@ -30111,6 +30122,7 @@ turkuazgazetesi.net,yenialanya.com,mansetaydin.com,seskocaeli.com,kocaelibarisga
 ##.widget_blog_subscription
 ~copays.org,~nothing.tech,~mega-debrid.eu,~curvegames.com,~news.un.org,~norwichzen.org.uk,~dereferer.me###mc_embed_signup
 !
+leoncycle.de##.s360-newsletter-wrapper
 justinbiebermusic.com##div[id^="mailing-list"]
 justinbiebermusic.com##.reveal-modal-bg
 moscowtimes.ru,themoscowtimes.com#$#.contribute-modal { display: none !important; }
@@ -35927,6 +35939,7 @@ blog.livedoor.jp,duellinks.doorblog.jp,dragonquestwalk.blog.jp##.rss
 2ch-ero-report.blog.jp,chunisoku.com,eroitaiken.blog.jp,gurasen.com,moetataiken.com,nokuo.blog.jp,nius.doorblog.jp,pokemonunite.blog.jp,okanenews24.com,valorantchannel.livedoor.blog,vipperlog.com,vipstyle.tokyo,blue-archive.doorblog.jp,beikokukabu-etf-matome.com,pokemongo-kouryakumatome.net,doujin-rpgfan.com,nandemo-nadeshiko.blog.jp,samuraisoccer.doorblog.jp,gamehig.com,chomagireko.blog.jp,bybybicycle.blog.jp,animesoku.com,moemoeanime.blog.jp,buzzral.com,2ch-uwaki.com,2chmatome.bloggeek.jp,2monkeys.jp,5ch-echiechi.doorblog.jp,5chmatome.blogo.jp,aburatanisannogamematome.blog.jp,addchannel.net,aiteesokuhou.blog.jp,akb48rompen.com,audioon.blog.jp,azurlane.doorblog.jp,babymetaltimes.com,bb.doorblog.jp,blog-mougenda.com,blog.game084.com,bm.2chblog.jp,chikakb.ldblog.jp,chomangasokuho.blog.jp,curationewsharp.blog.jp,curioso.blog.jp,dareda.net,db-gohan.blog.jp,dechisoku.com,ebitsu.net,ekurere3.com,ekuzodeerhand.blog.jp,everydayissunday.livedoor.blog,fate-go-grandorder.blog.jp,fate-go.blog.jp,fate-gok.blog.jp,fate-grandorder-go.blog.jp,fate-kouryakumaster.blog.jp,fireembs.blog.jp,gacha.blog.jp,gamejksokuhou.com,gazoua2meru.livedoor.blog,geinoutopics-plus.blog.jp,gensen2ch.com,gunji.blog.jp,hanshintigers1.blog.jp,heart-net.xyz,heartlife-matome.com,hero-news.com,hiraganakeyaki.blog.jp,honsoku.com,hoshujapan.jp,hrocks6969.xyz,ideal2ch.livedoor.biz,internet-game-lounge.blog.jp,jiwachan.net,kasegeru.blog.jp,katasumisokuhou.blog.jp,kazokuchannel.doorblog.jp,kijoden.com,kijonikki.net,kijyotsubu.net,kininaruero7.blog.jp,kinpira-san.com,kokoyakyumatomesokuho.blog.jp,koumuin-matome.blog.jp,labradorsokuho.net,maki7.dreamlog.jp,mashlife.doorblog.jp,matmebae.net,matomelotte.com,matomemo-ch.net,mhsoken.blog.jp,mindhack2ch.com,mirishita.2chblog.jp,moe-vip.com,money-life.doorblog.jp,nanj-push.blog.jp,nanj-short.net,nanj-world.blog.jp,nanjchallenge.net,narisoku.blog.jp,newsweb.blog.jp,nizigami.com,onosakaemiri.blog.jp,oomonoyoutubersokuhou.blogo.jp,orufemorufenz.com,oumaga-times.com,pachinko-next.blog.jp,pachinkolist.com,paranormal-ch.com,pawawa.sokuho.org,pinap.blog.jp,pokemon-goh.doorblog.jp,rakukan.net,romeodensetsu.com,ronsoku.com,sematome.com,setouchi48g.ldblog.jp,shironeko-guild.blog.jp,shumi-nikki.xyz,skematomemon.com,sontaku.info,sutekinakijo.com,syurabarabanba.blog.jp,tachiyomitoday.com,taorun.xyz,timely.blog.jp,tsubamesoku.blog.jp,uwakich.com,virtualyoutuber-matome.blog.jp,visual-matome.com,vrtuber-news.com,vtuber-densoku.blog.jp,yabesoku.blog.jp,yofukasi-susume.xxxblog.jp,yurukuyaru.com,zetusoku.net##.rss-blogroll
 !
 !
+news-channel.doorblog.jp##.footerRss
 eegg.fun#?#.innerframe > div.whiteboard > div > div.indent > center > div[id^="rss_"]:upward(5)
 eegg.fun#?#.innerframe > div.whiteboard > div > div.indent > div.gcl[data-gcl-entity="sougo-rank"]:upward(4)
 eegg.fun#?#.innerframe > div.whiteboard > div > div.indent > div.gcl[data-gcl-entity="top-area-ad-bottom"]:upward(4)
