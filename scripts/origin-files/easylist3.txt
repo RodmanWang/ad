@@ -19852,6 +19852,7 @@ early-riser.com#?#div[class] ~ h1[style]:contains(Newsletter) + p + div[class]
 ##head[prefix~="medium-com:"] ~ body .js-openInAppButton
 ##head[prefix~="medium-com:"] ~ body .js-postActionsBarContent > .js-readNextInteractions
 !
+konest.com##div[style$="width:128px; height:240px;"]
 24.rakuten.co.jp##.c-addToHomeScreen
 k-jz.com###smart_app_banner
 k-jz.com###app_guide
@@ -27965,6 +27966,8 @@ disk.yandex.*##.mail360-banner
 @@||yastatic.net/daas/atom.js$domain=mail.yandex.by|mail.yandex.kz|mail.yandex.ru|mail.yandex.ua|mail.yandex.com|mail.yandex.com.tr
 !-----------------------------------------------
 !
+! ex. https://bbs.punipuni.eu/test/read.cgi/vaporeon/1642591029/
+bbs.punipuni.eu##div[style="margin-top:1em;"] > span[style="float:right;"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/117046
 i-voce.jp##.undefined[class^="listItem_"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/116535
@@ -35888,6 +35891,7 @@ twgreatdaily.com$$script[tag-content="indexOf|css|fn|this|attr|unselectable|cons
 !#######################################################
 !
 ! START: Blogroll widgets (sougo RSS)
+||komatech.net^$third-party
 ||fukugan.com^$third-party
 ||3site-rss.s3-ap-northeast-1.amazonaws.com^
 ||blogroll.livedoor.net^

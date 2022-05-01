@@ -324,6 +324,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||unseenreport.com^$third-party
 ||ob.cheqzone.com^
 ||pix.hyj.mobi^
 ||libs.aseads.com^$third-party
@@ -19994,9 +19995,9 @@ _analytics.js?
 /openxtargeting.js
 /page_beacon.gif?
 /partner/transparent_pixel-$image
-/piwik-$domain=~piwik.org|~piwik.pro
-/piwik.$image,script,domain=~matomo.org|~piwik.org|~piwik.pro
-/piwik/js/*$domain=~piwik.org
+/piwik-$domain=~github.com|~matomo.org|~piwik.org|~piwik.pro|~piwikpro.de
+/piwik.$image,script,domain=~matomo.org|~piwik.org|~piwik.pro|~piwikpro.de
+/piwik/js/*$domain=~github.com|~matomo.org|~piwik.org|~piwik.pro
 /piwik1.
 /piwik2.js
 /piwik_
@@ -24315,6 +24316,11 @@ $app=com.miui.analytics
 !#endif
 !
 !
+! https://twitter.com/Barracuda_Dan/status/1520569516278775808
+@@||api.cxense.com/public/widget/data?$domain=mainichi.jp
+@@||csm.cxpublic.com^$script,domain=mainichi.jp
+@@||cxense.com/cx.js$domain=mainichi.jp
+@@||scdn.cxense.com/cx.cce.js$domain=mainichi.jp
 ! https://twitter.com/ublockorigin_ja/status/1520701966732918785
 @@||karte.io/libs/tracker.$script,xmlhttprequest,domain=www.smbc.co.jp
 @@||t.karte.io/empt/build/build.js$~third-party
