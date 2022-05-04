@@ -381,6 +381,9 @@
 ! Bad: ||ad.doubleclick.net^ (should be in adservers.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/117369
+1090ys8.com#%#//scriptlet("abort-on-property-read", "adBlockDetected")
+@@||cdn.bootcss.com/fuckadblock/3.2.1/fuckadblock.min.js$domain=1090ys8.com
 ! https://github.com/uBlockOrigin/uAssets/issues/13003
 cocomanga.com#%#//scriptlet('prevent-setTimeout', 'loadErrorTip')
 !+ PLATFORM(ios, ext_android_cb)
@@ -18104,7 +18107,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$domain=ff14angler.com|logi.im
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=doitwell.tw
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=chaojizhibo.net|chtoen.com|dizhishengcheng.com|doitwell.tw|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|numberempire.com|ozabc.com|patch.ali213.net|pc3mag.com|shenfendaquan.com|switch520.com|vaptcha.com|wenxuecity.com|xbeibeix.com|xiebruce.top|yabook.org|yodu.org
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=liout.com|ygodl.com|youneed.win
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=liout.com|moneysave.info|ygodl.com|youneed.win
 @@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=ebb.io
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net|weithenn.org
 @@||panjiachen.github.io^$generichide
@@ -19771,6 +19774,13 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||jmypdkzixne.com^
 ||lihongyu.xyz^
 ||xtime.hk^
+||sydz.tw^
+||e41.xyz^
+||70we55s.cn^
+||singledog.fun^
+||ybxw.shop^
+||xerhibx.cn^
+||e48.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
