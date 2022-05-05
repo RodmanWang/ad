@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: XILybn/UJKajSBPXub1VCg
-! Version: 202205050450
+! Checksum: wblDNi1UN6yliECXHOdmAA
+! Version: 202205051300
 ! Title: Fanboy's Annoyance List
-! Last modified: 2022-05-05 04:50 UTC
+! Last modified: 2022-05-05 13:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -31402,6 +31402,7 @@ _subscribers_newsletters/
 ##.eb-cookie
 ##.eboxCookieBar
 ##.eboxCookieLaw
+##.ebu-cookies-layer__modal
 ##.ec-cookie-bar
 ##.ec-cookie-policy
 ##.ec-gtm-cookie-directive
@@ -33341,6 +33342,7 @@ _subscribers_newsletters/
 ##.pix-cookie-banner
 ##.pj-ui-cookie-banner
 ##.pko-cookie-rodo-overlay
+##.pl-cookie-popup
 ##.pl-cookies
 ##.pl-cookies-cta
 ##.pl-cookies-cta-contain
@@ -44666,6 +44668,7 @@ algolia.com##.bot-0.left-0
 checkoutwithcoupon.com,zymurgorium.com##.bottom-0
 corporateworld.cards##.bottom-2
 jdslabs.com##.bottom-5
+simtex.io##.bottom-5.fixed
 asket.com##.bottom-fixed-container
 ofisitebg.com##.bottom-freezed-bar
 yubico.com##.bottom-pop-up-container
@@ -51391,7 +51394,7 @@ facebook.com#@#.facebookLikeBox
 jappy.de#@#.facebookbutton
 foxbit.com.br,marketdino.pl,mediaexpert.leszczynscy.pl,pajarito.de#@#.fb-container
 google.com#@#.fb-dialog
-flugzeugbilder.de#@#.fb-footer
+flugzeugbilder.de,jjrichards.co.nz#@#.fb-footer
 allegro.pl,itweb.co.za#@#.fb-icon
 e-biznes.pl,facebook.com,fb.com,gifyagusi.pl#@#.fb-like
 facebook.com#@#.fb-likebox
@@ -51740,6 +51743,7 @@ hootsuite.com#@#.x-facebook
 kinogo-720.net#@#.ya-share2
 youtube.com#@#.youtube-icon
 imgur.com#@#.youtube-link
+ixbt.com#@#.youtube_logo
 youtube.com#@#.youtube_subscribe_module
 twitter.com#@#[alt="retweet"]
 addthis.com#@#[href="http://www.addthis.com/bookmark.php"]
