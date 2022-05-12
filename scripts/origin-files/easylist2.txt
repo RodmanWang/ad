@@ -4145,6 +4145,8 @@ ubmcmm.baidustatic.com
 .8ox.cn
 ||00-gov.cn^
 ||23986834.com^
+||hflssy.com^
+||ijsxk.com^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
@@ -11878,6 +11880,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||360buyimg.com/babel/jfs/t1/209256/22/21888/60206/627b7a6aEa5f2d78b/219868beb169203f.jpg
+||kejiwanjia.com/wp-content/uploads/*/1040x100.
+||kkeji.com/img/*/300250
+||mh3666.com^*.jsonp
 szxx.com.cn###A0
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -17625,6 +17630,7 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
+@@||ads.alafish.cn^$~third-party
 @@.com/adv/$domain=my.ctrip.com
 @@.com/js/a_d/$domain=cocomanga.com|cocomanhua.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
@@ -19738,6 +19744,7 @@ $image,third-party,domain=258zw.com
 /aa_*_a1.js$script,third-party
 /assets/frameworks/types-*?plm=$script,third-party
 /bbhd_*_kkis.js
+/sg.asp?wsg&df=1$script,third-party
 /c.js#pid=$script,third-party
 /ce_l.aspx?showid=$third-party
 /hmzn_*_*_*.js?$script,third-party
@@ -19819,6 +19826,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||jiangsg.me^
 ||bzyunduan.cn^
 ||unnqyqq.cn^
+||j46.xyz^
+||uebabuf.cn^
+||wangchangye.xyz^
+||lovecat.online^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
