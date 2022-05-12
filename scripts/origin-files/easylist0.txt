@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 8dHl3Y1F6dHT7VxGg5GHCw
-! Version: 202205121300
+! Checksum: 1L2u8reO3IBCY+bHsYef/Q
+! Version: 202205122100
 ! Title: Fanboy's Annoyance List
-! Last modified: 2022-05-12 13:00 UTC
+! Last modified: 2022-05-12 21:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -5147,6 +5147,7 @@ _subscribers_newsletters/
 ##.trc_spotlight_item
 ##.widget_am_taboola_main_widget
 ##.widget_ione-taboola
+##[data-taboola-options]
 ! nbc websites app element
 ##.bp-banner
 ! hotjobs widget
@@ -13928,6 +13929,7 @@ _subscribers_newsletters/
 ##.md-sharethis-toolbox-floatingbutton_placement
 ##.md-social-toolbar-circle
 ##.mdSocialButton
+##.mdi-facebook
 ##.mdi-share
 ##.mdi-share-variant
 ##.mdi-twitter
@@ -18348,6 +18350,7 @@ _subscribers_newsletters/
 ##.thread-share-bar-buttons
 ##.thread-share__button
 ##.thread-submission-socialSharing
+##.thrv_tw_qs
 ##.ticker-tweet
 ##.tile_facebook
 ##.tile_pinterest
@@ -30942,6 +30945,8 @@ _subscribers_newsletters/
 ##.cookies[ng-show*="Accept"]
 ##.cookies__banner
 ##.cookies__banner__wrapper
+##.cookies__bar
+##.cookies__bar__header
 ##.cookies__card
 ##.cookies__container
 ##.cookies__content
@@ -38197,6 +38202,7 @@ m###teaser-newsletter
 ||californiatimes.com/gdpr/
 ||ccmp.eu^$third-party
 ||ccpa-script.psg.nexstardigital.net^
+||cdn-cookieyes.com/client_data/
 ||civiccomputing.com^*=cookie$third-party
 ||clickio.mgr.consensu.org^$third-party
 ||clickiocdn.com/t/cmp/$third-party
@@ -52114,6 +52120,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||livefyre.com/site_media/images/auth/$image
 @@||m73ns.xyz/js/devtools-detector.js$script
 @@||makeuseoflimited.netdna-cdn.com/pages/*/images/social.png$domain=makeuseof.com
+@@||mozilla.org/media/img/newsletter/$image,~third-party
 @@||my.leadpages.net/template/$script,domain=weddingjams.com
 @@||my.leadpages.net^*/public/
 @@||nerdwallet.com/cdn/apps/prod/article-client/$~third-party
