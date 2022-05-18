@@ -1187,6 +1187,7 @@ $script,xmlhttprequest,third-party,domain=00ksw.com|01zww.com|0biquge.com|114zw.
 !
 !
 !
+pornlulu.com##.row.links
 oh100.com##.mySwiperBox
 ||cpt.9136.com/img/b_special/
 yazhouse8.com##.mini-over-top
@@ -3425,6 +3426,7 @@ ubmcmm.baidustatic.com
 ###table1[width="812"][height="50"]
 ###table1[width="812"][height="60"]
 ###tanx-con-1
+##script + a[href="/hth.html"][target="_blank"]
 ###tanx-fold-main
 ###taotaole
 ###td_tpc > .ads
@@ -3715,6 +3717,7 @@ ubmcmm.baidustatic.com
 ##.qzdhf
 ##.qzhfaaa
 ##.readmidad
+##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##.right > .content > .ads
 ##.room-ad-bottom
 ##.room-ad-top
@@ -4154,6 +4157,9 @@ ubmcmm.baidustatic.com
 ||00-gov.cn^
 ||000123456789.site^
 ||yanzunyang.top^
+||michaelianice.com^
+||dspxxy.com^
+||xunjiu.online^
 ||0024aaaa.com^
 ||008844.cc^
 ||00xvppy.cn^
@@ -6740,7 +6746,7 @@ ubmcmm.baidustatic.com
 ||yxszy.com^
 ||yxxwyz.com^
 ||yy32.com^$third-party
-||yylgt.com^
+||swlmd.com^
 ||yyp17.com^
 ||yystzl.cn^
 ||yyy6999.com^
@@ -11907,7 +11913,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||chinanewsx.com^$csp=script-src 'self' * 'unsafe-eval'
 szxx.com.cn###A0
+theporn.cc##.pp > .none + div[id]
+chinanewsx.com##a[href="/about/"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -16689,7 +16698,7 @@ bigear.cn##a[href^="/?module=dantian&"]
 x6d.com,xd0.com,xiaodao0.com##a[href^="/ad."]
 vk922.com##a[href^="/ad/"]
 ziyuanba.com##a[href^="/ago."]
-1010dy.vip##a[href^="/goto."]
+1010dy.vip##a[href^="/go"]
 szjjzs.com##a[href^="/pic/tiao/"]
 chinacsbs.com##a[href^="/plus/view.php?aid="]
 96weixin.com##a[href^="/show/ads/"]
@@ -19831,7 +19840,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||cdn.bcebos.com^*/$script,domain=24kwx.cc|fyxfcw.com|jx.la
 @@||cdn.bootcdn.net^$script,domain=biquav.com
 @@||cdn.bootcss.com^$script,domain=59xs.com|ahzwx.com|biqudd.com|didaxiaoshuo.cc|gllmh8.com|luoqiuzw.com|shudai.cc|xbiqugela.com|xhtxt.cc|xiaoshuwu5.com|ysxs8.com
-@@||cdn.jsdelivr.net^$script,domain=yemancomic.com
+@@||cdn.jsdelivr.net^$script,domain=xiaoxiangxs.com|yemancomic.com
 @@||cdn.staticfile.org^$script,domain=00ksw.com|147xsw.com|31xiaoshuo.com|biququ.info|feisucn.net|tsxsw.la|yushubo.com|ziyouge.top
 @@||gtimg.com/libs/$domain=18xs.org
 @@||jsqsjn.com^$script,domain=fyxfcw.com
@@ -19845,6 +19854,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||purchathough.com^
 ||675ujh.site^
 ||lvxingzhe.store^
+||dkvuey.xyz^
+||yrbfol5.cn^
+||gnn01wl.cn^
+||happyhs.club^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
