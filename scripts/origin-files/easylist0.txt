@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: mm36axJlYvvznPiRTlzD1A
-! Version: 202205231300
+! Checksum: l1QN1appvqaXpR9bYqEXTg
+! Version: 202205232100
 ! Title: Fanboy's Annoyance List
-! Last modified: 2022-05-23 13:00 UTC
+! Last modified: 2022-05-23 21:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -36185,6 +36185,8 @@ m###teaser-newsletter
 ##.form__newsletter-subscribe
 ##.form__newsletter-subscribe--block
 ##.form_newsletter_signup:not(html):not(body)
+##.formkit-form.seva-form
+##.formkit-slide-in
 ##.free-enewsletters-widget
 ##.ft_newsletter
 ##.ftop-scrolltop
@@ -45375,6 +45377,7 @@ openweathermap.org##.stick-footer-panel
 grafana.com,scoresaber.com,staterbros.com##.sticky-footer
 daft.ie##.strapline-container
 glose.com##.style__root___1iz9s
+theweathernetwork.com##.style_cookieBar__9A5UB
 lykke.com##.styled__Banner-hg6ib8-0
 monese.com##.styles_Background__3aOgd
 monese.com##.styles_altCookieBannerContainer__1JCTI
@@ -45459,7 +45462,6 @@ foundico.com##.warn-wrap
 ada.com##.wbl72e-0-footer
 capterra.com##.welcome-banner
 wizards.com##.wiz-block-sticky-inline
-theweathernetwork.com##.woahbar
 ghresources.com##.wpt-modal
 fubo.tv##.wrapper
 applehousetravel.co.uk,e-sportsbetting.nl,flysharp.com,iddoberger.com,mandrarossatour.com,o-nine.co.uk,onetime.bet,onetimecasino.com,onetimecasinos.com,southalltravel.co.uk,stashdesign.dk,stfly.com,stsports.com,studio-eastwood.nl,theholidayteam.co.uk,thkarayannis.gr,toysupermarket.ie,utelindenberg.com,xn--studenterrdet-yfb.dk##.wrapperbtm
@@ -52457,6 +52459,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||sdk.privacy-center.org^*/loader.js$domain=filmweb.pl
 @@||studentenwoningweb.nl/KRN/Scripts/jquery.cookiecuttr.js
 @@||swissmed.com.pl/js/jquery.cookiecuttr.js
+@@||termsfeed.com/public/cookie-consent/*/cookie-consent.js$domain=rentastar.pt
 @@||topschool.pl/wp-content/plugins/CookieInfo/js/CookieInfo.js$script
 @@||trevisoairport.it^*/jquery.divascookies-$script
 @@||uicdn.com^*/consent-management.js$domain=gmx.net|home.1und1.de|web.de
