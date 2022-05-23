@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 846hg25B/MhT5E2hNhdq1Q
-! Version: 202205222100
+! Checksum: 778g5d1T4Me2BawsnDn8aA
+! Version: 202205230450
 ! Title: Fanboy's Annoyance List
-! Last modified: 2022-05-22 21:00 UTC
+! Last modified: 2022-05-23 04:50 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -6351,6 +6351,8 @@ _subscribers_newsletters/
 ##.cept-banner-link
 ##.js-openAppBox
 ##.smart-banner-download
+##.smartbanner--android
+##.smartbanner--ios
 ##.smartbanner-android
 ##.smartbanner-container
 ##.smartbanner-desktop
@@ -35298,6 +35300,7 @@ _subscribers_newsletters/
 ###newsLetterForm
 ###newsLetterSignUp
 ###newsLetterSignup
+###newsLetterWidgetSection
 ###newsPopup
 ###newsSignFoot
 ###newsatme_article_subscription_wrapper
@@ -37156,6 +37159,7 @@ m###teaser-newsletter
 ##.ts-newslatter
 ##.ts-newsletter
 ##.tsq_sailthru_newsletter_widget
+##.ttgFooterNewsletterFlyInWrapper
 ##.tve-leads-lightbox
 ##.tve-leads-widget
 ##.type-InsetNewsletterSignup
@@ -40489,6 +40493,7 @@ economist.com##.beta-bar
 itproportal.com##.beta-overlay-background
 itproportal.com##.beta-overlay-popup
 eepower.com,rsf.org##.bg-overlay
+economictimes.indiatimes.com##.bgLayer
 bhaskar.com##.bgTB
 huffpost.com##.bing_pixie
 buzznet.com##.bing_tab_header
@@ -41291,6 +41296,7 @@ shoko.fr##.next-up
 usatoday.com##.next-wrap
 contactmusic.com,gizbot.com##.nextArticle
 memeburn.com##.nextCard
+economictimes.indiatimes.com##.nextHead
 cnet.com##.nextPreview
 msn.com##.next_article
 forbes.com##.next_article_button
@@ -41360,6 +41366,7 @@ astronomy.com,discovermagazine.com##.overlay-wrapper
 needwant.com##.overlay__content
 app.slack.com##.p-download_modal.c-fullscreen_modal.ReactModal__Overlay--after-open
 app.slack.com##.p-ia__workspace_banner.p-client__banners
+economictimes.indiatimes.com##.pEdition
 foodnetwork.com##.package-overlay
 matadornetwork.com##.padder
 msn.com##.paddle
@@ -41474,6 +41481,7 @@ nationalgeographic.com##.previous-next
 usatoday.com##.previous-wrap
 outsideonline.com##.prevnext-nav-inner
 vice.com##.primary
+economictimes.indiatimes.com##.primeOffers
 creation.com##.print-email
 reviversoft.com##.product_download
 roadsandkingdoms.com##.productalert
@@ -46896,6 +46904,7 @@ editorialedomani.it##.article-footer
 newslinet.com##.dialog-widget-content
 onefootball.com##.digest-signup
 donnamoderna.com##.donnam-footer-newsletter
+ilcorrieredelgiorno.it##.elementor-element-7c001dd6
 equos.it##.equos-home-in-evidenza-newsletter-subscribe
 cinematographe.it,policymakermag.it,startmag.it##.essb-subscribe-form
 pambianconews.com,tecnoandroid.it.ravennaedintorni.it##.essb_mailform
@@ -49303,6 +49312,7 @@ senninger-metzgerei.at##.data-protection
 komische-oper-berlin.de,theater-essen.de##.dataprotection
 hilzingen.de##.datenschutz
 dosamigos-ibb.de##.dd-cl-window
+durchblick-durch-daten.de##.dialog-container
 spaetzlesuche.de##.dialog-no-close
 dielinke.berlin##.disclaimer
 meinwomo.net##.divb
