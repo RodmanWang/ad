@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2DN1YmKD43Gksmc0Fd4RYg
-! Version: 202205250450
+! Checksum: SBejhGMHbz7m5f2B2zVizw
+! Version: 202205251300
 ! Title: Fanboy's Annoyance List
-! Last modified: 2022-05-25 04:50 UTC
+! Last modified: 2022-05-25 13:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -3419,6 +3419,7 @@ _youtube_social_
 /bCookiesMessage.
 /bgmp-gdpr.
 /bgon-cookies-
+/bluelabs-gdpr/*
 /borlabs-cookie/*$~script
 /borlabs_cookie/*$~script
 /branding/cb-scripts-
@@ -37600,7 +37601,7 @@ m###teaser-newsletter
 ||pushnotifications.click^$third-party
 ||qeryz.com^$third-party
 ||qrius.me^$third-party
-||qualtrics.com^$third-party
+||qualtrics.com^$~subdocument,third-party
 ||quote.fm/services/button/$third-party
 ||r42tag.com^$third-party
 ||rankdirectory.org^$third-party
