@@ -366,6 +366,8 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/117369
 1090ys8.com#%#//scriptlet("abort-on-property-read", "adBlockDetected")
 @@||cdn.bootcss.com/fuckadblock/3.2.1/fuckadblock.min.js$domain=1090ys8.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/119683
+waipian5.com#@#a[href*=".umtrack.com/"]
 ! https://github.com/uBlockOrigin/uAssets/issues/13003
 cocomanga.com#%#//scriptlet('prevent-setTimeout', 'loadErrorTip')
 !+ PLATFORM(ios, ext_android_cb)
@@ -1189,6 +1191,7 @@ $script,xmlhttprequest,third-party,domain=00ksw.com|01zww.com|0biquge.com|114zw.
 !
 !
 !
+||waipian*.com/statics/recommend/
 ||baiyangzuo.xkyn.com/imgs/js/al.js
 ||dm.verywind.com^$domain=baiyangzuo.xkyn.com
 pornlulu.com##.row.links
@@ -4165,6 +4168,9 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 .8ox.cn
 ||gzzcxxzx.com^
+||tianvip.top^
+||geodeep.org^
+||lindiankj.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -19916,6 +19922,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zszcxxzx.com^
 ||stfyygv.cn^
 ||saxys9w.cn^
+||kerlou.ltd^
+||djfwuer.xyz^
+||haosesaozi.com^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
