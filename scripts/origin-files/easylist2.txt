@@ -80,6 +80,7 @@
 ! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
 !
+||xn--2ss830adjbqy7h.xn--fiqs8s^
 ||mobixc.vnfjsus.xyz^
 ||cul.xunjiu.online^
 ||tp4sul.jwzd.com.cn^
@@ -1191,6 +1192,7 @@ $script,xmlhttprequest,third-party,domain=00ksw.com|01zww.com|0biquge.com|114zw.
 !
 !
 !
+haiwai.com##.container + .fixed-bottom[style^="box-shadow:"]
 ||waipian*.com/statics/recommend/
 ||baiyangzuo.xkyn.com/imgs/js/al.js
 ||dm.verywind.com^$domain=baiyangzuo.xkyn.com
@@ -2311,6 +2313,8 @@ m.xigua110.com##.ui-detail-info > div[style*="line-height:35px; text-align:cente
 ! Bad:  @@||example.org^$stealth (should be in AdGuard Base - whitelist_stealth.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/119386
+hipertextual.com#@#.ad-above-footer
 ! gamersglobal.de - broken main page
 gamersglobal.de#@#.gg-box
 ! https://github.com/AdguardTeam/AdguardFilters/issues/115152
@@ -2721,7 +2725,7 @@ nfmovies.com#@?#div[id]:-abp-has(>img[onclick="openurl()"])
 /assets/banners/600x100/*
 /assets/t_j/tongji.js
 /attachment/freeaddon_banner/*
-/attachments/ad/*
+/attachments/ad/*$domain=~edushida.com
 /avple-images/ad.
 /avple-images/ad_
 /avshow_cn1.gif
@@ -4169,6 +4173,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
 .8ox.cn
+||jnbd43jh.world^
 ||wuyicom.top^
 ||ygfjy.top^
 ||00-gov.cn^
@@ -19925,6 +19930,12 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||baopengys.vip^
 ||clouddream.ltd^
 ||zhzcxxzx.com^
+||52ling.wang^
+||zwmkfoo.cn^
+||meetsocialmeta.com^
+||nxl791.com^
+||ijsks.com^
+||dias2o0.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
