@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: tYOR/kBIc9BSxhwf2D0EnA
-! Version: 202205282100
+! Checksum: Vulo0Aj34E9DflF0eyc//Q
+! Version: 202205290450
 ! Title: Fanboy's Annoyance List
-! Last modified: 2022-05-28 21:00 UTC
+! Last modified: 2022-05-29 04:50 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -3404,6 +3404,7 @@ _youtube_social_
 /avisopcgdpr.
 /avisos_legales/*
 /avvertenza-sui-cookies.
+/aw-cookie.
 /aws-cookie/*
 /bandeau-cookie.
 /bandeauCNIL/*
@@ -23804,6 +23805,7 @@ _subscribers_newsletters/
 ###cookies[style^="bottom:"]
 ###cookies_
 ###cookies_Info
+###cookies__new
 ###cookies__popup
 ###cookies_accept
 ###cookies_accept_box
@@ -26184,6 +26186,7 @@ _subscribers_newsletters/
 ###pasek_ciasteczka
 ###pasek_komunikat_cookie
 ###pastilla-cookie
+###pax-cookies-message-container
 ###pb-cookies-policy-banner
 ###pbAcceptCookies
 ###pb_cookie_message
@@ -26386,6 +26389,7 @@ _subscribers_newsletters/
 ###ppCookies
 ###pp_cookie
 ###pp_cookielaw
+###ppa-cookies
 ###ppms_cm_bar_overlay
 ###ppms_cm_popup_overlay
 ###praivacy-cookie-notice
@@ -34668,6 +34672,7 @@ _subscribers_newsletters/
 ##[data-notification="CookiePolicyAgreement"]
 ##[data-qa="CookieBar"]
 ##[data-qa="txtGdprCookiePopup"]
+##[data-react-class*="CookieConsentBanner"]
 ##[data-react-class="EUCookieBanner"]
 ##[data-rgpd-inc]
 ##[data-s-type="cookie-message"]
@@ -34676,6 +34681,7 @@ _subscribers_newsletters/
 ##[data-test-id="cookie-consent-banner"]
 ##[data-test="cookie-banner"]
 ##[data-test="gdpr-modal"]
+##[data-testid="cookieConsentBanner"]
 ##[data-testid="cookienotice-container"]
 ##[data-testid="cookies_footer"]
 ##[data-testid="main-cookies-banner-container"]
@@ -44465,6 +44471,7 @@ mbc.net###mbc-policy
 logicconcept.eu###mc_top_bar
 908devices.com,comrex.com,pbsinternational.org,pendar.com###mcb-wrap
 iplogger.org,psyonix.com,rocketleague.com,rocketleagueesports.com,wts.com###message
+web.peatus.ee###messageBar
 scrabble-solver.com###messages
 cyclemiles.co.uk###messages-cont
 global.jcb,jcbeurope.eu,picnic.app###modal
@@ -44902,7 +44909,7 @@ cityoflondon.gov.uk##.container-floating-notifications
 bankofengland.co.uk,cityoflondon.police.uk##.container-notifications
 antoineonline.com##.container-overlay
 writerduet.com##.container.pb-4.pt-4
-18virginsex.com,altervista.org,anglianwater.co.uk,ask.fm,awesomic.io,callcredit.co.uk,calvertjournal.com,castleton.edu,cbeci.org,cibeg.com,clubtshe.com,coolblue.be,crazydomains.co.uk,derwaldhof.com,dw.com,farecompare.com,firefox-usb.com,forever21.com,forgeworld.co.uk,gha.org.uk,gheed.com,global.abb,gooddollar.org,hempel.co.uk,hempelyacht.com,here.com,hud.ac.uk,idemitsu.com,investcapital.com.mt,iplt20.com,jaguarlandrover.com,leonorgreyl.com,liptonicetea.com,ludwig.guru,m64.info,mandarinoriental.com,mclaren.com,mik.eu,modecom.com,modhoster.com,moneywise.co.uk,mp3poolonline.com,muskathlon.com,mydraw.com,mysteriumvpn.com,mysurveylab.com,nationalcircus.org.uk,natwest.com,netbiter.com,nornickel.com,npl.co.uk,octotree.io,oldgoesyoung.com,openmailbox.org,pepperl-fuchs.com,postoffice.co.uk,prodir.com,purnatur.eu,rbs.co.uk,redditinc.com,roalddahl.com,rowenta.com,safedns.com,samsunghealthcare.com,secapital.lu,sense.org.uk,sheldrickwildlifetrust.org,silverlake.com,sleek-mag.com,squirt.org,statusbrew.com,syntevo.com,team-mediaportal.com,togetherall.com,top-electronics.com,trailfinders.com,treasurytoday.com,tubidy.news,twitchstrike.com,unicheck.com,unicreditgroup.eu,virgin-atlantic.com,wannawork.com,yachtclubgames.com,ytddownloader.com##.cookie
+18virginsex.com,altervista.org,anglianwater.co.uk,ask.fm,awesomic.io,callcredit.co.uk,calvertjournal.com,castleton.edu,cbeci.org,cibeg.com,clubtshe.com,coolblue.be,crazydomains.co.uk,derwaldhof.com,dw.com,farecompare.com,firefox-usb.com,forever21.com,forgeworld.co.uk,gha.org.uk,gheed.com,global.abb,gooddollar.org,hempel.co.uk,hempelyacht.com,here.com,hud.ac.uk,idemitsu.com,investcapital.com.mt,iplt20.com,jaguarlandrover.com,leonorgreyl.com,liptonicetea.com,ludwig.guru,m64.info,mandarinoriental.com,mclaren.com,mik.eu,modecom.com,modhoster.com,moneywise.co.uk,mp3poolonline.com,muskathlon.com,mydraw.com,mysteriumvpn.com,mysurveylab.com,nationalcircus.org.uk,natwest.com,netbiter.com,nornickel.com,npl.co.uk,octotree.io,oldgoesyoung.com,openmailbox.org,pepperl-fuchs.com,postoffice.co.uk,prodir.com,purnatur.eu,rbs.co.uk,redditinc.com,roalddahl.com,rowenta.com,safedns.com,samsunghealthcare.com,secapital.lu,sense.org.uk,sheldrickwildlifetrust.org,silverlake.com,sleek-mag.com,softhints.com,squirt.org,statusbrew.com,syntevo.com,team-mediaportal.com,togetherall.com,top-electronics.com,trailfinders.com,treasurytoday.com,tubidy.news,twitchstrike.com,unicheck.com,unicreditgroup.eu,virgin-atlantic.com,wannawork.com,yachtclubgames.com,ytddownloader.com##.cookie
 deezer.com,tiktok.com##.cookie-banner
 forcepoint.com,geeksforgeeks.org##.cookie-consent
 7news.com.au##.cookie-consent--normal
@@ -45382,6 +45389,7 @@ devonlive.com##.pwa-prompt
 sdrplugins.com##.px_-h-auto.px_-z-index-10000
 decrypt.co##.py-3.max-w-full
 picarto.tv##.qHsVk
+abetterrouteplanner.com##.r-145dblm.r-nc4a30
 support.sia.tech##.r-l13dpy
 niceareas.co.uk##.rayAlertBox
 blacklimba.com##.recommendation-modal__backdrop
@@ -47046,6 +47054,7 @@ capital.ro,evz.ro##.newsletter
 bucataras.ro##.nl-content
 libertatea.ro##.nl-ntf-wrapper
 bucataras.ro##.sidebar-nl
+kudika.ro##.subscribers-area
 ! Russian
 championat.com###subscription_block
 aif.ru###subscription_item_widget
@@ -49764,6 +49773,7 @@ flair.hr##.css-8g6x3l
 hapih.hr,podravski.hr##.dialog-widget
 buket.hr##.kukip
 usporedi.hr##.modal-backdrop
+bubamara.eu##.modals-wrapper
 agroproteinka.hr##.notice-container
 splendido.hr##.o-data
 infozona.hr##.popup-overlay
@@ -50937,6 +50947,7 @@ amnesia.es,arguedas.es###barra
 suitur.com###bs-gdpr-cookies-modal
 trajesdenovioporta.com###c-notice
 cdecomunicacion.es###ca_banner
+parquesnacionales.cnig.es###capa_galleta
 ilebara.es,maslife.es,piensoluegoactuo.com###container_opacity
 politikon.es,tomasexpediciones.es###cookie
 griffon.es###cookiebar
