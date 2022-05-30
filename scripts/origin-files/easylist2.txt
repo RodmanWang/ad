@@ -364,6 +364,8 @@
 ! Bad: ||ad.doubleclick.net^ (should be in adservers.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/120000
+pincong.rocks#%#//scriptlet("prevent-setInterval", "Ad Block")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/117369
 1090ys8.com#%#//scriptlet("abort-on-property-read", "adBlockDetected")
 @@||cdn.bootcss.com/fuckadblock/3.2.1/fuckadblock.min.js$domain=1090ys8.com
@@ -3888,8 +3890,8 @@ ubmcmm.baidustatic.com
 ##div[id^="photo-header-title-content-text-dall"]
 ##div[onclick*=".leyu"]
 ##div[onclick*="?i_code="]
-##div[style=" max-width:971px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:971px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:972px;  margin:0 auto;"] > a > img[height="120px"]
+##div[style=" max-width:972px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##div[style="text-align:center;"] > a[href*="/register/?i_code="]
 ##img#adv1
@@ -19955,6 +19957,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||woka.cc^
 ||hemkwnz.cn^
 ||huoyun.site^
+||aabelle.com^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
