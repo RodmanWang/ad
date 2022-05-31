@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: sbTiOd9M+q2ApEPKhIlkgA
-! Version: 202205310450
+! Checksum: 9bh21SPoVGfHpbYrTjXolg
+! Version: 202205311300
 ! Title: Fanboy's Annoyance List
-! Last modified: 2022-05-31 04:50 UTC
+! Last modified: 2022-05-31 13:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -26402,6 +26402,7 @@ _subscribers_newsletters/
 ###pp-cookie-notice
 ###ppCookies
 ###pp_cookie
+###pp_cookie_consent
 ###pp_cookielaw
 ###ppa-cookies
 ###ppms_cm_bar_overlay
@@ -45597,9 +45598,10 @@ blueislands.com,merthyr.ac.uk##.usn-notification
 visualiq.com##.utilityBar
 singtel.com##.ux-consent-banner
 clipper-teas.us##.v--modal-overlay
+trustpid.com##.v-bottom-sheet
 rypsv.scot##.v-dialog
 andyguitar.co.uk##.v-dialog__content
-andyguitar.co.uk,rypsv.scot##.v-overlay
+andyguitar.co.uk,rypsv.scot,trustpid.com##.v-overlay
 whitepages.com##.v-snack__content
 rewardlink.io##.v-snack__wrapper
 kusmitea.com##.veil
@@ -45652,6 +45654,7 @@ facebook.com##body:not([style^="margin-bottom"]) div[data-testid="cookie-policy-
 medium.com##div > .branch-journeys-top
 yahoo.com##div.js-applet-view-container-main > div.fixed-win[style^="background:"]
 monzo.com##div[class^="CookieAlert-"]
+abc.net.au##div[class^="CookieBanner_"]
 youtube.com##div[class^="ytd-consent"]
 patreon.com##div[data-tag="cookie-disclosure"]
 cplusplus.com##div[style="background:#eed;padding:10px;margin:0;text-align:center;border-bottom:1px solid #446"]
@@ -52562,7 +52565,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||files.bbci.co.uk^*/cookie-banner/$script,domain=bbc.co.uk
 @@||gamersgate.com/js/cookieconsent.js$script,~third-party
 @@||gazetabilgoraj.pl/wp-content/plugins/uk-cookie-consent/
-@@||gdpr-wrapper.privacymanager.io/gdpr/$script,domain=dailybuzz.nl|futurezone.at|geenstijl.nl|gids.tv|kinuskikissa.fi|kurier.at|lablue.de|nettivuokraus.com|omroepbrabant.nl|parra.nu|profil.at|rtvnoord.nl|verkeerplaza.nl|vesti.bg|weeronline.nl
+@@||gdpr-wrapper.privacymanager.io/gdpr/$script,xmlhttprequest,domain=dailybuzz.nl|futurezone.at|geenstijl.nl|gids.tv|kinuskikissa.fi|kurier.at|lablue.de|nettivuokraus.com|omroepbrabant.nl|parra.nu|profil.at|rtvnoord.nl|verkeerplaza.nl|vesti.bg|weeronline.nl
 @@||gdpr.privacymanager.io^$script,domain=dailybuzz.nl|diepresse.com|futurezone.at|geenstijl.nl|gids.tv|kinuskikissa.fi|kurier.at|lablue.de|nettivuokraus.com|omroepbrabant.nl|parra.nu|profil.at|rtvnoord.nl|vesti.bg|weeronline.nl
 @@||geolocation.onetrust.com/cookieconsentpub/$xmlhttprequest,domain=~cbsnews.com|~cnbc.com|~gamespot.com|~metacritic.com
 @@||gizmochina.com/wp-content/plugins/cookie-law-info/public/js/cookie-law-info-public.js$~third-party
