@@ -1,7 +1,7 @@
 <?php
 //white_domain_list
 //白名单机制...，白名单是
-//@date 2022年04月22日
+//@date 2018年12月23日
 //value=-1,代表失效本条规则，暂只支持单域名（针对引入外部白名单时的精确控制）,当处于strict_mode时，排除此key，单条关闭strict_mode
 //value=0,代表仅加白单条域名
 //value=1,代表其下级域名全部加白（例如3级域名，则其4级子域名全部加白）
@@ -339,6 +339,12 @@ return array(
     'licensebuttons.net' => 0, #609
     'wmflabs.org' => 0, #611
     'jsinfo.net' => 0, #613
+    'uol.com.br' => 0, #632
+    'ntalker.com' => 0, #626
+    'img.shouji.sogou.com' => 0, #623
+    'mo.res.wpscdn.cn' => 0, #636
+    'qhres2.com' => 0, #638
+    'rumble.com' => 0, #639
 
 
 
