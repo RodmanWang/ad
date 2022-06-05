@@ -3701,8 +3701,6 @@ ubmcmm.baidustatic.com
 ##.loc-home-top-adv-new
 ##.lol-ad
 ##.lol_ad
-##.player-rm > a[href*="/ad.html?url="]
-##.module-adslist
 ##.lyzm-prevent
 ##.m1938-container
 ##.main-ad-l
@@ -3718,10 +3716,12 @@ ubmcmm.baidustatic.com
 ##.mediavfeed-newsitem
 ##.menutab_ad
 ##.ml_ad1
+##.ad.mi_btcon
 ##.ml_ad3
 ##.ml_ad5
 ##.mlad
 ##.mod + #bottomBox
+##.module-adslist
 ##.my-cat.my-cat-header
 ##.mylist + #topthree
 ##.mylist > a > img[width^="9"][height="80"]
@@ -3744,6 +3744,7 @@ ubmcmm.baidustatic.com
 ##.player + .sponsor
 ##.player-bottom-gg
 ##.player-info > .recommend-two.recommend-list
+##.player-rm > a[href*="/ad.html?url="]
 ##.player-rm-float
 ##.playtop.col-pd
 ##.pop[style="right: 10px;"]
@@ -3908,9 +3909,9 @@ ubmcmm.baidustatic.com
 ##div[id^="photo-header-title-content-text-dall"]
 ##div[onclick*=".leyu"]
 ##div[onclick*="?i_code="]
-##div[style=" max-width:975px;  margin:0 auto;"] > a > img[height="60px"]
-##div[style=" max-width:978px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:978px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:976px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:979px;  margin:0 auto;"] > a > img[height="120px"]
+##div[style=" max-width:979px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##div[style="text-align:center;"] > a[href*="/register/?i_code="]
 ##img#adv1
@@ -4197,8 +4198,8 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/ayx600.com/"]
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
-||mediaadjustment.com^
 .8ox.cn
+||diwenganzaoji.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -5837,6 +5838,7 @@ ubmcmm.baidustatic.com
 ||mdffun.cn^
 ||medi-8.net^$third-party
 ||media8.cn^$third-party
+||mediaadjustment.com^
 ||mediav.com^$third-party,domain=~dev.360.cn|~g.360.cn
 ||meethanshi.com^
 ||meihaoxiangwang.com^
@@ -12041,6 +12043,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 szxx.com.cn###A0
+yanetflix.com##.player-recommend
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -17388,7 +17391,6 @@ doupocangqiong1.com##div[style="margin:10px auto;width: 930px;height: 250px;"]
 html-js.com##div[style="margin:10px auto;width:1000px;"]
 eworldship.com##div[style="padding: 0px;position: fixed;left: 7px; top: 150px;"]
 baidu.com##div[style="padding: 20px 9px 20px 10px;widget:250px;height:250px;"]
-yanetflix.com##div[style="padding: 5px; background-color: #2b2a2a; border-radius: 30px; text-align: center;"]
 zuanke8.com##div[style="padding:0px 0 10px 0;background-color:#F1F1F1;"]
 win007.com##div[style="padding:6px 0; width:950px; height:45px"]
 7junshi.com##div[style="position: fixed; right: 0px; bottom: 0;z-index:999;width: 300px;height: 250px;"]
@@ -20012,14 +20014,13 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
-||coolfuture.xyz^
-||edison.love^
-||imdvisual.ltd^
-||dkfixj.xyz^
-||jiaxinzhang.cn^
-||luyuheng.love^
-||nfhlink.com^
-||yusnw.cc^
+||xinyexinye.ltd^
+||rrr.plus^
+||chenzhao.xyz^
+||aisastore.club^
+||ywinterspace.ltd^
+||6888i.top^
+||bmzdysi.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -20936,6 +20937,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||concocting.wang^
 ||continuedsys.cn^
 ||continuefaf.top^
+||coolfuture.xyz^
 ||coolguy.store^
 ||cooltool.cc^
 ||cornplus.cn^
@@ -21112,6 +21114,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||djymht.cn^
 ||djzwrfi.cn^
 ||dk2323dk.xyz^
+||dkfixj.xyz^
 ||dkfmhv.xyz^
 ||dkgmgj.xyz^
 ||dkifl.com^
@@ -21225,6 +21228,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||edajin.com^
 ||edajot.cn^
 ||edetzmh.cn^
+||edison.love^
 ||ediun.com^
 ||edoedrl.cn^
 ||edumsys.com^
@@ -21953,6 +21957,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||illegally.wang^
 ||ilmwi.cn^
 ||ilyjmpg.cn^
+||imdvisual.ltd^
 ||imengyoujia.xyz^
 ||imgxb.top^
 ||imiek.com^
@@ -22070,6 +22075,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||jiaoyiwang.fun^
 ||jiasheng-china.cn^
 ||jiatu.co^
+||jiaxinzhang.cn^
 ||jiaxue.xyz^
 ||jiayi2019.top^
 ||jiayiss.com^
@@ -22563,6 +22569,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||lusrg.cn^
 ||luxoshopde.com^
 ||luyouxi.cn^
+||luyuheng.love^
 ||lv-xin.cn^
 ||lvhqntk.cn^
 ||lvkuaizi.com^
@@ -22825,6 +22832,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||nernv.com^
 ||netshare.ltd^
 ||neudata.cloud^
+||nfhlink.com^
 ||ngceq.cn^
 ||nggdwfz.cn^
 ||ngogmbe.cn^
@@ -24583,6 +24591,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||yupei.love^
 ||yushengyuancaishui.com^
 ||yushuha.com^
+||yusnw.cc^
 ||yuuuxi.top^
 ||yuxiny.com^
 ||yuyinqs.com^
