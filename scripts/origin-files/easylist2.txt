@@ -1209,6 +1209,7 @@ $script,xmlhttprequest,third-party,domain=00ksw.com|01zww.com|0biquge.com|114zw.
 !
 !
 !
+php.cn##.wwads-cn
 downkr.com##.banner-right
 downkr.com##.address-right > div > a[target="_blank"] > img
 viu.com##div[data-marker-title="undefined"]
@@ -12056,6 +12057,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 ||phb123.com/skin/js/tongji.js
 ||tianshui.com.cn/gg/
+||elecfans.com/webapi/advertisement/
 szxx.com.cn###A0
 zol.com.cn##div[style="width: 300px; height: 250px; position: fixed; right: 0px; bottom: 0px; z-index: 9999; display: block;"]
 szxx.com.cn###A1
@@ -20027,7 +20029,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||edetlmb.cn^
 ||gzww.site^
+||uniworldgroup.asia^
 ||guoyu.link^
 ||chenhao.name^
 ||princesses.asia^
