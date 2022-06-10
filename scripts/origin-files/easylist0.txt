@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Mqw9pkLikYMP0VCBZhBZ7g
-! Version: 202206092100
+! Checksum: 3F9pzIFpv/ihZIbRUfVNxw
+! Version: 202206100400
 ! Title: Fanboy's Annoyance List
-! Last modified: 2022-06-09 21:00 UTC
+! Last modified: 2022-06-10 04:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -8414,7 +8414,6 @@ _subscribers_newsletters/
 ###social-loop
 ###social-louis
 ###social-lyrics
-###social-media
 ###social-media-activity
 ###social-media-bar
 ###social-media-bar-h
@@ -31439,7 +31438,6 @@ _subscribers_newsletters/
 ##.dot-cc-wrapper
 ##.dot-cookie-prompt
 ##.doyoulikecookies
-##.dp--cookie-consent
 ##.dp-cookie-legal
 ##.dr-cookie-info-box
 ##.dr-message-cookie
@@ -35054,6 +35052,7 @@ _subscribers_newsletters/
 ##div.cookieBanner
 ##div.cookieBar
 ##div.cookieInfo
+##div.dp--cookie-consent
 ##div.is-cookie
 ##div.is-cookies
 ! onyx-healthcare.com
@@ -51839,7 +51838,6 @@ cnbc.com#@##social-buttons-transporter
 birebin.com,pictame.com,thepictaram.club#@##social-container
 arstechnica.co.uk,arstechnica.com,mozilla.org#@##social-footer
 appspot.com#@##social-header
-fitocracy.com#@##social-media
 prism-break.org#@##social-networks
 amongtech.com#@##social-sidebar
 okanime.com#@##social-wrapper
@@ -52170,7 +52168,6 @@ f-secure.com,howtogeek.com#@#.social-media-buttons
 telepolis.pl#@#.social-media-icons
 chorus.co.nz#@#.social-media-links
 schuermann.eu#@#.social-media-list
-hopin.com#@#.social-media:not(html):not(body)
 insideover.com#@#.social-menu
 e-gezondheid.be,e-sante.be,e-sante.fr#@#.social-networks
 nvidia.pl#@#.social-newsletter
@@ -53522,7 +53519,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 ! fanboy_newsletter_allowlist.txt
 @@||abc.net.au^*/components/newsletter/
 @@||blogsmithmedia.com^*/sailthru-newsletter.js?
-@@||buy.tinypass.com/checkout/template/cacheableShow$subdocument,domain=thenation.com
+@@||buy.tinypass.com/checkout/template/cacheableShow$subdocument,domain=technologyreview.com|thenation.com
 @@||chobani.com/js/views/newsletter-signup.js
 @@||e24.no/cnp-assets/src-sites-e24-components-newsletterwidget.$~third-party
 @@||el-vidas.nl^*/phpcuong_newsletter/$script
