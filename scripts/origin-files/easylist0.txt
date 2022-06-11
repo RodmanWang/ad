@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: NzRZZKFFaIbgmEBcdJ992A
-! Version: 202206110400
+! Checksum: RDr/amsgNeSi7o34CmoBqg
+! Version: 202206111250
 ! Title: Fanboy's Annoyance List
-! Last modified: 2022-06-11 04:00 UTC
+! Last modified: 2022-06-11 12:50 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4004,6 +4004,7 @@ _youtube_social_
 /iubenda_cs.
 /iuscookie.
 /javascript-cookieconsent.
+/javascript/gdpr?
 /jbcookies.
 /jcookie.js
 /jcookie/*
@@ -4038,6 +4039,7 @@ _youtube_social_
 /layer-cookienotice.
 /lbox_cookie.
 /ld-cookies-
+/LdCookieConsent.
 /legal/cookies/?
 /legal_cookie.
 /legalcookie.
@@ -27822,6 +27824,7 @@ _subscribers_newsletters/
 ##.accept-cookies-toast
 ##.accept-cookies-wrapper
 ##.accept-my-cookie
+##.accept-privacy-policy
 ##.accept-privacypolicy
 ##.accept-rgpd
 ##.acceptCookie
@@ -32867,6 +32870,7 @@ _subscribers_newsletters/
 ##.mainPrivacyBar
 ##.mainPrivacyDiv
 ##.mainPrivacyModal
+##.managerCookies
 ##.mantinga-cookie-notice
 ##.marked-cookie-consent__modal
 ##.maserati-cookie
@@ -33513,6 +33517,7 @@ _subscribers_newsletters/
 ##.pl-cookies
 ##.pl-cookies-cta
 ##.pl-cookies-cta-contain
+##.platform--cookies--container
 ##.plazma-cookie-bar
 ##.plazma-cookie-bar--active
 ##.plg_system_eprivacy_module
@@ -35005,6 +35010,7 @@ _subscribers_newsletters/
 ##pp-cookie-dialog
 ##privacy-policy-toast
 ##rtk-cookies-notice
+##s72-cookie-consent
 ##sd-cookies-widget
 ##section > .cookie
 ##section[class*="_CookieNotice"]
@@ -38611,7 +38617,7 @@ _subscribers_newsletters/
 ||widget.clym-sdk.net^$third-party
 ||wpcc.io^$third-party
 ! privacy-mgmt.com
-||cdn.privacy-mgmt.com^$domain=idealo.co.uk|justthenews.com|jyllands-posten.dk|marketwatch.com|phonostar.de|pricespy.co.uk|sky.com|wsj.com
+||cdn.privacy-mgmt.com^$domain=ecomento.de|idealo.co.uk|justthenews.com|jyllands-posten.dk|marketwatch.com|phonostar.de|pricespy.co.uk|sky.com|wsj.com
 ! Consent Trackers
 ||opencmp.net^$script,third-party
 ||sp-prod.net^$third-party,domain=~11freunde.de|~autobild.de|~bike-bild.de|~bild.de|~bitcoinmagazine.com|~boerse-online.de|~bold.dk|~businessinsider.de|~businessinsider.fr|~bz-berlin.de|~caramia.de|~clever-tanken.de|~computerbild.de|~dengarden.com|~djbooth.net|~edelblech.de|~f4wonline.com|~fashionista.com|~faz.net|~finanzen.at|~finanzen.ch|~finanzen.net|~fitbook.de|~gentside.com|~gofeminin.de|~hobbylark.com|~holidappy.com|~hubpages.com|~idealo.at|~idealo.co.uk|~idealo.de|~idealo.es|~idealo.fr|~idealo.it|~immonet.de|~insider.com|~kombi.de|~levelskip.com|~maxisciences.com|~meinestadt.de|~metal-hammer.de|~mixedmartialarts.com|~mtonews.com|~musikexpress.de|~myhomebook.de|~n24.de|~noizz.de|~onmeda.de|~owlcation.com|~pairedlife.com|~politico.eu|~psmag.com|~reelrundown.com|~rollingstone.de|~spinditty.com|~sportbild.de|~stylebook.de|~t3n.de|~techbook.de|~testbild.de|~thestreet.com|~toughnickel.com|~transfermarkt.at|~transfermarkt.ch|~transfermarkt.co.uk|~transfermarkt.com|~transfermarkt.com.tr|~transfermarkt.de|~transfermarkt.fr|~transfermarkt.it|~transfermarkt.nl|~transfermarkt.pl|~transfermarkt.pt|~transfermarkt.us|~travelbook.de|~turbofuture.com|~tvspielfilm.de|~vip.de|~welt.de|~wieistmeineip.at|~wieistmeineip.ch|~wieistmeineip.de|~writersdigest.com|~zuio.tv
@@ -51583,6 +51589,7 @@ thietbimamnon.org##.iRhDdN
 ||consent.gutefrage.net^
 ||cookies.ptj.de^
 ||henryschein.at^*/CookieList.aspx
+||howatherm.de/frontend/media/cm/
 ||saturn-klima.de/wp-content/a0a206f468204945563d799b8f319215.js
 ||stefke-heilbronn.de/wp-content/1ae6d298321568877d478a611c6536f4.js
 ||strato.de^*/consent.js
@@ -52730,7 +52737,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||windy.com^*/plugins/particles.js$script,~third-party
 @@||ws.audioscrobbler.com^$domain=diffuser.fm
 @@||yimg.com/ud/fp/js/GoldenGate$script,domain=mobi.yahoo.com
-@@||zdassets.com/ekr/snippet.js$domain=bitsacard.com|nvidia.eu|superbet.pl
+@@||zdassets.com/ekr/snippet.js$domain=bitsacard.com|myurbanjungle.com|nvidia.eu|superbet.pl
 @@||bostonherald.com^*/webpush.js$script,~third-party
 @@||braze.com/api/$domain=deezer.com
 @@||forums.opera.com/assets/src/modules/notifications.js$~third-party
