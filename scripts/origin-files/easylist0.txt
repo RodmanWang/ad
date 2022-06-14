@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: nxRQ8jy7zd7KTVPIIQc8jQ
-! Version: 202206140500
+! Checksum: sO8e07lwk5sR7sqbJaPA1g
+! Version: 202206141300
 ! Title: Fanboy's Annoyance List
-! Last modified: 2022-06-14 05:00 UTC
+! Last modified: 2022-06-14 13:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -20456,6 +20456,7 @@ _subscribers_newsletters/
 ###PPcookie
 ###PageCookieWarning
 ###PanelCookieOverlay
+###PanelCookies
 ###PaveCookies
 ###PersonalDataInfoBar
 ###Piper-Consent
@@ -28683,6 +28684,7 @@ _subscribers_newsletters/
 ##.cc-onconsent-analytics
 ##.cc-onconsent-social
 ##.cc-policy
+##.cc-policy-overlay
 ##.cc-privacy-bottom-container
 ##.cc-revoke
 ##.cc-stop-overlay
@@ -33571,6 +33573,7 @@ _subscribers_newsletters/
 ##.ph-widget-target[data-widget*="cookie-popup"]
 ##.philadelphia-optin-visible
 ##.philoro_cookies--popover
+##.phpro-cookie-notice
 ##.phs-cookie-popup-area
 ##.phunk-cookie-wrapper
 ##.pi-cookie-message
@@ -33795,6 +33798,7 @@ _subscribers_newsletters/
 ##.privacyTop
 ##.privacy[aria-label*="notification"]
 ##.privacy__popup
+##.privacy_banner
 ##.privacy_consent
 ##.privacy_cookies_policy
 ##.privacy_div
@@ -42489,6 +42493,7 @@ imgur.com##.EmeraldBanner
 talkingpointsmemo.com##.Footer__ModalAds
 marieclaire.com.au##.MagDriver
 disk.yandex.com##.PSHeader-Center
+zerohedge.com##.TheMarketEarHomePageSidebar_container__dCIOv
 aarp.org##.aarpe-site-banner
 newrepublic.com##.ad-container-house
 hindawi.com##.advWrapper
@@ -44634,7 +44639,7 @@ trendmicro.com###content-policy
 wotinfo.net###coo
 alcoholics-anonymous.org.uk,cryps.info,imagefu.com###cook
 mathsisfun.com###cookOK
-add0n.com,aflite.co.uk,aon.com,aqform.com,atom42.co.uk,bakersmall.co.uk,bbvonline.net,best-faucets.com,betradar.com,bookingsouthtyrol.com,boscolohotels.com,boxnation.com,constructionguarantee.ie,disclose.ngo,e-doggy.com,eqavet.eu,essentraextrusion.eu,flexerasoftware.com,fremantlemedia.com,gulfstream.com,iadvize.com,keyboardco.com,kicc.org.uk,kmcchain.eu,lonewolfonline.net,mirka.com,mobileroadie.com,mouseprice.com,nspcc.org.uk,oilplusltd.com,onenessscotland.org,phpipam.net,prestashop.com,pretix.eu,priorygroup.com,raising-ducks.com,rodacciai.fr,sainsburysenergy.com,schoms.ac.uk,simmons-simmons.com,stiripesurse.ro,tadeevo.com,technutty.co.uk,thebmc.co.uk,toomeymotorgroup.co.uk,tutsandtips.com,tvcorner.com,unsee.cc,wheatley-group.com,windpress.info,zbmath.org###cookie
+add0n.com,aflite.co.uk,aon.com,aqform.com,artifolk.co.uk,atom42.co.uk,bakersmall.co.uk,bbvonline.net,best-faucets.com,betradar.com,bookingsouthtyrol.com,boscolohotels.com,boxnation.com,constructionguarantee.ie,disclose.ngo,e-doggy.com,eqavet.eu,essentraextrusion.eu,flexerasoftware.com,fremantlemedia.com,gulfstream.com,iadvize.com,keyboardco.com,kicc.org.uk,kmcchain.eu,lonewolfonline.net,mirka.com,mobileroadie.com,mouseprice.com,nspcc.org.uk,oilplusltd.com,onenessscotland.org,phpipam.net,prestashop.com,pretix.eu,priorygroup.com,raising-ducks.com,rodacciai.fr,saa.co.uk,sainsburysenergy.com,schoms.ac.uk,simmons-simmons.com,stiripesurse.ro,tadeevo.com,technutty.co.uk,thebmc.co.uk,toomeymotorgroup.co.uk,tutsandtips.com,tvcorner.com,unsee.cc,wheatley-group.com,windpress.info,zbmath.org###cookie
 cookieshark.eu###cookie--Modal
 peterchristian.co.uk###cookie-acceptancce
 gorillas.io###cookie-settings
@@ -45684,6 +45689,7 @@ parliament.scot##.projects-takeover
 caithnesslodges.scot##.prominent
 espn.com##.promo-banner-container
 loggly.com##.promotion
+poundshop.com##.promotion-strip-wrapper
 newscientist.com##.prompt
 compuprint.com##.pryck
 creality3dofficial.com,creality3dofficial.eu##.pub-tip
@@ -49799,7 +49805,7 @@ barzahlen.de##.banner-wrapper
 slewo.com##.banner_ack
 tu-onlinedays.tu-darmstadt.de##.bcMPWx
 kontist.com##.bg-opacity-50
-fembio.org##.bg-wg-modal
+fembio.org,natur.com##.bg-wg-modal
 nijlen.be##.block-messages
 pott.de,wodka-gorbatschow.de##.blue-bg
 china-certification.com##.blueline-content-popup
@@ -49831,6 +49837,7 @@ crimetime.com##.cookie-text
 sunrise.ch##.cookieBanner_cookie-container__2h6CD
 giffits-werbeartikel.at,giffits-werbeartikel.ch,giffits.de##.cookie_opt_in--wrapper
 fannatic.be,iwp.be,parfumsclub.de,reinbold-entsorgungstechnik.com,selfhost.de,svww.de##.cookies
+zeitzurtrauer.de##.css-13q0q95
 propellermann.de##.cw_ov
 discover-utrecht.com##.dSWqfk
 bbbank.de,berliner-volksbank.de,psd-rhein-ruhr.de,sparda-b.de##.darken-layer
@@ -51244,6 +51251,7 @@ detmir.ru##.X
 ratengoods.com##._1QGn
 rocketbank.ru##._1zhzBm
 culture.ru##._2GcIz
+afisha.ru##._2r-6f
 voka.tv##._3u9jqhQV
 2gis.ru##._nlniiu
 oreluniver.ru##.accept
@@ -51311,8 +51319,9 @@ tutu.ru##.style__disclaimer
 ingrad.ru##.styles-module__cookiesWarning--2mfHC
 lada.ru##.styles_container__1obM5
 66.ru,gorodvo.ru##.t-i-agree
-alfabusinessweek.ru,sales-battle.ru##.t657
-dcciv.ru##.t657__wrapper
+alfabusinessweek.ru,bohoo.ru,dailydaisy.ru,dcciv.ru,domino-sveta.ru,evisa-russia.ru,floristtina.ru,nadessert.com,qapp.tech,sales-battle.ru,zaslon-ul.ru##.t657
+bolotova.site,itlawyers.ru,mcbrothers.ru,saimaa-life.com,slurm.io,snabznak.ru,way2success.club,webexovet.ru##.t886
+beauty-nova.ru,kv-techno.ru,likvidater.ru,timberg-battery.ru,xn--80asghhd1h.xn--p1ai##.t887
 atlex.ru##.terms-popup
 vplaboratory.ru##.top-message
 pfr.gov.ru##.user-data-processing-wrapper
@@ -52683,6 +52692,7 @@ hardware.info#@#.cookiecontainer
 balay.es,bosch-home.at,bosch-home.be,bosch-home.com,bosch-home.dk,bosch-home.es,bosch-home.fi,bosch-home.fr,bosch-home.lt,bosch-home.lu,bosch-home.nl,bosch-home.no,bosch-home.ro,bosch-home.se,bsh-group.com,constructa.com,home-connect.com,neff-home.com#@#.cookielaw-setcookiepolicy-form
 gids.tv#@#.cookiemessage
 asialadies.de,avladies.de,badeladies.de,behaarteladies.de,bizarrladies.de,busenladies.de,deutscheladies.de,devoteladies.de,dominanteladies.de,erfahreneladies.de,escorts24.de,exklusivladies.de,fkk24.de,grosseladies.de,hobbyladies.de,jungeladies.de,kollegin.de,kussladies.de,ladies.de,latinaladies.de,massierendeladies.de,mollyladies.de,nsladies.de,nymphomaneladies.de,orientladies.de,osteuropaladies.de,piercingladies.de,rasierteladies.de,schokoladies.de,tattooladies.de,tsladies.de,zaertlicheladies.de,zierlicheladies.de#@#.cookies-accept
+trading212.com#@#.cookies-consent-popup
 amarujala.com#@#.cookies-container
 bankmillennium.pl#@#.cookies-info
 mydealz.de#@#.cookies-message
