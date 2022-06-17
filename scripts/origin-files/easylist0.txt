@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: kAHKJONnjljX97OR3qrC1A
-! Version: 202206171300
+! Checksum: TQPQcwLoQb+u8+7Wywozaw
+! Version: 202206172100
 ! Title: Fanboy's Annoyance List
-! Last modified: 2022-06-17 13:00 UTC
+! Last modified: 2022-06-17 21:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -9954,6 +9954,7 @@ _subscribers_newsletters/
 ##.asicon-facebook
 ##.asicon-google-plus
 ##.asicon-twitter
+##.aside-follow__social
 ##.aside-news-box-share
 ##.aside-social
 ##.aside-social__widget__wrapper
@@ -44314,6 +44315,8 @@ aa.com.tr##.ustBar-sosyal
 vanityfair.com##.utilities-top
 activision.com##.utility
 ndtv.com##.vid_socwid_wrap
+news18.com##.videoSocial
+forbes.com##.video__social
 koreatimes.co.kr##.view_sns_div
 motorsport.tv##.vjs-icons-bar
 dailymail.co.uk##.vjs-social-controls
@@ -52678,6 +52681,7 @@ attestation.app,grapheneos.org,ilpiemontetivaccina.it,minden.co.jp,mozilla.org,r
 dcinside.com#@##privacy_policy
 schwaebische.de,tf1.fr#@##tc-privacy-wrapper
 forgeandfortune.com#@##toasts > #toastsWrapper
+forbesafrica.com#@#.CookieConsent
 what3words.com#@#.CookieNotice-Drawer
 aa.com,bancaifis.it#@#.Cookies:not(body)
 telegraaf.nl#@#.CookiesOK
@@ -52844,6 +52848,7 @@ wetransfer.com#@#.welcome--cookies
 inspirock.com#@#.with-cookie
 ceramtec-group.com,openfiber.it,rete.toscana.it#@#[aria-label="cookieconsent"]
 devowl.io#@#[href="https://devowl.io/wordpress-real-cookie-banner/"]
+forbesafrica.com#@#div[class*="CookieConsent"]
 what3words.com#@#div[class^="CookieNotice"]
 etsy.com#@#div[data-gdpr-consent-prompt]
 facebook.com,messenger.com#@#div[data-testid="cookie-policy-banner"]
