@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: eglF35KFQvfwNbUHxdC1Ow
-! Version: 202206192100
+! Checksum: TUQT9rnGyL22f+QswaxoRw
+! Version: 202206200450
 ! Title: Fanboy's Annoyance List
-! Last modified: 2022-06-19 21:00 UTC
+! Last modified: 2022-06-20 04:50 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -737,9 +737,6 @@ _revotas_push.
 -social-sidebar.
 -Social-Sidebar/
 -social-slider/
--social-sprite-
--social-sprite.
--social-sprites.
 -social-tumblr-
 -social-twitter-
 -social-twitter.
@@ -2418,12 +2415,6 @@ _revotas_push.
 /social-sharing.
 /Social-Sidebar.
 /social-signs.
-/social-sprite-
-/social-sprite.
-/social-sprite_
-/social-sprites-
-/social-sprites.
-/social-sprites2.
 /social-traffic-pop.$~stylesheet
 /social-traffic-pop/*
 /social-tumblr.
@@ -3151,7 +3142,6 @@ _social-bar/
 _social-google+
 _social-home-
 _social-media_
-_social-sprite.
 _social-twitter.
 _social/images/
 _social_32.
@@ -10529,6 +10519,7 @@ _subscribers_newsletters/
 ##.c-footer-social-channels
 ##.c-footer-social-link
 ##.c-footer-social-media
+##.c-footer__follow-us
 ##.c-footer__list--follow
 ##.c-footer__social
 ##.c-footer__social-links
@@ -15960,6 +15951,7 @@ _subscribers_newsletters/
 ##.shareits
 ##.sharekit
 ##.sharelcol
+##.sharelight
 ##.sharelike
 ##.shareline
 ##.sharelines
@@ -45296,6 +45288,7 @@ rimowa.com##.c-rimpopin-wrapper--privacy
 corporate.comcast.com##.c-top-banner
 ii.co.uk##.c01194
 queengarnet.com##.c0211
+aplus.com##.c206
 prepler.com##.c2696372827
 eyetvforum.com##.cAnnouncementPageTop
 uphold.com##.cILWJu
@@ -52274,7 +52267,7 @@ kino-vorschau.com#@#.arqam-widget-counter
 unian.info,unian.net,unian.ua#@#.article-selection-shares
 banki.ru,neowin.net,unionesarda.it#@#.article-share
 heise.de#@#.article-sharing
-adme.ru,pomponik.pl#@#.article-social
+adme.media,pomponik.pl#@#.article-social
 niedziela.pl#@#.article-social-btn
 pomponik.pl#@#.article-social-buttons
 drive.ru#@#.article-social-container
@@ -52361,7 +52354,7 @@ bysimple.co#@#.footer-socials
 gorod.mos.ru#@#.footer__social
 kioskpolis.pl#@#.footer__socials
 gab.com#@#.gab-bttn
-adme.ru#@#.gallery-social
+adme.media#@#.gallery-social
 vk.com#@#.group_share
 inosmi.ru#@#.header__social
 zont-online.ru#@#.header_social
@@ -53482,7 +53475,6 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||friendfeed.com/static/images/icons/$~third-party
 @@||fyre.co/*/facebook_share_post.png
 @@||gamingsociety.pl/wp-content/themes/$image
-@@||gcdn.co^*/social-sprite.webp$image,domain=tut.by
 @@||ge.tt/s/images/twitter-extension-icon.png
 @@||ge.tt/s/images/twitter-signin.png
 @@||gearbest.com/imagecache/*/images/styleimg/share.png
@@ -53823,7 +53815,6 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||torrentfreak.com/images/reddit$image
 @@||tosdr.org/logo/$image
 @@||transferwise.com^$generichide
-@@||triangleoffense.com^*/triangle-offense-header-social-sprites.png
 @@||trinixy.ru/engine/classes/min/index.php?f=*/social-$script,stylesheet
 @@||tripit.com/js/tripit/social/
 @@||tunestotube.com/images/btn_google_signin_dark_normal_web.png
