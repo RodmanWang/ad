@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: TUQT9rnGyL22f+QswaxoRw
-! Version: 202206200450
+! Checksum: iJifSSFRrcgDXaI6lcOOkQ
+! Version: 202206201300
 ! Title: Fanboy's Annoyance List
-! Last modified: 2022-06-20 04:50 UTC
+! Last modified: 2022-06-20 13:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -17466,6 +17466,7 @@ _subscribers_newsletters/
 ##.socialSharing__icons
 ##.socialSideBar
 ##.socialSidebar
+##.socialSite
 ##.socialSquare
 ##.socialSticky
 ##.socialStickyBanner
@@ -21839,6 +21840,7 @@ _subscribers_newsletters/
 ###cookie-consent-overlay
 ###cookie-consent-popup
 ###cookie-consent-root
+###cookie-consent-side-out
 ###cookie-consent-tab
 ###cookie-consent-target
 ###cookie-consent-tool-placeholder
@@ -22934,6 +22936,7 @@ _subscribers_newsletters/
 ###cookie_consent
 ###cookie_consent4435
 ###cookie_consent_banner
+###cookie_consent_blocker
 ###cookie_consent_box
 ###cookie_consent_container
 ###cookie_consent_cookiebar
@@ -27053,6 +27056,7 @@ _subscribers_newsletters/
 ###tarteaucitronAlertBig
 ###tarteaucitronRoot
 ###tavisocookies
+###taxiCookieConsent
 ###tbweb_cookies_footer
 ###tc-consent
 ###tc-privacy-wrapper
@@ -32561,7 +32565,6 @@ _subscribers_newsletters/
 ##.js-consent-panel
 ##.js-consent-popup
 ##.js-consent-react-root
-##.js-consent.consent
 ##.js-coockie
 ##.js-cook.page-cook
 ##.js-cookie
@@ -41398,7 +41401,7 @@ gigaom.com##.go-thisorthat-widget
 gigaom.com##.go-toaster
 allrecipes.com##.goBack
 allrecipes.com##.goNext
-hackingloops.com##.go_top
+china.com,hackingloops.com##.go_top
 techweez.com##.gofollow
 reddit.com##.goldvertisement
 good.is##.good-elsewhere
@@ -53149,6 +53152,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||jaybirdsport.com/etc.clientlibs/logitech-common/clientlibs/onetrust.$~third-party
 @@||khl.ru^*/cookieconsent.min.js
 @@||lacoste.com^*/cookie-consent.js
+@@||lecourrier-du-soir.com^*/uk-cookie-consent-js
 @@||lightningmaps.org^*/cookieconsent.$script,stylesheet
 @@||logitech.com/etc.clientlibs/logitech-common/clientlibs/onetrust.$~third-party
 @@||microsoft.com/api/privacy/cookieconsent?$xmlhttprequest,domain=docs.microsoft.com
