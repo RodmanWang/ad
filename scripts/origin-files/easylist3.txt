@@ -4,7 +4,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2022-06-22T12:01:31.051Z
+! Last modified: 2022-06-22T18:01:25.816Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -22,6 +22,12 @@
 !
 !
 !
+||deliverytraffnews.com^
+||rsnvboidrvqjso.com^
+||camsbanner.wtfgroup.co^
+||uapekkgmhjxponr.com^
+||sienns.com^
+||koudov.com^
 ||rareghoa.net^
 ||whoutsiy.net^
 ||brazenwholly.com^
@@ -5349,6 +5355,7 @@ vkcdnservice.appspot.com^
 ||blessgarments.com^
 ||blinkadr.com^
 ||blinkedmanagementmoan.com^
+||blinkjork.com^
 ||blinnowther.com^
 ||blismedia.com^
 ||blissfuldes.com^
@@ -5894,6 +5901,7 @@ vkcdnservice.appspot.com^
 ||casinohacksforyou.com^
 ||casleygkqvkx.com^
 ||caspion.com^
+||casserolehunchcontract.com^
 ||cassettelancefriday.com^
 ||cassettepreceding.com^
 ||casterpretic.com^
@@ -7006,6 +7014,7 @@ vkcdnservice.appspot.com^
 ||darkenedshrine.com^
 ||darleygamball.cfd^
 ||dartarscuspids.casa^
+||dartg665moetyor.com^
 ||dartoverboardcoupon.com^
 ||dasfelynsaterr.webcam^
 ||dasfelynsaterr.win^
@@ -7047,6 +7056,7 @@ vkcdnservice.appspot.com^
 ||dcbnameapneas.com^
 ||dcdz5xfv4nws.com^
 ||dcfkalvbcs.com^
+||dcmgptcbcrogl.com^
 ||dcmosques.com^
 ||dcop4khjxsmg.com^
 ||dcpxroykfpnnpm.xyz^
@@ -8175,6 +8185,7 @@ vkcdnservice.appspot.com^
 ||eqiiqxpl.com^
 ||eqsstvfotd.com^
 ||equipmentshorterradiation.com^
+||eraserindecent.com^
 ||eravanquishultimate.com^
 ||erdeally.com^
 ||eredunass.club^
@@ -8391,6 +8402,7 @@ vkcdnservice.appspot.com^
 ||ezrvmxshalr.com^
 ||f00f00.bar^
 ||f01ed651eca.com^
+||f1a75ead16.com^
 ||f1f60d2ef1a4ed.com^
 ||f338113ad0.com^
 ||f3551539d6565853.com^
@@ -15591,6 +15603,7 @@ vkcdnservice.appspot.com^
 ||retreatregular.com^
 ||returnsflyswat.com^
 ||retyphuho.pro^
+||reukandthis.xyz^
 ||reundcwkqvctq.com^
 ||rev-stripe.com^
 ||rev2pub.com^
@@ -15723,6 +15736,7 @@ vkcdnservice.appspot.com^
 ||rips.icu^
 ||riptukri.net^
 ||riskelaborate.com^
+||riskoccur.com^
 ||risolk.com^
 ||risopsuphu.com^
 ||rithimyphu.com^
@@ -15846,6 +15860,7 @@ vkcdnservice.appspot.com^
 ||routeme.one^
 ||routemob.com^
 ||routemomentarilydiscovering.com^
+||routerhydrula.com^
 ||routeserve.info^
 ||rouvoute.net^
 ||rouwhapt.com
@@ -16360,6 +16375,7 @@ vkcdnservice.appspot.com^
 ||shawlyni.name^
 ||shawuh2a8nyam09.com^
 ||sheechoa.com^
+||sheeckaz.com^
 ||sheenaup.net^
 ||sheerbenchmeltdown.com^
 ||sheeroop.com^
@@ -18179,6 +18195,7 @@ vkcdnservice.appspot.com^
 ||ujocytgjobim.com^
 ||ukbanners.com^
 ||ukcomparends.pro^
+||ukfareputfea.xyz^
 ||ukfpibeyfjwhp.xyz^
 ||ukgkugxpzqvqk.com^
 ||ukhkcxmzesi.com^
@@ -18303,6 +18320,7 @@ vkcdnservice.appspot.com^
 ||unpleasantconcrete.com^
 ||unpredictableshell.com^
 ||unpredictablewatchpenalty.com^
+||unqhuyfkhbj.com^
 ||unreasonablecompatibledivorced.com^
 ||unresolveddrama.com^
 ||unripedredwud.com^
@@ -22091,6 +22109,7 @@ vkcdnservice.appspot.com^
 ||dlkfm8bqz0bpx.cloudfront.net^
 ||dlne6myudrxi1.cloudfront.net^
 ||dlrioxg1637dk.cloudfront.net^
+||dltqxz76sim1s.cloudfront.net^
 ||dlvds9i67c60j.cloudfront.net^
 ||dm0acvguygm9h.cloudfront.net^
 ||dm7gsepi27zsx.cloudfront.net^
@@ -27297,6 +27316,7 @@ vkcdnservice.appspot.com^
 ! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/344
 ! Disabled in DNS filter
 !
+||events.getsitectrl.com^
 ||d90z5o386dhs7.cloudfront.net^
 ||events.mercadolibre.com^
 ||x.sexhd.pics^
@@ -36305,6 +36325,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ! Bad: ||legitwebsite.com^$third-party (should be in adservers.txt)
 !
 !
+||banners.tapclap.com^
 ||compare.meteoservice.ru^
 ||am.streamdj.ru^
 ||ad.megapeer.ru^
@@ -39543,6 +39564,8 @@ charlestownwyllie.oaklawnnonantum.com^
 ||xyxhtyy.cn^
 ||zhetoutiao.top^
 ||lhippac.cn^
+||zhangzhiyang01.cn^
+||gytty.top^
 ||readysugerfree.top^
 ||jrhbhz.com^
 ||1kcx.hk^
@@ -47281,6 +47304,8 @@ charlestownwyllie.oaklawnnonantum.com^
 ! Source name: Exception rules
 ! Source: Filters/exceptions.txt
 !
+! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/977
+@@||anwb.webpower.eu^|
 ! https://github.com/AdguardTeam/AdguardFilters/issues/121419
 @@||eum-blue-saas.instana.io^|
 ! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/959
