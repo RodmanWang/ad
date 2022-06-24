@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 9juGuYyxKgCBSfIPZ+40aw
-! Version: 202206232100
+! Checksum: QvVWxomk5PZqgnW9BRyjjA
+! Version: 202206240500
 ! Title: Fanboy's Annoyance List
-! Last modified: 2022-06-23 21:00 UTC
+! Last modified: 2022-06-24 05:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -28070,6 +28070,7 @@ _subscribers_newsletters/
 ##.announcement[data-id*="cookie_notice"]
 ##.anonymous-consent-banner
 ##.anonymousToSConsent_mask
+##.anunt-cookie
 ##.ao-cookie-container
 ##.aod-cookie-consent
 ##.ap-c-message-wrap[data-controller="cmessage"]
@@ -29879,6 +29880,7 @@ _subscribers_newsletters/
 ##.cookie-setting-bottom-bar
 ##.cookie-setting-message
 ##.cookie-settings--simple
+##.cookie-settings-alert
 ##.cookie-settings-band
 ##.cookie-settings-message
 ##.cookie-settings.fixed-bottom
@@ -32553,6 +32555,7 @@ _subscribers_newsletters/
 ##.js-cook.page-cook
 ##.js-cookie
 ##.js-cookie--modal
+##.js-cookie-advert-container
 ##.js-cookie-agree
 ##.js-cookie-agreement
 ##.js-cookie-alert
@@ -33149,6 +33152,7 @@ _subscribers_newsletters/
 ##.module-cookie-note
 ##.module-cookieinfo
 ##.module-cookies
+##.module-cookies-advice
 ##.module-cookies-notification
 ##.module-cookies-wrapper
 ##.module-gdpr-acceptance
