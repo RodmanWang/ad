@@ -345,6 +345,12 @@ return array(
     'mo.res.wpscdn.cn' => 0, #636
     'qhres2.com' => 0, #638
     'rumble.com' => 0, #639
+    '37signals.com' => 0, #647
+    'stackpathdns.com' => 0, #645
+    'msg.douyu.com' => 0, #649
+    'hot.browser.miui.com' => 0, #655
+    'linksnappy.com' => 0, #656
+    'szlong.weixin.qq.com' => 0, #659
 
 
 
