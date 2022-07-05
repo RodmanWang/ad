@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2tQ4mAYza1NWeO/5jvbsPg
-! Version: 202207050450
+! Checksum: VojvJmAGkQArmJwfrSdEvw
+! Version: 202207051300
 ! Title: Fanboy's Annoyance List
-! Last modified: 2022-07-05 04:50 UTC
+! Last modified: 2022-07-05 13:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -3137,6 +3137,7 @@ _youtube_social_
 /wp-content/plugins/videolock/*$script
 &accept_cookies=
 -agree-cookies/
+-cnil-popup-
 -consent-banner-
 -consent-banner.
 -cookie-banner-
@@ -3364,6 +3365,7 @@ _youtube_social_
 /cookie-bundle-
 /cookie-check.js
 /cookie-choices.
+/cookie-cnil/*
 /cookie-compliance.
 /cookie-consent-$domain=~cookielaw.org|~github.com|~gitlab.com
 /cookie-consent.
@@ -20380,6 +20382,7 @@ _subscribers_newsletters/
 ###PrivacyWarning
 ###Privacy_Popup
 ###Product_cookies-wrap
+###QUURcookieDisclosureOuter
 ###RB_React_Component_CookieBanner_4
 ###RGPD
 ###RIEU-acceptCookies
@@ -20798,6 +20801,7 @@ _subscribers_newsletters/
 ###aviso-ck
 ###aviso-coo
 ###aviso-cookie
+###aviso-cookie-lgpd
 ###aviso-cookies
 ###aviso-lgpd
 ###aviso-navegadores
@@ -21540,6 +21544,7 @@ _subscribers_newsletters/
 ###container_cookie
 ###container_cookies
 ###container_info_cnil
+###containercookies
 ###contcookie
 ###contenedor-banner-cookies
 ###contenedor-politica-cookies
@@ -21651,6 +21656,7 @@ _subscribers_newsletters/
 ###cookie-agree
 ###cookie-agree-1
 ###cookie-agree-modal
+###cookie-agree-policy
 ###cookie-agreement
 ###cookie-agreement-box
 ###cookie-agreement-info
@@ -21757,6 +21763,7 @@ _subscribers_newsletters/
 ###cookie-conditions
 ###cookie-confirm
 ###cookie-confirm-box
+###cookie-confirm-container
 ###cookie-confirm-inner
 ###cookie-confirmation
 ###cookie-confirmation-dialog
@@ -23294,6 +23301,7 @@ _subscribers_newsletters/
 ###cookiedisallowoverlay
 ###cookiedisc
 ###cookiedisclaimer
+###cookiedisclosure
 ###cookiedismiss
 ###cookiediv
 ###cookiee_alert
@@ -23631,6 +23639,7 @@ _subscribers_newsletters/
 ###cookies-short
 ###cookies-sticky
 ###cookies-sticky-wrapper
+###cookies-strip
 ###cookies-tendina
 ###cookies-terms
 ###cookies-terms-info
@@ -23777,6 +23786,7 @@ _subscribers_newsletters/
 ###cookiesNoticeId
 ###cookiesNotification
 ###cookiesNotifier
+###cookiesNotify
 ###cookiesOK
 ###cookiesOkBox
 ###cookiesOptInMessage
@@ -25565,6 +25575,7 @@ _subscribers_newsletters/
 ###js-cookie-trigger
 ###js-cookieBanner
 ###js-cookieBox
+###js-cookieConsent-wrapper
 ###js-cookieInfo
 ###js-cookieWarning
 ###js-cookiebar
@@ -25658,6 +25669,7 @@ _subscribers_newsletters/
 ###kekschecker
 ###keksdose
 ###kekse.dialog
+###keksi-consent
 ###keksivehje
 ###keksleiste
 ###kg-cookie-popup
@@ -26521,6 +26533,7 @@ _subscribers_newsletters/
 ###ppa-cookies
 ###ppms_cm_bar_overlay
 ###ppms_cm_popup_overlay
+###pq-page-top-cookie
 ###praivacy-cookie-notice
 ###praivacy-notice
 ###pravda-cookie-usage
@@ -26993,6 +27006,7 @@ _subscribers_newsletters/
 ###snippet--cookies
 ###snippet-cookieAllow-cookieAllow
 ###snippet-cookieControl-cookieInfo
+###snippet-cookieStrip-cookieStrip
 ###snippet-cookiesAgreementControl-bar
 ###snmcookies
 ###soi-global-privacy-info
@@ -27576,6 +27590,7 @@ _subscribers_newsletters/
 ###zw_cookie_law_short_info
 ##.--basic.cookie-settings
 ##.-active.cookies
+##.-cookie-disclaimer
 ##.-cookie-notice
 ##.-cookies
 ##.-cookies-notice
@@ -29958,6 +29973,7 @@ _subscribers_newsletters/
 ##.cookie-popover
 ##.cookie-popover--active
 ##.cookie-popup-bar
+##.cookie-popup-box
 ##.cookie-popup-container
 ##.cookie-popup-first
 ##.cookie-popup-mobile-wrapper
@@ -30032,6 +30048,7 @@ _subscribers_newsletters/
 ##.cookie-sticky-holder
 ##.cookie-sticky-wrap
 ##.cookie-stikey-nav
+##.cookie-strip
 ##.cookie-stripe
 ##.cookie-tab
 ##.cookie-table
@@ -30226,6 +30243,7 @@ _subscribers_newsletters/
 ##.cookieConfirmOverlay
 ##.cookieConfirmation
 ##.cookieConfirmationMessage
+##.cookieCons
 ##.cookieConsent
 ##.cookieConsent-0-2-1
 ##.cookieConsentBanner
@@ -30672,6 +30690,7 @@ _subscribers_newsletters/
 ##.cookie_statement
 ##.cookie_statement_spacer
 ##.cookie_sticker_wrapper
+##.cookie_strip
 ##.cookie_tajekoztato
 ##.cookie_takeover
 ##.cookie_text
@@ -32679,6 +32698,7 @@ _subscribers_newsletters/
 ##.jnews-cookie-law-policy
 ##.johnnys-cookie-warning
 ##.jqCookieAcceptContainer
+##.jq_cookie-strip
 ##.jq_cookiePolicy
 ##.jq_cookies_msg
 ##.jqmAlertWindow
@@ -32986,6 +33006,7 @@ _subscribers_newsletters/
 ##.l-cookie
 ##.l-cookie-alert
 ##.l-cookie-banner
+##.l-cookie-confirm
 ##.l-cookie-law
 ##.l-cookie-notice-container
 ##.l-cookieNotification
@@ -33895,6 +33916,7 @@ _subscribers_newsletters/
 ##.popup--cookies__wrapper
 ##.popup-alert-notice
 ##.popup-allow-cookies
+##.popup-aviso-cookie
 ##.popup-aviso-cookies
 ##.popup-box[class*="cookies"]
 ##.popup-choose-cookies
@@ -34446,6 +34468,7 @@ _subscribers_newsletters/
 ##.skryptcookies-pl
 ##.sky-component-cookie-notice
 ##.sl-cookie-banner
+##.sl-cookie-consent
 ##.slideIn.cookie
 ##.slideout-cookies
 ##.sliding-privacy-popup
@@ -35445,11 +35468,13 @@ _subscribers_newsletters/
 ##div.ask-cookie
 ##div.askcook
 ##div.aviso-cookie
+##div.c-cookieConsent
 ##div.c-cookieconsent
 ##div.cPolicy
 ##div.ccpa-message
 ##div.ccpa-notice
 ##div.cnil
+##div.cnil-popup
 ##div.confirm-cookie
 ##div.consent-banner-container
 ##div.consent-bg
@@ -35509,6 +35534,7 @@ _subscribers_newsletters/
 ##div.cookie_popup
 ##div.cookiebackground
 ##div.cookieconfirm
+##div.cookieholder
 ##div.cookiehtml
 ##div.cookienotice
 ##div.cookiepop
@@ -35530,6 +35556,7 @@ _subscribers_newsletters/
 ##div.show-cookies
 ##div.with-cookie
 ##section#accept-cookie-container
+##section.c-cookieconsent
 ##section.cookie-alert
 ##section.cookie-bar
 ! sevendeya.es/escosan.com/inmobiliariaidealpisos.com
@@ -39066,6 +39093,7 @@ _subscribers_newsletters/
 ||private.dmscookie.com^$third-party
 ||publy.net^$third-party
 ||pubtech.ai^$third-party
+||quantcast.com/tcfv2/cmp2.js
 ||quantcast.mgr.consensu.org^$third-party
 ||scrookie.nl^$third-party
 ||sddan.mgr.consensu.org^$third-party
@@ -45249,6 +45277,7 @@ midwestgunworks.com###privBanner
 worldjournal.com###privacy-agreement
 playstation.com###privacy-header
 canalplus.com###privacy-manager
+studiocanal.com###privacy-manager-popin
 xceptance.com###privacy-message
 islamicfinder.org###privacy-modal
 govt.nz###privacy-notification
@@ -45430,6 +45459,7 @@ greenfields.eu##.accept-alert
 mymuesli.com##.active.mask
 akeebabackup.com,displays.agneovo.com,imunify360.com,luxos.com,v-tac.eu##.activebar-container
 svitla.com##.agree-popup
+marcocm.com##.agreement-popup
 festival-fabula.org##.agreetop
 adata.com,ahlulbayt.tv,allsmo.com,altervista.org,armpension.com,askdifference.com,asklion.co.uk,bankid.com,betmagician.com,bim-review.com,calamos.com,cfainstitute.org,communitycouncils.scot,convert-my-image.com,costaclub.com,efinancialcareers.com,fecareers.co.uk,fredlist.com,gambling-affiliation.com,gamesjobsdirect.com,graco.com,gtalfh.com,hattrick.org,jobflurry.com,jobsinwales.com,kenweego.com,lawyersonline.co.uk,lifescience.net,linuxcompatible.org,localcouncillor.scot,lonelyplanet.com,m-a.org.uk,montenisa.com,nature.com,netweather.tv,norwegian.com,openuserjs.org,poolandspacentre.co.uk,pozyx.io,stocktoninformationdirectory.org,streema.com,supercell.com,theonlinesurgery.co.uk,tinyurl.com,ukpressonline.co.uk,vernemq.com,viewsonic.com,viewsoniceurope.com,warp2search.net,youngsseafood.co.uk##.alert
 itvmedia.co.uk##.alert--active
@@ -45502,6 +45532,7 @@ deno.land,ulster.rugby##.bg-black
 wimhofmethod.com##.bg-blue-r1
 sifted.eu##.bg-darkGray
 caymanchem.com##.bg-darker-gray
+capadriano.com##.bg-opacity-75
 roxi.tv##.bg-white.w-full.fixed
 weedmaps.com##.biOsfp
 bagigia.com##.bica-content
@@ -46438,7 +46469,7 @@ carsharingi.ru##.bottom-0.position-fixed
 !! .bottom-0.relative
 onassis.org##.bottom-0.relative
 !! .bottom-0.fixed
-barecollective.com,bellevue-hamburg.de,blomus.com,clubmed.co.nz,clubmed.co.uk,clubmed.com.ar,clubmed.com.mx,clubmed.ru,clubmed.se,clubmed.us,licenseglobal.com##.bottom-0.fixed
+barecollective.com,bellevue-hamburg.de,blomus.com,clubmed.co.nz,clubmed.co.uk,clubmed.com.ar,clubmed.com.mx,clubmed.ru,clubmed.se,clubmed.us,evolutionary-insights.com,licenseglobal.com,shakuro.com##.bottom-0.fixed
 !! .modal-cookie
 aio.media,banggood.com,jfservice.ru,medcentr-tula.ru,onetoyshop.ru,royalprestige.com,zlimovel.com.br##.modal-cookie
 !! .modalcookies
@@ -50410,9 +50441,9 @@ jobstairs.de##.mcd-dialog-backdrop
 nbr.de##.mceRow--relative
 smart-refresh.com##.meldung
 iaa.de##.mmcm-container
-aldi-sued.de,atlasformen.de,bindergroesswang.at,buchbinder-sale.de,fischer-garten.de,galaflorgmbh.de,generali.at,htb-wenzlow.de,michael-telecom.de,naz-feldberg.de,nazoberedonau.de,sinalco.de,vor.at##.modal
+aldi-sued.de,atlasformen.de,bindergroesswang.at,buchbinder-sale.de,eurodata.de,fischer-garten.de,galaflorgmbh.de,generali.at,htb-wenzlow.de,michael-telecom.de,naz-feldberg.de,nazoberedonau.de,sinalco.de,vor.at##.modal
 euclaim.de##.modal--background
-aldi-sued.de,arbeitsagentur.de,atlasformen.de,buchbinder-sale.de,burmester.de,dedriefonteinen.be,dermaplan.com,djshop.de,ebxan.ch,eubos.de,fc-carlzeiss-jena.de,felix1.de,fh-salzburg.ac.at,hagemeyer.de,houthandel-loose.be,htb-wenzlow.de,lignoshop.de,mainz05.de,michael-telecom.de,naz-feldberg.de,nazoberedonau.de,prostata-hilfe-deutschland.de,sinalco.de,stellfeld-ernst.de,stoeckle.com,theodorkoernerfonds.at,vor.at##.modal-backdrop
+aldi-sued.de,arbeitsagentur.de,atlasformen.de,buchbinder-sale.de,burmester.de,dedriefonteinen.be,dermaplan.com,djshop.de,ebxan.ch,eubos.de,eurodata.de,fc-carlzeiss-jena.de,felix1.de,fh-salzburg.ac.at,hagemeyer.de,houthandel-loose.be,htb-wenzlow.de,lignoshop.de,mainz05.de,michael-telecom.de,naz-feldberg.de,nazoberedonau.de,prostata-hilfe-deutschland.de,sinalco.de,stellfeld-ernst.de,stoeckle.com,theodorkoernerfonds.at,vor.at##.modal-backdrop
 uvex-safety-shop.de##.modal-cookie
 konzerthaus.de##.modal-mask
 fahrrad-xxl.de,starcar.de##.modal-overlay
@@ -50742,7 +50773,7 @@ gauss.hr,hrt.hr##.bottom-0.fixed
 infranet.hr##.ccb__edit
 generali.hr##.cd-module
 bug.hr,hzpp.hr##.cookie
-bacelic.hr,bim-bike.hr,chiavalon.hr,dobro.hr,kabola.hr,mikronis.hr,optima.hr,udruga-gradova.hr,worldeducation.hr,zadovoljstvozaposlenika.hr,zelena-akcija.hr##.cookies
+bacelic.hr,bim-bike.hr,chiavalon.hr,dobro.hr,hp-store.hr,kabola.hr,lenovostore.hr,mikronis.hr,optima.hr,udruga-gradova.hr,worldeducation.hr,zadovoljstvozaposlenika.hr,zelena-akcija.hr##.cookies
 flair.hr##.css-8g6x3l
 hapih.hr,podravski.hr##.dialog-widget
 buket.hr##.kukip
@@ -50809,6 +50840,8 @@ jaguar.cz,landrover.cz##.notificationBars
 pujckabingo.cz,pujckablesk.cz,pujckaliska.cz##.optinWrapper
 30tidennivyzva.cz,akvarista.cz##.sm-wrapper
 hotelkingscourt.cz##.sp-overlay
+benelli-motor.cz,lekarna.us##.ui-dialog
+benelli-motor.cz,lekarna.us##.ui-widget-overlay
 transformacni-technologie.cz##.upozorneni
 nacesty.cz##div.popup-shade
 ceske-sjezdovky.cz##form[style^="display:block;position: fixed;"]
@@ -51469,6 +51502,7 @@ dagbladet.no##.show.css-pp-box
 gezond.nl##.show.fade.modal
 gezond.nl##.show.fade.modal-backdrop
 nordiskporselen.com##.w3-container.w3-black
+nitedals.no##.wf-section
 dplay.no##div[class^="notification"]
 !
 ! ---------- Philippines -----
@@ -51713,6 +51747,7 @@ xalingo.com.br###wrng-agrmnt
 magazineluiza.com.br##.FSeli
 maistre.com.br##.aceite
 exatasistemas.com.br,iochpe.com.br,nexaresources.com##.alert
+try.com.br##.bZEgfH
 webmotors.com.br##.bjRMar
 idec.org.br##.block-region-footer
 petlove.com.br##.card-bottom
@@ -53377,6 +53412,7 @@ inspirock.com#@#.with-cookie
 ceramtec-group.com,openfiber.it,rete.toscana.it#@#[aria-label="cookieconsent"]
 devowl.io#@#[href="https://devowl.io/wordpress-real-cookie-banner/"]
 calameo.com#@#div.cookie-alert
+altenberg-dom.de#@#div.cookieHolder
 booking.pobeda.aero,coastalliving.com,commercialtrucktrader.com,cookinglight.com,efarma.com,esselunga.it,essence.com,ew.com,food.com,fortune.com,gct.com,golf.com,health.com,hellogiggles.com,instyle.com,metallica.com,mirjan24.pl,my.games,nytimes.com,ochotnicy.waw.pl,people.com,realsimple.com,ria.com,si.com,southernliving.com,time.com,touchnote.com,travelandleisure.com#@#div.gdpr
 dailytrust.com,forbesafrica.com,tsi.com#@#div[class*="CookieConsent"]
 what3words.com#@#div[class^="CookieNotice"]
