@@ -2362,6 +2362,8 @@ m.xigua110.com##.ui-detail-info > div[style*="line-height:35px; text-align:cente
 ! Bad:  @@||example.org^$stealth (should be in AdGuard Base - whitelist_stealth.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/123608
+hyperallergic.com#@#.ad-above-footer
 ! https://github.com/easylist/easylistchina/issues/201
 ||unpkg.com^$badfilter
 ! https://github.com/AdguardTeam/AdguardFilters/issues/119998
@@ -4497,6 +4499,17 @@ ubmcmm.baidustatic.com
 ||miuspzkmn.bar^
 ||nfzplus.com^
 ||badloniop.top^
+||weimeiwangluo.site^
+||scardetect.cn^
+||gqyy8.com^
+||zhaishanghui.shop^
+||mbveryu.top^
+||hfzq1600.com^
+||kimiaexirteb.com^
+||yiuspekmn.bar^
+||mttty.top^
+##a[href*=".tholikiranam.com/"]
+||colour5.top^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
