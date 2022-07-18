@@ -7,10 +7,13 @@ cd $(cd "$(dirname "$0")";pwd)
 easylist=(
   "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt"
   "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_15_DnsFilter/filter.txt"
+  "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt"
+  "https://easylist.to/easylist/fanboy-annoyance.txt"
 )
 
 hosts=(
   "https://raw.githubusercontent.com/RodmanWang/ad/master/scripts/origin-files/ad-hosts.txt"
+  "https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-hosts.txt"
 )
 
 strict_hosts=(
