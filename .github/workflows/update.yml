@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   
   schedule:
-    - cron:  '30 21,4,12 * * *' 
+    - cron:  '30 0/3 * * *' 
 jobs:
   build:
     runs-on: ubuntu-latest
