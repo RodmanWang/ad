@@ -1,5 +1,5 @@
 # Title: Malicious Hosts Blocklist
-# Updated: Tue, 02 Aug 2022 12:13:12 +0000
+# Updated: Wed, 03 Aug 2022 00:14:32 +0000
 # Expires: 1 day (update frequency)
 # Homepage: https://gitlab.com/malware-filter/urlhaus-filter
 # License: https://gitlab.com/malware-filter/urlhaus-filter#license
@@ -15,6 +15,7 @@
 0.0.0.0 04193a37.bundles.trovatogroup.com
 0.0.0.0 05637c3b.app.pgica.org
 0.0.0.0 058299e9.java.extra-tegic.com
+0.0.0.0 05fd.ssl.topgearoutfitters.com
 0.0.0.0 07550e99.schedule.newhomessection.com
 0.0.0.0 079bfq.am.files.1drv.com
 0.0.0.0 084d2671.app.pgica.org
@@ -42,6 +43,7 @@
 0.0.0.0 14b88136.schedule.newhomessection.com
 0.0.0.0 15051c79.app.pgica.org
 0.0.0.0 1531b4db.schedule.newhomessection.com
+0.0.0.0 156b.fallout.flunkypixels.com
 0.0.0.0 163-c.com
 0.0.0.0 1717.1000uc.com
 0.0.0.0 174fff55.schedule.newhomessection.com
@@ -58,7 +60,6 @@
 0.0.0.0 1d7757ca.app.pgica.org
 0.0.0.0 1e8c.call.pgee.org
 0.0.0.0 1f67469a.jump.agrandatubolsillo.com
-0.0.0.0 1f67d254.factor.vtaxlaw.com
 0.0.0.0 1gxlaq.am.files.1drv.com
 0.0.0.0 1gyw9a.am.files.1drv.com
 0.0.0.0 1mdr.short.gy
@@ -141,6 +142,7 @@
 0.0.0.0 51336aad.app.pgica.org
 0.0.0.0 51470a0b.schedule.newhomessection.com
 0.0.0.0 52c85328.app.pgica.org
+0.0.0.0 5368de28.app.pgica.org
 0.0.0.0 53b32a67.factor.vtaxlaw.com
 0.0.0.0 544b3898.java.extra-tegic.com
 0.0.0.0 54d9d1d7.official.stradlings.com
@@ -238,12 +240,12 @@
 0.0.0.0 8bbfedbd.factor.vtaxlaw.com
 0.0.0.0 8c18411d.factor.vtaxlaw.com
 0.0.0.0 8c8b02b9.widget.windsorbongvape.com
-0.0.0.0 8d7a03b9.factor.vtaxlaw.com
 0.0.0.0 8db3b91a-ea93-419b-b51b-0a69902759c5.usrfiles.com
 0.0.0.0 8e75a900.app.pgica.org
 0.0.0.0 8ee4a3b9.push.youbyashboutique.com
 0.0.0.0 8f179262.jump.agrandatubolsillo.com
 0.0.0.0 8m27sg.bl.files.1drv.com
+0.0.0.0 915111.ru
 0.0.0.0 91844063.jump.agrandatubolsillo.com
 0.0.0.0 91da.call.pgee.org
 0.0.0.0 91news.in
@@ -269,7 +271,6 @@
 0.0.0.0 9iou4.thebarrieldomanetruck.com
 0.0.0.0 9jae4n.thebarrieldomanetruck.com
 0.0.0.0 a-cf.org
-0.0.0.0 a-notafiscal03052022.s3.sa-east-1.amazonaws.com
 0.0.0.0 a-onerealestate.com.au
 0.0.0.0 a.pomf.cat
 0.0.0.0 a.tigoinari.tk
@@ -298,7 +299,6 @@
 0.0.0.0 a75ad5fa.spool.jcscateringaz.com
 0.0.0.0 a7iiv7.thebarrieldomanetruck.com
 0.0.0.0 a88ab1a2.jump.agrandatubolsillo.com
-0.0.0.0 aa-notafiscal26042022.s3.sa-east-1.amazonaws.com
 0.0.0.0 aabedc5b.schedule.newhomessection.com
 0.0.0.0 aacl.co.in
 0.0.0.0 aaha-med.com
@@ -642,6 +642,7 @@
 0.0.0.0 bangkok-orchids.com
 0.0.0.0 bankompany.com
 0.0.0.0 barettaswood.com
+0.0.0.0 barikmuhendislik.com
 0.0.0.0 barrowsigns.cf
 0.0.0.0 barzdigital.com
 0.0.0.0 basaarquitetura.com.br
@@ -672,7 +673,6 @@
 0.0.0.0 beachwood.ug
 0.0.0.0 beansproutenterprises.com
 0.0.0.0 beanx99.xyz
-0.0.0.0 bearcatpumps.com.cn
 0.0.0.0 beautyarenawithrojina.com
 0.0.0.0 beautybymaria.uk
 0.0.0.0 beb219fb.official.stradlings.com
@@ -833,6 +833,7 @@
 0.0.0.0 c4eb0c90.jump.agrandatubolsillo.com
 0.0.0.0 c575.ssl.topgearoutfitters.com
 0.0.0.0 c82683dc.app.pgica.org
+0.0.0.0 c946.ssl.topgearoutfitters.com
 0.0.0.0 c95a786e.step.ifsguy.com
 0.0.0.0 ca81.call.pgee.org
 0.0.0.0 cabans.com
@@ -1258,7 +1259,6 @@
 0.0.0.0 dlqsclub.com
 0.0.0.0 dmaicinnovations.com
 0.0.0.0 dmastermovers.co.za
-0.0.0.0 dmcontabilidade.com
 0.0.0.0 dnahealth.gr
 0.0.0.0 dnautik.com
 0.0.0.0 do33212f.ooguy.com
@@ -1282,7 +1282,6 @@
 0.0.0.0 down.jxnccd.cn
 0.0.0.0 down.pcclear.com
 0.0.0.0 down.rxgif.cn
-0.0.0.0 down.udashi.com
 0.0.0.0 down.yjhyjl.cn
 0.0.0.0 downl2customer.cloud.tpacpackaging.co.in
 0.0.0.0 downl2customer.club.enjoy9ja.com.ng
@@ -1395,6 +1394,7 @@
 0.0.0.0 downlforvisitor.store.modad.me
 0.0.0.0 downlforvisitor.store.premierinvestments.ltd
 0.0.0.0 download.caihong.com
+0.0.0.0 download.doumaibiji.cn
 0.0.0.0 download.pdf00.cn
 0.0.0.0 download.rising.com.cn
 0.0.0.0 download.skycn.com
@@ -1662,7 +1662,6 @@
 0.0.0.0 eblaagh-lr.ml
 0.0.0.0 eblagh551.tk
 0.0.0.0 eblaghie-sanas.cf
-0.0.0.0 eblaqie.org
 0.0.0.0 eblaqie.sbs
 0.0.0.0 ebuysa.co.za
 0.0.0.0 ec2-3-15-31-222.us-east-2.compute.amazonaws.com
@@ -1744,7 +1743,6 @@
 0.0.0.0 enjaz.fawry.com
 0.0.0.0 enoktextile.com
 0.0.0.0 enoughdocs.com
-0.0.0.0 ens-setif.dz
 0.0.0.0 ensons.co.in
 0.0.0.0 ent.draftserver.com
 0.0.0.0 enviaseo.gov.co
@@ -1921,7 +1919,6 @@
 0.0.0.0 foundationrepairhoustontx.net
 0.0.0.0 fountainofvictory.org
 0.0.0.0 fpd.cl
-0.0.0.0 fps-booster.top
 0.0.0.0 frascona.com.ar
 0.0.0.0 fratelliperu.com
 0.0.0.0 freedownload.vip
@@ -1991,6 +1988,7 @@
 0.0.0.0 ghaihieb.com
 0.0.0.0 ghanaenergyawards.com
 0.0.0.0 ghcdroncsi.tk
+0.0.0.0 gheytg.ph.files.1drv.com
 0.0.0.0 ghsssannidhi.org
 0.0.0.0 gimpacto.com.br
 0.0.0.0 giovanidistribuidora.com.br
@@ -2066,7 +2064,6 @@
 0.0.0.0 grupomoxin.com.do
 0.0.0.0 grupothal.com.br
 0.0.0.0 grupovivamais.com.br
-0.0.0.0 gs.monerorx.com
 0.0.0.0 gsoctyamadaproject.com
 0.0.0.0 gspct.org
 0.0.0.0 gsverwelius.nl
@@ -2261,7 +2258,6 @@
 0.0.0.0 indianwomencinematographervijayasri.com
 0.0.0.0 indocococompany.com
 0.0.0.0 indonesiajuara.asia
-0.0.0.0 indonesias.me
 0.0.0.0 indoriauperkasa.com
 0.0.0.0 indrasbikaner.com
 0.0.0.0 industrialmcsas.com
@@ -2479,7 +2475,6 @@
 0.0.0.0 kjcpromo.com
 0.0.0.0 kktoor.com
 0.0.0.0 klin-klin.com
-0.0.0.0 klubnatalenti.mk
 0.0.0.0 klynworkhungary.hu
 0.0.0.0 kmodo.us
 0.0.0.0 kmsauto.us
@@ -2496,6 +2491,7 @@
 0.0.0.0 kosueynice.top
 0.0.0.0 kreekxassa.ml
 0.0.0.0 krisbadminton.com
+0.0.0.0 kristinalhall.net
 0.0.0.0 krmda.com
 0.0.0.0 kronesbassesbissnesnet.quest
 0.0.0.0 kronostr.com
@@ -2593,7 +2589,6 @@
 0.0.0.0 lifecoaching4kidz.com
 0.0.0.0 lifmex.com
 0.0.0.0 ligaprotectora.cl
-0.0.0.0 lightermood.xyz
 0.0.0.0 lighthousetoastmastersclub.org
 0.0.0.0 lightindustry.tv
 0.0.0.0 lightmyfire.in
@@ -2715,7 +2710,6 @@
 0.0.0.0 marcowine.com
 0.0.0.0 marinamotorsindia.in
 0.0.0.0 marinikah.com
-0.0.0.0 mario-sunjic.com
 0.0.0.0 marketingteamoftampa.site
 0.0.0.0 marksidfgs.ug
 0.0.0.0 marmaris.com.br
@@ -2917,7 +2911,6 @@
 0.0.0.0 mulmatdol.com
 0.0.0.0 multiservicespro.com
 0.0.0.0 multisistemax.com
-0.0.0.0 mumgee.co.za
 0.0.0.0 muniraaljeri.com
 0.0.0.0 munizuniga.gob.pe
 0.0.0.0 munkfm.com
@@ -2941,6 +2934,7 @@
 0.0.0.0 myechoproject.com
 0.0.0.0 mykholls.com
 0.0.0.0 mykosofe.com
+0.0.0.0 mymicrogreen.mightcode.com
 0.0.0.0 mymobile.ge
 0.0.0.0 myown.bio
 0.0.0.0 myphamcuatui.com
@@ -2999,6 +2993,7 @@
 0.0.0.0 nettaredellaterra.com
 0.0.0.0 networkcerts.com
 0.0.0.0 networkessence.net
+0.0.0.0 networkwheels.co.za
 0.0.0.0 neuro-feedback-lyon.fr
 0.0.0.0 neuronlatam.com
 0.0.0.0 neutrosophicassociation.org
@@ -3057,7 +3052,6 @@
 0.0.0.0 numericreuse.fr
 0.0.0.0 nutensport-wezep.nl
 0.0.0.0 nutriselfagro.com
-0.0.0.0 nutsnukkad.com
 0.0.0.0 nxlsp.com
 0.0.0.0 nycom.narasoft.com
 0.0.0.0 nycup.org
@@ -3107,8 +3101,6 @@
 0.0.0.0 omnisat.webd.pl
 0.0.0.0 omongroup.co
 0.0.0.0 omotayobadeoye.com
-0.0.0.0 oms.pappai.com
-0.0.0.0 omscoc.pappai.com
 0.0.0.0 oncrete-egy.com
 0.0.0.0 onderhoudsbedrijfndh.nl
 0.0.0.0 one.liteshare.co
@@ -3387,6 +3379,7 @@
 0.0.0.0 re-service.ml
 0.0.0.0 re-service.tk
 0.0.0.0 re9cred.com
+0.0.0.0 reach-book.com
 0.0.0.0 reacredit.com.br
 0.0.0.0 real-software.org
 0.0.0.0 realworxsoft.com.au
@@ -3686,7 +3679,6 @@
 0.0.0.0 spnrealtors.com
 0.0.0.0 sprinktechug.com
 0.0.0.0 spywareonline.org
-0.0.0.0 sql8001.site4now.net
 0.0.0.0 sql8002.site4now.net
 0.0.0.0 sql8003.site4now.net
 0.0.0.0 sqqlm.com
@@ -3766,7 +3758,6 @@
 0.0.0.0 superdiag.xyz
 0.0.0.0 supersanmutfak.com
 0.0.0.0 superstar.tibolts.co.uk
-0.0.0.0 support.clz.kr
 0.0.0.0 supportgameku.com
 0.0.0.0 supraseg.com.br
 0.0.0.0 suprbag.com
@@ -3994,6 +3985,7 @@
 0.0.0.0 tumanjo.com
 0.0.0.0 tunamusavirlik.com
 0.0.0.0 tunisiamediamonitor.com
+0.0.0.0 tupperware.michaelroberge.ca
 0.0.0.0 tuprestamocontarjeta.com.ar
 0.0.0.0 turismoenchile.cl
 0.0.0.0 turkmenulastirma.com
@@ -4024,7 +4016,6 @@
 0.0.0.0 udboxes.com
 0.0.0.0 udsp77.com
 0.0.0.0 ugll.org
-0.0.0.0 ukguk71.ru
 0.0.0.0 ultra-ref.fr
 0.0.0.0 ultradroneafrica.com
 0.0.0.0 unbi.ba
@@ -4092,6 +4083,7 @@
 0.0.0.0 verify-info-session3043.gq
 0.0.0.0 verta99.com
 0.0.0.0 vervain.co.in
+0.0.0.0 vfocus.net
 0.0.0.0 vgoldeneyegroup.com
 0.0.0.0 vgr-usa.com
 0.0.0.0 vialys.ma
@@ -4147,6 +4139,7 @@
 0.0.0.0 vts2.robi.com.bd
 0.0.0.0 vulkanvegasbonus.jeunete.com
 0.0.0.0 vypjca.db.files.1drv.com
+0.0.0.0 w1.zypaint.com
 0.0.0.0 w3.jci.ng
 0.0.0.0 w8eoyt.asitebonifcmabline.com
 0.0.0.0 wa7d.thebarrieldomanetruck.com
@@ -4245,6 +4238,7 @@
 0.0.0.0 www59.zippyshare.com
 0.0.0.0 wxtzz.com
 0.0.0.0 wyh4jq.am.files.1drv.com
+0.0.0.0 wyklej.pl
 0.0.0.0 x.233sy.cn
 0.0.0.0 x.rune-spectrals.com
 0.0.0.0 xawacg.am.files.1drv.com
@@ -4278,6 +4272,7 @@
 0.0.0.0 ybeyz.com
 0.0.0.0 ybp.rpmediateam.com
 0.0.0.0 yedirenkajans.com
+0.0.0.0 yeez5a.sn.files.1drv.com
 0.0.0.0 yentra.com
 0.0.0.0 yesdeko.com
 0.0.0.0 yestech.com.ng
