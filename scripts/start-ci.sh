@@ -10,7 +10,6 @@ easylist=(
 )
 
 hosts=(
-  "https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-hosts.txt"
   "https://raw.githubusercontent.com/RodmanWang/ad/master/scripts/origin-files/ad-hosts.txt"
 )
 
