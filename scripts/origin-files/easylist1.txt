@@ -84,6 +84,8 @@
 ! https://developer.chrome.com/docs/privacy-sandbox/topics/
 ! TODO: replace with a scriptlet later: https://github.com/AdguardTeam/Scriptlets/issues/214
 #%#//scriptlet('set-constant', 'Document.prototype.browsingTopics', 'undefined')
+! https://github.com/AdguardTeam/AdguardFilters/issues/127461
+bulletin.sntba.com#%#//scriptlet("set-constant", "returnCitySN", "emptyObj")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/126745
 ta.alamo.com#%#(()=>{window.CQ_Analytics={SegmentMgr:{loadSegments(){}},ClientContextUtils:{init(){}}}})();
 ! https://github.com/AdguardTeam/AdguardFilters/issues/122614
@@ -5256,6 +5258,8 @@ nethunt.com/api/v1/track/email/$image
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||event-collector.prd.data.s.joyn.de^
+||clanker-events.squarespace.com^
 ||analytics.newscred.com^
 ||analytics.digitalpfizer.com^
 ||intg.snapchat.com^
@@ -20512,6 +20516,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ! Umami
 /umami.js
 !
+/census/RecordHit
 /dwanalytics-
 /cdn-cgi/zaraz/*
 /beacon/error?
@@ -20976,6 +20981,10 @@ _tracking.php?b=
 /analytics.js$domain=freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|newsmax.com|bolgehastanesi.com|ewtc.de|newsdig.tbs.co.jp|imore.com|city.kushiro.lg.jp|emeraldbridal.com.au
 ||assets.adobedtm.com^$domain=mcclatchydc.com|elnuevoherald.com|bellinghamherald.com|sacbee.com|charlotteobserver.com|newsobserver.com|miamiherald.com|ef.ru|algida.com.tr|bmw-motorrad.co.uk|cif.com.tr|clearhaircare.com|domestos.com|dove.com|elidor.com.tr|f1sport.autorevue.cz|geico.com|gittigidiyor.com|hellmanns.com.tr|herkessofraya.com|johnsonsbaby.com.tr|lipton.com|lnk.to|lux.com|magnumicecream.com|neutrogena.com.tr|omo.com|rexona.com|samsung.com|sap.com|schwarzkopf.com.tr|signalturkiye.com|msnbc.com|nbcnews.com|kbb.com|eurosport.ru|timgate.it|intermiles.com|oxfordmail.co.uk
 !
+||tvnow.de/log
+||cdn-gl.nmrodam.com/conf/
+||ardmediathek.de/tp/
+||cdn.threadloom.com/ga/
 ||1ps.ru/cdn-cgi/challenge-platform/
 ||skyscanner.com.br/*/collector
 ||static.foxnews.com/static/isa/app/lib/VisitorAPI.js
@@ -25519,6 +25528,9 @@ $app=com.miui.analytics
 !#endif
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/127461
+!+ PLATFORM(ios, ext_android_cb, ext_safari)
+@@||pv.sohu.com/cityjson$domain=bulletin.sntba.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/127381
 @@||cdn.cxense.com/cx.js$domain=dhnet.be
 @@||cdn.cxense.com/t_init.min.js$domain=dhnet.be
