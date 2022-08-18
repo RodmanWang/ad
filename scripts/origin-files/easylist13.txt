@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202208181630
+! Version: 202208182135
 ! Title: Fanboy's Annoyance List
-! Last modified: 18 Aug 2022 16:30 UTC
+! Last modified: 18 Aug 2022 21:35 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -32402,6 +32402,7 @@ _vpcookieconsent/
 ##.cookie-consent-dialogue__advertising
 ##.cookie-consent-div
 ##.cookie-consent-embed-overlay
+##.cookie-consent-flyout
 ##.cookie-consent-footer
 ##.cookie-consent-header
 ##.cookie-consent-header-wrapper
@@ -39737,6 +39738,7 @@ _vpcookieconsent/
 ! *** easylist:fanboy-addon/fanboy_newsletter_thirdparty.txt ***
 ! fanboy_newsletter_thirdparty.txt
 ||api.pico.tools^$third-party
+||blink.net/json/$xmlhttprequest
 ||buy-au.piano.io/checkout/template/cacheableShow?*&experienceId=*&widget=template
 ||data.reachplc.com^
 ||joinsubtext.com^$subdocument,third-party
@@ -44497,6 +44499,7 @@ gameloft.com##.mfp-bg
 gameloft.com##.mfp-wrap
 techpowerup.com##.notice-content
 wowhead.com##.notifications-dialog
+wnep.com##.page__notifications
 post-gazette.com##.pg-notifybox
 pnas.org##.pop-notification
 9to5google.com,9to5mac.com,electrek.co##.push-notify
@@ -46425,6 +46428,7 @@ telegraph.co.uk##.article__actions
 techcrunch.com##.article__floating-wrap
 u.today##.article__gnews
 rt.com,sputniknews.com##.article__google-news
+wnep.com##.article__sharing
 salemnews.net##.article_details_icons
 goodnet.org##.article_like
 nybooks.com##.article_toolbar
@@ -54417,6 +54421,8 @@ ants.vn##.sg-popup-content
 ||browser-consent-front.coco.s-cloud.fi/js/$script
 ||cdn.gravito.net/cmp/$script
 ||cmp.tori.fi^
+||cookielaw.org/scripttemplates/*/assets/*.json$xmlhttprequest,domain=elisa.fi
+||cookielaw.org/scripttemplates/*/assets/otCommonStyles.css$xmlhttprequest,domain=elisa.fi
 ||vaikuttajamedia.fi^*/markuk_evastevaroitus.js
 ||vpd.fi/datalayer/index/cookieContent/$xmlhttprequest,domain=vpd.fi
 ! 
