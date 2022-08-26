@@ -1,15 +1,3 @@
-@@|ads.adsterra.com^|
-@@|adsterra.com^|
-@@|affiliates.adsterra.com^|
-@@|app.crazyegg.com^|
-@@|beta.affiliates.adsterra.com^|
-@@|beta.partners.adsterra.com^|
-@@|beta.publishers.adsterra.com^|
-@@|core.crazyegg.com^|
-@@|ftp.bmp.ovh^|
-@@|help-advertisers.adsterra.com^|
-@@|partners.adsterra.com^|
-@@|publishers.adsterra.com^|
 @@|steamgamesales.com^$urlblock
 @@||0123movies.com^$generichide
 @@||0mniscient.github.io^$generichide
@@ -73,7 +61,6 @@
 @@||51sec.org^$generichide
 @@||520call.me^$generichide
 @@||5278.cool^$generichide
-@@||5471782.fls.doubleclick.net^|
 @@||58b.tv^$generichide
 @@||5ggyan.com^$generichide
 @@||5moviesporn.net^$generichide
@@ -101,14 +88,11 @@
 @@||9now.com.au^$generichide
 @@||9zvip.net^$elemhide
 @@||a-delivery*.mxdcontent.net^$stealth,media
-@@||a.adwolf.ru^|
-@@||a.sellpoint.net^|
 @@||aamulehti.fi^$generichide
 @@||aatfal.com^$generichide
 @@||abc.es^$generichide
 @@||abczdrowie.pl^$generichide
 @@||abouttech.space^$generichide
-@@||ac.ebis.ne.jp^|
 @@||acapellas.eu^$generichide
 @@||account-cdn.myunidays.com^$elemhide,jsinject
 @@||account.mail.ru^$stealth
@@ -153,7 +137,6 @@
 @@||adlink.wf^
 @@||adload.ru^
 @@||adlpu.com^$generichide
-@@||admin.dable.io^|
 @@||admin.mailchimp.com^
 @@||admin.mailchimp.com^$extension
 @@||admin.mgid.com^$popup
@@ -187,7 +170,6 @@
 @@||ads.pinterest.com^$popup
 @@||ads.spotify.com^$popup
 @@||ads.taboola.com^$popup
-@@||ads.tdbank.com^
 @@||ads.tiktok.com^$generichide
 @@||ads.tiktok.com^$popup
 @@||ads.tiktok.com^$~third-party
@@ -218,7 +200,6 @@
 @@||aetv.com^$generichide
 @@||afasiaarchzine.com^$generichide
 @@||affyun.com^$generichide
-@@||afi-b.com^|
 @@||afly.pro^$generichide
 @@||afreesms.com^$generichide
 @@||aftonbladet.se^$generichide
@@ -228,6 +209,7 @@
 @@||agradarpan.com^$generichide
 @@||agxapks.com^$generichide
 @@||ah-me.com^$generichide
+@@||ahaan.co.uk^$~third-party,xmlhttprequest
 @@||ahcdn.com^$media
 @@||ahcdn.xyz^$stealth,media
 @@||aiarticlespinner.co^$generichide
@@ -287,7 +269,6 @@
 @@||amyscans.com^$generichide
 @@||an1me.nl^$generichide
 @@||analogplanet.com^$elemhide
-@@||analytics.amplitude.com^|
 @@||ancient.eu^$generichide
 @@||andek.com.pl^$generichide
 @@||android-hilfe-down.blogspot.com^$generichide
@@ -358,7 +339,6 @@
 @@||antiblock.org^$generichide
 @@||antiplagiat.ru^$extension
 @@||antiquewoodenware.com^$generichide
-@@||anwb.webpower.eu^|
 @@||anyknew.com^$generichide
 @@||apasih.pw^$generichide
 @@||aphim.co^$generichide
@@ -366,7 +346,6 @@
 @@||api-merchants.skimlinks.com^
 @@||api-secure.solvemedia.com^
 @@||api-secure.solvemedia.com^$stealth
-@@||api-v*.trbo.com^|
 @@||api.1plus1.video^$stealth
 @@||api.ads.tvb.com^
 @@||api.apple-mapkit.com^$stealth
@@ -396,9 +375,7 @@
 @@||apnetv.me^$generichide
 @@||apnetv.tv^$generichide
 @@||app-advertise.zhihuishu.com^
-@@||app.adjust.com^|
 @@||app.adroll.com^$generichide
-@@||app.appsflyer.com^|
 @@||app.impact.com^$jsinject,elemhide,extension
 @@||app.plex.tv^$extension
 @@||app.print.avery.com^$elemhide,jsinject,extension
@@ -426,6 +403,7 @@
 @@||arcadehole.com^$generichide
 @@||arcadepunks.com^$generichide
 @@||archaeologynewsnetwork.blogspot.com^$generichide
+@@||archiveteam.org^$generichide
 @@||areavideolangka.blogspot.com^$generichide
 @@||arenavision.in^$generichide
 @@||argaming360.download^$generichide
@@ -440,7 +418,6 @@
 @@||articlesnew.com^$generichide
 @@||articlesnewz.com^$generichide
 @@||articletz.com^$generichide
-@@||artifactory.appodeal.com^|
 @@||artikeltekno.com^$generichide
 @@||arubedo.blogspot.com^$generichide
 @@||asdn.kr^$generichide
@@ -491,7 +468,6 @@
 @@||avjamack.com^$generichide
 @@||avjamak.net^$generichide
 @@||awamiweb.com^$generichide
-@@||awin1.com^|
 @@||ayefiles.com^$generichide
 @@||azdictionary.com^$generichide
 @@||azfinans.ru^$generichide
@@ -520,7 +496,6 @@
 @@||bbs.tgfcer.com^$generichide
 @@||bbw-chan.nl^$generichide
 @@||bcee.snet.lu^$stealth
-@@||bcicl.*.evergage.com^|
 @@||bclikeqt.com^$generichide
 @@||bdiptv.stream^$generichide
 @@||bdix.org^$generichide
@@ -596,7 +571,6 @@
 @@||blockadblock.com^$generichide
 @@||blog-rct.com^$generichide
 @@||blog.krcesdev.com^$generichide
-@@||blog.logrocket.com^|
 @@||blog.taryo.net^$generichide
 @@||blog.torproject.org^$stealth
 @@||blog.ztjal.info^$generichide
@@ -633,7 +607,6 @@
 @@||brenhealth.com^$generichide
 @@||brfiles.com^$generichide
 @@||brighteon.com^$generichide
-@@||brm-core-*.brsrvr.com^|
 @@||bro.adca.st^$stealth
 @@||brocardi.it^$generichide
 @@||broncos.com.au^$generichide
@@ -710,11 +683,9 @@
 @@||cdn-fck.tnaflix.com^$stealth
 @@||cdn-pics.pornhd.com^$stealth
 @@||cdn.bunny.sh^$media,stealth
-@@||cdn.rozetka.com.ua^|
 @@||cdn.tv*.eu^$stealth
 @@||cdn13.com^$stealth,media
 @@||cdn4.us^$stealth
-@@||cdnbc-wup.hsbc.com.hk^|
 @@||cdndm5.com^$stealth
 @@||cdnvideo.ru^$stealth
 @@||cdnyauction.buyee.jp^$stealth
@@ -753,7 +724,6 @@
 @@||chronox.co.in^$generichide
 @@||chuangkit.com^$generichide
 @@||chuppito.fr^$generichide
-@@||cindyholbrook.lpages.co^|
 @@||cinemafacil.com^$generichide
 @@||cinemamkv.net^$generichide
 @@||cinemaxxl.de^$stealth
@@ -762,11 +732,9 @@
 @@||cintateknologi.com^$generichide
 @@||circuiteasy.com^$generichide
 @@||cirokun.blogspot.com^$generichide
-@@||citiintl.122.2o7.net^|
 @@||citynow.it^$generichide
 @@||citytv.com^$generichide
 @@||cizzy.cc^$generichide
-@@||cj.dotomi.com^|
 @@||claim.fun^$generichide
 @@||claim4.fun^$generichide
 @@||claimdoge.club^$generichide
@@ -775,20 +743,12 @@
 @@||claimtrx.com^$generichide
 @@||clashofclans.com^$extension
 @@||classic-retro-games.com^$generichide
-@@||classliving.lpages.co^|
 @@||cle0desktop.blogspot.com^$generichide
-@@||click.appcast.io^|
-@@||click.simba.taobao.com^|
-@@||click.trafficguard.ai^|
-@@||click.virt.exacttarget.com^|
-@@||click.virt.s*.exacttarget.com^|
 @@||clickhouse.xyz^$generichide
 @@||clickscoin.com^$generichide
 @@||client.falixnodes.net^$xmlhttprequest
 @@||clientlogin.cdn.skype.com^$document
 @@||clik.pw^$generichide
-@@||clj.valuecommerce.com^|
-@@||clk*.tradedoubler.com^|
 @@||clk.asia^$generichide
 @@||clk.ink^$generichide
 @@||clkmein.com^$generichide
@@ -800,15 +760,12 @@
 @@||cloud.google.com^$generichide
 @@||cloud.google.com^$~third-party
 @@||cloud.mail.ru^$image,~third-party
-@@||cloud.notification-naviextras.com^|
 @@||cloudstorageoptions.com^$generichide
 @@||cloudwebcopy.com^$generichide
 @@||clover-manga.com^$generichide
 @@||club.tgfcer.com^$generichide
 @@||clubinvest.top^$stealth
-@@||cm-beacon.nakanohito.jp^|
 @@||cm-pack.pl^$generichide
-@@||cm-widget.nakanohito.jp^|
 @@||cmechina.net^$genericblock
 @@||cnprint.org^$generichide
 @@||cobachpl8.milaulas.com^$generichide
@@ -853,11 +810,9 @@
 @@||conspatriot.com^$generichide
 @@||contacts.google.com^$generichide
 @@||content-*.googleapis.com^$stealth
-@@||contents*.00110.citi.com^|
 @@||contract-miner.com^$generichide
 @@||convertfiles.com^$generichide
-@@||cookie-bar.eu^
-@@||cookieconsent.insites.com^
+@@||cookielawinfo.com^$~third-party
 @@||cookiesflix.com^$generichide
 @@||coolinet.com^$generichide
 @@||copydev.com^$generichide
@@ -910,7 +865,6 @@
 @@||cryptovertise.tk^$generichide
 @@||cryptowin.io^$generichide
 @@||cryptslice.com^$generichide
-@@||cs.silverpop.com^|
 @@||csgo-ranks.com^$generichide
 @@||csport.xyz^$generichide
 @@||cubehosting.me^$generichide
@@ -918,7 +872,6 @@
 @@||cupsservice.com^$xmlhttprequest,document
 @@||curiositystream.com^$generichide
 @@||cut4links.com^$generichide
-@@||cutcaptcha.com^|
 @@||cutearn.ca^$generichide
 @@||cutlinks.pro^$generichide
 @@||cwtv.com^$generichide
@@ -934,7 +887,6 @@
 @@||daddylive.me^$generichide
 @@||daemon-hentai.com^$generichide
 @@||dafideff.com^$generichide
-@@||daikoku.ebis.ne.jp^|
 @@||dailyacc.com^$generichide
 @@||dailyhealthkeeper.com^$generichide
 @@||dailyherald.com^$generichide
@@ -1219,10 +1171,6 @@
 @@||elrincondelvoxero.com^$generichide
 @@||elsfile.net^$generichide
 @@||elsfile.org^$generichide
-@@||email.*.skyeng.ru^|
-@@||email.awscloud.com^|
-@@||email.elitedangerous.com^|
-@@||email.procook.co.uk^|
 @@||emailregex.com^$generichide
 @@||emathhelp.net^$csp
 @@||embed-channel.stream^$generichide
@@ -1240,7 +1188,6 @@
 @@||encodinghub.com^$generichide
 @@||enfermeria.gnomio.com^$generichide
 @@||enterha.com^$generichide
-@@||envato.market^|
 @@||eolinker.com^$generichide
 @@||epetsure.website^$generichide
 @@||episode.pmcontent.com^$stealth
@@ -1262,7 +1209,6 @@
 @@||etkisizeleman.com^$generichide
 @@||eu4cn.com^$generichide
 @@||euconfesso.com^$generichide
-@@||eum-blue-saas.instana.io^|
 @@||euro16.live^$stealth
 @@||eurogamer.pt^$generichide
 @@||europeanclassiccomic.blogspot.com^$generichide
@@ -1343,7 +1289,6 @@
 @@||fckdescargaspaste.com.ve^$generichide
 @@||fearonlineifsa.blogspot.com^$generichide
 @@||febbit.com^$generichide
-@@||feed.adrelayer.com^|
 @@||feldherr.com^$stealth
 @@||femefun.com^$generichide
 @@||fernsehzone.online^$generichide
@@ -1404,6 +1349,7 @@
 @@||fivemsociety.com^$generichide
 @@||fivemturk.com^$generichide
 @@||flashstreams.net^$stealth
+@@||flattr.com^$generichide
 @@||flightradar24.com^$generichide
 @@||flix-anime.com^$generichide
 @@||flsaudio.com^$generichide
@@ -1413,6 +1359,7 @@
 @@||fmoviez.org^$generichide
 @@||fmzm.xyz^$generichide
 @@||fogodelenha.net^$generichide
+@@||fontawesome.com^$generichide,~third-party
 @@||food-tiger.de^$generichide
 @@||football-lineups.com^$generichide
 @@||forbes.com^$generichide
@@ -1424,7 +1371,6 @@
 @@||forum.darksoftware.net^$generichide
 @@||forum.flacmania.ru^$generichide
 @@||forum.gocmod.com^$generichide
-@@||forum.notebookreview.com^|
 @@||forum.pokemobbot.com^$generichide
 @@||forum.release-apk.com^$generichide
 @@||forumcoin.win^$generichide
@@ -1630,6 +1576,8 @@
 @@||gigapurbalinggaa.ga^$generichide
 @@||girafa.com.br^$stealth
 @@||github.com^$generichide
+@@||github.com^$generichide
+@@||github.io^$generichide
 @@||gitlab.com^$generichide
 @@||givekey.ru^$generichide
 @@||gizbot.com^$generichide
@@ -1647,7 +1595,6 @@
 @@||go-ez.net^$generichide
 @@||go-links.net^$generichide
 @@||go.gov.il^$stealth
-@@||go.scorptec.com.au^|
 @@||go4kora.com^$generichide
 @@||goaldirecto.blogspot.com.ar^$generichide
 @@||goaldirecto.blogspot.com^$generichide
@@ -1671,14 +1618,11 @@
 @@||goodreturns.in^$generichide
 @@||goodssh.com^$generichide
 @@||goodtoknow.co.uk^$generichide
-@@||googleadapis.l.google.com^|
 @@||googledrivelinks.com^$generichide
 @@||gooogle.how^$generichide
 @@||goossh.com^$generichide
 @@||gosuslugi.ru^$stealth
 @@||gotceleb.com^$generichide
-@@||goto.target.com^|
-@@||goto.walmart.com^|
 @@||gotofap.tk^$generichide
 @@||gotvach.bg^$generichide
 @@||gotxx.com^$generichide
@@ -1693,17 +1637,13 @@
 @@||greatanimation.it^$generichide
 @@||greensboro.com^$generichide
 @@||grfeed.com^$generichide
-@@||grp07.ias.rakuten.co.jp^|
 @@||grupovalltv.net^$generichide
-@@||gs.statcounter.com^|
 @@||gsm1x.xyz^$generichide
 @@||gsu.st^$generichide
 @@||gtoys.blog.fc2.com^$generichide
-@@||guce.advertising.com^
 @@||guitarworld.com^$generichide
 @@||gvmp.de^$generichide
 @@||gymhuntr.com^$generichide
-@@||h-sdk.online-metrix.net^|
 @@||haaretz.co.il^$elemhide
 @@||haaretz.com^$generichide
 @@||haberbucuk.com^$generichide
@@ -1728,7 +1668,6 @@
 @@||havoc-os.com^$generichide
 @@||hayan.tv^$generichide
 @@||haymod.com^$generichide
-@@||hb.afl.rakuten.co.jp^|
 @@||hbogo.pl^$extension
 @@||hbomax.com^$generichide
 @@||hbr.org^$generichide
@@ -1744,7 +1683,6 @@
 @@||hdwallpapers.in^$generichide
 @@||healbot.dpm15.net^$generichide
 @@||health-and.me^$generichide
-@@||health.halodoc.com^|
 @@||healthandhealthforu.com^$generichide
 @@||healthdelay.com^$generichide
 @@||healthfeed.co.kr^$generichide
@@ -1793,7 +1731,6 @@
 @@||hofoot.vidcrt.net^$generichide
 @@||hollywoodmask.com^$generichide
 @@||holywarsoo.net^$stealth
-@@||home.focusatwill.com^|
 @@||homeagents.online^$stealth
 @@||homebanking.bancoctt.pt^$extension
 @@||homebanking.bancoctt.pt^$stealth
@@ -1807,7 +1744,6 @@
 @@||housecardsummerbutton.com^$stealth
 @@||howtorootmobile.com^$generichide
 @@||hoyts.com.au^$generichide
-@@||href.li^|
 @@||html5.5games.cc^$stealth,third-party
 @@||hubcloud.link^$generichide
 @@||hubcoins.xyz^$generichide
@@ -1827,7 +1763,6 @@
 @@||i.kinja-img.com^$stealth
 @@||i.tmgrup.com.tr^$script,stealth
 @@||i8086.de^$generichide
-@@||ia.hit.interia.pl^|
 @@||iatv.tmgrup.com.tr^$script,stealth
 @@||ibf.tw^$generichide
 @@||iblitzmods.ru^$generichide
@@ -1836,7 +1771,6 @@
 @@||icloud.com^$stealth
 @@||iconmonstr.com^$generichide
 @@||id.atlassian.com^$stealth
-@@||id.i2i.jp^|
 @@||id.skyeng.ru^$stealth
 @@||id.zaloapp.com^$stealth
 @@||idahostatesman.com^$generichide
@@ -1850,6 +1784,7 @@
 @@||ifdreamscametrue.com^$generichide
 @@||ifile.cc^$generichide
 @@||iframe.simplex-affiliates.com^$stealth
+@@||ifttt.com^$generichide
 @@||iglive.me^$generichide
 @@||ign.com^$generichide
 @@||igtools.net^$generichide
@@ -1869,7 +1804,6 @@
 @@||images.boosty.to^$stealth
 @@||images.primewire.ag^
 @@||images4u.cc^$generichide
-@@||imasdk.googleapis.com^|
 @@||img.ads.tvb.com^
 @@||img.forumfree.net^$stealth
 @@||img.mxomo.com^$image,stealth
@@ -1909,7 +1843,6 @@
 @@||integration.plarium.com^$stealth
 @@||intercelestial.com^$generichide
 @@||intersinema.com^$generichide
-@@||intersport.peerius.com^|
 @@||interssh.com^$generichide
 @@||intoupload.net^$generichide
 @@||inwepo.co^$generichide
@@ -2179,9 +2112,7 @@
 @@||linemarlin.com^$generichide
 @@||lingolex.com^$generichide
 @@||link-to.net^$generichide
-@@||link.androidauthority.com^|
 @@||link.mazterize.com^$stealth
-@@||link.morningbrew.com^|
 @@||link.technics-goods.info^$generichide
 @@||link1s.*^$stealth
 @@||link1s.com^$generichide
@@ -2198,8 +2129,6 @@
 @@||linkjust.com^$generichide
 @@||linkneverdie.com^$generichide
 @@||linkpoi.me^$generichide
-@@||links.e.theatlantic.com^|
-@@||links.getblueshift.com^|
 @@||links4u.me^$generichide
 @@||linksaya.com^$generichide
 @@||linkshrnk.com^$generichide
@@ -2239,16 +2168,14 @@
 @@||loan-trading.net^$generichide
 @@||local.adguard.org^
 @@||localizaagencia.com^$generichide
-@@||log.mmstat.com^|
-@@||logentries.com^|
 @@||logging.apache.org^
 @@||login.abc.net.au^$stealth
 @@||login.gaijin.net^
 @@||login.live.com^$stealth
 @@||login.microsoftonline.com^$stealth
+@@||login.mos.ru^$image
 @@||login.nvgs.nvidia.com^$stealth
 @@||login.nvidia.com^$stealth
-@@||login.sendpulse.com^|
 @@||login.wmtransfer.com^$stealth
 @@||login.yahoo.net^$stealth
 @@||lols.gg^$generichide
@@ -2280,7 +2207,6 @@
 @@||m.beautypageants.in^$generichide
 @@||m.pes24.com^$generichide
 @@||ma-x.org^$generichide
-@@||ma135-r.analytics.edgekey.net^|
 @@||maango.info^$generichide
 @@||macbed.com^$generichide
 @@||mackie100projects.altervista.org^$generichide
@@ -2299,6 +2225,7 @@
 @@||magesypro.club^$generichide
 @@||magesypro.com^$generichide
 @@||magicvalley.com^$generichide
+@@||magpictures.com^$generichide
 @@||maidenhead-advertiser.co.uk^$generichide
 @@||mail.google.com^$generichide
 @@||mail.proton.me^$generichide
@@ -2344,7 +2271,6 @@
 @@||marharo.com^$generichide
 @@||mariouniverse.com^$generichide
 @@||market.viber.com^$elemhide
-@@||marketing.net.idealo-partner.com^|
 @@||marketmovers.it^$generichide
 @@||marketplace.xbox.com^$document
 @@||markipli.com^$generichide
@@ -2370,7 +2296,6 @@
 @@||maxurlz.com^$generichide
 @@||mazakony.net^$generichide
 @@||mc-premium.org^$generichide
-@@||mc.*.exacttarget.com^|
 @@||mcadventuretime.com^$generichide
 @@||mcbar.cn^$generichide
 @@||mccc11.com^$generichide
@@ -2381,14 +2306,13 @@
 @@||mcoc-guide.blogspot.co.uk^$generichide
 @@||mcoc-guide.blogspot.com^$generichide
 @@||mcoc-guide.blogspot.in^$generichide
-@@||measure.ic.tver.jp^|
 @@||med1.de^$generichide
 @@||medcpu.com^$generichide
 @@||medevel.com^$generichide
+@@||media-cache*.pinimg.com^$image,third-party
 @@||media.polsatnews.pl^$generichide
 @@||mediacdn.disqus.com^$document
 @@||medialaancdn.be^$generichide
-@@||mediamarkt.nl^$other
 @@||mediapemersatubangsa.com^$generichide
 @@||medicalopium.blogspot.com.br^$generichide
 @@||medium.com^$stealth
@@ -2403,6 +2327,7 @@
 @@||meganews.tech^$generichide
 @@||megapeer.org^$generichide
 @@||megasubtitles.com^$generichide
+@@||megaup.net^$generichide
 @@||megaup.net^$generichide
 @@||megaurl.in^$generichide
 @@||megaurl.xyz^$generichide
@@ -2578,7 +2503,6 @@
 @@||mx-sh.net^$generichide
 @@||my.bmi.ir^$elemhide,jsinject
 @@||my.foxnews.com^$stealth
-@@||my.tealiumiq.com^|
 @@||my.westfieldinsurance.com^$document
 @@||my5.tv^$generichide
 @@||myaccount.google.com^$generichide
@@ -2615,6 +2539,7 @@
 @@||mywrestling.com.pl^$generichide
 @@||myxclip.com^$generichide
 @@||najserialy.to^$generichide
+@@||namechk.com^$generichide
 @@||nandetribune.com^$generichide
 @@||nartag.com^$generichide
 @@||narutoitalia.com^$generichide
@@ -2636,7 +2561,6 @@
 @@||nensaysubs.net^$generichide
 @@||neowin.net^$generichide
 @@||nerdmaldito.com^$generichide
-@@||netatmo.commander1.com^|
 @@||netbk.co.jp^$jsinject
 @@||netcine.*^$generichide
 @@||netfi.me^$generichide
@@ -2667,7 +2591,6 @@
 @@||nicecarsinfo.com^$generichide
 @@||nid.naver.com^$document
 @@||nihonfasshon.blogspot.com^$generichide
-@@||nineto5mac-d.openx.net^|
 @@||niotv.com^$generichide
 @@||nippan-doujin.net^$generichide
 @@||nir-oz.blogspot.com^$generichide
@@ -2719,7 +2642,6 @@
 @@||nyaa.pantsu.cat^$generichide
 @@||o2.pl^$generichide
 @@||o2tvseries.com^$generichide
-@@||oa.tr.line.me^|
 @@||oaome.com^$generichide
 @@||obengplus.com^$generichide
 @@||objectivequiz.com^$generichide
@@ -2729,7 +2651,6 @@
 @@||oddreaders.com^$generichide
 @@||oemdtc.com^$generichide
 @@||ofertasahora.com^$generichide
-@@||official.paymaya.com^|
 @@||ogrenciyegelir.com^$generichide
 @@||ohmygirl.ml^$generichide
 @@||oiihk.com^$generichide
@@ -2748,8 +2669,6 @@
 @@||omglyrics.com^$generichide
 @@||omgmusik.com^$generichide
 @@||omgscripts.com^$generichide
-@@||omniture.walmart.com^|
-@@||omsc.kpn.com^|
 @@||omutulove.blog.fc2.com^$generichide
 @@||omutulove.seesaa.net^$generichide
 @@||onbox.me^$generichide
@@ -2757,7 +2676,6 @@
 @@||onecccam.com^$generichide
 @@||onedrive.live.com^$generichide
 @@||onehack.us^$generichide
-@@||oneline.nextday.media^|
 @@||oneman.gr^$generichide
 @@||oneotv.com^$generichide
 @@||oneotv.online^$generichide
@@ -2827,7 +2745,6 @@
 @@||oyunceviri.net^$generichide
 @@||oz3gamer.blog.fc2.com^$generichide
 @@||ozbeceriksizler.co^$generichide
-@@||pagead.l.doubleclick.net^|
 @@||pahe.stream^$generichide
 @@||paidtomoney.com^$generichide
 @@||paigeeworld.com^$generichide
@@ -2861,6 +2778,7 @@
 @@||pass.1688.com^$subdocument
 @@||pass.yandex.kz^
 @@||pass.yandex.ru^
+@@||passets-cdn.pinterest.com^
 @@||passiontimes.hk^$generichide
 @@||passport.yandex.ru^$stealth
 @@||paste.asia^$generichide
@@ -3029,6 +2947,7 @@
 @@||procoinadvice.com^$generichide
 @@||professionaltutorial.com^$generichide
 @@||profhalazayed.gnomio.com^$generichide
+@@||profile.getyounity.com^$image,~third-party
 @@||prog.co.il^$generichide
 @@||programasvirtualespc.net^$generichide
 @@||programming.discudemy.com^$generichide
@@ -3037,12 +2956,10 @@
 @@||prologuepro.com^$generichide
 @@||promipool.com^$generichide
 @@||promo-visits.site^$generichide
-@@||promo.gramedia.com^|
 @@||promotionbasis.de^$generichide
 @@||promovies.pro^$generichide
 @@||protecturl.xyz^$generichide
 @@||protestia.com^$generichide
-@@||proto2ad.durasite.net^|
 @@||protopage.com^$generichide
 @@||proxo.wtf^$generichide
 @@||proxoexploits.com^$generichide
@@ -3050,9 +2967,7 @@
 @@||prueba.pixelshost.com^$generichide
 @@||pstatic.net^$image,stealth
 @@||psypost.org^$generichide
-@@||pt.afl.rakuten.co.jp^|
 @@||public-api.reviews.2gis.com^$stealth
-@@||public-cis.exponea.com^|
 @@||public-image-upload.s3.amazonaws.com^$stealth
 @@||public-ubiservices.ubi.com^$stealth
 @@||publicananker.com^$generichide
@@ -3076,7 +2991,6 @@
 @@||quicasting.it^$generichide
 @@||quizdiva.net^$generichide
 @@||quoteacademy.com^$generichide
-@@||r.sascdn.com^|
 @@||r1x.pw^$generichide
 @@||r34anim.com^$generichide
 @@||r3owners.net^$generichide
@@ -3086,7 +3000,6 @@
 @@||racingsportscars.com^$generichide
 @@||radio.net^$generichide
 @@||radiocut.fm^$generichide
-@@||radiofrance.targetspot.com^|
 @@||radioplus.pl^$generichide
 @@||radiosupernova.pl^$generichide
 @@||radiotormentamx.com^$generichide
@@ -3125,9 +3038,8 @@
 @@||receive-a-sms.com^$generichide
 @@||recwebcam.com^$generichide
 @@||redactor.creatium.io^$document
-@@||redir.tradedoubler.com^|
+@@||redditarchive.com^
 @@||redirect.appmetrica.yandex.com^
-@@||redirect.appmetrica.yandex.com^|
 @@||redirect.appmetrica.yandex.net^
 @@||redirect.disqus.com^
 @@||registrierung.gmx.net^$extension
@@ -3148,6 +3060,7 @@
 @@||reqlinks.net^$generichide
 @@||res-simler.blogspot.com^$generichide
 @@||restorbio.com^$generichide
+@@||restream.io^$generichide
 @@||retailmenot.com^$jsinject
 @@||retweetpicker.com^$generichide
 @@||reuters.com^$generichide
@@ -3206,6 +3119,7 @@
 @@||s*.bpwco.com^$xmlhttprequest,stealth
 @@||s-delivery*.mxdcontent.net^$media,stealth
 @@||s-kip.eu^$generichide
+@@||s-media*.pinimg.com^$image,third-party
 @@||s.tgfcer.com^$generichide
 @@||s0ft4pc.com^$generichide
 @@||s1-filecr.xyz^$stealth
@@ -3429,6 +3343,8 @@
 @@||soccer24hd.com^$generichide
 @@||soccerlive.casa^$generichide
 @@||sociadrive.com^$generichide
+@@||social.krunker.io^$~third-party
+@@||socialmedia.by^$~third-party
 @@||socialmediaverve.com^$generichide
 @@||socks24.org^$generichide
 @@||socksproxylist24.blogspot.com^$generichide
@@ -3499,10 +3415,7 @@
 @@||stars24.cz^$generichide
 @@||starshd.xyz^$generichide
 @@||startlr.com^$generichide
-@@||stash.roistat.com^|
-@@||static-v*.trbo.com^|
 @@||static.softlayer.com^
-@@||stcblink.nypost.com^|
 @@||steamid.uk^$generichide
 @@||steampiay.cc^$stealth
 @@||stefaniescott.org^$generichide
@@ -3514,7 +3427,6 @@
 @@||sto520.com^$generichide
 @@||store-jp.nintendo.com^$cookie
 @@||store-web.dynamics.com^$stealth
-@@||str.hit.gemius.pl^|
 @@||stream-play-4you-ads.anime-live.com^$stealth
 @@||stream.voidboost.cc^$stealth
 @@||stream4free.live^$generichide
@@ -3559,8 +3471,6 @@
 @@||superten.ga^$generichide
 @@||superyachtfan.com^$generichide
 @@||supjav.com^$generichide
-@@||support-beacon.nakanohito.jp^|
-@@||support-widget.nakanohito.jp^|
 @@||supportcanon.com^$generichide
 @@||surfguru.com^$generichide
 @@||surfsees.com^$generichide
@@ -3573,7 +3483,9 @@
 @@||swedbank.ee^$document
 @@||sweext.com^$generichide
 @@||swift4claim.com^$generichide
+@@||swiso.org^$generichide
 @@||switchbounty.com^$generichide
+@@||switching.software^$generichide
 @@||sync.disk.yandex.net^
 @@||sync.everhelper.me^$stealth
 @@||synology-forum.de^$generichide
@@ -3587,7 +3499,6 @@
 @@||t3.com^$generichide
 @@||tagblatt.ch^$generichide
 @@||tagmanager.google.com^$document
-@@||tags.crwdcntrl.net^|
 @@||tainhanhvn.com^$generichide
 @@||taisv.com^$generichide
 @@||tajemnice-swiata.pl^$generichide
@@ -3728,13 +3639,13 @@
 @@||thetodaypost.com^$generichide
 @@||thewpclub.net^$generichide
 @@||thichviet.site^$generichide
+@@||thimble.mozilla.org^$generichide,~third-party
 @@||thinktibits.blogspot.com^$generichide
 @@||thisav.com^$generichide
 @@||thizissam.in^$generichide
 @@||thoaimedia.com^$generichide
 @@||thuglink.com^$generichide
 @@||thumb.comic.naver.net^$image
-@@||thumbnail.thench.net^|
 @@||thumbor.thedailymeal.com^
 @@||thuthuatjb.com^$generichide
 @@||tibiabr.com^$generichide
@@ -3745,6 +3656,7 @@
 @@||tienganhedu.com^$generichide
 @@||tiengnhatpro.net^$generichide
 @@||tienichdienthoai.net^$generichide
+@@||tiktok.com^$generichide
 @@||tiktokcdn.com^$stealth
 @@||tildacdn.com^$stealth,xmlhttprequest
 @@||tileman.io^$generichide
@@ -3760,8 +3672,8 @@
 @@||tistory.com^$generichide
 @@||titulky.com^$generichide
 @@||tix.axs.com^$removeparam
-@@||tlaol.com^|
 @@||tlc.com^$generichide
+@@||tldrify.com^$generichide
 @@||tlin.me^$generichide
 @@||tny.so^$generichide
 @@||today.it^$generichide
@@ -3798,7 +3710,6 @@
 @@||topvideosgay.com^$generichide
 @@||topwebsitelists.com^$generichide
 @@||topzone.lt^$generichide
-@@||torimochi.line-apps.com^|
 @@||torrentbrazil.org^$generichide
 @@||torrentdosfilmes.co^$generichide
 @@||torrentdosfilmeshd.net^$generichide
@@ -3821,7 +3732,6 @@
 @@||tpc.googlesyndication.com^$script,~third-party
 @@||tqanime.com^$generichide
 @@||tr3fit.xyz^$generichide
-@@||track.rutarget.ru^|
 @@||track.ukrposhta.ua^$stealth
 @@||track2.royalmail.com^
 @@||trackcmp.net^|
@@ -3831,6 +3741,7 @@
 @@||tranimeizle.*^$generichide
 @@||transact.playstation.com^$stealth
 @@||transfermarkt.pl^$generichide
+@@||transferwise.com^$generichide
 @@||transformator220.ru^$generichide
 @@||translate.googleusercontent.com^$generichide
 @@||translator.strakertranslations.com^$generichide
@@ -3914,6 +3825,7 @@
 @@||tweaktown.com^$generichide,badfilter
 @@||twineer.com^$generichide
 @@||two.re^$generichide
+@@||twofactorauth.org^$generichide
 @@||tx.acgvideo.com^$stealth
 @@||txori.com^$generichide
 @@||typhoon.zjwater.gov.cn^$stealth
@@ -4004,11 +3916,9 @@
 @@||v3.co.uk^$generichide
 @@||v7player.wostreaming.net^$generichide
 @@||vabstutorials.com^$generichide
-@@||validate.perfdrive.com^|
 @@||valuable.hatenablog.com^$generichide
 @@||vancouversun.com^$generichide
 @@||vanis.io^$extension
-@@||vcentry3.valuecommerce.ne.jp^|
 @@||vcstream.to^$generichide
 @@||vegrecetas.com^$generichide
 @@||vemai.org^$generichide
@@ -4149,6 +4059,7 @@
 @@||watchvideo.us^$generichide
 @@||waterfaucet.online^$generichide
 @@||watoday.com.au^$generichide
+@@||wavebox.io^$generichide
 @@||wcfcourier.com^$generichide
 @@||weadown.com^$generichide
 @@||weatherx.co.in^$generichide
@@ -4236,15 +4147,12 @@
 @@||wstream.video^$generichide
 @@||wtfcripto.com^$generichide
 @@||wuolah.com^$generichide
-@@||wup-7b4df495.santander.cl^|
 @@||wuyong.fun^$generichide
 @@||www-daftarharga.blogspot.com^$generichide
 @@||www-mabadi.com^$generichide
 @@||www.dobreprogramy.pl^$generichide,badfilter
 @@||www.door2windows.com^$stealth
 @@||www.gdata.pl^$elemhide
-@@||www.googleadservices.com^|
-@@||www.jdoqocy.com^|
 @@||wyklady.org^$generichide
 @@||xanimehub.com^$generichide
 @@||xataka.com^$generichide
@@ -4323,6 +4231,7 @@
 @@||zekozimo.blogspot.com^$generichide
 @@||zenexplayer.com^$stealth
 @@||zenfoneasus.com^$generichide
+@@||zeplin.io^$generichide
 @@||zermusicz.com^$generichide
 @@||zeroboard.org^$generichide
 @@||zerohedge.com^$generichide
