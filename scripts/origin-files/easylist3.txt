@@ -362,6 +362,7 @@ lj_bookmarklet
 ! https://github.com/AdguardTeam/AdguardBrowserExtension/issues/2148
 media.toidas.net#?#.toidas-sns-embed-inner
 !
+psyche.co#?#div[class^="ideas__SocialShareBarWrapper-"] > div > p:has(> svg[data-cy$="-outline"])
 manga1001.club#?#.section.box:has(> .social_share_wrapper)
 nhk.or.jp#?#h2:contains(/^SHARE$/)
 gorodrabot.by#?#.sidebar > div.sidebar__block:has(> div.block__title:contains(Поделиться с друзьями))
@@ -3878,7 +3879,7 @@ deccanherald.com##.storyShare
 mainichi.jp##.articletool-list
 verisign.com##.flexshare
 earlygame.com##button.dropdown-toggle[data-target="#share-like"]
-benefit-one.co.jp,linecorp.com,minkara.carview.co.jp,part.shufu-job.jp##.snsbox
+kyoritsu-biyo.com,benefit-one.co.jp,linecorp.com,minkara.carview.co.jp,part.shufu-job.jp##.snsbox
 eostroleka.pl##.news-social > a[href^="javascript:func_fb_share("]
 gelatopique.com,snidel.com,autosport.com.ru,sgpress.ru##.block-share
 ouh.nhs.uk##section[aria-label="share this page"]
