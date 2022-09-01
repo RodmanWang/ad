@@ -21127,7 +21127,7 @@ _tracking.php?b=
 ! ||googletagmanager.com/gtm.js?$third-party,script,redirect=googletagmanager-gtm,domain=~corsair.com|~olx.*|~simon.com|~bethesda.net|~paddle.com
 ||googletagservices.com/tag/js/gpt.js$xmlhttprequest,script,redirect=googletagservices-gpt
 ! fix https://golf.com/news/tour-confidential-match-play-concession-augusta-womens-am/
-||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices-gpt,domain=~golf.com|~today.line.me|~eksisozluk.com
+||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices-gpt,domain=~golf.com|~today.line.me
 !
 ! Some sites are broken. The rules are required for apps only.
 .demdex.net/id^$redirect=nooptext,important
@@ -25746,6 +25746,8 @@ $app=com.miui.analytics
 !#endif
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/128433
+@@||blob.core.windows.net/bge/src/js/google-analytics.js$domain=secure2.bge.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/128422
 @@||hofer.at/etc.clientlibs/cq/personalization/clientlib/personalization/kernel.lc-*-lc.min.js
 ! fix search
