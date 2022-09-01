@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202208312052
+! Version: 202209010543
 ! Title: Fanboy's Annoyance List
-! Last modified: 31 Aug 2022 20:52 UTC
+! Last modified: 01 Sep 2022 05:43 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -4811,7 +4811,6 @@ _vpcookieconsent/
 ##.prevNextPost
 ##.preview-feedback-button
 ##.previous-next-links
-##.pubexchange_module
 ##.qanda-button-launch
 ##.qs-article_widget
 ##.quick-share
@@ -44341,6 +44340,7 @@ techguide.com.au##.w-nt.h-ni
 w2g.tv##.w2g-doit
 w2g.tv##.w2g-top-message-small
 finance.yahoo.com##.wafer-img
+yahoo.com##.wafer-rapid-tracked
 thurrott.com##.widget > [href="https://www.thurrott.com/thurrott-premium"]
 nationalpost.com##.widget--local-ads
 cpuid.com##.widget-advert-300-sticky
@@ -45603,7 +45603,7 @@ mic.com##.new-user-modal
 thehindubusinessline.com##.news
 healthyceleb.com##.news-form
 autocarindia.com,india.com,isglobal.org,sassymamahk.com##.news-letter
-fyiliving.com##.news-signup
+fyiliving.com,golfchannel.com##.news-signup
 presstv.ir##.news-signup-container
 nationalreview.com##.news-tip-cta
 yaoota.com##.newsLetter
