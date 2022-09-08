@@ -5621,6 +5621,7 @@
 ||adsparc.net^$third-party
 ||adspdbl.com^
 ||adspeed.com^$third-party
+||adspeed.net^
 ||adspeed.net^$third-party
 ||adspeeker.com^$third-party
 ||adspirit.de^
@@ -35994,7 +35995,7 @@
 ||newsletters.vocento.com^
 ||newsm247.online^
 ||newsmagic.net^
-||newsmaxfeednetwork.com^$third-party
+||newsmaxfeednetwork.com^
 ||newsnet.in.ua^
 ||newsnet.in.ua^$third-party
 ||newsocko.com^
@@ -39949,6 +39950,7 @@
 ||polkoa.com^
 ||polldenunciationdeveloping.com^
 ||pollpublicly.com^
+||pollster.pl^$third-party
 ||polluxnetwork.com^
 ||polmontventures.com^
 ||polsatnews.pl^$replace=/(\,vast: ?")[\s\S]*?\/ad\.xml\?[\s\S]*?("\,)/\$1\$2/,~script,~stylesheet,~xmlhttprequest,~other
@@ -44551,6 +44553,7 @@
 ||saucilytalwood.cam^
 ||saude-vip.com^$domain=sendsurl.com
 ||saudicommissionforto.tt.omtrdc.net^
+||saumeechoa.com^$all
 ||saumonpipidae.com^
 ||saunaloathe.com^
 ||saunaloathe.com^$popup
@@ -46337,6 +46340,7 @@
 ||smart-url.net^$popup
 ||smart.allocine.fr^$third-party
 ||smart.idmnet.pl^$domain=eska.pl
+||smart.idmnet.pl^$third-party
 ||smart2.allocine.fr^$third-party
 ||smart2cnjuh34jb.com^
 ||smartad.ee^$third-party
@@ -50384,7 +50388,6 @@
 ||sticky.vtube.to^
 ||stickyadstv.com^
 ||stickyadstv.com^$domain=spiegel.de
-||stickyadstv.com^$third-party
 ||stickyharry.com^
 ||stickysheet.com^$third-party
 ||stiffgame.com^$third-party
@@ -57198,7 +57201,6 @@
 ||vzovmzc.cn^
 ||vzrhxp.mavi.com^
 ||vzw.sp1.convertro.com^
-||w-api.baomoi.com^
 ||w.anmeihe.cn^
 ||w.line.me^$app=jp.naver.linemanga.android
 ||w.oix.net^
