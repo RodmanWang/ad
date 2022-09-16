@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202209152043
+! Version: 202209160316
 ! Title: Fanboy's Annoyance List
-! Last modified: 15 Sep 2022 20:43 UTC
+! Last modified: 16 Sep 2022 03:16 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -6638,6 +6638,7 @@ _vpcookieconsent/
 ###newsletterWidget
 ###newsletterWidgetFormHolder
 ###newsletterWrapper
+###newsletter_360
 ###newsletter_articles
 ###newsletter_articolo
 ###newsletter_block:not(html):not(body)
@@ -28321,6 +28322,7 @@ _vpcookieconsent/
 ###js-tar_cookiesBar
 ###js-user-cookie-jar
 ###jsCookieConsent
+###jsCookieNotice
 ###jsCookieNotification
 ###jsCookiesPanel
 ###jsGDPR
@@ -28503,6 +28505,7 @@ _vpcookieconsent/
 ###lmf_privacy_cookiebar
 ###lnCookieBar
 ###lnkCerrarInformacionCookies
+###lo-privacy-banner
 ###loadCookiePolicy
 ###logon-snippet-icookie
 ###loi-cookies
@@ -49428,7 +49431,7 @@ bookbeat.at,bookbeat.be,bookbeat.ch,bookbeat.co.uk,bookbeat.com,bookbeat.de,book
 ! ! #sliding-popup
 alandsradio.ax,automobil.se,bell-labs.com,bigsocietycapital.com,caroftheyear.se,cartoonnetwork.co.uk,eif.co.uk,endurobloggen.se,integralmemory.com,juce.com,kantarsifo.se,meethue.com,middleeasteye.net,mopedgaraget.se,parkinsons.org.uk,rmg.co.uk,spainbs.com,svjt.se,thalesgroup.com,topuniversities.com,ucas.com###sliding-popup
 ! ! .sliding-popup-bottom
-accessonline.com,asobostudio.com,avvir.no,beko.fr,biorxiv.org,blikopnieuws.nl,bportugal.pt,cam.ac.uk,ciee.org,circuitdigest.com,der-baecker-eifler.de,derprivatpatient.de,domradio.de,dtm.com,eluniversal.com.mx,europapark.de,europol.europa.eu,financialsense.com,gsis.gr,handballerd.hu,helsinginkaupunginorkesteri.fi,ilm.pri.ee,indstate.edu,intelligentcitieschallenge.eu,iphonefaq.org,iva.de,kodi.tv,kpnpensioen.nl,land.nrw,lexcellence.swiss,ligainsider.de,mags.nrw,manner.com,medindia.net,metromadrid.es,muhabirce.de,nationalinterest.org,nibusinessinfo.co.uk,nnieuws.be,novartis.co.jp,nutella.com,orange.be,osmanlicakelam.net,ovomaltine.de,paihdelinkki.fi,paladinomedia.com,piaggiogroup.com,pioneer-car.eu,prestashop.com,psau.edu.sa,questionmark.com,radiosaw.de,rae.es,reinisfischer.com,sandoz.com.tr,sergeferrari.com,sonntagsblatt.de,stainlessgames.com,syfy.com,thuisarts.nl,timeshighereducation.com,tolisihoni.com,topuniversities.com,total.com,ucg.org,unesco.de,unicef.org,usccb.org,uwaterloo.ca,veganjunkfoodbar.com,veggiepeople.org,voltimum.de,waffengebraucht.at,weightwatchers.com,wildlifetrusts.org,worldpressphoto.org,zanzu.be,ziraatkatilim.com.tr,zuerich.com##.sliding-popup-bottom
+accessonline.com,asobostudio.com,avvir.no,beko.fr,biorxiv.org,blikopnieuws.nl,bportugal.pt,cam.ac.uk,ciee.org,circuitdigest.com,der-baecker-eifler.de,derprivatpatient.de,domradio.de,dtm.com,eluniversal.com.mx,europapark.de,europol.europa.eu,financialsense.com,gsis.gr,handballerd.hu,helsinginkaupunginorkesteri.fi,ilm.pri.ee,indstate.edu,intelligentcitieschallenge.eu,iphonefaq.org,iva.de,kodi.tv,kpnpensioen.nl,land.nrw,lexcellence.swiss,ligainsider.de,mags.nrw,manner.com,medindia.net,metromadrid.es,muhabirce.de,nationalinterest.org,nibusinessinfo.co.uk,nnieuws.be,novartis.co.jp,nutella.com,orange.be,osmanlicakelam.net,ovomaltine.de,paihdelinkki.fi,paladinomedia.com,piaggiogroup.com,pioneer-car.eu,prestashop.com,psau.edu.sa,questionmark.com,radiosaw.de,rae.es,reinisfischer.com,sandoz.com.tr,sergeferrari.com,sonntagsblatt.de,stainlessgames.com,syfy.com,thuisarts.nl,timeshighereducation.com,tolisihoni.com,topuniversities.com,total.com,trademark-clearinghouse.com,ucg.org,unesco.de,unicef.org,usccb.org,uwaterloo.ca,veganjunkfoodbar.com,veggiepeople.org,voltimum.de,waffengebraucht.at,weightwatchers.com,wildlifetrusts.org,worldpressphoto.org,zanzu.be,ziraatkatilim.com.tr,zuerich.com##.sliding-popup-bottom
 ! ! .cookiesplus-modal
 alfombrashamid.es,autovilardell.com,blancmarine.com,carmenvazquez.es,fadenkreuz-shop.de,farmaciadejaime.es,hobbysaliplant.com,kalkumezquerra.com,maletia.com,molpack.com,moverte.com,moviloff.es,mueblestudio.com,muellerglas.at,rhsgroup.ro,tomasbodero.com,vinoyalgomas.com##.cookiesplus-modal
 ! ! .cookiewall
@@ -54417,7 +54420,7 @@ omsystembolaget.se##.consent-handler
 akeshofsslott.se,hesselbyslott.se,kitchentime.se,lastberget.com,meetingselection.se,nasbyslott.se,olisen.se,rosersbergsslott.se,skytteholm.se,trosastadshotell.se,ulfsundaslott.se##.cookie
 icabanken.se##.cookie-consent_content__2TSes
 icabanken.se##.cookie-consent_dark__1Um7C
-bokadirekt.se,bolagsverket.se,havkom.se,hotelskeppsholmen.se,intendit.se,lfv.se,nobis.se,nobishotel.se,operakallaren.se,oru.se,sisjointressenter.se,stallmastaregarden.se##.cookies
+bokadirekt.se,bolagsverket.se,havkom.se,hotelskeppsholmen.se,intendit.se,lfv.se,nobis.se,nobishotel.se,operakallaren.se,oru.se,sisjointressenter.se,stallmastaregarden.se,teknikdelar.se##.cookies
 estea.se##.css-1r4ubx3
 icebug.se##.css-4uxznl
 lifebutiken.se##.cuGsyh
