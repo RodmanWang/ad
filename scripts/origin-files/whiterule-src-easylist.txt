@@ -37,6 +37,7 @@
 @@||advert.kf5.com^
 @@||affyun.com^$generichide
 @@||agazeta.com.br^$generichide
+@@||ahaan.co.uk^$~third-party,xmlhttprequest
 @@||ak77now.pixnet.net^$generichide
 @@||ancient.eu^$generichide
 @@||android-hilfe-down.blogspot.com^$generichide
@@ -49,6 +50,7 @@
 @@||app-advertise.zhihuishu.com^
 @@||aqlier.com^$generichide
 @@||arcadehole.com^$generichide
+@@||archiveteam.org^$generichide
 @@||arquitecturaydiseno.es^$generichide
 @@||aternos.org^$generichide
 @@||babiato.co^$generichide
@@ -63,6 +65,7 @@
 @@||bloomberg.com^$generichide
 @@||blubroid.de^
 @@||bolgegundem.com^$generichide
+@@||br0wsers.com^$generichide
 @@||brocardi.it^$generichide
 @@||btsax.info^$generichide
 @@||business.financialpost.com^$generichide
@@ -77,6 +80,7 @@
 @@||cmechina.net^$genericblock
 @@||cnprint.org^$generichide
 @@||colatour.com.tw^$generichide
+@@||cookielawinfo.com^$~third-party
 @@||coolinet.com^$generichide
 @@||corrieredellosport.it^$generichide
 @@||cx30-forum.de^$generichide
@@ -115,7 +119,9 @@
 @@||fildo.net^$generichide
 @@||filmibeat.com^$generichide
 @@||films.imhonet.ru^$jsinject
+@@||flattr.com^$generichide
 @@||flightradar24.com^$generichide
+@@||fontawesome.com^$generichide,~third-party
 @@||forbes.com^$generichide
 @@||forum.pokemobbot.com^$generichide
 @@||forums.windowscentral.com^$script,~third-party
@@ -131,6 +137,8 @@
 @@||getrelax.cc^$generichide
 @@||gezenbilir.com^$generichide
 @@||ggg50.pw^$generichide
+@@||github.com^$generichide
+@@||github.io^$generichide
 @@||gizbot.com^$generichide
 @@||golangnote.com^$generichide
 @@||goodreturns.in^$generichide
@@ -146,6 +154,7 @@
 @@||hurriyetdailynews.com^$generichide
 @@||hwupgrade.it^$generichide
 @@||ibf.tw^$generichide
+@@||ifttt.com^$generichide
 @@||ik4.es^$generichide
 @@||img.ads.tvb.com^
 @@||inforum.com^$generichide
@@ -185,9 +194,11 @@
 @@||lk-subscr.tricolor.tv^$document
 @@||lnk2.cc^$generichide
 @@||logging.apache.org^
+@@||login.mos.ru^$image
 @@||loudersound.com^$generichide
 @@||luzernerzeitung.ch^$generichide
 @@||m.beautypageants.in^$generichide
+@@||magpictures.com^$generichide
 @@||maidenhead-advertiser.co.uk^$generichide
 @@||majhinaukri.in^$generichide
 @@||malaysiakini.com^$generichide
@@ -200,7 +211,9 @@
 @@||mccm88.com^$generichide
 @@||med1.de^$generichide
 @@||medevel.com^$generichide
+@@||media-cache*.pinimg.com^$image,third-party
 @@||megagames.com^$generichide
+@@||megaup.net^$generichide
 @@||melty.fr^$generichide
 @@||mentalflare.com^$generichide
 @@||mertcangokgoz.com^$generichide
@@ -223,6 +236,7 @@
 @@||muzlan.top^$generichide
 @@||myqqjd.com^$generichide
 @@||mytuner-radio.com^$generichide
+@@||namechk.com^$generichide
 @@||natalie.mu^$generichide
 @@||natlawreview.com^$generichide
 @@||neowin.net^$generichide
@@ -250,6 +264,7 @@
 @@||panjiachen.github.io^$generichide
 @@||papalah.com^$generichide
 @@||pass.1688.com^$subdocument
+@@||passets-cdn.pinterest.com^
 @@||passiontimes.hk^$generichide
 @@||pcprogramasymas.net^$generichide
 @@||pesmaster.com^$generichide
@@ -262,18 +277,23 @@
 @@||postandcourier.com^$generichide
 @@||poststar.com^$generichide
 @@||poznamka.ru^$generichide
+@@||profile.getyounity.com^$image,~third-party
 @@||publico.pt^$generichide
 @@||r3sub.com^$generichide
 @@||rangerboard.com^$generichide
 @@||ratatype.com^$generichide
+@@||redditarchive.com^
 @@||redirect.appmetrica.yandex.com^
 @@||redirect.appmetrica.yandex.net^
+@@||restream.io^$generichide
 @@||richmond.com^$generichide
+@@||rizonesoft.com^$generichide
 @@||rp5.by^$generichide
 @@||rp5.kz^$generichide
 @@||rp5.md^$generichide
 @@||rp5.ru^$generichide
 @@||rp5.ua^$generichide
+@@||s-media*.pinimg.com^$image,third-party
 @@||s.tgfcer.com^$generichide
 @@||sadeczanin.info^$generichide
 @@||saveur.com^$generichide
@@ -293,6 +313,8 @@
 @@||smtcaw.com^$generichide
 @@||sneakernews.com^$generichide
 @@||snopes.com^$generichide
+@@||social.krunker.io^$~third-party
+@@||socialmedia.by^$~third-party
 @@||softpedia.com^$generichide
 @@||softwarebrother.com^$generichide
 @@||sonyliv.com^$generichide
@@ -304,6 +326,8 @@
 @@||store-jp.nintendo.com^$cookie
 @@||sunderlandecho.com^$generichide
 @@||supersoluce.com^$generichide
+@@||swiso.org^$generichide
+@@||switching.software^$generichide
 @@||synology-forum.de^$generichide
 @@||synonymbog.com^$generichide
 @@||systranbox.com^$generichide
@@ -320,14 +344,18 @@
 @@||thehouseofportable.com^$generichide
 @@||thesouthern.com^$generichide
 @@||thestar.co.uk^$generichide
+@@||thimble.mozilla.org^$generichide,~third-party
 @@||thisav.com^$generichide
+@@||tiktok.com^$generichide
 @@||timvision.it^$generichide
 @@||tix.axs.com^$removeparam
+@@||tldrify.com^$generichide
 @@||tomsguide.com^$generichide
 @@||tpc.googlesyndication.com^$script,~third-party
 @@||track2.royalmail.com^
 @@||trackcmp.net^|
 @@||trackjs.com^$~third-party
+@@||transferwise.com^$generichide
 @@||translate.googleusercontent.com^$generichide
 @@||trib.com^$generichide
 @@||trip.cmbchina.com^$generichide
@@ -335,6 +363,7 @@
 @@||ttkdex.com^$generichide
 @@||tui.click^$generichide
 @@||tuttosport.com^$generichide
+@@||twofactorauth.org^$generichide
 @@||udp2p.com^$generichide
 @@||universoformulas.com^$generichide
 @@||upxin.net^$generichide
@@ -349,6 +378,7 @@
 @@||vodafonelimited.tt.omtrdc.net^
 @@||vsadu.ru^$generichide
 @@||ware.shop.jd.com^$genericblock,generichide
+@@||wavebox.io^$generichide
 @@||wcfcourier.com^$generichide
 @@||webtrack.dhlglobalmail.com^
 @@||weithenn.org^$generichide
@@ -369,5 +399,6 @@
 @@||yygsz.com^$generichide
 @@||zagreb.info^$generichide
 @@||zeit.de^$generichide
+@@||zeplin.io^$generichide
 @@||zerohedge.com^$generichide
 @@||zimbio.com^$generichide
