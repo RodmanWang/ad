@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202209252121
+! Version: 202209260324
 ! Title: Fanboy's Annoyance List
-! Last modified: 25 Sep 2022 21:21 UTC
+! Last modified: 26 Sep 2022 03:24 UTC
 ! Expires: 7 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -5531,6 +5531,7 @@ _vpcookieconsent/
 ##.ct-js-btnScrollUp
 ##.ct-scrollUpButton
 ##.ct-totop
+##.custom-back-to-top
 ##.dc-go-top
 ##.dmtop
 ##.dp-footer__to-top
@@ -48057,6 +48058,8 @@ growthtechnology.com###popupbanner
 melaniemartinezmusic.com###pp-footer
 r-studio.com,r-tt.com###pp-info
 tapatalk.com,walfordweb.com###pp_b
+gainward.com,palit.com###pp_info
+gainward.com,palit.com###pp_overlay
 pacsun.com###pptou-sticky
 autoevolution.com###prajiturele
 skylinewebcams.com###pref
@@ -49980,6 +49983,7 @@ aol.fr###ooCont
 mimibuzz.com###page_arrowUp
 smile.fr###popup
 lelogicielgratuit.com###popup-before-download
+sanctuary.fr###popup_actu
 lequipe.fr###rebonds
 elle.fr###scroll_top
 fonepaw.fr###sendemail
@@ -50054,6 +50058,7 @@ minutebuzz.com##.popinNl
 e-leclerc.com##.popover
 metairie.fr##.popup-notification
 la-croix.com##.prev
+chektools.com##.prod-animation
 tourhebdo.com##.resocs
 radins.com##.reveal-modal
 monalbumphoto.fr,radins.com##.reveal-modal-bg
