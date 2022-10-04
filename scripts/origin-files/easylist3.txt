@@ -2851,6 +2851,7 @@ pixiv.net,cartoonpornvideos.com,m.economictimes.com,beethovenmaster.com,m.mistrz
 ! ##.ad
 rakuraku-info.jp,sugoren.com,dailynewsonline.jp,yakuji.co.jp,asahi.com,m.winporn.com,slate.com,sankei.com,gameranbu.jp,seiga.nicovideo.jp,m.arukikata.co.jp,setn.com,hateblo.jp,hatenablog.com,hatenablog.jp,hatenadiary.com,hatenadiary.jp,hatenadiary.org,syosetu.org##.ad
 !
+vjav.*##.video-page__wrapper > div[class]:first-child:not([class^="video-page"]) > div[class]
 poder360.com.br##.box-banner-footer
 allapk.ru##.topbar
 vkprime.com##.skip_button
@@ -5488,8 +5489,6 @@ gesundheitsfrage.net,gutefrage.net,finanzfrage.net###anchor-ad
 apkmirror.com##.appRow.showOnMobileAndTablet
 yahoo.com##div.controller[class*="smartphone_Px"][data-reactid]
 ||deutsche-mittelstands-nachrichten.de/wp-content/wptouch-data/include/js/dmn_interstitial_mobile.js
-gomovies.cd###mv-info > div.mobile-btn
-gomovies.cd##a.btn-successful[target="_blank"][href^="https://gomovies.cd"]
 m.donanimhaber.com##.diger-haberler > div[style="margin:10px auto; text-align:center; width:600px; height:338px;"]
 m-gsmarena-com.cdn.ampproject.org##amp-iframe[src^="https://www.91mobiles.com"]
 onedio.com###sponsored
@@ -6847,9 +6846,6 @@ c0server.jags.co.jp/jss/img/banners/$app=jp.co.jags.android.Bokumaka
 ! https://github.com/AdguardTeam/AdguardFilters/issues/2182
 ||config.sdk.scopely.io/*/android/ads_config.json
 ||s3.amazonaws.com/promos.withbuddies.com/prod/ads/
-! https://github.com/AdguardTeam/AdguardFilters/issues/2253
-||onceux.unicornmedia.com/now/ads/vmap/*&UMADPARAMcsid=imdb.us.android$important,replace=/(<vmap:VMAP[\s\S]*?>)[\s\S]*<\/vmap:VMAP>/\$1<\/vmap:VMAP>/
-||onceux.unicornmedia.com/now/ads/vmap/*&UMADPARAMcsid=imdb.us.android$replace=/(<vmap:VMAP[\s\S]*?>)[\s\S]*<\/vmap:VMAP>/\$1<\/vmap:VMAP>/
 ! https://forum.adguard.com/index.php?threads/10132/
 ||api.live.daum.net/*/ad/
 ! https://forum.adguard.com/index.php?threads/10132/
