@@ -364,6 +364,7 @@ lj_bookmarklet
 media.toidas.net#?#.toidas-sns-embed-inner
 !#################
 !
+newsyou.info#?#nofollow > a[href^="https://t.me/joinchat"]:upward(1)
 kookje.co.kr#?#.news_share_sns > li:has(> a[href^="javascript:send"])
 readyfor.jp#?#div[class^="css-"] > ul[class^="css-"]:has(> li[class^="css-"] > a[target="_blank"] > div[class^="css-"] > svg + span)
 kankocho.jp#?#.items-hero-action-area > .gaps:has(> .box > button > .v-btn__content > .fa-twitter)
@@ -8566,7 +8567,7 @@ mobil.stern.de##.social-icon-table > .social-icon:not(.social-icon-email)
 ekabu.ru,66.ru##.t-social-buttons
 thefreedictionary.com##.share-block
 a2zcrack.com##.tpcrn-shr-post
-itojisan.xyz,foreignlang.ecc.co.jp,nsp.ru,nissin.com,zhidao.baidu.com,gratis.com##.share-area
+gazeteyaziyor.com.tr,itojisan.xyz,foreignlang.ecc.co.jp,nsp.ru,nissin.com,zhidao.baidu.com,gratis.com##.share-area
 azpolitika.info##.lrshare_interfacehorizontal > lr > lrc > [class]:not(.lrshare_email):not(.lrshare_print)
 ushilapychvost.ru##.m-item-post-sharing
 cnet.com##.sharebarContainer > .share-button:not(.emailWrapper):not(.comment-count-redesign)
