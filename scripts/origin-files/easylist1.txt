@@ -376,6 +376,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||ptztvpremium.com^$third-party
 ||analyticssystems.net^$third-party
 ||events.il.fi^
 ||network.screen13.com^
@@ -5317,6 +5318,10 @@ nethunt.com/api/v1/track/email/$image
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||olaplog.smartmediarep.com^
+||gateway.cloud.sbs.co.kr^
+||adtracking.smartmediarep.com^
+||analytics.oyorooms.com^
 ||analytics-tracking.meetup.com^
 ||beacon.dropbox.com^
 ||log.hypebeast.com^
@@ -28262,9 +28267,12 @@ _tracking.php?b=
 ! PerimeterX
 /init.js|$domain=iherb.com|skyscanner.com.br
 !
-/analytics.js$domain=freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|newsmax.com|bolgehastanesi.com|ewtc.de|newsdig.tbs.co.jp|imore.com|city.kushiro.lg.jp|emeraldbridal.com.au|emarat-news.ae
+/analytics.js$domain=freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|newsmax.com|bolgehastanesi.com|ewtc.de|newsdig.tbs.co.jp|imore.com|city.kushiro.lg.jp|emeraldbridal.com.au|emarat-news.ae|imobie.jp
 ||assets.adobedtm.com^$domain=mcclatchydc.com|elnuevoherald.com|bellinghamherald.com|sacbee.com|charlotteobserver.com|newsobserver.com|miamiherald.com|ef.ru|algida.com.tr|bmw-motorrad.co.uk|cif.com.tr|clearhaircare.com|domestos.com|dove.com|elidor.com.tr|f1sport.autorevue.cz|geico.com|hellmanns.com.tr|herkessofraya.com|johnsonsbaby.com.tr|lipton.com|lnk.to|lux.com|magnumicecream.com|neutrogena.com.tr|omo.com|rexona.com|samsung.com|sap.com|schwarzkopf.com.tr|signalturkiye.com|msnbc.com|nbcnews.com|kbb.com|eurosport.ru|timgate.it|intermiles.com|oxfordmail.co.uk|spiegel.de|hp.com
 !
+||player.sbs.co.kr/log/
+||adservice.sbs.co.kr/NetInsight/event/
+||porzo.com/js/analytics
 ||includemodal.global.ssl.fastly.net/sp.js
 ||calc.ru/js/metrics.js
 ||calc.ru/stat.php
@@ -32945,6 +32953,8 @@ $app=com.miui.analytics
 !#endif
 !
 !
+! https://github.com/uBlockOrigin/uAssets/issues/15296
+@@||googletagmanager.com/gtm.js$domain=konami.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/132140
 @@||cdn.segment.com/analytics.js/$domain=reuters.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/132024
