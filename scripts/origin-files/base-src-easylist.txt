@@ -25681,6 +25681,10 @@
 ||gadspms.com^
 ||gadspms.com^$third-party
 ||gadspmz.com^
+||gadzetomania.pl^$replace=/(<VAST[\s\S]*?>)[\s\S]*<\/VAST>/\$1<\/VAST>/,xmlhttprequest,other,~script
+||gadzetomania.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*\n)//,script
+||gadzetomania.pl^$replace=/(abp:subscribe[\s\S]*?.=\(\)=>).===.(\,)/\$1{return}\$2/,script
+||gadzetomania.pl^$replace=/(abp:subscribe[\s\S]*?.=function\(\)\{)return .===.(\}\,)/\$1return\$2/,script
 ||gae.karte.io^
 ||gagacon.com^
 ||gagasiradio.fm^*/htop.
