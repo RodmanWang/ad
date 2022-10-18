@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202210181525
+! Version: 202210182122
 ! Title: Fanboy's Annoyance List
-! Last modified: 18 Oct 2022 15:25 UTC
+! Last modified: 18 Oct 2022 21:22 UTC
 ! Expires: 7 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -24933,6 +24933,7 @@ _vpcookieconsent/
 ###cookieBoxContainer
 ###cookieBoxOverlay
 ###cookieBoxWrapper
+###cookieBs
 ###cookieC
 ###cookieCDkeys
 ###cookieCNIL
@@ -25975,6 +25976,7 @@ _vpcookieconsent/
 ###cookieinfo1
 ###cookieinfo2
 ###cookieinfoBlack
+###cookieinfo_txt
 ###cookieinfo_xcookie
 ###cookieinfobar
 ###cookieinfobox
@@ -31500,6 +31502,7 @@ _vpcookieconsent/
 ##.boc-cookies
 ##.body-overlay[data-show-cookie-banner-overlay]
 ##.body-warnCookie
+##.boldcookieBarOverlay
 ##.bonialCmpBanner
 ##.bootom-cookie-wrap
 ##.borlabsCookieShow
@@ -31568,6 +31571,7 @@ _vpcookieconsent/
 ##.bs-suop-cookies
 ##.bs-wrap-gdpr-law
 ##.bsd-contribForm-gdpr-modal
+##.bstar-cookie-info
 ##.bstcmfw-cookie-wrapper
 ##.btw-cookie-policy-widget
 ##.btx-cookie-notification
@@ -47941,7 +47945,7 @@ ubs.com###cboxContent
 evaair.com,motonera.com,mydoka.com,play.tv,testo.com,ubs.com###cboxOverlay
 boardgamegeek.com###cc--main
 armorgames.com###cc-alert
-yellow.place###cc-bar
+sdaa-france.com,yellow.place###cc-bar
 waterfall-d-mannose.com###cc-cont
 charleslandaudentistry.co.uk###cc-container
 consoleconnect.com,pccwglobal.com###cc-overlay
@@ -48470,6 +48474,7 @@ wetransfer.com##.banner__container
 forums.lenovo.com##.banner_alert
 petalmail.com##.banner_box
 journiapp.com##.base-modal
+virgintvgo.virginmedia.com##.base-notification
 prestamarketing.com##.basicLightbox
 batchgeo.com##.batchgeo-cookie-notice
 ridehighcountry.com.au##.bb-bootstrap-alerts
@@ -48508,6 +48513,7 @@ algolia.com##.bot-0.left-0
 marketinghack.net##.bot-alert-box
 labyrinthos.co##.bottom
 everifin.com##.bottom-0.z-50.fixed
+tweetdeleter.com##.bottom-16
 corporateworld.cards##.bottom-2
 accu.co.uk##.bottom-3
 urlcast.io##.bottom-4.fixed
@@ -48692,6 +48698,7 @@ pwsweather.com##.css-nl3u0z
 airwallex.com##.css-svuxes
 northgatevehiclehire.ie##.css-t3ntlq
 quixel.com##.css-wzviqn
+ems.press##.css-zlf86n
 unitedpets.com##.cupjma
 hisense.co.uk##.curtain
 tannoy.com##.cv2-wrapper
@@ -53051,6 +53058,8 @@ metroasis.com.tw##.jlyLdS
 cri.cn##.js-dialog
 canva.cn##.jv5LaQ
 aiura.cn##.kGptVK
+mook.com.tw##.modal-overlay
+mook.com.tw##.modal-privacy
 eximbank.com.tw##.notifybar
 cloudtest.com.tw##.policy
 setn.com##.privacy-area
@@ -53986,6 +53995,7 @@ pkspolonus.pl###popek
 poznan.pl###popup-peka
 erhem.pl###popupContact
 lca.pl,legnica.pl###popupDiv
+fizyka.org###pp
 cieplodlakrakowa.pl,kancelariamzm.pl,kpr.pl,mieszko.pl###privacy
 ile-kalorii.pl###privacyMessage
 solankowaaleja.com###privacybox
@@ -54531,6 +54541,7 @@ valher.si##tr > td
 ! 
 almacen-informatico.com###Informacion
 lizipaina.es###additional
+sierraygonzalez.es###anuncio
 arsys.es###arsysCookieAcceptance
 alenergi.com,armeriapalacios.com,eitd.es,elandsl.es,hotelanoeta.com,mangasceramicas.com,seipli.com,webartean.com###aviso
 oloblogger.com###aviso_off
@@ -54570,6 +54581,7 @@ btp.es,consorciocaucho.es,fotokamal.com,fundazintegra.com,grdar.com,laalacenadem
 aramon.com,cerler.com,formigal-panticosa.com,javalambre-valdelinares.com###overlay
 lacentral.com###page-overlay
 hirealestate.es###pdcc-message-container
+tusclasesparticulares.com###pp
 esenviseu.net###qLtempOverlay
 acega.es###system-message
 lecourrier.es###times-legal-notice
