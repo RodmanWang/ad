@@ -1314,6 +1314,10 @@ $script,xmlhttprequest,third-party,domain=00ksw.com|01zww.com|0biquge.com|114zw.
 !
 !
 !
+hcomic.net##.main-container > .swiper
+hcomic.net##div[class^="horizontalBanner_"]
+hcomic.net##div[class^="multiBanner_bannerBox"]
+||wfiles.hcomic.net/indexSwiper/*_*x*_*_TC_gif.gif
 youku.com##div[data-adext]
 gfsoso.99lb.net##center > #logo-gf ~ h7[style="color: red;"]
 gfsoso.99lb.net##center > #logo-gf ~ * h7[style="color: red;"]
@@ -17251,6 +17255,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 szxx.com.cn###A0
+uump4.net###top-banner
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
