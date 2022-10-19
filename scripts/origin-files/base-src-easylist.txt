@@ -10051,6 +10051,10 @@
 ||autofaucets.org^$domain=rifurl.com
 ||autoid.com^$third-party
 ||autoimmunity.thermofisher.com^
+||autokult.pl^$replace=/(<VAST[\s\S]*?>)[\s\S]*<\/VAST>/\$1<\/VAST>/,xmlhttprequest,other,~script
+||autokult.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*\n)//,script
+||autokult.pl^$replace=/(abp:subscribe[\s\S]*?.=\(\)=>).===.(\,)/\$1{return}\$2/,script
+||autokult.pl^$replace=/(abp:subscribe[\s\S]*?.=function\(\)\{)return .===.(\}\,)/\$1return\$2/,script
 ||autolinkmaker.itunes.apple.com^$third-party
 ||autologica.ga^$third-party
 ||automatad.com^$third-party
@@ -23244,6 +23248,7 @@
 ||flznib.weblio.jp^
 ||fmcahlux.com^
 ||fmei.wang^
+||fmfbyfk.cn^
 ||fmgfqwe.xyz^
 ||fmjgtp.dentalspeed.com^
 ||fmketang.cn^
@@ -28775,6 +28780,7 @@
 ||impossiblemove.com^$third-party
 ||impresionesweb.com^$third-party
 ||impresix.com^
+||impreslvedate.com^$all
 ||impresseastsolo.com^
 ||impresseastsolo.com^$popup
 ||impression.appsflyer.com^
@@ -42361,6 +42367,7 @@
 ||pmmboxedge37-alb02.tt.omtrdc.net^
 ||pmpubs.com^
 ||pmsrvr.com^
+||pmthinktank.shop^
 ||pmzer.com^
 ||pn-adobeinternalags133.tt.omtrdc.net^
 ||pn-celcomaxiata.tt.omtrdc.net^
