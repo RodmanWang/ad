@@ -382,6 +382,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||withcabin.com^$third-party
 ||pixel.ipinfo.io^
 ||f4cebacks.com^
 ||pixmg.com^
@@ -37539,6 +37540,9 @@ $app=com.miui.analytics
 !
 ! id.x5.ru - fix receiving an sms code
 @@||mc.yandex.ru/metrika/tag.js$domain=id.x5.ru
+!
+! https://github.com/AdguardTeam/AdguardFilters/issues/133161
+@@||mc.yandex.ru/metrika/tag.js$domain=banki.ru
 !
 ! For platforms which do not support $redirect rules
 !#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
