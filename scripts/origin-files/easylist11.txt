@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202210242116
+! Version: 202210242326
 ! Title: Fanboy's Annoyance List
-! Last modified: 24 Oct 2022 21:16 UTC
+! Last modified: 24 Oct 2022 23:26 UTC
 ! Expires: 7 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -27843,7 +27843,6 @@ _vpcookieconsent/
 ###gdprCookie
 ###gdprCookieBanner
 ###gdprCookieBanner--custom
-###gdprCookieBar
 ###gdprCookieConsentManagedSummary
 ###gdprCookieLaw
 ###gdprCookiePolicy
@@ -36519,6 +36518,7 @@ _vpcookieconsent/
 ##.mh5_CookieNotice
 ##.mi-cookie-banner
 ##.mi-gdpr
+##.mid-cookies
 ##.mihoyo-cookie-tips
 ##.mikit_bandeau_cookies
 ##.milibooCookie
@@ -38939,6 +38939,7 @@ _vpcookieconsent/
 ##div#cookiesApproval
 ##div#dcCookieHelper
 ##div#dcCookieHelper--bg
+##div#gdprCookieBar
 ##div#whCookieManager
 ##div.-cookie
 ##div.-cookie-notice
@@ -49711,6 +49712,8 @@ hitc.com,svd.se##div[id^="sp_message_container_"]
 blickers.com,businessoffashion.com,naiin.com##.tw-bottom-0
 ! ! #dm-cookie-popup-container
 bohemiagoldcrystal.com,budkykrmitka.cz,detske-auticka.sk,dianashop.cz,fenster-jetzt.at,hanashop.sk,jbsanitary.cz,kojeneckysvet.cz,kuchyne-vybaveni.cz,limenclothing.cz,litvinoff.cz,lovomarket.cz,mybabystore.cz,reenactor.cz,reflexninazehlovacky.cz,saver.sk,silvini.de,stvarms.cz,zdravi.online###dm-cookie-popup-container
+! ! norclinic.com
+norclinic.com,normalink.es###c-cookies__modal
 ! ! optoma
 optoma.ae,optoma.be,optoma.co.uk,optoma.com,optoma.com.br,optoma.com.mx,optoma.de,optoma.es,optoma.fr,optoma.it,optoma.nl,optoma.pl,optoma.ru,optomaeurope.com,optomausa.com###msgbg
 ! ! nordicnest
@@ -52877,6 +52880,7 @@ sudoku-knacker.de##.v-bottom-sheet
 ichbindeinauto.de##.v-dialog__content
 ichbindeinauto.de,promotionbasis.de##.v-overlay
 gartentraeume-sachsen-anhalt.de##.vcModalTarget
+ei2.at##.vm--container
 bresc.com,bresculinair.com##.wall
 oeaw.ac.at##.warning-popup
 hatex24.de##.widget-EyeCatcher
@@ -53038,6 +53042,7 @@ nqt.fr##.sgpb-popup-dialog-main-div-wrapper
 nqt.fr##.sgpb-popup-overlay
 assuropoil.fr,camping-le-ruisseau.fr,hudolia.fr,magasinsdeco.fr,recreatisse.com,wharton.upenn.edu##.spu-bg
 vinted.fr##.sticky-footer
+louisedamas.fr##.styles_PopinBanner__8waX5
 xianti.fr##.t657
 batichiffrage.fr##.t972
 guest-club.fr##.tl-bottom-0
