@@ -1856,6 +1856,9 @@ sasisa.ru#%#AG_onLoad(function() { window.Umobi = function() {}; });
 !-------CSS---------
 !-------------------
 !
+! leftover at the top
+bolavip.com#$##top-sticky { display: none!important; }
+bolavip.com#$#.header-top-sticky { top: 0!important; }
 ! scroll lock (not by cosmetic filter)
 techinsight.jp#$#body[style^="position: fixed"] { position: static !important; }
 ! bottom placeholder
@@ -2866,6 +2869,9 @@ berkem.ru,pixiv.net,cartoonpornvideos.com,m.economictimes.com,beethovenmaster.co
 ! ##.ad
 rakuraku-info.jp,sugoren.com,dailynewsonline.jp,yakuji.co.jp,asahi.com,m.winporn.com,slate.com,sankei.com,gameranbu.jp,seiga.nicovideo.jp,m.arukikata.co.jp,setn.com,hateblo.jp,hatenablog.com,hatenablog.jp,hatenadiary.com,hatenadiary.jp,hatenadiary.org,syosetu.org##.ad
 !
+pagina12.com.ar##.banner-wrapper-top
+sofifa.com##.atf
+agoda.com##div[class^="AdBannerCard__adContainer"]
 moviewalker.jp##header ~ div[style^="margin-top:10px;"]
 moviewalker.jp##div[id^="mw-s_all"]
 ch-review.net##div[style="text-align: center; margin-top: 16px;"]
