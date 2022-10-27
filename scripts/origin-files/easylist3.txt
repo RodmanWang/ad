@@ -1857,6 +1857,16 @@ sasisa.ru#%#AG_onLoad(function() { window.Umobi = function() {}; });
 !-------------------
 !
 ! leftover at the top
+ciudad.com.ar#$##header { height: auto!important; }
+! leftover at the top
+!#if (adguard_app_ios || adguard_app_android)
+ambito.com#$#.banner-wrapper-header { display: none!important; }
+ambito.com#$#.header-top { top: 0!important; }
+ambito.com#$#body { padding-top: 66px!important; }
+ambito.com#$#.amp-banner-top { display: none!important; }
+ambito.com#%#//scriptlet('remove-class', 'header-logo-banner', 'header')
+!#endif
+! leftover at the top
 bolavip.com#$##top-sticky { display: none!important; }
 bolavip.com#$#.header-top-sticky { top: 0!important; }
 ! scroll lock (not by cosmetic filter)
@@ -2869,6 +2879,7 @@ berkem.ru,pixiv.net,cartoonpornvideos.com,m.economictimes.com,beethovenmaster.co
 ! ##.ad
 rakuraku-info.jp,sugoren.com,dailynewsonline.jp,yakuji.co.jp,asahi.com,m.winporn.com,slate.com,sankei.com,gameranbu.jp,seiga.nicovideo.jp,m.arukikata.co.jp,setn.com,hateblo.jp,hatenablog.com,hatenablog.jp,hatenadiary.com,hatenadiary.jp,hatenadiary.org,syosetu.org##.ad
 !
+meteored.com.ar###pubHead
 shiftdelete.net##.above-header
 pagina12.com.ar##.banner-wrapper-top
 sofifa.com##.atf
