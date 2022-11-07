@@ -24102,7 +24102,7 @@
 ||assets-v2.invaluable.com^
 ||assets-v2.northsidesun.com^
 ||assets.adobedtm.com^$domain=mcclatchydc.com|elnuevoherald.com|bellinghamherald.com|sacbee.com|charlotteobserver.com|newsobserver.com|miamiherald.com|ef.ru|algida.com.tr|bmw-motorrad.co.uk|cif.com.tr|clearhaircare.com|domestos.com|dove.com|elidor.com.tr|f1sport.autorevue.cz|geico.com|hellmanns.com.tr|herkessofraya.com|johnsonsbaby.com.tr|lipton.com|lnk.to|lux.com|magnumicecream.com|neutrogena.com.tr|omo.com|rexona.com|samsung.com|sap.com|schwarzkopf.com.tr|signalturkiye.com|msnbc.com|nbcnews.com|kbb.com|eurosport.ru|timgate.it|intermiles.com|oxfordmail.co.uk|spiegel.de|hp.com
-||assets.adobedtm.com^$domain=sacbee.com|centredaily.com
+||assets.adobedtm.com^$domain=sacbee.com|centredaily.com|tagesspiegel.de
 ||assets.adobedtm.com^$script,domain=thescene.com
 ||assets.diagomics.com^
 ||assets.garron.blog^
@@ -79170,6 +79170,14 @@
 ||verblife-5.co^$popup
 ||verbox.ru^$third-party
 ||vercel-insights.com^$third-party
+||vercel.com^$removeparam=redirected
+||vercel.com^$removeparam=sfmc_activity_id
+||vercel.com^$removeparam=sfmc_activity_name
+||vercel.com^$removeparam=sfmc_activityid
+||vercel.com^$removeparam=sfmc_asset_id
+||vercel.com^$removeparam=sfmc_channel
+||vercel.com^$removeparam=sfmc_journey_id
+||vercel.com^$removeparam=sfmc_journey_name
 ||verdrivenbru.info^$third-party
 ||vergilimus.com^$third-party
 ||verified-extensions.com^$third-party
