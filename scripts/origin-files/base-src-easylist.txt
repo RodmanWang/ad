@@ -556,6 +556,7 @@
 ||1fwjpdwguvqs.com^
 ||1gldnstrofhkybypdsknubjobaleestranre24.com^
 ||1gnyn1v3ak78.com^
+||1gr.cz/log^
 ||1gustis.xyz^
 ||1haosuo.com^
 ||1hx60gjebbfr.com^
@@ -5140,6 +5141,7 @@
 ||ad.mail.ru^$domain=~mail.ru|~sportmail.ru
 ||ad.mediaf.media^$third-party
 ||ad.mediaprimaplus.com.my^
+||ad.mobiuspace.net^
 ||ad.mox.tv^
 ||ad.muyang888.top^
 ||ad.myinstashot.com^
@@ -34545,6 +34547,7 @@
 ||js.driftt.com^$third-party
 ||js.duotegame.com^
 ||js.emailable.com^$third-party
+||js.glossom.jp^$third-party
 ||js.go2sdk.com^
 ||js.hkslg520.com^
 ||js.hsadspixel.net^$third-party
@@ -43623,7 +43626,6 @@
 ||open.fm^$replace=/(abp:subscribe[\s\S]*?.=\(\)=>).===.(\,)/\$1{return}\$2/,script
 ||open.fm^$replace=/(abp:subscribe[\s\S]*?.=function\(\)\{)return .===.(\}\,)/\$1return\$2/,script
 ||open.spotify.com^$removeparam=_branch_referrer
-||open.spotify.com^$removeparam=si
 ||open8.cn^$third-party
 ||openadserving.com^$popup
 ||openbook.net^$third-party
@@ -58659,6 +58661,7 @@
 ||t.adbr.io^
 ||t.adcell.com^$popup,third-party
 ||t.adlpo.com^
+||t.adx.opera.com^
 ||t.afi-b.com^$third-party
 ||t.ajrkm.link^$third-party
 ||t.ao.argyleforum.com^
