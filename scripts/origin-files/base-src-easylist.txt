@@ -232,6 +232,7 @@
 ||1100i.com^
 ||110380d053f716c4.com^
 ||1104piaoba2022.xyz^
+||1108jiuba2022.xyz^
 ||1109.notify.optimizesrv.com^
 ||11111.host^
 ||1111supjavcom.xyz^
@@ -9240,6 +9241,13 @@
 ||app.5-delivery.ru^$removeparam=pid
 ||app.adjust.com^$app=com.easybrain.nonogram|ru.pikabu.android|com.maroieqrwlk.unpin|com.touchtao.soccerkinggoogle|com.mobirix.zumaking2|com.mobirix.swipebrick2|com.mobirix.mahjongking2|com.mobirix.hit7.casino.slots|com.mobirix.gmm|com.mobirix.fishingchampionship|com.mobirix.airhockey|com.mobirix.abmon|com.mobirix.MultiplyWar
 ||app.adjust.com^$redirect=nooptext,app=com.ilike.cartoon,important
+||app.adjust.com^$removeparam=/^event_callback_/
+||app.adjust.com^$removeparam=campaign
+||app.adjust.com^$removeparam=creative
+||app.adjust.com^$removeparam=install_callback
+||app.adjust.com^$removeparam=ip_address
+||app.adjust.com^$removeparam=nend_click_id
+||app.adjust.com^$removeparam=user_agent
 ||app.adjust.io^
 ||app.adjust.net.in^
 ||app.adjust.world^
@@ -66221,6 +66229,7 @@
 ||weasel.accomplice.ai^
 ||weasel.madebytune.be^
 ||weather-analytics-events.apple.com^
+||weatherplllatform.com^
 ||weaveradrenaline.com^
 ||weaveradrenaline.com^$popup
 ||web-ad.xyz^$third-party
