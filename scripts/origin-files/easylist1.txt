@@ -81,7 +81,9 @@
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/134778
 ! segment.com analytics
-#%#//scriptlet('set-local-storage-item', 'ajs_anonymous_id', 'null')
+! https://segment.com/docs/connections/sources/catalog/libraries/website/javascript/identity/
+! TODO: replace by key removing scriptlet when it will be implemented
+reuters.com#%#//scriptlet('set-local-storage-item', 'ajs_anonymous_id', 'null')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/134220
 6play.fr#%#//scriptlet('set-local-storage-item', 'gdprTracking', 'false')
 6play.fr#%#//scriptlet('set-local-storage-item', 'gdprPersonalization', 'false')
@@ -5141,6 +5143,10 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||zbwp6ghm.com^$third-party
 !
 ! TikTok
+||rtc-logger-va.tiktokv.com^
+||rtlog.tiktokv.com^
+||mon-*.tiktokv.com^
+||mon.tiktokv.com^
 ||xlog.tiktokv.com^
 ||xlog-va.tiktokv.com^
 ||log*-*.tiktokv.com^
@@ -31342,6 +31348,7 @@ _tracking.php?b=
 /analytics.js$domain=freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|newsmax.com|bolgehastanesi.com|ewtc.de|newsdig.tbs.co.jp|imore.com|city.kushiro.lg.jp|emeraldbridal.com.au|emarat-news.ae|imobie.jp
 ||assets.adobedtm.com^$domain=mcclatchydc.com|elnuevoherald.com|bellinghamherald.com|sacbee.com|charlotteobserver.com|newsobserver.com|miamiherald.com|ef.ru|algida.com.tr|bmw-motorrad.co.uk|cif.com.tr|clearhaircare.com|domestos.com|dove.com|elidor.com.tr|f1sport.autorevue.cz|geico.com|hellmanns.com.tr|herkessofraya.com|johnsonsbaby.com.tr|lipton.com|lnk.to|lux.com|magnumicecream.com|neutrogena.com.tr|omo.com|rexona.com|samsung.com|sap.com|schwarzkopf.com.tr|signalturkiye.com|msnbc.com|nbcnews.com|kbb.com|eurosport.ru|timgate.it|intermiles.com|oxfordmail.co.uk|spiegel.de|hp.com
 !
+||sdk.qvol.tv/static/assets/vendor/yandex_metrica.js
 j-cast.com###sp_j-cast_kiji_recommend_1
 j-cast.com###cxRelatedEntry
 ||static.hepsiburada.net/scripts/webtrekk*.js
@@ -35371,6 +35378,7 @@ $app=com.miui.analytics
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
 !
+||tracking-widget.fillr.com^
 ||api.data-analytics.pokemon.com^
 ||arcspire.io^
 ||onthe.io^
