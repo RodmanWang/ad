@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202211190609
+! Version: 202211191222
 ! Title: Fanboy's Annoyance List
-! Last modified: 19 Nov 2022 06:09 UTC
+! Last modified: 19 Nov 2022 12:22 UTC
 ! Expires: 7 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -2087,11 +2087,6 @@ _subscribers_newsletters/
 /printarest.
 /prisna-social-counter.
 /prn.share.
-/public/*/facebook_$~stylesheet
-/public/*/tumblr_$~stylesheet
-/public/*/twitter_$~stylesheet
-/public/instagram-
-/public/social/*
 /qq_share_
 /red-facebook-
 /red-linkedin-
@@ -4589,6 +4584,7 @@ _vpcookieconsent/
 ###zerg-target
 ###zm_survey-prompt
 ##.IN-widget
+##.SupportUsExpandedState
 ##.UpNext-Wrapper
 ##._footer_follow_us_links_
 ##._popIn_recommend_ad
@@ -34387,6 +34383,7 @@ _vpcookieconsent/
 ##.cookiesConfirm
 ##.cookiesConfirmation
 ##.cookiesConsentPopUp
+##.cookiesConsent_outer
 ##.cookiesContainer
 ##.cookiesContent
 ##.cookiesCorreios
@@ -45772,7 +45769,7 @@ mikehuckabee.com##.email-signup-section
 pcgamesn.com##.end-of-post-social-cta
 thescoop.us##.essb_mailform
 gardeningetc.com,pcgamer.com,windowscentral.com##.exit-intent
-cinemablend.com,creativebloq.com,cyclingnews.com,digitalcameraworld.com,gamesradar.com,guitarworld.com,itproportal.com,laptopmag.com,livescience.com,marieclaire.com,space.com,techradar.com,tomsguide.com,tomshardware.co.uk,tomshardware.com,whathifi.com,whattowatch.com##.exitIntent
+cinemablend.com,creativebloq.com,cyclingnews.com,digitalcameraworld.com,gamesradar.com,guitarworld.com,itproportal.com,laptopmag.com,livescience.com,marieclaire.com,space.com,techradar.com,tomsguide.com,tomshardware.co.uk,tomshardware.com,wallpaper.com,whathifi.com,whattowatch.com##.exitIntent
 fortune.com##.favorites_widget
 dailydot.com##.figma-framed
 blog.feedspot.com##.fixedBar
