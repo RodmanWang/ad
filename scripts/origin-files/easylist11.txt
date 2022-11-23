@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202211230334
+! Version: 202211230521
 ! Title: Fanboy's Annoyance List
-! Last modified: 23 Nov 2022 03:34 UTC
+! Last modified: 23 Nov 2022 05:21 UTC
 ! Expires: 7 days (update frequency)
 %include easylist:template_header.txt
 ! --------------------------General blocking rules-----------------------------!
@@ -38159,6 +38159,7 @@ _vpcookieconsent/
 ##.tracking-banner
 ##.tracking-banner-wrapper
 ##.tracking-consent
+##.tracking-consent-banner
 ##.tracking-consent-cta
 ##.tracking-consent-dialog
 ##.tracking-consent-notice
@@ -48383,7 +48384,7 @@ unbound.com###js-cookies
 shellenergy.co.uk###js-footer
 travelwisconsin.com###js-stickyhead
 gainesvillecoins.com###jsGDRP
-juno.co.uk###juno-cookie-consent
+juno.co.uk,junodownload.com###juno-cookie-consent
 brandfolder.com###lanyard_root
 seeker.com###legal-notice
 adultswim.com###legal-notification
@@ -48676,6 +48677,7 @@ bethesda.net##.RiotWrapper-visor-alert-RiotWrapper-visor-alert5
 drweb.com##.SHOWIT-msg_showed
 cnn.com##.TermsOfService__component
 mtn.co.za##.Toast
+alecu.org##.ToastGdpr__wrapper__7lpbP
 lareviewofbooks.org##.Toastify
 6abc.com,abc11.com,abc13.com,abc30.com,abc7.com,abc7chicago.com,abc7news.com,abc7ny.com##.Tooltip
 fotor.com##.UseCookie_useCookieModle__6d4kz
@@ -49865,11 +49867,11 @@ carvertical.com##div[class^="BisquitsBanner_"]
 monzo.com##div[class^="CookieAlert-"]
 freedomtreks.co.uk,hiveon.net,skisafari.com,watch.plex.tv##div[class^="CookieBar"]
 manychat.com##div[class^="CookieBumper"]
-btc.com,criminalip.io,esportbet.io,rangewell.com,tvb.com,zinio.com,ziniounlimited.com##div[class^="CookiePolicy"]
 internxt.com##div[class^="Footer_cookiesBgFallback"]
 tinely.com##div[class^="GdprAcceptance_container"]
 porsche.com##div[class^="LegalDisclaimer_"]
 kurgo.com##div[class^="PrivacyNotice"]
+podimo.com##div[class^="SmallCookie"]
 eightyupgrades.com,luxexpress.eu##div[class^="cookie-banner"]
 7news.com.au,atlasvpn.com,sortter.com##div[class^="cookie-consent"]
 bbtv.com##div[class^="index-module--cookiebanner-"]
@@ -49978,6 +49980,8 @@ ablebits.com,bund-naturschutz.de,e-infra.com,malaysiaairlines.com,wedolit.eu,zes
 alunopresente.org.br,educacaoeterritorio.org.br,livredetrabalhoinfantil.org.br,portal.aprendiz.uol.com.br,territoriosemrede.org.br###lgpd-container
 ! ! .cookie_modal
 bolsamaisbrasil.com.br,tabuladigital.com.br,team.drund.com##.cookie_modal
+! ! CookiePolicy
+btc.com,criminalip.io,esportbet.io,podimo.com,rangewell.com,tvb.com,zinio.com,ziniounlimited.com##div[class^="CookiePolicy"]
 ! ! CookieNotice
 bitkubnft.com,bloomberglaw.com,dopper.com,engen.co.za,insailing.ru,kentik.com##div[class^="CookieNoti"]
 ! ! .cookie-notice
@@ -50166,7 +50170,7 @@ aksam.com.tr,aplikuj.pl,avislease.sk,ballonvaartcentrumvanmanen.nl,barecollectiv
 ! ! .jGrowl
 bitfactura.com,bitfaktura.cz,efakturierung.de,invoiceocean.com,invoiceocean.hr,invoiceocean.rs##.jGrowl
 ! ! .modal-cookie
-acro.police.uk,aio.media,banggood.com,contabilizei.com.br,jfservice.ru,loans-hub.com,medcentr-tula.ru,militecbrasil.com.br,nasha-set.ru,onetoyshop.ru,pebmed.com.br,profsvar.com,restauracjaverona.pl,royalprestige.com,uvex-safety-shop.de,xn--b1addckdrqixje4a.xn--p1ai,xn--f1awi.xn--p1ai,zlimovel.com.br##.modal-cookie
+acro.police.uk,aio.media,banggood.com,contabilizei.com.br,jfservice.ru,loans-hub.com,medcentr-tula.ru,militecbrasil.com.br,museum-brandhorst.de,nasha-set.ru,onetoyshop.ru,pebmed.com.br,profsvar.com,restauracjaverona.pl,royalprestige.com,uvex-safety-shop.de,xn--b1addckdrqixje4a.xn--p1ai,xn--f1awi.xn--p1ai,zlimovel.com.br##.modal-cookie
 ! ! .modal-cookies
 ace-hotel.com,asiapulppaper.com,berendeeviprudi.ru,blowtex.com.br,bmalaw.com.br,dicampus.es,femeval.es,flawless.pl,geografica.com.br,knott-anhaenger-shop.de,knott-remolque-tienda.es,knott-trailer-shop.com,normadet.com,normagrup.com,normalit.com,normalux.com,riafinancial.com,sa-luz.com,sourcefurniture.com,vanhumbeeckfreres.be,xn--90asehmeeq.xn--p1ai##.modal-cookies
 ! ! .modalcookies
@@ -53059,6 +53063,7 @@ verwaltung.bund.de##.cookie-consent__inner
 matec.de,myconvotherm.de##.cookie-inquiry-wrapper
 beleuchtung.de##.cookie-setting
 crimetime.com##.cookie-text
+bodenaturkost.de##.cookieBanner_start
 parlament.gv.at##.cookieContent
 giffits-werbeartikel.at,giffits-werbeartikel.ch,giffits.de##.cookie_opt_in--wrapper
 proaurum.de##.cookiefirst-root
@@ -53221,7 +53226,7 @@ hatex24.de##.widget-EyeCatcher
 rademacher.de##.widget-EyeCatcher--dropzone---preset-fixed
 warthunder.de##.wt-cb
 oase-teichbau.de##.z-100
-grills.de##.z-100.justify-center
+grills.de,koempf24.de##.z-100.justify-center
 mein-gartenshop24.de##.z-100.py-6
 gartengeraete-onlineshop.de##.z-100.py-6.max-h-screen
 gutscheine.de##[data-ssr-consent]
@@ -53235,6 +53240,7 @@ aok-erleben.de##div[data-module="cookie-manager-dialog"]
 polizei.bayern.de##div[id*="_modal_outer_"]
 prospekt.aldi-sued.de##div[id^="ppms_cm_consent_popup_"]
 smart-mail.de##div[style*="position: fixed; padding-top:"]
+bodenaturkost.de##div[style*="top: 0px; left: 0px; height: 100%; width:100%; position: fixed; background-color: rgba(0, 0, 0, 0.6); z-index: 1000; text-align: center;"]
 pcwarehouse.be##div[style*="width: 100%; background-color: #474747; padding-top: 0px; margin-top: 0px;"]
 oebv.net##form > div
 ! 
@@ -54222,6 +54228,7 @@ email.it##script + div[style^="background: #000000;"]
 ! 
 yokohamatoyopet.jp###GDPR
 jsol.co.jp,sinko-soko.jp,toyota-td.jp###cookie
+tokyostarbank.co.jp###floatArea
 occto.or.jp###gdpr
 3ple.jp###layer_board_area
 osaka-seitetu.co.jp###modal-overlay
@@ -54948,7 +54955,6 @@ zebracomp.sk##.position-fixed.ov.shadow
 speedmeter.sk##.w_notice
 posta.sk##[src="https://static.posta.sk/cookies-consents/dialog/sk/index.html"]
 spsjm.sk##[style^="position: fixed; bottom: 0px;"]
-park-skocjanske-jame.si##div[style*="text-align:center;-webkit-box-shadow:0px -5px 14px -4px rgba"]
 amaterky.sk##div[style^="padding-top: 10px; padding-bottom: 10px;"]
 magiogo.sk##div[style^="width: 100%; display: flex;"]
 ! 
@@ -54960,6 +54966,7 @@ energijaplus.si###ck-overlay
 ekosklad.si,mustang-cevlji.si,vzajemna.si###cookie
 easistent.com###cookie_popup
 emporium.si###grayOut
+xxxlesnina.si##._1zBP5ruymc38ND7B
 isokon.si##.activebar-container
 dnevnik.si##.cc-wrapper
 generali.si##.cd-overlay
@@ -54976,6 +54983,7 @@ delo.si,slovenskenovice.si##.notice
 fran.si##[style^="margin:10% auto; width:80%;"]
 fran.si##[style^="position:fixed; top:0px;"]
 instal.si##body > .urejanjecenter
+park-skocjanske-jame.si##div[style*="text-align:center;-webkit-box-shadow:0px -5px 14px -4px rgba"]
 instal.si##tr > .napisnanogi
 instal.si##tr > .urejanjecenter
 valher.si##tr > td
