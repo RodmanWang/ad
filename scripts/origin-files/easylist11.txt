@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202211240920
+! Version: 202211241145
 ! Title: Fanboy's Annoyance List
-! Last modified: 24 Nov 2022 09:20 UTC
+! Last modified: 24 Nov 2022 11:45 UTC
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -38718,7 +38718,6 @@ _vpcookieconsent/
 ##[data-veci="cookies-policy"]
 ##[data-view-name="privacy-updated-notice"]
 ##[href="https://devowl.io/wordpress-real-cookie-banner/"]
-##[href="javascript: Cookiebot.renew()"]
 ##[id="lux-cookie-dialog"]
 ##[name="cookie-info"]
 ##[name="cookiewarning"]
@@ -56719,7 +56718,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||consentmanager.mgr.consensu.org/delivery/$stylesheet,xmlhttprequest,domain=sourceforge.net
 @@||consentmanager.net^$script,domain=lippu.fi
 @@||cookie-consent.ingatlancdn.com^$script,domain=immobilienungarn.net|ingatlan.com|realestatehungary.hu
-@@||cookiebot.com^$domain=apetro.pt|asambeauty.com|bankia.es|bergbauernmilch.de|berlingske.dk|biomarkt.de|bt.dk|cajamar.es|cineplex.de|danbolig.dk|dasinvestment.com|derivate.bnpparibas.com|digimon.kochfilms.de|digitaltrends.com|dr.dk|egmont.com|ekstrabladet.dk|euroatla.pt|fidelityhouse.eu|finanzmarktwelt.de|fof.se|formule1.nl|harzwasserwerke.de|hoyavision.com|kino.dk|login.nos.pt|mein-grundeinkommen.de|nngroup.com|nordiskfilm.com|refinery29.com|scubadiving.com|sportdiver.com|stern.de|storyhouseegmont.dk|storyhouseegmont.no|storyhouseegmont.se|swspremberg.de|warscrap.io|werder.de|werkenbijlidl.nl|wwf.fi|xn--myeblttle-z2a.de
+@@||cookiebot.com^$domain=apetro.pt|asambeauty.com|bankia.es|bergbauernmilch.de|berlingske.dk|biomarkt.de|bt.dk|caisse-epargne.fr|cajamar.es|cineplex.de|danbolig.dk|dasinvestment.com|derivate.bnpparibas.com|digimon.kochfilms.de|digitaltrends.com|dr.dk|egmont.com|ekstrabladet.dk|euroatla.pt|fidelityhouse.eu|finanzmarktwelt.de|fof.se|formule1.nl|harzwasserwerke.de|hoyavision.com|kino.dk|login.nos.pt|mein-grundeinkommen.de|nngroup.com|nordiskfilm.com|refinery29.com|scubadiving.com|sportdiver.com|stern.de|storyhouseegmont.dk|storyhouseegmont.no|storyhouseegmont.se|swspremberg.de|warscrap.io|werder.de|werkenbijlidl.nl|wwf.fi|xn--myeblttle-z2a.de
 @@||cookielawinfo.com^$~third-party
 @@||cookist.com^*/remote-gdpr.min.js$~third-party
 @@||crazy-factory.com/ajax_box_cookie_banner.php$~third-party
@@ -56794,7 +56793,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||quantcast.mgr.consensu.org/cmp.js$script,domain=cyclingnews.com|express.co.uk|independent.co.uk|ladbible.com
 @@||quantcast.mgr.consensu.org/GVL-v2/$domain=centrometeoitaliano.it|comingsoon.it|express.co.uk|fantacalcio.it|fly4free.com|gianlucadimarzio.com|ilbianconero.com|independent.co.uk|livetennis.it|money.it|skoften.net|vi.nl|wackojaco.com
 @@||quantcast.mgr.consensu.org/tcfv2/$domain=centrometeoitaliano.it|comingsoon.it|express.co.uk|fantacalcio.it|fly4free.com|gianlucadimarzio.com|ilbianconero.com|independent.co.uk|livetennis.it|money.it|skoften.net|vi.nl|wackojaco.com
-@@||quantcast.mgr.consensu.org^*/choice.js$domain=centrometeoitaliano.it|cerebriti.com|comingsoon.it|express.co.uk|fantacalcio.it|fly4free.com|gianlucadimarzio.com|ilbianconero.com|kueez.com|livetennis.it|money.it|player.livespotting.com|skoften.net|vi.nl|wackojaco.com
+@@||quantcast.mgr.consensu.org^*/choice.js$domain=centrometeoitaliano.it|cerebriti.com|comingsoon.it|express.co.uk|fantacalcio.it|fly4free.com|gianlucadimarzio.com|ilbianconero.com|kueez.com|livetennis.it|money.it|player.livespotting.com|skoften.net|space.com|vi.nl|wackojaco.com
 @@||quantcast.mgr.consensu.org^*/cmp2.js$script,domain=bikeperfect.com|centrometeoitaliano.it|cerebriti.com|cnews.fr|comingsoon.it|cyclingnews.com|dailyrecord.co.uk|digitalcameraworld.com|einthusan.tv|express.co.uk|f1aldia.com|fantacalcio.it|fly4free.com|gamesradar.com|gianlucadimarzio.com|guitarplayer.com|ilbianconero.com|independent.co.uk|indy100.com|kueez.com|ladbible.com|laptopmag.com|livescience.com|livetennis.it|livingetc.com|mirror.co.uk|musicradar.com|nfl.com|pcgamer.com|player.livespotting.com|porconocer.com|protothema.gr|realhomes.com|researchgate.net|skoften.net|space.com|t3.com|techradar.com|tomsguide.com|tomshardware.com|tumblr.com|vi.nl|wackojaco.com|whathifi.com|whattowatch.com
 @@||retrogames.cc/js/cookieconsent.min.js$~third-party
 @@||riscocloud.com/elas/webui/scripts/gdpr.js$~third-party
@@ -56817,6 +56816,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||suncalc.org/scripts/cookieconsent.min.js
 @@||tinder.com/static/build/chunks/CookiePolicyBanner-$script
 @@||tiwag.at/typo3conf/ext/bh/Resources/*/cookie-popup.$~third-party
+@@||topocentras.lt/js/CookieConsent-$~third-party
 @@||trinitymedia.ai/player/$script,subdocument
 @@||truste-svc.net/cookie_js/$subdocument
 @@||tweakers.net/ajax/cookie-consent/$~third-party,xmlhttprequest
