@@ -2910,6 +2910,7 @@ berkem.ru,pixiv.net,cartoonpornvideos.com,m.economictimes.com,beethovenmaster.co
 ! ##.ad
 rakuraku-info.jp,sugoren.com,dailynewsonline.jp,yakuji.co.jp,asahi.com,m.winporn.com,slate.com,sankei.com,gameranbu.jp,seiga.nicovideo.jp,m.arukikata.co.jp,setn.com,hateblo.jp,hatenablog.com,hatenablog.jp,hatenadiary.com,hatenadiary.jp,hatenadiary.org,syosetu.org##.ad
 !
+bookmaker-ratings.ru##.branding-top-wrapper
 washingtonpost.com##.tableAd1
 fistingplanet.com##.happy-related-videos-mobile
 fistingplanet.com##.happy-footer-mobile
@@ -6629,6 +6630,9 @@ anwap.club,anwap.film,anwap.mobi##body > div[class] > a > strong
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/135660
+||startup.mobile.yandex.net^$app=ru.rp5.rp5weatherhorizontal
+||yandex.ru^$app=ru.rp5.rp5weatherhorizontal
 ! https://github.com/AdguardTeam/AdguardFilters/issues/135278
 ://yandex.ru^$app=com.jagplay.client.android.app.thousand.hd
 ! https://github.com/AdguardTeam/AdguardFilters/issues/135603
