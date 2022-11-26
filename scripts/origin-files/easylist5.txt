@@ -3450,6 +3450,8 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+unionpedia.org#$#.modalBack { display: none !important; }
+unionpedia.org#$#body[style="overflow: hidden;"] { overflow: auto !important; }
 style.yahoo.com##.player > div.vp-docked
 boyfriendtv.com##.x-news-line
 news.sky.com###uz_popup_container
@@ -10311,6 +10313,7 @@ technologyreview.com,inews.co.uk,nordbayern.de,thelocal.ch,morgenpost.de,waz.de,
 !
 ! SECTION: Subscriptions - Regular rules
 !
+fbi.gov###meta-tile-meta-sticky-footer
 jakiwniosek.pl#%#//scriptlet("prevent-addEventListener", "mouseleave")
 trend.az##.read-news-on
 zdg.md##.google-block
@@ -14522,7 +14525,7 @@ dom.ria.com,tvrain.ru##.mailing
 fitness-pro.ru##.mailsubscribe
 likeni.ru##.main-widgets-subscribe
 hogan.com##.mainFooter__newsletterPopup__section
-newsmaker.md,seance.ru,photorecept.ru,helpnetsecurity.com,forbes.com.br,javacodegeeks.com,turizmgunlugu.com##.mc4wp-form
+slantmagazine.com,newsmaker.md,seance.ru,photorecept.ru,helpnetsecurity.com,forbes.com.br,javacodegeeks.com,turizmgunlugu.com##.mc4wp-form
 tribalfootball.com##.mc_embed_signup
 britannica.com##.md-newsletter-promo
 sunexpress.com##.meta-informations__information--newsletter-form
