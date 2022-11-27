@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202211261959
+! Version: 202211270202
 ! Title: Fanboy's Annoyance List
-! Last modified: 26 Nov 2022 19:59 UTC
+! Last modified: 27 Nov 2022 02:02 UTC
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -17488,7 +17488,6 @@ _vpcookieconsent/
 ##.secondaryNav-social
 ##.secondarySahre
 ##.section-follow
-##.section-share
 ##.section-sharebar
 ##.section-social
 ##.section_footer-social-links
@@ -46715,6 +46714,7 @@ wired.com###follow-wired
 diffen.com###followDfn
 womenonwheels.co.za###followLink
 thisoldhouse.com###followToh
+phillyvoice.com###follow_social
 businessinsider.com,businessinsider.com.au###follow_wrap
 people.com###footer-article
 gambling.com###footer-connect-list
@@ -48973,6 +48973,7 @@ writerduet.com##.container.pb-4.pt-4
 iconscout.com##.container_hP6iH
 sanitarium.co.nz,sanitarium.com.au##.cookie--modal
 visartech.com##.cookie-banner-module--cookieBanner--cC0Jm
+connection.com,govconnection.com,macconnection.com##.cookie-check
 cinch.co.uk##.cookie-consent_overlay__QytSD
 cameronhouse.co.uk##.cookie-container
 theatlantic.com##.cookie-disclaimer
@@ -49977,6 +49978,8 @@ ahprofi.cz,akros.cz,aspshop.cz,fiskars-shop.cz,fiskars-shop.sk,kancelarska-kresl
 hikvision.com##.gdpr-wrapper
 ! ! .z-100
 cote.co.uk,ennismore.com,sallys-shop.de##.z-100
+! ! .cookie-bar
+ansell.com.cn,hypable.com,karriartips.se##.cookie-bar
 ! ! #ws_eu-cookie-container
 absolut-canoe.de,adt-diamantwerkzeuge.de,aluscout.de,blasmusik-shop.de,deinsportsfreund.de,diekleinewerft.de,druckerpatronenexpress.de,duftfeeling.de,edesign24.de,ersatzteil-shop24.de,eurotabak.de,futterscheune.com,glitzerpueppi.de,growland.fr,joergs-sportladen.de,julido.de,kabelschuhe-shop.de,kartons24.de,lanade.de,nmav.de,pflanzen-mauk.de,shop.cosch-edelstahl.de,tesla-lighter.de,watchband-berlin.com,wischmopps.de###ws_eu-cookie-container
 ! ! #banerRoot
@@ -50101,7 +50104,7 @@ commentcoder.com,eanews.ru##[class^="gdpr_"]
 ! ! .overLay
 abundantgracetabernacle.org.uk,destemma.org,pacificandgold.co.uk##.overLay
 ! ! .CookieConsent
-bluemail.me,e-ville.com,forbesafrica.com,geeksforgeeks.org,nebula.tv,nordlayer.com,nordlocker.com,officedepot.hu,pango.education,rcskinclinic.com,salvagemarket.co.uk,tayama.pl,u.sb,upgrade.chat,wheels.ca##.CookieConsent
+bluemail.me,e-ville.com,forbesafrica.com,fotmob.com,geeksforgeeks.org,nebula.tv,nordlayer.com,nordlocker.com,officedepot.hu,pango.education,rcskinclinic.com,salvagemarket.co.uk,tayama.pl,u.sb,upgrade.chat,wheels.ca##.CookieConsent
 ! ! .m-smartbar-container
 hilti.com,hilti.dk,hilti.ru##.m-smartbar-container
 ! ! #policy-ribbon
@@ -50360,7 +50363,6 @@ mirror.co.uk##.captify-iframe
 mirror.co.uk##.captify-widget
 flattr.com,thebarchive.com##.cc_banner
 indiatimes.com##.consent-popup
-hypable.com##.cookie-bar
 tidal.com##.cookie-info
 basemark.com##.cookie-law
 enfsolar.com##.cookie-policy-banner
@@ -51893,6 +51895,7 @@ tunisie-radio.com###block-block-20
 tunisiatv.tn,watania1.tn###block-block-5
 qnbalahli.com###follow
 alforatnews.com###socialnetwork
+yalla-shoot.io###tme
 elmogaz.com##.SocialNetworks
 mc-doualiya.com##.actions
 androydi.com##.author-tw
@@ -53509,7 +53512,6 @@ timberland.com.tw##.cSAxXz
 infiniti.com.tw##.c_128
 cvimall.net##.chpFL
 converge.cn##.compliance
-ansell.com.cn##.cookie-bar
 hozonauto.com##.cookie-tips
 unity.cn##.cookies-permission_2kEyTVGb
 hkdecoman.com##.copyright-bottom-nav
@@ -56801,6 +56803,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||riscocloud.com/elas/webui/scripts/gdpr.js$~third-party
 @@||riwal.com/includes/js/components/cookiebar.js$script
 @@||santepubliquefrance.fr/rgpd/smarttag.js$script,~third-party
+@@||schibsted.io^*/gdpr-bundle.js
 @@||sdk.privacy-center.org^$script,domain=20minutos.es|abc.es|allocine.fr|as.com|autopista.es|bfmtv.com|bonduelle.it|ciclismoafondo.es|cnews.fr|corrieredellosport.it|dumpert.nl|dziennikwschodni.pl|dziennikzachodni.pl|ebuyclub.com|elcomercio.es|filmweb.pl|fip.fr|franceculture.fr|franceinter.fr|francetvinfo.fr|funradio.fr|gamepro.de|gamestar.de|gloswielkopolski.pl|gofeminin.de|goplay.be|hbvl.be|ivoox.com|jeanmarcmorandini.com|jeuxvideo.com|jofogas.hu|krone.at|lavanguardia.com|leboncoin.fr|lequipe.fr|marianne.net|mein-mmo.de|melty.fr|metronieuws.nl|motociclismo.es|mountainbike.es|mundo-geo.es|mundodeportivo.com|mundogravel.es|naszemiasto.pl|nieuwsblad.be|onmeda.de|podcasts.leparisien.fr|publicsenat.fr|revistaoxigeno.es|rtl.be|rtl.fr|seguro.elespanol.com|sensacine.com|sncf-connect.com|soycorredor.es|sportlife.es|standaard.be|strefabiznesu.pl|telegraaf.nl|trailrun.es|triatlonweb.es|tuttosport.com|vecernji.hr|xataka.com
 @@||se.com/myschneider/assets/onetrust.$~third-party
 @@||shop.bora-sauna.de/components/cookieconsent2/build/cookieconsent.min.js
