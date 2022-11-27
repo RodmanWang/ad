@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202211271255
+! Version: 202211271731
 ! Title: Fanboy's Annoyance List
-! Last modified: 27 Nov 2022 12:55 UTC
+! Last modified: 27 Nov 2022 17:31 UTC
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -7032,6 +7032,7 @@ _vpcookieconsent/
 ##.article-bottom-newsletter_box
 ##.article-chimp-subscribe
 ##.article-email-subscription
+##.article-footer-newsletter
 ##.article-footer__subscribe
 ##.article-gutter-signup
 ##.article-news-letter
@@ -7704,6 +7705,7 @@ _vpcookieconsent/
 ##.newsletter--container
 ##.newsletter--dark
 ##.newsletter--eil
+##.newsletter--floatfixed
 ##.newsletter--footer
 ##.newsletter--initial
 ##.newsletter--logged-out
@@ -7804,6 +7806,7 @@ _vpcookieconsent/
 ##.newsletter-modal-background
 ##.newsletter-modal-overlay
 ##.newsletter-modal__background
+##.newsletter-modtipo2
 ##.newsletter-module
 ##.newsletter-nav-btn
 ##.newsletter-notification-box
@@ -12446,6 +12449,11 @@ _vpcookieconsent/
 ##.better-social-counter
 ##.bg-button-twitter
 ##.bg-share
+##.bgShare.fb
+##.bgShare.instagram
+##.bgShare.tiktok
+##.bgShare.twiiter
+##.bgShare.youtube
 ##.bg_popup-social__wrap
 ##.bi-share
 ##.big-pinterest-icon
@@ -13571,6 +13579,7 @@ _vpcookieconsent/
 ##.eut-social-share-reddit
 ##.eut-social-share-tumblr
 ##.eut-social-share-twitter
+##.ev-social
 ##.ev-social-media-links
 ##.event-share-center
 ##.event-social-box
@@ -15865,6 +15874,7 @@ _vpcookieconsent/
 ##.kmd_social_widget
 ##.kodda_social_link
 ##.kopa-share-post
+##.kopa-social-static-widget
 ##.ksm-post-facebook
 ##.ksm-post-twitter
 ##.ktz-sharedpost
@@ -16496,6 +16506,7 @@ _vpcookieconsent/
 ##.ms-social-bar
 ##.msc-facebook
 ##.msc-googlePlus
+##.msg-share
 ##.msk-well-social
 ##.mtm-footer-social__links
 ##.mtphr-social-widget-links
@@ -41075,7 +41086,7 @@ _vpcookieconsent/
 /wp-content/plugins/cookie-law-info/public/js/cookie-law-info-public.js
 ! privacy-mgmt.com script specific
 ! https://github.com/easylist/easylist/issues/12806
-/wrapperMessagingWithoutDetection.js$domain=10kysymysta.fi|4players.de|7sur7.be|abiristeilyt.fi|ad-alliance.de|akuankka.fi|alypaa.com|auto-motor-und-sport.de|autoexpress.co.uk|automobil-elektronik-kongress.de|autotrader.co.uk|autozeitung.de|axelspringer.com|baby-und-familie.de|badoo.com|bbcgoodfood.com|bestcheck.de|bikeradar.com|bitpipe.com|bitpipe.com.br|borncity.com|brighttalk.com|businessinsider.com|businessinsider.es|camping.info|capital.de|caravaning.de|cardscout.de|carmagazine.co.uk|carthrottle.com|cavallo.de|channelpartner.de|chefkoch.de|chesterstandard.co.uk|cio.com|cio.de|classicfm.com|clever-tanken.de|computerfrage.net|computerhoy.com|computerweekly.com|computerwoche.de|computerworld.com|csoonline.com|dailyresearchplot.com|denofgeek.com|dexerto.com|digilehdet.fi|digitalartsonline.co.uk|discoverwildlife.com|dpd.com|dpd.de|duden.de|ecomento.de|edpc.eu|eiu.com|elektroauto-news.net|essen-und-trinken.de|expertreviews.co.uk|familie.de|finanzen100.de|finanzfrage.net|flugrevue.de|frag-mutti.de|futisporssi.fi|geo-television.de|geo.de|gladbachlive.de|globalplayer.com|goom.net|gruenderkueche.de|gutefrage.net|handelsblatt.com|hannover.de|heise.de|helpster.de|himosjuhannus.fi|hobbyconsolas.com|hockeygm.fi|idealo.de|iltapulu.fi|iskelma.fi|iskelmafestivaali.fi|itpro.co.uk|jameda.de|jetzt.de|justthenews.com|jysari.fi|kachelmannwetter.com|klamm.de|kn-online.de|krzbb.de|kuechengoetter.de|kuopiorock.fi|lancashiretelegraph.co.uk|leijonaporssi.fi|lemagit.fr|leonberger-kreiszeitung.de|lepoint.fr|leserreisen.mz-web.de|liberation.fr|liigaporssi.fi|livingathome.de|ln-online.de|lovelybooks.de|macwelt.de|macworld.com|mcnmotorcycleshow.com|mediaimpact.de|meine.noz.de|meineorte.com|menshealth.de|mnm.be|morewithvpro.com|mountainbike-magazin.de|muehlacker-tagblatt.de|myhomebook.de|n-page.de|nelonen.fi|nelonenmedialive.fi|netdoktor.de|netmoms.de|networkworld.com|neuepresse.de|nitro-tv.de|nnn.de|nowtv.it|noz.de|oekotest.de|oskar.de|pcgamesn.com|pclifecyclemanagement.com|pcwelt.de|pcworld.com|pcworld.es|phonostar.de|planet3ds.de|planetds.de|planetgameboy.de|planetiphone.de|planetswitch.de|planetvita.de|playpilot.com|playstationportable.de|podplay.com|politico.eu|portablegaming.de|praxisvita.de|pricespy.co.uk|pride.com|prignitzer.de|qz.com|radio.de|radio.net|radio.pl|radiocity.fi|radionova.fi|radioplay.fi|radiopooki.fi|rakennuslehti.fi|realitytitbit.com|reisefrage.net|rheinpfalz.de|rmj.fi|roadbike.de|rockfest.fi|rtl-passion.de|rtlplus.de|rugbydump.com|rugbyonslaught.com|ruutu.fi|sanakirja.org|sanoma.fi|scholieren.com|sciencefocus.com|senioren-ratgeber.de|shz.de|sky.com|sky.de|speed.io|sportbible.com|sportsmole.co.uk|startpagina.nl|streampicker.de|studyflix.de|stuff.tv|sueddeutsche.de|sueddeutscher-verlag.de|suomipopfestivaali.fi|suomitutka.fi|supla.fi|sv-veranstaltungen.de|svz.de|swmh.de|tahkojuhannus.fi|tammerfest.fi|tecchannel.de|techadvisor.com|techadvisor.fr|techhive.com|techstage.de|techtarget.com|techtarget.de|techtarget.fr|testedich.de|the-sun.com|theloadout.com|thepeoplesperson.com|thescottishsun.co.uk|theserverside.com|thesun.co.uk|thesun.ie|toggo.de|travelbook.de|tv14.de|tvnow.at|tvnow.de|vaalikone.fi|visit-hannover.com|vkmag.com|vkz.de|voice.fi|vox.de|vrt.be|wanajafestival.fi|wetteronline.de|whats-on-netflix.com|wisden.com|wiwo.de|zvw.de
+/wrapperMessagingWithoutDetection.js$domain=10kysymysta.fi|4players.de|7sur7.be|abiristeilyt.fi|ad-alliance.de|akuankka.fi|alypaa.com|anime2you.de|auto-motor-und-sport.de|autoexpress.co.uk|automobil-elektronik-kongress.de|autotrader.co.uk|autozeitung.de|axelspringer.com|baby-und-familie.de|badoo.com|bbcgoodfood.com|bestcheck.de|bikeradar.com|bitpipe.com|bitpipe.com.br|borncity.com|brighttalk.com|businessinsider.com|businessinsider.es|camping.info|capital.de|caravaning.de|cardscout.de|carmagazine.co.uk|carthrottle.com|cavallo.de|channelpartner.de|chefkoch.de|chesterstandard.co.uk|cio.com|cio.de|classicfm.com|clever-tanken.de|computerfrage.net|computerhoy.com|computerweekly.com|computerwoche.de|computerworld.com|csoonline.com|dailyresearchplot.com|denofgeek.com|dexerto.com|digilehdet.fi|digitalartsonline.co.uk|discoverwildlife.com|dpd.com|dpd.de|duden.de|ecomento.de|edpc.eu|eiu.com|elektroauto-news.net|essen-und-trinken.de|expertreviews.co.uk|familie.de|finanzen100.de|finanzfrage.net|flugrevue.de|frag-mutti.de|futisporssi.fi|geo-television.de|geo.de|gladbachlive.de|globalplayer.com|goom.net|gruenderkueche.de|gutefrage.net|handelsblatt.com|hannover.de|heise.de|helpster.de|himosjuhannus.fi|hobbyconsolas.com|hockeygm.fi|idealo.de|iltapulu.fi|iskelma.fi|iskelmafestivaali.fi|itpro.co.uk|jameda.de|jetzt.de|justthenews.com|jysari.fi|kachelmannwetter.com|klamm.de|kn-online.de|krzbb.de|kuechengoetter.de|kuopiorock.fi|lancashiretelegraph.co.uk|leijonaporssi.fi|lemagit.fr|leonberger-kreiszeitung.de|lepoint.fr|leserreisen.mz-web.de|liberation.fr|liigaporssi.fi|livingathome.de|ln-online.de|lovelybooks.de|macwelt.de|macworld.com|mcnmotorcycleshow.com|mediaimpact.de|meine.noz.de|meineorte.com|menshealth.de|mnm.be|morewithvpro.com|mountainbike-magazin.de|muehlacker-tagblatt.de|myhomebook.de|n-page.de|nelonen.fi|nelonenmedialive.fi|netdoktor.de|netmoms.de|networkworld.com|neuepresse.de|nitro-tv.de|nnn.de|nowtv.it|noz.de|oekotest.de|oskar.de|pcgamesn.com|pclifecyclemanagement.com|pcwelt.de|pcworld.com|pcworld.es|phonostar.de|planet3ds.de|planetds.de|planetgameboy.de|planetiphone.de|planetswitch.de|planetvita.de|playpilot.com|playstationportable.de|podplay.com|politico.eu|portablegaming.de|praxisvita.de|pricespy.co.uk|pride.com|prignitzer.de|qz.com|radio.de|radio.net|radio.pl|radiocity.fi|radionova.fi|radioplay.fi|radiopooki.fi|rakennuslehti.fi|realitytitbit.com|reisefrage.net|rheinpfalz.de|rmj.fi|roadbike.de|rockfest.fi|rtl-passion.de|rtlplus.de|rugbydump.com|rugbyonslaught.com|ruutu.fi|sanakirja.org|sanoma.fi|scholieren.com|sciencefocus.com|senioren-ratgeber.de|shz.de|sky.com|sky.de|speed.io|sportbible.com|sportsmole.co.uk|startpagina.nl|streampicker.de|studyflix.de|stuff.tv|sueddeutsche.de|sueddeutscher-verlag.de|suomipopfestivaali.fi|suomitutka.fi|supla.fi|sv-veranstaltungen.de|svz.de|swmh.de|tahkojuhannus.fi|tammerfest.fi|tecchannel.de|techadvisor.com|techadvisor.fr|techhive.com|techstage.de|techtarget.com|techtarget.de|techtarget.fr|testedich.de|the-sun.com|theloadout.com|thepeoplesperson.com|thescottishsun.co.uk|theserverside.com|thesun.co.uk|thesun.ie|toggo.de|travelbook.de|tv14.de|vaalikone.fi|visit-hannover.com|vkmag.com|vkz.de|voice.fi|vox.de|vrt.be|wanajafestival.fi|wetteronline.de|whats-on-netflix.com|wisden.com|wiwo.de|zvw.de
 ! cmp.quantcast.com specifics
 ||cmp.quantcast.com^$script,domain=9gag.com|aek365.org|agoravox.tv|athensmagazine.gr|auto1.fi|autovillage.co.uk|base64encode.org|blogit.fi|buzz.ie|buzzfeed.com|buzzfeednews.com|car.gr|century21.pt|cm-tv.pt|cmjornal.pt|comuniate.com|dagospia.com|defencenet.gr|echoboomer.pt|elcorreoweb.es|eurheilu.org|euro2day.gr|ezgif.com|flash.pt|foititikanea.gr|foreca.com|foreca.de|foreca.dk|foreca.ee|foreca.fi|foreca.fr|foreca.gr|foreca.lv|foreca.pl|foreca.ro|foreca.se|forecaweather.com|gawker.com|gazzetta.gr|gekkonen.net|grampianonline.co.uk|html-cleaner.com|ilcuoreinpentola.it|ilmainensanakirja.fi|imerisia.gr|inverness-courier.co.uk|inverse.com|irc-galleria.net|jornaldenegocios.pt|kicktipp.com|kilokalori.net|konsolifin.net|kotimaatutuksi.fi|laregion.es|lomamatkalle.fi|mamaclever.de|manua.ls|maxima.pt|megatv.com|musescore.com|neowin.net|nordic.ign.com|nostemedia.fi|nylon.com|observador.pt|online-tech-tips.com|outputter.io|pcguia.pt|pienimatkaopas.com|potku.net|publico.pt|reader.gr|record.pt|riemurasia.net|sabado.pt|sapo.pt|sitytrail.com|sneakertoast.com|soccerway.com|spellcheck.net|star.gr|suomi24.fi|suomikiekko.com|superbru.com|tanea.gr|tasty.co|techspot.com|telsu.fi|testeri.fi|thebest.gr|tilannehuone.fi|time.is|timeanddate.com|tmlcolorcodes.com|tovima.gr|vau.fi|vidas.pt|youfly.com|yourmoney.com
 ! cookielaw.org specifics
@@ -45082,6 +45093,7 @@ diariandorra.ad##.subscribe-notifications
 actionnetwork.com##.user-component__trial
 sbt.com.br##.webpush
 kokemaenjokilaakso.fi##[class|="col-sm"] > .boksiharmaa
+cba24n.com.ar##view-firebase-prompt
 ! Mobile app Notifications
 thefastmode.com###ChromeAppPromotion
 paypal.com###PPAppDownloadBannerContainer
@@ -52554,14 +52566,17 @@ elespectador.com##.Button_googleAlert
 ccma.cat##.M-compartir
 ccma.cat##.R-rightShare
 notimex.gob.mx##.RedesFlotante
+la-razon.com##.action-buttons
 ara.cat##.ara-header-social
 los40.com##.base_redes_sociales_fotogaleria
+cooperativa.cl##.botones-redes-sociales
 tribuna.com.mx##.btn-seguinos-gnews
 eltiempo.com##.btn_googlelink
 cadenaser.com##.cnt-interaccion
 lanacion.com.ar,qmusica.tv##.compartir
 abc.es##.compartir-mas
 americateve.com##.compartir-nota
+elmostrador.cl##.compartir-noticia
 wapa.pe##.container_shared--internal
 elcolombiano.com##.contenedor-google-noticias
 apertura.com,cronista.com##.content-redes
@@ -52569,25 +52584,31 @@ europafm.com,ondacero.es,todomercadoweb.es##.facebook
 starmedia.com##.fbk
 silicon.es##.follow
 a24.com##.footer-redes
+elmostrador.cl##.gnews-container
 transfermarkt.es,transfermarkt.pt,xn--tbnespaa-j3a.es##.header-social
 abc.es##.herramientas
 economiahoy.mx##.ic-rs
 eluniversal.com.mx##.in-img
 meteored.cl,meteored.com.ar,meteored.mx,tiempo.com##.liCompartir
 movistar.es##.link-redes
+voydeviaje.com.ar##.list-icons
 cadenaser.com##.modulo_compartir
 de10.com.mx##.pane-rate-widgetk
+biobiochile.cl##.post-social-container
 gamestorrents.fm##.principio_plugin
 crea-mexico.com,futbol.com.uy,marca.com,montevideo.com.uy,mvsnoticias.com,pantallazo.com.uy,telesurtv.net##.redes
+biobiochile.cl##.redes-container
 cadenaser.com##.rrss
 aurora-israel.co.il##.rrss-link
 autoline-market.cl,autoline.bo,autoline.com.py,autoline.es,autoline.pe,clarin.com,elperiodico.cat,elperiodico.com,gettyimages.es,hispantv.com,lagranepoca.com,landrover.es,viveusa.mx##.share
 eltiempo.com##.share-options
+vidasana.sv##.sharedButtons
 tn.com.ar##.shares
 eltiempo.com##.sharrre
 expansion.com##.siguenos
-20minutos.es,albaceteabierto.es,clarin.com,clm21.es,diarioti.com,estrellatv.com,europages.es,europapress.es,informador.mx,lavozdeltajo.com,madridiario.es,paginasamarillas.es,publico.es,radionacional.com.ar,sport.es,todomercadoweb.es##.social
+20minutos.es,agrositio.com.ar,albaceteabierto.es,clarin.com,clm21.es,diarioti.com,estrellatv.com,europages.es,europapress.es,informador.mx,lavozdeltajo.com,madridiario.es,paginasamarillas.es,pauta.cl,publico.es,radionacional.com.ar,sport.es,todomercadoweb.es##.social
 ansalatina.com##.social-button
+tarreo.com##.social-buttons
 cuevanahd.net##.social-icons
 cadenaser.com##.ssnn
 portafolio.co##.texto_redes7
@@ -52714,6 +52735,7 @@ dagelijksestandaard.nl###mc-embedded-subscribe-form
 metrotime.be###mc_embed_signup
 manners.nl###subscribe
 boerenbusiness.nl##.aanmelden
+sport247.be##.article-detail-nieuwsbrief
 hpdetijd.nl##.block-cta__subscribe
 frankwatching.com##.container-fullwidth-subscription
 upinthesky.nl##.ml-subscribe-form
@@ -52822,15 +52844,21 @@ kommersant.uk##.subscription-message
 popmech.ru##.subscription_block
 ! Spanish
 lacapital.com.ar,lapatilla.com###mc_embed_signup
+cooperativa.cl###mc_register_iframe
 hispantv.com###newsletter
+pauta.cl###suscripcion
+elordenmundial.com##.boletin-wrapper
 librotea.com##.close-popup-overlay
+pauta.cl##.mail_box
 salud180.com##.mailchimp-links
-laopinion.com,laprensafl.com,laraza.com,paratimujer.us,silicon.es##.newsletter
+elmostrador.cl,laopinion.com,laprensafl.com,laraza.com,paratimujer.us,silicon.es,voydeviaje.com.ar##.newsletter
 elpais.com##.nw
 librotea.com##.popup-acm
+cooperativa.cl##.rotulo-newsletter
 eldiariony.com##.sailthru-signup-widget
 tycsports.com##.subs-box
 lavozdegalicia.es##.subs_box
+laverdadnoticias.com##.suscribehorizontal
 larepublica.cat##.widget_mailpoet_form
 infobae.com##a[href^="/newsletter/"]
 clarin.com##a[href^="/newsletters/"]
@@ -54613,6 +54641,7 @@ assertivasolucoes.com.br###ck-container
 cliper.pt###cook
 belemsofthotel.com.br,techtransfer.pt###cookie
 klminfo.com.br###cookiesmodal
+mangazim.com,superhentai.online###disclaimer
 icarros.com.br###isView
 boehringer-ingelheim.pt###it-eprivacy-root
 infopedia.pt###klaro-pe-overlay
@@ -54658,6 +54687,7 @@ portaleds.com##.cke
 piep.pt##.consentcookie_168_
 sescsp.org.br##.container-policy
 cut.org.br##.cookie-modal
+monetizze.com.br##.cookies
 asae.gov.pt,valecred.com.br##.cookiesModal
 bonitour.com.br##.css-19ioxj9
 bonitour.com.br##.css-rvc1fq
@@ -55149,6 +55179,7 @@ fr9.es##.topBar
 nacex.es##.ui-dialog
 musicalmarti.com##.ui-dialog-buttons
 cashconverters.es,nacex.es,yocasino.es##.ui-widget-overlay
+anisearch.es##.urgent-msg
 crezes.es,pdatos.com,tasacion-costas.es##.vm--container
 crezes.es,pdatos.com##.vm--overlay
 bankintercomite.es##body > .cajatxt
@@ -55592,7 +55623,6 @@ ants.vn##.sg-popup-content
 ! 
 ||advgo.net/borostcf/
 ||cookies.unidadeditorial.es^
-||eestatic.com/eprivacy/$domain=elespanol.com
 ! 
 ! ---------- Swedish ----------
 ! 
