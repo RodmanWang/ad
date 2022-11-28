@@ -88,6 +88,9 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/76987
 youtube.com#%#AG_onLoad(function() {var a = new MutationObserver(function() {if (document.querySelector('yt-upsell-dialog-renderer')) {var b = document.querySelector('.ytd-popup-container[popup-size="UPSELL_DIALOG_RENDERER_POPUP_SIZE_LARGE"] #dismiss-button:not(.dismissed), .upsell-dialog-lightbox .upsell-dialog-dismiss-button button:not(.dismissed)');setTimeout(function() {b&&b.click()}, 3E2)}});a.observe(document, {childList: !0,subtree: !0});setTimeout(function() {a.disconnect()}, 3E3)});
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/135986
+areanapoli.it###vip-box
+||fcp.codes^$domain=areanapoli.it
 ! https://github.com/AdguardTeam/AdguardFilters/issues/135490
 der-postillon.com###mail-abo
 ! https://github.com/AdguardTeam/AdguardFilters/issues/134652
@@ -4518,6 +4521,7 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+||jdpower.com/sites/default/files/image/*/23_Auto%20Summit%20PR%20Ad_speaker%20gif.gif
 ckworks.jp###rightContentsInnerBox > div[style="margin:0px 0px 10px 0px; padding:0;"]
 ya.ru#?#.body__wrapper > div.dist-stripe:has(> a[class^="home-link"][href^="https://yabs.yandex.ru/count/"])
 wmaraci.com###widget > div > a[href="/reklam"]
@@ -6058,6 +6062,8 @@ newsweek.com##iframe[src="http://sns.europe.newsweek.com/newsletter?popup=1"]
 !##############################
 ! SECTION: Tweaks - JS
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/135988
+apkmaza.co#%#//scriptlet("adjust-setTimeout", "download", "*", "0.02")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/135437
 techymedies.com,disheye.com#%#//scriptlet("adjust-setInterval", "wpsafe-", "*", "0.02")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/135131
