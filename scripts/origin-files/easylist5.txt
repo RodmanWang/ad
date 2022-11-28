@@ -3455,6 +3455,9 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+rainews.it##.the_player > div[style*="position: fixed;"]
+moroccoworldnews.com###worldCC
+douyu.com##.ANNUAL202211
 analyticsindiamag.com###elementor-popup-modal-10080797
 visualstudio.microsoft.com###vscom-modal-surveypopup
 ficbook.net##button.discount
@@ -9658,6 +9661,7 @@ macwelt.de,pcwelt.de#%#//scriptlet("set-constant", "firebase.messaging", "noopFu
 !
 ! SECTION: Push notifications - Regular rules
 !
+moroccoworldnews.com###notifVisible
 ||geo.tv/assets/front/js/push_notification.js
 ||megaknihy.cz/modules/*/pushNotifications.js
 halktv.com.tr###BildirtModal
@@ -10323,6 +10327,7 @@ technologyreview.com,inews.co.uk,nordbayern.de,thelocal.ch,morgenpost.de,waz.de,
 !
 ! SECTION: Subscriptions - Regular rules
 !
+moroccoworldnews.com##.widget__form-subscribe
 tailscale.com##form[name="cio-embedded-subscribe-form"]
 newdaily.co.kr##.notifyjs-corner
 ||image.newdaily.co.kr/site/etc/banner/*_newsletter_
@@ -14309,7 +14314,7 @@ amp.vestiprim.ru,eaomedia.ru,magadanmedia.ru###soc_invites_block
 zn.ua###social_block_article
 mobil.nwzonline.de###sticky-share
 photo-monster.ru###subSidebar
-infobus.*,biblio.com,acf.international,codastory.com,atbmarket.com,dogeat.ru,oggusto.com,pcsecrets.ru,paradoxplaza.com,beforeitsnews.com,nplus1.ru###subscribe
+earthsight.org.uk,infobus.*,biblio.com,acf.international,codastory.com,atbmarket.com,dogeat.ru,oggusto.com,pcsecrets.ru,paradoxplaza.com,beforeitsnews.com,nplus1.ru###subscribe
 problogbooster.com###subscribe-box-sbm
 dreamfancy.org###subscribe-css
 the-village.ru,aljazeera.com,psychologies.ru###subscribe-form
