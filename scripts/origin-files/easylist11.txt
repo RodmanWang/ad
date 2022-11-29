@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202211291121
+! Version: 202211291741
 ! Title: Fanboy's Annoyance List
-! Last modified: 29 Nov 2022 11:21 UTC
+! Last modified: 29 Nov 2022 17:41 UTC
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -49989,7 +49989,7 @@ banjaran.com.sg##.overlay-mobile-styles-enabled
 ! wayfair
 wayfair.co.uk,wayfair.de,wayfair.ie##.FooterPopups
 ! ! #cc_div
-le-jackpot-des-medailles-safti.fr,netzreform.de,opensocietyfoundations.org,stanceldavid.sk###cc_div
+le-jackpot-des-medailles-safti.fr,netzreform.de,opensocietyfoundations.org,otter.finance,stanceldavid.sk###cc_div
 ! ! .jsFixedMessage
 eufy.com,kurasu.kyoto,popcandyco.com##.jsFixedMessage
 ! ! .c--anim
@@ -52627,6 +52627,7 @@ ansalatina.com##.social-button
 tarreo.com##.social-buttons
 cuevanahd.net##.social-icons
 naciodigital.cat##.socialsharesnoticia
+senpaiediciones.com##.socialts
 cadenaser.com##.ssnn
 portafolio.co##.texto_redes7
 ara.cat##.tool-set
@@ -56946,6 +56947,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||nowegumy.pl/cookiecuttr.js
 @@||ohga.it^*/remote-gdpr.min.js
 @@||orangeclickmedia.com/tech/libs/js.cookie.min.js$domain=protothema.gr
+@@||otter.finance/assets/js/cookieconsent.js
 @@||polenka.pl/wp-content/plugins/cookie-law-info/js/cookielawinfo.js$script
 @@||portalbici.es/lib/cookiecuttr/$script
 @@||rai.it/dl/components/js/cookiebanner/
@@ -57342,6 +57344,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||nextinpact.com/public/min/index.php?*social$stylesheet
 @@||nhk.or.jp/common/sns/nol_share.js$script,~third-party
 @@||nutshell.com/media/images-landing/integration-logo-$~third-party
+@@||nuxt.com/_nuxt/SocialLinks.$script,~third-party
 @@||nyt.com^*/sharetools.js$domain=nytimes.com
 @@||nytimes.com^*/sharetools.js
 @@||ogdownloaderapk.com/images/og-youtube.png
