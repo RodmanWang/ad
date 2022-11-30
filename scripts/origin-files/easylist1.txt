@@ -34177,6 +34177,8 @@ link.gmapp*.net$image
 !------------------------------
 ! NOTE: Cookies specific
 !
+! stocksy.com - unique user ID
+||stocksy.com^$cookie=stocksylytics_anon_id
 ! https://github.com/AdguardTeam/AdguardFilters/issues/134089
 ||nttcoms.com^$cookie=visitorid
 ! depop.com
@@ -35820,6 +35822,8 @@ $app=com.miui.analytics
 !#endif
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/136170
+||googletagmanager.com/gtag/js$script,redirect=googletagmanager-gtm,domain=clujust.ro
 ! https://github.com/AdguardTeam/AdguardFilters/issues/135901
 @@||google-analytics.com/analytics.js$domain=videotron.com
 @@||googletagmanager.com/gtm.js$domain=videotron.com

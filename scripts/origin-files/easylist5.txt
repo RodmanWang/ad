@@ -713,7 +713,6 @@ reddit.com#@#.ADBAR
 ! SECTION: Anti-adblock - Regular rules
 ! Do not forget about '!#safari_cb_affinity' section for exclusions
 !
-cbom.atozmath.com###lblAdContent
 pocketnow.com#$#div[style*="background-color:"][style$="z-index: 2147483647;"] { display: none !important; }
 pocketnow.com#$#html { overflow: auto !important; }
 pocketnow.com#$#body { overflow: auto !important; }
@@ -3460,6 +3459,11 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+dailymail.co.uk#$#iframe[id^="footballco-video-player-iframe"] { position: absolute !important; }
+dailymail.co.uk#$#.footballco-close-button { display: none !important; }
+carview.yahoo.co.jp###flbn_ai
+miror.jp##a[class^="id__OverlayBanner"]
+so.gushiwen.cn##div[id^="threeWeixin"]
 walmart.com#?#div[data-automation-id="sb-div-bottom-module"]:has(> button[data-automation-id="sb-btn-get-the-app"])
 rainews.it##.the_player > div[style*="position: fixed;"]
 moroccoworldnews.com###worldCC
@@ -6147,7 +6151,7 @@ livelib.ru#$#body { overflow: visible !important; }
 revistapegn.globo.com,oglobo.globo.com,valor.globo.com#$##gcomPromo { display: none !important; }
 revistapegn.globo.com,oglobo.globo.com,valor.globo.com#$#body { overflow: auto !important; }
 vip-front.video.g.fc2.com,video.fc2.com##.login-footer
-vip-front.video.g.fc2.com,video.fc2.com#?#a[href^="http://fc2information"][data-link][style]:upward(1)
+contents.fc2.com,vip-front.video.g.fc2.com,video.fc2.com#?#a[href^="http://fc2information"][data-link][style]:upward(1)
 softwarekeep.com###main-content > .news-helpcenter
 loftblog.ru#$##gift_book { display: none !important; }
 loftblog.ru#$#body { overflow: visible !important; }
@@ -10334,6 +10338,11 @@ technologyreview.com,inews.co.uk,nordbayern.de,thelocal.ch,morgenpost.de,waz.de,
 !
 ! SECTION: Subscriptions - Regular rules
 !
+theamericanconservative.com##.c-membership__main-wrap
+theamericanconservative.com##.c-subscribe-email
+theamericanconservative.com##.c-article-comments-banner__content
+theamericanconservative.com##.o-promo-latest-issue
+theamericanconservative.com#?#.l-sidebar-grid__sidebar > h2.c-recent-posts__title:has(> a[href="https://www.theamericanconservative.com/subscribe"])
 poder360.com.br#?##page > div.container:has(> h2:contains(/^Newsletter/))
 vrt.be##.vrt-newsletter
 pdfdrive.com###alert-form
