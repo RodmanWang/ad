@@ -2738,6 +2738,7 @@ yasir252.com#%#AG_onLoad(function(){setTimeout(function(){var a=document.querySe
 ! trimay.ru - social video locker
 ||trimay.ru/?
 !
+shutterstock.com##div[data-automation="tourComponent_popper"]
 delfi.lt##.lsa
 osnmedia.ru##.socio-line
 starhit.ru##.subscribe-us
@@ -4536,6 +4537,7 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+shutterstock.com##div[data-automation="header-banner"]
 deepl.com##aside[aria-labelledby="pro-ad-banner-heading"]
 gizmodo.jp#?#.p-slider1-cardItem > article > ul > li.p-slider1-cardAssistSponsored:upward(3)
 gizmodo.jp#?#.p-timeline-cardItem > article > div > ul > li.p-timeline-cardAssistSponsored:upward(4)
@@ -4859,6 +4861,7 @@ drwindows.de#?#section[class^="artikel-"] > ul > li:not([class]):has(> a[href] >
 stopgame.ru##.corner_banner
 orefolder.net##.sidebar > .widget_text
 downloadcrew.com##.downloadsAd
+rakuten-card.co.jp##.cfx > div.rectangleBanner
 rakuten-card.co.jp##.list-bnr-wrap
 nttdocomo.co.jp###header-banner
 qualtrics.com##ul[data-gatext="Banners"]
@@ -7605,7 +7608,8 @@ codedosa.com###wpcp-error-message
 !--- CSS ---
 ! NOTE: Context menu - CSS
 vandal.elespanol.com#$#.articulo_wrapper { margin-top: 88px !important; }
-author.today#$#.noselect { -webkit-touch-callout: default!important; -moz-user-select: text!important; -webkit-user-select: text!important; -ms-user-select: text!important; -o-user-select: text!important; user-select: text!important; -khtml-user-select: text!important; }
+author.today#$#.page-content { -webkit-user-select: text !important; -moz-user-select: text !important; -o-user-select: text !important; user-select: text !important; }
+author.today#$#.noselect { -webkit-user-select: text !important; -moz-user-select: text !important; -o-user-select: text !important; user-select: text !important; }
 nbcnews.com#$#.videoPlayer { position: static !important; }
 moidom.citylink.pro#$#.player-balloon { min-height: auto !important; }
 tomshw.it#$#body .page-bottom { margin-top: 38px !important; }
@@ -7721,6 +7725,7 @@ r114.com#%#//scriptlet("prevent-addEventListener", "selectstart")
 tezgoal.com#%#//scriptlet('abort-current-inline-script', 'validateKey')
 instiz.net#%#//scriptlet("prevent-setInterval", "nocopy")
 author.today#%#//scriptlet('remove-attr', 'oncontextmenu|onselectstart|ondragstart|onmousedown|unselectable', '.noselect')
+author.today#%#//scriptlet('remove-attr', 'oncontextmenu|onselectstart|ondragstart|onmousedown|unselectable', '.page-content')
 123pan.com#%#//scriptlet('prevent-addEventListener', 'contextmenu', '[native code]')
 dizilab9.com#%#//scriptlet("set-constant", "vidcheck", "1")
 comeinsidebox.com,ezms.link#%#//scriptlet("abort-current-inline-script", "addEventListener", "blockEvent")

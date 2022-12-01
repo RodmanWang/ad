@@ -5367,6 +5367,8 @@ nethunt.com/api/v1/track/email/$image
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||analytics-api.dvdfab.*^
+||servo-report.dvdfab.*^
 ||collector.xhwide8.com^
 ||collector.xhamster*.*^
 ||anonym.data.funkedigital.de^
@@ -34179,6 +34181,11 @@ link.gmapp*.net$image
 !------------------------------
 ! NOTE: Cookies specific
 !
+! dreamstime.com - user ID
+||dreamstime.com^$cookie=dtuid
+||dreamstime.com^$cookie=firstvisit
+||dreamstime.com^$cookie=lastvisit
+||dreamstime.com^$cookie=revisit
 ! stocksy.com - unique user ID
 ||stocksy.com^$cookie=stocksylytics_anon_id
 ! https://github.com/AdguardTeam/AdguardFilters/issues/134089

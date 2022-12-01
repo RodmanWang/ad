@@ -24,6 +24,7 @@
 ||analytics*.carambo.la^
 ||analytics*.clickdimensions.com^
 ||analytics*.prezly.com^
+||analytics-api.dvdfab.*^
 ||analytics-rollout-*.amazonaws.com^
 ||analytics.*.sky.com^
 ||analyzer*.fc2.com^
@@ -168,6 +169,7 @@
 ||same*.stockstar.com^
 ||sdk.*.braze.com^$third-party
 ||sensorsdata*.read.duokan.com^
+||servo-report.dvdfab.*^
 ||shopping.gmx.*^$removeparam=origin
 ||siteintercept*.qualtrics.com^
 ||snowplow-collector-*.amazonaws.com^$third-party
