@@ -5367,6 +5367,8 @@ nethunt.com/api/v1/track/email/$image
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||anonym.data.funkedigital.de^
+||analytics.makeitmeme.com^
 ||harvester.cms.markiza.sk^
 ||trc.gpcdn.pl^
 ||web-device-id.banggood.com^
@@ -35821,6 +35823,8 @@ $app=com.miui.analytics
 !#endif
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/136271
+@@||cdn.shopify.com/*/trekkie*.js$domain=koh.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/136170
 ||googletagmanager.com/gtag/js$script,redirect=googletagmanager-gtm,domain=clujust.ro
 ! https://github.com/AdguardTeam/AdguardFilters/issues/135901
