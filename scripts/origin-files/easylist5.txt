@@ -3461,6 +3461,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+e.mail.ru##body.page > iframe[src^="https://e.mail.ru/feedback"]
 ||rts.ipsos.pl/po/tvn/js/nscore-pop.js
 protimes.jp###float-cta
 intelli-gorilla.com##a[style="position: fixed; bottom: 0; left: 0; right: 0; cursor: pointer"]
@@ -10354,6 +10355,7 @@ technologyreview.com,inews.co.uk,nordbayern.de,thelocal.ch,morgenpost.de,waz.de,
 ! SECTION: Subscriptions - Regular rules
 !
 chargedretail.co.uk##.subscribe1
+minsknews.by##.main-content > div.post + div.topic-bar
 minsknews.by##.sub-block
 businessinsider.com##.notification-prompt-wrapper
 theamericanconservative.com##.c-membership__main-wrap
