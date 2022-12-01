@@ -126,6 +126,7 @@
 ||livestatic-*.netdna-ssl.com^$domain=telerium.tv
 ||livetracker.*.pangea-cms.com^$third-party
 ||log*-*.tiktokv.com^
+||log*-applog-*.tiktokv.com^
 ||log*-misc-lf.amemv.com^
 ||log*.aliyuncs.com^
 ||log*.byteoversea.com^
@@ -147,6 +148,7 @@
 ||mf*.advantage.as^$third-party
 ||mkto-*.com^$third-party
 ||mobileanalytics.*.amazonaws.com^
+||mon*-platform-*.tiktokv.com^
 ||mon-*.tiktokv.com^
 ||ox-d.*^auid=
 ||parkdomainreal*.site^$third-party
