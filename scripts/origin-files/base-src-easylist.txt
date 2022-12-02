@@ -20460,6 +20460,7 @@
 ||data.ford.com^
 ||data.fundacion.realmadrid.org^
 ||data.goertz.de^
+||data.hicloud.com^$third-party
 ||data.inbank.it^
 ||data.information.fonic.de^
 ||data.information.nettokom.de^
@@ -64665,6 +64666,7 @@
 ||vpnoffers.info^$popup
 ||vpnoffers.net^$popup
 ||vpnrequired.com^
+||vpnsafebrowsing.com^$all
 ||vpnuyy.carters.com^
 ||vpolshchi.pl^$replace=/(<VAST[\s\S]*?>)[\s\S]*<\/VAST>/\$1<\/VAST>/,xmlhttprequest,other,~script
 ||vpolshchi.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*\n)//,script
@@ -67879,6 +67881,7 @@
 ||xyy9.xyz^
 ||xyyfysnipeqngb.xyz^
 ||xyz0k4gfs.xyz^
+||xyz^$domain=xhamster16.*|hamsterix.*|xhamster13.*|xhamster18.*|xhamster19.*|xhamster11.*|xhamster5.*|xhamster10.*|xhamster4.*|xhamster3.*|xhamster2.*|xhamster.*
 ||xyznews1.today^
 ||xyznews2.today^
 ||xyznews3.today^
