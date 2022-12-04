@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202212031943
+! Version: 202212040016
 ! Title: Fanboy's Annoyance List
-! Last modified: 03 Dec 2022 19:43 UTC
+! Last modified: 04 Dec 2022 00:16 UTC
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -30510,6 +30510,7 @@ _vpcookieconsent/
 ###xrootCookieRules
 ###xt-cookies-policy
 ###xte__cookie-disclaimer
+###xx-cookies-plugin
 ###ydp_cookie_message
 ###yn-cookie-banner
 ###yourCookieChoices
@@ -38790,6 +38791,7 @@ _vpcookieconsent/
 ##app-cookies-popup
 ##app-cookies-toast
 ##app-foncia-cookie-banner
+##app-pop-up-cookies
 ##app-rodo
 ##app-root app-cookie-acceptance
 ##ark-cookiebar
@@ -47766,6 +47768,7 @@ marketplace.org##.social-bottom
 boredpanda.com,criticalthreats.org,thesun.co.uk##.social-box
 vaticannews.va##.social-btn
 gbnews.uk##.social-button
+crimeonline.com##.social-buttons
 voiceofsandiego.org##.social-cell
 dibujos.net,online-convert.com,time.com,timeslive.co.za##.social-container
 fujitsu.com##.social-content
@@ -50015,6 +50018,8 @@ wayfair.co.uk,wayfair.de,wayfair.ie##.FooterPopups
 le-jackpot-des-medailles-safti.fr,netzreform.de,opensocietyfoundations.org,otter.finance,stanceldavid.sk###cc_div
 ! ! .jsFixedMessage
 eufy.com,kurasu.kyoto,popcandyco.com##.jsFixedMessage
+! ! .cookies-component
+proprospan.ru,worksmile.com##.cookies-component
 ! ! #cc--main
 alde.se,boardgamegeek.com,flowforge.com,spielregeln-spielanleitungen.de,stocksy.com,suncalc.org,trakt.tv,ungeziefer-ratgeber.info###cc--main
 ! ! .c--anim
@@ -50351,6 +50356,8 @@ myfitnesspal.cn,myfitnesspal.co.kr,myfitnesspal.com,myfitnesspal.com.hk,myfitnes
 roynat.com,scotiabank.com,scotiafunds.com,scotiaitrade.com,scotialifefinancial.com,scotiawealthmanagement.com##.alert-sticky
 ! groupon
 groupon.ae,groupon.be,groupon.ca,groupon.com.au,groupon.es,groupon.it,groupon.nl,groupon.pl###spotlight
+! sensorsdata
+sensorsdata.cn,sensorsdata.com##.index-module--CookieAuthShow--io6F7
 ! timeshop4you
 horlogerie4you.fr,klockor4you.nu,orologi4you.it,relojes4you.es,timeshop4you.co.uk,uhren4you.de###cookie
 ! Multi domains
@@ -54591,6 +54598,7 @@ empikbilety.pl,goingapp.pl##.CookieBar_cookieBar__3zsIk
 policja.pl,przystanekhistoria.pl##.JSWrapper
 reportaz.polskieradio.pl##.TermsOfUseModal_modalWrapper__3bWPX
 talixo.pl##.TrackingInfoBox
+przemyslprzyszlosci.gov.pl##._consent
 genetico.pl##.abcd
 mpastucha.pl##.ad-modal
 alcalia.pl##.alcalia-cookies
@@ -54623,6 +54631,7 @@ czarymary.pl,drukowalnia.pl##.ek-bar
 ksiegaimion.com##.eucl
 rynekpierwotny.pl##.ezk280v3
 auto-motor-i-sport.pl,menshealth.pl,motocykl-online.pl,runners-world.pl,womenshealth.pl##.filter-modal-background
+ladnepodatki.pl##.fixed-bottom-right
 odjechani.com.pl##.guest_warn
 konkolnieruchomosci.pl,pani-teresa.com.pl,rw2010.pl,sprezyny-strozyk.pl##.head-page-information
 antyczek.pl##.header-banner
@@ -54686,6 +54695,7 @@ swiat-agd.com.pl##[style^="top:0;left:0;right:0;"]
 pirolam.pl##body > div[style*="100%"]
 ingbank.pl##cookie-policy
 elektrotechnikautomatyk.pl##div[class^="GDPRCookieInfo_"]
+magentatv.pl##div[class^="styles__HeaderInfoBar"]
 elektrozysk.pl##div[style*="background:url(images/cookies_tlo.png)"]
 tge.com.pl##div[style=" background-color: #FAFAFA;  border: 1px solid gray;  border-radius: 10px 10px 10px 10px;  box-shadow: 1px 1px 3px 0 gray;  margin: 0 auto;  padding: 10px 25px;  width: 930px; background-color: #FAFAFA;  border: 1px solid gray;  border-radius: 10px; moz-border-radius: 10px; webkit-border-radius: 10px;  box-shadow: 1px 1px 3px 0 gray;  margin: 0 auto;  padding: 10px 25px;  width: 930px;"]
 radiofama.com.pl##div[style="border-top: 1px solid rgb(193, 193, 193); bottom: 0px; box-shadow: 0px -2px 4px rgb(193, 193, 193); position: fixed; padding: 10px 0px; left: 0px; right: 0px; text-align: center; width: 100%; z-index: 1000000; background-color: white;"]
@@ -54957,7 +54967,6 @@ propb.ru##.cooke
 shate-m.kz##.cookie-alert-show
 rusnano.com##.cookie__in
 gostest.com##.cookie__open
-proprospan.ru##.cookies-component
 bml.ru##.cookiesModal
 pik-broker.ru##.cookies_cookies__pa2RZ
 myapples.ru##.copyright_fixed
@@ -55408,6 +55417,7 @@ beinsports.com.tr##.cookie_cookie__3NG06
 e-bargello.com,pt.com.tr##.cp
 neredekal.com##.css-1fl0mfv
 tatildekirala.com##.css-1px8sx
+kizilayicecek.com.tr##.data-policy
 uyelik.dr.com.tr##.dataBar
 ak-asya.com.tr##.dialog-type-lightbox
 encazip.com##.eHzdtJ
