@@ -2556,7 +2556,7 @@ pojezierze24.pl##.modal-backdrop
 playtech.ro##.ot_cookie_settings_btn
 vrchat.com##div[aria-label*="COOKIE WARNING"]
 rmfclassic.pl,rmfmaxx.pl,rmf.fm,rmfmaxxx.pl###gr-consent-layer-area
-twojpsycholog.pl##div[class^="cookies_container"]
+contexto.io,twojpsycholog.pl##div[class^="cookies_"]
 kardiologiaprewencyjna.eu##div[id^="cp"][style*="position: fixed;"]
 sercedziecka.org.pl#$##cooModal { display: none !important; }
 sercedziecka.org.pl#$#body.modal-open { overflow: auto !important; }
@@ -25962,6 +25962,7 @@ technologyreview.com,inews.co.uk,nordbayern.de,thelocal.ch,morgenpost.de,waz.de,
 !
 ! SECTION: Subscriptions - Regular rules
 !
+noworries.news##.main-box-telegram-mobile
 vpnmag.ru#?##canvas-content > div.cnvs-block-section:has(h2#prisoedinyaytes)
 newsweek.pl##.pw-article__newsletter-wrapper
 codingdeft.com##div[class^="SubscribeFormstyles_"]
