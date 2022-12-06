@@ -2184,6 +2184,7 @@ hs.fi,vrt.be,manager-magazin.de,whats-on-netflix.com#$#html.sp-message-open body
 !
 !
 !
+libero.it##.io-ox-dialog-wrapper.abs
 ariregister.rik.ee##.ar__cookie_info
 combat.pl#$#body { overflow: auto !important; }
 combat.pl#$#.pr-cookie-modal { display: none !important; }
@@ -11556,7 +11557,7 @@ svt.se#%#if (!document.cookie) { document.cookie = 'cookie-consent-1={"optedIn":
 upday.com#%#//scriptlet("set-constant", "_sp_.addEventListener", "noopFunc")
 oma.by#%#//scriptlet('set-cookie-reload', 'agreement_popup', '1')
 10015.io#%#//scriptlet('set-local-storage-item', 'cookie-dismissed', 'true')
-6play.fr#%#AG_onLoad(function(){var b=new MutationObserver(function(){var a=document.querySelector('button[class*=" is-primary"][type="button"]:first-child');a&&a.click()});b.observe(document,{childList:!0,subtree:!0});setTimeout(function(){b.disconnect()},2E4)});
+6play.fr#%#AG_onLoad(function(){var b=new MutationObserver(function(){var a=document.querySelector('button.is-tertiary');a&&a.click()});b.observe(document,{childList:!0,subtree:!0});setTimeout(function(){b.disconnect()},2E4)});
 inszury.pl#%#if (typeof localStorage != 'undefined' && localStorage.setItem) { localStorage.setItem('CookieAccept', '{"Necessary":true,"Statistics":false,"Marketing":false}'); };
 officesuite.com#%#//scriptlet('set-cookie', 'intro', 'true')
 tradersunion.com#%#//scriptlet('remove-class', 'cookie-not-accepted', 'body')
@@ -25302,6 +25303,7 @@ macwelt.de,pcwelt.de#%#//scriptlet("set-constant", "firebase.messaging", "noopFu
 !
 ! SECTION: Push notifications - Regular rules
 !
+91rb99.com##cloudflare-app[app="welcome-bar"]
 yahoo.com###module-promo
 bosnainfo.ba##.notificationBell
 twitter.com#?#div.css-1dbjc4n[role="group"]:has(> div[data-testid="mask"] ~ div[data-testid="sheetDialog"])
@@ -35843,6 +35845,7 @@ yasir252.com#%#AG_onLoad(function(){setTimeout(function(){var a=document.querySe
 ! trimay.ru - social video locker
 ||trimay.ru/?
 !
+91rb99.com##.float-right
 etonline.com##.cvp-outer.stuck
 anime4up.tv##.separator > a[href^="https://t.me/"]
 shutterstock.com##div[data-automation="tourComponent_popper"]
@@ -37646,6 +37649,7 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+91rb99.com#?#.block-video > div.table:has(> div.right-vip)
 yingav.net##.offer_intro
 ficbook.net##.help-box
 newsweek.pl###tpTopBarSticky
