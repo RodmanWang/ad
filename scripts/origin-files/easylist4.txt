@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202212062105
+! Version: 202212070203
 ! Title: Fanboy's Annoyance List
-! Last modified: 06 Dec 2022 21:05 UTC
+! Last modified: 07 Dec 2022 02:03 UTC
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -41074,9 +41074,11 @@ _vpcookieconsent/
 ||yimg.com^*/guce.js
 ! Threatmetrix
 ||all3dp.com/kbcbqexpqvz8wrk88augy7b.js
+||cfa.fidelity.com^
 ||citi.com^*/fp.js
 ||citibank.com.ph/tmx/js/
 ||content22.bmoharris.com^
+||content22.citibank.com.au^
 ||content22.citibank.com.sg^$script
 ||contents2.00110.citi.com^
 ||customer.homedepot.com^$script
@@ -41086,12 +41088,16 @@ _vpcookieconsent/
 ||ebaystatic.com/rs/v/enk4ekgiky2ufpj3l2fgfblxaqd.js
 ||ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js
 ||event.evtm.53.com^
+||gfp.intuit.com^
+||idstatus.sky.com^
 ||imgs.signifyd.com^
 ||ir.ebaystatic.com/rs/c/9527tracking/configuration.js$script,domain=ebay.com
 ||olacontent.schwab.com^$script
 ||pages.ebay.com/identity/device/$subdocument
+||rba-screen.healthsafe-id.com^
 ||src.ebay-us.com/*=usllpic$script,domain=ebay.com
 ||tmetrix.my.chick-fil-a.com^
+||tmx.td.com^
 ||u44.pnc.com^
 ||u47.pnc.com^
 ||w-profiling.cibc.com^$script
@@ -50299,7 +50305,7 @@ baseball24.com,basketball24.com,cricket24.com,darts24.com,diretta.it,eredmenyek.
 ! .js-cookie-popup
 barcin.com,messageresponse.net,pvcbuis.com##.js-cookie-popup
 ! ! .cookie-modal
-777score.com,777score.ru,777score.ua,bahamar.com,brandkizz.com,bslesnica.pl,cashper.fr,cinestar.cz,evl.fi,ford.hr,geis-group.sk,geis.pl,giropay.de,harrisandjones.co.uk,hudy.cz,icas.com,koehlers-forsthaus.de,metro.style,netkoncept.com,nslookup.io,passbase.com,starbucks.com.sg,treatstock.co.uk,treatstock.com,undime.org.br,zeleneudoli.cz##.cookie-modal
+777score.com,777score.ru,777score.ua,bahamar.com,brandkizz.com,bslesnica.pl,cashper.fr,chainguard.dev,cinestar.cz,evl.fi,ford.hr,geis-group.sk,geis.pl,giropay.de,harrisandjones.co.uk,hudy.cz,icas.com,koehlers-forsthaus.de,metro.style,netkoncept.com,nslookup.io,passbase.com,starbucks.com.sg,treatstock.co.uk,treatstock.com,undime.org.br,zeleneudoli.cz##.cookie-modal
 ! ! .MuiSnackbar-anchorOriginBottomLeft
 news.uavsa.org,paper.li,swapcoin.cc,tuco.co##.MuiSnackbar-anchorOriginBottomLeft
 ! ! .MuiSnackbar-anchorOriginBottomCenter
@@ -55315,6 +55321,7 @@ roninwear.se###wrapper-dx-coki
 kvalster.se###y
 lawline.se##.CookiesModal_modal__zXsie
 lawline.se##.CookiesModal_modal_background__eJ3c6
+bt.se##.FCSVc
 newsworthy.se##.Snack
 barnebys.se##._1jurJi
 sl.se##._2Ip6f9Jcpe_edCoe1Ts2mM
