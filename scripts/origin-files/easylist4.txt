@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202212071633
+! Version: 202212080151
 ! Title: Fanboy's Annoyance List
-! Last modified: 07 Dec 2022 16:33 UTC
+! Last modified: 08 Dec 2022 01:51 UTC
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -44568,6 +44568,7 @@ ny1.com##.caption-container
 aarp.org##.caregivingPromotion
 nationalpost.com##.carousel-widget
 wired.com##.cm-footer-container
+wikipedia.org##.cn-fundraising
 alistapart.com##.coil-banner-message-container
 bellinghamherald.com##.combo
 foxbusiness.com,foxnews.com##.commenting-nation-promo
@@ -44609,6 +44610,7 @@ total-croatia-news.com##.fixed-slider-height
 aeon.co##.footer-banner
 tweaktown.com##.footer_bottom.cva
 jotform.us##.formFooter-wrapper
+wikipedia.org##.frb-rml-enabled
 consumer.org.nz##.free-cta
 propublica.org##.fundraising-letter-inline
 thedraftnetwork.com##.get-involved
@@ -45197,6 +45199,7 @@ neeva.com##.cta-search-result-result__extensionCTAContainer-4d4uV
 kuow.org##.cta_download
 m.timesofindia.com##.ctaopenapp
 ivoox.com##.d-flex.dark-gray-banner
+duckduckgo.com##.ddg-extension-hide
 supercluster.com##.doormat__overlay
 express.co.uk##.download-app
 9gag.com##.download-app-container
@@ -49078,6 +49081,7 @@ kdanmobile.com##.cqnxU
 deployhq.com##.crumbs-banner
 louisvuitton.com##.cs_banner
 filen.io##.css-11l9fez
+peaks.com##.css-1dxcpir
 playboy.com##.css-1ifrk0g
 balthasarspeyr.org##.css-1lhf63g
 carawayhome.com##.css-1m7ve5s
@@ -50284,7 +50288,7 @@ fhstp.ac.at,haanindustrial.com,ippies.nl,picniq.co.uk,sophianum.nl,tatasteelonbr
 dedriefonteinen.be,globalfamilydoctor.com,glyn.com,grundstueckspreise.info,happypenguin.altervista.org,krungsri.com,selgros24.pl,trbchemedica.co.uk###cookieModal
 ! ! .modalCookies
 filmotecadecine.com,meuhyundai.com.br,softwaretogo.de##.modalCookies
-! .ns-type-notice
+! .ns-type-noticeolder
 aj-chambers.com,allenday.co.uk,bdiresourcing.com,charitytalent.com,constructrecruitment.com,probejobs.co.uk,zentechtalent.com##.ns-type-notice
 ! ! .k-overlay
 bodahl.com,corktyrewholesale.ie,donegaltyres.com,gusondack.se,ija.dk,jbtyres.co.uk,keithrevinstyres.ie,lusktyres.com,martincorleytyres.ie,mileagetyres.ie,nationaltyres.ie,redflagtyres.com,renew.ie,thetyrebarn.co.uk,thetyrebox.ie,tyredepotltd.ie##.cookieWindowWrapper
@@ -50301,7 +50305,7 @@ voguescandinavia.com##div[class^="cookieNotification_"]
 ! ! #cookiemodal
 santam.co.za###cookiemodal
 ! ! .otPlaceholder
-baseball24.com,basketball24.com,cricket24.com,darts24.com,diretta.it,eredmenyek.com,flashresultats.fr,flashscore.ca,flashscore.co.id,flashscore.co.kr,flashscore.co.uk,flashscore.co.za,flashscore.com,flashscore.com.br,flashscore.com.ua,flashscore.de,flashscore.es,flashscore.fi,flashscore.fr,flashscore.ge,flashscore.info,flashscore.it,flashscore.pt,flashscore.ru.com,flashscore.vn,flashscorekz.com,golflive24.com,handball24.com,horseracing24.com,icehockey24.com,livescore.in,livesport.com,liveticker.com,motorsport24.com,scoreboard.com,soccer24.com,soccerstand.com,tennis24.com,volleyball24.com##.otPlaceholder
+baseball24.com,basketball24.com,cricket24.com,darts24.com,diretta.it,eredmenyek.com,flashresultats.fr,flashscore.ca,flashscore.co.id,flashscore.co.kr,flashscore.co.uk,flashscore.co.za,flashscore.com,flashscore.com.br,flashscore.com.ua,flashscore.de,flashscore.es,flashscore.fi,flashscore.fr,flashscore.ge,flashscore.info,flashscore.it,flashscore.nl,flashscore.pt,flashscore.ru.com,flashscore.vn,flashscorekz.com,golflive24.com,handball24.com,horseracing24.com,icehockey24.com,livescore.in,livesport.com,liveticker.com,motorsport24.com,scoreboard.com,soccer24.com,soccerstand.com,tennis24.com,volleyball24.com##.otPlaceholder
 ! .js-cookie-popup
 barcin.com,messageresponse.net,pvcbuis.com##.js-cookie-popup
 ! ! .cookie-modal
@@ -54417,6 +54421,7 @@ picrew.me##.st-Terms_Wrapper
 kyounoryouri.jp##.swal2-container
 adlittle.jp##.tarteaucitronBeforeVisible
 kankocho.jp##.v-snack--bottom
+vroid.com##div[class^="GDPR__Container-"]
 ! 
 ! ---------- Korean ----------
 ! 
@@ -54661,6 +54666,7 @@ polskitarg.pl##.iRhDdN
 goodie.pl##.ib
 melex.com.pl##.info_c_box
 nik.gov.pl##.informationBar
+czasnaherbate.net##.jconfirm
 ncplusgo.pl##.js-messages
 bhp-inka.pl##.js-modal-cookies
 ohmydev.pl##.jss256
@@ -55453,6 +55459,7 @@ dizioneri.com##.modal-backdrop
 suslusozluk.com##.modal-show
 haber365.com.tr##.modalx
 versus-omega.com.tr##.notification
+boxofficeturkiye.com##.notification__wrapper
 paribu.com##.policies
 betuyab.com.tr,yenisafak.com##.policy
 dask.gov.tr##.polite__alert
