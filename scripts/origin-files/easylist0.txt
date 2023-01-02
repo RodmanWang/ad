@@ -2191,6 +2191,9 @@ eatsmarter.de,inside-digital.de,hs.fi,vrt.be,manager-magazin.de,whats-on-netflix
 !
 !
 !
+learn.microsoft.com###cookie-consent-holder
+mall.cz,mall.sk,mall.hu,mall.hr,mimovrste.com##.legal-consent
+wartezeiten.app###app-modal-new
 domrfbank.ru##.announce-cookie
 alfabank.ru##div[data-test-id="agreement-popup"]
 7days.ru##.the-cookie
@@ -6208,7 +6211,7 @@ balifactoryoutlet.com.au,rinna.co.jp,mydoggieboosters.com,nikhilbharatshikshapar
 plex.tv,tmohentai.com,gorsovet.com.ua##.cookie-consent
 instalguru.com##div[class^="styles__cookie-panel"]
 tatgida.com###topbar-hide
-mondly.com##iframe[src="https://cookiejar.mondly.com/xdomain-cookies"] + div[class]
+mondly.com##iframe[src="https://cookiejar.mondly.com/xdomain-cookies"] + div[class]:not(.ember-view)
 claravital.de,hampel-auctions.com,dondo.de###consentmanager
 pixlr.com,paribu.com##.policies
 se7en.ws,luckypatchers.com,techwatch.de,omnioxy.com,themuslimvibe.com,idebil.com##.l-cookie
@@ -8781,7 +8784,7 @@ vici.eu,237solution.net,bibleserver.com,history.vn.ua,iseyskyr.com##.cc-containe
 mediapart.fr##.cc-cookie-consent-banner-modal
 hochzeitskarten.hochzeitsplaza.de,kwantum.nl##.cc-wrapper
 casio-music.com,casio-europe.com##.cccenter-show-banner
-offtherecord.com.tr,enpolitik.com,ispartamhaber.com,bomba15.com,tarsusgazetesi.com,denizli20haber.com,agesahayatemeklilik.com.tr,yenigolcuk.com,hedefgazetesi.com.tr,eldedemokrasi.com,haberimizvar.net,isdunyasindakadin.com,egegundem.com.tr,kocaelisabah.com,balikesirartihaber.com,aydinyeniufuk.com.tr,afyonhaberturk.com,blokhaber.com,burdurgazetesi.com,kahtases.com,euromsg.com,vansesigazetesi.com,sabancivakfi.org,plastikciyiz.biz,dirilispostasi.com,avivasa.com.tr,m.milliyet.com.tr##.cerez
+yeniufuk.com.tr,offtherecord.com.tr,enpolitik.com,ispartamhaber.com,bomba15.com,tarsusgazetesi.com,denizli20haber.com,agesahayatemeklilik.com.tr,yenigolcuk.com,hedefgazetesi.com.tr,eldedemokrasi.com,haberimizvar.net,isdunyasindakadin.com,egegundem.com.tr,kocaelisabah.com,balikesirartihaber.com,aydinyeniufuk.com.tr,afyonhaberturk.com,blokhaber.com,burdurgazetesi.com,kahtases.com,euromsg.com,vansesigazetesi.com,sabancivakfi.org,plastikciyiz.biz,dirilispostasi.com,avivasa.com.tr,m.milliyet.com.tr##.cerez
 carsimavm.com.tr,sporthink.com.tr,ereyon.com.tr,filmloverss.com,lulutata.com##.cerez-uyari
 1000kitap.com##.cerez-uyarisi
 samsung.com##.cm-cookie-geo__msg-wrap
@@ -19206,6 +19209,8 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+polsatnews.pl##a[href="/"].news__read-more-button
+gazeta.pl##.hp-notification-mobile
 pochta.ru##div[class*="Trackingstyled__UnauthorizedPopupWrapper"]
 clipstudio.net###csp2_banner_set
 laprocure.com##.v-overlay--active
@@ -23021,7 +23026,7 @@ dailyhive.com##.signup-modal-holder
 medsprava.com.ua#$#.megaShadow { display: none!important; }
 medsprava.com.ua#$#body { overflow: visible!important; }
 news.ifmo.ru##.modal-layer
-news.ifmo.ru##.subscribe-modal
+meetup.com,global.llbean.com,news.ifmo.ru##.subscribe-modal
 prozoro.net.ua##.socialWidgetButton
 demagog.org.pl##.popup-delay
 rmj.ru##div[class*="reg_auth_popup_overlay"]
@@ -23378,7 +23383,6 @@ atlanticleague.com##.incap_page-tooltip
 58pic.com##.heypikBottomPopup
 58pic.com##.activitySettings-fixedBottom
 diendan.tiengnga.net,kit-capper.cc,openssource.info##.notices
-global.llbean.com##.subscribe-modal
 nymag.com##.newsletter-slideout
 shopping.yahoo.co.jp##.mdPromoCommonFloating
 shopping.yahoo.co.jp##.mdFloatingButtonB
@@ -25534,6 +25538,7 @@ macwelt.de,pcwelt.de#%#//scriptlet("set-constant", "firebase.messaging", "noopFu
 !
 ! SECTION: Push notifications - Regular rules
 !
+1xbet.kz###pushfree
 ||sendsay.ru/backend/push/
 ||roskomsvoboda.org/static/webpush/webpush.js
 yenidonem.com.tr##body div.notificationPopupBlock
@@ -26223,6 +26228,7 @@ edp24.co.uk,technologyreview.com,inews.co.uk,nordbayern.de,thelocal.ch,morgenpos
 !
 ! SECTION: Subscriptions - Regular rules
 !
+shopmrbeast.com##div[class^="pop-up_pop-up"]
 vkusvill.ru##.VV22_Subscribe
 lapresse.ca###newsletters-subscription-box-root
 substack.com##div[class*="-SubscribePrompt-module_"]
@@ -26348,7 +26354,7 @@ vpnmag.ru#?##canvas-content > div.cnvs-block-section:has(h2#prisoedinyaytes)
 newsweek.pl##.pw-article__newsletter-wrapper
 codingdeft.com##div[class^="SubscribeFormstyles_"]
 moderndiplomacy.eu###mvp-side-wrap a[href="https://moderndiplomacy.eu/md-premium/"] > img
-makeuseof.com,androidpolice.com##.article-footer-newsletter
+screenrant.com,makeuseof.com,androidpolice.com##.article-footer-newsletter
 cnnindonesia.com###subscribe__fixed
 vtc.vn##.align-bot
 moneysavingexpert.com##.tipListBox
@@ -31093,8 +31099,10 @@ tvrain.ru##.menu3__foreign-agent-wrapper
 ! SECTION: Mobile apps - Regular rules
 !
 ! ##body .smartbanner
-radarbox.com,ciceksepeti.com,rabota.by,temp-mail.org,ortobom.com.br,dicionarioinformal.com.br,5-fifth.com,news.sky.com,chat.babel.com,getwordly.com,school-turnup.com,naked-science.ru,vod.tvp.pl,tvn24.pl,m.lamoda.ru,lkfl2.nalog.ru,kocailem.com,dartworld.shopgate.com,m.alles10euro.de,dodopizza.ru,allo.ua,tempo.co,beymen.com,tvnmeteo.tvn24.pl,outsidetv.com,golfchannel.com,sportsnet.ca,euronews.com,pkobp.pl,tesco.hu,prima.hu,immobilienscout24.de,lcwaikiki.com,m.sigrun-woehr.com,transfermarkt.de,fragfinn.de,hh.ru,eraffe24.de,infranken.de,m.computeruniverse.net,m.emp.de,meduza.global.ssl.fastly.net,meduza.io##body .smartbanner
+atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-mail.org,ortobom.com.br,dicionarioinformal.com.br,5-fifth.com,news.sky.com,chat.babel.com,getwordly.com,school-turnup.com,naked-science.ru,vod.tvp.pl,tvn24.pl,m.lamoda.ru,lkfl2.nalog.ru,kocailem.com,dartworld.shopgate.com,m.alles10euro.de,dodopizza.ru,allo.ua,tempo.co,beymen.com,tvnmeteo.tvn24.pl,outsidetv.com,golfchannel.com,sportsnet.ca,euronews.com,pkobp.pl,tesco.hu,prima.hu,immobilienscout24.de,lcwaikiki.com,m.sigrun-woehr.com,transfermarkt.de,fragfinn.de,hh.ru,eraffe24.de,infranken.de,m.computeruniverse.net,m.emp.de,meduza.global.ssl.fastly.net,meduza.io##body .smartbanner
 !
+taobao.com#?#body > button[style*="position: fixed;"][style*="z-index: 1000000;"]:contains(App)
+3g.163.com##.backflow-floating.js-open-app
 mathsolver.microsoft.com##div[class^="MobileUpsellBanner_"]
 sina.cn##.callApp_fl_btn
 s.shufoo.net###appOffer
@@ -33611,6 +33619,9 @@ goodreads.com,kicker.de,edeka.de#@##smartbanner.android
 ! https://github.com/AdguardTeam/AdguardFilters/issues/76987
 youtube.com#%#AG_onLoad(function() {var a = new MutationObserver(function() {if (document.querySelector('yt-upsell-dialog-renderer')) {var b = document.querySelector('.ytd-popup-container[popup-size="UPSELL_DIALOG_RENDERER_POPUP_SIZE_LARGE"] #dismiss-button:not(.dismissed), .upsell-dialog-lightbox .upsell-dialog-dismiss-button button:not(.dismissed)');setTimeout(function() {b&&b.click()}, 3E2)}});a.observe(document, {childList: !0,subtree: !0});setTimeout(function() {a.disconnect()}, 3E3)});
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/138250
+filmweb.pl#$#.videoPlayer.isPinned { visibility: hidden !important; }
+filmweb.pl#%#//scriptlet('remove-class', 'isPinned', '.videoPlayer.isPinned')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/138836
 smotrim.ru#?#.list-item > a.list-item__link:contains(Отключить рекламу)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/138766
@@ -38144,6 +38155,7 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+vibe.naver.com#%#//scriptlet("set-cookie", "NPM_POPUP", "Y")
 as-web.jp##.w-md-320 > div.sticky
 ||player.ivideosmart.com^$domain=renote.net
 ||cdn.dlupload.com/contents/horiads_new.png
