@@ -22,7 +22,6 @@
 ||analytics*.carambo.la^
 ||analytics*.clickdimensions.com^
 ||analytics*.prezly.com^
-||analytics-api.dvdfab.*^
 ||analytics-rollout-*.amazonaws.com^
 ||analytics.*.sky.com^
 ||analyzer*.fc2.com^
@@ -64,7 +63,6 @@
 ||collector-*.px-cloud.net^
 ||collector-*.pxchk.net^
 ||collector-*.tvsquared.com^
-||collector.xhamster*.*^
 ||consent.*.de^$other
 ||cookie-sl.s3.*.amazonaws.com^$third-party
 ||counter*-yadro*-ru.unblocked.lol^
@@ -107,6 +105,7 @@
 ||host*.rigbyandpeller.com^
 ||host*.rvshare.com^
 ||hostingcloud.*.wasm^
+||hstats*.hepsiburada.com^
 ||i-*.ci360.sas.com^
 ||iad-*.appboy.com^
 ||iad-*.braze.com^
@@ -173,9 +172,9 @@
 ||same*.stockstar.com^
 ||sdk.*.braze.com^$third-party
 ||sensorsdata*.read.duokan.com^
-||servo-report.dvdfab.*^
 ||snowplow-collector-*.amazonaws.com^
 ||sock*-goguardian.pusher.com^
+||sp*.baidu.com^
 ||ssh.*.com^*!$script,third-party
 ||ssp*.rtb.beeline.ru^
 ||st-*.dynamicyield.com^
@@ -202,6 +201,7 @@
 ||v*.sitecounter.site^
 ||v.newsportal*.ru^
 ||v.tzbox*.xyz^
+||vns86.oss-*.aliyuncs.com^
 ||w*statistics.info^
 ||widget-v*.tidiochat.com^$third-party
 ||www.fuze-hill*.xyz^
