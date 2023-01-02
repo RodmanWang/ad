@@ -25,13 +25,3 @@ jobs:
       with:
         github_token: ${{ secrets.PERSON_TOKEN }}
         branch: 'master'
-
-workflow "on pull request merge, delete the branch" {
-  on = "pull_request"
-  resolves = ["branch cleanup"]
-}
-
-action "branch cleanup" {
-  uses = "jessfraz/branch-cleanup-action@master"
-  secrets = ["PERSON_TOKEN"]
-}
