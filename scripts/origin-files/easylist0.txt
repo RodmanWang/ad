@@ -2203,7 +2203,6 @@ schwalbetires.com#$#.modal-backdrop { display: none !important; }
 schwalbetires.com#$#.mnd-cookie-modal { display: none !important; }
 learn.microsoft.com###cookie-consent-holder
 mall.cz,mall.sk,mall.hu,mall.hr,mimovrste.com##.legal-consent
-wartezeiten.app###app-modal-new
 domrfbank.ru##.announce-cookie
 alfabank.ru##div[data-test-id="agreement-popup"]
 7days.ru##.the-cookie
@@ -4348,7 +4347,7 @@ eapteka.ru##.cookie-informer
 topchretien.com###rgpd
 diocese-quimper.fr###wpca-popup-modal
 xn--d1aiavecq8cxb.xn--p1ai##app-block-page-header > div.shell
-igfhaber.com,sokgazetesi.com.tr,bandirmayasam.com.tr,sozbursa.com,bursahayat.com.tr,webursa.com,lifebursa.com,bursahakimiyet.com.tr,yenidonem.com.tr##.kvkkpop
+bolge.com.tr,igfhaber.com,sokgazetesi.com.tr,bandirmayasam.com.tr,sozbursa.com,bursahayat.com.tr,webursa.com,lifebursa.com,bursahakimiyet.com.tr,yenidonem.com.tr##.kvkkpop
 tapipol.pl###panel_cookie_bottom
 zoomtventertainment.com##div[class^="GdprCSS-container-"]
 macron.com#$#body { overflow: auto !important; }
@@ -6044,7 +6043,7 @@ kreiskrankenhaus-weisswasser.de,steuerberater-vos.de,garten-krug.de,mm-liebenswe
 retroplace.com#$#body { overflow: auto !important; position: static !important; padding-right: 0 !important; }
 retroplace.com#$##retroplaceCookies { display: none !important; }
 retroplace.com#$##retroplaceCookies ~ *:not(.ekko-lightbox):not(.modal-backdrop) + div.modal-backdrop { display: none !important; }
-ilove.de,isarsingles.de,rp-online-dating.de,mzflirt.de###ccp-overlay
+innsalzachsingles.de,ilove.de,isarsingles.de,rp-online-dating.de,mzflirt.de###ccp-overlay
 smarturl.it###cookie-banner-cta
 ||landkreis-stade.de/static/static/jscript/cookiedough_min.js
 ||widgets.tourismusnetz.com/tn-cookie-widget.js
@@ -8794,7 +8793,7 @@ vici.eu,237solution.net,bibleserver.com,history.vn.ua,iseyskyr.com##.cc-containe
 mediapart.fr##.cc-cookie-consent-banner-modal
 hochzeitskarten.hochzeitsplaza.de,kwantum.nl##.cc-wrapper
 casio-music.com,casio-europe.com##.cccenter-show-banner
-yeniufuk.com.tr,offtherecord.com.tr,enpolitik.com,ispartamhaber.com,bomba15.com,tarsusgazetesi.com,denizli20haber.com,agesahayatemeklilik.com.tr,yenigolcuk.com,hedefgazetesi.com.tr,eldedemokrasi.com,haberimizvar.net,isdunyasindakadin.com,egegundem.com.tr,kocaelisabah.com,balikesirartihaber.com,aydinyeniufuk.com.tr,afyonhaberturk.com,blokhaber.com,burdurgazetesi.com,kahtases.com,euromsg.com,vansesigazetesi.com,sabancivakfi.org,plastikciyiz.biz,dirilispostasi.com,avivasa.com.tr,m.milliyet.com.tr##.cerez
+nehir.net,yeniufuk.com.tr,offtherecord.com.tr,enpolitik.com,ispartamhaber.com,bomba15.com,tarsusgazetesi.com,denizli20haber.com,agesahayatemeklilik.com.tr,yenigolcuk.com,hedefgazetesi.com.tr,eldedemokrasi.com,haberimizvar.net,isdunyasindakadin.com,egegundem.com.tr,kocaelisabah.com,balikesirartihaber.com,aydinyeniufuk.com.tr,afyonhaberturk.com,blokhaber.com,burdurgazetesi.com,kahtases.com,euromsg.com,vansesigazetesi.com,sabancivakfi.org,plastikciyiz.biz,dirilispostasi.com,avivasa.com.tr,m.milliyet.com.tr##.cerez
 carsimavm.com.tr,sporthink.com.tr,ereyon.com.tr,filmloverss.com,lulutata.com##.cerez-uyari
 1000kitap.com##.cerez-uyarisi
 samsung.com##.cm-cookie-geo__msg-wrap
@@ -11661,6 +11660,7 @@ privacy.lecker.de#%#AG_onLoad(function(){if(!document.cookie.includes("euconsent
 privacy.madame.de#%#AG_onLoad(function(){if(!document.cookie.includes("euconsent-v2")){var g=new MutationObserver(function(){setTimeout(function(){var b=document.querySelector('button.no-children[path="\[0,2,1\]"]');b&&b.click();},300);setTimeout(function(){var c=document.querySelector('div[title="Berechtigte Interessen"]'); c&&c.click();},300);setTimeout(function(){var d=document.querySelectorAll('label[aria-checked="true"] > .off'); d.forEach(function(d){d.click();});},800); var f=document.querySelector('button.no-children[path="\[0,3,0\]"]'); setTimeout(function(){f&&f.click();},1000);});g.observe(document,{childList:!0,subtree:!0});setTimeout(function(){g.disconnect()},3E4)}});
 consent.unilad.com,consent.ladbible.com,consent.gamingbible.co.uk,consent.unilad.co.uk#%#AG_onLoad(function(){if(window.location.href.includes("consentUUID")){var g=new MutationObserver(function(){var b=document.querySelector('button[title*="Accept" i]');b&&(g.disconnect(),b.click())});g.observe(document,{childList:!0,subtree:!0});setTimeout(function(){g.disconnect()},1E4)}});
 !
+wartezeiten.app#%#//scriptlet('set-cookie-reload', 'wartezeitenapp_dsgvo', 'true')
 factcool.com#%#//scriptlet('set-cookie', 'cookieconsent_dismissed', 'yes')
 cdn.privacy-mgmt.com#%#AG_onLoad(function(){if(window.self!==window.top&&document.referrer.startsWith("https://www.freundin.de/")){if(!document.cookie.includes("euconsent-v2")){var g=new MutationObserver(function(){setTimeout(function(){var b=document.querySelector('button[title="Einstellungen oder ablehnen"]');b&&b.click();},300);setTimeout(function(){var c=document.querySelectorAll('.is-checked');c&&c.forEach(function(c) { c.click();});},300);setTimeout(function(){var f=document.querySelector('button[aria-label="Speichern und schließen"]');f&&f.click()},800)});g.observe(document,{childList:!0,subtree:!0});setTimeout(function(){g.disconnect()},1E4)}}});
 cdn.privacy-mgmt.com#%#AG_onLoad(function(){if(window.self!==window.top&&document.referrer.startsWith("https://www.welt.de/")){var a=new MutationObserver(function(){var b=document.querySelector('button[title="Alle akzeptieren"]');b&&(a.disconnect(),b.click())});a.observe(document,{childList:!0,subtree:!0});setTimeout(function(){a.disconnect()},1E4)}});
@@ -13739,10 +13739,6 @@ franzen.de#@#.page-wrap--cookie-permission
 hema.com#@#.cookie-modal
 ! https://github.com/AdguardTeam/AdguardFilters/issues/97164
 @@||cdn.privacy-mgmt.com^$domain=berliner-zeitung.de
-! https://github.com/AdguardTeam/AdguardFilters/issues/97155
-ingame.de#@#amp-consent
-@@||cdn.opencmp.net^$domain=ingame.de
-@@||cdn.ampproject.org/v0/amp-consent-*.*.js$domain=ingame.de
 ! https://github.com/AdguardTeam/AdguardFilters/issues/97045
 calvinklein.co.uk#@#.cookie-notice:not(body):not(html)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/97985
@@ -19204,6 +19200,8 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+nexodigital.it##.lepopup-popup-overlay
+nexodigital.it##.lepopup-popup-container
 hitpaw.com##div[data-toggle="seasonal-banner"]
 sixt.com.tr##.sticky-button--whatsapp
 hikakaku.com#%#//scriptlet('prevent-addEventListener', 'popstate', 'addEventProcessor')
@@ -26226,6 +26224,7 @@ edp24.co.uk,technologyreview.com,inews.co.uk,nordbayern.de,thelocal.ch,morgenpos
 !
 ! SECTION: Subscriptions - Regular rules
 !
+echo-online.de#?#.storyElementWrapper__container > div[data-testid="storyElementWrapper-cceWidget-element"]:has(.newsletterWidgetSimple)
 publimetro.com.mx##aside a[href="https://www.publimetro.com.mx/newsletter/"]
 publico.pt###publico-ticker
 publico.pt###disclaimer-inline
@@ -41134,8 +41133,6 @@ bankier.pl,claudia.pl,dyskusje24.pl,edziecko.pl,haps.pl,infozdrowie24.pl,kobieta
 tokfm.pl#%#//scriptlet("set-constant", "gazeta_pl.Player.FloatingPlayer.floatPlayer", "noopFunc")
 ! fm.tuba.pl - disable annoying confirm window
 fm.tuba.pl#%#AG_onLoad(function() { if (window.location.pathname.indexOf('/play/') > -1) { window.confirm_=window.confirm;var c=window.confirm,d=/Czy chcesz prze\u0142\u0105czy\u0107 na radio/;window.confirm=function(e,f){return"string"==typeof e&&d.test(e)||void c(e,f)} } });
-! https://github.com/AdguardTeam/AdguardFilters/issues/17746
-videosynd.kataweb.it#%#Object.defineProperty(window, 'varAutoplay', { value: 0 });
 ! https://github.com/AdguardTeam/AdguardFilters/issues/17162
 fortune.com#%#AG_onLoad(function() { var el = document.querySelector('.video-js[data-stickyplay]'); if (el.getAttribute('data-stickyplay')==='true') { el.setAttribute('data-stickyplay','false'); }; var el1 = document.querySelector('.video-js[data-autoplay]'); if (el1.getAttribute('data-autoplay')==='true') { el1.setAttribute('data-autoplay','false'); } });
 ! https://github.com/AdguardTeam/AdguardFilters/issues/37159
@@ -42836,6 +42833,9 @@ pesni-tut.com##.r_m_genre_songs + div[id] + div:not([id])
 ||youtube.com/embed/?enablejsapi=1&origin=*3dnews.ru&widgetid=1
 ! Voting widget
 ! specific
+echo-online.de##.opinaryEmbed
+echo-online.de##.pollBlock__wrapper
+echo-online.de#?#.frontpageOverview >section[data-testid="popularBlock"] + aside:not([data-testid]):has(> .pollBlock__wrapper)
 freiepresse.de##.opinary-widget-embed
 spiegel.de###html_civey
 sovsport.ru##.test-apester
