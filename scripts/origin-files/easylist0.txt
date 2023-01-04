@@ -11667,6 +11667,7 @@ privacy.lecker.de#%#AG_onLoad(function(){if(!document.cookie.includes("euconsent
 privacy.madame.de#%#AG_onLoad(function(){if(!document.cookie.includes("euconsent-v2")){var g=new MutationObserver(function(){setTimeout(function(){var b=document.querySelector('button.no-children[path="\[0,2,1\]"]');b&&b.click();},300);setTimeout(function(){var c=document.querySelector('div[title="Berechtigte Interessen"]'); c&&c.click();},300);setTimeout(function(){var d=document.querySelectorAll('label[aria-checked="true"] > .off'); d.forEach(function(d){d.click();});},800); var f=document.querySelector('button.no-children[path="\[0,3,0\]"]'); setTimeout(function(){f&&f.click();},1000);});g.observe(document,{childList:!0,subtree:!0});setTimeout(function(){g.disconnect()},3E4)}});
 consent.unilad.com,consent.ladbible.com,consent.gamingbible.co.uk,consent.unilad.co.uk#%#AG_onLoad(function(){if(window.location.href.includes("consentUUID")){var g=new MutationObserver(function(){var b=document.querySelector('button[title*="Accept" i]');b&&(g.disconnect(),b.click())});g.observe(document,{childList:!0,subtree:!0});setTimeout(function(){g.disconnect()},1E4)}});
 !
+tiktok.com#%#//scriptlet('prevent-addEventListener', 'touchmove', '.preventDefault():void')
 wartezeiten.app#%#//scriptlet('set-cookie-reload', 'wartezeitenapp_dsgvo', 'true')
 factcool.com#%#//scriptlet('set-cookie', 'cookieconsent_dismissed', 'yes')
 cdn.privacy-mgmt.com#%#AG_onLoad(function(){if(window.self!==window.top&&document.referrer.startsWith("https://www.freundin.de/")){if(!document.cookie.includes("euconsent-v2")){var g=new MutationObserver(function(){setTimeout(function(){var b=document.querySelector('button[title="Einstellungen oder ablehnen"]');b&&b.click();},300);setTimeout(function(){var c=document.querySelectorAll('.is-checked');c&&c.forEach(function(c) { c.click();});},300);setTimeout(function(){var f=document.querySelector('button[aria-label="Speichern und schließen"]');f&&f.click()},800)});g.observe(document,{childList:!0,subtree:!0});setTimeout(function(){g.disconnect()},1E4)}}});
@@ -25549,6 +25550,8 @@ macwelt.de,pcwelt.de#%#//scriptlet("set-constant", "firebase.messaging", "noopFu
 !
 ! SECTION: Push notifications - Regular rules
 !
+||pazarama.com/mob-sw.js
+||pazarama.com/pz-sw.js
 fotospor.com###notificationPopup
 1xbet.kz###pushfree
 ||sendsay.ru/backend/push/
@@ -31343,9 +31346,10 @@ doctolib.fr#?#body > .MuiDrawer-modal:has(.dl-app-marketing-drawer-v2-action-con
 novel.prcm.jp##app-app-promotion-banner
 novel.prcm.jp##app-web-to-app-campaign-banner
 tiktok.com#?#body > div[class^="tiktok-"][class*="-DivContainer"]:has(> div[DivBodyWrapper] > div[DivContentWrapper] > div[data-e2e="bottom-cta-container"])
-tiktok.com##.e1dsngob0
-m.douban.com#$#.TalionNav-static { display: none!important; }
-m.douban.com#$#.TalionNav { padding-bottom: 30px!important; }
+tiktok.com#%#//scriptlet('prevent-addEventListener', 'touchmove', '.preventDefault():void')
+tiktok.com#$#.e1dsngob0 { display: none !important; }
+m.douban.com#$#.TalionNav-static { display: none !important; }
+m.douban.com#$#.TalionNav { padding-bottom: 30px !important; }
 gaosan.com##.float-qrcode
 kapook.com###wrap_banner_app
 kogan.com###kogan-ad-sidebar
@@ -38182,6 +38186,7 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+xn--80ac9aeh6f.xn--p1ai#?#main > div[class] > div.flex:has(> div.leading-none > a[href="/subscription"])
 senior.ua##.register-with-button
 vibe.naver.com#%#//scriptlet("set-cookie", "NPM_POPUP", "Y")
 as-web.jp##.w-md-320 > div.sticky
@@ -39343,6 +39348,8 @@ eiga.com##.header-pure-banner
 !##############################
 ! SECTION: Tweaks - CSS
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/139194
+djxmaza.in#$##wait1 { display: none !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/138903
 blog.nationapk.com#$##wpsafelink-landing { display: none !important; }
 blog.nationapk.com#$##wpsafe-link { display: block !important; }
@@ -39784,6 +39791,9 @@ newsweek.com##iframe[src="http://sns.europe.newsweek.com/newsletter?popup=1"]
 !##############################
 ! SECTION: Tweaks - JS
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/139194
+djxmaza.in#%#//scriptlet('remove-class', 'disabled', '#wait1button')
+djxmaza.in#%#//scriptlet('remove-attr', 'disabled', '#wait1button')
 ! https://github.com/uBlockOrigin/uAssets/issues/16166
 adzz.in,proappapk.com#%#//scriptlet("remove-attr", "disabled", "#gotolink")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/137292
