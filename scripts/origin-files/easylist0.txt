@@ -2191,6 +2191,11 @@ eatsmarter.de,inside-digital.de,hs.fi,vrt.be,manager-magazin.de,whats-on-netflix
 !
 !
 !
+||parfuemerie-becker.de/js/cookie-consent-dialog.min.js
+zvuk.com##.sc-18olso3-1
+mec.ca##div[class^="CookieConsent_banner_"]
+mooseknucklescanada.com##.transform.opacity-100.border-gray-200[class^="FeatureBar_root__"]
+ridestore.com##div[class^="CookieBanner-module--cookieBanner--"]
 prada.com#$##__tealiumGDPRecModal { display: none !important; }
 prada.com#$#body[class*=stopScrollPrada] { position: static !important; }
 prada.com#$#.overlayOpen body::after { display: none !important; }
@@ -11633,6 +11638,7 @@ sm-sp.givemesport.com#%#AG_onLoad(function(){if(window.location.href.includes("c
 goplay.be#%#AG_onLoad(function(){if(-1===document.cookie.indexOf("euconsent-v2")){var c=new MutationObserver(function(){var b=document.querySelector("#didomi-notice-learn-more-button");b&&(c.disconnect(),b.click(),setTimeout(function(){var a=document.querySelectorAll("button.didomi-components-button");a[0]&&a[0].click();},300))});c.observe(document,{childList:!0,subtree:!0}),setTimeout(function(){c.disconnect()},1E4)}});
 krone.at#%#AG_onLoad(function(){if(-1===document.cookie.indexOf("euconsent-v2")){var c=new MutationObserver(function(){var b=document.querySelector("#didomi-notice-learn-more-button");b&&(c.disconnect(),b.click(),setTimeout(function(){var a=document.querySelectorAll("button[aria-describedby=\"didomi-purpose-BeEXA9\"]");a[1]&&a[1].click();var b=document.querySelectorAll("button[aria-describedby=\"didomi-purpose-9HxF6e\"]");b[0]&&b[0].click();var c=document.querySelectorAll("button[aria-describedby=\"didomi-purpose-JmQMZH\"]");c[0]&&c[0].click()},300),setTimeout(function(){var a=document.querySelectorAll("button[aria-describedby=\"didomi-purpose-xKLmtF\"]");a[1]&&a[1].click()},300),setTimeout(function(){var a=document.querySelector("button[aria-label*=\"speichern\"]");a&&a.click()},300))});c.observe(document,{childList:!0,subtree:!0}),setTimeout(function(){c.disconnect()},1E4)}});
 !
+parfuemerie-platen.de#%#AG_onLoad(function(){if(!document.cookie.includes("fb-enable") == true){var g=new MutationObserver(function(){var el = document.querySelector("#cookie-button-text"); el&&el.click();});g.observe(document,{childList:!0,subtree:!0});setTimeout(function(){g.disconnect()},1E4)}});
 kreiszeitung.de#%#(function(){var noopFunc=function(){};var tcData={eventStatus:"tcloaded",gdprApplies:!1,listenerId:noopFunc,vendor:{consents:{967:true}},purpose:{consents:[]}};window.__tcfapi=function(command,version,callback){"function"==typeof callback&&"removeEventListener"!==command&&callback(tcData,!0)}})();
 kinoheld.de#%#AG_onLoad(function(){if(!document.cookie.includes("__cmpcc")){var g=new MutationObserver(function(){var b=document.querySelector('#cmpwrapper').shadowRoot.querySelector('#cmpwelcomebtnno > a');b&&b.click();});g.observe(document,{childList:!0,subtree:!0});setTimeout(function(){g.disconnect()},1E4)}});
 allgemeine-zeitung.de,buerstaedter-zeitung.de,lampertheimer-zeitung.de,echo-online.de,main-spitze.de,wiesbadener-kurier.de,wormser-zeitung.de,mittelhessen.de#%#AG_onLoad(function() {var g = new MutationObserver(function() {var b = document.querySelector('#cmpbox .purWrapper__button[onclick]');b && b.click();});g.observe(document, {childList: !0,subtree: !0});setTimeout(function() {g.disconnect()}, 1E4)});
@@ -12803,6 +12809,8 @@ m.timesofindia.com,m-timesofindia-com.cdn.ampproject.org$$amp-consent
 ||geolocation.onetrust.com/cookieconsentpub/*/geo/location$xmlhttprequest,redirect-rule=noopjson
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/139227
+@@||d.delivery.consentmanager.net/delivery/cmp.php$domain=bluray-disc.de
 ! https://github.com/AdguardTeam/AdguardFilters/issues/138918
 @@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=tvmovie.de
 ! https://github.com/AdguardTeam/AdguardFilters/pull/138828
@@ -16182,7 +16190,6 @@ kokarare1212.net,neoxscans.net,food-here.com,my-current-location.com,online-pdf-
 @@||tellows.it^$generichide
 @@||germancarforum.com^$generichide
 @@||apkpure.com^$generichide
-@@||userupload.net^$generichide
 @@||sitelike.org^$generichide
 @@||wordlegame.org^$generichide
 @@||pcprogramasymas.net^$generichide
@@ -16459,6 +16466,12 @@ reddit.com#@#.ADBAR
 ! SECTION: Anti-adblock - Regular rules
 ! Do not forget about '!#safari_cb_affinity' section for exclusions
 !
+historyofyesterday.com##.jetblocker-wrapper
+thetodaypost.com#$#.-wrapper { display: none !important; }
+thetodaypost.com#$#.-blackout { display: none !important; }
+thetodaypost.com#$#.-blur * { filter: none !important; }
+thecrimson.com##img[class^="message-"][alt^="Please disable your ad blocker"]
+thecrimson.com#%#//scriptlet('prevent-setTimeout', '/0===.\.offsetHeight/')
 @@||ddys.*/wp-content/plugins/hashbar-wp-notification-bar/assets/js/analytics.js$xmlhttprequest
 ddys.*#%#//scriptlet("prevent-fetch", "analytics")
 megogo.net##.infoBlock_v1
@@ -17941,7 +17954,7 @@ symbolab.com#@#.adsbygoogle
 symbolab.com#@#.googleAdsense
 t-hsn.com#@#.ad-head
 t-hsn.com#@#.ad-top
-t3n.de#@##adsbox
+thecrimson.com,t3n.de#@##adsbox
 tech-faq.com#@#.adsbygoogle
 tech-faq.com#@#.adsbygoogle
 textstudio.co#@#.adsbyyahoo
@@ -19213,6 +19226,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+go.zvuk.com##.zalipuha
 koneta.nifty.com##.popup_bnr
 edition.cnn.com##.video-resource__wrapper > div[class*="video-resource__stuck"]
 clubmonaco.com###talkable-offer
@@ -25552,8 +25566,7 @@ macwelt.de,pcwelt.de#%#//scriptlet("set-constant", "firebase.messaging", "noopFu
 !
 ! SECTION: Push notifications - Regular rules
 !
-||pazarama.com/mob-sw.js
-||pazarama.com/pz-sw.js
+||lib.dengage.com/p/push/$third-party
 fotospor.com###notificationPopup
 1xbet.kz###pushfree
 ||sendsay.ru/backend/push/
@@ -31132,6 +31145,8 @@ tvrain.ru##.menu3__foreign-agent-wrapper
 ! ##body .smartbanner
 atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-mail.org,ortobom.com.br,dicionarioinformal.com.br,5-fifth.com,news.sky.com,chat.babel.com,getwordly.com,school-turnup.com,naked-science.ru,vod.tvp.pl,tvn24.pl,m.lamoda.ru,lkfl2.nalog.ru,kocailem.com,dartworld.shopgate.com,m.alles10euro.de,dodopizza.ru,allo.ua,tempo.co,beymen.com,tvnmeteo.tvn24.pl,outsidetv.com,golfchannel.com,sportsnet.ca,euronews.com,pkobp.pl,tesco.hu,prima.hu,immobilienscout24.de,lcwaikiki.com,m.sigrun-woehr.com,transfermarkt.de,fragfinn.de,hh.ru,eraffe24.de,infranken.de,m.computeruniverse.net,m.emp.de,meduza.global.ssl.fastly.net,meduza.io##body .smartbanner
 !
+smsnator.online,emailnator.com##.top-banner
+pazarama.com#%#//scriptlet('set-cookie', 'prevent-in-app', 'true')
 indeed.com#?#div[class^="jobsearch-"] > div[class^="css-"]:has(> a[data-href*="indeed.com/mobileapp?"])
 tarsushaber.com##.my-2 a[href^="https://apps.apple.com/"]
 tarsushaber.com##.my-2 a[href^="https://play.google.com/"]
@@ -33420,6 +33435,7 @@ google.ad,google.ae,google.al,google.am,google.as,google.at,google.az,google.ba,
 ! causes some issues: https://github.com/AdguardTeam/AdguardForMac/issues/550
 ~lafenice.io,~kurer-sreda.ru,~chorki.com,~zattoo.com,~zaycev.net,~xltrax.ee,~hitta.se,~mail.ru,~v7player.wostreaming.net,~facebook.com,~instagram.com,~drive.google.com$$link[rel="manifest"]
 !
+zvuk.com#%#//scriptlet('set-session-storage-item', 'hide_banner', 'true')
 gaitame.com##.g-ads
 shonenjumpplus.com##[class^="top-sidebar-app"]
 docs.google.com##.docs-ml-promotion
@@ -38190,6 +38206,7 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+mail.yandex.*##div.promo-auto-onboarding-Container
 xn--80ac9aeh6f.xn--p1ai#?#main > div[class] > div.flex:has(> div.leading-none > a[href="/subscription"])
 senior.ua##.register-with-button
 vibe.naver.com#%#//scriptlet("set-cookie", "NPM_POPUP", "Y")
@@ -39795,6 +39812,8 @@ newsweek.com##iframe[src="http://sns.europe.newsweek.com/newsletter?popup=1"]
 !##############################
 ! SECTION: Tweaks - JS
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/139256
+fikper.com#%#//scriptlet("adjust-setInterval", "downloadToken", "*", "0.02")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139194
 djxmaza.in#%#//scriptlet('remove-class', 'disabled', '#wait1button')
 djxmaza.in#%#//scriptlet('remove-attr', 'disabled', '#wait1button')
