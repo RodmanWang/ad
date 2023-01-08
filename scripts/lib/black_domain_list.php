@@ -43,7 +43,7 @@ return array(
         'report.qq.com',
         'rcgi.video.qq.com',
         'rlog.video.qq.com',
-
+        'ad.browser.qq.com', // #682
     ),
     'openstorage.cn' => array(
         'iflyad.bjb.openstorage.cn'
@@ -92,7 +92,6 @@ return array(
     'adk2x.com' => array('adk2x.com'),
     'inmobi.com' => array('inmobi.com'),
     'alimama.cn' => array('alimama.cn'),
-    'alimama.com' => array('alimama.com'),
     'appjiagu.com' => array('appjiagu.com'),
     'amazon-adsystem.com' => array('amazon-adsystem.com'),
     'adnxs.com' => array('adnxs.com'),
@@ -147,7 +146,6 @@ return array(
         'ad.intl.xiaomi.com',
         'ad.xiaomi.com',
         'admob.xiaomi.com',
-        't1.market.xiaomi.com', // #630
     ),
     'zhihu.com' => array(
         'lc-push.zhihu.com',
@@ -224,9 +222,6 @@ return array(
     ),
     'minisplat.cn' => array(
         'minisplat.cn',
-    ),
-    'bdurl.net' => array(
-        'dig.bdurl.net', //数据收集
     ),
     'id1.cn' => array(
         'id1.cn', //钓鱼网站
@@ -1068,10 +1063,6 @@ return array(
         'gvt2.com', // #558
     ),
     
-    '95516.com' => array(
-        'ads.95516.com', // #552
-    ),
-    
     'dealmoon.com' => array(
         'analytics.dealmoon.com', // #575
     ),
@@ -1219,6 +1210,31 @@ return array(
     ),
     'entirelysacrament.com' => array( // #673
         'entirelysacrament.com',
+    ),
+    '2345.cc' => array( // #683
+        '2345.cc',
+    ),
+    'yes115.com' => array( // #683
+        'yes115.com',
+    ),
+    'fkw.com' => array( // #698
+        'datareport.fkw.com',
+    ),
+    'xiaohongshu.com' => array( // #704
+        's.xiaohongshu.com',
+        'crash.xiaohongshu.com',
+	'apppush-sh5.xiaohongshu.com',
+	'flash.xiaohongshu.com',
+	'referee.xiaohongshu.com',
+	'vi.xiaohongshu.com',
+	'store.xiaohongshu.com',
+	'starry.xiaohongshu.com',
+    ),
+    'todesk.com' => array( // #704
+        'st.todesk.com',
+    ),
+    '189.cn' => array( // #526
+        'webwebfenxi.189.cn',
     ),
     
     // 批量添加域名
