@@ -361,6 +361,27 @@ return array(
     'govdelivery.com' => 0, #674
     'meipian7.cn' => 0, #672
     'jimdo.com' => 0, #675
+    'gm.mmstat.com' => 0, #680
+    'as.mgtv.com' => 0, #678
+    'adobe-campaign.com' => 0, #681
+    'ssl-cdn.static.browser.mi-img.com' => 0, #689
+    'meitubeauty.meitudata.com' => 0, #688
+    'my-material.zone1.meitudata.com' => 0, #688
+    'profile.csdnimg.cn' => 0, #687
+    'db-ip.com' => 0, #699
+    'geotrust.com' => 0, #701
+    'salon.com' => 0, #711
+    'mini2015.qq.com' => 0, #710
+    'alimama.com' => 0, #710
+    'hqq.tv' => 0, #725
+    'gift.douyucdn.cn' => 0, #745
+    'urldefense.com' => 0, #741
+    'sfp.safe.baidu.com' => 0, #728
+    'sofire.baidu.com' => 0, #728
+    'c.youdao.com' => 0, #729
+    'button.like.co' => 0, #737
+    'wgo.mmstat.com' => 0, #730
+    'eroterest.net' => 0, #731
 
 
 
