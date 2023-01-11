@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202301102359
+! Version: 202301110316
 ! Title: Fanboy's Annoyance List
-! Last modified: 10 Jan 2023 23:59 UTC
+! Last modified: 11 Jan 2023 03:16 UTC
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -32034,8 +32034,6 @@ _vpcookieconsent/
 ##.checkCookie
 ##.checkcookie
 ##.checkcookies
-##.chefcookie--bottombar
-##.chefcookie--topbar
 ##.choc-banner
 ##.chr-cookie-banner
 ##.chsoft-cookies
@@ -44670,6 +44668,7 @@ vox.com##.c-float-right
 ny1.com##.caption-container
 aarp.org##.caregivingPromotion
 nationalpost.com##.carousel-widget
+tumblr.com##.center.tmblr-iframe
 wired.com##.cm-footer-container
 wikipedia.org##.cn-fundraising
 educba.com##.code-block
@@ -48594,6 +48593,7 @@ flynas.com###footer-message
 tuasaude.com###footerWidgets
 a2clones.com###footer_good_id
 cioreview.com###footerr
+wahl.com###form-popups
 frosmo.com###frosmoPopup
 teamcoco.com###ft
 codedead.com###gatsby-focus-wrapper > .MuiAlert-standard
@@ -49865,10 +49865,8 @@ starlingbank.com##.pykGnVXQId7R0_iS8Y0R
 upscalepics.com##.q-card__section
 abetterrouteplanner.com##.r-145dblm.r-nc4a30
 mycards.hdfcbank.com##.r-1p0dtai
-docs.betteruptime.com,electronforge.io,guides.cryptowat.ch##.r-1yzf0co.r-ymttw5
-support.saleae.com##.r-1yzf0co.r-ymttw5.r-1wtj0ep
+docs.abaddon.me,docs.betteruptime.com,electronforge.io,guides.cryptowat.ch,support.saleae.com,wiki.valhelsia.net##.r-1xcajam.css-175oi2r
 docs.passbase.com##.r-l13dpy
-docs.abaddon.me##.r-l13dpy.r-1xcajam.css-175oi2r
 niceareas.co.uk##.rayAlertBox
 sportsnet.ca##.rdm-daac-notice-template
 blacklimba.com##.recommendation-modal__backdrop
@@ -50494,7 +50492,7 @@ blueflag.global,lemoncode.net,records.team,stoeger.net##.sqs-announcement-bar
 40gold.de,afh-group.de,auto-rhein.de,belfortinternational.be,berghotel-sudelfeld.de,buecher-sale.de,buecher.de,builtbybel.com,christ-sucht-christ.de,deskmodder.de,dnca-investments.com,duracell.co.uk,duracell.com.au,duracell.de,duracell.dk,duracell.es,duracell.fr,duracell.it,duracell.nl,duracell.pl,estudiografenno.com.br,eukanuba.eu,flooring.regupol.de,handicap-love.de,jokers.de,kinopalast-neuburg.de,kubi-online.de,luontoliving.com,lvstrucks.nl,mewo-mm.de,mischgastauchen.de,nunido.de,oelwechsel-muenchen.de,osteopathiepraxis-hamburg.de,papier-mettler.com,petermachtpause.de,pohjanmaan.fi,pohjanmaan.se,publicidadconcursal.es,radldiscount.de,rebreather-ccr.de,redaktionsbuero-niemuth.de,roman-graf.ch,salesviewer.com,schachermayer.at,suedtirol.com,supplementa.com,tarif4you.de,tauchen-richtig-lernen.de,triaswestland.nl,trimix-tauchen.de,volksmusik-notenshop.de,volksmusiknoten.de,westerhofcafe-im-stielerhaus.de###klaro
 filati-outlet.com,filati.cc,filati.de,filati.ru##.klaro
 ! ! #cc
-bistum-essen.de,bistumlimburg.de,bjr.de,bundesanzeiger-verlag.de,camerapricebuster.co.uk,dbk.de,ecouter-en-direct.com,fairtrade-deutschland.de,fairtrade.at,hey.bayern,journalist.de,languagelab.nl,mariahimmelfahrtimtaunus.de,neuwagenduft.de,radioemu.com,volksbund.de###cc
+bistum-essen.de,bistumlimburg.de,bjr.de,bundesanzeiger-verlag.de,camerapricebuster.co.uk,dbk.de,domicile-emploi.net,dtvp.de,ecouter-en-direct.com,fairtrade-deutschland.de,fairtrade.at,hey.bayern,journalist.de,languagelab.nl,mariahimmelfahrtimtaunus.de,neuwagenduft.de,radioemu.com,volksbund.de###cc
 ! ! schaefer
 schaefer-container-systems.com,schaefer-container-systems.de,schaefer-it-systems.com,schaefer-it-systems.de##.bg-overlay
 schaefer-container-systems.com,schaefer-container-systems.de,schaefer-it-systems.com,schaefer-it-systems.de##.cc-window
@@ -53276,7 +53274,6 @@ ncm.de,outdoorfieber-shop.de###cb
 finanz-forum.de###cb82a-modal
 lfu.bayern.de###cbanner_container
 lfu.bayern.de###cbanner_overlay
-dtvp.de###cc
 trendaward.de###cc-box
 sleep-hero.de###cc-card
 mixable.de###ccDialog
@@ -53715,6 +53712,7 @@ serrure-pas-cher.fr###tarteaucitronRoot
 clinique-veterinaire.fr###userConsentPolicy
 terre-des-seniors.fr###valid-cookies
 fretlink.com##.CookieWarning-module--cookies--2BTTW
+pharmacieduboulevard-tarbes.pharminfo.fr##.NavigationTracker__container
 bmgproductionmusic.fr##.Notification
 burgerking.fr##.PQPUR
 talixo.fr##.TrackingInfoBox
@@ -55301,6 +55299,7 @@ generali.si###cd-module-modal-main
 energijaplus.si###ck-overlay
 easistent.com###cookie_popup
 emporium.si###grayOut
+zps.si###preload_over
 xxxlesnina.si##._1zBP5ruymc38ND7B
 isokon.si##.activebar-container
 dnevnik.si##.cc-wrapper
