@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202301112126
+! Version: 202301120148
 ! Title: Fanboy's Annoyance List
-! Last modified: 11 Jan 2023 21:26 UTC
+! Last modified: 12 Jan 2023 01:48 UTC
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -38984,6 +38984,7 @@ _vpcookieconsent/
 ##gj-cookie-prompt
 ##hma-cookie-notification
 ##idg-cookie-info-bar
+##iframe[name="googlefcPresent"]
 ##ing-ui-rba-cookie
 ##ir-cookie-consent
 ##jsa-cookie
@@ -48873,6 +48874,7 @@ quora.com##.Banner___StyledFlex-sf9g3d-0
 company.plarium.com##.Banner_cookiesBannerModalOverlay__y4uC8
 cryptokitties.co##.BottomBanner
 7-eleven.com##.CCPABanner_ccpa-banner__rzbVD
+banisternissanofchesapeake.com##.CXINV-440
 itsfoss.com##.CampaignType--floating
 classicalarchives.com##.Cdiv
 2nt.com,say-move.org##.CoZ9Nu8Z
@@ -48961,6 +48963,7 @@ osf.io##._CookieBanner_1k6aw9
 tango.me##._De3j
 wolframalpha.com##._Sjp9
 edclub.com##.__CC_popup
+getorca.com##.__css-cFqwsP
 medicinechest.co.uk##._aju
 instagram.com##._he402
 luisaviaroma.com##._vgSl0cx4ao
@@ -49357,6 +49360,7 @@ elasticemail.com##.elastic-cookie-notice
 my.bulbapp.com##.elementor-element-10ff3dc7
 fxhome.com##.elementor-location-footer
 firstbanknigeria.com##.elementor-location-popup
+icepanel.io##.elevation-8
 engagebay.com##.engagebay-gdpr-dialog
 voat.co##.eppnotice
 ml-quant.com##.ettof6h4
@@ -55394,6 +55398,7 @@ puntaldecoracion.com##.cm-wp-container
 bimi.es##.consentBoxes
 autosolar.es##.cookie-configuration
 goboo.com##.cookieBox_30V8b
+miravia.es##.cookies-authorize
 crezes.es,pdatos.com##.cookies-consent-modal
 eltiempo.es##.curtain_lightbox
 casatarradellas.es##.dark-filter
@@ -55608,6 +55613,7 @@ yucebasmakine.com.tr##.fadeInUp
 modoko.com.tr,muze.gen.tr##.fixed-bottom
 gezinomi.com##.fixedprotectionOfData
 denizozel.com##.kvk
+yigitalisveris.com.tr##.kvk-information-master
 suslusozluk.com##.modal-show
 haber365.com.tr##.modalx
 boxofficeturkiye.com##.notification__wrapper
