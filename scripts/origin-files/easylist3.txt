@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202301140142
+! Version: 202301140308
 ! Title: Fanboy's Annoyance List
-! Last modified: 14 Jan 2023 01:42 UTC
+! Last modified: 14 Jan 2023 03:08 UTC
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -25615,6 +25615,7 @@ _vpcookieconsent/
 ###cookie_consent_header
 ###cookie_consent_message
 ###cookie_consent_notification
+###cookie_consent_outer
 ###cookie_consent_overlay
 ###cookie_consent_playzo
 ###cookie_consent_popup
@@ -33696,6 +33697,7 @@ _vpcookieconsent/
 ##.cookie__top
 ##.cookie__wall
 ##.cookie__warn__wrap
+##.cookie__warning-messaging
 ##.cookie__window
 ##.cookie__wrap
 ##.cookie__wrapper
@@ -36520,6 +36522,7 @@ _vpcookieconsent/
 ##.m-basic-cookie-refresh
 ##.m-cookie
 ##.m-cookie-alert
+##.m-cookie-alert-1
 ##.m-cookie-banner
 ##.m-cookie-bar
 ##.m-cookie-confirm
@@ -49139,6 +49142,7 @@ rapidtyping.com##.c-c
 rebirth-hannover.de,werum.com##.c-callout
 index.co##.c-consent-manager
 kalahariresorts.com##.c-dialog-cookie
+officetimeline.com##.c-gjHvZA
 moment.co##.c-hUKRYQ
 sigma-global.com##.c-info-pane__container
 okdo.com##.c-notification-bar
@@ -49230,6 +49234,7 @@ cameronhouse.co.uk##.cookie-container
 theatlantic.com##.cookie-disclaimer
 parliament.uk##.cookie-manager
 gsm55.com##.cookie-module__cookieContainer___3EHjh
+privacy.samsung.com##.cookie-noneu
 pnas.org,silmid.com,socialclickweb.com##.cookie-policy
 lavueltaholanda.com##.cookie-prefs-wrapper
 outfit7.com##.cookie-settings
@@ -49307,6 +49312,7 @@ mywot.com##.dLClwL
 alohafromdeer.com##.dMPQEE
 fotka.com##.dSDHpy
 10clouds.com##.dSmGNF
+uphold.com##.dXDXdB
 aeon-fitness.com##.darkScreen
 systematica.com##.darken
 roundshot.com##.data-consent-edge
@@ -49361,7 +49367,6 @@ yourstory.com##.eHPTvF
 netgear.com##.ePTdMY
 cervelo.com##.eSJQoN
 aicpa.org##.eSivhb.sc-kAdXeD
-uphold.com##.eTbgNl
 i-sub.co.uk,i-subdigital.com##.eb-shd1
 ecologi.com##.eekcnji6
 carvago.com##.ees0v8i1
@@ -49716,6 +49721,7 @@ aquasana.com##.notice__banner
 global.bittrex.com##.notification--content
 harvester.co.uk##.notification--notification
 brouwland.com,collaw.ac.nz,collaw.edu.au,collegalpractice.com##.notification-alert
+callisto.sds.com##.notification-banner
 gumtree.com##.notification-box
 autotrader.co.za,speedtest.net##.notification-container
 meineke.com##.notification-popup-overlay
@@ -50647,7 +50653,7 @@ eplan.at,eplan.ch,eplan.co.uk,eplan.de,eplan.es,eplan.hr,kathond.be,kathond.com,
 ! ! elementor-popup-modal
 caldigit.com##.elementor-element-31e18001
 whatson.is##.elementor-location-popup
-acogo.pl,alcatelmobile.com,alpedhuez.com,apotheke-villingen.de,audirvana.com,bearable.app,bebocommunication.fr,begindot.com,beyondthebox.it,blocksite.co,boulderholisticvet.com,budgetinsurance.com,buehlerzuerich.ch,codesignal.com,codeworks.me,conjunctconsulting.org,correctiv.org,cover-4-less.com,dialdirect.co.uk,discoveryfrance.fr,dissept.com,doyouevenblog.com,droneacademy.com,dunense.com,easycookasia.de,editalo.pro,epoha.com.hr,everydaymarksman.co,faktograf.hr,fortisclothing.co.uk,funnelytics.io,green.hr,herbata.info,hombresevolucionantes.com,howsmart.pl,interreg-croatia-serbia.eu,interreg-hr-ba-me.eu,leica-enthusiast.de,lemondeencommun.info,lionsroar.com,loading.com.br,mcg-digital.de,megasvet.cz,mekongpackraft.com,mondenissin.com,mudes.org.br,nineambell.com,outkick.com,paperlessmovement.com,po-bandzie.com.pl,porttechnology.org,rdlfitness.com,realitysandwich.com,reputationup.com,restaurant-tribeca.com,romo-tonder.dk,roonlabs.com,rse-get-it-right.org.uk,schwabenhaus.de,selle-proust.fr,spolem.olawa.pl,stoppub.fr,strasbourg-europe.eu,surfacescan.co.uk,thecountersignal.com,thegapdecaders.com,tldallas.com,tutolino.net,urbex-tour.com,vr-expert.nl,weglot.com,wolfgangkrebs.com,zencare.org##.elementor-popup-modal
+acogo.pl,alcatelmobile.com,alpedhuez.com,apotheke-villingen.de,audirvana.com,bearable.app,bebocommunication.fr,begindot.com,beyondthebox.it,blocksite.co,boulderholisticvet.com,budgetinsurance.com,buehlerzuerich.ch,codesignal.com,codeworks.me,conjunctconsulting.org,correctiv.org,cover-4-less.com,dialdirect.co.uk,discoveryfrance.fr,dissept.com,doyouevenblog.com,droneacademy.com,dunense.com,easycookasia.de,editalo.pro,epoha.com.hr,everydaymarksman.co,faktograf.hr,fortisclothing.co.uk,funnelytics.io,green.hr,herbata.info,hombresevolucionantes.com,howsmart.pl,interreg-croatia-serbia.eu,interreg-hr-ba-me.eu,leica-enthusiast.de,lemondeencommun.info,lionsroar.com,loading.com.br,mcg-digital.de,megasvet.cz,mekongpackraft.com,mondenissin.com,mudes.org.br,nineambell.com,outkick.com,paperlessmovement.com,po-bandzie.com.pl,pogodadlaslaska.pl,porttechnology.org,rdlfitness.com,realitysandwich.com,reputationup.com,restaurant-tribeca.com,romo-tonder.dk,roonlabs.com,rse-get-it-right.org.uk,schwabenhaus.de,selle-proust.fr,spolem.olawa.pl,stoppub.fr,strasbourg-europe.eu,surfacescan.co.uk,thecountersignal.com,thegapdecaders.com,tldallas.com,tutolino.net,urbex-tour.com,vr-expert.nl,weglot.com,wolfgangkrebs.com,zencare.org##.elementor-popup-modal
 ! ! .uk-notify-message
 elfshare.com,tickazilla.com##.uk-notify-message
 ! ! sellpy
@@ -53489,6 +53495,7 @@ boley.de##.ckmsg
 sberbankdirect.de##.cm
 hifi-janssen.de##.cm-wp-container
 immoscout24.ch##.cmOzGN
+ihk-weiterbildung.de##.cmnstr
 ifaa.de##.cmnstr-outer
 verivox.de##.cmp-container
 lindner-norit.com##.cn-layer
@@ -54800,6 +54807,7 @@ erhem.pl###popupContact
 lca.pl,legnica.pl###popupDiv
 fizyka.org###pp
 cieplodlakrakowa.pl,kancelariamzm.pl,kpr.pl,mieszko.pl###privacy
+browar-tenczynek.pl###privacy-policy-info
 ile-kalorii.pl###privacyMessage
 solankowaaleja.com###privacybox
 gazeo.pl###reg_all
