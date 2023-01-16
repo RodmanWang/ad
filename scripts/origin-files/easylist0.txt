@@ -1613,6 +1613,7 @@
 !
 ! SECTION: Cookies - General URL
 !
+/gdpr-cookie-min.
 ||cookieform.pl^$third-party
 ||privacy.wum.rocks^
 ||cookiespool.com^$third-party
@@ -2191,6 +2192,9 @@ eatsmarter.de,inside-digital.de,hs.fi,vrt.be,manager-magazin.de,whats-on-netflix
 !
 !
 !
+designalive.pl##.advancedCookiesPopup
+audiotag.info##.c-agree
+cursbnr.ro###notification_cookies
 desiporn.tube##.header__cookie
 cnn.com##.terms-of-service
 pulzo.com###divConsent
@@ -5692,7 +5696,7 @@ globenewswire.com,fashionunited.*,ahaan.co.uk,afteracademy.com,shoppingcidademar
 adrenalinecyber.ru##.wrapper > main ~ div > div[class^="_"]
 gamefuelmasters.ru##.wrapper > div.content ~ div > div[class^="_"]
 thairath.co.th##.cookiewrap
-profitshare.ro,arabesque-distributie.ro###cookieConsentStickyFooter
+librabank.ro,internetbanking.ro,profitshare.ro,arabesque-distributie.ro###cookieConsentStickyFooter
 mathaus.ro###cookieOptionsFooter
 okazii.ro#$#body { overflow: visible !important; }
 okazii.ro#$##overlayc { display: none !important; }
@@ -16573,6 +16577,7 @@ reddit.com#@#.ADBAR
 ! SECTION: Anti-adblock - Regular rules
 ! Do not forget about '!#safari_cb_affinity' section for exclusions
 !
+designalive.pl###cover
 femmeactuelle.fr###bt-softwall
 steamcollector.com##.adblock-detected
 steamcollector.com#%#//scriptlet('abort-current-inline-script', 'getComputedStyle', 'adsbygoogle')
@@ -26406,6 +26411,8 @@ edp24.co.uk,technologyreview.com,inews.co.uk,nordbayern.de,thelocal.ch,morgenpos
 !
 ! SECTION: Subscriptions - Regular rules
 !
+gamesindustry.biz#?#.article_body > div.article_body_content > blockquote:has(> p > a[href="https://www.gamesindustry.biz/newsletters"])
+a1.ro##.abonare-newsletter
 cined.com##.newsletter-download-container
 pulzo.com###formNewsletterShow
 pulzo.com##.btn-google-news
@@ -31350,6 +31357,7 @@ tvrain.ru##.menu3__foreign-agent-wrapper
 ! ##body .smartbanner
 atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-mail.org,ortobom.com.br,dicionarioinformal.com.br,5-fifth.com,news.sky.com,chat.babel.com,getwordly.com,school-turnup.com,naked-science.ru,vod.tvp.pl,tvn24.pl,m.lamoda.ru,lkfl2.nalog.ru,kocailem.com,dartworld.shopgate.com,m.alles10euro.de,dodopizza.ru,allo.ua,tempo.co,beymen.com,tvnmeteo.tvn24.pl,outsidetv.com,golfchannel.com,sportsnet.ca,euronews.com,pkobp.pl,tesco.hu,prima.hu,immobilienscout24.de,lcwaikiki.com,m.sigrun-woehr.com,transfermarkt.de,fragfinn.de,hh.ru,eraffe24.de,infranken.de,m.computeruniverse.net,m.emp.de,meduza.global.ssl.fastly.net,meduza.io##body .smartbanner
 !
+emailnator.com#%#//scriptlet('set-local-storage-item', 'announcement_1', '1')
 magaseek.com###appArea
 meetup.com##div[class="px-6 sm:px-4 xl:px-0 md:max-w-screen w-full space-y-20 py-20 pb-40 relative m-auto"]
 tokfm.pl###banP104_DFP
@@ -38484,6 +38492,7 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+olx.pl##.topbarbanner
 web.quizknock.com###vue-article > a[onclick^="gtag_ad_event"]
 w-higa.com###header_banner
 w-higa.com##div[id^="single_banner"]
@@ -43273,6 +43282,7 @@ faz.net#?#.ctn-PlaceholderContent:has(> .ctn-GDPR)
 nextpit.de##.jobbioapp
 codewars.com##.cw-ad
 codewars.com###house-display
+gamesindustry.biz##.jobs_widget
 !
 !   NOTE: Exchange rates widgets
 !
