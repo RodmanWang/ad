@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202301191417
+! Version: 202301192121
 ! Title: Fanboy's Annoyance List
-! Last modified: 19 Jan 2023 14:17 UTC
+! Last modified: 19 Jan 2023 21:21 UTC
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -30663,6 +30663,7 @@ _vpcookieconsent/
 ##.Cookie-Consent--show
 ##.Cookie-bar
 ##.Cookie-consent-block
+##.Cookie-notice__container
 ##.CookieAcceptImageDivClass
 ##.CookieAcceptLayer
 ##.CookieAcceptPanel
@@ -32999,6 +33000,7 @@ _vpcookieconsent/
 ##.cookie-notice.alert-secondary
 ##.cookie-notice.bottom
 ##.cookie-notice.top
+##.cookie-notice__background
 ##.cookie-notice__content
 ##.cookie-notice__inner
 ##.cookie-notice__overlay
@@ -49767,7 +49769,7 @@ aquasana.com##.notice__banner
 global.bittrex.com##.notification--content
 harvester.co.uk##.notification--notification
 brouwland.com,collaw.ac.nz,collaw.edu.au,collegalpractice.com##.notification-alert
-callisto.sds.com##.notification-banner
+callisto.sds.com,samueladams.com##.notification-banner
 gumtree.com##.notification-box
 autotrader.co.za,speedtest.net##.notification-container
 meineke.com##.notification-popup-overlay
@@ -50099,6 +50101,7 @@ ultimaker.com##.um-consent-bar
 tcm.com##.universal-footer__ribbon
 awareproductions.com##.up
 anisearch.com##.urgent-msg
+liveagent.com##.urlslab-skip-all
 cnn.com,liveuamap.com##.user-msg
 timhortons.co.uk##.user-permission
 shine.cn##.user-terms-hint
@@ -54989,7 +54992,7 @@ parking-serwis.pl##.top
 miastograf.pl##.ui-dialog
 miastograf.pl##.ui-widget-overlay
 optyczne.pl##.w3-modal
-hejto.pl##.z-1200
+hejto.pl##.z-1200.border-primary-main
 pzkosz.pl##.zgoda_na_przetwarzanie
 shopee.pl##.zsav9a
 pracuj.pl##[data-test="modal-cookie-bottom-bar"]
@@ -55596,6 +55599,7 @@ semper.se##.dyxlIn
 rwi.se##.elementor-location-popup
 sellpy.se##.fAalHQ
 sfanytime.com##.gWCQmE
+gleerupsportal.se##.gbcNnE
 jobbsafari.se##.hBzXzJ
 bus4you.se##.header__banner
 sportson.se##.info-message
