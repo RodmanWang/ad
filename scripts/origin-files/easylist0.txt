@@ -16077,6 +16077,12 @@ auto.ru#%#//scriptlet('json-prune', 'ads')
 !   SECTION: Anti-adblock - VK group
 !   NOTE START: VK group
 !
+! mail.ru - main page
+!#if (adguard_app_windows || adguard_app_mac || adguard_app_android)
+mail.ru##div[slot="main-column"] > div.tgb-wrapper:not([data-testid])
+||home.imgsmail.ru/resplash/*/j/d-*.js$replace=/o\.default\.radar\("adblock"\)//
+!#endif
+!
 minigames.mail.ru#%#//scriptlet("abort-current-inline-script", "$", "advBlock")
 mmminigames.mail.ru#%#//scriptlet("abort-current-inline-script", "$", "showAd")
 !
@@ -19366,6 +19372,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+focus.de###inactivity_layer_bg
 reddit.com##.happening-now-wrap
 iobit.com##.newyear-top-banner
 eltiempo.com##.paywall_btn_whatsapp
@@ -33759,9 +33766,6 @@ smash-media.jp##.st-app__modal
 smash-media.jp##.st-app__modal + div.st-hidden
 s.tabelog.com##.list-webtoapp-banner
 togetter.com##.more_tweet_box > button.more_tweets_btn ~ :not(script)
-trilltrill.jp#$#.header-W2ABanner { display: none !important; }
-trilltrill.jp#$#.header-GlobalHeader { padding-top: 0 !important; }
-trilltrill.jp#$#.header-MenuBar { margin-top: -70px !important; }
 filmarks.com##.js-induce-banner
 touch.mail.ru##.bnrCloudResize
 m.toutiao.com##div[id^="top-banner-container-"]
@@ -33942,6 +33946,14 @@ newzit.com#$#div[class*="hasSmartBanner_"] > div[class^="banner_"] { display: no
 newzit.com#$#div[class*="hasSmartBanner_"] { padding-top: 0 !important; }
 linkedin.com##div[data-tracking-id="get_app_omni_bottom"]
 deliveroo.hk##[class^="AppBanner-"]
+!+ NOT_OPTIMIZED
+trilltrill.jp#$#.header-W2ABanner { display: none !important; }
+!+ NOT_OPTIMIZED
+trilltrill.jp#$#.header-GlobalHeader { padding-top: 0 !important; }
+!+ NOT_OPTIMIZED
+trilltrill.jp#$#.header-MenuBar { margin-top: -70px !important; }
+!+ NOT_OPTIMIZED
+trilltrill.jp#$#.header-W2ABanner ~ header { height: 50px !important; }
 !#endif
 !   NOTE: Mobile sites only end ⬆️
 !   !SECTION: Mobile apps - Mobile sites only
@@ -34004,6 +34016,9 @@ goodreads.com,kicker.de,edeka.de#@##smartbanner.android
 ! https://github.com/AdguardTeam/AdguardFilters/issues/76987
 youtube.com#%#AG_onLoad(function() {var a = new MutationObserver(function() {if (document.querySelector('yt-upsell-dialog-renderer')) {var b = document.querySelector('.ytd-popup-container[popup-size="UPSELL_DIALOG_RENDERER_POPUP_SIZE_LARGE"] #dismiss-button:not(.dismissed), .upsell-dialog-lightbox .upsell-dialog-dismiss-button button:not(.dismissed)');setTimeout(function() {b&&b.click()}, 3E2)}});a.observe(document, {childList: !0,subtree: !0});setTimeout(function() {a.disconnect()}, 3E3)});
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/140528
+cnbc.com#$#.UniversalVideoPlayer-videoContainer { position: absolute !important; }
+cnbc.com##.UniversalVideoPlayer-videoContainer.customControls #jw-container
 ! https://github.com/AdguardTeam/AdguardFilters/issues/140450
 cyclismactu.net###dailymotion-pip-large-viewport
 ! https://github.com/AdguardTeam/AdguardFilters/issues/140369
@@ -35232,6 +35247,8 @@ money.pl##a[data-st-area="gotosg"][href="https://www.wp.pl/"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54035
 wp.pl##a[data-st-area="goToSG"][href="https://www.wp.pl"]
 kuchnia.wp.pl#?#tr[data-reactid]:not([class]):not([id]) > td[class] > div[class*=" "]:has(> div[class*=" "] > iframe[src^="https://forms.freshmail.io/"])
+! TODO: remove the hint below when a new version of the extension for Firefox and Opera will be released, current version is 4.1.53
+!+ NOT_PLATFORM(ext_ff, ext_opera)
 ~1login.wp.pl,~pilot.wp.pl,dobreprogramy.pl,wp.pl,pudelek.pl#%#//scriptlet("prevent-addEventListener", "openFloatingPlayer", "FloatingPlayer")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54618
 newyorker.com##:not([class^="Navigation__subscribe"]) > div[data-cm-unit="show-failsafe"]
