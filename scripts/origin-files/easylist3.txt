@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202301250104
+! Version: 202301250324
 ! Title: Fanboy's Annoyance List
-! Last modified: 25 Jan 2023 01:04 UTC
+! Last modified: 25 Jan 2023 03:24 UTC
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -7694,6 +7694,7 @@ _vpcookieconsent/
 ##.newletter-main-wrapper
 ##.newletter-sidebar
 ##.newletter_container
+##.newletterpopupbox
 ##.newnl-signup
 ##.news-article__newsletter
 ##.news-detail-newsletter-cta
@@ -25114,6 +25115,7 @@ _vpcookieconsent/
 ###cookieDisc
 ###cookieDisclaimer
 ###cookieDisclaimerBanner
+###cookieDisclaimerBox
 ###cookieDisclaimerContainer
 ###cookieDisclaimerDiv
 ###cookieDisclaimerInfo
@@ -33471,7 +33473,6 @@ _vpcookieconsent/
 ##.cookieDirWrap
 ##.cookieDirective
 ##.cookieDiscl
-##.cookieDisclaimer
 ##.cookieDisclaimerBox
 ##.cookieDisclaimerContainer
 ##.cookieDisclaimerContainerWrapper
@@ -33637,6 +33638,7 @@ _vpcookieconsent/
 ##.cookieSection
 ##.cookieSelectDiv
 ##.cookieSettings
+##.cookieSettingsBtn
 ##.cookieShell
 ##.cookieShowClass
 ##.cookieStatement
@@ -34133,6 +34135,7 @@ _vpcookieconsent/
 ##.cookiepopup
 ##.cookiepopup-cont
 ##.cookiepopup-container
+##.cookiepopupbox
 ##.cookiepopupcontainer
 ##.cookiepopupwrapper
 ##.cookiepreferences_popup
@@ -39330,6 +39333,7 @@ _vpcookieconsent/
 ##div.cookieBanner
 ##div.cookieBar
 ##div.cookieConsent
+##div.cookieDisclaimer
 ##div.cookieHolder
 ##div.cookieInfo
 ##div.cookieMessage
@@ -39394,6 +39398,7 @@ _vpcookieconsent/
 ##div.cookiescreen
 ##div.cookiesection
 ##div.cookiespace
+##div.cookiesplace
 ##div.cookiestatement
 ##div.cookieswindow
 ##div.dev-cookie
@@ -49298,6 +49303,7 @@ bitfeed.co##.cookiebanner
 paymentcloudinc.com##.cookiebtn
 px.dev##.cookies-banner-module--banner--UON8z
 takealot.com##.cookies-banner-module_cookie-banner_hsodu
+gomosafer.com##.cookies-body
 eib.org##.cookies-home_overlay
 brocoders.com##.cookies-modal-module--wrapper--17WJR
 ucoin.net##.cookies-warning
@@ -54002,6 +54008,7 @@ primetech.bg##div[style^="color: rgb(51, 51, 51); text-align: center;"]
 4gtv.tv,ftv.com.tw,ftvnews.com.tw###Allow
 dailyview.tw###PrivacyAlert
 on.cc###acceptDisclaimer
+ilong-termcare.com###announcementHeader
 microjet.com.tw###ck_footer
 5230.com.tw,china-motor.com.tw,gem-man.com.tw,longchain.com.tw,mitsubishi-motors.com.tw###cmc8007
 dancingcrab.com.sg,lingzhivegetarian.com,tong-le.com.sg,tunglokpekingduck.com,tungloksignatures.com,tunglokteahouse.com###covid19
