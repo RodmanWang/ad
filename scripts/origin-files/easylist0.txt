@@ -7079,7 +7079,7 @@ heimgourmet.com##.gaCookieConsent
 heimgourmet.com#$#body.gaBarShown { margin-top: 0 !important; }
 ||strato-hosting.co.uk/_assets/js/consent.min.js
 swyrl.tv##.tsch--cookie-warning
-polishbrief.pl###simplecookienotification_v01
+wbijam.pl,polishbrief.pl###simplecookienotification_v01
 centrerockland.com##._legal-alert_eryle1
 yahoo.com###guce-inline-consent-iframe
 ||guce.yahoo.com/br/collectConsentInline?brandType=nonEu$subdocument
@@ -19442,6 +19442,12 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+neilpatel.com#%#//scriptlet('remove-class', 'mfp-popup-exit-quiz-v2', 'body')
+neilpatel.com#%#//scriptlet('remove-attr', 'style', 'html')
+neilpatel.com#$#div[class^="mfp-"] { display: none !important; }
+neilpatel.com###topbar
+imdb.com#$#div[data-testid="promptable"] { display: none !important; }
+imdb.com#$?#body { overflow: auto !important; }
 informador.mx##.alert-social
 proceso.com.mx###dailymotion-pip-large-viewport
 roboma.io##.pum-overlay[data-popmake*="380px"]
@@ -19750,6 +19756,7 @@ sport.interia.pl##.vjs-fixedmonitor-wrapper-fixed:not(.vjs-fixedmonitor-fixed-sl
 songsterr.com###showroom
 milenio.com###engagement
 xs.studiodahu.com###mainshadow
+telerama.fr##.overlay-popin
 telerama.fr##div[class^="popin-autopromo"]
 4ddig.tenorshare.com###seasonal-banner
 passnavi.evidus.com##.module__adheadion
@@ -25413,6 +25420,8 @@ zlavomat.sk#@##credential_picker_container
 .name/?pus=$script,third-party
 .site/?pus=$script,third-party
 !
+||premclubs.com^
+||my1elitclub.com^
 ||pushdealer.com^
 ||mewigurom.com^
 ||pushadvert.bid^
@@ -26513,7 +26522,7 @@ cars.av.by,business-standard.com,holiday.by,hcdinamo.by,ural56.ru,slidstvo.info,
 ! ##body > div[id][style*="top: 0px; width: 100%; z-index: 99999999;"]
 quinhillyer.com,johnbiver.com,jasonmattera.com,ipatriot.com,hooligancharters.com,greatamericanpolitics.com,dailylol.com,clickitconservativenews.com,brasspills.com,brandonvallorani.com,affluentinvestor.com,thinkamericana.com,schaftleinreport.com##body > div[id][style*="top: 0px; width: 100%; z-index: 99999999;"]
 ! ##a[href^="https://news.google.com/publications/"]
-elpais.com.co,minuto30.com,impact.ro,b1tv.ro,moviesroom.pl,techwafer.com,moonshot.news,radiokp.ru,brestcity.com,aykiri.com.tr,yenicaggazetesi.com.tr##a[href^="https://news.google.com/publications/"]
+imparcialoaxaca.mx,elpais.com.co,minuto30.com,impact.ro,b1tv.ro,moviesroom.pl,techwafer.com,moonshot.news,radiokp.ru,brestcity.com,aykiri.com.tr,yenicaggazetesi.com.tr##a[href^="https://news.google.com/publications/"]
 ! Turkish digital magazines
 turkuazgazetesi.net,yenialanya.com,mansetaydin.com,seskocaeli.com,kocaelibarisgazetesi.com,kocaelikoz.com,enkocaeli.com##.block-pano > div.as
 turkuazgazetesi.net,yenialanya.com,mansetaydin.com,seskocaeli.com,kocaelibarisgazetesi.com,kocaelikoz.com,enkocaeli.com###_s_fan
@@ -26526,6 +26535,9 @@ edp24.co.uk,technologyreview.com,inews.co.uk,nordbayern.de,thelocal.ch,morgenpos
 !
 ! SECTION: Subscriptions - Regular rules
 !
+visualcapitalist.com###wpforms-widget-5
+consumeraffairs.com#$?#body > div.ca-modal:has(div.nw-subs) { display: none!important; }
+consumeraffairs.com#$#body { overflow: auto !important; }
 sonymusic.co.jp##.c-newsMail
 informador.mx###suscribe
 informador.mx##.mod-suscribete
@@ -31537,6 +31549,9 @@ atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-mail.org,ortobom.com
 ! notifications - part of the functionality
 ! discord.com##div[class^="container"] > nav[class^="wrapper"] + div[class^="base"] > div[class^="notice-"]
 !
+wallscloud.net##.item-wc
+wallscloud.net##iframe[src^="https://wallscloud.net/themes/dark/assets/promo/single"]
+ilacfiyati.com##.right_bottom_fixed
 reforma.com##.container_publicidad2
 newsdig.tbs.co.jp##a[id^="appbanner_"]
 realty.ya.ru#%#//scriptlet('set-cookie', 'splash_banner_closed', '1')
@@ -31840,7 +31855,7 @@ wear.jp###ftrAppDownload
 aliexpress.com###mobile-download
 tenki.jp,m.diningcode.com##.app-banner-wrap
 meme.chat##.footer-new
-7themes.su###android_promo
+wallscloud.net,7themes.su###android_promo
 livemint.com##.appMint
 vivo.com.br##.barra-conversao--purple[data-settings='{"pagina": "Vivo Easy Prime: Plano de celular digital com Cashback"}']
 prom.ua#%#//scriptlet('set-cookie-reload', 'hide_mobile_download_app_popup', 'true')
@@ -38740,6 +38755,9 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+neilpatel.com##.widget-analyzer
+||h1.rmr.rocks/auto/44/82/89/14.png
+readmanga.live##div[style="width: 800px; height: 600px;"]
 gabastyle.com###rListingBnr
 gabastyle.com##.dfad
 bst.bratsk.ru##.my-sheet-Adv
@@ -43333,6 +43351,7 @@ sportnews.to,footlive.me.pokemon-tube.com,shirainime.com,daemon-hentai.com,seirs
 streamonsports.cc,streamonsport.info##.chatango
 139.99.120.222,indoxxi.show##.chatango-btn
 !
+||stdntl.ru/*/std-order-chat.js
 ankerjapan.com###ch-plugin
 siracusanews.it###ht-ctc-chat
 ||sp-prod-bot1.predu.sk/chat/chat.js$domain=posta.sk
