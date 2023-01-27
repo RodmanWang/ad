@@ -2200,6 +2200,7 @@ eatsmarter.de,inside-digital.de,hs.fi,vrt.be,manager-magazin.de,whats-on-netflix
 !
 !
 !
+coingate.com##.MuiSnackbar-root
 spb-guide.ru##.snowdiv-modal
 milenio.com###camus-cookie-disclaimer
 postbank.de#$##usercentrics-root { display: none !important; }
@@ -3265,7 +3266,7 @@ hoyer.de#?##gatsby-focus-wrapper > div[class^="backdrop "][aria-hidden="false"]
 stadtwerke-flensburg.de##.modal--not-deactivatable
 transgourmet.de#$##klaro { display: none !important; }
 transgourmet.de#$#html { overflow: visible !important; }
-swapcoin.cc,tuco.co,allinone.im##.MuiSnackbar-root
+coingate.com,swapcoin.cc,tuco.co,allinone.im##.MuiSnackbar-root
 pdfescape.com###pdfe_cmp
 eam.de,eam-netz.de#$#.tx-om-cookie-consent { display: none!important; }
 eam.de,eam-netz.de#$#body.om_cookie_active .mm-page.mm-slideout { filter: none!important; }
@@ -8289,7 +8290,7 @@ jever.de,radeberger.de,hasen-braeu.de##.age-cookie-req__privacy
 kyffhaeuser-nachrichten.de,cagematch.net,bfr.de,master-and-more.de,nnz-online.de,ev-kirchenkreis-suedharz.de,probier-club.de###cookiedingsbums
 ba.no##amedia-privacybox
 alpirsbacher.de##._pm-banner
-scratch-wiki.info,makerpendium.de,qiuwenbaike.cn,qiuwen.wiki,shoutwiki.com,thinkwiki.de,droidwiki.org,betawiki.net,wiki.manjaro.org,wiiubrew.org,miraheze.org,nonciclopedia.org,generasia.com,tiplopedi.com,stupidedia.org##.mw-cookiewarning-container
+deadcells.wiki.gg,scratch-wiki.info,makerpendium.de,qiuwenbaike.cn,qiuwen.wiki,shoutwiki.com,thinkwiki.de,droidwiki.org,betawiki.net,wiki.manjaro.org,wiiubrew.org,miraheze.org,nonciclopedia.org,generasia.com,tiplopedi.com,stupidedia.org##.mw-cookiewarning-container
 fahrradbook.de,einrichtungsradar.de,heimkinoheld.de,foodlux.de###kb-cookie-banner
 sciencenews.org##div[class^="cookie-banner__wrapper"]
 stepstone.de##.info-banner__cookie-policy
@@ -9618,7 +9619,7 @@ egmnow.com##.egm-cookie-flyout
 geekmall.eu##.espcookie
 angel.co##.eu_cookie_consent
 espanarusa.com##.eula-popup
-ign.com,downdetector.it,pfizer.de,downdetector.in,downdetector.com,pfizeryaninizda.com,pfizer.com.tr,crucial.com,popsugar.co.uk,popsugar.com,popsugar.com.au##.evidon-consent-button
+globalnews.ca,ign.com,downdetector.it,pfizer.de,downdetector.in,downdetector.com,pfizeryaninizda.com,pfizer.com.tr,crucial.com,popsugar.co.uk,popsugar.com,popsugar.com.au##.evidon-consent-button
 iotransfer.net,macbooster.net##.fl-accept
 drivereasy.com,iobit.com##.float-bar
 doctoralia.com.br,doktortakvimi.com,znanylekarz.pl##.floating-cookie-info
@@ -10119,7 +10120,7 @@ showtv.com.tr##.cookie-policy-confirmation
 ikea.com.tr##.cookie-policy-cont
 airindia.in##.popupGDPR
 velonews.com##.cookie-popup-bar
-allonlinestore.in,100sp.ru##.cookie-window
+buysellvouchers.com,allonlinestore.in,100sp.ru##.cookie-window
 34.ua,cht.com.tw,specialized.com,kinda.media,gavlekonserthus.se,gavlesymfoniorkester.se,medimagazin.com.tr,tvr.co.uk##.cookie-wrap
 wd-x.ru##.cookieBarWrapper
 dymo.com##.cookieHandler
@@ -16079,7 +16080,7 @@ www.kinopoisk.ru##div[class^="styles_adBlockWarningRoot"]
 ! www.kinopoisk.ru#%#//scriptlet("abort-on-property-read", "Object.prototype.mediaAds")
 ! www.kinopoisk.ru#%#//scriptlet("abort-on-property-read", "Object.prototype.createVideoBannerAdLite")
 www.kinopoisk.ru#%#//scriptlet('set-constant', 'Object.prototype.renderTo', 'undefined')
-www.kinopoisk.ru##div[class*="__AMNhR styles_i"]
+www.kinopoisk.ru##div[class*="__AMNhR styles_"]
 !
 ! Yandex.Turbo
 yandex.*##.page__result > p ~ div[class*="_type_partner "]
@@ -26541,6 +26542,7 @@ edp24.co.uk,technologyreview.com,inews.co.uk,nordbayern.de,thelocal.ch,morgenpos
 !
 ! SECTION: Subscriptions - Regular rules
 !
+medicalxpress.com###js-popup-nwletter
 milenio.com##div[id$="x1sidebar"]
 lycamobile.co.uk##.subscribe-news-letter-full-width
 gitpod.io###main-content > section[id][class^="flex"][class*="svelte-19"]
@@ -31558,6 +31560,7 @@ atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-mail.org,ortobom.com
 ! notifications - part of the functionality
 ! discord.com##div[class^="container"] > nav[class^="wrapper"] + div[class^="base"] > div[class^="notice-"]
 !
+hon-hikidashi.jp###contents_body_main > p > a[href^="https://www.nippan.co.jp/honlove/?utm_source=banner"]
 news.sky.com##div[data-component-name="sdc-article-custom-markup"]
 wallscloud.net##.item-wc
 wallscloud.net##iframe[src^="https://wallscloud.net/themes/dark/assets/promo/single"]
@@ -42330,6 +42333,7 @@ blog.livedoor.jp##.sp_kizi_recommend
 ||blog.livedoor.jp/pawapuro_kouryaku/RSS4.html
 ||blog.livedoor.jp/rock1963roll/pride_rss
 ||yumetsu.web.fc2.com/rss_$subdocument
+blog.livedoor.jp###container > div.blog-title-outer ~ div[class^="entry_box_"]
 blog.livedoor.jp#?#.plugin-memo > div.side > script[src$="/blogroll.js"]:upward(2)
 blog.livedoor.jp#?#.plugin-memo > div.side > div.pickups:upward(2)
 blog.livedoor.jp##.pickup
