@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202301300831
+! Version: 202301301232
 ! Title: Fanboy's Annoyance List
-! Last modified: 30 Jan 2023 08:31 UTC
+! Last modified: 30 Jan 2023 12:32 UTC
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -7030,6 +7030,7 @@ _vpcookieconsent/
 ##.article-bottom-newsletter-promo
 ##.article-bottom-newsletter_box
 ##.article-chimp-subscribe
+##.article-content__widget-group--newsletter-slot
 ##.article-email-subscription
 ##.article-footer-newsletter
 ##.article-footer__subscribe
@@ -40262,6 +40263,7 @@ _vpcookieconsent/
 ||mailerlite.com/js/universal.js
 ||nordiskemedier.dk/remodal/
 ||sample.dragonforms.com^$subdocument,third-party
+||secondstreetapp.com/audience_signup_widgets/
 ||secondstreetapp.com/embed/$subdocument,third-party
 ||targetbay.com^$third-party
 ! *** easylist:fanboy-addon/fanboy_social_thirdparty.txt ***
@@ -44483,6 +44485,7 @@ wikipedia.org##.frb-rml-enabled
 consumer.org.nz##.free-cta
 propublica.org##.fundraising-letter-inline
 thedraftnetwork.com##.get-involved
+flyingmag.com##.get-magazine
 artnews.com##.get-the-magazine__outer
 readtangle.com##.gh-portal-triggerbtn-iframe
 npr.org##.global-modal
@@ -44575,6 +44578,7 @@ csmonitor.com##.register.fullWidth
 indiatimes.com##.relInsightsYellowNotification1
 golfdigest.com##.relatedRiser
 infoq.com##.related__group
+citynews.ca##.replacement-image
 venafi.com##.right-col-banner-ad
 usmagazine.com##.right-rail
 skeptoid.com##.right-sidebar
@@ -44890,6 +44894,7 @@ ratemyprofessors.com###balaMainContainer
 kitguru.net###check-also-box
 cwtv.com###user_optin_banner
 menshealth.com,runnersworld.com##.OUTBRAIN
+rawstory.com##.go-top-btn
 ijr.com##.opt360-share-button-email-article-end
 multiup.eu,multiup.org##.scroll-to-top
 technoshouter.com##.td-more-articles-box
@@ -45219,6 +45224,7 @@ cnnsofake.news,health.news,newstarget.com###Widget15
 ndtv.com###\5f _cricketsubscribe
 admonsters.com###adm-signupbar
 wnd.com###alerts-bottom
+bramptonguardian.com,simcoe.com###app-overlay
 reseller.co.nz###art-next_signifier
 gulfnews.com###article-nl-wrap
 humanevents.com###article-signup
@@ -45349,6 +45355,7 @@ qz.com###nl-form
 silicon.co.uk,silicon.de,silicon.es,silicon.fr,silicon.pt###nl-overlay
 newsmax.com###nmsbma__container
 indianexpress.com###non_subscribed_banner
+healthing.ca###notification
 oneesports.gg###oes-sticky-footer-bar
 ramblinwreck.com###olark-wrapper
 carsalesbase.com###omnisend-dynamic-container
@@ -45474,6 +45481,7 @@ ozbargain.com.au###visitor-notice
 forbiddenknowledgetv.net###vlog-module-0-0
 matomo.org,tsarizm.com###wbounce-modal
 grabone.co.nz###welcome-overlay
+androidauthority.com##.-__Ni.-__4b
 voiceofsandiego.org##.-subscribe
 gatesnotes.com##.ALS_Holder
 naturalnews.com##.Action-Subscribe-Container
@@ -45931,6 +45939,7 @@ mic.com##.new-user-modal
 thehindubusinessline.com##.news
 healthyceleb.com##.news-form
 autocarindia.com,india.com,isglobal.org,sassymamahk.com##.news-letter
+healthing.ca##.news-letter-form
 fyiliving.com,golfchannel.com##.news-signup
 presstv.ir##.news-signup-container
 nationalreview.com##.news-tip-cta
@@ -45951,9 +45960,7 @@ beinsports.com##.newsletter-header
 lung.org##.newsletter-modal
 bloomberg.com,wamu.org##.newsletter-module
 narcity.com##.newsletter-prompt
-givemesport.com,livescience.com,nugs.net,thekitchenmagpie.com##.newsletter-signup
-sciencenewsforstudents.org##.newsletter-signup__wrapper___7ZMoF
-sciencenews.org##.newsletter-signup__wrapper___DVd9U
+blackburnnews.com,givemesport.com,livescience.com,nugs.net,thekitchenmagpie.com##.newsletter-signup
 petri.com##.newsletterWide
 abplive.in##.newsletter_div
 fromthegrapevine.com##.newsletter_modal
@@ -46105,6 +46112,7 @@ searchenginejournal.com##.sej-subscribe-form
 boingboing.net##.separator
 asianjournal.com##.sgpb-popup-overlay
 medicaldaily.com##.share
+factcheck.afp.com##.sharing-wrapper-banner
 shoutmeloud.com##.shoutmeloud_sidebar_optin_inr
 substack.com##.show-subscribe
 swissinfo.ch##.si-teaser--newsletter-subscription
@@ -46355,6 +46363,7 @@ usnews.com##div[class^="KioskFirstClass__Container-"]
 axios.com##div[class^="MembershipCTA_membership-"]
 inc.com##div[class^="NewsLetterBar"]
 thescore.com##div[class^="NewsletterCard_"]
+theglobeandmail.com##div[class^="NewsletterOnArticleSubscribe_"]
 newsday.com##div[class^="Newsletter_"]
 axios.com##div[class^="StoryPageCTA_story-page-"]
 axios.com##div[class^="StreamCap__promoContainer"]
@@ -46362,7 +46371,7 @@ aeon.co##div[class^="VideoNewsletterSignUpCard_"]
 timeout.com##div[class^="_inlineNewsletter_"]
 euronews.com##div[class^="mailmunch-"]
 cpr.org##div[class^="newsArticleSignup_"]
-buzzfeednews.com##div[class^="newsletter-"]
+bramptonguardian.com,buzzfeednews.com,sciencenews.org,sciencenewsforstudents.org##div[class^="newsletter-"]
 cpr.org,stakingrewards.com##div[class^="newsletter_"]
 livemint.com##div[class^="newslettersub"]
 aeon.co##div[class^="styled__InSituNewsletterSignup-"]
@@ -47483,6 +47492,7 @@ patheos.com##.simple-follow
 dhakatribune.com##.single-artical-page-shear-section-shear-section
 me.me##.single-item-share
 japantimes.co.jp##.single-sns-area
+flyingmag.com##.single-social-share
 247sports.com##.site-header
 eveningecho.ie##.site-nav-facebook
 airliners.net##.site_sliver
@@ -47908,6 +47918,7 @@ yandex.com###shareContent
 adblockplus.org###social-list
 pcgames-download.net##.addthis_toolbox
 news.artnet.com##.article-share
+rawstory.com##.body-share-wrap
 izismile.com##.face-tweet-bundle
 kabeleins.de,prosieben.de,prosiebenmaxx.de,ran.de,sat1.de,sixx.de##.fb-page
 informer.com##.fb_wrap
@@ -47927,6 +47938,7 @@ pcmag.com##.reviews-share
 thefreedictionary.com##.share-block
 goldderby.com##.share-group
 arstechnica.com##.share-links
+rawstory.com##.share-panel
 bento.de##.share_container
 n4mo.org##.sharedaddy
 tweaktown.com##.sharedesktop
@@ -52677,18 +52689,11 @@ trt.net.tr##.twitter
 ! French
 ||bbc7dcd54670499dbd3ba50c33600830.pages.ubembed.com^
 ! Italian
-_iscriviti_alla_newsletter.
-||contactlab.it^*/subscribe.php?
-||fastweb.it^*/newsletter.
-||formiche.net^*/newsletterformiche-
 ||newsletter.beautydea.it^
 ||pagamentidigitali.it^*/newsletter.jpg
 ! Spanish
-||ara.cat^*/newsletters/
-||newsletters.vocento.com^
 ! Russian
 ||currenttime.tv/a/signup-sidebar-widget/
-||kommersant.uk^*-subscribe-
 ! *** easylist:fanboy-addon/fanboy_newsletter_international_hide.txt ***
 ! fanboy_newsletter_international_hide.txt
 ! German
@@ -52805,6 +52810,7 @@ milanodabere.it##.subscribeDataTable
 ortodacoltivare.it##.widget_sib_subscribe_form
 ilfattoalimentare.it,melarossa.it,secoloditalia.it##.widget_wpmailup_widget
 sentieriselvaggi.it##.wpcf7
+formiche.net##.wrapallwowpopup
 funweek.it##.xnc-form-general__container
 corriere.it##a[href*="/newsletter"]
 01net.it##a[href="/iscriviti-alla-newsletter"]
