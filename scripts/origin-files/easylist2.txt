@@ -421,6 +421,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||rferl.c.goolara.net^
 ||behavior.tongdun.net^
 ||cookie.codemarketing.cloud^
 ||nakanohito.jp^
@@ -42493,6 +42494,8 @@ $cookie=bf_visit
 ! Bad:  ||monerominer.rocks^$third-party (should be in adservers.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/141385
+||uphold.com^$cookie=sdk_trends_user_id
 ! https://github.com/AdguardTeam/AdguardFilters/issues/141398
 ||apa.org^$cookie=/incap_ses_|visid_incap_|nlbi_/
 ||apa.org^$cookie=SessionId
