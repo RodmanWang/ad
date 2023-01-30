@@ -38589,6 +38589,7 @@ _tracking.php?b=
 /analytics.js$domain=freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|newsmax.com|bolgehastanesi.com|ewtc.de|newsdig.tbs.co.jp|imore.com|city.kushiro.lg.jp|emeraldbridal.com.au|emarat-news.ae|imobie.jp
 ||assets.adobedtm.com^$domain=mcclatchydc.com|elnuevoherald.com|bellinghamherald.com|sacbee.com|charlotteobserver.com|newsobserver.com|miamiherald.com|ef.ru|algida.com.tr|bmw-motorrad.co.uk|cif.com.tr|clearhaircare.com|domestos.com|dove.com|elidor.com.tr|f1sport.autorevue.cz|geico.com|hellmanns.com.tr|herkessofraya.com|johnsonsbaby.com.tr|lipton.com|lnk.to|lux.com|magnumicecream.com|neutrogena.com.tr|omo.com|rexona.com|samsung.com|sap.com|schwarzkopf.com.tr|signalturkiye.com|msnbc.com|nbcnews.com|kbb.com|eurosport.ru|timgate.it|intermiles.com|oxfordmail.co.uk|spiegel.de|hp.com|deutschepost.de|thebay.com|s.shufoo.net|tsn.ca|tabelog.com|euronews.com|newshub.co.nz
 !
+||cdn.pdst.fm/ping.min.js
 ||r.bh.d.sendibt3.com/tr/
 jiji.com##.RecommendPianoWrapper
 jiji.com##.RecommendUnderlayer
@@ -41872,6 +41873,15 @@ link.gmapp*.net$image
 ! Bad:  ||example.com^$cookie=flat_r_mb (should be in cookies_specific.txt)
 !
 !
+! Lotame / crwdcntrl.net
+$cookie=_cc_id
+! prebid.org
+! Full Device Identifier used to identify a device across different browsers and webviews on a single device
+$cookie=_parrable_id
+! permutive.com
+! Used for re-targeting
+$cookie=permutive-id
+$cookie=permutive-session
 ! Adobe analytics
 ! https://experienceleague.adobe.com/docs/analytics/implementation/vars/plugins/getnewrepeat.html?lang=en
 $cookie=s_nr
@@ -42483,6 +42493,14 @@ $cookie=bf_visit
 ! Bad:  ||monerominer.rocks^$third-party (should be in adservers.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/141398
+||apa.org^$cookie=/incap_ses_|visid_incap_|nlbi_/
+||apa.org^$cookie=SessionId
+||apa.org^$cookie=TAFSessionId
+||apa.org^$cookie=ASP.NET_SessionId
+||apa.org^$cookie=___utmvc
+! https://github.com/AdguardTeam/AdguardFilters/issues/141467
+||dailymail.co.uk^$cookie=RT
 ! https://github.com/AdguardTeam/AdguardFilters/issues/141449
 ||modnakiecka.pl^$cookie=smvr
 ||modnakiecka.pl^$cookie=smcfds
