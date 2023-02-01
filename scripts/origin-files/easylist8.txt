@@ -4273,6 +4273,7 @@ ubmcmm.baidustatic.com
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:60px;"]
 ##div#ad_id
 ##div#xinxi
+##a[target="_blank"] > img[src*=".ikstatic.cn"][style="width:100%;height:100%"]
 ##div[bannerlist]
 ~ix8.la##div[class^="ADTOPLB_"]
 ##div[class^="is_"] > a > img[referrerpolicy="no-referrer"]
@@ -4712,6 +4713,10 @@ ubmcmm.baidustatic.com
 ||butaeit.cn^
 ||yc444.cn^
 ||fdgem.com^
+||qbd1.site^
+##a[href*=".app003.biz"]
+||587tuchuang.com^
+||yhtuchuang.com^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
@@ -16775,7 +16780,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.com/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||lxapk.com/wp-content/uploads/*.gif
 szxx.com.cn###A0
+fuliba2023.net,uliba.net##div[class="widget widget_ui_orbui"]
 moegirl.org.cn##.moe-card[data-region="oversea"]
 x3cn.com##div[style="margin:3px auto"] + table
 szxx.com.cn###A1

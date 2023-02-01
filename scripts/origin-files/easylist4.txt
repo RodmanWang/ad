@@ -3501,13 +3501,13 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+palestinechronicle.com#%#//scriptlet('abort-current-inline-script', 'jQuery', 'donateBoxId')
+pressdemocrat.com##.extendedStep
 wikibooks.org###wll2021
 patched.to##.guest_warn
 dynamo.kiev.ua##.video-scroll
 auto.orange.fr##body #oSocialPopin
 ubitennis.com###mvp-video-embed-wrap.left
-livefans.jp###cboxOverlay
-livefans.jp###colorbox
 coupert.com##.mpop
 istories.media##div[class^="TopDonationPanel"]
 thejournal.ie###contribution-prompt-overlay
@@ -3665,6 +3665,7 @@ ilsole24ore.com##.styleguide-modal
 ilsole24ore.com##.modal-backdrop
 eranda.jp##.m_floatFooter
 ya.ru##.alice-fab
+ya.ru##.alice-fab__promo
 bloomberglinea.com.br##.block-sticky.bottom-right
 russian.rt.com##.Popup-arabic
 open.spotify.com#?#body > div.ReactModalPortal:has(> div > div[aria-label="In-App Message Modal"])
@@ -10595,6 +10596,7 @@ edp24.co.uk,technologyreview.com,inews.co.uk,nordbayern.de,thelocal.ch,morgenpos
 !
 ! SECTION: Subscriptions - Regular rules
 !
+pressdemocrat.com##.article-inline-promo
 ||embed.secondstreetapp.com/Scripts/dist/optin.js$domain=ledgertranscript.com
 optomausa.com##.footer-blue-section
 pitchfork.com##div[class^="ContentFooterNewsletterContentWrapper-"]
