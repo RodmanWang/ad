@@ -743,6 +743,7 @@ w3resource.com#@#.ad-placement
 ! SECTION: Anti-adblock - Regular rules
 ! Do not forget about '!#safari_cb_affinity' section for exclusions
 !
+watch.sports247.sbs###vidorev_post_extensions-2
 grabify.link###ab
 thegay.tube###ablock-notify
 dev.miuiflash.com##div[class^="rrrrr"]
@@ -3504,6 +3505,8 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+unidivers.fr##.pum-overlay[data-popmake*="auto_open"]
+forbes.ru#?#article[id^="article_"] > meta[content] ~ footer + div[class]:has(> div[class] > button > svg[width="16"])
 rakuten.com.tw##.popup-wrap
 eodev.com#$#.js-page-wrapper > div.sg-layout > div.js-react-registration-toplayer { display: none !important; }
 eodev.com#$#body.sg-dialog-no-scroll { overflow: auto !important;position: static !important; }
