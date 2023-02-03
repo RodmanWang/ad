@@ -113,6 +113,9 @@ atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-mail.org,ortobom.com
 ! notifications - part of the functionality
 ! discord.com##div[class^="container"] > nav[class^="wrapper"] + div[class^="base"] > div[class^="notice-"]
 !
+pikabu.ru#$?#body > div.overlay:has(> div.popup div.popup__content > div.mobile-app-popup) { display: none !important; }
+pikabu.ru#$#body { overflow: auto !important; }
+dzen.ru##article[class*="ad-campaign-qr-banner__wrapper"]
 xiaohongshu.com##.open-app-btn
 xiaohongshu.com##.button-bottom-bar
 echofm.online#?#header + div[class^="sc-"] > div[class^="sc-"]:has(> div[class^="sc-"] > a[href="https://echofm.page.link/app"])
@@ -1737,7 +1740,7 @@ castbox.fm##.downloadPlay
 103.by,1plus1.video,1plus1.ua##.AppPopup
 foreks.com##.foreksM
 m.iqiyi.com##.m-iqyDown
-work.ua,donationalerts.com##.b-mobile-app
+svyaznoy.ru,work.ua,donationalerts.com##.b-mobile-app
 lacentrale.fr##.meaApp
 blublu365.com##body > a[target="_blank"][href*="apps"]
 m.timesofindia.com##a[href^="https://timesofindia.onelink.me/"]
@@ -2488,6 +2491,8 @@ google.ad,google.ae,google.al,google.am,google.as,google.at,google.az,google.ba,
 ! causes some issues: https://github.com/AdguardTeam/AdguardForMac/issues/550
 ~lafenice.io,~kurer-sreda.ru,~chorki.com,~zattoo.com,~zaycev.net,~xltrax.ee,~hitta.se,~mail.ru,~v7player.wostreaming.net,~facebook.com,~instagram.com,~drive.google.com$$link[rel="manifest"]
 !
+eurosport.fr#$#.smartbanner { display: none !important; }
+eurosport.fr#$##header > div.HeaderContainer { padding-top: 0 !important; }
 wanderlog.com#$#.PageBottomModal__collapse { display: none !important; }
 wanderlog.com#$##react-main > .fade { display: none !important; }
 wanderlog.com##.OpenInAppSmallPromo__fixedContainer
