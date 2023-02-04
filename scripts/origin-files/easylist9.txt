@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202302032100
+! Version: 202302040052
 ! Title: Fanboy's Annoyance List
-! Last modified: 03 Feb 2023 21:00 UTC
+! Last modified: 04 Feb 2023 00:52 UTC
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -19228,6 +19228,7 @@ thebetterindia.com##.vspl__gtap-notification-overlay
 ##.social-icons-wrapper
 ##.social-icons_1
 ##.social-icons__icons
+##.social-icons__link
 ##.social-img-btn
 ##.social-inline
 ##.social-inline-list
@@ -40187,6 +40188,7 @@ thebetterindia.com##.vspl__gtap-notification-overlay
 ||blink.net/json/$xmlhttprequest
 ||buy-au.piano.io/checkout/template/cacheableShow?*&experienceId=*&widget=template
 ||data.reachplc.com^
+||default.salsalabs.org/api/widget/
 ||downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js$script,third-party
 ||joinsubtext.com^$subdocument,third-party
 ||lightboxcdn.com/vendor/$script,third-party
@@ -43611,7 +43613,7 @@ businessinsider.com,businessinsider.com.au##.survey
 microsoft.com##.survey-background
 insightcrime.org##.suscribe
 theoatmeal.com##.swatch2_links
-belfastlive.co.uk,birminghammail.co.uk,bristolpost.co.uk,buckinghamshirelive.com,buzz.ie,chroniclelive.co.uk,cornwalllive.com,coventrytelegraph.net,dailypost.co.uk,dailyrecord.co.uk,dailystar.co.uk,derbytelegraph.co.uk,devonlive.com,edinburghlive.co.uk,examinerlive.co.uk,gazettelive.co.uk,getsurrey.co.uk,glasgowlive.co.uk,gloucestershirelive.co.uk,grimsbytelegraph.co.uk,hertfordshiremercury.co.uk,hulldailymail.co.uk,irishmirror.ie,kentlive.news,lancs.live,leeds-live.co.uk,leicestermercury.co.uk,lincolnshirelive.co.uk,manchestereveningnews.co.uk,mirror.co.uk,nottinghampost.com,ok.co.uk,somersetlive.co.uk,stokesentinel.co.uk,walesonline.co.uk##.swipe-prompt
+belfastlive.co.uk,birminghammail.co.uk,bristolpost.co.uk,buckinghamshirelive.com,buzz.ie,cambridge-news.co.uk,cheshire-live.co.uk,chroniclelive.co.uk,cornwalllive.com,coventrytelegraph.net,dailypost.co.uk,dailyrecord.co.uk,dailystar.co.uk,derbytelegraph.co.uk,devonlive.com,edinburghlive.co.uk,examinerlive.co.uk,gazettelive.co.uk,getsurrey.co.uk,glasgowlive.co.uk,gloucestershirelive.co.uk,grimsbytelegraph.co.uk,hertfordshiremercury.co.uk,hulldailymail.co.uk,irishmirror.ie,kentlive.news,lancs.live,leeds-live.co.uk,leicestermercury.co.uk,lincolnshirelive.co.uk,manchestereveningnews.co.uk,mirror.co.uk,mylondon.news,nottinghampost.com,ok.co.uk,somersetlive.co.uk,stokesentinel.co.uk,walesonline.co.uk##.swipe-prompt
 slashdot.org##.synd
 nationaljournal.com,pcworld.com##.syndication
 answers.yahoo.com##.syndication-links
@@ -44909,6 +44911,7 @@ fatherly.com##.BM
 mic.com##.Bsv
 cnbc.com##.CNBCFooter-info
 thepointsguy.com##.EmailSignUp_container__XqB82
+dailymemphian.com##.EmailSignup
 straightdope.com##.Form-wrapper
 decrypt.co##.GridItem.hEYXVm.sc-39129d7e-1
 interestingengineering.com##.Home_blueprint__LJ6KT
@@ -45229,6 +45232,7 @@ thedodo.com##.join-widget-container
 authoritynutrition.com##.joinus
 techrepublic.com##.jotform-top-story-of-the-day
 techrepublic.com##.jotform-twenty-pro-tips
+bonappetit.com##.journey-template--cm_footer
 gq.com##.journey-unit__container
 newatlas.com##.jqmOverlay
 smarteranalyst.com##.jquery-modal
@@ -45426,6 +45430,7 @@ washingtonpost.com##.pb-f-page-follow-instream
 nejm.org##.pb-house-message
 playboy.com##.pb-newsletter
 playbuzz.com##.pb-site-subscription
+bonappetit.com##.persistent-bottom
 dieselworldmag.com##.php_widget-15
 washingtontimes.com##.piano-fixed-footer-two
 dcalert.com##.pk-subscribe-container
@@ -45645,6 +45650,7 @@ nodejs.libhunt.com##.text-strong-invite
 shoutingme.com##.textwidget > form
 publicintegrity.org##.themomentcontainer
 drwealth.com##.thrv-leads-form-box
+them.us##.ticker-view
 ba-bamail.com##.tm-desk-reg-box-wrapper
 ba-bamail.com##.tm-join-box
 thenewdaily.com.au##.tnd-subscribe-modal
@@ -47277,6 +47283,7 @@ coloradocollege.edu###_pc
 presta-module.com###acbModal
 brulocalis.brussels###acc-bottom
 sharedinvestigator.com###accept-sip-popup-container
+dallasinnovates.com###acceptance
 hoverwatch.com###acceptbar
 mod.io###achtung-overlay
 calpacifichomes.com###acknowledgeCookiesAndPrivacyModal
@@ -49024,7 +49031,7 @@ alcatraz.ai##div[class^="CookiesModal-"]
 internxt.com##div[class^="Footer_cookiesBgFallback"]
 tinely.com##div[class^="GdprAcceptance_container"]
 porsche.com##div[class^="LegalDisclaimer_"]
-gq.com,newyorker.com,self.com,teenvogue.com,vogue.com,wired.com##div[class^="MessageBannerWrapper-"]
+bonappetit.com,gq.com,newyorker.com,self.com,teenvogue.com,them.us,vogue.com,wired.com##div[class^="MessageBannerWrapper-"]
 kurgo.com##div[class^="PrivacyNotice"]
 similarsites.com##div[class^="PrivacyNotification_"]
 podimo.com##div[class^="SmallCookie"]
@@ -54100,6 +54107,7 @@ iblitzmods.ru,kinoby.ru,tvguru.ru##.message-alert
 merers.ru,strana.one,strana.today##.modal
 asna.ru##.modalCookies_root__356Q-
 shophair.ru##.modal_popup_sessid_box
+c-o-k.ru##.msg-text
 bubble.ru##.notifications
 culture.ru##.notify-bar
 lamoda.ru,lamoda.ua##.page > [class*="widget"]
