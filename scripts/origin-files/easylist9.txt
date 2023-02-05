@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202302050914
+! Version: 202302051018
 ! Title: Fanboy's Annoyance List
-! Last modified: 05 Feb 2023 09:14 UTC
+! Last modified: 05 Feb 2023 10:18 UTC
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -4964,6 +4964,8 @@ _vpcookieconsent/
 ! Google signin popup (fixes)
 thebetterindia.com##.vspl__gtap-notification-content
 thebetterindia.com##.vspl__gtap-notification-overlay
+! Google signin popup (fixes)
+dashboard.razorpay.com#@##credential_picker_container
 ! st343.com/thepointrestaurantandbar.com/locomexicanrestaurant.com/wishbonerestaurant.com
 ###consumer-app > #navbar-wrap > .pm-root-announcement
 ###consumer-app > .modals-wrap > .pm-follow-v2
@@ -32181,7 +32183,6 @@ thebetterindia.com##.vspl__gtap-notification-overlay
 ##.consent-manager-overlay
 ##.consent-manager.banner
 ##.consent-message
-##.consent-modal
 ##.consent-modal-first
 ##.consent-modal__overlay
 ##.consent-module-roadblock
@@ -52216,7 +52217,7 @@ euclaim.de##.modal--background
 koelner-philharmonie.de,konzerthaus.de##.modal-mask
 fahrrad-xxl.de,starcar.de##.modal-overlay
 bmfgroup.de,lagerbox.com##.modal-wrapper
-clark.de##.modal__overlay
+clark.de,goclark.at##.modal__overlay
 ibadual.com##.modalcomplete
 myeducation.de##.modals-overlay
 phoenix-media.eu##.modals-wrapper
@@ -55517,7 +55518,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||williams-sonoma.com^*/js/external/coremetrics.js
 @@||windy.com^*/plugins/particles.js$script,~third-party
 @@||ws.audioscrobbler.com^$domain=diffuser.fm
-@@||zdassets.com/ekr/snippet.js$domain=bitsacard.com|meundies.com|myurbanjungle.com|nvidia.eu|superbet.pl
+@@||zdassets.com/ekr/snippet.js$domain=bitsacard.com|meundies.com|myurbanjungle.com|nvidia.eu|pionex.com|superbet.pl
 ! *** easylist:fanboy-addon/fanboy_notifications_allowlist.txt ***
 @@||bostonherald.com^*/webpush.js$script,~third-party
 @@||braze.com/api/$domain=deezer.com
