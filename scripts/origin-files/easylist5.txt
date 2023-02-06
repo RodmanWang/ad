@@ -113,6 +113,8 @@ atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-mail.org,ortobom.com
 ! notifications - part of the functionality
 ! discord.com##div[class^="container"] > nav[class^="wrapper"] + div[class^="base"] > div[class^="notice-"]
 !
+couples.jp##.top-appBanner
+japantaxi.jp##.download
 pikabu.ru#$?#body > div.overlay:has(> div.popup div.popup__content > div.mobile-app-popup) { display: none !important; }
 pikabu.ru#$#body { overflow: auto !important; }
 dzen.ru##article[class*="ad-campaign-qr-banner__wrapper"]
@@ -2491,6 +2493,7 @@ google.ad,google.ae,google.al,google.am,google.as,google.at,google.az,google.ba,
 ! causes some issues: https://github.com/AdguardTeam/AdguardForMac/issues/550
 ~lafenice.io,~kurer-sreda.ru,~chorki.com,~zattoo.com,~zaycev.net,~xltrax.ee,~hitta.se,~mail.ru,~v7player.wostreaming.net,~facebook.com,~instagram.com,~drive.google.com$$link[rel="manifest"]
 !
+m.smzdm.com##.footer-banner
 eurosport.fr#$#.smartbanner { display: none !important; }
 eurosport.fr#$##header > div.HeaderContainer { padding-top: 0 !important; }
 wanderlog.com#$#.PageBottomModal__collapse { display: none !important; }
