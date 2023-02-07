@@ -95,6 +95,7 @@
 ||blogroll.livedoor.net^
 ||rss-loader.com^$third-party
 ||blozoo.info/js/rsstool/
+##.plugin-rss
 ##.blogroll-wrapper
 ##div[id^="blz_rss_"]
 ##.plugin-blogroll
@@ -120,7 +121,6 @@
 ||blog.livedoor.jp/yakiusoku/rss$subdocument,~third-party
 ||blog.livedoor.jp/misopan_news/headline$subdocument,~third-party
 blog.livedoor.jp##.rsslist
-! risky if without $path
 [$path=/diet2channel]blog.livedoor.jp##.article-footer2
 ||blog.livedoor.jp/diet2channel/$subdocument,~third-party
 blog.livedoor.jp###container > div[style^="width:1105px;height:270px;overflow:auto;background-color:#ffffff;"]
@@ -194,7 +194,16 @@ blog.livedoor.jp##.naka_rss
 blog.livedoor.jp##div[class^="footrss"]
 blog.livedoor.jp##div[class^="shitarss_"]
 blog.livedoor.jp##div[id^="shitarss_title_"]
-!
+! Blogroll third-party sites
+nanjchallenge.net##.Main__contents > p.section-title
+||geinoujam.com/RSS02.html
+||geinoujam.com/jam-RSS.html
+eropasture.com##.widget-sidebar-scroll
+||digital-thread.com/digital-thread-headline.html
+||digital-thread.com/digital-thread-headline-pickup.html
+||digital-thread.com/digital-thread-headline-pickups.html
+digital-thread.com##.top-contents-ad-base + div.top-contents-headline
+digital-thread.com#?#.article-body-inner > div[class^="article-news"]:has(> iframe[src^="http://digital-thread.com/digital-thread-headline-"])
 animalch.net##.osusume
 ||kyousoku.net/js/rss$script,~third-party
 crx7601.com##.box14
@@ -477,8 +486,8 @@ episodesex.org###rsslist
 episodesex.org#?##sidebar1 > h4.widgettitle > span:contains(RSS)
 anige-sokuhouvip.com##div[class^="top_center"]
 anige-sokuhouvip.com##div[style^="border : 2px solid gray;height:245px; width:825px;"]
-gahalog.2chblog.jp##.rss-pickup
-gahalog.2chblog.jp##.rss-pickup-title
+2chblog.jp##.rss-pickup
+2chblog.jp##.rss-pickup-title
 animalch.net,usi32.com,gahalog.2chblog.jp##.rss-outer
 shuraba-matome.com###rss-area
 erogematome.com,syurabahazard.com,shuraba-matome.com,rebosoku.com##.toprss
@@ -1629,7 +1638,7 @@ kill-the-hero.com##.kofi-button
 paperpaper.*##.post-info-block
 paperpaper.*#?#.stk-grid > div[class^="stk-theme"] > a[href^="http://paperpaper.site"]:upward(2)
 tsargrad.tv##.article__content > div.form
-unian.net##.support-post
+unian.ua,unian.net##.support-post
 ||paywall.fewcents.co/static/js/paywall.js
 ||aqours.today/img01/MP3/ZL.JPG
 proagro.com.ua#$#.td-outer-container { background-image: none !important; cursor: default !important; }

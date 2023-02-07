@@ -3366,6 +3366,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+broadsheet.com.au#?#.site-layout > div[class^="Wrapper"]:has(> div[class^="Container"] > a[href="/join"])
 mirf.ru###inplayer2-main-inplayer-2
 pacificleague.com###bannerBox-newsTopBanner
 timesofmalta.com###engagement_banners_container
@@ -5815,7 +5816,7 @@ collegedekho.com##.ctaBlock
 3dnatives.com#$##optin-modal { display: none !important; }
 3dnatives.com#$#body { overflow: auto !important; }
 nna.jp###inquiry-belt-wrap
-wataugademocrat.com##.promo-designer-modal
+idahopress.com,wataugademocrat.com##.promo-designer-modal
 ohtabooks.com##.fadeInUpBig.animated.yakan
 ndtv.in###__cricketsubscribe
 gadgets360.com,ndtv.in###jiosaavn-widget
@@ -6920,7 +6921,6 @@ web.dev##.w-actions__fab--subscribe
 davidicke.com###rf-countdown
 justnutritive.com##.prom-container
 justnutritive.com###modal-window
-idahopress.com##.promo-designer-modal
 ufacitynews.ru#$#.mfp-ready { display: none !important; }
 ufacitynews.ru#$#html { overflow: visible !important; }
 tsargrad.tv##.push-suggest__popup
@@ -9191,11 +9191,37 @@ easy-deutsch.de#%#AG_onLoad(function() { setTimeout(function() { var el = docume
 ! Blocking it also causes that videos are not playing automatically
 ! twitter.com##div[data-testid="BottomBar"]
 !
+!+ NOT_OPTIMIZED
+mycredit.ua#%#//scriptlet('remove-class', 'js_show-android', '.wrapper')
+!+ NOT_OPTIMIZED
+mycredit.ua#$#.js-modal-show { display: none !important; }
+!+ NOT_OPTIMIZED
+clubdam.com##.l-page-bottom__cv
+!+ NOT_OPTIMIZED
+page.auctions.yahoo.co.jp##.idpfLPOpen
+!+ NOT_OPTIMIZED
+townwork.net##.js-chatApplyBanner
+!+ NOT_OPTIMIZED
+full-count.jp###piano_offer_popup
+!+ NOT_OPTIMIZED
+glavred.info##.telegram-new__block
+!+ NOT_OPTIMIZED
+iasabhiyan.com##.sfsi_outr_div
+!+ NOT_OPTIMIZED
+iasabhiyan.com###sfsi_floater
+!+ NOT_OPTIMIZED
+medonet.pl##body.withFPU::before
+!+ NOT_OPTIMIZED
+kurashiru.com#$##dly-LandingPopupBanner { display: none!important; }
+!+ NOT_OPTIMIZED
+kurashiru.com#$#html.dly-modal-active { overflow: auto!important; }
+!
 ! NOTE: Regular rules end ⬆️
 ! !SECTION: Popups - Regular rules
 !
 ! SECTION: Popups - Mobile sites only
 !#if (adguard_app_android || adguard_app_ios || adguard_ext_android_cb || ext_ublock)
+m.hao123.com##.addToHome
 mama.chintaistyle.jp##.footer-fixed-banner
 cmoa.jp##.cam_term_area
 4years.asahi.com##.app_dl_banner
@@ -9221,31 +9247,6 @@ metrolyrics.com###videoContainer
 !#endif
 ! NOTE: Mobile sites only end ⬆️
 ! !SECTION: Popups - Mobile sites only
-!
-!+ NOT_OPTIMIZED
-mycredit.ua#%#//scriptlet('remove-class', 'js_show-android', '.wrapper')
-!+ NOT_OPTIMIZED
-mycredit.ua#$#.js-modal-show { display: none !important; }
-!+ NOT_OPTIMIZED
-clubdam.com##.l-page-bottom__cv
-!+ NOT_OPTIMIZED
-page.auctions.yahoo.co.jp##.idpfLPOpen
-!+ NOT_OPTIMIZED
-townwork.net##.js-chatApplyBanner
-!+ NOT_OPTIMIZED
-full-count.jp###piano_offer_popup
-!+ NOT_OPTIMIZED
-glavred.info##.telegram-new__block
-!+ NOT_OPTIMIZED
-iasabhiyan.com##.sfsi_outr_div
-!+ NOT_OPTIMIZED
-iasabhiyan.com###sfsi_floater
-!+ NOT_OPTIMIZED
-medonet.pl##body.withFPU::before
-!+ NOT_OPTIMIZED
-kurashiru.com#$##dly-LandingPopupBanner { display: none!important; }
-!+ NOT_OPTIMIZED
-kurashiru.com#$#html.dly-modal-active { overflow: auto!important; }
 !
 
 !
@@ -10458,6 +10459,10 @@ edp24.co.uk,technologyreview.com,inews.co.uk,nordbayern.de,thelocal.ch,morgenpos
 !
 ! SECTION: Subscriptions - Regular rules
 !
+sfexaminer.com##.promo-designer-modal
+sfexaminer.com##.sfx-form
+themusic.com.au##body > div > div[class^="fixed left-0"][style^="background-color"]
+themusic.com.au#?#div > div.mb-4:has(> div > form[action] > input#email)
 globalplayer.com#$#div[data-testid="login-modal"] { display: none !important; }
 globalplayer.com#$#body[class^="modalOpen_"] { overflow: auto !important; }
 sentinelone.com###s1_signup-3
@@ -10889,8 +10894,8 @@ obc.co.jp##.leadinModal-theme-bottom-right-corner
 startpage.com##.article-block--newsletter
 news.day.az##.join-channels-wrapper
 wprost.pl##.newsletter-plugin
-theasianaffairs.com#$#.hustle-popup { display: none !important; }
-theasianaffairs.com#$#.hustle-no-scroll { overflow: auto !important; }
+ukf.com,theasianaffairs.com#$#.hustle-popup { display: none !important; }
+ukf.com,theasianaffairs.com#$#.hustle-no-scroll { overflow: auto !important; }
 cnet.com##.c-newsletterSticky
 iaea.org#$#.newsletter-popup { display: none !important; }
 iaea.org#$#.modal-backdrop { display: none !important; }
