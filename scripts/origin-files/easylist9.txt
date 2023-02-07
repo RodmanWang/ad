@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202302071253
+! Version: 202302072118
 ! Title: Fanboy's Annoyance List
-! Last modified: 07 Feb 2023 12:53 UTC
+! Last modified: 07 Feb 2023 21:18 UTC
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -46438,6 +46438,7 @@ crikey.com.au##.pm-socials-block
 audacy.com##.podcast-lead__social
 todiscoverrussia.com##.pop_up_wrap
 slashdot.org##.popularity
+thefinance.sg##.popup
 randstad.be##.portlet-boundary_socialmediabanner_WAR_cmportlet_
 tnp.sg##.post-actions
 theashleysrealityroundup.com##.post-links
@@ -46666,7 +46667,7 @@ chinadailyasia.com##.stsbox
 sextvx.com##.stvxp-social-reddit
 nationalheraldindia.com##.styles-m__sticky-social-share__fJQ4J
 gizmag.com##.su_footer
-npr.org,symmetrymagazine.org,topbet.eu##.subscribe
+npr.org,symmetrymagazine.org,thefinance.sg,topbet.eu##.subscribe
 jasonwatmore.com##.subscribe-buttons
 indiatimes.com##.subscribe-form
 newsandguts.com##.subscribeBar
@@ -47582,7 +47583,7 @@ fairygodboss.com##.bYTdiA
 stubhub.com##.bZrBz
 which.co.uk##.b_g
 hi.com##.backDrop
-genome.eu##.backdrop
+data-driven-forms.org,genome.eu##.backdrop
 chess24.com,mediensysteme.at##.background
 apgbio.com,co-operative.coop,couchsurfing.com,cyscale.com,diagnosticquestions.com,fullscreen.com,haymarketbooks.org,human-facts.com,modrinth.com,oceanmata.com,peer5.com,pluralsight.com,securitylab.github.com,usatoday.com,versobooks.com##.banner
 uber.com##.banner--bottom
@@ -48213,6 +48214,7 @@ bridgestonesports.bridgestone.com.br##.modalContainer
 moaa.org##.modal__overlay
 labsnews.com##.modal__policy
 newdayspharmacy.com##.modal_terms
+lovestoriesintimates.com##.modals-wrapper
 sekwens.com##.module-abovebox
 motherless.com##.motherless-cookie-wrapper
 unityj.com##.mpp-container-position-bottom-bar
@@ -48408,6 +48410,7 @@ intelligentinsurer.com##.privacyLaw
 zmags.com##.privacyPrompt
 localrent.com##.privacy_policies
 turbovpn.com##.privacy_tips
+diotec.com##.privacyoption_overlay
 lilysilk.com##.privacywrap
 aiscore.com##.privaryClass
 parliament.scot##.projects-takeover
@@ -54084,6 +54087,7 @@ techsauce.co##.cwc-cookie-banner-ui-sdk
 kapook.com##.footer-policy
 forfur.com##.footerpolicy
 becteroradio.com,teroradio.com##.policy
+toyota.co.th##.popup__pdpa
 pantip.com##.pt-snackbar__surface
 bnn.in.th##.the-pdpa-consent-bar
 kaidee.com##.v-snack__wrapper
@@ -55476,6 +55480,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||dl.mail.com/permission/oneTrust/consent/$~third-party,xmlhttprequest
 @@||dr-sup.de/_Resources/Static/Packages/$stylesheet,~third-party
 @@||ecookie.nl/build/$domain=playseatstore.com
+@@||einthusan.tv/gdpr-consent-quantcast.js$~third-party
 @@||eok.ee/javascripts/cookiebar.js$~third-party
 @@||erlebnissennerei-zillertal.at/typo3conf/ext/bh/Resources/*/cookie-popup.$~third-party
 @@||eurosportplayer.com/cms/articles/cookie-banner?$xmlhttprequest
