@@ -79,6 +79,10 @@
 ! Bad: example.org###rek (should be in specific.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/142311
+! Fixes comment section loading
+apkpure.com#%#//scriptlet('set-constant', '$$.analytics', 'emptyObj')
+apkpure.com#%#//scriptlet('set-constant', '$$.analytics.send', 'noopFunc')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/141714
 member.neofinancial.com#%#//scriptlet('set-constant', '__fpjs_p_l_b', 'emptyObj')
 member.neofinancial.com#%#//scriptlet('set-constant', '__fpjs_p_l_b.load', 'noopFunc')
@@ -33524,7 +33528,6 @@ androplus.org##a[href^="https://px.a8.net/"]
 ||ardmediathek.de/tp/
 ||cdn.threadloom.com/ga/
 ||1ps.ru/cdn-cgi/challenge-platform/
-||skyscanner.com.br/*/collector
 ||sportskeeda.com/service-workers/helpers/google-analytics
 ||3p-geo.yahoo.com/p?s=
 ||api.remanga.org/api/logging/
@@ -33870,8 +33873,8 @@ kuruma-news.jp##.recommend-container
 ||apis.naver.com/mcollector/
 ||volts.shopping.naver.com/pv
 ||webrazzi.com/api/post/stats
-||skyscanner.com.tr/*/metrics/
-||skyscanner.com.tr/*/collector
+||skyscanner.*/*/metrics/
+||skyscanner.*/*/collector
 ||teltarif.de/ttt.go?$image
 ||teltarif.de/scripts/ttt.js
 ||2gis.*/_/metrics
@@ -40504,8 +40507,6 @@ nnmclub.ro,nnm-club.t0r.xyz,nnmclub.to#@#img[width="88"][height="31"]
 @@||cdn-gl.imrworldwide.com/novms/*/ggng*.js$domain=heraldsun.com.au
 ! https://github.com/AdguardTeam/AdguardFilters/issues/34135
 @@||cdn-gl.imrworldwide.com/novms/*/ggng*.js$domain=news.com.au
-! https://github.com/AdguardTeam/AdguardFilters/issues/33999
-@@||galt.hit.gemius.pl/gplayer.js$domain=lrt.lt
 ! https://github.com/AdguardTeam/AdguardFilters/issues/33932
 @@||google-analytics.com/analytics.js$domain=hanime.tv
 ! https://github.com/AdguardTeam/AdguardFilters/issues/28292
