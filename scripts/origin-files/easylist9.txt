@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202302080108
+! Version: 202302080319
 ! Title: Fanboy's Annoyance List
-! Last modified: 08 Feb 2023 01:08 UTC
+! Last modified: 08 Feb 2023 03:19 UTC
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -7331,6 +7331,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.ezn-newsletter_inarticle_banner
 ##.f-c-subscribe
 ##.f-newsletter
+##.fancy-inpost-newsletter
 ##.fandom-newsletter-signup
 ##.featured-newsletter:not(html):not(body)
 ##.featured_newsletter
@@ -44520,6 +44521,7 @@ cnnsofake.news,health.news,newstarget.com###Widget15
 ndtv.com###\5f _cricketsubscribe
 streetinsider.com###ad_space
 admonsters.com###adm-signupbar
+oag.ca.gov###ag-newsletter
 safetyfirstaid.co.uk###ajaxNewsletter
 bramptonguardian.com,simcoe.com###app-overlay
 reseller.co.nz###art-next_signifier
@@ -44640,6 +44642,7 @@ peoplesworld.org###popupModal
 shtfplan.com###post-article-subscribe
 winaero.com###post-subscribe
 dw.com###promio-pym-container
+sfexaminer.com###promo-designer-modal-custom-pop
 scientificamerican.com###promo-header
 poolsupplies.com###ps-email-signup
 egmnow.com###pt_dark_over
@@ -44735,6 +44738,7 @@ meltingpot.com##.MPHomepageModalWidget
 coingape.com##.Mainads
 thedrive.com##.NewsLetter
 theintercept.com##.Newsletter
+kpbs.org##.PromoD
 kpbs.org##.PromoNewsletter
 gamurs.com##.ReactModal__Overlay
 abc7ny.com##.Shfq
@@ -44891,6 +44895,7 @@ bigbearrealestateagent.com##.cta-container
 digitimes.com##.cta-link
 neeva.com##.cta-search-result-result__previewSignupCTA-AHoNH
 the74million.org##.cta_snippet
+sfexaminer.com##.ctct-inline-form
 cloudways.com##.cw-blog-inline-subs-wrap
 irishexaminer.com##.d-flex.row
 plough.com##.daily-callout-list
@@ -44918,6 +44923,7 @@ theintercept.com##.elements-InlineNewsletterForm-innerContainer
 washingtontimes.com##.email-alerts
 cars.com##.email-capture
 thegatewaypundit.com##.email-list-subscribe
+nfcw.com##.email-sidebar-signup
 redvoicemedia.com,trueachievements.com##.email-signup
 sperry.com##.email-signup-offer-wrap
 mikehuckabee.com##.email-signup-section
@@ -45035,7 +45041,7 @@ amgreatness.com##.inset-0.fixed
 lawenforcementtoday.com##.inside-right-sidebar
 biztechmagazine.com##.insider-register-one-form-wrapper
 topgear.com##.iqwqGM.lbWKus
-indyweek.com##.is-layout-constrained
+indyweek.com,wisconsinwatch.org##.is-layout-constrained
 newsroom.co.nz##.j-cta-side-form
 inverse.com##.j1J
 judicialwatch.org,thenewcivilrightsmovement.com##.join
@@ -47064,6 +47070,7 @@ rohan.co.uk###ccpop
 duffay-publicite.com###ch-cookie-consent-modal
 news.cision.com###cision-cookie-policy-banner
 wowza.com###ck_pu
+newindianexpress.com###ckgre
 bghotelite.com###clb_wr
 cmegroup.com###cmePermissionQuestion
 c3ny.org,means-of-production.com###cnb
@@ -48001,6 +48008,7 @@ f-secure.com##.fs-consent
 dorkingrfc.com##.fsi-layout-notices
 evermotion.org##.full-overlay
 fedex.com##.fxg-alert__fdx_cookie_notice
+fxstreet.com##.fxs_footer
 cgtn.com##.g-dialog
 replika.ai,replika.com##.gEQwvO
 pro.coinbase.com##.gNNMVp
@@ -49106,7 +49114,7 @@ amway.ua,areanorth.co.uk,day-tours-from-avignon.com,hari.ca##.disclaimer-contain
 ! ! .cc-layer
 bta-international.com,dahlhaus-leuchten.de,poenvoorgroen.nl##.cc-layer
 ! ! #gdpr
-adp-enseignes.com,barocca.ro,branah.com,fizzicseducation.com.au,gocpa.ru,guideautoweb.com,harmilaw.com,knoema.com,knoema.ru,manda.co.jp,marketfinance.com,occto.or.jp,openresty.com.cn,otzyvua.net,rentafont.com.ua,tampabay.com,toei-metal.com,uwebergverlag.de,vitaslim.eu,wikihow.com,wikihow.it###gdpr
+adp-enseignes.com,barocca.ro,branah.com,fizzicseducation.com.au,gocpa.ru,guideautoweb.com,harmilaw.com,knoema.com,knoema.ru,manda.co.jp,marketfinance.com,occto.or.jp,openresty.com.cn,otzyvua.net,rentafont.com.ua,tampabay.com,tidesmarine.com,toei-metal.com,uwebergverlag.de,vitaslim.eu,wikihow.com,wikihow.it###gdpr
 ! ! #gdprOverlay
 vjoon.us###gdprOverlay
 ! ! .cookie-
