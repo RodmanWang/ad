@@ -2571,7 +2571,7 @@ market.yandex.by,market.yandex.kz,market.yandex.ru##.head-banner
 m.market.yandex.by,m.market.yandex.kz,m.market.yandex.ru##.w-head-banner
 market.yandex.*##div[data-zone-name="HeadBanner"]
 ! Promotions (at the main page)
-[$path=/^\/$|^\/\?$/]market.yandex.*##div[data-zone-data*="bannerUrl"]:not([data-zone-name="deals-banner"])
+[$path=/^\/$|\/\?/]market.yandex.*##div[data-zone-data*="bannerUrl"]:not([data-zone-name="deals-banner"])
 ! Subscription (popup)
 market.yandex.by,market.yandex.kz,market.yandex.ru##.n-settings-notifications-popup
 ! KP subscription
@@ -4687,6 +4687,9 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+virustotal.com#%#//scriptlet('hide-in-shadow-dom', '.alert-info')
+virustotal.com#%#//scriptlet('hide-in-shadow-dom', 'span[slot="header"] > div + a[href^="https://developers.virustotal.com/"]')
+hokkaido-np.co.jp###top_campaign
 gq.com##.journey-unit__container > div[class^="InContentWrapper"]
 gq.com##div[class^="BasePageMainFooterFiller"] + div.journey-unit__container
 gq.com##div[class^="PersistentBottomWrapper"]
