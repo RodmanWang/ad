@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202302110759
+! Version: 202302111212
 ! Title: Fanboy's Annoyance List
-! Last modified: 11 Feb 2023 07:59 UTC
+! Last modified: 11 Feb 2023 12:12 UTC
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -3475,6 +3475,7 @@ _youtube_social_
 /consentUI/*
 /coobann/*
 /coockiealert.
+/coockieconsent.js
 /cookie-accept.js
 /cookie-alert.
 /cookie-approval.
@@ -30128,6 +30129,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ###website-cookies
 ###website-cookies-prompt
 ###websiteIsUsingCookie
+###webwerk-cookies
 ###wehavecookies
 ###welcomebar-wrapper
 ###weusecookies
@@ -47951,6 +47953,7 @@ cgtn.com##.js-tools-dialog
 latoken.com##.jss1097
 gettr.com##.jss121
 gettr.com##.jss142
+foxtrail.fjallraven.com##.jss228
 mile.cloud##.jss4
 guard.io##.jss51
 arcanys.com##.jss63
@@ -48354,6 +48357,7 @@ httpstatus.io##.snackbar
 grover.com##.snackbar-enter-done
 hotukdeals.com##.softMessages-item
 thermofisher.com##.specialMsg
+spinbackup.com##.spin-ai-gtm-banner
 spreadshirt.com##.sprd-consent
 zebrapen.ca##.spu-bottom-bar
 thewalrus.ca##.spu-position-top-bar
@@ -49020,7 +49024,7 @@ carsharingi.ru,clipartsfree.net,nmsu.edu,tech-america.com,waracle.com##.bottom-0
 ! ! .bottom-0.relative
 onassis.org##.bottom-0.relative
 ! ! .bottom-0.fixed
-actievandedag.nl,aksam.com.tr,aplikuj.pl,avislease.sk,back4app.com,ballonvaartcentrumvanmanen.nl,barecollective.com,bbcrewind.co.uk,bellevue-hamburg.de,bestsellers.hu,betapage.co,blog.appsignal.com,blomus.com,bookiply.com,boords.com,britishrenewables.com,bulldogjob.com,bulldogjob.pl,canaries.co.uk,clubmed.co.nz,clubmed.co.uk,clubmed.com.ar,clubmed.com.mx,clubmed.ru,clubmed.se,clubmed.us,codeclimate.com,cryptomaan.eu,curiositystream.com,deepsource.io,delio.com.pl,discords.com,everifin.com,evolutionary-insights.com,fanzo.com,first-law.com,focus-entmt.com,fvd.nl,gauss.hr,glideapps.com,goflink.com,hrt.hr,hyte.com,ideo.com,invezz.com,iotworldtoday.com,jobicon.pracuj.pl,kick.com,klachtenkompas.nl,kyero.com,licenseglobal.com,matkakeisari.fi,medimagazin.com.tr,mein-apothekenmanager.de,mitec.net,moises.ai,munichmag.de,nationalprivacytest.org,nativebase.io,nbg.gov.ge,newsbreak.com,nexcess.net,nitronationworldtour.com,oko.press,pazarama.com,prettylittlething.com,propello.bike,qwertee.com,ranzijn.nl,raport.pse.pl,regiojet.com,regiojethotels.com,shakuro.com,skynet.ru,star.com.tr,tekninen.fi,thehappytoolbox.com,truthsocial.com,tweetyai.com,twitchcon.com,uc.pt,wizzair.com##.bottom-0.fixed
+actievandedag.nl,aksam.com.tr,aplikuj.pl,avislease.sk,back4app.com,ballonvaartcentrumvanmanen.nl,barecollective.com,bbcrewind.co.uk,bellevue-hamburg.de,bestsellers.hu,betapage.co,blog.appsignal.com,blomus.com,bookiply.com,boords.com,britishrenewables.com,bulldogjob.com,bulldogjob.pl,canaries.co.uk,clubmed.co.nz,clubmed.co.uk,clubmed.com.ar,clubmed.com.mx,clubmed.ru,clubmed.se,clubmed.us,codeclimate.com,cryptomaan.eu,curiositystream.com,deepsource.io,delio.com.pl,discords.com,everifin.com,evolutionary-insights.com,fanzo.com,first-law.com,focus-entmt.com,fvd.nl,gauss.hr,glideapps.com,goflink.com,hrt.hr,hyte.com,ideo.com,invezz.com,iotworldtoday.com,jobicon.pracuj.pl,kick.com,klachtenkompas.nl,kyero.com,licenseglobal.com,matkakeisari.fi,medimagazin.com.tr,mein-apothekenmanager.de,mitec.net,moises.ai,munichmag.de,nationalprivacytest.org,nativebase.io,nbg.gov.ge,newsbreak.com,nexcess.net,nitronationworldtour.com,oko.press,pazarama.com,prettylittlething.com,propello.bike,qwertee.com,ranzijn.nl,raport.pse.pl,regiojet.com,regiojethotels.com,shakuro.com,skyfi.com,skynet.ru,star.com.tr,tekninen.fi,thehappytoolbox.com,truthsocial.com,tweetyai.com,twitchcon.com,uc.pt,wizzair.com##.bottom-0.fixed
 ! ! .bottom-2
 artma-zaproszenia.pl,avif.io,lahella.fi##.bottom-2
 ! ! .bottom-6
