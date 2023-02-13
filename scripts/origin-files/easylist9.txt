@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202302130914
+! Version: 202302131209
 ! Title: Fanboy's Annoyance List
-! Last modified: 13 Feb 2023 09:14 UTC
+! Last modified: 13 Feb 2023 12:09 UTC
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -20683,7 +20683,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.tweet-article
 ##.tweet-btn
 ##.tweet-btn-container
-##.tweet-button
 ##.tweet-follow
 ##.tweet-link-button
 ##.tweet-results
@@ -28483,6 +28482,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ###mm-content-cookies
 ###mmMS--bottom-notification
 ###mmMS--notification
+###mm_cc_modal_overlay
 ###mm_t07_cookie_box
 ###mmmmm-cookies
 ###mms-consent-portal-container
@@ -39863,6 +39863,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||pushtide.com^$third-party
 ||pushvip.ru^$third-party
 ||pushwhy.com^$third-party
+||pushy.ai^$third-party
 ||quarepush.com^$third-party
 ||quaruzon.com^$third-party
 ||realpush.media^$third-party
@@ -46904,6 +46905,7 @@ worksheetcrafter.com###cookiesFormContainer
 mdachieve.com,pharmachieve.com###copyright-2
 atos.net,dsm.com,tesco.ie,unify.com###cp
 wayofleaf.com###cpop
+paramountplus.com###cps-shaman-notifier
 zortrax.com###cs-popup
 thebagster.com###ctl00_privacybanner_pnlPrivacyPolicy
 dllsearch.net,droidchart.com,exescan.net,go4mosaic.com,lcdchart.com,routerchart.com,slatechart.com###cw
@@ -47591,6 +47593,7 @@ vivid.money##.cookieSettings__contentContainer__iZXMG
 icicibank.com##.cookieTextArea
 aanstellingspas.nl##.cookieWallContainer
 athleticgreens.com##.cookie_LRb5A
+epal.gg##.cookie___3nEag
 4templates.com,thegoodocs.com##.cookie__form
 m.emsc.eu##.cookie_container
 tunetank.com##.cookie_container__w6Qh1
