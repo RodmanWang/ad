@@ -5917,6 +5917,8 @@ eiga.com##.header-pure-banner
 !##############################
 ! SECTION: Tweaks - CSS
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/142815
+webteizle.one#$##site { margin-top: 0px !important; background: none !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/140347
 naruto-base.tv#$#[href^="/Diz_nb"] { display: none !important; }
 naruto-base.tv#$##fll { margin-top: 0 !important; }
@@ -6367,6 +6369,8 @@ newsweek.com##iframe[src="http://sns.europe.newsweek.com/newsletter?popup=1"]
 !##############################
 ! SECTION: Tweaks - JS
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/142811
+bakenor.com#%#//scriptlet('adjust-setTimeout', 'myTimer', '*', '0.02')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/142692
 getfreecourses.co#%#//scriptlet('adjust-setInterval', 'DOWNLOAD', '*', '0.02')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/142474
