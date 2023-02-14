@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202302140051
+! Version: 202302140323
 ! Title: Fanboy's Annoyance List
-! Last modified: 14 Feb 2023 00:51 UTC
+! Last modified: 14 Feb 2023 03:23 UTC
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -6674,7 +6674,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ###sendpress_signup
 ###series-newsletter-signup
 ###share-newsletter
-###shopify-section-newsletter-popup
 ###sib_embed_signup
 ###side-newsletter-signup
 ###sidebar-block-newsletters
@@ -45337,6 +45336,8 @@ haaretz.com##div[id^="newsletter"]
 theblaze.com##div[id^="sWidget_-_Newsletter_"]
 dailydot.com##footer
 michiganmedicine.org##labcoat-promo
+! ! #shopify-section-newsletter-popup
+kyliejennershop.com###shopify-section-newsletter-popup
 ! ! .newsletter-box
 borsonline.hu,libhunt.com##.newsletter-box
 ! ! #mc-embedded-subscribe-form
