@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202302142046
+! Version: 202302150058
 ! Title: Fanboy's Annoyance List
-! Last modified: 14 Feb 2023 20:46 UTC
+! Last modified: 15 Feb 2023 00:58 UTC
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -33949,6 +33949,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.cookies-div
 ##.cookies-div-footer
 ##.cookies-elixregtech
+##.cookies-es-container
 ##.cookies-eu
 ##.cookies-eu-bg
 ##.cookies-field
@@ -43565,6 +43566,7 @@ foxbusiness.com,foxnews.com##.commenting-nation-promo
 dallasobserver.com##.comp-shell-supportus
 wired.com##.consumer-marketing-unit--article-mid-content
 gq.com##.consumer-marketing-unit--cm-footer
+ici.radio-canada.ca##.container-adbox-autopromo
 themoscowtimes.com##.contribute-bar
 thejournal.ie##.contribution-prompt
 thepostmillennial.com##.contributions-container
@@ -44408,12 +44410,14 @@ insideclimatenews.org###news-signup
 epicurious.com###newsLetter
 austinchronicle.com###newsletter-box
 sbs.com.au,soft112.com###newsletter-form
+lapresse.ca###newsletter-hub-promo-box
 semafor.com###newsletter-sign-up
 ridefox.com###newsletter-signup
 usafacts.org###newsletter__sticky
 newyorker.com###newsletter_form
 roughstock.com###newsletter_widget
 mapyourshow.com###newsletterform
+lapresse.ca###newsletters-subscription-box-root
 qz.com###nl-form
 silicon.co.uk,silicon.de,silicon.es,silicon.fr,silicon.pt###nl-overlay
 newsmax.com###nmsbma__container
@@ -44929,6 +44933,7 @@ abc15.com##.modal--content
 unknowncomicbooks.com##.modal--newsletter
 ba-bamail.com,breakingdefense.com,nordvpn.com,poolsupplies.com,protel.co.nz,pv-magazine.com##.modal-backdrop
 ensemblemagazine.co.nz##.modal-subscribe
+ici.radio-canada.ca##.most-popular-newsletter-container
 rare.us##.move-social__inner
 cybersecurityventures.com##.mpc-callout
 msmagazine.com##.ms-actions
@@ -47677,6 +47682,7 @@ alohafromdeer.com##.dMPQEE
 fotka.com##.dSDHpy
 10clouds.com##.dSmGNF
 uphold.com##.dXDXdB
+free.navalny.com##.dZZATP
 aeon-fitness.com##.darkScreen
 systematica.com##.darken
 roundshot.com##.data-consent-edge
@@ -47737,6 +47743,7 @@ carvago.com##.ees0v8i1
 tech.eu##.efilli-layout-legacy
 egym.com##.egym-prompt
 bbc.com##.eh3hs0a5
+mubi.com##.el38f2b0
 elasticemail.com##.elastic-cookie-notice
 my.bulbapp.com##.elementor-element-10ff3dc7
 fxhome.com##.elementor-location-footer
@@ -48567,7 +48574,7 @@ alcatraz.ai##div[class^="CookiesModal-"]
 internxt.com##div[class^="Footer_cookiesBgFallback"]
 tinely.com##div[class^="GdprAcceptance_container"]
 porsche.com##div[class^="LegalDisclaimer_"]
-architecturaldigest.com,bonappetit.com,gq.com,newyorker.com,pitchfork.com,self.com,teenvogue.com,them.us,vanityfair.com,vogue.com,wired.com##div[class^="MessageBannerWrapper-"]
+architecturaldigest.com,bonappetit.com,cntraveler.com,gq.com,newyorker.com,pitchfork.com,self.com,teenvogue.com,them.us,vanityfair.com,vogue.com,wired.com##div[class^="MessageBannerWrapper-"]
 kurgo.com##div[class^="PrivacyNotice"]
 similarsites.com##div[class^="PrivacyNotification_"]
 podimo.com##div[class^="SmallCookie"]
@@ -48992,7 +48999,7 @@ arbys.com,neoplants.com,oresundstag.se##[class^="cookieBanner"]
 ! ! petermeyerverlag.de / ischiawandern.com/ pb-schredl.de
 ##.wrap > .consent-widget
 ! ! Cookies_
-consumer-legal.com,matchbook.com##div[class^="Cookies_"]
+consumer-legal.com,matchbook.com,profim.eu,profim.fr,profim.pl##div[class^="Cookies_"]
 ! ! CookieBanner
 abc.net.au,amie.so,app.daily.dev,billhop.com,channel5.com,coinbase.com,desiindian-brighton.co.uk,drbuho.com,foodcorner.dk,hackney.gov.uk,harrys.com,itzipitzipizza.dk,klientboost.com,lendo.se,letsenhance.io,lindahall.org,luminpdf.com,make.com,monzo.com,mrpizzahastings.co.uk,onceupon.photo,qured.us,skyvegas.com,sweatco.in,theculturetrip.com,trelson.com,tri.global,unum.co.uk##div[class*="CookieBanner"]
 ! ! .active.legacy
