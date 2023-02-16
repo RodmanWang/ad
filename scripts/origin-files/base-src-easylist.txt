@@ -9310,9 +9310,11 @@
 ||api.savemedia.website^$third-party
 ||api.sdffwef11.com^
 ||api.search.live.net^$third-party,domain=~bing.com
+||api.sec.intl.miui.com^
 ||api.sec.miui.com^
 ||api.segment.io^
 ||api.segment.io^$third-party
+||api.setting.intl.miui.com^
 ||api.share.mob.com^
 ||api.smbeat.jp^
 ||api.sociaplus.com^$third-party
@@ -10642,6 +10644,7 @@
 ||auth.be.sec.miui.com^
 ||auth.bz^$third-party
 ||auth.carte-gr.total.fr^
+||authbe.sec.intl.miui.com^
 ||authordress.com^
 ||authorinsights.com^$third-party
 ||authoritativeidiom.com^
@@ -20840,6 +20843,7 @@
 ||data.resources.ringcentral.com^
 ||data.ricaud.com^
 ||data.rmsocio.realmadrid.com^
+||data.sec.intl.miui.com^
 ||data.sec.miui.com^
 ||data.securemetrics-apple.com^
 ||data.service.aware.com.au^
@@ -26324,6 +26328,7 @@
 ||flare.vtube.to^
 ||flarebania.com^
 ||flash-counter.com^$third-party
+||flash.sec.intl.miui.com^
 ||flashadengine.com^$third-party
 ||flashadtools.com^$third-party
 ||flashclicks.com^
@@ -50332,7 +50337,7 @@
 ||rukplaza.com^$third-party
 ||rule34.xxx/aa^
 ||rule34hentai.net^$subdocument,~third-party
-||rule34hentai.net^$subdocument,~third-party$badfilter
+||rule34hentai.net^$subdocument,~third-party,badfilter
 ||rulefloor.com^$popup
 ||rulerabbit.com^$third-party
 ||ruliglso.space^
@@ -59196,7 +59201,6 @@
 ||t.mgoblue.com^
 ||t.miamihurricanes.com^
 ||t.mktg.genesys.com^
-||t.mmnt.net^
 ||t.mowmore.com^
 ||t.msuspartans.com^
 ||t.my.jobs^
