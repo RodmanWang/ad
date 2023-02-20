@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202302200427
+! Version: 202302200920
 ! Title: Fanboy's Annoyance List
-! Last modified: 20 Feb 2023 04:27 UTC
+! Last modified: 20 Feb 2023 09:20 UTC
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -39670,6 +39670,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||app.avada.io^$third-party
 ||blink.net/json/$xmlhttprequest
 ||buy-au.piano.io/checkout/template/cacheableShow?*&experienceId=*&widget=template
+||confirmsubscription.com^$third-party
 ||data.reachplc.com^
 ||default.salsalabs.org/api/widget/
 ||downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js$script,third-party
@@ -43465,6 +43466,7 @@ asiaone.com##.block-webform
 ttnews.com##.block-webform-block
 kiplinger.com##.blueconic-article__wrapper
 ctvnews.ca##.bm-footer__wrapper__subscribeButton
+english.nv.ua##.bn-subscribe
 platformer.news,substack.com##.body > .subscribe-widget
 esquire.com##.body-tip
 mashable.com##.border-warmgray-100
@@ -43538,6 +43540,7 @@ sportspromedia.com##.content-block-sidebar-form
 asianews.network##.content-subscription
 defenseone.com##.conversion-module
 the-line-up.com##.copyRight-div
+english.nv.ua##.coronavirus_subscribe
 omr.com##.cp-info-bar-wrapper
 zmescience.com##.cp-modal-popup-container
 crainsnewyork.com##.crain-newsletter-v2-wrapper
@@ -43731,6 +43734,7 @@ footwearnews.com##.l-newsletter
 gawker.com##.lMQ
 e-flux.com##.landing-subscribe
 lifewire.com##.latest-issue-spotlight
+soaphub.com##.ldm-newsletter-promo-inner
 punchdrink.com##.lead-capture-campaign
 texasmonthly.com##.list-newsletter-block__newsletter-signup
 wakingtimes.com##.lp-bar__iframe-wrapper
@@ -44162,6 +44166,7 @@ expressvpn.com##.wrap-subscribe
 wwd.com##.wwd-subscribe-now-banner-ad-container
 worldofreel.com##.yui-popup-container-node
 nypost.com,pagesix.com##.zephr-component
+bbc.com##.zephr-overlay
 minds.com##M-MODAL
 nowthisnews.com,thrillist.com##[class^="EmailAcquisitonstyles"]
 zerohedge.com##[class^="ExitModalNewsletter_"]
@@ -44623,6 +44628,8 @@ militarywatchmagazine.com##.articleButtons
 nzherald.co.nz##.article__action-bar
 telegraph.co.uk##.article__actions
 techcrunch.com##.article__floating-wrap
+english.nv.ua##.article__footer__additional_share
+english.nv.ua##.article__footer_share
 u.today##.article__gnews
 rt.com,sputniknews.com##.article__google-news
 wnep.com##.article__sharing
@@ -54460,6 +54467,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||dknet730.com/plugin/login-oauth/img/$image
 @@||dmi.dk^*/jquery_cookie.js
 @@||docksmarket.it^*/shared/btn_
+@@||docs.qq.com^$generichide
 @@||dontbubble.us/images/google-$~third-party
 @@||donttrack.us/images/google-$image,~third-party
 @@||downloads.2kgames.com^*/images/$image,third-party
