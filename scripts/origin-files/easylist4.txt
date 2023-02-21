@@ -470,6 +470,7 @@ reddit.com#@#.ADBAR
 !#safari_cb_affinity
 !
 ! Add same rules to the Admiral section of Tracking Protection filter
+||distributionneck.com^$third-party
 ||aliasanvil.com^$third-party
 ||shiveringspot.com^$third-party
 ||magicaljoin.com^$third-party
@@ -3382,6 +3383,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+exxpress.at##.live-tv-holder
 imdb.com#%#//scriptlet('set-session-storage-item', 'coachmarkShown', 'true')
 expedia.com#?#.uitk-layout-flex-item > div.uitk-layout-flex-item:has(> div.uitk-menu-container > div.uitk-spacing > a[href^="/user/signin"])
 tiktok.com##div[class*="-DivAddHomeContainer "]
@@ -10402,6 +10404,7 @@ jiji.com,edp24.co.uk,technologyreview.com,inews.co.uk,nordbayern.de,thelocal.ch,
 !
 ! SECTION: Subscriptions - Regular rules
 !
+substack.com##.subscription-widget
 chunichi.co.jp##.cscmp-subscription
 auto.onliner.by#?#.news-text > div.news-media > div.news-media__inside a[href="https://t.me/autoonliner"]:upward(div.news-media)
 foreignpolicy.com##.in-article-subscribe-expandable-container
@@ -12990,7 +12993,7 @@ theaggie.org##a[title="Subscribe to our e-newsletter"]
 epic.org##.signup_box
 couponcause.com##div[dusk="newsletter-signup"]
 sharewareonsale.com#?#.widget-area > aside.home-widget:has(> h1[class] > span:contains(Follow Us))
-square-enix-games.com,upl.uz,onedio.com##.social
+androidinsider.ru,square-enix-games.com,upl.uz,onedio.com##.social
 aspistrategist.org.au##.widget_aspi_subscribe
 newstatesman.com##.newsletter-inner-container
 theweek.co.uk##.polaris__newsletter
