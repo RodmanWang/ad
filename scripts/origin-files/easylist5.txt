@@ -113,6 +113,7 @@ turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-
 ! notifications - part of the functionality
 ! discord.com##div[class^="container"] > nav[class^="wrapper"] + div[class^="base"] > div[class^="notice-"]
 !
+tiktok.com##.matrix-smart-wrapper > div[class*="-DivFloatButtonWrapper "]
 prog-8.com##.app-download-links
 summarizingtool.net#?#.main____div > section.feature_part:has(> div.container div.download_section)
 picwish.com#?#.sticky > div[class^="lg"]:has(> a[href^="https://download.aoscdn.com/down.php"])
@@ -1733,7 +1734,8 @@ zeenews.india.com##.bannertophead-ab
 bbs.51credit.co##div[class^="appdown"]
 sese-777.com###srollVideo
 onliner.by#$#.smartbanner-show body:not(.modal-visible) { padding-top: 0px!important; }
-bankturov.ru##.mobile-promo
+tracker.network,destinytracker.com,halotracker.com,fortnitetracker.com,tracker.gg##.mobile-app-preview
+tracker.network,destinytracker.com,halotracker.com,fortnitetracker.com,tracker.gg,bankturov.ru##.mobile-promo
 theculturetrip.com##div[class^="download-bannerstyled"]
 reverso.net,wallpapers.ispazio.net,novosti.dn.ua,m.timesofindia.com##.downloadapp
 accupass.com##div[class$="-download-app-container"]
