@@ -3383,6 +3383,9 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+marshmallow-qa.com#$?#.modal:has(input[data-action="premium#trackPremiumStartCheckoutSession"]) { display: none !important; }
+marshmallow-qa.com#$#.modal-backdrop { display: none !important; }
+marshmallow-qa.com#$#body[style^="overflow: hidden"] { overflow: auto !important; }
 drive.google.com##.a-da-ub-ce
 powerautomate.microsoft.com#$##lp-proactive-chat { display: none !important; }
 powerautomate.microsoft.com#$#.modal-visible { overflow: auto !important; position: static !important; }
@@ -7671,8 +7674,6 @@ pleer.ru###close_pop
 nv.ua##.subscrb_form_wrap
 catamobile.org.ua##.et_social_flyin
 101android.ru#?#body > iframe:matches-css(width: 360px)
-megomult.ru##.fancybox-wrap
-megomult.ru###fancybox-overlay
 techbang.com###idle-container
 merriam-webster.com###subscribe-overlay
 lenta.ru#$#.subscribe-popup { display: none!important; }
@@ -8315,8 +8316,6 @@ xakep.ru##.snp-pop-127840-overlay
 onpress.info##.modalParent
 eadaily.com###like_box
 m.albamon.com###LayerPop_185
-tvfru.org##.fancybox-wrap
-tvfru.org###fancybox-overlay
 kolokolrussia.ru##.subscribeBox
 son-video.com##.k-widget-dynamic-open
 wissen.de##.reveal-modal.open
@@ -8360,8 +8359,8 @@ gucluanadolugazetesi.com,afyonprestij.com,afyonajans.com##body > div#kodac
 gizmochina.com##.boxzilla-subscribe-boxilla-button
 line.do##facebook-like-box
 segodnya.ua##.mailing-popup
-tvfru.ru###fancybox-overlay
-tvfru.ru##.fancybox-wrap
+megomult.ru,tvfru.org,tvfru.ru###fancybox-overlay
+megomult.ru,tvfru.org,tvfru.ru##.fancybox-wrap
 wsj.com##.login-section-container[amp-access="NOT access"]
 ||cdn.ampproject.org/v0/amp-access-0.1.js$domain=wsj.com
 bigkiev.com.ua,experttur.com,liniakino.com,plutonpromo.az,znaj.ua###parent_popup
@@ -10409,6 +10408,8 @@ jiji.com,edp24.co.uk,technologyreview.com,inews.co.uk,nordbayern.de,thelocal.ch,
 !
 ! SECTION: Subscriptions - Regular rules
 !
+junijuni.jp##.joinnewModal
+junijuni.jp#?#.overlay > div > h2.hdModal > a[href^="https://www.junijuni.jp/shop/idinfo.html"]:upward(3)
 thehindu.com###view-offer
 siliconcanals.com###brave_popup_75047__step__0
 booooooom.com##div[class^="b-email-popup"]
@@ -10429,8 +10430,8 @@ aucview.com##.alertModal
 aucview.com###alertModalBg
 dell.com#$##mh-ext-signupemail-modal { display: none !important; }
 dell.com#$#html[email-modal-open] > body:not(#style_important) { position: static !important; }
-dizipal507.com#$#.mfp-wrap { display: none!important; }
-dizipal507.com#$#.mfp-bg { display: none!important; }
+apemans.com,dizipal507.com#$#.mfp-wrap { display: none!important; }
+apemans.com,dizipal507.com#$#.mfp-bg { display: none!important; }
 dizipal507.com#$#html { overflow: auto !important; margin-right: 0 !important; }
 ibtimes.com##.meet-ibt
 ibtimes.com###block-fusion-newsletters
@@ -12255,8 +12256,6 @@ netflixlife.com#?##sidebar-primary > div.widget:has(> div.textwidget form[action
 2x2.su,car.ru,esoligorsk.by##.dzen
 esoligorsk.by##.comments-buttons
 esoligorsk.by##.telegram-viber
-apemans.com#$#.mfp-wrap { display: none!important; }
-apemans.com#$#.mfp-bg { display: none!important; }
 filminquiry.com,apemans.com#$#html { overflow: visible!important; padding-right: 0!important; }
 continental-aftermarket.com##.newsletter-popUp
 sonntagsblatt.de###spb-block-subscribe-to-newsletter-popup-block-sonntags
