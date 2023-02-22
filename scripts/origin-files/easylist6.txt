@@ -3187,6 +3187,9 @@ rasp.yandex.*##.TravelHotelsBanner
 @@||yastatic.net/daas/atom.js$domain=mail.yandex.by|mail.yandex.kz|mail.yandex.ru|mail.yandex.com|mail.yandex.com.tr
 !-----------------------------------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/143247
+||appewa.com/assets/promo-$image
+appewa.com##.modal-wrapper
 ! https://github.com/AdguardTeam/AdguardFilters/issues/142898
 bing.com###b_opalpers
 ! https://github.com/AdguardTeam/AdguardFilters/issues/142682
@@ -4798,7 +4801,7 @@ blogs.imf-formacion.com##div[class^="blogs-"][class*="-contenido"]
 bt.com##.experiencefragment
 pornhub.com##.becomePartnerWrapper
 fortnitetracker.com##.love-container
-fortnitetracker.com##.trn-topad
+realmtracker.com,fortnitetracker.com##.trn-topad
 comic-days.com##.gtm-top-days-premium-banner
 finance.sina.cn##.m-client-call3
 mail.yandex.*##div.promo-auto-onboarding-Container
@@ -6398,6 +6401,9 @@ newsweek.com##iframe[src="http://sns.europe.newsweek.com/newsletter?popup=1"]
 !##############################
 ! SECTION: Tweaks - JS
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/143606
+upapk.io#%#//scriptlet('adjust-setTimeout', 'seconds', '*', '0.02')
+instamod.net#%#//scriptlet('adjust-setInterval', 'Download', '*', '0.02')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/143542
 3dzip.org#%#//scriptlet('adjust-setInterval', 'document.hidden', '*', '0.02')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/143445

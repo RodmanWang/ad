@@ -3655,7 +3655,6 @@ walmart.com#?#div[data-automation-id="sb-div-bottom-module"]:has(> button[data-a
 rainews.it##.the_player > div[style*="position: fixed;"]
 moroccoworldnews.com###worldCC
 douyu.com##.ANNUAL202211
-analyticsindiamag.com###elementor-popup-modal-10080797
 visualstudio.microsoft.com###vscom-modal-surveypopup
 ficbook.net##button.discount
 unionpedia.org#$#.modalBack { display: none !important; }
@@ -10407,6 +10406,8 @@ jiji.com,edp24.co.uk,technologyreview.com,inews.co.uk,nordbayern.de,thelocal.ch,
 !
 ! SECTION: Subscriptions - Regular rules
 !
+thehindu.com###view-offer
+siliconcanals.com###brave_popup_75047__step__0
 booooooom.com##div[class^="b-email-popup"]
 substack.com##.subscription-widget
 chunichi.co.jp##.cscmp-subscription
