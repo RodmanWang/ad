@@ -1015,6 +1015,7 @@ nfmovies.com#$?#body > .hidden-xs > div[id]:has(> img[src^="/static/"][onclick*=
 nfmovies.com#$?#div[id^="aaaDiv"] { remove: true; }
 !
 !
+weibo.com#$?#.card-wrap:has(> .card-top > .s-fr:contains(广告)) { remove: true; }
 sohu.com#?#.sidebar.right:has(> div.extend-mod:first-child)
 wuyong.fun#?#.sidebar-innter > section[id^="b2-widget-html-"]:has(.adsbygoogle)
 cupfox.app#?##outer-container > .model:has(> .model-content > a[href*=".jd.com"])
@@ -5061,6 +5062,8 @@ newduba.cn###jq_youxi
 ||bhulgot.com^
 ||sheena.ltd^
 ||pwcuu.cn^
+||guode.cyou^
+||dagamemisdeed.com^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
