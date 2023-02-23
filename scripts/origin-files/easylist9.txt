@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202302222317
+! Version: 202302230329
 ! Title: Fanboy's Annoyance List
-! Last modified: 22 Feb 2023 23:17 UTC
+! Last modified: 23 Feb 2023 03:29 UTC
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -44065,7 +44065,7 @@ notionthings.com,slaynews.com##.mailpoet_form
 earlybirdbooks.com,openroadmedia.com,theportalist.com##.copyRight-div
 ! ! .modal/.modal-backdrop (no broken scroll)
 answear.ua,ba-bamail.com,bibleportal.com,businessoffashion.com,kenyabuzz.com,vogue.com##.modal
-ba-bamail.com,bibleportal.com,breakingdefense.com,nordvpn.com,poolsupplies.com,protel.co.nzpv-magazine.com,publish0x.com##.modal-backdrop
+ba-bamail.com,bibleportal.com,breakingdefense.com,nordvpn.com,poolsupplies.com,protel.co.nz,publish0x.com,pv-magazine.com##.modal-backdrop
 ! ! .newsletter-modal
 lung.org,the-line-up.com,theportalist.com,tokmanni.fi##.newsletter-modal
 ! ! #newsletterForm
@@ -50858,6 +50858,7 @@ rosting.by###bg_popup
 deal.by##.H84S0
 korter.by##.NNvvT
 lamoda.by,lamoda.kz##._2iLgRnNCb_TzR34bnEcNeD
+emall.by##.accept-cookies_all__3tDno
 shate-m.by##.blocker
 atlant.by##.confirm-panel
 shate-m.by##.cookie-alert-show
@@ -53912,7 +53913,6 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@/wp-content/plugins/bwp-minify/min/?*,wp-content$script,stylesheet,~third-party
 @@/wp-content/plugins/wp-minify/min/?*,wp-content$script,stylesheet,~third-party
 ! 
-##||login.csdisco.com^$generichide
 @@||192.168.*/privacy_policy.js$~third-party
 @@||3332222.ru/cookie-popup.$~third-party
 @@||adblockplus.org/img/cookie-notice.svg$~third-party
@@ -53956,7 +53956,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||consentmanager.mgr.consensu.org/delivery/$stylesheet,xmlhttprequest,domain=sourceforge.net
 @@||consentmanager.net^$script,subdocument,domain=bluray-disc.de|lippu.fi|teslamag.de|winfuture.de
 @@||cookie-consent.ingatlancdn.com^$script,domain=immobilienungarn.net|ingatlan.com|realestatehungary.hu
-@@||cookiebot.com^$domain=apetro.pt|asambeauty.com|bankia.es|bergbauernmilch.de|berlingske.dk|biomarkt.de|bt.dk|caisse-epargne.fr|cajamar.es|cineplex.de|danbolig.dk|dasinvestment.com|derivate.bnpparibas.com|digimon.kochfilms.de|digitaltrends.com|dr.dk|egmont.com|ekstrabladet.dk|euroatla.pt|fidelityhouse.eu|finanzmarktwelt.de|fof.se|formule1.nl|harzwasserwerke.de|hoyavision.com|kino.dk|login.nos.pt|mein-grundeinkommen.de|nngroup.com|nordiskfilm.com|refinery29.com|scubadiving.com|sportdiver.com|stern.de|storyhouseegmont.dk|storyhouseegmont.no|storyhouseegmont.se|swspremberg.de|warscrap.io|werder.de|werkenbijlidl.nl|wwf.fi|xn--myeblttle-z2a.de
+@@||cookiebot.com^$domain=apetro.pt|asambeauty.com|bankia.es|bergbauernmilch.de|berlingske.dk|biomarkt.de|bt.dk|caisse-epargne.fr|cajamar.es|cineplex.de|danbolig.dk|dasinvestment.com|derivate.bnpparibas.com|digimon.kochfilms.de|digitaltrends.com|dr.dk|egmont.com|ekstrabladet.dk|euroatla.pt|fidelityhouse.eu|finanzmarktwelt.de|fof.se|formule1.nl|harzwasserwerke.de|hoyavision.com|kino.dk|login.nos.pt|mein-grundeinkommen.de|nngroup.com|nordiskfilm.com|plaion.com|refinery29.com|scubadiving.com|sportdiver.com|stern.de|storyhouseegmont.dk|storyhouseegmont.no|storyhouseegmont.se|swspremberg.de|warscrap.io|werder.de|werkenbijlidl.nl|wwf.fi|xn--myeblttle-z2a.de
 @@||cookielawinfo.com^$~third-party
 @@||cookist.com^*/remote-gdpr.min.js$~third-party
 @@||crazy-factory.com/ajax_box_cookie_banner.php$~third-party
@@ -54009,6 +54009,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||leanlibrary.com/wp-content/plugins/complianz-gdpr/assets/js/cookieconsent.min.js$~third-party
 @@||lecourrier-du-soir.com^*/uk-cookie-consent-js
 @@||lightningmaps.org^*/cookieconsent.$script,stylesheet
+@@||login.csdisco.com^$generichide
 @@||logitech.com/etc.clientlibs/logitech-common/clientlibs/onetrust.$~third-party
 @@||logitechg.com/etc.clientlibs/logitech-common/clientlibs/onetrust.$~third-party
 @@||mediateurfevad.fr/wp-content/plugins/CookieInfo/js/CookieInfo.js$~third-party
