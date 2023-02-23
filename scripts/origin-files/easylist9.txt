@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202302231148
+! Version: 202302232120
 ! Title: Fanboy's Annoyance List
-! Last modified: 23 Feb 2023 11:48 UTC
+! Last modified: 23 Feb 2023 21:20 UTC
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -6039,6 +6039,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.c-app-banner-header-wrap
 ##.c-app-install
 ##.c-install-banner
+##.c-notification-link-app
 ##.cept-banner-link
 ##.footer-app-download
 ##.footer__download-app-container
@@ -42267,6 +42268,8 @@ mcsweeneys.net##.breaking-news-container
 investors.com##.broadcast-text
 vox.com##.c-article-footer-cta
 theamericanconservative.com##.c-card-three-ways
+folha.uol.com.br##.c-subscribe-ads
+folha.uol.com.br##.c-top-signup
 ny1.com##.caption-container
 aarp.org##.caregivingPromotion
 nationalpost.com##.carousel-widget
@@ -43053,6 +43056,7 @@ ostechnix.com###custom_html-9
 democracynow.org###daily_digest_modal
 insidethegames.biz###ealert-banner
 eco-business.com###eb-bottom-banner
+hiresaudiocentral.com###elementor-popup-modal-40
 jewishpress.com###ema_signup_form
 thehackernews.com###email-outer
 disqus.com###email-signup
@@ -43422,6 +43426,7 @@ christiantoday.com##.ebookbox
 dailywire.com##.ejwz8lp1
 news.bitcoin.com##.elJVyc
 thehustle.co##.elementor-30860
+hiresaudiocentral.com##.elementor-element-3b03fc7c
 reclaimthenet.org##.elementor-element-4a768d4
 reclaimthenet.org##.elementor-element-4d0d798
 reclaimthenet.org##.elementor-element-7fc59b9
@@ -46571,6 +46576,7 @@ trontv.com##.jw-popups
 trontv.com##.jw-popups-backdrop
 trontv.com##.jw-popups-container
 whitebit.com##.k4w6
+uizard.io##.kCsINM
 dotwatcher.cc##.kFFkJV
 hootsuite.com##.kUxIsB
 depop.com##.kXlWIL
