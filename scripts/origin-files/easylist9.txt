@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202302240504
+! Version: 202302240901
 ! Title: Fanboy's Annoyance List
-! Last modified: 24 Feb 2023 05:04 UTC
+! Last modified: 24 Feb 2023 09:01 UTC
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -35747,6 +35747,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.kue-cookie-notification
 ##.kuki-js
 ##.kukiwrapx
+##.kv-ee-gdpr-banner
 ##.kvk-cookie
 ##.kvk-footer-body
 ##.kvk-footer-warning
@@ -42243,6 +42244,7 @@ dallasobserver.com##.comp-shell-supportus
 wired.com##.consumer-marketing-unit--article-mid-content
 gq.com##.consumer-marketing-unit--cm-footer
 ici.radio-canada.ca##.container-adbox-autopromo
+vox.com##.contribute-banner
 themoscowtimes.com##.contribute-bar
 thejournal.ie##.contribution-prompt
 thepostmillennial.com##.contributions-container
@@ -43022,6 +43024,7 @@ hiresaudiocentral.com###elementor-popup-modal-40
 jewishpress.com###ema_signup_form
 thehackernews.com###email-outer
 disqus.com###email-signup
+chemistryworld.com###eme-global-head
 luxomo.com###esns_background_layer
 csmonitor.com###expanded-message
 hcn.org###exposeMask
@@ -43184,6 +43187,7 @@ dailymemphian.com##.EmailSignup
 zazzle.com##.EmailSignupForm
 straightdope.com##.Form-wrapper
 decrypt.co##.GridItem.hEYXVm.sc-39129d7e-1
+thefinancialdiet.com##.Hd__banner
 interestingengineering.com##.Home_blueprint__LJ6KT
 atlasobscura.com##.Homepage__email-container
 ozy.com##.IndexStyled__NewsletterSection-x8xg4h-5
@@ -43196,6 +43200,7 @@ nytimes.com##.MAG_web_anon_usgm_first-party-dock-1_survey
 meltingpot.com##.MPHomepageModalWidget
 coingape.com##.Mainads
 thedrive.com##.NewsLetter
+thefinancialdiet.com##.NewslBanner
 theintercept.com##.Newsletter
 edweek.org##.NewsletterForm
 tabletmag.com##.NewsletterForm__container
@@ -43291,8 +43296,8 @@ allevents.in##.bottom-right-subscribe
 businesstimes.com.sg##.bottom-wrap
 libhunt.com##.bottom-wrapper
 whitehouse.gov##.bottomcta-wrapper
-iafrica.com,marijuanamoment.net,naturalblaze.com##.boxzilla-container
-iafrica.com,marijuanamoment.net,naturalblaze.com##.boxzilla-overlay
+iafrica.com,kdnuggets.com,marijuanamoment.net,naturalblaze.com##.boxzilla-container
+iafrica.com,kdnuggets.com,marijuanamoment.net,naturalblaze.com##.boxzilla-overlay
 nordvpn.com##.brand-popup
 getpocket.com##.brandingMessage
 staradvertiser.com##.breaking-news-signup
@@ -43370,6 +43375,7 @@ neeva.com##.cta-search-result-result__previewSignupCTA-AHoNH
 the74million.org##.cta_snippet
 perfectdailygrind.com##.custom-a-banner
 realtor.com##.custom-email-signup-article-page
+8newsnow.com##.custom-html-widget
 irishexaminer.com##.d-flex.row
 plough.com##.daily-callout-list
 defiantamerica.com##.defia-right-rail-newsletter
@@ -43460,7 +43466,7 @@ electronicintifada.net##.get-updates
 pulsenews.co.kr##.getnews
 socialistworker.co.uk##.gform_fields
 catholicherald.co.uk,kusc.org,mondoweiss.net,motoring.com.au,pv-magazine-usa.com,threatpost.com,trendingpolitics.com,tylerwoodgroup.com,whoprofits.org,womensagenda.com.au,wvexplorer.com,yellowhammernews.com##.gform_widget
-pressherald.com,thefinancialbrand.com,trendingpolitics.com,undark.org##.gform_wrapper
+pressherald.com,thefinancialbrand.com,trendingpolitics.com,undark.org,vtdigger.org##.gform_wrapper
 improvethenews.org,quillette.com##.gh-portal-triggerbtn-iframe
 ghacks.net##.ghacks_ad_code
 usatoday.com##.gnt_m_th_em
@@ -43540,6 +43546,7 @@ gamespot.com##.js-nlsub
 creditcards.com##.js-signup-visibility
 highya.com##.js-swimingBlock-stoper
 avclub.com,deadspin.com,gizmodo.com,jalopnik.com,kotaku.com,lifehacker.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.js_modal_exit_intent
+qz.com##.js_qz_newsletter_signup_placeholder
 avclub.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.js_subscribe
 komando.com##.k3-prefs-center-modal-background
 qz.com##.kHmXgL
@@ -43618,7 +43625,8 @@ cybersecurityventures.com##.mpc-callout
 msmagazine.com##.ms-actions
 autosport.com,motorsport.com##.ms-footer_top
 msnbc.com##.msnbcDaily__footer
-motor1.com##.msnt-mail-dialog
+insideevs.com,motor1.com##.msnt-mail-dialog
+insideevs.com##.msnt-mail-footer
 itweb.co.za##.mt-3.itw-noprint
 cloudflare.com##.mt6.ph2.bg-blue4
 visualcapitalist.com##.mvp-widget-home-head
@@ -43653,6 +43661,7 @@ financialit.net##.newslatter-s
 dnaindia.com##.newsletTab
 sciencenews.org##.newsletter-global-subscribe__wrapper___1yUbD
 beinsports.com##.newsletter-header
+gothamist.com##.newsletter-home
 ibtimes.com##.newsletter-in-article
 robbreport.com##.newsletter-link
 sandiegoreader.com##.newsletter-m
@@ -43663,7 +43672,7 @@ sportico.com##.newsletter-podcast
 mikebloomberg.com,superdeluxeedition.com##.newsletter-popup
 narcity.com##.newsletter-prompt
 capitaltransport.com##.newsletter-sign-up-wrapper
-blackburnnews.com,creation.com,dallasinnovates.com,euobserver.com,fox10phoenix.com,fox13news.com,fox26houston.com,fox32chicago.com,fox35orlando.com,fox5atlanta.com,fox6now.com,foxla.com,hcn.org,ketv.com,ktvu.com,livescience.com,newsweek.com,nugs.net,q13fox.com,thekitchenmagpie.com,wlwt.com,womanandhome.com##.newsletter-signup
+blackburnnews.com,creation.com,dallasinnovates.com,euobserver.com,fox10phoenix.com,fox13news.com,fox26houston.com,fox32chicago.com,fox35orlando.com,fox5atlanta.com,fox6now.com,foxla.com,hcn.org,ketv.com,ktvu.com,livescience.com,newsweek.com,nugs.net,q13fox.com,thekitchenmagpie.com,wesh.com,wgal.com,wlwt.com,womanandhome.com,wqxr.org,wyff4.com##.newsletter-signup
 foreignpolicy.com##.newsletter-signup-and-ads
 alarabiya.net##.newsletter-subscription
 straightarrownews.com##.newsletter-tout
@@ -43689,6 +43698,7 @@ fiercewireless.com##.node--type-embed-promo
 realclearscience.com##.notif-wrapper
 businesstraveller.com##.nw-ns-main
 as.com##.nwl
+lawandcrime.com##.o-callout__newsletter
 outsideonline.com##.o-content-cta
 ft.com##.o-message
 oneesports.gg##.oes-hbs-dedicated-card
@@ -43796,6 +43806,7 @@ creativedestructionmedia.com,floridianpress.com##.sgpb-popup-dialog-main-div-wra
 asianjournal.com,creativedestructionmedia.com,floridianpress.com##.sgpb-popup-overlay
 medicaldaily.com##.share
 factcheck.afp.com##.sharing-wrapper-banner
+vtdigger.org##.shop-promo
 platformer.news,substack.com##.show-subscribe
 swissinfo.ch##.si-teaser--newsletter-subscription
 worldcrunch.com##.side-bar-nl-wrap
@@ -43979,6 +43990,7 @@ decider.com##.widget_nypost_decider_social_connect_widget
 boulderweekly.com##.wisepops-container
 boulderweekly.com,insideclimatenews.org##.wisepops-root
 visualcapitalist.com##.wp-image-1216
+thefinancialdiet.com##.wp-image-18627
 5pillarsuk.com##.wpcf7
 ipatriot.com##.wpdev-email-signup
 visualcapitalist.com##.wpforms-ajax-form
@@ -50206,6 +50218,8 @@ funweek.it##.xnc-form-general__container
 corriere.it##a[href*="/newsletter"]
 01net.it##a[href="/iscriviti-alla-newsletter"]
 gds.it,qualenergia.it##a[title="Newsletter"]
+! Japanese
+japantimes.co.jp###newsletter1-offer
 ! Norwegian
 ! Polish
 ! Portuguese
