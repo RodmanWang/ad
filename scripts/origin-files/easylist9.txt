@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202302250913
+! Version: 202302251233
 ! Title: Fanboy's Annoyance List
-! Last modified: 25 Feb 2023 09:13 UTC
+! Last modified: 25 Feb 2023 12:33 UTC
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -42213,6 +42213,7 @@ gq.com##.consumer-marketing-unit--cm-footer
 ici.radio-canada.ca##.container-adbox-autopromo
 vox.com##.contribute-banner
 themoscowtimes.com##.contribute-bar
+themoscowtimes.com##.contribute-teaser-mobile
 thejournal.ie##.contribution-prompt
 thepostmillennial.com##.contributions-container
 thepostmillennial.com##.contributions-epic
@@ -42287,6 +42288,7 @@ bitchute.com##.membership-container > span
 euobserver.com##.membership-upsell
 eurogamer.net,rockpapershotgun.com,vg247.com##.merch_component
 finecooking.com##.meter-bar
+motherjones.com##.mj-adblock-widget
 moneyweb.co.za##.mny-promo-popup
 disk.yandex.com##.mobile-badges
 propublica.org##.module-donate
@@ -42362,6 +42364,7 @@ sporcle.com##.sporcle-promo
 imobie.com##.sprtadv
 scientificamerican.com##.spw__banner
 bleepingcomputer.com##.stackcommerce-widget
+i24news.tv##.sticky-bottom-banner
 goodmorningamerica.com##.sticky-footer
 thebulwark.com##.store-footer
 cryptorank.io##.styled__Wrapper-sc-1xbee9a-0
@@ -42733,6 +42736,7 @@ trakt.tv###ios-official-wrapper
 ivoox.com###jq-box-app
 mobile.twitter.com###layers div[class="css-1dbjc4n r-l5o3uw r-97e31f"]
 startpage.com###marketing-tag-container
+oneindia.com###open-app
 windy.com###open-in-app
 timesnownews.com###openin-app
 zillow.com###pfs-upsell
@@ -42853,7 +42857,7 @@ mobile.here.com##.newbanner
 outsideonline.com##.o-promo-module
 france24.com##.o-pwa-ah2s
 linkedin.com##.omnibanner
-india.com##.open-app
+india.com,oneindia.com##.open-app
 tinyview.com##.open-app-container
 m.gearbest.com##.open-app-dialog.layui-m-layerchild
 flightradar24.com##.open-in-app-button
@@ -42861,6 +42865,7 @@ m.moboreader.com##.openApp
 hindustantimes.com##.openAppButton
 m.bilibili.com##.openapp-dialog
 livemint.com##.openinApp
+livemint.com##.openinApp2
 satellitemap.space##.overlay-open-in-app-button
 islambook.com##.panel-danger
 dahuasecurity.com##.partners
@@ -43143,6 +43148,7 @@ pqube.co.uk###text-8
 theplaylist.net###text-9
 thefiscaltimes.com###tft-subscription-inline-block
 techinformed.com###ti-subscribe-form
+postandcourier.com###tncms-region-article_instory_bottom
 the74million.org###toaster_banner
 filmaffinity.com###top-anch
 news-medical.net###topic-notification-signup-box
@@ -43300,6 +43306,7 @@ northdevongazette.co.uk##.c-subscribe
 arrowheadpride.com,badlefthook.com,barcablaugranes.com,bavarianfootballworks.com,bleedinggreennation.com,bloggingtheboys.com,bloodyelbow.com,brightsideofthesun.com,cagesideseats.com,celticsblog.com,eater.com,goldenstateofmind.com,libertyballers.com,managingmadrid.com,mmafighting.com,mmamania.com,polygon.com,silverscreenandroll.com,sounderatheart.com##.c-toaster
 sportsline.com##.cWZgjA
 benzinga.com##.call-to-action-container
+eurasianet.org##.callout
 thegazette.com##.capdigest_sign_up_page_breaker
 thepostmillennial.com##.card-body
 neowin.net##.category-bar
@@ -43618,6 +43625,7 @@ insideevs.com,motor1.com##.msnt-mail-dialog
 insideevs.com##.msnt-mail-footer
 itweb.co.za##.mt-3.itw-noprint
 cloudflare.com##.mt6.ph2.bg-blue4
+postandcourier.com##.murdaugh-newsletter-offer-2
 visualcapitalist.com##.mvp-widget-home-head
 ft.com##.n-sliding-popup
 tutorialslink.com##.n-subscribe-footer
@@ -43644,6 +43652,7 @@ drive.com.au##.newsSubscribe
 morningconsult.com##.news__subscribe
 weta.org##.news_signup
 la-croix.com##.news_w_02
+whmi.com##.newsextras
 newsbtc.com##.newsform
 as.com##.newsl-suscribe__content
 financialit.net##.newslatter-s
@@ -43656,18 +43665,20 @@ robbreport.com##.newsletter-link
 sandiegoreader.com##.newsletter-m
 177milkstreet.com##.newsletter-main-old
 177milkstreet.com##.newsletter-mini
-bloomberg.com,forward.com,sandiegouniontribune.com,tvinsider.com,wamu.org##.newsletter-module
+bloomberg.com,forward.com,latimes.com,sandiegouniontribune.com,tvinsider.com,wamu.org##.newsletter-module
 sportico.com##.newsletter-podcast
 mikebloomberg.com,superdeluxeedition.com##.newsletter-popup
 narcity.com##.newsletter-prompt
 poynter.org##.newsletter-section
 sciencefocus.com##.newsletter-sign-up
 capitaltransport.com##.newsletter-sign-up-wrapper
-abovethelaw.com,blackburnnews.com,creation.com,dallasinnovates.com,euobserver.com,fox10phoenix.com,fox13news.com,fox26houston.com,fox32chicago.com,fox35orlando.com,fox5atlanta.com,fox6now.com,foxla.com,hcn.org,ketv.com,komando.com,ktvu.com,livescience.com,newsweek.com,nugs.net,publicdomainreview.org,q13fox.com,thekitchenmagpie.com,wesh.com,wgal.com,wlwt.com,womanandhome.com,wqxr.org,wyff4.com##.newsletter-signup
+abovethelaw.com,blackburnnews.com,creation.com,dallasinnovates.com,euobserver.com,fox10phoenix.com,fox13news.com,fox26houston.com,fox32chicago.com,fox35orlando.com,fox5atlanta.com,fox6now.com,foxla.com,hcn.org,kcci.com,kcra.com,ketv.com,komando.com,ktvu.com,livescience.com,newsweek.com,nugs.net,publicdomainreview.org,q13fox.com,thekitchenmagpie.com,wcvb.com,wesh.com,wgal.com,wlwt.com,womanandhome.com,wqxr.org,wyff4.com##.newsletter-signup
 foreignpolicy.com##.newsletter-signup-and-ads
+newyorker.com##.newsletter-subscribe-form
 alarabiya.net##.newsletter-subscription
 straightarrownews.com##.newsletter-tout
 ijnet.org##.newsletter-wrapper
+bigislandnow.com##.newsletterSignupGrid
 petri.com##.newsletterWide
 usafacts.org##.newsletter__block
 abplive.in##.newsletter_div
@@ -44451,6 +44462,7 @@ texasmonthly.com##.article-end__section
 revizoronline.com##.article-footer
 financemagnates.com##.article-icons
 financemagnates.com##.article-icons-color
+postandcourier.com##.article-share-nav
 babylonbee.com,notthebee.com##.article-shareables
 topgear.com.ph##.article-stats
 dailystar.com.lb,eurekalert.org,theamericanconservative.com##.article-tools
@@ -44887,6 +44899,7 @@ lgbtqnation.com##.noicon
 nationalpost.com##.npFindOnFacebookContainer
 crypto-news-flash.com##.nso_single_social
 oakgov.com##.oc-arrow-container
+boldsky.com##.one-head-share1-links
 radarbox.com##.open.modal-component.jtIRMP
 wanda-group.com##.other-link
 fidelity.com##.page-controls
