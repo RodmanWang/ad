@@ -5520,7 +5520,7 @@ nethunt.com/api/v1/track/email/$image
 ||d1n00d49gkbray.cloudfront.net^
 ||in.unext.jp^
 ||s.360.cn^
-||sp*.baidu.com^
+||sp0.baidu.com^
 ||analytics.map.qq.com^
 ||zhihu-web-analytics.zhihu.com^
 ||sugar.zhihu.com^
@@ -36851,7 +36851,7 @@ _tracking.php?b=
 !
 ! Tealium
 ! The site should be carefully checked when you add this rule
-||tags.tiqcdn.com/utag/*/prod/utag.js$domain=radissonhotels.com|post.ch|usnews.com|d1lynpf6ndesae.cloudfront.net|rukrymr.azureedge.net|krymr.com|cnet.com|adidas.co.uk|adidas.nl|adidas.pl|lineadirecta.com|sibreal.org|modernatx.com|louisvuitton.com
+||tags.tiqcdn.com/utag/*/prod/utag.js$domain=radissonhotels.com|post.ch|usnews.com|d1lynpf6ndesae.cloudfront.net|rukrymr.azureedge.net|krymr.com|cnet.com|adidas.co.uk|adidas.nl|adidas.pl|lineadirecta.com|sibreal.org|modernatx.com|louisvuitton.com|simplybusiness.co.uk
 ||tags.tiqcdn.com/utag/*/utag.sync.js$domain=yousee.dk|sibreal.org
 !
 !
@@ -36887,6 +36887,8 @@ _tracking.php?b=
 /analytics.js$domain=freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|newsmax.com|bolgehastanesi.com|ewtc.de|newsdig.tbs.co.jp|imore.com|city.kushiro.lg.jp|emeraldbridal.com.au|emarat-news.ae|imobie.jp|tikla.com.tr
 ||assets.adobedtm.com^$domain=mcclatchydc.com|elnuevoherald.com|bellinghamherald.com|sacbee.com|charlotteobserver.com|newsobserver.com|miamiherald.com|ef.ru|algida.com.tr|bmw-motorrad.co.uk|cif.com.tr|clearhaircare.com|domestos.com|dove.com|elidor.com.tr|f1sport.autorevue.cz|geico.com|hellmanns.com.tr|herkessofraya.com|johnsonsbaby.com.tr|lipton.com|lnk.to|lux.com|magnumicecream.com|neutrogena.com.tr|omo.com|rexona.com|samsung.com|sap.com|schwarzkopf.com.tr|signalturkiye.com|msnbc.com|nbcnews.com|kbb.com|eurosport.ru|timgate.it|intermiles.com|oxfordmail.co.uk|spiegel.de|hp.com|deutschepost.de|thebay.com|s.shufoo.net|tsn.ca|tabelog.com|euronews.com|newshub.co.nz
 !
+||webtekno.com/ajax-ping
+||webtekno.com/ajax/ometric
 vidaextra.com##div[style="width:100%; height:160px"]
 ||halktv.com.tr/stats/
 digi.no##img[src^="https://ish.tumedia.no/ish_tracker.gif"]
@@ -40320,6 +40322,7 @@ $cookie=ki_r
 $cookie=ki_t
 ! Tradedoubler
 ! The GUID Cookie holds an identifier to support server side storage of the user event history
+$cookie=EH_0
 $cookie=TradeDoublerGUID
 $cookie=TRADEDOUBLER
 ! Eloqua - collects information about how visitors use a website, for instance which pages visitors go to most often, and which search terms visitors used to get to our websites
@@ -40831,6 +40834,9 @@ $cookie=bf_visit
 ! Bad:  ||monerominer.rocks^$third-party (should be in adservers.txt)
 !
 !
+! Tradedoubler
+! https://dev.tradedoubler.com/tracking/advertiser/
+||tradedoubler.com^$cookie=GUID
 ! https://github.com/AdguardTeam/AdguardFilters/issues/142645
 ||sina.cn^$cookie=recent_visited
 ! https://github.com/AdguardTeam/AdguardFilters/issues/142356
@@ -42046,6 +42052,10 @@ $app=com.miui.analytics
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/143693
+@@||googletagmanager.com/gtm.js$domain=plaion.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/143218
+@@||openfpcdn.io/fingerprintjs/v3|$domain=imgcreator.zmo.ai
 ! https://github.com/AdguardTeam/AdguardFilters/issues/143708
 !+ NOT_PLATFORM(windows, mac, android, ext_chromium)
 @@||cdn.viglink.com/api/vglnk.js$domain=9to5google.com|9to5mac.com|9to5toys.com|dronedj.com|electrek.co
