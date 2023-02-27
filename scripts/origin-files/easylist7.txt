@@ -86,6 +86,7 @@
 ! SECTION: Widgets (sougo RSS) - Blogroll
 !
 ! NOTE: Blogroll generic
+||blog-rss.com^$third-party
 ||komatech.net^$third-party
 ||rssfetcher.blogsys.jp^
 ||blog.livedoor.jp/plugin/ldblog_rss_plugin.js
@@ -218,6 +219,7 @@ blog.livedoor.jp##div[id^="shitarss_title_"]
 !
 ! NOTE: Blogroll third-party sites
 !
+erodaizensyu.com##p > a[href] > iframe[src^="//blog-rss.com"]
 ||mudainodocument.com/headline9.html
 mudainodocument.com##.menu_cont3
 mudainodocument.com##.menu_title3
