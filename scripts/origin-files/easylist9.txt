@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202302271754
+! Version: 202302272120
 ! Title: Fanboy's Annoyance List
-! Last modified: 27 Feb 2023 17:54 UTC
+! Last modified: 27 Feb 2023 21:20 UTC
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -40343,6 +40343,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||kayak.*/privacy/
 ||kotaku.com/wrapper/*/gdpr/$xmlhttprequest,domain=kotaku.com
 ||lacompagnie.com/Content/dist/templates/common/popupCookies/
+||live.mrf.io/cmp/$domain=m.washingtontimes.com
 ||mad-daily.com^*/cp-module-
 ||masaltos.com/js/cookies-
 ||medicalnewstoday.com/_next/chunks/modal-0cb79-legacy.js
@@ -41943,6 +41944,7 @@ universetoday.com##.adv-link
 hindawi.com##.advWrapper
 adexchanger.com##.adx-membership
 science.org##.alert-donation
+damemagazine.com##.an_independent
 darkreading.com##.announcement
 thebookseller.com##.ao-cpa
 coinpaprika.com##.api-promo-banner
@@ -41950,6 +41952,8 @@ apkmirror.com##.apkm-timed-slider
 nature.com##.app-featured-row__item
 disk.yandex.com##.app-promo-banner
 atlasobscura.com##.article-gastro-interruptor
+damemagazine.com##.article-support-bump
+damemagazine.com##.article-top-donate-bump
 aarp.org##.backgroundParsys
 freecodecamp.org,monkeytype.com,singsnap.com##.banner
 flaticon.com##.banner-campaign
@@ -42069,6 +42073,7 @@ golem.de##.li-reset
 londonnewsonline.co.uk##.londo-target
 pravda.com.ua##.m_banner
 investors.com##.market-banner
+themedialine.org##.mdl-section-donate-banner
 developer.mozilla.org##.mdn-cta-container
 bitchute.com##.membership-container > .spa
 bitchute.com##.membership-container > span
@@ -42129,6 +42134,7 @@ venafi.com##.right-col-banner-ad
 usmagazine.com##.right-rail
 skeptoid.com##.right-sidebar
 capital.com##.riskWarning
+damemagazine.com##.row_background_red_padding
 biometricupdate.com##.sb_spotlight
 slideshare.net##.scribd-ad-exit-modal
 golem.de##.sdgSlotContainer
@@ -42169,6 +42175,7 @@ theblock.co##.theblockpro
 theblock.co##.theblockresearch
 pjmedia.com##.thm-piano-bottom
 pjmedia.com,townhall.com##.thm-piano-eop
+themedialine.org##.tml-popup-donate-holder
 thenextweb.com##.tnw-ad-wrapper
 truthout.org##.to4-donate-trigger
 crypto.com##.top-banner__item
@@ -42666,6 +42673,7 @@ m.gearbest.com##.open-app-dialog.layui-m-layerchild
 flightradar24.com##.open-in-app-button
 m.moboreader.com##.openApp
 hindustantimes.com##.openAppButton
+cgtn.com##.openBtn
 m.bilibili.com##.openapp-dialog
 livemint.com##.openinApp
 livemint.com##.openinApp2
@@ -43388,6 +43396,8 @@ landline.media##.mc-embed
 arabnews.com,castanet.net,tribalfootball.com##.mc_embed_signup
 elespanol.com##.md-suscription
 digg.com##.md\:p-6.p-3.rounded-md
+themedialine.org##.mdl-fixed-informer
+themedialine.org##.mdl-section-subscribe
 chronicle.com##.media-width-half
 livecoinwatch.com##.message
 sun-sentinel.com##.met-flyout
@@ -43753,6 +43763,7 @@ ncaa.com##.tile-newsletter
 moneysavingexpert.com##.tip-email-popup
 ba-bamail.com##.tm-desk-reg-box-wrapper
 ba-bamail.com##.tm-join-box
+themedialine.org##.tml-in-content-block--subscribe
 thenewdaily.com.au##.tnd-subscribe-modal
 viamichelin.at,viamichelin.be,viamichelin.ch,viamichelin.co.uk,viamichelin.com,viamichelin.de,viamichelin.es,viamichelin.fr,viamichelin.ie,viamichelin.it,viamichelin.pl,viamichelin.pt##.toaster-newsletter
 justthenews.com##.top-bar
