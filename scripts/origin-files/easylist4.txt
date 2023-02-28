@@ -3199,6 +3199,11 @@ dniwolne.eu#$#.adsbygoogle { height: 1px!important; }
 !+ NOT_PLATFORM(windows, mac, android)
 @@||pubads.g.doubleclick.net/gampad/adx?*/ad-blk$domain=washingtonpost.com
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/144131
+! https://github.com/uBlockOrigin/uAssets/commit/1ee4f5164c968f98022784b287524eab2541005e
+!+ NOT_PLATFORM(windows, mac, android)
+||clickio.mgr.consensu.org^$script,redirect-rule=noopjs,domain=mdn.lol
+!
 ! NOTE: Grouped rules for specific sites end ⬆️
 ! !SECTION: Anti-adblock - Grouped rules for specific sites
 !
@@ -12769,8 +12774,8 @@ dedicatedbrand.com##.modal--newsletter
 reason.com##.puprf-signup-widget
 naukatehnika.com#?#.block > ul > li.onlypk:has( > img[onclick^="window.open"][onclick*="zen.yandex.ru"])
 ||naukatehnika.com/assets/cache_image/files/journal/bannera_glavnaya/*/zen_
-kdnuggets.com,edtimes.in,rossiniartsite.com,tip-berlin.de,stoodnt.com,zimamagazine.com##.boxzilla-container
-kdnuggets.com,edtimes.in,rossiniartsite.com,tip-berlin.de,stoodnt.com,zimamagazine.com##.boxzilla-overlay
+beverlypress.com,kdnuggets.com,edtimes.in,rossiniartsite.com,tip-berlin.de,stoodnt.com,zimamagazine.com##.boxzilla-container
+beverlypress.com,kdnuggets.com,edtimes.in,rossiniartsite.com,tip-berlin.de,stoodnt.com,zimamagazine.com##.boxzilla-overlay
 try-it.jp#%#//scriptlet('prevent-addEventListener', 'load', 'event.dispatch.apply')
 vokrug.tv#?#.articlesdiv > center:has(> a[href="https://zen.yandex.ru/vokrug.tv"])
 komus.ru##.new-subscribe
