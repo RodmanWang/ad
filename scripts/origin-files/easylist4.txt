@@ -473,6 +473,7 @@ reddit.com#@#.ADBAR
 !#safari_cb_affinity
 !
 ! Add same rules to the Admiral section of Tracking Protection filter
+||boundlessbrake.com^$third-party
 ||distributionneck.com^$third-party
 ||aliasanvil.com^$third-party
 ||shiveringspot.com^$third-party
@@ -10434,6 +10435,8 @@ jiji.com,edp24.co.uk,technologyreview.com,inews.co.uk,nordbayern.de,thelocal.ch,
 !
 ! SECTION: Subscriptions - Regular rules
 !
+xda-developers.com###newsletter-popup-container
+foxnews.com##.alert-banner
 profgalloway.com#%#//scriptlet('set-cookie', 'closedsticky', 'true')
 estetic-dent-sklep.pl##.wce_popup-consolidator
 broadwayworld.com##form[action^="/register.cfm?"]
@@ -10840,7 +10843,7 @@ vpnmag.ru#?##canvas-content > div.cnvs-block-section:has(h2#prisoedinyaytes)
 newsweek.pl##.pw-article__newsletter-wrapper
 codingdeft.com##div[class^="SubscribeFormstyles_"]
 moderndiplomacy.eu###mvp-side-wrap a[href="https://moderndiplomacy.eu/md-premium/"] > img
-gamerant.com,screenrant.com,makeuseof.com,androidpolice.com##.article-footer-newsletter
+xda-developers.com,gamerant.com,screenrant.com,makeuseof.com,androidpolice.com##.article-footer-newsletter
 cnnindonesia.com###subscribe__fixed
 vtc.vn##.align-bot
 moneysavingexpert.com##.tipListBox
