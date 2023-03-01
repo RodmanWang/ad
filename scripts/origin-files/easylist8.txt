@@ -2868,6 +2868,7 @@ nfmovies.com#@?#div[id]:-abp-has(>img[onclick="openurl()"])
 !--------------- EasyList China rules --------------------------------------!
 !---------------------------------------------------------------------------!
 -*-*-*-*.panda^$script,third-party
+://xingkong6688s.oss-
 -1688-wp-media/ads/
 -90mh-gg.
 .bid/ads/
@@ -3589,9 +3590,9 @@ ubmcmm.baidustatic.com
 |http://*/js/tc.js
 |http://ad.$domain=~ad.cnr.cn|~ckckk.com|~jxnews.com.cn
 |http://gg.$third-party,domain=~guagua.cn
+||ssh.*.com^*!$script,third-party
 ||allyes.$third-party
 ||asd8900.oss-*.aliyuncs.com^
-||ssh.*.com^*!$script,third-party
 ||vns86.oss-*.aliyuncs.com^
 ||zhizhizhizhi.oss-*.aliyuncs.com^
 ###Ad_windows
@@ -5169,6 +5170,11 @@ newduba.cn###jq_youxi
 ||guoandong.ltd^
 ||accommodatingremindauntie.com^
 ||uniway.cn.com^
+||weighcb.com^
+||beatricecathy.com^
+||hkbzl.hk^
+||oiqdjksgpo.com^
+||wfndponfd.com^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]

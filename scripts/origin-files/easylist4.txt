@@ -621,6 +621,7 @@ w3resource.com#@#.ad-placement
 ! SECTION: Anti-adblock - Regular rules
 ! Do not forget about '!#safari_cb_affinity' section for exclusions
 !
+moddroid.com###ad_block_reminder_dialog
 fulltime-predict.com#$#.modal { display: none !important; }
 fulltime-predict.com#$#.modal-backdrop { display: none !important; }
 fulltime-predict.com#$#body.modal-open { overflow: auto !important; }
@@ -3397,6 +3398,8 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+technologyreview.com###piano__pinnedFooter
+agents.media###telegramModal
 community.usa.canon.com##.lia-panel-dialog
 community.usa.canon.com##.ui-widget-overlay
 ctidoma.cz###next-article
@@ -4565,7 +4568,7 @@ gostynska.pl,ddbelchatow.pl,jarocinska.pl,klodzko24.eu,nowaruda24.pl,portalplock
 magazine.jp.square-enix.com#$##layer_board_area { display: none!important; }
 magazine.jp.square-enix.com#$#html { overflow: auto !important; }
 magazine.jp.square-enix.com#$#body { overflow: auto !important; }
-tylko.com##.announcement
+darkreading.com,tylko.com##.announcement
 medonet.pl##.ntzpPopup
 medonet.pl###haloDoctorPopup
 medonet.pl##body.withHPU::before
@@ -10439,6 +10442,11 @@ jiji.com,edp24.co.uk,technologyreview.com,inews.co.uk,nordbayern.de,thelocal.ch,
 !
 ! SECTION: Subscriptions - Regular rules
 !
+technologyreview.com#$#.tp-modal { display: none!important; }
+technologyreview.com#$#.tp-backdrop { display: none!important; }
+technologyreview.com#$#html.tp-scroll-prevented { overflow: visible!important; }
+mrsteinberg.com###contact
+mrsteinberg.com##.comments2
 xda-developers.com###newsletter-popup-container
 foxnews.com##.alert-banner
 profgalloway.com#%#//scriptlet('set-cookie', 'closedsticky', 'true')
@@ -12913,7 +12921,7 @@ theblogsmasher.in#?#.wp-block-quote:has(> p > a[href^="https://chat.whatsapp.com
 aws.amazon.com#?#.lb-row > div.lb-col:has(> div.lb-tiny-iblock[style="background-color:#eaeded;"])
 steezy.co#?#div[class^="div-block-"] > div.w-form:has(> form[data-name] > input[type="email"])
 kaspersky.com#?#.c-page > section:has(> section > div.o-container-fluid > div.c-form--newsletter)
-wallpaper.com,marksandspencer.com,blogto.com,deingartenbedarf.de,amp.usatoday.com,thewirecutter.com,thebaffler.com,androidpolice.com##.newsletter-container
+1prospekte.de,wallpaper.com,marksandspencer.com,blogto.com,deingartenbedarf.de,amp.usatoday.com,thewirecutter.com,thebaffler.com,androidpolice.com##.newsletter-container
 androidpolice.com#?#.sidebar > .sidebar-trending > .newsletter-container:upward(1)
 livelib.ru###popup-mail
 gazeteduvar.com.tr,sanliurfaolay.com,medyatava.com,internethaber.com##.google-news_wrapper
@@ -14843,7 +14851,7 @@ photo-monster.ru###subSidebar
 earthsight.org.uk,infobus.*,biblio.com,acf.international,codastory.com,atbmarket.com,dogeat.ru,oggusto.com,pcsecrets.ru,paradoxplaza.com,beforeitsnews.com,nplus1.ru###subscribe
 problogbooster.com###subscribe-box-sbm
 dreamfancy.org###subscribe-css
-the-village.ru,aljazeera.com,psychologies.ru###subscribe-form
+buttondown.email,the-village.ru,aljazeera.com,psychologies.ru###subscribe-form
 revistapegn.globo.com,epocanegocios.globo.com,vogue.globo.com,smh.com.au,theage.com.au###subscribe-newsletter
 chips-journal.ru##.subscribe-newsletter-simple
 vpntesting.com,magilev.by,bobruisk.ru###subscribe-popup
