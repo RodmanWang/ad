@@ -3399,6 +3399,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+tvguide.com##.c-avLazyStickyVideo div.c-avLazyStickyVideo-sticky
 everythingrf.com###FeaturedContentScroll
 hejsweden.com#$#body > div[class^="hustle-ui hustle-popup"] { display: none !important; }
 hejsweden.com#$#body { overflow: auto !important; }
@@ -12087,7 +12088,7 @@ lexpress.fr##.js-newsletter__form
 app-time.ru##.sba-block
 kioskpolis.pl#$##exit-intent { display: none !important; }
 kioskpolis.pl#$#body.exit-intent { overflow: auto !important; }
-kaktus.media##.Article--tg-block
+kaktus.media,kaktus.kg##.Article--tg-block
 anamurekspres.com##a[href="https://www.anamurekspres.com/mail-bulteni.html"] > img
 starhit.ru##div[data-autogoal-click="favnews_yanews_click"]
 texty.org.ua###subscribebanner-target
