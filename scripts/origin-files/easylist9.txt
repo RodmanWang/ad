@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202303030836
+! Version: 202303031232
 ! Title: Fanboy's Annoyance List
-! Last modified: 03 Mar 2023 08:36 UTC
+! Last modified: 03 Mar 2023 12:32 UTC
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -26731,6 +26731,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ###eu-cookie-policy-popop
 ###eu-cookie-policy-popup
 ###eu-cookie-sliding-popup
+###eu-cookie-sliding-popup-overlay
 ###eu-cookie-stuff
 ###eu-cookie-warning-banner
 ###eu-cookie-warning-div
@@ -42908,6 +42909,7 @@ paloaltoonline.com###side-block-04
 washingtonmonthly.com###signup
 livenation.co.nz###signup-component
 6sqft.com###signupWrapper
+seatguru.com###signup_large
 247wallst.com###signupbar
 domainnamewire.com###simple-banner
 breakingenergy.com###simplemodal-overlay
@@ -45966,16 +45968,19 @@ antoineonline.com##.container-overlay
 writerduet.com##.container.pb-4.pt-4
 onthehub.com##.containerDefaultClass
 iconscout.com##.container_hP6iH
+navigare-yachting.com##.cookie-box-popup
 dreamingreece.com##.cookie-consent-inner
 cameronhouse.co.uk,postimees.ee##.cookie-container
 ford.co.uk,theatlantic.com##.cookie-disclaimer
 parliament.uk##.cookie-manager
 gsm55.com##.cookie-module__cookieContainer___3EHjh
 privacy.samsung.com##.cookie-noneu
+victors.co.uk##.cookie-notice-visible
 pnas.org,silmid.com,socialclickweb.com##.cookie-policy
 lavueltaholanda.com##.cookie-prefs-wrapper
 outfit7.com##.cookie-settings
 fydeos.com,fydeos.io##.cookieBox___2OASs
+allcleartravel.co.uk##.cookieConsentContainer
 monitalks.xyz##.cookiePopup_entered__2rs67
 vivid.money##.cookieSettings__contentContainer__iZXMG
 icicibank.com##.cookieTextArea
@@ -46326,6 +46331,7 @@ helium.com##.jsx-352197324
 notion.so##.jsx-539809080
 jetbluevacations.com##.jtpsdk-body-blackout
 jetbluevacations.com##.jtpsdk-popup-modal
+kegworks.com##.ju_Con
 canva.com##.jv5LaQ
 trontv.com##.jw-popups
 trontv.com##.jw-popups-backdrop
@@ -46632,6 +46638,7 @@ okaysou.com##.privacy_box
 localrent.com##.privacy_policies
 turbovpn.com##.privacy_tips
 diotec.com##.privacyoption_overlay
+ubs.com##.privacysettings__banner
 lilysilk.com##.privacywrap
 aiscore.com##.privaryClass
 parliament.scot##.projects-takeover
@@ -50130,6 +50137,7 @@ ruegenwalder.de###csdialogbd
 ruegenwalder.de###csdialogmd2
 rentalens.ch###dabar
 guetsel.de###dark
+eve-audio.de###dark-privacy
 speisekarte24.de###dasu
 weserwohnwelt.de###datenschutzBalgeNew
 paschal.de###decker
@@ -50419,6 +50427,7 @@ hometogo.de##.posf.react-onclickoutside
 r-m.de##.privacy-container
 getdigital.de##.privacy-wrapper
 klimaanlage.at##.privacyControlBadge
+eve-audio.de##.privacycookieA
 cronn.de##.privacyoverlay
 flyer.be##.region-announcements
 karriere-suedwestfalen.de,regioactive.de##.reveal-modal
@@ -53909,7 +53918,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||iccreabanca.it/SiteAssets/js/cookie_js/cookies.dyn.js
 @@||idg.se/idg-consent.min.js$script
 @@||internazionale.it/assets/js/cookies_gdpr.js?
-@@||iubenda.com^$script,subdocument,xmlhttprequest,domain=105.net|3bmeteo.com|all3dp.com|ansa.it|automoto.it|brutkasten.com|capital.it|cioccolatonippon.it|huffingtonpost.it|ilmessaggero.it|ilsecoloxix.it|lastampa.it|leggo.it|m2o.it|mediaset.it|mee6.xyz|meteo.it|moto.it|multiplayer.it|quotidiano.net|r101.it|radiomontecarlo.net|rockol.it|today.it|tomshw.it|video.deejay.it|video.espresso.repubblica.it|video.ilsecoloxix.it|video.repubblica.it|virginradio.it
+@@||iubenda.com^$script,subdocument,xmlhttprequest,domain=105.net|3bmeteo.com|all3dp.com|ansa.it|automoto.it|brutkasten.com|capital.it|cioccolatonippon.it|darkhorizons.com|huffingtonpost.it|ilmessaggero.it|ilsecoloxix.it|lastampa.it|leggo.it|m2o.it|mediaset.it|mee6.xyz|meteo.it|moto.it|multiplayer.it|quotidiano.net|r101.it|radiomontecarlo.net|rockol.it|today.it|tomshw.it|video.deejay.it|video.espresso.repubblica.it|video.ilsecoloxix.it|video.repubblica.it|virginradio.it
 @@||kalaydo.de^*/cookie-consent.jsc.js$domain=kalaydo.de
 @@||kjellmann.no^*/cookielaw/css/cookielaw.css$stylesheet
 @@||mediaset.it/cookie_solution/empty.html$subdocument,domain=mediaset.it|meteo.it
