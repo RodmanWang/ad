@@ -643,7 +643,6 @@ grabify.link###ab
 thegay.tube###ablock-notify
 dev.miuiflash.com##div[class^="rrrrr"]
 btvsports.sbs###i41c
-ubitennis.com###fatdvjq-blanket
 proviralhost.com,examtadka.com###modalpop
 websearch.rakuten.co.jp###adblocker-warning-popup
 hellomagazine.com#$#a.ad-slot.ad-mpu[href^="http://ad.doubleclick.net/"][style*="left: -10000px !important; top: -1000px !important;"] { display: block !important; }
@@ -10453,6 +10452,7 @@ jiji.com,edp24.co.uk,technologyreview.com,inews.co.uk,nordbayern.de,thelocal.ch,
 !
 ! SECTION: Subscriptions - Regular rules
 !
+fashionsnap.com#?#footer[class^="_"] > div[class^="_"] > div[class^="_"] > div[class^="_"]:has(> p + form)
 shoppersdrugmart.ca##.module-promo-sign-up__wrapper
 tcaeintegral.es##.widget-area-wrapper
 llbean.ca##.ui-dialog
