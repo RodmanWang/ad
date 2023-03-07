@@ -79,6 +79,8 @@
 ! Bad: example.org###rek (should be in specific.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/144897
+voici.fr,gala.fr#%#//scriptlet('set-constant', 'DD_RUM.addTiming', 'noopFunc')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/143708
 ! Fixes issue with toggling dark/light mode
 9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co#%#AG_onLoad(function(){const a=document.createElement("div");document.documentElement.appendChild(a),setTimeout(()=>{a&&a.remove()},100)});
@@ -331,6 +333,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/79878
 jin115.com#?#.plugin-memo > div.side > script[src*="ziyu.net/"]:upward(2)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/140288#issuecomment-1385509403
+minnyuu.jp#?#div[class$="BlockBase"] > div > div > div.plugin-freearea > div.ninja-recommend-block:upward(4)
 mesyuu.com#?#div[class$="_outline"] > div > div.plugin-freearea > div.ninja-recommend-block:upward(3)
 doorblog.jp,pachinkopachisro.com,blog.livedoor.jp,blog.jp,vipstyle.tokyo#?#.plugin-memo > div.side > div.ninja-recommend-block:upward(2)
 blogterest.net#?#.blockSide > div.blockWrapper > div > div.ninja-recommend-block:upward(2)
@@ -40955,6 +40958,9 @@ cdn-settings.appsflyersdk.com^
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/144897
+!+ PLATFORM(ios, ext_android_cb, ext_safari)
+@@||datadoghq-browser-agent.com/datadog-rum-v*.js$domain=voici.fr|gala.fr
 ! https://github.com/AdguardTeam/AdguardFilters/issues/144788
 @@||googleoptimize.com/optimize.js$domain=bookmyshow.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/144470
