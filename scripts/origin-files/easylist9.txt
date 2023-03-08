@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202303072102
+! Version: 202303080103
 ! Title: Fanboy's Annoyance List
-! Last modified: 07 Mar 2023 21:02 UTC
+! Last modified: 08 Mar 2023 01:03 UTC
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -6961,6 +6961,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.js-tealium-newsletter
 ##.js_newsletter-btn--subscribe
 ##.js_newsletter-form-inline
+##.js_newsletter_curation_form
 ##.keystone-newsletter-class
 ##.kl-bx-newsletter
 ##.klaviyo_flyout
@@ -42866,6 +42867,7 @@ harborfreight.com##.dy-modal-container
 todaysparent.com##.e1989g6g1
 todaysparent.com##.e1mzwxyl0
 americastestkitchen.com##.eDjLlw
+gizmodo.com##.eLECQk
 namelymarly.com##.ebook
 zyro.com##.ebook-banner
 christiantoday.com##.ebookbox
@@ -43459,6 +43461,7 @@ bigbangnews.com##.suscribehorizontal
 securityweek.com##.sw-newsletter
 propublica.org##.syndicated-modal
 marktechpost.com##.td-a-rec-id-content_inline
+kbb.com##.td_block_kbb_bestcardeals_subscription_form
 opindia.com##.tdi_174
 nymag.com,thecut.com##.text-form-wrapper
 canarymedia.com##.text-gray-600.mt-5.py-4
@@ -43564,8 +43567,10 @@ euronews.com##div[class^="mailmunch-"]
 cpr.org##div[class^="newsArticleSignup_"]
 bramptonguardian.com,buzzfeednews.com,coindesk.com,cpr.org,petmd.com,sciencenews.org,snexplores.org,zicasso.com##div[class^="newsletter"]
 engadget.com##div[data-component="NewsletterCard"]
+rootforamerica.com##div[id^="PopupOverLay_SF_"]
 thenation.com##div[id^="inline_cta_"]
 haaretz.com##div[id^="newsletter"]
+rootforamerica.com##div[id^="pframe_SF_"]
 theblaze.com##div[id^="sWidget_-_Newsletter_"]
 dailydot.com##footer
 michiganmedicine.org##labcoat-promo
@@ -45159,6 +45164,7 @@ studiocanal.com###privacy-manager-popin
 xceptance.com###privacy-message
 dailyjournal.com,islamicfinder.org###privacy-modal
 govt.nz###privacy-notification
+nofrills.ca###privacy-policy
 foundryvtt.com###privacy-policy-prompt
 fa-mag.com###privacy-policy-sticky
 telegraph.co.uk###privacy-settings-prompt
@@ -45268,7 +45274,6 @@ here.com###wrapper
 coindix.com###xbanner
 dublininquirer.com##.-alert.-fixed.notice
 alpari.com,alpariforex.org##.-footer__notice
-smallpdf.com##.AcwpV
 port.ac.uk##.Alert
 cryptokitties.co##.Banner
 rottweil-ammunition.com##.BannerManager
@@ -46333,7 +46338,7 @@ layar.com##.remarketing-banner
 fixedfloat.com##.reminder
 carhartt.com##.reveal-modal
 marsh.com##.reveal-modal-bg-white
-islamicfinder.org##.reveal-overlay
+beerwulf.com,islamicfinder.org##.reveal-overlay
 mrgugu.com##.rhvQa
 ricola.com##.ricola-cookie-info
 southwestcoastpath.org.uk##.roar-body
@@ -50340,6 +50345,7 @@ timberland.com.tw##.cSAxXz
 infiniti.com.tw##.c_128
 cvimall.net##.chpFL
 converge.cn##.compliance
+crocs.com.hk##.cookie-accept-desktop
 hozonauto.com##.cookie-tips
 unity.cn##.cookies-permission_2kEyTVGb
 hkdecoman.com##.copyright-bottom-nav
@@ -53114,7 +53120,7 @@ hardware.info#@#.cookiecontainer
 book-n-drive.de#@#.cookiedialog
 balay.es,bosch-home.at,bosch-home.be,bosch-home.com,bosch-home.dk,bosch-home.es,bosch-home.fi,bosch-home.fr,bosch-home.lt,bosch-home.lu,bosch-home.nl,bosch-home.no,bosch-home.ro,bosch-home.se,bsh-group.com,constructa.com,home-connect.com,neff-home.com#@#.cookielaw-setcookiepolicy-form
 gids.tv#@#.cookiemessage
-asialadies.de,avladies.de,badeladies.de,behaarteladies.de,bizarrladies.de,busenladies.de,deutscheladies.de,devoteladies.de,dominanteladies.de,erfahreneladies.de,escorts24.de,exklusivladies.de,fkk24.de,grosseladies.de,hobbyladies.de,jungeladies.de,kollegin.de,kussladies.de,ladies.de,latinaladies.de,massierendeladies.de,mollyladies.de,nsladies.de,nymphomaneladies.de,orientladies.de,osteuropaladies.de,piercingladies.de,rasierteladies.de,schokoladies.de,tattooladies.de,tsladies.de,zaertlicheladies.de,zierlicheladies.de#@#.cookies-accept
+asialadies.de,avladies.de,badeladies.de,behaarteladies.de,bizarrladies.de,busenladies.de,deutscheladies.de,devoteladies.de,dominanteladies.de,erfahreneladies.de,escorts24.de,exklusivladies.de,filmmusic.io,fkk24.de,grosseladies.de,hobbyladies.de,jungeladies.de,kollegin.de,kussladies.de,ladies.de,latinaladies.de,massierendeladies.de,mollyladies.de,nsladies.de,nymphomaneladies.de,orientladies.de,osteuropaladies.de,piercingladies.de,rasierteladies.de,schokoladies.de,tattooladies.de,tsladies.de,zaertlicheladies.de,zierlicheladies.de#@#.cookies-accept
 trading212.com#@#.cookies-consent-popup
 amarujala.com#@#.cookies-container
 bankmillennium.pl#@#.cookies-info
