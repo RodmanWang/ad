@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202303090145
+! Version: 202303090331
 ! Title: Fanboy's Annoyance List
-! Last modified: 09 Mar 2023 01:45 UTC
+! Last modified: 09 Mar 2023 03:31 UTC
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -13081,13 +13081,11 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.fb-author
 ##.fb-cat
 ##.fb-cont
-##.fb-container
 ##.fb-controls__like
 ##.fb-count-flag
 ##.fb-custom-share
 ##.fb-custom-share-mobile
 ##.fb-desktop
-##.fb-dialog
 ##.fb-exit-popup-container
 ##.fb-exit-popup-inner
 ##.fb-fan-page
@@ -39992,7 +39990,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||widgets.openli.com^
 ||wpcc.io^$third-party
 ! privacy-mgmt.com
-||cdn.privacy-mgmt.com^$domain=anisearch.com|anisearch.de|anisearch.es|anisearch.fr|anisearch.it|anisearch.jp|idealo.co.uk|marketwatch.com|wsj.com
+||cdn.privacy-mgmt.com^$domain=anisearch.com|anisearch.de|anisearch.es|anisearch.fr|anisearch.it|anisearch.jp|idealo.co.uk|marketwatch.com|taz.de|wsj.com
 ! Consent Trackers
 ||opencmp.net^$script,third-party
 ! --------------------------Specific blocking filters--------------------------!
@@ -44953,6 +44951,7 @@ europa-plc.com###cookieplate
 accolade.eu###cookies-component
 tangomode-aga.eu###cookies-law
 worksheetcrafter.com###cookiesFormContainer
+freemius.com###cookies_opt_in
 mdachieve.com,pharmachieve.com###copyright-2
 atos.net,dsm.com,tesco.ie,unify.com###cp
 wayofleaf.com###cpop
@@ -45396,6 +45395,7 @@ mymuesli.com##.active.mask
 akeebabackup.com,batteryequivalents.com,displays.agneovo.com,imunify360.com,luxos.com,reshade.me,v-tac.eu##.activebar-container
 svitla.com##.agree-popup
 ticketmaster.ca##.agree-terms
+hedonism.com##.agreedPP
 marcocm.com##.agreement-popup
 factory.pixiv.net##.agreement-to-last-term
 festival-fabula.org##.agreetop
@@ -45556,6 +45556,7 @@ resmed.com##.c-notifications-wrapper
 loveholidays.com,loveholidays.ie##.c-o--
 rimowa.com##.c-rimpopin-wrapper--privacy
 corporate.comcast.com##.c-top-banner
+ustgear.com##.c-tracking-consent
 ii.co.uk##.c01194
 queengarnet.com##.c0211
 aplus.com##.c206
@@ -52574,8 +52575,6 @@ songkick.com#@#.facebook-share
 facebook.com#@#.facebook-widget
 facebook.com#@#.facebookLikeBox
 jappy.de#@#.facebookbutton
-book-secure.com,foxbit.com.br,marketdino.pl,mediaexpert.leszczynscy.pl,pajarito.de#@#.fb-container
-google.com#@#.fb-dialog
 flugzeugbilder.de,jjrichards.co.nz#@#.fb-footer
 allegro.pl,itweb.co.za#@#.fb-icon
 e-biznes.pl,facebook.com,fb.com,gifyagusi.pl#@#.fb-like
