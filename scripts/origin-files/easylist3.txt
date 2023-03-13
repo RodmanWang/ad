@@ -1699,6 +1699,8 @@ sasisa.ru#%#AG_onLoad(function() { window.Umobi = function() {}; });
 !-------CSS---------
 !-------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/145380
+diariocorreo.pe#$#section.st-sidebar__container { margin-top: 0 !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/142211
 apkmirror.com#$##ezmob-wrapper { display: none !important; }
 apkmirror.com#$#body { padding-top: 0 !important; }
@@ -2778,6 +2780,7 @@ memo.onl.jp,daily-sun.com,home.kingsoft.jp,berkem.ru,pixiv.net,cartoonpornvideos
 ! ##.ad
 shikiho.toyokeizai.net,newsee-media.com,rank1-media.com,m.proporn.com,rakuraku-info.jp,sugoren.com,dailynewsonline.jp,yakuji.co.jp,asahi.com,m.winporn.com,slate.com,sankei.com,gameranbu.jp,seiga.nicovideo.jp,m.arukikata.co.jp,setn.com,hateblo.jp,hatenablog.com,hatenablog.jp,hatenadiary.com,hatenadiary.jp,hatenadiary.org,syosetu.org##.ad
 !
+vkusno.plus##.block-xofda-block
 oppaisan.com###fix-bottom-AD
 oppaisan.com##.header_koukoku
 nikaraw.com##.adsterra
@@ -5307,7 +5310,7 @@ nakkheeran.in##.post-block .auto-responsive-ad
 netzwelt.de###leaderboard_mobile
 deviantart.com##.mobile_instream_ad_resizable
 milliyetemlak.com##a[href][target="_blank"].sno-itunes.external > img
-dni.ru,pdalife.ru##.js-banner
+utro.ru,dni.ru,pdalife.ru##.js-banner
 anifresh.com###minpack-sticker-frame
 desixflix.com,fistingplanet.com,bestjavporn.com,hentaiasmr.moe,stockingfetishvideo.com##.happy-header-mobile
 insider.com,rookie.shonenjump.com,gmx.*,zeit.de,jp.ign.com,opencritic.com,www-news18-com.cdn.ampproject.org,eurogamer.net,mumsnet.com,news18.com,amp.indiatimes.com,dronedj.com,bodybuilding.com,transfermarkt.de,mobil.stern.de##.ad-container
