@@ -5458,6 +5458,8 @@ nethunt.com/api/v1/track/email/$image
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||trj.valuecommerce.com^
+||aml.valuecommerce.com^
 ||thoth.utyug.media^
 ||prod.fennec.atp.fox^
 ||analytics.data.visenze.com^
@@ -41361,6 +41363,9 @@ cdn-settings.appsflyersdk.com^
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/144393
+!+ PLATFORM(ios, ext_android_cb, ext_safari)
+@@||google-analytics.com/analytics.js$domain=repo.hackyouriphone.org
 ! https://github.com/AdguardTeam/AdguardFilters/issues/144897
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@||datadoghq-browser-agent.com/datadog-rum-v*.js$domain=voici.fr|gala.fr

@@ -6123,7 +6123,6 @@
 ||adman.gr^
 ||adman.gr^$third-party
 ||admanage.com^$third-party
-||admanmedia.com^
 ||admanmedia.com^$third-party
 ||admantx.com^$third-party
 ||admarket.network^$third-party
@@ -6507,7 +6506,6 @@
 ||ads.iosappsworld.com^
 ||ads.javtit.com^
 ||ads.jianchiapp.com^
-||ads.linkedin.com^
 ||ads.linkedin.com^$third-party
 ||ads.marvel.com^
 ||ads.matomymobile.com^
@@ -6752,7 +6750,6 @@
 ||adsrv.kamehameha.click^
 ||adsrv.me^
 ||adsrv.wtf^
-||adsrv4k.com^
 ||adsrv4k.com^$popup
 ||adsrv4k.com^$third-party
 ||adsrvmedia.adk2.co^$important,third-party
@@ -8484,6 +8481,7 @@
 ||amjadfreesoft.com^$third-party,image
 ||amjoltiktor.com^
 ||amjtizfeqwz.com^
+||aml.valuecommerce.com^
 ||amltaqap.com^
 ||ammankeyan.com^
 ||ammankeyan.com^$popup
@@ -23235,6 +23233,7 @@
 ||dreyeli.info^
 ||drf8e429z5jzt.cloudfront.net^
 ||drfdisvc.walmart.com^
+||drfvtgbyk.xyz^
 ||dribbleads.com^
 ||dribbleads.com^$popup
 ||dribletbogled.com^
@@ -27679,6 +27678,7 @@
 ||fuckedbyme.com^$third-party
 ||fuckermedia.com^$third-party
 ||fuckers.nieuws.xxx^
+||fuckthat.xyz^
 ||fuckthat.xyz^$third-party
 ||fuckyoucash.com^$third-party
 ||fudeidsoanadthe.info^
@@ -31162,7 +31162,6 @@
 ||hisnote.cc^$third-party
 ||histats.com^$domain=avgle.com
 ||histats.com^$third-party
-||histock.info^
 ||histock.info^$third-party
 ||historicalbeam.com^$third-party
 ||historicalcarawayammonia.com^
@@ -45195,7 +45194,6 @@
 ||pahtky.tech^
 ||pahtwt.tech^
 ||pahtzh.tech^
-||paibopse.com^
 ||paibopse.com^$third-party
 ||paid-to-promote.net^$third-party
 ||paid.outbrain.com^
@@ -49996,7 +49994,6 @@
 ||reencoccous.store^
 ||reenginee.club^
 ||reerfdfgourgo.xyz^
-||reevaipi.com^
 ||reevaipi.com^$third-party
 ||reevoo.com^$third-party
 ||reevoopt.com^
@@ -64839,6 +64836,7 @@
 ||triumphantplace.com^
 ||triumphantplace.com^$popup
 ||trizonemellite.com^
+||trj.valuecommerce.com^
 ||trk-access.com^$popup
 ||trk-aspernatur.com^
 ||trk-consulatu.com^
@@ -66867,6 +66865,7 @@
 ||vgbify.underarmour.de^
 ||vge-mktg.vodafone.com^
 ||vgellr.esprit.de^
+||vgfutxwgq.com^
 ||vggzftw.cn^
 ||vghd.com^$third-party
 ||vgimer.cn^
@@ -69837,6 +69836,7 @@
 ||xdserv.com^
 ||xdtraffic.com^$popup
 ||xdvdrg.globalindustrial.com^
+||xdvsijtlhr.com^
 ||xdw9.top^
 ||xdwan.com^$third-party
 ||xdyjt.com^
@@ -71058,6 +71058,8 @@
 ||yldmgrimg.net^
 ||yleaxs.cn^
 ||yliabws.cn^
+||ylilauta.org^$document,replace=/(<script src="https:\/\/static\.ylilauta\.org\/js\/.+?\/Lauta\.js" )integrity=".*?" (type="module"><\/script>)/\$1\$2/
+||ylilauta.org^$document,replace=/(<script src="https:\/\/static\.ylilauta\.org\/js\/.+?\/Library\/ServiceWorker\.js" )integrity=".*?" (type="module"><\/script>)/\$1\$2/
 ||ylilauta.org^$document,replace=/(<script src="https:\/\/static\.ylilauta\.org\/js\/.+?\/Module\/FrameLoader\.js" )integrity=".*?" (type="module"><\/script>)/\$1\$2/
 ||ylilauta.org^$removeheader=link
 ||yljyjadlx.com^
