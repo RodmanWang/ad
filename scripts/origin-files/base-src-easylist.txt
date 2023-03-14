@@ -5469,7 +5469,7 @@
 ||ad.madvertise.de^
 ||ad.mail.ru^
 ||ad.mail.ru^$domain=my.mail.ru
-||ad.mail.ru^$domain=~mail.ru|~sportmail.ru
+||ad.mail.ru^$~image,domain=~mail.ru|~sportmail.ru
 ||ad.mediaprimaplus.com.my^
 ||ad.mobiuspace.net^
 ||ad.mox.tv^
@@ -5741,7 +5741,6 @@
 ||adclicks.io^$third-party
 ||adclickstats.net^$third-party
 ||adclickxpress.com^$third-party
-||adclixx.net^
 ||adcloud.net^
 ||adcolo.com^
 ||adcolony.com^
@@ -6555,7 +6554,7 @@
 ||ads.wetpussy.sexy^
 ||ads.xlxtra.com^
 ||ads.xmov.net^
-||ads.yahoo.com^
+||ads.yahoo.com^$~image
 ||ads.youtube.com^
 ||ads01.com^$third-party
 ||ads1-adselo.com^$third-party
@@ -9552,6 +9551,7 @@
 ||api.cloudleadia.com^$third-party
 ||api.contentpass.net/stats^
 ||api.crittercism.com^
+||api.dailymotion.com^$domain=philstarlife.com
 ||api.data-analytics.pokemon.com^
 ||api.decentralize.today^
 ||api.dmcdn.net^$domain=kompasiana.com
@@ -23075,7 +23075,6 @@
 ||doubleclick.net^$popup
 ||doubleclick.net^$third-party
 ||doubleclick.net^*/trackimp/$third-party
-||doubleclickbygoogle.com^
 ||doubleclicks.biz^
 ||doubledeepclick.com^
 ||doublelimpup.com^
@@ -35018,7 +35017,7 @@
 ||juicejiuce.up.seesaa.net^$subdocument,domain=helloprojects.seesaa.net
 ||juicesphose.com^
 ||juicyads.com^$popup
-||juicyads.com^$third-party
+||juicyads.com^$~image,third-party
 ||juicycash.net^
 ||juicyplay.tns-gallup.dk^
 ||jujaufur.net^
@@ -48006,7 +48005,6 @@
 ||promos.trustedtours.com^
 ||promoshq.wildfireapp.com^$third-party
 ||promostats.ru^$third-party
-||promote.pair.com^
 ||promotebred.com^
 ||promoted.sndcdn.com^
 ||promoted.soundcloud.com^
