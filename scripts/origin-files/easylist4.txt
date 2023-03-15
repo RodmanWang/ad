@@ -10488,6 +10488,7 @@ jiji.com,edp24.co.uk,technologyreview.com,inews.co.uk,nordbayern.de,thelocal.ch,
 !
 ! SECTION: Subscriptions - Regular rules
 !
+collider.com##.article-footer-newsletter
 inverse.com#?#div[data-adroot="true"] > p ~ aside > div > div + div[class*=" "]:has(> div > noscript > a[href="/newsletter"])
 inverse.com#?#.btA:has(> style + div noscript > a[href="/newsletter"])
 info.sibnet.ru###telegram_push
@@ -12489,7 +12490,7 @@ newegg.com##.product-eblast
 vstup.osvita.ua##.section-subscription
 news24.com##.article-subs-footer
 voelkner.de##.footer_top__content_container
-cnn.co.jp##.line-news-banner
+lettuceclub.net,cnn.co.jp##.line-news-banner
 apartmenttherapy.com##.Post__emailSignup
 ppt.ru##.sub-tg
 blog.treering.com##.sidebarSubscribe
