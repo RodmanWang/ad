@@ -1700,6 +1700,8 @@ sasisa.ru#%#AG_onLoad(function() { window.Umobi = function() {}; });
 !-------CSS---------
 !-------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/145651
+mundoxiaomi.com#$#.m-sponsor-masthead { padding-top: 0 !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/145234
 withonline.jp#$#body[style*="margin-top:"] { margin-top: 0 !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/145380
@@ -2783,6 +2785,7 @@ memo.onl.jp,daily-sun.com,home.kingsoft.jp,berkem.ru,pixiv.net,cartoonpornvideos
 ! ##.ad
 shikiho.toyokeizai.net,newsee-media.com,rank1-media.com,m.proporn.com,rakuraku-info.jp,sugoren.com,dailynewsonline.jp,yakuji.co.jp,asahi.com,m.winporn.com,slate.com,sankei.com,gameranbu.jp,seiga.nicovideo.jp,m.arukikata.co.jp,setn.com,hateblo.jp,hatenablog.com,hatenablog.jp,hatenadiary.com,hatenadiary.jp,hatenadiary.org,syosetu.org##.ad
 !
+itzine.ru##a[href="https://podcast.ru/1436711112"]
 m.avito.ru##div[data-marker^="items/ads/"]
 bbc.com###sticky-leaderboard
 bbc.com#?#ul[role="list"] > li[class^="ssrcss"]:has(> div[class^="ssrcss"] > div#sticky-mpu)
