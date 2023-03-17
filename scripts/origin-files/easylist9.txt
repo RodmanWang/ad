@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202303170257
+! Version: 202303170547
 ! Title: Fanboy's Annoyance List
-! Last modified: 17 Mar 2023 02:57 UTC
+! Last modified: 17 Mar 2023 05:47 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -42223,6 +42223,7 @@ duolingo.com##._15MEM
 grammarly.com##._16m8p-button
 m.economictimes.com##._2rMIm
 wifiman.com##._3BIlj
+asos.com##._3bNxItQ
 m.timesofindia.com##._3zdhk
 instagram.com##._acc8
 m.webtoons.com##._appDownloadPopup
@@ -42311,6 +42312,7 @@ terabox.com##.introduce-sticky-btn
 duckduckgo.com##.js-open-in-app
 m.gearbest.com##.layui-m-layershade
 ahchealthenews.com##.livewell-widget
+klarna.com##.ljtbes
 wasafimusic.com##.logo-wrapper
 gayemagazine.com##.lvMF7
 m.bilibili.com##.m-video2-awaken-btn
@@ -42364,7 +42366,7 @@ comicsvalley.com##.sgpb-popup-dialog-main-div-wrapper
 oneplus.com##.side-download-dialog
 the42.ie,thejournal.ie##.sidebar > .widget
 sportskeeda.com##.sidebar-app-download
-crypto.com##.smart-banner
+crypto.com,zacks.com##.smart-banner
 forfun.com,imgur.com,kaltura.com,sowetanlive.co.za,turkishairlines.com##.smartbanner
 whosampled.com##.spSlot
 amazon.com##.sparkle-container
@@ -46643,7 +46645,6 @@ app.revolut.com##[class^="Overlay__OverlayBase-sc-"]
 signin.rockstargames.com##[class^="RockstarCookiesBanner_"]
 visartech.com##[class^="cookie-banner-"]
 rsdelivers.com##[class^="cookie-policy-component_"]
-clearscore.com##[class^="cookieNotice"]
 ganjing.com##[class^="cookie_notice"]
 bybit.com##[class^="style_gdpr"]
 underarmour.com##[class^="trustarc_consent"]
@@ -47188,8 +47189,8 @@ cetelem.es,diskus.cz,ernest-inn.com,q2bstudio.com###modalCookies
 ! ! #cookies2020
 bizartgallery.com,e-kiriazis.gr,irakleitos.gr,sapon.gr,skolahotelnictvi.cz,topithari.gr,urology-athens.gr,yachtdeals.gr###cookies2020
 bizartgallery.com,e-kiriazis.gr,irakleitos.gr,sapon.gr,skolahotelnictvi.cz,topithari.gr,urology-athens.gr,yachtdeals.gr###cookies2020overlay
-! ! cookieNotification_
-voguescandinavia.com##div[class^="cookieNotification_"]
+! ! cookieNot
+citigroup.com,clearscore.com,voguescandinavia.com##div[class^="cookieNot"]
 ! ! #cookiemodal
 santam.co.za###cookiemodal
 ! ! .otPlaceholder
