@@ -10508,6 +10508,9 @@ jiji.com,edp24.co.uk,technologyreview.com,inews.co.uk,nordbayern.de,thelocal.ch,
 !
 ! SECTION: Subscriptions - Regular rules
 !
+forbes.ru#?#div[class^="_"] > div > div[class^="_"]:has(> div + button[type="button"]:contains(Подписаться))
+forbes.ru#?#footer div[class] >:has(> div[class^="_"] > a[href^="//"][target="_blank"])
+forbes.ru#?#footer div[class] > div[class^="_"]:has(> div:contains(Рассылка))
 comments.ua##.conteres > p[style="font-weight: 700!important;padding-top: 10px;padding-bottom: 10px;background: aliceblue;text-align: center;"]
 vsluh.net##.story-cont > noindex
 ||buy-eu.piano.io/checkout/template/cacheableShow$domain=ansa.it
@@ -15383,7 +15386,7 @@ mybroadband.co.za##.whatsapp-button
 mobil.berliner-zeitung.de##.whatsapp-widget-blz
 erdbeerlounge.de##.whatsapp-widget-container
 obozrevatel.com##.widget-instagram
-androidcentral.com,windowscentral.com,cinemablend.com,ef.com,ef.kz,exame.com,vandalism-sounds.com,deadline.com,emag.hu,cyclingnews.com,ef.ru,voxel.com.br##.widget-newsletter
+hdwalle.com,androidcentral.com,windowscentral.com,cinemablend.com,ef.com,ef.kz,exame.com,vandalism-sounds.com,deadline.com,emag.hu,cyclingnews.com,ef.ru,voxel.com.br##.widget-newsletter
 radiotimes.com,bikeradar.com##.widget-newsletter-sign-up
 beverfood.com,gamerant.ru,zirochka.ua##.widget-subscribe
 bestvpn.com##.widget-subscribe_widget
