@@ -483,6 +483,8 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.Sid
 !#safari_cb_affinity
 !
 ! Add same rules to the Admiral section of Tracking Protection filter
+!
+||friendlyfold.com^$third-party
 ||talltouch.com^$third-party
 ||knitstamp.com^$third-party
 ||boundlessbrake.com^$third-party
@@ -10506,6 +10508,7 @@ jiji.com,edp24.co.uk,technologyreview.com,inews.co.uk,nordbayern.de,thelocal.ch,
 !
 ! SECTION: Subscriptions - Regular rules
 !
+comments.ua##.conteres > p[style="font-weight: 700!important;padding-top: 10px;padding-bottom: 10px;background: aliceblue;text-align: center;"]
 vsluh.net##.story-cont > noindex
 ||buy-eu.piano.io/checkout/template/cacheableShow$domain=ansa.it
 southparkstudios.com,southparkstudios.nu##section[data-display-name="Newsletter"]
