@@ -6064,7 +6064,6 @@ nethunt.com/api/v1/track/email/$image
 ||beacon.toyota.co.jp^
 ||beacon.tws.toyota.jp^
 ||beacon.walmart.ca^
-||beacon.walmart.com^
 ||beacon.watch.impress.co.jp^
 ||beacon.wikia-services.com^
 ||beacon.www.theguardian.com^
@@ -36611,6 +36610,7 @@ _tracking.php?b=
 /analytics.js$domain=kopeda.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|newsmax.com|bolgehastanesi.com|ewtc.de|newsdig.tbs.co.jp|imore.com|city.kushiro.lg.jp|emeraldbridal.com.au|emarat-news.ae|imobie.jp|tikla.com.tr
 ||assets.adobedtm.com^$domain=mcclatchydc.com|elnuevoherald.com|bellinghamherald.com|sacbee.com|charlotteobserver.com|newsobserver.com|miamiherald.com|ef.ru|algida.com.tr|bmw-motorrad.co.uk|cif.com.tr|clearhaircare.com|domestos.com|dove.com|elidor.com.tr|f1sport.autorevue.cz|geico.com|hellmanns.com.tr|herkessofraya.com|johnsonsbaby.com.tr|lipton.com|lnk.to|lux.com|magnumicecream.com|neutrogena.com.tr|omo.com|rexona.com|samsung.com|sap.com|schwarzkopf.com.tr|signalturkiye.com|msnbc.com|nbcnews.com|kbb.com|eurosport.ru|timgate.it|intermiles.com|oxfordmail.co.uk|spiegel.de|hp.com|deutschepost.de|thebay.com|s.shufoo.net|tsn.ca|tabelog.com|euronews.com|newshub.co.nz
 !
+||tamindir.com/stats.iz
 ||stripe.com/*/fingerprinted/
 ||gizmodo.com/x-kinja-static/assets/new-client/*~trackers
 ||x.kinja-static.com/assets/packaged-js/*trackers
@@ -43096,6 +43096,8 @@ jolie.de/sites/default/files/google_tag/google_tag_manager/google_tag.script.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/82566
 @@||tm.jsuol.com.br/uoltm.js$domain=batepapo.uol.com.br|noticias.uol.com.br|economia.uol.com.br|tribunapr.uol.com.br
 ! https://github.com/AdguardTeam/AdguardFilters/issues/82485
+! https://github.com/AdguardTeam/AdguardFilters/issues/146063
+@@||walmart.com/px/*/init.js
 @@||walmart.com/px/*/captcha/captcha.js
 @@||collector-*.px-client.net/res/uc$domain=walmart.com
 ! kenkoukazoku.co.jp unbreak order button
