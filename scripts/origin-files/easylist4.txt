@@ -485,6 +485,7 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.Sid
 !
 ! Add same rules to the Admiral section of Tracking Protection filter
 !
+||cautiouscamera.com^$third-party
 ||friendlyfold.com^$third-party
 ||talltouch.com^$third-party
 ||knitstamp.com^$third-party
@@ -3297,6 +3298,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - generic rules
 !
+##.ays-fpl-modal
 ##.fix_swell_banner
 ###wpd-bubble-wrapper
 ##.tmblr-iframe--follow-teaser
@@ -3311,6 +3313,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 ! mobile
 ###credential_picker_iframe
 !
+/wp-content/plugins/ays-facebook-popup-likebox/*
 .ru/?iam=$script
 /cdn-cgi/pe/bag2?r[]=*mailget.net
 /download.plagin.js
@@ -3417,6 +3420,12 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+forbes.com##.ribbon-mobile-ad-wrapper
+gamespot.com###in-page-nav
+carsensor.net##.floatingFooterBanner
+carsensor.net##.floatingKaitoriBanner
+teachoo.com#$#div[aria-labelledby="loginModalLabel"] { display: none !important; }
+teachoo.com#$#body.modal-open { overflow: auto !important; }
 k-tai.sharp.co.jp##.top_down_bnr
 nhnieuws.nl##.theo-pip-bottom-left > div.theo-player-wrapper
 techeyesonline.com###fn-modalBG
