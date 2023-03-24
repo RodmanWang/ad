@@ -1383,7 +1383,6 @@ prjaga.ru#?##right > div#right_nav > h3:contains(Онлайн статистик
 ||casalemedia.com^
 ||ct2.kimodameshi.com^
 ||tag.pprl.io^
-||tags.newscgp.com^
 ||collector.mediator.media^$third-party
 ||rc.vtex.com.br^
 ||telemetric.dk^$third-party
@@ -36965,7 +36964,6 @@ androplus.org##a[href^="https://px.a8.net/"]
 ||serverside.antalyahomes.com/gtm.js
 ||coral.diks.fi/assets/js/count.js
 ||hktvmall.com/_ui/desktop/common/js/uiAnalytics/
-||hktvmall.com/_ui/shared/common/js/InappCommunicationManager.js
 ||hktvmall.com/_ui/shared/common/js/analytics/with-intersection-track.js
 ||hktvmall.com/_ui/shared/common/js/util/jquery.analytics-utils.js
 ||hktvmall.com/yuicombo|$script,~third-party
@@ -41847,6 +41845,10 @@ cdn-settings.appsflyersdk.com^
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/139827
+si.com#%#//scriptlet('prevent-fetch', 'uid.mavencoalition.io')
+!+ PLATFORM(ios, ext_safari, ext_android_cb)
+@@||uid.mavencoalition.io/v3|$domain=si.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/145948
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@||de-config.sensic.net/sui-connector.js$domain=sportschau.de
