@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202303240331
+! Version: 202303240932
 ! Title: Fanboy's Annoyance List
-! Last modified: 24 Mar 2023 03:31 UTC
+! Last modified: 24 Mar 2023 09:32 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -45465,6 +45465,7 @@ norm.store##.above-pages-container > .animation-container
 nicequest.com##.ac
 presta-module.com##.acbBackdrop
 greenfields.eu##.accept-alert
+plugins.jetbrains.com##.acceptance-popup
 ibuypower.com##.acceptcookie_contain__JVvcU
 biglink.to##.acquisition-footer-row-wrap
 mymuesli.com##.active.mask
@@ -46686,6 +46687,7 @@ myeventeo.com##[class^="AlertCookies_"]
 carx-online.com##[class^="Cookie__Component-"]
 bitbrain.com##[class^="CookiesManager"]
 btc-alpha.com##[class^="Cookies_container"]
+graphql.braintreepayments.com##[class^="GDPR-module_"]
 nio.com##[class^="GlobalSiteGAGTMGDPR_"]
 hellohelium.com##[class^="Home_cookiewrapper"]
 app.revolut.com##[class^="Overlay__OverlayBase-sc-"]
@@ -46701,6 +46703,7 @@ uber.com##[data-baseweb="toaster"]
 abc.net.au##[data-component="CookieBanner"]
 indeed.com##[data-gnav-region="GlobalPrivacyControlBanner"]
 jooble.org##[data-test-name="_termsOfServices"]
+youtrack.jetbrains.com##[data-test="alert-container"]
 backmarket.com##[data-test="banner"]
 coinbase.com##[data-testid="banner-container"]
 oneclickcover.com##[data-v-5f675fc8]
@@ -50143,6 +50146,7 @@ fairmondo.de##.l-news-header
 receiver.de,steckdosenleiste.org##.legalAdvice
 psd-rhein-ruhr.de##.lightbox
 bbbank.de,berliner-volksbank.de,sparda-b.de##.lightbox--cookie-consent
+airitsystems.de##.limz_cookieConsent
 bonify.de##.lleMAd
 etz.at##.loader
 wirklichweiterkommen.de##.lsa-dialog
@@ -50776,6 +50780,7 @@ koentact.nl##.popmake
 myshipper.nl##.popup_main
 pro-alarm.nl##.popupbuilder-widget-content
 wehkamp.nl##.position-fixed
+prorail.nl##.prorail-cookie-popup
 pthu.nl##.pthu-dialog__modalbg
 gezondheidsplein.nl##.reveal-overlay
 asr.nl##.review-banner
@@ -51719,6 +51724,7 @@ alter-science.info,alterexit.info,viziya.info###pop
 calltouch.ru###poppup-food
 sibur.ru###privacyPolicy
 rgs.ru###rgs-main-context-bar
+eldorado.ru##.-X
 ctc.ru##.AcceptCookie_placeholder__2RgUK
 bcs.ru##.Cbh_c
 sberdisk.ru##.CookieContainer_CookieContainer__1xqA-
