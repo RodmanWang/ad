@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202303272129
+! Version: 202303280139
 ! Title: Fanboy's Annoyance List
-! Last modified: 27 Mar 2023 21:29 UTC
+! Last modified: 28 Mar 2023 01:39 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -22757,6 +22757,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ###bkCookieBanner
 ###bk_cookies_alert
 ###bkcookie
+###blackout_cookie
 ###blake_cookies_notice
 ###blastnessCookieBanner
 ###bloc-cookie
@@ -25844,6 +25845,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ###cookies_conditions
 ###cookies_confirm
 ###cookies_confirm_box
+###cookies_confirm_wrapper
 ###cookies_confirmation_bar
 ###cookies_consent
 ###cookies_consent_container
@@ -28037,6 +28039,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ###modal-aviso-cookies
 ###modal-bannercookies
 ###modal-card-email-notice
+###modal-cokies
 ###modal-cookie-background
 ###modal-cookie-consent
 ###modal-cookie-info
@@ -43506,6 +43509,7 @@ euroweeklynews.com##.subscribe-for-news
 memri.org##.subscribe-for-updates
 bongino.com##.subscribe-form-home
 thefinancialbrand.com##.subscribe-free
+superwatchman.com##.subscribe-header
 rt.com##.subscribe-layout
 media4growth.com##.subscribe-ltr
 techpout.com##.subscribe-medium
@@ -46274,7 +46278,7 @@ xing-news.com##.no-cookie
 tweakers.net##.noTrackingMessage
 blogfree.net##.note
 goplextor.com##.note-policy
-brightree.com,cgtrader.com,configserverfirewall.com,cortesdecima.com,dialight.com,discordapp.com,dotmailer.com,evgo.com,exposition-osiris.com,fcc-fac.ca,foreground.com.au,fritchy.com,hilltopads.com,keenfootwear.com,medicalxpress.com,outsideonline.com,phys.org,pokemon-trainer.com,revolver.news,shire.com,snbforums.com,techxplore.com,ubuntu18.com##.notice
+brightree.com,cgtrader.com,configserverfirewall.com,cortesdecima.com,dialight.com,discordapp.com,dotmailer.com,evgo.com,exposition-osiris.com,fcc-fac.ca,foreground.com.au,fritchy.com,hilltopads.com,keenfootwear.com,medicalxpress.com,outsideonline.com,phys.org,pokemon-trainer.com,revolver.news,shire.com,snbforums.com,socialmediagirls.com,techxplore.com,ubuntu18.com##.notice
 anime2enjoy.com##.notice-board
 naturesgold.ie,rockandsnow.com##.notice-item-success
 dreamworks.com##.notice-modal
@@ -46359,6 +46363,7 @@ touchstonerenard.com##.pcb__banner
 checkraka.com##.pdpa-popup
 spainhouses.net##.persistentMessage
 nordwindairlines.ru##.personal-data
+perfectcorp.com##.pf-header-cookiestatement
 planetfitness.com##.pf-privacy-policy-notice
 free-power-point-templates.com##.pg-modal-blackout
 pspdfkit.com##.pgp
@@ -47013,7 +47018,7 @@ twitch.tv##.consent-banner
 ! ! .dialog-lightbox-message
 aceprensa.com,ak-asya.com.tr,alivia.org.pl,almeidastextile.pt,ancon.io,caltex.co.za,cerre.eu,cronycle.com,direct-carpets.com,experiorfinancial.com,fermedelinciaux.be,fft.mt,getspace.us,gilmoreglobal.com,ingeniamc.com,janninebarron.com,lsisoftware.pl,lucerna-chem.ch,luukku.com,maltaconsulting.mt,marathonhr.com,marshfieldpre-school.co.uk,medyascope.tv,mitreprinting.co.uk,realvnc.com,ritchy.com,rwi.se,shotam.info,takeoff.org.mt,terveyskauneus.fi,tvpop.com.br,vrxdb.com,webdesignspecialistamsterdam.nl,webdesignspecialistdenhaag.nl,whatcounts.com##.dialog-lightbox-message
 ! ! .dialog-lightbox-widget
-ardutronix.de,blackmusicscholar.com,coachdaveacademy.com,courses.heatgeek.com,cover-4-less.com,elegis.com.br,itepexam.com,martonmedia.pl,saferpass.com##.dialog-lightbox-widget
+ardutronix.de,blackmusicscholar.com,coachdaveacademy.com,courses.heatgeek.com,cover-4-less.com,dogfoodreviews.com,elegis.com.br,itepexam.com,martonmedia.pl,saferpass.com##.dialog-lightbox-widget
 ! ! .t657
 2035.university,alfabusinessweek.ru,bohoo.ru,dcciv.ru,domino-sveta.ru,evisa-russia.ru,examus.com,floristtina.ru,geniusreferrals.com,millionviews.ru,nadessert.com,niagara-pu.ru,ollinprofessional.ru,qapp.tech,sales-battle.ru,tilda.cc,usedesk.ru,waterlamp.de,xianti.fr,zaslon-ul.ru##.t657
 ! ! .t886
@@ -47309,7 +47314,7 @@ abnova.com.tw,americantourister.at,americantourister.hu,belizia.fi,benelli-motor
 ! ! .disclaimer
 apllogistics.com,atraveo.de,bridgeland.com,countwordsfree.com,dielinke.berlin,e-domizil.de,earthcp.com,foxsports.com.au,froneri.pl,goyabu.vip,gregorys.gr,hafnarfjordur.is,hsleiden.nl,lexus.com.cy,lexus.gr,lexus.ie,lexus.no,lexus.ro,lexus.sk,migliori-siti-di-incontri.it,myanimelist.vip,naturgenussfestival.de,news.com.au,rosatomflot.ru,sgtech.co.il,sinfonia.is,swapspace.co,totalplay.com.mx,tudogostoso.com.br,webhint.io##.disclaimer
 ! ! #disclaimer
-1ps.ru,albaparty.org,aldeparty.eu,amundi.pl,biodiv.be,bitmoji.com,clementoni.com,decisiondeskhq.com,gloss.ua,greybox.com,icanw.org,limscave.com,liveradio.ie,snp.org,volksbuehne.berlin###disclaimer
+1ps.ru,albaparty.org,aldeparty.eu,amundi.pl,animesgames.net,biodiv.be,bitmoji.com,clementoni.com,decisiondeskhq.com,gloss.ua,greybox.com,icanw.org,limscave.com,liveradio.ie,snp.org,volksbuehne.berlin###disclaimer
 ! ! .MuiDialog-root
 allinone.im,jsonquerytool.com,mydirtyhobby.com,sweetcombecottages.co.uk##.MuiDialog-root
 ! ! .MuiSnackbar-root
@@ -51142,6 +51147,7 @@ intimerie.com##.alert-info
 bakecaincontrii.com##.alert-secondary
 calcolostipendio.it##.bold_text
 bose.it##.bose-infoBar2016--fixedBottom
+finanziariatosinvest.it##.cc-link
 buyon.it##.cc_placeholder
 likesx.com##.cent
 mivoq.it##.check-policy
@@ -51610,6 +51616,7 @@ quimis.com.br###politica-box
 caixa.gov.br###politicaPrivacidade
 vagalume.com.br###privacy-policy-div
 gauchazh.clicrbs.com.br###privacy-tools-banner
+webmotors.com.br###root > .sc-bdVaJa
 rtp.pt###rtpgeralcookiecontent
 tjmg.jus.br###termo-uso
 xalingo.com.br###wrng-agrmnt
@@ -51957,6 +51964,7 @@ magiogo.sk##div[style^="width: 100%; display: flex;"]
 podcrto.si###cc-note
 generali.si###cd-module-modal-main
 energijaplus.si###ck-overlay
+zps.si###cookieContainerWrap
 easistent.com###cookie_popup
 emporium.si###grayOut
 zps.si###preload_over
@@ -52103,6 +52111,7 @@ theledstore.es##.pgc
 fotocasa.es##.re-SharedCmp
 monchoscatering.com##.reveal-modal
 correos.es##.sc-correos-cdk-cookies-module-h
+juegosipo.com##.sipo1
 papajohns.es##.styles_snackbar__3iBTb
 coches.net,milanuncios.com##.sui-TcfFirstLayer
 contarcaracteres.com##.top-header
