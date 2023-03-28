@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202303280139
+! Version: 202303280324
 ! Title: Fanboy's Annoyance List
-! Last modified: 28 Mar 2023 01:39 UTC
+! Last modified: 28 Mar 2023 03:24 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -36588,6 +36588,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.pm-cookie
 ##.pm-gdpr
 ##.pmc-cookie-consent-block
+##.pmw--cookies-cookie-button
 ##.pn-cookies-banner
 ##.pn_cookieconsent
 ##.pnl-cookie
@@ -46802,6 +46803,7 @@ start.gg##div[class^="styles_banner_"]
 coin360.com##div[class^="styles_cookiesBanner_"]
 youtube.com##div[class^="ytd-consent"]
 gitpod.io##div[data-analytics*="cookie"]
+docs.portainer.io##div[data-rnwr700-1moh23t-e1k2in-tceitz="true"]
 patreon.com##div[data-tag="cookie-disclosure"]
 reddit.com##div[style*="--Toaster-indicatorColor"]
 pango.education##div[style*="position: fixed; left: 0px; top: 0px; width: 100%;"]
@@ -47244,7 +47246,7 @@ carsharingi.ru,clipartsfree.net,nmsu.edu,tech-america.com,waracle.com##.bottom-0
 ! ! .bottom-0.relative
 onassis.org##.bottom-0.relative
 ! ! .bottom-0.fixed
-actievandedag.nl,aksam.com.tr,aplikuj.pl,auf1.info,auf1.tv,avislease.sk,back4app.com,ballonvaartcentrumvanmanen.nl,barecollective.com,bbcrewind.co.uk,bellevue-hamburg.de,bestsellers.hu,betapage.co,blog.appsignal.com,blomus.com,bookiply.com,boords.com,britishrenewables.com,bulldogjob.com,bulldogjob.pl,canaries.co.uk,clubmed.co.nz,clubmed.co.uk,clubmed.com.ar,clubmed.com.mx,clubmed.ru,clubmed.se,clubmed.us,codeclimate.com,cryptomaan.eu,curiositystream.com,deepsource.io,delio.com.pl,discords.com,elvah.de,everifin.com,evolutionary-insights.com,fanzo.com,first-law.com,focus-entmt.com,fvd.nl,gauss.hr,glideapps.com,goflink.com,hendy.co.uk,hrt.hr,hyte.com,ideo.com,invezz.com,iotworldtoday.com,jobicon.pracuj.pl,kick.com,klachtenkompas.nl,kyero.com,licenseglobal.com,matkakeisari.fi,medimagazin.com.tr,mein-apothekenmanager.de,mitec.net,moises.ai,munichmag.de,nationalprivacytest.org,nativebase.io,nbg.gov.ge,nexcess.net,nitronationworldtour.com,oko.press,pazarama.com,prettylittlething.com,propello.bike,qwertee.com,ranzijn.nl,raport.pse.pl,regiojet.com,regiojethotels.com,shakuro.com,skyfi.com,skynet.ru,star.com.tr,stylesandpartners.com,tekninen.fi,thehappytoolbox.com,truthsocial.com,tu.no,tweetyai.com,twitchcon.com,uc.pt,unox.com,wizzair.com##.bottom-0.fixed
+actievandedag.nl,aksam.com.tr,aplikuj.pl,auf1.info,auf1.tv,avislease.sk,back4app.com,ballonvaartcentrumvanmanen.nl,barecollective.com,bbcrewind.co.uk,bellevue-hamburg.de,bestsellers.hu,betapage.co,blog.appsignal.com,blomus.com,bookiply.com,boords.com,britishrenewables.com,bulldogjob.com,bulldogjob.pl,canaries.co.uk,clubmed.co.nz,clubmed.co.uk,clubmed.com.ar,clubmed.com.mx,clubmed.ru,clubmed.se,clubmed.us,codeclimate.com,cryptomaan.eu,curiositystream.com,deepsource.io,delio.com.pl,discords.com,elvah.de,everifin.com,evolutionary-insights.com,fanzo.com,first-law.com,focus-entmt.com,fvd.nl,gauss.hr,glideapps.com,goflink.com,hendy.co.uk,hrt.hr,hyte.com,ideo.com,invezz.com,iotworldtoday.com,jobicon.pracuj.pl,kick.com,klachtenkompas.nl,kyero.com,licenseglobal.com,matkakeisari.fi,medimagazin.com.tr,mein-apothekenmanager.de,mitec.net,moises.ai,munichmag.de,nationalprivacytest.org,nativebase.io,nbg.gov.ge,nexcess.net,nitronationworldtour.com,oko.press,pazarama.com,prettylittlething.com,propello.bike,qwertee.com,ranzijn.nl,raport.pse.pl,regiojet.at,regiojet.com,regiojethotels.at,regiojethotels.com,shakuro.com,skyfi.com,skynet.ru,star.com.tr,stylesandpartners.com,tekninen.fi,thehappytoolbox.com,truthsocial.com,tu.no,tweetyai.com,twitchcon.com,uc.pt,unox.com,wizzair.com##.bottom-0.fixed
 ! ! .bottom-2
 artma-zaproszenia.pl,avif.io,lahella.fi##.bottom-2
 ! ! .bottom-6
@@ -47334,7 +47336,7 @@ datakauppa.fi,larionews.com,misaij.fi,puglia.com,reproduccionasistida.org,salmon
 ! ! #exampleModalCenter
 roval.be,roval.eu,roval.nl,rovalaluminium.fr###exampleModalCenter
 ! ! .cc-overlay
-bellaffair.com,colop.com,computerwelt.at,dtv.de,herold.at,internorm.com,jacob.de,jhdversicherungen.de,laenderbahn.com,leuchtturm.ch,leuchtturm.com,leuchtturm.de,leuchtturm.es,leuchtturm.fr,leuchtturm1917.de,rcodezero.at,semikolon.com,torquato.de,vinzenz-klinik.de##.cc-overlay
+bellaffair.com,colop.com,computerwelt.at,dtv.de,hardtwaldsiedlung-karlsruhe.de,herold.at,internorm.com,jacob.de,jhdversicherungen.de,laenderbahn.com,leuchtturm.ch,leuchtturm.com,leuchtturm.de,leuchtturm.es,leuchtturm.fr,leuchtturm1917.de,rcodezero.at,semikolon.com,torquato.de,vinzenz-klinik.de##.cc-overlay
 ! ! .avada-footer-scripts
 atalmedial.nl,avanhost.com,bioneer.dk,conferencetech.com,designengineerconstruct.com,dgob.de,domuslaundry.com,geniessertouren.org,institutomarketing.es,karwendelhaus.com,response.gr,santeria.milano.it,sindastra.de,specim.fi,tisak.hr,turkishbank.co.uk##.avada-footer-scripts
 ! ! .modal-cacsp-position
@@ -50171,7 +50173,7 @@ knowunity.de##.jYccXc
 eifel-antik.de##.jmg-googlemaps-dsgvo-notification
 ullstein.de##.jpbyLY
 bremer-gewuerzhandel.de##.js--modal
-rbb.de##.js--overlay
+rbb.de,stoffkontor.eu##.js--overlay
 freiwilligenzentrum-mittelhessen.de##.js-dialog-wrapper
 krautreporter.de##.js-flash-messages-container
 piqd.de##.js-flash_message-container
@@ -50613,6 +50615,7 @@ qr.cz###eu-fck
 bioconsult.cz###eu_cks
 etc-shop.cz###id-modal-backdrop
 melodiecb.cz###myAlert2
+vspj.cz###nastaveni-soukromi-banner
 peugeot-plzen.cz###popupContactBG
 offroadforum.cz###pp_b
 osu.cz###souhlas
@@ -51771,6 +51774,7 @@ alter-science.info,alterexit.info,viziya.info###pop
 calltouch.ru###poppup-food
 sibur.ru###privacyPolicy
 rgs.ru###rgs-main-context-bar
+incom.ru###use_cookies_message-block
 eldorado.ru##.-X
 ctc.ru##.AcceptCookie_placeholder__2RgUK
 bcs.ru##.Cbh_c
