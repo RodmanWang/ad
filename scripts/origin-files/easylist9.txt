@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202303290418
+! Version: 202303290911
 ! Title: Fanboy's Annoyance List
-! Last modified: 29 Mar 2023 04:18 UTC
+! Last modified: 29 Mar 2023 09:11 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -41590,8 +41590,9 @@ amazon.com###percolate-ui-ilm_div
 marketingweek.com###piano_catfish_wrapper_bottomfull
 novinite.com###popup
 lastmomenttuitions.com###popups
-capsulenz.com###pp-banner
+capsulenz.com,interest.co.nz###pp-banner
 lastmomenttuitions.com###preload
+interest.co.nz###presspatron-footer
 investors.com###researchTools
 fflogs.com,warcraftlogs.com###right-ad-box
 fflogs.com###right-vertical-banner
@@ -46036,6 +46037,7 @@ istockphoto.com##.global-notification-container
 telenor.com##.global-overlay-background
 matrixgames.com,slitherine.com##.globalAnnouncement
 telstra.com.sg##.globalOptIn
+stealthex.io##.gmEwWa
 realmroyale.com##.go3004242404
 goout.net##.goout-cookie-overlay
 cookiebot.com##.granify-widget-container
