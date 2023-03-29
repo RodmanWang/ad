@@ -654,6 +654,8 @@ usatoday.com#@#.ad-slot
 ! SECTION: Anti-adblock - Regular rules
 ! Do not forget about '!#safari_cb_affinity' section for exclusions
 !
+cdn.vuukle.com#?#form > div[style]:contains(Ad Blocker)
+@@||gamebrew.org/images/misc/yzfdmoan23.js
 darksoftware.net#?#.notices .notice--primary:contains(Adblocker)
 abcya.com#%#//scriptlet('prevent-element-src-loading', 'script', 'pagead2.googlesyndication.com')
 chatreplay.stream##div[style^="height:"].container
@@ -4383,7 +4385,6 @@ hulu.jp##.sp-nav-footer
 websiteplanet.com###ctrl-d-popup
 convertio.co##.rate-us
 cinemacafe.net###danglingList
-item.rakuten.co.jp###floatingCartContainer
 news.ru###article-post-block
 upgradabroad.com###enquiryModal
 ch.nicovideo.jp###ChannelAnnouncementListPcRoot
@@ -10563,6 +10564,8 @@ rtbf.be#?##id-text2speech-article > div.box-border:has(> div.container > div.bg-
 ||fastcompany.com/gallery/lightboxinteractiontype/
 fastcompany.com##.bcToaster
 fastcompany.com##.post__footer__newsletter
+allrecipes.com,foodandwine.com,health.com,investopedia.com,lifewire.com,mydomaine.com,parents.com,simplyrecipes.com,thespruce.com,thespruceeats.com,thesprucepets.com,travelandleisure.com,treehugger.com,tripsavvy.com,verywellfamily.com,verywellfit.com,verywellhealth.com,verywellmind.com#$#div[data-a11y-dialog="newsletter-dialog"] { display: none !important; }
+allrecipes.com,foodandwine.com,health.com,investopedia.com,lifewire.com,mydomaine.com,parents.com,simplyrecipes.com,thespruce.com,thespruceeats.com,thesprucepets.com,travelandleisure.com,treehugger.com,tripsavvy.com,verywellfamily.com,verywellfit.com,verywellhealth.com,verywellmind.com#$#html { overflow: auto !important; }
 hackster.io##div[class^="article_layout__signupCTA"]
 hackster.io##div[data-hacksternova-key="ProjectCountBanner"]
 parniplus.com###eaa_post_between_content
@@ -14904,7 +14907,7 @@ avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotak
 24tv.ua##.subscribe-revolver-wrap
 ricksdailytips.com##.tag-newsletter
 naviny.by##a[href="https://t.me/naviny_by"]
-sunmag.me,poder360.com.br,becloud.by,propublica.org,lifan-car.ru,2x2tv.ru,thecode.media##.form-subscribe
+blog.jetbrains.com,sunmag.me,poder360.com.br,becloud.by,propublica.org,lifan-car.ru,2x2tv.ru,thecode.media##.form-subscribe
 vesti.ua#?##adpartner_branding > div.rowFullsecond:has(> div.redLine > div[class] > form.email-form)
 dailycaller.com##.spot-im-conversation-header
 tproger.ru##.yikes-mailchimp-container
