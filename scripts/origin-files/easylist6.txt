@@ -98,6 +98,8 @@ instagram.com#?#div[style*="opacity"] > div > div[class]:has(> div[class] > div[
 !
 ! End: Instagram.com
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/146521
+genbeta.com###dailymotion-pip-large-viewport
 ! https://github.com/AdguardTeam/AdguardFilters/issues/146881
 epicentrk.ua##.sign-up-spam
 ! https://github.com/AdguardTeam/AdguardFilters/issues/146519
@@ -4798,6 +4800,7 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+winaero.com###afdsdf11
 time.com##.campaign-five_red-border
 time.com##.campaign-four_red-border
 ||leechpremium.link/img/banner/

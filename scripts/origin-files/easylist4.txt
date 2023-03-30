@@ -657,6 +657,8 @@ usatoday.com#@#.ad-slot
 lightnovelpub.com##.comment-wrapper > ul > li:has(> ins.adsbygoogle)
 lightnovelpub.com##.cnx_container
 cdn.vuukle.com#?#form > div[style]:contains(Ad Blocker)
+gamebrew.org#%#//scriptlet('prevent-fetch', 'nitropay.com')
+@@||nitropay.com/ads-*.js$xmlhttprequest,domain=gamebrew.org
 @@||gamebrew.org/images/misc/yzfdmoan23.js
 darksoftware.net#?#.notices .notice--primary:contains(Adblocker)
 abcya.com#%#//scriptlet('prevent-element-src-loading', 'script', 'pagead2.googlesyndication.com')
@@ -3426,6 +3428,8 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+winaero.com###mwbd
+winaero.com##.mwbd-close
 forsal.pl##.videoScroll
 inforlex.pl##.bottom-promo
 geenstijl.nl###fInModal
@@ -10564,6 +10568,11 @@ jiji.com,edp24.co.uk,technologyreview.com,inews.co.uk,nordbayern.de,thelocal.ch,
 !
 ! SECTION: Subscriptions - Regular rules
 !
+eater.com###newsletter-signup-short-form
+finanztip.de#$#body { overflow: auto !important; }
+finanztip.de#$##modal-popup-newsletter-overlay { display: none !important; }
+finanztip.de##div[data-track="ftcustomcontentelements_newsletterregisterform"]
+fleurop.de##.cms-block-two-image-newsletter
 eyeondesign.aiga.org###newsletter
 gazetaprawna.pl##.ecommerceDesktopLoader
 gazetaprawna.pl##.subscribeButton
