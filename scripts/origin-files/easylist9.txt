@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202303300643
+! Version: 202303301201
 ! Title: Fanboy's Annoyance List
-! Last modified: 30 Mar 2023 06:43 UTC
+! Last modified: 30 Mar 2023 12:01 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -39523,6 +39523,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||joinsubtext.com^$subdocument,third-party
 ||lightboxcdn.com/vendor/$script,third-party
 ||mailerlite.com/js/universal.js
+||maillist-manage.com^$third-party
 ||nordiskemedier.dk/remodal/
 ||optinly.net^$third-party
 ||pico.tools/load/build.js
