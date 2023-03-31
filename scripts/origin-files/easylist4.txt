@@ -657,6 +657,7 @@ usatoday.com#@#.ad-slot
 ! SECTION: Anti-adblock - Regular rules
 ! Do not forget about '!#safari_cb_affinity' section for exclusions
 !
+||qoutec.shop^
 lightnovelpub.com##.comment-wrapper > ul > li:has(> ins.adsbygoogle)
 lightnovelpub.com##.cnx_container
 cdn.vuukle.com#?#form > div[style]:contains(Ad Blocker)
@@ -9431,6 +9432,7 @@ zlavomat.sk#@##credential_picker_container
 .name/?pus=$script,third-party
 .site/?pus=$script,third-party
 !
+||push.ilovelanguages.com^
 ||push.ilan365.net^
 ||goodvibesmatterforus.com^
 ||premclubs.com^
@@ -10576,6 +10578,7 @@ jiji.com,edp24.co.uk,technologyreview.com,inews.co.uk,nordbayern.de,thelocal.ch,
 !
 ! SECTION: Subscriptions - Regular rules
 !
+neowin.net#?##sidebar > div.category-bar:has(> iframe[src^="https://embeds.beehiiv.com/"])
 it-actual.ru##.bldec
 new-science.ru###text-html-widget-2
 coinunited.io##.subscrible-news-box
