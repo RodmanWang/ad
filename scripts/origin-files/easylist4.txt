@@ -244,6 +244,7 @@ e.mail.ru,octavius.mail.ru#%#//scriptlet("set-constant", "Object.prototype.adv-l
 @@||octavius.mail.ru^$generichide
 @@||an.yandex.ru/system/context.js$domain=e.mail.ru|octavius.mail.ru
 !
+ok.ru#%#//scriptlet('json-prune', 'result.body.direct')
 ||ok.ru/res/js/app/FriendsOnline4thColumn_*.js$replace=/fourthColumnWrapper//
 ||ok.ru/res/js/app/RightColumn_*.js
 ok.ru##.dialogWrapperBanner
@@ -5819,7 +5820,7 @@ diets.ru##.dayrecipes_p
 povarenok.ru,diets.ru##div[onclick="closeDailyRecipesPopup()"]
 povarenok.ru##form.dayrecipes_p
 codecademy.com###branded-banner
-x-art.com##.promo-bar
+flavus.com,x-art.com##.promo-bar
 madamecoco.com##.vl-popup-container
 dyxs11.com,dianyingim.com##.popup-tips
 dyxs11.com,dianyingim.com##.shortcuts-mobile-overlay
@@ -7525,7 +7526,8 @@ aniplay.tv##.joyride-modal-bg
 rosewe.com###subscribing_box
 ferra.ru#?#.stickyWrapper:has(> div > .swiper-container-horizontal)
 stacksocial.com#$##email-capture-modal { display: none !important; }
-stacksocial.com#$#body { overflow: visible !important; }
+stacksocial.com#$#html > body:not(#style_important) { overflow: visible !important; }
+stacksocial.com#$#html[class]:not(#style_important) { overflow: visible !important; }
 thehindu.com###stickyfooterarticle
 sms-acktiwator.ru#$#body { overflow: visible!important; }
 sms-acktiwator.ru#$#.modal { display: none!important; }
