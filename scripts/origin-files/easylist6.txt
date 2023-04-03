@@ -942,10 +942,6 @@ vtimes.io##.article__fa-disclaimer
 hackspirit.com##.hacks-affiliate-disclosure-before-content
 ! https://github.com/AdguardTeam/AdguardFilters/issues/84259
 mayoclinic.org##.globalnotice
-! https://github.com/AdguardTeam/AdguardFilters/issues/84232
-! https://github.com/AdguardTeam/AdguardFilters/issues/88283
-||youtube.com/embed/$domain=eksisozluk.com
-@@||youtube.com/embed/*$domain=seyler.eksisozluk.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83699
 viva.ua##.telegram-banner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/84256
@@ -1026,7 +1022,7 @@ cbsnews.com##.newsletter_signup
 ! https://github.com/AdguardTeam/AdguardFilters/issues/80376
 ||embed.sendtonews.com^$domain=dailyrecordnews.com
 ! Ramadan countdown
-||turkmedya.com.tr/ramazan?$domain=star.com.tr
+||turkmedya.com.tr/ramazan?$domain=star.com.tr|gunes.com
 posta.com.tr,milliyet.com.tr###ramazanCountDown
 ! https://github.com/AdguardTeam/AdguardFilters/issues/80478
 zhihu.com#$#body.ModalWrap-body { overflow: visible !important; }
@@ -4812,6 +4808,8 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+gab.com#?#div[tabindex="-1"] ~ div > div:has(span[data-text="Help keep Gab online"])
+mall.hr###above-header
 currentaffairs.org##.lifestyle-print-appeal
 currentaffairs.org##.subscribe-block
 currentaffairs.org#?#.wp-block-image:has(> a[href$="patreon.com/currentaffairs"])
@@ -5765,7 +5763,7 @@ inc42.com##.plus-bottom-bar
 odiarioonline.com.br##.advertising-container
 autoua.net##a[href="https://insurance.autoua.net/ru/osago/"]
 filmora.wondershare.com##.wsc-seasonal-container
-eksisozluk.com##aside > iframe[src^="https://seyler.eksisozluk.com/"]
+eksisozluk2023.com##aside > iframe[src^="https://eksiseyler.com/sozluk/"]
 revistapegn.globo.com###footerOgloboPianoId
 phonearena.com##.widgetOffers__disclaimer
 phonearena.com##.widgetOffers
