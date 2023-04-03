@@ -5539,6 +5539,7 @@ nethunt.com/api/v1/track/email/$image
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||volts.shopping.naver.com^
 ||analytics.grape.media^
 ||analytics.karakuri.ai^
 ||cdn-redirector.glopal.com^
@@ -37395,7 +37396,6 @@ hobbylog.jp##.pbancut
 ||nakanune.ru/count/img.php
 kuruma-news.jp##.recommend-container
 ||apis.naver.com/mcollector/
-||volts.shopping.naver.com/pv
 ||webrazzi.com/api/post/stats
 ||skyscanner.*/*/metrics/
 ||skyscanner.*/*/collector
@@ -39997,6 +39997,13 @@ link.gmapp*.net$image
 ! Bad:  ||example.com^$cookie=flat_r_mb (should be in cookies_specific.txt)
 !
 !
+! acstat.com
+$cookie=advcake_utm_webmaster
+$cookie=advcake_utm_partner
+$cookie=advcake_click_id
+$cookie=advcake_session_id
+$cookie=advcake_trackid
+$cookie=advcake_track_url
 ! knotch.com
 $cookie=kn_cs_visitor_id
 ! AT Internet
@@ -41890,6 +41897,9 @@ inapps.appsflyersdk.com^
 !#endif
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/147297
+@@||googletagmanager.com/gtm.js$domain=daily.co.jp
+@@||google-analytics.com/analytics.js$domain=daily.co.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/147282
 !#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
 @@||x.kinja-static.com/assets/packaged-js/trackers.*.js$domain=avclub.com|clickhole.com|deadspin.com|gizmodo.com|jalopnik.com|jezebel.com|kotaku.com|lifehacker.com|splinternews.com|theinventory.com|theonion.com|theroot.com|thetakeout.com
