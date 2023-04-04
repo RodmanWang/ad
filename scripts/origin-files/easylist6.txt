@@ -98,6 +98,8 @@ instagram.com#?#div[style*="opacity"] > div > div[class]:has(> div[class] > div[
 !
 ! End: Instagram.com
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/147168
+lanacion.com.ar##.sidebar__main > .sticky-mobile
 ! https://github.com/AdguardTeam/AdguardFilters/issues/146873
 ||ppstatic.pl/assets/nsk/v*/js/compiled/atoms/article/top-sticky-video-mobile.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/146970
@@ -2772,6 +2774,8 @@ tv.yandex.ru,tv.yandex.by,tv.yandex.kz##body > div.mount > div[class] > div.teas
 yandex.ru##body > div.banner-root
 ! Yandex.Znatoki top banner
 yandex.ru##body > div.page-root > div.head-promo
+! Yandex.Music teaser banner
+music.yandex.ru,music.yandex.com##.sidebar__sticky  div.sidebar__under > div.teaser
 !
 ! END: Yandex
 ! NOTE: Other annoyances - Yandex end ⬆️
@@ -4808,7 +4812,9 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
-tripadvisor.*#?##lithium-root > div[style^="bottom:"][class]:has(> div[class] > h3[class]:contains(Unlock the best))
+testbook.com##.desktop-side-banner-mcq
+testbook.com##.super-banner--mcq
+tripadvisor.*#?##lithium-root > div[style^="bottom:"]:has(> div[class] span > svg[viewBox="0 0 24 24"])
 dedutcoatheng.monster##.notifyjs-corner
 gab.com#?#div[tabindex="-1"] ~ div > div:has(span[data-text="Help keep Gab online"])
 mall.hr###above-header
