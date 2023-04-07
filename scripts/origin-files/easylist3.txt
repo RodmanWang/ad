@@ -210,6 +210,7 @@
 ||plugin.mobopay.baidu.com^
 ||mo.freeindoapp.com^
 !
+||external-ad.bunjang.co.kr^
 ||hellay.net^
 ||rqmob.com^
 ||ads-server.mxplay.com^
@@ -1161,6 +1162,7 @@ westseattleblog.com#@#.header-ad
 ! Bad: example.org##main > div.ad (should be in specific.txt)
 !
 !
+gendai.media#?#.article_author-small_profileLink:has(+ aside[id^="GB_sp_InFeed"])
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com#?#.js_curation-block-list > section > div[class*=" "]:has(> .ad-container)
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com#?#.js_curation-block-list > div[class*=" "]  > div[class*=" "] > div[class*=" "] > div[class*=" "] > div[class*=" "]:has(> .ad-container)
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com,motorcyclenews.com#?#.js_post-content > div[class] > div[class]:has(> div[data-inset-category="CommerceInsetMobile"])
@@ -2810,6 +2812,7 @@ memo.onl.jp,daily-sun.com,home.kingsoft.jp,berkem.ru,pixiv.net,cartoonpornvideos
 ! ##.ad
 shikiho.toyokeizai.net,newsee-media.com,rank1-media.com,m.proporn.com,rakuraku-info.jp,sugoren.com,dailynewsonline.jp,yakuji.co.jp,asahi.com,m.winporn.com,slate.com,sankei.com,gameranbu.jp,seiga.nicovideo.jp,m.arukikata.co.jp,setn.com,hateblo.jp,hatenablog.com,hatenablog.jp,hatenadiary.com,hatenadiary.jp,hatenadiary.org,syosetu.org##.ad
 !
+navitime.co.jp##div[style="height: 280px"]
 gendai.media##div[style="text-align:center; color:#CCC;font-size:12px;margin:5px;"]
 eenadu.net##.add-block
 eenadu.net##.sticky-add-img
@@ -2880,7 +2883,6 @@ m.timesofindia.com##.adspacingtop
 koreaporn.net##div[class^="bb_mobile"]
 apk-live.com##.ai-close
 sleazyneasy.com##.nav-mobile
-gendai.media##aside.blockContainer_block > div:not([class]) > div[style="text-align:center; color:#CCC;font-size:12px;margin:5px;"]
 animecomic-pass.com###article-contents > div[align="center"] > span[style="font-size: 81.25%;"]
 dot.asahi.com##.c-list-recommend > ul > li > div[style^="width:100%; flex-direction:row-reverse; justify-content:space-between; position:relative"]:not([class])
 ||wap.xs7.cc/m.js
@@ -3135,7 +3137,6 @@ ff5ch.syoboi.jp##main > section > center
 geekhacker.ru##.geekh-stiky-at-mobile
 womanlife.online##.afc_popup
 gendai.media##aside[style="min-height:100px; margin: 0 auto;"]
-gendai.media##.ad-1st-rectangle > div > div[style="text-align:center; color:#CCC;font-size:12px;margin:5px;"]
 gendai.media##.ad-2nd-rectangle
 gendai.media##div[style="text-align:center;color:#aaa;font-size: 12px;margin: 6px;"]
 outlookindia.com##.ad_unit
