@@ -168,7 +168,7 @@ spletnik.ru$$script[wildcard="*insertAfter*params*"][min-length="500"][max-lengt
 spletnik.ru#%#//scriptlet('abort-on-property-write', 'Object.prototype.encodeJsonpScriptSrc')
 !
 ! 24smi.org
-24smi.org#%#//scriptlet('abort-on-property-read', 'Object.prototype.getAdbBits')
+24smi.org#%#//scriptlet('set-constant', 'Object.prototype.blockId', 'undefined')
 !
 ! sm.news,amedia.online, sdamgia.ru
 sm.news,amedia.online,sdamgia.ru#%#//scriptlet("abort-on-property-read", "Object.prototype.RenderMarks")
@@ -10603,6 +10603,8 @@ jiji.com,edp24.co.uk,technologyreview.com,inews.co.uk,nordbayern.de,thelocal.ch,
 !
 ! SECTION: Subscriptions - Regular rules
 !
+urbanus.ru##.n-subscribe
+lemire.me##.comment_text_after + p
 ganref.jp##.p-index_regist
 gillette.*#$#.dialog-search-popup { display: none!important; }
 gillette.*#$#.fixed { position: static!important; }
