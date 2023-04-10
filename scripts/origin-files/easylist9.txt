@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202304100323
+! Version: 202304100911
 ! Title: Fanboy's Annoyance List
-! Last modified: 10 Apr 2023 03:23 UTC
+! Last modified: 10 Apr 2023 09:11 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1885,7 +1885,6 @@ _sidebar_newsletter.
 /plugins/socialgrid/*$~stylesheet
 /plugins/StickySocialBar/*
 /plugins/subscribe-connect-follow-widget/*$~stylesheet
-/plugins/super-socializer/*
 /plugins/tweet-this/icons/*
 /plugins/tweetmeme/*
 /plugins/ultimate-follow-me/*
@@ -41773,7 +41772,7 @@ walmart.com##.w_XgwP
 gadgets360.com##.web_dialog
 bisnis.com##.wrapper__ads-download
 tumblr.com##.y8Hml
-reddit.com##[bundlename="bottom_bar_xpromo"]
+i.redd.it,reddit.com##[bundlename="bottom_bar_xpromo"]
 travala.com##[class*="BannerApp_container"]
 qwant.com##[class*="DownloadQwantApp-module_"]
 qwant.com##[class*="MobileAppToast-module_"]
@@ -52886,10 +52885,6 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@/wp-content/plugins/facebook-page-promoter-lightbox/includes/featherlight/close.png$image,~third-party
 @@/wp-content/plugins/share-this-image/*$~third-party
 @@/wp-content/plugins/socialauth-wp/*$~third-party
-@@/wp-content/plugins/super-socializer/css/front.css$~third-party
-@@/wp-content/plugins/super-socializer/js/front/facebook/commenting.js$~third-party
-@@/wp-content/plugins/super-socializer/js/front/facebook/sdk.js$~third-party
-@@/wp-content/plugins/super-socializer/js/front/social_login/*$~third-party
 @@/wp-content/plugins/wordpress-social-login/*$~third-party
 @@/wp-content/plugins/wp-minify/min/?*,wp-content$stylesheet
 @@/wp-content/plugins/wp-rocket/*$image,~third-party
