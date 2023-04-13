@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202304130125
+! Version: 202304130309
 ! Title: Fanboy's Annoyance List
-! Last modified: 13 Apr 2023 01:25 UTC
+! Last modified: 13 Apr 2023 03:09 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -19816,6 +19816,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.thesocialbarform
 ##.thesocialbartext
 ##.thim-author-social
+##.thirdShareBox
 ##.thr-social-share
 ##.thread-share
 ##.thread-share-bar
@@ -41258,6 +41259,7 @@ phemex.com##[href^="https://phemex.com/bonus"]
 walletinvestor.com##[href^="https://premium.walletinvestor.com/"]
 theguardian.com##[name="SlotBodyEnd"]
 theguardian.com##[name="StickyBottomBanner"]
+stuff.co.nz##app-billboard-overlay
 semafor.com##div[class^="styles_floatingBanner_"]
 ! Paging overlays (previous/next page)
 uberhumor.com###bluenext
