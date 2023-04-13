@@ -3439,6 +3439,8 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+international.expert###overlay
+international.expert###modal-wrapper
 wsj.com###cx-candybar
 lookmovie2.to##.notifyjs-corner
 pythoncheatsheet.org##.kinsta-background
@@ -5124,9 +5126,8 @@ trip101.com##.exit-intent
 sec-ed.co.uk#$#.popupWorks { display: none!important; }
 sec-ed.co.uk#$#.ui-front-modal { display: none!important; }
 sec-ed.co.uk#$#body { overflow: visible!important; }
-aeon.co##div[class^="Banner__BannerWrapper"]
-||psyche.co/_next/static/chunks/SupportBannerHeader.*.js
-||aeon.co/_next/static/chunks/SupportBannerHeader.*.js
+/_next/static/chunks/SupportBannerHeader.*.js$domain=aeon.co|psyche.co
+aeon.co##div[class^="Banner__BannerWrapper-sc-"]
 comscore.com#$##vid_modal { display: none!important; }
 comscore.com#$#.modal-backdrop { display: none!important; }
 comscore.com#$#body { overflow: visible!important; padding-right: 0!important;}
@@ -8895,9 +8896,9 @@ roscontrol.com#$#.promo-remodal-wrapper { display: none !important; }
 roscontrol.com#$#.promo-popup-overlay { display: none !important; }
 roscontrol.com#$#html { overflow: auto!important; }
 ! Sync with the rules in Social filter
-123moviestv.net,123-movies.vc,attacker.tv,movie4kto.net,theflixer.tv,sflix.se,2kmovie.cc,musichq.net,swatchseries.*,1movieshd.com,fmoviesto.*,solarmovie.pe,cineb.net,myflixerhd.ru,hdtoday.*,yesmovies.mn,divicast.com,seriestv.watch,freemoviesfull.com,dopebox.to,fmovies.hn,fmovies.*,sflix.to,myflixer.to,movies2watch.tv,ev01.to,ummagurau.com,6movies.net,tinyzonetv.to,myflixertv.to,f2movies.to,moviesjoy.*,moviesjoy.*,myflixerhd.ru,soap2day.*,solarmovie.pe,cineb.net#$#body { overflow: auto !important; padding-right: 0 !important; }
-123moviestv.net,123-movies.vc,attacker.tv,movie4kto.net,theflixer.tv,sflix.se,2kmovie.cc,musichq.net,swatchseries.*,1movieshd.com,fmoviesto.*,solarmovie.pe,cineb.net,myflixerhd.ru,hdtoday.*,yesmovies.mn,divicast.com,seriestv.watch,freemoviesfull.com,dopebox.to,fmovies.hn,fmovies.*,sflix.to,myflixer.to,movies2watch.tv,ev01.to,ummagurau.com,6movies.net,tinyzonetv.to,myflixertv.to,f2movies.to,moviesjoy.*,moviesjoy.*,myflixerhd.ru,soap2day.*,solarmovie.pe,cineb.net#$#.modal-backdrop { display: none !important; }
-123moviestv.net,123-movies.vc,attacker.tv,movie4kto.net,theflixer.tv,sflix.se,2kmovie.cc,musichq.net,swatchseries.*,1movieshd.com,fmoviesto.*,solarmovie.pe,cineb.net,myflixerhd.ru,hdtoday.*,yesmovies.mn,divicast.com,seriestv.watch,freemoviesfull.com,dopebox.to,fmovies.hn,fmovies.*,sflix.to,myflixer.to,movies2watch.tv,ev01.to,ummagurau.com,6movies.net,tinyzonetv.to,myflixertv.to,f2movies.to,moviesjoy.*,moviesjoy.*,myflixerhd.ru,soap2day.*,solarmovie.pe,cineb.net#$##modalshare { display: none !important; }
+moviestowatch.tv,123moviestv.net,123-movies.vc,attacker.tv,movie4kto.net,theflixer.tv,sflix.se,2kmovie.cc,musichq.net,swatchseries.*,1movieshd.com,fmoviesto.*,solarmovie.pe,cineb.net,myflixerhd.ru,hdtoday.*,yesmovies.mn,divicast.com,seriestv.watch,freemoviesfull.com,dopebox.to,fmovies.hn,fmovies.*,sflix.to,myflixer.to,movies2watch.tv,ev01.to,ummagurau.com,6movies.net,tinyzonetv.to,myflixertv.to,f2movies.to,moviesjoy.*,moviesjoy.*,myflixerhd.ru,soap2day.*,solarmovie.pe,cineb.net#$#body { overflow: auto !important; padding-right: 0 !important; }
+moviestowatch.tv,123moviestv.net,123-movies.vc,attacker.tv,movie4kto.net,theflixer.tv,sflix.se,2kmovie.cc,musichq.net,swatchseries.*,1movieshd.com,fmoviesto.*,solarmovie.pe,cineb.net,myflixerhd.ru,hdtoday.*,yesmovies.mn,divicast.com,seriestv.watch,freemoviesfull.com,dopebox.to,fmovies.hn,fmovies.*,sflix.to,myflixer.to,movies2watch.tv,ev01.to,ummagurau.com,6movies.net,tinyzonetv.to,myflixertv.to,f2movies.to,moviesjoy.*,moviesjoy.*,myflixerhd.ru,soap2day.*,solarmovie.pe,cineb.net#$#.modal-backdrop { display: none !important; }
+moviestowatch.tv,123moviestv.net,123-movies.vc,attacker.tv,movie4kto.net,theflixer.tv,sflix.se,2kmovie.cc,musichq.net,swatchseries.*,1movieshd.com,fmoviesto.*,solarmovie.pe,cineb.net,myflixerhd.ru,hdtoday.*,yesmovies.mn,divicast.com,seriestv.watch,freemoviesfull.com,dopebox.to,fmovies.hn,fmovies.*,sflix.to,myflixer.to,movies2watch.tv,ev01.to,ummagurau.com,6movies.net,tinyzonetv.to,myflixertv.to,f2movies.to,moviesjoy.*,moviesjoy.*,myflixerhd.ru,soap2day.*,solarmovie.pe,cineb.net#$##modalshare { display: none !important; }
 !
 ! https://github.com/uBlockOrigin/uAssets/issues/15883
 coolpc.com.tw,coolpc.tw#%#(function(){window.setTimeout=new Proxy(window.setTimeout,{apply:(a,b,c)=>c&&c[0]&&/SkipMsg\(\)/.test(c[0].toString())&&c[1]?(c[1]=1,Reflect.apply(a,b,c)):Reflect.apply(a,b,c)})})();
@@ -10612,6 +10613,7 @@ jiji.com,edp24.co.uk,technologyreview.com,inews.co.uk,nordbayern.de,thelocal.ch,
 !
 ! SECTION: Subscriptions - Regular rules
 !
+hitech-gamer.com###mailModal
 thebrighterside.news##div[data-testid="mesh-container-content"] > div[data-testid="richTextElement"] > h6.font_6
 curiouspeoples.com#?#main > div.mx-auto > div.pt-8:has(> div.px-4 input[type="email"])
 snooker.by#?#aside > div.well:has(> div.custom > p > span > img[src^="/images/stories/logo/telegram"])
@@ -11629,8 +11631,13 @@ e360.yale.edu#%#//scriptlet("abort-on-property-write", "rightnow")
 artandeducation.net##.overlayer
 emergencemagazine.org,wyrk.com##.newsletter-overlay
 emergencemagazine.org##.newsletter-dropin
+||aeon.co/_next/static/chunks/NewsletterPopup.*.js
+aeon.co##div[class^="SupportBar__Wrapper-sc-"]
+aeon.co##div[class^="NewsletterSection__Container-sc-"]
+aeon.co,psyche.co##.NLFormInsertFromCMS
+||psyche.co/_next/static/chunks/PopupManager.*.js
 psyche.co##aside[data-cy="layout-newsletter-signup"]
-aeon.co##div[class^="SupportBar__Wrapper-"]
+psyche.co##aside[data-ga-view-prompt="psyche_footer_banner_newsletter"]
 currentaffairs.org#?#.wp-block-image:has(> a[href$="/subscribe"])
 thewalrus.ca##.spu-container
 argumenti.ru#?#ul[class*="topanons"] > li:has(> a[href^="https://t.me/"])
@@ -11716,7 +11723,6 @@ otodom.pl#%#//scriptlet('set-local-storage-item', 'isNotificationsReleaseModalVi
 hightech.fm##.contentArea > div.article-telegram
 ua-football.com##div[class="row"][style="margin-top: 15px;"]
 goldenstateofmind.com,mmafighting.com##.c-toaster[data-cdata*="newsletter"]
-psyche.co##aside[class^="styled_"][class*="InSituNewsletterSignup-"]
 allsoft.ru##.b-footer-subscription--injected
 theguardian.com##figure[data-spacefinder-type$=".NewsletterSignupBlockElement"]
 rg.ru##div[class^="EditorialPageArticle_buttonsUnderText"]
@@ -13303,10 +13309,6 @@ bloomberg.com##.inline-newsletter-top
 pythonforbeginners.com,collegetransitions.com##.widget_yikes_easy_mc_widget
 invezz.com##.inv-sidebar-widget[x-data^="XNewsletterSignUp"]
 sec-ed.co.uk###newsletter-panel
-aeon.co##div[class^="NewsletterPopup__NewsletterPopupWrapper"]
-aeon.co##div[class*="NewsletterSign"]
-||psyche.co/_next/static/chunks/PopupManager.*.js
-||aeon.co/_next/static/chunks/NewsletterPopup.*.js
 workopolis.com##.JobAlert
 workopolis.com#$##careerAlertContainer { display: none!important; }
 workopolis.com#$#body { overflow: visible!important; }
