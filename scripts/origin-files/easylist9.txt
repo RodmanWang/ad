@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202304140320
+! Version: 202304140631
 ! Title: Fanboy's Annoyance List
-! Last modified: 14 Apr 2023 03:20 UTC
+! Last modified: 14 Apr 2023 06:31 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -40717,6 +40717,7 @@ theguardian.com###contact-the-guardian
 advfn.com###container3178shellWrapper
 euractiv.com###contribs_banner
 thejournal.ie###contribution-prompt-overlay
+marijuanamoment.net###custom_html-8
 liliputing.com###custom_html-9
 the74million.org###donate_rocket
 isglobal.org###donation-button-footer
@@ -40762,6 +40763,7 @@ freightwaves.com###tie-block_521
 geekwire.com###tips-sidebar
 nashvillescene.com###tncms-region-article_bottom
 lmtribune.com###tncms-region-page_sticky_anchor
+chicagotribune.com###toasterId
 coingecko.com###top-announcement-header
 kyivindependent.com###top-banner
 fflogs.com,warcraftlogs.com###top-banner-fallback
@@ -40925,6 +40927,8 @@ bitchute.com##.membership-container > .spa
 bitchute.com##.membership-container > span
 euobserver.com##.membership-upsell
 eurogamer.net,rockpapershotgun.com,vg247.com##.merch_component
+chicagotribune.com##.met-button-varB
+chicagotribune.com##.met-header-toast
 finecooking.com##.meter-bar
 miraheze.org##.mh-notice
 motherjones.com##.mj-adblock-widget
@@ -40993,6 +40997,7 @@ aarp.org##.section.membership
 news.crunchbase.com##.see-plans-cta
 searchenginejournal.com##.sej-widget-box
 spiked-online.com##.sell-wrap
+algemeiner.com##.sendtip
 thecritic.co.uk##.sf-header-subscription__content
 thecritic.co.uk##.sf-subscribe
 aarp.org##.sharp-c-configurable-carousel__slide--multi
@@ -41017,6 +41022,7 @@ bigbangnews.com##.sumate
 golem.de##.supplementary
 codastory.com##.support
 thecanary.co##.support-img
+agsiw.org##.support-us__wrapper___28JTY
 vg247.com##.supporters_promo
 food.com##.sweeps-promo
 toucharcade.com##.ta_patreonWidget
@@ -41026,6 +41032,7 @@ theblock.co##.theblockresearch
 pjmedia.com##.thm-piano-bottom
 pjmedia.com,townhall.com##.thm-piano-eop
 themedialine.org##.tml-popup-donate-holder
+cnn.com##.toast-popup
 crypto.com##.top-banner__item
 healthday.com##.top-bar-promo
 educba.com##.topbar
@@ -41051,6 +41058,7 @@ youtube.com##.ytd-statement-banner-renderer
 zerohedge.com##[class^="Banner_"]
 picsart.com##[class^="hintWrapper"]
 picsart.com##[class^="pa-monetization"]
+jurist.org##[href="/apply/"]
 dailyhodl.com##[href="https://dailyhodl.com/alerts/"]
 mljar.com##[href="https://github.com/mljar/mercury"]
 phemex.com##[href^="https://phemex.com/bonus"]
@@ -41065,8 +41073,9 @@ uberhumor.com###blueprevious
 sabcnews.com###floating-nextprev
 thecourier.com###nextStoryTitle
 thecourier.com###previousStoryTitle
+crossroadstoday.com###slidepanel
 bozemandailychronicle.com##.asset-paging
-gazette.com,kentuckytoday.com,kmaland.com,nashvillescene.com,news-gazette.com,pulaskicountyweekly.com,thecentersquare.com,wdel.com,wdrb.com,wvnews.com##.asset-paging-container
+crossroadstoday.com,gazette.com,kentuckytoday.com,kmaland.com,nashvillescene.com,news-gazette.com,pulaskicountyweekly.com,thecentersquare.com,wdel.com,wdrb.com,wvnews.com##.asset-paging-container
 emergingrisks.co.uk##.avia-post-nav
 indianexpress.com##.breaking-scroll
 lawandcrime.com,mediaite.com,whiskeyraiders.com##.c-article-nav-arrows
@@ -41296,7 +41305,6 @@ investing.com##.allow-notifications-popup-wrapper
 informationweek.com##.announcement
 timesofindia.com##.bluy8
 tmz.com##.browser-notifications-prompt
-caixinglobal.com##.caixinAPP
 manutd.com##.custom-popup
 mediaexpert.pl##.dynamic-modal
 msn.com##.homepage-banner
@@ -41373,12 +41381,15 @@ nbcsandiego.com###branch-amp-journey
 deepl.com###callout-subtitle-chromeExtensionPromo
 castbox.fm###channelAppBar
 deepl.com###dl_app_banner_popup
+map.baidu.com###downloadnativepopupUlink
+economictimes.indiatimes.com###float_app_ET
 kogan.com###footer-native-banner
 ventusky.com###header > .ii[href]
 m.aliexpress.com###header-float-banner
 web.quizknock.com###header_iosapp_link
 trakt.tv###ios-official-wrapper
 ivoox.com###jq-box-app
+kinarino-mall.jp###js-view-in-app
 twitter.com###layers div[class="css-1dbjc4n r-l5o3uw r-97e31f"]
 zillow.com###local-app-upsell
 pixlr.com###mobile-variant
@@ -41430,6 +41441,7 @@ banggood.com##.app-top-bar
 banggood.com##.app-top-height
 bleacherreport.com##.appInstallButton
 kijiji.ca##.appMarketingWrapper-909710043
+izi.travel##.app_message
 theepochtimes.com##.app_promo
 cookpad.com##.app_promotion
 cookpad.com##.appinstall
@@ -41450,6 +41462,7 @@ meetup.com##.bg-midnightDark.align-center.flex
 kickstarter.com##.bg-navy-200
 m.bilibili.com##.bottom
 banggood.com##.bottom-app-contain
+map.baidu.com##.bottom-banner-float
 commaful.com##.bottom-section-signup
 al-monitor.com##.breaking-news-alert
 dailywire.com##.c-link
@@ -41459,6 +41472,7 @@ kijiji.ca##.container-3757608091
 folhetospromocionais.com##.corner-popup-container
 cookpad.com##.css-1azakc
 neeva.com##.cta-search-result-result__extensionCTAContainer-4d4uV
+actionnetwork.com##.cta-wrapper__child
 kuow.org##.cta_download
 m.timesofindia.com##.ctaopenapp
 expedia.at,expedia.co.id,expedia.co.in,expedia.co.jp,expedia.co.kr,expedia.co.nz,expedia.co.th,expedia.co.uk,expedia.com.ar,expedia.com.au,expedia.com.hk,expedia.com.sg,expedia.de,expedia.dk,expedia.es,expedia.fi,expedia.fr,expedia.it,expedia.no,expedia.se,www.expedia.nl##.customer-notification-container
@@ -41478,23 +41492,29 @@ metar-taf.com##.download-info
 m.bilibilicomics.com##.download-popup
 caixinglobal.com##.downloadAPP
 zomato.com##.drRXJW
+actionnetwork.com##.e7h0b9a0
 capitaloneshopping.com##.extension-modal
 startpage.com##.extension-store-widget-container
 m.bilibili.com##.fe-ui-open-app-btn
 marokko.nl##.floatbar
+actionnetwork.com##.follow-author__button
 cookpad.com##.footer-1azakc
+fanpage.it##.fp-login_underfollow
+goobike.com##.gb_appbnrs
 coincodex.com##.get-app
 imgur.io##.get-app-block
 9gag.com##.get-the-app-banner
 hindustantimes.com##.getApp
 m.timesofindia.com##.getapp
 rent.com##.h-100
+coinunited.io##.home-div-block-app-2
 canada411.ca##.hubapp
 gumtree.com##.image-app-banner
 shazam.com##.info
 vanceai.com##.install-app
 trip.com##.install-bottom
 terabox.com##.introduce-sticky-btn
+tanp.jp##.js-appDownloadHeaderBanner
 duckduckgo.com##.js-open-in-app
 ahchealthenews.com##.livewell-widget
 klarna.com##.ljtbes
@@ -41531,6 +41551,7 @@ m.bilibili.com##.openapp-dialog
 livemint.com##.openinApp
 livemint.com##.openinApp2
 satellitemap.space##.overlay-open-in-app-button
+kinarino-mall.jp##.p-appeal-top-banner__container
 islambook.com##.panel-danger
 dahuasecurity.com##.partners
 shazam.com##.phones
@@ -41562,6 +41583,7 @@ inquisitr.com##.stay-in-touch
 airtel.com##.sticky-section-top
 m.tribunnews.com##.tapp-banner
 trip.com##.tcp-h5-install-banner
+trip.com##.tcp-h5-install-popup
 telegram.org##.tg_try_desktop
 twitter.com##.toast.client_prompt
 zaim.net##.top-fix
@@ -41572,6 +41594,7 @@ tropter.com##.tropter-app-teaser
 expedia.com##.uitk-bottom-sheet
 wondershare.com##.upload-box
 reddit.com##.upsell_banner
+actionnetwork.com##.user-component__trial-button
 ventusky.com##.vj
 walmart.com##.w_XgwP
 gadgets360.com##.web_dialog
@@ -41696,6 +41719,7 @@ miningweekly.com,polity.org.za###fde_bar
 thefederalistpapers.org###firefly-poll-container
 independent.co.uk###footerPrompt
 engineeringnews.co.za###footerbar
+knewz.com###forms-block_ee1e843a9348070a466c6e3f908c9703
 patriotfetch.com###gform_widget-3
 verybestbaking.com###gigya-subscribe-with-email-screen
 healthleadersmedia.com###hcpro-misc-form
@@ -41908,6 +41932,7 @@ israelnationalnews.com##.article-join
 reuters.com##.article-prompt__container__3uXJV
 futurity.org##.article-signup
 publishersweekly.com##.articleRelatedSignup
+ft.com##.article__content-sign-up
 nationalreview.com##.aside-module--promo-module
 brownstone.org##.astra-advanced-hook-7207
 classicalite.com##.at-subsc
@@ -42438,6 +42463,7 @@ bigislandnow.com##.newsletterSignupGrid
 petri.com##.newsletterWide
 usafacts.org##.newsletter__block
 greatbritishchefs.com##.newsletter__title-image-overlay
+agsiw.org##.newsletter__wrapper___14iH8
 mycause.com.au##.newsletter_container
 abplive.in##.newsletter_div
 fromthegrapevine.com##.newsletter_modal
@@ -42659,6 +42685,7 @@ nutritioninsight.com,packaginginsights.com##.subscribe-div
 cafemom.com##.subscribe-enter-done
 euroweeklynews.com##.subscribe-for-news
 memri.org##.subscribe-for-updates
+jurist.org##.subscribe-form
 bongino.com##.subscribe-form-home
 thefinancialbrand.com##.subscribe-free
 superwatchman.com##.subscribe-header
@@ -42800,6 +42827,7 @@ topgear.com##[data-testid="NewsletterFooter"]
 thurrott.com##[data-thurrott-layout-section-footer-section="newsletter"]
 jewishworldreview.com##[href="/subs.php"]
 techcabal.com##[href="https://techcabal.com/newsletter"]
+middleeasteye.net##[style^="display: flex; align-items: center; justify-content: center;"]
 factcheck.org##a[href*="/subscribe/"]
 quantamagazine.org##a[href="#newsletter"]
 refinery29.com##aside
@@ -43570,7 +43598,9 @@ criminaljusticedegreehub.com,datingscammer.info,tenor.com##.share-buttons
 tvline.com##.share-comment
 fandomwire.com,quickanddirtytips.com,tvline.com##.share-container
 news.cgtn.com##.share-icon
+agsiw.org##.share-icons__social-shares___2eB-m
 nymag.com##.share-link
+jurist.org##.share-links
 fintech.tv##.share-news
 xvideos.com##.share-small
 wrif.com##.share-wrap
@@ -43638,6 +43668,7 @@ livecoinwatch.com##.social-feed-container
 topmarks.co.uk##.social-game
 jns.org##.social-help
 abc13.com,changer4u.com,davidwalsh.name,dcrainmaker.com,ijr.com,justthenews.com,liliputing.com,screenshot-media.com,thewindowsclub.com##.social-icons
+knewz.com##.social-items
 cinenews.be##.social-line
 fullfact.org,metro.us,screencrush.com,skinnyms.com,stoneyroads.com,thedailystar.net##.social-links
 gamerant.com,latestly.com##.social-list
@@ -43661,6 +43692,7 @@ onlyfans.com##.social_guest
 woodworkforinventor.com##.social_icons
 signiform.com##.social_nav
 myfitnesspal.com##.social_profile
+outlookindia.com##.social_sharing_article
 impactloud.com,thehindu.com##.socialize
 bidorbuy.co.za##.socialnetwork
 tecmint.com##.socialprofiles
@@ -52454,6 +52486,8 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||playoverwatch.com/static/externals/cookie-consent-filter-compat.js
 @@||policy.app.cookieinformation.com^$domain=altibox.no|elkjop.no|jysk.nl|power.no|skousen.dk|skousen.no|whiteaway.com|whiteaway.no|whiteaway.se
 @@||portal.aae.at^*/cookieconsent.js$script,~third-party
+@@||portal.energie-graz.at/kundenportal/css/cookieconsent/$~third-party
+@@||portal.energie-graz.at/kundenportal/js/lib/cookieconsent.js$~third-party
 @@||privacypolicies.com/public/uploads/$image,~third-party
 @@||privacyportal-cdn.onetrust.com^$xmlhttprequest,domain=materialplus.io|minehut.com
 @@||purpleair.com/js/gdpr-cookie-consent-popup-plugin/$~third-party
