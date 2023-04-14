@@ -409,7 +409,6 @@ neowin.net#$#body > div[class^="sp_"] { display: none!important; }
 @@||lapresse.ca^$generichide
 @@||med1.de^$generichide
 @@||neowin.net^$generichide
-@@||tomsguide.com^$generichide
 @@||cyclingnews.com^$generichide
 @@||bikeperfect.com^$generichide
 @@||loudersound.com^$generichide
@@ -1072,7 +1071,6 @@ feber.se##div.overlayBox[id^="202"]
 festyy.com##.information-container
 file.fm,files.fm#%#//scriptlet("set-constant", "canRunAds", "true")
 filezipa.com##div[style*="height: 100%;"][style*="opacity: .7"][style*="z-index:"]
-films-now.ru,serials-now.ru##.notification.is-danger
 firebit.biz##div[align="center"][style^="background-color:#0088CC; font-size:12px; min-height: 70px;"]
 firebit.net#$#.adsense { width: 10px!important; height: 10px!important; }
 flightaware.com###blockerDisclaimerContainer
@@ -9349,6 +9347,7 @@ kurashiru.com#$#html.dly-modal-active { overflow: auto!important; }
 !
 ! SECTION: Popups - Mobile sites only
 !#if (adguard_app_android || adguard_app_ios || adguard_ext_android_cb || ext_ublock)
+kobe-np.co.jp##.add-paid-bnr
 ||comic-walker.com/sp/js/sp-modalBanner.js
 ma-net.jp##.c-sitePush
 store.line.me#?##popup-root:has(button.confirm-button:contains(今すぐチェック))
@@ -9914,6 +9913,7 @@ macwelt.de,pcwelt.de#%#//scriptlet("set-constant", "firebase.messaging", "noopFu
 !
 ! SECTION: Push notifications - Regular rules
 !
+||uncensoredhentai.xxx/wp-content/plugins/daftplug-instantify/pwa/public/assets/js/script-push.js
 24tv.ua###notification-popup-place
 get4click.ru###g4c-firebase
 trademap.com.br##.daftplugPublic
@@ -10628,6 +10628,9 @@ jiji.com,edp24.co.uk,technologyreview.com,inews.co.uk,nordbayern.de,thelocal.ch,
 !
 ! SECTION: Subscriptions - Regular rules
 !
+sciencenews.org###zephr-user-form-root
+ogznet.com##.newsletter-wide
+ogznet.com##.widget-socials.mb-3
 tproger.ru##.widget-telegram-feed__type-sobesyabr
 sportskeeda.com##.follow-action
 hitech-gamer.com###mailModal
