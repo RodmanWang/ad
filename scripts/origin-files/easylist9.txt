@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202304140631
+! Version: 202304140900
 ! Title: Fanboy's Annoyance List
-! Last modified: 14 Apr 2023 06:31 UTC
+! Last modified: 14 Apr 2023 09:00 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -39491,6 +39491,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||cmp.quantcast.com/choice/*/www.themoneytizer.com/choice.js
 ||cmp.setupcmp.com^
 ||collectconsent.com^$third-party
+||collector.appconsent.io^
 ||consensu.io^$third-party
 ||consensu.org/gdpr/$third-party
 ||consent.digiapi.com^
@@ -39669,6 +39670,8 @@ dashboard.razorpay.com#@##credential_picker_container
 ||astian.org/?push_notification_sw
 ||bdstatic.com/linksubmit/push.js
 ||gadgetsnow.com/sw.cms
+||hindustantimes.com/messaging-sw.js
+||hindustantimes.com/sw.js
 ||hindustantimes.com^*/ht-notification-
 ||indiatimes.com/pn/
 ||iol.co.za/sw.js
@@ -40717,6 +40720,7 @@ theguardian.com###contact-the-guardian
 advfn.com###container3178shellWrapper
 euractiv.com###contribs_banner
 thejournal.ie###contribution-prompt-overlay
+news9live.com###cube_spinner
 marijuanamoment.net###custom_html-8
 liliputing.com###custom_html-9
 the74million.org###donate_rocket
@@ -40761,6 +40765,7 @@ news.crunchbase.com###text-8
 ghacks.net###the-day-in-history
 freightwaves.com###tie-block_521
 geekwire.com###tips-sidebar
+themedialine.org###tmlPopupDonate
 nashvillescene.com###tncms-region-article_bottom
 lmtribune.com###tncms-region-page_sticky_anchor
 chicagotribune.com###toasterId
@@ -40794,6 +40799,7 @@ science.org##.alert-donation
 damemagazine.com##.an_independent
 darkreading.com##.announcement
 thebookseller.com##.ao-cpa
+dailysabah.com##.aos-animate
 coinpaprika.com##.api-promo-banner
 apkmirror.com##.apkm-timed-slider
 nature.com##.app-featured-row__item
@@ -41048,6 +41054,7 @@ thurrott.com##.widget > [href="https://www.thurrott.com/thurrott-premium"]
 nationalpost.com##.widget--local-ads
 cpuid.com##.widget-advert-300-sticky
 cpuid.com##.widget-advert-336
+gulftoday.ae##.widget-advertisement-card
 chicagoreporter.com##.widget-support-tcr
 factcheck.org##.widget_factcheck_donate_widget
 thenationalpulse.com##.widget_media_image
@@ -41083,10 +41090,12 @@ thesun.ie##.carousel__nav
 bamsmackpow.com,gamesided.com,gojoebruin.com##.fixed-article-nav
 itweb.co.za##.itw-prevnext
 euronews.com##.js-swip-btn
+businesstoday.in##.mainBorromSliderSec
 metro.co.uk##.metro-swipe-prompt
 mlbtraderumors.com##.nav-arrow
 fixya.com##.next-arrow
 news24.com##.next-article
+deadline.com##.pmc-u-background-white.pmc-u-margin-b-0
 theprp.com##.post-preview-prev
 fixya.com##.prev-arrow
 nymag.com,vulture.com##.prev-next
@@ -41233,12 +41242,14 @@ nexusmods.com##.scroll
 thehill.com##.scroll-down-to-next
 oilgasworkforce.com##.scroll-indicator
 timesofmalta.com##.scroll-notification-container
+gulftoday.ae##.scroll-to-top
 toyota.co.uk,toyota.ie##.scrollTo
 joburg.co.za##.scrollUp
 khronos.org,kyivpost.com##.scroll_to
 chillinpanda.com##.scroll_top_wrap
 imperialtoyota.co.za##.scroller
 artstation.com##.scrollto
+news9live.com##.scrolltop
 globalguideline.com##.scrollup
 ubs.com##.section__topwrapper
 tiktok.com##.show-top
@@ -41739,7 +41750,7 @@ greatvaluevacations.com###js-subscribe-takeover
 modernretail.co###lead_newsletter
 audioholics.com###mail-list-button
 neonnettle.com###mailList
-allkpop.com,tokyohive.com###mailing-list
+allkpop.com,snowbrains.com,tokyohive.com###mailing-list
 techzine.eu###mailsignup
 rapidtvnews.com###masthead
 moneyweb.co.za###mc_embed_signup1
@@ -42455,7 +42466,7 @@ moneycontrol.com##.newsletter-signup-rhs
 frontofficesports.com##.newsletter-sticky-bar
 scientificamerican.com##.newsletter-subscribe-container
 newyorker.com##.newsletter-subscribe-form
-alarabiya.net,intego.com##.newsletter-subscription
+alarabiya.net,intego.com,phonearena.com##.newsletter-subscription
 thecradle.co##.newsletter-subscription_newsletterform__ulg8Q
 straightarrownews.com##.newsletter-tout
 ijnet.org,webmd.com##.newsletter-wrapper
@@ -43013,6 +43024,7 @@ funnyjunk.com###rdBtn
 auburnpub.com,azdailysun.com,beatricedailysun.com,billingsgazette.com,bismarcktribune.com,chippewa.com,columbustelegram.com,cumberlink.com,dailyjournalonline.com,democratherald.com,elkodaily.com,fremonttribune.com,gazettetimes.com,globegazette.com,hanfordsentinel.com,helenair.com,herald-review.com,jg-tc.com,journalstar.com,journaltimes.com,lacrossetribune.com,lebanon-express.com,lompocrecord.com,magicvalley.com,missoulanews.com,missoulian.com,mtstandard.com,muscatinejournal.com,napavalleyregister.com,nwitimes.com,pantagraph.com,poststar.com,qconline.com,qctimes.com,rapidcityjournal.com,ravallirepublic.com,santamariatimes.com,siouxcityjournal.com,stltoday.com,tdn.com,thesouthern.com,thetandd.com,theworldlink.com,trib.com,tucson.com,wcfcourier.com,winonadailynews.com,wiscnews.com###reaction-wrap
 currencyconverterrate.com###recommend
 redice.tv###s2
+snowbrains.com###sb-footer-menu
 lelong.com.my###scan
 healthyfoodplace.com,ridesbeerbabes.com###scrollbarbox
 inspire52.com###scrolltriggered
@@ -43331,6 +43343,7 @@ snopes.com##.follow-snopes-on
 thetablet.co.uk##.follow-the-tablet
 sciencenews.org##.follow-us__wrapper___1E0vf
 vt.edu##.follow-virginia-tech-icons
+news9live.com##.followBtn
 moviemistakes.com##.followbuttons
 zimbabwesituation.com##.followdesktop
 rbth.com,rt.com##.follows-channel
@@ -43471,6 +43484,7 @@ intel.com##.look-for-intel
 porsche.com##.m-03-social-headline
 invenglobal.com##.m_quickmenu
 laserfiche.com##.main_cont__aside
+themedialine.org##.mdl-share-tool-vertical
 amazon.jobs##.media-icons
 deccanchronicle.com##.medial-icons-wrapper
 americanjournalreview.com##.meks_ess
@@ -43567,6 +43581,7 @@ dailylife.com.au,smh.com.au,teamcoco.com,tomshardware.com##.reddit
 eleconomista.com.mx##.redes-header
 eleconomista.com.mx##.redes-right
 onegreenplanet.org,ryot.org##.reveal-modal-bg
+businesstoday.in##.rhs-fixwhtsapp
 gdnonline.com##.right
 thehindubusinessline.com##.right-promo
 dailycaller.com##.rounded-full
@@ -43693,6 +43708,7 @@ woodworkforinventor.com##.social_icons
 signiform.com##.social_nav
 myfitnesspal.com##.social_profile
 outlookindia.com##.social_sharing_article
+businesstoday.in##.social_tracking
 impactloud.com,thehindu.com##.socialize
 bidorbuy.co.za##.socialnetwork
 tecmint.com##.socialprofiles
@@ -44377,6 +44393,7 @@ port.ac.uk##.Alert
 cryptokitties.co##.Banner
 rottweil-ammunition.com##.BannerManager
 quora.com##.Banner___StyledFlex-sf9g3d-0
+plaid.com##.Banner_banner__D6XZ9
 company.plarium.com##.Banner_cookiesBannerModalOverlay__y4uC8
 cryptokitties.co##.BottomBanner
 7-eleven.com##.CCPABanner_ccpa-banner__rzbVD

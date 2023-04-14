@@ -5550,6 +5550,10 @@ nethunt.com/api/v1/track/email/$image
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+! TODO: Move to the regular rules if there are no problems before 01.05.23
+||analytics.s3.amazonaws.com^
+||analyticsengine.s3.amazonaws.com^
+!
 ||lake.joongang.co.kr^
 ||dsas.danawa.com^
 ||t.apkpure.net^
@@ -36946,7 +36950,6 @@ mag.osdn.jp##div[id^="logly-lift-"]
 ||sf-syn.com/conversion_outbound_tracker$subdocument,domain=sourceforge.net
 ||tv3play.skaties.lv/static/scripts/trackdb/events.gif$image,redirect=1x1-transparent.gif
 ||play.tv3.lt/static/scripts/trackdb/events.gif$image,redirect=1x1-transparent.gif
-||analytics.google.com/g/collect?*&tid=
 ||ssl.kaptcha.com/collect/
 ||r.popin.cc/log.gif
 ||adsystem.dailyissue.co.kr/show/logs.php
@@ -37001,7 +37004,7 @@ news.mynavi.jp##.articleList-attention
 ||estore.jp/beacon/
 ||s.cdin.me/i.php
 ||ui-portal.de/pos-cdn/tracklib/
-||analytics.google.com/g/collect?v=
+||analytics.google.com/g/collect?
 ||google.*/ads/ga-audiences?v=
 ||events.genndi.com/tracker
 ||mcrypto.club/track
@@ -40910,6 +40913,10 @@ inapps.appsflyersdk.com^
 !#endif
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/147807
+||ab.blogs.es/abtest.png?editorialRecommendations$image,redirect=2x2-transparent.png,domain=applesfera.com
+!+ PLATFORM(ios, ext_android_cb, ext_safari)
+@@||ab.blogs.es/abtest.png?editorialRecommendations$domain=applesfera.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/148203
 @@||cdn.clerk.io/clerk.js$domain=apotera.no
 ! https://github.com/AdguardTeam/AdguardFilters/issues/148089
