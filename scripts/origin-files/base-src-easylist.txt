@@ -8010,7 +8010,6 @@
 ||ahadsply.com^$popup
 ||ahagreatlypromised.com^
 ||ahaheartburndo.com^
-||ahalogy.com^$third-party
 ||ahaurgoo.net^
 ||ahbdsply.com^
 ||ahbdsply.com^$popup
@@ -9966,7 +9965,6 @@
 ||api.gimbal.com^
 ||api.giphy.com^*/related?$third-party
 ||api.goodjob.life/me/permissions/search^$replace=/("hasSearchPermission"):false/\$1:true/
-||api.groupon.com^$third-party
 ||api.grumft.com^$third-party
 ||api.imqtyik.com^
 ||api.infinario.com^$third-party
@@ -10021,17 +10019,12 @@
 ||api.sorunapp.com^$third-party
 ||api.splkmobile.com^
 ||api.spotleadia.com^$domain=~venyoo.ru
-||api.starsmp.com^$third-party
 ||api.taboola.com^$app=Mahjong.exe|Solitaire.exe|Microsoft.Msn.News.exe
 ||api.telemetry.watchabc.go.com^
 ||api.tinypass.com^$domain=dallasnews.com
 ||api.tomi.ai^$third-party
 ||api.traq.li^$third-party
 ||api.trueaudience.io^
-||api.twitter.com^*/count.json?$third-party
-||api.twitter.com^*/lookup.json?$third-party
-||api.twitter.com^*/show.json?$third-party,domain=~twimg.com
-||api.twitter.com^*/user_timeline$third-party
 ||api.uca.cloud.unity3d.com^
 ||api.usebutton.com^
 ||api.useinsider.com^$third-party
@@ -10050,11 +10043,6 @@
 ||apionloadmedia.com^$third-party
 ||apis.4bn.xyz^
 ||apis.appnxt.net^
-||apis.google.com^*/widget/render/badge?$third-party
-||apis.google.com^*/widget/render/community?$third-party
-||apis.google.com^*/widget/render/follow?$third-party
-||apis.google.com^*/widget/render/page?$third-party
-||apis.google.com^*/widget/render/person?$third-party
 ||apiuytxdxacumbo.xyz^
 ||apiv2.moengage.com^
 ||apjiangte.com^
@@ -13545,7 +13533,6 @@
 ||bizrate.com^
 ||bizrotator.com^
 ||bizspring.net^$third-party
-||bizsugar.com^*/button-b.php$third-party
 ||bizx.info^$third-party
 ||bizzclick.com^$third-party
 ||bj-gov-cn.website^
@@ -14657,8 +14644,7 @@
 ||button-share.zalo.me^$third-party
 ||button.flattr.com^$third-party
 ||button.like.co^$third-party
-||buttons.googlesyndication.com^$third-party,domain=~google.com
-||buttons.reddit.com^$third-party
+||buttons.googlesyndication.com^$third-party
 ||buutfstk.xyz^
 ||buvamery.net^
 ||bux1le001.com^$third-party
@@ -14693,7 +14679,6 @@
 ||buzzadnetwork.com^$third-party
 ||buzzard.donotresearch.net^
 ||buzzard.nimble.team^
-||buzzbuttons.com^$third-party
 ||buzzcity.net^
 ||buzzcity.net^$third-party
 ||buzzdeck.com^$third-party
@@ -15726,7 +15711,6 @@
 ||cdn.welcome.pussysaga.com^$third-party
 ||cdn.wenzhangba.cn^
 ||cdn.wgchrrammzv.com^
-||cdn.wibiya.com^$script
 ||cdn.wibiya.com^$third-party
 ||cdn.wuyou.ca^
 ||cdn.wwfx.xyz^
@@ -18082,7 +18066,6 @@
 ||conversionly.com^$third-party
 ||conversionruler.com^$third-party
 ||conversions.appsflyer.com^
-||conversionsbox.com^$third-party
 ||convertexperiments.com^$third-party
 ||convertfiles.com^$csp=script-src 'self' '*' 'unsafe-inline'
 ||convertflow.co^$third-party
@@ -26888,21 +26871,6 @@
 ||facebook.com^$app=com.veraxen.colorbynumber.oilpainting|com.veraxen.jigsaw|com.veraxen.jigsawpuzzlescollectionhd
 ||facebook.com^*/impression_logging/
 ||facebook.com^*/logging/
-||facebook.com^*/plugins/activity.php?$third-party
-||facebook.com^*/plugins/facepile.php?$third-party
-||facebook.com^*/plugins/fan.php?$third-party
-||facebook.com^*/plugins/follow.php?$third-party
-||facebook.com^*/plugins/follow?$third-party
-||facebook.com^*/plugins/like_box.php?$third-party
-||facebook.com^*/plugins/likebox/$third-party
-||facebook.com^*/plugins/page.php?$third-party
-||facebook.com^*/plugins/recommendations.php?$third-party
-||facebook.com^*/plugins/recommendations_bar.php?$third-party
-||facebook.com^*/plugins/save.php?$third-party
-||facebook.com^*/plugins/send.php?$third-party
-||facebook.com^*/plugins/subscribe.php$third-party
-||facebook.com^*/plugins/subscribe?$third-party
-||facebook.com^*/quote.php?$third-party
 ||facemap.foldlife.net^$app=com.estrongs.android.pop
 ||faceporn.com^$third-party
 ||facesnotebook.com^
@@ -34279,7 +34247,6 @@
 ||instaflrt.com^$all
 ||instagram.astv.ru^
 ||instagram.com/static/images/appstore-install-badges^
-||instagram.com^*/users/$third-party
 ||install.searchfrit.com^$third-party
 ||installerleading.com^
 ||installlnow.com^
@@ -34295,7 +34262,6 @@
 ||instantresp.com^
 ||instapagemetrics.com^$third-party
 ||instauser.tk^
-||instawidget.net^$third-party
 ||insteadprincipleshearted.com^
 ||insteadprincipleshearted.com^$popup
 ||insticator.com^$third-party
@@ -35298,7 +35264,6 @@
 ||jiape.cyou^
 ||jiasheng-china.cn^
 ||jiatang.club^
-||jiathis.com^$third-party
 ||jiawen88.com^
 ||jiaxinzhang.cn^
 ||jiaxue.xyz^
@@ -39159,7 +39124,6 @@
 ||management.adxnow.com^
 ||manager.met.vgwort.de^
 ||managesdancing.com^
-||managewp.org^$third-party
 ||manatee.biodom.bio^
 ||manatee.creativepassport.net^
 ||manbycus.com^
@@ -47650,11 +47614,9 @@
 ||pluraldispersegranary.com^
 ||pluralsight.tt.omtrdc.net^
 ||plus.chocobabe.live^
-||plus.google.com^*/js/widget/$third-party
 ||plus.mameradivlasy.cz^
 ||plus20.ru^$third-party
 ||plusclick.biz^
-||plusone.google.com^$third-party
 ||plusone.google.com^$third-party
 ||plusone8.com/ardexaae.php^
 ||plutoclean.com^
@@ -50395,7 +50357,6 @@
 ||readnos.com^
 ||readnotify.com^$third-party
 ||readpeak.com^$third-party
-||readrboard.com^$third-party
 ||readserv.com^
 ||readserv.com^$popup
 ||readserver.net^
@@ -50560,8 +50521,6 @@
 ||redbillecphory.com^
 ||redcounter.net^$third-party
 ||reddenjaguarsuitcase.com^
-||reddit.com^*/submitted.embed?$third-party
-||redditstatic.s3.amazonaws.com^$third-party,domain=~reddit.com
 ||reddleops.pro^$third-party
 ||reddsdainful.com^
 ||reddwarf.till-sanders.de^
@@ -53544,7 +53503,6 @@
 ||search.boffoads.com^
 ||search.infinity-info.com^
 ||search.semp.net^
-||search.twitter.com^$third-party
 ||search.vokut.com^
 ||search123.uk.com^$third-party
 ||search4y.com^$popup
@@ -54224,10 +54182,8 @@
 ||share.itraffic.su^$third-party
 ||share.itraffic.su^$third-party
 ||share.pluso.ru^$third-party
-||share.pluso.ru^$third-party
 ||share.static.skyrock.net^$third-party
 ||share.yandex.net^$third-party
-||share.yandex.ru^$third-party
 ||share.yandex.ru^$third-party
 ||shareaholic.com^$third-party
 ||shareaholic.com^$third-party
@@ -57020,8 +56976,6 @@
 ||social-bookmarking-tools.de^$third-party
 ||social-plugins.line.me/widget^$third-party
 ||social1listnews.com^
-||social9.com^$third-party
-||socialannex.com^$third-party
 ||socialbars-web1.com^
 ||socialbirth.com^$third-party
 ||socialelective.com^$third-party
@@ -57029,21 +56983,15 @@
 ||sociallist.org^$third-party
 ||sociallycontend.com^
 ||sociallypublish.com^$third-party
-||socialmarker.com^$third-party
 ||socialmedia.com^$third-party
-||socialmediabuttons.com^$third-party
-||socialmediatabs.com^$third-party
 ||socialoomph.com^$third-party
 ||socialprofitmachine.com^$third-party
-||socialproof.it^$third-party
 ||socialreach.com^$third-party
-||socialrest.com^$third-party
 ||socialsend.ru^$third-party
 ||socialsex.biz^$popup
 ||socialsex.com^$popup
 ||socialsexnetwork.net^$third-party
 ||socialspark.com^$third-party
-||socialtools.fm^$third-party
 ||socialtrack.co^$third-party
 ||socialtrack.net^$third-party
 ||socialtwist.com^$third-party
@@ -58997,7 +58945,7 @@
 ||static.zmdvideo.com^
 ||statictapcdn-a.akamaihd.net^$third-party
 ||staticxz.com^$third-party
-||statigr.am^*/follow/$third-party
+||statigr.am^$third-party
 ||stationeryshapeless.com^
 ||statisfy.net^$third-party
 ||statistic.gamona.de^
@@ -59912,7 +59860,6 @@
 ||stipestilths.com^
 ||stiposclimath.com^
 ||stippennothing.guru^
-||stipple.cachefly.net^$third-party
 ||stippleit.com^$third-party
 ||stithujogle.pro^
 ||stitly.com^
@@ -59966,8 +59913,6 @@
 ||storagetechnology.arrow.com^
 ||store-notifications.online^
 ||store.bitdefender.com/affiliate.php^$third-party
-||store.yahoo.net^*/facebook.png$third-party
-||store.yahoo.net^*/twitter.png$third-party
 ||storeacdn.com^
 ||storeapi.net^$third-party
 ||storeconfig.mistat.intl.xiaomi.com^
@@ -65983,11 +65928,7 @@
 ||twcroadrunner.tt.omtrdc.net^
 ||tweakers.net^*&p=$image
 ||tweeseconable.website^
-||tweetboard.com^$third-party
 ||tweetbuzz.jp^$third-party
-||tweetgrid.com^$third-party
-||tweetmeme.com^$third-party
-||tweetriver.com^$third-party
 ||tweetup.com^$third-party
 ||tweetycoin.com^$domain=1ink.cc
 ||twentyalight.com^
@@ -66012,19 +65953,10 @@
 ||twistconcept.com^
 ||twisteryirr.com^
 ||twistyscash.com^$third-party
-||twitcker.com^$third-party
 ||twitcount.com^$third-party
-||twitcount.com^$third-party
-||twitstat.us^$third-party
 ||twittad.com^
-||twitter-badges.s3.amazonaws.com^
 ||twitter.countoon.com^$third-party
-||twittercounter.com^$third-party
-||twitterforweb.com^$third-party
-||twittericon.com^$third-party
 ||twitterinc.tt.omtrdc.net^
-||twittermysite.com^$third-party
-||twitthis.com^$third-party
 ||twiz.wizaly.co.uk^
 ||twiz.wizaly.fr^
 ||twjobq.sixt.com^
@@ -69076,7 +69008,6 @@
 ||wegotmedia.com^
 ||wegowan.com^
 ||weheartit.com^$third-party
-||weheartit.com^$third-party
 ||wehras.com^
 ||weiaati.cyou^
 ||weicang.me^
@@ -69217,8 +69148,6 @@
 ||whatisuptodaynow.com^$popup
 ||whatitwath.club^
 ||whatosgoingon.biz^
-||whatsapp-sharing.com^$third-party
-||whatsbroadcast.com^$third-party
 ||whatsoeverlittle.com^
 ||whatstheword.co^$third-party
 ||whattoexpectheal.com^
@@ -69491,7 +69420,6 @@
 ||widgets.cryptopicture.com^$third-party
 ||widgets.digitalmediacommunications.com^$third-party
 ||widgets.dzone.com^$third-party
-||widgets.fbshare.me^$third-party
 ||widgets.future-fie.co.uk^$domain=t3.com|bikeperfect.com|cyclingnews.com|tomsguide.com|whattowatch.com
 ||widgets.getpocket.com^$third-party
 ||widgets.getpocket.com^$third-party
@@ -69499,7 +69427,6 @@
 ||widgets.guppy.live^$third-party
 ||widgets.hadilive.com^$third-party
 ||widgets.hawk-assets.co.uk^$domain=techradar.com
-||widgets.itaringa.net^$third-party
 ||widgets.itunes.apple.com^$third-party
 ||widgets.jobbio.com^
 ||widgets.lendingtree.com^
