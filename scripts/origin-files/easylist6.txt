@@ -98,6 +98,9 @@ instagram.com#?#div[style*="opacity"] > div > div[class]:has(> div[class] > div[
 !
 ! End: Instagram.com
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/148411
+braziljournal.com##.line-share-instagran
+braziljournal.com##.rowsocial
 ! https://github.com/AdguardTeam/AdguardFilters/issues/148572
 famitsu.com#?#.l-contents-block:has(> .heading > .heading__title:contains(特設・企画))
 famitsu.com#?#.l-contents-block:has(> .heading > .heading__title:contains(PR TIMES))
@@ -4866,6 +4869,8 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+infomusic.ro#$##mvp-wallpaper { background: #000000 !important; }
+infomusic.ro#$##mvp-wallpaper > a { display: none !important; }
 ggsel.net##.block-products-slider
 ||cocolog-nifty.com/updates/status/banner_ad.json
 ||geo.dailymotion.com/player/x15mh.js$domain=programme-television.org
@@ -6239,6 +6244,8 @@ eiga.com##.header-pure-banner
 !##############################
 ! SECTION: Tweaks - CSS
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/148483
+infomusic.ro##div[id="mvp-video-embed-wrap"].mvp-vid-height
 ! https://github.com/AdguardTeam/AdguardFilters/issues/148137
 theverge.com#$#.mb-60 { margin-bottom: 0px !important; }
 theverge.com#$#.mt-80 { margin-top: 50px !important; }
@@ -8119,7 +8126,7 @@ trucnet.net#%#AG_onLoad(function() { var el=document.querySelector('a[href].btn.
 ! https://github.com/AdguardTeam/AdguardFilters/issues/41708
 mtbcut.net#%#AG_onLoad(function() { var el = document.querySelector('a[href].wp-block-button__link'); if(window.location.href.indexOf("/?p=") != -1 && el) { el.click(); } });
 ! https://github.com/AdguardTeam/AdguardFilters/issues/41369
-meclipstudy.in,proappapk.com,buscador.buscalinks.xyz,recursosinformaticos.org,minecraftalpha.net,viralmods.net,m.appsmodz.com#%#AG_onLoad(function(){setTimeout(function(){if("undefined"!==typeof aesCrypto&&"function"===typeof aesCrypto.decrypt&&-1<window.location.href.indexOf("#?o="))try{window.location=aesCrypto.decrypt(window.location.href.split("#?o=")[1].replace(/^\s+/,"").replace(/\s+$/,""),"root".replace(/^\s+/,"").replace(/\s+$/,""))}catch(a){}},300)});
+yotrickslog.tech,meclipstudy.in,proappapk.com,buscador.buscalinks.xyz,recursosinformaticos.org,minecraftalpha.net,viralmods.net,m.appsmodz.com#%#AG_onLoad(function(){setTimeout(function(){if("undefined"!==typeof aesCrypto&&"function"===typeof aesCrypto.decrypt&&-1<window.location.href.indexOf("#?o="))try{window.location=aesCrypto.decrypt(window.location.href.split("#?o=")[1].replace(/^\s+/,"").replace(/\s+$/,""),"root".replace(/^\s+/,"").replace(/\s+$/,""))}catch(a){}},300)});
 link.baixedetudo.net.br#%#AG_onLoad(function(){setTimeout(function(){if("undefined"!==typeof aesCrypto&&"function"===typeof aesCrypto.decrypt&&-1<window.location.href.indexOf("html#?o="))try{window.location=aesCrypto.decrypt(window.location.href.split("html#?o=")[1].replace(/^\s+/,"").replace(/\s+$/,""),"root".replace(/^\s+/,"").replace(/\s+$/,""))}catch(a){}},300)});
 rulesofcheaters.net,ontools.net,teknopaid.xyz,redirect.dafontvn.com,5ggyan.com,hindisena.com,majidzhacker.com,links.iembra2or.com,ph.apps2app.com#%#AG_onLoad(function(){setTimeout(function(){if("undefined"!==typeof aesCrypto&&"function"===typeof aesCrypto.decrypt&&-1<window.location.href.indexOf("#?o="))try{window.location=aesCrypto.decrypt($.urlParam("o").replace(/^\s+/,"").replace(/\s+$/,""),"root".replace(/^\s+/,"").replace(/\s+$/,""))}catch(a){}},300)});
 yosite.net,filedownload.atozmodapk.com,linkagratis.tk,moddedguru.com,game-kentang.blogspot.com,moviesdaweb.blogspot.com#%#AG_onLoad(function(){setTimeout(function(){if("function"===typeof convertstr&&"function"===typeof aesCrypto.decrypt&&-1<window.location.href.indexOf("#?o="))try{window.location=aesCrypto.decrypt(convertstr($.urlParam("o")),convertstr("root"))}catch(a){}},300)});
@@ -8437,6 +8444,7 @@ dora-guide.com,codedosa.com,gradium.co.kr,semesters.in#%#//scriptlet("set-consta
 ! #%#//scriptlet("set-constant", 'disable_copy_ie', 'noopFunc')
 dora-guide.com,codedosa.com,gradium.co.kr,semesters.in#%#//scriptlet("set-constant", "disable_copy_ie", "noopFunc")
 !
+braziljournal.com#%#//scriptlet("abort-on-property-read", "addCopy")
 easyayurveda.com#%#//scriptlet("abort-on-property-read", "wccp_pro_iscontenteditable")
 raindropteamfan.com#%#//scriptlet('abort-on-property-write', 'nocontextmenu')
 humoruniv.com#%#//scriptlet('abort-on-property-read', 'drag_off')
