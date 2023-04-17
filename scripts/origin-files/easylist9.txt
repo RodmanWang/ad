@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202304170309
+! Version: 202304170611
 ! Title: Fanboy's Annoyance List
-! Last modified: 17 Apr 2023 03:09 UTC
+! Last modified: 17 Apr 2023 06:11 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -40999,6 +40999,7 @@ m.bilibili.com##.fe-ui-open-app-btn
 marokko.nl##.floatbar
 actionnetwork.com##.follow-author__button
 cookpad.com##.footer-1azakc
+thepinknews.com##.footer__top-bar
 goobike.com##.gb_appbnrs
 coincodex.com##.get-app
 imgur.io##.get-app-block
@@ -42557,6 +42558,7 @@ animenewsnetwork.com###social-bookmarks
 livenation.co.nz###social-component
 pinetools.com###social-icons
 seibertron.com###social-networking
+1news.co.nz###socialListParent
 wnba.com###social_tools
 salon.com###social_total
 theloop.ca###socialtools
@@ -43182,7 +43184,7 @@ fujitsu.com##.social-content
 livecoinwatch.com##.social-feed-container
 topmarks.co.uk##.social-game
 jns.org##.social-help
-abc13.com,changer4u.com,davidwalsh.name,dcrainmaker.com,ijr.com,justthenews.com,liliputing.com,screenshot-media.com,thewindowsclub.com##.social-icons
+abc13.com,changer4u.com,davidwalsh.name,dcrainmaker.com,iflscience.com,ijr.com,justthenews.com,liliputing.com,screenshot-media.com,thewindowsclub.com##.social-icons
 knewz.com##.social-items
 cinenews.be##.social-line
 fullfact.org,metro.us,screencrush.com,skinnyms.com,stoneyroads.com,thedailystar.net##.social-links
@@ -46612,6 +46614,7 @@ cronacheancona.it###intestazione
 sanihelp.it###iscriviti
 citywire.it###jsRegisterAlertBanner
 italiaoggi.it###lig_movingup2it_smartbox
+canavesenews.it,torinonews24.it###loader
 lavocedelnordest.eu###mb-scrollup
 decathlon.it###messagetop
 milanofinanza.it###milanofinanza_web_smartbox_article
@@ -50629,6 +50632,7 @@ ants.vn##.sg-popup-content
 ||consent.autopflege24.net/app.js
 ||consent.berliner-kurier.de^
 ||consent.daa.net/app.js
+||consent.deutsches-schulportal.de/public/app.js
 ||consent.gutefrage.net^
 ||consent.maerkischekiste.de/public/app.js
 ||consent.perry-rhodan.net^
