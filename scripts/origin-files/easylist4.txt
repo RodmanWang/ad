@@ -3435,6 +3435,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+twitch.tv##div[data-a-target="right-column-chat-bar"] div.stream-chat + div.chat-signup-gate-overlay
 adobe.com##.extension-modal
 ggsel.net##.btn-page-circle
 ggsel.net##.raffle
@@ -5788,8 +5789,8 @@ skillcrush.com##div[id^="popup-box-pro-gfcr-"]
 skillcrush.com##body > div.alert-wrapper
 skillcrush.com#$#body.sc-alert__showing { margin-top: 0!important; }
 1mg.com#%#//scriptlet('set-session-storage-item', 'pharmaLeaveIntentPopup', 'true')
-hacksleak.in,freesoff.com###discourse-modal:not(.login-modal):not(.create-account)
-hacksleak.in,freesoff.com##.modal-backdrop
+community.cloudflare.com,hacksleak.in,freesoff.com###discourse-modal:not(.login-modal):not(.create-account)
+community.cloudflare.com,hacksleak.in,freesoff.com##.modal-backdrop
 manning.com#$#body { overflow: visible!important; }
 manning.com#$##simple-signup-modal { display: none!important; }
 spicebar.de,manning.com#$#.reveal-modal-bg { display: none!important; }
@@ -10629,6 +10630,7 @@ jiji.com,edp24.co.uk,technologyreview.com,inews.co.uk,nordbayern.de,thelocal.ch,
 !
 ! SECTION: Subscriptions - Regular rules
 !
+rushandball.ru###subscribe-block
 thecity.m24.ru##.b-thecity-widget
 techmonitor.ai##.july22-newsletter
 techmonitor.ai##.pre-header-subscribe
@@ -14950,7 +14952,7 @@ postnauka.ru#?#enroll:contains(/Подпишитесь|Подпишись/)
 postnauka.ru##.brit-sub
 postnauka.ru##.sub-btn
 postnauka.ru##[class*="hist"][class*="sub"]
-cuisineactuelle.fr##.newsletterBlock
+vz.lt,cuisineactuelle.fr##.newsletterBlock
 gamesrepacks.com###nksub-overlay-wrapper
 gamesrepacks.com###nksub_sidebar
 gamesrepacks.com##.nksub_tab
