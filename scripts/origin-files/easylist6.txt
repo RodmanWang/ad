@@ -3227,7 +3227,14 @@ instiz.net#$?#.backlogo { background-image: none !important; }
 ! NOTE: Other annoyances - Social end ⬆️
 ! !SECTION: Other annoyances - Social
 !
-
+!
+! Special rules for AdGuard websites' test pages. The only purpose of these
+! rules is to make test pages work so that users could verify that AdGuard
+! is properly working.
+!
+!+ NOT_OPTIMIZED
+adguard.com,adguard.app##.hello_from_adguard_annoyances_other
+!
 !
 ! This is section contains the list of rules that block websites' own banners at our discretion.
 !
@@ -4881,6 +4888,10 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+snabi.jp##div[id^="RecruitmentBanner"]
+snabi.jp#?##ArticleShow > div.editor-root > div[class^="css-"]:has(img[src^="/assets/worrying_human_and_balloon_"])
+snabi.jp#?#.public-DraftEditor-content div.article-show-page__text:has(> div div[class]:contains(事業所運営のお困りを１つ選んでください))
+hotpepper.jp##.header-banners
 similarweb.com##.app-banner
 infomusic.ro#$##mvp-wallpaper { background: #000000 !important; }
 infomusic.ro#$##mvp-wallpaper > a { display: none !important; }
@@ -6734,6 +6745,8 @@ newsweek.com##iframe[src="http://sns.europe.newsweek.com/newsletter?popup=1"]
 !##############################
 ! SECTION: Tweaks - JS
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/148761
+ipamod.com#%#//scriptlet('adjust-setTimeout', 'window.location.href', '*', '0.02')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/148687
 unityassets4free.com#%#//scriptlet('adjust-setInterval', 'counter--', '*', '0.02')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/148560
@@ -6873,8 +6886,6 @@ fmmods.com#%#//scriptlet("abort-current-inline-script", "document.createElement"
 listas.pro#%#//scriptlet("adjust-setInterval", "counter", "*", "0.02")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/131962
 kinemaster.cc#%#//scriptlet("adjust-setTimeout", "/_0x|gotoo/", "*", "0.02")
-! https://github.com/AdguardTeam/AdguardFilters/issues/131883
-kiktu.com#%#//scriptlet("adjust-setInterval", "counter", "*", "0.02")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/131583
 userload.co#%#//scriptlet("adjust-setInterval", "secondsleft", "*", "0.02")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/131082
