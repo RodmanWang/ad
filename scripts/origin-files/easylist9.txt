@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202304190115
+! Version: 202304190328
 ! Title: Fanboy's Annoyance List
-! Last modified: 19 Apr 2023 01:15 UTC
+! Last modified: 19 Apr 2023 03:28 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -40235,6 +40235,7 @@ theguardian.com##[name="SlotBodyEnd"]
 theguardian.com##[name="StickyBottomBanner"]
 stuff.co.nz##app-billboard-overlay
 semafor.com##div[class^="styles_floatingBanner_"]
+youtube.com##tp-yt-paper-dialog[style-target="host"][role="dialog"]
 ! Paging overlays (previous/next page)
 uberhumor.com###bluenext
 uberhumor.com###blueprevious
@@ -43485,6 +43486,7 @@ here.com###wrapper
 coindix.com###xbanner
 dublininquirer.com##.-alert.-fixed.notice
 alpari.com,alpariforex.org##.-footer__notice
+rns.id##.AgreeCookiePolicy_cookiePolicy__OUbeU
 port.ac.uk##.Alert
 cryptokitties.co##.Banner
 rottweil-ammunition.com##.BannerManager
