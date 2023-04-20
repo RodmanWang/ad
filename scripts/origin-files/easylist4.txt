@@ -3066,7 +3066,7 @@ mainpost.de,aufderbuehne.de,trainingsworld.com,zaubertopf.de,totallygamergirl.co
 !#safari_cb_affinity
 !
 ! Hdrezka - window.abc
-hdrezkagdvv2b.net,hdrezka66yhfg.net,hdrezkaffsg67.net,hdrezkafjk2he.net,hdrezkahf22hh.net,hdrezkahdg24s.net,hdrezkabbdh4d.net,hdrezkajjfhr5.net,27p6qp79zyr1.net,hdrezka19139.org,hdrezkap3g.org,hdrezkapez.org,hdrezkapoi.org,hdrezkarty.org,hdrezkacvb.org,hdrezka.ag,upivi.com,hdrezka.me,ikinopoisk.com,kinopub.me,3ivi.com,rezkify.com,aghdrezka.com,hdrezka.re,bestofkinopoisk.com,rezkance.com,rezkery.com,rezkily.com,ezhdrezka.com,akinopoisk.com,hdrezkaonline.com,drhdrezka.com,mrhdrezka.com,hdrezka.sh,ehdrezka.com,nukinopoisk.com,livekinopoisk.com,betahdrezka.com,cokinopoisk.com,hdrezka-ag.com,hdrezka.club,hdrezka.cm,hdrezka.co,hdrezka.name,hdrezka.site,hdrezka.today,hdrezka.tv,hdrezka.website,hdrezkaag.net,hdrezkaweb.com,hdrezkayou.com,instahdrezka.com,myhdrezka.com,freehdrezka.com,rezka.ag,tryhdrezka.com#%#//scriptlet("set-constant", "window.abc", "false")
+hdrezkat5ee2w.org,hdrezkagdvv2b.net,hdrezka66yhfg.net,hdrezkaffsg67.net,hdrezkafjk2he.net,hdrezkahf22hh.net,hdrezkahdg24s.net,hdrezkabbdh4d.net,hdrezkajjfhr5.net,27p6qp79zyr1.net,hdrezka19139.org,hdrezkap3g.org,hdrezkapez.org,hdrezkapoi.org,hdrezkarty.org,hdrezkacvb.org,hdrezka.ag,upivi.com,hdrezka.me,ikinopoisk.com,kinopub.me,3ivi.com,rezkify.com,aghdrezka.com,hdrezka.re,bestofkinopoisk.com,rezkance.com,rezkery.com,rezkily.com,ezhdrezka.com,akinopoisk.com,hdrezkaonline.com,drhdrezka.com,mrhdrezka.com,hdrezka.sh,ehdrezka.com,nukinopoisk.com,livekinopoisk.com,betahdrezka.com,cokinopoisk.com,hdrezka-ag.com,hdrezka.club,hdrezka.cm,hdrezka.co,hdrezka.name,hdrezka.site,hdrezka.today,hdrezka.tv,hdrezka.website,hdrezkaag.net,hdrezkaweb.com,hdrezkayou.com,instahdrezka.com,myhdrezka.com,freehdrezka.com,rezka.ag,tryhdrezka.com#%#//scriptlet("set-constant", "window.abc", "false")
 !
 ! online-fix.me
 online-fix.me#%#//scriptlet('prevent-setTimeout', '/[a-w0-9]{12,}/')
@@ -3456,6 +3456,7 @@ adobe.com##.extension-modal
 ggsel.net##.btn-page-circle
 ggsel.net##.raffle
 bookhodai.jp##.fixbanner
+gaishishukatsu.com###noLoginFixedBanner
 ||smart-bdash.com^$domain=iface.com
 healthline.com#%#//scriptlet('remove-class', 'jw-flag-floating|jw-flag-small-player')
 ||delivery.satr.jp^$domain=digima-news.com
@@ -5597,7 +5598,7 @@ nationalgeographic.com#$#body[class^="Scroll"] { overflow: auto !important; top:
 vizita.si#%#document.cookie="popup=9999999999999; path=/;";
 archive.vanityfair.com##.shared_footer_cta_primary
 archive.vanityfair.com##.shared_footer_cta_basic
-vanityfair.com##aside[class^="PaywallBarWrapper-"]
+wired.com,vanityfair.com##aside[class^="PaywallBarWrapper-"]
 derstandard.at,derstandard.de##.dstpiano-container
 dmax-shop.de##.dasPopup
 revolutionrace.de#$?#body > div[id^="vue-portal-target-"]:has(> div.modal-layer div.newsletter-block) { display: none!important; }
@@ -9506,6 +9507,7 @@ zlavomat.sk#@##credential_picker_container
 .name/?pus=$script,third-party
 .site/?pus=$script,third-party
 !
+||gipahetus.com^$third-party
 ||push.ilovelanguages.com^
 ||push.ilan365.net^
 ||goodvibesmatterforus.com^
@@ -10655,6 +10657,9 @@ jiji.com,edp24.co.uk,technologyreview.com,inews.co.uk,nordbayern.de,thelocal.ch,
 !
 ! SECTION: Subscriptions - Regular rules
 !
+obozrevatel.com##.newsFull_share
+npr.org###callout-end-of-story-mount-piano-wrap
+moe-online.ru##.other-channels
 vertiv.com##.subscribe-email-redesign
 digitaltrends.com##.b-newsletter-modal
 elle.com##.cloudIqOverlay
@@ -10718,7 +10723,7 @@ apartmenttherapy.com,thekitchn.com,cubbyathome.com##.SiteFooter__signup
 apartmenttherapy.com,thekitchn.com,cubbyathome.com##.Post__emailSignup
 planetx.co.uk#$?#body > div:has(> div.needsclick > div[role="dialog"]  span:contains(deals delivered to your inbox.)) { display: none !important; }
 planetx.co.uk#$#body { overflow: auto !important; padding-right: 0 !important; }
-npr.org#?#.tp-modal:has(> div.tp-iframe-wrapper iframe[id="offer_a679ec5411a0ccd93431-0"])
+npr.org#?#.tp-modal:has(> div.tp-iframe-wrapper)
 npr.org#$#.tp-backdrop { display: none !important; }
 npr.org#$?#body { overflow: auto !important; }
 urbanus.ru##.n-subscribe
