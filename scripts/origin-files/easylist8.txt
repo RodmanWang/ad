@@ -423,6 +423,9 @@
 ! Bad: ||ad.doubleclick.net^ (should be in adservers.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/148933
+xbeibeix.com#@#.google-ad
+xbeibeix.com#%#//scriptlet('prevent-setTimeout', '/\.height\(\) == 0|adsbygoogle/')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/145101
 yunduanxin.xyz###adb-mask
 ! https://github.com/AdguardTeam/AdguardFilters/issues/144287
@@ -23538,6 +23541,7 @@ smjb.net##div[style*="height: 50%"]
 ||qianrenge.cc/qian/
 ||qishula.com/css/wap.
 ||quge66.com/jdjd/
+||x81zw.co/js/dsnmd.
 ||rmipoz.com/dp.js
 ||rr3r.com/requestData.
 ||shaquevip.oss-cn-zhangjiakou.aliyuncs.com^
