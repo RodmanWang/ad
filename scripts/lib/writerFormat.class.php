@@ -123,7 +123,6 @@ class writerFormat{
     /*smartdns支持格式的屏蔽广告列表*/
     const SMARTDNS = array(
         'format' => 'address /{DOMAIN}/#',
-        'header' => "#TITLE=AD for SmartDNS\n#VER={DATE}\n#TOTAL_LINES={COUNT}\n",
         'full_domain' => 0,
         'name' => 'dnsmasq',
         'filename' => '../ad-smartdns.conf',
