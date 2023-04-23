@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202304222019
+! Version: 202304230002
 ! Title: Fanboy's Annoyance List
-! Last modified: 22 Apr 2023 20:19 UTC
+! Last modified: 23 Apr 2023 00:02 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -6455,6 +6455,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.newsletter--logged-out
 ##.newsletter-390
 ##.newsletter-abo-header
+##.newsletter-acton-form-rightsidebar
 ##.newsletter-advertisement
 ##.newsletter-area
 ##.newsletter-article
@@ -39132,7 +39133,6 @@ tactxflashlights.com##.boxzilla-container
 lostlettermen.com##.brdrCntr-09
 dropbox.com##.bromo
 apkcombo.com##.browser-extension
-3dprint.com##.bsub
 bigthink.com##.bt-block__inner
 healio.com##.btm-leaderboard
 ncrypted.net##.btm-left-popupbox
@@ -40653,6 +40653,7 @@ reuters.com##.article-prompt__container__3uXJV
 futurity.org##.article-signup
 publishersweekly.com##.articleRelatedSignup
 ft.com##.article__content-sign-up
+3dprint.com##.article__subscribe
 nationalreview.com##.aside-module--promo-module
 brownstone.org##.astra-advanced-hook-7207
 classicalite.com##.at-subsc
@@ -41323,6 +41324,7 @@ politico.com##.sign-up-21
 foreignaffairs.com,monocle.com##.sign-up-container
 themonthly.com.au##.sign-up-form-latest
 americamagazine.org##.signUp
+charlestonbusiness.com,columbiabusinessreport.com,gsabusiness.com,scbiznews.com##.signUpWrapper
 dzone.com##.signin-prompt
 addictivetips.com,armytimes.com,biblegateway.com,biopharmadive.com,elie.net,fullfact.org,insidehook.com,moon.com,motorsportweek.com,mumbrella.com.au,quantamagazine.org,theafricareport.com,thecourier.co.uk,tripstodiscover.com,tubefilter.com##.signup
 pnas.org##.signup-ad
@@ -41384,6 +41386,7 @@ fansided.com,lastnighton.com,netflixlife.com,winteriscoming.net##.sub-footer-con
 attilasec.com##.sub-form
 investmentnews.com##.subPopupTop
 nautil.us##.subscibe-bar
+3dprint.com##.subscribe--sidebar
 bookforum.com##.subscribe-ad__corner
 countynewscenter.com,vallejosun.com##.subscribe-area
 stereogum.com##.subscribe-article
