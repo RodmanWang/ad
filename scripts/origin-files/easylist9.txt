@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202304250559
+! Version: 202304250827
 ! Title: Fanboy's Annoyance List
-! Last modified: 25 Apr 2023 05:59 UTC
+! Last modified: 25 Apr 2023 08:27 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -7110,6 +7110,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.wide-newsletter
 ##.wideNewsletterWrap
 ##.widget--subscribe-inline
+##.widget-email-cta
 ##.widget-embed.newsletter
 ##.widget-had-subscribe
 ##.widget-newsletter
@@ -39327,6 +39328,7 @@ coinpaprika.com##.api-promo-banner
 apkmirror.com##.apkm-timed-slider
 nature.com##.app-featured-row__item
 disk.yandex.com##.app-promo-banner
+thetyee.ca##.article-footer--builder-ask
 atlasobscura.com##.article-gastro-interruptor
 newsroom.co.nz##.article-support
 damemagazine.com##.article-support-bump
@@ -39729,7 +39731,7 @@ japantimes.co.jp##.pagetop-wrap
 simpleflying.com##.pk-icon-up
 muslimshop.fr##.return-top
 timesofmalta.com##.scroll-notification-container
-gulftoday.ae##.scroll-to-top
+gulftoday.ae,iol.co.za##.scroll-to-top
 carscoops.com##.scroll-top
 toyota.co.uk,toyota.ie##.scrollTo
 khronos.org,kyivpost.com##.scroll_to
@@ -40859,6 +40861,7 @@ themedialine.org##.mdl-fixed-informer
 themedialine.org##.mdl-section-subscribe
 chronicle.com##.media-width-half
 livecoinwatch.com##.message
+thetyee.ca##.messaging-zone
 orlandosentinel.com##.met-footer-toast
 duffelblog.com,platformer.news,substack.com,theankler.com##.meta-info-block
 themighty.com##.meta-join
@@ -41554,6 +41557,7 @@ texasmonthly.com##.article-end__section
 revizoronline.com##.article-footer
 financemagnates.com##.article-icons
 financemagnates.com##.article-icons-color
+iol.co.za##.article-share
 babylonbee.com,notthebee.com##.article-shareables
 dailystar.com.lb,eurekalert.org,theamericanconservative.com##.article-tools
 nationalreview.com##.article-utility-nav
@@ -41595,6 +41599,7 @@ agrimag.co.za,automart.co.za##.btn-facebook
 equinix.com##.btn-group
 psu.edu##.btn-link
 junkmail.co.za##.btn-sm
+thetyee.ca##.btn-social-icon
 agrimag.co.za,automart.co.za##.btn-twitter
 agrimag.co.za,automart.co.za##.btn-whatsapp
 viamichelin.at,viamichelin.be,viamichelin.ch,viamichelin.co.uk,viamichelin.com,viamichelin.de,viamichelin.es,viamichelin.fr,viamichelin.ie,viamichelin.it,viamichelin.pl,viamichelin.pt##.bubble-tools-share
