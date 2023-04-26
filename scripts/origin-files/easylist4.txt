@@ -3441,6 +3441,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+qwertee.com#?##headlessui-portal-root > div[data-headlessui-portal]:has(> div > div.fixed > div[id^="headlessui-dialog-panel"] img[src="https://cdn.qwertee.com/images/popup/6633669d-3743-4954-80bc-f15922806c26.jpg"])
 diag.pl###globalMessage
 armosec.io###header-popup
 consumerreports.org###yeGivingTuesAlertContainer
@@ -10687,6 +10688,8 @@ jiji.com,edp24.co.uk,technologyreview.com,inews.co.uk,nordbayern.de,thelocal.ch,
 !
 ! SECTION: Subscriptions - Regular rules
 !
+||defenceweb.co.za/wp-content/uploads/pum/pum-site-scripts.js
+defenceweb.co.za##div[class*="joinnewsletter"]
 av.by#?#.article__content > h4.western:has(> strong > noindex > a[href="https://t.me/avbynews"])
 diag.pl##.diag-newsletter
 tennismajors.com#?#.pt-8.max-w-screen-lg:has(img[alt="newsletter"])
