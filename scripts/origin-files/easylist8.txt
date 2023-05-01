@@ -1428,7 +1428,6 @@ zhuanlan.zhihu.com##.RichText-MCNLinkCardContainer > a.GoodsRecommendCard
 ||lib.djn882.com/static/lazyload.js
 jiuse710.com###main > div[class]:not([class*="block"]):not([class*="container"])
 jandan.net###sidebar > div#box
-24h.pchome.com.tw##.site_evt
 news.pchome.com.tw##div[class^="adnewlist"]
 boylove.cc###floating_page
 boylove.cc###fake_avivid_waterfall_webpush
@@ -2202,7 +2201,7 @@ f2dsex1.com##div.link
 dyz99.com##.place > a[target="_blank"]:not([href="/xjlist.php"])
 daniao.org,dyz99.com##.sponsor
 daniao.org##.wow.fadeInUp.tg-site > a[rel="nofollow"] > img
-find.ruten.com.tw##.site_evt
+24h.pchome.com.tw,find.ruten.com.tw##.site_evt
 ||theporn.xyz/static/tmp/
 ||theporn.xyz/static/bet365.gif
 xin99r2.com##.wrap-head-spots
@@ -2711,6 +2710,7 @@ m.xigua110.com##.ui-detail-info > div[style*="line-height:35px; text-align:cente
 !+ NOT_OPTIMIZED
 adguard.com,adguard.app##.hello_from_adguard_chinese
 !
+
 !---------------------------------------------------------------------------!
 !-------------- Content replacement rules ----------------------------------!
 !---------------------------------------------------------------------------!
@@ -4491,6 +4491,9 @@ newduba.cn###jq_youxi
 ||194.59.220.161^
 ||23.234.217.11^
 ||23.234.217.12^
+||118.107.47.88^
+||143.92.60.44^
+||154.212.147.231^
 ##a[href*=".8720018.cc"]
 ##a[href*=".bd379.vip"]
 ##a[href*=".btwuji.cc"]
@@ -4887,6 +4890,13 @@ newduba.cn###jq_youxi
 ||zrrnqq.com^
 ||zsblog.vip^
 ||zscgoqt.cn^
+||bekcd.xyz^
+||vydbvp.xyz^
+||pkynqq.com^
+||rszqtry.cn^
+||feiju12138.xyz^
+||jstimiz.xyz^
+||acqc9.com^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
@@ -16118,6 +16128,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 szxx.com.cn###A0
+fantuanhd.com###t-img-box
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
