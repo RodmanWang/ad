@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202305020252
+! Version: 202305020552
 ! Title: Fanboy's Annoyance List
-! Last modified: 02 May 2023 02:52 UTC
+! Last modified: 02 May 2023 05:52 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -38540,7 +38540,7 @@ tech.hindustantimes.com##.alsoReadSectionAppend
 thepost.co.nz,thepress.co.nz,waikatotimes.co.nz##.article-navbar
 thespinoff.co.nz##.article-peep
 bozemandailychronicle.com##.asset-paging
-crossroadstoday.com,gazette.com,kentuckytoday.com,kilgorenewsherald.com,kmaland.com,kulr8.com,nashvillescene.com,news-gazette.com,pulaskicountyweekly.com,thecentersquare.com,wdel.com,wdrb.com,wvnews.com##.asset-paging-container
+bramptonguardian.com,crossroadstoday.com,gazette.com,kentuckytoday.com,kilgorenewsherald.com,kmaland.com,kulr8.com,nashvillescene.com,news-gazette.com,pulaskicountyweekly.com,thecentersquare.com,wdel.com,wdrb.com,wvnews.com##.asset-paging-container
 emergingrisks.co.uk##.avia-post-nav
 dailyvoice.com##.b-scroll-to-next-article
 indianexpress.com##.breaking-scroll
@@ -38642,6 +38642,7 @@ tricri.org##.chevron
 publy.com##.cmsmasters_theme_icon_slide_top
 parsintl.com##.eut-back-top
 easeus.com##.float_totop
+newrepublic.com##.footer__middleRow
 global.toyota##.footer_pagetop
 xpics.me##.gain
 ciiradio.com,reverso.net,smutr.com##.go-up
@@ -39141,6 +39142,7 @@ thefederalistpapers.org###firefly-poll-container
 independent.co.uk###footerPrompt
 engineeringnews.co.za###footerbar
 knewz.com###forms-block_ee1e843a9348070a466c6e3f908c9703
+quadraphonicquad.com###gb-reg-modal-block
 quadraphonicquad.com###gb-reg-modal-reg
 patriotfetch.com###gform_widget-3
 warontherocks.com###gform_wrapper_1
@@ -39555,6 +39557,7 @@ todaysparent.com##.e1989g6g1
 todaysparent.com##.e1mzwxyl0
 americastestkitchen.com##.eDjLlw
 gizmodo.com##.eLECQk
+eco-business.com##.eb-promotions--subscribe
 namelymarly.com##.ebook
 zyro.com##.ebook-banner
 christiantoday.com##.ebookbox
@@ -39666,6 +39669,7 @@ usatoday.com##.gnt_m_th_em
 marketbeat.com##.gradient-purple
 heysocal.com##.gradient_subscription
 freshplaza.com##.grey_background
+insauga.com##.grid-article-subscribe-container
 medicaldaily.com,wonkette.com##.grwf2-wrapper
 medicaldaily.com##.grwf2_backdrop
 booking.com##.gta-link-track
@@ -40320,6 +40324,8 @@ niemanlab.org##div[style^="border: 1px dashed #a51c30; color: #333;"]
 dailydot.com##footer
 michiganmedicine.org##labcoat-promo
 extremetech.com##section > .mt-8
+! ! Counter uBO Ghide
+edmontonjournal.com##.newsletter-widget
 ! ! #shopify-section-newsletter-popup
 kyliejennershop.com###shopify-section-newsletter-popup
 ! ! .mailpoet_form
@@ -40346,7 +40352,7 @@ alarabiya.net,intego.com,phonearena.com,recepty.cz##.newsletter-subscription
 ! ! .newsletter-subscription-form
 idealista.pt##.newsletter-subscription-form
 ! ! ##a[href*="/newsletter"]
-adweek.com,avclub.com,chicoer.com,coloradodaily.com,coloradohometownweekly.com,dailybreeze.com,dailybulletin.com,dailycamera.com,dailydemocrat.com,dailynews.com,deadspin.com,denverpost.com,detroitnews.com,dw.com,eastbaytimes.com,euobserver.com,eurweb.com,gizmodo.com,helpnetsecurity.com,infowars.com,jalopnik.com,japantoday.com,jezebel.com,kotaku.com,lifehacker.com,lowellsun.com,marinij.com,mendocinobeacon.com,mercurynews.com,montereyherald.com,ocregister.com,orovillemr.com,pap.pl,paradisepost.com,pasadenastarnews.com,pe.com,post-gazette.com,presstelegram.com,readingeagle.com,record-bee.com,redbluffdailynews.com,redlandsdailyfacts.com,santacruzsentinel.com,scotsman.com,spokesman.com,stuff.co.nz,telegraph.co.uk,thereporter.com,theroot.com,thetakeout.com,times-standard.com,timesheraldonline.com,ukiahdailyjournal.com,web.dev,whittierdailynews.com,willitsnews.com,wsj.com##a[href*="/newsletter"]
+adweek.com,avclub.com,chicoer.com,coloradodaily.com,coloradohometownweekly.com,dailybreeze.com,dailybulletin.com,dailycamera.com,dailydemocrat.com,dailynews.com,deadspin.com,denverpost.com,detroitnews.com,dw.com,eastbaytimes.com,eco-business.com,euobserver.com,eurweb.com,gizmodo.com,helpnetsecurity.com,infowars.com,jalopnik.com,japantoday.com,jezebel.com,kotaku.com,lifehacker.com,lowellsun.com,marinij.com,mendocinobeacon.com,mercurynews.com,montereyherald.com,ocregister.com,orovillemr.com,pap.pl,paradisepost.com,pasadenastarnews.com,pe.com,post-gazette.com,presstelegram.com,readingeagle.com,record-bee.com,redbluffdailynews.com,redlandsdailyfacts.com,santacruzsentinel.com,scotsman.com,spokesman.com,stuff.co.nz,telegraph.co.uk,thereporter.com,theroot.com,thetakeout.com,times-standard.com,timesheraldonline.com,ukiahdailyjournal.com,web.dev,whittierdailynews.com,willitsnews.com,wsj.com##a[href*="/newsletter"]
 ! ! .newsletter-box
 borsonline.hu,brandingmag.com,cosmosmagazine.com,dealnews.com,it-times.de,libhunt.com##.newsletter-box
 ! ! #NewsletterModal
@@ -40473,6 +40479,7 @@ animenewsnetwork.com###social-bookmarks
 livenation.co.nz###social-component
 pinetools.com###social-icons
 seibertron.com###social-networking
+lethbridgenewsnow.com###social-share-icons
 1news.co.nz###socialListParent
 salon.com###social_total
 theloop.ca###socialtools
@@ -40648,6 +40655,7 @@ advocate.com,richersounds.com##.fb
 abajournal.com,buddytv.com,comingsoon.net,elektronista.dk,gospelway.com,gpforums.co.nz,masslive.com,mlive.com,modamee.com,searchengineland.com,shocktillyoudrop.com,tech2.in.com,topsecretwriters.com##.fb_iframe_widget
 foodbeast.com##.fdbst-share-button
 eadaily.com##.feed
+straitstimes.com##.field-name-telegram
 peepingmoon.com##.fixed-action-btn
 techradar.com##.flipboard-icon
 thehackernews.com##.float-share
@@ -40684,6 +40692,7 @@ cfl.ca##.footer1
 loewe.tv##.footerIcons
 imagecollect.com##.footerLinks_03
 scientificamerican.com##.footer__followus-text
+newrepublic.com##.footer__middleRow
 madamasr.com##.footer_icons_container
 videogamer.com##.footer_link
 wafa.ps##.footermenu
@@ -40996,6 +41005,7 @@ spring.org.uk##.yasip.widget
 cadenaazul.com,peoplesweather.com##.youtube
 application-remuneratrice.com##.zd-social
 eteknix.com##[href^="http://bit.ly/"]
+goodyfeed.com##[href^="https://t.me/"]
 colourlovers.com##a.mr-10.left > [src]
 telekom.com##a[title="Share"]
 invezz.com##button[data-sharer]
