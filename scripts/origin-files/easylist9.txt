@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202305040132
+! Version: 202305040319
 ! Title: Fanboy's Annoyance List
-! Last modified: 04 May 2023 01:32 UTC
+! Last modified: 04 May 2023 03:19 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -38632,6 +38632,7 @@ earthcam.com###topScroll
 democracynow.org###top_anchor
 mytalk1071.com###toplink
 routard.com###topscroll
+publish0x.com###totop
 europeanjournalists.org###up
 g2a.com###upPageToolbar
 fboomporn.com,xcafe.com###upper
@@ -38702,6 +38703,8 @@ epicgames.com##.up-button
 webuycars.co.za##.up-scroll
 itweb.co.za##.v-btn--bottom
 chinadialogue.net,cricbuzz.com,israeltoday.co.il,nca.aero,repsol.com,tradetracker.com,xinhuanet.com##a[href="#top"]
+! Popout videos
+gamereactor.eu###videoContainer.playersmall[style^="position: relative; aspect-ratio: initial; background: black; margin-bottom:"]
 ! Used with generichide
 cwtv.com###user_optin_banner
 rawstory.com##.go-top-btn
@@ -39334,7 +39337,7 @@ newscientist.com##.NewsletterPromotion
 cntraveler.com##.NewsletterWrapper-JRxKg
 interestingengineering.com##.Newsletter_newsletter__TOVA7
 coingape.com##.Newslettershare
-sbstatesman.com##.PicoSignupForm
+prospect.org,sbstatesman.com##.PicoSignupForm
 thedailybeast.com##.ProductCalloutNewsletterModule
 kpbs.org##.PromoD
 kpbs.org##.PromoNewsletter
@@ -40247,6 +40250,7 @@ wateronline.com##.vm-newsletter-signup-bait
 wateronline.com##.vm-newsletterbribe
 biblegateway.com##.votd-subscribe-form
 inferless.com##.w-form
+elpais.com##.w_tx
 searchenginejournal.com##.web-dwn
 health.harvard.edu##.welcome-popup
 mygaming.co.za,printmag.com##.widget-area
@@ -40444,6 +40448,7 @@ aimp.ru###footer_counter
 cybermap.kaspersky.com###footer_social_channels
 eporner.com###footsocbuttons
 telecompetitor.com###get_connected
+gamereactor.eu###grnation
 guardian.ng###guardian-follow-links
 thetrekcollective.com###header2
 philosophynow.org###header_right_top_right
