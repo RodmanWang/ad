@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202305040629
+! Version: 202305040911
 ! Title: Fanboy's Annoyance List
-! Last modified: 04 May 2023 06:29 UTC
+! Last modified: 04 May 2023 09:11 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -38213,6 +38213,7 @@ pocketgamer.com###site-background
 orbispatches.com###sitetop
 marinetraffic.com###skyscraper_container_front
 spiked-online.com###sticky-footer
+finbold.com###sub-intent
 theglobeandmail.com###subscription-pencil-area
 slideserve.com###suggestion
 austinchronicle.com###support-bar
@@ -38708,6 +38709,7 @@ itweb.co.za##.v-btn--bottom
 chinadialogue.net,cricbuzz.com,israeltoday.co.il,nca.aero,repsol.com,tradetracker.com,xinhuanet.com##a[href="#top"]
 ! Popout videos
 gamereactor.eu###videoContainer.playersmall[style^="position: relative; aspect-ratio: initial; background: black; margin-bottom:"]
+cnet.com##.c-avStickyVideo
 ! Used with generichide
 cwtv.com###user_optin_banner
 rawstory.com##.go-top-btn
@@ -39267,7 +39269,7 @@ news.northwestern.edu###sticky
 history.com###sticky-email-updates
 bamsmackpow.com,gamesided.com,gojoebruin.com###sub-footer
 spectator.com.au###subForm
-appstorm.net,artnet.com,beforeitsnews.com,celebrity.red,codastory.com,dailygood.org,fjolt.com,homeofdirectcommerce.com,marineelectronics.com,technostall.com,worldwatchmonitor.org###subscribe
+appstorm.net,artnet.com,beforeitsnews.com,celebrity.red,codastory.com,dailygood.org,fjolt.com,homeofdirectcommerce.com,marineelectronics.com,technostall.com,u.today,worldwatchmonitor.org###subscribe
 designtaxi.com###subscribe-box
 buttondown.email###subscribe-form
 intomore.com###subscribe-wide-side
@@ -39497,6 +39499,7 @@ eurasianet.org,vancouversun.com##.callout
 npr.org##.callout-end-of-story-mount-piano-wrap
 thegazette.com##.capdigest_sign_up_page_breaker
 thepostmillennial.com##.card-body
+finbold.com##.card-subscribe
 neowin.net##.category-bar
 3dprintingspot.com##.cb-box
 easypeasyfoodie.com,thetinylife.com##.cb-box__wrapper-center_modal
@@ -39750,7 +39753,6 @@ lawenforcementtoday.com##.inside-right-sidebar
 biztechmagazine.com##.insider-register-one-form-wrapper
 topgear.com##.iqwqGM.lbWKus
 indyweek.com,wisconsinwatch.org##.is-layout-constrained
-sfstandard.com##.items-start.fixed
 newsroom.co.nz##.j-cta-side-form
 inverse.com##.j1J
 fatherly.com##.jNY
