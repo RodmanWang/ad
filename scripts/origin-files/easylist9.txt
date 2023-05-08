@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202305080056
+! Version: 202305080305
 ! Title: Fanboy's Annoyance List
-! Last modified: 08 May 2023 00:56 UTC
+! Last modified: 08 May 2023 03:05 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -37085,6 +37085,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||default.salsalabs.org/api/widget/
 ||downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js$script,third-party
 ||joinsubtext.com^$subdocument,third-party
+||justone.ai/embed/csd.html$subdocument
 ||lightboxcdn.com/vendor/$script,third-party
 ||mailerlite.com/js/universal.js
 ||maillist-manage.com^$third-party
@@ -39540,7 +39541,6 @@ news-daily.com##.double-padding-top
 forksoverknives.com##.download-block
 inverse.com##.dsa
 umaar.com##.dt-tip-subscribe
-harborfreight.com##.dy-modal-container
 todaysparent.com##.e1989g6g1
 todaysparent.com##.e1mzwxyl0
 americastestkitchen.com##.eDjLlw
@@ -42111,6 +42111,8 @@ marksandspencer.com##.ekergnt3
 mubi.com##.el38f2b0
 elasticemail.com##.elastic-cookie-notice
 my.bulbapp.com##.elementor-element-10ff3dc7
+optodir.com##.elementor-element-3f06401
+aquaglide.com##.elementor-element-7bf6fcab
 fxhome.com##.elementor-location-footer
 firstbanknigeria.com##.elementor-location-popup
 icepanel.io##.elevation-8
