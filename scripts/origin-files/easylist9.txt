@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202305090121
+! Version: 202305090319
 ! Title: Fanboy's Annoyance List
-! Last modified: 09 May 2023 01:21 UTC
+! Last modified: 09 May 2023 03:19 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -37703,6 +37703,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||rsx.afterpay.com^
 ||src.ebay-us.com/*=usllpic$script,domain=ebay.com
 ||svc2.sc.com^
+||tm-eps.neutrino.nu^
 ||tmetrix.my.chick-fil-a.com^
 ||tmx.bestbuy.com^
 ||tmx.td.com^
@@ -38633,6 +38634,7 @@ cardekho.com##.gsst_scroll-btn
 chinadaily.com.cn##.hui-dingbu
 daumpotplayer.com##.ir-arriba
 nomuraholdings.com##.js-PageTop
+cryptoglobe.com##.js-go-to
 airliquide.com##.js-scroll-down
 buyee.jp##.jump
 otsukai.com##.l-footer-back-btn
@@ -38656,7 +38658,7 @@ toyota.co.uk,toyota.ie##.scrollTo
 khronos.org,kyivpost.com##.scroll_to
 news9live.com##.scrolltop
 microchip.com##.scrolltotop
-globalguideline.com,isanek.com##.scrollup
+cryptonomist.ch,globalguideline.com,isanek.com##.scrollup
 tiktok.com##.show-top
 pbtech.co.nz##.showUp
 grundig.com##.site-footer__up
@@ -38866,6 +38868,7 @@ atlasobscura.com##.apple-store-icon
 flightradar24.com##.applink-container
 happytv.rs##.apps-download
 qatarairways.com##.appstore
+ny1.com##.article-app-prompt
 msn.com##.articlePage_continueReadingButtonPrimary-DS-EntryPoint1-1
 nltimes.nl##.ath-phone
 castbox.fm##.banner
@@ -39024,6 +39027,7 @@ ventusky.com##.vj
 walmart.com##.w_XgwP
 gadgets360.com##.web_dialog
 bisnis.com##.wrapper__ads-download
+ny1.com##.wxAlertBar
 tumblr.com##.y8Hml
 i.redd.it,reddit.com##[bundlename="bottom_bar_xpromo"]
 travala.com##[class*="BannerApp_container"]
@@ -39108,6 +39112,7 @@ coconuts.co###coco-newsletter-sidebar
 globalvoices.org,sinya.com.tw,westhawaiitoday.com###colorbox
 monthlyreview.org###connect
 americasquarterly.org###corner-slider
+cryptopolitan.com###cp-newsletter-block
 lbcgroup.tv###ctl00_MainContent_NewsLetter28_DivMainControl
 guidedoc.com###curtain
 si.com###customComponent-1
@@ -39187,7 +39192,7 @@ getprice.com.au###newsletter
 austinchronicle.com###newsletter-box
 sbs.com.au,soft112.com###newsletter-form
 lapresse.ca###newsletter-hub-promo-box
-thejc.com###newsletter-modal
+cryptonews.com,thejc.com###newsletter-modal
 christiantoday.com,fodors.com,theface.com###newsletter-popup
 eenewseurope.com###newsletter-register
 semafor.com###newsletter-sign-up
@@ -39740,7 +39745,7 @@ rferl.org##.infgraphicsAttach
 boomlive.in##.info-container2
 vcpost.com##.info-message
 routesonline.com##.infoBlock
-ekathimerini.com##.inline-newsletter-form
+businessinsider.com,ekathimerini.com,insider.com##.inline-newsletter-form
 themarshallproject.org##.inline-signup
 amgreatness.com##.inset-0.fixed
 lawenforcementtoday.com##.inside-right-sidebar
@@ -39930,8 +39935,9 @@ scientificamerican.com##.newsletter-subscribe-container
 newyorker.com##.newsletter-subscribe-form
 thecradle.co##.newsletter-subscription_newsletterform__ulg8Q
 straightarrownews.com##.newsletter-tout
-ijnet.org,webmd.com##.newsletter-wrapper
+gadgets-africa.com,ijnet.org,webmd.com##.newsletter-wrapper
 fruitnet.com##.newsletterSignup
+chromeunboxed.com##.newsletterSignupBlock
 bigislandnow.com##.newsletterSignupGrid
 petri.com##.newsletterWide
 usafacts.org##.newsletter__block
@@ -40665,6 +40671,7 @@ strategic-culture.org##.dk-social__items
 dailymail.co.uk##.dms-puff
 argusdelassurance.com##.editoSocialBar
 efe.com##.efe-share-fa
+fism.tv##.elfsight-widget-social-share-buttons
 theargus.co.uk##.email-link
 ctrl.blog##.entry-bttns
 spectator.co.uk##.entry-meta__item--social
@@ -40793,6 +40800,7 @@ naplesnews.com##.longform-flyouts
 odditycentral.com##.mashsb-container
 breakingnews.ie##.mb-1.pt-4
 inquisitr.com##.mb10
+morningstar.com##.mdc-social-share
 themedialine.org##.mdl-share-tool-vertical
 amazon.jobs##.media-icons
 inyminy.com##.menu-menu4_home-container
@@ -40865,6 +40873,7 @@ rpgfan.com##.share-bar
 beincrypto.com##.share-block
 ibtimes.co.in##.share-btn-wrp
 criminaljusticedegreehub.com,datingscammer.info,mediaplaynews.com,psychologytoday.com,robbreport.com,spy.com,tenor.com##.share-buttons
+cryptopolitan.com##.share-col
 fandomwire.com,tvline.com##.share-container
 news.cgtn.com,newsus.cgtn.com##.share-icon
 agsiw.org##.share-icons__social-shares___2eB-m
@@ -40923,7 +40932,7 @@ abc13.com,changer4u.com,davidwalsh.name,dcrainmaker.com,ijr.com,justthenews.com,
 tmz.com##.social-item
 knewz.com##.social-items
 cinenews.be##.social-line
-anothermag.com,classic105.com,ebu.io,fullfact.org,metro.us,realnewsmontana.com,screencrush.com,skinnyms.com,stoneyroads.com,thedailystar.net##.social-links
+anothermag.com,classic105.com,ebu.io,fullfact.org,insurancejournal.com,metro.us,realnewsmontana.com,screencrush.com,skinnyms.com,stoneyroads.com,thedailystar.net##.social-links
 latestly.com##.social-list
 trumparea.com##.social-media-top
 tilifony.com##.social-network
@@ -40956,6 +40965,7 @@ spy.com##.spy__single-share-text
 cryptonews.com##.ssk
 aceshowbiz.com##.stay-connected
 digit.in##.stay_connected
+msn.com##.stb-bsb
 nmpoliticalreport.com##.sticky-footer-holder
 metro.us##.sticky-media
 allafrica.com##.sticky-panel-container
