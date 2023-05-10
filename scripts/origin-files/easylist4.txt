@@ -2215,7 +2215,6 @@ zkillboard.com#@#.adsbygoogle
 @@||a.fsdn.com/sd/js/scripts/ad.js
 @@||a.publir.com/platform/ads.js|
 @@||a2a-static-4players.act2access.com/dist/ads.js
-@@||abc.es^$generichide
 @@||abqjournal.com/wp-content/themes/jpc-wp-theme/assets/js/advertisement/ads.js
 @@||acdn.adnxs.com/ast/static/*/ast.js$domain=outlook.live.com
 @@||ad.71i.de/somtag/loader/loader.js$domain=dtm.com|sportdeutschland.tv
@@ -3396,6 +3395,11 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+ranker.com##div[class^="TimelyListMobileWrapper_main__"]
+creciendo.com###wpn-popup-modal
+creciendo.com###wpn-popup-backdrop
+creciendo.com###wpn-banner
+legrandcontinent.eu##.disposableBanner
 adultempire.com##.sticky-tagline
 techcommunity.microsoft.com##.ui-widget-overlay
 techcommunity.microsoft.com##.ui-dialog:has(.survey-prompt-dialog)
@@ -9953,6 +9957,7 @@ macwelt.de,pcwelt.de#%#//scriptlet("set-constant", "firebase.messaging", "noopFu
 !
 ! SECTION: Push notifications - Regular rules
 !
+techwalla.com##.component-push-notification
 phys.org###subscribeToWebPush
 jornaldenegocios.pt###notificacao
 investmap.pl#?#div[class^="sc-"] > button[class^="sc-"]:has(> svg + div:contains(Włącz powiadomienia))
@@ -10238,7 +10243,7 @@ aktuality.sk##.push-notification-modal
 ctwant.com##.m-notification
 wowhead.com##.notifications-dialog
 journaldesfemmes.fr,linternaute.com##.sns_ico--bell
-perfil.com###wpnDialogcontainer
+creciendo.com,perfil.com###wpnDialogcontainer
 casper.com.tr###push-confirm
 netzwelt.de##._Bell[onclick^="_webpushrGetPromp"]
 onet.pl##.notificationPrompt
@@ -10677,6 +10682,7 @@ jiji.com,edp24.co.uk,technologyreview.com,inews.co.uk,nordbayern.de,thelocal.ch,
 !
 ! SECTION: Subscriptions - Regular rules
 !
+stylecaster.com###taboola-newsletter
 metaratings.ru##div[class^="Subscribe_subscribe__"]
 smh.com.au##.CBSIP
 smh.com.au##[data-testid="goodfood-newsletter-cta-wrapper"]
@@ -14692,7 +14698,7 @@ www-cnet-com.cdn.ampproject.org$$div[class="c-reengageNewsletter"]
 feedspot.com##form[id^="newsletterform_"]
 wpexplorer.com###newsletter-wrap
 getpocket.com###__next > div[class$=" isVisible"] > div > aside
-shieldsgazette.com,northantstelegraph.co.uk,newsletter.co.uk,scotsman.com###article-newsletter-signup
+etcanada.com,shieldsgazette.com,northantstelegraph.co.uk,newsletter.co.uk,scotsman.com###article-newsletter-signup
 trouw.nl###ANON_USER_NCB_BOTTOM_BAR_M1_B
 parool.nl###ANON_USER_NCB_BOTTOM_BAR_M1_A
 parool.nl##iframe[src="https://www.parool.nl/marketing/parent-check/nieuwsbrief-app-parool.html"]

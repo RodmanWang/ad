@@ -118,6 +118,7 @@ turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-
 ! notifications - part of the functionality
 ! discord.com##div[class^="container"] > nav[class^="wrapper"] + div[class^="base"] > div[class^="notice-"]
 !
+ranker.com##div[class^="container_innerContainer__"] > a[href^="https://go.watchworthy.app/"]
 cineb.net###hgiks-top
 point.md#?#.bottom-bar > div:has(> a.bottombar-download)
 klook.com#$#.pos-app-download { display: none !important; }
@@ -2664,6 +2665,7 @@ m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
 ! causes some issues: https://github.com/AdguardTeam/AdguardForMac/issues/550
 ~lafenice.io,~kurer-sreda.ru,~chorki.com,~zattoo.com,~zaycev.net,~xltrax.ee,~hitta.se,~mail.ru,~v7player.wostreaming.net,~facebook.com,~instagram.com,~drive.google.com$$link[rel="manifest"]
 !
+auone.jp##.optimize-origin
 typhoon.yahoo.co.jp###bosaiapp
 m.coupang.com#%#//scriptlet('trusted-set-cookie-reload', 'redirect_app_organic_traffic_target', 'N')
 ngoisao.vnexpress.net##article > a.down-app
