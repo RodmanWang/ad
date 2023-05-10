@@ -98,6 +98,9 @@ instagram.com#?#div[style*="opacity"] > div > div[class]:has(> div[class] > div[
 !
 ! End: Instagram.com
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/149849
+kongregate.com###overlay
+kongregate.com##.kred_purchase
 ! https://github.com/AdguardTeam/AdguardFilters/issues/150352
 fboom.me##.banner-firefox-warning
 fboom.me#%#//scriptlet('set-constant', 'document.hasStorageAccess', 'undefined')
@@ -4938,7 +4941,9 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
-24h.tv##.is_freshdesk.notify-enter-done
+realsound.jp###bookStore
+realsound.jp#?#.widget-list:has(> section > a.outbourd_domain[href^="https://blueprint.co.jp/lp/"])
+24h.tv##.notify.is_freshdesk
 chugainippoh.co.jp##header > div.pr
 chugainippoh.co.jp##header > div[class$="_mc"]
 rakuten-card.co.jp##.logoutArea > div.box__inner

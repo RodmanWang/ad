@@ -667,7 +667,7 @@ usatoday.com#@#.ad-slot
 ! SECTION: Anti-adblock - Regular rules
 ! Do not forget about '!#safari_cb_affinity' section for exclusions
 !
-chat.chatbot.sex##.adsbox
+chat.g4f.ai,chat.chatbot.sex##.adsbox
 vnexpress.net##.wrap-hd-adblock
 wooseotools.com##div[style^="position: fixed; width: 100vw;"][style$="z-index: 999999;"]
 smods.ru###ab-warning
@@ -3395,6 +3395,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+indiainfoline.com##.show-modal.modal-wraper
 ranker.com##div[class^="TimelyListMobileWrapper_main__"]
 creciendo.com###wpn-popup-modal
 creciendo.com###wpn-popup-backdrop
@@ -4819,7 +4820,7 @@ rebates.jp###content > div[class^="css-"]:empty
 rebates.jp#?##overlayContent:upward(1)
 beauty.rakuten.co.jp###pitari_sticky
 ||api.dokusho-ojikan.jp/dokusho-server/non_login_appeal
-outlookindia.com,ozap.com,lepoint.fr,miltonkeynes.co.uk,purepeople.com##.dailymotion-player-wrapper[style*="position: fixed;"]
+clicanoo.re,outlookindia.com,ozap.com,lepoint.fr,miltonkeynes.co.uk,purepeople.com##.dailymotion-player-wrapper[style*="position: fixed;"]
 dn-sundai.benesse.ne.jp##.dn-fixed-banner
 rkeeper.ru##.new-posts__widget
 aliexpress.com##.drogue-poplayer-modal
@@ -8620,7 +8621,7 @@ facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion###co
 ipatriot.com###iPatriotWrite
 eragonitalia.it,galka.if.ua###itro_opaco
 eragonitalia.it,galka.if.ua###itro_popup
-personalbanker.com.ua###jbounce-jmodal
+raulprietofernandez.net,personalbanker.com.ua###jbounce-jmodal
 praxistipps.chip.de###js-Vertical__Flyin
 ozyurtgazetesi.com,bolgegazetesi.com###kodac
 palo.com.tr###like-popup
@@ -10682,6 +10683,7 @@ jiji.com,edp24.co.uk,technologyreview.com,inews.co.uk,nordbayern.de,thelocal.ch,
 !
 ! SECTION: Subscriptions - Regular rules
 !
+rambus.com###elementor-popup-modal-24040
 stylecaster.com###taboola-newsletter
 metaratings.ru##div[class^="Subscribe_subscribe__"]
 smh.com.au##.CBSIP
@@ -11045,7 +11047,7 @@ technologyreview.com#$#.tp-backdrop { display: none!important; }
 technologyreview.com#$#html.tp-scroll-prevented { overflow: visible!important; }
 mrsteinberg.com###contact
 mrsteinberg.com##.comments2
-thegamer.com,gamerant.com,androidpolice.com,xda-developers.com###newsletter-popup-container
+movieweb.com,thegamer.com,gamerant.com,androidpolice.com,xda-developers.com###newsletter-popup-container
 foxnews.com##.alert-banner
 profgalloway.com#%#//scriptlet('set-cookie', 'closedsticky', 'true')
 estetic-dent-sklep.pl##.wce_popup-consolidator
@@ -13861,7 +13863,7 @@ alisale.by,heizsparer.de,freemodapks.com,krebsonsecurity.com,mikrotiklab.ru,news
 defenceturk.net,makezine.com,deepsense.ai,lawenforcementtoday.com,anime7.download,telekritika.ua###custom_html-3
 faqpda.ru,cancanlah.com,tokion.jp,thescholarshipsystem.com,blogs.perficient.com,copyblogger.com,gotoadm.ru###custom_html-4
 b-g.by,learnmech.com,winaero.com###custom_html-5
-internet-access-guide.com,myadultanimes.com###custom_html-6
+rambus.com,internet-access-guide.com,myadultanimes.com###custom_html-6
 freemodapks.com,moonshot.news,activestate.com,xakep.ru###custom_html-7
 marcandangel.com###custom_html-8
 zeropark.com,hackware.ru,fosspost.org###custom_html-9
