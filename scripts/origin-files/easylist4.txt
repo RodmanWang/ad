@@ -90,8 +90,9 @@
 ! main page
 yandex.*##._size_big > div.card-wrapersome
 ! turbopages
-yandex.*#?#.unit_rect[data-log-node]:has(> div[class*="_type_partner "])
-yandex.ru##.unit_rect[data-log-node] > div[class*="_type_partner "]
+turbopages.org#%#//scriptlet('json-prune', '*.blockId')
+turbopages.org,yandex.*#?#.unit_rect[data-log-node]:has(> div[class*="_type_partner "])
+turbopages.org,yandex.ru##.unit_rect[data-log-node] > div[class*="_type_partner "]
 yandex.*##.advert-js
 yandex.*#?#span.unit_rect > div.ext-embed:has(> iframe[src^="https://yastatic.net/s3/turbo-static"])
 ! Yandex.Afisha
@@ -3395,6 +3396,9 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+dobro.ru##div[class^="WeAreTogetherModal_modal__"]
+1password.com##div[data-testid="alert-banner"]
+rpp.pe##.mensaje-poll-rpp--modal
 indiainfoline.com##.show-modal.modal-wraper
 ranker.com##div[class^="TimelyListMobileWrapper_main__"]
 creciendo.com###wpn-popup-modal
@@ -8990,11 +8994,11 @@ spid.center#$#body { overflow: visible !important; }
 !
 greatist.com#$##modal-host { display: none !important; }
 greatist.com#$#body { overflow: visible !important; }
-!
-bongacams.net,bongacams.org,bongacams4.com,bongacams3.com,royalcams.com,adultcams.me,adultchat2100.com,alphafreecams.com,bimbolive.com,bongacam.net,bongacam.org,bongacams-chat.ru,bongacams.com,bongacams.eu,bongacams2.com,cammbi.com,hdkinomax.com,prostocams.com,pure-t.ru,r2games.com,smutcam.com##.popover_spygasm
-bongacams19.com,bongacams18.com,bongacams11.com,bongacams.net,bongacams.org,bongacams4.com,bongacams3.com,royalcams.com,adultcams.me,adultchat2100.com,alphafreecams.com,bimbolive.com,bongacam.net,bongacam.org,bongacams-chat.ru,bongacams.com,bongacams.eu,bongacams2.com,cammbi.com,hdkinomax.com,prostocams.com,pure-t.ru,r2games.com,smutcam.com##.fancybox-overlay
-bongacams19.com,bongacams18.com,bongacams11.com,bongacams.net,bongacams.org,bongacams4.com,bongacams3.com,royalcams.com,adultcams.me,adultchat2100.com,alphafreecams.com,bimbolive.com,bongacam.net,bongacam.org,bongacams-chat.ru,bongacams.com,bongacams.eu,bongacams2.com,cammbi.com,hdkinomax.com,prostocams.com,pure-t.ru,r2games.com,smutcam.com##.fancybox-wrap
-bongacams19.com,bongacams18.com,bongacams11.com,bongacams.net,bongacams.org,bongacams4.com,bongacams3.com,royalcams.com,adultcams.me,adultchat2100.com,alphafreecams.com,bimbolive.com,bongacam.net,bongacam.org,bongacams-chat.ru,bongacams.com,bongacams.eu,bongacams2.com,cammbi.com,hdkinomax.com,prostocams.com,pure-t.ru,r2games.com,smutcam.com##.js-spoofIM
+! bongacams
+bongacams26.com,bongacams.net,bongacams.org,bongacams4.com,bongacams3.com,royalcams.com,adultcams.me,adultchat2100.com,alphafreecams.com,bimbolive.com,bongacam.net,bongacam.org,bongacams-chat.ru,bongacams.com,bongacams.eu,bongacams2.com,cammbi.com,hdkinomax.com,prostocams.com,pure-t.ru,r2games.com,smutcam.com##.popover_spygasm
+bongacams26.com,bongacams19.com,bongacams18.com,bongacams11.com,bongacams.net,bongacams.org,bongacams4.com,bongacams3.com,royalcams.com,adultcams.me,adultchat2100.com,alphafreecams.com,bimbolive.com,bongacam.net,bongacam.org,bongacams-chat.ru,bongacams.com,bongacams.eu,bongacams2.com,cammbi.com,hdkinomax.com,prostocams.com,pure-t.ru,r2games.com,smutcam.com##.fancybox-overlay
+bongacams26.com,bongacams19.com,bongacams18.com,bongacams11.com,bongacams.net,bongacams.org,bongacams4.com,bongacams3.com,royalcams.com,adultcams.me,adultchat2100.com,alphafreecams.com,bimbolive.com,bongacam.net,bongacam.org,bongacams-chat.ru,bongacams.com,bongacams.eu,bongacams2.com,cammbi.com,hdkinomax.com,prostocams.com,pure-t.ru,r2games.com,smutcam.com##.fancybox-wrap
+bongacams26.com,bongacams19.com,bongacams18.com,bongacams11.com,bongacams.net,bongacams.org,bongacams4.com,bongacams3.com,royalcams.com,adultcams.me,adultchat2100.com,alphafreecams.com,bimbolive.com,bongacam.net,bongacam.org,bongacams-chat.ru,bongacams.com,bongacams.eu,bongacams2.com,cammbi.com,hdkinomax.com,prostocams.com,pure-t.ru,r2games.com,smutcam.com##.js-spoofIM
 !
 pastemagazine.com###newsletter-signup-overlay
 pastemagazine.com##body > div.screen:empty
@@ -10271,7 +10275,7 @@ gursesgazetesi.com##.ZebraDialog_NotModal
 ||static.bravotube.net/pusher/subscribe.js
 ||linksly.co/sw.js
 patheos.com,majorgeeks.com###push-popup-container
-bongacams19.com,bongacams18.com,bongacams11.com,bongacams.net,adultcams.me,adultchat2100.com,alphafreecams.com,bimbolive.com,bongacam.net,bongacam.org,bongacams-chat.ru,bongacams.com,bongacams.eu,bongacams2.com,cammbi.com,prostocams.com,r2games.com,royalcams.com,smutcam.com##.push_notification_alert
+bongacams26.com,bongacams19.com,bongacams18.com,bongacams11.com,bongacams.net,adultcams.me,adultchat2100.com,alphafreecams.com,bimbolive.com,bongacam.net,bongacam.org,bongacams-chat.ru,bongacams.com,bongacams.eu,bongacams2.com,cammbi.com,prostocams.com,r2games.com,royalcams.com,smutcam.com##.push_notification_alert
 ||ocdn.eu/ucs/static/*/build/js/pushModule.js
 ||uploadrar.com/sw.js
 liga.net#%#//scriptlet("abort-current-inline-script", "askPermission", "")
@@ -10619,6 +10623,7 @@ pipedream.com#@##credential_picker_container
 !
 /wp-content/plugins/mailoptin/*
 !
+||forms.aweber.com^$third-party
 ||news-bozebe.cc^$third-party
 ||embeds.fanmatics.com^$third-party
 ||inyourarea.co.uk^$third-party
@@ -10683,6 +10688,13 @@ jiji.com,edp24.co.uk,technologyreview.com,inews.co.uk,nordbayern.de,thelocal.ch,
 !
 ! SECTION: Subscriptions - Regular rules
 !
+g2a.com#?#main > div[class^="PageBlock_"][style^="z-index:"]:has(> section div[class^="indexes__FormInsideWrapper-"])
+theglobeandmail.com##.marketing-container-wrapper
+theglobeandmail.com##div[class^="NewsletterOnArticleSubscribe_"]
+theresanaiforthat.com#$#body.noscroll { overflow: auto !important; }
+theresanaiforthat.com#$##newsletter_modal { display: none !important; }
+theresanaiforthat.com#$##olay2 { display: none !important; }
+rpp.pe##.setup-newsletter
 rambus.com###elementor-popup-modal-24040
 stylecaster.com###taboola-newsletter
 metaratings.ru##div[class^="Subscribe_subscribe__"]
