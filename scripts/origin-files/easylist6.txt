@@ -98,6 +98,10 @@ instagram.com#?#div[style*="opacity"] > div > div[class]:has(> div[class] > div[
 !
 ! End: Instagram.com
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/149699
+||geo.dailymotion.com/player/x8agi.html$domain=cumhuriyet.com.tr
+! https://github.com/AdguardTeam/AdguardFilters/issues/149873
+||fcp.codes^$domain=areanapoli.it|kooora.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/149849
 kongregate.com###overlay
 kongregate.com##.kred_purchase
@@ -342,7 +346,6 @@ deepl.com##aside[aria-labelledby="customer-quotes-heading"]
 ||gqjapan.jp/verso/static/chunk.presenter-account-bookmarks
 ! https://github.com/AdguardTeam/AdguardFilters/issues/135986
 areanapoli.it###vip-box
-||fcp.codes^$domain=areanapoli.it
 ! https://github.com/AdguardTeam/AdguardFilters/issues/135490
 der-postillon.com###mail-abo
 ! https://github.com/AdguardTeam/AdguardFilters/issues/134652
@@ -4942,6 +4945,7 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+petco.com###signIn_Citrus_ad
 [$path=/corez]blog.livedoor.jp#?#.plugin-box:has(> a[href="https://blog.livedoor.com/matomeportal/"])
 g2a.com#?#main > div[class^="PageBlock_"]:has(> section a[href="https://www.g2a.com/best-deals/consoles"])
 realsound.jp###bookStore
