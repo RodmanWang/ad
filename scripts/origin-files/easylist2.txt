@@ -5580,6 +5580,7 @@ nethunt.com/api/v1/track/email/$image
 ||analytics.s3.amazonaws.com^
 ||analyticsengine.s3.amazonaws.com^
 !
+||s.deepl.com^
 ||dorangesource.alicdn.com^
 ||t.9gag.com^
 ||track.ad.nl^
@@ -34429,7 +34430,6 @@ androplus.org##a[href^="https://px.a8.net/"]
 ||views.playtech.ro/track.js
 ||wawel-service.pl/checkleadforvisitor
 ||jsuol.com.br/aud/
-||s.deepl.com/*/statistics
 ||app.avada.io/scripttag/tracking/avada-track.min.js
 ||clickiocdn.com/utr/$image
 ||baidu.com/*/track.gif?$image,redirect=1x1-transparent.gif
@@ -38116,6 +38116,12 @@ $cookie=bf_visit
 ! Bad:  ||monerominer.rocks^$third-party (should be in adservers.txt)
 !
 !
+! Vimeo
+! Used to collect analytics tracking information
+||vimeo.com^$cookie=vuid
+||vimeo.com^$cookie=afUserId
+||vimeo.com^$cookie=_scid_r
+||vimeo.com^$cookie=_scid
 ! https://github.com/AdguardTeam/AdguardFilters/issues/150077
 ||newsweekjapan.jp^$cookie=_pbjs_userid_consent_data
 ||newsweekjapan.jp^$cookie=_td
