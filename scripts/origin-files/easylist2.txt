@@ -5580,6 +5580,13 @@ nethunt.com/api/v1/track/email/$image
 ||analytics.s3.amazonaws.com^
 ||analyticsengine.s3.amazonaws.com^
 !
+||dorangesource.alicdn.com^
+||t.9gag.com^
+||track.ad.nl^
+||tracker.ai.xiaomi.com^
+||tracker.bt.uol.com.br^
+||tracking.autoscout24.com^
+||analyticshipaa.cloud.coveo.com^
 ||rum-metrics.bunny.net^
 ||analytics.ravanallc.com^
 ||track.buzzerilla.com^
@@ -43824,7 +43831,6 @@ dreamprogs.net##td[width="88"][height="31"]
 ||stats.computecmedia.de^
 ||store.nike.com/cms/analytics-store-desktop.js
 ||synapsys.us^*/tracker.js
-||t.9gag.com^
 ||t.insigit.com/assets/dct.js
 ||tagesschau.de/resources/framework/js/tracking.js
 ||tags.tagcade.com/*/tagcade.js^
@@ -43835,11 +43841,7 @@ dreamprogs.net##td[width="88"][height="31"]
 ||thisisacoolthing.com/fp.js^
 ||tk.ilius.net/tr.gif?
 ||tout.com/tracker.js
-||track.ad.nl^
 ||track.vitringez.com/tracking.js
-||tracker.ai.xiaomi.com^
-||tracker.bt.uol.com.br^
-||tracking.autoscout24.com^
 ||traffic.outbrain.com/network/trackpxl?
 ||travel-assets.com^*/experimentrecorder
 ||travelocity.com/api/datacapture/track
@@ -46034,6 +46036,12 @@ inapps.appsflyersdk.com^
 !#endif
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/150328
+@@||cdn.livechatinc.com/tracking.js$domain=g.network
+! https://github.com/AdguardTeam/AdguardFilters/issues/146492
+! Related to EasyPrivacy
+!+ PLATFORM(ios, ext_safari)
+@@||yandex.*/clck/jsredir?from=yandex.*%3Bsearch%2F%3Bweb%3B%3B$~third-party,~xmlhttprequest,~image,~other
 ! https://github.com/AdguardTeam/AdguardFilters/issues/150480
 @@||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=coolermaster.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/150237

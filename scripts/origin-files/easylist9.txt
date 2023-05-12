@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202305120744
+! Version: 202305121240
 ! Title: Fanboy's Annoyance List
-! Last modified: 12 May 2023 07:44 UTC
+! Last modified: 12 May 2023 12:40 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -5018,6 +5018,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ###newsletters-1-form-wrapper
 ###newsletters-2-form
 ###newsletters-footer-content
+###newsletters-signup-sidebar
 ###newsletters_inline
 ###newsletters_rdr
 ###newslettershow
@@ -37487,6 +37488,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||planelogger.com/Content/Images/avitop6.gif
 ||psyche.co/_next/static/chunks/SupportBannerHeader.
 ||sabcnews.com^*-iabsa-
+||sp-marketing-assets.s3.us-west-2.amazonaws.com^$domain=heraldnet.com
 ! ---------- Scroll To Top Buttons ----------
 ||dailypioneer.com/images/top.png
 ||filmaffinity.com/images/arrow-up2.png
@@ -37591,6 +37593,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||cmp.tek.no^
 ||cmp.telerama.fr^
 ||cmp.uniconsent.com^
+||cmp.vg.no^
 ||conclude.com/assets/build/combined.$script
 ||consent.23g.io^
 ||consent.amateurphotographer.co.uk^
@@ -39359,6 +39362,7 @@ indiewire.com##._newsletter_foipp_1
 the18.com##.above-email
 answersingenesis.org##.actionbox
 horse-canada.com##.active-campaign-form
+merriam-webster.com##.active-subscribe
 goodnewsnetwork.org,guru99.com##.af-form-wrapper
 insidermedia.com##.alert
 algemeiner.com##.alg_subscribe_cont
@@ -39697,6 +39701,7 @@ garyvaynerchuk.com##.gv-widget-mailinglist
 trip.com##.h5-subscribe-card-con
 aclu.org##.has-background-yellow
 forkast.news##.has-blue-grey-very-light-background-color
+coloradosun.com##.has-light-gray-background-color
 favfamilyrecipes.com##.has-quinary-background-color
 aircargonext.com,baltimoremagazine.com,cargofacts.com,medcitynews.com##.hbspt-form
 architectmagazine.com,jlconline.com##.hd-promo
@@ -39923,9 +39928,9 @@ mikebloomberg.com,superdeluxeedition.com##.newsletter-popup
 thepitchkc.com##.newsletter-promo-box
 narcity.com##.newsletter-prompt
 poynter.org##.newsletter-section
-darkreading.com,historyextra.com,radiotimes.com,sciencefocus.com##.newsletter-sign-up
+audacy.com,darkreading.com,historyextra.com,radiotimes.com,sciencefocus.com##.newsletter-sign-up
 capitaltransport.com##.newsletter-sign-up-wrapper
-4029tv.com,abovethelaw.com,blackburnnews.com,bookriot.com,citiblog.co.uk,creation.com,dallasinnovates.com,euobserver.com,fox10phoenix.com,fox13news.com,fox13seattle.com,fox26houston.com,fox32chicago.com,fox35orlando.com,fox4news.com,fox5atlanta.com,fox6now.com,foxla.com,greencarreports.com,hcn.org,kcci.com,kcra.com,ketv.com,kmbc.com,koat.com,koco.com,komando.com,ksbw.com,ktvu.com,livescience.com,mynbc5.com,newsweek.com,nugs.net,progressive.org,publicdomainreview.org,q13fox.com,readbetting.com,readcars.co,readceltic.com,readfashion.co,readfilm.co,readfood.co,readgaming.co,readmanutd.com,readmotorsport.com,readmusic.co,readshowbiz.co,readtv.co,slate.com,sportsworldnews.com,thekitchenmagpie.com,wapt.com,wbaltv.com,wcvb.com,wdsu.com,wesh.com,wgal.com,wisn.com,wjcl.com,wlky.com,wlwt.com,wmtw.com,wmur.com,womanandhome.com,wpbf.com,wqxr.org,wtae.com,wvtm13.com,wxii12.com,wyff4.com##.newsletter-signup
+4029tv.com,abovethelaw.com,blackburnnews.com,bookriot.com,citiblog.co.uk,creation.com,dallasinnovates.com,euobserver.com,fox10phoenix.com,fox13news.com,fox13seattle.com,fox26houston.com,fox29.com,fox32chicago.com,fox35orlando.com,fox4news.com,fox5atlanta.com,fox6now.com,foxla.com,greencarreports.com,hcn.org,kcci.com,kcra.com,ketv.com,kmbc.com,koat.com,koco.com,komando.com,ksbw.com,ktvu.com,livescience.com,mynbc5.com,newsweek.com,nugs.net,progressive.org,publicdomainreview.org,q13fox.com,readbetting.com,readcars.co,readceltic.com,readfashion.co,readfilm.co,readfood.co,readgaming.co,readmanutd.com,readmotorsport.com,readmusic.co,readshowbiz.co,readtv.co,slate.com,sportsworldnews.com,thekitchenmagpie.com,wapt.com,wbaltv.com,wcvb.com,wdsu.com,wesh.com,wgal.com,wisn.com,wjcl.com,wlky.com,wlwt.com,wmtw.com,wmur.com,womanandhome.com,wpbf.com,wqxr.org,wtae.com,wvtm13.com,wxii12.com,wyff4.com##.newsletter-signup
 foreignpolicy.com##.newsletter-signup-and-ads
 moneycontrol.com##.newsletter-signup-rhs
 frontofficesports.com##.newsletter-sticky-bar
@@ -40459,6 +40464,7 @@ imgflip.com###findUs
 memuplay.com###fixed-share
 notquitenigella.com###floatingfacebook
 empoweringparents.com,tvmaze.com###follow
+phillyvoice.com###follow_social
 9to5linux.com###followlist
 atlasobscura.com###footer-social-list
 aimp.ru###footer_counter
@@ -40566,6 +40572,7 @@ iol.co.za##.article-share
 wionews.com##.article-share-data
 freebeacon.com##.article-share-icons
 babylonbee.com,notthebee.com##.article-shareables
+phillyvoice.com##.article-sharing
 dailystar.com.lb,eurekalert.org##.article-tools
 nationalreview.com##.article-utility-nav
 nzherald.co.nz##.article__action-bar
@@ -40863,6 +40870,7 @@ vimeo.com##.share_body
 goodmenproject.com##.share_count_holder
 searchenginejournal.com##.sharebtn
 econotimes.com##.sharebutton
+coloradosun.com##.sharedaddy
 muscleandfitness.com##.sharedaddy__wrapper
 bulawayo24.com,foodbeast.com,twistedfood.co.uk##.shares
 cointelegraph.com##.shares-list__list
@@ -42244,7 +42252,6 @@ msnursepro.org##.gs-cookie-wall
 milwaukeecylinder.com##.guTily
 guggenheim.org##.guggen-consent
 ada.com##.gyhOpk
-iol.co.za##.hAHTfY
 yourstory.com##.hAPLOA
 avocode.com##.hBCzJb
 bazarchic.com##.hCTOEm
@@ -42400,7 +42407,6 @@ bayernlb.com##.lg-backdrop
 lawinsider.com##.light-blue-bordered-card
 taminggaming.com##.lightbox
 linkfly.to##.linkfly-ctx-notifications
-iol.co.za##.liqVGz
 leadliaison.com##.ll_banner
 jw.org##.lnc-firstRunPopup
 sig-global.co.uk##.login-wrapper
@@ -42950,6 +42956,7 @@ dnb.com##.za43bb12b864a3f8d_privacyBanner
 ethereumprice.org##.zxc-msg
 santatracker.google.com##SANTA-NOTICE
 trustnet.com##USER-TYPE-POPUP
+1password.com##[aria-label="Cookie Consent"]
 helmut-fischer.com##[class*="-banner"]
 picarto.tv##[class*="CookieCompliance_"]
 kaspersky.com##[class*="CookiesAccept"]
@@ -42980,6 +42987,7 @@ fischer-technology.com##[data-ajax-loading="false"]
 myworkdayjobs.com##[data-automation-id="legalNotice"]
 uber.com##[data-baseweb="toaster"]
 abc.net.au##[data-component="CookieBanner"]
+iol.co.za##[data-dialog="true"]
 wizards.com##[data-fetch-key="TheCookiePrompt:0"]
 indeed.com##[data-gnav-region="GlobalPrivacyControlBanner"]
 fwd.com##[data-locator="Cookie-Banner-Wrapper"]
