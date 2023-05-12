@@ -107,7 +107,8 @@ yandex.ru##.stack > div[class^="sticky-"]
 yandex.*#?#div[role="list"] div[class*="-Incut"]:has(div[id^="viewer_rim_direct"])
 !#if (!ext_ublock)
 ! Yandex Games
-[$path=/games]yandex.ru#%#//scriptlet('json-prune', 'rtb rtbAuctionInfo')
+[$path=/games]yandex.*#%#//scriptlet('json-prune', 'rtb rtbAuctionInfo')
+[$path=/games]yandex.*##div[style="width: 240px; margin-top: -32px; height: 100vh;"]
 ! Yandex.Weather
 [$path=/pogoda]yandex.*##div[class*="Advert_fullScreenContainer__"]
 [$path=/weather]yandex.*#%#//scriptlet('abort-on-property-read', 'Object.prototype.renderDirect')
@@ -8605,7 +8606,7 @@ tcmakale.com,sarizeybekhaber.com.tr###bakmagecme
 lebwa.tv,timeallnews.ru###bg_popup
 expertreviews.co.uk,autoexpress.co.uk,alphr.com,itpro.co.uk###block-dennis-newsletter-newsletter-block
 softpedia.com###bottombubble
-eescobarvip.com,tarotman.ru,siberbulten.com,getintocourse.com,thedigitalhacker.com,rumaysho.com,latesthdmovies.*,gotravelblogger.com,cozumpark.com,gsminfo.com.ua,tehnotech.com,lafmacun.net,windowsable.com,indirin.co,sosyalmedyapazarlama.com,rockistasyonu.com,hukukbook.com,havadiskibris.com,hukukiblog.com,ankaram.net,ciltbilgi.com,iyiyemektarifleri.net,bodrumguncelhaber.com,codewk.com,borsarti.com,besttechinfo.com,gamesforpublic.de,filmlinks4u.is,geziseli.com,z-news.link###check-also-box
+inventiva.co.in,eescobarvip.com,tarotman.ru,siberbulten.com,getintocourse.com,thedigitalhacker.com,rumaysho.com,latesthdmovies.*,gotravelblogger.com,cozumpark.com,gsminfo.com.ua,tehnotech.com,lafmacun.net,windowsable.com,indirin.co,sosyalmedyapazarlama.com,rockistasyonu.com,hukukbook.com,havadiskibris.com,hukukiblog.com,ankaram.net,ciltbilgi.com,iyiyemektarifleri.net,bodrumguncelhaber.com,codewk.com,borsarti.com,besttechinfo.com,gamesforpublic.de,filmlinks4u.is,geziseli.com,z-news.link###check-also-box
 rumaysho.com###om-lightbox-chalkboard-optin
 fishki.net###chrome_popup
 bilecikhaber.com.tr###cm-social-overlay
