@@ -3396,6 +3396,11 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+docdoc.ru##div[data-testid="callback-block"]
+docdoc.ru##.the-footer > div.visible-mobile-flex
+vesseltracker.com#$#body.modal-open { overflow: auto !important; padding-right: 0 !important; }
+vesseltracker.com#$##veritasWoodmacTakeover { display: none !important; }
+vesseltracker.com#$#.modal-backdrop { display: none !important; }
 pochta.ru##a[class*="UnauthorizedPopupstyled__"]
 indiamart.com###IdentifiedPopUpHTML
 techjockey.com##.tj-spin-wheel-popup
@@ -10544,8 +10549,6 @@ aol.com#$#.banner-active { margin-top: 0 !important; }
 @@||pushpushgo.com/js/*.js$domain=centrumriviera.pl
 ! https://github.com/AdguardTeam/AdguardFilters/issues/141088
 @@||cdnt.netcoresmartech.com^$domain=cgv.vn
-! https://github.com/AdguardTeam/AdguardFilters/issues/140801
-@@||widget.intercom.io/widget/fix72gk8$domain=onboarding.speechify.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/138346
 @@||d2r1yp2w7bby2u.cloudfront.net/js/a.js$domain=sonyliv.com
 ! https://dashboard.ionicframework.com/personal/apps
