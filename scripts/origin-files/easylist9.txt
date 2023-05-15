@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202305150134
+! Version: 202305150319
 ! Title: Fanboy's Annoyance List
-! Last modified: 15 May 2023 01:34 UTC
+! Last modified: 15 May 2023 03:19 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -38037,6 +38037,7 @@ startpage.com##.widget-install-legacy
 chicagoreporter.com##.widget-support-tcr
 factcheck.org##.widget_factcheck_donate_widget
 grist.org##.wp-block-article-donation
+desmog.com##.wp-image-2011
 realitycheck.radio##.wp-image-241027
 dailyevergreen.com,dailyexpose.uk,thewalrus.ca##.wppopups-whole
 wionews.com##.writeforwionbanner
@@ -48545,6 +48546,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||campus.arte.tv/js/components/cookie-banner.js
 @@||carport-diagnose.de/script/cookieconsent.min.js$~third-party
 @@||cdn-national-lottery.co.uk/c/js/cuk_core.min.js
+@@||cdn.appconsent.io^$script,domain=commentcamarche.net|journaldesfemmes.fr|lachainemeteo.com|lefigaro.fr|linternaute.com
 @@||cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.js$script,domain=inkblot.art
 @@||cdn.opencmp.net/tcf-v2/cmp-latest.js$script,domain=foraum.de
 @@||cdn.opencmp.net/tcf-v2/cmp-stub-latest.js$script,domain=idowa.de
