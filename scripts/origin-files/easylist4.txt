@@ -666,6 +666,7 @@ usatoday.com#@#.ad-slot
 ! SECTION: Anti-adblock - Regular rules
 ! Do not forget about '!#safari_cb_affinity' section for exclusions
 !
+vsthemes.org#%#//scriptlet('prevent-element-src-loading', 'script', 'pagead2.googlesyndication.com')
 chat.g4f.ai,chat.chatbot.sex##.adsbox
 vnexpress.net##.wrap-hd-adblock
 wooseotools.com##div[style^="position: fixed; width: 100vw;"][style$="z-index: 999999;"]
@@ -3239,7 +3240,7 @@ pornone.com#@#.overheaderbanner
 @@||observador.pt^$generichide
 @@||outschool.com^$generichide
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=techsolutiontips.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=androidcentral.com|imore.com|windowscentral.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=androidcentral.com|imore.com|windowscentral.com|vsthemes.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=audiotag.info
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=diffnow.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=diynetwork.com,important
@@ -15065,7 +15066,7 @@ minfin.com.ua##.mail-subscribe-user
 erkekadam.org#?##secondary > section.widget:has(> h2.widget-title:contains(E-Posta))
 spark.ru###digestSubscribeBlock
 itechtics.com#?#.inside-right-sidebar > aside.widget:has(> div.textwidget > form[action] > input[value="Subscribe"])
-sailuniverse.com##div[id^="tie-newsletter-"]
+lereportersablais.com,sailuniverse.com##div[id^="tie-newsletter-"]
 congressoemfoco.uol.com.br#?#aside > div.widget_text:has(> div.textwidget > form[id="mailee-form"])
 kleo.ru##.footer-sub
 zimamagazine.com##.subscribe-article-sidebar
