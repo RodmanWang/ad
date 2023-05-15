@@ -98,6 +98,8 @@ instagram.com#?#div[style*="opacity"] > div > div[class]:has(> div[class] > div[
 !
 ! End: Instagram.com
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/150436
+roskomsvoboda.org##.container-foreign_agent
 ! https://github.com/AdguardTeam/AdguardFilters/issues/150471
 hindustantimes.com##.alsoReadSectionAppend
 ! https://github.com/AdguardTeam/AdguardFilters/issues/149699
@@ -1327,7 +1329,7 @@ wired.com##div[class*="consumer-marketing-unit--display"]
 wired.com##.sidebar-component > .ad--side_rail > .load-failure > .cm-failsafes
 wired.com#?##app-root > .page--article > div[class="row"]:has(> .consumer-marketing-unit--cm-footer:only-child)
 ! heise.de - newsletter
-heise.de##.newsletter-subscription
+npr.org,heise.de##.newsletter-subscription
 ! https://github.com/AdguardTeam/AdguardFilters/issues/66750
 vc.ru,dtf.ru##.special-job-teaser
 ! https://github.com/AdguardTeam/AdguardFilters/issues/66900
