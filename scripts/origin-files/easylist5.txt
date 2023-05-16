@@ -118,6 +118,7 @@ turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-
 ! notifications - part of the functionality
 ! discord.com##div[class^="container"] > nav[class^="wrapper"] + div[class^="base"] > div[class^="notice-"]
 !
+helsi.me##div[class*="AppLinkBtn_"]
 youku.com###app .callEnd_box
 yummly.com##.top_banner
 apkmody.fun###body-fixed-footer
@@ -2042,7 +2043,7 @@ oneindia.com##.extensionElem
 m.baomoi.com##.footer__anchor-event
 touch.eznavi.auone.jp,sport1.de,amazon.de,amazon.com,amazon.co.uk,amazon.fr,amazon.it,amazon.es###smart-app-banner
 amazon.de,amazon.com,amazon.co.uk,amazon.fr,amazon.it,amazon.es##div.afap-above-nav#afap-above-nav
-expres.sk,aliexpress.com,arukereso.hu,msg.aliexpress.*,uinterview.com,eapteka.ru,locator.transitcard.ru##.mobile-app
+napopravku.ru,expres.sk,aliexpress.com,arukereso.hu,msg.aliexpress.*,uinterview.com,eapteka.ru,locator.transitcard.ru##.mobile-app
 rt.com##.offers
 tree.tv###android_app
 pandao.ru##.main-slider
@@ -2693,6 +2694,7 @@ m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
 ! causes some issues: https://github.com/AdguardTeam/AdguardForMac/issues/550
 ~lafenice.io,~kurer-sreda.ru,~chorki.com,~zattoo.com,~zaycev.net,~xltrax.ee,~hitta.se,~mail.ru,~v7player.wostreaming.net,~facebook.com,~instagram.com,~drive.google.com$$link[rel="manifest"]
 !
+work.ua##.b-application
 yummly.com##.download-promo-banner
 woman.excite.co.jp##.app_dl_btn
 minfin.com.ua##.android-ios-banner-block
