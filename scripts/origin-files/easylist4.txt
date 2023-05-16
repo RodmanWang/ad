@@ -3396,6 +3396,10 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+||newscaststudio.com/wp-content/plugins/wordpress-popup/assets/hustle-ui/
+blockchain-council.org##.blcn-popup-wrap
+blockchain-council.org###tpbr_topbar
+blockchain-council.org###elementor-popup-modal-65787
 docdoc.ru##div[data-testid="callback-block"]
 docdoc.ru##.the-footer > div.visible-mobile-flex
 vesseltracker.com#$#body.modal-open { overflow: auto !important; padding-right: 0 !important; }
@@ -4726,7 +4730,7 @@ starpets.gg,eigeki.com##.gift
 720dgree.de##div[class^="recommendation-modal"]
 thebulletin.org##.uabb-sticky-apply
 vogue.cz##div[class^="FloatedWrapper"]
-smartairfilters.com##.hustle-slidein
+newscaststudio.com,smartairfilters.com##.hustle-slidein
 ||impress.co.jp/sites/all/libraries/AlertifyJS/build/alertify.
 wazap.com##.ui_member_popup
 alis.to##.area-article-registration-footer
@@ -7517,9 +7521,6 @@ psicolinea.it##.sfsi_outr_div
 geekwire.com##.flyover-email-cta
 fenokulu.net##.WalpaperBanner
 fenokulu.net##.WalpaperBg
-backmarket.com#$#.vue-portal-target { display: none!important; }
-backmarket.com#$#body { overflow: visible!important; }
-||apis.google.com/*/apps-static/$script,domain=backmarket.com
 livejournal.com##.js-anon-suggestion-block
 1000ps.at###newsletterbox
 princesshighway.com.au,uniqlo.com##.subscribe-popup-overlay
@@ -10678,7 +10679,7 @@ bournemouthecho.co.uk,eveningtimes.co.uk,greenocktelegraph.co.uk,heraldscotland.
 ! ##.newsletter-box
 portalochronysrodowiska.pl,diariodecuyo.com.ar,super-hobby.co.uk,super-hobby.de,super-hobby.be,super-hobby.at,super-hobby.it,super-hobby.pt,super-hobby.es,uper-hobby.fr,super-hobby.com,mojehobby.pl,edh.tw,vigo.de,arbeitssicherheit.de,smartasset.com,digitalcitizen.life,steuertipps.de,glamour.pl,przyslijprzepis.pl,kobieta.pl,daemmen-und-sanieren.de,vigo.de,libhunt.com,dreamstime.com,antyweb.pl,brennenstuhl.com,pianetadesign.it,saashub.com,developer.mozilla.org,disqus.com,notebooki.pl,schweizer-illustrierte.ch##.newsletter-box
 ! ##.subscribe
-shopify.engineering,boardingarea.com,defense.gov,bitsofco.de,vogue.ua,cuprum.media,re-russia.net,kinobusiness.com,seroundtable.com,naukatv.ru,avtovzglyad.ru,glavred.net,glavred.info,stopcor.org,bcs-express.ru,mpr-shop.ru,varianty.lviv.ua,gotovim.ru,livelib.ru,daily.afisha.ru,cnnturk.com,ko.ru,torontovka.com,mrpl.city,mydeliciousmeals.com,marieclaire.ru,inforeactor.ru,kp.ua,trendymen.ru,plus-aliance.ru,instyle.ru,slovodel.com,twilio.com,novostivl.ru,exkavator.ru,logincasino.com.ua,newinform.com,riafan.ru,liveposts.ru,320volt.com,versia.ru,neft.by,expert.ru,shopify.com,zoutons.com,myfreesoft.ru,maximonline.ru,woman.ru,parents.ru,vokrugsveta.ru,psychologies.ru,ellegirl.ru,wday.ru,elle.ru,marieclaire.ru,indiatimes.com,shopify.in,vz.ru,searchengineland.com,vokrugsveta.ru,censor.net,fizzicseducation.com.au,fparf.ru,revouninstaller.com,logincasino.com,borsagundem.com,officelife.media,kod.ru,masterinvest.info,bessarabia.ua,football.kulichki.net,jeotermalhaberler.com,glavcom.ua,hindustantimes.com,hightech.fm,culture.ru,obozrevatel.com,blog.eva.ua,officiel-online.com,wccftech.com,ideanomics.ru,gazetki.by,goldsilver.com,kp.ru,infobus.eu,atorus.ru,castorama.ru,marieclaire.ua,mvs.gov.ua,oneplus.com,tickets.ua,europaplus.ru,krossovki.com,belretail.by,thecollegefix.com,femmie.ru,prostofinovo.ru,mauijim.com,netpeak.net,wday.ru,buhgalteria.ru,ellegirl.ru,gameslog.ru,gizmag.com,healthhacks.ru,klerk.ru,menshealth.com,rbc.ru,snce.ru,turizm.ru,wegame.com.ua##.subscribe
+rueconomics.ru,shopify.engineering,boardingarea.com,defense.gov,bitsofco.de,vogue.ua,cuprum.media,re-russia.net,kinobusiness.com,seroundtable.com,naukatv.ru,avtovzglyad.ru,glavred.net,glavred.info,stopcor.org,bcs-express.ru,mpr-shop.ru,varianty.lviv.ua,gotovim.ru,livelib.ru,daily.afisha.ru,cnnturk.com,ko.ru,torontovka.com,mrpl.city,mydeliciousmeals.com,marieclaire.ru,inforeactor.ru,kp.ua,trendymen.ru,plus-aliance.ru,instyle.ru,slovodel.com,twilio.com,novostivl.ru,exkavator.ru,logincasino.com.ua,newinform.com,riafan.ru,liveposts.ru,320volt.com,versia.ru,neft.by,expert.ru,shopify.com,zoutons.com,myfreesoft.ru,maximonline.ru,woman.ru,parents.ru,vokrugsveta.ru,psychologies.ru,ellegirl.ru,wday.ru,elle.ru,marieclaire.ru,indiatimes.com,shopify.in,vz.ru,searchengineland.com,vokrugsveta.ru,censor.net,fizzicseducation.com.au,fparf.ru,revouninstaller.com,logincasino.com,borsagundem.com,officelife.media,kod.ru,masterinvest.info,bessarabia.ua,football.kulichki.net,jeotermalhaberler.com,glavcom.ua,hindustantimes.com,hightech.fm,culture.ru,obozrevatel.com,blog.eva.ua,officiel-online.com,wccftech.com,ideanomics.ru,gazetki.by,goldsilver.com,kp.ru,infobus.eu,atorus.ru,castorama.ru,marieclaire.ua,mvs.gov.ua,oneplus.com,tickets.ua,europaplus.ru,krossovki.com,belretail.by,thecollegefix.com,femmie.ru,prostofinovo.ru,mauijim.com,netpeak.net,wday.ru,buhgalteria.ru,ellegirl.ru,gameslog.ru,gizmag.com,healthhacks.ru,klerk.ru,menshealth.com,rbc.ru,snce.ru,turizm.ru,wegame.com.ua##.subscribe
 ! ##.subscription
 mvs.gov.ua,kontur-extern.ru,okocrm.com,lifestyleasia.com,cars.av.by,business-standard.com,holiday.by,hcdinamo.by,ural56.ru,slidstvo.info,cozumpark.com,x-team.com,m.vz.ru,shoppinglive.ru,starhit.ru,gamemag.ru,careeraddict.com,glasswire.com,metaratings.ru,starhit.ru,busfor.ua,brighteon.com,championat.com,goodhouse.ru,ichip.ru,irk.ru,thepostmillennial.com,skidochnik.com.ua##.subscription
 ! ##body > div[id][style*="top: 0px; width: 100%; z-index: 99999999;"]
@@ -10710,7 +10711,6 @@ jiji.com,edp24.co.uk,technologyreview.com,inews.co.uk,nordbayern.de,thelocal.ch,
 ura.news##.vc-header-telegram
 huel.com##.EmailSignup
 liza.ua##.telegram-image
-news.zerkalo.io##.b-youtube-sbscr
 peta.org###enews-signup
 peta.org##.enews-bottom
 startup.outlookindia.com###signupGrp
