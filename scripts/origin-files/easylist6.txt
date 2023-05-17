@@ -98,6 +98,8 @@ instagram.com#?#div[style*="opacity"] > div > div[class]:has(> div[class] > div[
 !
 ! End: Instagram.com
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/149873
+kooora.com#$?##matchesTable div.footballco-container { remove: true; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/150804
 47news.jp#?#.side_inner > div.side_pc_row3:has(> div#slick_pr)
 47news.jp#?#.side_inner > div.side_pc_row4:has(> div.inner_row2 > #slick_feat)
@@ -108,7 +110,7 @@ hindustantimes.com##.alsoReadSectionAppend
 ! https://github.com/AdguardTeam/AdguardFilters/issues/149699
 ||geo.dailymotion.com/player/x8agi.html$domain=cumhuriyet.com.tr
 ! https://github.com/AdguardTeam/AdguardFilters/issues/149873
-||fcp.codes^$domain=areanapoli.it|kooora.com
+||fcp.codes^$domain=areanapoli.it
 ! https://github.com/AdguardTeam/AdguardFilters/issues/149849
 kongregate.com###overlay
 kongregate.com##.kred_purchase
@@ -3346,11 +3348,6 @@ fanyi.youdao.com#%#//scriptlet('set-cookie', 'adcookie', 'true')
 fanyi.youdao.com#$#body[style*="overflow:"] { overflow: auto !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/149752
 ||static.wattpad.com/image/*_House-Ad_Premium_
-! https://github.com/AdguardTeam/AdguardFilters/issues/149077
-lopinion.fr#$#bsp-subscription-popup { display: none !important; }
-lopinion.fr#$#html { overflow: auto !important; }
-lopinion.fr#$#body { overflow: auto !important; }
-lopinion.fr##bsp-sticky-banner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/149123
 realitykings.com##section[aria-live="polite"][id^="mfe-one-join-container-"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/149331
@@ -4949,6 +4946,16 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+nordvpn.com##.BlogPost__banner-wrapper
+nordvpn.com##.GetAppSection
+adlock.com##.panel > div.aside__cta
+adlock.com##.download-panel
+chicagotribune.com##.met-footer-toast
+lopinion.fr#$?#bsp-subscription-popup { remove: true; }
+lopinion.fr##bsp-sticky-banner
+happymod.com##.container-right > div.righthm
+youtube-thumbnail-grabber.com###extension-container
+apkmonk.com##.apkmonk_banner
 statnews.com##.stat-plus-article-cta
 consumerreports.org##.cda-article__col div[id^="monetate_selectorHTML"]
 npr.org###ad-backstage-wrap + div.flex-location-wrap
@@ -6869,6 +6876,8 @@ newsweek.com##iframe[src="http://sns.europe.newsweek.com/newsletter?popup=1"]
 !##############################
 ! SECTION: Tweaks - JS
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/151095
+pluska.sk#%#//scriptlet('remove-class', 'floating', 'video-livebox > div[data-endscreen="plus1_endscreen"]')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/150962
 apkmody.fun#%#//scriptlet('adjust-setTimeout', 'download_loading', '*', '0.02')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/150865
