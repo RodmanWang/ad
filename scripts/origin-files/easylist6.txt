@@ -98,6 +98,8 @@ instagram.com#?#div[style*="opacity"] > div > div[class]:has(> div[class] > div[
 !
 ! End: Instagram.com
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/151120
+lrytas.lt#%#//scriptlet('remove-class', 'LEmbedVideo--floating', '.LEmbedVideo.LEmbedVideo--floating')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/149873
 kooora.com#$?##matchesTable div.footballco-container { remove: true; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/150804
@@ -4946,6 +4948,11 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+yandex.*##.DistrPopup_motley_dark-green
+wedding.mynavi.jp##.headerBannerCampaign
+wedding.mynavi.jp###js-recommendSlideup
+wedding.mynavi.jp##div[id="1_recommend_divid"]
+cyberghostvpn.com##.table-of-contents-wrapper > div[style="background-color: #f4f5f6; padding: 20px;"]
 yandex.ru###distr-pcode-container
 apteka911.ua##.tab-content > div.div-img-html
 nordvpn.com##.BlogPost__banner-wrapper
