@@ -472,6 +472,7 @@ prjaga.ru#?##right > div#right_nav > h3:contains(Онлайн статистик
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||services.brightline.tv^
 ||wct-2.com^
 ||code.r5hsid.ru^
 ||stats.sprocketrocket.co^
@@ -5583,6 +5584,7 @@ nethunt.com/api/v1/track/email/$image
 ||analytics.s3.amazonaws.com^
 ||analyticsengine.s3.amazonaws.com^
 !
+||metrics.svc.conholdate.cloud^
 ||mywedding-beacon.team-rec.jp^
 ||metrics.onewegg.com^
 ||stat.gc.my.games^
@@ -6627,7 +6629,6 @@ nethunt.com/api/v1/track/email/$image
 ||events.emogi.com^
 ||events.jora.com^
 ||events.kaloo.ga^
-||events.mobile.optimizely.com^
 ||events.newsroom.bi^
 ||events.niit-mts.com^
 ||events.ocdn.eu^
@@ -36282,7 +36283,6 @@ ferra.ru##div[data-widget="plista_widget_webApp_mobile_nocss"]+div[class^="_"] >
 ||onesignal.com/webPushAnalytics
 tensaigakkou.ru###custom_html-16
 ||at.rtb-cdn.net/?t_aid
-||optimizely.com/js/geo2.js
 ||d3jaymjyiads5d.cloudfront.net/tracker.js
 ||admin.blog.fc2.com/dctanalyzer.php
 ||saccest.com/js/lidyana.js
@@ -38802,8 +38802,6 @@ $cookie=ev_sid,domain=ideal.es|elcorreo.com
 |http*$app=com.adups.fota.sysoper|com.adups.fota
 !
 ! For apps
-||log.ngsm.nexon.com^
-||log.nexon.io^
 ||receiver.habby.mobi^
 ||cdn.branch.io^$app=app.extra.android
 ||pangle-b.io^
@@ -39749,6 +39747,12 @@ inapps.appsflyersdk.com^
 !#endif
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/151300
+@@||googletagmanager.com/gtm.js$domain=outkick.com
+! https://github.com/uBlockOrigin/uAssets/issues/18043
+||connect.telstrawholesale.com^$badfilter
+! https://github.com/uBlockOrigin/uAssets/issues/18050
+@@||omtrdc.net/*/mbox/json$domain=apps.pnc.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/151272
 @@||frosmo.com/recoApi/$domain=eeva.fi
 ! https://github.com/AdguardTeam/AdguardFilters/issues/150328
