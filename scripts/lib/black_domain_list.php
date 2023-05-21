@@ -75,10 +75,7 @@ return [
     "behe.com" => ["behe.com"],
     "dnset.com" => ["dnset.com"],
     "yiqifa.com" => ["yiqifa.com"],
-    "kankan.com" => [
-        "float.kankan.com",
-        "stat.kankan.com",
-    ],
+    "kankan.com" => ["float.kankan.com", "stat.kankan.com"],
     "oadz.com" => ["oadz.com"],
     "dopa.com" => ["dopa.com"],
     "dopa.com.cn" => ["dopa.com.cn"],
@@ -1326,6 +1323,56 @@ return [
         "ad-display.diwodiwo.xyz",
         "ad-channel.diwodiwo.xyz",
     ],
+    "126.net" => [
+        "ads.music.126.net", // #784
+    ],
+    "bcebos.com" => [
+        "mobads-pre-config.cdn.bcebos.com", // #784
+    ],
+    "xhscdn.com" => [
+        "ads-img-al.xhscdn.com", // #784
+        "ads-img-qc.xhscdn.com", // #793
+        "ads-video-al.xhscdn.com", // #793
+        "ads-video-qc.xhscdn.com", // #793
+    ],
+    "cmbchina.com" => [
+        "mbads.paas.cmbchina.com", // #784
+    ],
+    "heytapimage.com" => [
+        "img-c.heytapimage.com", // #789
+    ],
+    "google.cn" => [
+        "ads.google.cn", // #793
+        "adsense.google.cn", // #793
+    ],
+    "azureedge.net" => [
+        "advertiseonbing.azureedge.net", // #793
+    ],
+    "duoduo.link" => [
+         "ad.duoduo.link", // #793
+    ],
+
+    "2mdn-cn.net" => ["2mdn-cn.net"],
+    "admob-cn.com" => ["admob-cn.com"],
+    "app-measurement-cn.com" => ["app-measurement-cn.com"],
+    "dartsearch-cn.net" => ["dartsearch-cn.net"],
+    "doubleclick-cn.net" => ["doubleclick-cn.net"],
+    "ggpht.cn" => ["ggpht.cn"],
+    "gongyichuangyi.net" => ["gongyichuangyi.net"],
+    "googleads-cn.com" => ["googleads-cn.com"],
+    "googleadservices-cn.com" => ["googleadservices-cn.com"],
+    "googleadsserving.cn" => ["googleadsserving.cn"],
+    "google-analytics-cn.com" => ["google-analytics-cn.com"],
+    "googleflights-cn.net" => ["googleflights-cn.net"],
+    "googleminiapps.cn" => ["googleminiapps.cn"],
+    "googleoptimize-cn.com" => ["googleoptimize-cn.com"],
+    "googlers-cn.com" => ["googlers-cn.com"],
+    "googlesandbox-cn.com" => ["googlesandbox-cn.com"],
+    "googlesyndication-cn.com" => ["googlesyndication-cn.com"],
+    "googletagmanager-cn.com" => ["googletagmanager-cn.com"],
+    "googletagservices-cn.com" => ["googletagservices-cn.com"],
+    "googlevads-cn.com" => ["googlevads-cn.com"],
+    "gvt1-cn.com" => ["gvt1-cn.com"],
 
     // 批量添加域名
     "0202.com.tw" => ["0202.com.tw", "www.0202.com.tw"],
