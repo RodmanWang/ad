@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202305210132
+! Version: 202305210300
 ! Title: Fanboy's Annoyance List
-! Last modified: 21 May 2023 01:32 UTC
+! Last modified: 21 May 2023 03:00 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -36999,6 +36999,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||flashscore.fr^*/build/notifications.
 ||futura-sciences.com/clientscript/push.js
 ||horoscope.fr/notifications/
+||metrobilbao.eus/firebase-messaging-sw.js
 ||push.neko-san.fr^
 ||pushme.magellanotech.it^
 ||tio.ch/js/api.push.js
@@ -41818,6 +41819,7 @@ stealthex.io##.gmEwWa
 realmroyale.com##.go3004242404
 goout.net##.goout-cookie-overlay
 cookiebot.com##.granify-widget-container
+inov-8.com##.grey-bg
 msnursepro.org##.gs-cookie-wall
 milwaukeecylinder.com##.guTily
 guggenheim.org##.guggen-consent
@@ -42085,6 +42087,8 @@ brightree.com,cgtrader.com,configserverfirewall.com,cortesdecima.com,dialight.co
 anime2enjoy.com##.notice-board
 naturesgold.ie,rockandsnow.com##.notice-item-success
 dreamworks.com##.notice-modal
+ambassadorcruiseline.com##.notice-modal--cookies
+ambassadorcruiseline.com##.notice-modal__overlay--cookies
 carlsjr.com,hardees.com##.notice-window
 veritasbooksonline.com##.notice-wrap
 windowsbbs.com##.notice_-1
@@ -47426,6 +47430,7 @@ oloblogger.com###aviso_off
 ayuntamientoparla.es###avisolssi
 colchones.es###avisosusc
 amnesia.es,arguedas.es###barra
+galeriametro.com###barra_mensaje_cookies
 suitur.com###bs-gdpr-cookies-modal
 aerolineas.com.ar###c-message
 trajesdenovioporta.com###c-notice
@@ -47521,6 +47526,7 @@ elperiodicodeaqui.com##.info_priv
 birchbox.es##.irKJYj
 bankio.es##.jss1
 fincaraiz.com.co##.jss268
+metrobilbao.eus##.jss45
 plataformaarquitectura.cl##.kth-toast
 elsalopez.es##.mceRow--relative
 beefgourmet.es##.mcnTemplatePageBanner
@@ -47550,6 +47556,7 @@ musicalmarti.com##.ui-dialog-buttons
 anisearch.es##.urgent-msg
 crezes.es,pdatos.com,tasacion-costas.es##.vm--container
 crezes.es,pdatos.com##.vm--overlay
+metrobilbao.eus##[aria-label="Cookie settings panel"]
 bankintercomite.es##body > .cajatxt
 blogcindario.com,mforos.com##body > div[id][class]
 draeger.com##dw-global-notification
