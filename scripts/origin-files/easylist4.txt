@@ -3398,6 +3398,8 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+cellmapper.net##.bootbox-alert
+cellmapper.net##.bootbox-alert ~ div.modal-backdrop
 gmotech.jp###bannerParts
 krone.at##.krn-flyby
 krone.at##.c_floating-player
@@ -15908,7 +15910,7 @@ pokernews.com,expresso.pt,sapo.pt##.subscribeWidget
 biztorg.ru##.subscribeWrap
 it-tehnik.ru##.subscribe__big
 u.today##.subscribe__content
-taker.im##.subscribe__form
+thegirl.ru,taker.im##.subscribe__form
 kurkul.com,slk.kh.ua,atbmarket.com,giveawayoftheday.com##.subscribe_block
 korrespondent.net##.subscribe_button
 aif.ru##.subscribe_content_wid

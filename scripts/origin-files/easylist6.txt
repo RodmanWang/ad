@@ -98,6 +98,8 @@ instagram.com#?#div[style*="opacity"] > div > div[class]:has(> div[class] > div[
 !
 ! End: Instagram.com
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/151437
+newizv.ru##div[data-slug="matter_before_sharing"] + div:not([class])
 ! https://github.com/AdguardTeam/AdguardFilters/issues/151140
 tv.lrytas.lt#%#//scriptlet("remove-class", "jw-flag-floating", "#jw-video-js")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/151223
@@ -1661,9 +1663,9 @@ belaruspartisan.by#?#.left_block > div:has(> a[href="https://t.me/belaruspartisa
 ! https://github.com/AdguardTeam/AdguardFilters/issues/41998
 dobreprogramy.pl##.wppwidget > #Player0.FloatingPlayer.floating
 ! https://github.com/AdguardTeam/AdguardFilters/issues/52501#issuecomment-606636283
-! linkdrop.net,zoom-link.com,educationvilla.xyz - annoyances text
-galaxy-link.space,linkshorts.*,shrinkforearn.in,ccurl.net,fotodovana.com,linkdrop.net##.blog-item
-dz-linkk.com,ccurl.net,linkdrop.net,zoom-link.com,educationvilla.xyz##.banner
+! zoom-link.com,educationvilla.xyz - annoyances text
+galaxy-link.space,linkshorts.*,shrinkforearn.in,ccurl.net,fotodovana.com##.blog-item
+dz-linkk.com,ccurl.net,zoom-link.com,educationvilla.xyz##.banner
 zoom-link.com,educationvilla.xyz##form#link-view > ol
 zoom-link.com,educationvilla.xyz##form#link-view > p
 zoom-link.com,educationvilla.xyz##form#link-view > span
@@ -4926,6 +4928,7 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+deepl.com##div[class*="write_ad_dialog--"]
 dwdisc.com##.btn-prem
 mangahub.io##.alert.alert-warning
 androidpolice.com##.w-affiliate
