@@ -79,6 +79,10 @@
 ! Bad: example.org###rek (should be in specific.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/151568
+! It looks like that website needs 3 elements above "/gpt/tag/js/gpt.js" script to work properly
+! The rule below adds 3 empty script tags to fix this problem
+bbcgoodfood.com#%#AG_onLoad((function(){const t=document.querySelector('script[src*="/gpt/tag/js/gpt.js"]');if(t)for(let e=0;e<3;e++){const e=document.createElement("script");t.parentNode.insertBefore(e,t)}}));
 ! https://github.com/AdguardTeam/AdguardFilters/issues/150486
 secure1.comed.com#%#//scriptlet('set-constant', 'setupGoogleAnalytics', 'noopFunc')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/149598
@@ -34721,7 +34725,6 @@ rbbtoday.com##.cx-top-news
 ||hotels.com/api/uisprime/track
 ||suggestion.ciceksepeti.com/api/v*/events
 ||linkedin.com/*/track|
-||mark.isbank.com.tr/cdn/automation.js
 ||mparticle.weather.com/webevents/
 ||airlytics-web.airlock.twcmobile.weather.com/eventproxy/track
 ||print24.com/api/*/analytics/
@@ -38090,6 +38093,12 @@ $cookie=_parrable_id
 $cookie=permutive-id
 $cookie=permutive-session
 ! Adobe analytics
+! Used to determine the number of days since the user last visited the website.
+$cookie=s_lv_s
+$cookie=s_lv
+! Measures a visitor’s scroll activity to see how much of a page they view before moving on to another page.
+$cookie=s_tp
+$cookie=s_ppn
 ! Stores the number of visits by a Unique Visitor
 $cookie=s_invisit
 ! Identifies whether the user is arriving at the domain for the first time
@@ -40024,6 +40033,8 @@ inapps.appsflyersdk.com^
 !
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/151568
+||bbcgoodfood.com/stitcher-assets/gpt/tag/js/gpt.js$script,redirect=noopjs
+!+ NOT_PLATFORM(windows, mac, android, ext_chromium)
 @@||googletagmanager.com/gtm.js$domain=bbcgoodfood.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/151300
 @@||googletagmanager.com/gtm.js$domain=outkick.com
@@ -41176,8 +41187,6 @@ ntp.msn.com#@%#navigator.getBattery = undefined;
 ! https://github.com/AdguardTeam/AdguardFilters/issues/91087
 !+ NOT_PLATFORM(windows, mac, android, ext_chromium)
 @@||googletagmanager.com/gtm.js$domain=shockwave.com
-! fix history on Firefox
-@@||dsb.yahoo.co.jp/api/v1/stream$xmlhttprequest,domain=gyao.yahoo.co.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/90683
 @@||googletagmanager.com/gtag/js?id=$domain=rotana.net
 ||googletagmanager.com/gtag/js?id=$script,other,redirect=noopjs,domain=rotana.net,important
