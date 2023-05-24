@@ -237,6 +237,10 @@ blog.livedoor.jp##div[id^="shitarss_title_"]
 !
 ! NOTE: Blogroll third-party sites
 !
+oomonoyoutubersokuhou.blogo.jp##.kijisitasougorss
+aatyu.livedoor.blog#?##blog-header > div[align="center"] > div.logbox
+aatyu.livedoor.blog##.custom5
+aatyu.livedoor.blog##.article-body > div.logbox4
 kitizawa.com##.article-body-more > div[style="border:1px solid #F90;padding:10px;border-radius:10px;background:#f9f9d4;"]
 ||matomeantena.com^$domain=japohan.net
 ||nullpoantenna.com^$domain=japohan.net
@@ -1866,6 +1870,7 @@ subbota.ua##aside.sidebar > div[id^="custom_html-"]
 !
 !   NOTE: Donation widgets (which are really annoying only)
 !
+apkmody.io###fixed-donate
 ||static.fundraiseup.com$domain=gijn.org
 gijn.org##.donate-btn
 peta.org##.sticky-share-bar div.social-links > a.donate

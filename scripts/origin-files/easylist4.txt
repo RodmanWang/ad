@@ -940,8 +940,6 @@ beckershospitalreview.com#$#.olyticsblocker { display: none !important; }
 beckershospitalreview.com#$#body { overflow: auto !important; }
 beckershospitalreview.com#$#html { overflow: auto !important; }
 beforeitsnews.com###ad-message
-bella-thorne.org,stefaniescott.org##div[style*="width:300px; height:250px;"]
-bella-thorne.org,stefaniescott.org##div[style*="width:728px; height:90px;"]
 bestradio.fm##.adb
 betaprofiles.com,csdn.net,forum.qrz.ru,tvfeed.in,mastergrad.com,siteacademy.ru,subtitlefix.com##.adblock
 bf4stats.com###sidebar > .sidebox:nth-child(4)
@@ -9582,6 +9580,7 @@ zlavomat.sk#@##credential_picker_container
 .name/?pus=$script,third-party
 .site/?pus=$script,third-party
 !
+||dobrnovosti.com^
 ||gudros.site^
 ||pushluck.fun^
 ||gipahetus.com^$third-party
@@ -10746,6 +10745,10 @@ jiji.com,edp24.co.uk,technologyreview.com,inews.co.uk,nordbayern.de,thelocal.ch,
 !
 ! SECTION: Subscriptions - Regular rules
 !
+earthly.dev#?#div[class] > section:has(> div.px-6 > div.block > div.newsletter)
+||static.hokkaido-np.co.jp/*/bnr_news_letter_small.png
+kinogo.*##.poloska_comment + center
+kinogo.*##.regtg
 eurointegration.com.ua##.post__subscribe_bottom
 androidpolice.com##.nav-right > div.nav-elements
 m.apkpure.com##div[dt-eid="pwa_subscribe_button"]
@@ -12027,7 +12030,7 @@ skyscanner.net#$##email-capture-trigger { display: none!important; }
 skyscanner.net#$#body { overflow: auto!important; padding-right: 0!important; }
 thecatcity.com##.app-footer-media
 marketer.ua##.all-box-subscribe
-newdeaf.lol##.tlg
+androidies.ru,newdeaf.lol##.tlg
 ||cooking.nytimes.com/api/*/access?
 chicagoreader.com###block-66
 dpqp.jp###dpcustomtextwidget-48
