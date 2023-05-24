@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202305241230
+! Version: 202305241320
 ! Title: Fanboy's Annoyance List
-! Last modified: 24 May 2023 12:30 UTC
+! Last modified: 24 May 2023 13:20 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -36568,6 +36568,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||rottentomatoes.com/service-worker/sw.js
 ||seattletimes.com/wp-content/plugins/st-user-messaging/$script
 ||sportskeeda.com/service-workers/helpers/push-notifications
+||techwalla.com/push-service-worker.js
 ||telegraphindia.com/akam-sw.js
 ||timesnownews.com/sw.js
 ||ultimedia.com/js/common/notification.js
@@ -37679,6 +37680,7 @@ democracynow.org###top_anchor
 routard.com###topscroll
 publish0x.com###totop
 europeanjournalists.org###up
+vesti.ua###up-page
 g2a.com###upPageToolbar
 fboomporn.com,xcafe.com###upper
 reinsurancene.ws###upprev_box
@@ -37730,7 +37732,7 @@ japantimes.co.jp##.pagetop-wrap
 simpleflying.com##.pk-icon-up
 muslimshop.fr##.return-top
 timesofmalta.com##.scroll-notification-container
-gulftoday.ae,hsn.com,iol.co.za,pbteen.com##.scroll-to-top
+business-standard.com,gulftoday.ae,hsn.com,iol.co.za,pbteen.com##.scroll-to-top
 carscoops.com,piunikaweb.com##.scroll-top
 toyota.co.uk,toyota.ie##.scrollTo
 khronos.org,kyivpost.com##.scroll_to
@@ -37794,6 +37796,7 @@ nzherald.co.nz##.action-bar
 informationweek.com##.announcement
 tmz.com##.browser-notifications-prompt
 cnet.com##.c-globalNotification
+techwalla.com##.component-push-notification
 manutd.com##.custom-popup
 mediaexpert.pl##.dynamic-modal
 msn.com##.homepage-banner
@@ -37850,6 +37853,7 @@ news.mail.ru##.tooltip_width_huge
 actionnetwork.com##.user-component__trial
 sbt.com.br##.webpush
 kokemaenjokilaakso.fi##[class|="col-sm"] > .boksiharmaa
+zora.bg##cc-web-push-popup
 rtsplaneta.rs##ms-allow-notification-modal
 tt.com##ttwww-emarsys-push-notification
 cba24n.com.ar##view-firebase-prompt
@@ -39029,6 +39033,7 @@ thehill.com##.network-footer__newsletter
 vegancooking.com##.never-miss
 allmusic.com##.new-release-newsletter-promo-tile
 freightwaves.com##.new-subscription-mjd
+techwalla.com##.newletter-signup-wrapper
 khaleejtimes.com##.newletter-widget-wrapper
 healthyceleb.com##.news-form
 autocarindia.com,india.com,isglobal.org,sassymamahk.com##.news-letter
@@ -39962,6 +39967,7 @@ morningstar.com##.mdc-social-share
 themedialine.org##.mdl-share-tool-vertical
 amazon.jobs##.media-icons
 inyminy.com##.menu-menu4_home-container
+business-standard.com##.meta-actions
 arabnews.com##.meta-area
 smashingmagazine.com##.meta-box--share
 washingtonian.com##.min-height-800
@@ -42016,7 +42022,7 @@ gitpod.io##.svelte-17l8iln
 phemex.com##.svelte-1xhi46c.wrap
 chatreplay.stream##.svelte-dx0l3i
 rittal.com##.swal-overlay
-outage.report##.swal2-container
+outage.report,rittal.com##.swal2-container
 lucozadeenergy.com##.swal2-show
 haier.com##.swiper-slide-img-txt
 amplitude-studios.com,games2gether.com##.system-notification-container
@@ -44397,6 +44403,7 @@ autoline.ro##.share
 ! 
 avtosale.ua###backgroundPopup
 avtosale.ua###popup
+vesti.ua##.singleSocSeti
 donpatriot.news##.wrapper__search
 ! 
 ! ---------- Russian Site Specific Hiding Rules ----------
