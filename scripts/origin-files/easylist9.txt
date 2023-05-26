@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202305260621
+! Version: 202305260919
 ! Title: Fanboy's Annoyance List
-! Last modified: 26 May 2023 06:21 UTC
+! Last modified: 26 May 2023 09:19 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -36854,6 +36854,7 @@ austinchronicle.com###support-bar
 the74million.org###support_box
 news.crunchbase.com###text-8
 ghacks.net###the-day-in-history
+topic.com###third-party--viewport-bottom
 freightwaves.com###tie-block_521
 geekwire.com###tips-sidebar
 themedialine.org###tmlPopupDonate
@@ -37002,7 +37003,7 @@ quadraphonicquad.com##.gb-donate_wrapper
 flyingmag.com##.get-magazine
 forums.opera.com##.get-opera
 artnews.com##.get-the-magazine__outer
-readtangle.com##.gh-portal-triggerbtn-iframe
+readtangle.com,thecompanion.app##.gh-portal-triggerbtn-iframe
 insideedition.com##.got-tip
 mydailyfreedom.com,patriotfetch.com##.gpoll_enabled_wrapper
 grist.org##.grist-modal-ad-blocker
@@ -37075,9 +37076,11 @@ backpacker.com##.o-promo-module
 amp.thehackernews.com##.offers
 omgubuntu.co.uk##.omg-hero-button
 app.slack.com##.p-upgrades_button
+topic.com##.pages-Article-pianoContainer
 eff.org##.pane-site-banner
 independentaustralia.net##.panelSubscription
 blizzardwatch.com##.patreon-sidebar
+techcrunch.com##.piano-ribbon-container
 damninteresting.com##.plea
 jacobin.com##.po-sr-sb__container
 theweek.com##.polaris__subscription
@@ -38454,6 +38457,7 @@ valuewalk.com##.formkit-form
 algemeiner.com##.formnews
 christianpost.com##.fpeb-0822
 neurologyadvisor.com,ophthalmologyadvisor.com,optometryadvisor.com##.fr-dialogmodal
+prodvana.io##.framer-2ydke7-container
 tomtop.com##.freePointWrap
 nutriciously.com##.freebie-opt-in-form
 adventistworld.org,farmersweekly.co.nz##.frm_form_fields
@@ -38686,6 +38690,7 @@ insideevs.com,motor1.com##.msnt-mail-dialog
 insideevs.com##.msnt-mail-footer
 itweb.co.za##.mt-3.itw-noprint
 cloudflare.com##.mt6.ph2.bg-blue4
+theworld.org##.mui-style-19k9qdy
 visualcapitalist.com##.mvp-widget-home-head
 tampabay.com##.my-32
 mayoclinic.org##.myc-subscription-form
@@ -39514,6 +39519,7 @@ strategic-culture.org##.dk-social__items
 dailymail.co.uk##.dms-puff
 echonewshub.com##.e-shared-sec
 argusdelassurance.com##.editoSocialBar
+topic.com##.elements-Tombstone-social
 fism.tv##.elfsight-widget-social-share-buttons
 ctrl.blog##.entry-bttns
 spectator.co.uk##.entry-meta__item--social
@@ -39662,7 +39668,9 @@ arabnews.com##.meta-area
 smashingmagazine.com##.meta-box--share
 washingtonian.com##.min-height-800
 thehackernews.com##.mobile-share
+topic.com##.modules-SocialWidget-socialWidget
 pbs.org##.more-from-pbs__social
+theworld.org##.mui-style-dfyfg6-socialShareMenu
 bnonews.com##.mvp-foot-soc-list
 bnonews.com##.mvp-nav-soc-wrap
 bnonews.com,dailyboulder.com##.mvp-post-soc-wrap
@@ -39740,7 +39748,7 @@ thenationalpulse.com##.share-layout-stack
 nymag.com##.share-link
 cryptopotato.com,eff.org,jurist.org,mobilesyrup.com##.share-links
 fintech.tv##.share-news
-commondreams.org##.share-panel
+commondreams.org,spectrum.ieee.org##.share-panel
 aajtak.in,gnttv.com,indiatoday.in,indiatodayne.in##.share-social-icons
 wrif.com##.share-wrap-icons
 thespinoff.co.nz##.shareButton
@@ -39806,6 +39814,7 @@ maxabout.com,news24.com##.social-sharing
 officialcharts.com##.social-sharing-bar
 mintpressnews.com##.social-signup
 mirror.co.uk##.social-sites
+nhm.org##.social-story-bottom
 politico.com##.social-tools__list
 mmorpg.com##.social-web
 gnttv.com##.social-widget
@@ -39862,6 +39871,7 @@ techlila.com##.tl-social-share
 xbiz.com##.tool-list
 cp24.com,progressive.org##.tools
 risk.net,waterstechnology.com##.tools-container
+daily.jstor.org##.top-bar-right
 thehackernews.com##.top-follow
 bravewords.com##.top-nav
 destructoid.com##.top-sidebar-wrapper
@@ -39891,6 +39901,7 @@ euractiv.com##.vsac-social-email
 euractiv.com##.vsac-social-reddit
 euractiv.com##.vsac-social-twitter
 getthetechnow.com##.whatsapp
+madinamerica.com##.widget_a2a_share_save_widget
 fandomwire.com##.widget_bimber_widget_facebook_page
 atlantatribune.com##.widget_connect
 mediapost.com##.widget_group
@@ -41916,6 +41927,7 @@ jooble.org##[data-test-name="_termsOfServices"]
 youtrack.jetbrains.com##[data-test="alert-container"]
 backmarket.com##[data-test="banner"]
 coinbase.com##[data-testid="banner-container"]
+spectrum.ieee.org##[data-toggle-property="gdpr"]
 oneclickcover.com##[data-v-5f675fc8]
 reddit.com##[reddit-cookie-banner]
 stuffthatworks.health##[role="alertdialog"]
@@ -47785,6 +47797,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||odb.outbrain.com/utils/get?url=$script,domain=cnn.com
 @@||outbrain.com/outbrain.js$domain=cnn.com
 @@||popup.wisepops.com/my-wisepop$domain=bluecinema.ch
+@@||rest.contextly.com/pagewidgets/$domain=inc-aus.com
 @@||s.swiftypecdn.com/install/$script,domain=docs.ansible.com
 @@||s.swiftypecdn.com^$stylesheet,xmlhttprequest,domain=docs.ansible.com
 @@||taboola.com/libtrc/*/loader.js$domain=cnet.com|dailymail.co.uk|foxsports.com
