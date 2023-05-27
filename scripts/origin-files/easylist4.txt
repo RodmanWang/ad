@@ -2544,7 +2544,6 @@ zkillboard.com#@#.adsbygoogle
 @@||ruamupr.com/advertising.js
 @@||rubitcoin24.ru/*/libs/advertisement.js
 @@||rufootballtv.org/wp-content/themes/rufootballtv/js/advertising.js
-@@||rumormillnews.com/ads.js
 @@||rustica.fr/assets/js/advertisement-*.js
 @@||s*.vcdn.biz/static/*/adgear.js$domain=megogo.ru|megogo.sport
 @@||s.aolcdn.com/ads/adsWrapperMSNI.js$domain=outlook.live.com
@@ -8882,6 +8881,11 @@ yandex.*###distr-pcode-container
 ! Yandex.Market
 market.yandex.*##div[data-zone-name="BannerPopup"]
 !
+! Yandex.Realty
+realty.ya.*#$?#.Portal div.Modal:has(> div.Modal__table div[class^="PodborModal__"]) { display: none !important; }
+realty.ya.*#$?#.Portal div.Modal:has(> div.Modal__table div[class^="HousearchPromoModal__"]) { display: none !important; }
+realty.ya.*#$#body { overflow: auto !important; }
+!
 ! auto.ru
 auto.ru#?#body > div:has(> div.Modal > div.Modal__container > div[class*="AdminsMarketingPopup__wrapper"])
 !
@@ -10104,7 +10108,6 @@ timesofindia.indiatimes.com##.bluy8
 ||piano.io/public/sdk/$domain=pravda.com.ua
 ||drevostavitel.cz/js/notification
 gamerevolution.com,comingsoon.net##div[data-spot-im-shadow-host="floating-bell"]
-aliexpress.com##._3KrBP
 lavanguardia.com###gg-alert
 ||cdn.dataroid.com/sdk/web/dataroid-websdk.js
 ||vr4you.net/sw.js
@@ -10124,8 +10127,7 @@ tycsports.com###modalCognitoPush
 eltiempo.com##.signwall-notificacion
 voici.fr,gala.fr##.showPush
 voici.fr,gala.fr##.showPush + div.genericModal-overlay
-||assets.alicdn.com/*/*nano-webpush-ui-
-||assets.alicdn.com/*/webpush.js
+||assets.alicdn.com/*/webpush-ui.js
 lifebursa.com##body div#notificationPopup
 einvestidor.estadao.com.br###push-notification-prompt-container
 girafa.com.br#%#//scriptlet('set-cookie', 'saiupagina', 'true')
