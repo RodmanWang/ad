@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202305261829
+! Version: 202305270106
 ! Title: Fanboy's Annoyance List
-! Last modified: 26 May 2023 18:29 UTC
+! Last modified: 27 May 2023 01:06 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -3155,23 +3155,13 @@ dashboard.razorpay.com#@##credential_picker_container
 ! ---------- RSS Buttons ----------
 ###floaty-rss
 ###follow-rss
-###followRSS
-###followrss
 ###footer-rss
-###footer_rss_image
 ###footerrss
 ###rightSocialRss
 ###rss-subscribe
-###rss_widget
 ###rsslisting
-###service_rss
 ###sidebar-rss
 ###social-links-rss
-###social-rss
-###social_rss
-###socialbtn_rss
-###socialtabs_rss
-###top_social_rss
 ##.addthis-rss
 ##.follow-link-rss
 ##.follow-rss
@@ -3181,23 +3171,9 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.footer-rss
 ##.footerButtonRSS
 ##.footerRSS
-##.glyphicon-rss
 ##.p-footer-rssLink
-##.rss-before-login
 ##.rss-blogroll
 ##.rss-footer
-##.rss-ft
-##.rssConnect
-##.rssFeed
-##.rssFeedEn
-##.rssFeeds
-##.rss_box_content
-##.rss_box_title
-##.rss_count
-##.rss_feeds_buttons
-##.rss_follower
-##.rss_social
-##.sidebar-share-item-rss
 ##.widget_rssiconwidget
 ! 
 ! ---------- Scroll to top ----------
@@ -3232,7 +3208,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ###backToTopButton
 ###backToTop_RT
 ###back_to_top_now
-###back_to_top_seaocore_button_common_21813
 ###backtotop-scroll
 ###backtotopbutton
 ###backtotoplink
@@ -3254,7 +3229,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ###buttonScrollTop
 ###bw-scroll-top
 ###c-backtotop-btn
-###category-page-back-to-top
 ###cb-to-top
 ###cw_to_top
 ###divGoTop
@@ -3288,7 +3262,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ###gp-to-top
 ###imPageToTop
 ###img_goTop
-###infinite-footer-back-to-top-button
 ###inline-related-post
 ###int-btn-top
 ###iron-back-top
@@ -3304,7 +3277,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ###jump-to-top
 ###jump-top
 ###jwDisqusBackToTop
-###kleanity-footer-back-to-top-button
 ###ktz-backtotop
 ###layoutscrolltop
 ###linkbacktop_top
@@ -3331,7 +3303,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ###pl_common_scrollToTop
 ###pojo-scroll-up
 ###pro-scroll-top
-###product-list-scroll-link
 ###qodef-back-to-top
 ###return-to-top
 ###returnOnTop
@@ -3510,13 +3481,9 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.c-back-top
 ##.c-footer__back-to-top
 ##.c-totop
-##.cScrollIndicatorContainer
 ##.c_pagetop
 ##.category-page__back-to-top--button
-##.cb-scroll-top-btn_show
-##.cb-scroll-top-btn_show-start
 ##.ccm_go_top
-##.cmc-scroll-to-top
 ##.cp-footer-scroll-top
 ##.crc-backToTop
 ##.ct-js-btnScrollUp
@@ -3582,10 +3549,8 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.goToTop
 ##.goTop
 ##.goTopButton
-##.go__up
 ##.go_to_top
 ##.go_top_scroll
-##.go_up
 ##.goto-anchor-top
 ##.goto-top
 ##.goto-top-container
@@ -3598,15 +3563,11 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.gr-footer-back-top
 ##.greatwp-scroll-top
 ##.gs18-GoTop
-##.header-bottom-totop-button
 ##.hestia-scroll-to-top
-##.hh-button-scroll-top__wrapper
 ##.hm_go_top
 ##.hse-scrolltotop
 ##.icon--totop
 ##.icon-back-to-top
-##.icon-buffett-backtotop
-##.icons-scrolltop-black
 ##.infinite-footer-back-to-top-button
 ##.ins-backtotop
 ##.is-totop
@@ -3653,7 +3614,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.m-back-to-top
 ##.m-go-top
 ##.m-scroll-top
-##.main-footer__btn-backtotop
 ##.main-icon--pagetop
 ##.material-scrolltop
 ##.menu-back-to-top
@@ -3668,7 +3628,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.mypresta_scrollup
 ##.nav--back-to-top
 ##.navigate-to-top
-##.news-back-to-top__top-link
 ##.o-back-to-top
 ##.o-backtop
 ##.on--totop
@@ -3678,7 +3637,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.page-to-top-visible
 ##.pagetop-btn
 ##.pb-back-to-top
-##.pdb-footer-topbar-backtotop
 ##.penci-go-to-top-floating
 ##.pgevoke-backtotop
 ##.pi-scroll-top-arrow
@@ -3760,7 +3718,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.stotop
 ##.stp--nav-to-top
 ##.stt-gototop
-##.stt-top
 ##.styliumToTop
 ##.sublink_back_top
 ##.sunfw-scrollup
@@ -3774,7 +3731,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.tdr-backtop
 ##.ti_scroll
 ##.tm-scroll-top
-##.tm-totop-scroller
 ##.to-pagetop
 ##.to-the-top
 ##.to-top-btn
@@ -3805,9 +3761,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.ui-scrollToTop
 ##.ui-to-top
 ##.up-to-top
-##.upbtn
 ##.verso-go-top
-##.vf_rzf_goTop
 ##.visible.scroll-to-top
 ##.vw-scroll-to-top
 ##.vw_m511_back_top
@@ -3819,16 +3773,9 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.yjscroll
 ##.yukari_git
 ##[aria-label="Back to top"]
-##[aria-label="Scroll to top of page"]
 ##[data-trackname="page-top"]
-##[name="goBackTop"]
 ##[title="Back to Top"]
 ##[title="Go to Top"]
-##[title="Go to the top"]
-##[title="Return to top of page"]
-##[title="Scroll Top"]
-##a[data-bind="toTopButton"]
-##a[data-scroll-to-anchor="top"]
 ##a[data-webtrekk="button.scroll_to_top"]
 ##a[href="#Back to the top of page"]
 ##a[href="#back-to-top"]
@@ -3837,14 +3784,8 @@ dashboard.razorpay.com#@##credential_picker_container
 ##a[href="#top-of-page"]
 ##a[href="#tothetop"]
 ##a[title="Back To Top"]
-##a[title="Back to the Top"]
-##a[title="Back to top of page"]
 ##a[title="Back to top"]
 ##a[title="Go To Top"]
-##a[title="Go back up"]
-##a[title="Go on top"]
-##a[title="Go to top!"]
-##a[title="Go to top"]
 ! 
 ##div#back_to_top
 ! ziprecruiter.com widget
@@ -37132,6 +37073,7 @@ buzzfeed.com##.shoppingWrapper_packageWrapper__UR6JD
 shazam.com##.shz-frame-promotionbanner
 mcsweeneys.net##.side-banner
 techcrunch.com##.sidebar > .rightrail--promo
+investopedia.com##.sim-promo
 newsnow.co.uk##.site-ribbon
 slate.com##.slate-plus-promo
 sporcle.com##.sporcle-promo
@@ -37270,6 +37212,7 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 dickssportinggoods.com##.feedback-container-bottom
 organicfacts.net##.fixed-bottom
 newegg.com##.floating-right-tools
+howtogeek.com##.message
 ft.com##.n-feedback__container
 ebay.com##.vi-feedback
 ! 
@@ -37294,13 +37237,14 @@ stoneberry.com###backTo
 tsc.ca###backToTop
 cdw.com###backToTopWrapper
 hardwarezone.com.sg###back_to_top
-theepochtimes.com###backtotop
+adl.org,theepochtimes.com###backtotop
 blaauwbergbeachhotel.co.za###btTop
 qatarairways.com###btn-back-to-top
 boomlive.in###button
 lamborghini-tractors.com###floatArrowUp
 informer.com###float_top
 cryptobizmagazine.com,financialexpress.com,ideaandcreativity.com,ijn.com,nationwideradiojm.com,tv360nigeria.com###go-top
+houzz.com###hzScrollTop
 gamespot.com###in-page-nav
 pcpj.org###infinite-footer
 mitsui.com###js_globalFooterButtonTop
@@ -38437,6 +38381,7 @@ iai.tv##.footer--signup
 mediamatters.org##.footer--upper
 blog.elevatedataviz.com##.footer-cta
 grid.news##.footer-daily-drop
+howtogeek.com##.footer-email
 techxplore.com##.footer-form
 minitool.com##.footer-join-wrapper
 stereogum.com##.footer-right__box
@@ -38520,6 +38465,7 @@ wusfnews.wusf.usf.edu##.hnf-container-fluid
 scientificamerican.com##.home-banner
 vinepair.com##.home-email-cta
 guidingtech.com##.home-form
+houzz.com##.home-owner-carousel-section
 publishersweekly.com##.home-promo-center-right-bottom
 sojo.net##.home-sidebar-signup
 nomadicmatt.com##.home-signup
@@ -38604,7 +38550,7 @@ e-flux.com##.landing-subscribe
 lifewire.com##.latest-issue-spotlight
 gearjunkie.com##.ldm-cta
 soaphub.com##.ldm-newsletter-promo-inner
-punchdrink.com##.lead-capture-campaign
+punchdrink.com,tastecooking.com##.lead-capture-campaign
 webcodegeeks.com##.lepopup-popup-container
 webcodegeeks.com##.lepopup-popup-overlay
 omnivorescookbook.com##.lh-subscribe
@@ -38751,7 +38697,7 @@ narcity.com##.newsletter-prompt
 poynter.org##.newsletter-section
 audacy.com,darkreading.com,historyextra.com,radiotimes.com,sciencefocus.com##.newsletter-sign-up
 capitaltransport.com##.newsletter-sign-up-wrapper
-4029tv.com,abovethelaw.com,blackburnnews.com,bookriot.com,citiblog.co.uk,creation.com,dailysignal.com,dallasinnovates.com,euobserver.com,fox10phoenix.com,fox13news.com,fox13seattle.com,fox26houston.com,fox29.com,fox32chicago.com,fox35orlando.com,fox4news.com,fox5atlanta.com,fox6now.com,foxla.com,greencarreports.com,hcn.org,kcci.com,kcra.com,ketv.com,kmbc.com,koat.com,koco.com,komando.com,ksbw.com,ktvu.com,livescience.com,motherjones.com,mynbc5.com,newsweek.com,nugs.net,progressive.org,publicdomainreview.org,q13fox.com,readbetting.com,readcars.co,readceltic.com,readfashion.co,readfilm.co,readfood.co,readgaming.co,readmanutd.com,readmotorsport.com,readmusic.co,readshowbiz.co,readtv.co,slate.com,sportsworldnews.com,techfinitive.com,thekitchenmagpie.com,wapt.com,wbaltv.com,wcvb.com,wdsu.com,wesh.com,wgal.com,wisn.com,wjcl.com,wlky.com,wlwt.com,wmtw.com,wmur.com,womanandhome.com,wpbf.com,wqxr.org,wtae.com,wvtm13.com,wxii12.com,wyff4.com##.newsletter-signup
+4029tv.com,abovethelaw.com,blackburnnews.com,bookriot.com,citiblog.co.uk,creation.com,dailysignal.com,dallasinnovates.com,euobserver.com,fox10phoenix.com,fox13news.com,fox13seattle.com,fox26houston.com,fox29.com,fox32chicago.com,fox35orlando.com,fox4news.com,fox5atlanta.com,fox6now.com,foxla.com,greencarreports.com,hcn.org,kcci.com,kcra.com,ketv.com,kmbc.com,koat.com,koco.com,komando.com,ksbw.com,ktvu.com,livescience.com,motherjones.com,mynbc5.com,newsweek.com,nugs.net,progressive.org,publicdomainreview.org,q13fox.com,readbetting.com,readcars.co,readceltic.com,readfashion.co,readfilm.co,readfood.co,readgaming.co,readmanutd.com,readmotorsport.com,readmusic.co,readshowbiz.co,readtv.co,slate.com,sportsworldnews.com,tastecooking.com,techfinitive.com,thekitchenmagpie.com,wapt.com,wbaltv.com,wcvb.com,wdsu.com,wesh.com,wgal.com,wisn.com,wjcl.com,wlky.com,wlwt.com,wmtw.com,wmur.com,womanandhome.com,wpbf.com,wqxr.org,wtae.com,wvtm13.com,wxii12.com,wyff4.com##.newsletter-signup
 news24.com##.newsletter-signup--group
 foreignpolicy.com##.newsletter-signup-and-ads
 moneycontrol.com##.newsletter-signup-rhs
@@ -39378,6 +39324,7 @@ salon.com###social_total
 spiked-online.com###spikedShareBar
 thejournal.ie###sticky-share-button-redesign
 democracynow.org###story_social
+techdirt.com###subscribe
 osxdaily.com###subscribe_box
 amazon.co.uk,amazon.com###tafContainerDiv
 thepoke.co.uk###tag
@@ -39476,7 +39423,7 @@ agrimag.co.za,automart.co.za##.btn-facebook
 androidpolice.com##.btn-flipboard
 equinix.com##.btn-group
 psu.edu##.btn-link
-androidpolice.com,gamerant.com,pocketnow.com,xda-developers.com##.btn-mail
+androidpolice.com,cbr.com,gamerant.com,pocketnow.com,xda-developers.com##.btn-mail
 junkmail.co.za##.btn-sm
 thetyee.ca##.btn-social-icon
 newsroom.co.nz##.btn-tweet
@@ -39516,7 +39463,7 @@ utexas.edu##.connect-links
 dailymail.co.uk##.container-3zJLP
 christian.org.uk##.content__sharing
 homecookingadventure.com##.cookbook-instagram
-androidpolice.com,gamerant.com,pocketnow.com,xda-developers.com##.copy-link-button
+androidpolice.com,cbr.com,gamerant.com,pocketnow.com,xda-developers.com##.copy-link-button
 coub.com##.coub__sharing__dropdown
 coub.com##.coub__sharing__list
 dailywire.com##.css-a91oi6
@@ -39702,6 +39649,7 @@ marketplace.org##.o-social-share
 boldsky.com##.one-head-share1-links
 iranwire.com##.opinion-advertising
 otakumode.com##.p-product-detail__social-buttons
+rogerebert.com##.page-content--byline-share--share
 odt.co.nz##.pane-odt-social-odt-social-rsb
 lifezette.com##.parler
 mondediplo.com##.partage
@@ -39720,6 +39668,7 @@ macsources.com##.post-share-bot
 macsources.com##.post-share-float
 publicbooks.org##.post-social-share
 blockclubchicago.org##.post-social-sharing__list
+cointelegraph.com##.post__socials-block
 buzzfeed.com##.post_shareBottom__9whII
 pravda.com.ua##.post_social_item
 pravda.com.ua##.post_text > blockquote
@@ -39756,6 +39705,7 @@ rpgfan.com##.share-bar
 buzzfeed.com##.share-bar_buzzfeed___uZ4R
 beincrypto.com##.share-block
 ibtimes.co.in##.share-btn-wrp
+tastecooking.com##.share-button
 criminaljusticedegreehub.com,datingscammer.info,mediaplaynews.com,metro.co.uk,psychologies.com,psychologytoday.com,robbreport.com,spy.com,tenor.com##.share-buttons
 cryptopolitan.com##.share-col
 fandomwire.com,tvline.com##.share-container
@@ -39779,7 +39729,7 @@ muscleandfitness.com##.sharedaddy__wrapper
 bulawayo24.com,foodbeast.com,twistedfood.co.uk##.shares
 cointelegraph.com##.shares-list__list
 12tomatoes.com##.sharetocare-popup
-astrologyzone.com,bigleaguepolitics.com,indiatoday.in,marketingweek.com,numberempire.com,screenrant.com,spectator.com.au##.sharing
+astrologyzone.com,bigleaguepolitics.com,indiatoday.in,marketingweek.com,numberempire.com,screenrant.com,spectator.com.au,thepointsguy.com##.sharing
 thekitchenmagpie.com##.sharing-cta
 theregister.com##.sharing_widget
 threadreaderapp.com##.sharingfooter
