@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202305290329
+! Version: 202305290626
 ! Title: Fanboy's Annoyance List
-! Last modified: 29 May 2023 03:29 UTC
+! Last modified: 29 May 2023 06:26 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -35986,6 +35986,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||cookiespool.com^$third-party
 ||cookietagmanager.net^$third-party
 ||cookiethough.dev^$third-party
+||cookietractor.com^$third-party
 ||cookiewidget.eu^$third-party
 ||crta.and.co.uk^
 ||d2eucw4fxv7nil.cloudfront.net^
@@ -37197,6 +37198,7 @@ ebay.com##.vi-feedback
 ! 
 abovetopsecret.com###RSS
 thetech.com###rss
+rebelnews.com##.abnormal-icon
 newswars.com##.btn-warning
 avtoradio.ru,chronicle.co.zw,eurocash.pl,globo.com,metrodaily.hk,thetruthaboutcars.com##.rss
 dailymail.co.uk##.rss_feeds_buttons
@@ -37821,6 +37823,7 @@ timescolonist.com###body-subscribe
 menafn.com###bottom3
 gardeningknowhow.com###bounce
 healthcareitnews.com,mobihealthnews.com###boxes-box-subsctiption_middle
+businesspost.ie###bp_piano_homepage_newsletter_container
 tmz.com###browser-notifications-prompt
 telesurenglish.net###bulletin
 gatestoneinstitute.org,globalvoices.org,ibtimes.com.au,sinya.com.tw,westhawaiitoday.com###cboxOverlay
@@ -37916,6 +37919,7 @@ barrettsportsmedia.com###media_image-2
 plagiarismtoday.com###media_image-3
 cryptopotato.com###mo_optin_widgets-2
 guidedoc.com###modal-overlay
+rebelnews.com###module_form
 nationalgeographic.com###natgeo-marketing-inline-email-footer-frame1-module2
 screenshot-media.com###new-home-row-3
 screenshot-media.com###new-home-row-7
@@ -38447,6 +38451,7 @@ petitchef.com##.form-nl
 righto.com##.form-preview
 tech.co##.form-simple
 mychicagosteak.com##.form-version-cid-1
+rebelnews.com##.form-wrap
 shenandoahah.com##.form__container
 valuewalk.com##.formkit-form
 algemeiner.com##.formnews
@@ -39359,6 +39364,7 @@ redice.tv###s2
 snowbrains.com###sb-footer-menu
 lelong.com.my###scan
 youtube.com###secondary-links
+rebelnews.com###secondary-nav-bar-social
 wikihow.com###sf
 colibriwp.com###sfsi-widget-2
 biorxiv.org###shareit
@@ -39528,6 +39534,7 @@ coub.com##.coub__sharing__dropdown
 coub.com##.coub__sharing__list
 dailywire.com##.css-a91oi6
 thedrive.com##.css-vr83lp
+columbian.com##.cta
 ithinkdiff.com##.custom-html-widget
 similarweb.com##.data-we-share
 ubisoft.com##.desktop-only
@@ -39748,6 +39755,7 @@ teamcoco.com,tomshardware.com##.reddit
 onegreenplanet.org##.reveal-modal-bg
 businesstoday.in##.rhs-fixwhtsapp
 pulse.com.gh,pulse.ng##.ring-detail-social-share
+rebelnews.com##.rn_widgets
 dailycaller.com##.rounded-full
 publicbooks.org##.rss
 cryptodaily.co.uk##.s-video-h
@@ -39761,6 +39769,7 @@ frieze.com##.service-links
 mpost.io##.sfsi_centered_icon
 nationaldaycalendar.com##.sfsiplus_inerCnt
 bravotube.net##.sh
+columbian.com##.share
 skinnyms.com,texasmonthly.com##.share-article
 rpgfan.com##.share-bar
 buzzfeed.com##.share-bar_buzzfeed___uZ4R
@@ -39777,6 +39786,7 @@ thenationalpulse.com##.share-layout-stack
 nymag.com##.share-link
 cryptopotato.com,eff.org,jurist.org,mobilesyrup.com##.share-links
 fintech.tv##.share-news
+rebelnews.com##.share-page
 commondreams.org,spectrum.ieee.org##.share-panel
 aajtak.in,gnttv.com,indiatoday.in,indiatodayne.in##.share-social-icons
 wrif.com##.share-wrap-icons
@@ -39827,6 +39837,7 @@ videocardz.com##.social-item-mail
 videocardz.com##.social-item-media
 knewz.com##.social-items
 cinenews.be##.social-line
+businesspost.ie##.social-links-wrapper
 denofgeek.com##.social-links__anchor--sharing
 gamingbolt.com##.social-media-container
 pgpf.org##.social-media-icons
@@ -39939,6 +39950,7 @@ coinspeaker.com##.wrapp_aside-share
 spring.org.uk##.yasip.widget
 application-remuneratrice.com##.zd-social
 indiewire.com##[class^="_socialMedia_"]
+motortrend.com##[data-c="social-share"]
 sundayworld.com##[data-testid="article-share"]
 zycrypto.com##[href="https://zycryp.to/GoogleNews"]
 eteknix.com##[href^="http://bit.ly/"]
@@ -42896,6 +42908,7 @@ wdr.de##a[href="#goToHead"]
 ||auto-moto.com^*/iframe-box-article.html
 ||avis-verifies.com^$third-party
 ||boosterblog.com/ban/$third-party
+||carrefour.fr/footer-sticky-banner?
 ||manga-sanctuary.com/include/ajax/popup_actu.php
 ||onaregarde-pourvous.com/api/$third-party
 ||out.be/widgets/$third-party
@@ -43494,6 +43507,7 @@ lopinion.fr##.Page-actions
 radiofrance.fr##.ShareManager
 francebleu.fr##.ShareNetwork
 radiofrance.fr##.StationFooter-social
+huffingtonpost.fr##.article-share
 auto-moto.com##.bloc-partage
 coreight.com##.bloc_reseau
 ledojomanga.com##.btns-partage
@@ -43501,7 +43515,10 @@ gossip-room.fr##.bubblegum
 rfm.fr##.communities
 justgeek.fr##.cs-meta-shares
 sanarmed.com##.dQkCRJ
+lefigaro.fr##.fig-share-mobile-layer
+lefigaro.fr##.fig-sharebar
 homap.fr##.footer_col_social
+bfmtv.com##.footer_social_media
 francebleu.fr##.gfAGVu
 rtl.fr##.gg
 gamekult.com##.gk__footer__social-bar
@@ -43527,6 +43544,7 @@ homap.fr##.share_content_button
 rtl.fr##.shared-logo
 pix-geeks.com##.social_icons
 planetebd.com##.social_network
+20minutes.fr##.socialbar
 tv5monde.com##.tv5monde-footer-menu--social
 ! 
 ! ---------- French Site Specific Blocking Rules ----------
@@ -44121,6 +44139,7 @@ diyanet.tv##.sosyal-alt-ust
 ! French
 ||bbc7dcd54670499dbd3ba50c33600830.pages.ubembed.com^
 ||rtl.be^*/box-newsletters.js
+||sibforms.com/serve/$domain=leptidigital.fr
 ! Hungarian
 ||link.sportal.blikk.hu/join/
 ! Italian
@@ -44154,6 +44173,7 @@ pfister.ch##[class^="style__NewsletterPopupComponent"]
 jeuxvideo-live.com###Newsletters
 lamanchelibre.fr###articleFormNL
 comment-economiser.fr###bloc_newsletter_bas
+fourchette-et-bikini.fr###newsletter-container + #legal-terms
 comment-economiser.fr###newsletter_box
 citoyens.com###nlsubscribe
 francebleu.fr##.NewsletterForm
@@ -44171,6 +44191,7 @@ toutelanutrition.com##.musthave-right
 lorientlejour.com##.newsletter-box-container
 frandroid.com##.newsletter-form
 leparisien.fr##.nl-article-card
+francetvinfo.fr##.nl-block
 commentcamarche.net,hugolescargot.com,journaldunet.com##.nl-box
 mariefrance.fr##.nl-social
 homap.fr##.nlregister
@@ -46956,6 +46977,7 @@ ants.vn##.sg-popup-content
 ||gmx.fr/uim/bidding/consent.js
 ||googletagmanager.com/gtm.js$script,domain=stihl.fr
 ||jeu.video^*/partners.js
+||privacy.footmercato.net^
 ||ratp.fr/modules/custom/ratp_tarteaucitron/
 ||static.lefigaro.fr/figconsent/
 ||thesiteoueb.net/js/cm-head.js
