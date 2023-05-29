@@ -6172,9 +6172,9 @@ crewbase.net,phineypet.com#$?##content > form[id]:has(> center > button) { displ
 tasteofhome.com#$#.jw-float-bar { display: none !important; }
 tasteofhome.com#$#.jw-wrapper { transform: unset !important; width: unset !important; max-width: unset !important; bottom: unset !important; }
 ! https://youshort.me/rCsn => bantenexis.com
-bantenexis.com#$##wpsafe-generate { display: block !important; }
-bantenexis.com#$##wpsafe-link { display: block !important; }
-bantenexis.com#$#div[id^="wpsafe-wait"] { display: none !important; }
+cordtpoint.co.in,bantenexis.com#$##wpsafe-generate { display: block !important; }
+cordtpoint.co.in,bantenexis.com#$##wpsafe-link { display: block !important; }
+cordtpoint.co.in,bantenexis.com#$#div[id^="wpsafe-wait"] { display: none !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/149631
 cnews.fr#$#.header-menu { top: 0 !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/149208
@@ -6656,6 +6656,8 @@ newsweek.com##iframe[src="http://sns.europe.newsweek.com/newsletter?popup=1"]
 !##############################
 ! SECTION: Tweaks - JS
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/152260
+mixrootmods.com#%#//scriptlet('adjust-setInterval', 'timeLeft', '*', '0.02')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/152252
 iggtech.com#%#//scriptlet('adjust-setTimeout', 'window.location.href', '*', '0.02')
 ! https://github.com/uBlockOrigin/uAssets/discussions/17361#discussioncomment-6011881
@@ -8229,6 +8231,8 @@ imslp.org#%#AG_onLoad(function(){var b=document.getElementById("sm_dl_wait");if(
 !##############################
 ! SECTION: Tweaks - HTML
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/152046
+||dailymotion.com/embed/video/$removeparam=autoplay
 ! Disable autoplay
 ||get.x-link.pl/*,embed.html$replace=/video:"(autoplay|scroll_pause)"\,/video:""\,/
 ||static.doviz.com/js/common.*.js$replace=/autoPlay:true/autoPlay:false/,domain=doviz.com
