@@ -3393,6 +3393,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+fulltimehdfilmizle.com#%#//scriptlet('prevent-addEventListener', 'click', 'popundr')
 mackolik.com###featured-media > iframe.is-sticky
 alibabacloud.com###alicloud-home-top-banner
 alibabacloud.com##.BottomBanner
@@ -8149,7 +8150,7 @@ pcwelt.de###rsKiosk ~ .rsButton
 pcwelt.de###rsKiosk
 pcwelt.de##.rsCloseButton
 hogan.com###newsletterPopup
-consultant.ru##.banner-container
+phone-cierge.com,consultant.ru##.banner-container
 thenews.im##div.ns-box.ns-type-notice
 dzenkino.com.ua##.sendpulse_of
 fossil.com#$#.modal-open { overflow:visible!important; }
@@ -10751,6 +10752,9 @@ jiji.com,edp24.co.uk,technologyreview.com,inews.co.uk,nordbayern.de,thelocal.ch,
 !
 ! SECTION: Subscriptions - Regular rules
 !
+anonaddy.com#?#main > section:has(> div > form[action="https://news.anonaddy.com/subscribe"])
+status.proton.me##.updates-dropdown-container
+lezzet.com.tr#?#body > .align-items-center:has(#formSubscription)
 bluestoneperennials.com##body > div > div.needsclick
 diamondlobby.com##.form-embed
 outofbit.it##.boxzilla-bottom-right-container
@@ -13827,7 +13831,7 @@ inc.com#?#div[class^="ArticleGrid__feedContainer"] > div[class^="Article__articl
 sodapdf.com##.foot-newsletter
 grammarly.com#?#main > div[class*="-container"]:has(> form > button > span:contains(subscribe))
 rockmods.net###HTML2
-screamingfrog.co.uk,socialmediatoday.com##.signup
+utilitydive.com,screamingfrog.co.uk,socialmediatoday.com##.signup
 daytranslations.com##.newslette-wrapper
 ccl.org#?#.elementor-column-wrap:has(> div.elementor-widget-wrap > div.single_article_newsletter)
 staradvertiser.com##.breaking-news-signup
@@ -14829,7 +14833,7 @@ xataka.com#?#.aside-box:has(> form.newsletter-form)
 moneylo.fr#?#main > section:has(> div[class^="Section__Content-"] > div[class^="Subscribe__FormContainer-"])
 patronlardunyasi.com##form[action="/newsletter.asp"]
 60millions-mag.com,imore.com,computerhoy.com,windowscentral.com,androidcentral.com##.block-newsletter
-lisa.ru,budzma.org##.subscriber
+pharma.by,lisa.ru,budzma.org##.subscriber
 chefkoch.de#?#.ds-container > aside.ds-box:has(> h2.hp-headline:contains(Newsletter))
 newsherald.com#?#div[class] > form[class]:has(> input[name="email"])
 newsthump.com,westernstandardonline.com##.widget_mailchimpsf_widget
