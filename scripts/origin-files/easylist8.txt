@@ -80,6 +80,8 @@
 ! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
 !
+||joiwnq2.cn^
+||2tyne.ic^
 ||kkkjpg-522.cc^$third-party
 ||mg.nezqmud.com^
 ||ekofelj.xyz^
@@ -1460,6 +1462,7 @@ $script,third-party,denyallow=bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cl
 !
 !
 !
+||laozuo.org/banner/
 ala.baidu.com##.tbui_aside_float_bar + .clearfix
 3czol.com##div[class^="ban_"]
 bilibili.com##.video-page-game-card-small

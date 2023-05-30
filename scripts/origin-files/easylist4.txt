@@ -90,6 +90,9 @@
 ! Yandex.Images
 [$path=/images]yandex.*#%#//scriptlet('json-prune', 'seatbid rtb')
 !
+! Yandex.Music
+music.yandex.*##.notify > div.deco-tooltip_notify.notify_shown
+!
 ! Yandex.Pogoda
 [$path=/\/(?:weather\/|pogoda\/|hava\/)/]yandex.*#%#//scriptlet('prevent-eval-if', 'Id":"R-I')
 [$path=/\/(?:weather\/|pogoda\/|hava\/)/]yandex.*#%#//scriptlet('abort-on-property-read', 'Object.prototype.renderDirect')
@@ -477,6 +480,7 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.Sid
 !
 ! Add same rules to the Admiral section of Tracking Protection filter
 !
+||tightpowder.com^$third-party
 ||tidymitten.com^$third-party
 ||groovyornament.com^$third-party
 ||crowdedmass.com^$third-party
@@ -3300,6 +3304,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 /cmp/cmp.*.js
 /cmp/cmp.js
 !
+||player.gliacloud.com^$third-party
 ||getresponse.com^$third-party
 ||fastemu.co^$third-party
 ||7pisem.com^$third-party
@@ -3388,6 +3393,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+mackolik.com###featured-media > iframe.is-sticky
 alibabacloud.com###alicloud-home-top-banner
 alibabacloud.com##.BottomBanner
 moviepilot.de##.prevent-collision_page-has-sticky-bottom-content
@@ -3784,8 +3790,6 @@ gsp.ro###v-popup
 pauta.cl##.sticky-relacionados
 rpp.pe###rpp-alerta
 grupormultimedio.com###content-dock
-tokfm.pl#$#.breakingNewsTop { display: none !important; }
-tokfm.pl#$##top_wrapper { margin-top: 0 !important; }
 alllyr.ru#$#html.fancybox-enabled { overflow: visible !important; }
 alllyr.ru#$#.fancybox-container { display: none !important; }
 alllyr.ru#$#body { overflow: visible !important; }
@@ -10747,6 +10751,7 @@ jiji.com,edp24.co.uk,technologyreview.com,inews.co.uk,nordbayern.de,thelocal.ch,
 !
 ! SECTION: Subscriptions - Regular rules
 !
+bluestoneperennials.com##body > div > div.needsclick
 diamondlobby.com##.form-embed
 outofbit.it##.boxzilla-bottom-right-container
 newslab.ru##.digest-subscription

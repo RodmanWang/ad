@@ -4323,6 +4323,7 @@ prjaga.ru#?##right > div#right_nav > h3:contains(Онлайн статистик
 ! More info: https://getadmiral.com/products/measure
 ! Add same rules to the Admiral section of Annoyances filter
 !
+||tightpowder.com^$third-party
 ||tidymitten.com^$third-party
 ||groovyornament.com^$third-party
 ||crowdedmass.com^$third-party
@@ -5601,6 +5602,7 @@ nethunt.com/api/v1/track/email/$image
 ||analytics.s3.amazonaws.com^
 ||analyticsengine.s3.amazonaws.com^
 !
+||track.17goforward.com^
 ||analytics.starlink.com^
 ||st-5cva8vttppvjafpc7jvj.kodik.biz^
 ||tracking.overwolf.com^
@@ -41089,6 +41091,10 @@ inapps.appsflyersdk.com^
 !#endif
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/152345
+capital.it#%#//scriptlet('prevent-element-src-loading', 'script', 'static.chartbeat.com/js/chartbeat_brightcove_plugin.js')
+!+ PLATFORM(ios, ext_android_cb, ext_safari)
+@@||static.chartbeat.com/js/chartbeat_brightcove_plugin.js$domain=capital.it
 ! https://github.com/AdguardTeam/AdguardFilters/issues/152136
 ||form.info-morimoto-real.jp^$badfilter
 ! https://github.com/AdguardTeam/AdguardFilters/issues/152259
