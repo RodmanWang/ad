@@ -3388,6 +3388,8 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+motilaloswal.com###footer-from
+motilaloswal.com##.st-wrapper > div.st-sidebar.hideform
 capitaloneshopping.com##.extension-modal
 calendar.com#%#//scriptlet('set-local-storage-item', 'ONBOARDING_MODAL_DISPLAYED', 'true')
 ||frantz.jp/js/avoidAbandon.js
@@ -8896,6 +8898,10 @@ market.yandex.*##div[data-zone-name="BannerPopup"]
 ! Yandex.Realty
 realty.ya.ru#%#//scriptlet('set-cookie-reload', 'housearch_popup_shown', 'yes')
 !
+! Yandex.Arenda
+arenda.yandex.ru#$#div[class*="LandingOwnerQuizModalBase__popup-"] { display: none !important; }
+arenda.yandex.ru#$#body[style] { overflow: auto !important; }
+!
 ! auto.ru
 auto.ru#?#body > div:has(> div.Modal > div.Modal__container > div[class*="AdminsMarketingPopup__wrapper"])
 !
@@ -9447,6 +9453,8 @@ kurashiru.com#$#html.dly-modal-active { overflow: auto!important; }
 !
 ! SECTION: Popups - Mobile sites only
 !#if (adguard_app_android || adguard_app_ios || adguard_ext_android_cb || ext_ublock)
+!
+m.olx.ro,m.olx.kz,m.olx.pl,m.olx.pt,m.olx.ua,m.olx.uz,m.olx.in,m.olx.com##main > section > div[data-testid="prompt-box"]
 gaten.info##.overlay
 kobe-np.co.jp##.add-paid-bnr
 ||comic-walker.com/sp/js/sp-modalBanner.js
@@ -10757,6 +10765,7 @@ jiji.com,edp24.co.uk,technologyreview.com,inews.co.uk,nordbayern.de,thelocal.ch,
 !
 ! SECTION: Subscriptions - Regular rules
 !
+bankinform.ru##.bis-news-emailsubscription
 kaufbei.tv##.newsletter-fullwidth
 ekonomist.com.tr##.news-detail-newsletter
 dn.pt##.newslettercapping

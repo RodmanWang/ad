@@ -4722,6 +4722,9 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+asahi.co.jp##.headerBnr
+asahi.co.jp##.bnr
+astro.com##.hktext > div[class="position-relative"][id^="hkspez"]
 dailyshincho.jp##.l-contents__sub > div.c-box-ad
 dailyshincho.jp#?#.l-contents__sub > section.l-contents__section:has(> ul.c-list-article--vertical span.c-text-note:contains(PR))
 freeconvert.com###TryFree
@@ -6887,8 +6890,6 @@ codenova-center.web.app#%#//scriptlet("adjust-setInterval", "contador", "*", "0.
 adfoc.us#%#//scriptlet("set-constant", "count", "0")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/127047
 ghostcloud.ml#%#AG_onLoad(function(){const a=document.querySelector("body > meta[http-equiv=\"refresh\"][content*=\";url=http\"]");if(a)try{const b=a.content?.split(";url=").pop();location.assign(b)}catch(a){}});
-! https://github.com/AdguardTeam/AdguardFilters/issues/126722
-tech.madshiba.fun#%#//scriptlet("adjust-setInterval", "wait", "", "0.02")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/126658
 minecraftalpha.net#%#//scriptlet("adjust-setInterval", "Your Link", "", "0.02")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/126604
