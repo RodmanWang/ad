@@ -141,6 +141,8 @@ auto.ru#%#//scriptlet('abort-on-property-read', 'Object.prototype.RenderMarks')
 ! END: Yandex
 !
 !
+! relax-fm.ru
+relax-fm.ru#%#//scriptlet('abort-on-property-read', 'Object.prototype.renderDirect')
 ! otzovik
 otzovik.com##td[colspan] > div[style^="background-color: #ffd2ca;"]
 otzovik.com#%#//scriptlet('prevent-eval-if', 'xored')
@@ -3388,6 +3390,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+aluguefoco.com.br##body > a[href^="https://api.whatsapp.com/send?phone="]
 blog.csdn.net#%#//scriptlet('set-cookie', 'popShowed10s', 'yes')
 motilaloswal.com###footer-from
 motilaloswal.com##.st-wrapper > div.st-sidebar.hideform
@@ -10041,6 +10044,7 @@ macwelt.de,pcwelt.de#%#//scriptlet("set-constant", "firebase.messaging", "noopFu
 !
 ! SECTION: Push notifications - Regular rules
 !
+||cdn.flarelane.com/WebSDK.js$domain=simcong.com
 ||zaxid.net/assets/lib/pushSubscription.js
 ||sasktoday.ca/*/pushnotifications?
 sasktoday.ca##.push-modal-wrapper
