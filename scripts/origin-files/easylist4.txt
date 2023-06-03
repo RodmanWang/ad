@@ -662,6 +662,7 @@ clicknupload.red#@#.AdsBox
 ! SECTION: Anti-adblock - Regular rules
 ! Do not forget about '!#safari_cb_affinity' section for exclusions
 !
+smsreceivefree.com##.blkmessage
 redensarten-index.de##.hinweis-fenster
 redensarten-index.de##.grauer-hintergrund
 crdroid.net#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
@@ -3795,7 +3796,7 @@ aachener-zeitung.de##.abdunkler
 aachener-zeitung.de##.abdunkler + div.overlay
 gn-online.de##div.toggleContainer
 fcbarcelona.com##.quicklinks
-goodreads.com#$#.Overlay--floating { display: none !important; }
+goodreads.com#?#.Overlay--floating:has(> div.Overlay__window > div.Overlay__content > div.LoginInterstitial)
 gsp.ro###v-popup
 pauta.cl##.sticky-relacionados
 rpp.pe###rpp-alerta
