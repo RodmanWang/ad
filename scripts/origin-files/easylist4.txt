@@ -10467,7 +10467,7 @@ lifehacker.ru###lh-push-app
 youla.ru##.web_push_confirmation
 izlesene.com,doviz.com,sinemalar.com###x-comet-dialog
 stalkermods.ru,ucoz.net##.pshsndr
-calciomercato.com###dialog-push-notification
+ilbianconero.com,calciomercato.com###dialog-push-notification
 sbt.com.br,goo.ne.jp,sports.ru,tribuna.com##.webpush
 eleman.net##.pushRegistrationDiv
 estadao.com.br##.push
@@ -10781,6 +10781,7 @@ jiji.com,edp24.co.uk,technologyreview.com,inews.co.uk,nordbayern.de,thelocal.ch,
 !
 ! SECTION: Subscriptions - Regular rules
 !
+kommersant.ru##.subscribe_announcement
 thefederalist.com#$#html.pum-open-overlay { overflow: auto !important; }
 thefederalist.com#$#.pum-overlay[data-popmake*='"slug":"sign-up-for-federalist-community-account"'] { display: none !important; }
 ensonhaber.com##.article-gnews
@@ -11458,7 +11459,7 @@ applion.jp##.top_mail_box
 applion.jp##.top_box.after_clear:has(> .mailinput)
 applion.jp##.marea_side > .top_block_white:has(> .mailinput)
 sueddeutsche.de##section[data-action="newsletter"]
-quora.com##.qu-bg--blue.qu-height--60[style$="position: fixed; z-index: 300; left: 0px; right: 0px; bottom: 0px;"]
+quora.com##.q-flex[style$="position: fixed; z-index: 300; left: 0px; right: 0px; bottom: 0px;"]
 augsburger-allgemeine.de##.aa-swatch-topdown-nice > form[action*="ajax_nl-subscribe"]
 journal.tinkoff.ru###popmechanic-snippet
 ||news-api.fullscreen.nz/widget/prod/mailchimpv
@@ -12860,7 +12861,7 @@ bussgeldkatalog.org###slidein
 cybernews.com##.subscribe__modal
 nakanune.ru##a[href="https://t.me/nakanuneru"] > img
 japan.cnet.com,japan.zdnet.com###article_under_nllink
-japan.zdnet.com##.mailmagazine
+dailyportalz.jp,japan.zdnet.com##.mailmagazine
 interfax.ru##.group-btns
 interfax.ru###form__subscribe
 ural56.ru##.subscription-tg-menu
