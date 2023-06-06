@@ -4656,7 +4656,7 @@ icotto.jp##.c-instagram-balloon
 softbank.jp##.mbox-banner
 shingakunet.com##.l-footerFix
 aajtak.in,businesstoday.in##.bottomSliderSwipe
-spiegel.de,besthealthmag.ca#%#//scriptlet('remove-class', 'jw-flag-floating', '.jwplayer.jw-flag-floating')
+dailystar.co.uk,spiegel.de,besthealthmag.ca#%#//scriptlet('remove-class', 'jw-flag-floating', '.jwplayer.jw-flag-floating')
 geo-online.co.jp###balloonWrapper
 v8.1c.ru###modalChoosePartner
 popdaily.com.tw##.buoy
@@ -10781,6 +10781,8 @@ jiji.com,edp24.co.uk,technologyreview.com,inews.co.uk,nordbayern.de,thelocal.ch,
 !
 ! SECTION: Subscriptions - Regular rules
 !
+thefederalist.com#$#html.pum-open-overlay { overflow: auto !important; }
+thefederalist.com#$#.pum-overlay[data-popmake*='"slug":"sign-up-for-federalist-community-account"'] { display: none !important; }
 ensonhaber.com##.article-gnews
 securelist.com##.c-widget-subscribe
 unian.net##.app-banner-yt
