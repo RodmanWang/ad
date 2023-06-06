@@ -79,6 +79,10 @@
 ! Bad: example.org###rek (should be in specific.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/152966
+! Fixes loading elements in the right sidebar
+livemint.com#%#//scriptlet('set-constant', 'dapTracker', 'emptyObj')
+livemint.com#%#//scriptlet('set-constant', 'dapTracker.track', 'noopFunc')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/152414
 !#if (!ext_ublock)
 paribucineverse.com#%#//scriptlet('set-constant', 'Visilabs', 'noopFunc')
@@ -5611,6 +5615,7 @@ nethunt.com/api/v1/track/email/$image
 ||analytics.s3.amazonaws.com^
 ||analyticsengine.s3.amazonaws.com^
 !
+||stats.online-convert.com^
 ||ss.azuremagazine.com^
 ||logger*.kma.go.kr^
 ||webtracking.fe.union-investment.de^
@@ -37077,6 +37082,7 @@ _tracking.php?b=
 /analytics.js$domain=resumes.breakdownexpress.com|techcult.com|inbox.lv|kopeda.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|newsmax.com|bolgehastanesi.com|ewtc.de|newsdig.tbs.co.jp|imore.com|city.kushiro.lg.jp|emeraldbridal.com.au|emarat-news.ae|imobie.jp|tikla.com.tr|rusvideos.porn
 ||assets.adobedtm.com^$domain=mcclatchydc.com|elnuevoherald.com|bellinghamherald.com|sacbee.com|charlotteobserver.com|newsobserver.com|miamiherald.com|ef.ru|algida.com.tr|bmw-motorrad.co.uk|cif.com.tr|clearhaircare.com|domestos.com|dove.com|elidor.com.tr|f1sport.autorevue.cz|geico.com|hellmanns.com.tr|herkessofraya.com|johnsonsbaby.com.tr|lipton.com|lnk.to|lux.com|magnumicecream.com|neutrogena.com.tr|omo.com|rexona.com|samsung.com|sap.com|schwarzkopf.com.tr|signalturkiye.com|msnbc.com|nbcnews.com|kbb.com|eurosport.ru|timgate.it|intermiles.com|oxfordmail.co.uk|spiegel.de|hp.com|deutschepost.de|thebay.com|s.shufoo.net|tsn.ca|tabelog.com|euronews.com|newshub.co.nz|fredmeyer.com|viabcp.com|carsales.com.au
 !
+cbssports.com##.taboola-recommends
 ||ezneering.com/wp-content/plugins/hashbar-wp-notification-bar/assets/js/analytics.js
 ||unagi*.amazon.*/events^
 ||systemed.fr/itya.js
@@ -40537,6 +40543,8 @@ link.gmapp*.net$image
 ! Bad:  ||example.com^$cookie=flat_r_mb (should be in cookies_specific.txt)
 !
 !
+! https://rocketium.com/cookie-policy.html
+$cookie=/WZRK_/
 ! Zephr
 ! https://support.zephr.com/documentation/technical-introduction-to-zephr/what-cookies-does-zephr-set
 ! $cookie=blaize_session - breaks login https://github.com/AdguardTeam/AdguardFilters/issues/152080 / https://www.planetsport.com/privacy-policy
@@ -42541,6 +42549,9 @@ inapps.appsflyersdk.com^
 !#endif
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/152966
+!+ PLATFORM(ios, ext_safari, ext_android_cb)
+@@||analytics.htmedia.in/analytics-js/tracker.js$domain=livemint.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/152478
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@||galaxy.geely.com/assets/plugins/sa-sdk-javascript-*/sensorsdata.min.js
