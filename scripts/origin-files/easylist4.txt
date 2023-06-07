@@ -227,7 +227,7 @@ drive2.ru#?#.js-page > div > div[class="x-box x-box--mh o-f"]:has(> script)
 !   SECTION: Anti-adblock - VK group
 !   NOTE START: VK group
 !
-[$path]mail.ru#%#//scriptlet('json-prune', '*.slot')
+[$path]mail.ru#%#//scriptlet('json-prune', '[].slot')
 !
 minigames.mail.ru#%#//scriptlet("abort-current-inline-script", "$", "advBlock")
 mmminigames.mail.ru#%#//scriptlet("abort-current-inline-script", "$", "showAd")
@@ -239,7 +239,7 @@ my.mail.ru#%#//scriptlet('set-constant', 'Object.prototype.isAdblockEnable', 'no
 love.mail.ru#?##app-wrapper > div:has(> div[class] > div[class] > div[class] > a[href*="/tips/?tip=DisableAdblock"])
 love.mail.ru###adblock-in-browser
 !
-e.mail.ru,octavius.mail.ru#%#//scriptlet('json-prune', '*.slot')
+e.mail.ru,octavius.mail.ru#%#//scriptlet('json-prune', '[].slot')
 !
 @@||e.mail.ru^$generichide
 @@||octavius.mail.ru^$generichide
@@ -3393,6 +3393,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+phdkim.net##div[class*="js-popup"][class^="popup"].d-active
 ground.news#?##__next > div.sticky:has(> div.sticky > div.flex > div.flex > a[href="/about"])
 ground.news#?#body > div > div.react-responsive-modal-overlay:has(> div.react-responsive-modal-modal > div.flex > a[href="/bias-quiz"])
 organic-mix.ru##.popup-best-price
@@ -10790,6 +10791,7 @@ jiji.com,edp24.co.uk,technologyreview.com,inews.co.uk,nordbayern.de,thelocal.ch,
 !
 ! SECTION: Subscriptions - Regular rules
 !
+newsroom.paypal-corp.com##.wd_yellow-background.mt-3
 babylonbee.com#?#.my-3 > div.bg-gray-50:has(> div.rounded-lg > div.w-full > form[action="/newsletter"])
 news.samsung.com##.snr-newsletter
 forbes.ua##.c-main-subscribe
