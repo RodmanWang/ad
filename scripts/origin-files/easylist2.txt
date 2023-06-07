@@ -5615,6 +5615,7 @@ nethunt.com/api/v1/track/email/$image
 ||analytics.s3.amazonaws.com^
 ||analyticsengine.s3.amazonaws.com^
 !
+||gae2-spclient.spotify.com^
 ||stats.online-convert.com^
 ||ss.azuremagazine.com^
 ||logger*.kma.go.kr^
@@ -37082,6 +37083,9 @@ _tracking.php?b=
 /analytics.js$domain=resumes.breakdownexpress.com|techcult.com|inbox.lv|kopeda.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|newsmax.com|bolgehastanesi.com|ewtc.de|newsdig.tbs.co.jp|imore.com|city.kushiro.lg.jp|emeraldbridal.com.au|emarat-news.ae|imobie.jp|tikla.com.tr|rusvideos.porn
 ||assets.adobedtm.com^$domain=mcclatchydc.com|elnuevoherald.com|bellinghamherald.com|sacbee.com|charlotteobserver.com|newsobserver.com|miamiherald.com|ef.ru|algida.com.tr|bmw-motorrad.co.uk|cif.com.tr|clearhaircare.com|domestos.com|dove.com|elidor.com.tr|f1sport.autorevue.cz|geico.com|hellmanns.com.tr|herkessofraya.com|johnsonsbaby.com.tr|lipton.com|lnk.to|lux.com|magnumicecream.com|neutrogena.com.tr|omo.com|rexona.com|samsung.com|sap.com|schwarzkopf.com.tr|signalturkiye.com|msnbc.com|nbcnews.com|kbb.com|eurosport.ru|timgate.it|intermiles.com|oxfordmail.co.uk|spiegel.de|hp.com|deutschepost.de|thebay.com|s.shufoo.net|tsn.ca|tabelog.com|euronews.com|newshub.co.nz|fredmeyer.com|viabcp.com|carsales.com.au
 !
+.sendibm1.com/mk/
+.sendibm1.com/*.gif?
+||r.bh.d.sendibt3.com/tr/$image
 ||static-cdn.spot.im/production/topic-tracker/tags/*/topic-tracker.js
 ||static-cdn.spot.im/production/launcher/tags/*/launcher/metrics-reporter-bundle.js
 cbssports.com##.taboola-recommends
@@ -37764,6 +37768,8 @@ cienradios.com##article[class^="cXense-"]
 ||coocha.co.kr/log/
 ||recobell.io/rest/logs
 ||tintup.com/app/dist/tintAnalyticsProxy-bundle.js
+||amazonaws.com/beacon^
+||d34gglw95p9zsk.cloudfront.net/clipkit_assets/beacon-*.js
 ||d26b395fwzu5fz.cloudfront.net/keen-tracking-*.min.js
 park.ajinomoto.co.jp##.bottomMenu
 ||theurbanlist.com/assets/dist/autotrack.*.js
