@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202306062050
+! Version: 202306070052
 ! Title: Fanboy's Annoyance List
-! Last modified: 06 Jun 2023 20:50 UTC
+! Last modified: 07 Jun 2023 00:52 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -36996,7 +36996,7 @@ office.com###supFeedbackWrapper
 youtube.com###yt-feedback
 youtube.com###yt-hitchhiker-feedback
 nationaltoday.com##.c-holidayPlug
-courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgazette.com,jsonline.com,lohud.com,northjersey.com,sheboyganpress.com,tallahassee.com,theadvertiser.com,tiktok.com##.feedback
+courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgazette.com,jsonline.com,lohud.com,northjersey.com,sheboyganpress.com,tallahassee.com,theadvertiser.com,tiktok.com,usatoday.com##.feedback
 dickssportinggoods.com##.feedback-container-bottom
 dictionary.com##.feedback-link
 organicfacts.net##.fixed-bottom
@@ -40862,6 +40862,7 @@ stayinwales.co.uk##.ckinfo-panel
 oipc.bc.ca##.clsPopupContainer
 ppg.com##.cm
 singular.com.cy##.cm-notification-container
+blik.com##.cm-overlay
 cmon.sg##.cmon-privacy-disclaimer
 aia.com.sg##.cmp-experiencefragment
 aia.com##.cmp-notification-action-panel
@@ -41666,7 +41667,6 @@ starlingbank.com##.pykGnVXQId7R0_iS8Y0R
 upscalepics.com##.q-card__section
 abetterrouteplanner.com##.r-145dblm.r-nc4a30
 mycards.hdfcbank.com##.r-1p0dtai
-docs.abaddon.me,docs.betteruptime.com,electronforge.io,guides.cryptowat.ch,support.saleae.com,wiki.valhelsia.net##.r-1xcajam.css-175oi2r
 book.hacktricks.xyz,docs.passbase.com,docs.safe.global##.r-l13dpy
 niceareas.co.uk##.rayAlertBox
 carrot.tech##.rcc
@@ -41996,6 +41996,7 @@ access.login.nhs.uk##core-cookie-banner
 medium.com##div > .branch-journeys-top
 c.realme.com##div > .cookie-privacy
 yahoo.com##div.js-applet-view-container-main > div.fixed-win[style^="background:"]
+docs.abaddon.me,docs.betteruptime.com,docs.fluentbit.io,electronforge.io,guides.cryptowat.ch,support.saleae.com,wiki.valhelsia.net##div.r-1xcajam.css-175oi2r
 ppi2pass.com,schweser.com##div[class^="AlertD_container"]
 rally.io##div[class^="Banner_banner_"]
 carvertical.com##div[class^="BisquitsBanner_"]
@@ -44595,6 +44596,7 @@ knubel.de##.floating
 wort.lu##.footer-legal
 unifilm.de##.form-dsgvo
 frankonia.de##.fr-c-message
+melectronics.ch##.gArzUh
 galaxus.at,galaxus.de##.gIRfBN
 pfister.ch##.gTHyyR
 topfit-badgriesbach.de##.gatewayBar
