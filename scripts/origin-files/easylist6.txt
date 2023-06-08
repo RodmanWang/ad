@@ -97,6 +97,8 @@ instagram.com#$?#div[class]:has(> div[class]:first-child > a[href="/explore/peop
 instagram.com#?#div[style*="opacity"] > div > div[class]:has(> div[class] > div[style] > div[style] > div[aria-labelledby] > div[class]:last-child > button)
 ! End: Instagram.com
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/153165
+stopgame.ru##div[class^="_youtube-promo_"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/153031
 genius.com##aside[class^="RecommendedSongs__"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/153024
@@ -2299,8 +2301,6 @@ kitguru.net###check-also-box
 dn.se##.navigation__top-container
 ! twitter.com - You might like elements in timeline
 twitter.com#?#section[aria-labelledby][role="region"] > div[aria-label] > div[style] > div[style^="transform: translate"] article[data-testid="tweet"]:has(> div[class] > div[class] > div[class] a[href^="/i/topics"][dir="auto"])
-! https://github.com/AdguardTeam/AdguardFilters/issues/6011
-mobile.twitter.com##header[role="banner"] + ._2FU3NGw4 > ._1363jyKz.thXr_Z-z
 ! mozilla.org - was this page helpful widget
 developer.mozilla.org###helpful-survey
 ! https://forum.adguard.com/index.php?threads/www-topsante-com.23871/
