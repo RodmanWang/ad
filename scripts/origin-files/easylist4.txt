@@ -280,6 +280,10 @@ rambler.ru##.banner--container
 rambler.ru##div[data-marker-observer]
 rambler.ru##.comments__read-also-title
 rambler.ru##.comments__partners
+!
+! championat.com
+!+ NOT_PLATFORM(windows, mac, android)
+championat.com#%#//scriptlet('json-prune', 'Blocks')
 ! subdomains: news.rambler.ru,kino.rambler.ru,sport.rambler.ru,auto.rambler.ru,finance.rambler.ru,woman.rambler.ru,weekend.rambler.ru,travel.rambler.ru,doctor.rambler.ru
 ! Check, if these sites work fine with scriptlet: mail.rambler.ru, kino.rambler.ru, weather.rambler.ru, comments.rambler.ru, kassa.rambler.ru, horoscopes.rambler.ru
 !
@@ -440,6 +444,9 @@ tennessean.com,clarionledger.com,phillyburbs.com,usatoday.com,wrestlinginc.com,v
 ! #%#//scriptlet("abort-current-inline-script", "document.createElement", "admiral")
 sporcle.com,fresnobee.com,fajnegotowanie.pl,esportstales.com,tiger-algebra.com,blackenterprise.com,crooksandliars.com,cmacapps.com,cwtv.com,feral-heart.com,gamerevolution.com,gktoday.in,informazionefiscale.it,inquirer.net,interestingengineering.com,legacy.com,leitesculinaria.com,nofilmschool.com,obsev.com,pleated-jeans.com,post-gazette.com,practicalclinicalskills.com,ranker.com,sanfoundry.com,simpleflying.com,thegatewaypundit.com,timelessleaf.com,viraliq.com,winhelponline.com#%#//scriptlet("abort-current-inline-script", "document.createElement", "admiral")
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/153163
+!+ NOT_OPTIMIZED
+brobible.com#%#//scriptlet('prevent-element-src-loading', 'script', 'ads.load.js')
 !+ NOT_OPTIMIZED
 ||succeedscene.com/ads_*/ads.load.js$script,redirect=noopjs
 digitalmusicnews.com##body > script ~ div:not([class]):not([id]) > style + div[class]
@@ -3395,6 +3402,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+litalico-c.jp#%#//scriptlet('set-cookie', 'user_sign_up_modal_closed', 'true')
 yenimeram.com.tr#$##myModalSplash { display: none !important; }
 yenimeram.com.tr#$#.modal-backdrop { display: none !important; }
 yenimeram.com.tr#$#body { overflow: auto !important; padding-right: 0 !important; }
@@ -10800,6 +10808,7 @@ jiji.com,edp24.co.uk,technologyreview.com,inews.co.uk,nordbayern.de,thelocal.ch,
 !
 ! SECTION: Subscriptions - Regular rules
 !
+playground.ru##.float-teaser
 winaero.com###bbpa
 net.hr###newsletter
 newsroom.paypal-corp.com##.wd_yellow-background.mt-3
