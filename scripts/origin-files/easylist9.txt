@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202306080202
+! Version: 202306080315
 ! Title: Fanboy's Annoyance List
-! Last modified: 08 Jun 2023 02:02 UTC
+! Last modified: 08 Jun 2023 03:15 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -36593,6 +36593,7 @@ auto.economictimes.indiatimes.com###yolooverlay
 fivebooks.com##.-donate
 imgur.com##.Ad
 photonics.com##.BOX_MarginOut
+wgbh.org##.BottomPopupModule
 atlasobscura.com##.DDPageSiderailAds
 tabletmag.com##.DonationPopup
 talkingpointsmemo.com##.Footer__ModalAds
@@ -37009,6 +37010,7 @@ youtube.com###yt-feedback
 youtube.com###yt-hitchhiker-feedback
 nationaltoday.com##.c-holidayPlug
 courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgazette.com,jsonline.com,lohud.com,northjersey.com,sheboyganpress.com,tallahassee.com,theadvertiser.com,tiktok.com,usatoday.com##.feedback
+accuweather.com##.feedback-banner
 dickssportinggoods.com##.feedback-container-bottom
 dictionary.com##.feedback-link
 organicfacts.net##.fixed-bottom
@@ -37782,6 +37784,7 @@ screenshot-media.com###new-home-row-3
 screenshot-media.com###new-home-row-7
 coffeecompany.com.au###newpopup
 easternstandardtimes.com###news-letter-pop
+nydailynews.com###news_letter_div
 momontimeout.com###newsbox
 getprice.com.au###newsletter
 empr.com,endocrinologyadvisor.com,hematologyadvisor.com,mcknights.com,mcknightshomecare.com,medicalbag.com,neurologyadvisor.com,ophthalmologyadvisor.com,optometryadvisor.com,thecardiologyadvisor.com###newsletter-asset
@@ -38899,7 +38902,7 @@ stereogum.com##.subscribe-article
 lovefoodnotcooking.com,nautil.us,rabble.ca,spectator.org##.subscribe-bar
 greenbiz.com##.subscribe-block-container
 mamamia.com.au##.subscribe-border-bottom
-classicalite.com,faithpot.com,mamamia.com.au,oversixty.co.nz,save.ca##.subscribe-box
+classicalite.com,faithpot.com,heatmap.news,mamamia.com.au,oversixty.co.nz,save.ca##.subscribe-box
 albawaba.com,sport360.com##.subscribe-btn
 howtogeek.com##.subscribe-button
 reviewgeek.com##.subscribe-button-direct-link
@@ -39337,6 +39340,7 @@ ktvq.com##.ActionBar-items
 newatlas.com##.ActionLink
 newscientist.com##.ArticleHeader__SocialWrapper
 wgbh.org##.ArticlePage-actions
+afar.com##.ArticlePage-actions-wrapper
 nationalgeographic.com##.Article__Header__Share
 nordvpn.com##.BlogPost__social-block
 cnbc.com##.CNBCFooter-share
@@ -39743,6 +39747,7 @@ apptrigger.com##.share-capture
 cryptopolitan.com##.share-col
 fandomwire.com,tvline.com##.share-container
 news.cgtn.com,newsus.cgtn.com##.share-icon
+news12.com##.share-icons
 agsiw.org##.share-icons__social-shares___2eB-m
 mymodernmet.com##.share-it-side
 thenationalpulse.com##.share-layout-stack
