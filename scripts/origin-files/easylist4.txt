@@ -88,8 +88,8 @@
 !   NOTE: Yandex
 !
 ! Yandex.Images
-[$path=/images]yandex.*,ya.ru#%#//scriptlet('json-prune', 'seatbid rtb direct')
-[$path=/images]yandex.*,ya.ru##.Root > div.MastHead
+[$path=/images]ya.ru,yandex.*#%#//scriptlet('json-prune', 'seatbid rtb direct')
+[$path=/images]ya.ru,yandex.*##.Root > div.MastHead
 !
 ! Yandex.Music
 music.yandex.*##.notify > div.deco-tooltip_notify.notify_shown
@@ -2934,8 +2934,8 @@ readmanga.me#@#.text_ads
 !
 ! rp5.ru
 !#if (!adguard_app_ios)
-m.rp5.ru,m.rp5.ua,m.rp5.by,m.rp5.kz,m.rp5.co.uk,m.rp5.md#%#//scriptlet("set-constant", "adFilters", "undefined")
-rp5.ru,rp5.ua,rp5.by,rp5.kz,rp5.co.uk,rp5.md,~m.rp5.ru,~m.rp5.ua,~m.rp5.by,~m.rp5.kz,~m.rp5.co.uk,~m.rp5.md#%#//scriptlet("set-constant", "Object.prototype.cABNoCheck", "undefined")
+m.rp5.ru,m.rp5.by,m.rp5.kz,m.rp5.co.uk,m.rp5.md#%#//scriptlet("set-constant", "adFilters", "undefined")
+rp5.ru,rp5.ua,rp5.by,rp5.kz,rp5.co.uk,rp5.md,~m.rp5.ru,~m.rp5.by,~m.rp5.kz,~m.rp5.co.uk,~m.rp5.md#%#//scriptlet("set-constant", "Object.prototype.cABNoCheck", "undefined")
 !#endif
 !#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
 !#safari_cb_affinity(general)
@@ -2948,9 +2948,9 @@ rp5.ru,rp5.ua,rp5.by,rp5.kz,rp5.co.uk,rp5.md#$?##content > div > div[id]:has(> i
 @@||rp5.kz^$generichide
 @@||rp5.md^$generichide
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rp5.ru|rp5.ua|rp5.by|rp5.kz|rp5.co.uk|rp5.md
-@@||m.rp5.*/mobile/scripts/adtop.js$domain=m.rp5.ru|m.rp5.ua|m.rp5.by|m.rp5.kz|m.rp5.co.uk|rp5.md
-@@||m.rp5.*/mobile/scripts/adblocker.js$domain=m.rp5.ru|m.rp5.ua|m.rp5.by|m.rp5.kz|m.rp5.co.uk|rp5.md
-@@||adservice.google.*/adsid/integrator.js$domain=m.rp5.ru|m.rp5.ua|m.rp5.by|m.rp5.kz|m.rp5.co.uk|rp5.md
+@@||m.rp5.*/mobile/scripts/adtop.js$domain=m.rp5.ru|m.rp5.by|m.rp5.kz|m.rp5.co.uk|rp5.md
+@@||m.rp5.*/mobile/scripts/adblocker.js$domain=m.rp5.ru|m.rp5.by|m.rp5.kz|m.rp5.co.uk|rp5.md
+@@||adservice.google.*/adsid/integrator.js$domain=m.rp5.ru|m.rp5.by|m.rp5.kz|m.rp5.co.uk|rp5.md
 !#safari_cb_affinity
 !#endif
 !
@@ -3402,6 +3402,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+price.ua##.site-announcer
 page.auctions.yahoo.co.jp###fltbnr
 vitalhelden.de##div[data-type="popup"]
 webhiden.jp###hidenlink
@@ -10811,6 +10812,9 @@ jiji.com,edp24.co.uk,technologyreview.com,inews.co.uk,nordbayern.de,thelocal.ch,
 !
 ! SECTION: Subscriptions - Regular rules
 !
+technologynetworks.com##p ~ div > .featuredVendors
+technologynetworks.com##.base_subscribe_footer
+price.ua##.media-subscription-block
 uazmi.net##.button-banner
 aeroxplorer.com,fitforfun.de,golem.de##.subscribe-newsletter
 imore.com###newsletter-slice
