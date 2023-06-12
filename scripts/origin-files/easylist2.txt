@@ -5615,6 +5615,7 @@ nethunt.com/api/v1/track/email/$image
 ||analytics.s3.amazonaws.com^
 ||analyticsengine.s3.amazonaws.com^
 !
+||track.lookerpets.com^
 ||stats.online-convert.com^
 ||ss.azuremagazine.com^
 ||logger*.kma.go.kr^
@@ -5744,7 +5745,6 @@ nethunt.com/api/v1/track/email/$image
 ||rac.ruutu.fi^
 ||forecast.lemonde.fr^
 ||b0.yahoo.co.jp^
-||beacon.unext.jp^
 ||log.affiliate.rakuten.co.jp^
 ||d-collector.jennifersoft.com^
 ||analytics.dashboard.fingerprint.com^
@@ -36585,6 +36585,8 @@ charlestownwyllie.oaklawnnonantum.com^
 ! ZhugeIO
 /zhugeio.js
 !
+/collect/pv?
+/log/pv?id=
 /webtracking.min.js
 ://gtrack.*.com/dye?
 /lasso-ga.
@@ -37089,7 +37091,7 @@ _tracking.php?b=
 ||static-cdn.spot.im/production/topic-tracker/tags/*/topic-tracker.js
 cbssports.com##.taboola-recommends
 ||ezneering.com/wp-content/plugins/hashbar-wp-notification-bar/assets/js/analytics.js
-||unagi*.amazon.*/events^
+||unagi*.amazon.*/events/
 ||systemed.fr/itya.js
 ||weather.go.kr/w/resources/js/logger
 ||hellosmpl.com^$script,third-party
@@ -42560,8 +42562,6 @@ inapps.appsflyersdk.com^
 @@||dcf.espn.com/TWDC-DTCI/prod/Bootstrap.js$domain=disney.*
 @@||dcf.espn.com/TWDC-DTCI/prod/serverComponent.php$domain=disney.*
 @@||dcf.espn.com/TWDC-DTCI/prod/code/$script,domain=disney.*
-! https://github.com/AdguardTeam/AdguardFilters/issues/151369
-@@||beacon.unext.jp/beacon/stop/$domain=video.unext.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/153103
 @@||shorterall.com^$cookie=_gid
 @@||google-analytics.com/analytics.js$domain=shorterall.com
