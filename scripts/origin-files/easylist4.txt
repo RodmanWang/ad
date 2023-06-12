@@ -8923,7 +8923,7 @@ twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion,twitter.com#$?#ht
 ! START: Yandex
 !
 ! ya.ru - main page
-ya.ru##[class^="alice-fab"]
+ya.ru##.alice-fab__promo
 ya.ru##.dist-stripe
 !
 ! Yandex.Search
@@ -10815,6 +10815,8 @@ jiji.com,edp24.co.uk,technologyreview.com,inews.co.uk,nordbayern.de,thelocal.ch,
 !
 ! SECTION: Subscriptions - Regular rules
 !
+||kyivindependent.com/ghost/api/content/newsletters/
+bio-protocol.org##.el-dialog__wrapper
 ||assets.flodesk.com/universal.mjs$domain=barefootuniverse.com
 hbr.org##.persistent-banner
 technologynetworks.com##p ~ div > .featuredVendors
@@ -10893,6 +10895,8 @@ estadao.com.br#?#.content-wrapper > div[class^="styles__Container-"]:has(> div[c
 putlockert.com###cookiedata
 earthly.dev#?#div[class] > section:has(> div.px-6 > div.block > div.newsletter)
 ||static.hokkaido-np.co.jp/*/bnr_news_letter_small.png
+||benesse.ne.jp/*/banner/line_account_2111_600x514
+39.benesse.ne.jp##.img_line_account
 kinogo.*##.poloska_comment + center
 kinogo.*##.regtg
 eurointegration.com.ua##.post__subscribe_bottom
