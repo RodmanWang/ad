@@ -1478,6 +1478,9 @@ $script,third-party,denyallow=bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cl
 !
 !
 !
+ent.163.com##.hotset
+chinaz.com##.media-banner__auto
+chinaz.com##.media-banner_auto
 laogu.cc##.rowIvy
 ||v.laogu.wang/template/*/images/g_js^
 ||huohuo1.huamuwo.com^$domain=knowbaike.com
@@ -2281,7 +2284,7 @@ maxfoodfun.com###links > div[id] > div.hslice:not(#search):not(#qrcode):not(#cat
 58b.tv##.closead
 58b.tv##div[style^="width:300px; height:250px;"]
 58b.tv##div[style^="width: 300px; height: 250px;"]
-58b.tv,8fun.tv,99kubo.tv##div[style^="width:300px;height:250px;"]
+chinaz.com,58b.tv,8fun.tv,99kubo.tv##div[style^="width:300px;height:250px;"]
 99kubo.tv##.main > div[class="datal clear"]
 ||104.167.70.98^$domain=chuzuche8.com
 chuzuche8.com##body > h4 > font[color="red"][size="6"]
@@ -5612,6 +5615,8 @@ newduba.cn###jq_youxi
 ||iciclle.com^
 ||mu6m1.com^
 ||t33ng.com^
+||apiimg.com^
+||rusticaula.com^
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
 ##a[href$="/aa8a1j.com"]
@@ -15101,6 +15106,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||ra5.xyz/z/*/code.
 ||rou.video/_next/static/chunks/pages/fuli-
 szxx.com.cn###A0
+stat-nba.com###ad_video
 368015.xyz##div[style="height:60px;width:100%;"]
 szxx.com.cn###A1
 szxx.com.cn###A2
