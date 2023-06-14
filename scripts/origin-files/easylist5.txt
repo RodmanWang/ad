@@ -119,6 +119,7 @@ turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-
 ! notifications - part of the functionality
 ! discord.com##div[class^="container"] > nav[class^="wrapper"] + div[class^="base"] > div[class^="notice-"]
 !
+yapokupayu.ru##.popup-app-download
 akasaair.com#?#.MuiGrid-root [fmp_c][class^="ComponentName_container"]:has([fmp_c][class^="ComponentName_container"] a[href*="//play.google.com/"])
 akasaair.com##.DownloadApp-Layout
 ing.com.tr##.ins-preview-wrapper-2689
@@ -2759,6 +2760,8 @@ m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
 ! causes some issues: https://github.com/AdguardTeam/AdguardForMac/issues/550
 ~lafenice.io,~kurer-sreda.ru,~chorki.com,~zattoo.com,~zaycev.net,~xltrax.ee,~hitta.se,~mail.ru,~v7player.wostreaming.net,~facebook.com,~instagram.com,~drive.google.com$$link[rel="manifest"]
 !
+column.sp.baseball.findfriends.jp##.ColumnAttentionBox.AdBanner
+shopee.vn##.downloadBanner-container
 banki.ru##.header-mobile > div[data-name="mobile-app-links-block"]
 thelocal.*##.article-single__social div.app-btn
 map.baidu.com##.poiLeadDownloadCard
