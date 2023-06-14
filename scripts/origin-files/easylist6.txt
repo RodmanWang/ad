@@ -521,6 +521,7 @@ so.toutiao.com##.s-side-list > div.result-content > div[id^="s-dom-"]
 ||widget.golfscape.com^$domain=sport360.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118308
 ! embed tv, used on many sites in floating player
+tribuna.com##.dugout-video
 football-tribe.com##.dugout_video_cont
 ||embed.dugout.com^$script,third-party,domain=~sportowefakty.wp.pl|~ultra-soccer.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/117432
@@ -6221,6 +6222,8 @@ eiga.com##.header-pure-banner
 !##############################
 ! SECTION: Tweaks - CSS
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/153669
+smartpress.by#$##header.fixed .header-bottom { position: static !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/153148
 net.hr#$#.video-js-container.videoContent_player_fixed { position: static !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/151695
