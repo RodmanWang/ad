@@ -661,7 +661,6 @@
 ||1gr.cz/log^
 ||1hb4jkt1u2d.probemas.com^
 ||1hkmr7jb0.de^
-||1hx60gjebbfr.com^
 ||1i8c0f11.de^
 ||1igare0jn.de^
 ||1jsskipuf8sd.com^
@@ -2911,7 +2910,6 @@
 ||8f74e1229c.com^
 ||8fc511071c.com^
 ||8feichai.com^
-||8gs4unh05aq6.com^
 ||8hpay.cn^
 ||8i3158.cn^
 ||8inhjmd.usefathom.com^
@@ -5823,8 +5821,8 @@
 ||abcxs.net^
 ||abczdrowie.pl^$replace=/(<VAST[\s\S]*?>)[\s\S]*<\/VAST>/\$1<\/VAST>/,xmlhttprequest,other,~script
 ||abczdrowie.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*\n)//,script
-||abczdrowie.pl^$replace=/(aabv\d[\s\S]*?.=\(\)=>).===.(\,)/\$1{return}\$2/,script
-||abczdrowie.pl^$replace=/(aabv\d[\s\S]*?.=function\(\)\{)return .===.(\}\,)/\$1return\$2/,script
+||abczdrowie.pl^$replace=/(aabv\d[\s\S]*?.=\(\)=>).===.(,)/\$1{return}\$2/,script
+||abczdrowie.pl^$replace=/(aabv\d[\s\S]*?.=function\(\)\{)return .===.(\},)/\$1return\$2/,script
 ||abdalitroilus.com^
 ||abdely.com^
 ||abdlnk.com^
@@ -6377,7 +6375,6 @@
 ||ad-balancer.net^
 ||ad-bay.com^
 ||ad-brix.com^
-||ad-cdn.name^
 ||ad-channel.wikawika.xyz^
 ||ad-cheers.com^
 ||ad-clicks.com^
@@ -8810,7 +8807,6 @@
 ||afootulnas.com^
 ||aforepayoffstutter.com^
 ||afosseel.net^
-||afotbyxrlddkclk.com^
 ||afp.chinanews.com^
 ||afpsuvju.com^
 ||afptpyarwa.com^
@@ -9826,7 +9822,6 @@
 ||amds123.tt.omtrdc.net^
 ||amebanbiglot.uno^
 ||amedeosilvery.com^
-||ameeyprisjhepg.xyz^
 ||amemwqfwjw.com^
 ||amendablepartridge.com^
 ||amendablepredicamentvertical.com^
@@ -11722,7 +11717,6 @@
 ||aptonnerv.buzz^
 ||aptosdevnet.com^
 ||apus.tech^
-||apuuvuofniwvvgp.com^
 ||apuwpigjno.com^
 ||apv-launcher.minute.ly^
 ||apvdr.com^
@@ -12576,7 +12570,6 @@
 ||au.promo.skf.com^
 ||au.secure.sonosite.com^
 ||au2m8.com^
-||auaccabsoq.xyz^
 ||aubank.tt.omtrdc.net^
 ||aubergearise.com^
 ||aubergearise.com^$all
@@ -12731,7 +12724,7 @@
 ||autoads.asia^$third-party
 ||autoaffiliatenetwork.com^$third-party
 ||autoaudience.com^$third-party
-||autocentrum.pl^$replace=/(\,).===.(&&[\s\S]*?\(\)\})/\$1false\$2/,~script,~stylesheet,~xmlhttprequest,~other
+||autocentrum.pl^$replace=/(,).===.(&&[\s\S]*?\(\)\})/\$1false\$2/,~script,~stylesheet,~xmlhttprequest,~other
 ||autoclaim.ovh^$domain=dutchycorp.ovh
 ||autoclubgroup.tt.omtrdc.net^
 ||autodesk.tt.omtrdc.net^
@@ -12744,8 +12737,8 @@
 ||autoimmunity.thermofisher.com^
 ||autokult.pl^$replace=/(<VAST[\s\S]*?>)[\s\S]*<\/VAST>/\$1<\/VAST>/,xmlhttprequest,other,~script
 ||autokult.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*\n)//,script
-||autokult.pl^$replace=/(aabv\d[\s\S]*?.=\(\)=>).===.(\,)/\$1{return}\$2/,script
-||autokult.pl^$replace=/(aabv\d[\s\S]*?.=function\(\)\{)return .===.(\}\,)/\$1return\$2/,script
+||autokult.pl^$replace=/(aabv\d[\s\S]*?.=\(\)=>).===.(,)/\$1{return}\$2/,script
+||autokult.pl^$replace=/(aabv\d[\s\S]*?.=function\(\)\{)return .===.(\},)/\$1return\$2/,script
 ||autolinkmaker.itunes.apple.com^$third-party
 ||autologica.ga^$third-party
 ||automatad.com^$third-party
@@ -12975,7 +12968,6 @@
 ||awledconside.xyz^
 ||awleo.cn^
 ||awltovhc.com^
-||awlyilwoc.com^
 ||awmbed.com^
 ||awmdelivery.com^
 ||awmserve.com^
@@ -13008,7 +13000,6 @@
 ||awvnhoa.com^
 ||awwvbwym.xyz^
 ||awxczujifw.com^
-||awxecggixh.xyz^
 ||awxoddnhl.xyz^
 ||awyys.com^
 ||awzbijw.com^$third-party
@@ -13401,7 +13392,6 @@
 ||baepjnwgwh.xyz^
 ||baetrf.com^
 ||baffae.alcott.eu^
-||baffledzein.com^
 ||bagbeam.com^$third-party
 ||bageelru.xyz^
 ||bagelinterest.com^
@@ -14586,7 +14576,6 @@
 ||beunblkd.xyz^
 ||beuniquelyinsured.selective.com^
 ||beusable.net^$third-party
-||beveledcorkir.com^
 ||bevinc.tt.omtrdc.net^
 ||bewailindigestionunhappy.com^
 ||bewallreflair.com^
@@ -15694,6 +15683,7 @@
 ||brabywig.live^
 ||brabywig.live^$popup
 ||bracaetimbers.com^
+||bracketcalculator.com^
 ||bracketknolls.uno^
 ||bradleysolarconstant.com^
 ||braggingbegefficiency.com^
@@ -16474,7 +16464,6 @@
 ||c22x1.xcdn.ovh^
 ||c2370c7aa8.com^
 ||c24c966867.com^
-||c265f8e1e3.com^
 ||c2c24.pl^$domain=sport.pl|gazeta.pl|plotek.pl|moto.pl|haps.pl
 ||c2e6bd3f02.com^
 ||c2fbd5c6ba.com^
@@ -16576,7 +16565,6 @@
 ||cache.picxxxhub.com^
 ||cachead.com^*.js
 ||cachegorilla.com^
-||cachoustewing.com^
 ||cackssandhog.com^
 ||caclick.baidu.com^
 ||cadbitff.com^
@@ -17172,7 +17160,6 @@
 ||cc599.com^
 ||cca1660917.com^
 ||ccaas.avaya.com^
-||ccaxjjtdrcuhnph.com^
 ||ccc.aqualink.tokyo^
 ||ccccccc.trekkeeee.fun^
 ||ccccccc.trekkww.space^
@@ -18023,7 +18010,6 @@
 ||chinemcg.website^
 ||chinesean.com^$third-party
 ||chingmathecia.website^
-||chinikscouxia.com^
 ||chinitnam.com^
 ||chinkerdough.com^
 ||chinoismoras.com^
@@ -18301,9 +18287,7 @@
 ||cjnxs.com^
 ||cjqncwfxrfrwbdd.com^
 ||cjqyqyluexk.com^
-||cjrngeskvhqni.xyz^
 ||cjt3w2kxrv.com^
-||cjuyhfwxmpvdr.xyz^
 ||cjvdfw.com^
 ||cjvfxogp.com^
 ||cjxomyilmv.com^
@@ -18316,22 +18300,18 @@
 ||ckeckstatus.biz^
 ||ckerw.xyz^
 ||ckg.vipyl.com^
-||ckgroundan.info^
 ||ckgroundan.xyz^
 ||ckhvmkurkifon.com^
 ||ckl.fbmedia-ckl.com^$all
 ||ckmpojarw.com^
 ||ckohixbcyzm.com^
 ||ckozwx.n11.com^
-||ckqwkjugero.xyz^
 ||ckre.net^$popup
 ||ckrf1.com^
 ||ckrf1.com^$popup
 ||ckseeknew.com^
-||ckuqmmyqmd.xyz^
 ||ckvfghrbdfjsoet.com^
 ||ckvyhtev.com^
-||ckwbsidfgf.xyz^
 ||ckwlurries.com^
 ||ckwlurries.com^$popup
 ||ckwsuomhen.22foxnews.hb.tt.omtrdc.net^
@@ -18950,7 +18930,6 @@
 ||clvceacvvwgk.xyz^
 ||clvk.viki.io^
 ||clvkg.xyz^
-||clvofywesmi.com^
 ||clw99.mobi^
 ||clxgmlpfkoj.com^
 ||clxlydpqpnsvxso.xyz^
@@ -18975,7 +18954,6 @@
 ||cmasisrjbgfv.xyz^
 ||cmass.massmedian.co.jp^
 ||cmbestsrv.com^
-||cmbvrtiikioce.xyz^
 ||cmci5cape.icu^
 ||cmclean.club^
 ||cmcore.com^$third-party
@@ -19236,6 +19214,8 @@
 ||cofz9.top^
 ||cogentpatientmama.com^
 ||cogentpatientmama.com^$popup
+||cogenttriprepel.com^
+||cogenttriprepel.com^$popup
 ||coggingilya.com^
 ||cogitateseparated.com^
 ||cogleapad.com^
@@ -21138,7 +21118,6 @@
 ||cuisineenvoyadvertise.com^
 ||cuisineomnipresentinfinite.com^
 ||cuissenbisque.com^
-||cujudvqswv.xyz^
 ||cukonwoo.com^
 ||cul.xunjiu.online^
 ||culainstrades.com^
@@ -21369,7 +21348,6 @@
 ||cyntgd.anticipazionitv.it^
 ||cyohmj.catawiki.com^
 ||cypr.com^$third-party
-||cyqrqsuju.xyz^
 ||cystspalt.com^
 ||cysumhqvrjvrs.xyz^
 ||cytcm.com^
@@ -25227,7 +25205,6 @@
 ||depurestole.guru^
 ||deqkmzurltovbk.com^
 ||deqwas.net^$third-party
-||derbendlunet.com^
 ||derelictfascinatinginmate.com^
 ||dereunsin.uno^
 ||derevya2sh8ka09.com^
@@ -26056,11 +26033,9 @@
 ||djadoc.com^
 ||djahkee.xyz^
 ||djefosbx.com^
-||djeissyivlbc.com^
 ||djers.com^$third-party
 ||djfiln.com^
 ||djfiln.com^$popup
-||djfjbfte.xyz^
 ||djhnrcithoq.com^
 ||djibeacon.dowjoneson.com^
 ||djiybut.cn^
@@ -26285,8 +26260,8 @@
 ||doboacki.net^
 ||dobreprogramy.pl^$replace=/(<VAST[\s\S]*?>)[\s\S]*<\/VAST>/\$1<\/VAST>/,xmlhttprequest,other,~script
 ||dobreprogramy.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*\n)//,script
-||dobreprogramy.pl^$replace=/(aabv\d[\s\S]*?.=\(\)=>).===.(\,)/\$1{return}\$2/,script
-||dobreprogramy.pl^$replace=/(aabv\d[\s\S]*?.=function\(\)\{)return .===.(\}\,)/\$1return\$2/,script
+||dobreprogramy.pl^$replace=/(aabv\d[\s\S]*?.=\(\)=>).===.(,)/\$1{return}\$2/,script
+||dobreprogramy.pl^$replace=/(aabv\d[\s\S]*?.=function\(\)\{)return .===.(\},)/\$1return\$2/,script
 ||dobrnovosti.com^
 ||dobwll.xyz^
 ||doccd.xyz^
@@ -26812,7 +26787,6 @@
 ||dsfdsfe.redtredtse.fun^
 ||dsfgdfg.popoppopoopp.space^
 ||dsfhr.xyz^
-||dsfhudbsyicvns.xyz^
 ||dsfjhfhyry2hh8jo09.com^
 ||dsfsdfsadfsdfeeeeewwwww.hopjuu.fun^
 ||dsfsdft4324.xyz^
@@ -26885,7 +26859,6 @@
 ||dstillery.com^$third-party
 ||dsultra.com^
 ||dsvkgvrftkpds.com^
-||dsxljqkcgrv.xyz^
 ||dszhqww.cn^
 ||dt.beyla.site^
 ||dt.gregauunaided.com^
@@ -26902,7 +26875,6 @@
 ||dteakfzixo.com^
 ||dteenergy.tt.omtrdc.net^
 ||dtestpromo.fiat.it^
-||dtfjemrr.com^
 ||dti-ranker.com^$third-party
 ||dtiserv2.com^$third-party
 ||dtjhtp.xyz^
@@ -29939,7 +29911,6 @@
 ||f55f5b7e4b.com^
 ||f57fbf2b51.com^
 ||f5e52a0d14.com^
-||f5f84f4d83.com^
 ||f5networks.tt.omtrdc.net^
 ||f5v1x3kgv5.com^
 ||f5v1x3kgv5.com^$popup
@@ -30290,7 +30261,6 @@
 ||fbmedia-ckl.com^$popup
 ||fbmedia-dhs.com^
 ||fbooksluts.com^$third-party
-||fbqllgdtwbawht.com^
 ||fbsbpieebwpi.com^
 ||fbthirdpartypixel.com^$third-party
 ||fbtrack.mensuas.com^
@@ -30557,7 +30527,6 @@
 ||ff5bd8d9f8df.com^
 ||ff9ffc838f.com^
 ||ffbjhl.xyz^
-||ffcyosaujve.xyz^
 ||ffdcpvv.cn^
 ||ffflxue.cn^
 ||ffhre.com^
@@ -31247,7 +31216,6 @@
 ||fnkio.cyou^
 ||fnlvhy.wowma.jp^
 ||fnnzr.cn^
-||fnojdupjbufb.xyz^
 ||fnptvpbwnoo.xyz^
 ||fnrdymekgohcsj.xyz^
 ||fnrrm2fn1njl1.com^
@@ -31524,8 +31492,8 @@
 ||fotao9.com^
 ||fotoblogia.pl^$replace=/(<VAST[\s\S]*?>)[\s\S]*<\/VAST>/\$1<\/VAST>/,xmlhttprequest,other,~script
 ||fotoblogia.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*\n)//,script
-||fotoblogia.pl^$replace=/(aabv\d[\s\S]*?.=\(\)=>).===.(\,)/\$1{return}\$2/,script
-||fotoblogia.pl^$replace=/(aabv\d[\s\S]*?.=function\(\)\{)return .===.(\}\,)/\$1return\$2/,script
+||fotoblogia.pl^$replace=/(aabv\d[\s\S]*?.=\(\)=>).===.(,)/\$1{return}\$2/,script
+||fotoblogia.pl^$replace=/(aabv\d[\s\S]*?.=function\(\)\{)return .===.(\},)/\$1return\$2/,script
 ||fotoompi.com^
 ||fotsaulr.net^
 ||fouanalytics.com^$third-party
@@ -32210,8 +32178,8 @@
 ||gadspmz.com^
 ||gadzetomania.pl^$replace=/(<VAST[\s\S]*?>)[\s\S]*<\/VAST>/\$1<\/VAST>/,xmlhttprequest,other,~script
 ||gadzetomania.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*\n)//,script
-||gadzetomania.pl^$replace=/(aabv\d[\s\S]*?.=\(\)=>).===.(\,)/\$1{return}\$2/,script
-||gadzetomania.pl^$replace=/(aabv\d[\s\S]*?.=function\(\)\{)return .===.(\}\,)/\$1return\$2/,script
+||gadzetomania.pl^$replace=/(aabv\d[\s\S]*?.=\(\)=>).===.(,)/\$1{return}\$2/,script
+||gadzetomania.pl^$replace=/(aabv\d[\s\S]*?.=function\(\)\{)return .===.(\},)/\$1return\$2/,script
 ||gae.karte.io^
 ||gaelsdaniele.website^
 ||gaesataigal.uno^
@@ -36263,6 +36231,7 @@
 ||hppvkbfcuq.com^
 ||hprofits.com^$third-party
 ||hptechnology.arrow.com^
+||hpvl2kb.icu^
 ||hpwqsjpkbiixue.com^
 ||hpww.tt.omtrdc.net^
 ||hpychofen.com^
@@ -41226,8 +41195,8 @@
 ||komoona.com^$third-party
 ||komorkomania.pl^$replace=/(<VAST[\s\S]*?>)[\s\S]*<\/VAST>/\$1<\/VAST>/,xmlhttprequest,other,~script
 ||komorkomania.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*\n)//,script
-||komorkomania.pl^$replace=/(aabv\d[\s\S]*?.=\(\)=>).===.(\,)/\$1{return}\$2/,script
-||komorkomania.pl^$replace=/(aabv\d[\s\S]*?.=function\(\)\{)return .===.(\}\,)/\$1return\$2/,script
+||komorkomania.pl^$replace=/(aabv\d[\s\S]*?.=\(\)=>).===.(,)/\$1{return}\$2/,script
+||komorkomania.pl^$replace=/(aabv\d[\s\S]*?.=function\(\)\{)return .===.(\},)/\$1return\$2/,script
 ||komoth.com^
 ||komputer.tns-gallup.dk^
 ||komtrack.com^$third-party
@@ -48015,8 +47984,8 @@
 ||money.mioweb.cz^
 ||money.pl^$replace=/(<VAST[\s\S]*?>)[\s\S]*<\/VAST>/\$1<\/VAST>/,xmlhttprequest,other,~script
 ||money.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*\n)//,script
-||money.pl^$replace=/(aabv\d[\s\S]*?.=\(\)=>).===.(\,)/\$1{return}\$2/,script
-||money.pl^$replace=/(aabv\d[\s\S]*?.=function\(\)\{)return .===.(\}\,)/\$1return\$2/,script
+||money.pl^$replace=/(aabv\d[\s\S]*?.=\(\)=>).===.(,)/\$1{return}\$2/,script
+||money.pl^$replace=/(aabv\d[\s\S]*?.=function\(\)\{)return .===.(\},)/\$1return\$2/,script
 ||money.qz828.com^
 ||moneycosmos.com^
 ||moneymak3rstrack.com^
@@ -50601,9 +50570,9 @@
 ||o18.link^
 ||o2.pl^$replace=/(<VAST[\s\S]*?>)[\s\S]*<\/VAST>/\$1<\/VAST>/,xmlhttprequest,other,~script
 ||o2.pl^$replace=/(<VAST[\s\S]*?>)[\s\S]*<\/VAST>/\$1<\/VAST>/,xmlhttprequest,other,~script,domain=~poczta.o2.pl
-||o2.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*)|((display:\\s\*)none(\\s\*!important)|((\.hostname;function .\(\)|\,.=function\(\))\{return) .===[\S]*?(\}))/\$4\$5\$6\$8/,script
-||o2.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*\n)|((display:\\s\*)none(\\s\*!important)|((\.hostname;function .\(\)|\,.=function\(\))\{return) .===[\S]*?(\}))/\$4\$5\$6\$8/,script
-||o2.pl^$replace=/(aabv\d[\s\S]*?.=\(\)=>).===.(\,)/\$1{return}\$2/,script
+||o2.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*)|((display:\\s\*)none(\\s\*!important)|((\.hostname;function .\(\)|,.=function\(\))\{return) .===[\S]*?(\}))/\$4\$5\$6\$8/,script
+||o2.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*\n)|((display:\\s\*)none(\\s\*!important)|((\.hostname;function .\(\)|,.=function\(\))\{return) .===[\S]*?(\}))/\$4\$5\$6\$8/,script
+||o2.pl^$replace=/(aabv\d[\s\S]*?.=\(\)=>).===.(,)/\$1{return}\$2/,script
 ||o2c7dks4.de^
 ||o2o.api.xiaomi.com^
 ||o2vcb5uw.site^
@@ -51734,8 +51703,8 @@
 ||opelop.com^
 ||open.fm^$replace=/(<VAST[\s\S]*?>)[\s\S]*<\/VAST>/\$1<\/VAST>/,xmlhttprequest,other,~script
 ||open.fm^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*\n)//,script
-||open.fm^$replace=/(aabv\d[\s\S]*?.=\(\)=>).===.(\,)/\$1{return}\$2/,script
-||open.fm^$replace=/(aabv\d[\s\S]*?.=function\(\)\{)return .===.(\}\,)/\$1return\$2/,script
+||open.fm^$replace=/(aabv\d[\s\S]*?.=\(\)=>).===.(,)/\$1{return}\$2/,script
+||open.fm^$replace=/(aabv\d[\s\S]*?.=function\(\)\{)return .===.(\},)/\$1return\$2/,script
 ||open.isnssdk.com^
 ||open.oksrv.com^
 ||open.oneplus.net^
@@ -52919,9 +52888,9 @@
 ||pardonsuccessionassassin.com^$popup
 ||parecyrclame.com^
 ||parenting.pl^$replace=/(<VAST[\s\S]*?>)[\s\S]*<\/VAST>/\$1<\/VAST>/,xmlhttprequest,other,~script
-||parenting.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*)|((display:\\s\*)none(\\s\*!important)|((\.hostname;function .\(\)|\,.=function\(\))\{return) .===[\S]*?(\}))/\$4\$5\$6\$8/,script
-||parenting.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*\n)|((display:\\s\*)none(\\s\*!important)|((\.hostname;function .\(\)|\,.=function\(\))\{return) .===[\S]*?(\}))/\$4\$5\$6\$8/,script
-||parenting.pl^$replace=/(aabv\d[\s\S]*?.=\(\)=>).===.(\,)/\$1{return}\$2/,script
+||parenting.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*)|((display:\\s\*)none(\\s\*!important)|((\.hostname;function .\(\)|,.=function\(\))\{return) .===[\S]*?(\}))/\$4\$5\$6\$8/,script
+||parenting.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*\n)|((display:\\s\*)none(\\s\*!important)|((\.hostname;function .\(\)|,.=function\(\))\{return) .===[\S]*?(\}))/\$4\$5\$6\$8/,script
+||parenting.pl^$replace=/(aabv\d[\s\S]*?.=\(\)=>).===.(,)/\$1{return}\$2/,script
 ||parentlargevia.com^
 ||parentlargevia.com^$popup
 ||parentsapi-wishlists.tt.omtrdc.net^
@@ -55105,16 +55074,16 @@
 ||polluxnetwork.com^
 ||pollymentors.com^
 ||polrimsi.xyz^
-||polsatnews.pl^$replace=/(\,vast: ?")[\s\S]*?\/ad\.xml\?[\s\S]*?("\,)/\$1\$2/,~script,~stylesheet,~xmlhttprequest,~other
-||polsatsport.pl^$replace=/(\,vast: ?")[\s\S]*?\/ad\.xml\?[\s\S]*?("\,)/\$1\$2/,~script,~stylesheet,~xmlhttprequest,~other
+||polsatnews.pl^$replace=/(,vast: ?")[\s\S]*?\/ad\.xml\?[\s\S]*?(",)/\$1\$2/,~script,~stylesheet,~xmlhttprequest,~other
+||polsatsport.pl^$replace=/(,vast: ?")[\s\S]*?\/ad\.xml\?[\s\S]*?(",)/\$1\$2/,~script,~stylesheet,~xmlhttprequest,~other
 ||poltarimus.com^
 ||poltbassa.com^
 ||polyad.net^
 ||polydarth.com^
 ||polygamia.pl^$replace=/(<VAST[\s\S]*?>)[\s\S]*<\/VAST>/\$1<\/VAST>/,xmlhttprequest,other,~script
 ||polygamia.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*\n)//,script
-||polygamia.pl^$replace=/(aabv\d[\s\S]*?.=\(\)=>).===.(\,)/\$1{return}\$2/,script
-||polygamia.pl^$replace=/(aabv\d[\s\S]*?.=function\(\)\{)return .===.(\}\,)/\$1return\$2/,script
+||polygamia.pl^$replace=/(aabv\d[\s\S]*?.=\(\)=>).===.(,)/\$1{return}\$2/,script
+||polygamia.pl^$replace=/(aabv\d[\s\S]*?.=function\(\)\{)return .===.(\},)/\$1return\$2/,script
 ||polymorphicads.jp^
 ||polypivulgars.com^
 ||polyserbdom.com^
@@ -56475,8 +56444,8 @@
 ||puddingdefeated.com^
 ||puddleincidentally.com^
 ||pudelek.pl^$replace=/(<VAST[\s\S]*?>)[\s\S]*<\/VAST>/\$1<\/VAST>/,xmlhttprequest,other,~script
-||pudelek.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*)|((display:\\s\*)none(\\s\*!important)|((\.hostname;function .\(\)|\,.=function\(\))\{return) .===[\S]*?(\}))/\$4\$5\$6\$8/,script
-||pudelek.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*\n)|((display:\\s\*)none(\\s\*!important)|((\.hostname;function .\(\)|\,.=function\(\))\{return) .===[\S]*?(\}))/\$4\$5\$6\$8/,script
+||pudelek.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*)|((display:\\s\*)none(\\s\*!important)|((\.hostname;function .\(\)|,.=function\(\))\{return) .===[\S]*?(\}))/\$4\$5\$6\$8/,script
+||pudelek.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*\n)|((display:\\s\*)none(\\s\*!important)|((\.hostname;function .\(\)|,.=function\(\))\{return) .===[\S]*?(\}))/\$4\$5\$6\$8/,script
 ||puderniczkama.tt.omtrdc.net^
 ||pudrardu.net^
 ||puds.ucweb.com^
@@ -77236,6 +77205,7 @@
 ||u22077.com^
 ||u22088.com^
 ||u22099.com^
+||u22aeey.xyz^
 ||u23011.com^
 ||u23022.com^
 ||u23033.com^
@@ -79499,8 +79469,8 @@
 ||vpnsafebrowsing.com^$all
 ||vpolshchi.pl^$replace=/(<VAST[\s\S]*?>)[\s\S]*<\/VAST>/\$1<\/VAST>/,xmlhttprequest,other,~script
 ||vpolshchi.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*\n)//,script
-||vpolshchi.pl^$replace=/(aabv\d[\s\S]*?.=\(\)=>).===.(\,)/\$1{return}\$2/,script
-||vpolshchi.pl^$replace=/(aabv\d[\s\S]*?.=function\(\)\{)return .===.(\}\,)/\$1return\$2/,script
+||vpolshchi.pl^$replace=/(aabv\d[\s\S]*?.=\(\)=>).===.(,)/\$1{return}\$2/,script
+||vpolshchi.pl^$replace=/(aabv\d[\s\S]*?.=function\(\)\{)return .===.(\},)/\$1return\$2/,script
 ||vpotyflfox.com^
 ||vppvyt.ladernierechasse.com^
 ||vpqpbgvgly.com^
@@ -81560,10 +81530,10 @@
 ||wp.brandnewapp.pro^
 ||wp.pl^$replace=/(<VAST[\s\S]*?>)[\s\S]*<\/VAST>/\$1<\/VAST>/,xmlhttprequest,other,~script,app=~pl.videostar
 ||wp.pl^$replace=/(<VAST[\s\S]*?>)[\s\S]*<\/VAST>/\$1<\/VAST>/,xmlhttprequest,other,~script,domain=~profil.wp.pl
-||wp.pl^$replace=/(\.messData=.;[\s\S]*?.=function\(\)\{)return 1===.(\}\,)/\$1return\$2/,script
-||wp.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*)|((display:\\s\*)none(\\s\*!important)|((\.hostname;function .\(\)|\,.=function\(\))\{return) .===[\S]*?(\}))/\$4\$5\$6\$8/,script
-||wp.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*\n)|((display:\\s\*)none(\\s\*!important)|((\.hostname;function .\(\)|\,.=function\(\))\{return) .===[\S]*?(\}))/\$4\$5\$6\$8/,script
-||wp.pl^$replace=/(aabv\d[\s\S]*?.=\(\)=>).===.(\,)/\$1{return}\$2/,script
+||wp.pl^$replace=/(\.messData=.;[\s\S]*?.=function\(\)\{)return 1===.(\},)/\$1return\$2/,script
+||wp.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*)|((display:\\s\*)none(\\s\*!important)|((\.hostname;function .\(\)|,.=function\(\))\{return) .===[\S]*?(\}))/\$4\$5\$6\$8/,script
+||wp.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*\n)|((display:\\s\*)none(\\s\*!important)|((\.hostname;function .\(\)|,.=function\(\))\{return) .===[\S]*?(\}))/\$4\$5\$6\$8/,script
+||wp.pl^$replace=/(aabv\d[\s\S]*?.=\(\)=>).===.(,)/\$1{return}\$2/,script
 ||wp.zvideo.stream^
 ||wp8d.xyz^
 ||wpadmngr.com^
@@ -83908,6 +83878,7 @@
 ||yupfiles.net^
 ||yuppads.com^
 ||yuppyads.com^
+||yuprggtdvdalo.com^
 ||yuqingby.fun^
 ||yuretb.site^
 ||yurivideo.com^$third-party

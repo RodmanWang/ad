@@ -238,6 +238,9 @@ blog.livedoor.jp##div[id^="shitarss_title_"]
 !
 ! NOTE: Blogroll third-party sites
 !
+2chav.com#$##left[style^="position: fixed"] { position: static !important; }
+jumpmatome2ch.biz##.rss02
+gameleaks.org###pc_text-57
 ge-soku.com##.mainbottom-widget
 kannyu.blog.jp##.rssWrapper
 nihonjinnanmin.com##.pc_above_main
@@ -1436,6 +1439,7 @@ indoxxi.show##.tawkto-btn
 !
 !   SECTION: Widgets - Suggestion widgets
 !
+danas.hr#?#div[class^="css-"] > div[class^="css-"]:has(> div.cls_frame > div[class^="css-"] > div.listalicaProizvoda_swiper)
 book24.ru##.fake-jivosite
 tech.hindustantimes.com#?##entryArticle > div[class*="inlineStoryWidget_"]:has(> .ProductAffilateWrapper)
 ||geoapteka.ua/geowidget/loader/geowidget.min.js$domain=pharmencyclopedia.com.ua

@@ -652,6 +652,7 @@ thewindowsclub.com#@#.ad-space
 ||wp-r.github.io/adsplacer_pro/$third-party
 !#safari_cb_affinity(general)
 !@@.com/ads.js|$~third-party,domain=~1ppt.com
+@@||gfinityesports.com/js/googleadsense.js
 autosport.com#@#.ms-hapb
 @@||s.ntv.io/serve/load.js$domain=autosport.com
 @@||t-online.de/s/paper/public/js/ads/adex.js
@@ -1714,7 +1715,7 @@ vc.ru##.layout__right-column > div[class*=" "][style="--offset-top:16px;"]
 vek-noviy.ru##body > div.leftbar-wrap > div[style="width: 300px; height: 250px;"]
 venea.net###banner
 venea.net#%#//scriptlet("set-constant", "ab.isTrig", "false")
-venge.io/905193.json$replace=/"name":"Support"\,"tags":\["DesktopOnly"]\,"enabled":true\,/"name":"Support"\,"tags":\["DesktopOnly"]\,"enabled":false\,/,domain=venge.io
+venge.io/905193.json$replace=/"name":"Support","tags":\["DesktopOnly"],"enabled":true,/"name":"Support"\,"tags":\["DesktopOnly"]\,"enabled":false\,/,domain=venge.io
 video.komarovskiy.net##.rmp-ad-block-container
 vimm.net#%#//scriptlet("set-constant", "adsbygoogle.push.length", "1")
 vishivalca.blogspot.com##div[dir="ltr"][style="text-align: left;"] > div[style="text-align: center;"]
@@ -1777,7 +1778,7 @@ zhihu.com##.AdblockBanner
 zinzinzibidi.com##.xl-rklm-container
 zkillboard.com###adsensetop
 zumvo.so##.top-message
-||abcya.com/client/main-*.js$script,replace=/\,n.src=s.ri.adDetect//
+||abcya.com/client/main-*.js$script,replace=/,n.src=s.ri.adDetect//
 ||absorbingprison.com^$third-party
 ||ad-ipd.sxp.smartclip.net^$redirect=nooptext,important,domain=chefkoch.de
 ||addons.palemoon.org/skin/palemoon/abfunctions.js
@@ -3404,6 +3405,9 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+zurich.co.jp###fixed-popup-cta
+odorate.co.jp##.footer_banner
+oe24.at##.oe24tvTopVideoLayer
 ing.com.tr##.ins-preview-wrapper-2731
 crowdsec.net##.notification-bar
 chinabgao.com##.footer ~ div[style^="position:fixed;top:"][style*="z-index:"][style*="overflow: hidden;"]
