@@ -2429,6 +2429,8 @@ motherless.com$$script[tag-content="awentw.com"][min-length="2000"][max-length="
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/152943
+@@||s2-prod.dailystar.co.uk/@trinitymirrordigital/withnail/lib/prebid/pubmaticId/pwt.js$domain=dailystar.co.uk
 ! https://github.com/AdguardTeam/AdguardFilters/issues/151186
 news.infoseek.co.jp#@#.ad_area
 ! https://github.com/AdguardTeam/AdguardFilters/issues/147950
@@ -2798,6 +2800,7 @@ deviantart.com#@#.mobile-ad
 @@||trc.taboola.com/samsung-browser-us$domain=samsung.com|thestartmagazine.com|taboolanews.com
 !+ PLATFORM(ext_android_cb)
 @@||news.internet.apps.samsung.com^$generichide
+
 !---------------------------------------------------------------------------!
 !-------------- Rules for specific websites --------------------------------!
 !---------------------------------------------------------------------------!
@@ -2855,6 +2858,9 @@ memo.onl.jp,daily-sun.com,home.kingsoft.jp,berkem.ru,pixiv.net,cartoonpornvideos
 ! ##.ad
 xataka.com.mx,shikiho.toyokeizai.net,newsee-media.com,rank1-media.com,m.proporn.com,rakuraku-info.jp,sugoren.com,dailynewsonline.jp,yakuji.co.jp,asahi.com,m.winporn.com,slate.com,sankei.com,gameranbu.jp,seiga.nicovideo.jp,m.arukikata.co.jp,setn.com,hateblo.jp,hatenablog.com,hatenablog.jp,hatenadiary.com,hatenadiary.jp,hatenadiary.org,syosetu.org##.ad
 !
+! Start specific
+!
+ytboob.com##.happy-header-mobile
 newmatosoku.com##.uresuji-waku
 newmatosoku.com##.side > div.stxt1
 gameleaks.org##iframe[id^="IFTG"]
