@@ -79,6 +79,10 @@
 ! Bad: example.org###rek (should be in specific.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/153836
+weather.com#%#//scriptlet('set-constant', 'DprSdk', 'emptyObj')
+weather.com#%#//scriptlet('set-constant', 'DprSdk.init', 'noopFunc')
+weather.com#%#//scriptlet('set-constant', 'DprSdk.setHooks', 'noopFunc')
 ! reddit.com - analytics
 reddit.com#%#//scriptlet('set-constant', 'navigator.sendBeacon', 'noopFunc')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/152966
@@ -500,6 +504,7 @@ prjaga.ru#?##right > div#right_nav > h3:contains(Онлайн статистик
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||cdn.tercept.com^$third-party
 ||talpa-analytics.$third-party
 ||dna8twue3dlxq.cloudfront.net^
 ||public.profitwell.com^
@@ -38263,6 +38268,8 @@ _tracking.php?b=
 /analytics.js$domain=resumes.breakdownexpress.com|techcult.com|inbox.lv|kopeda.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|newsmax.com|bolgehastanesi.com|ewtc.de|newsdig.tbs.co.jp|imore.com|city.kushiro.lg.jp|emeraldbridal.com.au|emarat-news.ae|imobie.jp|tikla.com.tr|rusvideos.porn
 ||assets.adobedtm.com^$domain=mcclatchydc.com|elnuevoherald.com|bellinghamherald.com|sacbee.com|charlotteobserver.com|newsobserver.com|miamiherald.com|ef.ru|algida.com.tr|bmw-motorrad.co.uk|cif.com.tr|clearhaircare.com|domestos.com|dove.com|elidor.com.tr|f1sport.autorevue.cz|geico.com|hellmanns.com.tr|herkessofraya.com|johnsonsbaby.com.tr|lipton.com|lnk.to|lux.com|magnumicecream.com|neutrogena.com.tr|omo.com|rexona.com|samsung.com|sap.com|schwarzkopf.com.tr|signalturkiye.com|msnbc.com|nbcnews.com|kbb.com|eurosport.ru|timgate.it|intermiles.com|oxfordmail.co.uk|spiegel.de|hp.com|deutschepost.de|thebay.com|s.shufoo.net|tsn.ca|tabelog.com|euronews.com|newshub.co.nz|fredmeyer.com|viabcp.com|carsales.com.au|falabella.com
 !
+||reebok.eu/*/trackings|
+||cdn.almamedia.tech/esm/geo-client/
 ||reddit.com/svc/shreddit/perfMetrics
 ||static.ws.126.net/f2e/products/analysis/
 ||sport.ua/pixel/$image
@@ -39307,7 +39314,6 @@ news.biglobe.ne.jp##div[style="min-height: 610px"]
 ||webapp-middleware.21buttons.com/event_log/
 ||dailymail.co.uk/geo/edgedata.html
 ||cbsivideo.com/measurements/
-||cm.bilibili.com/cm/api/$xmlhttprequest
 ||feeds.ibt.com/track.gif
 ||paypal.com/webapps/mch/cmd/?
 ||paypal.com/platform/tealeaftarget
@@ -40064,7 +40070,7 @@ android-tools.ru###text-8
 ||g2insights-cdn.azureedge.net/*/mng/g2insights.min.js
 animespirit.*###CollapsiblePanel_Statistics
 ||weather.com/weather/assets/omniture-visitorapi.*.js
-||weather.com/api/v*/script/dprSdkScript.js
+||weather.com/api/v*/script/dprSdkScript.js$script,redirect=noopjs
 ||weather.com/weather/assets/omniture-app-measurement.*.js
 ||dtiblog.com/hist_count.
 ||amazonaws.com/*/trackpush.min.js
