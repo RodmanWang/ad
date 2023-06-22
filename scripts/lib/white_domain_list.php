@@ -7,7 +7,6 @@
 //value=1,代表其下级域名全部加白（例如3级域名，则其4级子域名全部加白）
 //value=2,代表仅加白主域名及其子域名，即如果是主域名，加白全部，如果是子域名，加白命中的单条
 // Formatter: https://www.duplichecker.com/php-formatter
-
 return [
     "cdn-thumb.fds.api.xiaomi.com" => 0,
     "bce.baidu.com" => 0,
@@ -399,6 +398,12 @@ return [
     "www.mairuan.net" => 0, #772
     "ldmnq.com" => 0, #787
     "heytapimage.com" => 0, #779, #780
+    "fexclick.baidu.com" => 0, #790
+    "jango.com" => 0, #797
+    "huluxia.com" => 0, #798
+    "ucweb.com" => 0, #801
+    "yule.sohu.com" => 0, // #802
+    "weworkremotely.com" => 0, // #803
     "iflow.uczzd.cn" => 0, // uc搞笑段子
     "m.uczzd.cn" => 0, // uc搞笑段子
     "puds.ucweb.com" => 0, // uc小游戏
@@ -416,8 +421,7 @@ return [
     "appspot.com" => -1,
     "cpm.cm.kankan.com" => -1, //-1 失效本条规则，保持现状，即不加白本域名
     "deliver.ifeng.com" => -1, //保留的dead-hosts，为了缩减其子域名
-    "ad.xiaomi.com" => -1, //保留的dead-hosts，为了缩减其子域名
-
+    "ad.xiaomi.com" => -1, //保留的dead-hosts，为了缩减其子域名 
     /**notracking 提议加白的一批域名 start**/
     "scribol.com" => 0,
     "tracking.epicgames.com" => 0,
@@ -450,8 +454,7 @@ return [
     "dynatrace.com" => 0,
     "auditude.com" => 0,
     "app.link" => 0,
-    /**notracking 提议加白的一批域名 end**/
-
+    /**notracking 提议加白的一批域名 end**/ 
     "activate.adobe.com" => 0,
     "ereg.adobe.com" => 0,
     "hlrcv.stage.adobe.com" => 0,
@@ -478,3 +481,4 @@ return [
     "binaryage.com" => 1,
     "wisecleaner.com" => 1,
 ];
+ 
