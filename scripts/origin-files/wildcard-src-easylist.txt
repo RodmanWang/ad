@@ -99,7 +99,9 @@
 ||geoloc*.geo20120530.com^
 ||geoloc*.geostats.ovh^
 ||geoloc*.geovisite.ovh^
+||gmx.*^$removeparam=mc
 ||gscounters.*.gigya.com^
+||hog.*^$removeparam=ad
 ||host*.carl-ras.dk^
 ||host*.ncoi.nl^
 ||host*.nti.nl^
@@ -136,6 +138,8 @@
 ||logger-*.dailymotion.com^
 ||logs*.smithsonian.museum^$third-party
 ||logservice-*.platform.dbankcloud.cn^
+||lotto.gmx.*^$removeparam=advertisementId
+||lotto.gmx.*^$removeparam=partnerId
 ||lt*.tritondigital.com^
 ||lts*.qq.com^*.ts?index=$media,redirect=noopmp3-0.1s,domain=qq.com
 ||maas-*.phunware.com^
@@ -156,6 +160,7 @@
 ||pixel-*.rubiconproject.com^
 ||pixelapi-*.cs.mysamba.tv^
 ||play*.videos.vidto.me^
+||play.google.*^$removeparam=referrer
 ||popup*.lifterapps.com^$domain=linuxandubuntu.com
 ||prebid-*.rubiconproject.com^
 ||production-adserver-*.amazonaws.com^
@@ -174,6 +179,7 @@
 ||same*.stockstar.com^
 ||sdk.*.braze.com^$third-party
 ||sensorsdata*.read.duokan.com^
+||shopping.gmx.*^$removeparam=origin
 ||snowplow-collector-*.amazonaws.com^$third-party
 ||sock*-goguardian.pusher.com^
 ||ssh.*.com^*!$script,third-party
@@ -199,6 +205,8 @@
 ||v*.sitecounter.site^$third-party
 ||vix.*.criteo.net^$domain=spiegel.de
 ||vns86.oss-*.aliyuncs.com^
+||weibo.*^$removeparam=dt_dapp
+||weibo.*^$removeparam=weibo_id
 ||widget-v*.tidiochat.com^$third-party
 ||www.fuze-hill*.xyz^$popup
 ||www.fuze-sea*.xyz^$popup

@@ -944,6 +944,7 @@
 ||1p1eqpotato.com^
 ||1p8ln1dtr.de^
 ||1papa.top^
+||1password.university^$removeparam=utm_ref
 ||1pel.com^$third-party
 ||1phads.com^
 ||1phads.com^$popup
@@ -3509,6 +3510,8 @@
 ||7mx.eider.com^
 ||7mx.eidershop.com^
 ||7nekc.icu^
+||7net.omni7.jp^$removeparam=intpr
+||7net.omni7.jp^$removeparam=intpr2
 ||7oc5b1i3v4iu.top^
 ||7oc5b1i3v4iu.top^$popup
 ||7pisem.com^$third-party
@@ -7714,6 +7717,7 @@
 ||ad.52av.tv^
 ||ad.about.co.kr^
 ||ad.aceplanet.co.kr^
+||ad.admitad.com^$removeparam=/^subid/
 ||ad.aim-universe.co.jp^
 ||ad.animehub.ac^
 ||ad.animeitaly.org^
@@ -7734,6 +7738,7 @@
 ||ad.ccement.com^
 ||ad.cdnjm.cn^
 ||ad.daum.net^
+||ad.doubleclick.net/ddm/trackclk/$removeparam=/^dc_trk_/
 ||ad.doubleclick.net^
 ||ad.duapps.com^
 ||ad.duttak.com^
@@ -8453,6 +8458,8 @@
 ||aditize.com^$third-party
 ||adixkr.culturekings.com.au^
 ||adj.st^
+||adj.st^$removeparam=CollectionId
+||adj.st^$removeparam=adjust_deeplink
 ||adjal.com^$third-party
 ||adjb.5nd.com^
 ||adjectivedollaralmost.com^
@@ -8470,6 +8477,7 @@
 ||adjuggler.net^$popup
 ||adjuggler.net^$third-party
 ||adjungle.com^$third-party
+||adjust.com^$removeparam=adgroup
 ||adjust.com^$script,third-party
 ||adjust.com^$third-party
 ||adjustbedevilsweep.com^
@@ -8854,6 +8862,8 @@
 ||adorablecaravandominion.com^
 ||adorableold.com^
 ||adorablespace.pro^
+||adorama.com^$removeparam=bc_pid
+||adorama.com^$removeparam=obem
 ||adorazanna.com^
 ||adoric.com^$third-party
 ||adorika.com^$third-party
@@ -9203,6 +9213,7 @@
 ||adsgard.aprod.scopely.io^
 ||adsgig.com^
 ||adshack.com^
+||adshares.net^$removeparam=cid
 ||adshares.net^$third-party
 ||adshell.net^$popup
 ||adshexa.com^
@@ -9650,6 +9661,7 @@
 ||adwebone.com^$third-party
 ||adwebster.com^$third-party
 ||adweek.com^$cookie=aw-article-visits
+||adweek.com^$removeparam=traffic_source
 ||adwhirl.com^
 ||adwiretracker.fwix.com^
 ||adwods.com^
@@ -10477,6 +10489,7 @@
 ||agnezanna.com^
 ||agnptjjoajduje6y.sparta.members.tt.omtrdc.net^
 ||agnrcrpwyyn.com^
+||agoda.com^$removeparam=tag
 ||agogoussis1d.tt.omtrdc.net^
 ||agonybedroom.com^
 ||agooxouy.net^
@@ -11239,6 +11252,7 @@
 ||alitui.weibo.com^
 ||aliveachiever.com^$third-party
 ||alivelivevideos.com^
+||aliyun.com^$removeparam=scm
 ||aliyun6969.cn^
 ||aliyuncs.com^$domain=5kym.com
 ||aliyuncs.com^$domain=9xav.cc
@@ -11688,6 +11702,8 @@
 ||amdjcmyqcg.com^
 ||amds123.tt.omtrdc.net^
 ||amebanbiglot.uno^
+||ameblo.jp^$removeparam=adxarea
+||ameblo.jp^$removeparam=frm_id
 ||amedeosilvery.com^
 ||ameliafa.albyee.tt.omtrdc.net^
 ||ameliafa2.percy.tt.omtrdc.net^
@@ -13359,6 +13375,8 @@
 ||api.content.stage.tt.omtrdc.net^
 ||api.contentpass.net/stats^
 ||api.crittercism.com^
+||api.cxense.com^$removeparam=/^cx_/
+||api.cxense.com^$removeparam=/^pickup_list_click/
 ||api.cyber.crossfeed.tt.omtrdc.net^
 ||api.dailymotion.com^$domain=philstarlife.com
 ||api.data-analytics.pokemon.com^
@@ -13729,10 +13747,19 @@
 ||app.12thman.com^
 ||app.12thmanfoundation.com^
 ||app.3d.ultimaker.com^
+||app.5-delivery.ru^$removeparam=c
+||app.5-delivery.ru^$removeparam=pid
 ||app.aaas-science.org^
 ||app.accelerate.zoominfo.com^
 ||app.adjust.com^$app=com.easybrain.nonogram|ru.pikabu.android|com.maroieqrwlk.unpin|com.touchtao.soccerkinggoogle|com.mobirix.zumaking2|com.mobirix.swipebrick2|com.mobirix.mahjongking2|com.mobirix.hit7.casino.slots|com.mobirix.gmm|com.mobirix.fishingchampionship|com.mobirix.airhockey|com.mobirix.abmon|com.mobirix.MultiplyWar
 ||app.adjust.com^$redirect=nooptext,app=com.ilike.cartoon,important
+||app.adjust.com^$removeparam=/^event_callback_/
+||app.adjust.com^$removeparam=campaign
+||app.adjust.com^$removeparam=creative
+||app.adjust.com^$removeparam=install_callback
+||app.adjust.com^$removeparam=ip_address
+||app.adjust.com^$removeparam=nend_click_id
+||app.adjust.com^$removeparam=user_agent
 ||app.adjust.io^
 ||app.adjust.net.in^
 ||app.adjust.world^
@@ -14125,8 +14152,13 @@
 ||apple-val.looksmart.com^
 ||apple.analnoe24.com^
 ||apple.arabtoons.net^
+||apple.com^$removeparam=afid
+||apple.com^$removeparam=cid
+||apple.com^$removeparam=ct
+||apple.com^$removeparam=pt
 ||apple.tt.omtrdc.net^
 ||apple.www.letv.com^
+||applesfera.com^$cookie=NID
 ||applesometimes.com^
 ||applicantpoachmeat.com^
 ||applicatifs.ricoh.fr^
@@ -14205,6 +14237,7 @@
 ||apprefaculty.pro^$all
 ||apprefaculty.pro^$popup
 ||appreinforce-crmcn.tele.tt.omtrdc.net^
+||approach.yahoo.co.jp^$removeparam=code
 ||approachconducted.com^
 ||approachemployflashy.com^
 ||approachingrat.com^
@@ -14424,6 +14457,7 @@
 ||arcanacoelestia.tt.omtrdc.net^
 ||arccarterultimate.com^
 ||arccdyvgh.com^
+||arcelik.com.tr^$removeparam=ref
 ||arcelikas.tt.omtrdc.net^
 ||arcfctypact.top^
 ||arcgis-ops01.tt.omtrdc.net^
@@ -14792,6 +14826,9 @@
 ||asadcdn.com/bt^
 ||asadventure.tt.omtrdc.net^
 ||asafesite.com^
+||asahi.com^$removeparam=cid
+||asahi.com^$removeparam=iref
+||asahi.com^$removeparam=ref
 ||asahikaseimicrodevic.tt.omtrdc.net^
 ||asaini22.meraki-go.tt.omtrdc.net^
 ||asaini55.meraki-go.tt.omtrdc.net^
@@ -15373,6 +15410,7 @@
 ||atlascopco.tt.omtrdc.net^
 ||atlasfiles.com^*/sp3_ep.js$third-party
 ||atlassian-stagin-assets-stagin-assets.tt.omtrdc.net^
+||atlassian.net^$removeparam=atlOrigin
 ||atlcdpcsyndb01-oam.wireless.labs.tt.omtrdc.net^
 ||atlctrns02.tt.omtrdc.net^
 ||atlivr-beta3.psb.tt.omtrdc.net^
@@ -15642,6 +15680,8 @@
 ||auecjq.millet.fr^
 ||auekaldeplvmsr.com^
 ||auenpwrjv.com^
+||aufast.co^$removeparam=/^utm_/
+||aufast.co^$removeparam=clickid
 ||aufeeque.com^
 ||auforau.com^
 ||auforau.com^$popup
@@ -16382,6 +16422,13 @@
 ||awake1.new.tt.omtrdc.net^
 ||awakebird.com^$third-party
 ||awakeexterior.com^
+||awaliwa.com^$removeparam=acr
+||awaliwa.com^$removeparam=bd_vid
+||awaliwa.com^$removeparam=c
+||awaliwa.com^$removeparam=lg
+||awaliwa.com^$removeparam=old
+||awaliwa.com^$removeparam=s
+||awaliwa.com^$removeparam=z
 ||awaltundo.com^
 ||awap-domus.wse.wse.tt.omtrdc.net^
 ||awap.equifax.com^
@@ -16447,6 +16494,9 @@
 ||awiczn4d8nfmqo.sparta.members.tt.omtrdc.net^
 ||awifi.cn^$third-party
 ||awikom5.tt.omtrdc.net^
+||awin1.com^$removeparam=awinaffid
+||awin1.com^$removeparam=clickref
+||awin1.com^$removeparam=linkid
 ||awin1.com^$third-party
 ||awis.kia-r.tt.omtrdc.net^
 ||awjljftjplprdml.com^
@@ -16639,6 +16689,7 @@
 ||azapps-jp.tt.omtrdc.net^
 ||azautoauto.tt.omtrdc.net^
 ||azbodrmufaq.com^
+||azby.fmworld.net^$removeparam=mc_pc
 ||azdadf.com^
 ||azdxypf.cn^
 ||azelaiclawyer.com^
@@ -17231,6 +17282,7 @@
 ||bangedavenge.com^
 ||bangedprone.com^
 ||bangedwouldrecorded.com^
+||banggood.com^$removeparam=utmid
 ||bangingpunk.com^
 ||bangready.com^$third-party
 ||bangtopads.com^
@@ -17455,6 +17507,7 @@
 ||basisweb.basisweb-ap.tt.omtrdc.net^
 ||basiun.com^
 ||basketballbelieve.com^$third-party
+||basketballking.jp^$removeparam=cx_art
 ||baskettexture.com^$third-party
 ||basquedplotx.store^
 ||bass-rol.tt.omtrdc.net^
@@ -18165,6 +18218,7 @@
 ||belstat.de^$third-party
 ||belstat.fr^$third-party
 ||belstat.nl^$third-party
+||belta.co.jp^$removeparam=cid
 ||beltowski82.tt.omtrdc.net^
 ||beltudri.com^
 ||beludicolor.com^
@@ -18823,6 +18877,7 @@
 ||bilanx.dcard.tw^$app=com.sparkslab.dcardreader
 ||bilanx.dtto.com^$app=com.dtto.app
 ||bilbasen.tns-gallup.dk^
+||bild.de^$removeparam=t_ref
 ||bild.met.vgwort.de^
 ||bildirim.eu^$third-party
 ||bildirim.net^$third-party
@@ -18835,6 +18890,16 @@
 ||bilgebotchy.com^
 ||bilgerak.com^
 ||bili96.co^
+||bilibili.com^$removeparam=from_spm_id
+||bilibili.com^$removeparam=seid
+||bilibili.com^$removeparam=share_medium
+||bilibili.com^$removeparam=share_plat
+||bilibili.com^$removeparam=share_session_id
+||bilibili.com^$removeparam=share_source
+||bilibili.com^$removeparam=share_tag
+||bilibili.com^$removeparam=spm_id_from
+||bilibili.com^$removeparam=timestamp
+||bilibili.com^$removeparam=unique_k
 ||bilingualfestive.com^
 ||bilkedsquit.com^
 ||bilkerlouisa.com^
@@ -19271,6 +19336,7 @@
 ||blog.tagcentral.fr^
 ||blog.trinityconsultants.com^
 ||blog.tt.omtrdc.net^
+||blog.twitch.tv^$removeparam=/web_only|_branch_referrer/
 ||blog.wy.tide-test.sre.sre.tt.omtrdc.net^
 ||blog09.onlineauth.prod.tt.omtrdc.net^
 ||blog1.kronos.tt.omtrdc.net^
@@ -19344,6 +19410,7 @@
 ||bloodyfrighten.com^
 ||bloodyhandstudios.tt.omtrdc.net^
 ||blooks.info^
+||bloomberg.com^$removeparam=leadSource
 ||bloomsgoas.com^
 ||blossom-xplorer.tt.omtrdc.net^
 ||blossoms.com^$third-party
@@ -19601,6 +19668,7 @@
 ||boardlanguishguarded.com^
 ||boardriders.tt.omtrdc.net^
 ||boards-ropsten-cn.tt.omtrdc.net^
+||boards.greenhouse.io^$removeparam=ref
 ||boards.pbe.tt.omtrdc.net^
 ||boards51.tt.omtrdc.net^
 ||boardwalk.tt.omtrdc.net^
@@ -20206,6 +20274,7 @@
 ||brazeratarheel.com^
 ||brazil-brazil-tienda.api.tt.omtrdc.net^
 ||brazil-helpdesk.tt.omtrdc.net^
+||brazzers.com^$removeparam=ats
 ||brazzerssurvey.com^$all
 ||brcdn.com^$third-party
 ||brdoodles.tt.omtrdc.net^
@@ -20715,6 +20784,7 @@
 ||bunnimide.com^
 ||bunny-net.com^$third-party
 ||bunnymediaserver.com^
+||bunte.de^$removeparam=umt_source
 ||bunth.net^
 ||bunth.net^$popup
 ||buochxuvhmewc.com^
@@ -20889,6 +20959,7 @@
 ||buzzcity.net^$third-party
 ||buzzcom2.tt.omtrdc.net^
 ||buzzdeck.com^$third-party
+||buzzfeednews.com^$removeparam=ref
 ||buzzonclick.com^
 ||buzzonclick.com^$third-party
 ||buzzoola.com^$third-party
@@ -21431,6 +21502,9 @@
 ||cam-test.aws.tt.omtrdc.net^
 ||cam.javboys.cam^
 ||cam4.com/directoryFanClubs^
+||cam4.com^$removeparam=act
+||cam4.com^$removeparam=showSignupPopup
+||cam4.com^$removeparam=suid
 ||cam4.com^*&utm_source=$popup
 ||cam4flat.com^$third-party
 ||cam4tracking.com^$popup
@@ -21507,6 +21581,10 @@
 ||campaigns-es.opentext.com^
 ||campaigns-fr.opentext.com^
 ||campaigns-it.opentext.com^
+||campaigns-serving.cognativex.com^$xmlhttprequest,removeparam=device_code
+||campaigns-serving.cognativex.com^$xmlhttprequest,removeparam=exc_ads
+||campaigns-serving.cognativex.com^$xmlhttprequest,removeparam=history_adids
+||campaigns-serving.cognativex.com^$xmlhttprequest,removeparam=history_postids
 ||campaigns.amadeus.com^
 ||campaigns.apps-connects.com^$popup
 ||campaigns.ashfieldeventex.com^
@@ -21586,6 +21664,7 @@
 ||canadiantire365.tt.omtrdc.net^
 ||canarahsbclife.tt.omtrdc.net^
 ||canastagruff.com^
+||cancanlah.com^$removeparam=click_id
 ||cancertreatmentcente.tt.omtrdc.net^
 ||candac.iridion.de^
 ||canddi.com^$third-party
@@ -23143,6 +23222,7 @@
 ||chattertasty.com^
 ||chaturbate.com/tours^$third-party
 ||chaturbate.com^$domain=zoomgirls.net,important
+||chaturbate.com^$removeparam=/tour|campaign/,~third-party
 ||chaturgirl.ddns.net^$domain=pornyfap.com|imgtorrnt.in
 ||chaudrep.net^
 ||chaukrgukepers.xyz^
@@ -23239,6 +23319,9 @@
 ||chemicalcoach.com^$third-party
 ||chemicalsnake.com^$third-party
 ||chemie20.jdn.tt.omtrdc.net^
+||chemistwarehouse.com.au^$removeparam=ranEAID
+||chemistwarehouse.com.au^$removeparam=ranMID
+||chemistwarehouse.com.au^$removeparam=ranSiteID
 ||chemitug.net^
 ||chenfoo.cn^
 ||chengaib.net^
@@ -23495,6 +23578,8 @@
 ||chsrkred.com^
 ||cht-cht-exit.tt.omtrdc.net^
 ||cht-nld.tt.omtrdc.net^
+||cht.com.tw^$removeparam=Identifier
+||cht.com.tw^$removeparam=Source
 ||chtntr.com^
 ||chuantu.biz^$domain=7mav2.com|thztv.cc
 ||chuantu.biz^$domain=aotu43.com
@@ -23505,6 +23590,8 @@
 ||chui.tristes.mfisswger.com^
 ||chultoux.com^
 ||chultoux.com^$popup
+||chunichi.co.jp^$removeparam=rct
+||chunichi.co.jp^$removeparam=ref
 ||chunkycactus.com^$third-party
 ||chunmiaosh.com^
 ||chuntian.buzz^
@@ -23608,6 +23695,7 @@
 ||cinarra.com^$third-party
 ||cincinnati-content.cresa.com^
 ||cinek-m-cars.tt.omtrdc.net^
+||cinematoday.jp^$removeparam=g_clk
 ||cinematoday.jp^*/pageviews.min.js
 ||cinemensenoy.xyz^
 ||cineolesloth.com^
@@ -24065,6 +24153,11 @@
 ||click.rollouki.com^
 ||click.scour.com^
 ||click.securetracking.info^
+||click.speee-ad.jp^$removeparam=os
+||click.speee-ad.jp^$removeparam=ref
+||click.speee-ad.jp^$removeparam=sess_id
+||click.speee-ad.jp^$removeparam=slot_index
+||click.speee-ad.jp^$removeparam=v
 ||click.taobao.com^$popup,domain=steamcn.com
 ||click.trackconv.online^
 ||click.udimg.com^
@@ -24776,6 +24869,8 @@
 ||cnameforitp.dermed.jp^
 ||cnapp.boxqa-2.tt.omtrdc.net^
 ||cnb6565.ta.tt.omtrdc.net^
+||cnbc.com^$removeparam=__source
+||cnbc.com^$removeparam=par
 ||cnblogs.com^*/sideColumnAd?
 ||cnbole.net^
 ||cnccvsw.tt.omtrdc.net^
@@ -24802,6 +24897,7 @@
 ||cnmailch.api.tt.omtrdc.net^
 ||cnmailch05.api-2.tt.omtrdc.net^
 ||cnmmcjn.cn^
+||cnn.co.jp^$removeparam=ref
 ||cnnanxing.mobi^
 ||cnnected.org^
 ||cnno-cnno.thinkreality1.thinkreality-qa.tt.omtrdc.net^
@@ -24901,6 +24997,9 @@
 ||cocoachviver.com^
 ||cococptmcu.com^
 ||cocona-foliobranchiate-nonalkaloid.s3.us-west-004.tt.omtrdc.net^
+||coconala.com^$removeparam=ref
+||coconala.com^$removeparam=ref_kind
+||coconala.com^$removeparam=ref_no
 ||coconutsoftenedput.com^
 ||coconutsumptuousreseptivereseptive.com^
 ||cocoonelectronicsconfined.com^
@@ -25198,6 +25297,7 @@
 ||coltseaman.com^
 ||colum-rvb.com^
 ||columbia5.tt.omtrdc.net^
+||column.sp.baseball.findfriends.jp^$removeparam=from
 ||columnisterror.com^
 ||columnsremembrancesoap.com^
 ||colved.com^
@@ -25362,6 +25462,9 @@
 ||community3b.tls.tt.omtrdc.net^
 ||communityeducation.tt.omtrdc.net^
 ||communitypiv.piv.tt.omtrdc.net^
+||comodo.com^$removeparam=af
+||comodo.com^$removeparam=key5sk1
+||comodo.com^$removeparam=track
 ||comoeres.tt.omtrdc.net^
 ||comoros.coupon.tt.omtrdc.net^
 ||comoros.namibia2.tt.omtrdc.net^
@@ -26228,6 +26331,10 @@
 ||coolappland2.com^
 ||coolappland3.com^
 ||coolappland4.com^
+||coolblue.nl^$removeparam=PHGref
+||coolblue.nl^$removeparam=clickref
+||coolblue.nl^$removeparam=cmt
+||coolblue.nl^$removeparam=ref
 ||coolbook.cc^
 ||coolerads.com^$third-party
 ||coolfenxi.com^
@@ -26405,6 +26512,8 @@
 ||cosmosbot.chat.tt.omtrdc.net^
 ||cosmosjackson.com^$third-party
 ||cosmosprivate-scredianterchantal.tt.omtrdc.net^
+||cosse.de^$removeparam=referer
+||cosse.de^$removeparam=sPartner
 ||cost1action.com^$third-party
 ||costaction.com^$third-party
 ||costalimited.tt.omtrdc.net^
@@ -26567,12 +26676,17 @@
 ||countvoncount.goguardian.com^
 ||countyou.de^$third-party
 ||countz.com^$third-party
+||coupang.com^$removeparam=traceid
+||coupang.com^$removeparam=wPcid
+||coupang.com^$removeparam=wRef
+||coupang.com^$removeparam=wTime
 ||coupdisturb.com^
 ||coupdisturb.com^$popup
 ||couphait.net^
 ||coupleairplane.com^
 ||couplestupidity.com^
 ||couponcp-a.akamaihd.net^
+||coupondunia.in^$removeparam=itm_source
 ||coupsonu.net^
 ||couptoug.net^
 ||courierregistered.com^
@@ -26582,6 +26696,7 @@
 ||coursedelivery.lms.prod.tt.omtrdc.net^
 ||courselfnorter.xyz^
 ||courseptr-prod.tt.omtrdc.net^
+||coursera.org^$removeparam=siteID
 ||courses-content.stella.delmar.tt.omtrdc.net^
 ||courses.cpe.tt.omtrdc.net^
 ||courses1-sso.tt.omtrdc.net^
@@ -26968,6 +27083,7 @@
 ||creative.thefaplive.com^
 ||creative.ytboob.live^$third-party
 ||creativecdn.com^$third-party
+||creativecloud.adobe.com^$removeparam=trackingid
 ||creativecommons.org^$image,third-party
 ||creativedisplayformat.com^
 ||creativefactory.zalando.de/impressions^
@@ -27766,6 +27882,7 @@
 ||cyan92010.com^
 ||cyan92010.com^$popup
 ||cyavault.aavi.tt.omtrdc.net^
+||cyber-ad01.cc^$removeparam=ip
 ||cyber-guard.me^$popup
 ||cyber-pages.att.com^
 ||cyber-tracking.att.com^
@@ -27775,6 +27892,7 @@
 ||cyberanalytics.nl^
 ||cyberark.picassodev.tt.omtrdc.net^
 ||cyberark.tt.omtrdc.net^
+||cyberlink.com^$removeparam=affid
 ||cyberlink.pro^$popup
 ||cybermonitor.com^$third-party
 ||cybernetentertainment.com^$third-party
@@ -27846,6 +27964,7 @@
 ||d-log.asahi.co.jp^
 ||d-log.bs-asahi.tv^
 ||d-log.tv-asahi.co.jp^
+||d-markets.net^$removeparam=ref
 ||d-mpiv.gis.tt.omtrdc.net^
 ||d-test.39.net^
 ||d-www.learnlife.tt.omtrdc.net^
@@ -28802,6 +28921,7 @@
 ||dailymail.co.uk^$cookie=latest-article-count
 ||dailymail.co.uk^$cookie=mol.ads.visits
 ||dailymail.co.uk^$cookie=mol.ads.visitsExpire
+||dailymail.co.uk^$removeparam=ito
 ||dailymail.co.uk^*/linkListItem-$domain=thisismoney.co.uk
 ||dailymotion-ams.gravityrd-services.com^
 ||dailymotion.com^*/log/
@@ -31815,6 +31935,7 @@
 ||deepdive.zum.com^
 ||deepermagnes.com^
 ||deepintent.com^$third-party
+||deepl.com^$removeparam=cta
 ||deepmetrix.com^
 ||deeptorrent-broker-qa.erc.tt.omtrdc.net^
 ||deer.m1x.co^
@@ -31823,6 +31944,7 @@
 ||deere.tt.omtrdc.net^
 ||deethout.net^
 ||deewansturacin.com^
+||deezer.com^$removeparam=origin
 ||def-platform.com^
 ||def1-8.tt.omtrdc.net^
 ||def1.optimhome-recrutement.com^
@@ -31847,6 +31969,7 @@
 ||defense.hlg.tt.omtrdc.net^
 ||defenseneckpresent.com^
 ||defenseneckpresent.com^$popup
+||defenseone.com^$removeparam=oref
 ||defensetraverse.com^
 ||defensiveevidence.pro^
 ||defetohi.com^
@@ -31964,6 +32087,7 @@
 ||deliverytrafficnews.com^
 ||deliverytraffico.com^
 ||deliverytraffnews.com^
+||dell.com^$removeparam=gacd
 ||dell.md-hs.tt.omtrdc.net^
 ||dell1-42.us.tt.omtrdc.net^
 ||dell15-42-ps.us.tt.omtrdc.net^
@@ -32104,6 +32228,7 @@
 ||deneorphan.com^
 ||denetsuk.com^
 ||dengbalt.fun^
+||dengekionline.com^$removeparam=osusume_banner
 ||dengelmeg.com^
 ||denghaishan1.cn^
 ||dengtao.link^
@@ -32615,6 +32740,7 @@
 ||dhcpcoms.tt.omtrdc.net^
 ||dherea.site^
 ||dhifmejtw.com^
+||dhits.docomo.ne.jp^$removeparam=affiliate
 ||dhl-05.tt.omtrdc.net^
 ||dhl.135320.com^
 ||dhl3s.tt.omtrdc.net^
@@ -32783,6 +32909,7 @@
 ||dietaryexpanded.com^$popup
 ||dietlinde.ash1.tt.omtrdc.net^
 ||dietmatome.tt.omtrdc.net^
+||dietpartner.jp^$removeparam=from
 ||dietslawine.com^
 ||diettttoglf.com^
 ||dieved.com^
@@ -32812,6 +32939,7 @@
 ||digidocs.edr.edr.tt.omtrdc.net^
 ||digidocs.fsso-id.tt.omtrdc.net^
 ||digifresh360.tt.omtrdc.net^
+||digikey.com^$removeparam=/^utm_cid/
 ||digipathmedia.com^$third-party
 ||digipush.io^$third-party
 ||digiseller.ru^$domain=megaoblako.ru
@@ -33482,10 +33610,14 @@
 ||dmiredindeed.com^
 ||dmiredindeed.com^$popup
 ||dmkdtkad2jyb9.cloudfront.net^
+||dmkt-sp.jp^$removeparam=impressionId
 ||dmkt.point-ad-game.com^
 ||dmkt.solutions.cas.org^
 ||dmm-video.online^
 ||dmm.aizhan.com^
+||dmm.co.jp^$removeparam=dmmref
+||dmm.co.jp^$removeparam=i3_ord
+||dmm.co.jp^$removeparam=i3_ref
 ||dmm.tt.omtrdc.net^
 ||dmm3.premera.tt.tt.tt.omtrdc.net^
 ||dmmzkfd82wayn.cloudfront.net^
@@ -33664,6 +33796,10 @@
 ||docsend5ventures.tt.omtrdc.net^
 ||docspp.tt.omtrdc.net^
 ||docstest.hup.tt.omtrdc.net^
+||doctolib.de^$removeparam=utm_button
+||doctolib.de^$removeparam=utm_content-group
+||doctolib.de^$removeparam=utm_page-url
+||doctolib.de^$removeparam=utm_website
 ||doctorenticeflashlights.com^
 ||doctorhousing.com^
 ||doctorpost.net^
@@ -33931,6 +34067,8 @@
 ||dotserver.douyucdn.cn^
 ||dotsourcegmbhpartner.tt.omtrdc.net^
 ||douanier-rousseau.paysdelaloire.tt.omtrdc.net^
+||douban.com^$removeparam=_i
+||douban.com^$removeparam=dt_platform
 ||douban.com^*/fm_bgad.js
 ||doubanio.com^*/js/ad.
 ||double-check.com^
@@ -34011,6 +34149,8 @@
 ||download.howtosellahouse.info^
 ||download.karma-ios.tt.omtrdc.net^
 ||download.karma2.tt.omtrdc.net^
+||download.mozilla.org^$removeparam=attribution_code
+||download.mozilla.org^$removeparam=attribution_sig
 ||download.tracked.one^
 ||download.vcdn.cit.cc.api.tt.omtrdc.net^
 ||download02.buh.gts.tt.omtrdc.net^
@@ -34570,6 +34710,7 @@
 ||ducubchooa.com^
 ||ducubchooa.com^$popup
 ||ducvkabzox.com^
+||duda.co^$removeparam=irclickid
 ||dudair.com^
 ||dudaixou.com^
 ||dudasouza.tt.omtrdc.net^
@@ -34895,6 +35036,8 @@
 ||dz6uw9vrm7nx6.cloudfront.net^
 ||dz7c.tt.omtrdc.net^
 ||dzdgfp673c1p0.cloudfront.net^
+||dzen.ru^$removeparam=persistent_id
+||dzen.ru^$removeparam=stid
 ||dzhang.carl.tt.omtrdc.net^
 ||dzhjmp.com^
 ||dzhjmp.com^$popup
@@ -35733,6 +35876,7 @@
 ||edition25.com^
 ||editionlingerexpanded.com^
 ||editionslap.com^$popup
+||editor.flixier.com^$removeparam=/fx_(source|medium|campaign)/
 ||editor2w.tt.omtrdc.net^
 ||editorpilotlimbs.com^
 ||ediwebtest91.states.tt.omtrdc.net^
@@ -35805,6 +35949,7 @@
 ||edwad.co^
 ||edward0b.tt.omtrdc.net^
 ||edwate.com^
+||edx.org^$removeparam=source
 ||edxdylklmevlfr.com^
 ||edy.l3-pqa.tt.omtrdc.net^
 ||edy.r3-np.ac.tt.omtrdc.net^
@@ -36096,6 +36241,8 @@
 ||ejktj.com^
 ||ejkwc.atlassian-app.eu.tt.omtrdc.net^
 ||ejob.egov.tt.omtrdc.net^
+||ejoker.de^$removeparam=idealoid
+||ejoker.de^$removeparam=sPartner
 ||ejotdqfjazg.com^
 ||ejpzqnqwcszfsz.com^
 ||ejrbgi.tous.com^
@@ -36206,6 +36353,11 @@
 ||elfinsande.website^
 ||elfsight.com^$third-party
 ||elgas.actonservice.com^
+||elgato.com^$removeparam=attribution_window
+||elgato.com^$removeparam=contact_id
+||elgato.com^$removeparam=link_id
+||elgato.com^$removeparam=platform
+||elgato.com^$removeparam=token
 ||elgdkzio.com^
 ||elgweopfp.com^
 ||elhanaa.tt.omtrdc.net^
@@ -37241,6 +37393,7 @@
 ||epicbicn.tt.omtrdc.net^
 ||epicgameads.com^
 ||epicgameads.com^$popup
+||epicgames.com^$removeparam=epic_affiliate
 ||epicprod.app.tt.omtrdc.net^
 ||epicranium.tt.omtrdc.net^
 ||epigaeatoasty.com^
@@ -37602,6 +37755,7 @@
 ||espionagegardenerthicket.com^
 ||espn-cgi.hb.tt.omtrdc.net^
 ||espn-machine.hb.tt.omtrdc.net^
+||espn.com^$removeparam=appsrc
 ||espnctl.hb.tt.omtrdc.net^
 ||espndotcom.tt.omtrdc.net^
 ||esprima.tt.omtrdc.net^
@@ -37894,6 +38048,7 @@
 ||euromot-opole.tt.omtrdc.net^
 ||euromot-res.tt.omtrdc.net^
 ||euromotors74autogroup.tt.omtrdc.net^
+||euronews.com^$removeparam=_ope
 ||europacash.com^
 ||europagerank.com^$third-party
 ||europe-daily.org^$popup
@@ -37992,6 +38147,7 @@
 ||event.getblue.io^$third-party
 ||event.grassicpas.com^
 ||event.hket.com^
+||event.hoken-mammoth.jp^$removeparam=s_mf
 ||event.impression-neo.naver.com^
 ||event.instiengage.com^$third-party
 ||event.jma.or.jp^
@@ -38445,6 +38601,7 @@
 ||exportspring.com^
 ||exposebox.com^$third-party
 ||exposuremixed.com^
+||express.de^$removeparam=cb
 ||express.met.vgwort.de^
 ||expressalike.com^
 ||expresshouse-ksryou.tt.omtrdc.net^
@@ -38726,6 +38883,7 @@
 ||facebook-marketplace-production-web-apps-a-us-east1-2.tt.omtrdc.net^
 ||facebook.com/sem_pixel^
 ||facebook.com^$app=com.veraxen.colorbynumber.oilpainting|com.veraxen.jigsaw|com.veraxen.jigsawpuzzlescollectionhd
+||facebook.com^$removeparam=extid
 ||facebook.com^*/impression_logging/
 ||facebook.com^*/logging/
 ||facebook.com^*/plugins/like.php?$third-party
@@ -38938,6 +39096,14 @@
 ||fapbsbvr-ws.tt.omtrdc.net^
 ||fapcandy.com^$popup,third-party
 ||fapcat.com^$third-party
+||faphouse.com^$removeparam=UserId
+||faphouse.com^$removeparam=login
+||faphouse.com^$removeparam=signature
+||faphouse.com^$removeparam=statsUID
+||faphouse.com^$removeparam=valid
+||faphouse.com^$removeparam=veb
+||faphouse.com^$removeparam=vep
+||faphouse.com^$removeparam=xhUserId
 ||faphouse.com^$subdocument,third-party
 ||fapmeth.com^
 ||fapmeth.com^$popup
@@ -38989,6 +39155,7 @@
 ||fascinatedfeather.com^$third-party
 ||fasdata.fmp.tt.omtrdc.net^
 ||fashion-ext.vdc.tt.omtrdc.net^
+||fashion-press.net^$removeparam=media
 ||fashionablegangsterexplosion.com^
 ||fashionacreak.life^
 ||fashou.wang^
@@ -39556,6 +39723,7 @@
 ||fibers-test-service.logistics-test.tt.omtrdc.net^
 ||fibulascaesar.com^
 ||fic-sped.tt.omtrdc.net^
+||ficbook.net^$removeparam=/premiumVisit|utm_compaign/
 ||fico-rbscdm2.williamsandglyn.jobs.tt.omtrdc.net^
 ||fico8.tt.omtrdc.net^
 ||fictiongroin.com^
@@ -40197,6 +40365,19 @@
 ||flingforyou.com^$popup
 ||flintedkickers.com^
 ||flinthastened.com^
+||flipkart.com^$removeparam=/^affExtParam/
+||flipkart.com^$removeparam=/^otracker/
+||flipkart.com^$removeparam=_refId
+||flipkart.com^$removeparam=affid
+||flipkart.com^$removeparam=cid
+||flipkart.com^$removeparam=cmpid
+||flipkart.com^$removeparam=iid
+||flipkart.com^$removeparam=lid
+||flipkart.com^$removeparam=pageUID
+||flipkart.com^$removeparam=pid
+||flipkart.com^$removeparam=pwsvid
+||flipkart.com^$removeparam=ssid
+||flipkart.com^$removeparam=store
 ||flipkey42-6.tt.omtrdc.net^
 ||flipool.com^
 ||flipp.com^$domain=thetimestribune.com
@@ -40362,6 +40543,7 @@
 ||fmsvsp1fs.fm.tt.omtrdc.net^
 ||fmtc2.tt.omtrdc.net^
 ||fmuabq.lojaadcos.com.br^
+||fmworld.net^$removeparam=from
 ||fmzcdvx.cn^
 ||fn-gateway-ingress-prod-c2-w2.dcaf.dev.use1a.on.tt.omtrdc.net^
 ||fn.deulspoorn.com^
@@ -40465,6 +40647,9 @@
 ||fometh.com^
 ||fomfom.tt.omtrdc.net^
 ||fomwvqu.cn^
+||fon.bet^$removeparam=affijet-click
+||fon.bet^$removeparam=partner_id
+||fon.bet^$removeparam=sub_1
 ||foncc.cn^
 ||fondautographexecution.com^
 ||fondledrunken.com^
@@ -40518,6 +40703,7 @@
 ||forarchenchan.com^
 ||forarchenchan.com^$all
 ||forarchenchan.com^$popup
+||forbes.com^$removeparam=sh
 ||forbidcrenels.com^
 ||forbiddenuneasy.com^
 ||forbitnebris.uno^
@@ -41728,6 +41914,7 @@
 ||galag8.tt.omtrdc.net^
 ||galaks.io^
 ||galanasorra.com^
+||galaxus.de^$removeparam=idealoid
 ||galaxyvandas.website^
 ||galeaeevovae.com^
 ||galegadancy.com^
@@ -41787,6 +41974,7 @@
 ||gamer.mmohuts.com^
 ||gamergirl.pro^$all
 ||gamersad.com^
+||gamersgate.com^$removeparam=caff
 ||gamertag.shop^$all
 ||games-direct.skynetworkcdn.com^$subdocument,third-party
 ||games-stagingd.tt.omtrdc.net^
@@ -41798,6 +41986,7 @@
 ||gamescarousel.com^
 ||gamesfromheaven.com^$popup
 ||gamesims.ru^
+||gamesplanet.com^$removeparam=ref
 ||gamesrevenu24.com^
 ||gamesrevenue.com^
 ||gamesrotator.com^$popup
@@ -42112,6 +42301,8 @@
 ||ge06-old.tt.omtrdc.net^
 ||ge2-cr11.a12.tt.omtrdc.net^
 ||ge6.getfto.com^
+||gearbest.com^$removeparam=cid
+||gearbest.com^$removeparam=lkid
 ||gearsora.com^
 ||geasefloria.com^
 ||gebadu.com^
@@ -42359,6 +42550,8 @@
 ||get-datinghere.life^$popup
 ||get-express-vpn.online^$popup
 ||get-express-vpns.com^$popup
+||get-express-vpns.com^$removeparam=sxid
+||get-express-vpns.com^$removeparam=ttorigin
 ||get-here-click.xyz^
 ||get-into-character.tt.omtrdc.net^
 ||get-me-wow.in^$popup
@@ -42371,6 +42564,12 @@
 ||get-statics.live^
 ||get-supreme-greens-capsules.vitasupreme.com^
 ||get-things-done.net^
+||get.adobe.com^$removeparam=TRILIBIS_EMULATOR_UA
+||get.adobe.com^$removeparam=browser_dist
+||get.adobe.com^$removeparam=browser_type
+||get.adobe.com^$removeparam=promoid
+||get.adobe.com^$removeparam=type
+||get.adobe.com^$removeparam=workflow
 ||get.bellzinc.aol.tt.omtrdc.net^
 ||get.cmpgns.net^
 ||get.com^$third-party
@@ -42444,6 +42643,13 @@
 ||getherefwu.xyz^
 ||getinfo.fullsail.edu^
 ||getinstallmentloanbtc.org^$popup
+||getir.com^$removeparam=af_force_deeplink
+||getir.com^$removeparam=af_xp
+||getir.com^$removeparam=c
+||getir.com^$removeparam=deep_link_value
+||getir.com^$removeparam=is_retargeting
+||getir.com^$removeparam=pid
+||getir.com^$removeparam=shortlink
 ||getiton.com^$third-party
 ||getjad.io^
 ||getkudos.me^$third-party
@@ -42753,6 +42959,9 @@
 ||giold.xyz^
 ||gipahetus.com^$third-party
 ||gipeucn.icu^
+||giphy.com^$removeparam=cid
+||giphy.com^$removeparam=ct
+||giphy.com^$removeparam=rid
 ||gipostart-1.co^
 ||gipozgcz.com^
 ||gipsiesthyrsi.com^
@@ -42801,6 +43010,7 @@
 ||github-auth-prd.tt.omtrdc.net^
 ||github-cucm-3-ms.tt.omtrdc.net^
 ||github.atom-io-staging.tt.omtrdc.net^
+||github.com/signup$removeparam=/^ref_/
 ||github.kidsmovie.tt.omtrdc.net^
 ||github0-28-2.tt.omtrdc.net^
 ||github016-25-8.tt.omtrdc.net^
@@ -42899,6 +43109,7 @@
 ||glaksads.net^
 ||glalsoow.com^
 ||glamhouses.tt.omtrdc.net^
+||glami.cz^$removeparam=/ga[ct]id/
 ||glamorousdescend.com^
 ||glamour-app-admin.tt.omtrdc.net^
 ||glamurama.tt.omtrdc.net^
@@ -43365,6 +43576,7 @@
 ||go.mvtec.com^
 ||go.mwe.com^
 ||go.mysitetrk.site^
+||go.mysku.ru^$removeparam=~r
 ||go.naturadika.it^
 ||go.navepoint.com^
 ||go.netwitness.com^
@@ -43406,6 +43618,9 @@
 ||go.rcvlinks.com^$third-party
 ||go.redanemone.xyz^
 ||go.redimark.com^
+||go.redirectingat.com^$removeparam=id
+||go.redirectingat.com^$removeparam=sref
+||go.redirectingat.com^$removeparam=xcust
 ||go.reico.com^
 ||go.rex-bac-t.com^
 ||go.rigidseat.com^
@@ -43427,6 +43642,8 @@
 ||go.sitesapostasbrasil.com^
 ||go.skillboardusa.com^
 ||go.skillshouse.dk^
+||go.skimresources.com^$document,removeparam=id
+||go.skimresources.com^$document,removeparam=xcust
 ||go.slotscalendar.ro^
 ||go.soaposta.com^
 ||go.solaruniverse.com^
@@ -43496,6 +43713,7 @@
 ||go.wtcmachinery.com^
 ||go.xhamsterlive.com^$popup
 ||go.xlivrdr.com^$removeheader=location
+||go.xlivrdr.com^$removeparam
 ||go.xxxjmp.com^$all
 ||go.yescomusa.com^
 ||go.yourhealthyfitnessjourney.com^
@@ -43692,6 +43910,7 @@
 ||goodkee.cn^
 ||goodlifefitnesscentr.tt.omtrdc.net^
 ||goodmanfielder-dam.tt.omtrdc.net^
+||goodreads.com^$removeparam=ref
 ||goods2you.net^
 ||goodshare.ru^$third-party
 ||goodthings.sweepp.online^
@@ -43779,6 +43998,7 @@
 ||gorillatraffic.xyz^
 ||gorilysacken.website^
 ||gorkt.com^
+||gorodche.ru^$removeparam=utm
 ||gororn.com^
 ||gorpgeu.xyz^
 ||gorskprof2it8og09.com^
@@ -45618,6 +45838,7 @@
 ||headerporkfloral.com^
 ||headerporkfloral.com^$popup
 ||headlightbailey.com^
+||headlines.peta.org^$removeparam=en_txn7
 ||headquarters-travel.tt.omtrdc.net^
 ||headshot.monster^$all
 ||headstonefoamcleaver.com^
@@ -45889,6 +46110,18 @@
 ||hepburn.net.cn^
 ||heportal-mc.tt.omtrdc.net^
 ||hepsaign.com^
+||hepsiburada.com^$removeparam=af_ad
+||hepsiburada.com^$removeparam=af_adset
+||hepsiburada.com^$removeparam=af_click_lookback
+||hepsiburada.com^$removeparam=af_force_deeplink
+||hepsiburada.com^$removeparam=af_xp
+||hepsiburada.com^$removeparam=c
+||hepsiburada.com^$removeparam=is_retargeting
+||hepsiburada.com^$removeparam=pid
+||hepsiburada.com^$removeparam=shortlink
+||hepsiburada.com^$removeparam=wt_af
+||hepsiburada.com^$removeparam=wt_gl
+||hepsiburada.com^$removeparam=wt_so
 ||heptaneleaner.com^
 ||heptix.net^
 ||heqinyyds.com^
@@ -46381,6 +46614,7 @@
 ||hksinc3c.ali.tt.omtrdc.net^
 ||hktb.tt.omtrdc.net^
 ||hktracker.hankookilbo.com^
+||hktvmall.com/yuicombo?$script,removeparam=/^\/_ui\/desktop\/common\/js\/uiAnalytics\//
 ||hkvpn1a.sso.tt.omtrdc.net^
 ||hl.jinchaovetoer.com^
 ||hladalliance.com^
@@ -46541,6 +46775,7 @@
 ||home-living-de.forum.test.tt.omtrdc.net^
 ||home-match.xp.eng.tt.omtrdc.net^
 ||home.energiadaprosperidade.com^
+||home.kingsoft.jp^$removeparam=from
 ||home.rsa.tt.omtrdc.net^
 ||home.tt.omtrdc.net^
 ||home.usg.com^
@@ -46550,6 +46785,7 @@
 ||homealpha.getaws.tt.omtrdc.net^
 ||homebao.me^
 ||homebase-nl.tt.omtrdc.net^
+||homedepot.com^$removeparam=fromReminder
 ||homedepot.tt.omtrdc.net^
 ||homedepotcanada.tt.omtrdc.net^
 ||homedepotmx.tt.omtrdc.net^
@@ -47323,6 +47559,12 @@
 ||humanclick.com^$third-party
 ||humanz.com^$third-party
 ||humble-green.pro^
+||humblebundle.com^$removeparam=hmb_campaign
+||humblebundle.com^$removeparam=hmb_medium
+||humblebundle.com^$removeparam=hmb_source
+||humblebundle.com^$removeparam=linkID
+||humblebundle.com^$removeparam=mcID
+||humblebundle.com^$removeparam=partner
 ||humblecooperate.com^
 ||humbledleelang.com^
 ||humdrumhat.com^$third-party
@@ -48185,6 +48427,8 @@
 ||iguana.indigospot.com^
 ||iguana.vivere.co^
 ||igubet.link^$popup
+||iguru.gr^$removeparam=_unique_id
+||iguru.gr^$removeparam=feed_id
 ||igusoft.com^
 ||igylwxvxgsuvcs.xyz^
 ||igyrmknlpr.xyz^
@@ -48855,6 +49099,13 @@
 ||imbdemfjjduu.cdnvideo3.com^
 ||imcht.net^$third-party
 ||imctransfer.com^*/promo/
+||imdb.com^$removeparam=pf_rd_i
+||imdb.com^$removeparam=pf_rd_m
+||imdb.com^$removeparam=pf_rd_p
+||imdb.com^$removeparam=pf_rd_r
+||imdb.com^$removeparam=pf_rd_s
+||imdb.com^$removeparam=pf_rd_t
+||imdb.com^$removeparam=ref_
 ||imdb.com^*/b.gif
 ||imedia.cz^$domain=televizeseznam.cz
 ||imediaaudiences.com^$third-party
@@ -49020,6 +49271,12 @@
 ||immigrateskating.com^$popup
 ||immisurns.com^
 ||immixteddo.com^
+||immobilienscout24.de^$removeparam=enteredFrom
+||immobilienscout24.de^$removeparam=navigationServiceUrl
+||immobilienscout24.de^$removeparam=referrer
+||immobilienscout24.de^$removeparam=searchGeoPath
+||immobilienscout24.de^$removeparam=searchId
+||immobilienscout24.de^$removeparam=source
 ||immortalityrewardintersection.com^
 ||immoxdzdke.com^
 ||immser1ph.tt.omtrdc.net^
@@ -49966,6 +50223,7 @@
 ||infonyc.readingpartners.org^
 ||infopicked.com^
 ||infopicked.com^$popup
+||infoq.com^$removeparam=/topicPageSponsorship|^itm_/
 ||inforecap.tt.omtrdc.net^
 ||inform.janssenpro.eu^
 ||inform.milestonegroup.com^
@@ -50275,6 +50533,8 @@
 ||instagram-hirek.tt.omtrdc.net^
 ||instagram.astv.ru^
 ||instagram.com/static/images/appstore-install-badges^
+||instagram.com^$removeparam=ig_rid
+||instagram.com^$removeparam=igshid
 ||install.net.tt.omtrdc.net^
 ||install.searchfrit.com^$third-party
 ||install3.osp.tt.omtrdc.net^
@@ -50693,6 +50953,8 @@
 ||invest1.ctf.tt.omtrdc.net^
 ||investigatepin.com^$third-party
 ||investing-globe.com^$popup
+||investing.com^$cookie=smd
+||investing.com^$cookie=udid
 ||investingcenter.investingcenter2.tt.omtrdc.net^
 ||investingchannel.com^
 ||investingchannel.com^$third-party
@@ -51010,9 +51272,15 @@
 ||ipyud.cn^
 ||iq.stg.tt.omtrdc.net^
 ||iqa7.cdn.tt.omtrdc.net^
+||iqbroker.com^$removeparam=aff_model
+||iqbroker.com^$removeparam=afftrack
+||iqbroker.com^$removeparam=clickid
 ||iqcxki.johosokuhou.com^
 ||iqfp1.com^$third-party
 ||iqimwsctvgbvqx.xyz^
+||iqiyi.com^$removeparam=vfrm
+||iqiyi.com^$removeparam=vfrmblk
+||iqiyi.com^$removeparam=vfrmrst
 ||iqlalerts-new.cmhqa1.k8s.tt.omtrdc.net^
 ||iqmbao.xyz^
 ||iqmetrics.handelsblatt.com^
@@ -51663,6 +51931,7 @@
 ||jaomlf.giftmall.co.jp^
 ||japact.com^
 ||japan-staging-vl.ycg.tt.omtrdc.net^
+||japan.cnet.com^$removeparam=tag
 ||japan4c.tt.omtrdc.net^
 ||japanairlinescoltd.tt.omtrdc.net^
 ||japanbros.com^
@@ -51686,6 +51955,7 @@
 ||jashautchord.com^$popup
 ||jasmin.com^$popup,third-party
 ||jasonkim-yojkzd.tt.omtrdc.net^
+||jasonsavard.com^$removeparam=/cUrl|ref/
 ||jaspercrozes.com^
 ||jastrzebski-galkowski.beltowski.tt.omtrdc.net^
 ||jatostepa.com^
@@ -51939,6 +52209,7 @@
 ||jestbiases.com^
 ||jester41.tt.omtrdc.net^
 ||jestinvaderspeedometer.com^
+||jetbrains.com^$removeparam=from
 ||jetbridge.aws.tt.omtrdc.net^
 ||jetent-np.mse.tt.omtrdc.net^
 ||jetet2.pdc.tt.omtrdc.net^
@@ -52066,6 +52337,7 @@
 ||jihgf-3-7-7.jamf.tt.omtrdc.net^
 ||jiiovig.tt.omtrdc.net^
 ||jijcyb.competitivecyclist.com^
+||jiji.com^$removeparam=m
 ||jike001.top^
 ||jikicotho.pro^
 ||jiktq0fr9hv6.meleton.ru^
@@ -52197,6 +52469,7 @@
 ||jl.reckonpretax.com^
 ||jlallen.jjg2.tt.omtrdc.net^
 ||jlallen.ryandbrown2.tt.omtrdc.net^
+||jlcpcb.com^$removeparam=from
 ||jldbnjghezv.com^
 ||jldtlh.fashionnova.com^
 ||jlhygy.com^
@@ -52429,6 +52702,8 @@
 ||josemaria.auth.tt.omtrdc.net^
 ||josephinegrey.com^
 ||joseveiga-ovar.loja.tt.omtrdc.net^
+||joshi-spa.jp^$removeparam=cx_clicks_art_mdl
+||joshi-spa.jp^$removeparam=cx_clicks_sldbox
 ||joshk-portal.tt.omtrdc.net^
 ||josulu.xyz^
 ||jotexab.tt.omtrdc.net^
@@ -53026,6 +53301,7 @@
 ||kaixinjiehun.com^$third-party
 ||kaiyiluye.com^
 ||kaizentraffic.com^$popup
+||kakaku.com^$removeparam=lid
 ||kakakucom.tt.omtrdc.net^
 ||kakanas.ru^$third-party
 ||kakbik.info^$popup
@@ -53047,6 +53323,7 @@
 ||kameleoon.com^$third-party
 ||kameleoon.eu^$third-party
 ||kamianakislam.tt.omtrdc.net^
+||kamigame.jp^$removeparam=kamigame_source
 ||kamikaze53chi.tt.omtrdc.net^
 ||kamil-mardex.tt.omtrdc.net^
 ||kamin3.int.tt.omtrdc.net^
@@ -53151,6 +53428,7 @@
 ||kasikornbankpublicco.tt.omtrdc.net^
 ||kaspersky-01.en.lolibinyunana.api-test.scit.tt.omtrdc.net^
 ||kaspersky-free-antivirus.prod.sre.scit.tt.omtrdc.net^
+||kaspersky.com^$removeparam=icid
 ||kastafor.com^
 ||kata-api-api-dev.tt.omtrdc.net^
 ||katakatacinta-ku.tt.omtrdc.net^
@@ -53634,6 +53912,8 @@
 ||kistfulmapach.life^
 ||kistutch.net^
 ||kitantiterhalac.xyz^
+||kitbag.com^$removeparam=_ref
+||kitbag.com^$removeparam=ab
 ||kitbit.net^$third-party
 ||kitchen.juicer.cc^
 ||kitchencafeso.com^
@@ -53646,6 +53926,7 @@
 ||kite.oakes.software^
 ||kite.ofenbau-voppichler.at^
 ||kitesquirrel.com^$third-party
+||kitizawa.com^$removeparam=ref
 ||kitnmedia.com^
 ||kitrigthy.com^
 ||kitt.tucsonsentinel.com^
@@ -53747,6 +54028,9 @@
 ||klobuck.tt.omtrdc.net^
 ||klombo10.tt.omtrdc.net^
 ||klonedaset.org^
+||klook.com^$removeparam=aid
+||klook.com^$removeparam=clickId
+||klook.com^$removeparam=spm
 ||kloperd.com^
 ||klos-auto.tt.omtrdc.net^
 ||kloshgriffe.com^
@@ -53767,6 +54051,7 @@
 ||kmisln.com^$popup
 ||kmjbwejnr.xyz^
 ||kmkixuha.com^
+||kmkk78.com^$removeparam=agentId
 ||kmlxlkz.cn^
 ||kmmgoogle.oss-ap-southeast-1.aliyuncs.com^
 ||kmmsfoqbhc.xyz^
@@ -53889,6 +54174,7 @@
 ||kohlermetrics.kohler.com^
 ||kohlermetricssecure.kohler.com^
 ||kohls.cba.tt.omtrdc.net^
+||kohls.com^$removeparam=CID
 ||kohls.tt.omtrdc.net^
 ||kohltech-333.tt.omtrdc.net^
 ||koi.artsvp.co^
@@ -54150,6 +54436,7 @@
 ||ksnoownmd.fun^
 ||ksshpp2.tt.omtrdc.net^
 ||kssvsjfhxpzwfd.com^
+||ksta.de^$removeparam=cb
 ||ksta.met.vgwort.de^
 ||ksubthai.co^$popup,domain=kseries.tv
 ||ksvirus11.tt.omtrdc.net^
@@ -54842,6 +55129,12 @@
 ||layingprocuregather.com^
 ||lazabu.ru^$third-party
 ||lazada-0.app.eu.tt.omtrdc.net^
+||lazada.com.ph^$removeparam=acm
+||lazada.com.ph^$removeparam=clickTrackInfo
+||lazada.com.ph^$removeparam=scm
+||lazada.com.ph^$removeparam=spm
+||lazada.vn^$removeparam=laz_trackid
+||lazada.vn^$removeparam=mkttid
 ||lazarus-ch-01-02.sys.sys.tt.omtrdc.net^
 ||laziopizzaria-pizza.babaspizza.tt.omtrdc.net^
 ||lazyii.icu^
@@ -55651,6 +55944,7 @@
 ||link.advancedsystemrepairpro.com^$popup
 ||link.americanhomesaver.com^
 ||link.bankofscotland.co.uk^
+||link.coupang.com^$removeparam=lptag
 ||link.ecoupon.us.tt.omtrdc.net^
 ||link.epichomesavings.com^
 ||link.global.amd.com^
@@ -55683,6 +55977,10 @@
 ||linkchangesnow.com^$popup
 ||linkconnector.com^$third-party
 ||linkedassassin.com^
+||linkedin.com^$removeparam=/^trk/
+||linkedin.com^$removeparam=original_referer
+||linkedin.com^$removeparam=refId
+||linkedin.com^$removeparam=trackingId
 ||linkedprepenseprepense.com^
 ||linkeinvitable.site^
 ||linkelevator.com^
@@ -55889,6 +56187,7 @@
 ||livecounter.dk^$third-party
 ||livecounter.theyosh.nl^
 ||livedemostore.shared.tt.omtrdc.net^
+||livedoor.biz^$removeparam=ref
 ||liveexpert.ru^$third-party
 ||livefyre.com^*/tracker.js
 ||livefyre.com^*/tracking/
@@ -56467,6 +56766,7 @@
 ||login.adsimilate.com^
 ||login.adxnexus.com^
 ||login.affiliatesit.cz^
+||login.afreecatv.com^$removeparam=szFrom
 ||login.africonverse.com^
 ||login.alb-east.tt.omtrdc.net^
 ||login.alertmanager.fr.tt.omtrdc.net^
@@ -56729,6 +57029,8 @@
 ||lotteryaffiliates.com^
 ||lotteryhibernateauthorized.com^
 ||lotteshopping.tt.omtrdc.net^
+||lotto.web.de^$removeparam=advertisementId
+||lotto.web.de^$removeparam=partnerId
 ||lottoland.cdn.tt.omtrdc.net^
 ||lottoland.co.cdn.atlassian-app.eu.tt.omtrdc.net^
 ||lottoleads.com^$popup
@@ -56873,6 +57175,7 @@
 ||lp.smartbusiness.samsung.com^
 ||lp.solaredge.com^
 ||lp.sophos.com^
+||lp.sophos.com^$removeparam=elqTrackId
 ||lp.specialle.online^
 ||lp.svenskapostkodlotteriet.se^
 ||lp.tfd-corp.co.jp^$badfilter
@@ -57704,6 +58007,7 @@
 ||maftirkolo.com^
 ||mafvertizing.crazygames.com^
 ||mag-walshsky.sites.tt.omtrdc.net^
+||mag2.com^$removeparam=trflg
 ||magacin.tns-gallup.dk^
 ||magarimot.com^$third-party
 ||magaseek.tt.omtrdc.net^
@@ -58937,6 +59241,12 @@
 ||marketing.neathousepartners.com^
 ||marketing.neighborhoodloans.com^
 ||marketing.net.brillen.de^
+||marketing.net.idealo-partner.com^$removeparam=amc
+||marketing.net.idealo-partner.com^$removeparam=etcc_cmp
+||marketing.net.idealo-partner.com^$removeparam=etcc_med
+||marketing.net.idealo-partner.com^$removeparam=etcc_produkt
+||marketing.net.idealo-partner.com^$removeparam=smc2
+||marketing.net.idealo-partner.com^$removeparam=smc5
 ||marketing.netafim.cn^
 ||marketing.netafim.com.br^
 ||marketing.netafim.com.mx^
@@ -59367,6 +59677,7 @@
 ||marketplace1.messagent.tt.omtrdc.net^
 ||marketreports.autovistagroup.com^
 ||markets-data-api-proxy.ft.com.ekrciica.tt.omtrdc.net^
+||marketwatch.com^$removeparam=mod
 ||markgraeflerin.tt.omtrdc.net^
 ||markiso.tt.omtrdc.net^
 ||markkasgrosses.com^
@@ -59380,6 +59691,7 @@
 ||markson.hk^
 ||markswebcams.com^$third-party
 ||marktest.pt^$third-party
+||marktjagd.de^$removeparam=client
 ||marktworks.com^
 ||markulmer-218.tt.omtrdc.net^
 ||marles-an.alfa.tt.omtrdc.net^
@@ -60149,6 +60461,7 @@
 ||medialogger.ru^
 ||mediamansix.com^$popup
 ||mediamarkt-haus.tt.omtrdc.net^
+||mediamarkt.com.tr^$removeparam=rbtc
 ||mediametrics.ru^$third-party
 ||mediams.mb.softbank.jp^$third-party
 ||medianetworkinternational.com/js/awrapper.js^
@@ -60297,6 +60610,7 @@
 ||megae-aqn.com^
 ||megaffiliates.com^$popup
 ||megagoukazaru.tt.omtrdc.net^
+||megaknihy.cz^$removeparam=/param[0-9]{1}|utm_si|matchtype|device|creative|keyword|placement|adposition|campaignid|adgroupid|feeditemid|targetid|loc_|searchtype|network|search_pos|cat_pos|block|position/
 ||megapopads.com^
 ||megapopads.com^$popup
 ||megaton.tt.omtrdc.net^
@@ -60321,6 +60635,7 @@
 ||meilleur.comparatif-rencontre-coquine.com^
 ||meilmei.xyz^
 ||meimei.buzz^
+||mein.onlinekonto.de^$removeparam=ref
 ||meineserver.com^$third-party
 ||meinlist.com^
 ||meiosis-sftp05.tt.omtrdc.net^
@@ -61947,6 +62262,9 @@
 ||micess-tatus.digitalpublishing.tt.omtrdc.net^
 ||micfu.cyou^
 ||micghiga2n7ahjnnsar0fbor.com^
+||michaelkors.global^$removeparam=cjdata
+||michaelkors.global^$removeparam=cjevent
+||michaelkors.global^$removeparam=ecid
 ||michaelsstores.tt.omtrdc.net^
 ||michealmoyite.com^
 ||mickshobbyspul-3-8.tt.omtrdc.net^
@@ -61976,6 +62294,13 @@
 ||microsite.pbs.org^
 ||microsoft-excel.tt.omtrdc.net^
 ||microsoft-outlook-connector.blog.tt.omtrdc.net^
+||microsoft.com^$removeparam=irclickid
+||microsoft.com^$removeparam=ocid
+||microsoft.com^$removeparam=ranEAID
+||microsoft.com^$removeparam=ranSiteID
+||microsoft.com^$removeparam=tduid
+||microsoft.msafflnk.net^$removeparam=/^subid/
+||microsoft.msafflnk.net^$removeparam=sharedid
 ||microsoft28c.tt.omtrdc.net^
 ||microsoftlivess65.s3.us-west-004.tt.omtrdc.net^
 ||microsoftmscompoc.tt.omtrdc.net^
@@ -62127,6 +62452,9 @@
 ||minetlife.tt.omtrdc.net^
 ||minewhat.com^$third-party
 ||minexmr.stream^$third-party
+||minfin.com.ua^$removeparam=mcr
+||minfin.com.ua^$removeparam=mpl
+||minfin.com.ua^$removeparam=mpr
 ||minga.sci.e.tt.omtrdc.net^
 ||minglebookwormdecency.com^
 ||mingledunorder.com^
@@ -62171,6 +62499,7 @@
 ||mintake.com^$third-party
 ||mintegral.com^
 ||mintelweb.b.s.tt.omtrdc.net^
+||mintj.com^$removeparam=adv
 ||mintmanunmanly.com^
 ||mintsdrouket.com^
 ||minunetclose.com^
@@ -62181,6 +62510,8 @@
 ||minyascannat.com^
 ||minze04d.tt.omtrdc.net^
 ||minzhouxinxi.cn^
+||mioga.de^$removeparam=idealoid
+||mioga.de^$removeparam=pl
 ||mioree2a.tt.omtrdc.net^
 ||mip9.apps.tt.omtrdc.net^
 ||mipcdn.com^*/mip-*ad-
@@ -62201,9 +62532,13 @@
 ||mirev09patriots.tt.omtrdc.net^
 ||mirpolmoto-otomoto.tt.omtrdc.net^
 ||mirror.1.tt.omtrdc.net^
+||mirror.co.uk^$removeparam=int_source
 ||mirror.dc.tt.omtrdc.net^
 ||mirror02-api.lpportal.tt.omtrdc.net^
 ||mirror2.s.tt.omtrdc.net^
+||mirtesen.ru^$removeparam=ad
+||mirtesen.ru^$removeparam=bvuuid
+||mirtesen.ru^$removeparam=nvuuid
 ||mirtesen.ru^$third-party
 ||mirthnonpar.com^
 ||misabrazil1.tt.omtrdc.net^
@@ -62765,6 +63100,9 @@
 ||moengage.com^$third-party
 ||moengage.com^$third-party
 ||moes3quba.cyou^
+||moffme.com^$removeparam=campaign
+||moffme.com^$removeparam=medium
+||moffme.com^$removeparam=source
 ||mofox.com^
 ||mogabi1.ams.tt.omtrdc.net^
 ||mogointeractive.com^
@@ -62981,6 +63319,7 @@
 ||moocauby.com^
 ||moochbeacher.com^
 ||moochescramper.com^
+||moodfabrics.com^$removeparam=_kx
 ||moodle.cee.tt.omtrdc.net^
 ||moodlenet.tt.omtrdc.net^
 ||moodlerooms.blackboard.com^
@@ -63061,6 +63400,7 @@
 ||morganstanleyandco.tt.omtrdc.net^
 ||morgdm.ru^
 ||morhipo.com/Shared/AnalyticsJS^
+||morhipo.com^$removeparam=srsltid
 ||mori.ink^
 ||moriceprich.com^
 ||morict.com^
@@ -63246,6 +63586,20 @@
 ||mp-v.tt.omtrdc.net^
 ||mp.pitchero.com^
 ||mp.ualisbaubles.com^
+||mp.weixin.qq.com^$removeparam=WBAPIAnalysisOriUICodes
+||mp.weixin.qq.com^$removeparam=aid
+||mp.weixin.qq.com^$removeparam=chksm
+||mp.weixin.qq.com^$removeparam=devicetype
+||mp.weixin.qq.com^$removeparam=exportkey
+||mp.weixin.qq.com^$removeparam=from
+||mp.weixin.qq.com^$removeparam=key
+||mp.weixin.qq.com^$removeparam=launchid
+||mp.weixin.qq.com^$removeparam=mpshare
+||mp.weixin.qq.com^$removeparam=nettype
+||mp.weixin.qq.com^$removeparam=scene
+||mp.weixin.qq.com^$removeparam=srcid
+||mp.weixin.qq.com^$removeparam=uin
+||mp.weixin.qq.com^$removeparam=v_p
 ||mp03.mo.tt.omtrdc.net^
 ||mp0305.tt.omtrdc.net^
 ||mp216.scale.tt.omtrdc.net^
@@ -63477,6 +63831,7 @@
 ||msmetrics.ws.sonos.com^
 ||msmkaty.tt.omtrdc.net^
 ||msmlp-ems.tt.omtrdc.net^
+||msn.com^$removeparam=pc
 ||msn.com^*/report.js
 ||msn.com^*/track.js
 ||msnbc.msn.com^*/analytics.js
@@ -63742,6 +64097,8 @@
 ||museumimpenetrablerepose.com^
 ||mushesarrear.com^
 ||music-home.info^
+||music.apple.com^$removeparam=itscg
+||music.apple.com^$removeparam=itsct
 ||music02.e1.tt.omtrdc.net^
 ||musicast.tt.omtrdc.net^
 ||musicatorrents.com^*/license.
@@ -63803,6 +64160,7 @@
 ||mvery-mobile-mc.tt.omtrdc.net^
 ||mvevuokyzah.com^
 ||mvfrcio.cn^
+||mvideo.ru^$removeparam=/^(_requestid|reff)=/
 ||mvilivestats.com^$third-party
 ||mvkus.tt.omtrdc.net^
 ||mvlvxzhxjci.com^
@@ -64352,6 +64710,7 @@
 ||n078317.tt.omtrdc.net^
 ||n0v1cdn.com^
 ||n1050.tt.omtrdc.net^
+||n11.com^$removeparam=/pfx|adj/
 ||n11scdn.akamaized.net^*ha.js
 ||n12qga4ld3zk.com^
 ||n13-12.tt.omtrdc.net^
@@ -64625,6 +64984,7 @@
 ||nationalaustraliaban.tt.omtrdc.net^
 ||nationalbankofcanada.tt.omtrdc.net^
 ||nationaldeliquencydeliquency.com^
+||nationalgeographic.com^$removeparam=utm_rd
 ||nationaltrust.tt.omtrdc.net^
 ||nationwidebuildingso.tt.omtrdc.net^
 ||nationwideinsurance.tt.omtrdc.net^
@@ -64969,6 +65329,13 @@
 ||nerohut.com^$third-party
 ||nervous-touch.pro^
 ||nervoussummer.com^$third-party
+||nesine.com^$removeparam=adj_adgroup
+||nesine.com^$removeparam=adj_creative
+||nesine.com^$removeparam=adjust_t
+||nesine.com^$removeparam=glid
+||nesine.com^$removeparam=rlid
+||nesine.com^$removeparam=trid
+||nesine.com^$removeparam=xid_param_2
 ||nesiotcusses.space^
 ||nesispubl.buzz^
 ||nesokiahld.com^
@@ -65024,13 +65391,18 @@
 ||netdreamers.tt.omtrdc.net^
 ||netent-fun-test.tt.omtrdc.net^
 ||netflame.cc^$third-party
+||netflix.com^$removeparam=tctx
+||netflix.com^$removeparam=trackId
 ||netflix.com^*/homepagePing?
 ||netflopin.com^
+||netgames.de^$removeparam=idealoid
+||netgames.de^$removeparam=refID
 ||netgraviton.net^$third-party
 ||netinsight.actonservice.com^
 ||netinsight.co.kr^$third-party
 ||netizen.co^$third-party
 ||netjets.tt.omtrdc.net^
+||netkeiba.com^$removeparam=rf
 ||netliker.com^$third-party
 ||netlinedancer-lib2.tt.omtrdc.net^
 ||netload2.com^
@@ -65210,6 +65582,7 @@
 ||news-mars.com^
 ||news-mocks.tt.omtrdc.net^
 ||news-muheji.com^
+||news-postseven.com^$removeparam=_from
 ||news-pro.net^
 ||news-qa-3.tt.omtrdc.net^
 ||news-rarore.cc^
@@ -65399,6 +65772,7 @@
 ||nexteam23-bp.tt.omtrdc.net^
 ||nextgear.tt.omtrdc.net^
 ||nextgencounter.com^
+||nextgov.com^$removeparam=oref
 ||nextjob2i.tt.omtrdc.net^
 ||nextmillennium.io^$third-party
 ||nextoptim.com^$popup
@@ -65554,6 +65928,9 @@
 ||nickumia250.ssb-dev.tt.omtrdc.net^
 ||nicolas.dev.network-auth.tt.omtrdc.net^
 ||nicolasww.jchianel.tt.omtrdc.net^
+||nicovideo.jp^$removeparam=cmnhd_ref
+||nicovideo.jp^$removeparam=news_ref
+||nicovideo.jp^$removeparam=ref
 ||nics-pl-pl-nl.forum.forum.tt.omtrdc.net^
 ||niececordthrone.com^
 ||nielsen-dev.edr.tt.omtrdc.net^
@@ -65591,7 +65968,10 @@
 ||nik.io^$third-party
 ||nike.tt.omtrdc.net^
 ||nikita2a.tt.omtrdc.net^
+||nikkei.com^$removeparam=i_cid
+||nikkei.com^$removeparam=n_cid
 ||nikkei.tt.omtrdc.net^
+||nikkeibp.co.jp^$removeparam=i_cid
 ||nikkiexxxads.com^
 ||nil.naver.com^
 ||nilreels.com^
@@ -65633,6 +66013,7 @@
 ||nis-cf.nimbus.nimbus.tt.omtrdc.net^
 ||nis-mids-1.ocio.tt.omtrdc.net^
 ||nisafnic.space^
+||nishispo.nishinippon.co.jp^$removeparam=rct
 ||nisihu.com.cn^
 ||nisireals.com^
 ||nissanheliosami.tt.omtrdc.net^
@@ -65928,9 +66309,11 @@
 ||nordics.atradius.com^
 ||nordics.sharpmarketing.eu^
 ||nordjyske.tns-gallup.dk^
+||nordot.app^$removeparam=ncmp
 ||nordvpn.com^$cookie=CurrentSession
 ||nordvpn.com^$cookie=FirstSession
 ||nordvpn.com^$cookie=nextbid
+||nordvpn.com^$removeparam=data1
 ||nordynski-lodz.tt.omtrdc.net^
 ||nordynski3.tt.omtrdc.net^
 ||nore40.net.tt.omtrdc.net^
@@ -66565,6 +66948,7 @@
 ||nyt1.biosens-leanature.fr^
 ||nythemorewasth.xyz^
 ||nytimes-gw.redirects.tt.omtrdc.net^
+||nytimes.com^$removeparam=impression_id
 ||nytlog.com^$third-party
 ||nytrng.com^
 ||nyutkikha.info^
@@ -67360,6 +67744,7 @@
 ||office-2013-service-pack-1-64bits.tt.omtrdc.net^
 ||office-taboo.bt.tt.omtrdc.net^
 ||office-test.onlineauth.prod.tt.omtrdc.net^
+||office.com^$removeparam=ocid
 ||office3.avira-antivirus-clops.clops.tt.omtrdc.net^
 ||office365spo-admin.tt.omtrdc.net^
 ||office5.blog.tt.omtrdc.net^
@@ -68364,6 +68749,8 @@
 ||open.isnssdk.com^
 ||open.oksrv.com^
 ||open.oneplus.net^
+||open.spotify.com^$removeparam=_branch_referrer
+||open.spotify.com^$removeparam=referral
 ||open7.loans.tt.omtrdc.net^
 ||open8.cn^$third-party
 ||openaccount.api.openaccount-account.tt.omtrdc.net^
@@ -68864,6 +69251,7 @@
 ||osfjiqj.com^
 ||oshatratkvc.com^
 ||oshdarvitop.com^
+||oshiete.goo.ne.jp^$removeparam=from
 ||oshxhofaf.com^
 ||osiaffiliate.com^$third-party
 ||osiextantly.com^$popup
@@ -69453,6 +69841,7 @@
 ||ozngisyk.xyz^
 ||ozobsaib.com^
 ||ozoj.com^
+||ozon.ru^$removeparam=asb2
 ||ozone-nifi-test2.sml.corp.tt.omtrdc.net^
 ||ozone.dev.sml.tt.omtrdc.net^
 ||ozonemedia.com^
@@ -69513,6 +69902,7 @@
 ||p.statp.com^
 ||p.tanx.com^
 ||p.tinynewsfeed.com^$third-party
+||p.typekit.net^$stylesheet,removeparam
 ||p.ura.news^
 ||p.versacommerce.de^
 ||p.victoria.dev^
@@ -72423,6 +72813,7 @@
 ||play-asia.com^$image,subdocument,third-party
 ||play-msy.e.tt.omtrdc.net^
 ||play-stsmix.tt.omtrdc.net^
+||play.google.com^$removeparam=pcampaignid
 ||play.googleapis.com/play/log^
 ||play.springboardplatform.com^
 ||play1.ibm.tt.omtrdc.net^
@@ -72458,6 +72849,8 @@
 ||player.sendtonews.com^$third-party
 ||player.stats.live-video.net^
 ||player.tabooporns.com^$popup
+||player.theplatform.com^$removeparam=playeranalytics
+||player.theplatform.com^$removeparam=targetedlink
 ||player.twitch.tv^$domain=aetherhub.com
 ||players.brightcove.net^$script,domain=businessinsider.com.au|gizmodo.com.au|kotaku.com.au|lifehacker.com.au|pedestrian.tv
 ||playerseo.club^
@@ -72822,6 +73215,7 @@
 ||poligh.com^
 ||politegoldfish.com^$third-party
 ||politenesscalmantiquarian.com^
+||politica.com.ua^$removeparam=isUser
 ||politicallypotentgentle.com^
 ||politicianbusplate.com^
 ||politicianbusplate.com^$popup
@@ -73433,6 +73827,7 @@
 ||praterswhally.com^
 ||pratik-test-2-2.dev.azure.tt.omtrdc.net^
 ||pratik3.dev.do.tt.omtrdc.net^
+||pravda.com.ua^$removeparam=pageviewCount
 ||praveen-wwwb.paybyweb.tt.omtrdc.net^
 ||prawn.coding-friends.com^
 ||prawn.fffuel.co^
@@ -74049,6 +74444,14 @@
 ||product.cloud.travelport.com^
 ||product.instiengage.com^$domain=sonichits.com
 ||productblog.tt.omtrdc.net^
+||productcatalog.channeladvisor.com^$document,removeparam=DeviceTypeId
+||productcatalog.channeladvisor.com^$document,removeparam=InteractionSessionId
+||productcatalog.channeladvisor.com^$document,removeparam=PCAT_vNextTracking_LocalWidget
+||productcatalog.channeladvisor.com^$document,removeparam=PCAT_vNextTracking_OnlineItrack
+||productcatalog.channeladvisor.com^$document,removeparam=PCAT_vNextTracking_OnlinePlrss
+||productcatalog.channeladvisor.com^$document,removeparam=PCAT_vNextTracking_RetailerScoring
+||productcatalog.channeladvisor.com^$document,removeparam=UniqueUserId
+||productcatalog.channeladvisor.com^$document,removeparam=profileId
 ||producthub.info^
 ||producthunt.com^$cookie=/visitor_id|track_code|first_visit/
 ||productintelligence.tt.omtrdc.net^
@@ -74208,6 +74611,7 @@
 ||promo.cams.com^
 ||promo.ewellix.com^
 ||promo.fiat.com^
+||promo.korabli.su^$removeparam
 ||promo.nas.tt.omtrdc.net^
 ||promo.newsletter.tt.omtrdc.net^
 ||promo.reborncabinets.com^
@@ -74955,6 +75359,7 @@
 ||pulse-poc.support.tt.omtrdc.net^
 ||pulse-prod-cms.tt.omtrdc.net^
 ||pulse.delta.com^
+||pulse.mail.ru^$removeparam=/^(udid|DeviceID|ver|appbuild|vendor|model|device_name|device_type|instanceid|device_year|connection_class|appsflyerid)/
 ||pulse.mcdonalds.com^
 ||pulse.quaero.com^
 ||pulse.rac.co.uk^
@@ -75751,6 +76156,8 @@
 ||qcmm06.com^
 ||qcmm07.com^
 ||qcmm09.com^
+||qcplay.co.jp^$removeparam=pid
+||qcplay.co.jp^$removeparam=shortlink
 ||qcri-stage2.tt.omtrdc.net^
 ||qcri-stg.test.tt.omtrdc.net^
 ||qctzwkrczwjw.com^
@@ -76261,6 +76668,9 @@
 ||quiz.marquiz.ru^
 ||quiz10.tt.omtrdc.net^
 ||quiz2012.cobra.tt.omtrdc.net^
+||quizangel.com^$removeparam=utm_site_campaign
+||quizangel.com^$removeparam=utm_site_medium
+||quizangel.com^$removeparam=utm_site_source
 ||quizzicalzephyr.com^$third-party
 ||qujishu.com^
 ||quk9.destinia.com.ar^
@@ -76540,6 +76950,7 @@
 ||rabidamoral.com^
 ||rablinhiphape.com^
 ||rac-blr.amer.tt.omtrdc.net^
+||rac.co.uk^$removeparam=cid
 ||rac.ruutu.fi^
 ||raccogliereilconsenso.com^$third-party
 ||raccoon.donateflow.com^
@@ -76644,6 +77055,8 @@
 ||rakiblinger.com^
 ||rakuten-static.com^$domain=cwyuni.tw
 ||rakuten.actonservice.com^
+||rakuten.co.jp^$removeparam=sc2id
+||rakuten.co.jp^*&trflg=$removeparam=trflg
 ||rakutenbooks.tt.omtrdc.net^
 ||rakutenhensei.tt.omtrdc.net^
 ||rakutenpstore.tt.omtrdc.net^
@@ -76721,6 +77134,7 @@
 ||rapid7-integ.tt.omtrdc.net^
 ||rapidcash.acc.tt.omtrdc.net^
 ||rapidcounter.com^$third-party
+||rapidgator.net^$removeparam=Referer
 ||rapidhits.net^
 ||rapidhits.net^$popup
 ||rapidhooray.com^$popup
@@ -77036,6 +77450,7 @@
 ||realeites.tt.omtrdc.net^
 ||realestate-ext1.okla.tt.omtrdc.net^
 ||realestate.sva.tt.omtrdc.net^
+||realestate.yahoo.co.jp^$removeparam=sc_out
 ||realevalbs.com^
 ||realfinanceblogcenter.com^$badfilter
 ||realfinanceblogcenter.com^$popup
@@ -77044,6 +77459,7 @@
 ||reali.st^$third-party
 ||realist.gen.tr^$third-party
 ||realitycash.com^$third-party
+||realitykings.com^$removeparam=ats
 ||realityportalen.tns-gallup.dk^
 ||realitytraffic.com^$third-party
 ||realize.goldenspiralmarketing.com^
@@ -77265,6 +77681,18 @@
 ||redcow6.tt.omtrdc.net^
 ||reddenjaguarsuitcase.com^
 ||reddit-cd-core.tt.omtrdc.net^
+||reddit.app.link^$removeparam=adblock
+||reddit.app.link^$removeparam=compact_view
+||reddit.app.link^$removeparam=dnt
+||reddit.app.link^$removeparam=geoip_country
+||reddit.app.link^$removeparam=referrer_domain
+||reddit.app.link^$removeparam=referrer_url
+||reddit.com^$removeparam=_branch_referrer
+||reddit.com^$removeparam=correlation_id
+||reddit.com^$removeparam=post_fullname
+||reddit.com^$removeparam=ref
+||reddit.com^$removeparam=ref_campaign
+||reddit.com^$removeparam=ref_source
 ||reddit.meraki-go.meraki-auth.tt.omtrdc.net^
 ||reddleops.pro^$third-party
 ||reddsdainful.com^
@@ -77278,6 +77706,7 @@
 ||redfcu.tt.omtrdc.net^
 ||redfox3148.tt.omtrdc.net^
 ||redhat.tt.omtrdc.net^
+||redhotpawn.com^$removeparam=cbqsid
 ||redi.teengirl-pics.com^
 ||rediads.com^$third-party
 ||redic.net^
@@ -77381,6 +77810,7 @@
 ||redtram.com^
 ||redtram.com^$script,third-party
 ||redtrck.individualogist.com^
+||redtube.com^$removeparam=from
 ||redvector.actonservice.com^
 ||redventures.io^$third-party
 ||redwingforbusiness.redwingsafety.com^
@@ -78276,6 +78706,11 @@
 ||revoketypes.com^
 ||revoketypes.com^$popup
 ||revoltelfwife.life^
+||revolut.com^$removeparam=%243p
+||revolut.com^$removeparam=%7Ecampaign_id
+||revolut.com^$removeparam=%7Eclick_id
+||revolut.com^$removeparam=%7Esecondary_publisher
+||revolut.com^$removeparam=ext
 ||revolutionbeseech.com^
 ||revolutionpersuasive.com^
 ||revolvefarfetched.com^
@@ -81852,6 +82287,7 @@
 ||search.adxfactory.com^
 ||search.adzgame.com^
 ||search.anytheengmedia.com^
+||search.bilibili.com^$removeparam=from_source
 ||search.boffoads.com^
 ||search.eventscmsdev.tt.omtrdc.net^
 ||search.flairads.com^
@@ -81862,6 +82298,7 @@
 ||search.tst.wombat.tt.omtrdc.net^
 ||search.ue1.tt.omtrdc.net^
 ||search.vokut.com^
+||search.yahoo.co.jp^$removeparam=fr
 ||search021.opadev.tt.omtrdc.net^
 ||search1.em.tt.omtrdc.net^
 ||search123.uk.com^$third-party
@@ -82706,6 +83143,7 @@
 ||services-ops1.cms.tt.omtrdc.net^
 ||services-partner.tt.omtrdc.net^
 ||services-test.cci.tt.omtrdc.net^
+||services.addons.mozilla.org^$removeparam=telemetry-client-id
 ||services.bdc.ca^
 ||services.bionika-digital.ru^
 ||services.brightline.tv^
@@ -83433,6 +83871,11 @@
 ||shop.a1.vodafonede-translation.sandbox.tt.omtrdc.net^
 ||shop.anu-cosme.com^
 ||shop.gadgetsnow.com/gsearch/gadgetsnow.php^$domain=m.gadgetsnow.com|timesofindia.indiatimes.com
+||shop.hololivepro.com^$removeparam=pr_prod_strat
+||shop.hololivepro.com^$removeparam=pr_rec_id
+||shop.hololivepro.com^$removeparam=pr_rec_pid
+||shop.hololivepro.com^$removeparam=pr_ref_pid
+||shop.hololivepro.com^$removeparam=pr_seq
 ||shop.iwantclips.com^
 ||shop.kicker.de^
 ||shop.kronos.tt.omtrdc.net^
@@ -83451,6 +83894,10 @@
 ||shopclues.tt.omtrdc.net^
 ||shopconvert.com.br^$third-party
 ||shopeasy.by^$popup
+||shopee.ph^$removeparam=sp_atk
+||shopee.ph^$removeparam=stm_medium
+||shopee.ph^$removeparam=stm_source
+||shopee.ph^$removeparam=xptdk
 ||shopfloor7.lcd.tt.omtrdc.net^
 ||shopfloorprd.colo.tt.omtrdc.net^
 ||shophydra-sale.shop.tt.omtrdc.net^
@@ -83468,6 +83915,7 @@
 ||shopnetic.com^$third-party
 ||shopperschoice.tt.omtrdc.net^
 ||shopping.geo-mobile.tt.omtrdc.net^
+||shopping.web.de^$removeparam=origin
 ||shoppingads.com^$third-party
 ||shopreview-elect.tt.omtrdc.net^
 ||shops.web.tt.omtrdc.net^
@@ -83789,6 +84237,7 @@
 ||simi456.me^
 ||simi567.me^
 ||similarfrustration.com^
+||similarweb.com^$removeparam=from_ext
 ||similarwebline.com^$popup
 ||similedy.xyz^$popup
 ||similm.me^
@@ -83816,6 +84265,7 @@
 ||simpledkrivu.com^
 ||simplehali.tt.omtrdc.net^
 ||simplehitcounter.com^$third-party
+||simplelogin.io^$removeparam=slref
 ||simplereach.com^$third-party
 ||simplesharebuttons.com^$third-party
 ||simpletraffic.co^$third-party
@@ -83881,6 +84331,7 @@
 ||sincernething.xyz^
 ||sincetrade.com^
 ||sinch-stg-staging.tt.omtrdc.net^
+||sincode.ai^$removeparam=via
 ||sincrdmsint.tt.omtrdc.net^
 ||sincro.tt.omtrdc.net^
 ||sindala.tns-gallup.dk^
@@ -84520,6 +84971,7 @@
 ||smarshall.meraki.dev-auth.tt.omtrdc.net^
 ||smart-bdash.com^$domain=iface.com
 ||smart-digital-solutions.com^$third-party
+||smart-flash.jp^$removeparam=rf
 ||smart-ip.net^$third-party
 ||smart-moderation.tt.omtrdc.net^
 ||smart-name.pro^
@@ -87576,6 +88028,7 @@
 ||snzfj.net^$third-party
 ||so-excited.com^$third-party
 ||so-iko-2.tt.omtrdc.net^
+||so-net.ne.jp^$removeparam=SmRcid
 ||so.auto999.cn^
 ||so.blue.ch^
 ||so.bluecinema.ch^
@@ -87719,6 +88172,10 @@
 ||sohat22.cmhqa2.k8s.tt.omtrdc.net^
 ||sohiuc.sheego.de^
 ||soholfit.com^
+||sohu.com^$removeparam=_f
+||sohu.com^$removeparam=_trans_
+||sohu.com^$removeparam=scm
+||sohu.com^$removeparam=spm
 ||soiasjgtd.top^
 ||soilenthusiasmshindig.com^
 ||soisealta.s3.us-east-004.tt.omtrdc.net^
@@ -89950,6 +90407,8 @@
 ||stack-sonar.com^$third-party
 ||stackattacka.com^
 ||stackpathdns.com/uploads/banners_model^$third-party
+||stacksocial.com^$removeparam=aid
+||stacksocial.com^$removeparam=rid
 ||stacktwo.tt.omtrdc.net^
 ||stadia1.tt.omtrdc.net^
 ||stadion.nieuws.tt.omtrdc.net^
@@ -90265,6 +90724,7 @@
 ||start.ashfieldhealthcare.com^
 ||start.cutbackcoach.com^
 ||start.parimatch.com^$popup
+||start.pm.by^$removeparam=adtag
 ||start.pre.wx.tt.omtrdc.net^
 ||start.spark-thinking.com^
 ||startappexchange.com^
@@ -91906,6 +92366,7 @@
 ||store.bitdefender.com/affiliate.php^$third-party
 ||store.blognew.tt.omtrdc.net^
 ||store.ssh.fr.tt.omtrdc.net^
+||store.udiscovermusic.com^$removeparam=/utm_/
 ||store.v0.ac.tt.omtrdc.net^
 ||store01mac.tt.omtrdc.net^
 ||store14.-geo.tt.omtrdc.net^
@@ -92100,6 +92561,11 @@
 ||strikead.com^$third-party
 ||strikenurse.usnursing.com^
 ||stripchat.com^$cookie=stripchat_com_affiliateId
+||stripchat.com^$removeparam=affiliateId
+||stripchat.com^$removeparam=campaignId
+||stripchat.com^$removeparam=realDomain
+||stripchat.com^$removeparam=referrer
+||stripchat.com^$removeparam=sourceId
 ||stripchat.com^*/widget/$third-party
 ||stripe.rs-1028-a.com^
 ||stripedburst.com^$third-party
@@ -93456,6 +93922,7 @@
 ||t.my.jobs^
 ||t.mynewgiftcard.com^
 ||t.mynexity.fr^
+||t.myvisualiq.net^$removeparam=~red
 ||t.n.mcdonalds.de^
 ||t.navysports.com^
 ||t.neatkarigais.lv^
@@ -93946,6 +94413,14 @@
 ||taobao.com^$popup,domain=52movieba.com|btee.net|ck180.net|friok.com|iqiyi.com|ktkkt.com
 ||taobao.com^$popup,domain=dlkoo.cc
 ||taobao.com^$popup,domain=dlkoo.com
+||taobao.com^$removeparam=activityId
+||taobao.com^$removeparam=app_pvid
+||taobao.com^$removeparam=ptl
+||taobao.com^$removeparam=pvid
+||taobao.com^$removeparam=scm
+||taobao.com^$removeparam=traceId
+||taobao.com^$removeparam=utparam
+||taobao.com^$removeparam=xId
 ||taobaocdn.com^$image,domain=cnblogs.com
 ||taobc.com^
 ||taoguohe.com^$third-party
@@ -94605,6 +95080,13 @@
 ||tejiachong.co^
 ||tejwsqrso.xyz^
 ||teknologia.co^
+||teknosa.com^$removeparam=aid
+||teknosa.com^$removeparam=campid
+||teknosa.com^$removeparam=cid
+||teknosa.com^$removeparam=crid
+||teknosa.com^$removeparam=plid
+||teknosa.com^$removeparam=sid
+||teknosa.com^$removeparam=source
 ||tektalk.tt.omtrdc.net^
 ||tektronix.tt.omtrdc.net^
 ||tekvox.actonservice.com^
@@ -95129,6 +95611,9 @@
 ||theamericannationalr.tt.omtrdc.net^
 ||theapple.site^
 ||theappyrinc.buzz^
+||theathletic.com^$removeparam=login_source
+||theathletic.com^$removeparam=ref_page
+||theathletic.com^$removeparam=source
 ||theatlantic.com^$cookie=/atl_uuid|datadome|kppid/
 ||thebaicidylls.com^
 ||thebannerexchange.com^$third-party
@@ -95245,6 +95730,7 @@
 ||therebycapablerising.com^
 ||theredchecker.actonservice.com^
 ||thereforetreadvoluntarily.com^
+||theregister.com^$removeparam=td
 ||thereuponcanadian.com^
 ||thereuponscare.com^
 ||thereuponscare.com^$popup
@@ -95618,6 +96104,14 @@
 ||tika.tt.omtrdc.net^
 ||tikbblove.com^
 ||tikstok.fun^
+||tiktok.com^$removeparam=embed_source
+||tiktok.com^$removeparam=refer
+||tiktok.com^$removeparam=referer_url
+||tiktok.com^$removeparam=sec_uid
+||tiktok.com^$removeparam=share_app_id
+||tiktok.com^$removeparam=share_author_id
+||tiktok.com^$removeparam=tt_from
+||tiktok.com^$removeparam=web_id
 ||tilastot81.tt.omtrdc.net^
 ||tilastot83.ddns.tt.omtrdc.net^
 ||tile-risk.tt.omtrdc.net^
@@ -95984,6 +96478,8 @@
 ||tm4.docs.tt.omtrdc.net^
 ||tm5kpprikka.com^
 ||tmall.com^$popup,domain=eyusky.net|iqiyi.com
+||tmall.com^$removeparam=ali_trackid
+||tmall.com^$removeparam=bxsign
 ||tmatch.simba.taobao.com^*&name=tbuad&pid=
 ||tmate-eregs-api.tt.omtrdc.net^
 ||tmb5trk.com^
@@ -96159,7 +96655,10 @@
 ||tokinowa.tt.omtrdc.net^
 ||tokken.tt.omtrdc.net^
 ||tokofyttes.com^
+||toku.yahoo.co.jp^$removeparam=fr
 ||tokuga3.tt.omtrdc.net^
+||tokyo-calendar.jp^$removeparam=ref
+||tokyo-np.co.jp^$removeparam=rct
 ||tokyo-www.tt.omtrdc.net^
 ||tokyoredcirce.com^
 ||tolacdn.online^
@@ -96258,6 +96757,10 @@
 ||toolsthwartgrim.com^
 ||toolsyjejune.com^
 ||toomeepi.xyz^
+||toomics.com^$removeparam=channel
+||toomics.com^$removeparam=gen
+||toomics.com^$removeparam=pid
+||toomics.com^$removeparam=subpid
 ||toonoost.net^
 ||toonstar39a.tt.omtrdc.net^
 ||toorebutheh.xyz^
@@ -99157,6 +99660,7 @@
 ||trading-itu.tt.omtrdc.net^
 ||trading21s.com^
 ||tradingken.com^
+||tradingview.com^$removeparam=source
 ||traditionallymeasuringwire.com^
 ||traditionallyobjectlessblinked.com^
 ||tradplusad.com^
@@ -99524,6 +100028,12 @@
 ||trending2a.trending.tt.omtrdc.net^
 ||trendmicro.tt.omtrdc.net^
 ||trendmouthsable.com^
+||trendyol.com^$removeparam=_ga
+||trendyol.com^$removeparam=adjust_t
+||trendyol.com^$removeparam=tyutm_campaign
+||trendyol.com^$removeparam=tyutm_medium
+||trendyol.com^$removeparam=tyutm_source
+||trendyol.com^$removeparam=utm_subaff
 ||trenhdg.com^
 ||trenhdg.com^$third-party
 ||trenhsmp.com^
@@ -100360,6 +100870,9 @@
 ||tulip18.com^$third-party
 ||tumblebirds.com^$third-party
 ||tumblebit.com^
+||tumblr.app.link^$removeparam=_p
+||tumblr.com^$removeparam=_branch_referrer
+||tumblr.com^$removeparam=source
 ||tumblr.jobs.tt.omtrdc.net^
 ||tumedhan.com^
 ||tummeddomicil.space^
@@ -101878,6 +102391,7 @@
 ||upfrontbd.actonservice.com^
 ||upgliscorom.com^
 ||upgliscorom.com^$popup
+||upgrad.com^$removeparam=UTM_MEDIUM
 ||upgrade-app.eks.tt.omtrdc.net^
 ||upgrade2-web.pgdev.tt.omtrdc.net^
 ||upgulpinon.com^
@@ -102142,6 +102656,7 @@
 ||usdenprh446.tt.omtrdc.net^
 ||usdenqrh653.tt.omtrdc.net^
 ||usdentrh427.tt.omtrdc.net^
+||use.typekit.net^$font,removeparam=~/^(primer|subset_id)=/,domain=~fonts.adobe.com
 ||usearch.site^
 ||useast01.admin.fr.tt.omtrdc.net^
 ||useast02.idp.fr.tt.omtrdc.net^
@@ -102250,6 +102765,7 @@
 ||uspharma-management-publish.live.tt.omtrdc.net^
 ||uspizza04.salsa.tt.omtrdc.net^
 ||uspizza7200.tt.omtrdc.net^
+||uspoloassn.com^$removeparam=ref
 ||uspvtshp-dcsc.sso.router.tt.omtrdc.net^
 ||usr.ddcompensation.tt.omtrdc.net^
 ||usrhyt1-85-am4.tt.omtrdc.net^
@@ -102483,6 +102999,9 @@
 ||v.v71.tt.omtrdc.net^
 ||v.vidghjlgkuyfk.site^
 ||v.wpimg.pl^$media,redirect=noopmp4-1s,domain=autocentrum.pl|autokult.pl|abczdrowie.pl|gadzetomania.pl|fotoblogia.pl|parenting.pl|komorkomania.pl|o2.pl|pudelek.pl|medycyna24.pl|money.pl|wp.pl|videostar.pl|polygamia.pl
+||v.youku.com^$removeparam=ptag
+||v.youku.com^$removeparam=scm
+||v.youku.com^$removeparam=spm
 ||v00ske77693f.com^
 ||v040419.badjojo.com^
 ||v0420.ams.tt.omtrdc.net^
@@ -102968,6 +103487,14 @@
 ||verblife-5.co^$popup
 ||verbox.ru^$third-party
 ||vercel-insights.com^$third-party
+||vercel.com^$removeparam=redirected
+||vercel.com^$removeparam=sfmc_activity_id
+||vercel.com^$removeparam=sfmc_activity_name
+||vercel.com^$removeparam=sfmc_activityid
+||vercel.com^$removeparam=sfmc_asset_id
+||vercel.com^$removeparam=sfmc_channel
+||vercel.com^$removeparam=sfmc_journey_id
+||vercel.com^$removeparam=sfmc_journey_name
 ||verde7x.tt.omtrdc.net^
 ||verdictdisingenuousfruitless.com^
 ||vereinskollektionen.tt.omtrdc.net^
@@ -103004,6 +103531,7 @@
 ||versedeceitlocation.com^
 ||verseges.xyz^
 ||versetime.com^$third-party
+||versioncheck.addons.mozilla.org^$xmlhttprequest,removeparam=appID
 ||versionlatticecheek.com^
 ||versionlatticecheek.com^$popup
 ||versokatybiuro.tt.omtrdc.net^
@@ -103249,6 +103777,7 @@
 ||video.fc2.com^*/suggest_list_ad.php
 ||video.federalist.fr.tt.omtrdc.net^
 ||video.fooobabe.com^
+||video.laxd.com^$removeparam=ref
 ||video.mangalop.space^
 ||video.oms.eu^$third-party
 ||video.onnetwork.tv^$domain=demotywatory.pl
@@ -103547,6 +104076,7 @@
 ||visistat.com^$third-party
 ||visit.asb.co.nz^
 ||visit.atea.fi^
+||visit.digidip.net^$removeparam=/^(ppref|ref|pid)=/
 ||visit.donateblood.com.au^
 ||visit.go.tuv.com^
 ||visit.hypertherm.com^
@@ -103792,6 +104322,7 @@
 ||vodobyve.pro^
 ||vodobyve.pro^$popup
 ||vodolei.tt.omtrdc.net^
+||vodopad.ru^$removeparam=sphrase_id
 ||voeunblk.com^
 ||vogel.met.vgwort.de^
 ||vogmlpzlnrj.com^
@@ -103817,6 +104348,7 @@
 ||voices-kerence.com^$popup
 ||voices2.uat.tt.omtrdc.net^
 ||voicevegetable.com^$third-party
+||voicy.jp^$removeparam=share.ref
 ||voile-29.vpn.tt.omtrdc.net^
 ||voipa44d.tt.omtrdc.net^
 ||voipnewswire.net^
@@ -103921,6 +104453,7 @@
 ||voxfind.com^$popup
 ||voyageconcise.com^
 ||voyageschoolanymore.com^
+||voyeur-house.tv^$removeparam=clickid
 ||voyeurhit.com/js/2704.js^
 ||voyeurhit.com^$third-party
 ||voyeurmonkey.mofosexmovs.tt.omtrdc.net^
@@ -104898,6 +105431,7 @@
 ||web.dae.tt.omtrdc.net^
 ||web.dashboard-platform.tt.omtrdc.net^
 ||web.data.tt.omtrdc.net^
+||web.de^$removeparam=mc
 ||web.delighted.com^$third-party
 ||web.diebayerische.de^
 ||web.e.aldermore.co.uk^
@@ -105003,6 +105537,8 @@
 ||web.tummytox.sk^
 ||web.ulta.com^
 ||web.vonazon.com^
+||web.vstat.info^$removeparam=guid
+||web.vstat.info^$removeparam=user_agent
 ||web.web.tomasiauto.com^
 ||web.webformscr.com^$third-party,domain=~sqatraining.ru
 ||web.webpushs.com^$third-party
@@ -105433,6 +105969,7 @@
 ||weicang.me^
 ||weicun.xyz^
 ||weidenhammer.actonservice.com^
+||weidian.com^$removeparam=/distributorid|wfr|ifr|share_relation/
 ||weidianyuedu.com^$third-party
 ||weieo.cyou^
 ||weifengi.xyz^
@@ -105499,6 +106036,7 @@
 ||weltercampe.com^
 ||weltsport.appspot.com/hstrck-detect.js^
 ||welved.com^
+||wemakeprice.com^$removeparam=refer
 ||wemdsm.com^
 ||wemfbox.ch^$third-party
 ||wempooboa.com^
@@ -105626,6 +106164,7 @@
 ||whairtoa.com^$popup
 ||whaishub.net^
 ||whaiweel.com^
+||whale.naver.com^$removeparam=wpid
 ||whaleads.com^
 ||whalepp.com^
 ||whamiwiwu.pro^
@@ -105731,6 +106270,8 @@
 ||whisperofisaak.com^
 ||whistedsynapte.com^
 ||whisteeb.xyz^
+||whistleout.com.au^$cookie=ARRAffinity
+||whistleout.com.au^$cookie=ARRAffinitySameSite
 ||whistler-8.tt.omtrdc.net^
 ||whistler00-4.tt.omtrdc.net^
 ||whitbreadgroup.tt.omtrdc.net^
@@ -106030,6 +106571,7 @@
 ||wikia-beacon.com^$third-party
 ||wikiedv3.tt.omtrdc.net^
 ||wikigifth.com^
+||wikihow.com^$removeparam=?utm_source
 ||wikiodeliv.com^$third-party
 ||wild-stage-dev.blog.tt.omtrdc.net^
 ||wild.sit.tt.omtrdc.net^
@@ -106069,6 +106611,7 @@
 ||wildwist.com^
 ||wildxtraffic.com^$third-party
 ||wildxxxparties.com^
+||wiley.com^$removeparam=/elq/
 ||wiley.met.vgwort.de^
 ||wileypublishing.tt.omtrdc.net^
 ||wilfridamendment.com^
@@ -106202,6 +106745,8 @@
 ||wiprolimited.tt.omtrdc.net^
 ||wirebit.tt.omtrdc.net^
 ||wirecomic.com^$third-party
+||wired.co.uk^$removeparam=mbid
+||wired.com^$removeparam=mbid
 ||wiredminds.de^$third-party
 ||wirelessannexwren.com^
 ||wirenth.com^
@@ -106211,6 +106756,10 @@
 ||wirratailage.com^
 ||wisafnie.space^
 ||wisdomvalley.wang^
+||wise.com^$removeparam=adref
+||wise.com^$removeparam=clickref
+||wise.com^$removeparam=partnerID
+||wise.com^$removeparam=partnerizecampaignID
 ||wisedialogbankspa.tt.omtrdc.net^
 ||wisehowronspar.com^
 ||wisehowronspar.com^$all
@@ -106642,6 +107191,7 @@
 ||wpush.org^
 ||wpushsdk.com^$third-party
 ||wpys.tt.omtrdc.net^
+||wq.jd.com^$removeparam=pvid
 ||wq.stewyruttish.com^
 ||wqfflc.fupa.net^
 ||wqfflc.gartenlexikon.de^
@@ -106854,6 +107404,7 @@
 ||wuxiaworld.com/images/pw^
 ||wuyulou.com^*.php
 ||wuzbhjpvsf.com^
+||wuzhuiso.com^$removeparam=src
 ||wv.donarynahane.com^
 ||wv86s.fun^
 ||wvggzak.cn^
@@ -107074,6 +107625,9 @@
 ||www.allergodil.cz^
 ||www.allergodil.hu^
 ||www.alpaf.tt.omtrdc.net^
+||www.alternate.de^$removeparam=campaign
+||www.alternate.de^$removeparam=idealoid
+||www.alternate.de^$removeparam=partner
 ||www.alumniweb.tt.omtrdc.net^
 ||www.amp-wordow-com.amp.tt.omtrdc.net^
 ||www.anritsu-apsr-response.com^
@@ -107100,6 +107654,8 @@
 ||www.b2bconnect-uat.tt.omtrdc.net^
 ||www.b2bmarketing.swisscom.ch^
 ||www.b2bmarketingsb.swisscom.ch^
+||www.baidu.com^$removeparam=rsv_pq
+||www.baidu.com^$removeparam=rsv_t
 ||www.balikesir.tt.omtrdc.net^
 ||www.barbacena.tt.omtrdc.net^
 ||www.bcaeurope.eu^
@@ -107192,6 +107748,7 @@
 ||www.einsteincollege.tt.omtrdc.net^
 ||www.elabharthi.tt.omtrdc.net^
 ||www.elec2.tt.omtrdc.net^
+||www.electronic4you.de^$removeparam=idealoid
 ||www.elvs.tt.omtrdc.net^
 ||www.enterprises.proximus.be^
 ||www.entrykeys.com^
@@ -107222,6 +107779,7 @@
 ||www.ftr.tt.omtrdc.net^
 ||www.funcasinoslots.one^
 ||www.fxm.tt.omtrdc.net^
+||www.galaxus.de^$removeparam=pcscpId
 ||www.gaylordhotelsnews.com^
 ||www.gaz.comparatif.tt.omtrdc.net^
 ||www.geosciences.tt.omtrdc.net^
@@ -107258,6 +107816,11 @@
 ||www.hey.lt^$third-party
 ||www.hf.tt.omtrdc.net^
 ||www.himachal.tt.omtrdc.net^
+||www.hitseller.de^$removeparam=etcc_cmp
+||www.hitseller.de^$removeparam=etcc_med
+||www.hitseller.de^$removeparam=etcc_produkt
+||www.hitseller.de^$removeparam=idealoid
+||www.hitseller.de^$removeparam=sPartner
 ||www.hq3x.com^
 ||www.iata-dev.tt.omtrdc.net^
 ||www.icmc.tt.omtrdc.net^
@@ -107301,6 +107864,7 @@
 ||www.lawrence.tt.omtrdc.net^
 ||www.letstry69.xyz^
 ||www.librairiedemolecules.tt.omtrdc.net^
+||www.lidl.de^$removeparam=msktc
 ||www.littleitalymilano.www.tt.omtrdc.net^
 ||www.logos.t.tt.omtrdc.net^
 ||www.looksmartppc.com^
@@ -107383,6 +107947,7 @@
 ||www.popxml.com^
 ||www.pornhub.tt.omtrdc.net^
 ||www.portalvantagens.tt.omtrdc.net^
+||www.pricezilla.de^$removeparam=bid
 ||www.prod-vadm4lj9.tt.omtrdc.net^
 ||www.ptools.tt.omtrdc.net^
 ||www.public.tt.omtrdc.net^
@@ -107469,6 +108034,8 @@
 ||www.syslog02.dash.tt.omtrdc.net^
 ||www.t.bpb.tt.omtrdc.net^
 ||www.tadonline.tt.omtrdc.net^
+||www.technikdirekt.de^$removeparam=idealoid
+||www.technikdirekt.de^$removeparam=sPartner
 ||www.test.efaging.com^
 ||www.thaicentenarian.tt.omtrdc.net^
 ||www.thalesgroup-events.com^
@@ -108085,6 +108652,7 @@
 ||xh2-prod.qa01.tt.omtrdc.net^
 ||xh33g.net^
 ||xhaeuubhi.xyz^
+||xhamster.com^$removeparam=from
 ||xhamstercams.com^$third-party
 ||xhamsterpremium.com^$third-party
 ||xhandfuk.com^
@@ -108215,6 +108783,7 @@
 ||xjwrq.com^
 ||xk3b.top^
 ||xkarma.net^$popup
+||xkcd.com^$removeparam=trk
 ||xkcgjkwjbmki.xyz^
 ||xkd.hk^
 ||xkddvf.gigantti.fi^
@@ -108909,6 +109478,8 @@
 ||xxsdtb.edreams.com^
 ||xxsmcps.com^
 ||xxtalp.xyz^
+||xxvidsx.com^$removeparam=ad
+||xxvidsx.com^$removeparam=site
 ||xxx-lib-00.tt.omtrdc.net^
 ||xxx.arabsex1.com^
 ||xxx.sdtraff.com^
@@ -109033,6 +109604,7 @@
 ||yadtanc.xyz^
 ||yahoo.com^$cookie=APIDTS
 ||yahoo.com^$cookie=GUC
+||yahoo.com^$removeparam=ncid
 ||yahooapi.subscriptions-dispatcher-aws-prod.aws.tt.omtrdc.net^
 ||yahoomailinc22.s3.us-east-005.tt.omtrdc.net^
 ||yahorokoz.com^
@@ -109490,6 +110062,7 @@
 ||yottlyscript.com^
 ||yottos.com^$third-party
 ||you-just-won-prize.com^
+||you.163.com^$removeparam=from
 ||you64love.tt.omtrdc.net^
 ||you6ka.cn^
 ||youa2qudo.icu^
@@ -109908,6 +110481,7 @@
 ||zakelijkemarkt.vattenfall.nl^
 ||zakladne-dosky.tt.omtrdc.net^
 ||zakupki2.tt.omtrdc.net^
+||zalando.$removeparam=/^cd\d+/
 ||zalando.de/api/rr^
 ||zalawqsahn.com^
 ||zaltaumi.net^
@@ -109930,6 +110504,7 @@
 ||zapdescendant.com^
 ||zapdescendant.com^$popup
 ||zaphakesleigh.com^
+||zapiska.substack.com^$removeparam=isFreemail
 ||zapprecisionadmire.com^
 ||zapunited.com^
 ||zaremamynah.com^
@@ -109946,6 +110521,8 @@
 ||zausosti.net^
 ||zauthuvy.com^
 ||zaventemdijleland.viessmann.be^
+||zavvi.com^$removeparam=affil
+||zavvi.com^$removeparam=sv_campaign_id
 ||zawowtlikt.com^
 ||zawqwpajq.club^
 ||zax01.com^
@@ -110065,6 +110642,8 @@
 ||zen.99u.tt.omtrdc.net^
 ||zenaps.com^$popup
 ||zenaps.com^$popup,badfilter
+||zenaps.com^$removeparam=bId
+||zenaps.com^$removeparam=cookie
 ||zenback.jp^*/tracking.html
 ||zenchu.tt.omtrdc.net^
 ||zendesk-apis-lb.integrations.tt.omtrdc.net^
@@ -110093,6 +110672,8 @@
 ||zerg.pro^
 ||zergnet.com^$script,third-party
 ||zergnet.com^$third-party
+||zerkalo.io^$removeparam=tg
+||zerkalo.io^$removeparam=vk
 ||zerles.com^
 ||zero-a0.tt.omtrdc.net^
 ||zero.kz^$third-party
@@ -110105,6 +110686,7 @@
 ||zerotogether.tt.omtrdc.net^
 ||zeroviruses-shop.restaurants.tt.omtrdc.net^
 ||zesep.com^$third-party
+||zestradar.com^$removeparam=adclid
 ||zesty-beer.pro^
 ||zesty-lady.pro^
 ||zetadeo.com^
