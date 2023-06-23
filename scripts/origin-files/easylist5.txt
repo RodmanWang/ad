@@ -290,6 +290,8 @@ championat.com#%#//scriptlet('json-prune', 'Blocks')
 !   NOTE: Rambler group end ⬆️
 !   !SECTION: Anti-adblock - Rambler group
 !
+! sports.ru
+sports.ru#%#//scriptlet('set-constant', 'Object.prototype.renderDirect', 'undefined')
 ! NOTE: Ads reinjection end ⬆️
 ! !SECTION: Anti-adblock - ads reinjection
 !
@@ -3407,6 +3409,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+tanp.jp##app-download-coupon-popup
 ||magokoro-bento.com/wp/wp-content/themes/magokoro/js/blog-single.js
 wisecleaner.com##.part-bottom-banner
 citexs.com#$#.el-dialog__wrapper { display: none !important; }
