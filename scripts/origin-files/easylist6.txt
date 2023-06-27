@@ -119,6 +119,7 @@ turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-
 ! notifications - part of the functionality
 ! discord.com##div[class^="container"] > nav[class^="wrapper"] + div[class^="base"] > div[class^="notice-"]
 !
+ekitan.com##.footer-app-invitation-wrap
 mybook.ru##.ant-btn-goToApp
 saveinsta.app##.section-app-download
 gomovies.sx##a[href="https://gomovies.sx/android-movies-apk"]
@@ -1365,7 +1366,6 @@ atis.co.jp##.aside-app-banner
 tieba.baidu.com#$#.tb-backflow-defensive { display: none !important; }
 tieba.baidu.com##nav > div[class="w-row w-row-align-center w-row-justify-between nav-bar"]
 altinpiyasa.com###lyr_ads_right2
-comic.pixiv.net##.bottom-0.fixed[style="bottom:env\(safe-area-inset-bottom\)"] > div.w-screen
 ||doga.hikakujoho.com/assets/sp/img/common/aukana_app.png
 profuture.co.jp##div[class^="bnrApp_"]
 ||vitbichi.by/wp-content/uploads/*/banner_prilozhenie.jpg
@@ -2802,7 +2802,8 @@ m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
 ! causes some issues: https://github.com/AdguardTeam/AdguardForMac/issues/550
 ~lafenice.io,~kurer-sreda.ru,~chorki.com,~zattoo.com,~zaycev.net,~xltrax.ee,~hitta.se,~mail.ru,~v7player.wostreaming.net,~facebook.com,~instagram.com,~drive.google.com$$link[rel="manifest"]
 !
-oishi-kenko.com##.p-bottom-banner__banner
+tango.me###root > div > div[role="button"]
+oishi-kenko.com##.p-bottom-banner
 smule.com##.Wrapper-sc-1uom1zp-0
 tokopedia.com#?#body > div:has(> div.unf-sheet__wrapper div > button[data-testid="btn_buka_di_aplikasi"])
 tokopedia.com#$#body { overflow: auto !important; }
