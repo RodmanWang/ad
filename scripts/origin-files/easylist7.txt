@@ -7684,7 +7684,7 @@ sonixgvn.net#%#//scriptlet("adjust-setInterval", "count--", "", "0.02")
 dlsharefile.com#%#//scriptlet("adjust-setInterval", "#Download-Card", "", "0.02")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72365
 ! https://gist.github.com/AdamWr/980e793d14527b22f517247e560beada
-adshnk.com,pairom.com,adshrink.it#%#AG_onLoad(function(){const a=function(a){const b=new DOMParser().parseFromString(a,"text/html");return b.documentElement.textContent},b=function(){if("object"==typeof _sharedData&&"string"==typeof _sharedData[0]?.destination){const b=a(_sharedData[0].destination);if(b.startsWith("http"))try{window.location=b}catch(a){}}};if(window._sharedData)b();else{const a=new MutationObserver(function(){window._sharedData&&(a.disconnect(),b())});a.observe(document,{childList:!0,subtree:!0}),setTimeout(function(){a.disconnect()},1E4)}});
+adshnk.com,adshrink.it#%#AG_onLoad(function(){const a=function(a){const b=new DOMParser().parseFromString(a,"text/html");return b.documentElement.textContent},b=function(){if("object"==typeof _sharedData&&"string"==typeof _sharedData[0]?.destination){const b=a(_sharedData[0].destination);if(b.startsWith("http"))try{window.location=b}catch(a){}}};if(window._sharedData)b();else{const a=new MutationObserver(function(){window._sharedData&&(a.disconnect(),b())});a.observe(document,{childList:!0,subtree:!0}),setTimeout(function(){a.disconnect()},1E4)}});
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72159
 render-state.to#%#//scriptlet("adjust-setTimeout", "params.redirect", "5000", "0.02")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/71905
@@ -8707,7 +8707,7 @@ runningnews.gr#%#//scriptlet("remove-attr", "onmousedown", "img[onmousedown]")
 tistory.com,runningnews.gr#%#//scriptlet('set-constant', 'window.disableselect', 'noopFunc')
 ani-ost.info#%#AG_onLoad(function() { document.oncontextmenu = function(){return true}; document.onselectstart = function(){return true}; });
 kingbet.net#%#(function(){z=self.EventTarget.prototype.addEventListener;self.EventTarget.prototype.addEventListener=function(a,b){if(!/cut|copy|paste/.test(a.toString()))return z.apply(this,arguments)}})();
-javengsub.com,vabstutorials.com,stiffgamerdown.com,televall.website,animeshouse.net,animeunity.it,droidtk.com,themeslide.com,orangespotlight.com,magdyman.com,topflix.*,sportsio.xyz,irisbuddies.ml,poisonous-raspberry-fields.blogspot.com,redirdx.in,tmofans.com,thememazing.com,baan-series.com,baixarfilmetorrent.net,yourupload.com,wikitechy.com,windes.com.es,freecourser.com,audioreview.m1001.coreserver.jp,portalwrc.pl,newtoki51.com,themeslide.com#%#window.addEventListener("contextmenu",function(a){a.stopPropagation()},!0);
+javengsub.com,vabstutorials.com,stiffgamerdown.com,televall.website,animeshouse.net,animeunity.it,droidtk.com,themeslide.com,orangespotlight.com,magdyman.com,topflix.*,sportsio.xyz,irisbuddies.ml,poisonous-raspberry-fields.blogspot.com,redirdx.in,tmofans.com,thememazing.com,baan-series.com,baixarfilmetorrent.net,yourupload.com,wikitechy.com,windes.com.es,freecourser.com,audioreview.m1001.coreserver.jp,portalwrc.pl,themeslide.com#%#window.addEventListener("contextmenu",function(a){a.stopPropagation()},!0);
 pelispedia.tv#%#AG_onLoad(function() { document.oncontextmenu = function(){return true}; });
 kseries.co#%#Object.defineProperties(window, { clickIE: { get: function() { return; } }, disableselect: { get: function() { return; } } });
 linkerpt.com#%#//scriptlet("abort-current-inline-script", "jQuery", "fp_mouse_right_click_restriction")
