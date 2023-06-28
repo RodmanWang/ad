@@ -79,6 +79,9 @@
 ! Bad: example.org###rek (should be in specific.txt)
 !
 !
+! https://github.com/uBlockOrigin/uAssets/issues/18715
+fandom.com#%#//scriptlet('set-constant', 'optimizely', 'emptyObj')
+fandom.com#%#//scriptlet('set-constant', 'optimizely.initialized', 'true')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/153836
 weather.com#%#//scriptlet('set-constant', 'DprSdk', 'emptyObj')
 weather.com#%#//scriptlet('set-constant', 'DprSdk.init', 'noopFunc')
@@ -58332,8 +58335,6 @@ dreamprogs.net##td[width="88"][height="31"]
 ||media-imdb.com/*/js/ads/beacon-
 ||media-imdb.com/images/*/imdbads/js/beacon-$script
 ||media-imdb.com/twilight/?
-||mediashop.tv/daten/*/google.js
-||megashara.org/uploads/button/online.png
 ||meinauto.de/js/vendor/criteo/criteo_ld.js
 ||meta.ua/f_new.asp?g=
 ||metrics.amd.com/b/ss/
@@ -60761,7 +60762,8 @@ login.coupang.com#%#//scriptlet('prevent-element-src-loading', 'script', 'app-co
 ! https://github.com/uBlockOrigin/uAssets/issues/18625
 @@||googletagmanager.com/gtag/js$script,domain=panflix.com.br
 ! https://github.com/AdguardTeam/AdguardFilters/issues/153977
-@@||bat.bing.com/bat.js$domain=northwell.edu
+@@||googletagmanager.com/gtm.js$domain=northwell.edu
+@@||js-agent.newrelic.com/async-api$domain=northwell.edu
 ! https://github.com/AdguardTeam/AdguardFilters/issues/154231
 @@||shenlongruanjian.com/website/js/fingerprint2.min.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/154214
