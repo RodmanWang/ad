@@ -4772,10 +4772,12 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+app.kultivi.com##.MuiContainer-maxWidthMd.MuiContainer-root > div.react-multi-carousel-list
+app.kultivi.com#?#nav div.MuiPaper-root > div.MuiBox-root:has(> div.MuiPaper-root a[href="/dashboard/planos"])
 imacos.top##.sitetips
 alphacoders.com##.panel-blue.feature
 nicovideo.jp###jsMarqueeContainer
-the-ans.jp##.right-banner > a[href^="https://the-ans.jp/"]
+the-ans.jp##.right-banner > a[href*="the-ans.jp"]
 searchenginejournal.com##aside.widget-wrap
 searchenginejournal.com###nav_bar_g
 m.gaodun.com#?#.detail-content > .know-swiper:has(a[href^="https://www.gaodun.com/cpa/ziliao"])
@@ -8213,8 +8215,6 @@ katfile.com#%#(function(){var c=window.setTimeout;window.setTimeout=function(f,g
 newsteez.com#%#AG_onLoad(function(){var a=document.querySelector(".wpsafe-bottom > #shrtxyz > form[action*='/?safelink_redirect=']");if(a&&(a=a.action.split("?safelink_redirect="))&&a[1])try{window.location=decodeURIComponent(a[1])}catch(b){}});
 ! https://github.com/AdguardTeam/AdguardFilters/issues/45347
 konten.co.id#%#AG_onLoad(function() {var el=document.querySelector("#wpsafe-link > a[href]");if(el){var elHref=el.href,dest=elHref.split("?safelink_redirect=");if(dest&&dest[1])try{window.location=decodeURIComponent(dest[1])}catch(b){}};});
-! https://github.com/AdguardTeam/AdguardFilters/issues/44505
-k2nblog.com#%#!function(){if(-1<window.location.href.indexOf("/gotothedl.html?url=")){var a=location.href.split("/gotothedl.html?url=");if(a&&a[1])try{window.location=atob(a[1])}catch(b){}}}();
 ! https://github.com/AdguardTeam/AdguardFilters/issues/43273
 !+ NOT_PLATFORM(windows, mac, android)
 coolrom.com.au#%#//scriptlet("adjust-setTimeout", "download()")
@@ -8265,8 +8265,6 @@ onioncloud.stream,ihls.pro#%#(function(){var c=window.setInterval;window.setInte
 ! https://github.com/AdguardTeam/AdguardFilters/issues/127886
 ! https://github.com/AdguardTeam/AdguardFilters/issues/38558
 boost.ink#%#(()=>{const a=new MutationObserver(function(){const b=document.querySelector("script[src^=\"/assets/js/unlock.js\"]");if(b){a.disconnect();let c;for(let a of b.attributes)if(a.textContent.includes("aHR0c")){c=a.textContent;break}c&&setTimeout(function(){location.assign(atob(c))},500)}});a.observe(document,{childList:!0,subtree:!0})})();
-! https://github.com/AdguardTeam/AdguardFilters/issues/38274
-k2nblog.com#%#!function(){if(-1<location.pathname.indexOf("/linkdl.htm")){var b64dest=location.href.split("linkdl.html?url=");if(b64dest&&b64dest[1]){location=atob(b64dest[1]);}}}();
 ! https://github.com/AdguardTeam/AdguardFilters/issues/123405
 ! https://github.com/AdguardTeam/AdguardFilters/issues/110006
 ! https://github.com/AdguardTeam/AdguardFilters/issues/34644
@@ -8732,7 +8730,6 @@ ani-ost.info#%#AG_onLoad(function() { document.oncontextmenu = function(){return
 kingbet.net#%#(function(){z=self.EventTarget.prototype.addEventListener;self.EventTarget.prototype.addEventListener=function(a,b){if(!/cut|copy|paste/.test(a.toString()))return z.apply(this,arguments)}})();
 javengsub.com,vabstutorials.com,stiffgamerdown.com,televall.website,animeshouse.net,animeunity.it,droidtk.com,themeslide.com,orangespotlight.com,magdyman.com,topflix.*,sportsio.xyz,irisbuddies.ml,poisonous-raspberry-fields.blogspot.com,redirdx.in,tmofans.com,thememazing.com,baan-series.com,baixarfilmetorrent.net,yourupload.com,wikitechy.com,windes.com.es,freecourser.com,audioreview.m1001.coreserver.jp,portalwrc.pl,themeslide.com#%#window.addEventListener("contextmenu",function(a){a.stopPropagation()},!0);
 pelispedia.tv#%#AG_onLoad(function() { document.oncontextmenu = function(){return true}; });
-kseries.co#%#Object.defineProperties(window, { clickIE: { get: function() { return; } }, disableselect: { get: function() { return; } } });
 linkerpt.com#%#//scriptlet("abort-current-inline-script", "jQuery", "fp_mouse_right_click_restriction")
 volt-index.ru#%#//scriptlet("abort-current-inline-script", "jQuery", "oncopy")
 patrika.com#%#//scriptlet("set-constant", "document.onpaste", "undefined")
