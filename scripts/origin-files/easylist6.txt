@@ -119,6 +119,8 @@ turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-
 ! notifications - part of the functionality
 ! discord.com##div[class^="container"] > nav[class^="wrapper"] + div[class^="base"] > div[class^="notice-"]
 !
+cookpad.com###device_box
+cookpad.com#?#footer > section > div:has(> div > a[href^="https://app.adjust.com/"])
 vseinstrumenti.ru##div[data-behavior="header-app-download"]
 vseinstrumenti.ru##a[widget-type="download_app"]
 vseinstrumenti.ru#?#.main-container > div[data-qa="adfox"]:has(> div > div > a[href="https://www.vseinstrumenti.ru/app-download/"])
@@ -3006,8 +3008,8 @@ navitime.co.jp#?#.page-content:has(> div#inview-app)
 livemint.com##.openinApp2
 timesofindia.com###di_iframe
 timesofindia.com##.ctaopenapp
-live.kufu.co.jp,o-uccino.jp##.post_app_banner
-live.kufu.co.jp,o-uccino.jp##.header_app_banner
+live.kufu.co.jp,live.kufu.co.jp,o-uccino.jp##.post_app_banner
+live.kufu.co.jp,live.kufu.co.jp,o-uccino.jp##.header_app_banner
 trilltrill.jp#$#.header-W2ABanner + header.header-GlobalHeader { padding-top: 0 !important; height: 86px !important; }
 trilltrill.jp#$#.header-W2ABanner + header.header-GlobalHeader > div.header-MenuBar { top: auto !important; }
 trilltrill.jp##.articleDetail-ReadMore_W2A
