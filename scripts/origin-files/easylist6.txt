@@ -119,6 +119,10 @@ turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-
 ! notifications - part of the functionality
 ! discord.com##div[class^="container"] > nav[class^="wrapper"] + div[class^="base"] > div[class^="notice-"]
 !
+vseinstrumenti.ru##div[data-behavior="header-app-download"]
+vseinstrumenti.ru##a[widget-type="download_app"]
+vseinstrumenti.ru#?#.main-container > div[data-qa="adfox"]:has(> div > div > a[href="https://www.vseinstrumenti.ru/app-download/"])
+||connpass.com/static/img/top/side_ios
 www-y2mate.com##.extension
 analyticsindiamag.com#?#.elementor-section-content-middle[data-settings="{\"background_background\":\"classic\"}"]:has(> div > div > div > div > div > a[href^="https://play.google.com/store/apps"])
 plannedparenthood.org##div[data-module-name="Get birth control pills delivered to your door."]
@@ -158,7 +162,7 @@ sports.sina.com.cn##a[href^="http://sports.sina.com.cn/download/"] > img
 doc88.com##.boxright > .dk-side
 rightmove.co.uk##section[id^="GetTheApp_smartbanner"]
 blog.csdn.net##.feed-Sign-weixin
-jiankang.163.com,auto.163.com,home.163.com##.post_side_logo
+art.163.com,jiankang.163.com,auto.163.com,home.163.com##.post_side_logo
 tvp.info##.banner-section
 tvp.info##.article a.app_banner
 you.163.com##.m-appDownloadGuide
