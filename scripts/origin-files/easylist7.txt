@@ -97,6 +97,8 @@ instagram.com#$?#div[class]:has(> div[class]:first-child > a[href="/explore/peop
 instagram.com#?#div[style*="opacity"] > div > div[class]:has(> div[class] > div[style] > div[style] > div[aria-labelledby] > div[class]:last-child > button)
 ! End: Instagram.com
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/155272
+dvdizzy.com#$#.branded-header { position: static !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/155037
 americansongwriter.com##.widget_g1_socials
 ! https://github.com/AdguardTeam/AdguardFilters/issues/155017
@@ -4777,6 +4779,8 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+developer.aliyun.com##.free-product
+developer.aliyun.com##.developer-common-fixed-box-bottom
 falixnodes.net###falixPremAd
 ||singtao.ca/*/singclub_feature_articles/
 videogameschronicle.com##.vgc-podcast-promo
