@@ -3421,6 +3421,11 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+ilounge.ua#$#.fancybox-overlay { display: none !important; }
+ilounge.ua#$?#body { overflow: auto !important; }
+ilounge.ua###bottom_bar
+dream.ai#%#//scriptlet('set-session-storage-item', 'hasViewedReduceNotifications', 'true')
+argaam.com##.bottom-fixed-container
 editpad.org#$#.banner-link { display: none !important; }
 editpad.org#$#body > div.header { margin-top: 0 !important; }
 packtpub.com###productUpsell
@@ -9037,6 +9042,9 @@ google.ad,google.ae,google.al,google.am,google.as,google.at,google.az,google.ba,
 google.ad,google.ae,google.al,google.am,google.as,google.at,google.az,google.ba,google.be,google.bf,google.bg,google.bi,google.bj,google.bs,google.bt,google.by,google.ca,google.cat,google.cd,google.cf,google.cg,google.ch,google.ci,google.cl,google.cm,google.cn,google.co.ao,google.co.bw,google.co.ck,google.co.cr,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.ls,google.co.ma,google.co.mz,google.co.nz,google.co.th,google.co.tz,google.co.ug,google.co.uk,google.co.uz,google.co.ve,google.co.vi,google.co.za,google.co.zm,google.co.zw,google.com,google.com.af,google.com.ag,google.com.ai,google.com.ar,google.com.au,google.com.bd,google.com.bh,google.com.bn,google.com.bo,google.com.br,google.com.bz,google.com.co,google.com.cu,google.com.cy,google.com.do,google.com.ec,google.com.eg,google.com.et,google.com.fj,google.com.gh,google.com.gi,google.com.gt,google.com.hk,google.com.jm,google.com.kh,google.com.kw,google.com.lb,google.com.ly,google.com.mm,google.com.mt,google.com.mx,google.com.my,google.com.na,google.com.nf,google.com.ng,google.com.ni,google.com.np,google.com.om,google.com.pa,google.com.pe,google.com.pg,google.com.ph,google.com.pk,google.com.pr,google.com.py,google.com.qa,google.com.sa,google.com.sb,google.com.sg,google.com.sl,google.com.sv,google.com.tj,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vc,google.com.vn,google.cv,google.cz,google.de,google.dj,google.dk,google.dm,google.dz,google.ee,google.es,google.fi,google.fm,google.fr,google.ga,google.ge,google.gg,google.gl,google.gm,google.gp,google.gr,google.gy,google.hn,google.hr,google.ht,google.hu,google.ie,google.im,google.iq,google.is,google.it,google.je,google.jo,google.kg,google.ki,google.kz,google.la,google.li,google.lk,google.lt,google.lu,google.lv,google.md,google.me,google.mg,google.mk,google.ml,google.mn,google.ms,google.mu,google.mv,google.mw,google.ne,google.nl,google.no,google.nr,google.nu,google.pl,google.pn,google.ps,google.pt,google.ro,google.rs,google.ru,google.rw,google.sc,google.se,google.sh,google.si,google.sk,google.sm,google.sn,google.so,google.sr,google.st,google.td,google.tg,google.tk,google.tl,google.tm,google.tn,google.to,google.tt,google.vg,google.vu,google.ws##div[data-promoid] div[aria-labelledby="task-text"][aria-modal="true"]
 google.ad,google.ae,google.al,google.am,google.as,google.at,google.az,google.ba,google.be,google.bf,google.bg,google.bi,google.bj,google.bs,google.bt,google.by,google.ca,google.cat,google.cd,google.cf,google.cg,google.ch,google.ci,google.cl,google.cm,google.cn,google.co.ao,google.co.bw,google.co.ck,google.co.cr,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.ls,google.co.ma,google.co.mz,google.co.nz,google.co.th,google.co.tz,google.co.ug,google.co.uk,google.co.uz,google.co.ve,google.co.vi,google.co.za,google.co.zm,google.co.zw,google.com,google.com.af,google.com.ag,google.com.ai,google.com.ar,google.com.au,google.com.bd,google.com.bh,google.com.bn,google.com.bo,google.com.br,google.com.bz,google.com.co,google.com.cu,google.com.cy,google.com.do,google.com.ec,google.com.eg,google.com.et,google.com.fj,google.com.gh,google.com.gi,google.com.gt,google.com.hk,google.com.jm,google.com.kh,google.com.kw,google.com.lb,google.com.ly,google.com.mm,google.com.mt,google.com.mx,google.com.my,google.com.na,google.com.nf,google.com.ng,google.com.ni,google.com.np,google.com.om,google.com.pa,google.com.pe,google.com.pg,google.com.ph,google.com.pk,google.com.pr,google.com.py,google.com.qa,google.com.sa,google.com.sb,google.com.sg,google.com.sl,google.com.sv,google.com.tj,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vc,google.com.vn,google.cv,google.cz,google.de,google.dj,google.dk,google.dm,google.dz,google.ee,google.es,google.fi,google.fm,google.fr,google.ga,google.ge,google.gg,google.gl,google.gm,google.gp,google.gr,google.gy,google.hn,google.hr,google.ht,google.hu,google.ie,google.im,google.iq,google.is,google.it,google.je,google.jo,google.kg,google.ki,google.kz,google.la,google.li,google.lk,google.lt,google.lu,google.lv,google.md,google.me,google.mg,google.mk,google.ml,google.mn,google.ms,google.mu,google.mv,google.mw,google.ne,google.nl,google.no,google.nr,google.nu,google.pl,google.pn,google.ps,google.pt,google.ro,google.rs,google.ru,google.rw,google.sc,google.se,google.sh,google.si,google.sk,google.sm,google.sn,google.so,google.sr,google.st,google.td,google.tg,google.tk,google.tl,google.tm,google.tn,google.to,google.tt,google.vg,google.vu,google.ws##div[aria-modal="true"] > div[aria-labelledby="task-text"]
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/155513
+!+ PLATFORM(ext_ublock)
+dream.ai##div[data-testid="overlay-backdrop"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/148934
 123telugu.com#%#AG_onLoad(function() { setTimeout(function() { var el = document.querySelectorAll('.landinghead > a[href="https://www.123telugu.com/index.php"]')[0]; if(el) el.click(); }, 300); });
 ! https://github.com/AdguardTeam/AdguardFilters/issues/100436
@@ -10913,6 +10921,16 @@ jiji.com,edp24.co.uk,technologyreview.com,inews.co.uk,nordbayern.de,thelocal.ch,
 !
 ! SECTION: Subscriptions - Regular rules
 !
+expressvpn.com##.wrap-subscribe
+jotform.com##.section-widget-footer
+jotform.com##.articlesdetail-newsletter-section
+nasdaq.com##div[class*="marketo-form"]
+financhill.com#$#body > div[class^="mfp-"] { display: none !important; }
+financhill.com#$#html { overflow: auto !important; }
+||joinnow.live/embed/s/*?layout=styled-0$domain=financhill.com
+zapier.com#?#div[class^="css-"] > div:not([class]):has(div[class$="-SubscribeMini__wrapper"])
+zapier.com#?#div[class^="css-"] > div:not([class]):has(div[class$="-SubscribeMini__wrapper"]) + div[class]
+shuba.life##.c-subs--gn
 ||nautil.us/wp-content/themes/*/block-js/subscribe-cta-script.js
 vladday.ru#?#article div.my-3:has(> div a[href][target="_blank"])
 livejournal.com##div[medius-subscribe]
@@ -12325,7 +12343,7 @@ womo.ua##.telegram_buttun
 aberdeennews.com##form[class^="gnt_"][aria-label*="newsletter: "]
 e360.yale.edu#%#//scriptlet("abort-on-property-write", "rightnow")
 artandeducation.net##.overlayer
-emergencemagazine.org,wyrk.com##.newsletter-overlay
+missoulacurrent.com,emergencemagazine.org,wyrk.com##.newsletter-overlay
 emergencemagazine.org##.newsletter-dropin
 ||aeon.co/_next/static/chunks/NewsletterPopup.*.js
 aeon.co##div[class^="SupportBar__Wrapper-sc-"]
@@ -13153,7 +13171,7 @@ pravda.com.ua#?#.post_text > blockquote:has(> p > strong > a:contains(Telegram))
 advertimes.com##.follow-us-list > li:last-child
 jinjibu.jp##.l-registerarea
 singlegrain.com##.sticky-bottom-cta
-singlegrain.com##.sidebar-subscribe
+auslogics.com,expressvpn.com,singlegrain.com##.sidebar-subscribe
 tympanus.net##.ct-sharing
 gomibo.de##section[class^="SubscribeNewsletterstyle"]
 ubr.ua##body div.subscription_form_block
@@ -14353,7 +14371,7 @@ zeropark.com,hackware.ru,fosspost.org###custom_html-9
 pridesource.com,investmentwatchblog.com###custom_html-11
 scholarship-positions.com###custom_html-13
 newsmaker.md###custom_html-15
-coingape.com,android-kino-tv.ru###custom_html-17
+financhill.com,coingape.com,android-kino-tv.ru###custom_html-17
 fastbikesmag.com###custom_html-21
 honeysanime.com###custom_html-133
 rand.org##.newsletter-subscription-box
@@ -14801,7 +14819,6 @@ openculture.com##.new_subscription_block
 cleananddelicious.com,javcc.com,analogictips.com,1000projects.org,hostdime.com,whatobuy.in,blog.alexa.com###text-6
 blog.alexa.com##.awac-wrapper
 auslogics.com##.subscribed-form_section
-auslogics.com###sidebar-subscribe
 wikihow.com###hp_newsletter
 thinkwithgoogle.com##.article-toolbar__cta-wrapper
 pikabu.ru##.email-block
@@ -14898,7 +14915,7 @@ revolt.tv##div[id="toaster"][data-cdata*="Subscribe"]
 flos.com###link-newsletter
 ||coop-land.ru/uploads/posts/*_telegram.jpg
 ultimateclassicrock.com##.tsq_sailthru_newsletter_widget
-ultimateclassicrock.com##.widget-tsq_sailthru_newsletter_widget
+missoulacurrent.com,ultimateclassicrock.com##.widget-tsq_sailthru_newsletter_widget
 androidauthority.com##.andro-newsletter-signup
 engblog.ru,guvi.in,burmistr.ru##.section-subscribe
 burmistr.ru##.balloon-subscribe
