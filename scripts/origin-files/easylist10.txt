@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202307060923
+! Version: 202307061257
 ! Title: Fanboy's Annoyance List
-! Last modified: 06 Jul 2023 09:23 UTC
+! Last modified: 06 Jul 2023 12:57 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -36008,6 +36008,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||consent.amateurphotographer.co.uk^
 ||consent.canalboat.co.uk^
 ||consent.cmp.oath.com^
+||consent.cookiefirst.com^
 ||consent.nationalworld.com^
 ||consent.pilotweb.aero^
 ||consent.stuff.tv^
@@ -40681,6 +40682,7 @@ classicalarchives.com##.Cdiv
 2nt.com,say-move.org##.CoZ9Nu8Z
 weverse.io##.CookieAgreeView_container__qYaK3
 tsi.com##.CookieConsent > .o-container
+elitesingles.com##.CookieConsent_cookie-consent__nuLuI
 getunleash.io##.CookieControl_container__35n-w
 lyte.com##.CookiePopUp_cookiePopUp__2mB8Q
 retn.net##.CookieWindow__Wrapper-sc-uhdlpk-0
@@ -41857,6 +41859,7 @@ fixedfloat.com##.reminder
 carhartt.com##.reveal-modal
 marsh.com##.reveal-modal-bg-white
 beerwulf.com,islamicfinder.org##.reveal-overlay
+merlin.foyer.work##.rhc-banner
 mrgugu.com##.rhvQa
 ricola.com##.ricola-cookie-info
 southwestcoastpath.org.uk##.roar-body
@@ -42738,7 +42741,7 @@ aerored.es,biodramina.es,fisiocrem.es##.modalcookies
 ! ! #cookie-container
 fhstp.ac.at,haanindustrial.com,ippies.nl,picniq.co.uk,sophianum.nl,tatasteelonbrand.com###cookie-container
 ! ! #cookieModal
-dedriefonteinen.be,globalfamilydoctor.com,glyn.com,grundstueckspreise.info,happypenguin.altervista.org,krungsri.com,meteo.fvg.it,mtn.ng,selgros24.pl,thegrangesurgery.webgp.com,trbchemedica.co.uk###cookieModal
+dedriefonteinen.be,globalfamilydoctor.com,glyn.com,grundstueckspreise.info,happypenguin.altervista.org,krungsri.com,meteo.fvg.it,mtn.ng,selgros24.pl,thegrangesurgery.webgp.com,thewolfsound.com,trbchemedica.co.uk###cookieModal
 ! ! .modalCookies
 blog.mega-energie.fr,filmotecadecine.com,meuhyundai.com.br,softwaretogo.de##.modalCookies
 ! .ns-type-noticeolder
@@ -46504,6 +46507,7 @@ spbtvonline.ru###agreeC
 ecolipetsk.ru###bg_popup
 yvid.ru###cbb
 gorodperm.ru###cookb
+vladimir-city.ru###cookie_pp
 printn1.ru###info-bott-message
 patee.ru###informer2
 fastbox.su###jsUsePersonalDataBlock
