@@ -2884,6 +2884,8 @@ xataka.com.mx,shikiho.toyokeizai.net,newsee-media.com,rank1-media.com,m.proporn.
 !
 ! Start specific
 !
+deviantart.com##.juPu7
+deviantart.com##._3_7sD
 games.nme-jp.com##header.sp
 gpfans.com##div[id^="snackban"]
 gpfans.com##.topbanmobile
@@ -6890,6 +6892,8 @@ adguard.com,adguard.app##.hello_from_adguard_mobile
 ||startup-mobile.ap.yandex-net.ru^
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/155650
+||m.mradx.net^$app=com.avito.android
 ! https://github.com/AdguardTeam/AdguardFilters/issues/154955
 ||yastatic.net^$app=com.drive2
 ! https://github.com/AdguardTeam/AdguardFilters/issues/153135
