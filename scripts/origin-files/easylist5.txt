@@ -3427,6 +3427,9 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+dcard.tw#$#div[data-testid="overlay"][class^="atm_piekax"] { display: none !important; }
+dcard.tw#$#body { overflow: auto !important; }
+dcard.tw#?#.__portal div[class^="atm_"]:has(> div[class^="atm_"] > div[class^="atm_"] > div[class^="atm_"] > a[href^="https://www.dcard.tw/service/_auth/"])
 road.cc##.viously-sticked
 northcasino.com#%#//scriptlet('set-session-storage-item', 'anonSessionNotific', '1')
 baby-calendar.jp#$##modal_scrollView { display: none !important; }
@@ -3476,7 +3479,7 @@ editpad.org#$#.banner-link { display: none !important; }
 editpad.org#$#body > div.header { margin-top: 0 !important; }
 packtpub.com###productUpsell
 kyivindependent.com##.popupJoinUsInThisFight
-jingukan.co.jp##.bfb_textBtn
+picmo.me,jingukan.co.jp##.bfb_textBtn
 lizhi.shop#?#div > div[x-data]:has(> button#gitfBtn)
 n1info.hr##.brid-holder.brid-sticky
 n1info.hr##.brid-close
@@ -10969,6 +10972,8 @@ jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,thelocal.ch,morgenpost.d
 !
 ! SECTION: Subscriptions - Regular rules
 !
+amateurphotographer.com##.desktopSubsAd
+amateurphotographer.com##.mobileSubsAd
 inews.co.uk#$#div[class^="tp-modal"][style^="z-index: 300050; display: block;"] ~ div.tp-backdrop { display: none !important; }
 inews.co.uk#$#div[class^="tp-modal"][style^="z-index: 300050; display: block;"] { display: none !important; }
 inews.co.uk#$#html > body.tp-modal-open { overflow: auto !important; position: static !important; height: auto !important; touch-action: auto !important; }
