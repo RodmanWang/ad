@@ -3427,6 +3427,8 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+||receptions.smart-bdash.com^$domain=shinmai.co.jp
+jetbrains.com.cn##.devecosystem-2023
 dcard.tw#$#div[data-testid="overlay"][class^="atm_piekax"] { display: none !important; }
 dcard.tw#$#body { overflow: auto !important; }
 dcard.tw#?#.__portal div[class^="atm_"]:has(> div[class^="atm_"] > div[class^="atm_"] > div[class^="atm_"] > a[href^="https://www.dcard.tw/service/_auth/"])
@@ -5342,7 +5344,7 @@ companyhouse.de#$#div[id="ajax-modal"][style="display: block; padding-right: 17p
 bfstrms.xyz##div[id^="webmodal"]
 bfstrms.xyz##.modal-backdrop
 startech.com.bd#%#//scriptlet('set-constant', 'app.enablePopup', 'false')
-ssakurasaku-marketing.co.jp,akurasaku-labo.jp,japanese-bank.com,equl.jp,naifix.com##.boxzilla-bottom-right-container
+sakurasaku-marketing.co.jp,sakurasaku-labo.jp,japanese-bank.com,equl.jp,naifix.com##.boxzilla-bottom-right-container
 raspberrytips.com#$#html { overflow: visible !important; }
 raspberrytips.com#$#.cp-modal-popup-container.cp-free-ebook-container { display: none !important; }
 developer.android.com#?#devsite-snackbar a.devsite-snackbar-link[href^="https://developer.android.com/survey"]:upward(devsite-snackbar)
@@ -10972,6 +10974,7 @@ jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,thelocal.ch,morgenpost.d
 !
 ! SECTION: Subscriptions - Regular rules
 !
+futurepedia.io#?#.InfiniteScroll > div.MuiGrid-root > div.MuiGrid-item:has(> div.MuiBox-root div.ml-subscribe-form)
 extremetech.com##aside div[x-data="window.newsletter()"]
 amateurphotographer.com##.desktopSubsAd
 amateurphotographer.com##.mobileSubsAd
