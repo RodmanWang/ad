@@ -79,6 +79,8 @@
 ! Bad: example.org###rek (should be in specific.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/156723
+security.oneplus.com#%#//scriptlet('set-constant', '_dx', 'emptyObj')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/156401
 platform.autods.com#%#//scriptlet('set-constant', '_conv_q', 'emptyObj')
 platform.autods.com#%#//scriptlet('set-constant', '_conv_q.push', 'noopFunc')
@@ -419,9 +421,6 @@ nukeruerodouga.com#?##main-right > div.right_area > div.ninja-recommend-block:up
 ! https://github.com/AdguardTeam/AdguardFilters/issues/110304#issuecomment-1057807201
 kuow.org#?#.story-content-wrapper > div.embed_block:has(> div[ub-in-page])
 kuow.org#?#.story-content-wrapper > div.embed_block:has(> script:contains(window.usabilla))
-!
-hdreactor.club,hdreactor.tv,hdreactor.net#?#.sidebar > div.menu-wrap > div.menu-head:contains(Счетчики)
-hdreactor.club,hdreactor.tv,hdreactor.net#?#.sidebar > div.menu-wrap > div.menu-head:contains(Счетчики) + div.menu-head1
 !
 aatyu.livedoor.blog#?#.article > div.plugin-memo:has(> div.side > div.ninja-recommend-block)
 cartune.me#?#.contents-inner > div > div#taboola-alternating-thumbnails-a:upward(1)
@@ -3116,7 +3115,7 @@ prjaga.ru#?##right > div#right_nav > h3:contains(Онлайн статистик
 ||linkconnector.com^$third-party
 ||linkpulse.com^$third-party
 ||linkxchanger.com^$third-party
-||listrakbi.com^$third-party
+||s1.listrakbi.com^$third-party
 ||listtop.ru^$third-party
 ||livecount.fr^$third-party
 ||livecounter.dk^$third-party
@@ -4295,6 +4294,7 @@ prjaga.ru#?##right > div#right_nav > h3:contains(Онлайн статистик
 ! More info: https://getadmiral.com/products/measure
 ! Add same rules to the Admiral section of Annoyances filter
 !
+||childlikeexample.com^$third-party
 ||adamantsnail.com^$third-party
 ||healflowers.com^$third-party
 ||blushingbread.com^$third-party
@@ -62126,6 +62126,12 @@ inapps.appsflyersdk.com^
 !#endif
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/156301
+@@||googletagmanager.com/gtag/js$domain=bihann.com|nehannn.com
+@@||googletagservices.com/tag/js/gpt.js$domain=bihann.com|nehannn.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/156723
+!+ PLATFORM(ios, ext_safari, ext_android_cb)
+@@||captcha-sgp-sec.heytapmobile.com/dx-captcha/index.js$domain=security.oneplus.com
 ! https://github.com/uBlockOrigin/uAssets/issues/19050#issuecomment-1637489820
 @@||googletagmanager.com/gtag/js$domain=oko.sh
 ! https://github.com/AdguardTeam/AdguardFilters/issues/156401
