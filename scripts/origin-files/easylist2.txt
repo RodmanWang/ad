@@ -79,6 +79,9 @@
 ! Bad: example.org###rek (should be in specific.txt)
 !
 !
+! https://github.com/uBlockOrigin/uAssets/issues/16512#issuecomment-1639236636
+! Fixes video player, it's part of the analytics script
+lun.com#%#//scriptlet('set-constant', 'CallAjax', 'noopFunc')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/156723
 security.oneplus.com#%#//scriptlet('set-constant', '_dx', 'emptyObj')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/156401
@@ -5572,6 +5575,7 @@ nethunt.com/api/v1/track/email/$image
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||ats.auction.co.kr^
 ||stats.stylight.de^
 ||tmserverside.mango.com^
 ||analytics.tedium.co^
@@ -56294,6 +56298,11 @@ _tracking.php?b=
 /analytics.js$domain=tokyometro.jp|resumes.breakdownexpress.com|techcult.com|inbox.lv|kopeda.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|newsmax.com|bolgehastanesi.com|ewtc.de|newsdig.tbs.co.jp|imore.com|city.kushiro.lg.jp|emeraldbridal.com.au|emarat-news.ae|imobie.jp|tikla.com.tr|rusvideos.porn|jrkyushu.co.jp|amiunique.org
 ||assets.adobedtm.com^$domain=mcclatchydc.com|elnuevoherald.com|bellinghamherald.com|sacbee.com|charlotteobserver.com|newsobserver.com|miamiherald.com|ef.ru|algida.com.tr|bmw-motorrad.co.uk|cif.com.tr|clearhaircare.com|domestos.com|dove.com|elidor.com.tr|f1sport.autorevue.cz|geico.com|hellmanns.com.tr|herkessofraya.com|johnsonsbaby.com.tr|lipton.com|lnk.to|lux.com|magnumicecream.com|neutrogena.com.tr|omo.com|rexona.com|samsung.com|sap.com|schwarzkopf.com.tr|signalturkiye.com|msnbc.com|nbcnews.com|kbb.com|eurosport.ru|timgate.it|intermiles.com|oxfordmail.co.uk|spiegel.de|hp.com|deutschepost.de|thebay.com|s.shufoo.net|tsn.ca|tabelog.com|euronews.com|newshub.co.nz|fredmeyer.com|viabcp.com|carsales.com.au|falabella.com|aarp.org
 !
+||otsuka-shokai.co.jp/_rtbcn/rt_track.js
+||ag.unistyleinc.com/pd.js
+||ag.unistyleinc.com/analytics
+||auction.co.kr/*/GetHashedCguid|$xmlhttprequest
+||mobile.auction.co.kr/CLog.aspx
 ||sumaity.com/script/analytics/s_code.js
 ||sumaity.com/js/press/analytics_scroll.js
 ||st.mngbcn.com/scripts/tagmanager.js
@@ -61849,6 +61858,9 @@ inapps.appsflyersdk.com^
 !#endif
 !
 !
+! https://github.com/uBlockOrigin/uAssets/issues/16512#issuecomment-1639236636
+!+ PLATFORM(ios, ext_safari, ext_android_cb)
+@@||lun.com/*/Scripts/Analytics.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/156301
 @@||googletagmanager.com/gtag/js$domain=bihann.com|nehannn.com
 @@||googletagservices.com/tag/js/gpt.js$domain=bihann.com|nehannn.com

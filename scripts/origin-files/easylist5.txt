@@ -6883,7 +6883,6 @@ freefincal.com##.tve-leads-slide-in
 hindustantimes.com#%#//scriptlet('remove-class', 'open-popup', 'body.open-popup')
 hindustantimes.com#$#body > div.skippablePop { display: none !important; }
 openmedia.io##.subscribePopUp
-mercola.com##.modal-wrapper
 renault.ru##.k-popinInfo_background
 swyrl.tv##.tsch--popup-wrapper .tsch--newsletter-panel
 mengen.gen.tr###whatsappIcon
@@ -10228,6 +10227,7 @@ macwelt.de,pcwelt.de#%#//scriptlet("set-constant", "firebase.messaging", "noopFu
 !
 ! SECTION: Push notifications - Regular rules
 !
+||push.24olimp.ru/*/*.js
 ||imyfone.com/*/notification/$script
 ||widget.user.com/widget-webpushModule.*.js
 ||abendpoint.com/dist/js/push.js
@@ -10978,6 +10978,8 @@ jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,thelocal.ch,morgenpost.d
 !
 ! SECTION: Subscriptions - Regular rules
 !
+mercola.com#$?##bcr_divLimited > div.limited-visibility:has(> div.modal-wrapper > div.modal-rr-container) { display: none !important; }
+mercola.com#$#body { overflow: auto !important; }
 mrproblogger.com##.smartmag-widget-newsletter
 shop.mango.com###newsletterSubscriptionModalLoad
 boundingintocomics.com##.cb-post-large
@@ -16659,6 +16661,8 @@ magazine.skyeng.ru##.tg-banner
 !
 ! SECTION: Subscriptions - Allowlist
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/156752
+syncapps.io#@##mc_embed_signup
 ! unblock subscriptions in newsletter section
 vanguardia.com.mx#@##mc_embed_signup
 ! https://github.com/uBlockOrigin/uAssets/issues/15647
