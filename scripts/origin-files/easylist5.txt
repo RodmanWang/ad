@@ -688,6 +688,7 @@ tvdigital.de#@#.AdSense
 ! SECTION: Anti-adblock - Regular rules
 ! Do not forget about '!#safari_cb_affinity' section for exclusions
 !
+cnc3018.ru##body > div[class][style^="background: rgba(0, 0, 0, 0.1);"][style$="display: block;"]
 ruyashoujo.com#%#//scriptlet('abort-on-property-read', 'eazy_ad_unblocker_dialog_opener')
 js.org###xad
 haber.com###habercom-modal-adblock
@@ -10985,6 +10986,8 @@ jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,thelocal.ch,morgenpost.d
 !
 ! SECTION: Subscriptions - Regular rules
 !
+practicum.yandex.ru###dajdzhest-blok
+lbbonline.com##.hs-cta-wrapper
 verticalmag.com###dn_signup
 nld.com.vn##.ggnewsfollow
 neoseeker.com#?##right_content > div.section:has(> div#mc_embed_signup)
