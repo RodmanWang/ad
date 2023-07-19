@@ -3425,6 +3425,11 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+gamberorosso.it#$#.oxy-modal-backdrop[data-trigger="after_scrolled_amount"] { display: none !important; }
+gamberorosso.it#%#//scriptlet('remove-class', 'oxy-modal-active', 'body')
+ilfattoalimentare.it###frm-mltchnl__popup-container
+1800petmeds.com#%#//scriptlet('set-local-storage-item', 'emailLightBox', 'false')
+practicum.yandex.ru##section[id^="proposal"]
 windy.app###footerRibbon
 ionos.fr##div[id^="bio_ep_reworked"]
 pikabu.ru#?#.overlay:has(> div.popup a.top-story-popup)
@@ -9743,6 +9748,7 @@ zlavomat.sk#@##credential_picker_container
 !
 ! SECTION: Push notifications - Generic rules
 !
+##.daftplugPublic
 ##div[data-cypress="soft-push-notification-modal"]
 ##.js-push-notifications-modal-dialog
 ###kp-subscribe-window
@@ -10256,7 +10262,6 @@ pref.yamanashi.jp##.pushModal-overlay
 ||uncensoredhentai.xxx/wp-content/plugins/daftplug-instantify/pwa/public/assets/js/script-push.js
 24tv.ua###notification-popup-place
 get4click.ru###g4c-firebase
-trademap.com.br##.daftplugPublic
 business-standard.com##.notification-col
 ||skai.gr/modules/custom/wbnotifications/js/pushv*.js
 shiftdelete.net###pnfpb-push-dialog-container
@@ -10980,6 +10985,9 @@ jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,thelocal.ch,morgenpost.d
 !
 ! SECTION: Subscriptions - Regular rules
 !
+verticalmag.com###dn_signup
+nld.com.vn##.ggnewsfollow
+neoseeker.com#?##right_content > div.section:has(> div#mc_embed_signup)
 app.diandian.com###__layout > div > div[class="box dd-base-color"]
 countryliving.com##journey-inline-newsletter
 papyrus.com##py-mail-form
