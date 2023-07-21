@@ -3825,7 +3825,6 @@ gamewith.jp##.w-share-wrap
 aoki-style.com##.item_sns
 simplyrecipes.com##.social-share-sticky
 pubs.asha.org##.actions-block-container__share
-vtv.vn##.share-like-cmt > *:not(.cmt-skc)
 contact.mewshop.jp##article[class^="snsbox"]
 public.fr##.js-IconShare
 ||uaz.ru/js/analytics/gtm.js
@@ -6985,7 +6984,7 @@ nnews.com.ua,vyatka-grad.ru,playua.net,hypeandstuff.com,cryptohamster.org##.s_st
 lachainemeteo.com##.socialNetworksBar
 vitebsk.cc##.widget_twitter_feed_widget
 eurosport.fr##[class*="ShareIcons"]
-tsn.ca,javdock.com,javdock.net,javhdporn.net,kaplog.com,tvnet.com.tr##.video-share
+javdock.com,tsn.ca,javdock.com,javdock.net,javhdporn.net,kaplog.com,tvnet.com.tr##.video-share
 focus.ua##.socials-share-toolbar
 tmbukz.ga##.single_social_top
 film.org.pl##.widget-post-share
@@ -11595,6 +11594,8 @@ rambler.ru#%#//scriptlet('remove-in-shadow-dom','div[data-blocks="content_info"]
 !#endif
 !
 !+ NOT_OPTIMIZED
+vtv.vn##.share-like-cmt > *:not(.cmt-skc)
+!+ NOT_OPTIMIZED
 moroccoworldnews.com##.socail-share1 > ul > li[class]
 !+ NOT_OPTIMIZED
 7net.omni7.jp##.sharelist_dd
@@ -13456,6 +13457,8 @@ designervn.net#@#.fb-share-button
 !#endif
 ! #End Social locker
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/156999
+account.nicovideo.jp#@#.sns-group
 ! https://github.com/AdguardTeam/AdguardFilters/issues/156527
 member.bilibili.com#@#.share-page
 ! https://github.com/AdguardTeam/AdguardFilters/issues/155580
