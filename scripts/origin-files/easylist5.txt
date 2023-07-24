@@ -227,6 +227,19 @@ drive2.ru#?#.js-page > div > div[class="x-box x-box--mh o-f"]:has(> script)
 !   SECTION: Anti-adblock - VK group
 !   NOTE START: VK group
 !
+! dzen.ru
+! Ads in the feed
+dzen.ru#$?#.feed__item > article._with_big_card_height._dzen-feed._carousel:contains(/[реклама]{7,10}/) { remove: true; }
+dzen.ru##body .card-wrapersome
+dzen.ru#%#//scriptlet('set-constant', 'Object.prototype.registerPlacement', 'undefined')
+!+ NOT_PLATFORM(android, ios)
+dzen.ru#?#.feed > div[class^="feed__row"] > div[class^="feed"] div[class^="article-bottom-single-"]:empty:upward(.feed > div[class^="feed__row"])
+!+ PLATFORM(android, ios)
+dzen.ru#?#.touch-feed > div.feed-item > article.card-wrapper div[class^="article-bottom-single-"]:empty:upward(.touch-feed > div.feed-item)
+!
+! dzen.ru - video
+dzen.ru##div[class*="videoCardAd-"]
+!
 [$path]mail.ru#%#//scriptlet('json-prune', '[].slot')
 !
 minigames.mail.ru#%#//scriptlet("abort-current-inline-script", "$", "advBlock")
@@ -4346,7 +4359,6 @@ tg24.sky.it##.j-player[style^="position: fixed; height:"]
 siirtolayhaber.com,kriptoparahaber.com###kanews-modal-popup
 nbcdfw.com,nbcmiami.com##.video-flyout--fixed > figure
 tumblr.com#%#//scriptlet('set-cookie-reload', 'logged_in', '1')
-||assets.tumblr.com/pop/js/modern/async-login-wall
 okc.com.ua##.appointment
 vm.ee#$##warning-modal { display: none !important; }
 vm.ee#$#.modal-backdrop { display: none !important; }
@@ -10254,6 +10266,7 @@ macwelt.de,pcwelt.de#%#//scriptlet("set-constant", "firebase.messaging", "noopFu
 !
 ! SECTION: Push notifications - Regular rules
 !
+||push.autosaratov.ru^
 ||ps2-bios.com/*/larapush_script_*.js
 ||cdnjs.cloudflare.com/ajax/libs/pushy/^$domain=news.ebc.net.tw
 zumub.com##.notification-area
@@ -11007,6 +11020,7 @@ jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,thelocal.ch,morgenpost.d
 !
 ! SECTION: Subscriptions - Regular rules
 !
+autosaratov.ru##.banner-zen
 m.khan.co.kr###bnNewsletter
 m.khan.co.kr##.wrap_bnr_shortcut
 ||img.khan.co.kr/images/khan/*/bnr-nl-
@@ -11222,7 +11236,7 @@ technologynetworks.com##.base_subscribe_footer
 price.ua##.media-subscription-block
 uazmi.net##.button-banner
 aeroxplorer.com,fitforfun.de,golem.de##.subscribe-newsletter
-imore.com###newsletter-slice
+androidcentral.com,imore.com###newsletter-slice
 playground.ru##.float-teaser
 winaero.com###bbpa
 newsroom.paypal-corp.com##.wd_yellow-background.mt-3
@@ -11553,7 +11567,7 @@ bringatrailer.com##.bat-theme-widget-constant-contact
 worldbank.org#?#.parsys > div.supergrid:has(> div.full-row-gray-components div.parsys > div.remove-padding-grid > div.redesign_newsletter)
 trans.info#?#.article-content__body p:has(> a[href="https://t.me/transinforu"])
 thesaurus.com##.crb-sailthtru-subscribe_wrapper
-tkaner.com##.banner-telegram
+autosaratov.ru,tkaner.com##.banner-telegram
 tkaner.com##.tgtg
 hornirakousko.cz,gorna-austria.pl,hornerakusko.sk,upperaustria.com,oberoesterreich.nl,oberoesterreich.at##.ttgFooterNewsletterFlyInWrapper
 thenation.com##.inline-cta_form
