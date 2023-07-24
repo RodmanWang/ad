@@ -1170,6 +1170,7 @@ turbopages.org##.page__result > div[class*="type_native"]
 ! Bad: example.org##main > div.ad (should be in specific.txt)
 !
 !
+thetechoutlook.com#?#.post-content > p:has(> amp-iframe[src^="https://ws-in.amazon-adsystem.com/"])
 townandcountrymag.com,veranda.com,prevention.com,goodhousekeeping.com#?#section > div:has(> div.ad-container)
 dbltap.com#?#main > figure > div[class^="style_"]:has(> div[id^="mm-player-placeholder-"])
 thebrighterside.news#?#iframe[src*="usrfiles.com/"]:upward(1)
@@ -1791,8 +1792,8 @@ sasisa.ru#%#AG_onLoad(function() { window.Umobi = function() {}; });
 ! https://github.com/AdguardTeam/AdguardFilters/issues/157080
 huffpost.com,huffingtonpost.jp#$#div.ad-leaderboard-flex { display: none !important; }
 huffpost.com,huffingtonpost.jp#$#.front-page.nav-sticking .nav__header { transform: unset !important; }
-! https://github.com/AdguardTeam/AdguardFilters/issues/156544
-ign.com#$#body > :not(.zad.billboard) + .wrapper.articleBody > .page-content { margin-top: 80px !important; }
+! https://github.com/AdguardTeam/AdguardFilters/issues/156544#issuecomment-1647188899
+ign.com#$#.wrapper.articleBody > .page-content { margin-top: 80px !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/156672
 emulsive.org#$#body { padding-bottom: 0 !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/156547

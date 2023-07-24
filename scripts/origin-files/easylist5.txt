@@ -3429,6 +3429,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+apkpure.com##.chrome-install-pop
 iyf.tv##.guide_box
 ||javdock.com/wp-content/themes/kingtube/assets/js/fund.js
 linkedin.com#$#body.overflow-hidden { overflow: auto !important; }
@@ -11004,6 +11005,10 @@ jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,thelocal.ch,morgenpost.d
 !
 ! SECTION: Subscriptions - Regular rules
 !
+animationmagazine.net###cm-popup-overlay
+animationmagazine.net##.single-sidebar .tdi_108
+animationmagazine.net##.single-sidebar .tdi_110
+||confirmsubscription.com/*/popup.js
 udgtv.com##a[href^="https://chat.whatsapp.com/"] > img
 udgtv.com##img[src*="Banner-Whatsapp-"]
 superluchas.com##.noptin-inpost-main-wrapper
