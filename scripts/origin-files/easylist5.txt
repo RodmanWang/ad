@@ -929,9 +929,9 @@ newscon.net###adblock-warning
 9anime.to#$#.widget.crop { height: 7px!important; visibility: hidden!important; }
 aadvantageeshopping.com##.mn_adBlockWarning
 aamulehti.fi#$#.ad-div.mainos.rectangle-ad.ALMACR-container { display: block!important; }
-menteinformatica.it,mebhocam.com,abazero.com#$#.mfp-bg { display: none!important; }
-menteinformatica.it,mebhocam.com,abazero.com#$#.mfp-wrap { display: none!important; }
-menteinformatica.it,mebhocam.com,abazero.com#$#html { overflow: visible!important; }
+tuttocalciofemminile.com,menteinformatica.it,mebhocam.com,abazero.com#$#.mfp-bg { display: none!important; }
+tuttocalciofemminile.com,menteinformatica.it,mebhocam.com,abazero.com#$#.mfp-wrap { display: none!important; }
+tuttocalciofemminile.com,menteinformatica.it,mebhocam.com,abazero.com#$#html { overflow: visible!important; }
 agotcitadel.boards.net#$#body > div[id$="-overlay"] { display: none!important; }
 agotcitadel.boards.net#$#body { overflow: visible!important; position: initial!important; }
 alcpu.com##div[id$="ad-blocked"]
@@ -3444,6 +3444,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+downloaddevtools.com##.alert-warning
 zapier.com#?##mainContent div[class^="css-"] > div[class^="css-"]:has(> div[data-testid="signup-popup"])
 telegraph.co.uk##.martech-general-sticky-footer__wrapper
 sinparty.com#%#//scriptlet('remove-class', 'stuck', '.video-page__player > div.sinparty-player > div')
@@ -10271,6 +10272,7 @@ macwelt.de,pcwelt.de#%#//scriptlet("set-constant", "firebase.messaging", "noopFu
 !
 ! SECTION: Push notifications - Regular rules
 !
+||aptekiplus.ru/_nuxt/popup-attention
 ||push.autosaratov.ru^
 ||ps2-bios.com/*/larapush_script_*.js
 ||cdnjs.cloudflare.com/ajax/libs/pushy/^$domain=news.ebc.net.tw
@@ -11077,7 +11079,7 @@ papyrus.com##py-mail-form
 airbike.pl,libertymotostore.com#?#div:not([class]) div[class]:has(> form[autocomplete="off"] button[aria-label="subscribe"])
 mercola.com#$?##bcr_divLimited > div.limited-visibility:has(> div.modal-wrapper > div.modal-rr-container) { display: none !important; }
 mercola.com#$#body { overflow: auto !important; }
-mrproblogger.com##.smartmag-widget-newsletter
+themezon.net,mrproblogger.com##.smartmag-widget-newsletter
 shop.mango.com###newsletterSubscriptionModalLoad
 boundingintocomics.com##.cb-post-large
 guidingtech.com##.home-form
@@ -14064,7 +14066,7 @@ koffer.com#$##overlay { display: none!important; }
 koffer.com#$#body { overflow: visible!important; }
 rosenthal.de##.o-content-container--newsletter-teaser
 footboom.com##.news-social
-vost.pw,animevost.am,smotret-anime-365.ru,animevost.site,animevost.online,animevost.net,animevost.org,animerost.org,animevost.am,agorov.org#?#div[id^="moduleLeft"]:has(> div.interDub > div > a[href="https://vk.animegost.org"])
+vost.pw,animevost.am,smotret-anime-365.ru,animevost.online,animevost.net,animevost.org,animerost.org,animevost.am,agorov.org#?#div[id^="moduleLeft"]:has(> div.interDub > div > a[href="https://vk.animegost.org"])
 linuxsecurity.com##.newsletter-subscribe-module
 hema.com#$#.emailoptin-modal { display: none !important; }
 ||remember.de/modules/tronet/tronewsletterpopup/
