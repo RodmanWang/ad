@@ -235,8 +235,6 @@ dzen.ru##body .card-wrapersome
 dzen.ru#%#//scriptlet('set-constant', 'Object.prototype.registerPlacement', 'undefined')
 !+ NOT_PLATFORM(windows, mac, android, ios)
 dzen.ru#?#.feed > div[class^="feed__row"] > div[class^="feed"] div[class^="article-bottom-single-"]:empty:upward(.feed > div[class^="feed__row"])
-!+ PLATFORM(ios)
-dzen.ru#?#.touch-feed > div.feed-item > article.card-wrapper div[class^="article-bottom-single-"]:empty:upward(.touch-feed > div.feed-item)
 !
 [$path]mail.ru#%#//scriptlet('json-prune', '[].slot')
 !
@@ -3446,6 +3444,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+zapier.com#?##mainContent div[class^="css-"] > div[class^="css-"]:has(> div[data-testid="signup-popup"])
 telegraph.co.uk##.martech-general-sticky-footer__wrapper
 sinparty.com#%#//scriptlet('remove-class', 'stuck', '.video-page__player > div.sinparty-player > div')
 iflscience.com#$#.info-links-sticky { display: none !important; }
@@ -5724,7 +5723,7 @@ aarp.org###siteBannerText
 haufe-akademie.de###modal-exit-intent
 bbva.es##div[id$="stickybannerdesktop"]
 4living.ru##.new-banner
-aajtak.in##.rhs-fixwhtsapp
+businesstoday.in,aajtak.in##.rhs-fixwhtsapp
 justdial.com###best_deal_div
 justdial.com##.b-modal.__b-popup1__
 bauking.de##.exit-intent-wrap
@@ -11026,6 +11025,10 @@ jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,thelocal.ch,morgenpost.d
 !
 ! SECTION: Subscriptions - Regular rules
 !
+wsj.com###cx-membership-tile
+visitukraine.today##.page-text_main-wrapp-help
+zapier.com#?#ul[class^="css-"] > li:has(> div[class^="css-"] > div[data-testid="subscribe-card"])
+zapier.com#?##mainContent > div[class^="css-"]:has(> div[data-testid="subscribe-mini"])
 lance.com.br##div[class^="styles_outerContainerNewsletter"]
 sinparty.com#$#.app-modal__overlay { display: none !important; }
 sinparty.com#$#body.is-locked { overflow: auto !important; touch-action: auto !important; }
@@ -14473,7 +14476,7 @@ psycom.net##.qsm-page > div.quiz_section[class*="question-section-id-"] + div.qu
 psycom.net###psycom-sidebar-signup
 4living.ru###subscfix
 businesstoday.in,indiatoday.in,aajtak.in##.newsltter-iframe
-aajtak.in##.daily-news-letter
+businesstoday.in,aajtak.in##.daily-news-letter
 slivy.news#?#.gridlove-sidebar > div.widget:has(> div.textwidget a[href="https://t.me/zheltyeslivy"])
 finder.com##.form-signup
 filmcompanion.in##.email-subscribe-wrapper-fcn
