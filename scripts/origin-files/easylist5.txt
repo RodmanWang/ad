@@ -231,14 +231,12 @@ drive2.ru#?#.js-page > div > div[class="x-box x-box--mh o-f"]:has(> script)
 ! Ads in the feed
 dzen.ru#$?#.feed__item > article._with_big_card_height._dzen-feed._carousel:contains(/[реклама]{7,10}/) { remove: true; }
 dzen.ru##body .card-wrapersome
+!+ NOT_PLATFORM(windows, mac, android)
 dzen.ru#%#//scriptlet('set-constant', 'Object.prototype.registerPlacement', 'undefined')
-!+ NOT_PLATFORM(android, ios)
+!+ NOT_PLATFORM(windows, mac, android, ios)
 dzen.ru#?#.feed > div[class^="feed__row"] > div[class^="feed"] div[class^="article-bottom-single-"]:empty:upward(.feed > div[class^="feed__row"])
-!+ PLATFORM(android, ios)
+!+ PLATFORM(ios)
 dzen.ru#?#.touch-feed > div.feed-item > article.card-wrapper div[class^="article-bottom-single-"]:empty:upward(.touch-feed > div.feed-item)
-!
-! dzen.ru - video
-dzen.ru##div[class*="videoCardAd-"]
 !
 [$path]mail.ru#%#//scriptlet('json-prune', '[].slot')
 !
@@ -640,7 +638,6 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.Sid
 ||overconfidentfood.com^$third-party
 ||strangesink.com^$third-party
 ||honorableland.com^
-||courier-js.dallasnews.com/dist/courier.min.js
 ||squirrelhands.com^$third-party
 ||causecherry.com^$third-party
 ||hocgeese.com^$third-party
@@ -11029,6 +11026,7 @@ jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,thelocal.ch,morgenpost.d
 !
 ! SECTION: Subscriptions - Regular rules
 !
+lance.com.br##div[class^="styles_outerContainerNewsletter"]
 sinparty.com#$#.app-modal__overlay { display: none !important; }
 sinparty.com#$#body.is-locked { overflow: auto !important; touch-action: auto !important; }
 autosaratov.ru##.banner-zen
