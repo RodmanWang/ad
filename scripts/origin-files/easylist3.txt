@@ -1788,7 +1788,7 @@ huffpost.com,huffingtonpost.jp#$#.front-page.nav-sticking .nav__header { transfo
 ! https://github.com/AdguardTeam/AdguardFilters/issues/156544#issuecomment-1647188899
 ign.com#$#.wrapper.articleBody > .page-content { margin-top: 80px !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/156672
-emulsive.org#$#body { padding-bottom: 0 !important; }
+emulsive.org#$#html > body { padding-bottom: 0 !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/156547
 tweaktown.com#$##content-right { padding: 0px !important; }
 tweaktown.com#$#.footer_bottom { margin: 0px !important; }
@@ -2916,6 +2916,7 @@ iyf.tv,macwelt.de,pcwelt.de,xataka.com.mx,shikiho.toyokeizai.net,newsee-media.co
 !
 ! SECTION: Regular rules
 !
+moeero-library.com##iframe[data-src^="https://ad-cheers.com/"]
 matomedane.jp##.article_adsense_box
 ultrabookreview.com###postzzif
 jagranjosh.com##.stickyTop
