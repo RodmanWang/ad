@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202307251936
+! Version: 202307260322
 ! Title: Fanboy's Annoyance List
-! Last modified: 25 Jul 2023 19:36 UTC
+! Last modified: 26 Jul 2023 03:22 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -26110,6 +26110,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.WW-cookiemodul
 ##.WeUseCookiesNotice
 ##.WebsiteCookies
+##._360cookieDialog
 ##._CookieBox_cookieBox
 ##.___eucookiePopup
 ##.__cookieNotice
@@ -35706,6 +35707,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||akamaihd.net/cpmt/
 ||analytics-consent-manager.azureedge.net^
 ||app.livemarketshoppers.com^$script,third-party
+||app.yeps.io/loader?
 ||appconsent.io^
 ||assetlab.io/consent/
 ||axept.io^$third-party,domain=~axeptio.eu
@@ -40565,6 +40567,7 @@ jangmidiamonds.com###preloader
 fxstreet.com###prestitial-handle
 3q.video,mondaq.co.uk,mondaq.com,prevac.eu,tesda.gov.ph,vindy.com###privacy
 worldjournal.com###privacy-agreement
+business-humanrights.org###privacy-choices
 playstation.com###privacy-header
 canalplus.com###privacy-manager
 studiocanal.com###privacy-manager-popin
@@ -41055,6 +41058,7 @@ hypeclothinga.com##.chakra-fade
 litebit.eu##.chakra-modal__content-container
 litebit.eu##.chakra-modal__overlay
 kbs.co.kr##.chrome_pick
+baldursgate3.game##.ciastko
 zutobi.com##.cizLir
 tonies.com##.cjBwKv
 phone-updates.com##.ckWrap
@@ -46078,7 +46082,7 @@ seher.no,sol.no,start.no###__next > div[class^="css"]
 dagsavisen.no###consent-container
 telenor.no###global-overlay-background
 nordiskporselen.com###kjeks
-sparebank1.no###opt-in
+eiendomsmegler1.no,sparebank1.no###opt-in
 steinhandel.no###topbar
 haugesundbk.net##.GDPRcontainer
 ngi.no##.bcc-container
@@ -46426,7 +46430,7 @@ dgae.mec.pt##.bg-blue-grey-10
 webmotors.com.br##.bjRMar
 idec.org.br##.block-region-footer
 afestas.com.br##.bottom-popup-wrapper
-ecclesiae.com.br##.box-aceite-privacidade
+ecclesiae.com.br,videeditorial.com.br##.box-aceite-privacidade
 costanorte.com.br##.bswTsr
 treinaweb.com.br##.c_show
 pecattus.com.br##.caixa-alert
