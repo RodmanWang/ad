@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202307270324
+! Version: 202307270448
 ! Title: Fanboy's Annoyance List
-! Last modified: 27 Jul 2023 03:24 UTC
+! Last modified: 27 Jul 2023 04:48 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -32537,6 +32537,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.pg-cookie
 ##.ph-cookie-compliance
 ##.ph-cookie-info
+##.ph-cookie-popup-v2-view2-default
 ##.ph-cookies
 ##.philadelphia-optin-visible
 ##.philoro_cookies--popover
@@ -35252,6 +35253,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||livechatinc.com/widget/static/media/
 ||lpsnmedia.net/le_unified_window/$media
 ||me-talk.ru/support/sounds/
+||phenompeople.com/txm-bot/prod/$media
 ||purechatcdn.com/Content/Audio/
 ||qualified.com/packs/$media
 ||quicktext.im/assets/audio/
@@ -35679,6 +35681,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||livechatinc.com/widget/static/media/
 ||lpsnmedia.net/le_unified_window/$media
 ||me-talk.ru/support/sounds/
+||phenompeople.com/txm-bot/prod/$media
 ||purechatcdn.com/Content/Audio/
 ||qualified.com/packs/$media
 ||quicktext.im/assets/audio/
@@ -36042,6 +36045,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||lacompagnie.com/Content/dist/templates/common/popupCookies/
 ||live.mrf.io/cmp/$domain=m.washingtontimes.com
 ||mad-daily.com^*/cp-module-
+||marketwatch.com/asset/ace/djcmp.
 ||masaltos.com/js/cookies-
 ||medicalnewstoday.com/_next/chunks/modal-0cb79-legacy.js
 ||mms.cmpsky.com^
@@ -44935,6 +44939,7 @@ airitsystems.de##.limz_cookieConsent
 bonify.de##.lleMAd
 etz.at##.loader
 wirklichweiterkommen.de##.lsa-dialog
+denkwerk.com##.m-cookie-message
 ticketfritz.de##.main-modal-div
 leoprinting.be##.mainstick
 jobstairs.de##.mcd-dialog-backdrop
