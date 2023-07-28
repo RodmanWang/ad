@@ -696,6 +696,7 @@ tvdigital.de#@#.AdSense
 ! SECTION: Anti-adblock - Regular rules
 ! Do not forget about '!#safari_cb_affinity' section for exclusions
 !
+||allmusic.com/blocker_check
 turk-debrid.net#%#//scriptlet("abort-current-inline-script", "window.document.getElementById", "s65c")
 turk-debrid.net#$##s65c { display: none !important; }
 cnc3018.ru##body > div[class][style^="background: rgba(0, 0, 0, 0.1);"][style$="display: block;"]
@@ -3440,6 +3441,9 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+nordpass.com#$#.SaleSticky { display: none !important; }
+nordpass.com#$#.sale-sticky-offset--grey { padding-top: 0 !important; }
+nordpass.com#$#.sale-sticky-offset--grey header.HeaderV2 { top: 0 !important; }
 softwarekeep.com##.needsclick[style*="top: 0px; width: 100%; height: 100%"]
 singletrackworld.com##.um-notices-wrap
 keiji.vbest.jp###popupArea
@@ -11029,6 +11033,8 @@ jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,thelocal.ch,morgenpost.d
 !
 ! SECTION: Subscriptions - Regular rules
 !
+gagadget.com##.header-wrap > .toplink-container
+zr.ru##div[class^="styled__SidebarWrap-"] > div.sp-form-outer.sp-force-hide
 inquirer.net##.sib-form
 mypage.mag2.com##.content-wrapper > div.fixed-box
 mypage.mag2.com##.reader-banner
