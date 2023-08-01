@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202308010220
+! Version: 202308010615
 ! Title: Fanboy's Annoyance List
-! Last modified: 01 Aug 2023 02:20 UTC
+! Last modified: 01 Aug 2023 06:15 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -27064,6 +27064,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.c24-cookie
 ##.c2g_daimler_cookie_dialog_overlay
 ##.c3-cookie-notice
+##.c3po-banner
 ##.c62-cookies-bar
 ##.cAcceptBar
 ##.cCookiePolicy
@@ -41532,7 +41533,6 @@ princesrisborough.com##.jpiwikGrowler
 princesrisborough.com##.jpiwikOverlay
 roly.eu##.jq-toast-single
 soft32.com##.jquery-notify-bar
-aromatico.com##.js--overlay
 bcu.ac.uk##.js-action-bar
 newsnow.co.uk##.js-alerts-container
 gaijin.net##.js-cb-policy
@@ -41972,6 +41972,7 @@ gwpharm.com##.show
 central1.com##.show-cookie-div
 ademus.eu,nappy.co,wallpaper.to##.showBanner
 nikkei.com##.show_s1oy9cxe
+tarot.com##.shown
 thedrum.com##.signup-cta__fixed
 dendrite.ai##.simple-cookie-widget
 cwbank.com##.simple-dismiss-alert
@@ -42673,7 +42674,7 @@ createdirect.ro,notebooksopron.hu,sanofidiabetesacademy.com,sharp-cut.com,stereo
 ! ! #cookiewall
 bestel-thuis.nl,deventerschouwburg.nl,dyade.nl,franckenmetaal.nl,fsin.nl,hracademy.nl,jozefschooltexel.nl,kentekenplaathouders.nl,marente.nl,molentochtschagerbrug.nl,nomilk2day.nl,online-boodschappen-bestellen.nl,online-drank-bestellen.nl,onlineetenbestellen.nl,pleyade.nl,schoenmaker.nl,sdhvormgeving.nl,theaterdestoep.nl,thijsseschool-texel.nl,vanderheijdengroep.nl,zwolsetheaters.nl###cookiewall
 ! ! .js--overlay
-alpha-tex.de,aromatico.de,bremer-gewuerzhandel.de,detomaso-watches.com,edampfer24.de,ffpshop.de,futononline.de,hoffmann-speedster.com,kiids.de,lanius.com,mister-lady.at,mister-lady.com,motorsportmarkt.de,sennerei-lehern.de,shop.berliner-kaffeeroesterei.de,toner-dumping.de,torten-boutique.de,velken.de##.js--overlay
+alpha-tex.de,aromatico.com,aromatico.de,bremer-gewuerzhandel.de,detomaso-watches.com,edampfer24.de,fairtoner.de,ffpshop.de,futononline.de,hoffmann-speedster.com,kiids.de,lanius.com,mister-lady.at,mister-lady.com,motorsportmarkt.de,rbb.de,sennerei-lehern.de,shop.berliner-kaffeeroesterei.de,stoffkontor.eu,toner-dumping.de,torten-boutique.de,velken.de##.js--overlay
 ! ! .backdrop-cookie
 cambiarredo.com##.backdrop-cookie
 ! ! #cookies-block
@@ -44857,7 +44858,6 @@ galaxus.de##.bzTyHZ
 ineoskoeln.de##.c-alert
 abraxas.ch##.c-disclaimer--default
 frankenmarkter.at##.c-window
-ip.at##.c3po-banner
 brk-muenchen.de##.caBanner
 sushiworldlouvain.be##.cc-banner
 lockcard.de##.cc-window-wrapper
@@ -44940,6 +44940,7 @@ as-bremen.de,channel21.de##.gedepiar-info
 hygienical.de##.gewerbe-info
 deutschlandticket.de##.ghoviH
 siegelklarheit.de##.glasspane
+dreissigacker-wein.de##.global-background
 nebenan.de##.goodhood-components__nANBU
 galaxus.de##.gzlDA-D
 elisabethenquelle.de,vita-cola.de##.hc-notice
@@ -44959,7 +44960,6 @@ knowunity.de##.jYccXc
 eifel-antik.de##.jmg-googlemaps-dsgvo-notification
 ullstein.de##.jpbyLY
 bremer-gewuerzhandel.de##.js--modal
-rbb.de,stoffkontor.eu##.js--overlay
 freiwilligenzentrum-mittelhessen.de##.js-dialog-wrapper
 krautreporter.de##.js-flash-messages-container
 piqd.de##.js-flash_message-container
@@ -45584,6 +45584,7 @@ allradio.nl,neonspellen.nl##.consent-overlay
 seat.nl##.consent-wall-overlay
 nextenergy.nl##.cookie-components
 museum.nl##.cookie-overlay
+deroosbv.com##.cookie-permission-container-popup-backdrop
 ingsprinters.nl##.cookie-settings
 abmulderbv.nl,igorski.nl##.cookie-wall
 grandprixradio.nl##.cookies-popup-background
@@ -45806,6 +45807,7 @@ solidusflotta.hu###cwarning
 nol.hu###didyou
 ingyen-van.hu###figyu
 szegedvaros.hu###footer
+mvm.hu###footer-consent
 telekom.hu###frame-modals
 liget.ro###jscookiemodal
 hrportal.hu###lableca
@@ -47696,7 +47698,7 @@ arbeiterkammer.at#@##cookiesContainer
 mymuesli.com#@##cookies_consent
 succulent-plant.com,vaillant.at,vaillant.be,vaillant.co.uk,vaillant.com,vaillant.com.ro,vaillant.cz,vaillant.de,vaillant.dk,vaillant.es,vaillant.fi,vaillant.fr,vaillant.hr,vaillant.hu,vaillant.info,vaillant.it,vaillant.nl,vaillant.no,vaillant.pl,vaillant.rs,vaillant.se,vaillant.si,vaillant.sk,vaillant.ua#@##cookiewarning
 afcdp.net#@##cooky
-abc.es,as.com,corrieredellosport.it,elcomercio.es,elconfidencial.com,seguro.elespanol.com,tuttosport.com#@##didomi-notice
+abc.es,as.com,corrieredellosport.it,elcomercio.es,elconfidencial.com,elindependiente.com,seguro.elespanol.com,tuttosport.com#@##didomi-notice
 aireuropa.com#@##ensModalWrapper[role]
 aireuropa.com#@##ensNotifyBanner
 nocookielaw.com#@##eu-cookie-law
@@ -47856,7 +47858,7 @@ apkpure.com#@#.cp-banner
 e-dym.pl,earthsky.org#@#.cp-popup
 earthsky.org#@#.cp-popup-container:not(body):not(html)
 restock.ca#@#.custom_cookie
-abc.es,as.com,corrieredellosport.it,elconfidencial.com,seguro.elespanol.com,tuttosport.com#@#.didomi-notice-banner
+abc.es,as.com,corrieredellosport.it,elconfidencial.com,elindependiente.com,seguro.elespanol.com,tuttosport.com#@#.didomi-notice-banner
 20minutos.es,goplay.be,ouest-france.fr,strefabiznesu.pl#@#.didomi-screen-xlarge
 myrobotcenter.at,myrobotcenter.co.uk,myrobotcenter.de#@#.ec-gtm-cookie-directive
 aireuropa.com#@#.ensNotifyBanner
