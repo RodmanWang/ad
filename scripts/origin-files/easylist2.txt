@@ -60461,7 +60461,6 @@ inapps.appsflyersdk.com^
 ||logs.ironsrc.mobi^
 ||events.mz.unity3d.com^
 ||r-log.dable.io^
-||metrics.plaid.com^
 ||mon*-platform-*.tiktokv.com^
 ||log*-applog-*.tiktokv.com^
 ||grs.dbankcloud.
@@ -61170,6 +61169,8 @@ inapps.appsflyersdk.com^
 !#endif
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/157996
+@@||data-*.faz.net^$domain=m.faz.net
 ! https://github.com/AdguardTeam/AdguardFilters/issues/157641
 @@||micro.rubiconproject.com/prebid/dynamic/13128.js$domain=ladbible.com|unilad.com|unilad.co.uk|gamingbible.com|tyla.com|sportbible.com
 ! https://github.com/uBlockOrigin/uAssets/issues/19221
