@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202308041830
+! Version: 202308042237
 ! Title: Fanboy's Annoyance List
-! Last modified: 04 Aug 2023 18:30 UTC
+! Last modified: 04 Aug 2023 22:37 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -33291,7 +33291,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.sprd-consent
 ##.sprd-cookie-banner
 ##.sqrcookie
-##.sqs-cookie-banner-v2
 ##.srax-accept-cookies
 ##.src-components-CookiePolicy-__style__root
 ##.srf-cookie-notice
@@ -34708,6 +34707,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ##div.show-cookie-policy
 ##div.show-cookies
 ##div.site-cookie
+##div.sqs-cookie-banner-v2
 ##div.v-cookie
 ##div.w-cookie
 ##div.with-cookie
@@ -39192,6 +39192,7 @@ dexerto.com##[data-cy="NewsletterSignup"]
 psyche.co##[data-cy="layout-newsletter-signup"]
 nytimes.com##[data-gtm-element="newsletter_loaf_form"]
 wsj.com##[data-inset_type="newsletterinset"]
+insideottawavalley.com##[data-lpos="headlines-newsletter"]
 sundayworld.com##[data-mht-widget="signu-up-black-background"]
 thisismoney.co.uk##[data-newsletter]
 walletinvestor.com##[data-section="header_top"]
@@ -40943,6 +40944,7 @@ login.coinbase.com##.b1oya23n
 cinch.co.uk##.bQ_kb
 login.vitalsource.com##.bUWSlZ
 fairygodboss.com##.bYTdiA
+kaggle.com##.bZWToz
 stubhub.com##.bZrBz
 which.co.uk##.b_g
 hi.com##.backDrop
@@ -41258,7 +41260,6 @@ unitedpets.com##.cupjma
 hisense.co.uk##.curtain
 tannoy.com##.cv2-wrapper
 tonies.com##.cwJWme
-kaggle.com##.cxdoLY
 framer.com##.cy-cookieBanner
 blockchain.com##.czabrb
 visitczechrepublic.com##.czt-cookie-bar__backdrop
@@ -42270,7 +42271,7 @@ access.login.nhs.uk##core-cookie-banner
 medium.com##div > .branch-journeys-top
 c.realme.com##div > .cookie-privacy
 yahoo.com##div.js-applet-view-container-main > div.fixed-win[style^="background:"]
-docs.abaddon.me,docs.betteruptime.com,docs.fluentbit.io,electronforge.io,guides.cryptowat.ch,support.saleae.com,wiki.valhelsia.net##div.r-1xcajam.css-175oi2r
+docs.abaddon.me,docs.betteruptime.com,docs.fluentbit.io,docs.ibracorp.io,electronforge.io,guides.cryptowat.ch,support.saleae.com,wiki.valhelsia.net##div.r-1xcajam.css-175oi2r
 audiomack.com##div[class*="ConfirmMessage-module__cookie-"]
 ppi2pass.com,schweser.com##div[class^="AlertD_container"]
 rally.io##div[class^="Banner_banner_"]
@@ -42701,7 +42702,7 @@ cancerfonden.se##div[class^="CookieDisclaimer"]
 ! ! .overLay
 abundantgracetabernacle.org.uk,destemma.org,pacificandgold.co.uk##.overLay
 ! ! .CookieConsent
-bakkenbaeck.com,bluemail.me,buildclub.com,business-standard.com,cmodx.com,e-ville.com,fiorentinabaseball.it,forbesafrica.com,fotmob.com,geeksforgeeks.org,haveibeentrained.com,likewisetv.com,nebula.tv,nordlayer.com,nordlocker.com,nyctourism.com,ocbase.com,officedepot.hu,opyn.co,pango.education,pcsx2.net,pichau.com.br,puhekupla.com,rcskinclinic.com,recalbox.com,reflexer.finance,salvagemarket.co.uk,sankei.com,senda.pl,senpa.io,shuttle.rs,soldfy.com,soldfy.dk,soldfy.fi,soldfy.no,soldfy.se,sprintmedical.in,streamerbans.com,tayama.pl,u.sb,ubank.co.za,upgrade.chat,wheels.ca,zakzak.co.jp##.CookieConsent
+bakkenbaeck.com,bluemail.me,buildclub.com,business-standard.com,cmodx.com,e-ville.com,fiorentinabaseball.it,forbesafrica.com,fotmob.com,geeksforgeeks.org,haveibeentrained.com,likewisetv.com,nebula.tv,nordlayer.com,nordlocker.com,nyctourism.com,ocbase.com,officedepot.hu,opyn.co,pango.education,pcsx2.net,pichau.com.br,polyhaven.com,puhekupla.com,rcskinclinic.com,recalbox.com,reflexer.finance,salvagemarket.co.uk,sankei.com,senda.pl,senpa.io,shuttle.rs,soldfy.com,soldfy.dk,soldfy.fi,soldfy.no,soldfy.se,sprintmedical.in,streamerbans.com,tayama.pl,u.sb,ubank.co.za,upgrade.chat,wheels.ca,zakzak.co.jp##.CookieConsent
 ! ! .m-smartbar-container
 hilti.com,hilti.dk,hilti.ru##.m-smartbar-container
 ! ! #policy-ribbon
