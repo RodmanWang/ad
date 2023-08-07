@@ -361,6 +361,7 @@ lj_bookmarklet
 !### Temporary ###
 !#################
 !
+mdpi.com#?#.additional-content > h2:contains(Share and Cite)
 thesportsrush.com#?#.article-content > div[style^="display:"]:has(> p[style^="align-self:"]:contains(Share this article))
 tsuisoku.com#?#.section-box:has(li.article-twitter)
 tsuisoku.com#?#.section-box:has(li.article-twitter) + nav.section-box
@@ -504,7 +505,7 @@ nativecamp.net#?#.individual_sidebar_content_bottom > div.tab_content_action_col
 narecza.com#?#.row > div.fl:has(> div.shareBtns)
 healthline.com#?#div[data-article-body] h1 ~ div[class] > div[class]:has(> p + div > div.facebook)
 cepro.com#?#.social-share-new > .et_pb_column > .et_pb_text > .et_pb_text_inner > p:contains(/^SHARE$/)
-tiempo.com##.botonera > span.boton:has(> span.shared)
+tempo.com,tiempo.com##.botonera > span.boton:has(> span.shared)
 berliner-zeitung.de#?#ul[class^="articlepreviewfooter_menu"] > li[class^="articlepreviewfooter_menu-item"]:has(> button > img[aria-label="share-icon"])
 widget.oanda.jp#?#.origin-top-left > div > .flex.items-center:has(> p:first-child + .items-center:last-child > a[href^="https://twitter.com/intent/tweet?"])
 canonical.com#?##main-content > article > header > .row > .col-4 > .p-inline-list-icons:has(> li.p-inline-list__item:contains(Share on:))
@@ -2334,7 +2335,6 @@ giftee.com##.wish-list-contents__share-contents
 tv8.md##.jss158
 nbcnewyork.com##.site-header__mobile-share-toggle
 laodong.vn##.art-info > div + a.pr
-thanhnien.vn##.social-top
 thanhnien.vn##.box-social-top
 rus.delfi.lv##.telegram-info-block
 m.baomoi.com##a[title="Chia sẻ qua Facebook"]
@@ -4374,7 +4374,7 @@ ameblo.jp###blogEntryDetailRectangleOfficial + div.skinTextColor > div[class^="_
 shethepeople.tv##header > div > ul.social-media-list
 deon.pl##.articles-single__social-sharing-item:not(.item-comments, .item-bookmark)
 taishu.jp##.twitter-content
-tempo.pt,tameteo.com###meteored_share
+tempo.com,tempo.pt,tameteo.com###meteored_share
 yan.vn##.imgShareLink
 yan.vn##.float-right
 005net.com###fxBox
@@ -8197,7 +8197,7 @@ android.jlelse.eu,codeburst.io##a[href*="/share/twitter?source="]
 android.jlelse.eu,codeburst.io##a[href*="/share/facebook?source="]
 uafootball.org.ua,playbuzz.com##.pb-share-bar
 vsefm.com##.liker
-knowablemagazine.org,tvspielfilm.de##.social-media-links
+mdpi.com,knowablemagazine.org,tvspielfilm.de##.social-media-links
 properm.ru##a.t-social-button:not(.t-social-button_blablanator)
 timesofindia.indiatimes.com##.shareIcons
 quoodo.com##.share_div
@@ -9680,7 +9680,7 @@ newyorker.com##li[data-source="facebook"]
 aol.com##.shared-services-w
 m.patronlardunyasi.com##body > div[style*="height:50px; background-color:#fff; z-index:1000; position:fixed; bottom:0; border-top:1px solid #ccc;"]
 yenisafak.com##.share > a[title]
-oneplat.co.jp,playai.nu,kunolog.com,howtravel-gourmet.com,ramenhuhu.com,live.doneru.jp,sabatech.jp,lotte.co.jp,9ketsuki.info##.social-top
+disc-keep.com,thanhnien.vn,oneplat.co.jp,playai.nu,kunolog.com,howtravel-gourmet.com,ramenhuhu.com,live.doneru.jp,sabatech.jp,lotte.co.jp,9ketsuki.info##.social-top
 switchsoku.com,dr-stick.shop,oneplat.co.jp,newsgawakaru.com,kunolog.com,howtravel-gourmet.com,ramenhuhu.com,live.doneru.jp,hedgehog.ryukyu,yourclip.life,pokemonit.com,dig-it.media,sabatech.jp,bitdays.jp,am-our.com,bazurecipe.com,lotte.co.jp,9ketsuki.info,hurriyetdailynews.com##.social-bottom
 hurriyetdailynews.com##.content-info > .social-links
 neuhandeln.de##.mh-social-bottom
