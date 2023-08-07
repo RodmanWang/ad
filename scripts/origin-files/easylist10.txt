@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202308070623
+! Version: 202308070901
 ! Title: Fanboy's Annoyance List
-! Last modified: 07 Aug 2023 06:23 UTC
+! Last modified: 07 Aug 2023 09:01 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -39079,6 +39079,7 @@ kbb.com##.td_block_kbb_bestcardeals_subscription_form
 carnewschina.com##.tdi_117
 opindia.com##.tdi_174
 ghpage.com##.tdm-popup-modal-wrap
+jpl.nasa.gov##.text-center.bg-gray-light
 nymag.com,thecut.com##.text-form-wrapper
 canarymedia.com##.text-gray-600.mt-5.py-4
 nodejs.libhunt.com##.text-strong-invite
@@ -40307,6 +40308,7 @@ cnnsofake.news###bottompopup
 beruby.com###box-shadow
 bootscore.me###bs-cookie-settings
 melijoe.com###bsg-widget-container
+agar.io###btn-privacy-settings
 brandwatch.com###bw-cookie-sys-active
 stemcellclinic.com###c-2
 viomi.com###c-home-tips
@@ -41855,6 +41857,7 @@ nh-collection.com,nh-hotels.com##.politicaRewards
 process.st##.pookie
 bim.yaskawa.com##.pop
 floydsbarbershop.com##.pop-content
+orbitaltoday.com##.pop-up
 thecrownestate.co.uk##.pop-up-banner
 arrowheadcu.org##.popbox
 maisonstandards.com##.popin_consent
@@ -47385,6 +47388,7 @@ ants.vn##.sg-popup-content
 ||gravitocdn.blob.core.windows.net/lightcmp/$script,domain=veho.fi
 ||jimms.fi/Scripts/jimmsconsent.min.js$script,domain=jimms.fi
 ||krookmedia.fi/wp-content/plugins/cookie-law-info/$script,domain=krookmedia.fi
+||pirkkalainen.fi/wp-content/plugins/cookie-law-info/legacy/public/js/cookie-law-info-public.js
 ||serviceform.com/serviceform-tools/privacy/sf-privacy-partner.js$script,domain=kotitesti.fi
 ||storage.googleapis.com/om-gravito-cmp/$script
 ||suomenmaa.fi/wp-content/plugins/gdpr-cookie-compliance$domain=suomenmaa.fi
