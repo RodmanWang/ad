@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202308070307
+! Version: 202308070623
 ! Title: Fanboy's Annoyance List
-! Last modified: 07 Aug 2023 03:07 UTC
+! Last modified: 07 Aug 2023 06:23 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -30670,6 +30670,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.frigg-cookiewarning-container
 ##.frontendPrivacy__consentBanner
 ##.fs-cc-banner2_component
+##.fs-cc-banner4_component
 ##.fs-cc-banner_component
 ##.fs-cc-cookie
 ##.fs-cc-cookie-symbol
@@ -34230,6 +34231,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ##div[data-selector="container@cookiebar"]
 ##div[data-selen-group="cookies-bar"]
 ##div[data-selenium="CookieBanner"]
+##div[data-storage-item^="t886cookiename_"]
 ##div[data-test-sell-cookie-banner]
 ##div[data-test="cookie-policy-banner"]
 ##div[data-testid="cookie-disclaimer"]
@@ -35735,6 +35737,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||ccpa-script.psg.nexstardigital.net^
 ||ccpa.sp-prod.net^
 ||cdn-cookieyes.com/client_data/
+||cerezgo.com^$third-party
 ||civiccomputing.com^*/cookieControl-
 ||civiccomputing.com^*=cookie$third-party
 ||clickio.mgr.consensu.org^$third-party
@@ -37470,7 +37473,7 @@ similarweb.com,spooncast.net,substack.com,whosampled.com##.app-banner
 republika.rs##.app-box
 financialexpress.com,indianexpress.com##.app-btn
 klook.com##.app-download
-ebay.com##.app-download-banner
+aljazeera.com,ebay.com##.app-download-banner
 sportskeeda.com##.app-download-modal
 gumtree.com.au##.app-download-wrapper
 news.yahoo.com,tracker.gg##.app-promo
