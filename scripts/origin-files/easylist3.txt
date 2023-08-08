@@ -1173,6 +1173,7 @@ turbopages.org##.page__result > div[class*="type_native"]
 ! Bad: example.org##main > div.ad (should be in specific.txt)
 !
 !
+linkedin.com#?#ol.feed-container > li.feed-item:has(> article[data-is-sponsored])
 m.hkgolden.com#?#div[id^="page"] > div[data-role="reply"] + div[class]:not([data-role]):has(div[data-role="ad"])
 m.hkgolden.com#$#html > body[data-app-lightbox] { overflow: auto !important; }
 m.hkgolden.com#$?#body > div[role="dialog"]:has(> div[class]:only-child > div[data-role="ad"]) { remove: true; }
@@ -2945,6 +2946,9 @@ transfermarkt.de,iyf.tv,macwelt.de,pcwelt.de,xataka.com.mx,shikiho.toyokeizai.ne
 !
 ! SECTION: Regular rules
 !
+premierguitar.com##.wrapper__interscroller
+premierguitar.com##div[style="padding-top: 790px;"]
+amazon.com##.pmts-payment-option-list-wrapper > .a-box:not([class*=" "])
 moviepilot.de##div[id^="dfp-mtf-"]
 deccanherald.com##.container > .hide-desktop
 bi-girl.net##.osusume_av_wrap_mobile
@@ -5398,7 +5402,6 @@ komputerswiat.pl###page > article > div[style^="margin:"] > p[style="font-size:9
 m.haberler.com##.hbMain > input[type][value="manset"] + div[style]
 1reg.by##.article-content-inner > div:not([class]) > p ~ div[class][style]
 m.thepaper.cn##iframe[src^="https://adproject.thepaper.cn/"]
-mynet.com##.adv-item-box
 google.de,sueddeutsche.de##amp-ad + div[class^="css-"]
 cheb.ru###content > div[id="text"] > div[class] > a[target="_blank"] > img
 m.huanqiu.com##.ad_all
