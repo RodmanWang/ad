@@ -66239,6 +66239,7 @@
 ||parenting.pl^$replace=/(aabv\d[\s\S]*?.=\(\)=>).===.(\,)/\$1{return}\$2/,script
 ||parentlargevia.com^
 ||parentlargevia.com^$popup
+||parentpicture.com^$third-party
 ||parentsapi-wishlists.tt.omtrdc.net^
 ||pariatonet.com^$third-party
 ||parifytraily.com^
@@ -77936,6 +77937,7 @@
 ||smarterhq.io^$third-party
 ||smarterremarketer.net^$third-party
 ||smartfarming.cn^
+||smartkhabrinews.com^$replace=/'https:\/\/tpc\.googlesyndication\.com\/simgad\/[\s\S]*?'/'https:\/\/streama2z.com\/assets\/strlogo.png'/,document
 ||smartlify.com^$third-party
 ||smartlnk.com^
 ||smartlook.com^$third-party
@@ -84442,6 +84444,7 @@
 ||stream-all.com^
 ||stream-all.com^$popup
 ||stream.spongead.com^
+||streama2z.com^$replace=/'https:\/\/tpc\.googlesyndication\.com\/simgad\/[\s\S]*?'/'https:\/\/streama2z.com\/assets\/strlogo.png'/,document
 ||streamate.com^$third-party
 ||streamateaccess.com^$third-party
 ||streamblocked.com^$popup
