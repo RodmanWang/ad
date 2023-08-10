@@ -1173,11 +1173,12 @@ turbopages.org##.page__result > div[class*="type_native"]
 ! Bad: example.org##main > div.ad (should be in specific.txt)
 !
 !
+fujixweekly.com#$?#span[data-ez-ph-id] { display: none !important; }
+giga.de#?#.alice-teaser-list-item:has(> div[id^="giga.de_gruen_startseite_teaser"]:only-child)
 amp2.wiwo.de#?#body > div > div.container:has(> amp-embed[type="outbrain"])
 dexerto.com#?#main.isolate div[data-cy="Container"]:has(> div.col-span-full > div.flex > div.flex > div.top-0 > div[data-ad-unit-id])
 linkedin.com#?#ol.feed-container > li.feed-item:has(> article[data-is-sponsored])
 m.hkgolden.com#?#div[id^="page"] > div[data-role="reply"] + div[class]:not([data-role]):has(div[data-role="ad"])
-m.hkgolden.com#$#html > body[data-app-lightbox] { overflow: auto !important; }
 m.hkgolden.com#$?#body > div[role="dialog"]:has(> div[class]:only-child > div[data-role="ad"]) { remove: true; }
 deccanherald.com#?##topbar > .hide-desktop + div[class] > div[class]:only-child:has(> div[class] > span:contains(/^ADVERTISEMENT$/))
 vikna.tv#?#main > section:has(> div.promo-sidebar> div[id^="div-gpt-ad-"])
@@ -1807,6 +1808,8 @@ sasisa.ru#%#AG_onLoad(function() { window.Umobi = function() {}; });
 !-------CSS---------
 !-------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/158575
+m.hkgolden.com#$#html > body[data-app-lightbox] { overflow: auto !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/157914
 gismeteo.ru#$#label[data-title="Объясняем.рф"] { display: none !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/157986
@@ -2951,6 +2954,8 @@ transfermarkt.de,iyf.tv,macwelt.de,pcwelt.de,xataka.com.mx,shikiho.toyokeizai.ne
 !
 ! SECTION: Regular rules
 !
+gametechwiki.com##.mw-body-content > p
+giga.de###content-block-01F9V7JV1FJ57J4N0HJZQ9MMH7
 businessinsider.in##.amp-flying-carpet-wrapper
 businessinsider.in##.leaderboard-scrollable-btf-cont
 quiz-facts.com##.content-network-space
@@ -4187,7 +4192,7 @@ minkou.jp##.mod-ad-wrap
 koe-koe.com###chumoku_ad
 koe-koe.com###third_ad
 koe-koe.com##.ad_list
-koe-koe.com##div[style$="width:300px;min-height:260px;"]
+koe-koe.com##div[style*="width:300px;min-height:2"]
 eroita.net##.spadv
 smbiz.asahi.com,game.asahi.com##.ad-sp-side-rect
 ||a.adtng.com/get/$xmlhttprequest,redirect=noopvast-2.0,important,domain=mydaddy.cc
@@ -5183,6 +5188,7 @@ aol.com,fossbytes.com##div[class^="AdChoiceContainer"]
 m.crank-in.net##.__uz__third_party_ad
 ||c.mipcdn.com/*/*.js$domain=m.manhuafen.com
 lemonde.fr##.friend.ops--inline
+supleks.jp###footer-banner
 supleks.jp##div[class*="_"][data-height]
 supleks.jp###shop-body > #btn-post + div[style]
 glavcom.ua##amp-iframe[src^="https://go.rcvlink.com/"]
