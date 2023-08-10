@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202308100847
+! Version: 202308101217
 ! Title: Fanboy's Annoyance List
-! Last modified: 10 Aug 2023 08:47 UTC
+! Last modified: 10 Aug 2023 12:17 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -37092,6 +37092,7 @@ annualreviews.org###article-back-to-top
 britishland.com###auto-top-link
 shameless.com###b2t
 whtop.com###back
+appdate.lk,leakedzone.com###back-to-top
 stoneberry.com###backTo
 tsc.ca###backToTop
 cdw.com###backToTopWrapper
@@ -37213,6 +37214,7 @@ timesofmalta.com##.scroll-notification-container
 carscoops.com,piunikaweb.com##.scroll-top
 game-news24.com,manilatimes.net##.scroll-up
 toyota.co.uk,toyota.ie##.scrollTo
+gadgets360.com##.scrollToTop
 khronos.org,kyivpost.com##.scroll_to
 ukranews.com##.scroll_top
 frameboxxindore.com,host-tools.com,hostelworld.com,news9live.com,sahomeowner.co.za,spacetourismguide.com,tribuneindia.com##.scrolltop
@@ -37416,6 +37418,7 @@ m.economictimes.com###appDwnldBanner
 m.aiscore.com###appLink
 brandeli.com###appbuner
 dtac.co.th###banner_dtacapp
+gadgets360.com###bnotify
 nbcsandiego.com###branch-amp-journey
 deepl.com###callout-subtitle-chromeExtensionPromo
 castbox.fm###channelAppBar
@@ -44894,6 +44897,7 @@ galaxus.at,galaxus.de##.bnCqgP
 boerse-stuttgart.de##.bsg-header-warning
 bulthaup.com##.bulthaup-cookie-notice
 ziegert-immobilien.de##.bvknVl
+hey.car##.bxivGE
 galaxus.de##.bzTyHZ
 ineoskoeln.de##.c-alert
 abraxas.ch##.c-disclaimer--default
@@ -44912,7 +44916,6 @@ immoscout24.ch##.cmOzGN
 ihk-weiterbildung.de##.cmnstr
 ifaa.de##.cmnstr-outer
 verivox.de##.cmp-container
-hey.car##.coUDFt
 schmidtnorm.at##.col-12 > div > div > .container
 lbbw.de##.component-data-protection-consent
 hawesko.de##.consent-cookie-box
@@ -44989,6 +44992,7 @@ elisabethenquelle.de,vita-cola.de##.hc-notice
 forum-ddr-grenze.de##.headeroverlay
 medienportal-sachsen-anhalt.de##.hinweis
 berlin-buehnen.de##.hylo-cookie-banner-general
+hey.car##.iUYzcs
 peoples.ch##.id-cookie-consent
 berliner-sparkasse.de,frankfurter-sparkasse.de,ksk-koeln.de,mbs.de,sparkasse-allgaeu.de,sparkasse-freiburg.de,sparkasse-hannover.de,sparkasse-koelnbonn.de,sparkasse-oberlausitz-niederschlesien.de,sskm.de##.if6_eprivacy
 zuckerjagdwurst.com##.index-module--backdrop--3DX5v
@@ -48026,7 +48030,6 @@ inspirock.com,loxam.com#@#div.with-cookie
 what3words.com#@#div[class^="CookieNotice"]
 etsy.com#@#div[data-gdpr-consent-prompt]
 facebook.com,messenger.com#@#div[data-testid="cookie-policy-banner"]
-https://larian.com/
 cookielaw.org#@#section.cookie-banner
 ondacero.es#@#sibbo-cmp-layout
 yoigo.com#@#thor-cookies

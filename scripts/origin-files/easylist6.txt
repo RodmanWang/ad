@@ -119,6 +119,7 @@ turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-
 ! notifications - part of the functionality
 ! discord.com##div[class^="container"] > nav[class^="wrapper"] + div[class^="base"] > div[class^="notice-"]
 !
+routeyou.com##.installApp
 artsandculture.google.com##.iMnvWc
 threads.net#?#header + div[class^="x"] div[class^="x"]:has(> div[class^="x"] > a[href="/download/redirect"])
 news18.com##body .instlsapp_fxd:not(#style_important)
@@ -366,7 +367,6 @@ drugs.com##.sideBoxPillApp
 inspire.com##ins-unav-mobile
 point.md#?#.kaloiv > div[class^="sc-"]:has(> a[href^="https://apps.apple.com/md/app/"])
 pdf2go.com##.extension-container
-obozrevatel.com##.footer_app
 syukatsu-kaigi.jp##.js-dynamic-link-banner
 m.nivod4.tv,m.nivod5.tv##.install-tip-bar
 goodrx.com##.px-4.flex.pt-5.pb-6.flex-col.bg-footer-blue
