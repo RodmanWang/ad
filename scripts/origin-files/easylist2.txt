@@ -440,6 +440,7 @@ nukeruerodouga.com#?##main-right > div.right_area > div.ninja-recommend-block:up
 kuow.org#?#.story-content-wrapper > div.embed_block:has(> div[ub-in-page])
 kuow.org#?#.story-content-wrapper > div.embed_block:has(> script:contains(window.usabilla))
 !
+hinatasoku.blog.jp#?#.right-container > div.sidewrapper:has(> div.side > a[href="http://www.ziyu.net/"])
 aatyu.livedoor.blog#?#.article > div.plugin-memo:has(> div.side > div.ninja-recommend-block)
 cartune.me#?#.contents-inner > div > div#taboola-alternating-thumbnails-a:upward(1)
 livedoor.biz,ldblog.jp#?#.plugin-memo > div.side > a[href$="ziyu.net/"]:upward(2)
@@ -52235,6 +52236,7 @@ _tracking.php?b=
 /analytics.js$domain=tokyometro.jp|resumes.breakdownexpress.com|techcult.com|inbox.lv|kopeda.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|newsmax.com|bolgehastanesi.com|ewtc.de|newsdig.tbs.co.jp|imore.com|city.kushiro.lg.jp|emeraldbridal.com.au|emarat-news.ae|imobie.jp|tikla.com.tr|rusvideos.porn|jrkyushu.co.jp|amiunique.org
 ||assets.adobedtm.com^$domain=mcclatchydc.com|elnuevoherald.com|bellinghamherald.com|sacbee.com|charlotteobserver.com|newsobserver.com|miamiherald.com|ef.ru|algida.com.tr|bmw-motorrad.co.uk|cif.com.tr|clearhaircare.com|domestos.com|dove.com|elidor.com.tr|f1sport.autorevue.cz|geico.com|hellmanns.com.tr|herkessofraya.com|johnsonsbaby.com.tr|lipton.com|lnk.to|lux.com|magnumicecream.com|neutrogena.com.tr|omo.com|rexona.com|samsung.com|sap.com|schwarzkopf.com.tr|signalturkiye.com|msnbc.com|nbcnews.com|kbb.com|eurosport.ru|timgate.it|intermiles.com|oxfordmail.co.uk|spiegel.de|hp.com|deutschepost.de|thebay.com|s.shufoo.net|tsn.ca|tabelog.com|euronews.com|newshub.co.nz|fredmeyer.com|viabcp.com|carsales.com.au|falabella.com|aarp.org
 !
+||lvbet.pl/*/json/web-analitics-events.json
 ||services.rome2rio.com/api/json/LogAnalyticsEvent
 ||services.rome2rio.com/api/json/LogCoreWebVital
 lto.de##img[src^="https://ssl-wolterskluwer.met.vgwort.de/"]
@@ -55722,6 +55724,12 @@ link.gmapp*.net$image
 ! it's problematic that due to how Gmail proxy work, these domains aren't even exposed on the network level
 ! fortunately, extensions can see them (Gmail puts the real URL in the location.hash part of the src)
 !
+! rei.com
+notices.rei.com$image
+! Squarespace
+email.mgtp01.squarespace-mail.com$image
+! Convertkit
+open.convertkit-mail*.com$image
 ! Feedrabbit
 email.feedrabbit.com$image
 ! Smartinsights
@@ -55729,7 +55737,7 @@ go.smartinsights.com*gif$image
 ! MailerLite
 clicks.mlsend.com$image
 ! thedailybeast.com
-sli.thedailybeast.com/imp?$image
+sli.thedailybeast.com$image
 ! Bloomberg
 app.c.bloomberg.com$image
 ! pcloud.com
@@ -55864,7 +55872,7 @@ outrch.com/api/mailings/opened$image
 track.mixmax.com/api$image
 email.mixmax.com/e/o$image
 ! SendGrid, Robinhood
-ct.sendgrid.net%2Fwf%2Fopen%3$image
+ct.sendgrid.net$image
 /wf/open?upn=$image
 ! ExactTarget
 exct.net/open.aspx$image
@@ -55890,7 +55898,7 @@ yamm-track.appspot$image
 ! Close.io
 close.io/email_opened$image
 ! Return Path
-returnpath.net/pixel.gif$image
+pixel.monitor*.returnpath.net$image
 ! NetHunt
 nethunt.com/api/v1/track/email/$image
 ! JiveOn tracking
