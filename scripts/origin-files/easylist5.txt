@@ -3454,10 +3454,14 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
-laopiniondemalaga.es#$?#body > div.tp-modal:has(> div.tp-iframe-wrapper > iframe[id^="offer_"]) { display: none !important; }
-laopiniondemalaga.es#$#.tp-backdrop { display: none !important; }
-laopiniondemalaga.es#$#html > body[class] { overflow: auto !important; touch-action: auto !important; height: auto !important; }
-laopiniondemalaga.es#$#html { overflow: auto !important; touch-action: auto !important; }
+slickdeals.net##.welcomeToast
+byjus.com##.announcement-banner-wrap
+prepp.in#%#//scriptlet('trusted-set-cookie', 'ldCookie', 'closed')
+gocomics.com##.amu-container-alert
+elperiodicoextremadura.com,laopiniondemalaga.es#$?#body > div.tp-modal:has(> div.tp-iframe-wrapper > iframe[id^="offer_"]) { display: none !important; }
+elperiodicoextremadura.com,laopiniondemalaga.es#$#.tp-backdrop { display: none !important; }
+elperiodicoextremadura.com,laopiniondemalaga.es#$#html > body[class] { overflow: auto !important; touch-action: auto !important; height: auto !important; }
+elperiodicoextremadura.com,laopiniondemalaga.es#$#html { overflow: auto !important; touch-action: auto !important; }
 laopiniondemalaga.es###fmegaPiano
 ytv.co.jp##.delivery_bnr
 browserling.com##.welcome-back
@@ -3697,7 +3701,6 @@ bizmates.jp##.c-online-bnr
 yunalady.com#$##hustle-popup-id-2 { display: none !important; }
 yunalady.com#$?#html { overflow: auto !important; }
 qracian.co.jp###footer-fixed
-fulltimehdfilmizle.com#%#//scriptlet('prevent-addEventListener', 'click', 'popundr')
 mackolik.com###featured-media > iframe.is-sticky
 alibabacloud.com###alicloud-home-top-banner
 alibabacloud.com##.BottomBanner
@@ -11119,6 +11122,7 @@ jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,thelocal.ch,morgenpost.d
 !
 ! SECTION: Subscriptions - Regular rules
 !
+itmedia.co.jp##.cmsBodyItmidSeriesButtonRegist
 wokularach.pl#%#//scriptlet('trusted-set-local-storage-item', 'modal_newsletter', '{"status":false}')
 wokularach.pl#$?#div[class^="sc-"] > div[style="display:contents"] > div[class^="sc-"]:has(> section[class^="sc-"] form label[for="newsletter"]) { visibility: hidden !important; height: 0 !important; }
 happymag.tv##.subscribe-home-footer
@@ -11492,7 +11496,6 @@ xn--subespaol-r6a.com#?#.elementor-column-gap-default:has(> div.elementor-row > 
 englishlessonsbrighton.co.uk##.et_bloom > div.et_bloom_popup.et_bloom_visible
 englishlessonsbrighton.co.uk##.et_pb_newsletter
 anonaddy.com#?#main > section:has(> div > form[action="https://news.anonaddy.com/subscribe"])
-status.proton.me##.updates-dropdown-container
 lezzet.com.tr#?#body > .align-items-center:has(#formSubscription)
 bluestoneperennials.com##body > div > div.needsclick
 diamondlobby.com##.form-embed
@@ -14282,7 +14285,7 @@ try-it.jp#%#//scriptlet('prevent-addEventListener', 'load', 'event.dispatch.appl
 vokrug.tv#?#.articlesdiv > center:has(> a[href="https://zen.yandex.ru/vokrug.tv"])
 onlinegibdd.ru,komus.ru##.new-subscribe
 komus.ru#$#.social-info > div.social-info__item:first-child { visibility: hidden !important; }
-boardingarea.com,digitalic.it,diariosanrafael.com.ar##.et_bloom_optin
+telecompetitor.com,boardingarea.com,digitalic.it,diariosanrafael.com.ar##.et_bloom_optin
 paperpaper.*##.socials
 magicvalley.com#%#//scriptlet("set-constant", "show_dimissable_registration", "false")
 washingtonpost.com##div[style="min-height:220px"][data-qa="right-rail-item"]
@@ -16504,7 +16507,7 @@ motorradonline.de##.mps-newsletter
 moneysavingexpert.com##.mse-news-tipbox
 ain.ua##.multi-subscribe
 m24.ru##.n_subscribe_wdgt
-economia.uol.com.br##.news-notice.subscribe
+uol.com.br##.news-notice
 motorpage.ru##.news-subscr
 wmtransfer.com,news.ru,ain.ua##.news-subscribe
 ua-football.com##.newsEMS
