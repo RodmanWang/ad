@@ -103,6 +103,10 @@ instagram.com##._aagw:empty
 !
 ! End: Instagram.com
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/159273
+docin.com###addFavoritesTips
+! https://github.com/AdguardTeam/AdguardFilters/issues/158782
+testbook.com##web-signup-sticky-footer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/158859
 eurosport.tvn24.pl##.pip-container > .picture-in-picture[data-testid="player-pip-active"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/158607
@@ -4818,6 +4822,8 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+cryptoticker.io##.post_content_wrapper a[href^="https://cryptoticker.io/"][href$="/exchange-comparison/"]
+cryptoticker.io##.sidebar_widget a[href^="https://cryptoticker.io/"][href$="/exchange-comparison/"]
 2ememain.be#?#.hz-Listing--list-item:has(span:contains(/Topadvertentie|Pub au top/))
 wagwalking.com#?#section > div[class]:has(> figure a[href="https://wagwalking.com/wag-health"])
 360.com,360.cn##.topbnr
