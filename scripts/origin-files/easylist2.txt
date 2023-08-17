@@ -4333,6 +4333,8 @@ prjaga.ru#?##right > div#right_nav > h3:contains(Онлайн статистик
 ! More info: https://getadmiral.com/products/measure
 ! Add same rules to the Admiral section of Annoyances filter
 !
+||ruralrobin.com^$third-party
+||scaredsnakes.com^$third-party
 ||bleachscarecrow.com^$third-party
 ||parentpicture.com^$third-party
 ||suspectmark.com^$third-party
@@ -54111,6 +54113,9 @@ inapps.appsflyersdk.com^
 !#endif
 !
 !
+! https://bousai.yahoo.co.jp/exam/intensive/ broken
+@@||s.yjtag.jp/tag.js$domain=bousai.yahoo.co.jp
+@@||yjtag.yahoo.co.jp/tag$script,domain=bousai.yahoo.co.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/158351
 @@||googletagmanager.com/gtm.js$domain=villeroy-boch.fr
 ! https://github.com/AdguardTeam/AdguardFilters/issues/158323
