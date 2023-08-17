@@ -1568,6 +1568,8 @@ $script,third-party,denyallow=sharecast.ws|bunnycdn.ru|bootstrapcdn.com|cdn.ampp
 !
 !
 !
+httpcn.com##a[href^="http://www.okbmf.com/"] > img
+v.youku.com##.advertise-layer
 setn.com##.e_ad
 md.hkgolden.com##.hkg-ad
 ||dnxtc.net/images/xiaobing
@@ -5363,6 +5365,7 @@ newduba.cn###jq_youxi
 ||fmre1.com^
 ||fiktvlnc.icu^
 ||qucncfo.cn^
+||dcsxv.com^
 ||zszhln.xyz^
 ||zvasuzb.icu^
 ||zxrcfw.com^

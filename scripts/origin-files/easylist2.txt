@@ -538,6 +538,7 @@ prjaga.ru#?##right > div#right_nav > h3:contains(Онлайн статистик
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||adsolutions.com^$third-party
 ||sdk.fra-*.braze.eu^
 ||ct2.kutinawa.com^
 ||tg1.premiumimpression.com^
@@ -5513,6 +5514,8 @@ prjaga.ru#?##right > div#right_nav > h3:contains(Онлайн статистик
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||drfdisvc.walmart.com^
+||beacon.walmart.com^
 ||sanalytics.disneyplus.com^
 ||trcksp.cordial.io^
 ||track.msg.fortune.com^
@@ -51774,6 +51777,9 @@ link.gmapp*.net$image
 ! it's problematic that due to how Gmail proxy work, these domains aren't even exposed on the network level
 ! fortunately, extensions can see them (Gmail puts the real URL in the location.hash part of the src)
 !
+! Reddit Mail
+click.redditmail.com/CI0/$image
+click.redditmail.com%2FCI0%2F$image
 ! mlsend.com
 lmqmpm.clicks.mlsend.com$image
 ! Samsung News
@@ -52771,6 +52777,8 @@ $cookie=bf_visit
 ! Bad:  ||monerominer.rocks^$third-party (should be in adservers.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/158999
+||ft.com^$cookie=spoor-id
 ! https://github.com/AdguardTeam/AdguardFilters/issues/158141
 ||galottery.com^$cookie=NID
 ||galottery.com^$cookie=1P_JAR
@@ -54115,6 +54123,8 @@ inapps.appsflyersdk.com^
 !#endif
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/158897
+@@||athleanx.com/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js
 ! https://bousai.yahoo.co.jp/exam/intensive/ broken
 @@||s.yjtag.jp/tag.js$domain=bousai.yahoo.co.jp
 @@||yjtag.yahoo.co.jp/tag$script,domain=bousai.yahoo.co.jp
