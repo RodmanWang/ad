@@ -103,6 +103,8 @@ instagram.com##._aagw:empty
 !
 ! End: Instagram.com
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/158912
+||player.cnevids.com/interlude/glamour.js*&embeddedVideos=&rightRail=true
 ! https://github.com/AdguardTeam/AdguardFilters/issues/158891
 ||img-global.cpcdn.com/promotional_banners
 cookpad.com##div[data-source-tracking-screen-value="home_banner"]
@@ -3188,6 +3190,8 @@ www.kinopoisk.ru##div[class^="trailer-promo"]
 ! END: Yandex
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/158926
+paperpaper.ru#?#div[data-stk-css][data-ce-tag]:contains(PaperVPN)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/158480
 bing.com###b_context #waitListDefault
 ! https://github.com/AdguardTeam/AdguardFilters/issues/157673
@@ -4826,6 +4830,7 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+zapier.com##aside[data-testid="half-width-cta"]
 wenku.so.com###g-hd-nav + a.header-opt
 lesuobingdu.360.cn##.top-banner
 sd.360.cn##div[style$="height: 60px;width: 100%;"]
