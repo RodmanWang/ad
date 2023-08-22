@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202308220206
+! Version: 202308220613
 ! Title: Fanboy's Annoyance List
-! Last modified: 22 Aug 2023 02:06 UTC
+! Last modified: 22 Aug 2023 06:13 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -37001,6 +37001,7 @@ uberhumor.com###blueprevious
 sabcnews.com###floating-nextprev
 thecourier.com###nextStoryTitle
 thecourier.com###previousStoryTitle
+inquirer.net###read-next-2018
 crossroadstoday.com###slidepanel
 census.gov###thumbs_div
 tech.hindustantimes.com##.alsoReadSectionAppend
@@ -37593,6 +37594,7 @@ gumtree.com##.image-app-banner
 shazam.com##.info
 vanceai.com##.install-app
 trip.com##.install-bottom
+news18.com##.instlsapp_fxd
 terabox.com##.introduce-sticky-btn
 tanp.jp##.js-appDownloadHeaderBanner
 duckduckgo.com##.js-open-in-app
@@ -38942,7 +38944,7 @@ asianjournal.com,creativedestructionmedia.com,delacortereview.org,floridianpress
 vtdigger.org##.shop-promo
 platformer.news,substack.com##.show-subscribe
 swissinfo.ch##.si-teaser--newsletter-subscription
-offthebeatenpoints.com##.sib-form
+inquirer.net,offthebeatenpoints.com##.sib-form
 technology.org,tourscanner.com##.sib_signup_form
 worldcrunch.com##.side-bar-nl-wrap
 foodfolksandfun.net##.side-news-box
@@ -39560,8 +39562,10 @@ rt.com##.article__google-news
 wnep.com##.article__sharing
 news18.com##.article_bnow
 salemnews.net##.article_details_icons
+news18.com##.article_follow_1
 goodnet.org##.article_like
 thespectator.com##.article_set_wrap
+news18.com##.article_socials
 telegraphindia.com##.astkysharebox
 artnet.com##.author-links
 proprivacy.com##.author-social-icons
