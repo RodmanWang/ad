@@ -1820,6 +1820,9 @@ sasisa.ru#%#AG_onLoad(function() { window.Umobi = function() {}; });
 !-------CSS---------
 !-------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/159787
+monamona2525.com#$##im_interstitial { display: none !important; }
+monamona2525.com#$#body { overflow: auto !important; position: static !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/159490
 dictionary.com#$#body[class] > div.wrapper { padding-top: 0 !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/158759
@@ -2976,6 +2979,7 @@ dictionary.com,transfermarkt.de,iyf.tv,macwelt.de,pcwelt.de,xataka.com.mx,shikih
 !
 ! SECTION: Regular rules
 !
+kansai.hostlove.com##div[style="padding-top:-10px;margin-bottom:20px;"]
 gentosha-go.com###ggo_280_wrapper
 sexytvcap.com##div[style="margin:0;padding:5px;font-size: 13px;word-break: break-all;text-align: center;"]
 megamich.com##.PR-cm
