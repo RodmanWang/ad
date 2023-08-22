@@ -1869,7 +1869,6 @@ prjaga.ru#?##right > div#right_nav > h3:contains(Онлайн статистик
 ||denakop.com^$third-party
 ||trv.upperbooking.com^$third-party
 ||trl.upperbooking.com^$third-party
-||getback.ch^$third-party
 ||meapk.com^
 ||vidapi.expepp.de^$third-party
 ||builfico.de^$third-party
@@ -5523,6 +5522,7 @@ prjaga.ru#?##right > div#right_nav > h3:contains(Онлайн статистик
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||a.brack.ch^
 ||go.bidfluence.com^
 ||stracker.rmg.ru^
 ||mcs-sg.tiktok.com^
@@ -52622,6 +52622,8 @@ link.gmapp*.net$image
 ! it's problematic that due to how Gmail proxy work, these domains aren't even exposed on the network level
 ! fortunately, extensions can see them (Gmail puts the real URL in the location.hash part of the src)
 !
+! Sable
+email.cloud2.secureclick.net$image
 ! omnisend.com
 nyb.soundestlink.com*track$image
 ! link.thirdlove.com
@@ -52665,6 +52667,7 @@ email.azurareborn.com$image
 ! mandrillapp.com
 mandrillapp.com/track/$image
 ! Omnisend
+nnw.soundestlink.com$image
 omni.soundestlink.com$image
 ! wetransfer.com
 email.wetransfer.com$image
@@ -52739,6 +52742,7 @@ sli.wired.com/imp?s$image
 ! bolt.im
 bolt.im/t/$image
 ! site123.com
+site123.com*openedMessages.php$image
 app.site123.com$image
 ! Tildacdn
 mx11.tildacdn.com^*img/pixel/$image
@@ -54988,6 +54992,12 @@ inapps.appsflyersdk.com^
 !#endif
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/159812
+@@||wurfl.io/wurfl.js$domain=onlinetouch.nl
+! https://github.com/AdguardTeam/AdguardFilters/issues/159804
+@@||cdn.cxense.com/cx.cce.js$domain=bizjournals.com
+@@||cdn.cxense.com/cx.js$domain=bizjournals.com
+@@||api.cxense.com/public/widget/data?$domain=bizjournals.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/159775
 @@||static.personaclick.com/Elektromarketim/$domain=elektromarketim.com
 @@||cdn.personaclick.com/v*.js$domain=elektromarketim.com
