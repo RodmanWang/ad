@@ -711,8 +711,8 @@ email.t-online.de#@#.werbung
 !
 1fichier.com#?#form > .ct_warn:contains(disable any advertising)
 infotelematico.com#?#.entry-content > p.has-vivid-cyan-blue-background-color:contains(Adblock)
-pisshamster.com##div[id][style^="display: block; position: inherit; top:"]
-pisshamster.com#%#//scriptlet('prevent-element-src-loading', 'script', '/pagead2\.googlesyndication\.com|\/adsbanner\.js/')
+punishworld.com,pisshamster.com##div[id][style^="display: block; position: inherit; top:"]
+punishworld.com,pisshamster.com#%#//scriptlet('prevent-element-src-loading', 'script', '/pagead2\.googlesyndication\.com|\/adsbanner\.js/')
 thejakartapost.com##.ad-v-box
 thejakartapost.com##.ads-large-leaderboard
 thejakartapost.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
@@ -3464,6 +3464,8 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+about.google###google-hats-survey
+||gstatic.com/uservoice/surveys/resources/prod/js/survey/survey_binary$script
 fitomarket.com.ua###tcb_call_1
 netflix.shop#?#body > div:has(> div.needsclick > div[aria-label^="POPUP"])
 cafemedia.com###simple-banner
