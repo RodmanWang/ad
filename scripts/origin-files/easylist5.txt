@@ -9791,6 +9791,8 @@ kurashiru.com#$#html.dly-modal-active { overflow: auto!important; }
 ! SECTION: Popups - Mobile sites only
 !#if (adguard_app_android || adguard_app_ios || adguard_ext_android_cb || ext_ublock)
 !
+dvdfab.org#$#.prize-con { display: none !important; }
+dvdfab.org#$#html[style="overflow: hidden;"] { overflow: auto !important; }
 wikiwiki.jp##.grid-container > div[style="position:fixed;z-index:1;bottom:68px;left:10px;"] > a[href="https://game.wikiwiki.jp/"]
 bloomberg.com##.navi-terms-of-service
 drive.proton.me##.upsell-floating-modal
@@ -11161,6 +11163,7 @@ jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,thelocal.ch,morgenpost.d
 !
 ! SECTION: Subscriptions - Regular rules
 !
+kcrw.com##.CTAnewsletter
 cnbc.com###soc-promo-wrapper
 greenmedinfo.com##.optinbox
 infotelematico.com#?#.entry-content > p.has-text-align-center:has(> a[href="https://t.me/infotelematico"])
