@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202308260926
+! Version: 202308261209
 ! Title: Fanboy's Annoyance List
-! Last modified: 26 Aug 2023 09:26 UTC
+! Last modified: 26 Aug 2023 12:09 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -127,7 +127,6 @@
 /csBackToTop.js
 /dynamic-to-top/*
 /go_to_top.
-/goToTop.
 /hs.go-to.js
 /hs.go-to.min.js
 /ic_pagetop.
@@ -19033,6 +19032,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ###ccpaContainer
 ###ccpaFooter
 ###ccpa_banner
+###ccpa_consent_banner
 ###ccs-notification
 ###ccservice-cookiesinfo
 ###cct-box
@@ -36050,8 +36050,8 @@ dashboard.razorpay.com#@##credential_picker_container
 ||freetls.fastly.net/main/sd-cmp-$domain=spanishdict.com
 ||fuse.forbes.com^
 ||gallup.com/ux/gcb/
+||gdpr-api.sharethis.com^
 ||gdpr.internetbrands.com^
-||getadblock.com/js/cookie_notification.js
 ||government-and-constitution.org/js/consent.js
 ||harpercollins.co.uk/js/cookie.js
 ||hunstoncanoeclub.co.uk/media/system/js/modal.js
@@ -37142,7 +37142,7 @@ news.mingpao.com###return_top_2023
 baystatebanner.com###scroll-back
 aeromalls.com,ecrater.com,gadgetstouse.com,hard-drive.net,hotels.com,iphoneitalia.com,safetydetectives.com,theblondeabroad.com,thefintechtimes.com,yoshuabengio.org###scroll-to-top
 trutone.ca###scroll-top
-morbidology.com,theoverclocker.com,uska.ch,wdet.org###scroll-up
+morbidology.com,spuf.org,theoverclocker.com,uska.ch,wdet.org###scroll-up
 permanentstyle.com###scrollToTop
 123ink.ca,americanmusical.com,itdevices.ca,kingofcocaine.com,primecables.ca###scrollUp
 vipcars.com###scroll_top
@@ -37176,6 +37176,7 @@ allaboutcd.com##.atbs-ceris-go-top
 goodwillfinds.com##.b-back_to_top
 celebritycruises.com,err.ee,onthegotours.com,savoredjourneys.com,wanderlustcrew.com##.back-to-top
 dealnews.com##.back-to-top-outer
+atozmath.com##.backToTop33
 topuniversities.com##.back_top
 paradisehill.cc##.block-to-top
 bravotube.net##.btn-up
@@ -37257,6 +37258,7 @@ newrepublic.com##.upArrow
 itweb.co.za##.v-btn--bottom
 tiktok.com##[aria-label="Scroll to the top"]
 motorsport.com##[data-id="documentScrollToTop"]
+kimcartoon.li##[href="#"]
 nordstrom.com##[href="#back-to-top"]
 nexusmods.com##[title="Back to top"]
 wallpaperflare.com##[title="back to top"]
@@ -37908,6 +37910,7 @@ semafor.com###newsletter-sign-up
 awapress.com,nakedsecurity.sophos.com,ridefox.com###newsletter-signup
 designtaxi.com###newsletter-subscribe-div
 essence.com###newsletter-subscribe-modal
+law.justia.com###newsletter-subscription-aside-widget
 trip101.com###newsletterCheckbox
 comicbook.com,popculture.com###newsletterModal
 usafacts.org###newsletter__sticky
@@ -38824,6 +38827,7 @@ timesofisrael.com##.nlsignup
 reviewjournal.com##.nlsm-small
 fiercewireless.com##.node--type-embed-promo
 realclearscience.com##.notif-wrapper
+law.justia.com##.notification-banner
 ar15.com##.notify
 businesstraveller.com##.nw-ns-main
 as.com##.nwl
@@ -40036,7 +40040,7 @@ faithwire.com##.social__buttons
 moroccoworldnews.com##.social__media
 snopes.com##.social_comments_app_wrapper
 commondreams.org##.social_icon
-audi-sport.net,eurogamer.net,trustedreviews.com,woodworkforinventor.com##.social_icons
+audi-sport.net,eurogamer.net,metacritic.com,trustedreviews.com,woodworkforinventor.com##.social_icons
 dnaindia.com##.social_icons_colored
 moneycontrol.com##.social_icons_wrapper
 captainaltcoin.com##.social_link
@@ -42811,7 +42815,7 @@ cancerfonden.se##div[class^="CookieDisclaimer"]
 ! ! .overLay
 abundantgracetabernacle.org.uk,destemma.org,pacificandgold.co.uk##.overLay
 ! ! .CookieConsent
-bakkenbaeck.com,bluemail.me,buildclub.com,business-standard.com,cmodx.com,e-ville.com,fiorentinabaseball.it,forbesafrica.com,fotmob.com,geeksforgeeks.org,haveibeentrained.com,likewisetv.com,nebula.tv,nordlayer.com,nordlocker.com,nyctourism.com,ocbase.com,officedepot.hu,opyn.co,pango.education,pcsx2.net,pichau.com.br,polyhaven.com,puhekupla.com,rcskinclinic.com,recalbox.com,reflexer.finance,salvagemarket.co.uk,sankei.com,senda.pl,senpa.io,shuttle.rs,soldfy.com,soldfy.dk,soldfy.fi,soldfy.no,soldfy.se,sprintmedical.in,streamerbans.com,tayama.pl,u.sb,ubank.co.za,upgrade.chat,wheels.ca,zakzak.co.jp##.CookieConsent
+bakkenbaeck.com,bluemail.me,buildclub.com,business-standard.com,cmodx.com,e-ville.com,fiorentinabaseball.it,forbesafrica.com,fotmob.com,geeksforgeeks.org,haveibeentrained.com,likewisetv.com,nebula.tv,nordlayer.com,nordlocker.com,nyctourism.com,ocbase.com,officedepot.hu,opyn.co,pango.education,pcsx2.net,pichau.com.br,polyhaven.com,puhekupla.com,rcskinclinic.com,recalbox.com,reflexer.finance,salvagemarket.co.uk,sankei.com,senda.pl,senpa.io,shuttle.rs,soldfy.com,soldfy.dk,soldfy.fi,soldfy.no,soldfy.se,sprintmedical.in,streamerbans.com,suzuki.ua,tayama.pl,u.sb,ubank.co.za,upgrade.chat,wheels.ca,zakzak.co.jp##.CookieConsent
 ! ! .m-smartbar-container
 hilti.com,hilti.dk,hilti.ru##.m-smartbar-container
 ! ! #policy-ribbon
@@ -46910,7 +46914,7 @@ polza.ru##.mCSB_container
 investpay.ru##.main-user-consent-request
 torg-pc.ru##.marketing-popup
 kfim.com##.message
-iblitzmods.ru,kinoby.ru,tvguru.ru##.message-alert
+bestradio.fm,iblitzmods.ru,kinoby.ru,tvguru.ru##.message-alert
 merers.ru,strana.one,strana.today##.modal
 asna.ru##.modalCookies_root__356Q-
 shophair.ru##.modal_popup_sessid_box
