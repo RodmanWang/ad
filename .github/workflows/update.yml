@@ -17,11 +17,27 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
+
+        git fetch
+        git checkout release
+        
+        git checkout --orphan release-orphan
+        git rm -rf .
         git add *
+        
         git commit -m "update : $(TZ=UTC-8 date "+%Y-%m-%d %H:%M:%S")"
+        git branch -D release
+        git branch -m release
+
         
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.PERSON_TOKEN }}
         branch: 'master'
+        
+    - name: Delete workflow
+      uses: Mattraks/delete-workflow-runs@v2
+      with:
+        retain_days: 1
+        keep_minimum_runs: 3
