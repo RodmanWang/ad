@@ -24,7 +24,6 @@ jobs:
         git checkout --orphan release-orphan
         git rm -rf .
         
-        git add *
         git commit -m "update : $(TZ=UTC-8 date "+%Y-%m-%d %H:%M:%S")"
         git branch -D release
         git branch -m release
