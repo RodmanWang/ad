@@ -1,9 +1,11 @@
 name: Auto update rule
 on:
   workflow_dispatch:
-  
   schedule:
     - cron:  '25 0/3 * * *' 
+  push:
+    branches:
+      - master
 jobs:
   build:
     runs-on: ubuntu-latest
