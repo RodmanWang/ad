@@ -11,7 +11,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@main
+    - uses: actions/checkout@v3
     - name: Run start-ci.sh
       run: |
         /bin/bash ./scripts/start-ci.sh
@@ -32,6 +32,7 @@ jobs:
         git add ad-smartdns.conf
         git add ad.conf
         git add ad.list
+        git stash clear
         
         git commit -m "update : $(TZ=UTC-8 date "+%Y-%m-%d %H:%M:%S")"
         git branch -D release
@@ -42,7 +43,6 @@ jobs:
       with:
         github_token: ${{ secrets.PERSON_TOKEN }}
         branch: 'release'
-        force: true
         
     - name: Delete workflow
       uses: Mattraks/delete-workflow-runs@v2
