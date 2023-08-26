@@ -27,11 +27,11 @@ jobs:
         git checkout --orphan release-orphan
         git rm -rf .
 
-        git add ad.yaml      
-        git add Cad-easylist.txt    
+        git add ad.yaml
+        git add ad-easylist.txt
         git add ad-smartdns.conf
+        git add ad.conf
         git add ad.list
-
         
         git commit -m "update : $(TZ=UTC-8 date "+%Y-%m-%d %H:%M:%S")"
         git branch -D release
