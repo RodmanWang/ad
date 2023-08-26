@@ -26,8 +26,10 @@ jobs:
         
         git add *
         git commit -m "update : $(TZ=UTC-8 date "+%Y-%m-%d %H:%M:%S")"
-        
-    - name: Push changes
+        git branch -D release
+        git branch -m release
+
+    - name: GitHub Push
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.PERSON_TOKEN }}
