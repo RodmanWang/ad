@@ -6,7 +6,6 @@ on:
   push:
     branches:
       - master
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -16,34 +15,19 @@ jobs:
       run: |
         /bin/bash ./scripts/start-ci.sh
         
-    - name: Push artifacts to release branch
+    - name: Commit files
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-
-        git fetch
-        git checkout release
-        
-        git checkout --orphan release-orphan
-        git rm -rf .
-
-        git add ad.yaml
-        git add ad-easylist.txt
-        git add ad-smartdns.conf
-        git add ad.conf
-        git add ad.list
-        git stash clear
-        
+        git add *
         git commit -m "update : $(TZ=UTC-8 date "+%Y-%m-%d %H:%M:%S")"
-        git branch -D release
-        git branch -m release
-
-    - name: GitHub Push
+        
+    - name: Push changes
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.PERSON_TOKEN }}
-        branch: 'release'
-        
+        branch: 'master'
+
     - name: Delete workflow
       uses: Mattraks/delete-workflow-runs@v2
       with:
