@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202308271521
+! Version: 202308271649
 ! Title: Fanboy's Annoyance List
-! Last modified: 27 Aug 2023 15:21 UTC
+! Last modified: 27 Aug 2023 16:49 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -35534,6 +35534,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||badges.instagram.com^$third-party
 ||bloglovin.com/widget/$third-party
 ||bshare.cn^$third-party
+||button-share.zalo.me^$third-party
 ||button.like.co^$third-party
 ||buttons.github.io/buttons.js$third-party
 ||buttons.googlesyndication.com^$third-party
@@ -35912,7 +35913,9 @@ dashboard.razorpay.com#@##credential_picker_container
 ||neighbourly.co.nz/stuff/
 ||newegg.com/newegg/survey/
 ||planelogger.com/Content/Images/avitop6.gif
+||pornve.com/img/300x250f.gif
 ||psyche.co/_next/static/chunks/SupportBannerHeader.
+||rule34.xxx/images/shirt2.jpg
 ||sabcnews.com^*-iabsa-
 ||sp-marketing-assets.s3.us-west-2.amazonaws.com^$domain=heraldnet.com
 ! ---------- Scroll To Top Buttons ----------
@@ -37125,7 +37128,7 @@ shameless.com###b2t
 whtop.com###back
 appdate.lk,krdb.com,leakedzone.com,slocounty.ca.gov###back-to-top
 stoneberry.com###backTo
-tsc.ca###backToTop
+tsc.ca,vov.vn###backToTop
 cdw.com###backToTopWrapper
 medicinenet.com###backTop
 foodstuffsa.co.za,hardwarezone.com.sg,holidayswithkids.com.au###back_to_top
@@ -43841,6 +43844,7 @@ milliyet.com.tr##.sticky
 ! 
 delfi.ee##.article__info > .article-utility
 delfi.ee##.article__social
+baoquocte.vn##.bqt-share-social
 360.cymru##.buttons
 gnttv.com##.social_tracking_home
 ||probook.bg/like?$third-party
