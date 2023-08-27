@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202308270320
+! Version: 202308270557
 ! Title: Fanboy's Annoyance List
-! Last modified: 27 Aug 2023 03:20 UTC
+! Last modified: 27 Aug 2023 05:57 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -35990,6 +35990,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||theintercept.com/xbuilder/$script
 ||thejewishstar.com/images/enews-ad.png
 ||tinypass.com/api/tinypass.min.js$script,domain=thedailybeast.com
+||waterfordwhispersnews.com/wp-content/themes/therex-child/js/_newsletter-article-signup.js
 ! *** easylist:fanboy-addon/fanboy_social_specific_block.txt ***
 ||naturalnews.com/getviews2.
 ! *** easylist:easylist_cookie/easylist_cookie_specific_block.txt ***
@@ -36145,6 +36146,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||rsx.afterpay.com^
 ||src.ebay-us.com/*=usllpic$script,domain=ebay.com
 ||svc2.sc.com^
+||telegraph.co.uk/telegraph-advertising/tmg-cmp.min.js
 ||tm-eps.neutrino.nu^
 ||tmetrix.my.chick-fil-a.com^
 ||tmx.bestbuy.com^
@@ -37268,6 +37270,7 @@ kimcartoon.li##[href="#"]
 nordstrom.com##[href="#back-to-top"]
 nexusmods.com##[title="Back to top"]
 wallpaperflare.com##[title="back to top"]
+urlgalleries.net##[title="Go to top"]
 ! ! .icon-top
 landian.vip,russian-sex.me##.icon-top
 ! ! .goUp
@@ -42278,6 +42281,7 @@ ghresources.com##.wpt-modal
 ridero.eu##.wrapper-notify
 applehousetravel.co.uk,e-sportsbetting.nl,flysharp.com,iddoberger.com,mandrarossatour.com,o-nine.co.uk,onetime.bet,onetimecasino.com,onetimecasinos.com,southalltravel.co.uk,stashdesign.dk,stfly.com,stsports.com,studio-eastwood.nl,theholidayteam.co.uk,thkarayannis.gr,toysupermarket.ie,utelindenberg.com##.wrapperbtm
 warthunder.com##.wt-cb
+waterfordwhispersnews.com##.wwn-gdpr-modal
 spoonflower.com##.x-global-dialog
 xvideos.com##.x-message
 eneba.com##.xIPhuO
@@ -47964,7 +47968,7 @@ fairfitters.de#@#.cc-theme-classic.cc-window
 cyberforum.de,hartmanngruppe.net#@#.cc-window[aria-describedby*="consent"]
 cyberforum.de,hartmanngruppe.net#@#.cc-window[aria-label*="consent"]
 morningstar.ca,mysoapbox.com,tangerine.ca#@#.cc_container
-hellomtg.com,mbanc.com,primejumbo.com#@#.ccpa-banner
+mbanc.com#@#.ccpa-banner
 cooleffect.org#@#.ce-banner
 varzesh3.com#@#.cm-message
 onet.pl#@#.cmp-app_gdpr
