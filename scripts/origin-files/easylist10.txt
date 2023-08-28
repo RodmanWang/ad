@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202308280612
+! Version: 202308280923
 ! Title: Fanboy's Annoyance List
-! Last modified: 28 Aug 2023 06:12 UTC
+! Last modified: 28 Aug 2023 09:23 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -38794,6 +38794,7 @@ beinsports.com,wftv.com,wpxi.com,wsbtv.com##.newsletter-header
 gothamist.com##.newsletter-home
 mcknights.com,mcknightshomecare.com##.newsletter-html-asset
 ibtimes.co.uk,ibtimes.com##.newsletter-in-article
+almanac.com##.newsletter-incontent
 robbreport.com##.newsletter-link
 sandiegoreader.com##.newsletter-m
 177milkstreet.com##.newsletter-main-old
@@ -38836,10 +38837,12 @@ timeout.com##.newsletter_inline_banner
 fromthegrapevine.com##.newsletter_modal
 stakingrewards.com##.newsletter_newsletter__sU4Yv
 fairplanet.org##.newsletter_popup
+weareexplorers.co##.newsletter_sidebar_block
 thegazette.com##.newsletter_sign_up_page_breaker
 themoscowtimes.com##.newsletterbanner
 christiantoday.com##.newsletterbox
 gardeningknowhow.com##.newsletterform
+almanac.com##.newsletters-signup-wrapper
 therealnews.com##.newspack-lightbox
 recipetips.com##.newsshort
 maketecheasier.com##.newsub-box
@@ -40419,6 +40422,7 @@ consoleconnect.com,pccwglobal.com###cc-overlay
 aam-us.org###cc-window
 skargards.com###cc_dialog
 ovigo.tv###ccnst__main
+ericdraken.com###cconsent-section
 providentcu.org###ccpa
 rohan.co.uk###ccpop
 1parola.it,1word.ws,bestwordlist.com,listediparole.it,ortograf.ws,wikwik.org###cd
@@ -41280,6 +41284,7 @@ dreamingreece.com##.cookie-consent-inner
 cameronhouse.co.uk,postimees.ee##.cookie-container
 ford.co.uk,news.northeastern.edu,theatlantic.com##.cookie-disclaimer
 answerthepublic.com##.cookie-main
+british-assessment.co.uk##.cookie-management-intro
 parliament.uk##.cookie-manager
 privacy.samsung.com##.cookie-noneu
 victors.co.uk##.cookie-notice-visible
@@ -45951,6 +45956,7 @@ suojakalvotukku.fi##.ribbon-280
 viherkuutio.fi##.rstbox
 tvo.fi##.s-dialog-position-bottom
 evl.fi##.site-overlay
+bussitkartalla.matkahuolto.fi##.svelte-77rizi
 timma.fi##.t-body-small.justify-content-center
 teosto.fi##.u-position-fixed.u-zindex-100
 clipper-teas.fi##.v--modal-overlay
@@ -47525,6 +47531,7 @@ ants.vn##.sg-popup-content
 ||henryschein.at^*/CookieList.aspx
 ||howatherm.de/frontend/media/cm/
 ||kefalonia-griechenland.com/RR_KE_ccm19/
+||lights-on.io/public/app.js
 ||marketing.mafell.de/consent/public/app.js
 ||mobile.de/api/consent/static/js/loader.js
 ||penguin.epccm19.com/app.js
