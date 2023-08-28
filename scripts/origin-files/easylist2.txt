@@ -545,6 +545,7 @@ prjaga.ru#?##right > div#right_nav > h3:contains(Онлайн статистик
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||phenomtrackapi-ir.phenompeople.com^
 ||kiwi.mdldb.net^
 ||agrvt.com^
 ||westats.dev^$third-party
@@ -5515,6 +5516,8 @@ prjaga.ru#?##right > div#right_nav > h3:contains(Онлайн статистик
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||ci.asosservices.com^
+||creativeassets.asosservices.com^
 ||tracker.p3a.net^
 ||tracking.socketlabs.com^
 ||analytics.elegela.us^
@@ -52573,6 +52576,8 @@ link.gmapp*.net$image
 ! it's problematic that due to how Gmail proxy work, these domains aren't even exposed on the network level
 ! fortunately, extensions can see them (Gmail puts the real URL in the location.hash part of the src)
 !
+! mailgun.patreon.com
+email.mailgun.patreon.com$image
 ! Discord
 click.discord.com$image
 discord.com/api/science/*.gif?properties=$image
@@ -52618,9 +52623,9 @@ cdn.shopify.com%2Fshopify-email%2F$image
 sendfox.com/trk/open/$image
 sendfox.com%2Ftrk%2Fopen%2F$image
 ! Nirandfar
-email.nirandfar.com/*/link-tracker?$image
+email.nirandfar.com*link-tracker$image
 ! Jotform
-events.jotform.com/email/$image
+events.jotform.com*email$image
 ! Mailersend
 click.mailersend.net$image
 ! Mailerlite
@@ -55006,6 +55011,11 @@ inapps.appsflyersdk.com^
 !#endif
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/160061
+@@||googletagmanager.com/gtm.js$domain=wattpad.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/160224
+@@||googletagmanager.com/gtm.js$domain=orami.co.id
+||googletagmanager.com/gtm.js$script,redirect=google-analytics,domain=orami.co.id,important
 ! https://github.com/AdguardTeam/AdguardFilters/issues/159983
 @@||js.datadome.co/tags.js$domain=auth.garena.com
 @@||api-js.datadome.co/js/|$xmlhttprequest,domain=auth.garena.com
