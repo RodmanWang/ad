@@ -3200,6 +3200,8 @@ www.kinopoisk.ru##div[class^="trailer-promo"]
 ! END: Yandex
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/160172
+picwish.com##astro-island > a[href^="https://download.aoscdn.com/down.php?"][target="_self"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/159597
 online-stopwatch.com##.premiumShow
 ||online-stopwatch.com/images/wantmore/www.online-stopwatch.com.jpg
@@ -4843,6 +4845,7 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+meduza.io##.Layout-module-banner
 ||pornve.com/img/300x250f.gif
 marry-xoxo.com#?#.article_listItem > a > h3 > span.is-advertising:upward(3)
 ||rule34.xxx/images/shirt2.jpg
