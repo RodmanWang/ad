@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202308311819
+! Version: 202308312049
 ! Title: Fanboy's Annoyance List
-! Last modified: 31 Aug 2023 18:19 UTC
+! Last modified: 31 Aug 2023 20:49 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -31788,7 +31788,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.m-cookie-disclaimer
 ##.m-cookie-info
 ##.m-cookie-intro
-##.m-cookie-layer
 ##.m-cookie-notice
 ##.m-cookie-notification
 ##.m-cookie-popup
@@ -38493,7 +38492,7 @@ mediamatters.org##.footer--upper
 blog.elevatedataviz.com##.footer-cta
 grid.news##.footer-daily-drop
 howtogeek.com##.footer-email
-techxplore.com##.footer-form
+paloaltonetworks.com,techxplore.com##.footer-form
 minitool.com##.footer-join-wrapper
 stereogum.com##.footer-right__box
 dharmann.com##.footer-sub-form
@@ -39113,7 +39112,7 @@ stereogum.com##.subscribe-article
 lovefoodnotcooking.com,nautil.us,rabble.ca,spectator.org##.subscribe-bar
 greenbiz.com##.subscribe-block-container
 mamamia.com.au##.subscribe-border-bottom
-classicalite.com,faithpot.com,heatmap.news,mamamia.com.au,oversixty.co.nz,save.ca##.subscribe-box
+classicalite.com,faithpot.com,heatmap.news,mamamia.com.au,oversixty.co.nz,paloaltonetworks.com,save.ca##.subscribe-box
 albawaba.com,sport360.com##.subscribe-btn
 howtogeek.com##.subscribe-button
 reviewgeek.com##.subscribe-button-direct-link
@@ -39997,6 +39996,7 @@ tastecooking.com##.share-button
 apptrigger.com##.share-capture
 cryptopolitan.com##.share-col
 fandomwire.com,tvline.com##.share-container
+paloaltonetworks.com##.share-copy-mail
 news.cgtn.com,newsus.cgtn.com##.share-icon
 news12.com##.share-icons
 agsiw.org##.share-icons__social-shares___2eB-m
@@ -41706,7 +41706,7 @@ bcu.ac.uk##.js-action-bar
 newsnow.co.uk##.js-alerts-container
 gaijin.net##.js-cb-policy
 agenda.brussels##.js-confirm
-curiocity.com##.js-consent-box
+curiocity.com,littlepotatoes.com##.js-consent-box
 ibinder.com##.js-cookiebot
 g-star.com##.js-dialog--cookie
 jimmychoo.com,versace.com##.js-first-visit-banner
@@ -41719,6 +41719,7 @@ getaround.com##.js_cookie-consent
 latoken.com##.jss1097
 foxtrail.fjallraven.com##.jss228
 mile.cloud##.jss4
+hubsite365.com##.jss468
 fwd.com##.jss488
 guard.io##.jss51
 arcanys.com##.jss63
@@ -44861,6 +44862,8 @@ elgrafico.com,laprensagrafica.com##.suscribe
 laverdadnoticias.com##.suscribehorizontal
 bigbangnews.com,tonica.la##.suscribevertical
 todomecanica.com##.suscripcion
+ipmark.com##.woo-login-popup-sc-modal
+ipmark.com##.woo-login-popup-sc-modal-overlay
 telesurtv.net##.wpFootSuscrip
 ! Swedish
 elplural.com##.btn-subscribe
@@ -46629,6 +46632,7 @@ dajar.pl##.css-jjd2se
 hellohr.pl##.css-py4a32
 health-platform.online##.css-um19vb
 orange.pl##.css-yco2eg
+zdzis.com##.dDWWPk
 izodom2000.pl##.dialog-lightbox-widget
 komornik.pl##.divModalDialog
 home.pl##.edxzdK
