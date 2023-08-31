@@ -1568,6 +1568,7 @@ $script,third-party,denyallow=statically.io|sharecast.ws|bunnycdn.ru|bootstrapcd
 !
 !
 !
+||dzmanga.com/s/page_runtime_v5.js
 ||m.ygexing.com/d/js/acmsd
 lzacg.one##.sidebar .zib-widget > .textwidget > a[target="blank"]
 lzacg.one##.content-layout .zib-widget > .textwidget > a[target="blank"]
@@ -15125,6 +15126,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||php.cn/hezuo/
+||renwai.ren/cdn/pic/ad
 szxx.com.cn###A0
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -16299,7 +16302,6 @@ jandan.net###sidebar > ul[style="height:480px"]
 mpyit.com###sidebar a > img
 gaoqingw.com###sidebar a[href^="http"]:not([href*="gaoqingw"])
 appinn.com###sidebar a[rel*="sponsored"]
-mpyit.com###sidebar div[style*="background"]
 boke112.com###sidebar img
 elecfans.com###sidebar-firstad
 gaoqing.la###sidebar-follow

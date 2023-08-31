@@ -545,6 +545,7 @@ prjaga.ru#?##right > div#right_nav > h3:contains(Онлайн статистик
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||cdn.granify.com^$third-party
 ||phenomtrackapi-ir.phenompeople.com^
 ||kiwi.mdldb.net^
 ||agrvt.com^
@@ -52336,6 +52337,8 @@ link.gmapp*.net$image
 ! it's problematic that due to how Gmail proxy work, these domains aren't even exposed on the network level
 ! fortunately, extensions can see them (Gmail puts the real URL in the location.hash part of the src)
 !
+! Growave
+app.growave.io*statimg$image
 ! bedwettingstore.com
 e-bedwettingstore.com$image
 ! mjt.lu
@@ -52733,6 +52736,9 @@ nethunt.com/api/v1/track/email/$image
 ! Bad:  ||example.com^$cookie=flat_r_mb (should be in cookies_specific.txt)
 !
 !
+! Granify
+! Used for personalization and offers
+$cookie=granify.uuid
 ! ibillboard.com
 ! Used for targeting
 $cookie=ibbid
@@ -54783,6 +54789,8 @@ inapps.appsflyersdk.com^
 !#endif
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/160503
+@@||custhelp.com/owda/*/Tealeaf.js$domain=custhelp.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/160436
 @@||realclearpolitics.com/esm/assets/js/admiral.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/160396
