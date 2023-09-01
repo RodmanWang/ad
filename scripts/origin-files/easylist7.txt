@@ -2804,6 +2804,7 @@ yasir252.com#%#AG_onLoad(function(){setTimeout(function(){var a=document.querySe
 !
 !
 !
+store.epicgames.com#?#div[class^="css-"] > div[class^="css-"]:has(> div[class^="css-"] > h2 > span:contains(Follow Us))
 pepper.pl#?#.js-threadList > .js-banner:has(img[alt$="Insta"])
 nintendoworldreport.com###page > div#head
 pluggedin.ru##.rightSocialButtons
@@ -3196,7 +3197,7 @@ mail.yandex.*##div[class^="DisableAdsButton"]
 !
 rasp.yandex.*##.TravelHotelsBanner
 ! Yandex.Search
-yandex.*##.AliceFabPromo
+ya.ru,yandex.*##.AliceFabPromo
 !
 ! Yandex.TV
 tv.yandex.*##.recommended-ott
@@ -4850,6 +4851,7 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+texterra.ru##.article-container__banner-promo-sidebar
 pixiv.net##.sc-1p2gd44-7
 crunchyroll.com##.erc-upsell-popup > div.erc-upsell-popup-body
 crunchyroll.com##.erc-upsell-popup::after
