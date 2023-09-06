@@ -3428,6 +3428,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+jetlearn.com##.pop-up
 info.credly.com###hs-web-interactives-top-anchor
 peoplefinders.com##.v-consent-banner
 dom.ru##[name="cq_popup"]
@@ -9902,6 +9903,7 @@ zlavomat.sk#@##credential_picker_container
 ##.tsoft-push--in-notification
 ##.cleverpush-bell
 !
+/larapush_script_
 /OneSignalPageSDKES6.js
 /OneSignalSDKWorker.js
 /push.js?utm_source=*&domain=$script
@@ -9935,6 +9937,7 @@ zlavomat.sk#@##credential_picker_container
 .name/?pus=$script,third-party
 .site/?pus=$script,third-party
 !
+||cdn.larapush.com^$third-party
 ||pushbaza.com^$third-party
 ||nadajotum.com^
 ||getback.ch^$third-party
