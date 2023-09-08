@@ -716,6 +716,8 @@ email.t-online.de#@#.werbung
 ! SECTION: Anti-adblock - Regular rules
 ! Do not forget about '!#safari_cb_affinity' section for exclusions
 !
+olarila.com##.__b-popup1__
+olarila.com##.__b-popup1__ + div.esPopupWrapper
 online2pdf.com#%#//scriptlet('prevent-setTimeout', 'type', '1000')
 baomidou.com##body > div[style^="position: absolute; top: 0px; left: 0px; width: 100%;"]
 myfxbook.com#%#//scriptlet('prevent-setTimeout', 'showAd')
@@ -11153,6 +11155,7 @@ jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,thelocal.ch,morgenpost.d
 !
 ! SECTION: Subscriptions - Regular rules
 !
+usafacts.org###newsletter__sticky
 itsfoss.com##.cta
 mybroadband.co.za##.article-bottom-newsletter
 financefeeds.com#?#ul > li:has(> a[data-target="subscribe-popup"])
