@@ -1,5 +1,5 @@
-Version: 20230908231941
-!Total lines: 57407
+Version: 20230908232018
+!Total lines: 57409
 @@||5471782.fls.doubleclick.net^
 @@||939394.xyz^
 @@||a.adwolf.ru^
@@ -142,6 +142,9 @@ Version: 20230908231941
 @@||ads.95516.com^
 @@||track.bankcomm.com^
 @@||tongji.koowo.cn^
+@@||adverts.1foo.com^
+@@||track.4px.com^
+@@||ads.smartmidea.net^
 /^(\S+\.)?ad(s?[\d]+|m|s)?\./$denyallow=nucdn.net|azureedge.net|alibabacorp.com|alibabadns.com
 @@||ad.vivo.com.cn^
 @@||ads.alafish.cn^
@@ -157,7 +160,6 @@ Version: 20230908231941
 @@||ads.pinterest.com^
 @@||ads.spotify.com^
 @@||ads.tdbank.com^
-@@||ads.tiktok.com^
 @@||ads.twitter.com^
 @@||ads.vk.com^
 @@||ui.ads.microsoft.com^
