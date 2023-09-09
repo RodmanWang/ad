@@ -67,7 +67,9 @@ class writerFormat{
     /*clash 兼容格式的屏蔽广告规则集*/
     const SURGE = array(
         'format' => '  - \'+.{DOMAIN}\'',
-        'header' => "payload:\n# > Time: " . date('Y-m-d H:i:s', strtotime('2023-09-09 21:43:44')) . "\n# > lines: {COUNT}\n",
+        $desiredDateTime = '2023-09-09 21:43:44'; // 您所需的日期和时间
+        $formattedDateTime = date('Y-m-d H:i:s', strtotime($desiredDateTime));
+        'header' => "payload:\n# > Time: " . $formattedDateTime . "\n# > lines: {COUNT}\n",
         'full_domain' => 0,
         'name' => 'clash',
         'filename' => '../ad.yaml',
