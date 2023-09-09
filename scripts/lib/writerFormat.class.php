@@ -67,7 +67,7 @@ class writerFormat{
     /*clash 兼容格式的屏蔽广告规则集*/
     const SURGE = array(
         'format' => '  - \'+.{DOMAIN}\'',
-        'header' => "payload:\n#VER={DATE}\n#TOTAL_LINES={COUNT}\n",
+        'header' => "payload:\n# >Time: {date +'%Y-%m-%d %H:%M:%S'}\n# > lines: {COUNT}\n",
         'full_domain' => 0,
         'name' => 'clash',
         'filename' => '../ad.yaml',
