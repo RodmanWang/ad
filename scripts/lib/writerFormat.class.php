@@ -67,9 +67,7 @@ class writerFormat{
     /*clash 兼容格式的屏蔽广告规则集*/
     const SURGE = array(
         'format' => '  - \'+.{DOMAIN}\'',
-         date_default_timezone_set('UTC-8'), // 设置时区为UTC-8
-         $datetime = date('Y-m-d H:i:s'), // 生成日期和时间
-        'header' => "payload:\n# > Time: " . $datetime . "\n# > lines: {COUNT}\n",
+        'header' => "payload:\n# > Time: {DATE}\n# > lines: {COUNT}\n", 
         'full_domain' => 0,
         'name' => 'clash',
         'filename' => '../ad.yaml',
