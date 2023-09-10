@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202309100315
+! Version: 202309100615
 ! Title: Fanboy's Annoyance List
-! Last modified: 10 Sep 2023 03:15 UTC
+! Last modified: 10 Sep 2023 06:15 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -36550,6 +36550,7 @@ stoodnt.com##.boxzilla-overlay
 arxiv.org##.bps-banner
 mcsweeneys.net##.breaking-news-container
 investors.com##.broadcast-text
+404media.co##.btn-primary
 vox.com##.c-article-footer-cta
 marketplace.org##.c-callout-banner
 marketplace.org##.c-fetured-cards__card-freeform
@@ -38509,6 +38510,7 @@ duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##.
 linuxjournal.com##.js-form-item-email
 datacenterdynamics.com##.js-mktoFormBlock
 gamespot.com##.js-nlsub
+404media.co##.js-popup
 creditcards.com##.js-signup-visibility
 highya.com##.js-swimingBlock-stoper
 avclub.com,deadspin.com,gizmodo.com,jalopnik.com,kotaku.com,lifehacker.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.js_modal_exit_intent
@@ -42127,6 +42129,7 @@ rittal.com##.swal-overlay
 outage.report,rittal.com##.swal2-container
 lucozadeenergy.com##.swal2-show
 haier.com##.swiper-slide-img-txt
+taschen.com##.switch-prompt
 amplitude-studios.com,games2gether.com##.system-notification-container
 termly.io##.t-consentPrompt
 distro.tv##.tandc-wrapper
@@ -42879,7 +42882,7 @@ schaefer-container-systems.com,schaefer-container-systems.de,schaefer-it-systems
 ! ! .cookies__container
 ascentmanagement.ca,franciszkaniewieliczka.pl,knieskinderzoo.ch,simpleone.ru,tablaocordobes.es##.cookies__container
 ! ! #popup
-aquacard.co.uk,darricau.com,demarko-trailers.com,frescomarket.it,genmab.com,hmgma.ru,informacatania.it,lgtechno.ru,tuoclub.it,tuodi.it,vatten.ru,weathersa.co.za,weespreventief.nl,worldpower.com.tr###popup
+aquacard.co.uk,blsspain-russia.com,darricau.com,demarko-trailers.com,frescomarket.it,genmab.com,hmgma.ru,informacatania.it,lgtechno.ru,tuoclub.it,tuodi.it,vatten.ru,weathersa.co.za,weespreventief.nl,worldpower.com.tr###popup
 ! ! .posf.react-onclickoutside
 eurorelais.de,fewoferien.de,holidayhomes.com,maisondevacances.fr##.posf.react-onclickoutside
 ! ! CookiePopup
@@ -44005,11 +44008,13 @@ mobiili.fi###text-15
 tivi.fi##.cArfwR.sc-1fbt3do-0
 mediuutiset.fi##.clLoPp.sc-7urq97-0
 mikrobitti.fi##.cyhxvA.sc-tq30ek-31
+seura.fi##.entry-socialmedia-title
 tekniikkatalous.fi##.fmUFKd.sc-zxh5v-0
 mobiili.fi##.mobsome_icons
 ampparit.com##.social-media-links > .sidebox-content
 ampparit.com##.social-media-links > h3[class="sidebox-header"]
 voice.fi##.social-navigation > .nav-item
+etusuora.com##.some > *
 ku.fi##.somejaot
 apotti.fi#?#.post-footer:-abp-has(> .share)
 demokraatti.fi##div[class^="Styles__InnerContainer-"] > .animated
