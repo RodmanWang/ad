@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202309120541
+! Version: 202309120926
 ! Title: Fanboy's Annoyance List
-! Last modified: 12 Sep 2023 05:41 UTC
+! Last modified: 12 Sep 2023 09:26 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -2196,12 +2196,11 @@ _twitter_follow.
 /msmCookieConsent.
 /mweb.cookie/*$script
 /mws-cookie-
-/nanoGDPR.
-/nc-rgpd-cookies.
-/neo-cookie-
-/newprivacypolicy.
-/newprivacypolicytest.
-/nfaCookies.
+/nanoGDPR.min.js
+/nc-rgpd-cookies.css
+/nc-rgpd-cookies.min.js
+/neo-cookie-policy.js
+/newprivacypolicy.js
 /nibirumail.cookie.min.js
 /nl-cookie-law.js
 /notification.js*browserId=$script
@@ -36979,6 +36978,7 @@ pyrexoriginal.com###wr-back-top
 ozsale.com.au##.BqJep
 emojipedia.org##.ScrollToTop_scroll-to-top__mLPhy
 reddit.com##._3Tc8YYRhVDX9vlR0XePZfH
+getty.edu##.a-scroll-top-btn
 stacker.com##.actions-scroll-to-top
 analdin.com,reverbpress.com,uinterview.com##.arrow-up
 goafricaonline.com##.arrow-up-container
@@ -37952,6 +37952,7 @@ answersingenesis.org##.actionbox
 horse-canada.com##.active-campaign-form
 merriam-webster.com##.active-subscribe
 walletinvestor.com##.ad-align-center
+crn.com##.ad-imu-sticky
 drugtargetreview.com##.advads-background
 bucketlistjourney.net,goodnewsnetwork.org,guru99.com##.af-form-wrapper
 techspree.net##.after-post
@@ -38121,6 +38122,7 @@ faithwire.com##.catfish
 3dprintingspot.com##.cb-box
 crazyforcrust.com,easypeasyfoodie.com,thetinylife.com##.cb-box__wrapper-center_modal
 mygermanyvacation.com##.cb-ready
+consumerreports.org##.cda-newsletter
 classicsdujour.com##.cdj-vip
 americastestkitchen.com##.ceQgIx
 032c.com##.chakra-modal__overlay
@@ -38240,6 +38242,7 @@ theintercept.com##.elements-InlineNewsletterForm-innerContainer
 washingtontimes.com##.email-alerts
 nzherald.co.nz##.email-boost
 a-z-animals.com##.email-box
+physics.aps.org##.email-callout
 cars.com,invezz.com##.email-capture
 invezz.com##.email-capture__zigzag
 reddit.com##.email-collection-banner
@@ -38290,7 +38293,6 @@ aclu.org##.floating-action-wrapper
 thebulletin.be##.floorad
 gearjunkie.com##.flyout_newsletter_center
 factinate.com##.flytap-container
-ctrl.blog##.follow-cont
 cryptopolitan.com,izismile.com,techsupportalert.com##.followit--follow-form-container
 audfree.com##.foot-newsletter
 iai.tv##.footer--signup
@@ -38772,6 +38774,7 @@ babylonbee.com,notthebee.com##.py-6.px-6
 sprintmedical.in##.py-8.bg-gradient
 australianforeignaffairs.com,quarterlyessay.com.au##.qe-news--inline
 independent.ie##.quick_subscribe
+allthatsinteresting.com##.r-klde5a.r-1awozwy.css-175oi2r
 theparisreview.org##.rail-enews
 oregonlive.com##.rawhtml
 news.yahoo.com##.react-wafer-Featurebar
@@ -39023,7 +39026,7 @@ businesstech.co.za,mybroadband.co.za##.top-subscribe
 slaynews.com##.totalpoll-container
 independent.co.uk##.tp-active
 independent.co.uk,nationalobserver.com##.tp-backdrop
-americastestkitchen.com,hbr.org,nationalpost.com,scotsman.com,suntimes.com,vancouversun.com##.tp-container-inner
+americastestkitchen.com,hbr.org,heraldscotland.com,nationalpost.com,scotsman.com,suntimes.com,vancouversun.com##.tp-container-inner
 tp-link.com##.tp-follow-container
 independent.co.uk,nationalobserver.com##.tp-modal
 thewrap.com##.tpd-newsletters-form
@@ -39280,6 +39283,7 @@ citizensforethics.org###a11y-dialog
 butterwithasideofbread.com###aboutsocial
 torrentsafe.com###addthisimage
 9to5google.com,9to5mac.com,dronedj.com,electrek.co###after_disclaimer_placement
+physics.aps.org###aps-share-widget
 houstonpublicmedia.org###article-share
 scoop.co.nz###article-tools
 dailymail.co.uk###articleIconLinksContainer
@@ -39449,6 +39453,7 @@ freebeacon.com##.article-share-icons
 babylonbee.com,notthebee.com##.article-shareables
 forbes.com,phillyvoice.com##.article-sharing
 newrepublic.com##.article-social
+heraldscotland.com##.article-sticky-social
 dailystar.com.lb,eurekalert.org##.article-tools
 businesstech.co.za##.article-top-bar-share
 nationalreview.com##.article-utility-nav
@@ -39489,6 +39494,7 @@ onextrapixel.com##.blog-post-single-share
 butwhytho.net##.bm-social-sharing
 9to5linux.com##.bm-social-top
 breitbart.com##.bnn-social-share
+crn.com##.border-all-mid-gray-rounded
 bangkokpost.com##.boxnav--social
 purewow.com##.btn--email
 insidethegames.biz##.btn-block.btn
@@ -39569,7 +39575,6 @@ topic.com##.elements-Tombstone-social
 fism.tv##.elfsight-widget-social-share-buttons
 topauto.co.za##.eltd-blog-single-share
 bdonline.co.uk,screendaily.com##.email
-ctrl.blog##.entry-bttns
 spectator.co.uk##.entry-meta__item--social
 arabnews.com##.entry-views
 nrttv.com##.eshare
@@ -39605,7 +39610,7 @@ nypost.com##.floating-share-wrap
 firstpost.com##.floating-social-div
 thehackernews.com##.follow-box
 businesstech.co.za,mybroadband.co.za##.follow-buttons
-ein-herz-fuer-kinder.de##.follow-container
+ctrl.blog,ein-herz-fuer-kinder.de##.follow-container
 indiatvnews.com##.follow-google
 autocarindia.com##.follow-google-news-p
 grubstreet.com##.follow-list
@@ -39652,6 +39657,7 @@ alaskahighwaynews.ca,bowenislandundercurrent.com,burnabynow.com,coastreporter.ne
 haymarketbooks.org##.ftr-follow
 fxstreet.com##.fxs_bg_light_5_clr
 dailyzone.com##.g-b
+getty.edu##.g-footer__social
 ebaumsworld.com##.galleryImageShare
 gametyrant.com##.gametyrantSocial
 ghacks.net##.ghacks_share_widget
@@ -39771,6 +39777,7 @@ infobyip.com##.noprint
 nerdnomads.com,stationx.net##.ns-share-count
 crypto-news-flash.com##.nso_single_social
 foodnetwork.com##.o-SocialShare
+getty.edu##.o-hero__social
 marketplace.org##.o-social-share
 boldsky.com##.one-head-share1-links
 iranwire.com##.opinion-advertising
@@ -40036,6 +40043,7 @@ dailymail.co.uk##.vjs-social-controls
 euractiv.com##.vsac-social-email
 euractiv.com##.vsac-social-reddit
 euractiv.com##.vsac-social-twitter
+ctrl.blog##.webshare
 getthetechnow.com##.whatsapp
 bingehq.com##.widget-social-b
 madinamerica.com##.widget_a2a_share_save_widget
@@ -40112,7 +40120,7 @@ bulawayo24.com,foodbeast.com,forbes.ru,iol.pt,tn.com.ar,twistedfood.co.uk##.shar
 ! ! .sharing
 astrologyzone.com,bigleaguepolitics.com,goedgevoel.be,indiatoday.in,marketingweek.com,metacritic.com,numberempire.com,ornews.it,screenrant.com,spectator.com.au,thepointsguy.com##.sharing
 ! ! .social-bar
-bearingarms.com,hotair.com,ilsettimanale.online,redstate.com,salisburyjournal.co.uk,townhall.com##.social-bar
+bearingarms.com,heraldscotland.com,hotair.com,ilsettimanale.online,redstate.com,salisburyjournal.co.uk,townhall.com##.social-bar
 ! ! .social-container
 dibujos.net,dispatchlive.co.za,heraldlive.co.za,motherjones.com,novabh.tv,onet.pl,online-convert.com,sowetanlive.co.za,timeslive.co.za##.social-container
 ! ! .social-network
@@ -40751,7 +40759,7 @@ cybervisiontech.com##.Cookies-module--cookie--2ydR3
 traderjoes.com##.CookiesAlert_cookiesAlert__3qSl1
 fitline.com##.CookiesGDPR_initial__2ePNF
 andersenlab.com##.CookiesPolicy-module--wrapper--8pHca
-accounts.ucas.com##.CybotEdge
+accounts.ucas.com,nngroup.com##.CybotEdge
 tietalent.com##.EQRlj
 picoxr.com##.EjUUOLYo3tCrc6j7Mapv
 talixo.com##.FloatingBoxesContainerBottom
