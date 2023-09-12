@@ -9792,6 +9792,7 @@ kurashiru.com#$#html.dly-modal-active { overflow: auto!important; }
 ! SECTION: Popups - Mobile sites only
 !#if (adguard_app_android || adguard_app_ios || adguard_ext_android_cb || ext_ublock)
 !
+smocca.jp#%#//scriptlet('set-constant', 'history.state', 'undefined')
 dvdfab.org#$#.prize-con { display: none !important; }
 dvdfab.org#$#html[style="overflow: hidden;"] { overflow: auto !important; }
 wikiwiki.jp##.grid-container > div[style="position:fixed;z-index:1;bottom:68px;left:10px;"] > a[href="https://game.wikiwiki.jp/"]
@@ -10394,7 +10395,7 @@ zlavomat.sk#@##credential_picker_container
 ! Disabling of push-notifications
 !
 ! #%#//scriptlet('set-constant', 'Notification.requestPermission', 'noopFunc')
-superfilmes.ph,meduza.global.ssl.fastly.net,meduza.io,yenisafak.com,offidocs.com,onedio.com,hpplus.jp,fullfilmcibaba1.com,joom.com,nbc.com,sport-express.ru,maximum.ru,ch3plus.com,dropmefiles.com,rg.ru,reddit.com,life.ru#%#//scriptlet('set-constant', 'Notification.requestPermission', 'noopFunc')
+lnc.nc,superfilmes.ph,meduza.global.ssl.fastly.net,meduza.io,yenisafak.com,offidocs.com,onedio.com,hpplus.jp,fullfilmcibaba1.com,joom.com,nbc.com,sport-express.ru,maximum.ru,ch3plus.com,dropmefiles.com,rg.ru,reddit.com,life.ru#%#//scriptlet('set-constant', 'Notification.requestPermission', 'noopFunc')
 !
 wallstreet-online.de,dni.ru,polit.info#%#if (window.PushManager) { window.PushManager.prototype.subscribe = function () { return { then: function (func) { } }; }; }
 macwelt.de,pcwelt.de#%#//scriptlet("set-constant", "firebase.messaging", "noopFunc")
