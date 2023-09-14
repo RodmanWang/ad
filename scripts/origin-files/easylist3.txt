@@ -90,6 +90,12 @@
 ! Yandex.Images
 [$path=/images]ya.ru,yandex.*#%#//scriptlet('json-prune', 'seatbid rtb direct')
 [$path=/images]ya.ru,yandex.*##.Root > div.MastHead
+!#if (adguard_ext_safari || adguard_app_ios)
+! In all results
+[$path=/images]ya.ru,yandex.*#$?#.RelatedImages [style="max-width: 100%; max-height: 250px;"] { remove: true; }
+! When open a specific image
+[$path=/images]ya.ru,yandex.*#$?#.ImagesViewer-SidebarAdv [style^="max-width: 100%; max-height:"] { remove: true; }
+!#endif
 !
 ! Yandex.Music
 music.yandex.*##.notify > div.deco-tooltip_notify.notify_shown
@@ -3437,6 +3443,8 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+recovery-group.co.jp##.bfb-common-cta
+romsearch.officestation.jp##.bl_floatingBanner
 klerk.ru#?#iframe[src^="https://autofill.yandex.ru/suggest?"][src*="widget"]
 yorkshirepost.co.uk##.dailymotion-player-wrapper[style*="--position-right"]
 devops.com#$##sgpb-popup-dialog-main-div-wrapper { display: none !important; }
@@ -11561,7 +11569,7 @@ wallhere.com##.hub-newsletter
 plannedparenthood.org##div[data-module-name="Sign Up for Email Alerts"]
 j-town.net###magazine_induction
 respeecher.com##.subscribe-and-social-follow
-ellegirl.jp,womenshealthmag.com##.regist-mail-wrap
+esquire.com,ellegirl.jp,womenshealthmag.com##.regist-mail-wrap
 hodinkee.jp##div[data-react-class="HomepageNewsletterModule"]
 globe.asahi.com##.module-article-mailmag
 gadgets360.com##.subscribe + div[class$="_flx"]
@@ -11826,7 +11834,7 @@ nytimes.com#$##app > div > div.css-mcm29f { overflow: auto !important; }
 nytimes.com#$#.css-gx5sib { display: none !important; }
 nytimes.com#$##gateway-content { display: none !important; }
 thestreet.com#?#.m-page > section.m-brand-engagement:has( > div.m-brand-engagement--container a[href="https://www.thestreet.com/newsletters"])
-thestreet.com###customComponent-1
+si.com,thestreet.com###customComponent-1
 swimsuit.si.com#$#div[class^="fancybox-overlay"][style$="z-index: 5000950;"] { display: none !important; }
 swimsuit.si.com#$#.fancybox-lock body { overflow: auto !important; }
 swimsuit.si.com#$#.fancybox-lock { overflow: auto !important; }
