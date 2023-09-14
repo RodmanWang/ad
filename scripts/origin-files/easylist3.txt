@@ -11178,6 +11178,8 @@ jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,thelocal.ch,morgenpost.d
 !
 ! SECTION: Subscriptions - Regular rules
 !
+cultofmac.com#?#.section-posts-suggestions > .wrapper:has(> .post-list > .com-newsletter-line-sep)
+mashable.com##section[data-ga-category="newsletters"]
 stormininnorman.com##.fs-daily
 trafficcardinal.com##.cases-form
 trafficcardinal.com##.footer-block_form
@@ -11236,7 +11238,7 @@ ign.com###pit-video-after-description
 captainaltcoin.com##div[id^="form"].popup-acm
 bangordailynews.com###masthead_inside_ears
 smallseotools.com#?#.main_fpt .col-md-6 > .bg-white > div[class]:has(~ .social_box)
-dexerto.com##div[data-cy="SignupWidget"]
+charlieintel.com,dexerto.com##div[data-cy="SignupWidget"]
 kyivindependent.com##.ukraine-daily-side-banner
 irishnews.com##.portlet--newsletter
 captainaltcoin.com##.clasic-form-acm
