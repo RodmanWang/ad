@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202309150126
+! Version: 202309150328
 ! Title: Fanboy's Annoyance List
-! Last modified: 15 Sep 2023 01:26 UTC
+! Last modified: 15 Sep 2023 03:28 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1414,8 +1414,6 @@ _twitter_follow.
 -cookiePolicy.
 -cookies-disclaimer.
 -cookies-notice/
--cookies-policy.
--cookies-policy/
 -eu-cookie/$script
 -eu-cookies/$script
 -gdpr-compliance/
@@ -1424,8 +1422,6 @@ _twitter_follow.
 -gdpr-custom.
 -gdpr-min.
 -gdpr-popup.
--gdpr-public.
--popups-cookieplus/
 -privacy-cookie-
 -quantcast-cmp/
 -rodo.min.js
@@ -1468,13 +1464,10 @@ _twitter_follow.
 /adk-iubenda.js
 /adsconsent.min.js
 /adscookies.js
-/adtoniq-messenger-$script,~third-party
-/ajax/dataconsentcookies
-/ajw/gdpr/*
-/ajw_gdpr.
 /alertcookie.
 /alertcookies.
 /am-cookie-ban/*
+/am2-gdpr-public.js
 /amasty/amgdpr/*
 /amCookieApproval.min.js
 /amds-cookies.
@@ -1513,11 +1506,10 @@ _twitter_follow.
 /branding/cb-scripts-
 /build/js/it-cc.js
 /bundle-gdpr.min.js
-/c4s_cookie_
-/calls/cookie.
-/cbgCConsent.
+/c4s_cookie_notification/*
+/cbgCConsent.js
 /cc-cookie-consent/*
-/cc_cookie.
+/cc_cookie.js
 /ccm19.js
 /ccm19/*
 /ccpa/getPrivacyFlag?
@@ -1822,11 +1814,11 @@ _twitter_follow.
 /CookiePrompter-
 /cookies-anekis.js
 /cookies-banner$script
-/cookies-compliant.
-/cookies-consent.
-/cookies-directive.
-/cookies-disclaimer.
-/cookies-enabler.
+/cookies-consent.js
+/cookies-directive.js
+/cookies-disclaimer.js
+/cookies-enabler.js
+/cookies-enabler.min.js
 /cookies-eu-banner.js
 /cookies-footer-
 /cookies-for-comments/*
@@ -1900,17 +1892,15 @@ _twitter_follow.
 /CookieWall/clb.js
 /cookiewall?
 /cookiewarn.js
-/cookiewarning*.js
-/cookiewarning-nosql.
+/cookiewarning-nosql.js
 /cookiewarning.
-/cookiewarning?
-/cookiewet.
-/cookieWidget.
+/cookiewet.js
+/cookieWidget.js
 /cookiewookie.js
 /cookpop.min.js
 /Cream_Cookiewall/*
 /css/gdpr.$~stylesheet
-/cui-cookie-
+/ct-ultimate-gdpr/*
 /cuk_core.js
 /cuk_core.min.js
 /custom/cookies.
@@ -2156,6 +2146,7 @@ _twitter_follow.
 /loom_cookie/*
 /lssicookies/*
 /MarkupCookieConsent/*
+/master-popups-cookieplus/*
 /mb_cookies.js
 /mco-consent.js
 /mdv.cookie.
@@ -2198,12 +2189,10 @@ _twitter_follow.
 /opendotcom-cookie/*
 /opnWidget.js
 /opt-in-select/cookie/*
-/optInCookieGdprSSR.
 /otBannerSdk.js
 /oupcookiepolicy_
-/PDCookieConsent_
-/pescookies.
-/pgcookies.
+/pescookies.min.js
+/pgcookies.min.js
 /pgdpr.min.js
 /pitprivacy.js
 /plg_system_cookieconfirm/*
@@ -2305,12 +2294,10 @@ _twitter_follow.
 /tealium-external/*
 /Team23_SimpleCookie/*
 /terms_of_service.js
-/tfcookie.
-/thcookie.
+/tfcookie.js
+/thcookie.js
 /tm.cookie.js
-/tnzcookie-
 /tnzcookie/*
-/toaster-checker.
 /top/gdpr_
 /toucanCookie.
 /tracking-opt-in.
@@ -2334,11 +2321,10 @@ _twitter_follow.
 /util/gdpr/*
 /vhs-assets-cookie-
 /w034CookieDirective.js
-/w4.cookiebar.
+/w4.cookiebar.js
 /wa_lib.js
 /Wamoco_CookieConsentUi/*
-/warnCookies.
-/webflow-consent-manager
+/warnCookies.js
 /webtoffee-gdpr-cookie-consent/*
 /webtrekk_gdpr.js
 /webtrekk_gdpr.min.js
@@ -35812,6 +35798,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||kayak.*/privacy/
 ||kotaku.com/wrapper/*/gdpr/$xmlhttprequest,domain=kotaku.com
 ||lacompagnie.com/Content/dist/templates/common/popupCookies/
+||liquidweb.com/ajax/dataconsentcookies
 ||live.mrf.io/cmp/$domain=m.washingtontimes.com
 ||mad-daily.com^*/cp-module-
 ||marketwatch.com/asset/ace/djcmp.
@@ -39729,6 +39716,7 @@ yardbarker.com##.msnfc
 theworld.org##.mui-style-dfyfg6-socialShareMenu
 movehub.com##.mvhub-social-button
 cryptotvplus.com##.mvp-alp-soc-wrap
+techweekmag.com##.mvp-top-soc-wrap
 adexchanger.com##.nav-sharebox
 denofgeek.com##.nav-social__items
 triblive.com##.navbar-right
@@ -39966,6 +39954,7 @@ todayonline.com##.subcription-two
 npr.org,symmetrymagazine.org,thefinance.sg,topbet.eu##.subscribe
 jasonwatmore.com##.subscribe-buttons
 newsandguts.com##.subscribeBar
+techweekmag.com##.supersharer
 arigatojapan.co.jp##.swp-hover-pin-button
 echonewshub.com,jugomobile.com##.t-shared-sec
 okgoals.com##.tabrow
@@ -41419,6 +41408,7 @@ quazel.com,veed.io##.fs-cc-banner3_component
 ooux.com##.fs-cc-banner3_component-2
 objectbay.com##.fs-cc-component
 f-secure.com##.fs-consent
+ssactivewear.com##.fs_cc-banner_component
 dorkingrfc.com##.fsi-layout-notices
 relishbistroseattle.com##.fsn-notifications
 evermotion.org##.full-overlay
