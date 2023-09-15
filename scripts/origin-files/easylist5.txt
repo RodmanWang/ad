@@ -4874,6 +4874,9 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+wolframalpha.com##.sc-13120a7c-0
+udemy.com##div[data-testid="smart-bar-container"]
+zennioptical.com###comp-message-bar
 ||static.navinavi-hoken.com/*/dist/navinavi_hoken_com/images/img_line_diagnose_
 tv.anime1.best##.achievement-banner-container
 flickr.com##.ad-rail-content-container
@@ -7099,6 +7102,8 @@ newsweek.com##iframe[src="http://sns.europe.newsweek.com/newsletter?popup=1"]
 !##############################
 ! SECTION: Tweaks - JS
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/161713
+djrudrabasti.in#%#//scriptlet('adjust-setInterval', 'Popup will close in', '*', '0.001')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/161433
 thecustomrom.com#%#//scriptlet('adjust-setTimeout', 'window.location.href', '*', '0.001')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/161053
@@ -8260,8 +8265,6 @@ linkerload.com#%#AG_onLoad(function(){var a=document.querySelector('#download > 
 linkjust1.com#%#//scriptlet("adjust-setInterval", "#mdtimer", "", "0.02")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/60734
 linksaya.com#%#//scriptlet("adjust-setInterval", "downloadButton", "2400", "0.02")
-! https://github.com/AdguardTeam/AdguardFilters/issues/60657
-apkcell.net#%#//scriptlet("adjust-setInterval", "count--", "", "0.02")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/60639
 phpscripttr.com#%#//scriptlet("adjust-setInterval", "#pleasewait", "", "0.02")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/60612
