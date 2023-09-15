@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202309150328
+! Version: 202309150522
 ! Title: Fanboy's Annoyance List
-! Last modified: 15 Sep 2023 03:28 UTC
+! Last modified: 15 Sep 2023 05:22 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1452,8 +1452,9 @@ _twitter_follow.
 .PrivacyDataNotice.
 /1_cookie.js
 /24cookiebar.js
-/?spu_action=*spu_load&
-/__enzuzo-cookiebar.
+/?spu_action=spu_load$xmlhttprequest
+/__enzuzo-cookiebar.js
+/_cookie_banner.js
 /_cookie_consentement.js
 /_cookieconsent.js
 /_cookielaw_mip.js
@@ -1778,7 +1779,7 @@ _twitter_follow.
 /cookiemonster.mg
 /cookieMonster.min.js
 /cookiemsg.
-/cookieMunchr.
+/cookieMunchr.min.js
 /cookienote/*
 /cookienotice-
 /cookienotice.
@@ -1952,21 +1953,18 @@ _twitter_follow.
 /EU-cookielaw.
 /eu-notice.js
 /eu_cookie.js
-/eu_cookie_$script
-/eu_cookies.
+/eu_cookie_compliance.js
+/eu_cookies.js
 /eu_privacy.js
-/eu_rp_cookie.
-/euc_cookie.
-/euConsentConfig.
+/euc_cookie.js
+/euConsentConfig.json
 /eucookie.
 /EUcookie/*
-/eucookiecompliance.
-/eucookiecompliance/*
-/EUCookieDirective.
-/EUCookieDirective/*
-/eucookielaw.
-/eucookielaw3.
-/eucookienotice.
+/euCookieCompliance.theme.js
+/EUCookieDirective.js
+/eucookielaw.js
+/eucookielaw3.min.js
+/eucookienotice.js
 /eucookienotice_
 /eucookies.
 /eucookiesk.
@@ -2018,7 +2016,6 @@ _twitter_follow.
 /gdpr/assets/*$domain=~hartmanngruppe.net
 /gdpr/bundle.
 /gdpr/cmp/*
-/GDPR/consentStorage.
 /gdpr/cookie-
 /gdpr/CookieConsent
 /gdpr/cookies/*
@@ -2152,6 +2149,7 @@ _twitter_follow.
 /mdv.cookie.
 /mea-legal-consent.
 /mediamus-cookie.js
+/mekanismi_cookie_alert/*
 /messagingNoTcfApi.js
 /meWantCookies1.8.js
 /mfe-cookies/*
@@ -2353,16 +2351,12 @@ _twitter_follow.
 /z7_cookiemanager.
 /zdconsent.
 /zdprivacy.
-/zebra_cookie.
+/zebra_cookie.js
 /zgdpr.min.js
 ://ccm.*/app.js?
-_alert_cookie/
-_cookie_alert/
-_cookie_banner.
 _cookie_bar.
 _cookie_bar/
 _cookie_cnil.
-_cookie_compliance.
 _cookie_consent.
 _cookie_consent/
 _cookie_hint.
@@ -35778,6 +35772,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||dam.bbcchannels.com^*/outside-iframe.js
 ||duotonesports.com^*/public/ccm
 ||emerse.com/consent.js
+||famobi.com/assets/js/consent.js
 ||flaine.com/build/js/tarteaucitron/
 ||freedoflondon.com/Styles/dialog-popup/jquery-ui.js
 ||freetls.fastly.net/main/sd-cmp-$domain=spanishdict.com
