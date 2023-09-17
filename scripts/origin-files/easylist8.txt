@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202309170259
+! Version: 202309170522
 ! Title: Fanboy's Annoyance List
-! Last modified: 17 Sep 2023 02:59 UTC
+! Last modified: 17 Sep 2023 05:22 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1466,7 +1466,7 @@ _twitter_follow.
 /analytics-trackoutbound.js
 /analytics_cookie.js
 /anclytic-ajax.
-/app.dsgvo.
+/app.dsgvo.min.js
 /approvazione-gdpr/*
 /asesor-cookies-$~image
 /assets/cookies_
@@ -1474,8 +1474,9 @@ _twitter_follow.
 /avada-privacy.js
 /avg-cookie.js
 /avia-snippet-cookieconsent.js
-/avisCookies.
-/aviso_cookies.
+/avisCookies.min.js
+/aviso_cookies.css
+/aviso_cookies.js
 /avisos_legales/*
 /aw-cookie.
 /aws-cookie/*
@@ -1506,24 +1507,17 @@ _twitter_follow.
 /ccpa/getPrivacyFlag?
 /ccpa/prod/*
 /cdcookie/*
-/cdn/consent_
-/check_cookie_
-/CheckCookie.
-/checkCookie?$script
 /checkCookieConsent/*
 /cipr-cookie-opt-out/*
 /cm-body.js
-/cmp-init.
+/cmp-init.js
+/cmp-loader.js
 /cmp-sp.js
 /cmp-v2/*
 /cmp.bundle.js
 /cmp.complete.bundle.js
 /cmp/cmp.js
 /cmp/cmp.min.js
-/cmp/consent-
-/cmp/int_cmp.
-/cmp/tmcookie.
-/cmp/tracking-opt-
 /cmp3p.js
 /cmp_didomi.js
 /cmp_shim.js
@@ -1532,13 +1526,12 @@ _twitter_follow.
 /cmpui-popup.js
 /cnil.js
 /cnil.min.js
-/coCookiesDisclaimer.
 /complianz.min.js
 /component-CookieConsent.
 /consent-banner-
 /consent-box.js
 /consent-dialog.
-/consent-layer-loader.
+/consent-layer-loader.js
 /consent-management/*
 /consent-manager.
 /consent-modal.js
@@ -1663,7 +1656,6 @@ _twitter_follow.
 /cookie_notice.
 /cookie_notification-
 /cookie_notifier/*
-/cookie_policy+
 /cookie_policy.
 /cookie_policy/*
 /cookie_policy_
@@ -1912,25 +1904,17 @@ _twitter_follow.
 /dsgvo.js
 /dsgvo_2018.js
 /dsgvoCC.js
-/dw-cookies-
-/dx/cmpui.
 /dywc.js
 /easy-cookies-
 /easy-wp-cookie-popup/*
 /easycmp/index.
-/echonetcookie.
+/echonetcookie.js
 /ecookie_check/*
 /edcc.js
-/ee-cookies-min.
 /ElxtrConsent/*
 /emb-cnil-popup-rgpd.js
-/emea-cookie-
-/ena_cookies_
-/epaas.consentdrawer.
-/eprivacy-cookie.
 /ercookiebar.
-/esb-privacy.
-/et_gdpr_
+/esb-privacy.js
 /etagen_cookie/*
 /eu-cookie-$~script,~stylesheet
 /eu-cookie-law-
@@ -2109,6 +2093,7 @@ _twitter_follow.
 /jqueryCookieGuard.
 /js/CookieManager.js
 /js/cookiePolicy?
+/js/eprivacy.js
 /js/onetrust/*
 /js/rodo.js
 /kabimba_cookie/*
@@ -18209,6 +18194,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ###avhcookieconsent
 ###avianCookie
 ###avis-cookies
+###avisCookies
 ###avis_cockies
 ###avis_cookies
 ###aviscookies
@@ -35502,6 +35488,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||fc2.com/share/js/gdpr/
 ||form-renderer.trustarc.com/browser/client.js
 ||freeprivacypolicy.com^$third-party
+||fsdn.com/con/js/sftheme/cmp2.js
 ||gatekeeperconsent.com^$third-party
 ||gdpr-legal-cookie.beeclever.app^$third-party
 ||gdpr-service.herokuapp.com^$third-party
@@ -35542,6 +35529,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||privacy-cdn.sixfifty.com^
 ||privacy-center.org^$third-party
 ||privacy.clion.agency^$third-party
+||privacy.digimedia.com^
 ||privacymanager.io^$third-party
 ||privacytools.com.br^$third-party
 ||private.dmscookie.com^$third-party
@@ -38569,6 +38557,7 @@ robbreport.com##.newsletter-link
 sandiegoreader.com##.newsletter-m
 177milkstreet.com##.newsletter-main-old
 177milkstreet.com##.newsletter-mini
+notateslaapp.com##.newsletter-mod
 bloomberg.com,forward.com,latimes.com,sandiegouniontribune.com,tvinsider.com,wamu.org##.newsletter-module
 amu.tv##.newsletter-page
 sportico.com##.newsletter-podcast
@@ -39560,7 +39549,7 @@ grubstreet.com##.follow-list
 opendemocracy.net##.follow-od
 gptoday.net##.follow-section
 thetablet.co.uk##.follow-the-tablet
-alarabiya.net,ausgamers.com,cloudwards.net,republicworld.com,timeslive.co.za,trueachievements.com##.follow-us
+alarabiya.net,ausgamers.com,cloudwards.net,notateslaapp.com,republicworld.com,timeslive.co.za,trueachievements.com##.follow-us
 financialexpress.com##.follow-us-on
 sciencenews.org##.follow-us__wrapper___1E0vf
 vt.edu##.follow-virginia-tech-icons
