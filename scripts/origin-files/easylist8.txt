@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202309190628
+! Version: 202309190913
 ! Title: Fanboy's Annoyance List
-! Last modified: 19 Sep 2023 06:28 UTC
+! Last modified: 19 Sep 2023 09:13 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -26421,6 +26421,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.block-accept-cookies
 ##.block-artwhere-gdpr
 ##.block-awave-consent
+##.block-b4n-cookie-bar
 ##.block-bnf-cookies
 ##.block-cipix-cookiecontrol
 ##.block-clc-cookies-policy
@@ -36453,6 +36454,7 @@ bikeradar.com##.footer-promotional
 climeworks.com##.footerCtaBanner
 grist.org##.footer__cta-wrapper
 jotform.us##.formFooter-wrapper
+propublica.org##.fundraising-letter-inline
 spotlightpa.org##.ga\:component\:main\:inline\:support
 thewalrus.ca##.gala_banner
 quadraphonicquad.com##.gb-donate_wrapper
@@ -36604,6 +36606,7 @@ shazam.com##.shz-frame-promotionbanner
 mcsweeneys.net##.side-banner
 techcrunch.com##.sidebar > .rightrail--promo
 investopedia.com##.sim-promo
+propublica.org##.site-header__banner
 newsnow.co.uk##.site-ribbon
 slate.com##.slate-plus-promo
 sporcle.com##.sporcle-promo
@@ -42175,6 +42178,7 @@ trustnet.com##USER-TYPE-POPUP
 lemonade.com##[aria-describedby="cookie-consent-description"]
 1password.com##[aria-label="Cookie Consent"]
 perlego.com##[aria-label="cookie banner"]
+norwegianholidays.com##[aria-label="cookieconsent"]
 weedmaps.com##[aria-labelledby="notification_label"]
 helmut-fischer.com##[class*="-banner"]
 picarto.tv##[class*="CookieCompliance_"]
@@ -42495,7 +42499,7 @@ abrakadabra.com,etherealmechanics.info,evaair.com,flender.com.cn,heuristic.pl,la
 ! ! .cookies-component
 proprospan.ru,worksmile.com##.cookies-component
 ! ! #cc-main
-finna.fi,ndsas.sk###cc-main
+finna.fi,ndsas.sk,trakt.tv###cc-main
 ! ! #cc--main
 alde.se,blog.fanfiktion.de,boardgamegeek.com,cdw.com,cdwg.com,feedoptimise.com,flowforge.com,packtpub.com,reteimprese.it,spielregeln-spielanleitungen.de,stocksy.com,suncalc.org,ungeziefer-ratgeber.info###cc--main
 ! ! .c--anim
