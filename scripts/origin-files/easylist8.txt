@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202309200245
+! Version: 202309200627
 ! Title: Fanboy's Annoyance List
-! Last modified: 20 Sep 2023 02:45 UTC
+! Last modified: 20 Sep 2023 06:27 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1446,7 +1446,8 @@ _twitter_follow.
 /all-cookieconsent-js.js
 /am-cookie-ban/*
 /am2-gdpr-public.js
-/amasty/amgdpr/*
+/amasty/amgdpr/cookie.js
+/amasty/amgdpr/main.js
 /amCookieApproval.min.js
 /amds-cookies.js
 /amp-consent-
@@ -1488,7 +1489,6 @@ _twitter_follow.
 /bundle-gdpr.min.js
 /c4s_cookie_notification/*
 /cbgCConsent.js
-/cc-cookie-consent/*
 /cc_cookie.js
 /ccm19.js
 /ccm19/*
@@ -1552,7 +1552,6 @@ _twitter_follow.
 /cookie-consent-dialogue.js
 /cookie-consent.js
 /cookie-consent.min.js
-/cookie-consent/*
 /cookie-control.js
 /cookie-disclaimer.js
 /cookie-disclaimer.min.js
@@ -1683,7 +1682,10 @@ _twitter_follow.
 /cookiecompliance/*$script
 /cookiecompliancy.
 /cookieConsent-$script
-/cookieconsent.$~stylesheet
+/cookieconsent.bundle.js
+/cookieconsent.js
+/cookieconsent.latest.min.js
+/cookieconsent.min.js
 /cookieconsent/*
 /cookieconsent?
 /cookieconsent_
@@ -1965,7 +1967,8 @@ _twitter_follow.
 /gdpr-cookie.js
 /gdpr-min.js
 /gdpr-popup-
-/gdpr-popup.
+/gdpr-popup.js
+/gdpr-popup.min.js
 /gdpr-public.
 /gdpr-rw-cookie-notice.min.js
 /gdpr-transparency-
@@ -40929,7 +40932,7 @@ deno.land,ulster.rugby##.bg-black
 789ten.com##.bg-black-deep.rounded-md
 wimhofmethod.com##.bg-blue-r1
 sifted.eu##.bg-darkGray
-caymanchem.com##.bg-darker-gray
+cambridge.org,caymanchem.com##.bg-darker-gray
 unitedglobalsim.com##.bg-green
 icoone.com##.bg-modal
 capadriano.com##.bg-opacity-75
