@@ -3439,6 +3439,9 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+jewishboston.com###nlsignup
+newsroom.activisionblizzard.com#$#.intro-popup { display: none !important; }
+newsroom.activisionblizzard.com#$#.show-intro-popup { overflow: auto !important; }
 rutxt.ru##.telega-join
 bbs.xmfish.com###b_login
 blog.csdn.net##.write-guide-buttom-box
@@ -11201,6 +11204,7 @@ hoopshabit.com,beyondtheflag.com,dorksideoftheforce.com,undeadwalking.com,apptri
 !
 ! SECTION: Subscriptions - Regular rules
 !
+precincttv.com##.remove-native-227
 developer.nvidia.com#%#//scriptlet('abort-current-inline-script', 'jQuery', 'surveyCookieName')
 immigrantinvest.com##.imin-fixedbotter-subscribe
 aframe.oscars.org#%#//scriptlet('set-cookie', 'AframeNewsletter', 'true')
