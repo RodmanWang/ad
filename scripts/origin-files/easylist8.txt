@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202309230124
+! Version: 202309230233
 ! Title: Fanboy's Annoyance List
-! Last modified: 23 Sep 2023 01:24 UTC
+! Last modified: 23 Sep 2023 02:33 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1501,6 +1501,7 @@ _twitter_follow.
 /cmpCookie.js
 /cmpui-banner.js
 /cmpui-popup.js
+/cms_cookies_acceptance/cookie_policies-
 /cnil.js
 /cnil.min.js
 /complianz.min.js
@@ -2050,7 +2051,8 @@ _twitter_follow.
 /initCookiebanner.js
 /intser_cookies.js
 /ionic-consent.js
-/iqitcookielaw/*
+/ips.privacyCookie.js
+/iqitcookielaw/views/js/front.js
 /iticonseil-rgpd/*
 /iubenda/iubenda.js
 /iubenda_cs.js
@@ -2167,7 +2169,6 @@ _twitter_follow.
 /popupcookies.js
 /prettycookies.js
 /privacy-banner.js
-/privacy-bar/*
 /privacy-consent-$script
 /privacy-cookie.js
 /privacy-cookies.js
@@ -35508,6 +35509,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||privacy-center.org^$third-party
 ||privacy.clion.agency^$third-party
 ||privacy.digimedia.com^
+||privacy.wum.rocks^
 ||privacymanager.io^$third-party
 ||privacytools.com.br^$third-party
 ||private.dmscookie.com^$third-party
@@ -39438,7 +39440,7 @@ androidpolice.com,cbr.com,dualshockers.com,gamerant.com,howtogeek.com,makeuseof.
 junkmail.co.za##.btn-sm
 thetyee.ca##.btn-social-icon
 newsroom.co.nz##.btn-tweet
-agrimag.co.za,androidpolice.com,automart.co.za##.btn-twitter
+agrimag.co.za,androidpolice.com,automart.co.za,maketecheasier.com##.btn-twitter
 agrimag.co.za,androidpolice.com,automart.co.za##.btn-whatsapp
 unz.com##.button-holder
 healthline.com##.button-wrapper
@@ -47088,6 +47090,7 @@ colchones.es###avisosusc
 amnesia.es,arguedas.es###barra
 galeriametro.com###barra_mensaje_cookies
 suitur.com###bs-gdpr-cookies-modal
+norvilsa.com###c-cookies__modalbar
 aerolineas.com.ar###c-message
 trajesdenovioporta.com###c-notice
 cdecomunicacion.es###ca_banner
