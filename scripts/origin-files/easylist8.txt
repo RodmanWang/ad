@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202309242050
+! Version: 202309250111
 ! Title: Fanboy's Annoyance List
-! Last modified: 24 Sep 2023 20:50 UTC
+! Last modified: 25 Sep 2023 01:11 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1501,6 +1501,7 @@ _twitter_follow.
 /cmpCookie.js
 /cmpui-banner.js
 /cmpui-popup.js
+/cms-cookie-bubble.js
 /cms_cookies_acceptance/cookie_policies-
 /cnil.js
 /cnil.min.js
@@ -32784,6 +32785,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.sfs-cookie-container
 ##.sg-cookie-consent
 ##.sg-cookie-container
+##.sg-cookie-notice
 ##.sg-cookie-policy
 ##.sg-cookie-policy-popup
 ##.sg-cw-cookie
@@ -35610,7 +35612,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||renaultsport.com/spip.php?page=sw.js
 ||rottentomatoes.com/service-worker/sw.js
 ||seattletimes.com/wp-content/plugins/st-user-messaging/$script
-||sportskeeda.com/service-workers/helpers/push-notifications
+||sportskeeda.com/js/production/web-notifications/
 ||techwalla.com/push-service-worker.js
 ||telegraphindia.com/akam-sw.js
 ||timesnownews.com/sw.js
@@ -40724,6 +40726,7 @@ atoocall.com##.GDPRPopup-module--popup--3chjm
 venngage.com##.GDPR_main__fxmFf
 boosty.to##.GdprOffer_block_Ir4kJ
 airasia.com##.Gdpr__GdprParentWrapper-sc-z30mcl-0
+rythm.fm##.Homepage_banner__Bo2QI
 poebuilds.net##.HzPhN
 blix.gg##.J75RiVJTxgBjGwxgE1z-Lg\=\=
 kw.com##.KWBanner
