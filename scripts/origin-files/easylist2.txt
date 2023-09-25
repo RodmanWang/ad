@@ -211,6 +211,7 @@
 ||startup.mobile.webvisor.com^
 ||startup-mobile.ap.yandex-net.ru^
 !
+||92by17snes4.cc^
 ||ads*-normal-lq.zijieapi.com^
 ||ad.zijieapi.com^
 ||pglstatp-toutiao.com^
@@ -1859,6 +1860,8 @@ sasisa.ru#%#AG_onLoad(function() { window.Umobi = function() {}; });
 !-------CSS---------
 !-------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/162284
+wunderground.com#$#html > body.enable-sda wu-header { margin-top: 0 !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/161731
 cnbctv18.com#$#.mobile-bottom-nav { bottom: 0 !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/159787
