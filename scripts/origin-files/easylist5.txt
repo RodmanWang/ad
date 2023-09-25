@@ -103,6 +103,8 @@ instagram.com##._aagw:empty
 !
 ! End: Instagram.com
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/162365
+fanyi.youdao.com##.banner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/162346
 dailyknicks.com##.fs-daily
 ! https://github.com/AdguardTeam/AdguardFilters/issues/162169
@@ -3188,7 +3190,8 @@ ya.ru##.search3__inner > div.link-bro
 disk.yandex.by,disk.yandex.com,disk.yandex.com.tr,disk.yandex.fr,disk.yandex.kz,disk.yandex.ru,yadi.sk#$#html { overflow: auto !important; padding-right: 0 !important; }
 disk.yandex.by,disk.yandex.com,disk.yandex.com.tr,disk.yandex.fr,disk.yandex.kz,disk.yandex.ru,yadi.sk#$#body { overflow: auto !important; padding-right: 0 !important; }
 disk.yandex.by,disk.yandex.com,disk.yandex.com.tr,disk.yandex.fr,disk.yandex.kz,disk.yandex.ru,yadi.sk#$#body[style="padding-right: 0px; overflow: hidden;"] > div[class*="Fullscreen_root_"] { display: none !important; }
-disk.yandex.by,disk.yandex.com,disk.yandex.com.tr,disk.yandex.fr,disk.yandex.kz,disk.yandex.ru,yadi.sk##.InfoSpace_discount
+disk.yandex.*#$#.InfoSpace_discount > div.InfoSpace__Footer > div.InfoSpace__Text ~ * { display: none !important; }
+disk.yandex.*#%#//scriptlet('remove-attr', 'href', '.InfoSpace_discount[href^="https://360.yandex."][href*="/premium-plans?"]')
 !
 ! Yandex.Pogoda
 yandex.*##.meteum-promo
@@ -3226,6 +3229,7 @@ mail.yandex.*##div[class^="DisableAdsButton"]
 !
 rasp.yandex.*##.TravelHotelsBanner
 ! Yandex.Search
+[$path=/search]ya.ru,yandex.*##.HeaderDesktopActions-Distribution
 ya.ru,yandex.*##.AliceFabPromo
 !
 ! Yandex.TV
@@ -3237,6 +3241,8 @@ www.kinopoisk.ru##div[class^="trailer-promo"]
 ! END: Yandex
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/162413
+houzz.com##.browse-row-card.browse-row-find-pro[data-extra-info*="ad_type"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/162085
 dmarket.com#%#//scriptlet('set-cookie', 'promoBannerShow', '0')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/161968

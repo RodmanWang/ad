@@ -1239,6 +1239,8 @@ csdn.net#?##feedlist_id > li:has(> div[id^="kp_box_"])
 !--------------------------------------!
 ! SECTION: Chinese - JS
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/162373
+player.hboav.com#%#//scriptlet('set-constant', 'player.VastADPlugin', 'noopFunc')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/162094
 x99av.com#%#//scriptlet('set-constant', 'ADSOBJET', 'emptyObj')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/160509
@@ -1579,6 +1581,7 @@ $script,third-party,denyallow=fastly.net|statically.io|sharecast.ws|bunnycdn.ru|
 !
 !
 !
+||go.kbnmnl.com/api/models/vast
 bbs.xmfish.com##.adv-760
 liantu.cn##.side > .h250
 liantu.cn##.wrapper > .inner.h90
@@ -3058,6 +3061,9 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_chinese
 ! Bad:  @@||example.org^$stealth (should be in AdGuard Base - allowlist_stealth.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/162469
+! Reported to Easylist China
+@@||21vek.by/js/jquery-ui.js?166
 ! https://github.com/AdguardTeam/AdguardFilters/issues/161870
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=hoy.tv
 !+ PLATFORM(ios, ext_safari, ext_android_cb)
@@ -14235,6 +14241,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 szxx.com.cn###A0
+weibo.com#?#.card-wrap:-abp-has(>.card>i[style*="%E5%B9%"])
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
