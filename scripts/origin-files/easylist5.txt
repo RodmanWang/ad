@@ -3256,6 +3256,8 @@ www.kinopoisk.ru##div[class^="trailer-promo"]
 ! END: Yandex
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/162986
+ikaskey.bktsk.com#?#main div[class*=" "] > div[class][tabindex] + div[class]:not([tabindex]):has(> div[class*=" "]:only-child > a[target="_blank"]:only-child > img)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/162413
 houzz.com##.browse-row-card.browse-row-find-pro[data-extra-info*="ad_type"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/162085
@@ -7195,7 +7197,7 @@ mcafee-com.com#%#//scriptlet('set-constant', 'document.hasFocus', 'trueFunc')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/159577
 1fichier.com#%#//scriptlet('adjust-setTimeout', 'show()', '*', '0.001')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/159777
-onlinegratuitycalculator.com,globlenews.in,rontymobile.in,revadvert.com,mynewsmedia.co#%#//scriptlet('set-constant', 'count', '0')
+mydomainscan.com,onlinegratuitycalculator.com,globlenews.in,rontymobile.in,revadvert.com,mynewsmedia.co#%#//scriptlet('set-constant', 'count', '0')
 ! https://github.com/uBlockOrigin/uAssets/issues/19422
 nicekkk.com#%#//scriptlet('prevent-setInterval', 'debugger;')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/159121
