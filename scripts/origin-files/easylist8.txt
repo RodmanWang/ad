@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202310021516
+! Version: 202310021751
 ! Title: Fanboy's Annoyance List
-! Last modified: 02 Oct 2023 15:16 UTC
+! Last modified: 02 Oct 2023 17:51 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1480,6 +1480,7 @@ _twitter_follow.
 /cc_cookie.js
 /ccbundle.min.js
 /ccbundle2.min.js
+/ccm/public/app.js
 /ccm19.js
 /ccm19/*
 /ccpa/getPrivacyFlag?
@@ -1531,7 +1532,6 @@ _twitter_follow.
 /cookie-accept.js
 /cookie-alert.
 /cookie-approval.
-/cookie-bandeau.
 /cookie-banner$domain=~github.com
 /cookie-bar-
 /cookie-bar.js
@@ -1548,6 +1548,7 @@ _twitter_follow.
 /cookie-control.js
 /cookie-disclaimer.js
 /cookie-disclaimer.min.js
+/cookie-footer.js
 /cookie-hint.js
 /cookie-hinweis.js
 /cookie-hinweis.min.js
@@ -1784,7 +1785,6 @@ _twitter_follow.
 /cookies-enabler.js
 /cookies-enabler.min.js
 /cookies-eu-banner.js
-/cookies-footer-
 /cookies-for-comments/*
 /cookies-info.$~xmlhttprequest
 /cookies-legal-
@@ -1874,6 +1874,7 @@ _twitter_follow.
 /didomi.js
 /didomi/ui-gdpr-fr.
 /disagreeCookie.
+/disclaimer-cookies.js
 /dist/cookie-consent.
 /dist/cookie-disclaimer-
 /dist/gdpr-$domain=~express.co.uk
@@ -2231,9 +2232,8 @@ _twitter_follow.
 /SetConsentCookie.js
 /sf-tagomo-privacy.js
 /sg_cookie_optin/*
-/shapepress-dsgvo/*
 /sibbo-cmp-core.js
-/silverstripe-dsgvo-cookies/*
+/silverstripe-dsgvo-cookies/js/cookies.js
 /simpler-cookie-consent.umd.js
 /sizzlegdpr.snippet.min.js
 /skb-cookie/*
@@ -2244,6 +2244,7 @@ _twitter_follow.
 /sncmp.min.js
 /sni_cookie_privacy/*
 /sp-config.min.js
+/sp-dsgvo-public.min.js
 /spmsg20180522.js
 /stm-gdpr-compliance/assets/js/scripts.js
 /super-cookie/swfobject/*

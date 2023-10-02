@@ -1197,6 +1197,7 @@ turbopages.org##.page__result > div[class*="type_native"]
 ! Good: ##.adv
 ! Bad: example.org##.adv (should be in specific.txt)
 !
+##.sp_ad_box_top
 ##.happy-header-mobile
 ##.standard-article-vertical-ad
 ##.header-ad-mobile
@@ -2564,6 +2565,7 @@ gamesworld.de,fnn.jp##.Ad
 !
 ! SECTION: Regular rules
 !
+upworthy.com##.mobile_ads
 cumhuriyet.com.tr#?#.container > div.row > div.row.mb20:has(> #sticky-player)
 18comic.org##.div_sticky2
 ehow.co.uk##.mobile-display-ad
@@ -5089,7 +5091,7 @@ mobil.krone.at##div[data-krn-click-id="startseite-mobil-jackpot"]
 sciencealert.com##.ad_div
 testkolik.com,filmyani.*##.mobilreklam
 www-news18-com.cdn.ampproject.org,news18.com##.adv_wrp
-greatergood.berkeley.edu##.article-mobile-ad
+helloyishi.com.tw,greatergood.berkeley.edu##.article-mobile-ad
 www-nytimes-com.cdn.ampproject.org##figure.margins-v.ad
 newsweekjapan.jp,m.sweclockers.com###topBanner
 expressen.se##body div.bam-ad-slot[data-slot-name]
