@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202310021225
+! Version: 202310021516
 ! Title: Fanboy's Annoyance List
-! Last modified: 02 Oct 2023 12:25 UTC
+! Last modified: 02 Oct 2023 15:16 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1478,6 +1478,8 @@ _twitter_follow.
 /c4s_cookie_notification/*
 /cbgCConsent.js
 /cc_cookie.js
+/ccbundle.min.js
+/ccbundle2.min.js
 /ccm19.js
 /ccm19/*
 /ccpa/getPrivacyFlag?
@@ -1889,6 +1891,7 @@ _twitter_follow.
 /dsgvo.js
 /dsgvo_2018.js
 /dsgvoCC.js
+/dsvgo.js
 /dywc.js
 /easy-cookies-
 /easy-wp-cookie-popup/*
@@ -42672,7 +42675,7 @@ twitch.tv##.consent-banner
 ! ! .dialog-lightbox-message
 1800runaway.org,aceprensa.com,ak-asya.com.tr,alivia.org.pl,almeidastextile.pt,ancon.io,caltex.co.za,cerre.eu,cofense.com,cronycle.com,direct-carpets.com,experiorfinancial.com,fermedelinciaux.be,fft.mt,getspace.us,gilmoreglobal.com,ingeniamc.com,janninebarron.com,lsisoftware.pl,lucerna-chem.ch,luukku.com,lwab.se,maltaconsulting.mt,marathonhr.com,marshfieldpre-school.co.uk,medyascope.tv,mitreprinting.co.uk,realvnc.com,ritchy.com,rwi.se,shotam.info,smackcoders.com,takeoff.org.mt,terveyskauneus.fi,tvpop.com.br,tzumi.com,vrxdb.com,webdesignspecialistamsterdam.nl,webdesignspecialistdenhaag.nl,whatcounts.com##.dialog-lightbox-message
 ! ! .dialog-lightbox-widget
-ardutronix.de,awdisbrands.com,blackmusicscholar.com,coachdaveacademy.com,courses.heatgeek.com,cover-4-less.com,dogfoodreviews.com,elegis.com.br,itepexam.com,martonmedia.pl,renovainvest.com.br,saferpass.com,satel.pl,sublabmusic.com,tealstreet.io,victorvision.com.br##.dialog-lightbox-widget
+ardutronix.de,awdisbrands.com,blackmusicscholar.com,coachdaveacademy.com,courses.heatgeek.com,cover-4-less.com,dogfoodreviews.com,elegis.com.br,itepexam.com,martonmedia.pl,mindigital.gr,renovainvest.com.br,saferpass.com,satel.pl,sublabmusic.com,tealstreet.io,victorvision.com.br##.dialog-lightbox-widget
 ! ! .t657
 2035.university,alfabusinessweek.ru,bohoo.ru,dcciv.ru,domino-sveta.ru,evisa-russia.ru,examus.com,floristtina.ru,geniusreferrals.com,millionviews.ru,nadessert.com,niagara-pu.ru,ollinprofessional.ru,qapp.tech,sales-battle.ru,tilda.cc,usedesk.ru,waterlamp.de,xianti.fr,zaslon-ul.ru##.t657
 ! ! .t886
@@ -47537,6 +47540,7 @@ ants.vn##.sg-popup-content
 ||baustellenabsicherung24.de^*/koekje.
 ||boxspring-welt.ch/public/app.js
 ||byom.de/js/cookie.de.js
+||cc.diewebsitemacherei.de^
 ||cc.labu24.de^
 ||cc.mpa-web.de^
 ||ccm1.dlr.de^
@@ -47557,6 +47561,7 @@ ants.vn##.sg-popup-content
 ||cookies.ptj.de^
 ||electriclove.at/*/api/cookie-settings
 ||emondo.de/wp-content/plugins/borlabs-cookie/
+||epccm19.com/app.js
 ||fc.vodafone.de^
 ||gedk-consent.he-webpack.de/public/app.js
 ||henryschein.at^*/CookieList.aspx
@@ -47565,7 +47570,7 @@ ants.vn##.sg-popup-content
 ||lights-on.io/public/app.js
 ||marketing.mafell.de/consent/public/app.js
 ||mobile.de/api/consent/static/js/loader.js
-||penguin.epccm19.com/app.js
+||piazza.cc/public/app.js
 ||postleitzahl.org/images/consent.php
 ||privacy.wum.rocks/public/app.js
 ||saturn-klima.de/wp-content/a0a206f468204945563d799b8f319215.js
