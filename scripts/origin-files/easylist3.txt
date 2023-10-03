@@ -1316,7 +1316,7 @@ inoreader.com#%#//scriptlet("set-constant", "cr", "0")
 inoreader.com#%#//scriptlet("set-constant", "gn", "true")
 insidermonkey.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 internet-law.ru###fab-enabled
-tuttoandroid.net,psy.pl,koty.pl,intibia.com#%#//scriptlet('prevent-fetch', 'www3.doubleclick.net')
+maxroll.gg,tuttoandroid.net,psy.pl,koty.pl,intibia.com#%#//scriptlet('prevent-fetch', 'www3.doubleclick.net')
 investing.com#%#//scriptlet("set-constant", "window.google_ad_status", "1")
 investmani.ru#$#.adsbygoogle { height: 1px!important; }
 investmentwatchblog.com###custom_html-22
@@ -3444,6 +3444,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+my.chinaz.com##.vipbtm
 consumerreports.org###mtRoundupPaywallPopup
 helloyishi.com.tw#%#//scriptlet('set-cookie', 'discover-disable-sitewide-article', 'true')
 lesechos.fr#?#article div[class^="sc-"]:has(> div > a[href^="https://abonnement.lesechos.fr/"] + button)
@@ -11230,6 +11231,10 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+metro.co.uk#$#body { overflow: auto !important; }
+metro.co.uk#$#.metro-newsletter-overlay { display: none !important; }
+medianews4u.com##.theiaStickySidebar > #text-2
+medianews4u.com#?#.theiaStickySidebar > .jeg_wrapper > .wpb_text_column:has(> .wpb_wrapper > .mc4wp-form)
 consumerreports.org##.cda-gnav > div[class^="pre-prime-day-deals"]
 newsnow.co.uk##.email-signup
 noicompriamoauto.it##.signup-wrapper
