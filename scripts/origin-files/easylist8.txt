@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202310040219
+! Version: 202310040622
 ! Title: Fanboy's Annoyance List
-! Last modified: 04 Oct 2023 02:19 UTC
+! Last modified: 04 Oct 2023 06:22 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -35565,6 +35565,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||thisisdone.com/gdpr/$third-party
 ||transcend.io^$third-party
 ||truendo.com^$third-party
+||truevaultcdn.com^$third-party
 ||truyoproductionuscdn.truyo.com^
 ||uniconsent.mgr.consensu.org^*.cmp.js$third-party
 ||unpkg.com/cookie-though
@@ -42693,7 +42694,7 @@ adex.com,bolotova.site,dailydaisy.ru,fizza.se,granat.by,ifarm.fi,iseven.ee,itlaw
 ! ! .t887
 1cgs.net,beauty-nova.ru,kv-techno.ru,likvidater.ru,netpeak.net,timberg-battery.ru,xn--80asghhd1h.xn--p1ai##.t887
 ! ! .t972
-batichiffrage.fr,financebaby.de,jush.pl,tab.digital##.t972
+batichiffrage.fr,financebaby.de,jush.pl,minecraftfortress.org,tab.digital##.t972
 ! ! #gdpr-consent
 facebookblueprint.com,kalenderwoche.at,kalenderwoche.de,lemon-school.sk,mmtop200.com,numerodesemaine.fr,podconsultsbutik.dk,skillshop.exceedlms.com,thornburg.com,ugenr.dk,ukenr.no,veckonr.se###gdpr-consent
 ! ! #didomi-host
@@ -46900,6 +46901,7 @@ abekker.ru###GDPR-container
 videosmile.ru###accept_q
 startsmile.ru###access_cookie
 spbtvonline.ru###agreeC
+clinic3.ru###agreedBanner
 ecolipetsk.ru###bg_popup
 yvid.ru###cbb
 mediasphera.ru###cknt
