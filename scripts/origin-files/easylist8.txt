@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202310052013
+! Version: 202310060910
 ! Title: Fanboy's Annoyance List
-! Last modified: 05 Oct 2023 20:13 UTC
+! Last modified: 06 Oct 2023 09:10 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -39146,6 +39146,8 @@ dailydot.com##footer
 bbc.com##img[alt="News Daily banner"]
 michiganmedicine.org##labcoat-promo
 extremetech.com##section > .mt-8
+! ! medium
+codeburst.io,medium.com##[class][style="bottom: 0px;"]
 ! ! Counter uBO Ghide
 edmontonjournal.com##.newsletter-widget
 ! ! #shopify-section-newsletter-popup
@@ -41011,6 +41013,7 @@ ulysse.com##.border-dark-10.border.rounded.shadow
 educative.io##.border-primary-lightP1.border-t.flex-col.flex
 algolia.com##.bot-0.left-0
 marketinghack.net##.bot-alert-box
+walmart.ca##.bottom-0.ph3-hdkp.nav-clickable-padded
 cala.ca,nshpca.ca##.bottom-alert
 cleanmymac.com##.bottom-banner
 asket.com##.bottom-fixed-container
@@ -41388,7 +41391,6 @@ airproducts.co.uk##.eu-dp
 componentsearchengine.com##.eu-message
 hotelesmares.com,skinmc.net##.eu-popup
 prospan.com.au##.eu-privacy
-walmart.ca##.evlleax0
 bojoko.com##.evt-notification-bottom
 ezil.me##.ew776696
 popeyeschicken.ca##.ewIvgJ
@@ -41532,6 +41534,7 @@ zeroturnaround.com##.hud
 troopsdirect.org##.hustle-popup
 cloud.huawei.com##.hwid-bannerBox-portal
 c.po.co##.hy-musk-wrapper
+weverify.eu##.iAgreePopup
 bazarchic.com##.iUSvIy
 containerandpackaging.com##.iVRcoV
 esimplus.me##.iZOOOK
@@ -42043,6 +42046,7 @@ gwpharm.com##.show
 central1.com##.show-cookie-div
 ademus.eu,nappy.co,wallpaper.to##.showBanner
 nikkei.com##.show_s1oy9cxe
+maxtena.com##.showcookiedialog
 tarot.com##.shown
 thedrum.com##.signup-cta__fixed
 dendrite.ai##.simple-cookie-widget
@@ -42220,7 +42224,7 @@ remosoftware.com##.visitornotice
 trendyol.com##.vnotify-container
 verpex.com##.vpx-gdprModal
 herbiesheadshop.com##.vue-disclaimer-popup
-nodecheck.io##.w-100
+blocksmc.com,nodecheck.io##.w-100
 curio.io##.w-screen
 lyst.com##.w5yGp
 foundico.com##.warn-wrap
@@ -43088,6 +43092,7 @@ twitter.com##.rn-gvpnoh.rn-eps6nq.rn-13qz1uu
 sonarhome.pl##.fixed:has(.cookies-scrollbar)
 play.google.com##.gb_g:has-text(cookie)
 istockphoto.com#?#.warning:-abp-has([data-cookie-type])
+moebelix.at#?#body > div > div:-abp-has(#jentis_consent)
 play.google.com#?#.gb_g:-abp-contains(cookie)
 ! googlefunding consent warning
 ##div[style*="box-shadow: rgb(136, 136, 136) 0px 0px 12px; color: "]
