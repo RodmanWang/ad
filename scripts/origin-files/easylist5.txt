@@ -4923,6 +4923,7 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+estudyme.com##.thirdpartyads
 lepoint.fr##body div#paywall-sticky
 lepoint.fr##[data-gtm^="display:autopromo-"]
 xakep.ru#?#.header-wrapper > div[id]:has(> a[href="https://xakep.ru/about-magazine/"])
@@ -5543,7 +5544,7 @@ blogs.imf-formacion.com##div[class^="blogs-"][class*="-contenido"]
 bt.com##.experiencefragment
 pornhub.com##.becomePartnerWrapper
 fortnitetracker.com##.love-container
-realmtracker.com,fortnitetracker.com##.trn-topad
+r6.tracker.network,realmtracker.com,fortnitetracker.com##.trn-topad
 comic-days.com##.gtm-top-days-premium-banner
 finance.sina.cn##.m-client-call3
 xn--80ac9aeh6f.xn--p1ai#?#main > div[class] > div.flex:has(> div.leading-none > a[href="/subscription"])
