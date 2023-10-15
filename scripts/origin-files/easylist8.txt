@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202310150247
+! Version: 202310150429
 ! Title: Fanboy's Annoyance List
-! Last modified: 15 Oct 2023 02:47 UTC
+! Last modified: 15 Oct 2023 04:29 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -37168,7 +37168,7 @@ abendzeitung-muenchen.de###webpush-app
 muziker.at,muziker.be,muziker.bg,muziker.co.uk,muziker.com,muziker.cz,muziker.de,muziker.ee,muziker.es,muziker.fi,muziker.fr,muziker.gr,muziker.hr,muziker.hu,muziker.ie,muziker.it,muziker.lt,muziker.lu,muziker.lv,muziker.nl,muziker.nu,muziker.pl,muziker.pt,muziker.ro,muziker.se,muziker.si,muziker.sk###webpush-popup
 focus.de###wpBreakingNewsBanner
 rd.fi###zone-header-wrapper
-areena.yle.fi##.Cards__PauseRecommendationsBackground-sc-kzqq5f-22
+areena.yle.fi##.PauseRecommendations__PauseRecommendationsBackground-sc-1abti0d-0
 romait.it##.alert
 nu.nl##.breakingpush
 zillow.com##.cQZIoF
@@ -39123,6 +39123,9 @@ coindesk.com##[class^="article-sign-up-"]
 snexplores.org##[class^="widget-resources_"]
 charlieintel.com,dexerto.com##[data-cy*="Newsletter"]
 psyche.co##[data-cy="layout-newsletter-signup"]
+psyche.co##[data-ga-view-prompt="psyche_footer_banner_newsletter"]
+psyche.co##[data-ga-view-prompt="psyche_midarticle_insert_newsletter_oatmeal"]
+psyche.co##[data-ga-view-prompt="psyche_popup_rightcorner_newsletter_oatmeal"]
 nytimes.com##[data-gtm-element="newsletter_loaf_form"]
 wsj.com##[data-inset_type="newsletterinset"]
 insideottawavalley.com##[data-lpos="headlines-newsletter"]
