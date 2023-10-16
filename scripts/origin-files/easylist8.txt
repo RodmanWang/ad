@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202310161642
+! Version: 202310162118
 ! Title: Fanboy's Annoyance List
-! Last modified: 16 Oct 2023 16:42 UTC
+! Last modified: 16 Oct 2023 21:18 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -40441,6 +40441,7 @@ tenerife-guided-walks.com###dmPopup
 tenerife-guided-walks.com###dmPopupMask
 dobbies.com###dobbies_cookie_widget
 drupal.org###drupalorg-crosssite-gdpr
+starwest-botanicals.com###eapps-cookie
 swann-morton.com###easyNotification
 overunity.com###ecl_outer
 ebookfriendly.com###ecmr
@@ -41882,6 +41883,7 @@ origin.com##.origin-sitestripe
 eventix.io##.ot-cookies
 cbsnews.com##.ot-fade-in
 3dviewer.net##.ov_bottom_floating_panel
+educationendowmentfoundation.org.uk##.overflow-auto.bottom-0.right-0
 webapps.geohive.ie##.overlay
 hero-wars.com##.overlay--cookie_banner_without_icons
 jackjones.com,jjxx.com,mamalicious.com,only.com,onlyandsons.com,veromoda.com##.overlay-backdrop
@@ -42390,7 +42392,7 @@ access.login.nhs.uk##core-cookie-banner
 medium.com##div > .branch-journeys-top
 c.realme.com##div > .cookie-privacy
 yahoo.com##div.js-applet-view-container-main > div.fixed-win[style^="background:"]
-corrupt.wiki,developer.rocket.chat,docs.abaddon.me,docs.betteruptime.com,docs.coreframework.com,docs.fluentbit.io,docs.flutterflow.io,docs.ibracorp.io,electronforge.io,filebrowser.org,guides.cryptowat.ch,meshnet.nordvpn.com,support.saleae.com,wiki.valhelsia.net##div.r-1xcajam.css-175oi2r
+ayuda-cloud-servers.donweb.com,corrupt.wiki,developer.rocket.chat,docs.abaddon.me,docs.betteruptime.com,docs.coreframework.com,docs.fluentbit.io,docs.flutterflow.io,docs.ibracorp.io,docs.jabref.org,electronforge.io,filebrowser.org,guides.cryptowat.ch,meshnet.nordvpn.com,support.saleae.com,wiki.valhelsia.net##div.r-1xcajam.css-175oi2r
 audiomack.com##div[class*="ConfirmMessage-module__cookie-"]
 ppi2pass.com,schweser.com##div[class^="AlertD_container"]
 rally.io##div[class^="Banner_banner_"]
@@ -42712,7 +42714,7 @@ aramon.com,bat.com,bata.com.au,calimove.com,castroniaviacatania.com,cerler.com,f
 ! ! .sp-overlay
 hotelkingscourt.cz,sgl.gr,titanic.com.tr,trunews.com##.sp-overlay
 ! ! .reveal-modal-bg
-artnovion.com,buerger-profikueche.de,buerger.de,carhartt.com,inmoernio.com,inmomariacristina.com,inmonortealde.com,karriere-suedwestfalen.de,maisonsetappartements.fr,pli-petronas.com,southwark.gov.uk,swatch.com,torebrings.se,tucasatoledo.com,verdi-eiendom.no,warburg-bank.de##.reveal-modal-bg
+artnovion.com,buerger-profikueche.de,buerger.de,carhartt.com,facsa-eoficina.grupogimeno.com,inmoernio.com,inmomariacristina.com,inmonortealde.com,karriere-suedwestfalen.de,maisonsetappartements.fr,pli-petronas.com,southwark.gov.uk,swatch.com,torebrings.se,tucasatoledo.com,verdi-eiendom.no,warburg-bank.de##.reveal-modal-bg
 ! ! #lgpd-container
 alunopresente.org.br,connectparts.com.br,educacaoeterritorio.org.br,livredetrabalhoinfantil.org.br,portal.aprendiz.uol.com.br,territoriosemrede.org.br###lgpd-container
 ! ! .cookie_modal
@@ -48411,7 +48413,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||s.swiftypecdn.com^$stylesheet,xmlhttprequest,domain=docs.ansible.com
 @@||static.zdassets.com/ekr/snippet.js$domain=jeedoo.com|xjuggler.de
 @@||taboola.com/libtrc/*/loader.js$domain=cnet.com|dailymail.co.uk|foxsports.com
-@@||zdassets.com/ekr/snippet.js$domain=bitsacard.com|consumercellular.com|meundies.com|moneydashboard.com|myurbanjungle.com|nvidia.eu|pionex.com|portal.afterpay.com|streamelements.com|superbet.pl|support.zonealarm.com
+@@||zdassets.com/ekr/snippet.js$domain=app.buidlbox.io|bitsacard.com|consumercellular.com|meundies.com|moneydashboard.com|myurbanjungle.com|nvidia.eu|pionex.com|portal.afterpay.com|streamelements.com|superbet.pl|support.zonealarm.com
 ! *** easylist:fanboy-addon/fanboy_notifications_allowlist.txt ***
 @@||bostonherald.com^*/webpush.js$script,~third-party
 @@||braze.com/api/$domain=deezer.com
