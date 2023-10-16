@@ -4927,6 +4927,12 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+thurrott.com##.widget_thurrott_premium_upsell
+crystal-lang.org##.conference-header
+nerdwallet.com##.sticky-banner-container
+freecouchtuner.com#?#div:has(> a[href="/user/profile/premium-membership"]):not(:has(img[src="/dist/image/header/premiumImg.png"]))
+freecouchtuner.com##.jwplayer > div.jw-logo[style*="//freecouchtuner.com/addons/banner/"]
+crossenlawfirm.com##.alertbar
 jump.5ch.net###navbarResponsive
 petri.com##div[id^="petri-advertising-sponsor-"]
 kanobu.ru##div[class^="KnbSideStickyWrapper"]
@@ -5913,7 +5919,7 @@ rakuten-card.co.jp##.list-bnr-wrap
 nttdocomo.co.jp###header-banner
 qualtrics.com##ul[data-gatext="Banners"]
 reuters.com##div[class^="RegistrationPrompt__container"]
-books.rakuten.co.jp##a[href^="https://books.rakuten.co.jp/event/campaign/pointup-program/"]
+||books.rakuten.co.jp/books/img/bnr/event/campaign/pointup-program/20210401/20210401-spu-950x100.png
 energy.rakuten.co.jp##.bottom_slider_layout
 energy.rakuten.co.jp##.main_slider_layout
 altclick.ru##.marquiz-pops
