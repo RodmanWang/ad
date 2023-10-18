@@ -511,6 +511,7 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.Sid
 ! Add same rules to the Admiral section of Tracking Protection filter
 ! LINK: SpywareFilter/sections/tracking_servers.txt#admiral
 !
+||delicatecascade.com^$third-party
 ||dreamycanyon.com^$third-party
 ||whimsicalgrove.com^$third-party
 ||cozyhillside.com^$third-party
@@ -741,6 +742,7 @@ economictimes.indiatimes.com#@#.ad_block
 ! SECTION: Anti-adblock - Regular rules
 ! Do not forget about '!#safari_cb_affinity' section for exclusions
 !
+xenvn.com#%#//scriptlet('prevent-addEventListener', 'load', 'XV.ad_block')
 collegepolltracker.com##.noticeBarAdBlocker
 ||es.memedroid.com/js/ads*.js
 ||homebank.free.fr/inc/js-adblocker-old.js
@@ -11199,6 +11201,7 @@ pipedream.com#@##credential_picker_container
 ! Genegic rules
 ! SECTION: Subscriptions - Generic
 !
+##.w-newsletter-in_article
 ##.smartmag-widget-newsletter
 ##.newsletter-slice
 ##.newsletter-inbodyContent-slice
@@ -11285,6 +11288,8 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+prosleduetmedia.com##.wpcf7
+onlinepngtools.com,onlinetools.com#%#//scriptlet('set-cookie', 'discountPrice', 'true')
 4sysops.com#?#.article-content > div[style]:has(> iframe[src="/img/NewsletterEnd.html"])
 cyberdaily.au#?#.grid-item > .b-sideSub:has(> .b-sideSub__form)
 cyberdaily.au#?#.b-article-wrapper__right__wrapper > .b-module:has(> .b-sideSub > .b-sideSub__form)
@@ -11391,7 +11396,6 @@ news.northwestern.edu###main-content > #sticky
 earthsky.org##.earth-widget
 thealpenanews.com###newsletter_article
 shrm.org##.hr-daily-newsletter
-cbr.com,howtogeek.com##.w-newsletter-in_article
 howtogeek.com###signin-banner-container
 timesofindia.indiatimes.com#?#div[data-mod="sidebar"] > div[class*=" "]:has(.et_subscription_container_entertainment)
 gizchina.it#?#.mrf-detailsBody > nav:has(> a[href^="https://t.me/gizdeals"])
