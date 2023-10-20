@@ -4304,7 +4304,10 @@ wenku.baidu.com##.yuedu-recommend-wrap
 wenku.baidu.com##.zsj-topbar
 ! https://github.com/AdguardTeam/AdguardFilters/issues/66491
 fastweb.it##.body > span[itemprop="articleBody"] > .middle-banner
+! https://github.com/AdguardTeam/AdguardFilters/issues/164209
 ! https://github.com/AdguardTeam/AdguardFilters/issues/76004
+duckduckgo.com###browser-promo
+duckduckgo.com###browser-promo + div[class]
 duckduckgo.com###popover-browser-promo
 duckduckgo.com###faq
 duckduckgo.com##.atb-button--faq
@@ -4932,6 +4935,7 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+detector.media##.md_banner_zone
 upscale.media##header[class^="Header__StyledHeader-"] + div[style^="width:"]
 thurrott.com##.widget_thurrott_premium_upsell
 crystal-lang.org##.conference-header
