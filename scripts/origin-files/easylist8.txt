@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202310211731
+! Version: 202310220130
 ! Title: Fanboy's Annoyance List
-! Last modified: 21 Oct 2023 17:31 UTC
+! Last modified: 22 Oct 2023 01:30 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -35603,6 +35603,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||widget.clym-sdk.net^$third-party
 ||widgets.openli.com^
 ||wpcc.io^$third-party
+||x-c.eu^$third-party
 ! privacy-mgmt.com
 ||cdn.privacy-mgmt.com^$domain=anisearch.com|anisearch.de|anisearch.es|anisearch.fr|anisearch.it|anisearch.jp|idealo.co.uk|marketwatch.com|taz.de|wsj.com
 ! Consent Trackers
@@ -40835,6 +40836,7 @@ fitline.com##.CookiesGDPR_initial__2ePNF
 malaysiaairlines.com##.CookiesNotificationBtmOverlaySticky
 andersenlab.com##.CookiesPolicy-module--wrapper--8pHca
 accounts.ucas.com,nngroup.com##.CybotEdge
+cabelas.com##.DisclosurePopupContainer
 tietalent.com##.EQRlj
 picoxr.com##.EjUUOLYo3tCrc6j7Mapv
 talixo.com##.FloatingBoxesContainerBottom
@@ -42348,6 +42350,7 @@ pizzahut.co.uk##.z-600
 fydeos.com,fydeos.io##.z-90000
 starlingbank.com##.zYsLEJxzmfBA2Jbfgv8V
 dnb.com##.za43bb12b864a3f8d_privacyBanner
+zoho.com##.zbottom-cookie-container-outer
 ethereumprice.org##.zxc-msg
 santatracker.google.com##SANTA-NOTICE
 trustnet.com##USER-TYPE-POPUP
@@ -45332,6 +45335,7 @@ krasserstoff.com##.messageboard__container
 landkreis-cham.de##.mfp-ready
 aucon-steuerberatung.de,iaa.de##.mmcm-container
 arbrikadrex.de,businesshemden.com##.mnd-cookie-modal
+hotel-metropol.at##.mod-cr
 euclaim.de##.modal--background
 koelner-philharmonie.de,konzerthaus.de##.modal-mask
 bmfgroup.de,lagerbox.com##.modal-wrapper
@@ -46562,6 +46566,7 @@ helthjem.no##.schibsted-bar
 nordiskporselen.com##.w3-black
 nitedals.no##.wf-section
 direktesport.no##[aria-label="Informasjonskapsler"]
+vy.no##div[aria-live="polite"]
 norsk-tipping.no##div[data-test="cookie-toaster"]
 aftenposten.no##div[id^="sp_message_"]
 digiforms.no##fieldset
@@ -47078,6 +47083,7 @@ sibur.ru###privacyPolicy
 rgs.ru###rgs-main-context-bar
 incom.ru###use_cookies_message-block
 bcs.ru##.Cbh_c
+metaratings.ru##.CookieAllowance_cookiesAllowance__78hAO
 sberdisk.ru##.CookieContainer_CookieContainer__1xqA-
 m.1gd.ru##.CookiePopup_overlay__1CXnV
 salonsecret.ru##.CookieWarning_root__Hyslm
@@ -47687,6 +47693,7 @@ ire.com.ua##.block
 carta.ua##.carta-policy-bottom
 alfa-tv.ua##.cook
 gigatrans.ua##.coook
+meest.shopping##.df__cookie-popup
 my.ua##.gLfiyr
 stolarfund.com##.gNBxMM
 today.ua##.politic_confidel
