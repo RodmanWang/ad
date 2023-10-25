@@ -3533,6 +3533,13 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+buhplatforma.com.ua##.id3-login-root
+buhplatforma.com.ua#$#.megaShadow { display: none !important; }
+buhplatforma.com.ua#$#body { overflow: auto !important; }
+indeed.com###passport-frontendclient-overlay
+indeed.com#$#body { overflow: auto !important; position: unset !important; }
+indeed.com#$#.mosaic-provider-desktopserp-jobalert-popup { display: none !important; }
+indeed.com#$#.mosaic-provider-desktopserp-jobalert-popup + div:empty { display: none !important; }
 livehd7.io###tme
 sonichits.com##body.nosticky #topfix.small #video-bar
 medium.com#?##root div[style^="top: calc("][style$="+ 50vh);"]:has(span > button:contains(Sign up for free))
