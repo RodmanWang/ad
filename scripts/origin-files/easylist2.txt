@@ -211,6 +211,7 @@
 ||startup.mobile.webvisor.com^
 ||startup-mobile.ap.yandex-net.ru^
 !
+||adx.promo^
 ||adfork.co.kr^
 ||92by17snes4.cc^
 ||ads*-normal-lq.zijieapi.com^
@@ -2571,6 +2572,7 @@ gamesworld.de,fnn.jp##.Ad
 !
 ! SECTION: Regular rules
 !
+amp-cnn-com.cdn.ampproject.org##.livestory-ad-wrapper
 nbcmontana-com.cdn.ampproject.org##div[data-testid="story-body"] > div[style*="margin: 26px"][style*="text-align: center;"] > div[style*="position: relative;"][style*="display: inline-block;"] > div[style*="font-size:"]
 www-timesofisrael-com.cdn.ampproject.org##.banner-placeholder
 7days.ru###GPM_7days_M_Top
