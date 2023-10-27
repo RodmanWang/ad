@@ -760,6 +760,11 @@ guided.news#@#.ad-250
 ! SECTION: Anti-adblock - Regular rules
 ! Do not forget about '!#safari_cb_affinity' section for exclusions
 !
+xfemaledom.com#%#//scriptlet('prevent-element-src-loading', 'script', '/magsrv.com|pemsrv.com/')
+udemy-downloader.com#$##modal_blocker { display: none !important; }
+udemy-downloader.com#$#.modal-backdrop { display: none !important; }
+udemy-downloader.com#$#body { overflow: auto !important; padding-right: 0 !important; }
+udemy-downloader.com#%#//scriptlet('prevent-fetch', 'google-analytics.com')
 datasciencelearner.com#$#html { overflow: auto !important; padding-right: 0 !important; }
 datasciencelearner.com#$#.site-access-popup { display: none !important; }
 getemoji.com#%#//scriptlet('abort-current-inline-script', 'JSON.parse', 'Adblock')
@@ -3537,6 +3542,8 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+iobit.com##.hsale-popup
+adultdvdempire.com#%#//scriptlet('set-local-storage-item', 'modalSignup', 'true')
 support.microsoft.com##.popoverMessageWrapper
 buhplatforma.com.ua##.id3-login-root
 buhplatforma.com.ua#$#.megaShadow { display: none !important; }
@@ -3707,7 +3714,7 @@ frontiersin.org###floating-download-pdf-btn
 ubackup.com##.promo-big
 ubackup.com###promo-rightbox-mini-ub
 gaitame.com###ss_pptag
-smallseotools.com###g_amamarly_model
+smallseotools.com##div[id^="g_amamarl"][id*="_model"]
 plagiarismdetector.net###mio_mp_mg
 plagiarismdetector.net###mio_mp
 reverseimagesearch.com#%#//scriptlet("set-cookie", "showPopUp", "true")
@@ -3994,7 +4001,7 @@ creciendo.com###wpn-popup-modal
 creciendo.com###wpn-popup-backdrop
 creciendo.com###wpn-banner
 legrandcontinent.eu##.disposableBanner
-adultempire.com##.sticky-tagline
+adultdvdempire.com,adultempire.com##.sticky-tagline
 techcommunity.microsoft.com##.ui-widget-overlay
 techcommunity.microsoft.com##.ui-dialog:has(.survey-prompt-dialog)
 ds-b.jp###pc-fixed-menu
