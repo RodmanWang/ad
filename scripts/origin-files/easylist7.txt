@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202310310419
+! Version: 202310310931
 ! Title: Fanboy's Annoyance List
-! Last modified: 31 Oct 2023 04:19 UTC
+! Last modified: 31 Oct 2023 09:31 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -37881,6 +37881,7 @@ reason.com##.blackout
 restofworld.org##.block--homepage-newsletter
 crazyforcrust.com##.block-about__right
 ancient-origins.net##.block-ao-activecampaign
+datacenterdynamics.com##.block-channel_subscription
 etonline.com##.block-ctd-mapp
 joyfoodsunshine.com,spendwithpennies.com##.block-ebook
 noracooks.com##.block-email
@@ -37896,6 +37897,7 @@ cbn.com##.block-newsletter-block
 crazyforcrust.com##.block-newsletter-cta
 crazyforcrust.com##.block-newsletter-cta-sidebar
 feastingathome.com##.block-newsletter-share
+datacenterdynamics.com##.block-registration_prompt
 backroads.com##.block-sign-up-for-our-email-newsletter
 abeautifulmess.com,afamilyfeast.com,airandspaceforces.com,thebestcakerecipes.com##.block-subscribe
 ttnews.com##.block-webform-block
@@ -41206,7 +41208,6 @@ config.figma.com##.css-11s75ih
 drive.filen.io##.css-13xwjmo
 peaks.com##.css-1dxcpir
 playboy.com##.css-1ifrk0g
-keeb-finder.com##.css-1im8tq1
 balthasarspeyr.org##.css-1lhf63g
 carawayhome.com##.css-1m7ve5s
 byfood.com##.css-1p1652i
@@ -41229,7 +41230,6 @@ northgatevehiclehire.ie##.css-t3ntlq
 creator.nightcafe.studio##.css-vloulf
 quixel.com##.css-wzviqn
 c-magazine.com##.css__oiassf
-esimplus.me##.cuTxqF
 national-lottery.co.uk##.cu_k_modal_main_box
 unitedpets.com##.cupjma
 hisense.co.uk##.curtain
@@ -41281,7 +41281,6 @@ refinitiv.com##.dismissible-banner
 flowrite.com##.div-block-217
 fxmembers.com##.div_sticky
 transamerica.com##.dmb-notifications-ajax-wrapper
-wamba.com##.dnQAZn
 bbc.com##.domestic-header-wrapper
 mla.org##.donate-banner
 dotvvm.com##.dotvvm-contrib-cookie-bar
@@ -42788,7 +42787,7 @@ aastavebniny.cz,agronatur.com.br,aldi-sued.de,aldi.it,aluminiosbrinas.com,anacon
 ! ! pp_b.pp-p (dhealingforum.com,flowerhornrusforum.com,sinfuldestinyericole.com,celebritystorylibrary.com)
 ###pp_b.pp-p
 ! ! .cookie-banner
-africanreporter.co.za,albertonrecord.co.za,alexnews.co.za,asia.nikkei.com,barbertontimes.co.za,bedfordviewedenvalenews.co.za,benonicitytimes.co.za,bereamail.co.za,boksburgadvertiser.co.za,bookwhen.com,brakpanherald.co.za,capricornreview.co.za,carletonvilleherald.com,citybuzz.co.za,comarochronicle.co.za,corridorgazette.co.za,cumlaudeimmobilia.com,deezer.com,developer.chrome.com,estcourtnews.co.za,eyethunews.co.za,fourwaysreview.co.za,germistoncitynews.co.za,hazyviewherald.co.za,heidelbergnigelheraut.co.za,highvelder.co.za,highwaymail.co.za,ikrix.com,joburgeastexpress.co.za,kathorusmail.co.za,kemptonexpress.co.za,kormorant.co.za,krugersdorpnews.co.za,ladysmithgazette.co.za,lensculture.com,letabaherald.co.za,maritzburgsun.co.za,medipolis.de,midrandreporter.co.za,newcastleadvertiser.co.za,northcliffmelvilletimes.co.za,northcoastcourier.co.za,northeasterntribune.co.za,northernnatalcourier.co.za,northglennews.co.za,parysgazette.co.za,phoenixsun.co.za,potchefstroomherald.co.za,publiceyemaritzburg.co.za,randburgsun.co.za,randfonteinherald.co.za,rekordcenturion.co.za,rekordeast.co.za,rekordmoot.co.za,rekordnorth.co.za,reviewonline.co.za,ridgetimes.co.za,risingsunchatsworth.co.za,risingsunlenasia.co.za,risingsunoverport.co.za,roodepoortnorthsider.co.za,roodepoortrecord.co.za,rosebankkillarneygazette.co.za,sandtonchronicle.co.za,sedibengster.com,skandia.se,southcoastherald.co.za,southcoastsun.co.za,southerncourier.co.za,southlandssun.co.za,sowetourban.co.za,springsadvertiser.co.za,standertonadvertiser.co.za,student.com,tembisan.co.za,tiktok.com,vaalweekblad.com,vryheidherald.co.za,westside-eldos.co.za,witbanknews.co.za,zabars.com,zululandobserver.co.za##.cookie-banner
+africanreporter.co.za,albertonrecord.co.za,alexnews.co.za,asia.nikkei.com,barbertontimes.co.za,bedfordviewedenvalenews.co.za,benonicitytimes.co.za,bereamail.co.za,boksburgadvertiser.co.za,bookwhen.com,brakpanherald.co.za,capricornreview.co.za,carletonvilleherald.com,citybuzz.co.za,comarochronicle.co.za,corridorgazette.co.za,cumlaudeimmobilia.com,deezer.com,developer.chrome.com,estcourtnews.co.za,eyethunews.co.za,fourwaysreview.co.za,germistoncitynews.co.za,hazyviewherald.co.za,heidelbergnigelheraut.co.za,highvelder.co.za,highwaymail.co.za,ikrix.com,joburgeastexpress.co.za,kathorusmail.co.za,kemptonexpress.co.za,kormorant.co.za,krugersdorpnews.co.za,ladysmithgazette.co.za,lensculture.com,letabaherald.co.za,maritzburgsun.co.za,medipolis.de,midrandreporter.co.za,newcastleadvertiser.co.za,northcliffmelvilletimes.co.za,northcoastcourier.co.za,northeasterntribune.co.za,northernnatalcourier.co.za,northglennews.co.za,parysgazette.co.za,phoenixsun.co.za,potchefstroomherald.co.za,publicdomainreview.org,publiceyemaritzburg.co.za,randburgsun.co.za,randfonteinherald.co.za,rekordcenturion.co.za,rekordeast.co.za,rekordmoot.co.za,rekordnorth.co.za,reviewonline.co.za,ridgetimes.co.za,risingsunchatsworth.co.za,risingsunlenasia.co.za,risingsunoverport.co.za,roodepoortnorthsider.co.za,roodepoortrecord.co.za,rosebankkillarneygazette.co.za,sandtonchronicle.co.za,sedibengster.com,skandia.se,southcoastherald.co.za,southcoastsun.co.za,southerncourier.co.za,southlandssun.co.za,sowetourban.co.za,springsadvertiser.co.za,standertonadvertiser.co.za,student.com,tembisan.co.za,tiktok.com,vaalweekblad.com,vryheidherald.co.za,westside-eldos.co.za,witbanknews.co.za,zabars.com,zululandobserver.co.za##.cookie-banner
 ! ! #CybotCookiebotDialog
 alberts.de,anwaelte-stade.de,apetro.pt,biomarkt.de,colegiopedroarrupe.pt,danbolig.dk,deepdiscount.com,deidesheimerhof.de,dskbank.bg,edmundoptics.co.uk,edmundoptics.com.au,edmundoptics.fr,ernaehrungs-umschau.de,homingxl.nl,hotel-wilder-mann.de,ihk.de,importcds.com,lindex.com,lundui.fi,luontoon.fi,nationalparks.fi,nfa.dk,pizzahutdelivery.ro,rosenthal.de,utinaturen.fi,zaunbau-hennig.de###CybotCookiebotDialog
 ! ! .c-cookie-popup
@@ -42887,7 +42886,7 @@ carsharingi.ru,clipartsfree.net,nmsu.edu,tech-america.com,waracle.com##.bottom-0
 ! ! .bottom-0.relative
 onassis.org##.bottom-0.relative
 ! ! .bottom-0.fixed
-1password.com,70mai.com,aberrant.io,actievandedag.nl,aksam.com.tr,androidide.com,aplikuj.pl,app.daily.dev,auf1.info,auf1.tv,auroracloud.dev,avislease.sk,back4app.com,ballonvaartcentrumvanmanen.nl,barecollective.com,bbcrewind.co.uk,bellevue-hamburg.de,bestsellers.hu,betapage.co,biljardihuolto.fi,blickers.com,blog.appsignal.com,blomus.com,bookiply.com,boords.com,britishrenewables.com,bsbfashion.com,bulldogjob.com,bulldogjob.pl,canal1.com.co,canaries.co.uk,clubmed.co.nz,clubmed.co.uk,clubmed.com.ar,clubmed.com.mx,clubmed.ru,clubmed.se,clubmed.us,codeclimate.com,cryptomaan.eu,curiositystream.com,czepeku.com,deepsource.io,delio.com.pl,digi.no,discords.com,divvydiary.com,drank.nl,elvah.de,emiratespost.ae,espres.so,everifin.com,evolutionary-insights.com,fanzo.com,first-law.com,flakehub.com,focus-entmt.com,form3.tech,fvd.nl,garbanzo.io,gauss.hr,glideapps.com,goflink.com,greenmatch.co.uk,ground.news,haproxy.com,hendy.co.uk,hrt.hr,hyte.com,ideo.com,idprotect.trendmicro.com,institute.global,invezz.com,iotworldtoday.com,ipon.hu,jobicon.pracuj.pl,jokerguide.com,kick.com,klachtenkompas.nl,kyero.com,licenseglobal.com,lounges.tv,matkakeisari.fi,mclarenstore.com,medimagazin.com.tr,mein-apothekenmanager.de,mitec.net,moises.ai,munichmag.de,nationalprivacytest.org,nativebase.io,nbg.gov.ge,nexcess.net,nitronationworldtour.com,oko.press,opening-hours.today,ouraring.com,parqet.com,pazarama.com,perille.fi,prettylittlething.com,propello.bike,puma.com,qwertee.com,ranzijn.nl,raport.pse.pl,regiojet.at,regiojet.com,regiojet.de,regiojet.hu,regiojet.pl,regiojet.sk,regiojet.ua,regiojethotels.at,regiojethotels.com,runmercury.com,shakuro.com,skyfi.com,skynet.ru,smartthingsfind.samsung.com,sportfondsenbadamsterdamoost.nl,spotlighttheatres.com,star.com.tr,streamawards.de,stylesandpartners.com,tekninen.fi,teltonika-networks.com,thehappytoolbox.com,truthsocial.com,tu.no,tweetyai.com,twitchcon.com,uc.pt,unox.com,vegetology.com,wizzair.com,wyylde.com,zubi.swiss##.bottom-0.fixed
+1password.com,70mai.com,aberrant.io,actievandedag.nl,aksam.com.tr,androidide.com,aplikuj.pl,app.daily.dev,auf1.info,auf1.tv,auroracloud.dev,avislease.sk,back4app.com,ballonvaartcentrumvanmanen.nl,barecollective.com,bbcrewind.co.uk,bellevue-hamburg.de,bestsellers.hu,betapage.co,biljardihuolto.fi,blickers.com,blog.appsignal.com,blomus.com,bookiply.com,boords.com,britishrenewables.com,bsbfashion.com,bulldogjob.com,bulldogjob.pl,canal1.com.co,canaries.co.uk,clubmed.co.nz,clubmed.co.uk,clubmed.com.ar,clubmed.com.mx,clubmed.ru,clubmed.se,clubmed.us,codeclimate.com,cryptomaan.eu,curiositystream.com,czepeku.com,deepsource.io,delio.com.pl,digi.no,discords.com,divvydiary.com,drank.nl,elvah.de,emiratespost.ae,espres.so,everifin.com,evolutionary-insights.com,fanzo.com,first-law.com,flakehub.com,focus-entmt.com,form3.tech,fvd.nl,garbanzo.io,gauss.hr,glideapps.com,goflink.com,greenmatch.co.uk,ground.news,haproxy.com,hendy.co.uk,hrt.hr,hyte.com,ideo.com,idprotect.trendmicro.com,institute.global,invezz.com,iotworldtoday.com,ipon.hu,jobicon.pracuj.pl,jokerguide.com,keeb-finder.com,kick.com,klachtenkompas.nl,kyero.com,licenseglobal.com,lounges.tv,matkakeisari.fi,mclarenstore.com,medimagazin.com.tr,mein-apothekenmanager.de,mitec.net,moises.ai,munichmag.de,nationalprivacytest.org,nativebase.io,nbg.gov.ge,nexcess.net,nitronationworldtour.com,oko.press,opening-hours.today,ouraring.com,parqet.com,pazarama.com,perille.fi,prettylittlething.com,propello.bike,puma.com,qwertee.com,ranzijn.nl,raport.pse.pl,regiojet.at,regiojet.com,regiojet.de,regiojet.hu,regiojet.pl,regiojet.sk,regiojet.ua,regiojethotels.at,regiojethotels.com,runmercury.com,shakuro.com,skyfi.com,skynet.ru,smartthingsfind.samsung.com,sportfondsenbadamsterdamoost.nl,spotlighttheatres.com,star.com.tr,streamawards.de,stylesandpartners.com,tekninen.fi,teltonika-networks.com,thehappytoolbox.com,truthsocial.com,tu.no,tweetyai.com,twitchcon.com,uc.pt,unox.com,vegetology.com,wizzair.com,wyylde.com,zubi.swiss##.bottom-0.fixed
 ! ! .bottom-2
 argyle.com,artma-zaproszenia.pl,avif.io,lahella.fi##.bottom-2
 ! ! .bottom-6
@@ -42959,7 +42958,7 @@ abnova.com.tw,albumartexchange.com,americantourister.at,americantourister.hu,bel
 ! ! .disclaimer
 apllogistics.com,atraveo.de,bridgeland.com,countwordsfree.com,dielinke.berlin,e-domizil.de,earthcp.com,foxsports.com.au,froneri.pl,goyabu.vip,gregorys.gr,hafnarfjordur.is,hsleiden.nl,lexus.com.cy,lexus.gr,lexus.ie,lexus.no,lexus.ro,lexus.sk,migliori-siti-di-incontri.it,myanimelist.vip,naturgenussfestival.de,news.com.au,rosatomflot.ru,sgtech.co.il,sinfonia.is,swapspace.co,totalplay.com.mx,tudogostoso.com.br,webhint.io##.disclaimer
 ! ! #disclaimer
-1ps.ru,albaparty.org,aldeparty.eu,amundi.pl,animesdigital.org,animesgames.net,biodiv.be,bitmoji.com,clementoni.com,decisiondeskhq.com,gloss.ua,greybox.com,icanw.org,limscave.com,liveradio.ie,snp.org,volksbuehne.berlin###disclaimer
+1ps.ru,albaparty.org,aldeparty.eu,amundi.pl,animesdigital.org,animesgames.net,biodiv.be,bitmoji.com,clementoni.com,decisiondeskhq.com,future.mcmaster.ca,gloss.ua,greybox.com,icanw.org,limscave.com,liveradio.ie,snp.org,volksbuehne.berlin###disclaimer
 ! ! .MuiDialog-root
 allinone.im,jsonquerytool.com,mydirtyhobby.com,sweetcombecottages.co.uk##.MuiDialog-root
 ! ! .MuiSnackbar-root
