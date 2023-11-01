@@ -222,7 +222,7 @@ igromania.ru##a[class^="KanobuSocialCommunities_twitter"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/153021
 forbes.ua##.c-post-subscribe
 ! https://privatter.net/p/9889173
-twitter.com#?#section[aria-labelledby^="accessible-list"] div[style^="transform"]:has(div[data-testid="card.wrapper"] div > span > span:contains(/^(asahsi\.com|bnc\.lt|fanlink\.to|helpgive\.to|(n9oi1|mainichi|nhk|nikkei|sankei|sokuhou|tokyo-np|yomiuri|yytbe)\.app\.link|sancei\.com|sankeii\.com)$/))
+twitter.com#?#section[aria-labelledby^="accessible-list"] div[style^="transform"]:has(div[data-testid="card.wrapper"] span[style]:contains(/^(asahsi\.com|bnc\.lt|fanlink\.to|gamerzz\.net|jp\.cookie-food\.com|keeping-healthy\.com|kinmirainews\.com|helpgive\.to|(n9oi1|mainichi|nhk|nikkei|sankei|sokuhou|tokyo-np|yomiuri|yytbe)\.app\.link|sancei\.com|sankeii\.com|sokuhou\.onelink\.me|tongari-tent\.blue)$/))
 ! https://github.com/AdguardTeam/AdguardFilters/issues/152867
 posta.com.tr##.content-box > a[href^="https://flipboard.com/"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/151928
@@ -1283,8 +1283,9 @@ saashub.com#?#.sidebar-box > h3:contains(Featured):upward(1)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/101976
 !+ PLATFORM(android, ios, ext_android_cb)
 www-techradar-com.cdn.ampproject.org##amp-jwplayer
+lifewire.com##div[id^="article__broad-video"]
 livescience.com,techradar.com##.jwplayer__widthsetter
-||content.jwplatform.com^$domain=techradar.com|digitalcameraworld.com|loudersound.com|musicradar.com|gardeningetc.com|livingetc.com|tomshardware.com|www-techradar-com.cdn.ampproject.org
+||content.jwplatform.com^$domain=lifewire.com|techradar.com|digitalcameraworld.com|loudersound.com|musicradar.com|gardeningetc.com|livingetc.com|tomshardware.com|www-techradar-com.cdn.ampproject.org
 tomshardware.com,livingetc.com,gardeningetc.com,musicradar.com,loudersound.com,techradar.com,digitalcameraworld.com##.future__jwplayer--carousel
 ! owlcation.com - remove floating player
 owlcation.com#%#//scriptlet('remove-class', 'jw-flag-floating', '.m-video-player--frame-container .jwplayer.jw-flag-floating')
