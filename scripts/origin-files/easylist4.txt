@@ -103,6 +103,8 @@ instagram.com##._aagw:empty
 !
 ! End: Instagram.com
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/165309
+liga.net##.youtube-block
 ! https://github.com/AdguardTeam/AdguardFilters/issues/165288
 ! https://github.com/AdguardTeam/AdguardFilters/issues/164936
 $cookie=articlesRead,domain=xda-developers.com|androidpolice.com
@@ -3455,8 +3457,6 @@ washingtonpost.com#$#.paywall-overlay { display: none !important; }
 washingtonpost.com#$#div[data-qa="overlay-background"] { display: none !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/135494
 wjunction.com##.p-body-content > div > div[style^="text-align:"] > a[target="_self"] > img
-! https://github.com/AdguardTeam/AdguardFilters/issues/134948
-startpage.com#%#AG_onLoad(function(){var b=new MutationObserver(function(){var a=document.querySelector('.hide-promo');a&&a.click()});b.observe(document,{childList:!0,subtree:!0});setTimeout(function(){b.disconnect()},1E4)});
 ! https://github.com/AdguardTeam/AdguardFilters/issues/134866
 ||cdn.tinypass.com/api/tinypass.min.js$domain=digiday.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/134822
@@ -4933,6 +4933,7 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+simpsonsua.tv#?#.fullnews > center:has(> a[href$="subscribe.html"][target="_blank"])
 croxyproxy.rocks###infoBar
 eleminist.com##.aritceLayout__topBanner
 eleminist.com##.globalHeader__banner
