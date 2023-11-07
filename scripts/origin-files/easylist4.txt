@@ -103,6 +103,8 @@ instagram.com##._aagw:empty
 !
 ! End: Instagram.com
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/165470
+lascimmiapensa.com##.brid-sticky
 ! https://github.com/AdguardTeam/AdguardFilters/issues/165580
 wikipedia.org###wmde-banner-app
 ! https://github.com/AdguardTeam/AdguardFilters/issues/165177
@@ -4938,6 +4940,7 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+christianity.com##.recommended
 spiegel.de##section[data-area="block>marketplace"]
 dtf.ru##.comments__show-all-always
 rickandmorty.cn-fan.tv###noVip
@@ -5198,6 +5201,7 @@ pinktower.com##body > div[style="width:100%;text-align:right"] > a[href="https:/
 crazyegg.com##.cta--large
 crazyegg.com##.post-cta
 crazyegg.com##.card-cta
+developer.aliyun.com##div[class$="_banner"]
 developer.aliyun.com##.free-product
 developer.aliyun.com##.developer-common-fixed-box-bottom
 falixnodes.net###falixPremAd
@@ -7269,6 +7273,8 @@ newsweek.com##iframe[src="http://sns.europe.newsweek.com/newsletter?popup=1"]
 !##############################
 ! SECTION: Tweaks - JS
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/165419
+gadgets360.com#%#AG_onLoad(function() { document.body.innerHTML = document.body.innerHTML.replace(/autoplay=1/g, 'autoplay=0'); });
 ! https://github.com/AdguardTeam/AdguardFilters/issues/165282
 uptoearn.xyz#%#//scriptlet('adjust-setInterval', 'generateDownloadLink', '*', '0.001')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/164651
@@ -9062,7 +9068,7 @@ gamegame.kr#$#body div { -webkit-touch-callout: default!important; -moz-user-sel
 world4.eu,tunovelaligera.com,jstranslations1.com#$#body.unselectable * { -webkit-touch-callout: default!important; -moz-user-select: text!important; -webkit-user-select: text!important; -ms-user-select: text!important; -o-user-select: text!important; user-select: text!important; -khtml-user-select: text!important; }
 exlyrics.com,plantaomaringa.com,omgkpop.top#$#html > body *:not(input):not(textarea)::selection { background-color: #3297FD!important; }
 plantaomaringa.com,omgkpop.top#$#html > body *:not(input):not(textarea):not(button) { -webkit-touch-callout: default!important; -moz-user-select: text!important; -webkit-user-select: text!important; -ms-user-select: text!important; -o-user-select: text!important; user-select: text!important; -khtml-user-select: text!important; }
-lectortmo.com#$#.element { -webkit-touch-callout: default!important; -moz-user-select: text!important; -webkit-user-select: text!important; -ms-user-select: text!important; -o-user-select: text!important; user-select: text!important; -khtml-user-select: text!important; }
+visortmo.com,lectortmo.com#$#.element { -webkit-touch-callout: default!important; -moz-user-select: text!important; -webkit-user-select: text!important; -ms-user-select: text!important; -o-user-select: text!important; user-select: text!important; -khtml-user-select: text!important; }
 amp.n-tv.de#$#.wrapper-page { min-height: calc(100%) !important; }
 jucagototranslations.fukou-da.net,irisbuddies.ml#$#html > body { -webkit-touch-callout: default!important; -moz-user-select: text!important; -webkit-user-select: text!important; -ms-user-select: text!important; -o-user-select: text!important; user-select: text!important; -khtml-user-select: text!important; }
 readwn.com#$#.chapter-content { -moz-user-select: text!important; -webkit-user-select: text!important; -ms-user-select: text!important; -o-user-select: text!important; user-select: text!important; -khtml-user-select: text!important; }
