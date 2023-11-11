@@ -1417,6 +1417,9 @@ $script,third-party,denyallow=fastly.net|statically.io|sharecast.ws|bunnycdn.ru|
 !
 !
 !
+cw.com.tw##.bottombar
+cw.com.tw##.article__promotion
+cw.com.tw##.ad--video
 h-ciyuan.com#?#.gridview-featured-posts-area > .widget_media_image:has(> .gridview-box-inside > .wp-block-image > figure > a[target="_blank"])
 d.wanfangdata.com.cn##.wfPubAcc
 woman.tvbs.com.tw##section[aria-label*="advertise"]
@@ -5393,6 +5396,9 @@ newduba.cn###jq_youxi
 ||mvng.cn^
 ||pzcogpj.icu^
 ||wymzwy.cn^
+||2u3v4w5x6y.com^
+||qoqoangry.com^
+||valerieurania.com^
 ||zzyy17.top^
 ||zzyy18.top^
 ||zzyy19.top^
