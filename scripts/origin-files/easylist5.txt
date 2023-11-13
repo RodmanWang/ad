@@ -4476,6 +4476,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+iobit.com##.br-botpop-right
 ec-store.net###rt\.popup-overlay_rt_popup_sws
 ec-store.net###rt_popup_sws
 wbur.org##.cannelton-campaign
@@ -12823,7 +12824,6 @@ noworries.news#$#html.remodal-is-locked { overflow: auto !important; touch-actio
 noworries.news#$#body { padding-right: 0 !important; }
 noworries.news##.main-box-wrapper-for-telegarm--single-post
 linuxhandbook.com#?#.row > .footer__el:has(> form[data-members-form="subscribe"])
-nytimes.com#$#div[id^="lire-ui-"] > iframe[src^="https://myaccount.nytimes.com/auth/iframe/enter-email"] { display: none !important; }
 utyug.info#?#.article__content > p:has(> a[href="//dzen.ru/utyug.info"])
 elconsolto.com##.lstNwsNtfy
 road.cc##.info-subscription-box
