@@ -1213,6 +1213,7 @@ turbopages.org##.page__result > div[class*="type_native"]
 ! Good: ##.adv
 ! Bad: example.org##.adv (should be in specific.txt)
 !
+##amp-iframe[src^="https://ad.vidverto.io/"]
 ##.sp_ad_box_top
 ##.happy-header-mobile
 ##.standard-article-vertical-ad
@@ -1414,6 +1415,8 @@ sasisa.ru#%#AG_onLoad(function() { window.Umobi = function() {}; });
 !-------CSS---------
 !-------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/166286
+ua-cinema.com#$#.kinoWrapp { margin-top: 46px !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/166272
 m.biqiugexx.com#$#body { padding-top: 0 !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/165918
@@ -2595,8 +2598,7 @@ gamesworld.de,fnn.jp##.Ad
 ! SECTION: Regular rules
 !
 xtrend.nikkei.com#?#.l-section:has(> div.side-feature-banner-box)
-||m.biqiugexx.com/js/dj*bb*.js
-||m.biqiugexx.com/js/*ad*bb*.js
+/\/js\/[djpf]{2}(ad)?.*a\d{2}\.js/$domain=biqiugexx.com
 tw.yahoo.com##div[data-id^="wfpad"]
 moneycontrol.com#?#.ltsnewsbx > ul > li.desk-hide:has(> div[class^="native_ad_"])
 smbc-comics.com###commentarea > #comment-space > a[href^="https://www.thehiveworks.com/"] > img
