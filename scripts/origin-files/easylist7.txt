@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202311180444
+! Version: 202311180921
 ! Title: Fanboy's Annoyance List
-! Last modified: 18 Nov 2023 04:44 UTC
+! Last modified: 18 Nov 2023 09:21 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -36001,6 +36001,7 @@ sony.net##.ly_pagetop-main
 cheknews.ca##.mailchimp-form
 rogerebert.com##.mailing-list
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.es,amazon.fr,amazon.in,amazon.nl,amazon.sg##.maple-banner
+fandom.com##.marketing-notifications
 motherless.com##.media-action-networks
 hotklix.com##.menu
 amazon.com##.mini-atf
@@ -37416,6 +37417,7 @@ reddit.com##xpromo-top-button
 analyticsindiamag.com#?#.elementor-section-content-middle[data-settings="{\"background_background\":\"classic\"}"]:-abp-has(a[href^="https://play.google.com/store/apps"])
 ! *** easylist:fanboy-addon/fanboy_newsletter_specific_hide.txt ***
 ! fanboy_newsletter_specific_hide.txt
+insiderintelligence.com###ArticleNewsletterBottom
 3f-filippi.com###BannerNewsletter_Container
 e-day.ro###CoverPop-cover
 nextshark.com###FbridgeSGWidget
@@ -40035,6 +40037,7 @@ vgleaks.com##.widget_et_social_followers
 mediapost.com##.widget_group
 mobilemarketingreads.com##.widget_media_image
 411mania.com##.widget_sm411_widget
+fandom.com##.wikia-bar-anon
 telesurenglish.net##.wpRedesFoot
 butterwithasideofbread.com##.wprm-call-to-action
 manhwatop.com##.wrap_social_account
