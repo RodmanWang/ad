@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202311181350
+! Version: 202311182103
 ! Title: Fanboy's Annoyance List
-! Last modified: 18 Nov 2023 13:50 UTC
+! Last modified: 18 Nov 2023 21:03 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -35533,6 +35533,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||herokuapp.com/email$domain=peopleofcolorintech.com
 ||indiatimes.com/subscriptionhomepage.cms
 ||insidesources.com/wp-content/themes/insidesources/js/jquery.fancybox.js
+||listrakbi.com^$script,domain=ruralking.com
 ||loader.wisepops.com^$domain=grist.org
 ||newsletter.bdnews24.com^
 ||nscreenmedia.com/wp-content/uploads/subscribe-nscreen-newsletter.jpg
@@ -43026,7 +43027,7 @@ royalpanda.com##.MuiContainer-maxWidthMd
 ! ! .MuiSnackbar-anchorOriginBottomLeft
 imecedestek.com,news.uavsa.org,paper.li,swapcoin.cc,tuco.co##.MuiSnackbar-anchorOriginBottomLeft
 ! ! .MuiSnackbar-anchorOriginBottomCenter
-allinone.im,bigsummergolf.com,fashionunited.ca,fashionunited.com,fashionunited.de,pokecardmaker.net,pricellent.pl,services.gerep.fr,skrapp.io,thelowdown.com,tvtv.ca##.MuiSnackbar-anchorOriginBottomCenter
+allinone.im,bigsummergolf.com,fashionunited.ca,fashionunited.com,fashionunited.de,pokecardmaker.net,pricellent.pl,services.gerep.fr,skrapp.io,svgator.com,thelowdown.com,tvtv.ca##.MuiSnackbar-anchorOriginBottomCenter
 ! ! .MuiDrawer-paperAnchorDockedBottom
 evee.co.nz,evee.com.au##.MuiDrawer-paperAnchorDockedBottom
 ! ! .ui-dialog
@@ -45921,7 +45922,7 @@ autentiek.nl###ciWrapper
 blog.andwork.com###ckm
 pensioenleeftijdberekenen.nl###ckpol
 cdh.be###comp-jkmod7cm
-gld.nl,omroepwest.nl,rtvdrenthe.nl,rtvnoord.nl,rtvoost.nl,rtvutrecht.nl###consent-plugin
+denhaagfm.nl,gld.nl,omroepwest.nl,rtvdrenthe.nl,rtvnoord.nl,rtvoost.nl,rtvutrecht.nl###consent-plugin
 targetsupport.nl###consentModal
 ekoplaza.nl###cookie-prompt-modal___BV_modal_outer_
 l28.nl###cookie_popup_body
