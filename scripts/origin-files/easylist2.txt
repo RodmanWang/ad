@@ -519,6 +519,7 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.Sid
 ! reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.promotedlink
 !#safari_cb_affinity
 !
+||glisteningguide.com^$third-party
 ||meadowlullaby.com^$third-party
 ||hallowedinvention.com^$third-party
 ||flameuncle.com^$third-party
@@ -570,6 +571,7 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.Sid
 ||healflowers.com^$third-party
 ||blushingbread.com^$third-party
 ||muteknife.com^$third-party
+!+ NOT_OPTIMIZED
 ||serpentshampoo.com^$third-party
 ||guidecent.com^$third-party
 ||rebelhen.com^$third-party
@@ -11143,6 +11145,7 @@ h5.g123.jp,accounts.binance.com,zlavomat.sk,id.rambler.ru,pipedream.com#@##crede
 .name/?pus=$script,third-party
 .site/?pus=$script,third-party
 !
+||cdn-server.live^$third-party
 ||potisni.me^$third-party
 ||widgets.*.webengage.com^
 ||cdn.larapush.com^$third-party
@@ -12381,6 +12384,7 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+aufeminin.com##.news-letter-form
 studysmarter.de##.ab-feature-popup
 matomo.org#$#body { overflow: auto !important; }
 matomo.org#$#.exit_intent { display: none !important; }
@@ -12432,7 +12436,7 @@ themoscowtimes.com##.newsletterbanner
 news.un.org##.block-content-footer > div.block__content
 ||yamatogokoro.jp/inbound/wp-content/uploads/2021/06/bannar_side_mail_4.png
 electrek.co##.article__youtube-video
-thecity.nyc,asiatimes.com##.newspack-popup__content-wrapper
+thelensnola.org,thecity.nyc,asiatimes.com##.newspack-popup__content-wrapper
 interestingengineering.com##div[class*="_googleNews"]
 lbcgroup.tv#?#.allow-fixed > div.row > div.floatL:has( .MainControlDiv > div.row > div.d-flex > div.btn-normal > a[href^="/subscribe/"])
 liga.net##.tg-block
