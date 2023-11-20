@@ -12383,10 +12383,20 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
-! https://github.com/AdguardTeam/AdguardFilters/issues/166683
+gendai.media##.section_sbsc
+tv8.md#?#.MuiGrid-root > div[class^="jss"]:has(> div[style="width: 100%"] > a[href^="https://bit.ly/"][target="_blank"] > img[style="width: 100%"])
+tv8.md#?#.MuiGrid-root > div[class^="jss"]:has(> div[style="width: 100%"] > a[href^="https://www.facebook.com/"][target="_blank"] > img[style="width: 100%"])
+tv8.md#?#.MuiGrid-root > div[class^="jss"]:has(> div[style="width: 100%"] > a[href^="https://www.instagram.com/"][target="_blank"] > img[style="width: 100%"])
+tv8.md#?#.MuiGrid-root > div[class^="jss"]:has(> div[style="width: 100%"] > a[href^="https://www.tiktok.com/"][target="_blank"] > img[style="width: 100%"])
+urbanize.city#$#body { overflow: auto !important; padding-right: 0 !important; }
+urbanize.city#$#.newsletter-signup-modal { display: none !important; }
+urbanize.city#$#.modal-backdrop { display: none !important; }
+urbanize.city##.newsletter-signup
+psm7.com##.psm-telegram-container
 nolaadore.com#$?#.fancybox-overlay { display: none !important; }
 nolaadore.com#$?#body { overflow: auto !important; }
 nolaadore.com#$?#html { overflow: auto !important; }
+vosveteit.zoznam.sk##.entry-content > section.post-banner
 aufeminin.com##.news-letter-form
 studysmarter.de##.ab-feature-popup
 matomo.org#$#body { overflow: auto !important; }
@@ -13336,7 +13346,6 @@ tb.mts.ru##.IndexSubscription
 makeship.com##div[class^="ProductInfostyled__SubscribeWrapper-"]
 snigel.com###mailchimp
 mckinsey.com##section[class^="StickySubscriptionFooter"]
-dumskaya.net##div[style^="padding-"] > a[href="https://t.me/dumskayanet"]
 novyny.live##.sidebar-item_social
 skyscanner.*###email-capture-trigger
 re.kufar.by###rec580813437
@@ -18559,6 +18568,8 @@ flightradar24.com##[data-id="a2aa32b"][data-element_type="widget"]
 flightradar24.com##[data-id="a5b8151"][data-element_type="widget"]
 flightradar24.com##[data-id="35ae40a"][data-element_type="widget"]
 !
+!+ NOT_OPTIMIZED
+dumskaya.net##div[style^="padding-"] > a[href="https://t.me/dumskayanet"]
 !+ NOT_OPTIMIZED
 phys.org###donateMsgPopup
 !+ NOT_OPTIMIZED
