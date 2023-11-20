@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202311200250
+! Version: 202311200601
 ! Title: Fanboy's Annoyance List
-! Last modified: 20 Nov 2023 02:50 UTC
+! Last modified: 20 Nov 2023 06:01 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1409,7 +1409,7 @@ _twitter_follow.
 /ccbundle2.min.js
 /ccm/public/app.js
 /ccm19.js
-/ccm19/*
+/ccm19/public/app.js
 /ccpa/getPrivacyFlag?
 /ccpa/prod/*
 /checkCookieConsent/*
@@ -35070,6 +35070,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||facebook.com/widgets/recommendations.php?$third-party
 ||facebook.com^*/plugins/like.php?$third-party
 ||facebook.com^*/plugins/page.php?$third-party
+||facebook.com^*/plugins/share_button.php?$third-party
 ||fark.com^$script,third-party
 ||feedly.com/img/follows/$third-party
 ||figshare.com^$third-party
