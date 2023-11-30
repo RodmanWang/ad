@@ -91,7 +91,9 @@
 ||geoloc*.geo20120530.com^
 ||geoloc*.geostats.ovh^
 ||geoloc*.geovisite.ovh^
+||gmx.*^$removeparam=mc
 ||gscounters.*.gigya.com^
+||hog.*^$removeparam=ad
 ||host*.carl-ras.dk^
 ||host*.ncoi.nl^
 ||host*.nti.nl^
@@ -124,6 +126,8 @@
 ||logger-*.dailymotion.com^
 ||logs*.smithsonian.museum^$third-party
 ||logservice-*.platform.dbankcloud.cn^
+||lotto.gmx.*^$removeparam=advertisementId
+||lotto.gmx.*^$removeparam=partnerId
 ||lt*.tritondigital.com^
 ||lts*.qq.com^*.ts?index=$media,redirect=noopmp3-0.1s,domain=qq.com
 ||maas-*.phunware.com^
@@ -142,6 +146,7 @@
 ||pixel*.production-public.tubi.io^
 ||pixel-*.rubiconproject.com^
 ||pixelapi-*.cs.mysamba.tv^
+||play.google.*^$removeparam=referrer
 ||popup*.lifterapps.com^$domain=linuxandubuntu.com
 ||prebid-*.rubiconproject.com^
 ||putrr*.com^$third-party
@@ -159,6 +164,7 @@
 ||sdk.*.braze.com^$third-party
 ||sdk.fra-*.braze.eu^
 ||sensorsdata*.read.duokan.com^
+||shopping.gmx.*^$removeparam=origin
 ||snowplow-collector-*.amazonaws.com^$third-party
 ||sock*-goguardian.pusher.com^
 ||ssh.*.com^*!$script,third-party
@@ -167,6 +173,12 @@
 ||stat*.1internet.tv^
 ||static*.365inews.com^
 ||stats*.videonow.ru^
+||streamfab.*^$removeparam=_csrc_
+||streamfab.*^$removeparam=_cus_
+||streamfab.*^$removeparam=_cut_
+||streamfab.*^$removeparam=c_ad
+||streamfab.*^$removeparam=client_m
+||streamfab.*^$removeparam=client_t
 ||suite*.linximpulse.net^$third-party
 ||t*.zcvh.net^
 ||tag-based.s3.*.amazonaws.com^$third-party
@@ -187,6 +199,8 @@
 ||v*.sitecounter.site^$third-party
 ||vix.*.criteo.net^$domain=spiegel.de
 ||vns86.oss-*.aliyuncs.com^
+||weibo.*^$removeparam=dt_dapp
+||weibo.*^$removeparam=weibo_id
 ||widget-v*.tidiochat.com^$third-party
 ||widgets.*.webengage.com^
 ||www.fuze-hill*.xyz^$popup
