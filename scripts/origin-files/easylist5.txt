@@ -4491,6 +4491,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+fortnitetracker.com###portal
 retailmenot.com#%#//scriptlet('prevent-addEventListener', 'prepare-exit-modal', '=>')
 later.com#%#//scriptlet('prevent-addEventListener', 'mouseout', 'relatedTarget')
 hostpro.ua##.hp-promo-container
@@ -15151,7 +15152,7 @@ jagran.com##.tp-container-inner
 coop-land.ru##.wr-area
 coop-land.ru##article > div.text-center[style="margin-bottom: 20px;"]
 coop-land.ru##article > div[class="center m10"]
-hochschul-bibelkreise.de,ganc-chas.by##.wp-block-wptelegram-widget-join-channel
+genshinpedia.ru,hochschul-bibelkreise.de,ganc-chas.by##.wp-block-wptelegram-widget-join-channel
 vesti.ua##.mainContentBlock > div.mainContent > div.singleContentFooter
 ficbook.net##.header-holder > div.alert
 reform.news,reform.by##div[class="b-r b-r--after_p_1"]
@@ -16682,7 +16683,7 @@ blackbelt.analyticsvidhya.com##.whatsapp-floating
 blog.feedspot.com###bloggersoutreach
 blog.feedspot.com##.mkt-container
 foodnavigator.com##.NlForm
-news.ru##.subscription-in-socials
+news.ru##body .subscription-in-socials
 vesti.ua#?#.singleMainContent > p.warning:has(> a[href="https://vesti.ua/email_newsletters"])
 salonsecret.ru##div[class*="SubscribeBanner_root__"]
 sportrbc.ru##.news-bar
