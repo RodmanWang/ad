@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202311301959
+! Version: 202312010037
 ! Title: Fanboy's Annoyance List
-! Last modified: 30 Nov 2023 19:59 UTC
+! Last modified: 01 Dec 2023 00:37 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -704,6 +704,7 @@ _revotas_push.
 /myshare/assets/js/*
 /needsharebutton.js
 /needsharebutton.min.css
+/o3-social-share-styles.css
 /overlayShare.js
 /pandalocker.$script
 /pin_it_button.png
@@ -5336,7 +5337,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ###connectWithUs
 ###connect_share
 ###consol-share
-###container-like-button
 ###container-reseaux-sociaux
 ###content-article-share
 ###content-share-top
@@ -5345,14 +5345,9 @@ dashboard.razorpay.com#@##credential_picker_container
 ###content-social-2
 ###content-socialshare
 ###contentSharerResult
-###content_block_sidebar_social_media_teaser
 ###content_share
-###contentfb
 ###contributor-social-media
 ###count_r2r
-###cpf-viewbox-sharebar
-###cphBanner_Banner_divBannerShare
-###cphPageComponents_aShareMail
 ###crestashareicon
 ###crestashareiconincontent
 ###csSocial
@@ -5373,21 +5368,14 @@ dashboard.razorpay.com#@##credential_picker_container
 ###custom-social
 ###custom-tweet-button
 ###custom_share
-###customtwitter
-###cv-home-social-bar
-###cw_tweets_module
 ###cxShareLinks
-###dailydot-socialbar
 ###dcssb-facebook
 ###dcssb-plusone
 ###dcssb-twitter
 ###dd-footer-social
 ###dd-navigation-social
-###deals-social
-###deeplinks-share
 ###desktop-share-wrapper
 ###desktop-social-buttons
-###detailHeadlineStickySocial
 ###details-share-icon-link
 ###dhSocial
 ###diaspora-button-container
@@ -5412,8 +5400,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ###dl_share_icons
 ###donate-social
 ###drop-btn-share
-###dropdown-share
-###dsp_ftr_social
 ###dvTwitter
 ###e_mailit_custom_position
 ###ea-social-footer-links
@@ -5433,8 +5419,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ###et-social-icons
 ###eut-post-social-bar
 ###eventSocialMedia
-###ewpd-share
-###extra-share
 ###f-social
 ###fShare
 ###fa_share
@@ -6141,37 +6125,23 @@ dashboard.razorpay.com#@##credential_picker_container
 ###node-share-top
 ###nodeshare
 ###not-signed-in-social
-###o3-social-share
 ###offer_social
-###omegaSharer
-###omni-digg-most-dugg
-###omni-fb-activity-feed
-###opera-social
 ###orkut_share
 ###other-social-bar
-###overftrboxsocial
-###overlay-facebook
 ###pShareContent
 ###pSocialPrint
-###page-header-facebook
-###page-header-twitter
-###page-header-youtube
 ###page-share
 ###pageFooterSocial
 ###pageHeaderTopSocial
 ###pageIconGoogle
 ###pageIconTwitter
-###pageShareTall
 ###page_like_box
 ###page_shareButton
 ###pageshare
 ###panel-social
 ###panelSocial
-###panoInfoShare
-###paraticPostShareButtons
 ###partShare
 ###peek-share
-###persistent-share
 ###pinfollow
 ###pins-feed-follow
 ###pinshare
@@ -6185,13 +6155,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ###playerShare
 ###plug-facebook
 ###plug-twitter
-###pm-vc-share
-###pm-vc-share-content
 ###pmFacebook
-###popShare1
-###popShare2
-###popinfacebook
-###popsugar-social-bar
 ###popup-social
 ###popupFbLikeBox
 ###popup_social
@@ -6219,7 +6183,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ###postshare
 ###pp-share-menu
 ###pp-social
-###primarySocialSharing
 ###reseau-social
 ###reseaux-sociaux
 ###reseaux_sociaux
@@ -6234,16 +6197,11 @@ dashboard.razorpay.com#@##credential_picker_container
 ###rightSocialGoogle
 ###rightSocialLinkedin
 ###rightSocialTwitter
-###rightbtn_digg
-###rightbtn_facebook
-###rightbtn_twitter
 ###rightshare
 ###rightsocial
 ###rr-social-widget-chiclets
 ###rr-social-widget-facebook
 ###rr-social-widget-twitter
-###rrSocialNetworks
-###rr_facebook
 ###rr_social_tout
 ###rsShareToggleBtn
 ###rs_facebook
@@ -6252,20 +6210,15 @@ dashboard.razorpay.com#@##credential_picker_container
 ###rshare
 ###rsociaux
 ###rt_social
-###rww-fb-like
 ###sb-social
 ###sb_facebook
 ###sb_fb_like
 ###sb_instagram
-###sbookmarks_left
-###screenShareoverlay
-###scribol-fb-like
 ###scroll-social
 ###scrollingSocial
 ###sdac_footer_facebook_widget-3
 ###section-footer-social
 ###section-header-follow
-###selection-sharer-popover
 ###selectionShare
 ###selectionShareable
 ###share-above-desktop
@@ -6289,11 +6242,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ###share-buttons
 ###share-card
 ###share-center-pro
-###share-cont
-###share-content
-###share-count
-###share-digg
-###share-email
 ###share-facebook
 ###share-facebook-menu
 ###share-fb
@@ -6312,8 +6260,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ###share-module-top
 ###share-more
 ###share-nav
-###share-open
-###share-options-article
 ###share-panel-vert
 ###share-pinterest
 ###share-post
@@ -6480,13 +6426,10 @@ dashboard.razorpay.com#@##credential_picker_container
 ###share_spot
 ###share_this
 ###share_to
-###share_to_scoopit_share
 ###share_tools
 ###share_top
 ###share_tw
 ###share_twitter
-###share_twitter-share_desktopSocialBar
-###share_twitter_trigger
 ###share_video
 ###share_wrap
 ###share_wrapper
@@ -6496,7 +6439,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ###sharebar-contenuto
 ###sharebar-custom
 ###sharebar-global
-###sharebar-inner-top-sticky
 ###sharebar-side
 ###sharebar-sticky-oas
 ###sharebar-wrapper
@@ -6534,12 +6476,10 @@ dashboard.razorpay.com#@##credential_picker_container
 ###sharemark
 ###shareme
 ###shareme-nav
-###sharemenu-wrap
 ###shareplus
 ###shareplus_overlay
 ###shareplus_sticker
 ###sharepost
-###sharepost_willsong
 ###sharer
 ###sharer-box
 ###sharer-toggle
@@ -6645,10 +6585,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ###sm-share-cnt
 ###sm_follow_us
 ###sm_share
-###smartsharing-left
-###smj-sharebar-vertical
 ###smthemes_share
-###snashareLink
 ###sns-btn
 ###snsBlockArea
 ###snsFollow
@@ -6656,10 +6593,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ###snsWrapperTop
 ###sns_bar
 ###sns_btns
-###so-share
-###socailBarComponentDiv_page
-###socailfootericon
-###sociactionsb
 ###social-2
 ###social-actions
 ###social-aside
@@ -6717,7 +6650,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ###social-followers-group
 ###social-foot
 ###social-footer
-###social-gplus
 ###social-grid-container
 ###social-head
 ###social-header
@@ -6735,7 +6667,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ###social-like-us
 ###social-link
 ###social-link-menu
-###social-linkedin32x32
 ###social-links
 ###social-links-big
 ###social-links-bottom
@@ -6747,13 +6678,8 @@ dashboard.razorpay.com#@##credential_picker_container
 ###social-links-top
 ###social-links-twitter
 ###social-loop
-###social-louis
-###social-lyrics
-###social-media-activity
 ###social-media-bar
 ###social-media-bar-h
-###social-media-block-bottom-entry
-###social-media-block-top-entry
 ###social-media-box
 ###social-media-footer
 ###social-media-header
@@ -13521,15 +13447,11 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.shares__item
 ##.shares_icon
 ##.shares_tally
-##.sharescoopit
-##.shareseo_liked
-##.sharesheet__toggle
 ##.sharesocial
 ##.sharesocials
 ##.sharetags
 ##.sharetastic
 ##.sharetext
-##.sharethefacts-share-button
 ##.sharethis
 ##.sharethis-bar
 ##.sharethis-bottom
@@ -15513,8 +15435,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.story-tool-share
 ##.story-tools-social
 ##.story-top-social
-##.storySocial_lng
-##.storySocial_short
 ##.story__share
 ##.story__social
 ##.story_allsocial
@@ -33291,6 +33211,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ##[data-test-id="CookiePopup"]
 ##[data-test-id="check-cookie-consent"]
 ##[data-test-id="cookie-consent-banner"]
+##[data-test-id="cookie-policy-banner"]
 ##[data-test="cookie-banner"]
 ##[data-test="cookie-policy-sheet"]
 ##[data-test="gdpr-cookies-popup"]
@@ -41067,6 +40988,7 @@ erregame.com##.cookieshow
 coop.co.uk##.coopssn-c-cookienotice
 austrian.com,austrianairlines.ag,austriantechnik.at##.cop
 apk-store.org##.cop_dmca
+city-of-portsmouth-college.ac.uk##.copc-cookie-banner
 duracell.com##.copro
 semanticscholar.org##.copyright-banner
 bandcamp.com##.corp-banners
@@ -42790,7 +42712,7 @@ educationendowmentfoundation.org.uk,givingwhatwecan.org,rshb.ru##.bottom-0.right
 ! ! .bottom-0.relative
 onassis.org##.bottom-0.relative
 ! ! .bottom-0.fixed
-1password.com,70mai.com,aberrant.io,actievandedag.nl,aksam.com.tr,androidide.com,aplikuj.pl,app.daily.dev,archive.ics.uci.edu,auf1.info,auf1.tv,auroracloud.dev,avislease.sk,back4app.com,ballonvaartcentrumvanmanen.nl,barecollective.com,bbcrewind.co.uk,bellevue-hamburg.de,bestsellers.hu,betapage.co,biljardihuolto.fi,blickers.com,blog.appsignal.com,blomus.com,bookiply.com,boords.com,britishrenewables.com,bsbfashion.com,bulldogjob.com,bulldogjob.pl,canal1.com.co,canaries.co.uk,clubmed.co.nz,clubmed.co.uk,clubmed.com.ar,clubmed.com.mx,clubmed.ru,clubmed.se,clubmed.us,codeclimate.com,count.co,cryptomaan.eu,curiositystream.com,czepeku.com,deepsource.io,delio.com.pl,digi.no,discords.com,divvydiary.com,drank.nl,elvah.de,emiratespost.ae,espres.so,everifin.com,evolutionary-insights.com,fanzo.com,first-law.com,flakehub.com,focus-entmt.com,form3.tech,fvd.nl,garbanzo.io,gauss.hr,glideapps.com,goflink.com,greenmatch.co.uk,ground.news,haproxy.com,hendy.co.uk,hrt.hr,hyte.com,ideo.com,idprotect.trendmicro.com,institute.global,invezz.com,iotworldtoday.com,ipon.hu,jobicon.pracuj.pl,jobyaviation.com,jokerguide.com,keeb-finder.com,kick.com,klachtenkompas.nl,kyero.com,licenseglobal.com,lounges.tv,matkakeisari.fi,mclarenstore.com,medimagazin.com.tr,mein-apothekenmanager.de,mitec.net,moises.ai,munichmag.de,nationalprivacytest.org,nativebase.io,nbg.gov.ge,nexcess.net,nitronationworldtour.com,oko.press,opening-hours.today,ouraring.com,parqet.com,pazarama.com,perille.fi,prettylittlething.com,propello.bike,puma.com,qwertee.com,ranzijn.nl,raport.pse.pl,regiojet.at,regiojet.com,regiojet.de,regiojet.hu,regiojet.pl,regiojet.sk,regiojet.ua,regiojethotels.at,regiojethotels.com,runmercury.com,selfstock.com,shakuro.com,skyfi.com,skynet.ru,smartthingsfind.samsung.com,snoop.app,sportfondsenbadamsterdamoost.nl,spotlighttheatres.com,star.com.tr,streamawards.de,stylesandpartners.com,tekninen.fi,teltonika-networks.com,thehappytoolbox.com,truthsocial.com,tu.no,tweetyai.com,twitchcon.com,uc.pt,unox.com,vegetology.com,wizzair.com,wyylde.com,zubi.swiss##.bottom-0.fixed
+1password.com,70mai.com,aberrant.io,actievandedag.nl,aksam.com.tr,androidide.com,aplikuj.pl,app.daily.dev,archive.ics.uci.edu,auf1.info,auf1.tv,auroracloud.dev,avislease.sk,back4app.com,ballonvaartcentrumvanmanen.nl,barecollective.com,bbcrewind.co.uk,bellevue-hamburg.de,bestsellers.hu,betapage.co,biljardihuolto.fi,blickers.com,blog.appsignal.com,blomus.com,bookiply.com,boords.com,britishrenewables.com,bsbfashion.com,bulldogjob.com,bulldogjob.pl,canal1.com.co,canaries.co.uk,clubmed.co.nz,clubmed.co.uk,clubmed.com.ar,clubmed.com.mx,clubmed.ru,clubmed.se,clubmed.us,codeclimate.com,count.co,cryptomaan.eu,curiositystream.com,czepeku.com,deepsource.io,delio.com.pl,digi.no,discords.com,divvydiary.com,drank.nl,elvah.de,emiratespost.ae,espres.so,everifin.com,evolutionary-insights.com,fanzo.com,first-law.com,flakehub.com,focus-entmt.com,form3.tech,fvd.nl,garbanzo.io,gauss.hr,glideapps.com,goflink.com,greenmatch.co.uk,ground.news,haproxy.com,hendy.co.uk,hrt.hr,hyte.com,ideo.com,idprotect.trendmicro.com,institute.global,invezz.com,iotworldtoday.com,ipon.hu,jdoodle.com,jobicon.pracuj.pl,jobyaviation.com,jokerguide.com,keeb-finder.com,kick.com,klachtenkompas.nl,kyero.com,licenseglobal.com,lounges.tv,matkakeisari.fi,mclarenstore.com,medimagazin.com.tr,mein-apothekenmanager.de,mitec.net,moises.ai,munichmag.de,nationalprivacytest.org,nativebase.io,nbg.gov.ge,nexcess.net,nitronationworldtour.com,oko.press,opening-hours.today,ouraring.com,parqet.com,pazarama.com,perille.fi,prettylittlething.com,propello.bike,puma.com,qwertee.com,ranzijn.nl,raport.pse.pl,regiojet.at,regiojet.com,regiojet.de,regiojet.hu,regiojet.pl,regiojet.sk,regiojet.ua,regiojethotels.at,regiojethotels.com,runmercury.com,selfstock.com,shakuro.com,skyfi.com,skynet.ru,smartthingsfind.samsung.com,snoop.app,sportfondsenbadamsterdamoost.nl,spotlighttheatres.com,star.com.tr,streamawards.de,stylesandpartners.com,tekninen.fi,teltonika-networks.com,thehappytoolbox.com,truthsocial.com,tu.no,tweetyai.com,twitchcon.com,uc.pt,unox.com,vegetology.com,wizzair.com,wyylde.com,zubi.swiss##.bottom-0.fixed
 ! ! .bottom-2
 argyle.com,artma-zaproszenia.pl,avif.io,lahella.fi##.bottom-2
 ! ! .bottom-6
@@ -48049,7 +47971,7 @@ fluidtravel.it#@##cookie-wrapper
 evaair.com#@##cookie.cookie
 birdpix.nl,nederpix.nl#@##cookieAccept
 cam.start.canon#@##cookieArea
-ad.win.nl,auszug.at,berlinartweek.de,humboldtforum.org,kulturprojekte.berlin,search.itaa.be#@##cookieConsent
+ad.win.nl,auszug.at,berlinartweek.de,gov.lv,humboldtforum.org,kulturprojekte.berlin,search.itaa.be#@##cookieConsent
 ad.win.nl#@##cookieConsentBox
 dt.mef.gov.it#@##cookieConsentForm
 researchaffiliates.com#@##cookieDialog
@@ -48344,7 +48266,7 @@ gostanford.com#@#div.cookie-notification
 retterspitz.de#@#div.cookie-overlay
 finnair.com#@#div.cookie-policy
 squla.nl#@#div.cookie-popup
-bensanitair.nl,correosexpress.com,dreher.it,milesandbarr.co.uk,puzzels.ad.nl,puzzels.bd.nl,puzzels.bndestem.nl,puzzels.destentor.nl,puzzels.ed.nl,puzzels.gelderlander.nl,puzzels.parool.nl,puzzels.pzc.nl,puzzels.trouw.nl,puzzels.tubantia.nl,puzzels.volkskrant.nl,statestreet.com#@#div.cookie-wrapper
+bensanitair.nl,correosexpress.com,dreher.it,gov.lv,milesandbarr.co.uk,puzzels.ad.nl,puzzels.bd.nl,puzzels.bndestem.nl,puzzels.destentor.nl,puzzels.ed.nl,puzzels.gelderlander.nl,puzzels.parool.nl,puzzels.pzc.nl,puzzels.trouw.nl,puzzels.tubantia.nl,puzzels.volkskrant.nl,statestreet.com#@#div.cookie-wrapper
 altenberg-dom.de#@#div.cookieHolder
 sonyliv.com#@#div.cookie_popup
 iledefrance-mobilites.fr#@#div.cookies-banner
