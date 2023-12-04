@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202312040056
+! Version: 202312040314
 ! Title: Fanboy's Annoyance List
-! Last modified: 04 Dec 2023 00:56 UTC
+! Last modified: 04 Dec 2023 03:14 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -3559,6 +3559,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ###overlayPopinNewsletter
 ###pcm-subscribe
 ###pf-newsletter-form
+###piano-article-newsletter
 ###piano-newsletter-inline
 ###pnlFooterNewsletterSignup
 ###popinNewsletter
@@ -35046,6 +35047,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||live.mrf.io/statics/1w/$script,xmlhttprequest
 ||macaron-cookie-data.decms.eu^
 ||marfeel.mgr.consensu.org^$third-party
+||messaging.sourcepoint.com^
 ||mgr.consensu.org/iframe.html
 ||microsoft.com/mscc/
 ||mycookies.it^$third-party
@@ -38504,6 +38506,7 @@ patheos.com##.simple-signup
 blendernation.com##.simplemodal-container
 blendernation.com##.simplemodal-overlay
 celebrityaccess.com##.single-footer-subscribe
+hollywoodinsider.com##.single-page-subscription
 reason.com##.single-post-signup-box
 nme.com##.site-footer-mailing-list
 oxygen.com##.site-footer__insider-promo
