@@ -7232,7 +7232,6 @@ replayjeans.com#$#.newsletterPopup { display: none!important; }
 replayjeans.com#$#body { overflow: visible!important; }
 games.mail.ru##.notification__wrapper
 nationalgeographic.com#$#div[class^="Article__Content__Overlay"] { display: none !important; }
-nationalgeographic.com#$#div[id^="fittPortal"] { display: none !important; }
 nationalgeographic.com#$#body[class^="Scroll"] { overflow: auto !important; top: 0 !important; position: static !important; }
 vizita.si#%#document.cookie="popup=9999999999999; path=/;";
 archive.vanityfair.com##.shared_footer_cta_primary
@@ -12438,6 +12437,7 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+evilmartians.com##article[class^="EmailNewsletterForm-"]
 seriouseats.com#$#.campaign-dialog { display: none !important; }
 seriouseats.com#$#body { overflow: auto !important; }
 devby.io##.afterheader-widget
