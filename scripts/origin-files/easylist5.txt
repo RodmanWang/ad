@@ -4501,6 +4501,9 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+avvenire.it#$##suggetionsModal { display: none !important; }
+avvenire.it#$#.modal-backdrop { display: none !important; }
+avvenire.it#$#body.modal-open { overflow: auto !important; }
 rbc.ru#$?##popmechanic-snippet { display: none !important; }
 rbc.ru#$?#.popmechanic-disable-scroll { overflow: auto !important; }
 fortnitetracker.com###portal
@@ -4587,7 +4590,6 @@ taxscan.in##.taxsc-mobile-popup-ad
 liputan6.com###btn-whatsapp-channel
 buzzfeed.com##div[class^="newsletter-signup-"]
 chizhik.club#?#div[class] > div[class]:has(> div.box > a[href="https://vk.com/chizhik.club"])
-avvenire.it#%#//scriptlet('set-constant', 'suggestionsModal', 'noopFunc')
 vimeo.com#?#div[data-reactroot] > div[class*=" "][style^="position:"]:has( p[format="dark"] > a[href="/terms"])
 stackoverflow.co##apply-widget
 iobit.com##.hsale-popup
@@ -6307,7 +6309,7 @@ qobuz.com##.store-launch-injector
 qobuz.com##.modal-backdrop
 noklapja.hu#$#.blurry { filter: none !important; }
 noklapja.hu#$#.m-fbPopup { display: none !important; }
-tokyo-sports.co.jp,my-golfdigest.jp,mapple.net,news.mynavi.jp###pianoj_slidein
+nikkan-spa.jp,tokyo-sports.co.jp,my-golfdigest.jp,mapple.net,news.mynavi.jp###pianoj_slidein
 kyobun.co.jp,bunshun.jp,mainichi.jp,nikkei.com,news.mynavi.jp###pianoj_ribbon
 01.kg,0154.by,0312.ua,032.ua,0332.ua,0342.ua,0352.ua,0362.ua,0372.ua,0382.ua,0412.ua,04141.com.ua,0432.ua,04563.com.ua,04597.com.ua,04598.com.ua,0462.ua,0472.ua,048.ua,04868.com.ua,0512.com.ua,05136.com.ua,0522.ua,0532.ua,05366.com.ua,0542.ua,05447.com.ua,0552.ua,056.ua,0564.ua,0566.com.ua,0569.com.ua,057.ua,061.ua,06153.com.ua,0619.com.ua,0623.com.ua,06236.com.ua,06237.com.ua,06239.com.ua,06242.ua,06252.com.ua,06267.com.ua,06272.com.ua,06274.com.ua,06277.com.ua,0629.com.ua,0642.ua,06452.com.ua,1rnd.ru,3652.ru,3654.ru,3849.com.ua,44.ua,4594.com.ua,5692.com.ua,62.ua,6262.com.ua,6264.com.ua,65.media,7152.kz,7232.kz,8422city.ru,8692.ru,city04.kz,city41.ru,citydomodedovo.ru,go31.ru,go61.ru,go7812.ru,gorod3466.ru,inaktau.kz,inalmaty.kz,inastana.kz,inatyrau.kz,inkaragandy.kz,inshymkent.kz,karelia.news,kaskelenec.kz,oshto.kg,qapshagai-city.kz,uralskcity.kz##.push-panel
 video.laxd.com##.noLoginSticker
@@ -15322,7 +15324,7 @@ paperpaper.*##.category_main > div.main-page-club-block
 paperpaper.*#?#.stk-post > div.stk-grid:has(> div.stk-grid-col p.stk-reset ~ a[href^="http://paperpaper.ru/"][href*="utm_campaign=promo"])
 best-invest.info##a[href="#signup"]
 ilenta.com##article > div[style="clear:both; padding:10px 0;"]
-34.ua##.subscribe-wrap
+rtraveler.ru,34.ua##.subscribe-wrap
 ferra.ru##.layoutContent a[href="https://t.me/ferraru"]
 elle.ru##div[data-creative-container="hb-promo"]
 grad.ua##.g_news
