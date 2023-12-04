@@ -74113,6 +74113,8 @@ $cookie=bf_visit
 ! Bad:  ||monerominer.rocks^$third-party (should be in adservers.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/167766
+||substack.com^$cookie=visit_idr
 ! giveawayoftheday.com
 ||giveawayoftheday.com^$cookie=gaotd_uid
 ||giveawayoftheday.com^$cookie=gaotd_user_id
@@ -74669,6 +74671,7 @@ inapps.appsflyersdk.com^
 !
 ! NOTE: Regular rules
 !
+||api.bytebrew.io^
 ||lg-release-tracking-8080.gcld-line.com^
 ||iemiq.com^
 ||yun-hl.3g.qq.com^
