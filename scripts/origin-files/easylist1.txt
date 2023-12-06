@@ -69792,6 +69792,7 @@ brasil247.com###taboola-mid-article-leia-mais
 ||tamindir.com/stats.iz
 ||gizmodo.com/x-kinja-static/assets/new-client/*~trackers
 ||x.kinja-static.com/assets/packaged-js/*trackers
+||youtube-nocookie.com/youtubei/v1/log_event?
 ||youtube-nocookie.com/api/stats/qoe?
 ||youtube-nocookie.com/api/stats/atr?
 ||api.airfind.com/stats/
@@ -76096,7 +76097,9 @@ tieba.baidu.com#%#//scriptlet('set-constant', 'passFingerPrint', 'noopFunc')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/144064
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139431
 ||sb.scorecardresearch.com/internal-c2/plugins/streamingtag_plugin_jwplayer.js$script,redirect=noopjs,domain=indiatoday.in,important
+!#safari_cb_affinity(general,privacy)
 @@||scorecardresearch.com/internal-c2/plugins/streamingtag_plugin_jwplayer.js$domain=indiatoday.in
+!#safari_cb_affinity
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139139
 !+ PLATFORM(ext_android_cb)
 @@||pro.hit.gemius.pl/gstream.js$domain=embed.rtl.hu
