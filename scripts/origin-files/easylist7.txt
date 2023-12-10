@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202312091018
+! Version: 202312100137
 ! Title: Fanboy's Annoyance List
-! Last modified: 09 Dec 2023 10:18 UTC
+! Last modified: 10 Dec 2023 01:37 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -35331,6 +35331,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||myanimelist.net/js/cmp.js
 ||mymuesli.com/assets/js/modules/Default/Static/Consent.js
 ||next-immo.com/js/cookies.1.min.js
+||nike.com/fragments/privacy-consent?
 ||novaljaturist.com/datacollectionpolicy/
 ||ogs.google.com/widget/callout?$subdocument,domain=play.google.com
 ||omgubuntu.co.uk/wp-content/plugins/omg-magnific/magnific.min.js
@@ -42552,7 +42553,7 @@ alfombrashamid.es,autovilardell.com,blancmarine.com,carmenvazquez.es,fadenkreuz-
 ! ! .cookiewall
 achemosgrupe.lt,avikogastro.cz,brockhoff.nl,cibit.nl,dbkeukens.nl,demakelaars.nl,dutchweek.nl,hurenbijwooove.nl,kroftman.com,woontank.nl##.cookiewall
 ! ! .modal--cookie
-pkprintprof.ru,themodernhouse.com##.modal--cookie
+pkprintprof.ru,themodernhouse.com,wildberries.by##.modal--cookie
 ! ! _modal_outer_
 marathonphotos.live,witbee.com##div[id*="_modal_outer_"]
 ! ! #rgpd
@@ -48003,6 +48004,7 @@ arbeiterkammer.at#@##cookiesContainer
 mymuesli.com#@##cookies_consent
 succulent-plant.com,vaillant.at,vaillant.be,vaillant.co.uk,vaillant.com,vaillant.com.ro,vaillant.cz,vaillant.de,vaillant.dk,vaillant.es,vaillant.fi,vaillant.fr,vaillant.hr,vaillant.hu,vaillant.info,vaillant.it,vaillant.nl,vaillant.no,vaillant.pl,vaillant.rs,vaillant.se,vaillant.si,vaillant.sk,vaillant.ua#@##cookiewarning
 afcdp.net#@##cooky
+allocine.fr#@##didomi-host
 abc.es,as.com,corrieredellosport.it,elcomercio.es,elconfidencial.com,elindependiente.com,seguro.elespanol.com,tuttosport.com#@##didomi-notice
 aireuropa.com#@##ensModalWrapper[role]
 aireuropa.com#@##ensNotifyBanner
@@ -48031,7 +48033,7 @@ ign.com#@##policyNotice
 edeka.de,schwaebische.de,tf1.fr,tf1info.fr#@##popin_tc_privacy
 attestation.app,grapheneos.org,ilpiemontetivaccina.it,minden.co.jp,mozilla.org,readthedocs.io,sportdiver.com,thunderbird.net,usps.com#@##privacy-policy
 edeka.de,schwaebische.de,tf1.fr,tf1info.fr#@##tc-privacy-wrapper
-lighting.philips.de#@##teconsent
+fortune.com,lighting.philips.de#@##teconsent
 forgeandfortune.com#@##toasts > #toastsWrapper
 what3words.com#@#.CookieNotice-Drawer
 aruba.com#@#.CookiePopup
