@@ -4511,6 +4511,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+m.inven.co.kr###mobileHeadline ~ .party-banner
 kartable.fr#$#.modal--push-more-content { display: none !important; }
 kartable.fr#$#body { overflow: auto !important; }
 huya.com#$##UDBSdkLgn { display: none !important; }
@@ -12471,6 +12472,13 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+logist.today#?#.article__text > p[style="text-align: center;"]:has(> strong > a[href^="https://t.me/"])
+lastampa.it##div[id^="gedi-newsletter"]
+businesstoday.in##.what
+businesstoday.in##.whatsapp_channel
+news18.com##.shareNlocation
+news18.com##.whatsapp_strip
+mistergadget.tech#?#body > #overlay:has(> #newsletter-popup)
 elespanol.com##.md-newsletter
 hani.co.kr##.newsLetter
 dot.asahi.com##.g-sidebar-magazine
@@ -13909,7 +13917,7 @@ pressdemocrat.com##.article-inline-promo
 optomausa.com##.footer-blue-section
 glamour.com,pitchfork.com##div[class^="ContentFooterNewsletterContentWrapper-"]
 dna.fr###IdCol_Sticky
-ledauphine.com,dna.fr##.GRDC_newsletters
+lalsace.fr,ledauphine.com,dna.fr##.GRDC_newsletters
 ubitennis.com###mvp-side-wrap > section[id^="mc4wp_form_widget"]
 maxicours.com#%#//scriptlet('set-session-storage-item', 'popup-closed', 'true')
 ||s69.wdc.center^$domain=kitantik.com|hibya.com

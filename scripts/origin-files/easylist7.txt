@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202312130808
+! Version: 202312131242
 ! Title: Fanboy's Annoyance List
-! Last modified: 13 Dec 2023 08:08 UTC
+! Last modified: 13 Dec 2023 12:42 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -37096,6 +37096,7 @@ trip.com##.tcp-h5-install-popup
 techgenyz.com##.td-fix-index.tds-button
 telegram.org##.tg_try_desktop
 twitter.com##.toast.client_prompt
+hs.fi##.toast__background--app-marketing
 fatmap.com##.top-0.sticky
 zaim.net##.top-fix
 m.investing.com##.topHeader--signup
@@ -37534,7 +37535,6 @@ bigissue.com##.ReactModal__Overlay
 abc7.com,abc7ny.com##.Shfq
 futurework.org.au##.SiteFooter_signup
 opensecrets.org##.StayConnected
-axios.com##.StoryPageCTA_story-page-cta__SOt_x
 outsystems.com##.Subscribe
 riverbender.com##.SubscribeBox
 nordvpn.com##.SubscribeSection
@@ -38790,6 +38790,7 @@ nypost.com,pagesix.com##.zephr-component
 bbc.com##.zephr-overlay
 minds.com##M-MODAL
 therealdeal.com##[class*="Newsletter"]
+axios.com##[class*="StoryPageCTA_story-page-cta_"]
 animalchannel.co,homehacks.co,parentingisnteasy.co,relieved.co,seeitlive.co,spotlightstories.co,sweetandsavory.co##[class="md:mt-10"]
 androidauthority.com##[class] > [class] > form[class]
 nowthisnews.com,thrillist.com##[class^="EmailAcquisitonstyles"]
@@ -45895,8 +45896,6 @@ hk.fi##.cookie-notice-lightbox
 huntteri.fi##.cookie_modal_overlay
 ladulle.fi##.cs-overlay
 valostore.fi##.css-13jewua
-matkahuolto.fi##.css-16f2iy6
-matkahuolto.fi##.css-jlvvqa
 ifolor.fi##.dialogBanner--align-bottom
 aatos.app##.eiabyj
 sporthammer.fi##.first-page-of-accept-cookies
