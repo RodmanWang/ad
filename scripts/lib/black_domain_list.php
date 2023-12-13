@@ -146,7 +146,6 @@ return [
         "lc-push.zhihu.com",
         "sugar.zhihu.com",
         "appcloud2.in.zhihu.com",
-        "appcloud2.zhihu.com",
         "zhihu-web-analytics.zhihu.com",
         "event.zhihu.com",
         "udd1i5.zhihu.com", #395
@@ -1190,6 +1189,12 @@ return [
     "weibo.com" => [
         "fastimage.uve.weibo.com", // #629
     ],
+    "telecome.cn" => [
+        "telecome.cn", // #844
+    ],
+    "unioncom.cc" => [
+        "unioncom.cc", // #844
+    ],
     "50union.com" => [
         // #644
         "50union.com",
@@ -1363,6 +1368,23 @@ return [
     "mobileservice.cn" => [
         "zxid-m.mobileservice.cn", // #816
     ],
+    "kakao.com" => [
+        "play.kakao.com", // #833
+    ],
+    "kgslb.com" => [
+        "p1-play.kgslb.com", // #833
+    ],
+    "edge4k.com" => [
+        "p1-play.edge4k.com", // #833
+        "p2-play.edge4k.com", // #833
+    ],
+    "trackingio.com" => [
+        "trackingio.com", // #857
+        "www.trackingio.com", // #857
+    ],
+    "mihoyo.com" => [
+        "hkrpg-log-upload.mihoyo.com", // #843
+    ], 
 
     "2mdn-cn.net" => ["2mdn-cn.net"],
     "admob-cn.com" => ["admob-cn.com"],
