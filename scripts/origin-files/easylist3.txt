@@ -8505,7 +8505,6 @@ gastronom.ru,farmlend.ru##.chaos-indivisible-teaser
 theleaflet.in###popup1
 internalpointers.com##.ip-follow-us-popup
 trackmusik.fr,girlschannel.net,peoplesworld.org###popupModal
-worldsurfleague.com#%#document.cookie = "pewl2=1; path=/;";
 livecodestream.dev,writingexplained.org##.formkit-overlay
 getitfree.cn##.top-footer > .call-action-unlogged
 agrovesti.net##.rstboxSubscribeAcy
@@ -13750,7 +13749,8 @@ runews24.ru##a.button_type_link[target="_blank"][href]
 decrypt.co#?#.post-content > div.text-left:has(> form > label[for="article-footer-email"])
 geo.fr##.pmcPushv
 territoris.cat##.widget-advise-bottom-wrapper
-clutchpoints.com#?##__next > div:not([class]) > div[class]:has(> div[class] > div[class] > div[class] > form#sib-form)
+clutchpoints.com#$?#body { overflow: auto !important; }
+clutchpoints.com#$?##__next > div:not([class]) > div[class]:has(> div[class] > div[class] > div[class] > form#sib-form) { display: none !important; }
 clutchpoints.com#?#aside > div:has(> div[class] > form#sib-form)
 clutchpoints.com#?#.article-body > div[class]:has(> div[class] > div[class] > form#sib-form)
 violity.com##.telegram_banner
