@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202312140327
+! Version: 202312140545
 ! Title: Fanboy's Annoyance List
-! Last modified: 14 Dec 2023 03:27 UTC
+! Last modified: 14 Dec 2023 05:45 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -38109,7 +38109,7 @@ gamespot.com##.js-nlsub
 404media.co##.js-popup
 creditcards.com##.js-signup-visibility
 highya.com##.js-swimingBlock-stoper
-avclub.com,deadspin.com,gizmodo.com,jalopnik.com,kotaku.com,lifehacker.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.js_modal_exit_intent
+avclub.com,deadspin.com,gizmodo.com,jalopnik.com,kotaku.com,lifehacker.com,qz.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.js_modal_exit_intent
 qz.com##.js_qz_newsletter_signup_placeholder
 avclub.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.js_subscribe
 draxe.com##.ju_Con
@@ -39577,7 +39577,7 @@ skinnyms.com,texasmonthly.com##.share-article
 rpgfan.com##.share-bar
 buzzfeed.com##.share-bar_buzzfeed___uZ4R
 beincrypto.com##.share-block
-scientificamerican.com##.share-box
+news-medical.net,scientificamerican.com##.share-box
 ibtimes.co.in##.share-btn-wrp
 tastecooking.com##.share-button
 apptrigger.com##.share-capture
@@ -40897,7 +40897,6 @@ download.pixelexperience.org##.cc-dismiss.cc-btn
 pronouns.page##.cc-modal
 smartbear.com##.cc-pop
 yoursoccerdose.com##.cc-simple
-brothers-graphics.com,dryrobe.com##.cc-window-wrapper
 mysoapbox.com##.cc_modal
 drakecircus.com##.ccc-widget
 ccn.com##.ccn-consent
@@ -42231,6 +42230,8 @@ roninwear.com,roninwear.de,roninwear.fi,roninwear.fr,roninwear.hu,roninwear.it,r
 aperitif.no,byggmesteren.as,cosmosmagazine.com,estatenyheter.no,forskning.no,forsvaretsforum.no,journalisten.no,khrono.no,m24.no,sciencenordic.com,sciencenorway.no##.adn-message
 ! ! #cknt
 1med.tv,mediasphera.ru,waldorf-expertenservice.de###cknt
+! ! .cc-window-wrapper
+brothers-graphics.com,dryrobe.com,dxracer-germany.de,lockcard.de##.cc-window-wrapper
 ! ! .swal2-container
 kyounoryouri.jp,natalfortatacadista.com.br,outage.report##.swal2-container
 ! ! .cc-container
@@ -44991,7 +44992,6 @@ sushiworldlouvain.be##.cc-banner
 fahrschulefuerth.de##.cc-info--closed
 bresser.de##.cc-modal-backdrop
 aussenrollo.de##.cc-screen
-lockcard.de##.cc-window-wrapper
 boltenhagen.reisen##.cc_overlay
 bszam.de##.ccm-root
 bluesnews.de##.ce_rsce_oneo_fixed_note
