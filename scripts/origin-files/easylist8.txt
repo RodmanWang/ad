@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202312170127
+! Version: 202312170323
 ! Title: Fanboy's Annoyance List
-! Last modified: 17 Dec 2023 01:27 UTC
+! Last modified: 17 Dec 2023 03:23 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1996,6 +1996,7 @@ _twitter_follow.
 /unibo-cookies.min.js
 /unitb-cmp.js
 /usecookies.js
+/usercentrics/cmp.js
 /util/gdpr/geo_v1.js
 /util/gdpr/geo_v3.js
 /vhs-assets-cookie-consent-init.js
@@ -35037,6 +35038,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||d3macwxrvlvlf8.cloudfront.net/cookie-service/
 ||dmgmediaprivacy.co.uk^$third-party
 ||donkeymob.com^$third-party
+||dpgmedia.net/consent.js
 ||ecookie.nl^$third-party
 ||efilli.com/efl.js
 ||efilli.com^$third-party
@@ -47595,6 +47597,7 @@ ants.vn##.sg-popup-content
 ||cmp.vizus.cz^
 ||consent.t-mobile.cz^
 ||h.seznam.cz/js/cmp2/scmp-int.js$domain=en.mapy.cz
+||me9ddf.moebelix.cz^
 ! 
 ! ---------- Danish ----------
 ! 
