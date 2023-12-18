@@ -7847,7 +7847,7 @@ mazen-ve.com#%#//scriptlet("adjust-setInterval", "mdtimer", "", "0.02")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/113960
 streamcheck.link,tinyurl.so,tinyurl.is#%#//scriptlet("adjust-setInterval", "skip-btn", "*", "0.02")
 streamcheck.link,tinyurl.so,tinyurl.is#%#//scriptlet('remove-class', 'disabled', 'a[id^="newskip-"].disabled')
-streamcheck.link,tinyurl.so,tinyurl.is#%#AG_onLoad(function(){var a=document.querySelector("a[id^='newskip-'][href^='http']");a&&a.click()});
+streamcheck.link,tinyurl.so,tinyurl.is#%#//scriptlet('trusted-click-element', 'a[id^="newskip-"][href^="http"]')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/114874
 usanewstoday.club,earnme.club#%#//scriptlet("adjust-setInterval", "tp-", "*", "0.02")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/114665
@@ -7962,9 +7962,6 @@ djxmaza.in,examtadka.com,proviralhost.com,urbharat.xyz#%#//scriptlet("adjust-set
 4shared.com#%#//scriptlet("adjust-setTimeout", "goVideoJS", "*", "0.02")
 ! https://github.com/uBlockOrigin/uAssets/issues/3130#issuecomment-1012696170
 shortit.pw#%#//scriptlet('set-constant', 'valid', '1')
-! https://github.com/AdguardTeam/AdguardFilters/issues/104397
-dl.indexmovies.xyz#%#//scriptlet("adjust-setInterval", "countdown", "", "0.02")
-dl.indexmovies.xyz#%#AG_onLoad(function(){var a=document.querySelector('#skip > a[href^="http"]');a&&a.click()});
 ! 123lnk.xyz timer
 123lnk.xyz#%#//scriptlet("adjust-setTimeout", "countDown", "", "0.02")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/105979
@@ -8015,7 +8012,7 @@ udemycourses.me#%#//scriptlet("adjust-setInterval", "counter--", "", "0.02")
 tutcourse.com#%#//scriptlet("adjust-setInterval", "sec--", "", "0.02")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/100856
 techymedies.com#%#//scriptlet("adjust-setTimeout", "/gotoo|pop-button|stickyadin/", "*", "0.02")
-techymedies.com#%#AG_onLoad(function(){setTimeout(function(){var a=document.querySelector('#form a.bt-success[href*="?gentoken="]');a&&a.click()},300)});
+techymedies.com#%#//scriptlet('trusted-click-element', '#form a.bt-success[href*="?gentoken="]', '', '300')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/99872
 luckydice.net,coinsearns.com#%#//scriptlet("adjust-setInterval", "sec--", "", "0.02")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/99869
@@ -8039,7 +8036,7 @@ girls-like.me#%#//scriptlet("adjust-setInterval", "count--", "", "0.02")
 segurosdevida.site#%#//scriptlet("adjust-setInterval", "wpsafe-", "*", "0.02")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/98373
 getthot.com#%#//scriptlet("adjust-setTimeout", "$('.skip-btn').", "*", "0.02")
-getthot.com#%#AG_onLoad(function(){setTimeout(function(){var a=document.querySelector('a[href^="http"].skip-btn');a&&a.click()},1E3)});
+getthot.com#%#//scriptlet('trusted-click-element', 'a[href^="http"].skip-btn', '', '1000')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/99094
 short-link.one#%#AG_onLoad(function(){if("function"===typeof decode_link&&"string"===typeof link_out)try{var c=RegExp("^https?"),d=RegExp("^magnet:"),b=decode_link(atob(link_out));c.test(b)&&location.assign(decode_link(atob(link_out)));if(d.test(b)){var a=document.querySelector("input#contador");a?(a.setAttribute("id","download"),a.removeAttribute("disabled"),a.addEventListener("click",function(){location.assign(decode_link(atob(link_out)))},!1)):location.assign(decode_link(atob(link_out)))}}catch(e){console.log("Failed to decode link")}});
 ! https://github.com/AdguardTeam/AdguardFilters/issues/98371
@@ -8116,7 +8113,7 @@ rethmic.com#%#//scriptlet("adjust-setInterval", "sp-count-down", "", "0.02")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/93547
 taregna.com#%#//scriptlet("adjust-setInterval", "wpsafe-", "", "0.02")
 taregna.com#%#//scriptlet("adjust-setInterval", "wpsafe-", "2000", "0.02")
-taregna.com#%#AG_onLoad(function(){var a=document.querySelector("#wpsafe-link > a[onclick*='window.open'][onclick*='safelink_redirect='][onclick*='_self']");a&&a.click()});
+taregna.com#%#//scriptlet('trusted-click-element', '#wpsafe-link > a[onclick*="window.open"][onclick*="safelink_redirect="][onclick*="_self"]')
 ! mcpedl.com - skip timer
 mcpedl.com#%#//scriptlet("adjust-setInterval", "countdown", "", "0.02")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/93895
@@ -8272,10 +8269,6 @@ oeko-planet.com#%#//scriptlet('remove-class', 'async-hide', 'html')
 yoshare.net#%#//scriptlet("adjust-setInterval", "counter", "2000", "0.02")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/78915
 thaitrieuvi.live#%#//scriptlet("adjust-setInterval", "counter", "", "0.02")
-! https://github.com/AdguardTeam/AdguardFilters/issues/78796
-techoow.com#%#//scriptlet("adjust-setTimeout", "link", "1100", "0.02")
-techoow.com#%#//scriptlet("adjust-setInterval", "#counter", "", "0.02")
-techoow.com#%#AG_onLoad(function(){var a=document.querySelector("center > a.btn-success"),b=document.querySelector("a#count00");a&&a.click();b&&b.click();if("string"===typeof xlinkd&&xlinkd.startsWith("http")){try{new URL(xlinkd);var c=!0}catch(d){c=!1}if(c)try{window.location=xlinkd}catch(d){}}});
 ! https://github.com/AdguardTeam/AdguardFilters/issues/78571
 sama-share.com#%#//scriptlet("adjust-setTimeout", "tick", "1000", "0.02")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/87661
@@ -8860,7 +8853,7 @@ mastercoria.com#%#//scriptlet("adjust-setInterval", "countdown", "", "0.02")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/47574
 kstarmp3.com#%#AG_onLoad(function(){document.querySelectorAll('.entry-content a[href^="https://ouo.press/"][href*="%2Fhttp"]').forEach(function(a){var b="http"+decodeURIComponent(a.getAttribute("href")).split("/http")[1];a.setAttribute("href",b)});document.querySelectorAll('.entry-content a[href^="https://ouo.press/"]:not([href*="%2Fhttp"])').forEach(function(a){var b=decodeURIComponent(a.getAttribute("href")).split("?s=");a.setAttribute("href",b[1])})});
 ! https://github.com/AdguardTeam/AdguardFilters/issues/47357
-1ink.cc#%#AG_onLoad(function() { var el = document.querySelector('#countingbtn'); if(el) el.click(); });
+1ink.cc#%#//scriptlet('trusted-click-element', '#countingbtn')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/47028#issuecomment-571357678
 dailymail.co.uk###chromelessPlayer
 dailymail.co.uk#%#//scriptlet("abort-on-property-read", "Object.prototype.videoAdvertisingMode")
