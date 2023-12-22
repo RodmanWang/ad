@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202312211708
+! Version: 202312220127
 ! Title: Fanboy's Annoyance List
-! Last modified: 21 Dec 2023 17:08 UTC
+! Last modified: 22 Dec 2023 01:27 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -2138,6 +2138,12 @@ _twitter_follow.
 ##.wpmchimpa-overlay-bg
 ! bodyscience.com.au
 ##.preezie-widget-modal
+! Someone also bought popups
+###cb-widget-sales-pop
+##.cbSalesPopContainer
+##.noti-container-main
+##.wpcsn-notification-inner
+##.yo-notification
 ! Outbrain
 ###around-the-web
 ###g-outbrain
@@ -34426,6 +34432,8 @@ dashboard.razorpay.com#@##credential_picker_container
 ||ziprecruiter.com/jobs-widget/$third-party
 ||zoomanalytics.co^$third-party
 ||zotabox.com^*/widgets.js$third-party
+! Someone also bought popups
+||api.postscript.io/v2/public/popups/
 ! 3rd-party sounds
 ||acquire.io/assets/sound/
 ||amazonaws.com/alive5cdn/$media
