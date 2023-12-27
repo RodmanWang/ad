@@ -371,6 +371,7 @@ ulifestyle.com.hk##.modal-backdrop
 ulifestyle.com.hk###Open-appLink-banner
 three.com.hk##.download-footer
 app.diandian.com###__layout > div > div[class="box dd-base-color"]
+eksisozluk111.com#%#//scriptlet('set-cookie', 'app-suggestion', '1')
 myoji-yurai.net#?#a[href="https://play.google.com/store/apps/details?id=net.myoji_yurai.myojiOmikuji"]:upward(1)
 coolapk.com##.download-group
 e1.ru#?##record-header > div[class]:has(> div[class] > a[href^="https://redirect.appmetrica.yandex.com/"])
@@ -3088,6 +3089,7 @@ m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
 ! causes some issues: https://github.com/AdguardTeam/AdguardForMac/issues/550
 ~status.im,~lafenice.io,~kurer-sreda.ru,~chorki.com,~zattoo.com,~zaycev.net,~xltrax.ee,~hitta.se,~mail.ru,~v7player.wostreaming.net,~facebook.com,~instagram.com,~drive.google.com$$link[rel="manifest"]
 !
+rnd.de##div[class^="Articlestyled__"] div[data-testid="piano-container"]
 live.erinn.biz###win_appinstallhint
 kinarino.jp###js-appeal-top-banner
 radio.de###headerTopBar + style + div[class^="sc-"]

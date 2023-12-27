@@ -4992,6 +4992,7 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+lepoint.fr,lpnt.fr##.slotkam
 scribd.com##.between_page_portal_root
 langenscheidt.com###lgs-ad
 wordparts.ru##div[class^="ad"]:has(> a[href="https://t.me/wordparts_bot"])
@@ -6486,6 +6487,7 @@ inc42.com##.plus-bottom-bar
 odiarioonline.com.br##.advertising-container
 autoua.net##a[href="https://insurance.autoua.net/ru/osago/"]
 filmora.wondershare.com##.wsc-seasonal-container
+eksisozluk111.com##aside > iframe[src^="https://eksiseyler.com/sozluk/"]
 revistapegn.globo.com###footerOgloboPianoId
 phonearena.com##.widgetOffers__disclaimer
 phonearena.com##.widgetOffers
@@ -6843,6 +6845,8 @@ eiga.com##.header-pure-banner
 !##############################
 ! SECTION: Tweaks - CSS
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/169109
+lepoint.fr,lpnt.fr#$#.dailymotion-player-wrapper { height: 100% !important; position: absolute !important; width: 100% !important; transform: translate(0px, 0px) !important; z-index: auto !important; }
 ! https://go.tinys.click/jzEDHsQHbNTokEJrRorG timer
 tinys.click#$##wpsafe-link { display: block !important; }
 tinys.click#$##wpsafe-generate { display: block !important; }
