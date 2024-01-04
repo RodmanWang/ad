@@ -421,9 +421,11 @@ accountkiller.com#%#window.ga = function(){var a = arguments[5];a&&a.hitCallback
 !
 ! Suppressing both Google's Topics API and Topics API using Permissions policy
 ! Works in CoreLibs-based AdGuard versions, the browser extension waits for https://github.com/AdguardTeam/tsurlfilter/issues/66
+! Part with "://*.*" before "$permissions=" is required, otherwise it will be marked as too wide rule
 ! AGLint temporarily disabled for this rule due to https://github.com/AdguardTeam/AGLint/issues/191
 ! TODO: Enable it back when AGLint is fixed.
 ! aglint-disable-next-line
+://*.*$permissions=join-ad-interest-group=()\, run-ad-auction=()\, browsing-topics=()
 !
 ! End: Rules for Google "Privacy" Sandbox
 !
@@ -4368,6 +4370,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ||zqtk.net^$third-party
 !
 ! Bright Data
+||bright-sdk.com^
 ||brightdata.com^
 ||brightdata.de^
 ||perr.l-agent.me^
@@ -77006,8 +77009,8 @@ zelda.paperlesspost.com$image
 /wp-statistics/assets/js/tracker.js
 /wp-content/plugins/s2f-referral-tracking/*
 /swlapi/stats|
-.com/stats?t=$xmlhttprequest
-.net/stats?t=$xmlhttprequest
+.com/api/stats?t=$xmlhttprequest,ping
+.net/api/stats?t=$xmlhttprequest,ping
 /wp-content/plugins/flying-analytics/*
 /sayacff.html
 /share/js/gAnalytics.js
@@ -82313,6 +82316,8 @@ $cookie=bf_visit
 ! Bad:  ||monerominer.rocks^$third-party (should be in adservers.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/169629
+||tvnoviny.sk^$cookie=MS_PPID
 ! rnd.de - analytics
 ||rnd.de^$cookie=__vads
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169286
