@@ -251,12 +251,6 @@ cbssports.com#%#(()=>{window.admiral=function(d,a,b){if("function"==typeof b)try
 6play.fr#%#//scriptlet('set-local-storage-item', 'localDeviceId', '0')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/131034
 imdb.com#%#//scriptlet("set-constant", "doWithAds", "noopFunc")
-! This rule is for suppressing Google Topics.
-! Read more about it here:
-! https://developer.chrome.com/docs/privacy-sandbox/topics/
-! TODO: replace with the 'no-topics' scriptlet later: https://github.com/AdguardTeam/Scriptlets/issues/214
-! #%#//scriptlet('no-topics')
-#%#//scriptlet('set-constant', 'Document.prototype.browsingTopics', 'undefined')
 ! https://github.com/AdguardTeam/AdguardFilters/pull/133054
 fmkorea.com#%#//scriptlet("set-constant", "link_url", "")
 ! https://github.com/AdguardTeam/AdguardFilters/pull/130514
@@ -414,6 +408,25 @@ citypizza.ru#%#window.yaCounter9890803 = { reachGoal: function() {} };
 apteka.ru#%#window.yaCounter14913877={ reachGoal: function() {} };
 ! https://forum.adguard.com/index.php?threads/resolved-accountkiller-com.16162/
 accountkiller.com#%#window.ga = function(){var a = arguments[5];a&&a.hitCallback&&a.hitCallback();}
+!
+! Start: Rules for Google "Privacy" Sandbox
+!
+! Suppressing Google's Topics API:
+! https://developers.google.com/privacy-sandbox/relevance/topics
+#%#//scriptlet('no-topics')
+!
+! Suppressing Google's "Protected" Audience API:
+! https://wicg.github.io/turtledove/
+! TODO: Add a scriptlet: https://github.com/AdguardTeam/Scriptlets/issues/395
+!
+! Suppressing both Google's Topics API and Topics API using Permissions policy
+! Works in CoreLibs-based AdGuard versions, the browser extension waits for https://github.com/AdguardTeam/tsurlfilter/issues/66
+! AGLint temporarily disabled for this rule due to https://github.com/AdguardTeam/AGLint/issues/191
+! TODO: Enable it back when AGLint is fixed.
+! aglint-disable-next-line
+!
+! End: Rules for Google "Privacy" Sandbox
+!
 !-------------------
 !-------CSS---------
 !
@@ -77495,6 +77508,8 @@ _tracking.php?b=
 /analytics.js$domain=tokyometro.jp|resumes.breakdownexpress.com|techcult.com|inbox.lv|kopeda.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|newsmax.com|bolgehastanesi.com|ewtc.de|newsdig.tbs.co.jp|imore.com|city.kushiro.lg.jp|emeraldbridal.com.au|emarat-news.ae|imobie.jp|tikla.com.tr|rusvideos.porn|jrkyushu.co.jp|amiunique.org|edit.ing|konami.com
 ||assets.adobedtm.com^$domain=mcclatchydc.com|elnuevoherald.com|bellinghamherald.com|sacbee.com|charlotteobserver.com|newsobserver.com|miamiherald.com|ef.ru|algida.com.tr|bmw-motorrad.co.uk|cif.com.tr|clearhaircare.com|domestos.com|dove.com|elidor.com.tr|f1sport.autorevue.cz|geico.com|hellmanns.com.tr|herkessofraya.com|johnsonsbaby.com.tr|lipton.com|lnk.to|lux.com|magnumicecream.com|neutrogena.com.tr|omo.com|rexona.com|samsung.com|sap.com|schwarzkopf.com.tr|signalturkiye.com|msnbc.com|nbcnews.com|kbb.com|eurosport.ru|timgate.it|intermiles.com|oxfordmail.co.uk|spiegel.de|hp.com|deutschepost.de|thebay.com|s.shufoo.net|tsn.ca|tabelog.com|euronews.com|newshub.co.nz|fredmeyer.com|viabcp.com|carsales.com.au|falabella.com|aarp.org|thehill.com|realtor.com|nzherald.co.nz|aia.com.ph|baynews9.com
 !
+||gvm.com.tw/tracker/view
+||avivid.likr.tw/api/ring_only_tracking.min.js
 ||cdn.gravitec.media/track.min.js
 ||events.*/takeaway/takeaway.com/*/*.gif$domain=thuisbezorgd.nl|takeaway.com|just-eat.ch|lieferando.at|lieferando.de|just-eat.fr|pyszne.pl|just-eat.dk|just-eat.no
 ||cf.eip.telegraph.co.uk/particle-embed/js/particle.js
