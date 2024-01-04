@@ -32560,6 +32560,10 @@
 ||delfi.lv^$cookie=dcid
 ||delicatecascade.com^$third-party
 ||deliciousducks.com^$third-party
+||deliciousmagazine.pl^$replace=/(<VAST[\s\S]*?>)[\s\S]*<\/VAST>/\$1<\/VAST>/,xmlhttprequest,other,~script
+||deliciousmagazine.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*)//,script
+||deliciousmagazine.pl^$replace=/(aabv\d[\s\S]*?.=\(\)=>).===.(\,)/\$1{return}\$2/,script
+||deliciousmagazine.pl^$replace=/(aabv\d[\s\S]*?.=function\(\)\{)return .===.(\}\,)/\$1return\$2/,script
 ||delightdriving.com^$third-party
 ||delightedintention.com^
 ||delightfulhour.com^$third-party
@@ -102177,7 +102181,6 @@
 ||widget.moin.ai^$third-party
 ||widget.my.feedot.com^$third-party
 ||widget.oncustomer.asia^
-||widget.packeta.com^$third-party
 ||widget.perfectmarket.com^
 ||widget.pico.tools^$third-party
 ||widget.pico.tools^$third-party
