@@ -41,6 +41,12 @@ return [
         "aedns.weixin.qq.com", // #764
         "date.ab.qq.com", // #764
         "report.nfa.qq.com", // #764
+        "wnsmusic.qq.com", // #847
+        "tmeadbak.y.qq.com", // #847
+        "ugcup.music.qq.com", // #847
+        "ad.tencentmusic.com", // #847
+        "ipv6.kg.qq.com", // #847
+        "tmeadbak.y.qq.com", // #847
     ],
     "openstorage.cn" => ["iflyad.bjb.openstorage.cn"],
     "analysys.cn" => ["analysys.cn"],
@@ -129,7 +135,6 @@ return [
     ],
     "youdao.com" => ["corp.youdao.com"],
     "crsspxl.com" => ["crsspxl.com"],
-    "talkingdata.net" => ["talkingdata.net"],
     "kejet.net" => ["kejet.net"],
     "moad.cn" => ["moad.cn"],
     "images9999.com" => ["images9999.com"],
@@ -235,7 +240,7 @@ return [
     ],
 
     "kingsoft-office-service.com" => ["abroad-ad.kingsoft-office-service.com"],
-    "amap.com" => ["logs.amap.com", "dualstack-logs.amap.com"],
+    "amap.com" => ["logs.amap.com", "dualstack-logs.amap.com", "v6-adashx.ut.amap.com"],
     "tt114.net" => ["tt114.net"], //例如http://www.tt114.net/html/tlink.html
     "taobao.com" => [
         "ip.taobao.com",
@@ -244,6 +249,8 @@ return [
         "acs.m.taobao.com",
         "acs.wapa.taobao.com",
         "openjmacs.m.taobao.com",
+        "v6-adashx.ut.taobao.com", // #859
+        "wcp.taobao.com", // #847
     ],
     "aiclk.com" => ["aiclk.com"],
     "5ubei.com" => ["5ubei.com"], //统计类例如http://dnm.5ubei.com:7098/hlink.html
@@ -323,6 +330,12 @@ return [
         "stnetsdk.vivo.com.cn",
         "stsdk.vivo.com.cn",
         "vcardsdkservice.vivo.com.cn",
+        "h5.vivo.com.cn", // #847
+        "browser.vivo.com.cn", // #847
+        "zhan.vivo.com.cn", // #847
+        "onewsvod.com", // #847
+        "yidianzixun.com", // #847
+        "ads-marketing-vivofs.vivo.com.cn", // #847
     ],
     "vnet.cn" => ["vnet.cn"], //互联星空
     "wannaplay.cn" => ["h5.wannaplay.cn"], //游戏广告
@@ -865,7 +878,13 @@ return [
         // #253
         "c4frc.info",
     ],
-    "163.com" => ["crash.163.com"],
+    "163.com" => [
+        "crash.163.com",
+        "httpdns.music.163.com", // #847
+        "netapm.music.163.com", // #847
+        "ipv6.music.163.com", // #847
+        "ipv4.music.163.com", // #847
+    ],
     "360.cn" => ["mclean.f.360.cn", "vconf.f.360.cn"],
     "gsgsr.xyz" => ["gsgsr.xyz", "www.gsgsr.xyz", "gdp.gsgsr.xyz"],
     "zmzfile.com" => [
@@ -1004,7 +1023,7 @@ return [
         "windows.pkkjxs.cn",
     ],
     "telegram-cn.org" => [
-        #431
+        #431, #616
         "telegram-cn.org",
         "www.telegram-cn.org",
     ],
@@ -1065,16 +1084,18 @@ return [
         "pubsub02.oray.net",
     ],
     "bcebos.com" => [
-        // #489
-        "staticsns.cdn.bcebos.com",
+        "staticsns.cdn.bcebos.com", // #489
+        "mobads-pre-config.cdn.bcebos.com", // #784
     ],
     "pglstatp-toutiao.com" => [
         // #494
         "pglstatp-toutiao.com",
     ],
     "netease.com" => [
-        // #496
-        "mam6.netease.com",
+        "mam6.netease.com", // #496
+        "httpdns-sdk.n.netease.com", // #847
+        "httpdns.n.netease.com", // #847
+        "nstool.netease.com", // #847
     ],
     "cibntv.net" => [
         // #507
@@ -1171,14 +1192,8 @@ return [
     "teledai.com" => [
         "teledai.com", // #616
     ],
-    "telegramim.org" => [
-        "telegramim.org", // #616
-    ],
     "telegmcn.org" => [
         "telegmcn.org", // #616
-    ],
-    "telegram-cn.org" => [
-        "telegram-cn.org", // #616
     ],
     "ali213.net" => [
         "click.ali213.net", // #633
@@ -1195,6 +1210,20 @@ return [
     "unioncom.cc" => [
         "unioncom.cc", // #844
     ],
+    "hubcloud.com.cn" => [
+        "hubcloud.com.cn", // #859
+        "api.htp.hubcloud.com.cn", //#859
+        "res1.hubcloud.com.cn", // #859
+        "sdktmp.hubcloud.com.cn", // #813
+        "v.adx.hubcloud.com.cn", // #859
+    ],
+    "cainiao.com" => [
+        "v6-adashx.ut.cainiao.com", //#859
+    ],
+    "ele.me" => [
+        "v6-adashx.ut.ele.me", //#859
+    ],
+    
     "50union.com" => [
         // #644
         "50union.com",
@@ -1330,9 +1359,7 @@ return [
     ],
     "126.net" => [
         "ads.music.126.net", // #784
-    ],
-    "bcebos.com" => [
-        "mobads-pre-config.cdn.bcebos.com", // #784
+        "iadmusicmat.music.126.net", // #847
     ],
     "xhscdn.com" => [
         "ads-img-al.xhscdn.com", // #784
@@ -1359,11 +1386,9 @@ return [
     "pangolin-sdk-toutiao1.com" => [
         "pangolin-sdk-toutiao1.com", // #800
     ],
-    "hubcloud.com.cn" => [
-        "sdktmp.hubcloud.com.cn", // #813
-    ],
     "beizi.biz" => [
         "sdk.beizi.biz", // #813
+        "api-htp.beizi.biz", // #859
     ],
     "mobileservice.cn" => [
         "zxid-m.mobileservice.cn", // #816
@@ -1382,9 +1407,61 @@ return [
         "trackingio.com", // #857
         "www.trackingio.com", // #857
     ],
+    "quark.cn" => [
+        "applog.lc.quark.cn", // #859
+        "adtrack.quark.cn", // #859
+        "track.lc.quark.cn", // #859
+    ],
+    "aligames.com" => [
+        "cddp-track.aligames.com", // #859
+    ],
+    "aispeech.com" => [
+        "log.aispeech.com", // #859
+    ],
+    "xiaomi.net" => [
+        "sentry.d.xiaomi.net", // #859
+    ],
+    "wps.cn" => [
+        "co-sentry.wps.cn", // #859
+    ],
+    "zdmimg.com" => [
+        "sentry-monitor-new.zdmimg.com", // #859
+    ],
     "mihoyo.com" => [
         "hkrpg-log-upload.mihoyo.com", // #843
-    ], 
+    ],
+    "volceapplog.com" => [
+        "volceapplog.com", // #859
+    ],
+    "10010.com" => [
+        "nishub1.10010.com", // #866
+        "enrichgw.10010.com", // #866
+    ],
+    "inkuai.com" => [
+        "apidns.kwd.inkuai.com", // #847
+    ],
+    "httpdns.pro" => [
+        "kuaishou.httpdns.pro", // #847
+        "httpdns.pro", // #847
+    ],
+    "ksyun.com" => [
+        "hdns.ksyun.com", // #847
+    ],
+    "qq.com.cn" => [
+        "dns.weixin.qq.com.cn", // #847
+    ],
+    "cdnhwc2.com" => [
+        "httpdns.c.cdnhwc2.com", // #847
+    ],
+    "alicdn.com" => [
+        "httpdns.alicdn.com", // #847
+    ],
+    "onethingpcs.com" => [
+        "natdetection.onethingpcs.com", // #847
+    ],
+    "kuaishouzt.com" => [
+        "kuaishouzt.com", // #847
+    ],
 
     "2mdn-cn.net" => ["2mdn-cn.net"],
     "admob-cn.com" => ["admob-cn.com"],
@@ -1416,7 +1493,6 @@ return [
     "1001movies.com" => ["1001movies.com", "www.1001movies.com"],
     "1008691.com" => ["1008691.com", "www.1008691.com"],
     "123counters.com" => ["123counters.com", "www.123counters.com"],
-    "crash.163.com" => ["crash.163.com", "www.crash.163.com"],
     "166f.com" => ["166f.com", "www.166f.com"],
     "17chezhan.com" => ["17chezhan.com", "www.17chezhan.com"],
     "17youzi.com" => ["17youzi.com", "www.17youzi.com"],
