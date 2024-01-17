@@ -4408,7 +4408,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 ! At the bottom of this file, you can find the allowlist that fixes issues caused by the rules from this file.
 !
 ! Good: any type of the rules will be good
-! Bad:  example.org#@##credential_picker_container (should be in AdGuard Base - popups_allowlist.txt)
+! Bad:  example.org#@##credential_picker_container (should be in popups_allowlist.txt)
 !
 !
 ! SECTION: Popups - generic rules
@@ -4534,10 +4534,12 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 ! At the bottom of this file, you can find the allowlist that fixes issues caused by the rules from this file.
 !
 ! Good: any type of the rules will be good
-! Bad:  @@||example.org^ (should be in AdGuard Base - popups_allowlist.txt)
+! Bad:  @@||example.org^ (should be in popups_allowlist.txt)
 !
 ! SECTION: Popups - Regular rules
 !
+||ncars.com.ua/image/data/video/widget^$media
+ncars.com.ua##.lkdm_vw__container
 bellesa.co#%#//scriptlet('set-session-storage-item', 'bellesa_show_slideout', 'false')
 polandballwiki.com###siteNotice
 lethal.miraheze.org##.vector-sitenotice-container
@@ -12570,6 +12572,8 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+huffingtonpost.es##.c-newsletter
+termoaktywnie.pl##.newsletter3__wrapper
 canarymedia.com##aside.col-span-12 > .h-full > div[class*="bg-yellow-"]:has(> .hs-sidebar-form)
 innotechtoday.com###elementor-popup-modal-150125
 scientificamerican.com##div[class^="newsletterSignup"]
