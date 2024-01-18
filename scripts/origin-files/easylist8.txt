@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202401180909
+! Version: 202401181231
 ! Title: Fanboy's Annoyance List
-! Last modified: 18 Jan 2024 09:09 UTC
+! Last modified: 18 Jan 2024 12:31 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -18819,7 +18819,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ###cookie-deal-bottom-cookie
 ###cookie-declaration
 ###cookie-dett
-###cookie-dialog
 ###cookie-dialog-bar
 ###cookie-dialogue
 ###cookie-dialogue-div
@@ -25594,7 +25593,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.amcb-cookie-ban
 ##.amdb-lgpd-consent
 ##.amgdpr-cookie
-##.amgdprcookie-bar-template
 ##.ams-m-cookie-warning
 ##.amz-cookies-notice
 ##.analytics-consent
@@ -33954,7 +33952,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ! fixpart.fi https://github.com/easylist/easylist/issues/17478
 ##.fp-cookie-modal
 ! https://github.com/easylist/easylist/pull/13571
-##div.amgdprcookie-bar-container
 ##div.amgdprcookie-modal-container
 ##div.ammodals-overlay
 ! mrowkamyslenice.pl,dolmat.pl,mrowkajaslo.pl,mrowkabusko.pl
@@ -35462,7 +35459,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ! hotelscombined.* momondo.*
 /privacy/providers/CookiesDataProvider
 ! Amasty_GdprCookie
-/Amasty_GdprCookie/*$domain=schleich-s.com
+/Amasty_GdprCookie/*$domain=reclay.at|reclay.de|schleich-s.com
 ! https://github.com/easylist/easylist/issues/13127
 /wp-content/plugins/cookie-law-info/public/js/cookie-law-info-public.js
 ! privacy-mgmt.com script specific
@@ -40841,6 +40838,7 @@ linkedin.com##.artdeco-global-alert
 leo.org##.as-oil
 scinapse.io##.asUhxHVGRjM9QNWMLelO5
 icelandair.com##.assets_container__3EEp3
+subaru.com##.at-banner-container
 scandalbeauties.com##.attention-msg
 welcometothejungle.com##.axeptio_mount
 hush-uk.com##.b-header-message
@@ -42846,7 +42844,7 @@ aquacard.co.uk,blsspain-russia.com,darricau.com,demarko-trailers.com,frescomarke
 ! ! .posf.react-onclickoutside
 eurorelais.de,fewoferien.de,holidayhomes.com,maisondevacances.fr##.posf.react-onclickoutside
 ! ! CookiePopup
-bitcoin-store.net,brain.fm##[class^="CookiePopup"]
+bitcoin-store.net,brain.fm,shopbuddies.be,shopbuddies.co.uk,shopbuddies.de,shopbuddies.fi,shopbuddies.fr,shopbuddies.it,shopbuddies.nl,shopbuddies.pl,shopbuddies.se##[class^="CookiePopup"]
 ! ! .CookiesBanner
 monzoapp.com,oscarproperties.com,zoominfo.com##[class^="CookiesBanner"]
 ! ! .blocker
