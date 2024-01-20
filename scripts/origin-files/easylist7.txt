@@ -5040,6 +5040,7 @@ newduba.cn###jq_youxi
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
 ##script + #coupletBox
 ##script + #rbbox
+###div_top_ads
 ##.alert_windows > .q-card__actions > a
 ###alert_windows > .q-dialog__backdrop
 ##body.desktop span[class^="c"] > a[href^="http"][rel="nofollow"][target="_blank"]
@@ -6585,6 +6586,13 @@ newduba.cn###jq_youxi
 ||so1nv.xyz^
 ||jingalbundles.com^
 ||acsegt86.shop^
+||hulichuang.mobi^
+||zfp32.buzz^
+##a[href*="/hgcoolaa.top"]
+##a[href*="/hgcool360.top"]
+||ypffkbpq.xyz^
+||hkaiedb.icu^
+||cpffkbpq.xyz^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
@@ -14663,6 +14671,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||winwin7.com/statics/js/user/xz.
 szxx.com.cn###A0
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -15165,7 +15174,7 @@ ebiotrade.com###dlBoxs
 docin.com###docindex_ad
 udn.com###doctop
 niutuku.com###downAD1
-xiazai.zol.com.cn###downBoxGaosu > a
+zol.com.cn###downBoxGaosu + a
 downmsn.com###downShow_tellDownload
 qiannao.com###downTb + div
 sm.cn###download-uc
@@ -20414,6 +20423,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@||95306.cn/public/images/ad/
 @@||95504.net/Advertisement_
 @@||95599.cn^*ad
+@@||soft8ware.com^$generichide
 @@||99wbwc.com^$generichide
 @@||99ybcc.com^$generichide
 @@||9zvip.net/wp-content/plugins/detect-adblock/js/ads.js
