@@ -16,6 +16,7 @@ easylist=(
 
 hosts=(
   "https://raw.githubusercontent.com/RodmanWang/ad/master/scripts/origin-files/ad-hosts.txt"
+  "https://pgl.yoyo.org/adservers/serverlist.php?showintro=0;hostformat=hosts"
 )
 
 strict_hosts=(
