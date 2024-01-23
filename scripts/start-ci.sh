@@ -5,7 +5,9 @@ source /etc/profile
 cd $(cd "$(dirname "$0")";pwd)
 
 easylist=(
-  "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_15_DnsFilter/filter.txt"
+  "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt"
+  "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt"
+  "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_4_Social/filter.txt"
   "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_19_Annoyances_Popups/filter.txt"
   "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_20_Annoyances_MobileApp/filter.txt"
   "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_21_Annoyances_Other/filter.txt"
@@ -16,7 +18,6 @@ easylist=(
 
 hosts=(
   "https://raw.githubusercontent.com/RodmanWang/ad/master/scripts/origin-files/ad-hosts.txt"
-  "https://pgl.yoyo.org/adservers/serverlist.php?showintro=0;hostformat=hosts"
 )
 
 strict_hosts=(
