@@ -1681,6 +1681,7 @@ scitechdaily.com,thewindowsclub.com#@#.ad-space
 ! Do not forget about '!#safari_cb_affinity' section for exclusions:
 ! LINK: AnnoyancesFilter/Popups/sections/antiadblock.txt#general
 !
+agenda-loto.net##.antiaddblock
 ||bringmethenews.com/htdocs/js/admiral/init.js
 twitchmetrics.net#%#//scriptlet('set-constant', 'nitroAds.abp', 'true')
 twitchmetrics.net#%#//scriptlet('prevent-addEventListener', 'np.detect', 'detail.blocking')
@@ -12559,6 +12560,8 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+falter.at##.subscription-note-wide
+letribunaldunet.fr###googleNewsFollowBtn
 adotrip.com###cta_area
 jomo-news.co.jp##.m-message-newsletter
 973kkrc.com##.incontent-newsletter
