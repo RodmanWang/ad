@@ -3084,6 +3084,7 @@ creativeuncut.com###g_abox
 ! https://github.com/AdguardTeam/AdguardFilters/issues/74116
 iqiyi.com##iqpdiv[data-cupid=container]
 iqiyi.com##div[adid]
+! https://github.com/AdguardTeam/AdguardFilters/issues/171751
 ! https://github.com/AdguardTeam/AdguardFilters/issues/101151
 ! https://github.com/AdguardTeam/AdguardFilters/issues/79270
 ! https://github.com/AdguardTeam/AdguardFilters/issues/44749
@@ -3096,6 +3097,8 @@ sports.iqiyi.com,m.iqiyi.com#%#//scriptlet("set-constant", "Object.prototype.adP
 www.iqiyi.com#%#//scriptlet('set-constant', 'QiyiPlayerProphetData.a.data', 'emptyObj')
 www.iqiyi.com#%#//scriptlet("set-constant", "Object.prototype.parseXML", "noopFunc")
 www.iqiyi.com#%#//scriptlet("set-constant", "Object.prototype.blackscreenDuration", "1")
+www.iqiyi.com#%#//scriptlet('trusted-replace-node-text', 'script', 'window.QiyiPlayerProphetData', '/(QiyiPlayerProphetData=.*?"a":.*?")data(":{)/', '$1no_ads$2')
+www.iqiyi.com#%#!function(){const e={apply:(e,t,o)=>{const i=o[1];if(!i||"object"!=typeof i.QiyiPlayerProphetData)return Reflect.apply(e,t,o)}};window.Object.defineProperties=new Proxy(window.Object.defineProperties,e)}();
 ||cupid.iqiyi.com/mixer?$domain=iqiyi.com
 ||cupid.iqiyi.com/mixer?$jsonprune=\$..[adSlots]
 ||iqiyi.com/show2?e=$replace=/(<VAST[\s\S]*?>)[\s\S]*<\/VAST>/\$1<\/VAST>/,important,domain=iqiyi.com
@@ -4552,6 +4555,8 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+airbnb.de##div[data-application="true"] ~ div:not([class],[id],[dir]):has( > div[dir="ltr"] > section div[aria-labelledby="announcement-curtain"])
+airbnb.de#$#body { overflow: auto !important; position: unset !important; }
 restoreprivacy.com#$#.brianhead-campaign { display: none !important; }
 restoreprivacy.com#$#html.om-position-popup body { overflow: auto !important; }
 deviantart.com##header[role="banner"] ~ div[class*=" "]:has(> span.surface > a[href="https://www.deviantart.com/users/login"])
@@ -5607,7 +5612,6 @@ t.ly#$#body.modal-open { overflow: auto !important; padding-right: 0 !important;
 porndoe.com##.mobile-links-fixed-bottom
 gazeta.ru###_id_flowup_tongue
 android.com.pl##.simpletoc--floating
-natfrp.com###rtfm
 watoday.com.au##div[data-testid="registration-prompt"]
 o2.pl##div[id^="video-player-"] > div.floating
 mvtk.jp##.modal-cover
@@ -12561,6 +12565,7 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+pik.bg##.news-detail > p:has(> em > strong > a[href="https://t.me/pikurgent"])
 cruxnow.com##.post-banners > section.py-cta-content:has(.subscribe-form)
 dwell.com#?#div[id^="comments-stories-"] + div[class]:has(> div[class] > div > form > div > input[name="email"])
 charismanews.com###homepageSortbarNewsletterSignup
@@ -12593,7 +12598,7 @@ iproxy.online#?#div[outstyle] div[class^="sc-"]:has(> form[class] > input[placeh
 scmp.com##div[data-qa].speech-skip-target:has(div[data-qa="NewsletterWidgetContainer-NewsletterWidget"])
 inc.com##.inline-newsletter-signup
 inc.com##.authorNewsletter
-mindbodygreen.com#?##content > div[class]:has(> div[class] > h2:contains(the long game))
+mindbodygreen.com###content > div[class]:has(> div[class] > h2:contains(the long game))
 mindbodygreen.com##div[data-exp-id="right-rail-email"]
 futura-sciences.com###article-anchor-article-main-content ~ div[class]:has(a[href^="https://news.google.com/publications/"])
 fedscoop.com,statescoop.com,edscoop.com,defensescoop.com,cyberscoop.com##.stickybar--newsletter
@@ -13222,7 +13227,7 @@ itmedia.co.jp##.cmsBodyItmidSeriesButtonRegist
 wokularach.pl#%#//scriptlet('trusted-set-local-storage-item', 'modal_newsletter', '{"status":false}')
 wokularach.pl#$?#div[class^="sc-"] > div[style="display:contents"] > div[class^="sc-"]:has(> section[class^="sc-"] form label[for="newsletter"]) { visibility: hidden !important; height: 0 !important; }
 happymag.tv##.subscribe-home-footer
-open.nytimes.com,labs.guard.io,thebolditalic.com,infosecwriteups.com,medium.datadriveninvestor.com,betterprogramming.pub,medium.com##div[role="dialog"] ~ div > div[style="bottom: 0px;"]
+blog.bitsrc.io,open.nytimes.com,labs.guard.io,thebolditalic.com,infosecwriteups.com,medium.datadriveninvestor.com,betterprogramming.pub,medium.com##div[role="dialog"] ~ div > div[style="bottom: 0px;"]
 eltiempo.com##.container__boton-whatsapp
 eltiempo.com##.canales-whatsapp
 descargaseriestv.com##.entry-content > p[style] > a[href="https://www.youtube.com/@rodrigocasper253/videos"]
