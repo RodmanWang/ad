@@ -491,6 +491,9 @@ cbssports.com#%#//scriptlet('set-constant', 'loadAdmiral', 'noopFunc')
 @@||succeedscene.com/*/ads.load.js
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/153163
+!+ NOT_OPTIMIZED
+cbr.com##body > div:not([style],[id]) > style + div[class]
+!+ NOT_OPTIMIZED
 digitalmusicnews.com##body > div#cb-outer-container ~ div:not([class]):not([id])
 gamerant.com,koamnewsnow.com,gfinityesports.com,dualshockers.com,insider-gaming.com,pocketnow.com,howtogeek.com,ktvz.com,247sports.com,movieweb.com,givemesport.com,xda-developers.com,collider.com,pocket-lint.com,hotcars.com,topspeed.com,thegamer.com,makeuseof.com,screenrant.com,androidpolice.com,cbr.com,brobible.com#%#//scriptlet('prevent-element-src-loading', 'script', 'ads.load.js')
 !+ NOT_OPTIMIZED
@@ -3757,7 +3760,6 @@ wvgazettemail.com,ceogelisim.com#@#.adSense
 @@||uderent.com/js/prebid-ads.js
 @@||uploadfiles.io/adsbygoogle.js
 @@||utopia.de/advertisement.js
-@@||valueresearchonline.com/ads.js
 @@||vasilisc.com/js/ad_img.js
 @@||video.komarovskiy.net^$generichide
 @@||viggle.tv/ads.js
@@ -12216,7 +12218,6 @@ vidup.io##.PushNotification
 ||kinoafisha.info/sw.js
 okezone.com##body > #confirm
 tuttotech.net,tuttoandroid.net###notifiche-manager.modal-notifiche
-clarin.com#%#document.cookie = "notification-_clarin=no; path=/";
 ||ariva.de/js/ariva_notification
 m.sputnik.kz,m.ru.sputnik.kz,m.lv.sputniknews.ru,sputnik-georgia.ru,sputnik.md##.modal-push
 sputniknewslv.com,sputnik-georgia.ru,sputnik.md##.window-push
