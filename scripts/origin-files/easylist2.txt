@@ -484,7 +484,7 @@ thestreet.com,oregonlive.com,bringmethenews.com,cbssports.com,localnews8.com,tem
 nbcsports.com,cbssports.com,visualcapitalist.com,news8000.com,kxly.com,thethings.com,koamnewsnow.com,gfinityesports.com,dualshockers.com,insider-gaming.com,thenerdstash.com,pocketnow.com,ktvz.com,247sports.com,movieweb.com,realclearpolitics.com,givemesport.com,xda-developers.com,collider.com,pocket-lint.com,hotcars.com,topspeed.com,thegamer.com,makeuseof.com,screenrant.com,androidpolice.com,cbr.com#%#//scriptlet('prevent-addEventListener', 'error', 'admiral')
 ! cannot be closed
 ! #%#//scriptlet('abort-current-inline-script', 'document.createElement', '/admiral|String\.fromCharCode\(97,( )*?100,( )*?109,( )*?105,( )*?114,( )*?97,( )*?108\)|a%64%6d%69%72%61%6c|adm%69%72%61l|%61%64m%69r%61l|-engaged[\s\S]*?googletag[\s\S]*?decodeURI/')
-howtogeek.com,247sports.com,sporcle.com,fresnobee.com,fajnegotowanie.pl,esportstales.com,tiger-algebra.com,blackenterprise.com,crooksandliars.com,cmacapps.com,cwtv.com,feral-heart.com,gamerevolution.com,gktoday.in,informazionefiscale.it,inquirer.net,interestingengineering.com,leitesculinaria.com,nofilmschool.com,obsev.com,pleated-jeans.com,post-gazette.com,practicalclinicalskills.com,ranker.com,sanfoundry.com,simpleflying.com,thegatewaypundit.com,timelessleaf.com,viraliq.com,winhelponline.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', '/admiral|String\.fromCharCode\(97,( )*?100,( )*?109,( )*?105,( )*?114,( )*?97,( )*?108\)|a%64%6d%69%72%61%6c|adm%69%72%61l|%61%64m%69r%61l|-engaged[\s\S]*?googletag[\s\S]*?decodeURI/')
+cleveland.com,howtogeek.com,247sports.com,sporcle.com,fresnobee.com,fajnegotowanie.pl,esportstales.com,tiger-algebra.com,blackenterprise.com,crooksandliars.com,cmacapps.com,cwtv.com,feral-heart.com,gamerevolution.com,gktoday.in,informazionefiscale.it,inquirer.net,interestingengineering.com,leitesculinaria.com,nofilmschool.com,obsev.com,pleated-jeans.com,post-gazette.com,practicalclinicalskills.com,ranker.com,sanfoundry.com,simpleflying.com,thegatewaypundit.com,timelessleaf.com,viraliq.com,winhelponline.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', '/admiral|String\.fromCharCode\(97,( )*?100,( )*?109,( )*?105,( )*?114,( )*?97,( )*?108\)|a%64%6d%69%72%61%6c|adm%69%72%61l|%61%64m%69r%61l|-engaged[\s\S]*?googletag[\s\S]*?decodeURI/')
 ! #%#//scriptlet('set-constant', 'loadAdmiral', 'noopFunc')
 cbssports.com#%#//scriptlet('set-constant', 'loadAdmiral', 'noopFunc')
 ! bait
@@ -502,6 +502,10 @@ cbssports.com,visualcapitalist.com,news8000.com,kxly.com,thethings.com,gamerant.
 momtastic.com,pwinsider.com,comingsoon.net,hfboards.com,onmsft.com##body > iframe ~ div:not([class]):not([id]) > style + div[class]
 playstationlifestyle.net##body > footer ~ div:not([class]):not([id]):not([style])
 siliconera.com##body > script ~ div:not([class]):not([id]) > style + div[class]
+! For Admiral overlay
+! Usually when the `document.createElement` scriptlet rule does not work
+! https://github.com/AdguardTeam/AdguardFilters/issues/172179
+##body > div > style + div.bOvWNQ
 !#endif
 !
 !#safari_cb_affinity(general)
@@ -4564,6 +4568,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+community.cloudflare.com#%#//scriptlet('trusted-click-element', '.interstitial-alert-modal .modal-close')
 democracydocket.com###alert-bar
 ncars.com.ua##.lkdm_vw__container
 nytimes.com###app > div > div[data-testid="onsite-messaging-unit-gateway"]:has(a[href^="https://www.nytimes.com/subscription?"])
@@ -12590,6 +12595,8 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+h2-mobile.fr###NLModal
+h2-mobile.fr##.modal-backdrop
 telegraf.news##aside > div.left:has(> a[href^="https://news.google.com/publications/"])
 journal.tinkoff.ru##div[data-analytics="banner"] > a[href^="/one-page-to-rule-them-all/"]
 click-or-die.ru##div[class^="click-admitad-mobile_"]
@@ -12984,7 +12991,6 @@ ibelieve.com#?#.bg-white:has(> div.mx-auto iframe[title*="iBelieve Daily Prayers
 upi.com###arc_email_subsc
 calmatters.org,berkeleyside.org##.newspack-popup-container
 readyforboarding.pl##div[class^="lepopup-"]
-readyforboarding.pl##.widget_mc4wp_form_widget
 biblegateway.com#$##sailthru-overlay-container { display: none !important; }
 biblegateway.com#$#body.sailthru-overlay-no-scroll { overflow: auto !important; }
 biblegateway.com#?#body > div.bg-popup-root:has(div.container > .body > form[action="/newsletters/subscribe/"])
@@ -14216,7 +14222,7 @@ ac-illust.com##.login__bar.bottom-0
 canonical.com#?##main-content > article > section > .row > .col-4 > div > .p-card--muted:has(> .p-card__content > form[id^="mktoForm_"][onsubmit*="Newsletter"])
 alisale.by#?#div[id^="modal_mypopup_"]:has( a[href^="https://t.me/alisale_by"])
 alisale.by##.telega-block
-timeextension.com###ui-join-newsletter
+nintendolife.com,timeextension.com###ui-join-newsletter
 humanevents.com#$#body { overflow: auto !important; padding-right: 0 !important; }
 humanevents.com#$#.modal { display: none !important; }
 humanevents.com#$#.modal ~ div.modal-backdrop { display: none !important; }
@@ -17397,7 +17403,7 @@ christianity.com##.newsletter-390
 jansatta.com##div[id^="id_newsletter_subscription"]
 cbsnews.com##div[title*="Get the Newsletter"]
 livehindustan.com##.nletter-cont
-kisene.com,itcstore.in,farmasave.it##.wrapper-newsletter
+holiholic.com,kisene.com,itcstore.in,farmasave.it##.wrapper-newsletter
 vawoo.co.uk##.footer-stay-connected
 timesofindia.indiatimes.com##.toinewsletternudge
 eisamay.com,maharashtratimes.com,navbharattimes.indiatimes.com##.wdt_newsLetter
@@ -18122,7 +18128,7 @@ kodi-tipps.de##.widget_newsletter2go
 purevpn.com###email-box
 mywebpc.ru#?#.sidebar_list > div.widget:has(> div.textwidget > form[method="post"] input[name="email"])
 myfreesoft.ru#?##rightcolumn > div.widget:has(> div[class] form[method="post"] > button[type="submit"])
-coloradotimesrecorder.com,finsmes.com,storagereview.com,marijuanamoment.net,photoshopvip.net,psypost.org,kdnuggets.com,khaosodenglish.com,crazytechgo.com,readersfusion.com,seeedstudio.com,gossipfunda.com,victor-mochere.com,cdkeyit.it,cdkeynl.*,allkeyshop.com,thetechedvocate.org,architekturvideo.de,gadgetstouse.com,cifrosvit.com,asistanaliz.com,bordoklavyeli.net,dropgalaxy.com,digitalmusicnews.com##.widget_mc4wp_form_widget
+h2-mobile.fr,readyforboarding.pl,coloradotimesrecorder.com,finsmes.com,storagereview.com,marijuanamoment.net,photoshopvip.net,psypost.org,kdnuggets.com,khaosodenglish.com,crazytechgo.com,readersfusion.com,seeedstudio.com,gossipfunda.com,victor-mochere.com,cdkeyit.it,cdkeynl.*,allkeyshop.com,thetechedvocate.org,architekturvideo.de,gadgetstouse.com,cifrosvit.com,asistanaliz.com,bordoklavyeli.net,dropgalaxy.com,digitalmusicnews.com##.widget_mc4wp_form_widget
 fotocommunity.de#?#.site-main > div.vc_row > div.vc_row:has(> div.wpb_column > div.vc_column-inner > div.wpb_wrapper > div.index__newsletter)
 cointelegraph.com##.b-post-subscription
 cointelegraph.com##.b-new-subscribe
