@@ -4568,6 +4568,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+dramaclub.com.br###wpfront-notification-bar-spacer
 kaiten.ru###kw-sendsay-popup
 community.cloudflare.com#%#//scriptlet('trusted-click-element', '.interstitial-alert-modal .modal-close')
 democracydocket.com###alert-bar
@@ -11794,6 +11795,8 @@ macwelt.de,pcwelt.de#%#//scriptlet("set-constant", "firebase.messaging", "noopFu
 ! SECTION: Push notifications - Regular rules
 !
 ! push
+jn.pt##.sk-notification-dialog
+jn.pt###sk-notifications-container
 strannikmodz.me##body > div.sp-prompt.sp-modal.show-prompt + div.sp-prompt-backdrop
 strannikmodz.me##body > div.sp-prompt
 gameguru.ru###webpush-wrapper
@@ -12598,6 +12601,8 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+freshauto.ru##.block-telegram
+dramaclub.com.br###dtw_socialbox-7
 h2-mobile.fr###NLModal
 h2-mobile.fr##.modal-backdrop
 telegraf.news##aside > div.left:has(> a[href^="https://news.google.com/publications/"])
@@ -18277,7 +18282,7 @@ officelife.media,trashexpert.ru,leverageedu.com,andpro.ru,mskc.pro,gastronom.ru,
 24tv.ua##.subscribe-revolver-wrap
 ricksdailytips.com##.tag-newsletter
 naviny.by##a[href="https://t.me/naviny_by"]
-blog.jetbrains.com,sunmag.me,poder360.com.br,becloud.by,propublica.org,lifan-car.ru,2x2tv.ru,thecode.media##.form-subscribe
+freshauto.ru,blog.jetbrains.com,sunmag.me,poder360.com.br,becloud.by,propublica.org,lifan-car.ru,2x2tv.ru,thecode.media##.form-subscribe
 vesti.ua#?##adpartner_branding > div.rowFullsecond:has(> div.redLine > div[class] > form.email-form)
 dailycaller.com##.spot-im-conversation-header
 tproger.ru##.yikes-mailchimp-container
