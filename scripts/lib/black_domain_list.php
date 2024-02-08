@@ -27,6 +27,9 @@ return [
         "httpdns.bcelive.com", //一个不支持https的httpdns服务，并不能反制运营商劫持
     ],
     "tencentmusic.com" => ["ad.tencentmusic.com"],
+    "tencent.com" => [
+        "tpstelemetry.tencent.com", // #883
+    ],
     "qq.com" => [
         "bugly.qq.com",
         "openmsf.3g.qq.com",
@@ -44,7 +47,6 @@ return [
         "wnsmusic.qq.com", // #847
         "tmeadbak.y.qq.com", // #847
         "ugcup.music.qq.com", // #847
-        "ad.tencentmusic.com", // #847
         "ipv6.kg.qq.com", // #847
         "tmeadbak.y.qq.com", // #847
     ],
@@ -166,6 +168,7 @@ return [
         "iadsdk.apple.com",
         "banners.itunes.apple.com",
         "iad.apple.com",
+        "api-adservices.apple.com", // #864
     ],
     "51y5.net" => [
         "51y5.net", //wifi万能钥匙的推广
@@ -535,7 +538,10 @@ return [
     ],
     "twitter.com" => ["p.twitter.com"],
     "nsimg.net" => ["m2.nsimg.net"],
-    "microsoft.com" => ["mobile.pipe.aria.microsoft.com"],
+    "microsoft.com" => [
+        "mobile.pipe.aria.microsoft.com",
+        "events.data.microsoft.com", // #882
+    ],
     "leixjun.com" => [
         //恶意诱导下载app
         "leixjun.com",
@@ -1680,7 +1686,11 @@ return [
     //一些电视盒子相关的屏蔽列表
     "tuiapple.com" => ["activity.tuiapple.com"],
     "tudou.com" => ["ad.api.3g.tudou.com"],
-    "youku.com" => ["ad.api.3g.youku.com", "ad.api.mobile.youku.com"],
+    "youku.com" => [
+        "ad.api.3g.youku.com",
+        "ad.api.mobile.youku.com",
+        "pcapp-data-collect.youku.com", // #884
+    ],
     "sohu.com" => ["agn.aty.sohu.com"],
     "gitv.tv" => ["api.cupid.ptqy.gitv.tv"],
     "tatagou.com.cn" => ["api.tatagou.com.cn"],
