@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202402081404
+! Version: 202402082115
 ! Title: Fanboy's Annoyance List
-! Last modified: 08 Feb 2024 14:04 UTC
+! Last modified: 08 Feb 2024 21:15 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1343,6 +1343,7 @@ _twitter_follow.
 /cookiebanner.js
 /cookiebanner.min.js
 /cookiebanner.script.js
+/cookiebanner/banner.js
 /cookiebanner/consent.js
 /cookieBannerLoader.js
 /CookieBannerToIncludeCompiled.js
@@ -12234,6 +12235,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.post__share--twitter
 ##.post__share--whatsapp
 ##.post__share--white
+##.post__share-container
 ##.post__share-social
 ##.post__single-social
 ##.post__social-container
@@ -48395,6 +48397,7 @@ downdetector.com#@##_evh-button
 la7.it#@##_evh-ric
 withings.com#@##analytics_cookie
 sonyliv.com#@##app-cookie-div
+bancaditalia.it#@##banner-privacy
 pharmastar.it#@##cc-modal
 bundesanzeiger.de#@##cc_banner
 bing.com#@##cc_container
