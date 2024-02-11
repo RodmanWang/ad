@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202402102031
+! Version: 202402110055
 ! Title: Fanboy's Annoyance List
-! Last modified: 10 Feb 2024 20:31 UTC
+! Last modified: 11 Feb 2024 00:55 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1204,7 +1204,7 @@ _twitter_follow.
 /consent/public/app.js
 /consent_banner.js
 /consent_v2/choice.js
-/consentbanner-fragment/public/js/app.
+/consentbanner-fragment/public/js/app.fallback.js
 /consentbar/consent-bar.min.js
 /consentcookie.js
 /consentcookie.min.js
@@ -36766,6 +36766,7 @@ mundodeportivo.com###gg-alert
 toy-people.com###notification_alert_container
 hesport.com###notification_pp
 animefire.net###page-mask
+huffingtonpost.es##.banner-app__container
 interfax.ru##.popupNowReading
 ! aerzteblatt.de###pushy
 formulatv.com###resetUI
@@ -42922,6 +42923,8 @@ aquacard.co.uk,blsspain-russia.com,darricau.com,demarko-trailers.com,frescomarke
 eurorelais.de,fewoferien.de,holidayhomes.com,maisondevacances.fr##.posf.react-onclickoutside
 ! ! CookiePopup
 bitcoin-store.net,brain.fm,shopbuddies.be,shopbuddies.co.uk,shopbuddies.de,shopbuddies.fi,shopbuddies.fr,shopbuddies.it,shopbuddies.nl,shopbuddies.pl,shopbuddies.se##[class^="CookiePopup"]
+! ! .cookie-hint
+afto.al,frs-baltic.com,frs-elbfaehre.de,frs-helgoline.de,frs-portugal.pt,frs-shipmanagement.eu,frs-syltfaehre.de,frs.world,fwol.de,reederei-hiddensee.de,weisse-flotte.de##.cookie-hint
 ! ! .CookiesBanner
 monzoapp.com,oscarproperties.com,zoominfo.com##[class^="CookiesBanner"]
 ! ! .blocker
@@ -42947,7 +42950,7 @@ batida.de,kuemmerling.de,lutter-und-wegner.de,menger-krug.de##.active.legacy
 ! ! .amgdprcookie-modal-template
 icko-apiculture.com##.amgdprcookie-modal-template
 ! ! .bottom-0.position-fixed
-carsharingi.ru,clipartsfree.net,nmsu.edu,tech-america.com,waracle.com##.bottom-0.position-fixed
+carsharingi.ru,clipartsfree.net,jenner.com,nmsu.edu,tech-america.com,waracle.com##.bottom-0.position-fixed
 ! ! .bottom-0.right-0
 educationendowmentfoundation.org.uk,rshb.ru##.bottom-0.right-0
 ! ! .bottom-0.relative
@@ -44631,7 +44634,7 @@ ecuavisa.com##.btn-compartir
 noticiasrcn.com##.btn-google-news
 tribuna.com.mx##.btn-seguinos-gnews
 eltiempo.com##.btn_googlelink
-segre.com##.c-detail__share
+huffingtonpost.es,segre.com##.c-detail__share
 cadenaser.com##.c-sn
 clubdelsubscriptor.cat##.club-producte-social
 cadenaser.com,caracol.com.co,wradio.com.co##.cnt-interaccion
@@ -45011,6 +45014,7 @@ pauta.cl###suscripcion
 elpais.com.uy###widgetNewsHolder
 ara.cat##.ara-newsletter
 elordenmundial.com##.boletin-wrapper
+huffingtonpost.es##.c-newsletter
 librotea.com##.close-popup-overlay
 economipedia.com##.cta-suscripcion
 eluniverso.com##.flujo-suscripciones
@@ -45170,6 +45174,7 @@ newslichter.de###karmaSplash
 art-studios-inprogress.de###kb-container
 look-one.de###keks
 spaness.de###kekt-overlay
+umlandscout.de###loader-new
 mistercurtain.de###lock
 gorreri.com###loggedbar
 ltur.com###lturPageOverlay
@@ -48738,7 +48743,7 @@ legifrance.gouv.fr#@#div.cnil
 baden-wuerttemberg.de,calameo.com#@#div.cookie-alert
 autohaus24.de,cera.coop,channel4.com,intersport.de#@#div.cookie-banner
 epochtimes.it,onnibus.com,stilord.com,stilord.de,stilord.fr,stilord.pl#@#div.cookie-bar
-dovoba.de,forcetools-kepmar.eu,moreincommon.de#@#div.cookie-consent
+booking.reederei-zingst.de,booking.weisse-flotte.de,booking2.reederei-hiddensee.de,dovoba.de,forcetools-kepmar.eu,moreincommon.de#@#div.cookie-consent
 sevdesk.de#@#div.cookie-consent-modal
 ieatfoodtours.co.uk,onceinrome.com,weliketuscany.it#@#div.cookie-consent-popup
 webtrack.dhlecs.com,withings.com#@#div.cookie-container
