@@ -4570,6 +4570,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+tp-link.com###linkedin-follow
 consumerreports.org#%#//scriptlet('set-cookie', 'mt_gaclosed', 'true')
 macked.app#%#//scriptlet('prevent-setTimeout', 'showed_system_notice')
 viva.co.id###wa-channel
@@ -11809,6 +11810,7 @@ macwelt.de,pcwelt.de#%#//scriptlet("set-constant", "firebase.messaging", "noopFu
 ! SECTION: Push notifications - Regular rules
 !
 ! push
+themirror.com##.pwa-modal-prompt
 ||shiftdelete.net/wp-content/plugins/push-notification-*/js/pnfpb_pushscript_pwa.js
 jn.pt##.sk-notification-dialog
 jn.pt###sk-notifications-container
@@ -12616,6 +12618,7 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+themirror.com###auth-ui_marketing-opt-in-container
 bookpress.gr##.custom > div.moduletable
 bookpress.gr#%#//scriptlet('set-cookie', 'popup_aholic284', '1')
 debugbear.com##main > div[class^="container_"]:has(> form#mc-embedded-subscribe-form)
