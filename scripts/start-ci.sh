@@ -22,6 +22,7 @@ easylist=(
 
 hosts=(
   "https://raw.githubusercontent.com/RodmanWang/ad/master/scripts/origin-files/ad-hosts.txt"
+  "https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-hosts-online.txt"
 )
 
 strict_hosts=(
