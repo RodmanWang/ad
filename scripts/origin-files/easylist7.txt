@@ -3319,6 +3319,8 @@ www.kinopoisk.ru##div[class^="trailer-promo"]
 ! END: Yandex
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/172827
+igromania.ru##div[class^="AdFoxBannerFooter_footer"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172791
 dtf.ru##div.view > div:has(> div[class][style] > a[href^="https://booster.osnova.io/a/"])
 dtf.ru##div.view > div.entry > div:has(> div[class][style] > a[href^="https://booster.osnova.io/a/"])
@@ -5057,6 +5059,8 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+insideclimatenews.org##.icn-call-out-block
+g2.com##.product-head__sponsored-ad
 home.kingsoft.jp##.col-md-3 > a[href] > img
 ptsecurity.com##.sidebar-item_banner
 eikoh.co.jp##.targetSpace
