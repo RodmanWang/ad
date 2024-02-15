@@ -1635,7 +1635,7 @@ kuruma-news.jp,magmix.jp,trafficnews.jp$$div[data-history="photo_extra"]
 /?m=000&t=000&ip=$document
 ://www.aeon-co-jp.$document
 ://jp-safebgt-$document,domain=amazonaws.com
-/ap/sign.php?authenticated=true&openid%2Fgp%2Fsignin%2Fx%26i%3Da%26oauth%3Dm%26i%3Fie%3DUTF8%26ref_%3Drhf_custrec_signin^$document,domain=best
+/ap/sign.php?authenticated=true&openid%2Fgp%2Fsignin%2Fx%26i%3Da%26oauth%3Dm%26i%3Fie%3DUTF8%26ref_%3Drhf_custrec_signin^$document,domain=best|cn
 /g?visitorid=*&extra_data2=|$document
 ||amplifyapp.com/*=(0101)-$document
 .xyz/loginone.php?do?$document
@@ -1807,6 +1807,7 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+minkabu.jp###stock_header_contents > div[class="min-h-[120px]"]
 ai-matome.net##.sidein2
 gurum.biz##.res > a[href*="amazon.co.jp/"][target="_blank"]
 sakamichijyoho46.blog.jp##div[class^="article-body"] > div[align="center"] > table[border="0"]
