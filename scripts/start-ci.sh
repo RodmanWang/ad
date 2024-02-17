@@ -16,6 +16,7 @@ easylist=(
 hosts=(
   "https://raw.githubusercontent.com/RodmanWang/ad/master/scripts/origin-files/ad-hosts.txt"
   "https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-hosts-online.txt"
+  "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&startdate%5Bday%5D=06&startdate%5Bmonth%5D=06&startdate%5Byear%5D=2003&useip=0.0.0.0"
 )
 
 strict_hosts=(
