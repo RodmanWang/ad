@@ -110,9 +110,11 @@
 ||geoloc*.geo20120530.com^
 ||geoloc*.geostats.ovh^
 ||geoloc*.geovisite.ovh^
+||gmx.*^$removeparam=mc
 ||gonews*.net^
 ||gscounters.*.gigya.com^
 ||hn-ping*.hashnode.com^
+||hog.*^$removeparam=ad
 ||host*.carl-ras.dk^
 ||host*.ncoi.nl^
 ||host*.nti.nl^
@@ -148,6 +150,8 @@
 ||logger-*.dailymotion.com^
 ||logs*.smithsonian.museum^
 ||logservice-*.platform.dbankcloud.cn^
+||lotto.gmx.*^$removeparam=advertisementId
+||lotto.gmx.*^$removeparam=partnerId
 ||lt*.tritondigital.com^
 ||maas-*.phunware.com^
 ||mapi-log.qoo*.jp^
@@ -176,6 +180,10 @@
 ||pixel*.production-public.tubi.io^
 ||pixel-*.rubiconproject.com^
 ||pixelapi-*.cs.mysamba.tv^
+||play.google.*^$removeparam=referrer
+||plus.yandex.*^$removeparam=origin
+||plus.yandex.*^$removeparam=source
+||plus.yandex.*^$removeparam=state
 ||prebid-*.rubiconproject.com^
 ||production-adserver-*.amazonaws.com^
 ||putrr*.com^
@@ -197,6 +205,7 @@
 ||sam*.baby-kingdom.com^
 ||same*.stockstar.com^
 ||sensorsdata*.read.duokan.com^
+||shopping.gmx.*^$removeparam=origin
 ||snowplow-collector-*.amazonaws.com^
 ||sock*-goguardian.pusher.com^
 ||ssh.*.com^*!$script,third-party
@@ -207,6 +216,12 @@
 ||stats*.videonow.ru^
 ||stats-*.p2pnow.ru^
 ||stats2.*.fdnames.com^
+||streamfab.*^$removeparam=_csrc_
+||streamfab.*^$removeparam=_cus_
+||streamfab.*^$removeparam=_cut_
+||streamfab.*^$removeparam=c_ad
+||streamfab.*^$removeparam=client_m
+||streamfab.*^$removeparam=client_t
 ||subnewss*.net^
 ||suite*.linximpulse.net^
 ||t*.zcvh.net^
@@ -231,6 +246,8 @@
 ||v.tzbox*.xyz^
 ||vns86.oss-*.aliyuncs.com^
 ||w*statistics.info^
+||weibo.*^$removeparam=dt_dapp
+||weibo.*^$removeparam=weibo_id
 ||www.fuze-hill*.xyz^
 ||www.fuze-sea*.xyz^
 ||xlog*-*.tiktokv.com^
