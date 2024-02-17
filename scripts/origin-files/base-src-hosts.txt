@@ -1,6 +1,3 @@
-    ]
-    | <a href="index.php">about this list</a>
-    | <a href="iplist.php">view the blocklist of IP addresses</a>
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
@@ -4077,40 +4074,16 @@
 127.0.0.1 zy16eoat1w.com
 127.0.0.1 zzhc.vnet.cn
 </body>
-</form>
 </html>
 </pre>
-</table>
-</tr>
 <body>
-<form action="/adservers/serverlist.php">
 <head>
 <html>
-<input type=hidden name="startdate[day]" value="06">
-<input type=hidden name="startdate[month]" value="06">
-<input type=hidden name="startdate[year]" value="2003">
-<input type=hidden name=hostformat value="hosts">
 <link rel='stylesheet' href='/css/pgl.css' type='text/css'></head>
 <link rel=alternate type="application/rss+xml" title="Blocklist of hostnames and domains for blocking ads, trackers and others (format: hosts -- in hosts file format) (RSS - last 50 added)" href="rss/1.0/adservers.rss">
 <meta name="author" value="Peter Lowe; pgl@yoyo.org">
 <meta name="description" value="Blocklist of hostnames and domains for blocking ads, trackers and others (format: hosts -- in hosts file format)">
 <meta name="keywords" value="ad blocking, blocking ads, ad servers, trackers, ads, banners, hosts file, privacy">
-<p> [ <a href="/adservers/serverlist.php?hostformat=hosts;showintro=0">hide this header (view the list on its own)</a>
-<p> [ <b><a href="/adservers/">view the list in a different format</a></b>
 <p><pre>
-<p><table cellpadding=2 cellspacing=0>
-<p><table cellpadding=3 cellspacing=1>
-<td><b class=blue>3782 / 3782</b></td>
-<td><b class=blue>Fri, 06 Jun 2003 00:00:00</b></td>
-<td><b class=blue>Fri, 16 Feb 2024 14:16:11 GMT</b></td>
-<td><b class=blue>hosts -- in hosts file format</b></td>
-<td><input type=submit value="show list with this IP address"></td>
-<td><input type=text size=12 name=useip value="127.0.0.1"></td>
-<td>blocklist last updated:</td>
-<td>change the IP address used:</td>
-<td>format list is displayed in:</td>
-<td>listing ad servers added after:</td>
-<td>total entries:</td>
 <title>
-<tr>
 Blocklist of hostnames and domains for blocking ads, trackers and others (format: hosts -- in hosts file format)</title>
