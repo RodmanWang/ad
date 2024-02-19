@@ -86,6 +86,8 @@
 ! not for DNS
 ||ias.rakuten.co.jp^$third-party,domain=~rakuten-co.jp
 !
+||ad1.girls-affiliate.com^$document
+||manga.boy.jp^$third-party
 ||af.atsoho.com^$third-party
 ||flux-cdn.com^$third-party
 ||js.mediams.mb.softbank.jp^
@@ -1143,6 +1145,9 @@ jav380.com#%#//scriptlet('set-constant', 'document.write', 'noopFunc')
 anacap.doorblog.jp#%#//scriptlet('prevent-addEventListener', 'scroll', 'b.type')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/144212
 anianierosuki.work#%#//scriptlet('prevent-addEventListener', 'click', 'event')
+! https://github.com/AdguardTeam/AdguardFilters/issues/142720
+!+ NOT_PLATFORM(ext_ublock)
+trpger.us,mk.yopo.work,sushi.ski,warpday.net,zadankai.club,misskey.io,misskey.oga.ninja#%#//scriptlet('json-prune', 'ads.[].imageUrl')
 ! popup
 oppaideippai.net#%#//scriptlet('prevent-window-open')
 ! ads
@@ -1617,6 +1622,7 @@ kuruma-news.jp,magmix.jp,trafficnews.jp$$div[data-history="photo_extra"]
 /wp-content/themes/CashLINESystem/js/modal.$script
 !
 ! Malware/Phishing
+.top/nc/bbs22.php$document
 /mart/*.html?zenid=$document,domain=cfd|top
 /?bcda=*)-$document
 ||azurestaticapps.net/*=(0101)-$document
@@ -1807,6 +1813,8 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+joker004.blog.fc2.com##div[class^="ad_entry_"]
+video.fc2.com##.pr-ads
 nyahentai.re###main > .home-h:has(> a[href^="https://go.xlrdr.com"])
 kurashiru.com##div[class^="article-items_ads_"]
 kurashiru.com##div[class^="article-items_ads_"] + div[aria-hidden="true"]:empty
