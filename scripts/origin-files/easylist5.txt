@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202402220630
+! Version: 202402221152
 ! Title: Fanboy's Annoyance List
-! Last modified: 22 Feb 2024 06:30 UTC
+! Last modified: 22 Feb 2024 11:52 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -43066,7 +43066,7 @@ argyle.com,artma-zaproszenia.pl,avif.io,lahella.fi,olecams.com,videochaterotico.
 ! ! .bottom-6
 boostroyal.nl,wimotic.fr##.bottom-6
 ! ! .bottom-5
-cinobo.com,jdslabs.com,lukso.network,platform.stability.ai,simtex.io,skyline-emu.one,vloot.io##.bottom-5
+cinobo.com,jdslabs.com,lukso.network,mymarket.ge,platform.stability.ai,simtex.io,skyline-emu.one,vloot.io##.bottom-5
 ! ! .bottom-8
 ai-coustics.com,dr-anns.com,lightyear.one,vecer.com##.bottom-8
 ! ! .bottom-4
@@ -49121,6 +49121,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||parastorage.com/services/wix-thunderbolt/dist/cookiesManager.
 @@||playoverwatch.com/static/externals/cookie-consent-filter-compat.js
 @@||policy.app.cookieinformation.com^$domain=altibox.no|elkjop.no|fdm-travel.dk|jysk.nl|power.no|skousen.dk|skousen.no|whiteaway.com|whiteaway.no|whiteaway.se
+@@||portal-frontend.plarium.com/client/cookiesbanner.js$script,~third-party
 @@||portal.aae.at^*/cookieconsent.js$script,~third-party
 @@||portal.energie-graz.at/kundenportal/css/cookieconsent/$~third-party
 @@||portal.energie-graz.at/kundenportal/js/lib/cookieconsent.js$~third-party
