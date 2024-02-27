@@ -230,15 +230,16 @@ member.neofinancial.com#%#//scriptlet('set-constant', '__fpjs_p_l_b.load', 'noop
 itsu.com#%#//scriptlet('set-constant', 'AtreemoTrackingLbr', 'noopFunc')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/140059
 pracuj.pl#%#//scriptlet('set-cookie-reload', 'gptrackCookie', '1')
+! https://github.com/AdguardTeam/AdguardFilters/issues/173678
 ! https://github.com/AdguardTeam/AdguardFilters/issues/167552
 ! https://github.com/AdguardTeam/AdguardFilters/issues/152478
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139949
-tineco.com,galaxy.geely.com,guancha.cn#%#//scriptlet('set-constant', 'sensors', 'emptyObj')
-tineco.com,galaxy.geely.com,guancha.cn#%#//scriptlet('set-constant', 'sensors.init', 'noopFunc')
-tineco.com,galaxy.geely.com,guancha.cn#%#//scriptlet('set-constant', 'sensors.track', 'noopFunc')
-tineco.com,galaxy.geely.com,guancha.cn#%#//scriptlet('set-constant', 'sensors.quick', 'noopFunc')
-tineco.com,galaxy.geely.com,guancha.cn#%#//scriptlet('set-constant', 'sensors.login', 'noopFunc')
-tineco.com,galaxy.geely.com,guancha.cn#%#//scriptlet('set-constant', 'sensors.registerPage', 'noopFunc')
+xingyue.geely.com,tineco.com,galaxy.geely.com,guancha.cn#%#//scriptlet('set-constant', 'sensors', 'emptyObj')
+xingyue.geely.com,tineco.com,galaxy.geely.com,guancha.cn#%#//scriptlet('set-constant', 'sensors.init', 'noopFunc')
+xingyue.geely.com,tineco.com,galaxy.geely.com,guancha.cn#%#//scriptlet('set-constant', 'sensors.track', 'noopFunc')
+xingyue.geely.com,tineco.com,galaxy.geely.com,guancha.cn#%#//scriptlet('set-constant', 'sensors.quick', 'noopFunc')
+xingyue.geely.com,tineco.com,galaxy.geely.com,guancha.cn#%#//scriptlet('set-constant', 'sensors.login', 'noopFunc')
+xingyue.geely.com,tineco.com,galaxy.geely.com,guancha.cn#%#//scriptlet('set-constant', 'sensors.registerPage', 'noopFunc')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139139
 embed.rtl.hu#%#//scriptlet('set-constant', 'gemiusStream', 'emptyObj')
 embed.rtl.hu#%#//scriptlet('set-constant', 'gemiusStream.event', 'noopFunc')
@@ -113384,9 +113385,10 @@ login.coupang.com#%#//scriptlet('prevent-element-src-loading', 'script', 'app-co
 ! https://github.com/AdguardTeam/AdguardFilters/issues/152966
 !+ PLATFORM(ios, ext_safari, ext_android_cb)
 @@||analytics.htmedia.in/analytics-js/tracker.js$domain=livemint.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/173678
 ! https://github.com/AdguardTeam/AdguardFilters/issues/152478
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
-@@||galaxy.geely.com/assets/plugins/sa-sdk-javascript-*/sensorsdata.min.js
+@@||geely.com/assets/plugins/sa-sdk-javascript-*/sensorsdata.min.js$domain=galaxy.geely.com|xingyue.geely.com
 ! https://make.dmm.com/mypage/upload/ broken upload
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=make.dmm.com,important
 @@||googletagmanager.com/gtm.js$domain=make.dmm.com
@@ -113640,9 +113642,9 @@ tieba.baidu.com#%#//scriptlet('set-constant', 'passFingerPrint', 'noopFunc')
 !+ PLATFORM(ext_android_cb)
 @@||pro.hit.gemius.pl/gstream.js$domain=embed.rtl.hu
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139046
-||idm.hit.gemius.pl/gplayer.js$script,redirect=gemius,domain=poradnikzdrowie.pl|mjakmama24.pl|se.pl|eskarock.pl|voxfm.pl|radioplus.pl|eska.pl|radiosupernova.pl
+||idm.hit.gemius.pl/gplayer.js$script,redirect=gemius,domain=poradnikzdrowie.pl|mjakmama24.pl|se.pl|eskarock.pl|voxfm.pl|radioplus.pl|eska.pl|radiosupernova.pl|vibefm.pl|urzadzamy.pl
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
-@@||idm.hit.gemius.pl/gplayer.js$domain=poradnikzdrowie.pl|mjakmama24.pl|se.pl|eskarock.pl|voxfm.pl|radioplus.pl|eska.pl|radiosupernova.pl
+@@||idm.hit.gemius.pl/gplayer.js$domain=poradnikzdrowie.pl|mjakmama24.pl|se.pl|eskarock.pl|voxfm.pl|radioplus.pl|eska.pl|radiosupernova.pl|vibefm.pl|urzadzamy.pl
 ! https://github.com/AdguardTeam/AdguardFilters/issues/138964
 @@||googletagmanager.com/gtm.js$domain=petlebi.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/138727
