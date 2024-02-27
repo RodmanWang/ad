@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202402270116
+! Version: 202402270246
 ! Title: Fanboy's Annoyance List
-! Last modified: 27 Feb 2024 01:16 UTC
+! Last modified: 27 Feb 2024 02:46 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -35114,6 +35114,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||futura-sciences.com/clientscript/push.js
 ||horoscope.fr/notifications/
 ||metrobilbao.eus/firebase-messaging-sw.js
+||push.idowa.de^
 ||push.neko-san.fr^
 ||pushme.magellanotech.it^
 ||tio.ch/js/api.push.js
@@ -41135,6 +41136,7 @@ holobuilder.com##.cookie-manager-main-container
 thesports.com##.cookie-message-page
 privacy.samsung.com##.cookie-noneu
 ydns.io##.cookie-notice-outer
+jobs.wavy.com##.cookie-notice-v2
 victors.co.uk##.cookie-notice-visible
 aptoide.com##.cookie-notice__CookieNoticeWrapper-sc-186p755-0
 aptible.com##.cookie-notice_container__dJUAA
@@ -42387,6 +42389,7 @@ podbean.com##div[style^="z-index: 999"]
 bosch-professional.com##dock-privacy-settings
 angular.dev##docs-cookie-popup
 fi.google.com##fi-cookie-consent
+getgreatcareers.com##gc-accept-cookie
 gcore.com##gcore-cookies-settings
 globalsolaratlas.info##gsa-cookie-banner
 my.games##header > .gdpr
@@ -42431,6 +42434,8 @@ houseofmilk.nl,kiralabunu.com,latuciuri.ro,onlineparentingconsultation.co.uk,uni
 anthonypoperealestategroup.com,cirber.com,cryptopricealerting.com,fridaysdaughter.com,hangfire.io,jesswandering.com,raydendesign.com,refurbis.com,restart-auto.fr,tarzankay.com##.wpcb-container
 ! ! .cc-window-wrapper
 brothers-graphics.com,dryrobe.com,dxracer-germany.de,lockcard.de##.cc-window-wrapper
+! ! #gdprMask
+flexispot.co.uk,flexispot.de,flexispot.es,flexispot.it,flexispot.nl,flexispot.pl###gdprMask
 ! ! .swal2-container
 kyounoryouri.jp,natalfortatacadista.com.br,outage.report##.swal2-container
 ! ! .cc-container
@@ -46052,7 +46057,7 @@ hortiadvice.dk##.infobar-wrapper
 arndalspa.dk##.js-alert-privacy
 globase.dk##.mtsnb
 invita.dk,unoform.dk##.notificationbar
-wunderwear.dk##.pop-overlay
+nkjagt.dk,wunderwear.dk##.pop-overlay
 bestiloghent.dk##.popup-container
 hirschsprung.dk##.popup-msg
 get-digital.dk##.privacy-wrapper
