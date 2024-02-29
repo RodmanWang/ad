@@ -1264,8 +1264,6 @@ $script,third-party,denyallow=fastly.net|statically.io|sharecast.ws|bunnycdn.ru|
 !
 !
 !
-||cloudcache.tencent-cloud.com/qcloud/ui/static/static_source_business/$domain=cloud.tencent.com
-cloud.tencent.com##.cdc-commercial-card
 iyf.tv##vg-player div.vg-bg
 clickhole.com,lifehacker.com,splinternews.com,avclub.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,qz.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##div[class]:has(> div[data-ad-unit]:only-child)
 mcmod.cn##a[href^="https://link.mcmod.cn/target/service-ad-vat"]
@@ -4764,6 +4762,7 @@ newduba.cn###jq_youxi
 ##style + .a-loading
 ##style + .need_grid_img
 ##style + .vdgdo
+##.adpcc
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 ##td[id^="td_"] > a[href^="/htmm/"]
 ##vg-pause-d
@@ -4963,6 +4962,11 @@ newduba.cn###jq_youxi
 ||szmnl.cn^
 ||sdjkbcjksbdsvv.com^
 ||mlhtr.cn^
+##a[href*=".imiwang.com/"]
+||shanvezhu.com^
+||zhaweifeng.com^
+||uxlvk.cn^
+##a[href*="/dsf71.cc"]
 ||yyddkm526.shop^
 ||zagyjnn.cn^
 ||zopuqv.icu^
@@ -21552,6 +21556,7 @@ smjb.net##div[style*="height: 50%"]
 ||biquge99.cc/js/dj
 ||bookrb.com/images/jtt
 ||d3iih5w7xp5hdg.cloudfront.net^
+||d2un76zvb5mgzx.cloudfront.net^
 ||dobiez.com/statics/wap_v1/js/qwd.
 ||duanwenxue.com/functions/
 ||fxsc6.net/js/
