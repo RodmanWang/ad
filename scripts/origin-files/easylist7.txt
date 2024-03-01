@@ -3236,7 +3236,8 @@ ya.ru##.simple-popup__overlay_shown + div.simple-popup_shown.simple-popup_autocl
 ! Yandex.Search
 [$path=/search]ya.ru,yandex.*##.AdvOffers
 [$path=/search]ya.ru,yandex.*##.EContent.SearchPage-RMG
-[$path=/search]ya.ru,yandex.*##.serp-item:has(> div[data-state-id] > article > div[class*="Header"] > span[id*="-PriceDisclaimer"])
+[$path=/search]ya.ru,yandex.*##.serp-item[data-fast-subtype="product_tiles_adv"]
+[$path=/search]ya.ru,yandex.*##.serp-item:has(> div[data-state-id] > article > div[class*="-"] span[id*="-PriceDisclaimer"])
 ! popup
 [$path=/search]ya.ru,yandex.*##.Distribution-Popup
 [$path=/search]ya.ru,yandex.*#$#.Distribution-Splashscreen { display: none !important; }
@@ -7551,9 +7552,6 @@ zeroupload.com#%#//scriptlet('adjust-setInterval', 'count', '*', '0.001')
 antonimos.de,quesignifi.ca#%#//scriptlet('set-constant', 'waitTime', '0')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/160875
 streamvid.net#%#//scriptlet('adjust-setTimeout', 'countDown', '*', '0.001')
-! https://github.com/AdguardTeam/AdguardFilters/issues/160528
-decrypt.day#%#//scriptlet('adjust-setTimeout', '_=!0', '*', '0.001')
-decrypt.day#%#//scriptlet('adjust-setInterval', 'update', '*', '0.02')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/160439
 alpinecorporate.com#%#//scriptlet('adjust-setInterval', 'counter', '*', '0.001')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/160334
