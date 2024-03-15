@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202403150858
+! Version: 202403151217
 ! Title: Fanboy's Annoyance List
-! Last modified: 15 Mar 2024 08:58 UTC
+! Last modified: 15 Mar 2024 12:17 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -35794,7 +35794,7 @@ slate.com##.slate-plus-promo
 sporcle.com##.sporcle-promo
 imobie.com##.sprtadv
 scientificamerican.com##.spw__banner
-bleepingcomputer.com##.stackcommerce-widget
+bleepingcomputer.com,techdirt.com##.stackcommerce-widget
 thespinoff.co.nz##.staffInlineBannerOuter
 i24news.tv##.sticky-bottom-banner
 bitdegree.org##.sticky-bubble-wrp
@@ -35874,6 +35874,7 @@ phemex.com##[href^="https://phemex.com/bonus"]
 walletinvestor.com##[href^="https://premium.walletinvestor.com/"]
 theguardian.com##[name="SlotBodyEnd"]
 theguardian.com##[name="StickyBottomBanner"]
+techdirt.com##[style="width: 300px; height: 360px;"]
 xhamster.com,xhamster.desi##a[class*="promoMessageBanner-"]
 tech-camp.in##a[data-gtm-tcb="TCB_CLICK_scrollbanner_default_exp_income"]
 tech-camp.in##a[data-gtm-tcb^="TCB_CLICK_buntyubanner_"]
@@ -38257,6 +38258,7 @@ leons.ca##.simpleltkmodal-container
 leons.ca##.simpleltkmodal-overlay
 blendernation.com##.simplemodal-container
 blendernation.com##.simplemodal-overlay
+macleans.ca##.single-article-text > blockquote > p
 celebrityaccess.com##.single-footer-subscribe
 hollywoodinsider.com##.single-page-subscription
 reason.com##.single-post-signup-box
@@ -38522,6 +38524,7 @@ expressvpn.com##.wrap-subscribe
 countryviewah.com##.wrap__newsletter
 wwd.com##.wwd-subscribe-now-banner-ad-container
 wwd.com##.wwd-subscribe-now-banner-background
+hereisoregon.com##.yellow-nl
 loyalfordogs.com##.your-help
 bodyweightwarrior.co.uk,brucelee.com,fridaythings.com,paleofuture.com,recoveryguru.com.au,stability.ai,worldofreel.com##.yui-popup-container-node
 culturemap.com##.z-newsletter
@@ -46961,6 +46964,7 @@ maistre.com.br,providenciadedeus.org.br##.aceite
 lisbonaha.pt##.adp-popup-wrap
 hugocursos.com.br,jogatina.com##.alerta
 curitiba.pr.gov.br,inaciomartins.pr.gov.br##.alertaCookies
+dimed.com.br##.antd-pro-components-cookie-pop-up-index-show_popup
 try.com.br##.bZEgfH
 consul.pt##.background-overlay
 unopar.com.br##.banner-fixed-box
@@ -47868,6 +47872,7 @@ ants.vn##.sg-popup-content
 ||consenttool.haendlerbund.de^
 ||cookies.ptj.de^
 ||cookies.tanke-guenstig.de^
+||einwilligung.net/app.js
 ||elbphilharmonie.de/ep/consent-en.js
 ||electriclove.at/*/api/cookie-settings
 ||emondo.de/wp-content/plugins/borlabs-cookie/
