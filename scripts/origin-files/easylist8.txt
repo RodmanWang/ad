@@ -1593,6 +1593,7 @@ newsee-media.com,saitama-np.co.jp,htb.co.jp,oricon.co.jp,maidonanews.jp##.uz-ny
 ||gacraft.jp^$third-party
 houyhnhnm.jp##.section-similer-post
 ! popIn recommendations
+yamakei-online.com##.ad-pop-nw3-nw4
 projectdesign.jp###mainCont > aside.c-box-link:has(> div#_popIn_recommend)
 ryukyushimpo.jp#?#article ~ .flex-col:has(.items-center > #_popIn_recommend)
 mbs.jp##.common-wrap--recommend
@@ -1700,7 +1701,7 @@ streamonsports.cc,streamonsport.info##.chatango
 descargaseriestv.com###block-4
 !
 ! Blocking these chat widgets if they are really annoying
-||widget.intercom.io^$domain=appmaster.io
+||widget.intercom.io^$domain=appmaster.io|internxt.com
 ||helpdeskeddy.com//js/contact-widget.js$domain=litres.ru
 litres.ru###call_support
 !
