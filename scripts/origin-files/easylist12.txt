@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202403190300
+! Version: 202403190908
 ! Title: Fanboy's Annoyance List
-! Last modified: 19 Mar 2024 03:00 UTC
+! Last modified: 19 Mar 2024 09:08 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1850,6 +1850,8 @@ _twitter_follow.
 /popupcookieinit.js
 /popupcookies.js
 /pp-cookie-banner/CookieBannerWithContentBlocker/main.js
+/ppw_cookie/Resources/Public/Build/app.js
+/ppw_cookie/Resources/Public/Build/cookie.css
 /prettycookies.js
 /privacy-banner.js
 /privacy-banner/storefront-banner.js
@@ -18226,6 +18228,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ###cookie-bottom-bar
 ###cookie-bottom-content
 ###cookie-bottom-layer
+###cookie-bottom-popup
 ###cookie-box
 ###cookie-box-info
 ###cookie-btn
@@ -21652,6 +21655,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ###gPrivacyPanelFrame
 ###gServiceCookie
 ###g_cookieNotification
+###ga-cookie-policy-wrapper
 ###gabCookieNote
 ###gabarit_cnilcookie
 ###gacookiemessage
@@ -26263,6 +26267,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.container_content_cookie
 ##.container_cookie
 ##.container_cookies
+##.container_cookies_alert
 ##.container_modal_cookies
 ##.contao-cookiebar
 ##.contcookies
@@ -39580,6 +39585,7 @@ todayonline.com##.subcription-two
 scrippsnews.com##.subheader
 npr.org,symmetrymagazine.org,thefinance.sg,topbet.eu##.subscribe
 jasonwatmore.com##.subscribe-buttons
+hindustantimes.com##.subscribe-social
 newsandguts.com##.subscribeBar
 techweekmag.com##.supersharer
 locals.com##.support-now
