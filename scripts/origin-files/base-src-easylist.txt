@@ -9879,6 +9879,7 @@
 ||abczdrowie.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*)//,script
 ||abczdrowie.pl^$replace=/(aabv\d[\s\S]*?.=\(\)=>).===.(\,)/\$1{return}\$2/,script
 ||abczdrowie.pl^$replace=/(aabv\d[\s\S]*?.=function\(\)\{)return .===.(\}\,)/\$1return\$2/,script
+||abczdrowie.pl^$replace=/^.{1\,150}\(\{.*?"bunch".*?"bidRequestId".*//,script
 ||abdalitroilus.com^
 ||abddkjba.com^
 ||abdely.com^
@@ -19677,6 +19678,7 @@
 ||autocentrum.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*)//,script
 ||autocentrum.pl^$replace=/(aabv\d[\s\S]*?.=\(\)=>).===.(\,)/\$1{return}\$2/,script
 ||autocentrum.pl^$replace=/(aabv\d[\s\S]*?.=function\(\)\{)return .===.(\}\,)/\$1return\$2/,script
+||autocentrum.pl^$replace=/^.{1\,150}\(\{.*?"bunch".*?"bidRequestId".*//,script
 ||autoceyo-amd.tt.omtrdc.net^
 ||autocezar-majer.tt.omtrdc.net^
 ||autoclaim.ovh^$domain=dutchycorp.ovh
@@ -19748,6 +19750,7 @@
 ||autokult.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*)//,script
 ||autokult.pl^$replace=/(aabv\d[\s\S]*?.=\(\)=>).===.(\,)/\$1{return}\$2/,script
 ||autokult.pl^$replace=/(aabv\d[\s\S]*?.=function\(\)\{)return .===.(\}\,)/\$1return\$2/,script
+||autokult.pl^$replace=/^.{1\,150}\(\{.*?"bunch".*?"bidRequestId".*//,script
 ||autolama-bogdan.tt.omtrdc.net^
 ||autolidl-fush.tt.omtrdc.net^
 ||autolinkmaker.itunes.apple.com^$third-party
@@ -20219,6 +20222,7 @@
 ||axkcmb.mosigra.ru^
 ||axkwmsivme.com^
 ||axkwyf.edinos.pl^
+||axledjuking.com^
 ||axlohcsruwak.com^
 ||axonix.com^
 ||axonstechnology.actonservice.com^
@@ -36515,6 +36519,7 @@
 ||deliciousmagazine.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*)//,script
 ||deliciousmagazine.pl^$replace=/(aabv\d[\s\S]*?.=\(\)=>).===.(\,)/\$1{return}\$2/,script
 ||deliciousmagazine.pl^$replace=/(aabv\d[\s\S]*?.=function\(\)\{)return .===.(\}\,)/\$1return\$2/,script
+||deliciousmagazine.pl^$replace=/^.{1\,150}\(\{.*?"bunch".*?"bidRequestId".*//,script
 ||delightdriving.com^$third-party
 ||delightedintention.com^
 ||delightful-page.pro^
@@ -38382,6 +38387,7 @@
 ||dobreprogramy.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*)//,script
 ||dobreprogramy.pl^$replace=/(aabv\d[\s\S]*?.=\(\)=>).===.(\,)/\$1{return}\$2/,script
 ||dobreprogramy.pl^$replace=/(aabv\d[\s\S]*?.=function\(\)\{)return .===.(\}\,)/\$1return\$2/,script
+||dobreprogramy.pl^$replace=/^.{1\,150}\(\{.*?"bunch".*?"bidRequestId".*//,script
 ||dobrnovosti.com^
 ||dobwll.xyz^
 ||doc.anamai.tt.omtrdc.net^
@@ -45827,6 +45833,7 @@
 ||fotoblogia.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*)//,script
 ||fotoblogia.pl^$replace=/(aabv\d[\s\S]*?.=\(\)=>).===.(\,)/\$1{return}\$2/,script
 ||fotoblogia.pl^$replace=/(aabv\d[\s\S]*?.=function\(\)\{)return .===.(\}\,)/\$1return\$2/,script
+||fotoblogia.pl^$replace=/^.{1\,150}\(\{.*?"bunch".*?"bidRequestId".*//,script
 ||fotoompi.com^
 ||fotrbx.xyz^
 ||fotsaulr.net^
@@ -46888,6 +46895,7 @@
 ||gadzetomania.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*)//,script
 ||gadzetomania.pl^$replace=/(aabv\d[\s\S]*?.=\(\)=>).===.(\,)/\$1{return}\$2/,script
 ||gadzetomania.pl^$replace=/(aabv\d[\s\S]*?.=function\(\)\{)return .===.(\}\,)/\$1return\$2/,script
+||gadzetomania.pl^$replace=/^.{1\,150}\(\{.*?"bunch".*?"bidRequestId".*//,script
 ||gadzwhglnxhbjs.com^
 ||gae.karte.io^
 ||gaeebjednl.xyz^
@@ -60261,6 +60269,7 @@
 ||komorkomania.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*)//,script
 ||komorkomania.pl^$replace=/(aabv\d[\s\S]*?.=\(\)=>).===.(\,)/\$1{return}\$2/,script
 ||komorkomania.pl^$replace=/(aabv\d[\s\S]*?.=function\(\)\{)return .===.(\}\,)/\$1return\$2/,script
+||komorkomania.pl^$replace=/^.{1\,150}\(\{.*?"bunch".*?"bidRequestId".*//,script
 ||komputer.tns-gallup.dk^
 ||komtrack.com^$third-party
 ||komvkup.cn^
@@ -70178,6 +70187,7 @@
 ||money.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*)//,script
 ||money.pl^$replace=/(aabv\d[\s\S]*?.=\(\)=>).===.(\,)/\$1{return}\$2/,script
 ||money.pl^$replace=/(aabv\d[\s\S]*?.=function\(\)\{)return .===.(\}\,)/\$1return\$2/,script
+||money.pl^$replace=/^.{1\,150}\(\{.*?"bunch".*?"bidRequestId".*//,script
 ||moneycosmos.com^
 ||moneymak3rstrack.com^
 ||moneymakercdn.com^
@@ -74040,6 +74050,7 @@
 ||o2.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*)|((display:\\s\*)none(\\s\*!important)|((\.hostname;function .\(\)|\,.=function\(\))\{return) .===[\S]*?(\}))/\$4\$5\$6\$8/,script
 ||o2.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*\n)|((display:\\s\*)none(\\s\*!important)|((\.hostname;function .\(\)|\,.=function\(\))\{return) .===[\S]*?(\}))/\$4\$5\$6\$8/,script
 ||o2.pl^$replace=/(aabv\d[\s\S]*?.=\(\)=>).===.(\,)/\$1{return}\$2/,script
+||o2.pl^$replace=/^.{1\,150}\(\{.*?"bunch".*?"bidRequestId".*//,script
 ||o2c7dks4.de^
 ||o2o.api.xiaomi.com^
 ||o313o.com^
@@ -75595,6 +75606,7 @@
 ||open.fm^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*)//,script
 ||open.fm^$replace=/(aabv\d[\s\S]*?.=\(\)=>).===.(\,)/\$1{return}\$2/,script
 ||open.fm^$replace=/(aabv\d[\s\S]*?.=function\(\)\{)return .===.(\}\,)/\$1return\$2/,script
+||open.fm^$replace=/^.{1\,150}\(\{.*?"bunch".*?"bidRequestId".*//,script
 ||open.isnssdk.com^
 ||open.kuaishouzt.com^
 ||open.kwaizt.com^
@@ -77201,6 +77213,7 @@
 ||parenting.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*)|((display:\\s\*)none(\\s\*!important)|((\.hostname;function .\(\)|\,.=function\(\))\{return) .===[\S]*?(\}))/\$4\$5\$6\$8/,script
 ||parenting.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*\n)|((display:\\s\*)none(\\s\*!important)|((\.hostname;function .\(\)|\,.=function\(\))\{return) .===[\S]*?(\}))/\$4\$5\$6\$8/,script
 ||parenting.pl^$replace=/(aabv\d[\s\S]*?.=\(\)=>).===.(\,)/\$1{return}\$2/,script
+||parenting.pl^$replace=/^.{1\,150}\(\{.*?"bunch".*?"bidRequestId".*//,script
 ||parentingcalculated.com^
 ||parentingcalculated.com^$popup
 ||parentlargevia.com^
@@ -80051,6 +80064,7 @@
 ||polygamia.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*)//,script
 ||polygamia.pl^$replace=/(aabv\d[\s\S]*?.=\(\)=>).===.(\,)/\$1{return}\$2/,script
 ||polygamia.pl^$replace=/(aabv\d[\s\S]*?.=function\(\)\{)return .===.(\}\,)/\$1return\$2/,script
+||polygamia.pl^$replace=/^.{1\,150}\(\{.*?"bunch".*?"bidRequestId".*//,script
 ||polygraficka.tt.omtrdc.net^
 ||polygraphpretenceraw.com^
 ||polyh-nce.com^
@@ -81927,6 +81941,7 @@
 ||pudelek.pl^$replace=/(<VAST[\s\S]*?>)[\s\S]*<\/VAST>/\$1<\/VAST>/,xmlhttprequest,other,~script
 ||pudelek.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*)|((display:\\s\*)none(\\s\*!important)|((\.hostname;function .\(\)|\,.=function\(\))\{return) .===[\S]*?(\}))/\$4\$5\$6\$8/,script
 ||pudelek.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*\n)|((display:\\s\*)none(\\s\*!important)|((\.hostname;function .\(\)|\,.=function\(\))\{return) .===[\S]*?(\}))/\$4\$5\$6\$8/,script
+||pudelek.pl^$replace=/^.{1\,150}\(\{.*?"bunch".*?"bidRequestId".*//,script
 ||pudencygletty.com^
 ||pudrardu.net^
 ||puds.ucweb.com^
@@ -85772,6 +85787,7 @@
 ||roadrunner.ausmv.com.au^
 ||roadrunner.tt.omtrdc.net^
 ||roakicat.net^
+||roamapheejub.com^
 ||roambedroom.com^
 ||roamparadeexpel.com^
 ||roarasha.com^
@@ -90196,6 +90212,7 @@
 ||shinesavage.com^$third-party
 ||shinglelatitude.com^
 ||shink.me/p/ifr^
+||shinypond.com^$third-party
 ||shinyspiesyou.com^
 ||shinystat.com^$third-party
 ||shinystat.it^$third-party
@@ -111316,6 +111333,7 @@
 ||vibeaconstr.onezapp.com^
 ||vibez.pl^$replace=/(<VAST[\s\S]*?>)[\s\S]*<\/VAST>/\$1<\/VAST>/,xmlhttprequest,other,~script
 ||vibez.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*)//,script
+||vibez.pl^$replace=/^.{1\,150}\(\{.*?"bunch".*?"bidRequestId".*//,script
 ||vibmhetkcedookx.com^
 ||viborgfolkeblad.tns-gallup.dk^
 ||vibranthaven.com^$third-party
@@ -112240,6 +112258,7 @@
 ||vpolshchi.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*)//,script
 ||vpolshchi.pl^$replace=/(aabv\d[\s\S]*?.=\(\)=>).===.(\,)/\$1{return}\$2/,script
 ||vpolshchi.pl^$replace=/(aabv\d[\s\S]*?.=function\(\)\{)return .===.(\}\,)/\$1return\$2/,script
+||vpolshchi.pl^$replace=/^.{1\,150}\(\{.*?"bunch".*?"bidRequestId".*//,script
 ||vpop2.com^
 ||vpotyflfox.com^
 ||vpqko.fun^
@@ -115228,6 +115247,7 @@
 ||wp.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*)|((display:\\s\*)none(\\s\*!important)|((\.hostname;function .\(\)|\,.=function\(\))\{return) .===[\S]*?(\}))/\$4\$5\$6\$8/,script
 ||wp.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*\n)|((display:\\s\*)none(\\s\*!important)|((\.hostname;function .\(\)|\,.=function\(\))\{return) .===[\S]*?(\}))/\$4\$5\$6\$8/,script
 ||wp.pl^$replace=/(aabv\d[\s\S]*?.=\(\)=>).===.(\,)/\$1{return}\$2/,script
+||wp.pl^$replace=/^.{1\,150}\(\{.*?"bunch".*?"bidRequestId".*//,script
 ||wp.pl^$replace=/^\n.*"spin".*"dfpConfig".*"slot".*//,script
 ||wp.tt.omtrdc.net^
 ||wp3advesting.com^
