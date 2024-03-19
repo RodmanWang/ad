@@ -11201,6 +11201,8 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_popups
 !
 ! SECTION: Popups - Allowlist
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/175204
+@@||api.flocktory.com/v2/loader.js$domain=citilink.ru
 ! unblock featured content
 @@||sdk.*.braze.com^$domain=forum.paradoxplaza.com
 ! Unblock "Sign in with your Google account" popup, where it is used as the only way to log in using Google account
@@ -12493,6 +12495,9 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+tecnoblog.net##.tb-newsletter
+proekt.media##proekt-block > proekt-columns:has(> proekt-column.subscribe-bg .subscribe-form)
+igeeksblog.com###footer-slideup
 club.autodoc.pl#$#.popup-visitor-auth { display: none !important; }
 quillette.com##.w-full > div.hidden.bg-white.mb-4.p-8
 quillette.com##aside > div.mb-4.bg-white.border.rounded
@@ -13627,7 +13632,7 @@ psyfactor.org##a[href="https://telegram.me/PsyfactorOrg"]
 regnum.ru##.promo-with-adv
 regnum.ru##.promo-card-small
 sb.by#?##workarea > div.content-box:has(> .mob-subscribe)
-karelinform.ru#?#.matter-after > div:not([class]):has(> div[class^="Subscribe_"])
+tagilcity.ru,karelinform.ru#?#.matter-after > div:not([class]):has(> div[class^="Subscribe_"])
 polityka.pl##.cg_newsletter_signup
 /ghost/api/content/newsletters/*$domain=kyivindependent.com|blog.isosceles.com|linuxhandbook.com|matduggan.com
 bio-protocol.org##.el-dialog__wrapper
