@@ -59,7 +59,6 @@
 @@||advert.kf5.com^
 @@||affyun.com^$generichide
 @@||afi-b.com^|
-@@||ahaan.co.uk^$~third-party,xmlhttprequest
 @@||ahhhhfs.com^$generichide
 @@||ak77now.pixnet.net^$generichide
 @@||analytics.amplitude.com^|
@@ -78,7 +77,6 @@
 @@||app-cdn.minepi.com^|
 @@||app.adjust.com^|
 @@||app.appsflyer.com^|
-@@||archiveteam.org^$generichide
 @@||artifactory.appodeal.com^|
 @@||assbbs.com^$generichide
 @@||aternos.org^$generichide
@@ -96,10 +94,12 @@
 @@||captcha.su.baidu.com^
 @@||catchup.thisisdax.com^|
 @@||ccllaa.com^$generichide
+@@||cdn-fck.tnaflix.com^$removeparam
 @@||cdn.duurzaam.greenchoice.nl^|
 @@||cdn.rozetka.com.ua^|
 @@||cdn.us*.exponea.com^|
 @@||changyou.com^$generichide
+@@||chaynikam.info^$removeparam
 @@||chinamobile.com^$generichide
 @@||chineseanime.vip^$generichide
 @@||chuangkit.com^$generichide
@@ -126,7 +126,6 @@
 @@||cnprint.org^$generichide
 @@||colatour.com.tw^$generichide
 @@||contents-group.work^$generichide
-@@||cookielawinfo.com^$~third-party
 @@||coolinet.com^$generichide
 @@||crackedresource.com^$generichide
 @@||crm-cdn.peek-cloppenburg.com^|
@@ -143,13 +142,11 @@
 @@||demo.ama.pub^$generichide
 @@||digit77.com^$generichide
 @@||dizhi99.com^$generichide
-@@||django-cookie-consent.readthedocs.io^$~third-party
 @@||dl.r3sub.com^$generichide
 @@||dlkoo.cc^$generichide
 @@||dlkoo.com^$generichide
 @@||dlpanda.com^$generichide
 @@||dmhy.b168.net^$generichide
-@@||docs.qq.com^$generichide
 @@||doubibackup.com^$generichide
 @@||download.mokeedev.com^$genericblock,generichide
 @@||duelmeta.com^$generichide
@@ -163,6 +160,7 @@
 @@||email.awscloud.com^|
 @@||email.elitedangerous.com^|
 @@||email.procook.co.uk^|
+@@||empflix.com^$removeparam
 @@||envato.market^|
 @@||eolinker.com^$generichide
 @@||ettoday.net^$generichide
@@ -173,8 +171,6 @@
 @@||fe-siken.com^$generichide
 @@||feed.adrelayer.com^|
 @@||fharr.com^$generichide
-@@||flattr.com^$generichide
-@@||fontawesome.com^$generichide
 @@||forum.notebookreview.com^|
 @@||fp1-siken.com^$generichide
 @@||fp2-siken.com^$generichide
@@ -189,8 +185,7 @@
 @@||gaus.ee^$generichide
 @@||gboku.com^$generichide
 @@||ggg50.pw^$generichide
-@@||github.com^$generichide
-@@||github.io^$generichide
+@@||girafa.com.br^$removeparam
 @@||go.adjust.com^|
 @@||go.scorptec.com.au^|
 @@||golangnote.com^$generichide
@@ -217,7 +212,6 @@
 @@||ia.hit.interia.pl^|
 @@||ibf.tw^$generichide
 @@||id.i2i.jp^|
-@@||ifttt.com^$generichide
 @@||img.ads.tvb.com^
 @@||inoreader.com^$genericblock,generichide
 @@||intaa.net^$generichide
@@ -251,7 +245,6 @@
 @@||lnk2.cc^$generichide
 @@||log.mmstat.com^|
 @@||logentries.com^|
-@@||login.csdisco.com^$generichide
 @@||login.sendpulse.com^|
 @@||ma135-r.analytics.edgekey.net^|
 @@||mail.td^$generichide
@@ -278,10 +271,8 @@
 @@||muzlan.top^$generichide
 @@||my.tealiumiq.com^|
 @@||my0nio.seesaa.net^$generichide
-@@||my101.me^$generichide
 @@||myqqjd.com^$generichide
 @@||nailcolor.work^$generichide
-@@||namechk.com^$generichide
 @@||nasubiblog.com^$generichide
 @@||nazolog.com^$generichide
 @@||netatmo.commander1.com^|
@@ -332,7 +323,6 @@
 @@||remembering.ca^|
 @@||renfei.net^$generichide
 @@||repeat-drama.info^$generichide
-@@||restream.io^$generichide
 @@||rocketnews24.com^$generichide
 @@||ronron-blog.com^$generichide
 @@||rosefile.net^$generichide
@@ -366,7 +356,6 @@
 @@||support-beacon.nakanohito.jp^|
 @@||support-widget.nakanohito.jp^|
 @@||surveymyopinion.researchnow.com^|
-@@||switching.software^$generichide
 @@||szhr.com.cn^$generichide
 @@||szhr.com^$generichide
 @@||tags.crwdcntrl.net^|
@@ -375,8 +364,8 @@
 @@||th-sjy.com^$generichide
 @@||thisav.com^$generichide
 @@||thumbnail.thench.net^|
+@@||tix.axs.com^$removeparam
 @@||tlaol.com^|
-@@||tldrify.com^$generichide
 @@||tms.capitalone.com^|
 @@||toolfk.com^$generichide
 @@||torimochi.line-apps.com^|
@@ -389,6 +378,7 @@
 @@||tv99.tv^$generichide
 @@||udp2p.com^$generichide
 @@||upxin.net^$generichide
+@@||urldefense.com^$removeparam
 @@||uukanshu.com^$generichide
 @@||v2cross.com^$generichide
 @@||v2rayssr.com^$generichide
@@ -408,6 +398,7 @@
 @@||www.jdoqocy.com^|
 @@||www.statcounter.com^|
 @@||xbeibeix.com^$generichide
+@@||xe.com^$removeparam
 @@||xidian.edu.cn^$generichide
 @@||xiuren.org^$generichide
 @@||xxxxx520.com^$generichide
@@ -416,5 +407,4 @@
 @@||youpouch.com^$generichide
 @@||yummy.best^$generichide
 @@||yygsz.com^$generichide
-@@||zeplin.io^$generichide
 @@||zxmee.com^$generichide
