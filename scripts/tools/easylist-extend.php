@@ -133,11 +133,13 @@ $ARR_MERGED_WILD_LIST = array(
     '*us*watcab*.blob.core.windows.net' => null,
     'xn--wxtr9fwyxk9c.*' => null,
     'tuiguang.*' => null,
+    '*.xsph.ru' => null,
+    '*.page.link' => null,
 );
 
 $ARR_REGEX_LIST = array(
     '/^(\S+\.)?9377[a-z0-9]{2}\.com$/' => ['m' => '$dnstype=A'],
-    '/^(\S+\.)?ad(s?[\d]+|m|s)?\./' => ['m' => '$denyallow=nucdn.net|azureedge.net|alibabacorp.com|alibabadns.com'],
+    '/^(\S+\.)?ad(s?[\d]+|m|s)?\.[0-9\-a-z]+\./' => ['m' => '$denyallow=nucdn.net|azureedge.net|alibabacorp.com|alibabadns.com'],
     '/^(\S+\.)?advert/' => ['m' => '$denyallow=alibabacorp.com|alibabadns.com|sm.cn|tanx.com|alibaba-inc.com|tmall.com|taobao.com'],
     '/^(\S+\.)?affiliat(es?[0-9a-z]*?|ion[0-9\-a-z]*?|ly[0-9a-z\-]*?)\./' => null, // fixed #406
     '/^(\S+\.)?s?metrics\./' => null, // TODO 覆盖面很大
@@ -261,6 +263,18 @@ $ARR_WHITE_RULE_LIST = array(
     '@@||adverts.1foo.com^' => 1, // #782
     '@@||track.4px.com^' => 1, // #796
     '@@||ads.smartmidea.net^' => 1, // #807
+    '@@||widget.ezidebit.com.au^' => 1, // #834
+    '@@||widget.rave.office.net^' => 1, // #837
+    '@@||code.sms.mob.com^' => 1, // #855
+    '@@||widget.sndcdn.com^' => 1, // #839
+    '@@||ad.nl^' => 1, // #841
+    '@@||api.slightcommunicativeinterconnectedness.xyz^' => 1, // #873
+    '@@||openxlab.org.cn^' => 1, // #876
+    '@@||tracking.dpd.de^' => 1, // #877
+    '@@||star.c10r.facebook.com^' => 1, // #892
+    '@@||www.fbsbx.com^' => 1, // #892
+    '@@||star.fallback.c10r.facebook.com^' => 1, // #892
+    
 );
 
 //针对上游赦免规则anti-AD不予赦免的规则，即赦免名单的黑名单
