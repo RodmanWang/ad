@@ -1,5 +1,5 @@
-Version: 20240326003100
-!Total lines: 87430
+Version: 20240326003525
+!Total lines: 87455
 @@||939394.xyz^
 @@||ads.taboola.com^
 @@||adshnk.com^
@@ -104,13 +104,23 @@ Version: 20240326003100
 @@||adverts.1foo.com^
 @@||track.4px.com^
 @@||ads.smartmidea.net^
-/^(\S+\.)?ad(s?[\d]+|m|s)?\./$denyallow=nucdn.net|azureedge.net|alibabacorp.com|alibabadns.com
+@@||widget.ezidebit.com.au^
+@@||widget.rave.office.net^
+@@||code.sms.mob.com^
+@@||widget.sndcdn.com^
+@@||ad.nl^
+@@||api.slightcommunicativeinterconnectedness.xyz^
+@@||openxlab.org.cn^
+@@||tracking.dpd.de^
+@@||star.c10r.facebook.com^
+@@||www.fbsbx.com^
+@@||star.fallback.c10r.facebook.com^
+/^(\S+\.)?ad(s?[\d]+|m|s)?\.[0-9\-a-z]+\./$denyallow=nucdn.net|azureedge.net|alibabacorp.com|alibabadns.com
 @@||ad.vivo.com.cn^
 @@||ads.alafish.cn^
 @@||ads.delfi.lv^
 @@||ads.doordash.com^
 @@||ads.elevateplatform.co.uk^
-@@||ads.finance^
 @@||ads.google.com^
 @@||ads.kazakh-zerno.net^
 @@||ads.lingxing.com^
@@ -223,6 +233,7 @@ Version: 20240326003100
 ||ssc.southpark*^
 ||tr.*.espmp-*fr.net^
 ||da.hornbach.*^
+||*.xsph.ru^
 ||0008d6ba2e.com^
 ||0024ad98dd.com^
 ||002777.xyz^
@@ -2882,8 +2893,16 @@ Version: 20240326003100
 ||ad-track.jp^
 ||ad-vice.biz^
 ||ad-x.co.uk^
+||ad.gt^
+||ad.guru^
+||temptation.ad.nl^
+||cdn.ad.page^
+||ad.plus^
+||ad.style^
 ||ad1data.com^
 ||ad1rtb.com^
+||ad20.net^
+||ad2023.site^
 ||ad2adnetwork.biz^
 ||ad2bitcoin.com^
 ||ad2iction.com^
@@ -2896,6 +2915,7 @@ Version: 20240326003100
 ||ad4mat.de^
 ||ad4mat.net^
 ||ad6media.fr^
+||ad999.biz^
 ||adabra.com^
 ||webts.adac.de^
 ||adacado.com^
@@ -3823,12 +3843,17 @@ Version: 20240326003100
 ||ww2.ads-on-line.com^
 ||ads-pixiv.net^
 ||ads-twitter.com^
+||ads.cc^
+||ads01.com^
+||ads180.com^
 ||ads24h.net^
+||ads2550.bid^
 ||ads2ads.net^
 ||ads4g.pl^
 ||ads4homes.com^
 ||ads4media.online^
 ||ads4trk.com^
+||login.ads9.com^
 ||adsafeprotected.com^
 ||adsafety.net^
 ||adsagony.com^
@@ -19635,6 +19660,7 @@ Version: 20240326003100
 ||cpffkbpq.xyz^
 ||global.cphi-china.cn^
 ||online.cphi.cn^
+||a8cv.cpi.ad.jp^
 ||cpihrinfo.cpihr.com^
 ||cpkxahje.xyz^
 ||cpl1.ru^
@@ -34169,7 +34195,6 @@ Version: 20240326003100
 ||gvmojhugkiud.com^
 ||redtrack.gvnorders.com^
 ||gvpged.com^
-||gvt1-cn.com^
 ||gvwdwrtzrs.com^
 ||gvyyhjyyfdgxij.xyz^
 ||gvzsrqp.com^
@@ -65914,6 +65939,7 @@ Version: 20240326003100
 ||saktismberakes.space^
 ||a8cv.sakura-forest.com^
 ||sakura-traffic.com^
+||a8cv.secure.sakura.ad.jp^
 ||a8.sakuramobile.jp^
 ||stats.sakurasky.com^
 ||a8.sakuratravel.jp^
@@ -85094,7 +85120,6 @@ Version: 20240326003100
 ||marketing.xsightusa.com^
 ||xsjc4smhbyjf.com^
 ||xskctff.com^
-||a0920080.xsph.ru^
 ||uhwlpe.xspo.at^
 ||ksjjog.xspo.de^
 ||rdbd.xsread.com^
