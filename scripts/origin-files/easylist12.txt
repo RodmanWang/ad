@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202403261916
+! Version: 202403270040
 ! Title: Fanboy's Annoyance List
-! Last modified: 26 Mar 2024 19:16 UTC
+! Last modified: 27 Mar 2024 00:40 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -34850,7 +34850,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||subscriptions.cbc.ca^$xmlhttprequest
 ||theintercept.com/xbuilder/$script
 ||thejewishstar.com/images/enews-ad.png
-||tinypass.com/api/tinypass.min.js$script,domain=thedailybeast.com
+||tinypass.com/api/tinypass.min.js$script,domain=rawstory.com|thedailybeast.com
 ||waterfordwhispersnews.com/wp-content/themes/therex-child/js/_newsletter-article-signup.js
 ! *** easylist:fanboy-addon/fanboy_social_specific_block.txt ***
 ! fanboy_social_specific_block.txt
@@ -41296,6 +41296,7 @@ goout.net##.goout-cookie-overlay
 caymangoodtaste.com,cookiebot.com##.granify-widget-container
 inov-8.com##.grey-bg
 msnursepro.org##.gs-cookie-wall
+consilium.europa.eu##.gsc-cookie-section
 milwaukeecylinder.com##.guTily
 bordersdown.net##.guestwarn
 guggenheim.org##.guggen-consent
