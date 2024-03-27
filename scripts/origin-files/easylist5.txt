@@ -1699,6 +1699,10 @@ scitechdaily.com,thewindowsclub.com#@#.ad-space
 ! Do not forget about '!#safari_cb_affinity' section for exclusions:
 ! LINK: AnnoyancesFilter/Popups/sections/antiadblock.txt#general
 !
+raenonx.cc#%#//scriptlet('prevent-fetch', 'www3.doubleclick.net')
+raenonx.cc#%#(()=>{const e={apply:async(e,t,n)=>{if(n[0]&&n[0]?.includes("adsbygoogle")){const e=(e="{}",t="",n="basic")=>{const s=new Response(e,{status:200,statusText:"OK"}),r=String((o=50800,a=50900,Math.floor(Math.random()*(a-o+1)+o)));var o,a;return s.headers.set("Content-Length",r),Object.defineProperties(s,{url:{value:t},type:{value:n}}),Promise.resolve(s)};return e("{}",n[0])}return Reflect.apply(e,t,n)}};window.fetch=new Proxy(window.fetch,e)})();
+||raenonx.cc/_next/static/chunks/app/*/layout-*.js$replace=/checkContentLength:!0\,setIsAdBlockActive:/checkContentLength:!1\,setIsAdBlockActive:/
+||raenonx.cc/_next/static/chunks/app/*/layout-*.js$replace=/url:"https:\/\/pagead2\.googlesyndication\.com\/pagead\/js\/adsbygoogle\.js.*?"/url:"\/"/
 myfxbook.com#%#//scriptlet('prevent-setTimeout', 'detectLoadedAdsContainer')
 channel4.com###all4gn-adBlock-notification
 iphoned.nl##.adblock-detect
@@ -4376,7 +4380,7 @@ pornone.com#@#.overheaderbanner
 @@||observador.pt^$generichide
 @@||outschool.com^$generichide
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=techsolutiontips.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=androidcentral.com|imore.com|windowscentral.com|vsthemes.org|crackwatcher.com|cheatnetwork.eu
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=androidcentral.com|imore.com|windowscentral.com|vsthemes.org|crackwatcher.com|cheatnetwork.eu|raenonx.cc
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=audiotag.info
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=diffnow.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=diynetwork.com,important
@@ -4521,6 +4525,8 @@ api.flocktory.com
 !
 ! SECTION: Popups - Regular rules
 !
+bloomberg.com###fortress-container-root
+seozoom.it###cta
 userstyles.org##div[class*="rate-us_rateUsWrapper__"]
 ||forvo.com/campaign-promo-mfp/$xmlhttprequest
 ghc-j.com##.pum-overlay[data-popmake*="380px"]
@@ -4675,8 +4681,8 @@ gilt.com#$#.remodal-is-locked body { overflow: auto !important; }
 brilliant.org###loggedout-wiki-footer
 brilliant.org#$#body.wiki-page.logged-out.modal-open.cropped > .modal-bg.in { display: none !important; }
 brilliant.org#$#body.wiki-page.logged-out.modal-open.cropped { overflow: auto !important; }
-iobit.com##div[class*="float-"]
-iobit.com##div[class*="-pop"]
+iobit.com##.comm-bottom
+iobit.com##.dia_leave
 waipian1.com,waipian2.com,waipian3.com,waipian4.com,waipian5.com,waipian6.com,waipian7.com,waipian8.com,waipian9.com,waipian10.com,waipian11.com,waipian12.com,waipian13.com,waipian14.com,waipian15.com,waipian16.com,waipian17.com,waipian18.com,waipian19.com,waipian20.com,waipian21.com,waipian22.com,waipian23.com,waipian24.com,waipian25.com,waipian26.com,waipian27.com,waipian28.com,waipian29.com,waipian30.com,waipian31.com,waipian32.com,waipian33.com,waipian34.com,waipian35.com,waipian36.com,waipian37.com,waipian38.com,waipian39.com,waipian40.com#%#//scriptlet('trusted-set-cookie', 'cookie-name', 'the_value')
 investorshub.advfn.com###interstitial-wrapper
 dhgate.com#?#div[spm-c="bottomb"].j-foot-login:contains(first-hand offers)
@@ -12512,6 +12518,9 @@ newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,theloca
 !
 ! SECTION: Subscriptions - Regular rules
 !
+seozoom.it###sb-right div.widget:has(> div#mpwp-container)
+rarejob.com##.mailmagArea
+rarejob.com##.recommend-box
 ryukyushimpo.jp###block-46
 apexcharts.com##div[class*="sgpb-popup-"]
 elcastellano.org###suscripcion-portada
@@ -13650,10 +13659,8 @@ maxroll.gg#?#main > div.flex:has(> div[class] > form[action="/api/newsletter/sub
 investordaily.com.au#?#.b_yrl:has(> #mc-embedded-subscribe-form)
 ||nikkansports.com/mod2015/js/piano/members_only.js
 reebok.eu#?#section[class^="css-"]:has([data-test="newsletter-banner-title"])
-segodnya.ua##.b-article__telegram
 nsenergybusiness.com##.share-content-signup-form
 oberbank.at##.dt-newsletter
-segodnya.ua##.article__newsfeeds
 energylivenews.com###breaking-news-popup
 vostokmedia.com##.matter-after > div > div.mb-4.font-bold
 cosmopolitan.fr##.NewsletterBox
