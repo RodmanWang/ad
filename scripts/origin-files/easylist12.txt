@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202403290925
+! Version: 202403291227
 ! Title: Fanboy's Annoyance List
-! Last modified: 29 Mar 2024 09:25 UTC
+! Last modified: 29 Mar 2024 12:27 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -40184,6 +40184,7 @@ playstation.com###js-SIEWS1lib-header-Base
 lawrievetgroup.co.uk###js-consent-wrapper
 unbound.com###js-cookies
 shellenergy.co.uk###js-footer
+accounts.pixiv.net###js-privacy-policy-banner
 travelwisconsin.com###js-stickyhead
 gainesvillecoins.com###jsGDRP
 glashuette-original.com###js_dataNnoticeBackdrop
@@ -43548,6 +43549,7 @@ tv-tokyo.co.jp###bangumi_page_top
 oh-my-teeth.com###cta-sticky-banner
 jti.co.jp###footer-pagetop
 suumo.jp###js-pageTop
+nyanpedia.com###melmaga-popup
 280blocker.net,biglobe.ne.jp###page-top
 tabelog.com###page-up
 radionikkei.jp###page_top
@@ -44893,6 +44895,7 @@ ilgiorno.it,ilrestodelcarlino.it,iltelegrafolivorno.it,lanazione.it,quotidiano.n
 ! Japanese
 japantimes.co.jp###newsletter1-offer
 shokuhin.net##.tdm-popup-modal-over-screen
+nyanpedia.com##a[href="https://info.ipet-ins.com/emagazine_subscribe_nyanpedia.html"] > img
 ! ! Norwegian
 ! Polish
 portalprzedszkolny.pl###newsletterOnline-68
