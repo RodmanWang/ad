@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202404032057
+! Version: 202404040116
 ! Title: Fanboy's Annoyance List
-! Last modified: 03 Apr 2024 20:57 UTC
+! Last modified: 04 Apr 2024 01:16 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -34660,6 +34660,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||monsido-consent.com^$third-party
 ||mycookies.it^$third-party
 ||network-n.com^$third-party
+||nojazz.eu/consent/
 ||ocdn.eu/blikk_static/blikk/consent_v2/
 ||ogury.mgr.consensu.org^$third-party
 ||oil.axelspringer.com^$third-party
@@ -35442,11 +35443,13 @@ humblebundle.com###site-xpromo-banner
 wikipedia.org###siteNotice
 orbispatches.com###sitetop
 marinetraffic.com###skyscraper_container_front
+spiked-online.com###sliding-nudge-sell
 undark.org###special-message
 spiked-online.com###sticky-footer
 finbold.com###sub-intent
 theglobeandmail.com###subscription-pencil-area
 slideserve.com###suggestion
+spiked-online.com###support-banner
 austinchronicle.com###support-bar
 the74million.org###support_box
 ghacks.net###the-day-in-history
@@ -38878,6 +38881,7 @@ livenation.co.nz###social-component
 breitbart.com###social-follow-sidebar-widget
 pinetools.com###social-icons
 coindesk.com###social-icons-box
+cyclingstage.com###social-media
 seibertron.com###social-networking
 lethbridgenewsnow.com,panow.com###social-share-icons
 1news.co.nz###socialListParent
@@ -38888,6 +38892,7 @@ pastebin.pl###socials
 spiked-online.com###spikedShareBar
 news.crunchbase.com###ss-sticky-bar
 thejournal.ie###sticky-share-button-redesign
+spiked-online.com###sticky-sharing
 democracynow.org###story_social
 techdirt.com###subscribe
 osxdaily.com###subscribe_box
@@ -39390,6 +39395,7 @@ theashleysrealityroundup.com##.post-links
 earthsky.org,gidhaur.com##.post-share
 aceshowbiz.com##.post-share-area
 rockstarintel.com##.post-share-float
+spiked-online.com##.post-sharing
 foodandwaterwatch.org,publicbooks.org##.post-social-share
 blockclubchicago.org##.post-social-sharing__list
 bnnbreaking.com##.post__share-block
@@ -41682,6 +41688,7 @@ jackjones.com,jjxx.com,mamalicious.com,only.com,onlyandsons.com,veromoda.com##.o
 cashstar.com##.overlay-banner
 suntrustoil.com##.overlay-container
 banjaran.com.sg##.overlay-mobile-styles-enabled
+hero-wars.com##.overlay-modals-wrapper
 tata.com##.overlayPop
 maisonstandards.com##.overlay_full_screen
 noahcompendium.co.uk##.overlays
@@ -42727,7 +42734,7 @@ cancerfonden.se##div[class^="CookieDisclaimer"]
 ! ! .overLay
 abundantgracetabernacle.org.uk,destemma.org,pacificandgold.co.uk##.overLay
 ! ! .CookieConsent
-bakkenbaeck.com,bluemail.me,breakingthenews.net,buildclub.com,business-standard.com,cmodx.com,cuevana-3.eu,cuevana3.eu,e-ville.com,fiorentinabaseball.it,fmc.hu,forbesafrica.com,fotmob.com,geeksforgeeks.org,greekflavours.com,haveibeentrained.com,hysky.de,ietf.org,likewisetv.com,nebula.tv,nordlayer.com,nordlocker.com,nyctourism.com,ocbase.com,officedepot.hu,opyn.co,pango.education,pcsx2.net,pichau.com.br,pixme.co.uk,polyhaven.com,puhekupla.com,quoted.tech,rcskinclinic.com,recalbox.com,reflexer.finance,salvagemarket.co.uk,sankei.com,senda.pl,senpa.io,sharpsecd.com,shuttle.rs,skpay.sk,soldfy.com,soldfy.dk,soldfy.fi,soldfy.no,soldfy.se,solidariteit.co.za,sprintmedical.in,streamerbans.com,suzuki.ua,tayama.pl,u.sb,ubank.co.za,upgrade.chat,wheels.ca,zakzak.co.jp##.CookieConsent
+bakkenbaeck.com,bluemail.me,breakingthenews.net,buildclub.com,business-standard.com,cmodx.com,cuevana-3.eu,cuevana3.eu,e-ville.com,fiorentinabaseball.it,fmc.hu,forbesafrica.com,fotmob.com,geeksforgeeks.org,greekflavours.com,haveibeentrained.com,hysky.de,ietf.org,likewisetv.com,meld.io,nebula.tv,nordlayer.com,nordlocker.com,nyctourism.com,ocbase.com,officedepot.hu,opyn.co,pango.education,pcsx2.net,pichau.com.br,pixme.co.uk,polyhaven.com,puhekupla.com,quoted.tech,rcskinclinic.com,recalbox.com,reflexer.finance,salvagemarket.co.uk,sankei.com,senda.pl,senpa.io,sharpsecd.com,shuttle.rs,skpay.sk,soldfy.com,soldfy.dk,soldfy.fi,soldfy.no,soldfy.se,solidariteit.co.za,sprintmedical.in,streamerbans.com,suzuki.ua,tayama.pl,temporal.cloud,u.sb,ubank.co.za,upgrade.chat,wheels.ca,zakzak.co.jp##.CookieConsent
 ! ! .m-smartbar-container
 hilti.com,hilti.dk,hilti.ru##.m-smartbar-container
 ! ! #policy-ribbon
@@ -45247,6 +45254,7 @@ barzahlen.de##.banner-wrapper
 slewo.com##.banner_ack
 kontist.com,refurbed.de##.bg-opacity-50
 fembio.org,natur.com##.bg-wg-modal
+inreifen.de##.bgDim
 hausschuh.com,hausschuhexperte.de##.blackBody
 nijlen.be##.block-messages
 pott.de,wodka-gorbatschow.de##.blue-bg
@@ -45335,6 +45343,7 @@ mfgroup.ch##.dsgvo
 la-palma24.info##.dvcookies
 ethno-klamotten.de,guru-shop.de,kolonialstilmoebel.com,tagesdecken.org##.dwlightbox-wrap
 ticketswap.de##.e3v4wli0
+inreifen.de##.easyNotificationBck
 hoyer.de##.ece7gmw2
 mywellness.de##.epp-modal
 evofitness.de##.euc0rq24
@@ -47194,6 +47203,7 @@ fazobetai.com##.one-button-cookies-popup
 band.uol.com.br##.opt-in
 logo.pt,tranquilidade.pt##.overlay-wrapper
 s1live.com##.p-3
+brasiltec.ind.br##.policies-accept
 timing.pt##.policy
 impressora.com.br,impressorajato.com.br,madrugaosuplementos.com.br,vivona25.com.br##.policy-terms
 cursosgratisonline.com.br##.politicasPrivacidade
@@ -47648,6 +47658,8 @@ exteriores.gob.es##.alert__msg-Wrapper
 premiosesland.com##.banner-body
 artesacro.org##.barra
 risketosnomaschetos.es##.barraCookies
+ciudadanos-cs.org##.basic--draw-cookie-message-bar-notice
+ciudadanos-cs.org##.basic--draw-cookie-message-bar-notice--page-content-layer
 queway.es##.basicLightbox
 wenance.com##.bg-cookie
 sinfonicadegalicia.com##.bg-overlay
