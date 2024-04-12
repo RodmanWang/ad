@@ -3272,6 +3272,8 @@ ya.ru##.search3__doodle_video
 ya.ru##.market-feed
 ya.ru##.message-promo
 ya.ru##.search3__inner > div.link-bro
+! Alice promo under the search bar
+ya.ru##.promo-gallery
 ! Yandex Browser promo
 ! "a"
 ya.ru,yandex.*##.simple-popup_direction_center:has(> div > div > div.dist-overlay__description)
@@ -5116,6 +5118,7 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+||best-hit.tv/random_pr.js
 ||player.cnevids.com/interlude/gq-jp.js
 spiderum.com##spiderum-ads
 iotransfer.itopvpn.com#$#.itop-fl-banner { display: none !important; }
