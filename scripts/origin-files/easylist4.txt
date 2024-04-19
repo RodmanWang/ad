@@ -4501,10 +4501,12 @@ api.flocktory.com
 ! Google Chrome may render the popup as a floating element which is not a part of the page
 ! that is why cosmetic rule `###credential_picker_container` does not work
 ! https://developer.mozilla.org/en-US/docs/Web/API/FedCM_API
-||accounts.google.com/gsi/client^$third-party,script,domain=dtf.ru
+||accounts.google.com/gsi/client^$third-party,script,domain=dtf.ru|stackoverflow.com
 !
 ! SECTION: Popups - Regular rules
 !
+nisanyansozluk.com#%#//scriptlet('set-local-storage-item', 'newYeradlariWebsiteHidden', 'true')
+dobreprogramy.pl#%#//scriptlet('trusted-set-local-storage-item', 'action_tooltip_1', '$now$')
 order.ymobile.jp#$#body { overflow: auto !important; position: static !important; }
 order.ymobile.jp#$##not-supported-browser-modal { display: none !important; }
 r10.net##div[data-cname^="topbar10barrk"]
