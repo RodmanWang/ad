@@ -86,6 +86,8 @@
 ! not for DNS
 ||ias.rakuten.co.jp^$third-party,domain=~rakuten-co.jp
 !
+||bance.jp^
+||appdraft.link^$third-party
 ||ad.adpon-affi.net^$third-party
 ||lmadps.jp^$third-party
 ||bibincom.com^$third-party
@@ -1653,6 +1655,7 @@ kuruma-news.jp,magmix.jp,trafficnews.jp$$div[data-history="photo_extra"]
 /wp-content/themes/CashLINESystem/js/modal.$script
 !
 ! Malware/Phishing
+://www.smbc-card-co.jp.*.com/reg/login$document
 .life/shopping/item/m*/$document
 ||amazonaws.com/*.denied/%*/index*.html$document
 .php?nbVVVsa^$document
