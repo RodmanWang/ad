@@ -419,6 +419,14 @@ return [
     "star.fallback.c10r.facebook.com" => 0, // #892
     "star.c10r.facebook.com" => 0, // #892
     "icanhazip.com" => 0, // #899
+    "ak-d.tripcdn.com" => 0, // #903
+    "v6-adashx.ut.cainiao.com" => 0, // #904
+    "vip.cainiaofx.com" => 0, // #904
+    "ib.snssdk.com" => 0, // #905
+    "audid-api.taobao.com" => 0, // #906
+    "m.intl.taobao.com" => 0, // #907
+    "ads.cdn.tvb.com" => 0, // #911
+    "ads.console.aliyun.com" => 0, // #912
     "iflow.uczzd.cn" => 0, // uc搞笑段子
     "m.uczzd.cn" => 0, // uc搞笑段子
     "puds.ucweb.com" => 0, // uc小游戏
