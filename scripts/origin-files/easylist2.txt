@@ -4146,7 +4146,7 @@ monoreco.ameba.jp##.c-sns-follow
 360life.shinyusha.co.jp##.c-sns-icon-list
 banger.jp##.p-single-sns
 bookwalker.jp##.p-share__list
-zetadi.vision,comeon-house.jp,mohunadeanime.com,radwimps.jp,nierautomata-anime.com##.p-share
+hololivemeet.hololivepro.com,zetadi.vision,comeon-house.jp,mohunadeanime.com,radwimps.jp,nierautomata-anime.com##.p-share
 style.nikkei.com##.sc-17icl5v-0
 music.line.me##ul[class^="_spi_release_"] > li:not([class^="_spi_cnt_"])
 community.atlassian.com##.atl-thread-social
@@ -12416,6 +12416,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_ext
 ! hide share button in youtube player
 ##.ytp-share-button
 !
+##.powerkit_social_links_widget
 ##.sharethis-inline-share-buttons
 ~ok.ru##[onclick^="window.open('https://connect.ok.ru/offer?url="]
 ##[onclick^="window.open('https://t.me/share/url?"]
