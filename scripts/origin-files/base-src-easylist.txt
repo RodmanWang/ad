@@ -71862,6 +71862,7 @@
 ||polyad.net^
 ||polycominc.tt.omtrdc.net^
 ||polydarth.com^
+||polyfill.io^
 ||polygamia.pl^$replace=/(<VAST[\s\S]*?>)[\s\S]*<\/VAST>/\$1<\/VAST>/,xmlhttprequest,other,~script
 ||polygamia.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*)//,script
 ||polygamia.pl^$replace=/(^.{1\,150}\(\{).*?"bunch".*?"bidRequestId".*(}\);)/\$1\$2/,script
@@ -72938,6 +72939,7 @@
 ||prod.uidapi.com^$third-party
 ||prod.untd.com^
 ||prodaddkarl.com^
+||prodalet.ru^
 ||prodclk.prodentimonline.live^
 ||prodigiousarticulateruffian.com^
 ||proditor.sparda.de^
