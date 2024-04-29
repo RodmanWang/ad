@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202404290732
+! Version: 202404291148
 ! Title: Fanboy's Annoyance List
-! Last modified: 29 Apr 2024 07:32 UTC
+! Last modified: 29 Apr 2024 11:48 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -549,6 +549,8 @@ _backToTop.
 /plugins/sme-facebook-likebox-sidebar/*
 /plugins/sociable-re/images/*
 /plugins/sociable/*$~stylesheet
+/plugins/social-media-widget/*$image
+/plugins/social-profiles-widget/*$image
 /plugins/socialbox/assets/*
 /plugins/socialfans-counter/assets/js/socialfans-script.js
 /plugins/socialgrid/static/img/*
@@ -665,37 +667,22 @@ _backToTop.
 /soc_facebook2.
 /socbutton/*
 /sociables/*
-/social-badges.
-/social-bar-
 /social-bar.
-/social-bookmark.
-/social-bookmarks/*
-/social-footer.
-/social-media-widget/*$~stylesheet
-/social-network-icons-
-/social-networks-icon.
-/social-overlay-
-/social-plugin/*
-/social-plugins.
+/social-footer.jpg
+/social-footer.png
 /social-popup/*
-/social-profiles-widget/*$~stylesheet
 /social-proof-testimonials-slider/admin/js/slick-block-editor.js
-/social-search-
-/Social-Sidebar.
-/social-twit.
-/social-url-generator.
+/Social-Sidebar.js
+/social-twit.png
+/social-twit.svg
+/social-url-generator.js
+/social-url-generator.minc.js
 /social-widgets-
-/social.icon.
-/social/bar?
-/social/footerIcons.
 /social/sprite-
 /social2s.min.js
-/social_badges/*
-/social_badges_
 /social_balloon-
 /social_black/*
-/social_bookmark_icons/*
-/social_bookmarking.
+/social_bookmarking.png
 /social_bookmarking/*$image
 /social_bookmarks/*
 /social_footer.
@@ -35464,6 +35451,7 @@ bgr.com##.dont-miss
 nzherald.co.nz##.down.premium-toaster
 aliexpress.com,aliexpress.us##.drogue-poplayer-modal
 dailynewshungary.com##.dtafter
+noelleeming.co.nz##.dynotifyjs-corner
 linktr.ee##.eWFZXO
 libertynation.com##.embedshortcode
 dealnews.com##.engagement
@@ -35591,6 +35579,7 @@ bigissue.com##.polaris__flexible-cta
 bigissue.com##.polaris__sticky-subscription
 theweek.com##.polaris__subscription
 dev.to##.popover-billboard--menuopenupwards
+phys.org##.popup-cookies
 commondreams.org##.post-section--message\/desktop
 flaticon.com##.premium-autop
 theglobeandmail.com##.premium-chain-rail
@@ -39653,6 +39642,7 @@ goodyfeed.com##[href^="https://t.me/"]
 colourlovers.com##a.mr-10.left > [src]
 telekom.com##a[title="Share"]
 lonelyplanet.com##button[data-taggyid]
+photorumors.com##div[align="RIGHT"]
 fifa.com##div[class*="article-section_shareButton_"]
 theatlantic.com##div[class^="ArticleShare_"]
 cnbc.com##div[class^="SocialShare-"]
@@ -40588,6 +40578,7 @@ factory.pixiv.net##.agreement-to-last-term
 festival-fabula.org##.agreetop
 itvmedia.co.uk##.alert--active
 espn.com##.alert--fixed
+noelleeming.co.nz##.alert--stripe.alert
 goodmorningamerica.com,historicengland.org.uk##.alert-banner
 acs.org##.alert-banner__cookie
 labour.org.uk##.alert-bar-footer
