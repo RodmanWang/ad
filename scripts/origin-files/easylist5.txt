@@ -2975,6 +2975,7 @@ fredmeyer.com#$?#body { overflow: auto !important; }
 fredmeyer.com#$?#html { overflow: auto !important; }
 !#endif
 !
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#%#//scriptlet('hide-in-shadow-dom', 'faceplate-tracker[source="xpromo"] #get-app')
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#$#body:not([style^="overflow:"]) { pointer-events: auto !important; overflow: auto !important; }
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?##nsfw-qr-dialog:contains(Scan this QR code to download the app now)
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#$#shreddit-app > div.sidebar-grid.pdp { filter: unset !important; }
@@ -3240,6 +3241,8 @@ m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
 ! causes some issues: https://github.com/AdguardTeam/AdguardForMac/issues/550
 ~status.im,~lafenice.io,~kurer-sreda.ru,~chorki.com,~zattoo.com,~zaycev.net,~hitta.se,~mail.ru,~facebook.com,~instagram.com,~drive.google.com$$link[rel="manifest"]
 !
+m.yelp.*##main[class^="content-"] > section[class]:has(> div[class] > a[href^="https://www.yelp."][href*="app.adjust.com"])
+m.yelp.*##main[class^="content-"] ~ div[class^="banner_"]
 fdoc.jp##.appli_banner_box
 mamanoko.jp###js-actamDownloadModal
 m.vidio.com##div[data-testid="smart-banner"]

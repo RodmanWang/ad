@@ -379,7 +379,7 @@ igromania.ru##a[class^="KanobuSocialCommunities_twitter"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/153021
 forbes.ua##.c-post-subscribe
 ! https://privatter.net/p/9889173
-twitter.com#?#section[aria-labelledby^="accessible-list"] div[style^="transform"]:has(div[data-testid="card.wrapper"] + a:contains(/^(asahsi\.com|bnc\.lt|eventlink\.to|fanlink\.to|gamerzz\.net|jp\.cookie-food\.com|jp\.cookicway\.com|jpquiz\.|keeping-healthy\.com|kinmirainews\.com|helpgive\.to|(n9oi1|mainichi|nhk|nikkei|sankei|sokuhou|tokyo-np|yomiuri|yytbe)\.app\.link|sancei\.com|sankeii\.com|sokuhou\.(cc|onelink\.me)|tongari-tent\.blue)/))
+x.com,twitter.com#?#section[aria-labelledby^="accessible-list"] div[style^="transform"]:has(div[data-testid="card.wrapper"] + a:contains(/^(asahsi\.com|bnc\.lt|eventlink\.to|fanlink\.to|gamerzz\.net|jp\.cookie-food\.com|jp\.cookicway\.com|jpquiz\.|keeping-healthy\.com|kinmirainews\.com|helpgive\.to|(n9oi1|mainichi|nhk|nikkei|sankei|sokuhou|tokyo-np|yomiuri|yytbe)\.app\.link|sancei\.com|sankeii\.com|sokuhou\.(cc|onelink\.me)|tongari-tent\.blue)/))
 ! https://github.com/AdguardTeam/AdguardFilters/issues/152867
 posta.com.tr##.content-box > a[href^="https://flipboard.com/"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/151928
@@ -2501,7 +2501,7 @@ kitguru.net###check-also-box
 ! https://github.com/AdguardTeam/AdguardFilters/issues/5992
 dn.se##.navigation__top-container
 ! twitter.com - You might like elements in timeline
-twitter.com#?#section[aria-labelledby][role="region"] > div[aria-label] > div[style] > div[style^="transform: translate"] article[data-testid="tweet"]:has(> div[class] > div[class] > div[class] a[href^="/i/topics"][dir="auto"])
+x.com,twitter.com#?#section[aria-labelledby][role="region"] > div[aria-label] > div[style] > div[style^="transform: translate"] article[data-testid="tweet"]:has(> div[class] > div[class] > div[class] a[href^="/i/topics"][dir="auto"])
 ! mozilla.org - was this page helpful widget
 developer.mozilla.org###helpful-survey
 ! https://forum.adguard.com/index.php?threads/www-topsante-com.23871/
@@ -5228,7 +5228,7 @@ zerohedge.com##div[class^="PromoBanner_"]
 weedleteam.com##.kickstarter-visible
 renosy.com##.floatBanner
 inzynieria.com##.partners-top
-twitter.com##div[data-testid="primaryColumn"] nav[aria-live][role="navigation"] + div[class]:has(> div > div[role="status"] > div > div > a[href="/i/premium_sign_up"][style^="text-overflow:"])
+twitter.com,x.com##div[data-testid="primaryColumn"] nav[aria-live][role="navigation"] + div[class]:has(> div > div[role="status"] > div > div > a[href="/i/premium_sign_up"][style^="text-overflow:"])
 wcostream.tv##td[width="160"][height="900"][align="left"]
 okmusi.com##.footer-banner
 mrdeepfakes.com##.top-line > a.text-gold
@@ -7745,7 +7745,7 @@ bfmtv.com#%#//scriptlet('set-attr', '.video_block', 'autoplay', 'false')
 kuncomic.com#%#//scriptlet('adjust-setInterval', 'countdownTime', '1500', '0.001')
 ! gplinks - gplinks.co/fi3p
 ! https://github.com/AdguardTeam/AdguardFilters/issues/170980
-laners.org,jordaarnews.com,nekopoi.blog,educationjosh.in,skateboardelite.com,allhubdigital.in,airajaneditz.in,evgalaxys.in,dainandinvarta.com,yesimbihari.in,varsidj.com,jiosaavnproapk.download,gyansanatan.in,techexpress360.in,cardekhoindia.in,dardmukti.in,wheelofpets.com,mygamesreward.com,e-gujarati.in,jobeducareer.com,kinemastermods.in,nrvlivability.org,remixodia.link,aksharamedia.com,barmanmusic.com.in,kishanganjnews.in,powerrangergames.com,flyshayari.com,mdsuuniversity.org,odishadjs.link,jankari4u.com,digitalfacts4u.com,jobwaala.in,w3hindi.in,kaisekareblog.com,bharatsarkarijobalert.com,mpscstudyhub.com,indiasarkari.com,aditechz.com,onpointgame.net,doge25.in,kejriwalyojana.com,onlinegratuitycalculator.com,gplinks.co,rontymobile.in#%#//scriptlet('adjust-setInterval', 'myTimer', '*', '0.02')
+ssbytes.com,laners.org,jordaarnews.com,educationjosh.in,skateboardelite.com,airajaneditz.in,dainandinvarta.com,yesimbihari.in,varsidj.com,jiosaavnproapk.download,gyansanatan.in,dardmukti.in,e-gujarati.in,jobeducareer.com,kinemastermods.in,remixodia.link,aksharamedia.com,barmanmusic.com.in,powerrangergames.com,flyshayari.com,mdsuuniversity.org,odishadjs.link,jankari4u.com,digitalfacts4u.com,jobwaala.in,kaisekareblog.com,bharatsarkarijobalert.com,indiasarkari.com,aditechz.com,onpointgame.net,doge25.in,kejriwalyojana.com,onlinegratuitycalculator.com,gplinks.co,rontymobile.in#%#//scriptlet('adjust-setInterval', 'myTimer', '*', '0.02')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172260
 imgdrive.net#%#//scriptlet('trusted-click-element', '#redirect-close > a[onclick="closeOverlay()"]', '', '500')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171810
