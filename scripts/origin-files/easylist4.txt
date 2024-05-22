@@ -550,6 +550,7 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.InA
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.SidebarAd
 !#safari_cb_affinity
 !
+||ambrosialsummit.com^$third-party
 ||verdantsculpture.com^$third-party
 ||reactjspdf.com^$third-party
 ||evasivejar.com^$third-party
@@ -4589,6 +4590,7 @@ api.flocktory.com
 !
 ! SECTION: Popups - Regular rules
 !
+my.telkomsel.com##div[class^="DialogInstall"]
 kotobank.jp###myPaymentModal
 myrtlebeach.com#%#//scriptlet('set-cookie', 'Bring-on-Spring', 'true')
 futura-sciences.com##.viously > div.viously-sticked
@@ -12749,6 +12751,8 @@ mentalfloss.com,90min.com,fansided.com,90min.de,12thmanrising.com,1428elm.com,8p
 !
 ! SECTION: Subscriptions - Regular rules
 !
+tampabay.com##.house-promo
+tampabay.com##.fXDgxBh
 rewe.de##.rdf-footer-newsletter
 colgate.de##.reference-pop-up-banner
 longreads.com##.entry-content > div.in-story:has(> p > a[href^="https://longreads.com/newsletter/"])
