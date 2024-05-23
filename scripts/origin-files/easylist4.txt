@@ -4591,6 +4591,7 @@ api.flocktory.com
 !
 ! SECTION: Popups - Regular rules
 !
+lesbelleslettres.com###popin-wrapper
 my.telkomsel.com##div[class^="DialogInstall"]
 kotobank.jp###myPaymentModal
 myrtlebeach.com#%#//scriptlet('set-cookie', 'Bring-on-Spring', 'true')
@@ -6280,8 +6281,6 @@ ukrhealth.net#?#div[id^="pum-"]:has(> div[id^="popmake-"] > div.pum-content > di
 ukrhealth.net#$#html.pum-open { overflow: auto !important; }
 seo-akademiya.com#$#div[class^="mfp-"] { display: none !important; }
 seo-akademiya.com#$#html[style^="overflow:"] { overflow: auto !important; }
-cybernews.com#$#aside[data-e="popupEvent"] { display: none !important; }
-cybernews.com#$#body { overflow: auto !important; }
 blesk.cz##body > div[id^="video_sticky_"]
 hrodna.life##.download-pwa-box
 ||bigkinds.or.kr/resources/files/popup/
@@ -12754,7 +12753,8 @@ mentalfloss.com,90min.com,fansided.com,90min.de,12thmanrising.com,1428elm.com,8p
 !
 ! SECTION: Subscriptions - Regular rules
 !
-gamedeveloper.com#$?#div[data-module="newsletter-signup-promo"] { remove: true; }
+livemint.com##.btmStrip
+gamedeveloper.com#?#div[data-module="newsletter-signup-promo"]
 gamedeveloper.com##div[data-module="newsletter-signup-promo"]
 culture.pl##.node-banner
 brasilparalelo.com.br##.newsletter-article-block
@@ -18878,7 +18878,7 @@ stavropol.media,ussurmedia.ru,irkutskmedia.ru,krasnoyarskmedia.ru,primamedia.ru,
 zn.ua###social_block_article
 mobil.nwzonline.de###sticky-share
 photo-monster.ru###subSidebar
-kontur.ru,blog.aspose.com,earthsight.org.uk,infobus.*,biblio.com,acf.international,codastory.com,atbmarket.com,dogeat.ru,oggusto.com,pcsecrets.ru,paradoxplaza.com,beforeitsnews.com,nplus1.ru###subscribe
+embracer.com,kontur.ru,blog.aspose.com,earthsight.org.uk,infobus.*,biblio.com,acf.international,codastory.com,atbmarket.com,dogeat.ru,oggusto.com,pcsecrets.ru,paradoxplaza.com,beforeitsnews.com,nplus1.ru###subscribe
 problogbooster.com###subscribe-box-sbm
 dreamfancy.org###subscribe-css
 buttondown.email,the-village.ru,psychologies.ru###subscribe-form
