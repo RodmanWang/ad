@@ -1811,8 +1811,8 @@ bravedown.com#%#//scriptlet('set-constant', 'antiADB', 'noopFunc')
 organic-chemistry.org##div#top:empty
 organic-chemistry.org#%#//scriptlet('set-constant', 'square', '5')
 uakino.club#%#//scriptlet('remove-node-text', '#text', 'Відключи AdBlock на сайті')
-myjournalcourier.com,expressnews.com,sfchronicle.com#%#//scriptlet('set-constant', 'HDN.dataLayer.ads.adBlockerDetected', 'false')
-myjournalcourier.com,expressnews.com,sfchronicle.com#%#//scriptlet('prevent-element-src-loading', 'script', '/script.js')
+houstonchronicle.com,myjournalcourier.com,expressnews.com,sfchronicle.com#%#//scriptlet('set-constant', 'HDN.dataLayer.ads.adBlockerDetected', 'false')
+houstonchronicle.com,myjournalcourier.com,expressnews.com,sfchronicle.com#%#//scriptlet('prevent-element-src-loading', 'script', '/script.js')
 realmz.io###realmz-io_728x90
 /assets/adblock_$domain=mageclash.io|monstermaster.io|grix.io
 starblast.io#%#//scriptlet('prevent-element-src-loading', 'script', 'pafvertizing.crazygames.com')
@@ -3212,7 +3212,7 @@ whatismybrowser.com#@#.adFrame
 ||jsdelivr.net/npm/ad-compass@latest/dist/ad-compass.umd.js
 derwesten.de#@#.AdSense
 @@||xhamster*.*/*/ads$xmlhttprequest,~third-party
-@@/sites/jquery.adx.js$domain=expressnews.com|myjournalcourier.com|sfchronicle.com
+@@/sites/jquery.adx.js$domain=expressnews.com|myjournalcourier.com|sfchronicle.com|houstonchronicle.com
 @@||pafvertizing.crazygames.com/rafvertizing-v7.js$domain=starblast.io
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=textstudio.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=tomshw.it
@@ -12756,6 +12756,7 @@ mentalfloss.com,90min.com,fansided.com,90min.de,12thmanrising.com,1428elm.com,8p
 !
 ! SECTION: Subscriptions - Regular rules
 !
+||cm.yorkdispatch.com/overlay/
 estadao.com.br##div[class^="styles__ContainerNewsletter-"]
 bonappetit.com#%#//scriptlet('trusted-click-element', '.eSzAsR > button[aria-label="Collapse"]')
 livemint.com##.btmStrip
@@ -17148,7 +17149,6 @@ testsigma.com##.subscribe_section
 testsigma.com#$##inlinepopup { display: none!important; }
 testsigma.com#$#body { background-color: inherit!important; }
 testsigma.com#$#.g_banner { background-color: inherit!important; }
-mel.fm##.content__newsletter-signup-form
 engadget.com,lypertek.com,douglas.de,mel.fm##.newsletter-footer
 typepad.com###typepad_newsletter
 ||buhexpert8.ru/partner-popup.js
@@ -19545,6 +19545,8 @@ flightradar24.com##[data-id="a2aa32b"][data-element_type="widget"]
 flightradar24.com##[data-id="a5b8151"][data-element_type="widget"]
 flightradar24.com##[data-id="35ae40a"][data-element_type="widget"]
 !
+!+ NOT_OPTIMIZED
+mel.fm##.content__newsletter-signup-form
 !+ NOT_OPTIMIZED
 portalochronysrodowiska.pl,diariodecuyo.com.ar,super-hobby.co.uk,super-hobby.de,super-hobby.be,super-hobby.at,super-hobby.it,super-hobby.pt,super-hobby.es,super-hobby.com,mojehobby.pl,edh.tw,vigo.de,arbeitssicherheit.de,smartasset.com,digitalcitizen.life,steuertipps.de,glamour.pl,przyslijprzepis.pl,kobieta.pl,daemmen-und-sanieren.de,vigo.de,libhunt.com,dreamstime.com,antyweb.pl,brennenstuhl.com,pianetadesign.it,saashub.com,developer.mozilla.org,disqus.com,notebooki.pl,schweizer-illustrierte.ch##.newsletter-box
 !+ NOT_OPTIMIZED
