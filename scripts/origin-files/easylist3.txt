@@ -1784,6 +1784,7 @@ scitechdaily.com,thewindowsclub.com#@#.ad-space
 ! Do not forget about '!#safari_cb_affinity' section for exclusions:
 ! LINK: AnnoyancesFilter/Popups/sections/antiadblock.txt#general
 !
+scimagojr.com##body #wrap-blocker
 myshows.me#%#//scriptlet('set-cookie', 'adBlockModal', 'true')
 klsescreener.com###aLegMYzGHfnR
 klsescreener.com#%#//scriptlet('abort-current-inline-script', 'document.getElementById', '/adsbygoogle|adblock/')
@@ -4246,6 +4247,12 @@ online-fix.me#?#.sidebar > div.sidebar-block:contains(Adblock)
 usrowing.org,stevensducks.com##.sidearm-adblock
 utsports.com##body > div[class][aria-label="Ad Blocker Detected"]
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/180195
+!#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
+!#safari_cb_affinity(privacy)
+@@||l936.expressnews.com^$domain=expressnews.com
+!#safari_cb_affinity
+!#endif
 ! https://github.com/AdguardTeam/AdguardFilters/issues/109655
 !#safari_cb_affinity(general,privacy)
 @@||meteoblue.com/build/website/gpt.js
@@ -4595,6 +4602,7 @@ api.flocktory.com
 !
 ! SECTION: Popups - Regular rules
 !
+scribd.com#?#.page_wrapper div[class]:has(> div[data-e2e="dismissible-ad-header-scribd_mobile_pushdown"])
 character.ai#%#//scriptlet('trusted-click-element', 'div[role="dialog"] > div[class]:has(a[href$="-Login-Process"]) ~ button')
 gbnews.com##.breaking-banner__wrapper
 fark.com##div[class^="custombox-"]
@@ -12415,7 +12423,7 @@ laarena.com.ar,lanacion.com.ar##.notificacion-modal
 ||pornl.com/ps/index.js
 ||sw.wpu.sh/script/main.js$domain=hclips.com|erkiss.live
 auchan.ua#%#//scriptlet("set-constant", "navigator.geolocation", "emptyObj")
-/push.js$domain=51xiazai.cn|tsn.ua|sputnik.by|news.noteru.com|sputnik-georgia.ru
+/push.js$domain=51xiazai.cn|tsn.ua|sputnik.by|news.noteru.com|sputnik-georgia.ru|aksiyon.com.tr
 lifehacker.ru###lh-push-app
 youla.ru##.web_push_confirmation
 izlesene.com,doviz.com,sinemalar.com###x-comet-dialog
@@ -12766,6 +12774,9 @@ mentalfloss.com,90min.com,fansided.com,90min.de,12thmanrising.com,1428elm.com,8p
 !
 ! SECTION: Subscriptions - Regular rules
 !
+sherwood.news#?#div[class^="css-"] button[type="submit"]:contains(Subscribe):upward(form)
+bostondynamics.com##.fl-module-BDInsightsForm
+publimetro.com.mx##img[alt="Newsletter Publimetro M￩xico"]
 nvidianews.nvidia.com##.connect .col-lg-6:has(a[href="/alerts"])
 nvidianews.nvidia.com#$#.connect .col-lg-6 { flex: 0 0 100% !important; max-width: 100% !important; }
 gizdev.com###telegramdev
