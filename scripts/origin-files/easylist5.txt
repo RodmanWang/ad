@@ -5199,6 +5199,13 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+defeez.ru##.codeless-content > div.bans-in-post-1
+defeez.ru###block-25
+defeez.ru###metaslider_widget-2
+jin10.com###jin_flash_list > div.jin-flash-item-container:has(a[href^="https://www.jin10.com/activities/"])
+jin10.com##.side-poster
+jin10.com##.vip-exclusive
+jin10.com##.cooperation-container
 mysurance.co.jp##span > a[href*="?extraField"][rel="noopener"][target="_blank"]
 fastweb.it##.banner_offerta_a
 live.nicovideo.jp##a[class*="premium-merit-"][class*="banner"]
@@ -9574,7 +9581,7 @@ m.webtoons.com#%#AG_onLoad(function() {var g = new MutationObserver(function() {
 estadao.com.br,atribuna.com.br,braziljournal.com,revistapesquisa.fapesp.br,migalhas.com.br#%#//scriptlet("prevent-addEventListener", "copy", "event")
 tweaktown.com#%#//scriptlet("prevent-addEventListener", "copy", "bypassEventsInProxies")
 toptoon.com#%#//scriptlet('abort-current-inline-script', 'window.oncontextmenu')
-opovo.com.br,brasilescola.uol.com.br,forbes.com.br,abril.com.br#%#//scriptlet('prevent-addEventListener', 'copy', 'event.clipboardData.setData')
+elliberal.com.ar,opovo.com.br,brasilescola.uol.com.br,forbes.com.br,abril.com.br#%#//scriptlet('prevent-addEventListener', 'copy', '.clipboardData.setData')
 pressian.com#%#//scriptlet('abort-current-inline-script', 'window.addEventListener', 'copy')
 sedaily.com#%#//scriptlet('set-constant', 'NewsSource.addSource', 'noopFunc')
 bomtoon.com#%#//scriptlet('remove-attr', 'oncontextmenu|onselectstart|ondragstart', '.inner')
