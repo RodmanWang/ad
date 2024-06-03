@@ -1903,7 +1903,7 @@ workingdays.org#%#//scriptlet('set-constant', 'isadblocking', 'false')
 nartag.com##.w-help
 pisupisu.pl###bear_wrap
 torrentgalaxy.to###blockalert
-xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##aside[data-role="yld-pdab-message"]
+xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##aside[data-role$="ab-message"]
 animefenix.tv###my-modal
 olarila.com##.__b-popup1__
 olarila.com##.__b-popup1__ + div.esPopupWrapper
@@ -4012,13 +4012,6 @@ theharborside.org,fleetstar.com,resources.harneys.com,zeomega.com,marketing.rsvp
 !#safari_cb_affinity(general,privacy)
 @@/content/aoAdDetect.js
 !#safari_cb_affinity
-! https://github.com/AdguardTeam/AdguardFilters/issues/157276
-! xhamster.com
-xhvid.com,xhamster20.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,xhtab2.com,xhamster18.*,xhamster17.*,hamsterix.*,xhamster13.*,xhamster5.desi,xhamster9.com,xhamster.desi,xhamster.one,xhamster.com#%#//scriptlet('prevent-fetch', 'ads')
-!#safari_cb_affinity(general)
-!+ PLATFORM(ios, ext_safari, ext_android_cb)
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=xhvid.com|xhamster20.desi|xhwebsite2.com|xhamster18.desi|xhadult3.com|xhadult2.com|xhmoon5.com|xhwide1.com|xhamster3.com|xhplanet2.com|xhtab2.com|xhamster18.*|xhamster17.*|hamsterix.*|xhamster13.*|xhamster5.desi|xhamster9.com|xhamster.desi|xhamster.one|xhamster.com
-!#safari_cb_affinity
 ! https://github.com/AdguardTeam/AdguardFilters/issues/159348
 kufar.by#%#//scriptlet('set-constant', 'Object.prototype.renderTo', 'undefined')
 kufar.by##div[class^="styles_cards"] > div[class*="styles_grid-banner"]
@@ -4602,7 +4595,7 @@ api.flocktory.com
 ! that is why cosmetic rule `###credential_picker_container` does not work
 ! https://developer.mozilla.org/en-US/docs/Web/API/FedCM_API
 ! Warning: check, if auth using Google is not broken
-||accounts.google.com/gsi/client^$third-party,script,domain=dtf.ru|stackoverflow.com|vc.ru|pikabu.ru|nytimes.com|baltimoresun.com|rozetka.com.ua|estadao.com.br
+||accounts.google.com/gsi/client^$third-party,script,domain=dtf.ru|stackoverflow.com|vc.ru|pikabu.ru|nytimes.com|baltimoresun.com|rozetka.com.ua|estadao.com.br|medium.com
 !
 ! SECTION: Popups - Regular rules
 !
@@ -6386,7 +6379,6 @@ baumarkt.check24.de#$##app-points-campaign-desktop { display: none !important; }
 fitsmallbusiness.com##.fit-omv2-campaign-popup
 smallseotools.com###FITS_con
 fontanka.ru##div[data-sticky-id="bottomStickyElement"]
-erli.pl#%#(function(){try{if("undefined"!=typeof localStorage){const b=JSON.stringify({lastSeenAt:new Date,viewsCounter:1});localStorage.setItem("ERLI_PRO_GUEST_MODAL_DATA",b)}}catch(a){}})();
 hardx.com,21sextury.com##.promobar
 hancinema.net##.footer  + div[style^="position:fixed;padding"]
 wayfair.co.uk##div[data-codeception-id="ResponsiveModal"]
