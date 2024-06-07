@@ -102,6 +102,8 @@ instagram.com##._aagw:empty
 ! End: Instagram.com
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/181003
+republic.ru##.ino_agent
 ! https://github.com/AdguardTeam/AdguardFilters/issues/180762
 delfi.lt##body #__layout div.C-live-stream-announcement
 ! https://github.com/AdguardTeam/AdguardFilters/issues/180049
@@ -3326,6 +3328,7 @@ msn.com###eubanner
 ! START: Yandex
 !
 ! ya.ru - main page
+ya.ru##.link-bro
 ya.ru##.search3__doodle_video
 ||yastatic.net/s3/home/logos/doodle/mp4/tvstation_$domain=ya.ru
 ya.ru##.market-feed
