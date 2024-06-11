@@ -550,6 +550,7 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.InA
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.SidebarAd
 !#safari_cb_affinity
 !
+||nudgeduck.com^$third-party
 ||rockagainst.com^$third-party
 ||enchantingvalley.com^$third-party
 ||handsomelythumb.com^$third-party
@@ -4602,6 +4603,9 @@ api.flocktory.com
 !
 ! SECTION: Popups - Regular rules
 !
+goworkship.com##.c-fixed-banner
+goworkship.com##.jsc-adsFixed
+openbook.gr##.sgpb-basic-bottom-right
 letras.mus.br##.header:has(a[data-ga-label="entrar"]) ~ div section.selectionOptions
 thenightly.com.au##.js-content-area > footer ~ div[class*="StickyBreachContainer"]
 splashlearn.com#$##pum-40845 { display: none !important; }
@@ -12800,6 +12804,9 @@ mentalfloss.com,90min.com,fansided.com,90min.de,12thmanrising.com,1428elm.com,8p
 !
 ! SECTION: Subscriptions - Regular rules
 !
+frankmedia.ru##.post__telegram
+frankmedia.ru##div[data-svelte-component="telegram/corner-block"]
+frankmedia.ru##.feed__container div.feed__item:has(> div.widget > div.widget__container > div.telegram)
 fontanka.ru##div[itemtype="http://schema.org/NewsArticle"] > div > div:has(> div > a[href="https://t.me/fontankaspb"])
 analyticsindiamag.com##main[data-elementor-type="single-post"] > section.elementor-section:has(> div.elementor-container > div.elementor-column > div.elementor-widget-wrap > div.elementor-element > div.elementor-widget-container > form.elementor-form)
 analyticsindiamag.com##.elementor-column:has(> div.elementor-widget-wrap > div.elementor-element > div.elementor-widget-container > a[href="https://whatsapp.com/channel/0029VaCAfcMGehEGsj0COi2R"])
@@ -17524,7 +17531,7 @@ westsidetoday.com,learnmech.com###custom_html-5
 rambus.com,internet-access-guide.com,myadultanimes.com###custom_html-6
 freemodapks.com,moonshot.news,activestate.com,xakep.ru###custom_html-7
 marcandangel.com###custom_html-8
-webtous.ru,zeropark.com,hackware.ru,fosspost.org###custom_html-9
+openbook.gr,webtous.ru,zeropark.com,hackware.ru,fosspost.org###custom_html-9
 emergency-live.com,pridesource.com,investmentwatchblog.com###custom_html-11
 scholarship-positions.com###custom_html-13
 newsmaker.md###custom_html-15
