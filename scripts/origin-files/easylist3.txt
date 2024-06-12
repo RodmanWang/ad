@@ -1790,6 +1790,9 @@ scitechdaily.com,thewindowsclub.com#@#.ad-space
 ! Do not forget about '!#safari_cb_affinity' section for exclusions:
 ! LINK: AnnoyancesFilter/Popups/sections/antiadblock.txt#general
 !
+lephoceen.fr#$#body { overflow: auto !important; }
+lephoceen.fr#$#div[class^="paywall_modal_"][aria-labelledby^="Adblock"] { display: none !important; }
+lephoceen.fr#%#//scriptlet('prevent-fetch', 'pips.taboola.com')
 playzone.cz##.aab-alert-wrap
 playzone.cz#%#//scriptlet('set-constant', 'clench3', 'true')
 bilibili.com##.recommended-swipe-body div.carousel-slide:has(> a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bilibili.com/"]))
@@ -12806,6 +12809,7 @@ mentalfloss.com,90min.com,fansided.com,90min.de,12thmanrising.com,1428elm.com,8p
 !
 ! SECTION: Subscriptions - Regular rules
 !
+aftermath.site##div[class^="ContentGate_wrapper_"]:has(> button[class^="ContentGate_regClose"])
 frankmedia.ru##.post__telegram
 frankmedia.ru##div[data-svelte-component="telegram/corner-block"]
 frankmedia.ru##.feed__container div.feed__item:has(> div.widget > div.widget__container > div.telegram)
