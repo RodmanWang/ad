@@ -1462,13 +1462,10 @@ return [
         "httpdns.c.cdnhwc2.com", // #847
     ],
     "alicdn.com" => [
-        "httpdns.alicdn.com", // #847
+        // "httpdns.alicdn.com", // #847, #916
     ],
     "onethingpcs.com" => [
         "natdetection.onethingpcs.com", // #847
-    ],
-    "kuaishouzt.com" => [
-        "kuaishouzt.com", // #847
     ],
 
     "2mdn-cn.net" => ["2mdn-cn.net"],
