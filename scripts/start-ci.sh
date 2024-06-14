@@ -18,7 +18,6 @@ easylist=(
   "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_22_Annoyances_Widgets/filter.txt"
   "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt"
   "https://raw.githubusercontent.com/List-KR/List-KR/master/filters-share/3rd_domains.txt"
-  "https://easylist.to/easylist/fanboy-annoyance.txt"
 )
 
 hosts=(
