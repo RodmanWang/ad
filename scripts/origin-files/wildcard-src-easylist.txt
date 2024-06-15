@@ -123,11 +123,9 @@
 ||geoloc*.geo20120530.com^
 ||geoloc*.geostats.ovh^
 ||geoloc*.geovisite.ovh^
-||gmx.*^$removeparam=mc
 ||gonews*.net^$third-party
 ||gscounters.*.gigya.com^
 ||hn-ping*.hashnode.com^
-||hog.*^$removeparam=ad
 ||host*.carl-ras.dk^
 ||host*.ncoi.nl^
 ||host*.nti.nl^
@@ -166,8 +164,6 @@
 ||logger-*.dailymotion.com^
 ||logs*.smithsonian.museum^$third-party
 ||logservice-*.platform.dbankcloud.cn^
-||lotto.gmx.*^$removeparam=advertisementId
-||lotto.gmx.*^$removeparam=partnerId
 ||lt*.tritondigital.com^
 ||maas-*.phunware.com^
 ||mapi-log.qoo*.jp^
@@ -191,10 +187,6 @@
 ||pixel*.production-public.tubi.io^
 ||pixel-*.rubiconproject.com^
 ||pixelapi-*.cs.mysamba.tv^
-||play.google.*^$removeparam=referrer
-||plus.yandex.*^$removeparam=origin
-||plus.yandex.*^$removeparam=source
-||plus.yandex.*^$removeparam=state
 ||popup*.lifterapps.com^$domain=linuxandubuntu.com
 ||prebid-*.rubiconproject.com^
 ||production-adserver-*.amazonaws.com^
@@ -217,7 +209,6 @@
 ||same*.stockstar.com^
 ||sdk.*.braze.com^$third-party
 ||sensorsdata*.read.duokan.com^
-||shopping.gmx.*^$removeparam=origin
 ||snowplow-collector-*.amazonaws.com^$third-party
 ||sock*-goguardian.pusher.com^
 ||srv*.*tuplay.ru^$script
@@ -227,12 +218,6 @@
 ||stat*.1internet.tv^
 ||static*.365inews.com^
 ||stats*.videonow.ru^
-||streamfab.*^$removeparam=_csrc_
-||streamfab.*^$removeparam=_cus_
-||streamfab.*^$removeparam=_cut_
-||streamfab.*^$removeparam=c_ad
-||streamfab.*^$removeparam=client_m
-||streamfab.*^$removeparam=client_t
 ||subnewss*.net^$third-party
 ||suite*.linximpulse.net^$third-party
 ||t*.zcvh.net^
@@ -263,8 +248,6 @@
 ||vix.*.criteo.net^$domain=spiegel.de
 ||vns86.oss-*.aliyuncs.com^
 ||w*statistics.info^$third-party
-||weibo.*^$removeparam=dt_dapp
-||weibo.*^$removeparam=weibo_id
 ||widget-v*.tidiochat.com^$third-party
 ||widgets.*.webengage.com^
 ||www.fuze-hill*.xyz^$popup
