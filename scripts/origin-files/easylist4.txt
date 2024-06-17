@@ -498,6 +498,8 @@
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/181591
+iwb.jp#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'getComputedStyle(a).height')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/179614
 kotobank.jp#%#//scriptlet('prevent-setTimeout', 'return', '7400')
 !#if (adguard_app_ios || adguard_ext_android_cb)
@@ -529,10 +531,6 @@ success-corp.co.jp#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=success-corp.co.jp
 nieru.net#@#.ad-space
 nieru.net#@#.adWidget
-! https://github.com/AdguardTeam/AdguardFilters/issues/179875
-! https://github.com/AdguardTeam/AdguardFilters/issues/159931
-iwb.jp#%#//scriptlet('abort-on-property-read', 'alert')
-iwb.jp#%#//scriptlet('abort-on-property-read', 'onload')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171258
 jprime.jp#$?#.js-reward-modal  { remove: true; }
 jprime.jp#$?#.js-reward-gallery-modal  { remove: true; }
@@ -1894,6 +1892,22 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+oricon.co.jp###content-main .block-link-list-b > article:has(.pr)
+mainichi.jp##div[id^="ad-"]
+||altema.jp/*/ad_random.js
+||altema.jp/*/ads_interstitial.js
+||altema.jp/*/ffbeadsjs.js
+altema.jp##.ad_random_tag
+altema.jp##.all-center:has(> tbody > tr > td > a[href^="https://t.quoriza.net"] > img)
+altema.jp##.article > h2:has(+ p > a[href*="/?code="] > img)
+altema.jp##.article > p:has(> a[href*="/?code="] > img)
+altema.jp##.article > p:has(> a[href*="/?code="] > img) + p
+altema.jp##.article > table.tableLine:has(> tbody > tr > td > a[href*="/?code="] > img)
+altema.jp##.cta-link-box02
+altema.jp##.cta-link-box02 + h3
+altema.jp##.cta-link-box02 + h3 + table.tableLine
+altema.jp##.joubu-rank02
+altema.jp##.overrayBox_01
 flashff-blog.com##aside > div[style]:has(> div.smanone > p > a[href^="https://www.dlsite.com/"])
 ||seitainavi.jp/wp-content/themes/hone-new/assets/images/banner
 ||seitainavi.jp/wp-content/themes/hone-new/assets/images/footer-bnr_common
