@@ -526,7 +526,6 @@ http://*.ru/leftunit.pl?
 .ua/pop.js
 .ua/rtr/5
 .ua/rtr/9
-.unicast.*.js
 .untang.*?
 .wrating.*.js
 .xyz/get.php?
@@ -1489,6 +1488,7 @@ ucoz.ru/informer/
 ! Bad: /banner.jpg (should be in general_url.txt)
 ! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
+||bidmatic.io^$third-party
 ||vidscriptshark.com^
 ||1qe.info^
 ||23oct2023.site^
