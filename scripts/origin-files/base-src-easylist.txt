@@ -69207,6 +69207,7 @@
 ||photographpan.com^$third-party
 ||photography.hursey.com^
 ||photographyprovincelivestock.com^
+||photopea.com^$document,replace=/<head>/<script>if (localStorage.length === 0 || typeof JSON.parse(localStorage._ppp)['0_uid'] === 'undefined') {Object.defineProperty(window\, 'innerWidth'\, {get() { return document.documentElement.offsetWidth + 320 }\,});}<\/script><head>/
 ||photorank.me^$third-party
 ||photospace.life^$all
 ||photovault.pics^$all
