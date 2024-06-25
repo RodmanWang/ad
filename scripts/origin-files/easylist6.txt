@@ -451,7 +451,11 @@ fosspost.org,portalvirtualreality.ru,pingvin.pro,bonobono.com,curbsideclassic.co
 ! Exceptions are also required because these requests can be blocked by other rules
 !#safari_cb_affinity(general)
 ||succeedscene.com^$badfilter
+! File paths can change daily and generic url blocking rules can block them
 @@||succeedscene.com^$script,third-party
+! If site must be blocked:
+! ||succeedscene.com^$important,domain=
+!
 !@@||succeedscene.com/_adslot/
 !@@||succeedscene.com/pagead/ads?ad=
 !@@||succeedscene.com/*/ads.load.js
@@ -1786,6 +1790,8 @@ armidaleexpress.com.au,bendigoadvertiser.com.au,canberratimes.com.au,centralwest
 ! Do not forget about '!#safari_cb_affinity' section for exclusions:
 ! LINK: AnnoyancesFilter/Popups/sections/antiadblock.txt#general
 !
+betaseries.com#?#.faceboxDisplay:has(> div#facebox > form > p > img[src$="/facebox_adblock.jpg"])
+betaseries.com#$#body[style*="overflow:"] { overflow: auto !important; padding-right: 0 !important; }
 4spn.github.io#?##oframepreroll pjsdiv:has(> pjsdiv[style^="position: absolute;"]:contains(ADBLOCK))
 redv.co##div[data-reactroot] > div[class] > form + div[class^="sc-"]:has(> ins.adsbygoogle[data-ad-client])
 playnow.pl###js-player-wrapper > .c-adblock-popup
@@ -12826,6 +12832,7 @@ armidaleexpress.com.au,bendigoadvertiser.com.au,canberratimes.com.au,centralwest
 !
 ! SECTION: Subscriptions - Regular rules
 !
+digitaltrends.com##div[data-shortcode-name="respec-newsletter-signup"]
 jmty.jp##.u-margin-s-lr.u-margin-l-tb > .callout
 zed.dev#?#.grid > div.col-span-full:has(> div.w-full > button.w-full:contains(Subscribe))
 wish.com#%#//scriptlet('trusted-set-cookie', 'progressiveBottomSheetTimeStamp', '"2024-06-24T08:48:18.839Z"')
