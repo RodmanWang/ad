@@ -102,6 +102,8 @@ instagram.com##._aagw:empty
 ! End: Instagram.com
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/182476
+kotaku.com##div[class^="sc-"] > div[class^="sc-"]:has(> div.related-stories-inset-video)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/182473
 newyorker.com#$?#figure[data-testid="cne-interlude-container"] { remove: true; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/182413
@@ -3444,6 +3446,8 @@ www.kinopoisk.ru##div[class^="trailer-promo"]
 ! END: Yandex
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/182425
+dealmoon.com##.dm-event-tip-wrap
 ! https://github.com/AdguardTeam/AdguardFilters/issues/182223
 gnu.org###fundraiser
 ! https://github.com/AdguardTeam/AdguardFilters/issues/182179
@@ -3499,9 +3503,6 @@ filmora.wondershare.com##aside[data-recommend="section-product-logo"]
 ka-style.jp##.l-footerBanner
 ka-style.jp##nav.p-columnCategory ~ .p-footerEditable
 ka-style.jp##.p-postHeaderBanner
-! https://github.com/AdguardTeam/AdguardFilters/issues/174939
-! TODO: check after 2024 May 1.
-yahoo.co.jp###Topics ~ div[data-rma-pos] ~ #PayPayFes
 ! https://github.com/AdguardTeam/AdguardFilters/issues/174892
 ag.ru#%#//scriptlet('set-cookie', 'articlesRead', '1')
 ag.ru#%#//scriptlet('set-cookie', 'headercoin', '1')
@@ -5247,6 +5248,7 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+finance.sina.com.cn##.wrap > div[style^="margin-top:"]:has(> a[href][target="_blank"] > img)
 ||camonster.io/streams/streams_live.php$domain=nsfwmonster.com
 ||player.cnevids.com/interlude/$domain=wired.it|wired.com|vogue.de
 ||creative.cams.gifsauce.com/widgets/
