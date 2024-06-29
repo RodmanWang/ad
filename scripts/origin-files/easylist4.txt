@@ -549,11 +549,12 @@ blog.2nt.com#@#.AdSense
 pvpoke-re.com##body > div[id][style*="9999"][style*="fixed"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/166650
 ! https://github.com/AdguardTeam/AdguardFilters/issues/167434
-bm.best-hit.tv,h178.com#%#//scriptlet('abort-current-inline-script', 'addEventListener', 'AdBlock')
-bm.best-hit.tv,h178.com,jukenbbs.com#@#.amp_ad
-bm.best-hit.tv,h178.com,jukenbbs.com#@#.ad-space
-bm.best-hit.tv,h178.com,jukenbbs.com#@#div[id^="div-gpt-"]
-bm.best-hit.tv,h178.com,jukenbbs.com#@#[id^="div-gpt-ad"]
+bm.best-hit.tv,h178.com,jukenbbs.com##.substitute-area-middle-on
+bm.best-hit.tv,h178.com,jukenbbs.com##.substitute-show-area-on
+bm.best-hit.tv,h178.com,jukenbbs.com###gStickyAd
+@@||bm.best-hit.tv^$generichide
+@@||h178.com^$generichide
+@@||jukenbbs.com^$generichide
 jukenbbs.com#%#//scriptlet('prevent-addEventListener', 'load', 'delayCheckAdBlock')
 ! https://github.com/uBlockOrigin/uAssets/issues/20629
 @@||shindanmaker.com^$generichide
@@ -1901,6 +1902,7 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+newskingdom.jp##.kkkarea
 beerbrick.com###sidebar > aside:has(> div > a[href^="https://amzn.to/"])
 voyeurgeek.com##.elementor-widget-flat-posts + section.elementor-section.itigyotext
 5urprise.jp##.entry-content > center > strong
@@ -2002,6 +2004,8 @@ baynews.blog.jp#?#div[class$="t-column-inner"] > center:contains(スポンサー
 xn--ipv6-yn4cxgwe959zqrkp58g.com##.post_content > div.is-style-bg_stripe:has(> center > p > a[href*="valuecommerce.com"])
 xn--ipv6-yn4cxgwe959zqrkp58g.com##.post_content > div > div.is-style-border_sm:has(> div.is-style-dent_box > p > a[href^="https://network.mobile.rakuten.co.jp/campaign/"])
 xn--ipv6-yn4cxgwe959zqrkp58g.com##div[style="width:100%;margin:0 auto;"]
+||assets.tvkingdom.jp/images/gtv/banner/bnr_
+tvkingdom.jp##.contBannerList
 tvkingdom.jp##.billboardBannerBox
 akibablog.blog.jp##div[style^="top:0px;position:fixed;z-index:0;left:50%;"]
 iot-consulting.co.jp##.entry-content > div.sng-box:has(a[href^="//ck.jp.ap.valuecommerce.com/"])
