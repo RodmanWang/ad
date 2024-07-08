@@ -102,6 +102,9 @@ instagram.com##._aagw:empty
 ! End: Instagram.com
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/183143
+vogue.co.th##section.daily_right_player
+vogue.co.th##div.vdo-show-only-mobile-size
 ! winfuture.de - annoying user engagement text at end of article
 winfuture.de#?#.content_wrap > #news_content > br + br + b:contains(?)
 winfuture.de#?#.content_wrap > #news_content > br + br + i > b:contains(?)
@@ -7905,8 +7908,6 @@ wdho.ru#%#//scriptlet('set-constant', 'window.c', '1')
 dwgshare.com#%#//scriptlet('adjust-setInterval', 'secounds', '*', '0.001')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/176233
 shortix.co,learnmany.in#%#//scriptlet('adjust-setInterval', 'count', '*', '0.001')
-! https://github.com/AdguardTeam/AdguardFilters/issues/175668
-exuce.com#%#//scriptlet('adjust-setInterval', '/wpsafe|counter/', '*', '0.001')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/175031
 mp4upload.com#%#//scriptlet('adjust-setTimeout', 'tick', '*', '0.001')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/174343
@@ -9596,7 +9597,7 @@ mediafire.com#$#.nonDLContentWrap { min-height: 1300px !important; }
 lanacion.com.ar#$#.sidebar__aside { background: none!important; }
 gamegame.kr#$#body div { -webkit-touch-callout: default!important; -moz-user-select: text!important; -webkit-user-select: text!important; -ms-user-select: text!important; -o-user-select: text!important; user-select: text!important; -khtml-user-select: text!important; }
 world4.eu,tunovelaligera.com,jstranslations1.com#$#body.unselectable * { -webkit-touch-callout: default!important; -moz-user-select: text!important; -webkit-user-select: text!important; -ms-user-select: text!important; -o-user-select: text!important; user-select: text!important; -khtml-user-select: text!important; }
-mangaflame.org,exlyrics.com,plantaomaringa.com,omgkpop.top#$#html > body *:not(input):not(textarea)::selection { background-color: #3297FD!important; }
+proserialkey.com,mangaflame.org,exlyrics.com,plantaomaringa.com,omgkpop.top#$#html > body *:not(input):not(textarea)::selection { background-color: #3297FD!important; }
 plantaomaringa.com,omgkpop.top#$#html > body *:not(input):not(textarea):not(button) { -webkit-touch-callout: default!important; -moz-user-select: text!important; -webkit-user-select: text!important; -ms-user-select: text!important; -o-user-select: text!important; user-select: text!important; -khtml-user-select: text!important; }
 visortmo.com,lectortmo.com#$#.element { -webkit-touch-callout: default!important; -moz-user-select: text!important; -webkit-user-select: text!important; -ms-user-select: text!important; -o-user-select: text!important; user-select: text!important; -khtml-user-select: text!important; }
 amp.n-tv.de#$#.wrapper-page { min-height: calc(100%) !important; }
@@ -9792,7 +9793,7 @@ teepr.com#%#//scriptlet("abort-current-inline-script", "jQuery", "document.oncon
 utorrentgamesps2.blogspot.com#%#//scriptlet("remove-attr", "onselectstart", "body")
 utorrentgamesps2.blogspot.com#%#//scriptlet("abort-current-inline-script", "document.onkeyup")
 software-on.com#%#//scriptlet("prevent-addEventListener", "/selectstart|dragstart|keydown/", "preventDefault")
-exlyrics.com,skidrowcodex.net#%#//scriptlet("abort-on-property-read", "stopPrntScr")
+proserialkey.com,exlyrics.com,skidrowcodex.net#%#//scriptlet("abort-on-property-read", "stopPrntScr")
 ahstudios.net,crunchyscan.fr,picallow.com,thecustomrom.com#%#//scriptlet("abort-on-property-read", "addMultiEventListener")
 lectortmo.com#%#//scriptlet("remove-attr", "oncontextmenu", ".img-container > img[oncontextmenu]")
 quotev.com#%#//scriptlet("remove-attr", "onselectstart|ondragstart|unselectable", "#rescontent")
