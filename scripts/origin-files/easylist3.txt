@@ -1918,6 +1918,9 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+tennisclassic.jp###iasContainer > div.iasItem ~ div.iasItem > div[class*="ad-"]
+tennisclassic.jp##div[class*="ad-"] > div[id^="dipalyId-"]
+tennisclassic.jp##.articleDetailAdd
 fujingaho.jp##.css-9wmwr1
 fujingaho.jp##section > div[class^=" css"]:has(> .ad-disclaimer:first-child + .ad-container:last-child)
 higashiaichi.co.jp##.sec-side-banner
@@ -7904,11 +7907,12 @@ fx-koryaku.com##.textwidget > center > a[target="_blank"]
 ||dmm.co.jp^$domain=exploader.net
 ||exploader.net/d/$image
 ||dmm.co.jp^$popup,domain=exploader.net
-exploader.net#%#//scriptlet('prevent-setTimeout', 'daotag')
+||exploader.net/js/$xmlhttprequest
+exploader.net#$#div[style*="1120px;"][style*="450px;"] { height: 0 !important; overflow: hidden !important; }
 exploader.net###newfiles > ul.list > li[style*="height: 120px;"]
-exploader.net##div[style*="1120px;"][style*="450px;"]
-exploader.net##a[href^="#"]
-exploader.net##div[style*="305px"][style*="align-items:"]
+exploader.net###wrapper > div[data-style][style*="fixed"]
+exploader.net##a[link*="al.dmm.co.jp"]
+exploader.net##article > div[style*="305px"][style*="align-items:"]
 exploader.net##body ul.list > li[style="clear: left;width: calc(100% + 3px) !important;margin-right: -1px;height: 120px;margin-left: -2px;float: none;display: block !important;"]
 exploader.net##.tag + div[class]
 coromoo.com##div[class$="-ad"]
@@ -10884,6 +10888,8 @@ adguard.info,adguard.com,adguard.app#$#.hello_from_adguard_advanced_protection_i
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/183263
+tennisclassic.jp#@#.ad-sp
 ! https://github.com/tofukko/filter/issues/97
 phileweb.com#%#//scriptlet('set-attr', 'span[class] img.lazyload[width]', 'src', '[data-src]')
 ||g.doubleclick.net/tag/js/gpt.js$redirect=googletagservices-gpt,domain=phileweb.com
