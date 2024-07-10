@@ -5279,6 +5279,9 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+cloud.baidu.com##div[class*="width"][class$="-center"] a[href^="https://cloud.baidu.com/product/wenxinworkshop?"]
+||bce.bdstatic.com/p3m/common-service/uploads/dibu_edc2214.png
+cloud.baidu.com##a[data-track-value="右侧banner"]
 dh-online.ru##.left_sidebar > div[style] > a[href^="http://shop.dh-online.ru/"]
 livemint.com##div[id^="signInStoryBoxId"]
 gamespark.jp##.news-list > section.item--special
@@ -9465,8 +9468,6 @@ dailypost.co.uk#%#//scriptlet('trusted-click-element', 'span.autoplay-cancel', '
 rutracker.org#%#window.self = window.top;
 ! https://github.com/AdguardTeam/AdguardFilters/issues/4440
 raptu.com#%#AG_onLoad(function(){var el=document.querySelector('body > #normalmsg > form[action="#"]');if(el)el.submit()});
-! https://forum.adguard.com/index.php?threads/resolved-watchseries-cr.19055/#post-126304
-watchseries.cr#%#AG_onLoad(function(){buildPlayer();});
 ! bleacherreport.com - https://github.com/AdguardTeam/AdguardFilters/issues/3561
 bleacherreport.com#%#var mt=window.MutationObserver||window.WebkitMutationObserver,ob=new mt(function(a){a&&a.length&&a.forEach(function(b){if(b&&b.addedNodes&&b.addedNodes.length)for(var a=0;a<b.addedNodes.length;a++)(c=b.addedNodes[i])&&c.id&&"social-promo-flyin"==c.id&&c.parentNode.removeChild(c)})});AG_onLoad(function(){ob.observe(document.body,{childList:!0,subtree:!0})});
 ! gboxes.com - disable timeout for showing buttons
