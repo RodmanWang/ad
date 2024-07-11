@@ -1789,6 +1789,7 @@ armidaleexpress.com.au,bendigoadvertiser.com.au,canberratimes.com.au,centralwest
 ! Do not forget about '!#safari_cb_affinity' section for exclusions:
 ! LINK: AnnoyancesFilter/Popups/sections/antiadblock.txt#general
 !
+cloudtempmail.com###popupADXBLOCC
 dr-dsgvo.de###vgzinfo
 unknowncheats.me#%#//scriptlet('abort-current-inline-script', 'EventTarget.prototype.addEventListener', '!document.getElementById(')
 manoramaonline.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
@@ -4622,6 +4623,7 @@ api.flocktory.com
 !
 ! SECTION: Popups - Regular rules
 !
+verstka.media##.wp-site-blocks div.verstka-mobile-topbar
 scan.netsecurity.ne.jp##.thm-panel-register-case
 cloud.baidu.com#$#.__9EcYiCyZ { display: none !important; }
 cloud.baidu.com#%#//scriptlet('remove-class', 'header-body-no-scroll', 'body')
@@ -10938,11 +10940,10 @@ tradingview.com#$?#body[class] { overflow: auto !important; padding-right: 0 !im
 !#endif
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169531#issuecomment-1877526044
 ||smetrics.telegraph.co.uk^
+! https://github.com/AdguardTeam/AdguardFilters/issues/183397
 ! https://github.com/AdguardTeam/AdguardFilters/issues/166762#issuecomment-1820750011
-!#if (adguard)
 abema.tv#$#.body--prevent-scroll { overflow: auto !important; }
 abema.tv#$#.com-onboarding-OnboardingModalContainerView--enter-done { display: none !important; }
-!#endif
 ! https://github.com/AdguardTeam/AdguardFilters/issues/155513
 !+ PLATFORM(ext_ublock)
 dream.ai##div[data-testid="overlay-backdrop"]
@@ -12889,6 +12890,7 @@ armidaleexpress.com.au,bendigoadvertiser.com.au,canberratimes.com.au,centralwest
 !
 ! SECTION: Subscriptions - Regular rules
 !
+verstka.media##.verstka-telegram-banner
 cinemore.jp##.m-article-entry > div[style="min-height:105px;"]
 hollywoodreporter.jp##.sidebar-inner-wrap > section:has(form.kb-form)
 zr.ru##div[class^="styled__StoryNoteSubscribe"]
@@ -13684,7 +13686,7 @@ obozrevatel.com##.footer_googleNews
 rusvesna.su##.view-more-news > div.view-header > span[style^="background-color: rgb(225, 225, 225);"]
 firstpost.com###whats-app-desc
 firstpost.com###subcrbe_btn
-sardynkibiznesu.pl##.single-newsletter-form
+vogue.gr,sardynkibiznesu.pl##.single-newsletter-form
 smsfadviser.com##.b-subscribeForm
 sourceforge.net#?#article.main-content > div.m-kmu:has(.subscribe-tagline)
 gentosha-go.com##.m-mailmagazine
