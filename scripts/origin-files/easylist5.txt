@@ -534,6 +534,7 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.InA
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.SidebarAd
 !#safari_cb_affinity
 !
+||rigorlab.com^$third-party
 ||forevergears.com^$third-party
 ||sierrakermit.com^$third-party
 ||publicsofa.com^$third-party
@@ -10940,10 +10941,11 @@ tradingview.com#$?#body[class] { overflow: auto !important; padding-right: 0 !im
 !#endif
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169531#issuecomment-1877526044
 ||smetrics.telegraph.co.uk^
-! https://github.com/AdguardTeam/AdguardFilters/issues/183397
 ! https://github.com/AdguardTeam/AdguardFilters/issues/166762#issuecomment-1820750011
+!#if (adguard)
 abema.tv#$#.body--prevent-scroll { overflow: auto !important; }
 abema.tv#$#.com-onboarding-OnboardingModalContainerView--enter-done { display: none !important; }
+!#endif
 ! https://github.com/AdguardTeam/AdguardFilters/issues/155513
 !+ PLATFORM(ext_ublock)
 dream.ai##div[data-testid="overlay-backdrop"]
@@ -12890,6 +12892,9 @@ armidaleexpress.com.au,bendigoadvertiser.com.au,canberratimes.com.au,centralwest
 !
 ! SECTION: Subscriptions - Regular rules
 !
+autoevolution.com##article > div.mge_1:has(b + div > a[href^="https://news.google.com/publications/"])
+babai.ru##.hide_form
+vox.com##form:has(> .duet--cta--newsletter)
 verstka.media##.verstka-telegram-banner
 cinemore.jp##.m-article-entry > div[style="min-height:105px;"]
 hollywoodreporter.jp##.sidebar-inner-wrap > section:has(form.kb-form)
@@ -19140,7 +19145,7 @@ sebeadmin.ru###scrollable
 stylevamp.de###secondary > .widget-ads + .widget.widget-highlight
 indianpornvideos.com###secondary.widget-area > .widget
 welt.de###sectionSponsor + div
-iguides.ru###sender-subscribe
+babai.ru,iguides.ru###sender-subscribe
 sport-express.ru###sendsay_form
 slidetoplay.com###side-bar > #bl_html-6
 comicallyincorrect.com###sidebar > #text-4.widget_text
