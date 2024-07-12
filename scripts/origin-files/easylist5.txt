@@ -244,6 +244,7 @@ drive2.ru#?#.js-page > div > div[class="x-box x-box--mh o-f"]:has(> script)
 !   NOTE START: VK group
 !
 ! mail.ru
+mail.ru#%#//scriptlet('trusted-replace-fetch-response', '{"direct":{"ads":', '')
 mail.ru#%#//scriptlet('set-constant', 'Object.prototype.hideTgbAd', '', '', 'asResolved')
 ! e.mail.ru
 ||imgsmail.ru/octavius/*/app-*.js$replace=/this\.sendHoneypotDetectRadar\(!0\)/return/
@@ -4624,6 +4625,8 @@ api.flocktory.com
 !
 ! SECTION: Popups - Regular rules
 !
+ctvnews.ca##div[class*="jasper-player-root__float"]
+courrier.jp##.sp_footer_isopen
 news24.com##.next-article
 verstka.media##.wp-site-blocks div.verstka-mobile-topbar
 scan.netsecurity.ne.jp##.thm-panel-register-case
@@ -6368,7 +6371,7 @@ ashampoo.com##.exitlayer
 gsmturkey.net##.js-bottomFixTarget
 developer.android.com##.devsite-badger-award
 ||bn.ziare.com^$domain=business24.ro|acasa.ro
-freecodecamp.org##.banner
+minato-yamaguchi.co.jp,freecodecamp.org##.banner
 lexustokyo.jp##.footercv
 codementor.io##.bottom-bar
 youtube.com##yt-mealbar-promo-renderer
