@@ -12890,6 +12890,8 @@ armidaleexpress.com.au,bendigoadvertiser.com.au,canberratimes.com.au,centralwest
 !
 ! SECTION: Subscriptions - Regular rules
 !
+abplive.com##.join-channels
+dp.ru##app-article-social-discussion
 news24.com##.newsletter-subscription:has(> a[href^="https://www.news24.com/individualnewsletter/signup/"])
 myfanserials.net##.novelty-banner
 gastronom.ru##aside > div[class*="wrapper"]:has(> div[class*="root"] > div > div[class*="form"] > label[placeholder="Ваш e-mail"])
@@ -18690,7 +18692,7 @@ dongknows.com###secondary > .widget_oih_opt_in_widget
 vegetarian.ru#?#.widget:has(> div[id] > div.bx-subscribe)
 flicks.com.au,empowerwisconsin.org##.signup-wrap
 maxmoore.ru##.footer_subscribe_block
-1prime.ru##div[class^="subscription-block"]
+channelnewsasia.com,1prime.ru##div[class^="subscription-block"]
 findaphd.com##.sign-up-area
 motorsport.com##.ms-side-widget--newsletter
 motorsport.com##.ms-news-alerts
