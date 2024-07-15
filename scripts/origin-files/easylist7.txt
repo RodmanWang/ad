@@ -12907,6 +12907,10 @@ armidaleexpress.com.au,bendigoadvertiser.com.au,canberratimes.com.au,centralwest
 !
 ! SECTION: Subscriptions - Regular rules
 !
+bestproducts.com#%#//scriptlet('trusted-set-cookie', 'journey-last-action', '{}')
+bestproducts.com#%#//scriptlet('trusted-set-cookie', 'journeyHidden', '{}')
+noovomoi.ca##.c-newslettersticky__wrapper
+noovomoi.ca##.newsletterregistration
 thangs.com##.list-view > div[class] > div[class^="TwitterAdContainer"]
 dhbr.diamond.jp##.m-banner-mailmagazine
 dhbr.diamond.jp##.m-banner-subscribe
