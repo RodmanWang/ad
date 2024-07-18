@@ -4435,6 +4435,8 @@ modsforwot.ru,vargr.ru,trialkeys.ru#@#img[width="728"][height="90"]
 !#endif
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/183915
+animix.lol#%#//scriptlet('prevent-fetch', 'www3.doubleclick.net')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/181707
 anidubonline.com#%#//scriptlet('prevent-xhr', '/(vast|getCode)\?/')
 !#if (adguard_app_ios || adguard_ext_android_cb || ext_safari)
@@ -18177,6 +18179,7 @@ ozon.ru##div[data-widget="advVideoBanner"]
 ozon.ru##img[elementtiming*="Banner"]
 !
 ! 2gis
+2gis.ru##iframe[width="336px"][srcdoc^="<html>"]
 ||2gis.*/ads/advise/
 2gis.*#?#span[class]:contains(/[Рр]еклама/)
 2gis.ru##._y2b48h

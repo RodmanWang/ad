@@ -508,7 +508,7 @@
 !
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/183252
-exploader.net#%#//scriptlet('remove-node-text', 'script', '!window.load_daotag')
+exploader.net#%#//scriptlet('remove-node-text', 'script', '$.ajax')
 exploader.net#%#//scriptlet('prevent-xhr', '.js')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/181591
 iwb.jp#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'getComputedStyle(a).height')
@@ -1331,8 +1331,6 @@ twi-fans.com#$#.fixed.data-\[state\=open\]\:animate-in { display: none !importan
 twi-fans.com#$#body[style="pointer-events: none;"] { pointer-events: auto !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/178408
 2game.info#$#.sponsored-loop300x250 { position: absolute !important; left: -4000px !important; }
-! https://github.com/uBlockOrigin/uAssets/issues/23212
-service.webgoto.net#$#.image_box[style*="amazon.co"] { background: none !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/160407
 eroanime-movie.com#$#@media (min-width: 835px) { .top-section { grid-template-columns: minmax(180px, 1fr) 0 !important; } }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/174081
@@ -1916,6 +1914,7 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+||comedydouga.com/temu_ads2.png
 news.1242.com##.area_banner
 ||s3.goodpic.com/jquery/blog.ajaxamazon.js
 skebetter.com#%#//scriptlet('prevent-setTimeout', 'return n(!0)', '10000')
@@ -2371,7 +2370,6 @@ buywrite.jp##.c-infoBar
 buywrite.jp##div[id^="fourm_video_"]
 service.webgoto.net##.j_pv_20:has(a[href^="https://www.amazon.co.jp"][target="_blank"])
 service.webgoto.net##[data-is^="riot-fee"]:not(:has(.re_ph_2 > a[href^="https://donation.yahoo.co.jp/search/?"]))
-service.webgoto.net##a[href^="https://www.amazon.co.jp"][target="_blank"]
 sirogohan.com##.ad-halfwrap
 yamakei-online.com###movie_ad
 city.takasaki.gunma.jp##.content5:has(#top_banner_7_list)
@@ -6604,7 +6602,7 @@ travel-nippon.net##a[href^="https://click.linksynergy.com/fs-bin/click"]
 adultexpo.jp##.bfb_textBtnTextBtn
 nttdocomo.co.jp##.sec-crpTop-stop
 hinapishi.com##iframe[width="320"][height="100"]
-vipsister23.com##a[href*="https://al.dmm.com/"]
+vipsister23.com##a[href*="https://al.dmm.co"]
 vipsister23.com##a[href*="https://www.bybit.com/jpwelcome/"]
 ||digiket.net/blog/$script,third-party
 h1g.jp##table[width="750"][height^="3"]
@@ -9162,8 +9160,6 @@ audioreview.m1001.coreserver.jp###list > .posts-list-upper-widget
 audioreview.m1001.coreserver.jp###side-fixed a[href^="//af.moshimo.com/af/c/click?"]
 kashi-mo.com##.rectangle_bnr
 yahoo.co.jp###lrec
-||vipsister23.com/vipsister.html
-vipsister23.com###share2
 ibbs.info##.ad_data
 blog.esuteru.com##.azrank_quote
 blog.esuteru.com##.siteAside > div.ad-aside:nth-child(-n+2)
@@ -10761,7 +10757,8 @@ vip-front.video.g.fc2.com,video.laxd.com,video.fc2.com##[class^="c-ad"]:not(.c-a
 !
 ! itest.5ch.net,itest.bbspink.com
 ||itest.5ch.net/assets/img/*-300x250.png
-itest.5ch.net,itest.bbspink.com###floatingBottomAdsMain
+itest.5ch.net##.ad_5th_300x250
+itest.5ch.net,itest.bbspink.com##div[id$="AdsMain"]
 itest.5ch.net##div[id^="topAdheader-"]
 itest.5ch.net###subback > li[id][class*="_"]
 itest.5ch.net,itest.bbspink.com###js-imageview-ad
@@ -10812,6 +10809,10 @@ avgle.com##.well#ps32-container
 $popup,domain=avgle.com,third-party
 avgle.com##.container > div[style*="overflow: hidden"]
 !
+!#if (adguard)
+service.webgoto.net#$#.image_box[style*="amazon.co"] { background: none !important; }
+service.webgoto.net##a[href^="https://www.amazon.co.jp"][target="_blank"]
+!#endif
 ! https://github.com/AdguardTeam/AdguardForiOS/issues/2315
 ! https://github.com/AdguardTeam/AdguardFilters/issues/179893
 ! TODO: remove the rule when the issue is fixed
@@ -10912,8 +10913,10 @@ famitsu.com#%#//scriptlet('set-constant', 'TagProvider.cleanup', 'noopFunc')
 ! Recommend hidden
 rankingoo.net#@#.widget_swell_ad_widget
 ! https://twitter.com/_webgoto/status/1779190832840753612
+!#if (adguard)
 [$path=/amafav/]service.webgoto.net#@$#.image_box[style*="amazon.co"] { background: none !important; }
 [$path=/amafav/]service.webgoto.net#@#a[href^="https://www.amazon.co.jp"][target="_blank"]
+!#endif
 ! TEST unblock ranking https://github.com/AdguardTeam/AdguardFilters/issues/176290
 @@||i2i.jp/view/index.php$domain=erostopics.net
 ! Unbreak ranking
