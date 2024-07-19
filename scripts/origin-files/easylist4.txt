@@ -507,6 +507,8 @@
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/183713
+javball.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/183252
 exploader.net#%#//scriptlet('trusted-replace-node-text', 'script', 'ダウンロード', '/if \(.+?\{\n(.+innerHTML = \'<a .+)\n\}/', '$1')
 exploader.net#%#//scriptlet('trusted-replace-node-text', 'script', 'ブロック', '/[0-9A-z]{20,}\.innerHTML === \'<span.+>\'/', '1')
@@ -1920,6 +1922,7 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+doujinantena.top##div[style^="max-width: 1200px; width: 92%; height: 400px;"]
 dic.pixiv.net###d_toparticle_flux_ad
 ||comedydouga.com/temu_ads2.png
 news.1242.com##.area_banner
