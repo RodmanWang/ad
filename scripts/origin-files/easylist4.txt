@@ -508,7 +508,7 @@
 !
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/183252
-exploader.net#%#//scriptlet('trusted-replace-node-text', 'script', '$.ajax', '/if \(\!(window\.[0-9a-z]+)\) \{\n?let[\S\s]+\$\.ajax[\S\s]+/', '$1=true;')
+exploader.net#%#//scriptlet('trusted-replace-node-text', 'script', 'location', '/(if \(top \!= self\) \{\n?[\S\s]+?\})/', 'document.querySelector(".d_").removeAttribute("id");$1')
 exploader.net#%#//scriptlet('prevent-element-src-loading', 'script', 'exploader.net/js/')
 exploader.net#%#//scriptlet('prevent-xhr', '.js')
 !+ PLATFORM(ios, ext_android_cb)
@@ -1918,6 +1918,7 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+yosk8.com###fix_sidebar
 ||api.twieromanga.com/api/headerancherad
 weathernews.jp##.pc[style="text-align: center; min-height: 100px;"]
 weathernews.jp###sub > section.dmenu-non:has(> div[style="width: 100%; margin: 0px auto 10px; text-align: center;"] > div[id^="div-gpt-"])
