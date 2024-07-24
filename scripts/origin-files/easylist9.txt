@@ -5285,6 +5285,7 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+wisecleaner.com##.header-background-index-banner-box
 playground.ru##.promoted-bonus-component
 mlssoccer.com##a[class*="-promo"][href="https://pickem.mlssoccer.com/"]
 mlssoccer.com##a[href="https://mlssoccer.com/credit-card"] > picture
@@ -7977,8 +7978,6 @@ pimpandhost.com#%#//scriptlet('adjust-setTimeout', 'count', '1000', '0.001')
 myprivatejobs.com#%#//scriptlet('set-constant', 'count', '0')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/177874
 mywatchseries.cyou#%#//scriptlet('adjust-setInterval', 'counter', '*', '0.001')
-! https://github.com/AdguardTeam/AdguardFilters/issues/177320 timer
-wdho.ru#%#//scriptlet('set-constant', 'window.c', '1')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/177548
 dwgshare.com#%#//scriptlet('adjust-setInterval', 'secounds', '*', '0.001')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/176233
@@ -8980,8 +8979,6 @@ asistente-de-estudio.com#%#//scriptlet("adjust-setTimeout", "timers", "", "0.02"
 safelink.rezkozpatch.xyz#%#//scriptlet("adjust-setInterval", "Link will appear", "510", "0.02")
 safelink.rezkozpatch.xyz#%#//scriptlet("adjust-setInterval", "Link will appear", "1010", "0.02")
 safelink.rezkozpatch.xyz#%#!function(){if(-1<window.location.href.indexOf(".html?url=aHR0c")){var a=location.href.split(".html?url=");if(a&&a[1])try{window.location=atob(a[1])}catch(b){}}}();
-! https://github.com/AdguardTeam/AdguardFilters/issues/70464
-hikarinoakari.com#%#//scriptlet("adjust-setInterval", "count", "", "0.02")
 ! fcc.lc - skip timers
 short.fc-lc.com#%#//scriptlet('trusted-click-element', '#submitbtn', '', '300')
 ! fclcc.com,articlix.com,fcc.lc#%#AG_onLoad(function() { setTimeout(function() { var el = document.querySelector("#invisibleCaptchaShortlink"); if(el) { el.classList.remove("disabled"); el.removeAttribute("disabled"); el.click(); } }, 300); });
