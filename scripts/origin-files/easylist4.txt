@@ -508,12 +508,7 @@
 !
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/183252
-exploader.net#%#//scriptlet('trusted-replace-node-text', 'script', 'window', '/(if \(\! window\.[0-9A-z]+\) \n?\{\n?window[\S\s]+?\})/g', 'if(!window.canRunAds){throw new Error()};$1')
-||exploader.net/js/$script,redirect=prebid-ads
-||exploader.net/js/$xmlhttprequest,redirect=prebid-ads
-!exploader.net#%#//scriptlet('prevent-xhr', '.js')
-!+ PLATFORM(ios, ext_android_cb)
-@@||daotag.com^$script,domain=exploader.net
+@@||daotag.com/tag/$script,domain=exploader.net
 ! https://github.com/AdguardTeam/AdguardFilters/issues/181591
 iwb.jp#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'getComputedStyle(a).height')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/179614
@@ -1920,6 +1915,8 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+minnano-av.com##.bn250
+minnano-av.com##.main-column > div.slider
 at-s.com###bnr_underarticle
 musicman.co.jp###header_top_banner
 musicman.co.jp#$##is_header_banner { margin-top: 0px !important; }
@@ -7927,6 +7924,7 @@ fx-koryaku.com##.textwidget > center > a[target="_blank"]
 ||dmm.co.jp^$domain=exploader.net
 ||exploader.net/d/$image
 ||dmm.co.jp^$popup,domain=exploader.net
+exploader.net###preview_images > span[class^="tracking_"] > div[style="position: fixed;"] > div[data-pr]
 exploader.net#$#div[style*="1120px;"][style*="450px;"] { height: 0 !important; overflow: hidden !important; }
 exploader.net###newfiles > ul.list > li[style*="height: 120px;"]
 exploader.net###wrapper > div[data-style][style*="fixed"]
