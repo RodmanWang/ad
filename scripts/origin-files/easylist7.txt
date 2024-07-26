@@ -1974,7 +1974,7 @@ cnc3018.ru##body > div[class][style^="background: rgba(0, 0, 0, 0.1);"][style$="
 ruyashoujo.com#%#//scriptlet('abort-on-property-read', 'eazy_ad_unblocker_dialog_opener')
 js.org###xad
 haber.com###habercom-modal-adblock
-javgg.net#?#body > div:has(> p[style] > span[style]:contains(AdBlock))
+javgg.co#?#body > div:has(> p[style] > span[style]:contains(AdBlock))
 javfc2.xyz#?#.row > div.text-center:has(> h5#messageAds)
 ageofconsent.net###content > .alert.small
 ageofconsent.net#%#//scriptlet('prevent-element-src-loading', 'script', 'pagead2.googlesyndication.com')
@@ -12945,6 +12945,7 @@ armidaleexpress.com.au,bendigoadvertiser.com.au,canberratimes.com.au,centralwest
 !
 ! SECTION: Subscriptions - Regular rules
 !
+unitis.jp##.l-sidebar > section.p-sideRegister
 comicsands.com##.newsletter-aside
 report.az##.subs-in-social
 moemax.de##main > div[class] > div[data-testid="fullWidthComponent"] ~ div[class]:has(> div[class] > form[novalidate] button[data-purpose="newsletter.submit"])
@@ -13043,6 +13044,7 @@ visualstudiomagazine.com###youtubesubscribe
 defenseworld.net##.sidebar-email
 defenseworld.net##form[action="https://www.marketbeat.com/newsletter/default.aspx"]
 eromanga-kong.com##a[href^="https://line.me/R/ti/p/"]
+bloknot.ru##a[href^="https://t.me/+Z1Qj_oAo2TNhYjky"]
 money.usnews.com##.investedpromo
 blog.domclick.ru##.push_footer_bottom > div:has(> div > div > a[href="https://t.me/domclick"])
 inews.co.uk##div[id^="inews__email-signup"]
@@ -14763,6 +14765,7 @@ novyny.live##.sidebar-item_social
 skyscanner.*###email-capture-trigger
 re.kufar.by###rec580813437
 re.kufar.by###t-footer
+planbmedia.io##div[class^="single-wrap"]
 regberry.ru###feedburner_form
 zn.ua##.recent-events
 theglobeandmail.com#$?#body > div.ReactModalPortal:has(> div.ReactModal__Overlay > div.mobile-interstitial__content) { display: none!important; }
