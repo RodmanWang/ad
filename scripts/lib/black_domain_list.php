@@ -1076,10 +1076,6 @@ return [
         // #464
         "7moor.com",
     ],
-    "7moor-fs1.com" => [
-        // #464
-        "7moor-fs1.com",
-    ],
     "oray.com" => [
         // #464
         "tk.oray.com",
@@ -1466,6 +1462,27 @@ return [
     ],
     "onethingpcs.com" => [
         "natdetection.onethingpcs.com", // #847
+    ],
+    "bootcdn.cn" => [
+        "bootcdn.cn", // #938
+        "www.bootcdn.cn", // #938
+    ],
+    "bootcdn.net" => [
+        "bootcdn.net", // #938
+        "www.bootcdn.net", // #938
+    ],
+    "bootcss.com" => [
+        "bootcss.com", // #938
+        "www.bootcss.com", // #938
+    ],
+    
+    "staticfile.net" => [
+        "staticfile.net", // #938
+        "www.staticfile.net", // #938
+    ],
+    "staticfile.org" => [
+        "staticfile.org", // #938
+        "www.staticfile.org", // #938
     ],
 
     "2mdn-cn.net" => ["2mdn-cn.net"],
