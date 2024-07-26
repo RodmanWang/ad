@@ -278,6 +278,7 @@ $ARR_WHITE_RULE_LIST = array(
     '@@||img.ads.tvb.com^' => 1, // #911
     '@@||ads.cdn.tvb.com^' => 1, // #911
     '@@||ads.console.aliyun.com^' => 1, // #912
+    '@@||tracking.ubisoft.com^' => 1, // #927
     
 );
 
@@ -685,7 +686,7 @@ foreach($ARR_WHITE_RULE_LIST as $row => $v){
         continue;
     }
 
-    if(array_key_exists("@@||${matches[1]}^", $ARR_WHITE_RULE_BLK_LIST)){
+    if(array_key_exists("@@||{$matches[1]}^", $ARR_WHITE_RULE_BLK_LIST)){
         continue;
     }
 
@@ -695,7 +696,7 @@ foreach($ARR_WHITE_RULE_LIST as $row => $v){
 
     if($v === 1){
         $wrote_whitelist[$matches[1]] = null;
-        $attached_content .= "@@||${matches[1]}^\n";
+        $attached_content .= "@@||{$matches[1]}^\n";
         $line_count++;
         continue;
     }
@@ -715,7 +716,7 @@ foreach($ARR_WHITE_RULE_LIST as $row => $v){
         continue;
     }
 
-    $attached_content .= "@@||${origin_white_rule}^\n";
+    $attached_content .= "@@||{$origin_white_rule}^\n";
     $line_count++;
 }
 
