@@ -1,5 +1,5 @@
-Version: 20240726233343
-!Total lines: 91994
+Version: 20240726233949
+!Total lines: 91995
 @@||ads.taboola.com^
 @@||adshnk.com^
 @@||adshrink.it^
@@ -120,6 +120,7 @@ Version: 20240726233343
 @@||star.fallback.c10r.facebook.com^
 @@||ads.cdn.tvb.com^
 @@||ads.console.aliyun.com^
+@@||tracking.ubisoft.com^
 /^(\S+\.)?ad(s?[\d]+|m|s)?\.[0-9\-a-z]+\./$denyallow=nucdn.net|azureedge.net|alibabacorp.com|alibabadns.com
 @@||ad.apps.fm^
 @@||ad.vivo.com.cn^
