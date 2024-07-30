@@ -469,6 +469,7 @@
 ||123-movies.bz^
 ||123-movies.bz^$popup
 ||123-stream.org^
+||123-stream.org^$document
 ||123-stream.org^$popup
 ||123.dorimnews.com^
 ||123.manga1001.top^
@@ -689,6 +690,7 @@
 ||184.164.88.220^$app=com.newtime.hp.templetreasure
 ||184c4i95p.de^
 ||185.147.34.126^$popup
+||185.149.120.173^
 ||185.161.248.253^$all
 ||185.165.169.108^$websocket,third-party
 ||1853.5clo0xmbf.com^
@@ -8494,6 +8496,7 @@
 ||affbuzzads.com^$popup
 ||affbuzzads.com^$third-party
 ||affcpatrk.com^
+||affcpatrk.com^$document
 ||affcpatrk.com^$popup
 ||affec.tv^$third-party
 ||affectdeveloper.com^
@@ -21367,6 +21370,7 @@
 ||clkslvmiwadfsx.xyz^
 ||clkstat.china.cn^
 ||cllctr.any.run^
+||cllctr.roistat.com^
 ||clloudia.com^$third-party
 ||clmbtech.com^
 ||clmcom.com^
@@ -68048,6 +68052,7 @@
 ||overheatusa.com^
 ||overjoyedtempfig.com^
 ||overjoyedwithinthin.com^
+||overkick.com^$third-party
 ||overkirliaan.com^
 ||overlapflintsidenote.com^
 ||overlapparians.com^
@@ -74070,6 +74075,11 @@
 ||pyrkxp.novafotograf.com^
 ||pyrroylceriums.com^
 ||pysfhgdpi.com^
+||pysznosci.pl^$replace=/(<VAST[\s\S]*?>)[\s\S]*<\/VAST>/\$1<\/VAST>/,xmlhttprequest,other,~script
+||pysznosci.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*)//,script
+||pysznosci.pl^$replace=/(^.{1\,150}\(\{).*?"bunch".*?"bidRequestId".*(}\);)/\$1\$2/,script
+||pysznosci.pl^$replace=/(aabv\d[\s\S]*?.=\(\)=>).===.(\,)/\$1{return}\$2/,script
+||pysznosci.pl^$replace=/(aabv\d[\s\S]*?.=function\(\)\{)return .===.(\}\,)/\$1return\$2/,script
 ||python.casuallyprivate.com^
 ||python.jukejuke.app^
 ||pytxsn.najlacnejsisport.sk^
@@ -79463,6 +79473,7 @@
 ||sams.manager-lounge.de^
 ||sams.manager-magazin.de^
 ||sams.spiegel.de^
+||samsung.com^$removeparam=cid
 ||samsung.com^*/scripts/tracking.js
 ||samsungacr.com^
 ||samsungadhub.com^$third-party
@@ -90682,8 +90693,8 @@
 ||succeedappointedsteve.com^
 ||succeedingpeacefully.com^
 ||succeedprosperity.com^
-||succeedscene.com^
 ||succeedscene.com^$badfilter
+||succeedscene.com^$third-party,xmlhttprequest
 ||success-news.net^
 ||success.act-on.com^
 ||success.azzure-it.com^
@@ -106717,7 +106728,7 @@
 ||www.worldiedeals.com^
 ||www.xz8.ru^
 ||www.yourplanprovisions.com^
-||www.youtube.com^$replace=/<head>([\s\S]*?)(,)/<head><script>try{document.currentScript?.remove();(()=>{const AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded"\$2func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded"\$2func)};let t=document.location.href\$2e=[]\$2n=[]\$2o=""\$2i=!1;const r=Array.prototype.push\$2a={apply:(t\$2o\$2a)=>(window.yt?.config_?.EXPERIMENT_FLAGS?.html5_enable_ssap_entity_id&&a[0]&&a[0]!==window&&"number"==typeof a[0].start&&a[0].end&&"ssap"===a[0].namespace&&a[0].id&&(i||0!==a[0]?.start||n.includes(a[0].id)||(e.length=0\$2n.length=0\$2i=!0\$2r.call(e\$2a[0])\$2r.call(n\$2a[0].id))\$2i&&0!==a[0]?.start&&!n.includes(a[0].id)&&(r.call(e\$2a[0])\$2r.call(n\$2a[0].id)))\$2Reflect.apply(t\$2o\$2a))};window.Array.prototype.push=new Proxy(window.Array.prototype.push\$2a)\$2AG_onLoad((function(){if(!window.yt?.config_?.EXPERIMENT_FLAGS?.html5_enable_ssap_entity_id)return;const r=()=>{const t=document.querySelector("video");if(t&&e.length){const r=Math.round(t.duration)\$2a=Math.round(e.at(-1).end\/1e3)\$2l=n.join("\$2");if(r&&r===a&&o!==l){const r=e.at(-1).start\/1e3;t.currentTime<r&&(t.currentTime=r\$2i=!1\$2e.length=0\$2n.length=0\$2o=l)}}};r();new MutationObserver((()=>{t!==document.location.href?(t=document.location.href\$2e.length=0\$2n.length=0\$2i=!1\$2r()):r()})).observe(document\$2{childList:!0\$2subtree:!0})}))})();}catch(e){}<\/script>\$1\$2/,document
+||www.youtube.com^$replace=/<head>([\s\S]*?)(,)/<head><script>try{document.currentScript?.remove();(()=>{const AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded"\$2func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded"\$2func)};let t=document.location.href\$2e=[]\$2n=[]\$2o=""\$2r=!1;const i=Array.prototype.push\$2a={apply:(t\$2o\$2a)=>(window.yt?.config_?.EXPERIMENT_FLAGS?.html5_enable_ssap_entity_id&&a[0]&&a[0]!==window&&"number"==typeof a[0].start&&a[0].end&&"ssap"===a[0].namespace&&a[0].id&&(r||0!==a[0]?.start||n.includes(a[0].id)||(e.length=0\$2n.length=0\$2r=!0\$2i.call(e\$2a[0])\$2i.call(n\$2a[0].id))\$2r&&0!==a[0]?.start&&!n.includes(a[0].id)&&(i.call(e\$2a[0])\$2i.call(n\$2a[0].id)))\$2Reflect.apply(t\$2o\$2a))};window.Array.prototype.push=new Proxy(window.Array.prototype.push\$2a)\$2AG_onLoad((function(){if(!window.yt?.config_?.EXPERIMENT_FLAGS?.html5_enable_ssap_entity_id)return;const i=()=>{const t=document.querySelector("video");if(t&&e.length){const i=Math.round(t.duration)\$2a=Math.round(e.at(-1).end\/1e3)\$2c=n.join("\$2");if(!1===t.loop&&o!==c&&i&&i===a){const n=e.at(-1).start\/1e3;t.currentTime<n&&(t.currentTime=n\$2r=!1\$2o=c)}else if(!0===t.loop&&i&&i===a){const n=e.at(-1).start\/1e3;t.currentTime<n&&(t.currentTime=n\$2r=!1\$2o=c)}}};i();new MutationObserver((()=>{t!==document.location.href&&(t=document.location.href\$2e.length=0\$2n.length=0\$2r=!1)\$2i()})).observe(document\$2{childList:!0\$2subtree:!0})}))})();}catch(e){}<\/script>\$1\$2/,document
 ||www.z00yy6tg2.com^
 ||www.zakelijk.cz.nl^
 ||www.zng.com^
