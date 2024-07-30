@@ -2451,6 +2451,8 @@ communityfibre.co.uk,foto-erhardt.com,foto-erhardt.de,seriouseats.com,fotogena.d
 !
 ! NOTE: Regular rules
 !
+revolut.com##body > div[style]:has(> div[aria-label*="cookies"])
+brso.de#%#//scriptlet('set-cookie', 'cc_hide_prompt', '1')
 l1nieuws.nl#%#//scriptlet('trusted-click-element', '#consent-plugin button[aria-label^="Accepteer alles"]')
 etudes-et-analyses.com#%#//scriptlet('prevent-setTimeout', 'privacy_policy_sec')
 /wp-content/plugins/cookie-law-info/lite/frontend/js/script.min.js$important,domain=zamekgrodno.pl|sztolnie.pl
@@ -3289,7 +3291,8 @@ empikbilety.pl##div[class^="_cookieBar_"]
 tomshw.it##.iubenda-tp-btn
 insideclimatenews.org##.icn-cookie-notice
 microsoft.com###ms-cookie-banner
-bbva.it##.cookiesgdpr__scroll .general-wrapper::after
+bbva.es##.cookiesgdpr
+bbva.es,bbva.it##.cookiesgdpr__scroll .general-wrapper::after
 igmetall.de##body.cookie-overlay::before
 my.remarkable.com#%#//scriptlet('trusted-click-element', 'button[data-cy="cookie-banner-necessary"]')
 kids.lego.com##div[class^="cookie-overlay_"]
@@ -11038,7 +11041,7 @@ aulafacil.com##.faldon-cookies
 therealreal.com##.gdpr-pop-over
 ipekyol.com.tr,korayspor.com##.cookieBnrWrp
 md5hashing.net##.primary-container > .pp-footer
-msn.com##.optanon-alert-box-wrapper
+bitbucket.org,msn.com##.optanon-alert-box-wrapper
 coloros.com,oppo.com,oppo-ae.custhelp.com,oppo-au.custhelp.com,oppo-bd.custhelp.com,oppo-chde.custhelp.com,oppo-chfr.custhelp.com,oppo-dz.custhelp.com,oppo-eg.custhelp.com,oppo-es.custhelp.com,oppo-fr.custhelp.com,oppo-id.custhelp.com,oppo-in.custhelp.com,oppo-it.custhelp.com,oppo-jp.custhelp.com,oppo-ke.custhelp.com,oppo-kh.custhelp.com,oppo-kz.custhelp.com,oppo-lk.custhelp.com,oppo-ma.custhelp.com,oppo-mm.custhelp.com,oppo-mx.custhelp.com,oppo-my.custhelp.com,oppo-ng.custhelp.com,oppo-nl.custhelp.com,oppo-np.custhelp.com,oppo-nz.custhelp.com,oppo-ph.custhelp.com,oppo-pk.custhelp.com,oppo-pl.custhelp.com,oppo-ru.custhelp.com,oppo-sa.custhelp.com,oppo-sg.custhelp.com,oppo-th.custhelp.com,oppo-tn.custhelp.com,oppo-tr.custhelp.com,oppo-ua.custhelp.com,oppo-uk.custhelp.com,oppo.custhelp.com###use_cookies
 itopya.com##.cerezNotification
 isbank.com.tr##.blogCookieCover
@@ -20391,6 +20394,8 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.InA
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.SidebarAd
 !#safari_cb_affinity
 !
+||poemprompt.com^$third-party
+||juiceblocks.com^$third-party
 ||overkick.com^$third-party
 ||tackytrains.com^$third-party
 ||releasepath.com^$third-party
@@ -24498,6 +24503,8 @@ api.flocktory.com
 !
 ! SECTION: Popups - Regular rules
 !
+hetzner.com#%#//scriptlet('set-session-storage-item', 'pro_promote_v2_shown', 'true')
+hetzner.com##body > div[data-floating-ui-portal]:has(> div.flex > div.flex > form[class^="signup_isStartScreen_"])
 club.autodoc.*##.popup.popup-visitor-auth
 club.autodoc.*##.header__b
 cloud.mail.ru##.Snackbars__snackbar--a-agp
