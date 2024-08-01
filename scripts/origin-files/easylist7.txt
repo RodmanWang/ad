@@ -24534,10 +24534,11 @@ api.flocktory.com
 ! that is why cosmetic rule `###credential_picker_container` does not work
 ! https://developer.mozilla.org/en-US/docs/Web/API/FedCM_API
 ! Warning: check, if auth using Google is not broken
-||accounts.google.com/gsi/client^$third-party,script,domain=dtf.ru|stackoverflow.com|vc.ru|pikabu.ru|nytimes.com|baltimoresun.com|rozetka.com.ua|estadao.com.br|medium.com|gzt.com|mercurynews.com|drukarnia.com.ua|diffchecker.com|kaystls.site|kaystls.site|overclock.net|nissanclub.com|crazygames.com|notion.so|usnews.com|nypost.com|etnownews.com|timesnownews.com|menshealth.com|themirror.com|cq.ru|voetbalzone.nl
+||accounts.google.com/gsi/client^$third-party,script,domain=dtf.ru|stackoverflow.com|vc.ru|pikabu.ru|nytimes.com|baltimoresun.com|rozetka.com.ua|estadao.com.br|medium.com|gzt.com|mercurynews.com|drukarnia.com.ua|diffchecker.com|kaystls.site|kaystls.site|overclock.net|nissanclub.com|crazygames.com|notion.so|usnews.com|nypost.com|etnownews.com|timesnownews.com|menshealth.com|themirror.com|cq.ru|voetbalzone.nl|perplexity.ai
 !
 ! SECTION: Popups - Regular rules
 !
+time.com##.jw-float-bar
 hetzner.com#%#//scriptlet('set-session-storage-item', 'pro_promote_v2_shown', 'true')
 hetzner.com##body > div[data-floating-ui-portal]:has(> div.flex > div.flex > form[class^="signup_isStartScreen_"])
 club.autodoc.*##.popup.popup-visitor-auth
@@ -32854,6 +32855,7 @@ armidaleexpress.com.au,bendigoadvertiser.com.au,canberratimes.com.au,centralwest
 !
 ! SECTION: Subscriptions - Regular rules
 !
+nationalpost.com##section[data-widget="newsletter"]
 observer.com##.wp-block-observer-newsletters
 webtan.impress.co.jp##a[href="/mail"]
 jagonews24.com##.gn-jn
@@ -39999,6 +40001,7 @@ turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-
 temu.com#?#div[role="main"] div[style] > div[style]:has(> div[style] div[js-selector="mobile-download-ui"])
 !
 !
+clubd.co.jp##.app-dl-banner
 kkb.co.jp##a[href="http://www.kkb.co.jp/kapli/"]
 voyce.me##div[id^="adnewappbanner_"]
 bestmovie.it###bestmovie-store-apps
@@ -43250,6 +43253,9 @@ m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
 ! causes some issues: https://github.com/AdguardTeam/AdguardForMac/issues/550
 ~status.im,~lafenice.io,~kurer-sreda.ru,~chorki.com,~zattoo.com,~zaycev.net,~hitta.se,~mail.ru,~facebook.com,~instagram.com,~drive.google.com$$link[rel="manifest"]
 !
+perplexity.ai##a[href="/download-mobile"]
+perplexity.ai##a[href="https://www.perplexity.ai/download-android"]
+perplexity.ai#%#//scriptlet('set-local-storage-item', 'appDownloadBannerDismissed', 'true')
 samsung.com##.cod05-app-banner
 m1.able.co.jp##body > section:has(> div.appinst)
 lightinthebox.com##.top_open_app
@@ -43893,6 +43899,8 @@ instagram.com##._aagw:empty
 ! End: Instagram.com
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/184763
+rockpapershotgun.com##.poll_wrapper
 ! https://github.com/AdguardTeam/AdguardFilters/issues/182947
 ctvnews.ca#%#//scriptlet('trusted-click-element', 'button[id="playPauseButtonId"][aria-label="Pause"]', '', '1000')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/183421
@@ -55915,6 +55923,7 @@ subbota.ua##aside.sidebar > div[id^="custom_html-"]
 !   NOTE: Donation widgets
 !   Really annoying only
 !
+||thunderbird.net/*/thank-you/$removeparam=form
 apnews.com###desktop-entitlements
 istories.media##div[class^="BeltsGrid-module-"] > div[class^="BeltOfThree-module-"]:has(> div[class^="BeltOfThree-module-"] > div[class^="DonationCard-module"])
 tvrain.tv##.article_paid__info:has(> a.article_paid__btn--donate)
