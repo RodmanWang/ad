@@ -1916,12 +1916,15 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+natuero-dougakan.com#?#.side-menu:has(> h4:contains(/^PR/))
+natuero-dougakan.com##p[align="center"] > a[target="_blank"] > img
 akiba-souken.com##.middleBnr
 fukuishimbun.co.jp##.headline > li:has(> div[id^="div-gpt-ad-"])
 saikomangaraw.net##.text-center[style^=" height: 300px; overflow: hidden; max-width:"]:empty
 qiita.com##.style-uaiz0z
 qiita.com##article ~ div > section[class^="style-"]:has(div[id^="logly-lift-"])
 marushin-magazine.com###custom_html-1
+chichi-pui.com##.p-sidebar__advertisement
 chichi-pui.com##.p-advertisement
 chichi-pui.com##.p-image-cards__item:has(> a.gtm-event-click)
 chichi-pui.com#?#.image-posts-detail > div.l-section-container > section:has(> h2.c-section-title:contains(Amazon))
