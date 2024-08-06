@@ -102,6 +102,8 @@ instagram.com##._aagw:empty
 ! End: Instagram.com
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/185549
+themoscowtimes.com##.preheader_advert
 ! https://github.com/AdguardTeam/AdguardFilters/issues/184333
 kakuchopurei.com##.live-news-widget
 ! https://github.com/AdguardTeam/AdguardFilters/issues/184763
@@ -7965,6 +7967,8 @@ newsweek.com##iframe[src="http://sns.europe.newsweek.com/newsletter?popup=1"]
 !##############################
 ! SECTION: Tweaks - JS
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/185579
+arahdrive.com#%#//scriptlet('adjust-setInterval', 'Number', '*', '0.001')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/182950
 abplive.com#%#//scriptlet('trusted-click-element', '#read-full-article')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/184901
