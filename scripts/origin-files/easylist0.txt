@@ -4400,7 +4400,7 @@ www.ukr.net#%#//scriptlet('remove-node-text', 'script', '!function(r,n,t,e)')
 www.ukr.net#$?#body > iframe { remove: true; }
 !
 pravda.com.ua,epravda.com.ua#%#//scriptlet('remove-node-text', 'script', ',mr=function(r,')
-meteofor.com.ua,gismeteo.ua,dengi.ua,eurointegration.com.ua,i.factor.ua,isport.ua,kolobok.ua,love.i.ua,tv.ua,radio.i.ua,nv.ua,pravda.com.ua,finance.i.ua,smak.ua,buhgalter911.com,gazeta.ua,panno4ka.net,meteo.ua,censor.net,kurs.com.ua,zv.zp.ua,ivona.ua,i.ua,buhgalter.com.ua,nbnews.com.ua,viva.ua,zn.ua,bigmir.net,glavcom.ua,hvylya.net,inforesist.org,nnovosti.info,obyava.ua,tochka.net,u-news.com.ua,ukr.net,vesti.ua#$?#body > iframe:not([class]):not([id]):not([src]) { remove: true; }
+glianec.com,meteofor.com.ua,gismeteo.ua,dengi.ua,eurointegration.com.ua,i.factor.ua,isport.ua,kolobok.ua,love.i.ua,tv.ua,radio.i.ua,nv.ua,pravda.com.ua,finance.i.ua,smak.ua,buhgalter911.com,gazeta.ua,panno4ka.net,meteo.ua,censor.net,kurs.com.ua,zv.zp.ua,ivona.ua,i.ua,buhgalter.com.ua,nbnews.com.ua,viva.ua,zn.ua,bigmir.net,glavcom.ua,hvylya.net,inforesist.org,nnovosti.info,obyava.ua,tochka.net,u-news.com.ua,ukr.net,vesti.ua#$?#body > iframe:not([class]):not([id]):not([src]) { remove: true; }
 i.factor.ua,kriminal.tv,i.ua,lifedon.com.ua,football24.ua,vsetv.com,gorod.dp.ua,autoua.net,beauty.ua,besplatka.ua,enovosty.com,facenews.ua,forumodua.com,hvylya.net,kolobok.ua,kp.ua,liga.net,orakul.com,real-vin.com,tv.ua,ubr.ua,vesti.ua,vgorode.ua#$?#body iframe[name]:not([class]):not([id]):not([src]) { remove: true; }
 newsyou.info,4mama.ua,autoua.net,censor.net,eurointegration.com.ua,gagadget.com,internetua.com,okino.ua,orakul.com,ringside24.com,toneto.net#$?#head > iframe[name]:not([class]):not([id]):not([src]) { remove: true; }
 !
@@ -8151,6 +8151,8 @@ ysia.ru,5koleso.ru,ngs.ru,i38.ru,chita.ru,lenta.ru,motor.ru,progorod58.ru,74.ru,
 !
 !
 !
+1777.ru##.pages_header > table[style="width:100%;"] td[valign="center"]
+1777.ru##.pages_sf_right_block > table[style*="width:100%;min-height:"]
 championat.com##div.infographic-duel[data-champ]
 /uploads/rek/*$domain=animestars.org
 kommersant.ru##a[href^="https://hd.kinopoisk.ru/"]
@@ -22264,7 +22266,8 @@ zz.te.ua##div[class^="advads"]
 ||puls.kiev.ua/user/img/b_$image
 ||radojuva.com.ua/wp-content/uploads/2015/07/helios-42-ad.png
 ||rtb.meta.ua/*/get_vast.cgi?rtb=
-||simpsonsua.com.ua/photos/baner/
+/baner/*$domain=grad.ua|tenews.te.ua|time.vn.ua
+||simpsonsua.com.ua/photos
 ||sinoptik.ua^$domain=footballtransfer.com.ua
 ||slavgorod.com.ua/AdTemp/
 ||smi.today^$domain=narodna-pravda.ua
@@ -22276,9 +22279,7 @@ zz.te.ua##div[class^="advads"]
 ||staticflickr.com^$domain=павлоград.dp.ua
 ||stroyobzor.ua/assets/files/bins/$image
 ||studio7.com.ua^$domain=nashkiev.ua
-||tenews.te.ua/baner/
 ||ternopillive.com.ua/wp-content/uploads/*baner
-||time.vn.ua/baner/
 ||topgir.com.ua/img/branding/
 ||tyzhden.ua/ajax/banner^
 ||ua1.com.ua/pub/banners/
