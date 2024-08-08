@@ -5407,7 +5407,7 @@ dzen.ru##.news-app__content div[class*="__column_myTarget mg-grid__item"] div[cl
 [$path=/pogoda]dzen.ru##.adv_type_rtb
 !
 ! Ad in Dzen articles
-dzen.ru##.feed__item article[class*="_is"]:not([class*="__card"])
+[$path]dzen.ru##.feed__item article[class*="_is"]:not([class*="__card"]):not(:has(> div.short-video-carousel-view))
 dzen.ru##.redesign-feed__feed article[class*="_is"]:not([class*="__card"])
 dzen.ru##body:not(.page_article-editor) div[class^="article"][class*="holder"]
 dzen.ru###article__bottom-embed
@@ -5901,6 +5901,7 @@ ya.ru,yandex.*##.serp-list > div.incut
 ya.ru,yandex.*##.DirectInline
 !
 ! Yandex.Maps
+yandex.*##.business-card-view__overview > div:has(> div > div.business-advert-offer-banner-view) + div.business-card-view__separator
 yandex.*##.search-filters-bar a[href*="/tinkoff_has_offer/"]
 yandex.*##.search-list-view__advert-offer-banner
 yandex.*##.search-list-view__list a[href^="https://yabs.yandex.ru/count/"]
@@ -8150,6 +8151,8 @@ ysia.ru,5koleso.ru,ngs.ru,i38.ru,chita.ru,lenta.ru,motor.ru,progorod58.ru,74.ru,
 !
 !
 !
+/uploads/rek/*$domain=animestars.org
+kommersant.ru##a[href^="https://hd.kinopoisk.ru/"]
 m24.ru##div[style^="width:300px;height:600px"]
 app2top.ru##.start-popup
 kinokong.*###right > div[style]:has(> ins[class][data-key])
