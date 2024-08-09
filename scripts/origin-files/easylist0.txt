@@ -5380,6 +5380,7 @@ dzen.ru,auto.ru,avito.ru,baby.ru,businessman.ru,dni.ru,e1.ru,echo.msk.ru,fb.ru,f
 ! TODO: add domains auto.ru and kinopoisk.ru to the rule below after the next release of AG for macos (current 2.3.2)
 $cookie=/blcrm|bltsr|zmFQeXtI|JPIqApiY|computer/,domain=dzen.ru|baby.ru|businessman.ru|dni.ru|e1.ru|echo.msk.ru|fb.ru|forexpf.ru|gismeteo.by|gismeteo.kz|gismeteo.md|gismeteo.ru|gorodrabot.ru|infoniac.ru|it-tehnik.ru|kakprosto.ru|liveinternet.ru|mk.ru|nkj.ru|ohotniki.ru|oko-planet.su|otzovik.com|rambler.ru|razlozhi.ru|sdamgia.ru|syl.ru|vz.ru
 !
+://dzen.ru^$document,replace=/"isAdvertEnabled":true/"isAdvertEnabled":false/
 ://dzen.ru^$document,replace=/Ya.\w+.\w+.render/Ya.render/
 ||dzen.ru^$script,xmlhttprequest,jsonprune=\$..[direct\, seatbid\, rtb]
 dzen.ru#%#//scriptlet('remove-cookie', '/blcrm|bltsr|zmFQeXtI|JPIqApiY|computer/')
@@ -8151,6 +8152,9 @@ ysia.ru,5koleso.ru,ngs.ru,i38.ru,chita.ru,lenta.ru,motor.ru,progorod58.ru,74.ru,
 !
 !
 !
+gogov.ru##.dox
+||trk7.ru/upload/rk_video/
+trk7.ru##.rbanner
 1777.ru##.pages_header > table[style="width:100%;"] td[valign="center"]
 1777.ru##.pages_sf_right_block > table[style*="width:100%;min-height:"]
 championat.com##div.infographic-duel[data-champ]

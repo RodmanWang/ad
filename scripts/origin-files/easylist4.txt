@@ -1911,6 +1911,8 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+moneypost.jp##.st-Block > div[style="min-height: 400px;"]
+bepal.net##.modWysiwyg > div[style="min-height: 270px;"]
 naporitansushi.com##.code-block
 usedoor.jp##.ad280
 romptn.com##.sidebar > aside.widget_custom_html
@@ -10935,6 +10937,8 @@ adguard.info,adguard.com,adguard.app#$#.hello_from_adguard_advanced_protection_i
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/185879
+@@||game.granbluefantasy.jp$jsinject,elemhide,extension,content
 ! https://github.com/AdguardTeam/AdguardFilters/issues/176181
 etude000.com#@#.top-ad
 ! https://github.com/tofukko/filter/issues/98
