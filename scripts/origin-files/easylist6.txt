@@ -2127,7 +2127,7 @@ freevaluator.com###alertify-cover
 tumblr.com#%#//scriptlet('prevent-setTimeout', 'adBlockEnabled', '3000')
 kursiv.media###adblock-popup
 ghxi.com#%#//scriptlet('prevent-setTimeout', 'wpcom_ad_wrap')
-hmoe12.com,bilibili.com##.adblock-tips
+hmoe12.com,bilibili.com#$#.adblock-tips { position: absolute !important; left: -3000px !important; }
 rentanadviser.com##.reklamcontainer
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=te4h.ru
 ||forumnulled.com/uploads/set_resources_8/*_zozEabb204.js
@@ -4667,7 +4667,8 @@ api.flocktory.com
 !
 ! SECTION: Popups - Regular rules
 !
-iz.ru#%#//scriptlet('set-local-storage-item', 'player.live.hide', 'true')
+guidetoiceland.is#%#//scriptlet('set-cookie', 'exitEntant', 'true')
+e-food.gr##body div[class^="sc-"]:has(> div[class^="sc-"] > div[class^="sc-"] > [src$="_campaign_icon.png"])
 prtimes.jp##.document-download-banner
 itselect.itmedia.co.jp##.footer-cv
 cyberghostvpn.com#%#//scriptlet("abort-current-inline-script", "eiDisplayed")
@@ -12995,6 +12996,8 @@ armidaleexpress.com.au,bendigoadvertiser.com.au,canberratimes.com.au,centralwest
 !
 ! SECTION: Subscriptions - Regular rules
 !
+explorethearchive.com##.copyRight-div
+newsmax.com###nmsbma__container
 iz.ru##.get_news_link
 iz.ru##.dzen-fos__dzen
 msk1.ru###articleBody > div[class^="uiArticleBlockText"]:has(> p > a[href="https://t.me/msk1_news"])
@@ -13148,7 +13151,7 @@ tvnoviny.sk###googleNewsPopup
 36kr.jp##.mailmagazine
 36kr.jp##.chimp_magazin_wrap_cstm
 36kr.jp###text-7
-hdblog.it#%#//scriptlet('trusted-set-local-storage-item', 'modalLastShown', '1720181648184')
+hdblog.it#%#//scriptlet('set-constant', 'showModal', 'noopFunc')
 gqmagazine.fr##figure[data-testid="IframeEmbed"]
 vogue.com.au##div[data-campaign-indie="newsletter-light-registration"]
 techrepublic.com##.ta-campaign-widget__popup-wrapper
@@ -13658,7 +13661,7 @@ journal.tinkoff.ru##div[data-analytics="banner"] > a[href^="/one-page-to-rule-th
 click-or-die.ru##div[class^="click-admitad-mobile_"]
 click-or-die.ru###postContainer div[class]:has(> a[href="https://t.me/govnali"])
 mlbtraderumors.com###fv_tr_mobile_before_comments
-npmtrends.com##.email-signup
+northcentralpa.com,npmtrends.com##.email-signup
 fxstreet.com##div[class^="fxs_"]:has(> p > a[href^="https://t.me/f"])
 fxstreet.com##div[id^="subscribetonewsletter"]
 auf1.tv##.rounded:has(> div > a[href="https://auf1.tv/newsletter"])
@@ -13861,7 +13864,7 @@ dot.asahi.com##.g-sidebar-magazine
 politico.com##.story-enhancement > #weekend-promo
 x.com,twitter.com#?#div[style^="transform"]:has(div[data-testid="inlinePrompt"] > div > a[href="/i/premium_sign_up?referring_page=timeline_prompt"])
 frankwatching.com##.container-fullwidth-subscription
-rtl.hu##.newsletter-modal
+explorethearchive.com,rtl.hu##.newsletter-modal
 weeronline.nl##div[class^="Audience__Container-"]
 sud.ua#?#.b-news-list > ul > li:has(> div.b-news-item a[href="https://t.me/sudua"])
 bulgarianmilitary.com#?#.post-content > div[class]:has(> div[id] > a[href^="https://news.google.com/publications/"])
@@ -15101,7 +15104,7 @@ violity.com##.telegram_banner
 pwnews.net##.insidenews
 vnimanie.pro#?#.post-content > div > p:has(> a[href^="https://t.me/"])
 target.com##.styles__Container-sc-spydln-0
-theportalist.com##.newsLettetPb
+explorethearchive.com,theportalist.com##.newsLettetPb
 theportalist.com#$#.newsletter-modal { display: none !important; }
 theportalist.com#$#body { overflow: auto !important; }
 hrw.org###block-signupbarnewsletter
