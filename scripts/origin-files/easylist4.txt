@@ -505,8 +505,6 @@
 !
 !
 !
-! https://github.com/AdguardTeam/AdguardFilters/issues/186214#issuecomment-2291142927
-||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=gizmodo.jp,important
 ! https://github.com/AdguardTeam/AdguardFilters/issues/183252
 exploader.net#%#//scriptlet('spoof-css', 'article > div[style="margin-left: -63px;width: 1120px;height: 450px;margin-bottom: 5px;display: flex;align-items: center;"] > div', 'left', 'auto')
 exploader.net#$#article > div[style="margin-left: -63px;width: 1120px;height: 450px;margin-bottom: 5px;display: flex;align-items: center;"] { position: absolute !important; left: -3000px !important; }
@@ -1893,6 +1891,7 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+gizmodo.jp###sideCxItem_bottomRanking
 searchkoreanews.jp##.m-adArea
 searchkoreanews.jp##.contents_side > div.pc:has(> ul.m-bannerList)
 weathernews.jp##article > section.block:has(> div[style] > div[id^="div-gpt-ad"])
@@ -3503,8 +3502,6 @@ saku-city.mamafre.jp###bottomBanner
 ||city.saku.nagano.jp/banner/
 city.saku.nagano.jp##div[class^="top_kokoku_"]
 jmanga.*##div[style^="max-width:700px"]
-city.urasoe.lg.jp##.class_area18.ng-tns-c168-0
-||prdurbanosursapp1.blob.core.windows.net/common-bannerlogo/$domain=city.urasoe.lg.jp
 gihyo.jp##.m-listitem--ad
 musicman.co.jp##.bannerBox
 ||tool2.nan-net.com/doujin/depression1.jpg
@@ -6122,7 +6119,7 @@ stockweather.co.jp###hdBnr
 stockweather.co.jp###rnvBnr
 jah.ne.jp##body > center > table[cellspacing="3"] > tbody > tr:last-child
 jah.ne.jp##table[width="145"][border="1"]
-dabun.net,shikakude.com###advertisement
+city.urasoe.lg.jp,dabun.net,shikakude.com###advertisement
 shikakude.com###gads
 jalan.net###btm_banner
 4travel.jp##.u_adBox
@@ -6455,6 +6452,7 @@ weeklyandmonthly.com##.ads_bygoogle
 ontomo-mag.com##.l-ad-first
 ontomo-mag.com##.p-ad-wrap02
 ||gakufu.gakki.me/banner/banner_hookup_
+gakufu.gakki.me##.amazonmusic
 gakufu.gakki.me##.ad_geniee
 ||doga.hikakujoho.com/assets/common/img/brand/banner/
 doga.hikakujoho.com##.cv_btn_02-box
