@@ -5412,7 +5412,6 @@ dzen.ru##.news-app__content div[class*="__column_myTarget mg-grid__item"] div[cl
 !
 ! Ad in Dzen articles
 [$path]dzen.ru##.feed__item article[class*="_is"]:not([class*="__card"]):not(:has(> div.short-video-carousel-view))
-dzen.ru##.redesign-feed__feed article[class*="_is"]:not([class*="__card"])
 dzen.ru##body:not(.page_article-editor) div[class^="article"][class*="holder"]
 dzen.ru###article__bottom-embed
 dzen.ru##div[class^="article-botom-single-desktop-placehoder__"]
@@ -8157,6 +8156,8 @@ ysia.ru,5koleso.ru,ngs.ru,i38.ru,chita.ru,lenta.ru,motor.ru,progorod58.ru,74.ru,
 !
 !
 !
+ya62.ru##.header-banner
+ya62.ru##.home-list
 anilibria.top#$?#.v-window__container > .v-window-item:has(div.promotion-ad) { remove: true; }
 gotennis.ru##.branding
 gotennis.ru##.banner-simple
