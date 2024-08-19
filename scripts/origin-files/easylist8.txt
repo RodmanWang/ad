@@ -102,6 +102,9 @@ instagram.com##._aagw:empty
 ! End: Instagram.com
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/186732
+blog.jetbrains.com##.jb-download-button
+blog.jetbrains.com##.banner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/186423
 evrimagaci.org##.inarticle-feed
 ! https://github.com/AdguardTeam/AdguardFilters/issues/185581
@@ -5298,6 +5301,7 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+ozon.ru##div[data-widget="webReviewTabs"] div[data-widget="skuGrid"]
 lemonde.fr###services-sport-block
 lemonde.fr###services-placement-block
 lemonde.fr###services-wirecutter-block
