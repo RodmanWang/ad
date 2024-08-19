@@ -1426,6 +1426,9 @@ sasisa.ru#%#AG_onLoad(function() { window.Umobi = function() {}; });
 !-------CSS---------
 !-------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/186750
+depor.com#$#.st-sidebar__container { margin-top: 0 !important; }
+depor.com#$#.header-full { margin-top: 0 !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/183388
 tss-tv.co.jp#$#.hns_wrap { min-height: 0 !important; }
 tss-tv.co.jp#$#.tss_spbtmnavi { bottom: 0 !important; }
@@ -4499,6 +4502,9 @@ m.sabah.com.tr##.adv-content
 jagran.com##.shadow-remove
 m.focus.de##.cls_hor_prnt
 okwave.jp##aside[class*="adfunnel_special_box_amp"]
+sp.okwave.jp##.adfunnel_special_box
+sp.okwave.jp##.ad_list_bottom
+sp.okwave.jp##.ad_qa_detail_bottom
 sp.okwave.jp##.adfunnel_special_box_bottom
 sp.okwave.jp##.adfunnel_special_box_under
 sp.okwave.jp##div[style="min-height:428px;"]
