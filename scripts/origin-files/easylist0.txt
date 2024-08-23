@@ -5901,6 +5901,8 @@ ya.ru,yandex.*###search-result-aside > div[class*="_right_yes"]:not([aria-label]
 !
 ! Yandex.Images
 /images/_crpd/*/*/*_$script,replace=/\.?directBannerType//,domain=ya.ru|yandex.*
+[$path=/images]ya.ru,yandex.*##.ImagesViewer-Sidebar > div.ImagesViewer-LayoutSideblock > div[class] > div[class$="-Container"] > div[class*="-Card_ya"]
+ya.ru,yandex.*##.MMSidebar-Card_bottomAdv
 ya.ru,yandex.*##.ImagesViewer-SidebarAdv
 ya.ru,yandex.*##div[style^="max-width:"] > svg[width="100%"]
 ya.ru,yandex.*##.serp-list > div.incut
@@ -5912,6 +5914,7 @@ yandex.*##.search-filters-bar a[href*="/tinkoff_has_offer/"]
 yandex.*##.search-list-view__advert-offer-banner
 yandex.*##.search-list-view__list a[href^="https://yabs.yandex.ru/count/"]
 yandex.*##.maillist-form-view
+[$path=/maps]yandex.*##.banner-view
 [$path=/maps]yandex.*##.search-list-view__advert-offer-banner
 [$path=/maps]yandex.*##div[class^="business"][class*="advert-"]
 [$path=/maps]yandex.*##.business-card-view__section:has(> div > .business-advert-offer-banner-view)
@@ -5958,6 +5961,8 @@ afisha.yandex.*##.adfox
 ! Yandex.Music
 ||content.adfox.ru/*/branding*.html$domain=music.yandex.*
 ||strm.yandex.*/get/$media,domain=vh.yandex.*
+! TODO: remove the hint when the issue is fixed
+!+ PLATFORM(windows, mac, android)
 ||strm.yandex.*/get/$script,xmlhttprequest,other,redirect=noopvast-3.0,domain=yastatic.net|kinopoisk.ru|frontend.vh.yandex.*
 ! Audio ad + popup
 ||storage.mds.yandex.net/get-music/*/ad-exp/$media,domain=music.yandex.*
@@ -5989,6 +5994,9 @@ rasp.yandex.ru##.ThreadLayout__topDirect
 ! the rule also relates to Afisha, Realty, Video
 ||yandex-video.naydex.net/*/*/*_$script,replace=/adblock//
 ||yandex-*.naydex.net/*/*/*_$script,replace=/adblock//,domain=tv.yandex.*|afisha.yandex.*|realty.ya.*
+tv.yandex.*##.grid-chunk > div.grid-chunk__column-box:has(> div.grid-chunk__adv-column)
+tv.yandex.*##div[class*="is-top"] > div[class^="grid"][class*=" "]:has(> div[class*="__"] > div.channel_abcd)
+tv.yandex.*##div[class] > div[class^="grid"][class*=" "]:has(> div.channel_abcd)
 !
 ! Yandex.Realty
 realty.ya.*##div[class*="PostBlocks__ad"]
@@ -6052,7 +6060,7 @@ auto.ru###app .ym-hide-content
 ! bookmate.ru
 !
 ! Common rules
-www.kinopoisk.ru,yandex.*#%#//scriptlet('abort-on-property-write', 'Object.prototype.adSystem')
+widgets.kinopoisk.ru,www.kinopoisk.ru,yandex.*#%#//scriptlet('abort-on-property-write', 'Object.prototype.adSystem')
 ! TODO: remove the domain from the rule below or leave it after reviewing the task
 ! https://github.com/AdguardTeam/Scriptlets/issues/406
 ||yandex.ru/ads/system/context.js$script,xmlhttprequest,redirect-rule=noopjs,domain=~vseinstrumenti.ru
@@ -8161,6 +8169,9 @@ ysia.ru,5koleso.ru,ngs.ru,i38.ru,chita.ru,lenta.ru,motor.ru,progorod58.ru,74.ru,
 !
 !
 !
+||shikimori.one/assets/globals/events/*/*.png
+shikimori.*##.news_wall > article.b-news_wall-topic:has(> a[href] > .status-line div.promo)
+shikimori.*##.b-news-topic.b-topic-preview:has(> div.inner > footer div.promo.other)
 habr.com##.sidebar-small-banner
 ||lordikfilms.xyz/templates/lordfilm-light/images/bg.jpg
 lordikfilms.xyz###trailer-place + br + p > a[href^="https://t.me/"]
