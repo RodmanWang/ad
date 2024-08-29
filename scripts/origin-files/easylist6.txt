@@ -2981,7 +2981,6 @@ wallhalla.com##div[class="thumb-wrap -rkl"]
 wamiz.com##blockquote#adblocker
 warcraftlogs.com###top-banner
 washingtonpost.com$$script[wildcard="*TWP.abchecker*_0x*"][min-length="25000"][max-length="35000"]
-watchcartoononline.io###content > .alert
 webcamtaxi.com###bd_cortina
 webcamtaxi.com###blockerdetector
 webcamtaxi.com#%#//scriptlet("set-constant", "google_jobrunner", "noopFunc")
@@ -4701,6 +4700,7 @@ api.flocktory.com
 !
 ! SECTION: Popups - Regular rules
 !
+||cifrus.ru/ruletka/widget_cifrus.png
 cgcreativeshop.com##.ulp-overlay
 cgcreativeshop.com##.ulp-window-middle-center
 developer.baidu.com#$#a[class^="articel_detail_top-market-pos__"] { display: none !important; }
@@ -19446,7 +19446,7 @@ moneysavingexpert.com###fixed-cross-site-tipbox
 it-times.de###follow-service
 xelent.ru###footer-feedback
 news-journalonline.com###footer-main-newsletter
-nssgclub.com,nssmag.com,stiefelparadies.de###footer-newsletter
+cifrus.ru,nssgclub.com,nssmag.com,stiefelparadies.de###footer-newsletter
 comic.browserling.com,soft98.ir###footer-subscribe
 actu-environnement.com,caseking.de###footer_newsletter
 igniel.com###ignielNewsletter > .email__
