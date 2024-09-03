@@ -1848,6 +1848,7 @@ armidaleexpress.com.au,bendigoadvertiser.com.au,canberratimes.com.au,centralwest
 ! Do not forget about '!#safari_cb_affinity' section for exclusions:
 ! LINK: AnnoyancesFilter/Popups/sections/antiadblock.txt#general
 !
+xxtt.info##.popup
 codeshare.io##.sad-face
 wochenblitz.com#$#body { overflow: auto !important; }
 wochenblitz.com#$##adblock-overlay { display: none !important; }
@@ -2346,10 +2347,12 @@ deepfun.net##div[id^="fwin_banadblock"]
 dejure.org#%#window.ad_allowed = true;
 demiart.ru##.sys > div[style]
 denik.cz#$#.ads-box.reklama-box { display: block!important; }
-radsport-news.com,enduro-mtb.com,vampster.com,granfondo-cycling.com,deutschlandistvegan.de,mixed.de,fachwerk.de#%#//scriptlet('prevent-xhr', 'pagead2.googlesyndication.com', 'true')
+||steadycdn.com/prod/js/*.js
+radsport-news.com,enduro-mtb.com,vampster.com,granfondo-cycling.com,deutschlandistvegan.de,mimikama.at,mixed.de,fachwerk.de,der-postillon.com,serieslyawesome.tv#%#//scriptlet('prevent-xhr', 'pagead2.googlesyndication.com', 'true')
 radsport-news.com,enduro-mtb.com,vampster.com,granfondo-cycling.com,deutschlandistvegan.de,mimikama.at,mixed.de,fachwerk.de,der-postillon.com,serieslyawesome.tv##body .test-adblock-overlay:not(#style_important)
 derivative-calculator.net##.support-me
 derivative-calculator.net#%#//scriptlet("abort-current-inline-script", "document.write", "ag_adBlockerDetected")
+der-postillon.com###steadyAdblockContainer
 lostineu.eu,designtagebuch.de##body div#steady-adblock-overlay-container
 desktophut.com###loading-ad
 diarioelargentino.com.ar,desktophut.com##.ads
@@ -7582,10 +7585,10 @@ bosco.ru##.subscribe-leave__overlay
 softonic.com##.zeus_iframe.is-sticky-left-bottom
 tsum.ru#$#lead-form { display: none!important; }
 tsum.ru#$#body { overflow: visible!important; }
-richmond.com,mtstandard.com#$##lee-registration-wall { display: none !important; }
-richmond.com,mtstandard.com#$##lee-subscription-wall { display: none !important; }
-richmond.com,mtstandard.com#$#.modal-backdrop { display: none !important; }
-richmond.com,mtstandard.com#$#body { overflow: auto !important; padding-right: 0 !important; }
+starherald.com,richmond.com,mtstandard.com#$##lee-registration-wall { display: none !important; }
+starherald.com,richmond.com,mtstandard.com#$##lee-subscription-wall { display: none !important; }
+starherald.com,richmond.com,mtstandard.com#$#.modal-backdrop { display: none !important; }
+starherald.com,richmond.com,mtstandard.com#$#body { overflow: auto !important; padding-right: 0 !important; }
 credit.com##.code-block-extracredit-free-trial-pop-up
 myassignmenthelp.com###wait-popup
 myassignmenthelp.com##.modal-backdrop
@@ -13076,6 +13079,8 @@ armidaleexpress.com.au,bendigoadvertiser.com.au,canberratimes.com.au,centralwest
 !
 ! SECTION: Subscriptions - Regular rules
 !
+emlak.mitula.com.tr##div[class^="email-retention"]
+araba.mitula.com.tr###bannerUsuario
 nicematin.com###nm-newsletter-inread
 livemint.com##.newsletterRHS
 konyhatizezercikk.hu#$##cookieModal { display: none !important; }
@@ -13767,7 +13772,7 @@ theportugalnews.com##footer > section.d-print-none.bg-primary
 democracynow.org##.home_daily_digest
 postium.ru##.hype-ad:has(> noindex > a[href="https://t.me/postiumru/"])
 diritto.it##.block-salesmanago-form:has(img[id^="closeBtnNewsletter"])
-emlak.mitula.com.tr###bannerEmailLeftContainer
+mitula.com.tr###bannerEmailLeftContainer
 ||emlak.mitula.com.tr/jsp/include/banners/bannerEmail
 totaltypescript.com###article-cta
 sonarsource.com###form-blog-newsletter
@@ -14808,7 +14813,7 @@ technologynetworks.com##.base_subscribe_footer
 price.ua##.media-subscription-block
 uazmi.net##.button-banner
 gizmodo.com.au,kotaku.com.au,lifehacker.com.au,aeroxplorer.com,fitforfun.de,golem.de##.subscribe-newsletter
-marieclaire.com,windowscentral.com,androidcentral.com,imore.com###newsletter-slice
+tomshardware.com,marieclaire.com,windowscentral.com,androidcentral.com,imore.com###newsletter-slice
 playground.ru##.float-teaser
 newsroom.paypal-corp.com##.wd_yellow-background.mt-3
 babylonbee.com#?#.my-3 > div.bg-gray-50:has(> div.rounded-lg > div.w-full > form[action="/newsletter"])
