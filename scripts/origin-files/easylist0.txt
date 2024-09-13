@@ -18247,6 +18247,7 @@ ozon.ru##img[elementtiming*="Banner"]
 ozon.ru##div[class] > div[data-widget="island"]:has(> div > div[data-widget="objectBannerList"])
 !
 ! 2gis
+2gis.ru##div[class^="_"] > div:not([class]) > ._mq2eit:has(> a[href*="/branches/"])
 2gis.ru##div[class^="_"] > div:not([class]) > ._mq2eit:has(> a[href*="/firm/"])
 2gis.ru##nav._aj9s2a > ul > li:has(> div > svg[width="70"][height="32"])
 2gis.ru##iframe[width="336px"][srcdoc^="<html>"]
@@ -20785,6 +20786,8 @@ ex-press.live#$#div[data-content-hero-id="app-layout"] { background-image: none 
 !
 ! NOTE: Specific
 !
+baq.kz##.top-banner
+||baq.kz/ajax/banners/
 turkystan.kz##.adv-top-div
 sn.kz##.top-adv-sec
 stan.kz##.admanager_block
