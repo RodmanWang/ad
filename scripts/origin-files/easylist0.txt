@@ -5902,6 +5902,7 @@ yandex.*#?#.business-card-title-view__actions > div.business-card-title-view__ad
 ||yandex-pogoda.static-storage.net/*/*/*$script,replace=/adblock//
 !
 ! Yandex.Market
+market.yandex.*##div[id="/content/header/headerPromo"]
 market.yandex.*###banner-streamer
 market.yandex.*##div[data-apiary-widget-name*="@marketfront/HeroBanner"]
 market.yandex.*##div[data-apiary-widget-id*="/headerPromo"]
@@ -8079,6 +8080,8 @@ ysia.ru,5koleso.ru,ngs.ru,i38.ru,chita.ru,lenta.ru,motor.ru,progorod58.ru,74.ru,
 !
 !
 !
+interfax.ru##.toplogo__advertisement-wrap
+kommersant.ru##.main_header__important_logo > a[href][target="_blank"]
 cq.ru#%#//scriptlet("set-constant", "adbadig", "noopFunc")
 test-front.mangalib.me,ranobelib.me,anilib.me##.k7_cu
 in-poland.com##.adsContainer
