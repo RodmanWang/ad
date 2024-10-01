@@ -1490,6 +1490,7 @@ ucoz.ru/informer/
 ! Bad: /banner.jpg (should be in general_url.txt)
 ! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
+||tifsuc.com^
 ||dyaconiconelino.com^
 ||damgurwdblf.xyz^
 ||gocheewimtie.xyz^
@@ -4721,11 +4722,11 @@ reshebnik.com#@##AD_Top
 reshebnik.com#@##homead
 reshebnik.com#@##ad-lead
 ! 'flashvars.protect_block'
-smaxim.net,seksaed.com,meb.weaeko2es.com,private-records.com,ruxv3ds.com,seksoeb.com,russkoe21.com,camsclips.biz,bessporno.me,privat-zapisi.video,pornobomba.org,720video.me,720video.tv,bessporno.tv,ebalovo.*,lenkino.*,porno-tour.*,pornomoll.*,ru-xvideos.me,tolkorus.info#%#//scriptlet('set-constant', 'flashvars.protect_block', '')
+smaxim.*,seksaed.com,meb.weaeko2es.com,private-records.com,ruxv3ds.com,seksoeb.com,russkoe21.com,camsclips.biz,bessporno.me,privat-zapisi.video,pornobomba.org,720video.me,720video.tv,bessporno.tv,ebalovo.*,lenkino.*,porno-tour.*,pornomoll.*,ru-xvideos.me,tolkorus.info#%#//scriptlet('set-constant', 'flashvars.protect_block', '')
 !#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
-@@/player/player_ads.html?advertising_id=$domain=smaxim.net|seksaed.com|meb.weaeko2es.com|private-records.com|ruxv3ds.com|russkoe21.com|camsclips.biz|bessporno.me|privat-zapisi.video|pornobomba.org|720video.me|720video.tv|bessporno.tv|ebalovo.*|lenkino.*|porno-tour.*|pornomoll.*|ru-xvideos.me|tolkorus.info|ebalovsk.com
-smaxim.net,seksaed.com,meb.weaeko2es.com,private-records.com,ruxv3ds.com,seksoeb.com,russkoe21.com,camsclips.biz,bessporno.me,privat-zapisi.video,pornobomba.org,ebalovsk.com,720video.me,720video.tv,bessporno.tv,ebalovo.*,lenkino.*,porno-tour.*,pornomoll.*,ru-xvideos.me,tolkorus.info#@##ads_iframe
-smaxim.net,seksaed.com,meb.weaeko2es.com,private-records.com,ruxv3ds.com,seksoeb.com,russkoe21.com,camsclips.biz,bessporno.me,privat-zapisi.video,pornobomba.org,ebalovsk.com,720video.me,720video.tv,bessporno.tv,ebalovo.*,lenkino.*,porno-tour.*,pornomoll.*,ru-xvideos.me,tolkorus.info#@#.ads-iframe
+@@/player/player_ads.html?advertising_id=$domain=smaxim.*|seksaed.com|meb.weaeko2es.com|private-records.com|ruxv3ds.com|russkoe21.com|camsclips.biz|bessporno.me|privat-zapisi.video|pornobomba.org|720video.me|720video.tv|bessporno.tv|ebalovo.*|lenkino.*|porno-tour.*|pornomoll.*|ru-xvideos.me|tolkorus.info|ebalovsk.com
+smaxim.*,seksaed.com,meb.weaeko2es.com,private-records.com,ruxv3ds.com,seksoeb.com,russkoe21.com,camsclips.biz,bessporno.me,privat-zapisi.video,pornobomba.org,ebalovsk.com,720video.me,720video.tv,bessporno.tv,ebalovo.*,lenkino.*,porno-tour.*,pornomoll.*,ru-xvideos.me,tolkorus.info#@##ads_iframe
+smaxim.*,seksaed.com,meb.weaeko2es.com,private-records.com,ruxv3ds.com,seksoeb.com,russkoe21.com,camsclips.biz,bessporno.me,privat-zapisi.video,pornobomba.org,ebalovsk.com,720video.me,720video.tv,bessporno.tv,ebalovo.*,lenkino.*,porno-tour.*,pornomoll.*,ru-xvideos.me,tolkorus.info#@#.ads-iframe
 !#endif
 ! https://github.com/AdguardTeam/AdguardFilters/issues/73223
 pornobit.mobi#%#//scriptlet('prevent-setTimeout', 'innerText', '2000')
@@ -8078,7 +8079,7 @@ kodik*/adv-vast/
 ! Bad: example.org#@##banner_ad (for instance, should be in allowlist.txt or in antiadblock.txt)
 !
 ! ##.banner
-sfera.fm,frankmedia.ru,cisoclub.ru,trafficcardinal.com,kursiv.media,moskvichmag.ru,netex.co.il,in-scale.ru,ukraina.ru,mipped.com,diapazon.kz,bloknot.ru##.banner
+menunedeli.ru,sfera.fm,frankmedia.ru,cisoclub.ru,trafficcardinal.com,kursiv.media,moskvichmag.ru,netex.co.il,in-scale.ru,ukraina.ru,mipped.com,diapazon.kz,bloknot.ru##.banner
 ! `/upload/rk/` - URL and element hiding rule
 /upload/rk/*$domain=ivanovonews.ru|gorodn.ru|bits.media|devyatka.ru|gazeta-n1.ru|gorod48.ru|hi-fi.ru|innov.ru|k1news.ru|ktostroit.ru|likeni.ru|meteo-tv.ru|mos.news|newkaliningrad.ru|newsroom24.ru|nta-nn.ru|openbusiness.ru|personalaudio.ru|podrobno.uz|portamur.ru|radugaskidok.ru|rigma.info|securitylab.ru|seonews.ru|shoes-report.ru|sportfm.ru|tvcom-tv.ru|ural56.ru|vladtv.ru|wotafaq.com|ya62.ru|zebra-tv.ru|skisport.ru|marketing.by|rabochy-put.ru|vegetarian.ru|gorodarmavir.ru|estetmedicina.ru|afanasy.biz|itmed.org|actualcomment.ru|pushkino.tv|olimpfm.ru|vn.ru|buzulukinform.ru|prado-club.su|tvr.by|fomag.ru|eg-online.ru|ng58.ru|mediaryazan.ru|m-strana.ru
 ivanovonews.ru,gorodn.ru,bits.media,devyatka.ru,gazeta-n1.ru,gorod48.ru,hi-fi.ru,innov.ru,k1news.ru,ktostroit.ru,likeni.ru,meteo-tv.ru,mos.news,newkaliningrad.ru,newsroom24.ru,nta-nn.ru,openbusiness.ru,personalaudio.ru,podrobno.uz,portamur.ru,radugaskidok.ru,rigma.info,securitylab.ru,seonews.ru,shoes-report.ru,sportfm.ru,tvcom-tv.ru,ural56.ru,vladtv.ru,wotafaq.com,ya62.ru,zebra-tv.ru,skisport.ru,marketing.by,rabochy-put.ru,vegetarian.ru,gorodarmavir.ru,estetmedicina.ru,afanasy.biz,itmed.org,actualcomment.ru,pushkino.tv,olimpfm.ru,vn.ru,buzulukinform.ru,prado-club.su,tvr.by,fomag.ru,eg-online.ru,ng58.ru,mediaryazan.ru,m-strana.ru##img[src^="/upload/rk/"]
@@ -8087,6 +8088,8 @@ ysia.ru,5koleso.ru,ngs.ru,i38.ru,chita.ru,lenta.ru,motor.ru,progorod58.ru,74.ru,
 !
 !
 !
+video.sibnet.ru##.video__topline
+||video.sibnet.ru/*/advsettings-*.js
 soft.mydiv.net##a[onclick^="window.open('"] > img
 opennet.ru##div[style="background-color: #E9EAD6; width:100%; height: 62px;"]
 antik-forum.ru##a[href^="https://antiqueauction.ru/"] > img
@@ -10194,7 +10197,7 @@ vinbazar.com##.link_image
 vinbazar.com##.link_img
 gorodche.ru##.amp-more-posts
 /public/jtnews/services/auto/avito?$domain=e1.ru|ngs55.ru
-smaxim.ru,filmozavr.net##.table
+smaxim.*,filmozavr.net##.table
 ||filmozavr.com/static/js/popUpBottomCorner.js
 ||vestiprim.ru/reimg
 vestiprim.ru##.sidebar > .sidebar-module:not(.short-news)
@@ -18041,6 +18044,8 @@ ozon.ru##img[elementtiming*="Banner"]
 ozon.ru##div[class] > div[data-widget="island"]:has(> div > div[data-widget="objectBannerList"])
 !
 ! 2gis
+2gis.ru##header:has(> span[style="display: none !important;"])
+2gis.ru##header[style="display: none !important;"] + div:not([class])
 2gis.ru##div[class^="_"] > div:not([class]) > ._mq2eit:has(> a[href*="/branches/"])
 2gis.ru##div[class^="_"] > div:not([class]) > ._mq2eit:has(> a[href*="/firm/"])
 2gis.ru##nav._aj9s2a > ul > li:has(> div > svg[width="70"][height="32"])
@@ -19397,6 +19402,10 @@ player.ex.co#@##ad-container
 ! Good: example.org#@#.ad
 ! Bad:  @@||example.org^$stealth (should be in AdGuard Base - allowlist_stealth.txt)
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/189257
+! TODO: remove it when the issue is fixed https://github.com/AdguardTeam/AdGuardExtra/issues/545
+! aglint-disable-next-line
+@@||motor.ru/*.htm$extension="AdGuard Extra"|"AdGuard Extra (Beta)"
 ! https://github.com/AdguardTeam/AdguardFilters/issues/189493
 @@||ssp.rambler.ru/capirs_async.js$domain=championat.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/187103
