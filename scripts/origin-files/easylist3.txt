@@ -753,6 +753,9 @@ onefootball.com,ign.com,israelnationalnews.com,lifehacker.com,cgmagonline.com,gi
 ! #%#//scriptlet('remove-in-shadow-dom', 'div[data-spot-im-class="vote-links"] + span[class$="index__dot"]')
 onefootball.com,ign.com,israelnationalnews.com,lifehacker.com,cgmagonline.com,gizmodo.com,gamerevolution.com,metro.co.uk,thurrott.com,stereogum.com,ign.com,newsweek.com,dailymail.co.uk,comingsoon.net,timesofisrael.com,nypost.com,9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co#%#//scriptlet('remove-in-shadow-dom', 'div[data-spot-im-class="vote-links"] + span[class$="index__dot"]')
 !
+rawg.io##.profile-head__share-button
+tele1.com.tr##.single-social-media
+mash.ru##div[class*="styles_shares"]
 radarbox.com###info-sections-wrapper  ul[class^="sc-"]:has(> li > a[target="_blank"][href*="share"])
 hellomagazine.com##div[class^="socialClass_"].-mode-share
 profil.at##.headerComp-share
@@ -1184,7 +1187,7 @@ eur-lex.europa.eu##.PageShare li:not([class])
 vesty.co.il##button[class^="shareIcon"]
 ynetnews.com##.AccordionShareWrapper
 hercegovina.info###shareUrl
-kartalgazetesi.com##button[onclick*="shareModal"]
+bayburtmanset.com,kartalgazetesi.com##button[onclick*="shareModal"]
 city-journal.org##.date-share .addthis-trigger
 unboxholics.com##.block:has(> a[id^="share-"])
 flash.pt##ul[class^="socialShares"]
@@ -7907,7 +7910,7 @@ yadi.sk##.ns-view-sliderShare
 otus.ru##.blog-post__footer-text_share
 transparency.org,shibuya.tokyu-plaza.com,24smi.org,nur.kz,smartcitysweden.com,goodfon.com,sony.*,otus.ru,daily.afisha.ru,about.com,drive2.com,drive2.ru,metrolyrics.com,surfingbird.ru##.js-share
 selbstaendig-im-netz.de##.ShariffSC
-connect.de,pc-magazin.de##.pseudofooter.pseudofooter
+connect.de##.pseudofooter.pseudofooter
 m.interia.pl##.article-social.is-bottom
 dekorstilim.com##.product-right > div.product-social > a[data-selector="share-link"]
 deti.fm##.podcasts__share-wrap
