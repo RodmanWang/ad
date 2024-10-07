@@ -4730,6 +4730,8 @@ api.flocktory.com
 !
 ! SECTION: Popups - Regular rules
 !
+pinterest.com###credential_picker_container
+pinterest.com###credential_picker_iframe
 vuejs.org#%#//scriptlet('trusted-set-local-storage-item', 'JS_CERT_LAUNCH_OFFER_VUEJS_URGENT_CLOSED', '1')
 ||cdnjs.cloudflare.com/ajax/libs/fancybox$domain=ya.zerocoder.ru
 www.tumblr.com##div[data-testid=scroll-container][style*=blog-title-color] div[style^="background-color:"]:has(footer[role="contentinfo"])
@@ -13199,6 +13201,10 @@ armidaleexpress.com.au,bendigoadvertiser.com.au,canberratimes.com.au,centralwest
 !
 ! SECTION: Subscriptions - Regular rules
 !
+everyeye.it##.p-gnewsBanner
+everyeye.it##.p-telBut
+vocus.cc#%#(()=>{const t={construct:(t,e,n)=>{const r=e[0],o=r?.toString(),c=o?.includes("e[0].intersectionRatio");return c&&(e[0]=()=>{}),Reflect.construct(t,e,n)}};window.IntersectionObserver=new Proxy(window.IntersectionObserver,t)})();
+remix.run##div[class*="col-span"] > div:has(> div#newsletter-text)
 diena.lv##section:has(> form[action*="newsletter"])
 projects.propublica.org##.follow-wrapper
 businessday.ng##.join-whatsapp
