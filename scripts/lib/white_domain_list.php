@@ -339,7 +339,7 @@ return [
     "jsinfo.net" => 0, #613
     "uol.com.br" => 0, #632
     "ntalker.com" => 0, #626
-    "img.shouji.sogou.com" => 0, #623
+    "shouji.sogou.com" => 1, #623, #822, #952
     "mo.res.wpscdn.cn" => 0, #636
     "qhres2.com" => 0, #638
     "rumble.com" => 0, #639
@@ -406,7 +406,6 @@ return [
     "weworkremotely.com" => 0, // #803
     "sqdd.myapp.com" => 0, // #814
     "eco.taobao.com" => 0, // #815
-    "input.shouji.sogou.com" => 0, // #822
     "ccmeng.com" => 0, // #830
     "cupfox.app" => 0, // #829
     "api-secure.solvemedia.com" => 0, // #827
@@ -438,7 +437,12 @@ return [
     "a0.app.xiaomi.com" => 0, // #932
     "https-filtering-check.adtidy.org" => 0, // #937
     "jnn-pa.googleapis.com" => 0, // #940
-    
+    "migc.g.mi.com" => 0, // #942
+    "clientlog3.music.163.com" => 0, // #954
+    "tracker.ai.xiaomi.com" => 0, // #960
+    "awstrack.me" => 0, // #964
+    "c.paypal.com" => 0, // #965
+
     "iflow.uczzd.cn" => 0, // uc搞笑段子
     "m.uczzd.cn" => 0, // uc搞笑段子
     "puds.ucweb.com" => 0, // uc小游戏
