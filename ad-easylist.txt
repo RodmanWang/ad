@@ -1,5 +1,5 @@
-Version: 20241008233659
-!Total lines: 57086
+Version: 20241008234930
+!Total lines: 57089
 @@||ads.taboola.com^
 @@||adshnk.com^
 @@||adshrink.it^
@@ -110,6 +110,9 @@ Version: 20241008233659
 @@||ads.cdn.tvb.com^
 @@||ads.console.aliyun.com^
 @@||tracking.ubisoft.com^
+@@||login-sh.aki-game.com^
+@@||rocket.chat^
+@@||usageapi.*.oraclecloud.com^
 /^(\S+\.)?ad(s?[\d]+|m|s)?\.[0-9\-a-z]+\./$denyallow=nucdn.net|azureedge.net|alibabacorp.com|alibabadns.com
 @@||ad.apps.fm^
 @@||ad.vivo.com.cn^
