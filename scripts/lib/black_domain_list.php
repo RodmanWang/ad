@@ -237,7 +237,14 @@ return [
         "firevent.jd.com", // #428
     ],
     "ixigua.com" => [
+        "v1-ad.ixigua.com",
         "v3-ad.ixigua.com", //移动广告
+        "v6-ad.ixigua.com",
+        "v9-ad.ixigua.com",
+        "v1-dc-ad.ixigua.com",
+        "v3-dc-ad.ixigua.com",
+        "v6-dc-ad.ixigua.com",
+        "v9-dc-ad.ixigua.com",
     ],
     "huan.tv" => [
         "ads.huan.tv", //广告
@@ -889,8 +896,8 @@ return [
         "crash.163.com",
         "httpdns.music.163.com", // #847
         "netapm.music.163.com", // #847
-        "ipv6.music.163.com", // #847
-        "ipv4.music.163.com", // #847
+        // "ipv6.music.163.com", // #847, #948
+        // "ipv4.music.163.com", // #847, #948
     ],
     "360.cn" => ["mclean.f.360.cn", "vconf.f.360.cn"],
     "gsgsr.xyz" => ["gsgsr.xyz", "www.gsgsr.xyz", "gdp.gsgsr.xyz"],
@@ -1227,7 +1234,7 @@ return [
     "ele.me" => [
         "v6-adashx.ut.ele.me", //#859
     ],
-    
+
     "50union.com" => [
         // #644
         "50union.com",
@@ -1475,7 +1482,7 @@ return [
         "bootcss.com", // #938
         "www.bootcss.com", // #938
     ],
-    
+
     "staticfile.net" => [
         "staticfile.net", // #938
         "www.staticfile.net", // #938
@@ -1483,6 +1490,9 @@ return [
     "staticfile.org" => [
         "staticfile.org", // #938
         "www.staticfile.org", // #938
+    ],
+    "anythinktech.com" => [
+        "adx-os.anythinktech.com", // #958
     ],
 
     "2mdn-cn.net" => ["2mdn-cn.net"],
