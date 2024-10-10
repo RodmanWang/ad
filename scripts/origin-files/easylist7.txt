@@ -102,6 +102,8 @@ instagram.com##._aagw:empty
 ! End: Instagram.com
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/190601
+no-one-no.net##iframe[width="560"][height="315"][src^="https://www.youtube.com/embed/"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/189853
 opennet.ru,opennet.me##body > div[style$="width:100%; height: 62px;"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/189851
@@ -5363,6 +5365,7 @@ banki.ru##div[data-test="news-all-markdown"] > section > a[href^="https://www.ba
 !
 ! SECTION: Self-promo - Regular rules
 !
+antiwar.com##.sidebar > section[id^="text-"]:has(> div.textwidget > p.small > a[href="https://www.antiwar.com/advertise/"])
 infor.pl##.boxLinkPlacement:has(.adsTextTop)
 infor.pl##aside > .bestsellers:has(> div[style]:contains(/^Autopromocja$/))
 rapidseedbox.com##.entry-content > h4.wp-block-heading[style="background-color:#b0f2b6"]
