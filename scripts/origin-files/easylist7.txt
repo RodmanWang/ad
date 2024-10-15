@@ -102,6 +102,8 @@ instagram.com##._aagw:empty
 ! End: Instagram.com
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/190881
+kod.ru##div[class^="Share_wrapper"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/190219
 ! Fixes detecting incognito mode
 thehindu.com#%#//scriptlet('abort-on-stack-trace', 'Promise', 'CheckIncognito')
@@ -5369,7 +5371,10 @@ banki.ru##div[data-test="news-all-markdown"] > section > a[href^="https://www.ba
 !
 ! SECTION: Self-promo - Regular rules
 !
+agaroot.co.jp##.cta_float_img
 trendyol.com###new-user-banner
+avito.ru##div[class*="free-delivery-container-"]
+avito.ru##div[class^="personal-discount"]
 avito.ru##div[data-marker="standard-banner"]
 x.com,twitter.com##aside[role="complementary"]:has(> a[href="/i/premium_sign_up"])
 hokende.com##.bottom_campaign_link
