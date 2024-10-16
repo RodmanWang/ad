@@ -1176,7 +1176,6 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.Sid
 ||paradoxfactor.com^$third-party
 ||shutseashore.com^$third-party
 ||thunderingrose.com^$third-party
-||thomastorch.com^$third-party
 ||inventionpassenger.com^$third-party
 ||printerplasma.com^$third-party
 ||driverequest.com^$third-party
@@ -12341,6 +12340,7 @@ macwelt.de,pcwelt.de#%#//scriptlet("set-constant", "firebase.messaging", "noopFu
 !
 ! SECTION: Push notifications - Regular rules
 !
+haberler.com###notification-popup
 ||smocca.jp/assets/api/ask_notification_permission
 sdccollege.com##.ribbon-pop
 business-standard.com##.ampnotification
@@ -18530,7 +18530,7 @@ felomena.com##.subscribe-conteiner
 cryptobriefing.com##.widget-newsletter-form
 laprensagrafica.com,debate.com.mx,geekmi.news##.suscribe
 7days.ru###news-widget
-||sibforms.com^$domain=~sibforms.com,~stylesheet
+||sibforms.com^$domain=~sibforms.com|~contact.cgt.fr,~stylesheet
 kanobu.ru##a[class^="KanobuSocialCommunities_twitter"]
 kanobu.ru##aside[class^="IgromaniaChannel_mania"]
 mail.ru##.block_subscription-terms
