@@ -54,6 +54,7 @@
 @@||5moviesporn.net^$generichide
 @@||5qidgde.com^$generichide
 @@||60fps.xyz^$generichide
+@@||79423.analytics.edgekey.net^|
 @@||7apple.net^$generichide
 @@||7plus.com.au^$generichide
 @@||7sim.net^$generichide
@@ -348,6 +349,7 @@
 @@||app-advertise.zhihuishu.com^
 @@||app.humanornot.ai^$stealth
 @@||app.impact.com^$jsinject,elemhide,extension
+@@||app.message.sonicwall.com^
 @@||app.plex.tv^$extension
 @@||app.sendgrid.com^$elemhide,jsinject
 @@||appdn.net^$generichide
@@ -598,6 +600,7 @@
 @@||cdn*-player.com^$stealth
 @@||cdn*.jianshu.io^$stealth
 @@||cdn*.porn300.com^
+@@||cdn-fck.tnaflix.com^$removeparam
 @@||cdn.datatables.net^
 @@||cdn.tv*.eu^$stealth
 @@||cdn.warface.ru^
@@ -628,6 +631,7 @@
 @@||chaturbate-video.xyz^$generichide
 @@||chaturbate.com^
 @@||chaturflix.cam^$generichide
+@@||chaynikam.info^$removeparam
 @@||cheaterboss.com^$generichide
 @@||cheatglobal.com^$generichide
 @@||cheatsquad.gg^$generichide
@@ -1071,6 +1075,7 @@
 @@||embedstream.me^$generichide
 @@||embedupload.com^$generichide
 @@||emoji.gg^$generichide
+@@||empflix.com^$removeparam
 @@||empregovaga.com^$generichide
 @@||emurom.net^$generichide
 @@||enciclopediaonline.com^$generichide
@@ -1081,6 +1086,7 @@
 @@||ensonhaber.com^$generichide
 @@||eolinker.com^$generichide
 @@||episode.pmcontent.com^$stealth
+@@||equifaxps.122.2o7.net^
 @@||erai-raws.info^$generichide
 @@||ero18.cc^$generichide
 @@||erovoice.us^$generichide
@@ -1412,6 +1418,7 @@
 @@||gibdd.ru^$document
 @@||giga74.com^$generichide
 @@||gigaho.com^$generichide
+@@||girafa.com.br^$removeparam
 @@||github.com^$generichide
 @@||github.io^$generichide
 @@||github.io^$generichide,badfilter
@@ -1788,6 +1795,7 @@
 @@||kingofshrink.com^$generichide
 @@||kingsleynyc.com^$generichide
 @@||kino.mail.ru^$generichide
+@@||kiplinger.112.2o7.net^
 @@||kissjav.com^$generichide
 @@||kissorg.net^$stealth
 @@||kitsunime.com^$generichide
@@ -1932,6 +1940,7 @@
 @@||loanoffering.in^$generichide
 @@||local.adguard.org^
 @@||localizaagencia.com^$generichide
+@@||logging.apache.org^
 @@||login-api.e-pages.dk^$stealth
 @@||login.abc.net.au^$stealth
 @@||login.admitad.com^
@@ -2101,6 +2110,7 @@
 @@||metalnaveia66.com^$generichide
 @@||metamani.blog15.fc2.com^$generichide
 @@||meteomedia.com^$generichide
+@@||metrics.torproject.org^
 @@||mettablog.com^$generichide
 @@||meusfilmestorrents.com^$generichide
 @@||mexa.sh^$generichide
@@ -2375,6 +2385,7 @@
 @@||nyaa.pantsu.cat^$generichide
 @@||o2.pl^$generichide
 @@||o2tvseries.com^$generichide
+@@||oa.tr.line.me^$document
 @@||obengplus.com^$generichide
 @@||objectivequiz.com^$generichide
 @@||observador.pt^$generichide
@@ -2442,6 +2453,7 @@
 @@||openstartup.tm^$generichide
 @@||optimizepics.com^$generichide
 @@||optout.networkadvertising.org^$document
+@@||optout.rlcdn.com^
 @@||order-order.com^$generichide
 @@||orduh.com^$generichide
 @@||organichealthcorner.com^$generichide
@@ -2656,6 +2668,7 @@
 @@||promotionbasis.de^$generichide
 @@||promovies.pro^$generichide
 @@||protestia.com^$generichide
+@@||proton.me^$cookie
 @@||proton.me^$generichide
 @@||protopage.com^$generichide
 @@||proxoexploits.com^$generichide
@@ -2736,6 +2749,8 @@
 @@||reddit.com^$generichide
 @@||reddit.com^$generichide,badfilter
 @@||redian.news^$generichide
+@@||redirect.appmetrica.yandex.com^
+@@||redirect.appmetrica.yandex.net^
 @@||redirect.disqus.com^
 @@||registrierung.gmx.net^$stealth
 @@||registrierung.web.de^$stealth
@@ -2906,6 +2921,7 @@
 @@||sgcpanel.com^$document
 @@||sgpics.net^$generichide
 @@||sgqcvfjvr.onet.pl^
+@@||sgtm.farmasave.it^$script,~third-party
 @@||sgxnifty.org^$generichide
 @@||shaanig.se^$generichide
 @@||shahid.mbc.net^$generichide
@@ -2963,12 +2979,14 @@
 @@||silenthub.net^$generichide
 @@||silicongadget.com^$generichide
 @@||simkl.com^$xmlhttprequest,elemhide,jsinject,extension
+@@||simplelogin.io^$cookie
 @@||simulatedapeminer.com^$generichide
 @@||simumods.com^$generichide
 @@||sinepinoy.net^$generichide
 @@||singamda.net^$generichide
 @@||sinoptik.ua^$generichide
 @@||siouxcityjournal.com^$generichide
+@@||siteanalytics.compete.com^$~third-party
 @@||sitelike.org^$generichide
 @@||skidrowfull.com^$generichide
 @@||skincarie.com^$generichide
@@ -3020,6 +3038,7 @@
 @@||softmaroc.org^$generichide
 @@||softpedia.com^$generichide
 @@||software-on.com^$generichide
+@@||software.seek.intel.com^$document
 @@||softwarebrother.com^$generichide
 @@||sol.dk^$generichide
 @@||solnechnyj-kitaj.ru^$generichide
@@ -3296,6 +3315,7 @@
 @@||tipslab.info^$generichide
 @@||tiroalpaloes.com^$generichide
 @@||tirumalatirupatiyatra.in^$generichide
+@@||tix.axs.com^$removeparam
 @@||tlc.com^$generichide
 @@||tlin.me^$generichide
 @@||tmail.io^$generichide
@@ -3349,6 +3369,9 @@
 @@||tqanime.com^$generichide
 @@||tr3fit.xyz^$generichide
 @@||track.ukrposhta.ua^$stealth
+@@||track2.royalmail.com^
+@@||trackcmp.net^|
+@@||trackjs.com^$~third-party
 @@||tradingview.com^$script,stealth
 @@||traductionjeux.com^$generichide
 @@||traficodetorrents.com^$generichide
@@ -3476,6 +3499,7 @@
 @@||url.hulblog.com^$generichide
 @@||urlcero.com^$generichide
 @@||urlcloud.us^$generichide
+@@||urldefense.com^$removeparam
 @@||urlex.org^$generichide
 @@||urlgalleries.net^$generichide
 @@||uruploads.com^$generichide
@@ -3558,6 +3582,7 @@
 @@||vmc.org.pl^$generichide
 @@||vnhax.com^$generichide
 @@||vod.tvp.pl^$generichide
+@@||vodafonelimited.tt.omtrdc.net^
 @@||voipsipclient.blogspot.com^$generichide
 @@||voipsipclient.blogspot.nl^$generichide
 @@||volvo-club.cz^$generichide
@@ -3625,6 +3650,7 @@
 @@||webhostingpost.com^$generichide
 @@||webserver.one^$generichide
 @@||webstatic.nero.com^
+@@||webtrack.dhlglobalmail.com^
 @@||webtvhd.com^$generichide
 @@||webzews.com^$generichide
 @@||wegner.tech^$generichide
@@ -3638,6 +3664,7 @@
 @@||whatsapp.com^$generichide,badfilter
 @@||who-called.co.uk^$generichide
 @@||whowantstuffs.blogspot.com^$generichide
+@@||widget.myrentacar.me^$script,subdocument
 @@||wiki.yjsnpi.nu^$generichide
 @@||wiki.yjsnpi.nu^$image,xmlhttprequest,~third-party
 @@||wikibooks.org^$generichide
@@ -3704,6 +3731,7 @@
 @@||xboxservices.com^$stealth
 @@||xda-developers-android.blogspot.com^$generichide
 @@||xda-developers-forum.blogspot.com^$generichide
+@@||xe.com^$removeparam
 @@||xfinity.com^$stealth
 @@||xfreehd.com^$generichide
 @@||xiaomifirmwareupdater.com^$generichide
