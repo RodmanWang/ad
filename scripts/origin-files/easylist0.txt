@@ -8106,6 +8106,7 @@ ysia.ru,5koleso.ru,ngs.ru,i38.ru,chita.ru,lenta.ru,motor.ru,progorod58.ru,74.ru,
 !
 !
 !
+verstka.media##iframe[src="https://verstka.media/widget.html"]
 litres.ru##div[class^="MainPromoBanner_wrapper"]
 ||verstka.media/widget.html
 kostroma.today##.banner-head-logo
@@ -18818,7 +18819,7 @@ vfokuse.mail.ru,finance.mail.ru,news.mail.ru##aside div[style^="min-height:"]:ha
 ||r.mail.ru/cgi-bin/banners/
 ||r.mradx.net/*/banner.js
 !
-youla.ru##div[data-test-component="ProductOrAdCard"]:has(> span:not(:has(> *)))
+youla.ru#?#div[data-test-component="ProductOrAdCard"]:has(> span:not(:has(> *)))
 youla.ru##div[data-test-component="ProductOrAdCard"]:empty
 youla.ru##div[data-test-block="IndexContainer"] > section > div:first-child:empty
 youla.ru##.ad_filter_banner
