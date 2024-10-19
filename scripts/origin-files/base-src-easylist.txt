@@ -2209,6 +2209,7 @@
 ||6579.79j68qav2.com^
 ||6585.url25fatm.com^
 ||6589.cosmicnewspulse.com^
+||65894140.xyz^$document,popup
 ||658df0f059.6b70b1086b.com^
 ||6598.5clo0xmbf.com^
 ||6598kn9gpf.ru^$third-party
@@ -94183,7 +94184,7 @@
 ||wiixqm.xyz^
 ||wikbdhq.com^
 ||wikeqa.uno^
-||wiki.yjsnpi.nu^$script,replace=/try \{\n?\s*[0-9a-z]+\([\S\s]+?new Date[\S\s]+?\}\s*catch \{\n?\s*[0-9a-z]+\(\);?\n?\s*\}//
+||wiki.yjsnpi.nu^$script,replace=/try \{\s*\(Object[\S\s]+catch \{\s*[0-9a-z]+\(\);?\s*\}//
 ||wikia-beacon.com^$third-party
 ||wikihow.com^$removeparam=?utm_source
 ||wikipedia.org^$removeparam=wprov
