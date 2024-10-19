@@ -94178,8 +94178,7 @@
 ||wiixqm.xyz^
 ||wikbdhq.com^
 ||wikeqa.uno^
-||wiki.yjsnpi.nu^$csp=require-trusted-types-for 'script'
-||wiki.yjsnpi.nu^$script,replace=/try \{ const [0-9a-z]+ = new Date.+\} catch \{ [0-9a-z]+\(\); \}//
+||wiki.yjsnpi.nu^$script,replace=/try \{\n?\s*[0-9a-z]+\([\S\s]+?new Date[\S\s]+?\}\s*catch \{\n?\s*[0-9a-z]+\(\);?\n?\s*\}//
 ||wikia-beacon.com^$third-party
 ||wikihow.com^$removeparam=?utm_source
 ||wikipedia.org^$removeparam=wprov
