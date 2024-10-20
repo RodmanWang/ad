@@ -6113,7 +6113,6 @@
 ||adblocker-instant.xyz^$popup
 ||adblocker-sentinel.net^$popup
 ||adblockerapp.com^$popup
-||adblockerapp.info^$popup
 ||adblockerapp.net^$popup
 ||adblockeromega.com^
 ||adblockeromega.com^$popup
@@ -60942,6 +60941,7 @@
 ||ospartners.xyz^
 ||ospreymedialp.com^$third-party
 ||ospreyorceins.com^
+||osrxzucira.com^
 ||ossfloetteor.com^
 ||ossfloetteor.com^$document
 ||ossfloetteor.com^$popup
@@ -94202,8 +94202,7 @@
 ||wiixqm.xyz^
 ||wikbdhq.com^
 ||wikeqa.uno^
-||wiki.yjsnpi.nu^$script,replace=/try \{\s*\(Object[\S\s]+catch \{\s*[0-9a-z]+\(\);?\s*\}//
-||wiki.yjsnpi.nu^$script,replace=/try\{[0-9A-z]+\[[\S\s]+?catch\([0-9A-z]+\)\{[0-9A-z]+=window;?\}//
+||wiki.yjsnpi.nu^$script,replace=/try\{[0-9A-z]+\[[\S\s]+?catch\{\}//m
 ||wikia-beacon.com^$third-party
 ||wikihow.com^$removeparam=?utm_source
 ||wikipedia.org^$removeparam=wprov
