@@ -502,8 +502,8 @@ yourfones.net#%#//scriptlet('spoof-css', 'ins.adsbygoogle', 'display', 'block')
 mytry.jp#@#.ad_box
 mytry.jp#$#body > #container { display: block !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/190943
-||wiki.yjsnpi.nu^$script,replace=/try\{\['[\S\s]+?catch\([0-9A-z]+\)\{.+?\}//
-wiki.yjsnpi.nu#%#(()=>{const t={construct:(t,n,o)=>(n[0].toString().includes("0x")&&(n[0]=function(){}),Reflect.construct(t,n,o))};window.MutationObserver=new Proxy(window.MutationObserver,t)})();
+||wiki.yjsnpi.nu^$script,replace=/if\(document\[.+?\*\*.+?\)\)/if(0)/
+wiki.yjsnpi.nu#%#(()=>{const n={construct:(n,t,c)=>{const o=t[0],e=o?.toString();return e.includes("0x")&&!e.includes("['disconnect']()")&&(t[0]=function(){}),Reflect.construct(n,t,c)}};window.MutationObserver=new Proxy(window.MutationObserver,n)})();
 $subdocument,redirect-rule=noopframe,domain=wiki.yjsnpi.nu
 !wiki.yjsnpi.nu#%#//scriptlet('set-constant', 'DOMTokenList.prototype.remove', 'noopFunc')
 !wiki.yjsnpi.nu#%#//scriptlet('set-constant', 'HTMLElement.prototype.remove', 'noopFunc')
@@ -1867,7 +1867,7 @@ _ap/signin*?_encoding=UTF8&openid.assoc_handle=jpflex&openid.claimed_id=&action=
 !
 ! For URL shorteners or simple sites with frequently changed ad servers.
 ! Incorrectly blocked domains can be excluded using regex(synchronize this regexp in all filters)
-/^(?!.*(authkong.com|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|(\/\/|\.)vk\.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|imgsmail.ru|cloudflare.net|(\/\/|\.)x\.com)).*$/$third-party,script,_____,domain=viki.ja-jp.nina.az|uraaka-joshi.com
+/^(?!.*(cdn.plyr.io|authkong.com|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|(\/\/|\.)vk\.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|imgsmail.ru|cloudflare.net|(\/\/|\.)x\.com)).*$/$third-party,script,_____,domain=viki.ja-jp.nina.az|uraaka-joshi.com
 !
 ! ###banner
 nanbbs.jp,eroita.net,city.hirosaki.aomori.jp,iyasiya.com,adacomi.com,pref.shimane.lg.jp,pref.osaka.lg.jp,illust-ai.com,nan-net.com,radiolife.com,keimei.ne.jp,5ch.net,bbspink.com,crank-in.net###banner
@@ -1919,6 +1919,13 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 !
 !
+geinoutopics-plus.blog.jp##img[src^="https://www19.a8.net/"]
+||city.bunkyo.lg.jp/banner/
+chocotabi-saitama.jp###banner_area > h3
+chocotabi-saitama.jp##.banner_a
+pref.yamaguchi.lg.jp###police_banner_kokoku_list_wrap
+||minkara.carview.co.jp/include_api/yahoo/
+||city.tsuchiura.lg.jp/data/banner/
 omosoku-r.com##.left-container > .left-column-inner
 gundamlog.com##.res_body:has(.amazon)
 peing.net#$#div[id^="ad-in"] { display: none !important; }
@@ -5190,7 +5197,7 @@ ske48matome.net###sub div.column-inner-2 > br
 ske48matome.net###sub div.column-inner-2 > table[border="0"]
 fc2.com,nicovideo.jp###ad-footer
 becoolusers.com,moneyforward.com###ad-header
-city.tsukubamirai.lg.jp,city.ohtawara.tochigi.jp###adBanner
+city.tsuchiura.lg.jp,city.tsukubamirai.lg.jp,city.ohtawara.tochigi.jp###adBanner
 yawarakai.com##.hentry > div.center
 e-venz.com##.kijishita_ranking
 techinsight.jp##.rectangle-images
@@ -5578,7 +5585,7 @@ city.koshu.yamanashi.jp##.template-top__aside__ad
 city.yatsushiro.lg.jp,city.kumamoto.jp###adinfo
 city.kure.lg.jp###float_banner
 city.kurume.fukuoka.jp,city.fukuoka.lg.jp##.advertising-list
-city.nagano.nagano.jp,pref.toyama.jp,city.kuwana.lg.jp###tmp_banner
+city.bunkyo.lg.jp,city.nagano.nagano.jp,pref.toyama.jp,city.kuwana.lg.jp###tmp_banner
 city.marugame.lg.jp##.under-banner
 city.matsusaka.mie.jp##.p-toppage__koukoku
 city.mishima.shizuoka.jp###sponsor-banner
@@ -6843,6 +6850,7 @@ tipstour.net###custom_html-65
 newbalance-days.com,japan-railway.com###custom_html-70
 gadgets.evolves.biz###custom_html-71
 japan-railway.com###custom_html-72
+lovelive-petitsoku.com###custom_html-74
 erostopics.net###custom_html-78
 smartasw.com###custom_html-95
 erostopics.net,clicccar.com,moez-m.com###custom_html-100
