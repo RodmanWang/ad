@@ -502,8 +502,7 @@ yourfones.net#%#//scriptlet('spoof-css', 'ins.adsbygoogle', 'display', 'block')
 mytry.jp#@#.ad_box
 mytry.jp#$#body > #container { display: block !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/190943
-||wiki.yjsnpi.nu^$script,replace=/if\([0-9A-z]+[[0-9A-z]+\(0x.+?length.+?content.+?\)\)/if(0)/
-wiki.yjsnpi.nu#%#//scriptlet('prevent-setTimeout', '0x')
+wiki.yjsnpi.nu#%#//scriptlet('prevent-setTimeout', '/^\(\)=>\{function .+0x/')
 wiki.yjsnpi.nu#%#(()=>{const n={construct:(n,t,c)=>{const e=t[0],o=e?.toString();return o.includes("0x")&&o.length>50&&!o.includes("['disconnect']()")&&(t[0]=function(){}),Reflect.construct(n,t,c)}};window.MutationObserver=new Proxy(window.MutationObserver,n)})();
 wiki.yjsnpi.nu#%#(()=>{let n;Object.defineProperty(document,"onscroll",{get:function(){return n?function(n){if(n==="mr65a503ae4bbd9e") return "fe6a68fc5f45b308"}:null},set:function(t){n=t}})})();
 $subdocument,redirect-rule=noopframe,domain=wiki.yjsnpi.nu
@@ -6815,7 +6814,7 @@ romptn.com,48idol.*,genshin-matomech.umadacchi.net,rond8.com,sekamaji-blog.com,b
 towatowa.net,nomadoma-daisen.com,48idol.tv,ero-info-antena.site,sanabo.com,sekamaji-blog.com,anabundantlife.site,happy-to-know.com,waction.org,nuki-dokoro.com,pocketwifi-hikaku.info,xn--eckybzahmsm43ab5g5336c9iug.com,otonarisoku.com,fnjpnews.com,fpsjp.net,tokyolucci.jp,namatamago.net###custom_html-8
 fashion-news.net,ero-info-antena.site,bestrank.tv,kana-mari-shokudo.com,cinema-sketch.com,daij1n.info,throwsmallstone.com,wholenotism.com,xn--eckybzahmsm43ab5g5336c9iug.com,ichimanabiblog.com,detail-infomation.com,talking-english.net,ssaits.jp,larksan.wp.xdomain.jp,dq.h1g.jp,otakaranet.com,macha795.com,namatamago.net,chem-station.com###custom_html-9
 gazlog.com,masaralog.com,nufufu.com,fgsk8.com,videogakuen.com,kbn48.com,a-da-co-da.com,macha795.com,namatamago.net###custom_html-10
-spulse.info,news2019.biz,yokohama-sports.com,mettyaeeyan.com,pinapopo.com,mobile.inest-inc.co.jp,growrichslowly.net,larksan.wp.xdomain.jp,saitoshika-west.com,sukesuke-mile-kojiki.net,videogakuen.com###custom_html-11
+yamiisoku.com,spulse.info,news2019.biz,yokohama-sports.com,mettyaeeyan.com,pinapopo.com,mobile.inest-inc.co.jp,growrichslowly.net,larksan.wp.xdomain.jp,saitoshika-west.com,sukesuke-mile-kojiki.net,videogakuen.com###custom_html-11
 nichepcgamer.com,pocketwifi-hikaku.info,sanabo.com,videogakuen.com###custom_html-12
 uma-log.net,tech-biz-eng.com,55paradise.com,blogging-life.com,dietmiler.com,sanabo.com,mhw-blog.com,talking-english.net,4thsight.xyz,cardfreaks.jp,financial-c.net###custom_html-13
 dennosokuho.com,ichimame.com,karatedo.co.jp,sanabo.com,masaralog.com,tech-biz-eng.com,moqlog.jp,column.ifis.co.jp,erogamemod.com###custom_html-14
@@ -11081,8 +11080,8 @@ itest.5ch.net,itest.bbspink.com##div[class^="sproutad_"]
 itest.5ch.net,itest.bbspink.com##[class*="js-ads-content-top_"]
 !
 !#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
-best-hit.tv,h178.com,j-baseball.club,j-basketball.club##.substitute-area-footer-on
-best-hit.tv,h178.com,j-baseball.club,j-basketball.club##.substitute-show-area-on
+jukenbbs.com,best-hit.tv,h178.com,j-baseball.club,j-basketball.club##.substitute-area-footer-on
+jukenbbs.com,best-hit.tv,h178.com,j-baseball.club,j-basketball.club##.substitute-show-area-on
 !#endif
 !#if (adguard)
 service.webgoto.net#$#.image_box[style*="amazon.co"] { background: none !important; }
