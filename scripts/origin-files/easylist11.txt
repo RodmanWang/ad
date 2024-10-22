@@ -1301,6 +1301,9 @@ $script,third-party,denyallow=cdn.plyr.io|authkong.com|rsc.cdn77.org|linkvertise
 !
 !
 !
+huaren.live##.action-ad
+huaren.live#%#//scriptlet('trusted-replace-node-text', 'script', 'ConFig', 'let ConFig', 'var ConFig')
+huaren.live#%#//scriptlet('set-constant', 'ConFig.config.ads', 'emptyObj')
 wiki.mbalib.com###ad-fold
 wiki.mbalib.com##div[id^="p-ad-"]
 wiki.mbalib.com##.tool-bar > a[target="_blank"]
@@ -5091,6 +5094,8 @@ newduba.cn###jq_youxi
 ||couvxlif.top^
 ||tarvrf.xyz^
 ||sbmhqe.xyz^
+||dayujs.top^
+||fanjs.top^
 ||gpowow.xyz^
 ||jizxnr.xyz^
 ||msmcoa.xyz^
@@ -19617,6 +19622,8 @@ andylain.com,bee.coupons,blogspot.com,blogspot.hk,blogspot.jp,blogspot.tw,comic.
 tangdoucdn.com#@#.video-ad
 i-cable.com#@#.video_ad
 che168.com#@#[data-adid]
+huawei.com#@#.ad-section
+huawei.com#@#.ad-wrap:not(#google_ads_iframe_checktag)
 bitauto.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
@@ -19773,6 +19780,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@||95504.net/Advertisement_
 @@||95599.cn^*ad
 @@||tangsanbooks.com^$generichide
+@@||daxiaamu.com^$generichide
 @@||99wbwc.com^$generichide
 @@||99ybcc.com^$generichide
 @@||9zvip.net/wp-content/plugins/detect-adblock/js/ads.js
@@ -21692,7 +21700,7 @@ $image,third-party,domain=258zw.com
 &xhtml?$script,third-party
 .*gcdcjr000.fun/$script,third-party
 .*ryt111.fun/$script,third-party
-.*troytj33.fun/$script,third-party
+.*roytj33.fun/$script,third-party
 .asp?wg&df=$script,third-party
 .asp?wsg&df=$script,third-party
 .baigh8eosmgie*.site^$script,third-party
