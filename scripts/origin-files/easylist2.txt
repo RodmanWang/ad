@@ -621,6 +621,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 !
 !
 !
+||shgcdn3.com^
 ||rmonitor.qq.com^
 ||api.revenuads.com^
 ||api.antibanads.com^
@@ -37021,8 +37022,9 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||analytics-ingestion-production.tubitv.com^
 ||retail-client-events-service.internal.salsify.com^
-||servo-report.keepstreams.com^
+||servo-report.keepstreams.*^
 ||metrics.imdb.com^
 ||global.telemetry.insights.video.a2z.com^
 ||ldpsh.fashionnova.com^
@@ -89873,6 +89875,7 @@ $cookie=_awl;maxAge=30,domain=nypost.com|al.com|9news.com
 /prod/dfm/g2i.min.js$redirect=nooptext,important,domain=dailycamera.com
 /prod/dfm/t8y9347t.min.js$redirect=nooptext,important,domain=dailycamera.com
 !
+||uapi.production-public.tubi.io/datascience/logging
 ||embodimentcelestial.com/cdn/shopifycloud/consent-tracking-api/*/consent-tracking-api.js
 ||pla.atlasos.net/api/event
 ||google.com/images/cleardot.gif
@@ -96787,6 +96790,8 @@ inapps.appsflyersdk.com^
 !@@||mc.yandex.ru/metrika/watch.js$domain=
 !#endif
 !
+! https://github.com/easylist/easylist/commit/13d5492249d57e090598a32aaa047524055f3059
+@@||cdn.kaizenplatform.net^$script,domain=navi.onamae.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/191356
 @@||walmart.com/px/*/captcha
 ! https://github.com/AdguardTeam/AdguardFilters/issues/191342

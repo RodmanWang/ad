@@ -217,6 +217,7 @@
 ||same*.stockstar.com^
 ||sdk.*.braze.com^$third-party
 ||sensorsdata*.read.duokan.com^
+||servo-report.keepstreams.*^
 ||shopping.gmx.*^$removeparam=origin
 ||snowplow-collector-*.amazonaws.com^$third-party
 ||sock*-goguardian.pusher.com^
