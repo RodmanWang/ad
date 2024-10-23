@@ -37021,6 +37021,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||retail-client-events-service.internal.salsify.com^
 ||servo-report.keepstreams.com^
 ||metrics.imdb.com^
 ||global.telemetry.insights.video.a2z.com^
@@ -92195,7 +92196,7 @@ israelnationalnews.com,insider.com##.taboola
 ||peerius.episerver.net/tracker/
 ||imgsen.com/vtrack
 ||gratis.com/ccstoreui/*/analytics/visitorsMetric
-||h.seznam.cz/hit/?
+||h.seznam.cz/hit|
 ||dacota.tw/wp-content/plugins/wp-mop-analytics/
 ||cn.ntdtv.com/assets/themes/ntd/js/article_ads.js
 the-ans.jp##.side-reccomend

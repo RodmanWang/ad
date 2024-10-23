@@ -125,6 +125,7 @@ turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-
 !
 !
 !
+myvi.in##header a[href="https://vi.app.link/viappinst"]
 fontanka.ru##article > div[class^="wrapper_"]:has(> a[href^="https://redirect.appmetrica.yandex.com/"])
 proton.me##div[aria-labelledby="mobile-banner-title"]
 chatgpt.com##div[class^="lg"]:has(> div.mx-auto > div.block > div.relative > div.mb-2 > div.flex > div.flex-row > svg[height="62"][width="62"])
@@ -647,7 +648,7 @@ kurashiru.com#$#.dly-modal-root { display: none !important; }
 spanishdict.com#?#body > div#root > div:not([class]):has(> div[class][style*="background-color"] > div[class] > a:is([href^="https://play.google.com/store/apps/"], [href^="https://app.spanishdict.com/?link="]))
 lefigaro.fr#?#.fig-crosslinking:has(> .fig-crosslinking__list > .fig-crosslinking__item > a[href^="https://app.adjust.com/"])
 musescore.com#?#main[class] > section[class]:has(> div[class] > img[src^="/static/public/img/musescore/app_image/"])
-muragon.com,blogmura.com##.popup-app
+muragon.com,muragon.com,blogmura.com##.popup-app
 ||liputan6.com/pages/widget-gateway-mobile-app
 m.liputan6.com,liputan6.com##.gateway__mobile-app
 mail.google.com###nav > #speedbump
@@ -3476,6 +3477,7 @@ m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
 ! causes some issues: https://github.com/AdguardTeam/AdguardForMac/issues/550
 ~status.im,~lafenice.io,~kurer-sreda.ru,~chorki.com,~zattoo.com,~zaycev.net,~hitta.se,~mail.ru,~facebook.com,~instagram.com,~drive.google.com$$link[rel="manifest"]
 !
+danseisama.com##a[onclick^="ga('send','event','AppAd'"]
 imyfone.com##.chatart-mobile-banner
 mercadolivre.com.br#$#body { overflow: auto !important; }
 mercadolivre.com.br#$#.download-app-banner-container { display: none !important; }
