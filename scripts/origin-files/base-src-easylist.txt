@@ -13595,7 +13595,6 @@
 ||autocentrum.pl^$replace=/(aabv\d[\s\S]*?.=\(\)=>).===.(\,)/\$1{return}\$2/,script
 ||autocentrum.pl^$replace=/(aabv\d[\s\S]*?.=function\(\)\{)return .===.(\}\,)/\$1return\$2/,script
 ||autochunkintriguing.com^
-||autoclaim.ovh^$domain=dutchycorp.ovh
 ||autodengi.com^$third-party
 ||autodiscover.admin.aomg5bzv7.com^
 ||autodiscover.chat.aomg5bzv7.com^
