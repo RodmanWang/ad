@@ -2726,6 +2726,8 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
+mangapark.net##.max-w-screen-2xl > a[target="_blank"][rel]
+m.aksam.com.tr##div[style*="height:310px"]
 lokmattimes.com##.trendingBarMobile:empty
 lokmattimes.com##.Mobile_ATF
 m-apps.qoo-app.com###bottom-fixed-ad
@@ -4324,7 +4326,7 @@ the-sun.com##.amp-adv-wrapper
 bookmaker-ratings.ru##.branding-top-wrapper
 washingtonpost.com##.tableAd1
 fistingplanet.com##.happy-related-videos-mobile
-fistingplanet.com##.happy-footer-mobile
+xxxvideoindian2.com,fistingplanet.com##.happy-footer-mobile
 coinwarz.com##div[id^="ad"]
 pornpapa.com##.mobile-device
 maximum.ru,rusradio.ru,dfm.ru##.advertising-mobile-popup-overlay
