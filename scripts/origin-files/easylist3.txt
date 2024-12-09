@@ -743,6 +743,7 @@ mashable.com,pcmag.com,onefootball.com,ign.com,israelnationalnews.com,lifehacker
 !
 ! NOTE: Specific rules
 !
+kogama.com##button[aria-label="ShareButton"]
 accenture.com##.sharemodal
 thedirect.com#%#//scriptlet('inject-css-in-shadow-dom', 'div[class^="WidgetActionMenu"] > div[class^="sc-"]:has(a[href*="/sharer/sharer.php"]) { display: none !important; }', '#grow-me-root')
 larepublica.pe##div[class^="MainContent_content__author--"] > div[class^="MainContent_social-media-group_"]
@@ -14142,6 +14143,8 @@ designboom.com,livescience.com,pbtech.co.nz,peoplesworld.org,space.com##.fa-face
 ||mailget.net^$third-party
 ||my.hellobar.com^$third-party
 !
+flicksbar.mom###tgWrapper
+flicksbar.mom###TopAdMb
 fb2.top#%#//scriptlet('set-cookie', 'vk_ad_shown', '1')
 andropalace.co###sgpb-popup-dialog-main-div-wrapper
 andropalace.co##.sgpb-popup-overlay
