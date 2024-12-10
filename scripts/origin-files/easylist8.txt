@@ -5392,6 +5392,7 @@ rbc.ru##.fox-fallback[style="width: 300px; height: 600px;"]
 !
 ! SECTION: Self-promo - Regular rules
 !
+ashampoo.com###pdf-pro-4-brandnew
 ccleaner.com###bannerModule
 onedio.com##.kesfet_promotion
 comfy.ua##.prod-car-list.home-section--loading
@@ -8260,6 +8261,8 @@ newsweek.com##iframe[src="http://sns.europe.newsweek.com/newsletter?popup=1"]
 !##############################
 ! SECTION: Tweaks - JS
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/194006
+sabkiyojana.com#%#//scriptlet('prevent-addEventListener', 'blur', 'event.dispatch.apply')
 ! Joyreactor - enable video controls
 pornreactor.cc,joyreactor.cc,reactor.cc#%#//scriptlet('set-attr', 'video[autoplay]:not([controls])', 'controls', 'true')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/191178
@@ -9685,6 +9688,7 @@ piyonote.com,dora-guide.com,codedosa.com,gradium.co.kr,semesters.in#%#//scriptle
 ! #%#//scriptlet("set-constant", 'disable_copy_ie', 'noopFunc')
 piyonote.com,dora-guide.com,codedosa.com,gradium.co.kr,semesters.in#%#//scriptlet("set-constant", "disable_copy_ie", "noopFunc")
 !
+acidtool.com#%#//scriptlet('abort-current-inline-script', 'EventTarget.prototype.addEventListener', 'contextmenu')
 rehouse.co.jp#%#//scriptlet('trusted-set-attr', 'main[oncontextmenu]', 'oncontextmenu', 'return true;')
 suto.co.kr#%#//scriptlet('remove-attr', 'oncontextmenu', 'article')
 suto.co.kr#%#//scriptlet('remove-attr', 'oncontextmenu', '#bo_v_atc')
