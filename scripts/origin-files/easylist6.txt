@@ -4762,6 +4762,7 @@ api.flocktory.com
 !
 ! SECTION: Popups - Regular rules
 !
+victoriametrics.com###BlockOffer
 habr.com##.tm-overlay
 eslite.com##.fixed-banner
 e-mansion.co.jp###ad_modal
@@ -5442,7 +5443,7 @@ russiatoday.ru##body div.Popup-telegram
 indiatoday.in##.recommended__widget
 emsisoft.com#$#.promo-above-bar { display: none !important; }
 emsisoft.com#%#//scriptlet('remove-class', 'promo-above', 'body.promo-above')
-qiita.com#%#//scriptlet('trusted-set-cookie', 'display_login_popup', 'false')
+qiita.com#%#//scriptlet('set-cookie', 'display_login_popup', 'false')
 tospo-keiba.jp#%#//scriptlet('trusted-set-cookie', 'bannerClosed', 'true')
 m.qdmm.com##div[data-v-6b364e7b]
 justjoin.it##div[style="pointer-events:auto"] + div > div.MuiBox-root > div[style^="opacity: 1; transform: none; transition: opacity"]
@@ -13302,6 +13303,7 @@ armidaleexpress.com.au,bendigoadvertiser.com.au,canberratimes.com.au,centralwest
 !
 ! SECTION: Subscriptions - Regular rules
 !
+victoriametrics.com##.block_skyrocket:has(#book-demo-form)
 standard.co.uk###main > div:has(> div > div[class] > img[src^="/img/newsletters/"])
 ||d2cmvbq7sxx33j.cloudfront.net/email/
 lanouvellerepublique.fr##iframe[src^="https://nrco.slgnt.eu/"]
