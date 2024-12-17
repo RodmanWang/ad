@@ -610,6 +610,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 !
 !
 !
+||nocodelytics.com^$third-party
 ||logs.adplay.ru^
 ||stat.fly.codes^
 ||events.engager.ecbsn.com^
@@ -43881,6 +43882,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||telemetry.insights.video.a2z.com^
 ||w890.denvergazette.com^
 ||co932.coloradopolitics.com^
 ||d077.gazette.com^
@@ -108380,6 +108382,7 @@ $cookie=_awl;maxAge=30,domain=nypost.com|al.com|9news.com
 !
 ! NOTE: Specific rules
 !
+||voicendata.com/static/js/*_gtag_publisher.js
 ||esports-world.jp/js/banner.event.js
 ||miniso.com.tr/*/sendEventV2|
 ||assets.papegames.com/libs/monitor.js
