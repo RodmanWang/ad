@@ -12428,6 +12428,7 @@ macwelt.de,pcwelt.de#%#//scriptlet("set-constant", "firebase.messaging", "noopFu
 !
 ! SECTION: Push notifications - Regular rules
 !
+||cms.static.btv.bg/microsites/btvnovinite/js/push.bwebv*.js
 t13.cl###notification-modal-popover-container
 mail.proton.me#?#.content-container > div[role="alert"]:has(> div > button:contains(enable desktop notifications))
 ||public.bnbstatic.com/unpkg/web-push-odin/
@@ -13309,6 +13310,7 @@ armidaleexpress.com.au,bendigoadvertiser.com.au,canberratimes.com.au,centralwest
 !
 ! SECTION: Subscriptions - Regular rules
 !
+xgp.pl##.gnews-btn
 agents.media###telegramModal
 agents.media##article > p:has(> em > a[href="https://t.me/agentstvonews"])
 forbes.ru##.tRQHu
