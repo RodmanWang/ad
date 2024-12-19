@@ -4750,6 +4750,7 @@ api.flocktory.com
 !
 ! SECTION: Popups - Regular rules
 !
+mundodeportivo.com###fc-card
 rei.com#%#//scriptlet('remove-class', 'cdr-modal__noscroll', 'html')
 rei.com#%#//scriptlet('remove-class', 'cdr-modal__noscroll', 'body')
 rei.com#$#div[class^="cdr-modal_"]:has(> div.disruptor-modal__wrapper--gearmail-signup) { display: none !important; }
@@ -13308,6 +13309,8 @@ armidaleexpress.com.au,bendigoadvertiser.com.au,canberratimes.com.au,centralwest
 !
 ! SECTION: Subscriptions - Regular rules
 !
+agents.media###telegramModal
+agents.media##article > p:has(> em > a[href="https://t.me/agentstvonews"])
 forbes.ru##.tRQHu
 laiguana.tv##.tdi_275
 novayagazeta.ru###krik
