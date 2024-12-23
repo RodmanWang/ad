@@ -11232,7 +11232,7 @@ ya.ru##.dist-stripe
 ya.ru#%#//scriptlet('trusted-set-local-storage-item', 'gaCounterShowTime', '$now$')
 !
 ! Yandex.Games
-[$path=/games]yandex.*##main div.shortcut-popup-desktop
+[$path=/games]yandex.*##body div.shortcut-popup-desktop
 !
 ! Yandex.Search
 yandex.*##.DistrSmartbanner
@@ -13297,6 +13297,7 @@ armidaleexpress.com.au,bendigoadvertiser.com.au,canberratimes.com.au,centralwest
 !
 ! SECTION: Subscriptions - Regular rules
 !
+ipaidia.gr##.followipaidia
 evima.gr##.read-all > p:has(> a[href^="https://news.google.com/publications/"])
 lasexta.com##.L6-news-detail__aside:has(a.L6-channel-link--telegram)
 proglib.io##.block__content div.flash:has(a[href="https://t.me/frontendproglib"])
