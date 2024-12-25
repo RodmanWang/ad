@@ -743,6 +743,7 @@ mashable.com,pcmag.com,onefootball.com,ign.com,israelnationalnews.com,lifehacker
 !
 ! NOTE: Specific rules
 !
+enamae.net##.footer_social_box
 ipaidia.gr##.sharebtns
 evima.gr##.evimasocial-box
 abendzeitung-muenchen.de##span[data-fcms-toggledisplay-togglecontainer^="teilenContainer"]
@@ -4044,7 +4045,7 @@ ekathimerini.com##.social-article
 sii.org.pl,redsquirrel87.altervista.org##.shareon
 player.vimeo.com##button[data-share-button]
 novynarnia.com##.home-widget.facebook
-google.*##.app-imagery-mode div[jsaction="modal.backgroundClick"] > div.pane-open div.k9Fsie > button > div
+google.*##.app-imagery-mode div[jsaction="modal.backgroundClick"] > div[jsan] div.k9Fsie > button > div
 blog-transit.yahoo.co.jp##.snsMod
 odnaminyta.com,sensatsiya.com##.ss-shr
 openrice.com##span[data-href="#share"]
@@ -4673,7 +4674,7 @@ nli-research.co.jp##.sns_btn_area
 mapfan.com##mf-share-button
 makerstown.cookpad.com##div[data-react-class="Share/ShareButton"]
 allnightnippon.com##.news_detail_sns
-family.co.jp,ecodb.net,mens-hairstyle.jp,nict.go.jp##.sns_link
+anapnet.com,family.co.jp,ecodb.net,mens-hairstyle.jp,nict.go.jp##.sns_link
 macked.app,thelocal.*##.action-share
 beauty.hotpepper.jp##div[class="cFix mT20 mB75"]
 news.google.com##div[class] > div[class] + div[class] > span[jscontroller] > div[role="button"][aria-label]
