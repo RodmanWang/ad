@@ -1893,6 +1893,7 @@ armidaleexpress.com.au,bendigoadvertiser.com.au,canberratimes.com.au,centralwest
 ! Do not forget about '!#safari_cb_affinity' section for exclusions:
 ! LINK: AnnoyancesFilter/Popups/sections/antiadblock.txt#general
 !
+play-games.com###ad-block-enabled-body
 animeworld.so##.widget:has(> .this-message-does-not-harm-to-you-dont-remove-it:only-child:empty)
 ||img.animeworld.so/general/ADBLOCK.gif
 globe.adsbexchange.com#%#//scriptlet('set-session-storage-item', 'fs.adb5348.dis', '1')
@@ -1905,6 +1906,8 @@ sourcecon.com#%#//scriptlet('trusted-set-local-storage-item', 'adBlockerModalSta
 pushsquare.com#%#//scriptlet('set-constant', 'dgpReadyWrapper', 'undefined')
 nintendolife.com#%#//scriptlet('prevent-setTimeout', 'dgp.blockr')
 nintendolife.com##.insert-blocker
+nintendolife.com##iframe[src^="https://images.nintendolife.com/"][src$=".jpg"]
+nintendolife.com##.items > li[style="margin: 20px auto; text-align: center; display: block !important;"]
 flightaware.com#%#//scriptlet('trusted-click-element', 'div[style*="fsab-button"]  h2 + span')
 avforums.com#%#//scriptlet('prevent-addEventListener', 'load', 'ad_megabanner')
 /avforums\.com\/index\.php\?\w{3}\/\d{6}\//$xmlhttprequest,domain=avforums.com
@@ -4245,7 +4248,9 @@ promote.telegram.org#@#.ads-content
 ! script checks these elements even if rules changed
 ! .responsive-sky-scraper
 ! .header-link-exaroton
-aternos.org#$#.responsive-leaderboard { content-visibility: hidden !important; min-height: 1px !important; }
+aternos.org#$#.responsive-leaderboard { content-visibility: hidden !important; }
+aternos.org#$#.placement { content-visibility: hidden !important; }
+@@||aternos.org^$generichide
 !#safari_cb_affinity(general)
 @@||hb.vntsm.io/content.html$domain=aternos.org
 @@||hb.vntsm.com/v4/live/vms/ad-manager.js$domain=aternos.org
