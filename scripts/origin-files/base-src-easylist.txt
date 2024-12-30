@@ -69480,6 +69480,7 @@
 ||pysznosci.pl^$replace=/(^.{1\,150}\(\{).*?"bunch".*?"bidRequestId".*(}\);)/\$1\$2/,script
 ||pysznosci.pl^$replace=/(aabv\d[\s\S]*?.=\(\)=>).===.(\,)/\$1{return}\$2/,script
 ||pysznosci.pl^$replace=/(aabv\d[\s\S]*?.=function\(\)\{)return .===.(\}\,)/\$1return\$2/,script
+||pytexb.icu^
 ||python.casuallyprivate.com^
 ||python.jukejuke.app^
 ||pytxsn.najlacnejsisport.sk^
@@ -101176,6 +101177,7 @@
 ||xalienstreamx.com^
 ||xaljnh.iloom.com^
 ||xameleonads.com^
+||xamniksq.com^
 ||xamssp.icu^
 ||xaogi.com^$third-party
 ||xapads.com^
