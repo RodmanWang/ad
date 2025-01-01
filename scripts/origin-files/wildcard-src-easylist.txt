@@ -235,7 +235,6 @@
 ||suite*.linximpulse.net^$third-party
 ||t*.zcvh.net^
 ||tag-based.s3.*.amazonaws.com^$third-party
-||telemetry*.api.playstation.com^
 ||telemetry*.transcend.io^
 ||teleriumads-*.netdna-ssl.com^$third-party
 ||thothd.*^$replace=/(protect_block:[\s\S]*?')[\s\S]*?'/\$1'/,document
