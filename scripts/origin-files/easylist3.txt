@@ -743,6 +743,7 @@ mashable.com,pcmag.com,onefootball.com,ign.com,israelnationalnews.com,lifehacker
 !
 ! NOTE: Specific rules
 !
+mediazonaby.com##.mz-social-share
 rsf.org##.wrapper-social-shared
 rskrf.ru##.news-bottom-info > span.simple-list__title:contains(/^Поделиться/)
 athome.co.jp##.quick-contact-unit > .bg-offwhite:has(> .label-sns)
@@ -825,7 +826,6 @@ antonymorato.com##div[class^="jss"] > div:has(> svg > path[d^="M17.5 3c-1.1"])
 justica.gov.pt##.justica-documentos_apoio
 rbc.ru##.js-index-central-column > div[data-publisher-index]:has(> [data-rm-data-element*="Telegram"])
 epravda.com.ua##.post_article_social
-m.slashdot.org##.share-container
 slashdot.org##.comment_share_toggle
 gadgetsnow.indiatimes.com#?#div[data-articlemsid] div[class]:has(> div[class] > span[class]:contains(/^Twitter$/))
 lettuceclub.net##.mt-12.md\:mx-auto
@@ -1925,7 +1925,6 @@ ginzamag.com#?#.content > section:has(> div > h3 + ul > li > button > img[srcset
 s-style.machico.mu##.l-pickup__sns
 my.ua#?#div:contains(/^Поделиться сюжетом$|^Поділитися сюжетом$/)
 smbc-comics.com###sharemob > [id*="share"]
-ap-siken.com,db-siken.com,fe-siken.com,itpassportsiken.com,nw-siken.com,pm-siken.com,sc-siken.com,sg-siken.com##.social-btn-list_mini
 ||cdn.ekattor.net/contents/assets/jwshare/share.js
 carsensor.net###snsList
 sp.uta-net.com###sns_box
@@ -11176,7 +11175,7 @@ nashe.ru##.share-b
 huffingtonpost.com##.share-bar-highlight
 haberself.com##.share-box-new
 ajanskarabuk.com,sanattanyansimalar.com,duzcepusula.com,denizlidesiyaset.com,malatyadan.com,habermarmara.com.tr,larende.com,karamandauyanis.com,iskilipinsesi.com,ankaraport.net##.share-buttons-2
-g24.gal,techgear.gr,fortnite.com,firstsportz.com,panini.com.br,theadvocate.com,dagbladet.no,estadao.com.br,techbang.com,punto-informatico.it,lemon8-app.com,kauf-unique.de,rebootonline.com,seireigensouki.com,moriarty-anime.com,pokemon.co.jp,familyminded.com,workandmoney.com,you.regettingold.com,robots.net,cnews.ru,konkret24.tvn24.pl,dailyprogress.com,webtekno.com##.share-container
+m.slashdot.org,ssrn.com,g24.gal,techgear.gr,fortnite.com,firstsportz.com,panini.com.br,theadvocate.com,dagbladet.no,estadao.com.br,techbang.com,punto-informatico.it,lemon8-app.com,kauf-unique.de,rebootonline.com,seireigensouki.com,moriarty-anime.com,pokemon.co.jp,familyminded.com,workandmoney.com,you.regettingold.com,robots.net,cnews.ru,konkret24.tvn24.pl,dailyprogress.com,webtekno.com##.share-container
 blogspot.com,blogspot.de,thesportbible.com##.share-controls
 dailymail.co.uk##.share-count
 last.fm##.share-desktop
@@ -13047,6 +13046,7 @@ adguard.info,adguard.com,adguard.app#$#.hello_from_adguard_advanced_protection_i
 ##a[href^="http://www.twitter.com/intent/tweet?"]
 ##a[href^="http://twitter.com/intent/tweet/?"]
 !
+##.social-btn-list_mini
 ##share-widget
 ##a[href^="https://www.threads.net/intent/post?url"]
 ##a[href^="https://bsky.app/intent/compose?text="]
