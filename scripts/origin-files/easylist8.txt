@@ -3019,6 +3019,7 @@ yasir252.com#%#document.addEventListener('DOMContentLoaded', function(){setTimeo
 ||trimay.ru/?
 !
 !
+||informer.rs/files/img/gde-da-gledate*.png
 dnevno.hr##a[href="https://www.dnevno.hr/wp-content/uploads/2024/08/imate-dnevno-vizual-1.jpg"]
 gazetadopovo.com.br##div[class^="style_button-sidebar-container"]
 i-fields.jp###wpp-social-icons
@@ -5400,6 +5401,7 @@ book.oricon.co.jp##a[href^="https://apay-up-banner.com?merchantId="] > img
 !
 ! SECTION: Self-promo - Regular rules
 !
+foxford.ru##div[class^="styled__ContainerInner-"] > div[class^="styled__Wrapper-"]:has(> div[class^="styled__Container-"] > a[href^="https://foxford.ru/catalog/product_packs/"])
 linkedin.com##div[data-id^="urn:li:lyndaCourse:"]
 e.mail.ru,octavius.mail.ru##.new-year-ball
 alpinabook.ru##.banner-header
@@ -8322,6 +8324,8 @@ newsweek.com##iframe[src="http://sns.europe.newsweek.com/newsletter?popup=1"]
 !##############################
 ! SECTION: Tweaks - JS
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/195780
+mixdrop.ps#%#//scriptlet('trusted-click-element', '.download-btn', '', '500')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/195182
 iosmirror.cc#%#//scriptlet('adjust-setInterval', 'checkadd', '*', '0.001')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/195185
