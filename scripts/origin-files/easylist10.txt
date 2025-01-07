@@ -327,6 +327,7 @@
 ! Bad: ||legitwebsite.com^$third-party (should be in adservers.txt)
 !
 !
+||abc.ruodian360.com^
 ||xmm.wxc.cc^
 ||srtb.msn.cn^
 ||ad.hot-mob.com^
@@ -1331,6 +1332,7 @@ $script,third-party,denyallow=fastlycdn.com|doodcdn.co|intensedebate.com|vixclou
 !
 ! NOTE: Specific rules
 !
+||cpu.baidu.com/block/wap/
 xchina.co##.photos > div.item:has(> div > a[target="_blank"])
 xchina.co##.photos > div.item:has(> div[class^="exoclick_"])
 xchina.co##div[class^="item photo zone"]
@@ -5213,6 +5215,8 @@ newduba.cn###jq_youxi
 ||staivoiks.com^
 ||gheslosy.com^
 ||43a.icu^
+||sckfcn.cn^
+||edyurliw.top^
 ||jjplaqyo.icu^
 ||tixoilll.com^
 ||hitalsli.com^
@@ -20865,6 +20869,7 @@ _rony.js$script,third-party
 ||aoao1*iis.top/$script,third-party
 ||gmso1*oka.top/$script,third-party
 /\.[a-z]weisi[a-z].top\//$script,third-party
+/\.[a-z]dyurli[a-z].top\//$script,third-party
 .okpp1*.xyz/$script,third-party
 .okpp0*.xyz/$script,third-party
 $script,subdocument,~third-party,websocket,xmlhttprequest,domain=m.6666xsw.com|m.chenkuan.com|m.jmshuwu.net|wodexiaoshuoh.com

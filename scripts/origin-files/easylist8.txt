@@ -202,6 +202,8 @@ vogue.co.th##section.daily_right_player
 vogue.co.th##div.vdo-show-only-mobile-size
 ! winfuture.de - annoying user engagement text at end of article
 !+ NOT_OPTIMIZED
+winfuture.de#?#.content_wrap > #news_content > script + b:contains(?)
+!+ NOT_OPTIMIZED
 winfuture.de#?#.content_wrap > #news_content > br + b:contains(?)
 !+ NOT_OPTIMIZED
 winfuture.de#?#.content_wrap > #news_content > br + i > b:contains(?)
@@ -213,6 +215,8 @@ winfuture.de#?#.content_wrap > #news_content > blockquote + b:contains(?)
 winfuture.de##.content_wrap > #news_content > br + b[style="display: none !important;"] + br
 !+ NOT_OPTIMIZED
 winfuture.de##.content_wrap > #news_content > br + b[style="display: none !important;"] + br + br
+!+ NOT_OPTIMIZED
+m.winfuture.de#?##articleBody > script + b:contains(?)
 !+ NOT_OPTIMIZED
 m.winfuture.de#?##articleBody > br + i > b:contains(?)
 !+ NOT_OPTIMIZED
@@ -3019,6 +3023,8 @@ yasir252.com#%#document.addEventListener('DOMContentLoaded', function(){setTimeo
 ||trimay.ru/?
 !
 !
+rbc.ru##.js-company-news-slider-wrapper
+solar.lowtechmagazine.com##.post-footer
 ||informer.rs/files/img/gde-da-gledate*.png
 dnevno.hr##a[href="https://www.dnevno.hr/wp-content/uploads/2024/08/imate-dnevno-vizual-1.jpg"]
 gazetadopovo.com.br##div[class^="style_button-sidebar-container"]
@@ -6258,9 +6264,10 @@ translate.com##.tsl_hero__buttons + div.tsl_hero__features
 cocokara-next.com##.shopping
 music.tower.jp##div[class^="promotion"]
 fakedetail.com##.ads_us
-deviantart.com#$?#div[role="complementary"] > div[class]:has(> iframe[src*="/?realEstateId="]) { height: 0 !important; }
+deviantart.com##div[role="complementary"] > div[class] > div[class]:has(> a[href^="https://www.deviantart.com/"][href*="/shop/"])
+deviantart.com#$#div[role="complementary"] > div[class]:has(> div[class][style]:only-child > iframe[src*="/?realEstateId="]) { height: 0 !important; }
 deviantart.com##div[role="complementary"] > div[class] > iframe[src*="/?realEstateId="]
-deviantart.com#?#div[role="complementary"] > div[class]:empty:not(:has(>*))
+deviantart.com##div[role="complementary"] > div[class]:empty:not(:has(>*))
 boards.4channel.org##.middlead.center
 ||deviantart.com/*/?realEstateId=
 eltiempo.com##.banner-club-vivamos
