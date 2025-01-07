@@ -1881,7 +1881,7 @@ money.pl##a[data-st-area="gotosg"][href="https://www.wp.pl/"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/136773
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54035
 wp.pl##a[data-st-area="goToSG"][href="https://www.wp.pl"]
-kuchnia.wp.pl#?#tr[data-reactid]:not([class]):not([id]) > td[class] > div[class*=" "]:has(> div[class*=" "] > iframe[src^="https://forms.freshmail.io/"])
+kuchnia.wp.pl##tr[data-reactid]:not([class]):not([id]) > td[class] > div[class*=" "]:has(> div[class*=" "] > iframe[src^="https://forms.freshmail.io/"])
 ! TODO: remove the hint below when a new version of the extension for Firefox and Opera will be released, current version is 4.1.53
 ! Related to - https://github.com/AdguardTeam/Scriptlets/issues/266
 !#if (!adguard_ext_firefox)
@@ -5401,6 +5401,7 @@ book.oricon.co.jp##a[href^="https://apay-up-banner.com?merchantId="] > img
 !
 ! SECTION: Self-promo - Regular rules
 !
+citilink.ru##header > div[class^="app-catalog"]:has(> a[href^="https://www.citilink.ru/promo/"])
 e.mail.ru,octavius.mail.ru##div[class^="ReactVirtualized"] > div[style]:has(> div.promo-block-letter)
 foxford.ru##div[class^="styled__ContainerInner-"] > div[class^="styled__Wrapper-"]:has(> div[class^="styled__Container-"] > a[href^="https://foxford.ru/catalog/product_packs/"])
 linkedin.com##div[data-id^="urn:li:lyndaCourse:"]
@@ -8325,6 +8326,8 @@ newsweek.com##iframe[src="http://sns.europe.newsweek.com/newsletter?popup=1"]
 !##############################
 ! SECTION: Tweaks - JS
 !
+! https://github.com/AdguardTeam/AdguardBrowserExtension/issues/3089
+leakedpacks.com#%#//scriptlet('adjust-setInterval', 'counter', '*', '0.001')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/195744
 updown.fun#%#//scriptlet('adjust-setInterval', 'downloadTime', '*', '0.001')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/195780
