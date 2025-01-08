@@ -1896,6 +1896,7 @@ armidaleexpress.com.au,bendigoadvertiser.com.au,canberratimes.com.au,centralwest
 ! Do not forget about '!#safari_cb_affinity' section for exclusions:
 ! LINK: AnnoyancesFilter/Popups/sections/antiadblock.txt#general
 !
+civitai.com#$#div[id]:has(> a[href="/pricing"] > img[alt*="adblock"]) { remove: true; }
 xcom-shop.ru#%#//scriptlet('prevent-addEventListener', 'load', 'adTest')
 ||xchina.co/plugins/sweetAlert2/sweetalert2.all.min.js
 lingust.ru###mod-custom95
@@ -4745,6 +4746,7 @@ api.flocktory.com
 !
 ! SECTION: Popups - Regular rules
 !
+/content/themes/ms-wpt-books/dist/js/notification.min.js$domain=stylebook.de|fitbook.de
 mywot.com##div[class*="StyledConnectWithGoogle-"]
 mybook.ru###__next > div[class^="sc-"] > a[href^="https://mybook.ru/payments/premium/"][target="_blank"]
 medme.pl##.dont-leave
@@ -13380,6 +13382,7 @@ polygon.com##.duet--layout--rail > div[class]:has(> div > form > div.duet--cta--
 faz.net##div[data-fsw="newsletterpromote"]
 digitalocean.com##div[class^="PreFooterStyles__StyledEmailCaptureContainer"]
 rskrf.ru##.page-text > p:has(> a[href="/subscr_edit.php"])
+gizmodo.com###newsletter + .mt-12:has(> .mt-4 > form.mc4wp-form)
 gizmodo.com##.post-bottom > div.mt-10:has(> div > form.mc4wp-form)
 1plus1.ua##.sidebar-banners__instagram
 pewresearch.org##.has-form.wp-block-prc-block-promo
