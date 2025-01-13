@@ -4748,6 +4748,8 @@ api.flocktory.com
 !
 ! SECTION: Popups - Regular rules
 !
+klarna.com###promotion-banner-container
+klarna.com#%#//scriptlet('trusted-click-element', 'div[id$="-onboarding"] > button[aria-label]')
 dotcom-tools.com#%#//scriptlet('set-local-storage-item', 'hideSaveTestMessage', 'true')
 trovagnocca.com#%#//scriptlet('set-cookie', 'telegram-channel-hide', 'true')
 tandem.net#%#//scriptlet('set-session-storage-item', 'TandemWeb.BlogPopupShown', 'true')
@@ -7368,7 +7370,7 @@ brogle.de#$#.ilightbox-overlay { display: none !important; }
 tunepat.jp###youtubemusicconverter
 pikabu.ru##div[style^="top: auto;"][style*="bottom: 16px;"][style*="position: fixed;"]
 vesti.ru###vgtrk-mini-player
-myav.com,missav.*,missav123.com,missav789.com,missav888.com##.fixed.bottom-0[x-show="showFloatingBanner"]
+missav123.com,missav888.com##.fixed.bottom-0[x-show="showFloatingBanner"]
 books.rakuten.co.jp##.rMessageFloating
 ilovefreesoftware.com###elementor-popup-modal-565883
 highload.today#?#.popup-bottom:has(> .container .popup-bottom-social)
@@ -13357,6 +13359,8 @@ armidaleexpress.com.au,bendigoadvertiser.com.au,canberratimes.com.au,centralwest
 !
 ! SECTION: Subscriptions - Regular rules
 !
+e-stayon.com###newslettersubscription-pupup-window
+e-stayon.com##.container-newsletter
 click2houston.com##aside > .chainGroup > form[aria-label="Sign up for our newsletter"]
 linuxfoundation.org##.section--footer_form
 alcott.eu#%#//scriptlet('set-cookie', 'NLCookie', '1')
