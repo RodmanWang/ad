@@ -4675,6 +4675,8 @@ api.flocktory.com
 !
 ! SECTION: Popups - Regular rules
 !
+lingolia.com#%#//scriptlet('trusted-set-local-storage-item', 'popup_level_test_count', '100')
+winaero.com###drpa
 webcamera.pl###exit-intercept
 linkedin.com#%#//scriptlet('trusted-set-local-storage-item', 'contextual-sign-in-modal-cool-off-hidden', '$now$')
 techinsider.ru##.mascot-spec-project
@@ -19240,7 +19242,7 @@ tlz.de##.piano-newsletter-inline
 pga.com##div[data-cy="gdpr-banner"]
 elespanol.com##.md-suscription
 lefigaro.fr,ccm.net,journaldesfemmes.fr,commentcamarche.net##.nl-box
-||cdn.convertbox.com^$third-party,domain=~brasilparalelo.com.br
+||cdn.convertbox.com^$third-party,domain=~brasilparalelo.com.br|~genevievegauvin.com
 ||app.conversiobot.com^$third-party
 correiobraziliense.com.br##.revue-embed
 futurism.com#?##__next > div.antialiased > div > div.text-center:has(> div.mx-auto > div:contains(newsletter))
