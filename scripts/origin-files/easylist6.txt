@@ -61,6 +61,10 @@ mail.yandex.*##div[class^="RightColumn-m__root--"]
 mail.yandex.*##.message-list-banner-portal + div[class][id]:has(> div:empty)
 mail.yandex.*#%#//scriptlet('json-prune', 'seatbid rtb')
 !
+! Yandex.Search
+! Main page under the search bar
+ya.ru##.body__content > aside.content__informers-bg + div[style]:has(> style)
+!
 ! Yandex.TV
 tv.yandex.*#%#//scriptlet('abort-on-property-read', 'Object.prototype.renderDirect')
 tv.yandex.*#%#//scriptlet('json-prune', 'rtb')
@@ -12412,6 +12416,7 @@ macwelt.de,pcwelt.de#%#//scriptlet("set-constant", "firebase.messaging", "noopFu
 !
 ! SECTION: Push notifications - Regular rules
 !
+||static-cdn.scdkey.com/mall/js/common/subscription.js
 cityheaven.net###ma-webpush
 gallup.com##.c-quick-subscribe--skinny
 ||autodoc.de/assets/common/js/subscribe-push-notifications.js
