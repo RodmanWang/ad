@@ -4675,6 +4675,7 @@ api.flocktory.com
 !
 ! SECTION: Popups - Regular rules
 !
+rawmics.com##.popup-safari-save-app
 lingolia.com#%#//scriptlet('trusted-set-local-storage-item', 'popup_level_test_count', '100')
 winaero.com###drpa
 webcamera.pl###exit-intercept
@@ -13299,6 +13300,7 @@ armidaleexpress.com.au,bendigoadvertiser.com.au,canberratimes.com.au,centralwest
 !
 ! SECTION: Subscriptions - Regular rules
 !
+dnpphoto.jp##.search_result_box_mailto
 bibamagazine.fr##.biba-bloc__newsletter
 kinogo.ec##.moved
 uptimia.com#$#body > div.blocker:has(> div.modal div#quick_signup_submit_modal) { display: none !important; }
@@ -18165,7 +18167,7 @@ vokrug.tv#?#.articlesdiv > center:has(> a[href="https://zen.yandex.ru/vokrug.tv"
 onlinegibdd.ru,komus.ru##.new-subscribe
 komus.ru#$#.social-info > div.social-info__item:first-child { visibility: hidden !important; }
 kids-in-mind.com,telecompetitor.com,boardingarea.com,digitalic.it,diariosanrafael.com.ar##.et_bloom_optin
-paperpaper.*##.socials
+infox.ru,paperpaper.*##.socials
 magicvalley.com#%#//scriptlet("set-constant", "show_dimissable_registration", "false")
 washingtonpost.com##div[style="min-height:220px"][data-qa="right-rail-item"]
 washingtonpost.com##.softwall-overlay
