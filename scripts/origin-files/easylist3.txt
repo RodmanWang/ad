@@ -681,6 +681,7 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 !
 ! NOTE: Specific rules
 !
+people.com##.vf-content-actions__share
 sport24.gr##.custom-socials-container
 zona.media##.material-footer-share
 lime-shop.com##.ShareBlockWrapper
@@ -14706,6 +14707,8 @@ bomb01.com#$#.modal-open { overflow: visible!important; }
 ! Bad:  @@||example.org^$stealth (should be in AdGuard Base - allowlist_stealth.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/196596
+find.vivo.com.cn#@#.share-list
 ! https://x.com/tsunami90811/status/1874753881894523158
 hypnosismic-anime.com#@#a[href^="https://twitter.com/intent/tweet?"]
 ! https://x.com/D953923251214/status/1869568476874240440
