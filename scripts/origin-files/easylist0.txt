@@ -7999,6 +7999,8 @@ chehov-vid.ru,161.ru,prufy.ru,ysia.ru,5koleso.ru,ngs.ru,i38.ru,chita.ru,lenta.ru
 !
 !
 !
+||static-api.mediavitrina.ru/*/ad-injections.json^
+||static-api.mediavitrina.ru/*/ad-injections.json^$redirect=nooptext
 ladyblog.me###secondary > section[id^="block-"][class^="widget"]:has(> .has-alpha-channel-opacity)
 retail.ru##.news__commercial
 retail.ru##.markup__main > div.markup__b
@@ -20910,6 +20912,9 @@ citrus.ua,xsport.ua,zi.dn.ua,zi.ua##img[src^="/upload/rk/"]
 !
 !
 !
+budport.com.ua##.banner_bg
+budport.com.ua##.tm-banner-slider
+budport.com.ua#$#header.page-head { height: fit-content !important; }
 minfin.com.ua###special-product-offer
 gagadget.com##.post-links div.l-container:has(> .l-grid > div.l-inner > div[data-gpt-index])
 uaserials.pro###rek1
