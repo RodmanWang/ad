@@ -5821,6 +5821,7 @@ ya.ru,yandex.*##.serp-list > div.incut
 ya.ru,yandex.*##.DirectInline
 !
 ! Yandex.Maps
+[$path=/web-maps]yandex.*##div[data-chunk="promo-chunk"]
 [$path=/maps]yandex.*##.toponym-card-view__overview > div.toponym-card-view__section:has(> div[aria-live] > div > .toponym-card-view__advert)
 [$path=/maps]yandex.*##.business-tab-wrapper__content > .toponym-card-view__section:has(> div[data-chunk="search-result-views-card-providers-view-card-providers-view"])
 yandex.*##.business-card-view__overview > div:has(> div > div.business-advert-offer-banner-view) + div.business-card-view__separator
@@ -18856,6 +18857,7 @@ vfokuse.mail.ru##a[class^="rb-"][class*="branding"]
 !
 ! VK
 vk.com#$##feed_rows > div[class="feed_row "]:has(div[class^="PostHeaderTitle "] + div[class^="PostHeaderSubtitle PostHeaderSubtitle--layoutDefault"]) { transform: rotate3d(1, 1, 0, 90deg) !important; position: absolute !important; }
+vk.com,vk.ru#?##feed_rows > div[class^="feed_row"] > div[class] .PostHeaderSubtitle:matches-css(before, content: /[Реклама]/):upward(#feed_rows > div[class^="feed_row"])
 vk.com,vk.ru#?##feed_rows > div[class^="feed_row"] > div[class] .PostHeaderSubtitle:contains(/[Реклама]/):upward(#feed_rows > div[class^="feed_row"])
 vk.com,vk.ru###feed_rows > div[class^="feed_row"]:has(> div[class*="ads_block_data"])
 vk.com,vk.ru###feed_rows > div[class^="feed_row"]:has(> div.page_block > div._post_content div.ads_ad_snippet)
