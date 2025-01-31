@@ -4707,6 +4707,7 @@ api.flocktory.com
 !
 ! SECTION: Popups - Regular rules
 !
+gorillawiki.jp##.member_recruit
 telusdigital.com###main > section.fixed:has(> div.container-p > div.text-textInverse + div > a[href="/contact/sales"])
 telusdigital.com###header > div[class]:has(> a[href="https://www.telusdigital.com/telus-international-is-now-telus-digital"])
 xn----etbpba5admdlad.xn--p1ai#$#body[style] { overflow: auto !important; }
@@ -13348,6 +13349,8 @@ gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,n
 !
 ! SECTION: Subscriptions - Regular rules
 !
+winaero.com###dcpa
+winaero.com##.dcpa-close
 fxstreet.es##div[id^="subscribetonewsletter"]
 modcombo.com##.box-discord
 frankmedia.ru##.page-media__block--telegram
