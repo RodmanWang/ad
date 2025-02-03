@@ -495,6 +495,7 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.Sid
 !
 ! Add without $third-party, so apps are blocking them too
 !
+||jubilanttempest.com^
 ||hospitablehat.com^
 ||majesticwilderness.com^
 ||makesimpact.com^
@@ -4708,6 +4709,7 @@ api.flocktory.com
 !
 ! SECTION: Popups - Regular rules
 !
+folha.uol.com.br###top-signup-close
 booking.design##div[role="dialog"] ~ div[class]:has(> div[style^="bottom:"] > div[class] > div[class] > div[class] > img[src^="https://miro.medium.com/"] ~ div[class] > div[class] > div[class] > span > a[href^="https://medium.com/m/signin?"])
 gorillawiki.jp##.member_recruit
 telusdigital.com###main > section.fixed:has(> div.container-p > div.text-textInverse + div > a[href="/contact/sales"])
