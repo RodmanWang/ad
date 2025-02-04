@@ -1689,6 +1689,7 @@ kuruma-news.jp,magmix.jp,trafficnews.jp$$div[data-history="photo_extra"]
 /wp-content/uploads/2024/09/fanza_ad$image
 !
 ! Malware/Phishing
+?t=JPN_adultmain.txt&cid=$document
 ://eki-net-*.*.net/Perosnal_member/$document
 ||web.core.windows.net/media/jp.mp3
 ://icloud-apple-*.net/account_int/$document
@@ -1959,6 +1960,7 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 ! NOTE: Specific rules
 !
+shogi-sanpo.com##.ad_200
 jumpmatome2ch.biz##.kakomi3
 ikuzi2p.livedoor.blog##.plugin-memo.sidewrapper:has(a[rel*="sponsored"])
 ||gorillawiki.jp/img/ads/
