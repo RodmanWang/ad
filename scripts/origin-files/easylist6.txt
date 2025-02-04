@@ -13354,6 +13354,9 @@ gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,n
 !
 ! SECTION: Subscriptions - Regular rules
 !
+ranker.com##ul[data-testid="list-item-ul"] > div[class^="RelatedInline_"]:has(> div[style] > div[class^="NewsletterSubscription_"])
+ranker.com##div[class^="NewsletterSubscription_mainWrapper"]
+oantagonista.com.br##.assine-newsletter
 substack.com##.newsletter-post > div[class*="subscribeDialog"] ~ div[class^="background-"]
 nashe.ru##.follow-popup
 nashe.ru##.news > div.social-additional
@@ -19634,7 +19637,7 @@ sciencemag.org###newsletter-interstitial-div
 filehorse.com###newsletter1
 goodnewsfromindonesia.id##.ts-widget-newsletter
 beautyinsider.ru###articleSubscribeBlock
-officelife.media##.subscribe-plate
+yandex.ru,officelife.media##.subscribe-plate
 pinsknews.by#?#.sidebar_list > li.widget:has(> div.textwidget > form[action] strong:contains(Подпишитесь))
 unity3diy.blogspot.com##.followbyemail
 softwebtuts.com,gsm1x.xyz,enttechub.com##.FollowByEmail
