@@ -218,6 +218,8 @@ dzen.ru##div[class^="float-interview__float-"]
 [$path=/video]dzen.ru##div[class^="video-view-sidebar"] div[class]:matches-attr("aria-label"=/[Рр]екламная карта/)
 dzen.ru##.viewer-layout__sidebar div[aria-label*="екламная карта"]
 !
+! Test. Ads in the feed
+vk.com,vk.ru#%#//scriptlet('trusted-replace-xhr-response', '/banner:/g', '_banner:', 'feed', 'true')
 ! END: VK group
 !   NOTE: VK group end ⬆️
 !   !SECTION: Anti-adblock - VK group
@@ -1841,6 +1843,8 @@ armidaleexpress.com.au,bendigoadvertiser.com.au,canberratimes.com.au,centralwest
 ! Do not forget about '!#safari_cb_affinity' section for exclusions:
 ! LINK: AnnoyancesFilter/Popups/sections/antiadblock.txt#general
 !
+androidworld.nl#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'adBlocker')
+androidworld.nl##div[class]:has(> div.adblock-detect)
 hilites.today#$#body { overflow: auto !important; }
 hilites.today#$##adBlockerPopup { display: none !important; }
 hilites.today#$#.modal-backdrop { display: none !important; }
@@ -4713,6 +4717,8 @@ api.flocktory.com
 !
 ! SECTION: Popups - Regular rules
 !
+ionos.com##.exit-intent-ionos
+ionos.com##.modal-backdrop
 fanyi.baidu.com###multiContainer > div[style*="background-color:"]
 fanyi.baidu.com##.ant-tooltip
 siecobywatelska.pl###pum-38941
@@ -13364,6 +13370,7 @@ gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,n
 !
 ! SECTION: Subscriptions - Regular rules
 !
+noataque.com.br###google-news
 shueisha.co.jp##.news-post__newsletter
 the-independent.com##div[data-component="Newsletter"]
 qodo.ai##.blog-article-footer-newsletter-wrapper

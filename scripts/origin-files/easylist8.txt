@@ -1278,6 +1278,7 @@ digitalvidya.com###text-13
 digitalvidya.com###text-8
 digitalvidya.com###text-21
 ! "Foreign agents" / "Иностранные агенты"
+music.yandex.ru##.page-artist__agent
 kavkaz-uzel.eu##.inoagenty
 kavkaz-uzel.eu##.text-block > p:contains(КАСАЕТСЯ ДЕЯТЕЛЬНОСТИ ИНОСТРАННОГО АГЕНТА)
 levada.ru###ebala
@@ -5386,6 +5387,7 @@ book.oricon.co.jp##a[href^="https://apay-up-banner.com?merchantId="] > img
 !
 ! SECTION: Self-promo - Regular rules
 !
+opovo.com.br##.cta__assine
 watchmojo.com##.trivia-status-mobile
 profi.ru###about_banner
 wiz.io##.prose > div.group:has(> a[href="https://wiz.io/demo"])
