@@ -3450,7 +3450,6 @@ crainsdetroit.com#@#.ad01
 deine-tierwelt.de#@#.adunit
 dhd24.com#@#.adunit
 diariodenavarra.es#@##AdBanner
-diariodenavarra.es#@#.Ad-Container
 digitalcameraworld.com#@#.googleAd
 digitalsynopsis.com#@#.ad_slot
 digitaltrends.com#@#.ad_container
@@ -3461,7 +3460,7 @@ dumpert.nl#@#.ads_box
 express.co.uk,androidpolice.com#@#.div-gpt-ad
 fr.de,innsalzach24.de,bgland24.de#@#div[id^="traffective-ad-"]
 game-debate.com#@#.sponsored-ad
-globalnews.ca#@#.ad-placeholder
+globalnews.ca#@#.ad-placeholder:not(#filter_ads_by_classname):not(#detect_ad_empire):not(#detect):not(.adsbox)
 haberturk.com#@#.div-gpt-ad
 hardware.info#@#.advertorial
 hentaidude.com#@#.adsArea
@@ -4158,7 +4157,7 @@ okensaku.com#@#.ads
 okensaku.com#@#.adsbox
 okensaku.com#@#.doubleclick
 okensaku.com#@#.ad-placement
-okensaku.com#@#.ad-placeholder
+okensaku.com#@#.ad-placeholder:not(#filter_ads_by_classname):not(#detect_ad_empire):not(#detect):not(.adsbox)
 okensaku.com#@#.adbadge
 okensaku.com#@#.BannerAd
 !#safari_cb_affinity
@@ -4513,8 +4512,6 @@ myshows.me#@#.adblock
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=calcmaps.com|sheepesports.com|gisarea.com|curseforge.com
 @@||googlesyndication.com/|$xmlhttprequest,domain=bypass.city
 @@||b.adbox.lv/bxlib/js/loader.js$domain=posti.mail.ee
-fosslinux.com#@#.sidebar-ad
-fosslinux.com#@#.Ad-Container
 pornone.com#@#.overheaderbanner
 @@||a.realsrv.com/ads.js$domain=pornone.com
 @@||mahjong.com/js/wpsafelink.js$domain=mahjong.com
@@ -12469,6 +12466,7 @@ macwelt.de,pcwelt.de#%#//scriptlet("set-constant", "firebase.messaging", "noopFu
 !
 ! SECTION: Push notifications - Regular rules
 !
+/webpush-ui.js$domain=aliexpress.com|aliexpress.us
 crocs.pl##.webpush-wrapper
 fastpic.org$$script:contains(crWEbPushEl)
 fastpic.org#%#//scriptlet('remove-node-text', 'script', 'crWEbPushEl')
@@ -12712,7 +12710,6 @@ tycsports.com###modalCognitoPush
 eltiempo.com##.signwall-notificacion
 voici.fr,gala.fr##.showPush
 voici.fr,gala.fr##.showPush + div.genericModal-overlay
-||assets.alicdn.com/*/webpush-ui.js
 lifebursa.com##body div#notificationPopup
 einvestidor.estadao.com.br###push-notification-prompt-container
 girafa.com.br#%#//scriptlet('set-cookie', 'saiupagina', 'true')
@@ -13363,6 +13360,7 @@ gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,n
 !
 ! SECTION: Subscriptions - Regular rules
 !
+qodo.ai##.blog-article-footer-newsletter-wrapper
 qodo.ai##.icw-sticky
 qodo.ai##.blog-article-sidebar-newsletter
 qodo.ai#?#.blog-article-sidebar-title:has(> strong:only-child:contains(newsletter))
