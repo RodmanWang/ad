@@ -1430,6 +1430,7 @@ ucoz.ru/informer/
 ! Bad: /banner.jpg (should be in general_url.txt)
 ! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
+||7kprtners.com^
 ||cdn-t.b5c1d2e8c9982e3b965a27ac72ru7284cc.com^
 ||cdn.dmtgvn.com^
 ||llet787bww.com^
@@ -19451,6 +19452,8 @@ bender/_bender*.js$script,replace=/this\.removeShadowBlockers\(\);/true; return;
 ! Good: example.org#@#.ad
 ! Bad:  @@||example.org^$stealth (should be in AdGuard Base - allowlist_stealth.txt)
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/198042
+@@||widget.getwhelp.com/init.js$domain=baktelecom.az
 ! https://github.com/AdguardTeam/AdguardFilters/issues/197245
 flypgs.com#@#div[data-banner-name]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/195971
