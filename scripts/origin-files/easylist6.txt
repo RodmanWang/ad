@@ -11842,6 +11842,7 @@ kurashiru.com#$#html.dly-modal-active { overflow: auto !important; }
 ! SECTION: Popups - Mobile sites only
 !#if (adguard_app_android || adguard_app_ios || adguard_ext_android_cb || ext_ublock)
 !
+rutube.ru##.footer-fixed-components-module__footerFixedPrior
 linxas.shop##.footer-mobel
 trip.com###gg_prompt_parent_id_wrap
 trip.com##.oh-pwa
@@ -13371,6 +13372,7 @@ gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,n
 !
 ! SECTION: Subscriptions - Regular rules
 !
+kaspersky.ru##div[class^="ArticleBody_articleSidebar"] > div[class^="ArticleBody_articleSidebarBlock"]:has(> div[class^="ArticleBody_htmlBody"] div[class^="BitrixForm_formWrapper"])
 dsv.com##.banner-notification
 atorus.ru###block-news-subscribe
 ||press.asus.com/_astro/SubscribeModal.*.js
