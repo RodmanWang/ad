@@ -236,6 +236,7 @@
 ||snowplow-collector-*.amazonaws.com^$third-party
 ||sock*-goguardian.pusher.com^
 ||sonar*.xy.fbcdn.net^
+||srmdata-*.com^$third-party
 ||srv*.*tuplay.ru^$script
 ||ssh.*.com^*!$script,third-party
 ||ssp*.rtb.beeline.ru^
