@@ -79572,7 +79572,6 @@
 ||preaf.jp^$third-party
 ||preanalytication.com^
 ||prearmskabiki.com^
-||prebid-cache.ifunny.co^
 ||prebid-log.getpublica.com^
 ||prebid-server.newsbreak.com^
 ||prebid.cwi.re^
@@ -88874,6 +88873,7 @@
 ||shark.getplayback.com^
 ||shark.rockyourlife.de^
 ||sharkbleed.com^
+||sharkfirelife.com^
 ||sharondemurer.shop^
 ||sharp.ondu.ru^$third-party
 ||sharpay.io^$third-party
@@ -94915,10 +94915,12 @@
 ||sporing.alfakviste.dk^
 ||sporing.vessi.no^
 ||sporranawaked.shop^
+||sport-fm.gr^$replace=/((.)\.src='javascript:false';)/\$1\$2.srcdoc='';/,document
 ||sport-play.live^$popup
 ||sport.be/javascripts/tracking/counterassets.js^
 ||sport.cz^$cookie=sportySporty
 ||sport205.club^
+||sport24.gr^$replace=/((.)\.src='javascript:false';)/\$1\$2.srcdoc='';/,document
 ||sportevents.news^
 ||sportfocal.com^$popup
 ||sportradarserving.com^
@@ -102543,6 +102545,7 @@
 ||threedrive.su^$third-party
 ||threeinvincible.com^
 ||threetruck.com^
+||threewoodslose.com^
 ||threkuth.com^
 ||threrlak.com^
 ||thresholdunusual.com^
