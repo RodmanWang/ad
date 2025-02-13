@@ -8002,6 +8002,11 @@ chehov-vid.ru,161.ru,prufy.ru,ysia.ru,5koleso.ru,ngs.ru,i38.ru,chita.ru,lenta.ru
 !
 !
 !
+forum.abok.ru##tr[align="center"] > td:has(> span[style^="color: #4F4F4F; font-size: 6pt;"])
+forum.abok.ru##td > div.borderwrap:has(> span[style^="color: #4F4F4F; font-size: 6pt;"])
+forum.abok.ru##span[style^="color: #4F4F4F; font-size: 6pt;"]
+forum.abok.ru##img[title^="Реклама"]
+forum.abok.ru##img[width="740px"][height="100px"]
 betnews.by##a[href^="https://l.betera.by/"] > img
 esports.ru##div[data-name^="ads/"]
 onlineradiobox.me##div[style]:has(> div[class^="adfinity"])
@@ -18908,7 +18913,7 @@ vk.com,vk.ru###apps_ads_wrap
 vk.com,vk.ru###system_msg
 vk.com,vk.ru##div#left_ads
 vk.com,vk.ru##div[data-ad]
-! ||vk.com/al_feed.php$replace=/banner: \{/_banner: \{/
+feed$domain=vk.com|vk.ru,xmlhttprequest,replace=/banner:/bann_er:/
 ! vk.com,vk.ru#%#//scriptlet('trusted-replace-xhr-response', '/banner:/g', '_banner:', '.php', 'true')
 ! vk.com,vk.ru###feed_rows > div[class="feed_row "] > div[class^="feed_repost-"]:has(div[class="wall_marked_as_ads"])
 ! vk.com,vk.ru##[class^="ads_ad_"]
