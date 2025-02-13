@@ -7734,7 +7734,7 @@ pravda.com.ua##.unit_news_banner_list
 pravda.com.ua,epravda.com.ua##body .nts-ad
 pravda.com.ua##.container_sub_adv_news
 pravda.com.ua##.unit_news_banner_bottom
-pravda.com.ua##body div.advtext
+eurointegration.com.ua,pravda.com.ua##body div.advtext
 pravda.com.ua##.unit_header_banner
 pravda.com.ua##.article_wide_banner_mobile
 pravda.com.ua##div[class^="block_banner_"]
@@ -8002,6 +8002,7 @@ chehov-vid.ru,161.ru,prufy.ru,ysia.ru,5koleso.ru,ngs.ru,i38.ru,chita.ru,lenta.ru
 !
 !
 !
+betnews.by##a[href^="https://l.betera.by/"] > img
 esports.ru##div[data-name^="ads/"]
 onlineradiobox.me##div[style]:has(> div[class^="adfinity"])
 topasnew24.com##.fbnr-line
@@ -19378,6 +19379,7 @@ adguard.info,adguard.com,adguard.app#$#.hello_from_adguard_advanced_protection_i
 /play/js/FWDEVPlayer.my.js$replace=/adsVideoSourcePath:"[a-zA-Z0-9]+"/adsVideoSourcePath:""/,domain=hdrabbit.ru|kinowinx.ru|forallkino.ru
 ! razlozhi.ru - удаление отступа справа
 ||razlozhi.ru/*/css/styles.css$replace=/body\._\w+_\d?{margin-right:240px/body{margin-right:0px/
+||razlozhi.ru/*/js/app.js$replace=/1250/50000/
 ! wasd.tv - preroll ads
 ||wasd.tv/ssp/roll$xmlhttprequest,other,~script,replace=/(<VAST[\s\S]*?>)[\s\S]*<\/VAST>/\$1<\/VAST>/
 ! https://github.com/AdguardTeam/AdguardFilters/issues/49088
