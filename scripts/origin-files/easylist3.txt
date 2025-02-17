@@ -683,6 +683,9 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 !
 ! NOTE: Specific rules
 !
+novabrasilfm.com.br##.post-interna__content__compartilhamento__list
+telegraf.rs##.c-s-wrapper + ul.socials-wrapper
+telegraf.rs##.single-article-bottom-socials
 sportalkorea.com##.info a[href^="javascript:go_"]
 neonmusic.co.uk##.justify-between > div:has(> button[data-aw-social-share])
 nbcnews.com##.social-share-menu__container
@@ -2414,7 +2417,7 @@ marketwatch.com,barrons.com,wsj.com##button[aria-label="Share Button"]
 sumida-aquarium.com##.storyShareBlock
 courrier-picard.fr##.r-menu--share-title
 anime.shochiku.co.jp###skmg_footer_nav
-lance.com.br##div[class*="styles_share"]
+nbcnews.com,lance.com.br##div[class*="styles_share"]
 lgych.com##.article-shares
 clickhole.com,lifehacker.com,splinternews.com,avclub.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,qz.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.share-tools-buttons-top
 hentaiomg.com##.gridmag-share-buttons
@@ -7106,7 +7109,7 @@ e-kitap.site,ekitap.site##.shareb
 ||player.daznservices.com/player/releases/v*/unfilled/share.chunk.js$domain=goal.com
 the-ans.jp##.side-sns
 lsm.lv##.share-caption
-clashforwindows.org,military.com,diabetes.org,cyclowired.jp,harvardmagazine.com,datacenterdynamics.com,kienyke.com,learnmetrics.com,nepisirsem.com,voguehk.com,sadhguru.org,pagamentidigitali.it,ogsoundfx.com##.a2a_kit
+news.cornell.edu,clashforwindows.org,military.com,diabetes.org,cyclowired.jp,harvardmagazine.com,datacenterdynamics.com,kienyke.com,learnmetrics.com,nepisirsem.com,voguehk.com,sadhguru.org,pagamentidigitali.it,ogsoundfx.com##.a2a_kit
 wellsfargo.com##.sideUtility
 tv-vybor.ru##.soc-block-article > *
 surklase.com###quotyContainer
@@ -14799,6 +14802,8 @@ bomb01.com#$#.modal-open { overflow: visible!important; }
 ! Bad:  @@||example.org^$stealth (should be in AdGuard Base - allowlist_stealth.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/198684
+iyf.tv#@#.share-top
 ! https://github.com/AdguardTeam/AdguardFilters/issues/198332
 telepolis.pl#@#.social-wrapper
 ! https://github.com/AdguardTeam/AdguardFilters/issues/196596
