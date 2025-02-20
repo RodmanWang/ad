@@ -683,6 +683,7 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 !
 ! NOTE: Specific rules
 !
+deviantart.com###actionbar-more-menu span[value^="share"]
 fujingaho.ringbell.co.jp##.block-fg-detail-sns
 microsoft.com##div[data-bi-an="social-share"]
 meetup.com##.flex:has(> ul > li > button > div#share-facebook-in-GroupHome)
@@ -9235,7 +9236,6 @@ bunshun.jp###verticalSnsBar
 bunshun.jp##.horizontal-sns-bar
 mdpr.jp##.snsbutton
 mdpr.jp##.sns-b__item
-mdpr.jp##ul[class$="articleDetail__snsList"]
 zerotothree.org,fnn.jp##.ShareButtons
 cinematoday.jp##.ct-snsbar-holder
 resemom.jp,s.response.jp##.header-toolbar > .toolbar
@@ -12865,6 +12865,8 @@ rambler.ru##div[data-blocks="content_info"] + div[class^="container-"]
 rambler.ru#%#//scriptlet('remove-in-shadow-dom','div[data-blocks="content_info"] + div[class^="container-"]')
 !#endif
 !
+!+ NOT_OPTIMIZED
+mdpr.jp##ul[class$="articleDetail__snsList"]
 !+ PLATFORM(ios, ext_android_cb, android)
 vikna.tv##.section-share
 !+ NOT_OPTIMIZED
