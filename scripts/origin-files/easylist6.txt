@@ -3397,7 +3397,7 @@ whatismybrowser.com#@#.ads--top
 whatismybrowser.com#@#.adFrame
 ||jsdelivr.net/npm/ad-compass@latest/dist/ad-compass.umd.js
 derwesten.de#@#.AdSense
-@@||xhamster*.*/*/ads$xmlhttprequest,~third-party
+@@://xhamster.*.js?v=$script,~third-party
 @@||pafvertizing.crazygames.com/rafvertizing-v7.js$domain=starblast.io
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=textstudio.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=tomshw.it
@@ -13398,6 +13398,7 @@ gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,n
 !
 ! SECTION: Subscriptions - Regular rules
 !
+warszawawpigulce.pl##.gnews-banner
 evasoes.pt##.newsletter-sb
 av-test.org##.ax-ads-news
 journal.sovcombank.ru##astro-island[component-export="Mindbox"] + div:has( > div > div > a[href="https://t.me/sovcomblog"])
