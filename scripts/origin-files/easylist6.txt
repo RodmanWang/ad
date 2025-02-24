@@ -4725,6 +4725,7 @@ api.flocktory.com
 !
 ! SECTION: Popups - Regular rules
 !
+psicologiaymente.com##main > div.fixed.bottom-0:has(> div > button > svg > path[d^="M19.41"])
 yodosha.co.jp##.banner-block
 skyeng.ru#%#//scriptlet('trusted-set-session-storage-item', 'cism-central-banner', 'hidden')
 abplive.com##.cb-container
@@ -13395,6 +13396,7 @@ gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,n
 !
 ! SECTION: Subscriptions - Regular rules
 !
+evasoes.pt##.newsletter-sb
 av-test.org##.ax-ads-news
 journal.sovcombank.ru##astro-island[component-export="Mindbox"] + div:has( > div > div > a[href="https://t.me/sovcomblog"])
 journal.sovcombank.ru##astro-island[component-export="Mindbox"]
