@@ -163,7 +163,7 @@
 ||lively-collect-elb-*.amazonaws.com^
 ||liveme-sensors-collect2-*.amazonaws.com^
 ||livetracker.*.pangea-cms.com^$third-party
-||log*-applog-*.tiktokv.com^
+||log*-*.tiktokv.com^
 ||log*-misc-lf.amemv.com^
 ||log*-normal-*.tiktokv.us^
 ||log*-normal-useast1a.lemon8-app.com^
@@ -182,6 +182,7 @@
 ||mcs-*.lemon8-app.us^
 ||mcs-*.tiktok.com^
 ||mcs-va-*.tiktokv.com^
+||mcs.*.tiktokv.com^
 ||mediate-ios-*.hyprmx.com^
 ||metric*.rediff.com^
 ||metrics*.fitanalytics.com^$third-party
@@ -191,9 +192,9 @@
 ||mob*.novanewsapp.com^
 ||mobiadvert*.livesportmedia.eu^
 ||mobileanalytics.*.amazonaws.com^
+||mon*-*.tiktokv.com^
 ||mon*-*.tiktokv.us^
 ||mon*-misc-lf.fqnovel.com^
-||mon*-platform-*.tiktokv.com^
 ||mon-*.lemon8-app.com^
 ||mon-*.lemon8-app.us^
 ||mon-*.tiktokv.com^

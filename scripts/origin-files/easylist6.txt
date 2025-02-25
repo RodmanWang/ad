@@ -4728,6 +4728,7 @@ api.flocktory.com
 !
 ! SECTION: Popups - Regular rules
 !
+web.de,3c.gmx.*##.ftd-box-promote
 psicologiaymente.com##main > div.fixed.bottom-0:has(> div > button > svg > path[d^="M19.41"])
 yodosha.co.jp##.banner-block
 skyeng.ru#%#//scriptlet('trusted-set-session-storage-item', 'cism-central-banner', 'hidden')
@@ -13399,6 +13400,8 @@ gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,n
 !
 ! SECTION: Subscriptions - Regular rules
 !
+forklog.com##.post_content > p:has(> a[href="https://play.google.com/store/apps/details?id=com.forklog.app"])
+androidupdatetracker.com##.list-group ~ p:has(> a.btn-info[href^="https://twitter.com/"])
 elnuevoherald.com###ymovrly
 irishtimes.com##.b-newsletter-block
 verdict.co.uk##.catfish
