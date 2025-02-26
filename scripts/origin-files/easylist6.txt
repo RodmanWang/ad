@@ -501,6 +501,7 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.Sid
 !
 ! Add without $third-party, so apps are blocking them too
 !
+||opulentsylvan.com^
 ||shredquiz.com^
 ||glasscoyote.com^
 ||offshoregeology.com^
@@ -4731,6 +4732,9 @@ api.flocktory.com
 !
 ! SECTION: Popups - Regular rules
 !
+karmakmarket.com##.whatsapp-fixed
+moneycontrol.com###techpop.modal:not(#style_important)
+moneycontrol.com##.modal-backdrop
 liberation.fr###bottom-bar
 coindesk.com##div[data-module-name="reg-banner"]
 influence.co###welcome-mat
