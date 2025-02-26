@@ -924,7 +924,6 @@ ucoz.ru/informer/
 ~ping-timeout.de###advertisement
 ~letidor.ru,~uscbookstore.com###advertising
 ###advertising_floater
-###advertisment
 ~markt.de###adverts
 ###advrich
 ###advunder-top
@@ -8005,6 +8004,8 @@ chehov-vid.ru,161.ru,prufy.ru,ysia.ru,5koleso.ru,ngs.ru,i38.ru,chita.ru,lenta.ru
 !
 !
 !
+||banki24.by/static/js/ads*.js
+banki24.by###menu > li:has(> a[href^="https://insnc.onelink.me/"])
 vbr.ru##.rates-table-banner-tr
 rashator.xyz##a[href^="https://ya-browser.ru/"]
 vtomske.ru##.sidebar > div:has(> div.sidebar_block > div.i-smi2)
@@ -19512,8 +19513,6 @@ consumer.huawei.com#@#div[data-banner-name]
 @@||tds.fandom.com/load.php
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171080
 oztech.ru#@##bottomBanners
-! https://github.com/AdguardTeam/AdguardFilters/issues/163594
-ewybory.eu#@##advertisment
 ! thestreet.com - player not showing
 thestreet.com#@##ad-container
 ! https://github.com/AdguardTeam/AdguardFilters/issues/161446

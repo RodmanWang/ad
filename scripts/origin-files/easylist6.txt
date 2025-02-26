@@ -1853,6 +1853,8 @@ armidaleexpress.com.au,bendigoadvertiser.com.au,canberratimes.com.au,centralwest
 ! Do not forget about '!#safari_cb_affinity' section for exclusions:
 ! LINK: AnnoyancesFilter/Popups/sections/antiadblock.txt#general
 !
+techaholic.gr$$script:contains(detect-message)
+techaholic.gr#%#//scriptlet('remove-node-text', 'script', 'detect-message')
 925-1000.com#%#//scriptlet('abort-on-property-read', 'justDetectAdblock')
 925-1000.com###phpbb-aJHwDeoSqLhW
 lewdzone.com##main > div.alert:has(> a[href="https://lzmods.com/68/how-to-whitelist-an-website-in-adblock-plugins/"])
@@ -4518,6 +4520,7 @@ aol.com#$#.ad__tile { height: 10px!important; position: absolute!important; left
 ! SECTION: Anti-adblock - The rules for content blockers only
 !#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
 !#safari_cb_affinity(general)
+@@||techaholic.gr^$generichide
 my.bidvert.com#@#div[id^="div-gpt-"]
 my.bidvert.com#@#[id^="div-gpt-ad"]
 my.bidvert.com#@#.ad-wrapper
@@ -4728,6 +4731,9 @@ api.flocktory.com
 !
 ! SECTION: Popups - Regular rules
 !
+liberation.fr###bottom-bar
+coindesk.com##div[data-module-name="reg-banner"]
+influence.co###welcome-mat
 news.pts.org.tw##.promotion-mask
 e.mail.ru,octavius.mail.ru#%#//scriptlet('trusted-click-element', '#octavius-popup-cloud-subscribe div[data-test-id="close"]')
 web.de,3c.gmx.*##.ftd-box-promote
@@ -7260,7 +7266,7 @@ quizlet.com##.SetPageTermsStickyBanner
 quizlet.com###UniversalUpsellTarget
 app-liv.jp##.p-fixed-dl
 app-liv.jp##.inventory_banner_overlay
-||embed.typeform.com/next/embed.js$domain=hush.ca
+||embed.typeform.com/next/embed.js$domain=hush.ca|forbes.com
 buhexpert8.ru###popupvideo
 boosty.to##div[class^="AlertZeroFee_container"]
 przekroj.pl##.welcome.js-modal
@@ -13402,6 +13408,13 @@ gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,n
 !
 ! SECTION: Subscriptions - Regular rules
 !
+city-journal.org##.m_newsletter
+newsbeast.gr##.bannerCnt
+oneman.gr##section[class^="newsletter_"]
+coindesk.com##div[data-module-name="newsletter-article-sign-up-module"]
+coindesk.com##.grid > div.order-2:has(> div.flex > div.uppercase > a[href="/newsletters"])
+gulfnews.com##.author-div ~ div > span > span[tabindex="0"]
+banki24.by##.content_right > div.row:has(> div > a[href="https://t.me/banki24_news"])
 jornaldocentro.pt##.elementor-element:has(> div.e-con-inner a[href^="https://app.getresponse.com/"])
 forklog.com##.post_content > p:has(> a[href="https://play.google.com/store/apps/details?id=com.forklog.app"])
 androidupdatetracker.com##.list-group ~ p:has(> a.btn-info[href^="https://twitter.com/"])
