@@ -4749,6 +4749,7 @@ api.flocktory.com
 !
 ! SECTION: Popups - Regular rules
 !
+m.youtube.com#%#//scriptlet('json-prune', 'overlay.bottomSheetOverlayRenderer', 'overlay.bottomSheetOverlayRenderer.displayImmediately')
 the-race.com##.viously-sticked
 softwarekeep.com#$#body { overflow: auto !important; }
 softwarekeep.com#$#div[aria-label="Alia popup"] { display: none !important; }
@@ -13447,6 +13448,7 @@ gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,n
 !
 ! SECTION: Subscriptions - Regular rules
 !
+doisongphapluat.com.vn##a[href^="https://news.google.com/publications/"]
 mathebibel.de##div[id^="overlay-newsletter"]
 mathebibel.de##.relative:has(> form.newsletter-form)
 style.rbc.ru##.article__text > div.article__special_container:has(> p > em > a[href="https://t.me/rbcstyle"])
@@ -20628,7 +20630,7 @@ dailydot.com,verbraucherzentrale.de,verbraucherzentrale.nrw##.newsletter-button
 britannica.com##.newsletter-c
 novmak.com##.newsletter-content
 diatribe.org##.newsletter-featured
-visualstudiomagazine.com,goldsguide.com,frandroid.com,tennismajors.com,blog.google,timkadlec.com,braziljournal.com,leroymerlin.ro,sketchbook.com,confianca.com.br,buson.com.br,haberturk.com,mel.fm,washingtonpost.com,belsat.eu,economist.com,gitlab.com##.newsletter-form
+usmagazine.com,visualstudiomagazine.com,goldsguide.com,frandroid.com,tennismajors.com,blog.google,timkadlec.com,braziljournal.com,leroymerlin.ro,sketchbook.com,confianca.com.br,buson.com.br,haberturk.com,mel.fm,washingtonpost.com,belsat.eu,economist.com,gitlab.com##.newsletter-form
 infowars.com##.newsletter-inline-widget
 onlinemarketingrockstars.de##.newsletter-inner-post
 highsnobiety.com##.newsletter-interstitial
