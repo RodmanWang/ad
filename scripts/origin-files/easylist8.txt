@@ -3497,11 +3497,13 @@ www.kinopoisk.ru##div[class^="trailer-promo"]
 !
 ! SECTION: Self-promo - Regular rules
 !
+mediafire.com##.MFUltra > div.MFUltra-content:has(> div.UltraPlan-options)
 yutorize.2-d.jp##.main-yakiniku-area
 app.studysmarter.de##.enigma-container
 bilibili.com##.fixed-card
 context.reverso.net###body-content > div[class] > div[class][style^="display:"]:has(> a[href^="https://documents.reverso.net/Pricing.aspx"])
 dorsetecho.co.uk###po-inline-banner-top-hero-content
+consultant.ru##.banners
 alza.cz##div[data-testid="component-brandingEars"]
 alza.cz###ap-banner
 hangikredi.com###__next > div.relative.h-\[60px\]
@@ -8453,9 +8455,6 @@ newsweek.com##iframe[src="http://sns.europe.newsweek.com/newsletter?popup=1"]
 !##############################
 ! SECTION: Tweaks - JS
 !
-! https://github.com/AdguardTeam/AdguardFilters/issues/199410
-fileknot.io#%#//scriptlet('set-constant', 'window.seconds', '0')
-fileknot.io#%#//scriptlet('adjust-setInterval', '', 'countdownTimer', '*', '0.001')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/199056
 hosttbuzz.com#%#//scriptlet('adjust-setInterval', 'countdown', '*', '0.001')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/199388
