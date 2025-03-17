@@ -2964,7 +2964,7 @@ steamid.io##.noads-inner
 strangermeetup.com#%#//scriptlet("set-constant", "window.adsEnabled", "true")
 streamonsport.to##.events img[alt="adblock"]
 studopedia.info,infopedia.su,studopedia.net,studopedia.su,studopedia.org,studopedia.ru,studopedia.com.ua,lektsii.org,mydocx.ru#%#//scriptlet("set-constant", "adsbygoogle.loaded", "true")
-studyflix.de##.huge-notification
+d3f6gjnauy613m.cloudfront.net,studyflix.de##.huge-notification
 sudomod.com#$#.fade { display: none!important; }
 sudomod.com#$#body { overflow: visible!important; }
 surviv.io##div[class^="adblock-plea"]
@@ -4777,6 +4777,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+ac-illust.com##.raksul-fixed-banner
 dzen.ru##div[class^="dzen-desktop--interview-popup-"]
 sky.pro##.modal_darkBG__ZqnlK
 kusurinomadoguchi.com###page-banner
@@ -13494,6 +13495,9 @@ gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,n
 !
 ! SECTION: Subscriptions - Regular rules
 !
+newsweek.pl##.pw-newsletter
+newsweek.pl##div[class^="Socials_newsletter_"]
+newsweek.pl##.pw-footer__top__links--newsletter
 tanstack.com##.px-4:has(> div.rounded-md > form > div.grid > input[name="email_address"])
 anime-jl.com##.Mid > div[style]:has(> center > a[href="https://t.me/RivAnimation"])
 ntv.com.tr##.subscribe-widget-container
@@ -14052,7 +14056,7 @@ pymnts.com#?##sidebar-wrap > h4.text-uppercase:has(> span:only-child:contains(Su
 programme-tv.net##body > .modal:has(> div.modal-background > div.modal-content > div.customModalNewsletterButtons)
 ||frontend.poool.fr/engage/
 kyivindependent.com##iframe[src^="https://frontend.poool.fr/"]
-parallaximag.gr##.nx_google_news_wrapper
+ipliroforia.gr,parallaximag.gr##.nx_google_news_wrapper
 twilog.togetter.com##.subscription_banner
 textertobi.de###custom_html-43
 rbc.ru##.article__special_container:has(> p > strong > a[href="https://t.me/+o--H2lU_IO83NmUy"])
@@ -14949,7 +14953,7 @@ transformernews.ai,domainanalysis.io,pragmaticengineer.com,thecoder.cafe,gamefil
 technologyreview.com##div[class^="stayConnected"]
 technologyreview.com##footer > div#piano__body-footer
 maxnet.ua##form[name="sky-one-form"]
-||studyflix.de/users/registration_steps/study_info?return_to=*flavor=registration_reminder
+/users/registration_steps/study_info?return_to=*flavor=registration_reminder$domain=studyflix.de|d3f6gjnauy613m.cloudfront.net
 indiatoday.in##div[class^="Story_whatsapp_channel__"]
 dzen.ru#?#p[class^="block"]:has(> span > b:contains(/^Подпишись на/))
 mskagency.ru##.telegram-subscribe-popup
@@ -18204,7 +18208,7 @@ viz.com#$#.o_overlay { display: none!important; }
 viz.com#$#html { position: static!important; overflow: visible!important; }
 viz.com##body > section#newsletter-footer
 littleinfinite.com###sidebar-signup
-strana.news,strana.today,strana.digital##.article-afterbody
+strana.*##.article-afterbody
 tecmundo.com.br###js-widget-thebrief
 japan.cnet.com##a[data-ga_label="right_col_newsletter"]
 bfore.ai###wrapper > header ~ div.section.cta

@@ -683,6 +683,7 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 !
 ! NOTE: Specific rules
 !
+ipliroforia.gr##article .social-icons-list
 dfrlab.org##.gta-article-header--share
 dfrlab.org#?#.gta-article-header--label:contains(/^Share this story$/)
 digit.in##.social_icon > span
@@ -14912,6 +14913,8 @@ bomb01.com#$#.modal-open { overflow: visible!important; }
 ! Bad:  @@||example.org^$stealth (should be in AdGuard Base - allowlist_stealth.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/200926
+developer.mozilla.org#@#.share
 ! https://github.com/AdguardTeam/AdguardFilters/issues/200030
 drive.weixin.qq.com#@#.shareWrapper
 ! https://github.com/AdguardTeam/AdguardFilters/issues/198684
