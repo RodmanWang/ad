@@ -1871,6 +1871,7 @@ armidaleexpress.com.au,bendigoadvertiser.com.au,canberratimes.com.au,centralwest
 ! Do not forget about '!#safari_cb_affinity' section for exclusions:
 ! LINK: AnnoyancesFilter/Popups/sections/antiadblock.txt#general
 !
+vertopal.com###vertonotif-container__bottom-right > .vertonotif-type-warning
 nsmb.com##.Vt8kMlfQ6G73bU
 nsmb.com#%#//scriptlet('prevent-xhr', 'pagead2.googlesyndication.com')
 wco.tv###top-alert
@@ -13500,6 +13501,7 @@ gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,n
 !
 ! SECTION: Subscriptions - Regular rules
 !
+yakutia.info##.m_share
 omroepwest.nl##.layout-components-group > div.layout-component:has(> div.promobox a[href="/nieuwsbrieven"])
 newsweek.pl##.pw-newsletter
 newsweek.pl##div[class^="Socials_newsletter_"]
