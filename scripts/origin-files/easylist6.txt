@@ -1871,6 +1871,8 @@ armidaleexpress.com.au,bendigoadvertiser.com.au,canberratimes.com.au,centralwest
 ! Do not forget about '!#safari_cb_affinity' section for exclusions:
 ! LINK: AnnoyancesFilter/Popups/sections/antiadblock.txt#general
 !
+nsmb.com##.Vt8kMlfQ6G73bU
+nsmb.com#%#//scriptlet('prevent-xhr', 'pagead2.googlesyndication.com')
 wco.tv###top-alert
 ||dasoertliche.de/ajaxload?page=blockmsg
 talkceltic.net###nindo-popup-portal
@@ -8905,6 +8907,7 @@ indiamart.com#$#html { overflow: visible !important; }
 weeklybcn.com###f_banner
 thinkwithgoogle.com##.related-content-drawer
 thetimes.co.uk##.js-channelsTooltip
+thetimes.com###returning-user-subscription-offer
 zapier.com##.eo98ge30
 howtogeek.com,reviewgeek.com##div[id^="v2campaignpopup"]
 finance.sina.com.cn###sina-cont000
@@ -17916,7 +17919,7 @@ order-order.com#?#.column--right > div.v-card:has(> div.v-card__text > div[id^="
 milatgazetesi.com#?#div[class^="col-"] > div.row:has(> a[href^="https://news.google.com"])
 informator.ua##.post__subscribe-banner
 informator.ua#?#.post__text > p:has(> a[href="https://t.me/informator_live"])
-cross.com,flip.gr,hoffmann-germany.de,centrumzdrowegowlosa.pl,groworganic.com,urnex.com,hermanmiller.co.jp,audeze.com,shopyalehome.com,neopetsshop.com,hanfgefluester.de,bleachpraylove.com,720dgree.de##.needsclick
+cross.com,flip.gr,hoffmann-germany.de,centrumzdrowegowlosa.pl,groworganic.com,urnex.com,hermanmiller.co.jp,audeze.com,shopyalehome.com,neopetsshop.com,hanfgefluester.de,bleachpraylove.com,720dgree.de,vpd.fi##.needsclick
 idiva.com##.sunscribe-cont
 donbasstoday.ru##a[href^="https://yandex.ru/news/"] > img
 muzikmp3indir.com##.facereklam
