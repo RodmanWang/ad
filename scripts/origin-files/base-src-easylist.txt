@@ -17110,6 +17110,7 @@
 ||adforce.team^$third-party
 ||adforgames.com^
 ||adforgames.com^$third-party
+||adforge.io^$third-party
 ||adforgeinc.com^
 ||adfork.co.kr^
 ||adform.com^
@@ -28014,7 +28015,6 @@
 ||bzwo2lmwioxa.com^
 ||bzydilasq.com^
 ||c-5uwzmx78pmca09x24aiux2euavx2ekwu.g00.msn.com^
-||c-api-bit.shopeemobile.com^$third-party
 ||c-o-u-n-t.com^$third-party
 ||c-on-text.com^$third-party
 ||c-rings.net^$script,third-party
@@ -58618,6 +58618,7 @@
 ||iyjqgpo.top^
 ||iymcrv.banilaco.com^
 ||iymvdq.cosmeticos24h.com^
+||iyof.cn^
 ||iyotnw.mameluko.com.br^
 ||iyqbsst.top^
 ||iystrbftlwif.icu^
@@ -74154,6 +74155,7 @@
 ||nijaultuweftie.net^
 ||nijigen-erogazou.com^$script,third-party
 ||nik.io^$third-party
+||nikkan-gendai.com^$replace=/<script>\(function\(\){function[\s\S]*?report\.error-report\.com\/modal[\s\S]*\(\);<\/script>//,document
 ||nikkiexxxads.com^
 ||nil.naver.com^
 ||nilipuyn.com^
@@ -95309,6 +95311,8 @@
 ||sourcecodeif.com^
 ||sourcecodeif.com^$document
 ||sourcecodeif.com^$popup
+||sourceforge.net^$replace=/(.setAttribute\(')(?:onload|onerror)('. "!async function[\s\S]*?report\.error-report\.com\/modal)/\$1null\$2/,document
+||sourceforge.net^$replace=/\.src = "https:\/\/as\.sourceforge\.net\/loader\.min\.js";/.src=""/,document
 ||sourcegraph.notifysrv.com^
 ||sourishpuler.com^
 ||sourishtrummel.top^
@@ -111481,6 +111485,7 @@
 ||vemtoutcheeg.com^
 ||vemvcj.linzy.ru^
 ||vemxcy.crocs.com.sg^
+||venatusmedia.com^
 ||vendexo.com^$third-party
 ||vendigamus.com^
 ||vendigamus.com^$third-party
@@ -112015,6 +112020,7 @@
 ||vinegardaring.com^
 ||vingartistictaste.com^
 ||vinlens.com^$third-party
+||vinoinqih.com^
 ||vinosedermol.com^
 ||vinsgcs.com^
 ||vinsight.de^$third-party
