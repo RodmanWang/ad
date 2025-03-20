@@ -364,8 +364,8 @@ skegnessstandard.co.uk,sunderlandecho.com,blackpoolgazette.co.uk,derbyshiretimes
 !#endif
 !
 ! NOTE: ai_front anti-adblock
-bafista.ru,ptisidiastima.com,medebooks.xyz,re-library.com,mobilereset99.com#%#//scriptlet("abort-on-property-write", "ai_front")
-bafista.ru,virtualpiano.net,apkmos.com,cee-trust.org,udemydl.com,biopills.net,ptisidiastima.com,medebooks.xyz,re-library.com,mobilereset99.com##[style*="cursor:"][style*="user-select: none;"][style*="z-index:"]
+cgcosplay.org,bafista.ru,ptisidiastima.com,medebooks.xyz,re-library.com,mobilereset99.com#%#//scriptlet("abort-on-property-write", "ai_front")
+cgcosplay.org,bafista.ru,virtualpiano.net,apkmos.com,cee-trust.org,udemydl.com,biopills.net,ptisidiastima.com,medebooks.xyz,re-library.com,mobilereset99.com##[style*="cursor:"][style*="user-select: none;"][style*="z-index:"]
 virtualpiano.net,apkmos.com,cee-trust.org,udemydl.com#%#//scriptlet("abort-on-property-read", "ai_run_scripts")
 ! #%#//scriptlet("abort-on-property-read", "ai_wait_for_jquery")
 !
@@ -4789,6 +4789,10 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+apsiyon.com###whatsapp-chat
+topuniversities.com#$#body { overflow-y: auto !important; padding-right: 0 !important; }
+topuniversities.com#$#.modal-backdrop { display: none !important; }
+topuniversities.com#$#.survey-popup { display: none !important; }
 mealty.ru#%#//scriptlet('set-cookie-reload', 'no_reg2_popup', '1')
 agenziaentrate.gov.it#%#//scriptlet('set-cookie', 'first-visit-entrate', 'false')
 jo-katsu.com###CampusCtaBanner
@@ -13520,6 +13524,7 @@ gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,n
 !
 ! SECTION: Subscriptions - Regular rules
 !
+skillbox.ru##.stk-post > div.stk-grid:has(> .stk-grid-col > div[data-ce-tag="grid"] a[data-container-name="Telegram"])
 uu.se##.card-move-margin:has(> .card-body > .sv-skip-spacer > .sv-linked-portlet > form[action^="https://ui.ungpd.com/Api/Subscriptions/"])
 dramago.in##.wp-block-wptelegram-widget-join-channel
 theatlantic.com##div[class^="HomepageMiddle_newsletters"]
@@ -14330,7 +14335,7 @@ verstka.media##.verstka-telegram-banner
 cinemore.jp##.m-article-entry > div[style="min-height:105px;"]
 hollywoodreporter.jp##.sidebar-inner-wrap > section:has(form.kb-form)
 zr.ru##div[class^="styled__StoryNoteSubscribe"]
-autonews.ru##.article__header__channel
+autodaily.ru,autonews.ru##.article__header__channel
 propublica.org##div[data-pp-category="newsletter_signup"]
 unherd.com#%#//scriptlet('set-cookie', '_pc_hidesubspopup', 'true')
 zenmarket.jp#%#//scriptlet('set-cookie', 'hidesignupoffer', '1')
@@ -19564,8 +19569,7 @@ producthunt.com##div[data-test="dismiss-EmailSubscribeCard"]
 sadhguru.org##.block-email-subscription
 stolichki.ru,championat.com,sadhguru.org##.article-subscription
 schooldrillers.com,sqlshack.com##.widget_mailmunch_widget
-malwarebytes.com,crosswalk.com##.subscribe-btn
-malwarebytes.com##.site-footer__newsletter
+crosswalk.com##.subscribe-btn
 christianity.com##.newsletter-390
 ||salemwebnetwork.com/newsletters/init$domain=christianity.com|crosswalk.com
 jansatta.com##div[id^="id_newsletter_subscription"]
