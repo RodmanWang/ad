@@ -683,6 +683,8 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 !
 ! NOTE: Specific rules
 !
+dramago.in##.wrap-content > div.text-center:has(> div.textwidget a[href="https://www.facebook.com/groups/dramago.in"])
+mistral.ai##aside > div:has(> div.flex > a[href^="https://www.facebook.com/sharer/"])
 asianetnews.com##.socialIcons
 asianetnews.com#$#.articlepublish { min-height: 0 !important; }
 semafor.com##div[class=""] > div[class^="css-"]:has(> a[aria-label^="Share with"])
@@ -14422,6 +14424,7 @@ designboom.com,livescience.com,pbtech.co.nz,peoplesworld.org,space.com##.fa-face
 ||mailget.net^$third-party
 ||my.hellobar.com^$third-party
 !
+agenziaentrate.gov.it#%#//scriptlet('set-cookie', 'first-visit-entrate', 'false')
 jo-katsu.com###CampusCtaBanner
 quins.us###youtubeFollowStepModal
 movieshd.watch#%#//scriptlet('set-cookie', 'show_share', 'true')
