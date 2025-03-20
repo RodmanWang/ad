@@ -4789,6 +4789,8 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+wikimedia.org##.banner-container
+wikimedia.org##.vector-sitenotice-container
 apsiyon.com###whatsapp-chat
 topuniversities.com#$#body { overflow-y: auto !important; padding-right: 0 !important; }
 topuniversities.com#$#.modal-backdrop { display: none !important; }
@@ -13524,6 +13526,7 @@ gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,n
 !
 ! SECTION: Subscriptions - Regular rules
 !
+sourceforge.net###get-updates
 skillbox.ru##.stk-post > div.stk-grid:has(> .stk-grid-col > div[data-ce-tag="grid"] a[data-container-name="Telegram"])
 uu.se##.card-move-margin:has(> .card-body > .sv-skip-spacer > .sv-linked-portlet > form[action^="https://ui.ungpd.com/Api/Subscriptions/"])
 dramago.in##.wp-block-wptelegram-widget-join-channel
