@@ -22,7 +22,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Wed, 12 Mar 2025 00:24:00 GMT
-# entries:        3464
+# entries:        3465
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?showintro=0;hostformat=hosts&useip=0.0.0.0
@@ -88,6 +88,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 0.0.0.0 ablink.news.emails-puregym.com
 0.0.0.0 ablinks.mail.hinge.co
 0.0.0.0 aboardlevel.com
+0.0.0.0 abruptroad.com
 0.0.0.0 absorbingband.com
 0.0.0.0 abstractedauthority.com
 0.0.0.0 abtasty.com
@@ -1176,6 +1177,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 0.0.0.0 brightcom.com
 0.0.0.0 brightinfo.com
 0.0.0.0 brightmountainmedia.com
+0.0.0.0 broadboundary.com
 0.0.0.0 broadcastbed.com
 0.0.0.0 broadstreetads.com
 0.0.0.0 browser-http-intake.logs.datadoghq.com
@@ -1630,6 +1632,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 0.0.0.0 exchange-it.com
 0.0.0.0 exchangead.com
 0.0.0.0 exchangeclicksonline.com
+0.0.0.0 exclusivebrass.com
 0.0.0.0 exelate.com
 0.0.0.0 exelator.com
 0.0.0.0 exhibitsneeze.com
@@ -1671,6 +1674,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 0.0.0.0 feedjit.com
 0.0.0.0 feedmob.com
 0.0.0.0 fimserve.com
+0.0.0.0 findcommerce.com
 0.0.0.0 findyourcasino.com
 0.0.0.0 fingahvf.top
 0.0.0.0 fireads.online
@@ -3094,7 +3098,6 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 0.0.0.0 tedioustooth.com
 0.0.0.0 teenrevenue.com
 0.0.0.0 telaria.com
-0.0.0.0 telemetrics.klaviyo.com
 0.0.0.0 telemetry.dropbox.com
 0.0.0.0 telemetry.goodlifefitness.com
 0.0.0.0 telemetry.malwarebytes.com
@@ -3168,8 +3171,6 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 0.0.0.0 track.effiliation.com
 0.0.0.0 track.flexlinks.com
 0.0.0.0 track.flexlinkspro.com
-0.0.0.0 track.freemmo2017.com
-0.0.0.0 track.game18click.com
 0.0.0.0 track.lettingaproperty.com
 0.0.0.0 track.mailalert.io
 0.0.0.0 track.mailerlite.com
