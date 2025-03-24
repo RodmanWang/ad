@@ -4792,6 +4792,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+player.smotrim.ru#%#//scriptlet('json-prune-fetch-response', 'data.template.disable_registration')
 pro-golfacademy.com##.float-area[style^="bottom:"]
 sp-jp.fujifilm.com##.float-banner
 playground.ru###onetap_google_intermediate_iframe
@@ -13531,6 +13532,9 @@ gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,n
 !
 ! SECTION: Subscriptions - Regular rules
 !
+pandaily.com###block-11
+pandaily.com##.sign-up-today
+pandaily.com##.container > section > a[href="https://pandaily.substack.com/"]
 goodsam.com#%#//scriptlet('set-cookie', 'emailpop', '1')
 qol.az##.social-buttons
 azpolitika.info##.subs-in-social
