@@ -1880,6 +1880,7 @@ armidaleexpress.com.au,bendigoadvertiser.com.au,canberratimes.com.au,centralwest
 ! Do not forget about '!#safari_cb_affinity' section for exclusions:
 ! LINK: AnnoyancesFilter/Popups/sections/antiadblock.txt#general
 !
+hwbusters.com#%#//scriptlet('set-constant', 'advanced_ads_check_adblocker', 'noopFunc')
 voiceofdenton.com#%#//scriptlet('set-constant', 'advanced_ads_check_adblocker', 'noopFunc')
 staging-hoichoitv.viewlift.com##body > div[style^="position: fixed;"][style*="z-index: 9999;"]
 morosedog.gitlab.io##.navbar-interceptor
@@ -4580,6 +4581,8 @@ aol.com#$#.ad__tile { height: 10px!important; position: absolute!important; left
 ! SECTION: Anti-adblock - The rules for content blockers only
 !#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
 !#safari_cb_affinity(general)
+hwbusters.com#@#.ad_unit
+hwbusters.com#@#.ad-unit:not(.textads)
 voiceofdenton.com#@#.ad_unit
 voiceofdenton.com#@#.ad-unit:not(.textads)
 @@||terrylove.com^$generichide
@@ -4985,8 +4988,8 @@ eslite.com##.fixed-banner
 e-mansion.co.jp###ad_modal
 e-mansion.co.jp##.new-building-label
 /wp-content/uploads/pum/*$domain=creativecommons.org|real-vin.com|levashove.ru|linuxbabe.com|devapp.it|livenewsnow.com|av-comparatives.org
-flicksbar.mom###tgWrapper
-flicksbar.mom###TopAdMb
+flcksbr.*###tgWrapper
+flcksbr.*###TopAdMb
 landyzone.co.uk##.u-bottomFixer
 perplexity.ai#%#//scriptlet('prevent-addEventListener', '/^(?:wheel|touchmove)$/', '/===.\)\{var .="deltaY"in .\?./')
 perplexity.ai#$?#body > div:not([class], [id], [role]):has(> div.items-stretch + div.flex.items-center:not(:has(.right-sm > button[data-testid="close-modal"])) .space-y-sm > button.border) { display: none !important; }
@@ -5617,7 +5620,7 @@ nerdwallet.com###contextual-reg-modal-container
 yanusy.com#?#.overlay-box:has(> a[href*="campaign"])
 thestar.com.my##.freeModal
 diepresse.com###abocontainer-f
-||autofill.yandex.ru^$domain=pikabu.ru
+||autofill.yandex.ru^$domain=pikabu.ru|ru.hexlet.io
 ||id.vk.com/floating_one_tap_auth$domain=pikabu.ru
 pikabu.ru##div[data-test-id="floatingOneTap"]
 pikabu.ru##.popup-button-promo
@@ -13537,6 +13540,8 @@ gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,n
 !
 ! SECTION: Subscriptions - Regular rules
 !
+ru.hexlet.io##main > section:has(> div.row a[href="https://ttttt.me/hexlet_ru"])
+inkefalonia.gr##.uk-panel:has(a[href^="https://news.google.com/publications/"])
 ukranews.com##.b-article__sign
 gamefile.news#?##home-body > div.pencraft div[class*="contentBlockContainer"]:has(> div[class^="outerContainer"] > div.pencraft button:contains(Subscribe))
 ama-assn.org##.promo_as_inline-20676
@@ -14645,7 +14650,7 @@ estadao.com.br##div[title="Estadão Pílula"]
 matchtv.ru##.video-js > a[href^="https://t.me/"]
 joesandbox.com###joeSandboxBasicModal
 joesandbox.com##.modal-backdrop
-flicksbar.*###tgWrapper
+flcksbr.*###tgWrapper
 ||sector.sk/maillist-embed.aspx
 sector.sk##div[style^="background-color:#404040;width:80%;padding:20px;height:140px;"]
 niopik.ru##div[data-ajax-load-block="FOOTER_TOGGLE_SUBSCRIBE"]
@@ -17245,7 +17250,7 @@ sotoguide.ru###button_tg
 trans.info##.newsletter-subscribe-popup
 publico.pt##.outter-box_paywall
 publico.pt##.site-message--subscription-promo.paywall_camp_verao
-emergency-live.com,moveo.telepass.com,newsmaker.md###custom_html-10
+domainnamewire.com,emergency-live.com,moveo.telepass.com,newsmaker.md###custom_html-10
 politico.eu##.entry__content > div.wp-block-cover
 paperpaper.ru#?#.stk-post > div.stk-grid:has(> div[class] > a:contains(/^подписаться$/))
 eurotopics.net##div[class^="newsletter-banner"]
