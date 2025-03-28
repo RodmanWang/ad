@@ -8008,6 +8008,7 @@ chehov-vid.ru,161.ru,prufy.ru,ysia.ru,5koleso.ru,ngs.ru,i38.ru,chita.ru,lenta.ru
 !
 !
 !
+fishki.net##.drag_list > div.drag_element:has(> div > meta[content="Peклама"])
 ||rnk.ru/images/branding/
 pepelac.news##div[class*="d-md-"]:has(> div.d-flex > ins.adsbygoogle)
 ptzgovorit.ru##.sidebar-rek
@@ -18087,7 +18088,7 @@ gorodkirov.ru,navigator-kirov.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,prochepetsk.ru,
 gorodkirov.ru,navigator-kirov.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod59.ru,progorod62.ru,progorod76.ru,progorodnn.ru,progorodnsk.ru,progorodsamara.ru,progoroduhta.ru##div[class^="article-modal_articleModal__"]
 !
 ! Mangalib
-yaoilib.net,hentailib.me,ranobelib.me,mangalib.me,anilib.me##div[style="margin-top: 20px; margin-bottom: 20px;"]
+yaoilib.net,hentailib.*,ranobelib.me,mangalib.me,anilib.me##div[style="margin-top: 20px; margin-bottom: 20px;"]
 !
 ! Sites of the same owner. Sometimes domains may be changed
 koro.life,mose.su,findani.me,selflib.me,rumix.me,selfmanga.live,doramatv.one,usagi.one,grouple.co,allhen.online,mintmanga.one,doramatv.live,librebook.me,readmanga.ru,readmanga.io##.brands > div[onclick]
@@ -18415,6 +18416,7 @@ rbc.ru##.item_promo-card
 rbc.ru##.js-index-central-column > div[data-publisher-index]:has(div[data-yandex-show-event] > div.showcase-collection__footer > p)
 rbc.ru##div[data-placement]
 rbc.ru#?#.l-col-100h-parent > div.l-col-100h:has(> div.l-sticky > div.fox-tail > a.banner__container__link)
+autodaily.ru##div[class^="banner"]
 autodaily.ru,autonews.ru,rbc.ru##.topline__branding__wrapper
 rbc.ru##.fox-tail
 rbc.ru#?#.js-index-central-column > div.js-index-doscroll > div.item_content-cards-block:has(div[data-yandex-show^="commercial_cards"])
@@ -18435,7 +18437,7 @@ rbc.ru##.tsum-countdown
 autonews.ru,rbc.ru,sportrbc.ru##div[data-unit^="after_topline"]
 autonews.ru,rbc.ru,sportrbc.ru##div[data-yandex-show="widget_right_show"]
 autonews.ru,rbc.ru,sportrbc.ru##[class^="banner__container"]
-autonews.ru,sportrbc.ru##body div.topline__disable-adv
+autodaily.ru,autonews.ru,sportrbc.ru##body div.topline__disable-adv
 autonews.ru,rbc.ru,sportrbc.ru##.banner__filmstrip
 autonews.ru,rbc.ru,sportrbc.ru##.banner
 rbc.ru##.banner__median_mobile
@@ -20729,6 +20731,7 @@ stan.kz##.x_logo
 ! Bad: ||legitwebsite.com^$third-party (should be in adservers.txt)
 !
 !
+||stat.hdvbua.pro^
 ||exchange.informer.ua^$third-party
 
 !
@@ -21019,8 +21022,6 @@ budport.com.ua##.tm-banner-slider
 budport.com.ua#$#header.page-head { height: fit-content !important; }
 minfin.com.ua###special-product-offer
 gagadget.com##.post-links div.l-container:has(> .l-grid > div.l-inner > div[data-gpt-index])
-uaserials.pro###rek1
-||cdn.hdvbua.pro/amedia/5/500x200_1.gif
 gsminfo.com.ua##aside .container-wrapper:has(> div > ins.adsbygoogle)
 epravda.com.ua##div[class^="advtext_"]
 obozrevatel.com##.googleBanner
