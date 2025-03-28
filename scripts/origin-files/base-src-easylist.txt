@@ -23019,7 +23019,7 @@
 ||autodiscover.admin.aomg5bzv7.com^
 ||autofaucets.org^$domain=rifurl.com
 ||autoffers.us^
-||autofill.yandex.ru^$domain=pikabu.ru|ru.hexlet.io
+||autofill.yandex.ru^$domain=pikabu.ru|ru.hexlet.io|rnk.ru
 ||autoid.com^$third-party
 ||autoimmunity.thermo.com^
 ||autoimmunity.thermofisher.com^
@@ -44082,6 +44082,7 @@
 ||events-api.soundcloud.com^
 ||events-api.towneers.prod.data.krmt.io^
 ||events-collector-api.viacom.tech^
+||events-collector-dataplatform.action-media.ru^
 ||events-collector.spot.im^
 ||events-ingestion.services.gorgias.com^
 ||events-jp.splash-screen.net^
@@ -119039,6 +119040,8 @@
 ||zoltrl.xyz^
 ||zombyfairfax.com^
 ||zomiluwha.pro^
+||zone.msn.com^$replace=/"adsFree\\":false/"adsFree\\":true/,document
+||zone.msn.com^$replace=/"preroll\\":true/"preroll\\":false/,document
 ||zone1.bestbdsm24.com^
 ||zone1.bestporn24.com^
 ||zonealta.com^
