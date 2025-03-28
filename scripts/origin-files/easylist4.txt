@@ -435,6 +435,9 @@
 !
 !
 !
+! anti-adb
+pokegonews.net#%#//scriptlet('prevent-eval-if', '広告')
+pokegonews.net##body > [id][style^="display: block; width: 99"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/201598
 video.tv-tokyo.co.jp#$##detect.ad-container { display: block !important; }
 video.tv-tokyo.co.jp#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
@@ -1980,7 +1983,6 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 ! NOTE: Specific rules
 !
-megalodon.jp##.ad-pr
 ||2219.net/js/adbata_
 ||2219.net/js/index_adbata_
 ||hdouga.com/wordpress/wp-content/uploads/side2_01.gif
