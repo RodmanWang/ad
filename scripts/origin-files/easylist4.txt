@@ -1870,6 +1870,7 @@ _ap/signin*?_encoding=UTF8&openid.assoc_handle=jpflex&openid.claimed_id=&action=
 /\/t_([0-9A-Za-z]{32})\?token=\1/$document,domain=cloud|cn|com|net|top|vip
 !#endif
 !#if (!adguard_ext_chromium_mv3 && !ext_ublock)
+|http://t-*/cz/$document,domain=monster|online|space
 /ja/payment/|$document,domain=co.in|co.za
 ://eki-net-*.*/Perosnal_member/$document,domain=cn|net
 /?Rfunccode=*&nextfunc=$document,domain=cn|top
@@ -1888,6 +1889,7 @@ _ap/signin*?_encoding=UTF8&openid.assoc_handle=jpflex&openid.claimed_id=&action=
 /\.(?:club|cn|icu|top|pro|site|work)\/Personal\/member\/Login\/index\.php\?oneTimeAccessID=/$document,domain=club|cn|icu|top|pro|site|work
 !#endif
 !#if (adguard_ext_chromium_mv3 || ext_ublock)
+|http://t-*/cz/$document,to=monster|online|space
 /ja/payment/|$document,to=co.in|co.za
 ://eki-net-*.*/Perosnal_member/$document,to=cn|net
 /\/all\/login\.php\?([0-9a-f]{32})=\1$/$document,match-case,to=com
@@ -1990,6 +1992,8 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 ! NOTE: Specific rules
 !
+lovegreen.net##div[class^="lg-"][class*="-ad"]
+lovegreen.net##.da_gpt_area_banner
 namedic.jp##div[class^="adslot"]
 namedic.jp##.lo-main > section:has(> div.box-contents > div[id^="taboola"])
 three-pc.co.jp##.pum-overlay[data-popmake*="\"delay\":\"500\""]
@@ -2193,6 +2197,8 @@ lettuceclub.net###pro-message ~ div.section:has(> div[id^="logly-"])
 lettuceclub.net#?##pro-message ~ div.section:has(> div.w-full > h2:contains(PR))
 ||mx-timeline.nan-net.jp/system/timeline/timeline_ad.html
 mx-timeline.nan-net.jp##iframe[src="https://mx-timeline.nan-net.jp/system/timeline/timeline_ad.html"]
+dic.pixiv.net##.h-\[90px\]
+dic.pixiv.net##div[data-header-id] > div.my-\[36px\].justify-center
 dic.pixiv.net##div[class*="h-["]:has(> div[id^="adsdk-"])
 ||caloo.jp/js/pc/sticky-ads.js
 anige-sokuhouvip.com###entry_outline:has(> a[href=""])
