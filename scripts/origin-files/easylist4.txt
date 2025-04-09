@@ -1994,7 +1994,6 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 ||smart-enta.com/wp-content/uploads/2024/02/sh_650x200_02.png.webp
 smart-enta.com##div[class^="banner_"]
 fujingaho.jp##.css-13k74wh
-hananokotoba.com##.a-single.a-2
 pleasureme.jp##.entry-content > div.button-block > a.btn-shine.has-green-background-color[href^="https://amzn.to"][target="_blank"]
 pleasureme.jp##.entry-content > div.wp-block-cocoon-blocks-micro-text:has(+ div.button-block > a.btn-shine.has-green-background-color[href^="https://amzn.to"][target="_blank"])
 pleasureme.jp##.entry-content > div.button-block:has(> a.btn-shine.has-green-background-color[href^="https://amzn.to"][target="_blank"]) + div.wp-block-cocoon-blocks-micro-text
@@ -2784,6 +2783,7 @@ voyeurgeek.com##.elementor-widget-flat-posts + section.elementor-section.itigyot
 my-best.com##.css-92i9wm
 sukebelog.blogterest.net,ettina.blogterest.net##.blockAreaMainFooter > div.blockWrapper:has(> div.blockBody > iframe)
 sukebelog.blogterest.net,ettina.blogterest.net##.entryDetail div[style^="width: 100%; height: 395px; overflow-y: hidden;"]
+blogterest.net##.blockAreaMainFooter > div.blockWrapper:has(> div.blockBody > div[style^="margin: 0"][style*="padding: 5px; font-size: 14px; word-break: break-all;"] > a[href^="https://al.dmm.co.jp/?lurl"][rel="sponsored noopener"][target="_blank"] > img)
 blogterest.net##.blockAreaMainFooter > div.blockWrapper:has(> div.blockBody > div.eroterest_mgs_rec_parts)
 ddd-smart.net##iframe[src^="https://go.mnaspm.com/"]
 ddd-smart.net##iframe[src^="https://creative.rmhfrtnd.com/"]
@@ -5892,7 +5892,7 @@ sportingnews.com##.header-advertising
 sportingnews.com##strong > [href^="https://bit.ly"]
 thedigestweb.com##.c-ad-banner:not(.-continual)
 thedigestweb.com##.c-ad-banner--col2
-danna-shine.com,traveltoku.com##.a-single
+hananokotoba.com,danna-shine.com,traveltoku.com##.a-single
 traveltoku.com##.g-single
 aumo.jp##.pure-ad-banner
 ||gpc-check.com/img/pr/
