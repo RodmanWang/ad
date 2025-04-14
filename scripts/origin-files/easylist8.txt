@@ -8553,6 +8553,8 @@ newsweek.com##iframe[src="http://sns.europe.newsweek.com/newsletter?popup=1"]
 !##############################
 ! SECTION: Tweaks - JS
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/202433
+recut.ru#%#//scriptlet('trusted-click-element', '#open_link', '', '500')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/202740
 shorttrick.in#%#//scriptlet('adjust-setInterval', 'wpsafe', '*', '0.001')
 sampledrive.org#%#//scriptlet('adjust-setInterval', 'downloadButton', '*', '0.001')
@@ -9414,7 +9416,7 @@ dogeatm.com,claimbits.io,i-bits.io,diamondfaucet.space,gobits.io,faucet.shortera
 ! https://github.com/AdguardTeam/AdguardFilters/issues/81186
 adslink.pw#%#//scriptlet('adjust-setInterval', '_0x', '*', '0.02')
 jpopsingles.eu#%#//scriptlet("adjust-setInterval", "downloadTimer", "", "0.02")
-jpopsingles.eu#%#(function(){if(location.href.includes("/to/aHR0c"))try{var a=location.href.split("/to/");a=atob(a[1]).split("url=");location=decodeURIComponent(a[1])}catch(b){}})();
+jpopsingles.eu#%#(function(){if(location.href.includes("/to/aHR0c"))try{var a=location.href.split("/to/");a=atob(a[1]);location=decodeURIComponent(a)}catch(b){}})();
 ! https://github.com/AdguardTeam/AdguardFilters/issues/80037
 psdly.com#%#//scriptlet("adjust-setInterval", "counter--", "", "0.02")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/79999
@@ -9898,6 +9900,7 @@ codedosa.com###wpcp-error-message
 !--- CSS ---
 ! NOTE: Context menu - CSS
 !
+recut.ru#$##skip_panel { display: block !important; }
 novelpia.com#$#font[id] { -webkit-touch-callout: default !important; -moz-user-select: text !important; -webkit-user-select: text !important; -ms-user-select: text !important; -o-user-select: text !important; user-select: text !important; -khtml-user-select: text !important; }
 videocardz.com#$##videocardz-article * { user-select: auto !important; }
 oricon.co.jp#$#.all-lyrics { -webkit-touch-callout: default !important; -webkit-user-select: auto !important;-moz-user-select: text !important; -ms-user-select: text !important; user-select: auto !important; -webkit-tap-highlight-color: black !important; }
