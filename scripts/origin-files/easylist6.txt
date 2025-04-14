@@ -4830,6 +4830,8 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+agirsaglam.com##.tally-overlay
+dashlane.com#%#//scriptlet('set-cookie', 'offer-default', 'true')
 wcostream.tv###announcement-modal
 ej.alc.co.jp##body > #text-banner
 donaldjtrump.com##.popup
@@ -12181,7 +12183,7 @@ adguard.info,adguard.com,adguard.app#$#.hello_from_adguard_advanced_protection_i
 ! SECTION: Popups - Allowlist
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/202059
-thundermail.com#@##mc_embed_signup
+tb.pro,thundermail.com#@##mc_embed_signup
 ! https://github.com/uBlockOrigin/uAssets/issues/26606
 ! TODO: remove when FireFox will support `permissions`
 !+ PLATFORM(ext_ff, ext_ublock)
@@ -13600,6 +13602,9 @@ gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,n
 !
 ! SECTION: Subscriptions - Regular rules
 !
+grazia.nl##.showheroes-unit:has(> div.newsletter)
+leaddev.com#$##zephr-zone-popup { display: none !important; }
+leaddev.com#$#body[style^="overflow: hidden;"] { overflow: auto !important; position: absolute !important }
 gamefile.news#%#//scriptlet('trusted-set-local-storage-item', 'pub-66124-subscribe-prompt-next-shown-at', '99999999999999')
 scmp.com##div[data-qa="HomePage-Newsletters"]
 pc-builds.com###newsletter-sidebar-form
