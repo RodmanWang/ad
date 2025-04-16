@@ -4831,6 +4831,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+berlitz-istanbul.com###cp_popup_id_21984
 bloomberg.com##div[data-component="breaking-news"]
 marktechpost.com##div[class*="sgpb-popup-"]
 cnnturk.com##watch-live-button
@@ -12821,7 +12822,7 @@ youla.ru##article[role="alert"]
 toy-people.com###notification_alert_container
 kion546.com##.viafoura > div[data-test="tray-trigger-root-element"]
 haibunda.com##.pnot
-||cdn-static.egoiapp2.com/webpush.js
+||cdn-static.egoiapp2.com/*webpush.min.js
 gptoday.net##.webpush_popup
 infomoney.com.br###webpush-modal
 ||infomoney.com.br/wp-content/plugins/infomoney/front/assets/js/components/services/service-webpush-firebase.js
