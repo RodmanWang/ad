@@ -13629,6 +13629,7 @@ gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,n
 !
 ! SECTION: Subscriptions - Regular rules
 !
+mir24.tv##div[class^="Banner_"]:has(> a[href="https://t.me/+TXi6c5FYgYB7yMKl"])
 doityourselfrv.com##.mnp-newsletter-box
 kp.ru##div[data-gtm-el="content-body"] ~ div[class^="sc-"] > div[class^="sc-"]:not([data-name]):has(> div[class^="sc-"] > a[href="https://t.me/+J-YF9mCO3WY2MTBi"])
 genic-web.com#?#.headline-link:has(> h2.headline-link__text:contains(Newsletter))
@@ -19917,7 +19918,7 @@ tlz.de##.piano-newsletter-inline
 pga.com##div[data-cy="gdpr-banner"]
 elespanol.com##.md-suscription
 lefigaro.fr,ccm.net,journaldesfemmes.fr,commentcamarche.net##.nl-box
-||cdn.convertbox.com^$third-party,domain=~brasilparalelo.com.br|~genevievegauvin.com
+||app.convertbox.com^$third-party
 ||app.conversiobot.com^$third-party
 correiobraziliense.com.br##.revue-embed
 futurism.com#?##__next > div.antialiased > div > div.text-center:has(> div.mx-auto > div:contains(newsletter))
