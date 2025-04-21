@@ -3506,6 +3506,7 @@ www.kinopoisk.ru##div[class^="trailer-promo"]
 !
 ! SECTION: Self-promo - Regular rules
 !
+github.blog##.post__content > aside:has(> p > a[href="https://git-merge.com/"])
 crxsoso.com##.right > div.hover-animate
 mir24.tv##div[class^="SidebarWidgets_"] > div[class^="Banner_"]:has(> a[href="/about/advertising"])
 ||mirtvpc.cdnvideo.ru/mirtv/%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D0%B0%20%20%20.mp4
@@ -7360,7 +7361,6 @@ e.mail.ru,octavius.mail.ru##.new-year-ball
 pulse.mail.ru##div[data-sid="fulltext_wiget_promo"]
 !+ NOT_PLATFORM(ios, ext_android_cb)
 ||limg.imgsmail.ru/informers/vk-slides/
-e.mail.ru,octavius.mail.ru#$?#html { --vkui--octavius_size_headline_height--regular: 36px !important; }
 ok.ru##.portlets_vk-branding-banner
 mail.ru###bubble-home
 mail.ru#?#body a[href^="https://r.mail.ru/"]:has(> span[class] > span[id^="tb-close-"])
