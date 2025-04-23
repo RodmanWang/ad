@@ -1499,8 +1499,6 @@ vip.diaoyu18.com##.container > a[target="_blank"]
 vip.diaoyu18.com##.huadong > div[style="text-align: center;margin-bottom: 10px;"]
 m.mobile01.com##.u-gapNextV--lg.u-height280
 damon624.pixnet.net##.article-content-inner > p:has(> span > a[href] > ins.adsbygoogle)
-18comic.vip##.container > div[style^="padding:"]:has(> [data-group="content_page"])
-18comic.vip##.tab-content + .row:has(> div[class] > div[class] > .group-notice)
 ||static.huaren.live/ads/
 huaren.live##.action-ad
 huaren.live#%#//scriptlet('trusted-replace-node-text', 'script', 'ConFig', 'let ConFig', 'var ConFig')
@@ -2180,7 +2178,6 @@ mcbbs.net##img[width="462"][height="78"]
 appledaily.com.tw##.THISISANADHERE
 dyxs23.com,dyxs20.com,dyxs15.com,dyxs14.com,dyxs13.com,dyxs12.com,dyxs11.com###player_pic
 ||guangzhoubingqing.com/88888.jpg
-||18comic.vip/templates/frontend/airav/js/92_81c7.js
 dmxq1.com##.content > div[id] > a[id][target="_blank"] > img
 ||t2.picb.cc^$image,domain=dmxq1.com
 ||t2.picb.cc/2022/08/07/6rpPj1.jpg
@@ -3151,6 +3148,12 @@ huya.com#$##banner > a ~ .banner-close { display: none !important; }
 huya.com#%#//scriptlet('remove-attr', 'style', '#banner[style*="background-image:url"]')
 !
 ! 18comic
+||18comic.*/templates/frontend/airav/js/jquery.*_*.js
+||18comic.*/templates/frontend/airav/js/92_81c7.js
+/https?:\/\/[^\/]*18comic\.(org|vip)\/static\/.*?\d{3}[-xX_]\d{3}.*?\.gif/$domain=18comic.org|18comic.vip
+18comic.org,18comic.vip##.container > div[style^="margin-bottom:"]:has(> div.col-lg-3 > div[data-exo])
+18comic.org,18comic.vip##.container > div[style^="padding:"]:has(> [data-group="content_page"])
+18comic.org,18comic.vip##.tab-content + .row:has(> div[class] > div[class] > .group-notice)
 18comic.org,18comic.vip##div[class="row"][style="display: flex;flex-wrap: wrap;"]
 18comic.org,18comic.vip##div[data-group^="photo_center_games_"]
 18comic.org,18comic.vip##div[data-group^="skyscraper_"]
@@ -3193,6 +3196,7 @@ netfly.*,netfly.tv##div[class*="tt-"] > a[target="_blank"] + span.tt-icon-close
 ! bilibili.com#?#.bili-video-card.is-rcmd > div > a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bili"]) + .bili-video-card__info:upward(2)
 search.bilibili.com##.video-list > div:has(> .bili-video-card > .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .ad-feedback-entry)
 bilibili.com##.bili-video-card.is-rcmd:has(> div.bili-video-card__wrap div.bili-video-card__stats > div.bili-video-card__stats--left:empty + span.bili-video-card__stats--text)
+bilibili.com#$?#.container > .feed-card:has(>.bili-video-card.is-rcmd > div.bili-video-card__wrap div.bili-video-card__stats > div.bili-video-card__stats--left:empty + span.bili-video-card__stats--text) { remove: true; }
 bilibili.com#$#.container > div[class*="-card"]:has(div[style="display: none !important;"]) { position: absolute !important; left: -3000px !important; }
 bilibili.com#%#//scriptlet('json-prune', 'data.cm_info.ads')
 bilibili.com##.container > div.bili-video-card.is-rcmd:not(:has(> *))
@@ -3203,6 +3207,7 @@ bilibili.com#$?#.van-slide > .item:has(.bypb-icon) { remove: true; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/200231#issuecomment-2798446587
 ! The card with a rocket icon (CN IP)
 bilibili.com##.bili-video-card.is-rcmd:has(> div.bili-video-card__wrap .bili-video-card__stats--icon > path[d*="M16.9122 1.50323C17.4366 1.48358 17.99745 1.54938 18.4701 1.8207C18.9423 2.09168 19.28085"])
+bilibili.com#$?#.container > .feed-card:has(> .bili-video-card.is-rcmd > div.bili-video-card__wrap .bili-video-card__stats--icon > path[d*="M16.9122 1.50323C17.4366 1.48358 17.99745 1.54938 18.4701 1.8207C18.9423 2.09168 19.28085"]) { remove: true; }
 ! bilibili.com#$?#.container > div.feed-card:not(:has(> div > *)) { remove: true; }
 ! bilibili.com##.container > div.feed-card:not(:has(> div > *))
 ! bilibili.com#$?#.container > div.floor-single-card:has(> div.skeleton) { remove: true; }
@@ -5361,6 +5366,9 @@ newduba.cn###jq_youxi
 ||po18ad.com^
 ||qdasflqe.top^
 ||vrinqaell.com^
+||ewvz.cn^
+||xsrezl.icu^
+||tucnwti.top^
 ||grimoiksep.com^
 ||iutq.cn^
 ||lhdnba.top^
