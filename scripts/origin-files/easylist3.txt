@@ -683,6 +683,7 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 !
 ! NOTE: Specific rules
 !
+postnews.ru#?#div[class*=" styles_animate__"] > a:contains(поделиться)
 theweek.in##.article-share-mobile
 pianetamamma.it##.par-foglia-sharecont-top
 koreatimes.co.kr##button[aria-controls="share-popover"]
@@ -11585,7 +11586,7 @@ giga.de##.sharing_container
 msn.com##.sharingtb
 aksam.com.tr##.sharingwrap
 forum.xda-developers.com##.showthread-social
-stories.bsh-group.com,design-homes.ru,tgcom24.mediaset.it,kamuajans.com,internethaber.com##.shr
+firstpost.com,stories.bsh-group.com,design-homes.ru,tgcom24.mediaset.it,kamuajans.com,internethaber.com##.shr
 mspoweruser.com##.shunno-share-block
 mkyong.com##.sidebar-fb-container
 freshideen.com##.single-social
