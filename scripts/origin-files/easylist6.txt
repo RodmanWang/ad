@@ -4828,13 +4828,13 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 ##iframe[id="google-one-tap-iframe"][allow="identity-credentials-get"]
 ! TODO: remove "/.*/" part when this issue - https://github.com/AdguardTeam/FiltersCompiler/issues/229 will be fixed
 ! TODO: remove document modifier when this issue is fixed - https://github.com/AdguardTeam/AdguardBrowserExtension/issues/2954
+!#if (!ext_ublock)
 /.*/$permissions=identity-credentials-get=(),document
-! TODO: remove the rule below 18.09.24 if it doesn't break anything (two lines)
-! The rule for sites, where URL blocking rule blocks also Google's log in button
-! investing.com,tradingview.com,cnn.com,g123.jp,binance.com,boredpanda.com#%#//scriptlet('set-constant', 'navigator.credentials.get', 'noopPromiseReject')
+!#endif
 !
 ! SECTION: Popups - Regular rules
 !
+rp-online.de###personalLocationToolTip
 hostadvice.com#%#//scriptlet('set-cookie', 'popup_exit_intent_1', '1')
 gigabaito.com##.popup-wrap:has(> div.onetime_popup)
 thegirl.ru##.article-notification-inset
@@ -13628,7 +13628,7 @@ kenh14.vn,ot.gr,sportime.gr,mononews.gr,the-decoder.com,sporx.com,nowymarketing.
 ! ##.newsletter-popup
 corrierenazionale.it,trustedreviews.com,superdeluxeedition.com,schmuckwerk.de,designrush.com,hbr-russia.ru,thewrap.com,reserved.com,citizenwatch.co.uk,mitvergnuegen.com,emergencemagazine.org,afound.com,made.com,elementor.com,infosperber.ch,salzburg-airport.com,michalpasterski.pl##.newsletter-popup
 ! ##.subscribe-widget
-newsguardrealitycheck.com,thecoder.cafe,gamefile.news,admissionnotice.com,forbesindia.com,materializedview.io,computerenhance.com,clubstrannik.ru,noktabursa.com.tr,girlonthenet.com,substack.com,santiye.com.tr,rb.ru,investors.com##.subscribe-widget
+ntv.com.tr,newsguardrealitycheck.com,thecoder.cafe,gamefile.news,admissionnotice.com,forbesindia.com,materializedview.io,computerenhance.com,clubstrannik.ru,noktabursa.com.tr,girlonthenet.com,substack.com,santiye.com.tr,rb.ru,investors.com##.subscribe-widget
 ! ##.subscribe-block
 flb.ru,4freerussia.org,carnegieendowment.org,rozetked.me,pozirk.online,zagorodna.com,markformelle.by,mc.today,dobrotsen.ru,65ymas.com,techtimes.com,elplural.com,kinometro.ru,sport24.ua,newsweek.com,positronica.ru,eurasia.expert,hockey.by,kleo.ru,focusme.com,charbelnemnom.com,iphonegeek.me,afanasy.biz,media.nenaprasno.ru,vogue.ru,hyperhost.ua,pravda.ru,reverso.net,vokrug.tv##.subscribe-block
 ! ##.mc4wp-form
@@ -18188,7 +18188,6 @@ ilenta.com##article > div[style="clear:both; padding:10px 0;"]
 rtraveler.ru,34.ua##.subscribe-wrap
 ferra.ru##.layoutContent a[href="https://t.me/ferraru"]
 elle.ru##div[data-creative-container="hb-promo"]
-grad.ua##.g_news
 banker.ua##.es-form-outer
 banker.ua##.cs_telegram-container
 slidstvo.info#?#.post-content > div#overlay:has(> div.popup > div.post-bottom-subscribe)
@@ -21506,6 +21505,8 @@ flightradar24.com##[data-id="a5b8151"][data-element_type="widget"]
 flightradar24.com##[data-id="35ae40a"][data-element_type="widget"]
 !
 !
+!+ NOT_OPTIMIZED
+grad.ua##.g_news
 !+ NOT_OPTIMIZED
 vogue.sg##.footer-ads-fixed-home
 !+ NOT_OPTIMIZED
