@@ -153,6 +153,7 @@
 ||startup.mobile.webvisor.com^
 ||startup-mobile.ap.yandex-net.ru^
 !
+||maticooads.com^
 ||ad*.zonaplus.tv^
 ||apishow.babybus.com^
 ||apppromoteapi.babybus.com^
@@ -2736,6 +2737,7 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
+indianexpress.com##.body-part > .mobile:has(> .top-ads-mobile)
 jjgirls.me##div[class]:has(> ins[data-zoneid])
 m.666biquge.com##body > div[style^="height:"]
 republicworld.com##.bannerWidth
