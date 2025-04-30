@@ -153,6 +153,10 @@
 ||startup.mobile.webvisor.com^
 ||startup-mobile.ap.yandex-net.ru^
 !
+||configure.rayjump.com^
+||v.kidoz.net^
+||sdk-api.kidoz.net^
+||gadsme.com^
 ||maticooads.com^
 ||ad*.zonaplus.tv^
 ||apishow.babybus.com^
@@ -2737,6 +2741,11 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
+aajtak.in##.itgdAdsPlaceholder
+nationalheraldindia.com##div[class^="styles-m__mobile-ad__"]
+nationalheraldindia.com##div[class^="header-m__ad-"]
+nationalheraldindia.com##div[class^="styles-m__dfp__"]
+nextdoordolls.com##.channel-adx-mobile
 yabancidizi.*##.player > div.flex
 homo.xxx,hello.porn##.top_spot
 xfree.com##.mobile-wall-prbn
