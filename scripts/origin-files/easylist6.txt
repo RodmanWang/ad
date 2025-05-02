@@ -4837,6 +4837,8 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+filecr.com#$#body { overflow: auto !important; padding-right: 0 !important; }
+filecr.com#$#body > #modal:has(> div[class^="modal_wrap_"] > div[class^="modal_content_"] > div[class^="dp_body_"] > a[href*="/extension/install"][target="_blank"]) { display: none !important; }
 mqihuan.bookresource.qq.com##.fixed.bottom-48px
 mqihuan.bookresource.qq.com##.fixed.inset-0
 pcloud.com#%#//scriptlet('set-cookie', 'openedExitIntentRegistrationModal', 'true')
@@ -13655,6 +13657,8 @@ gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,n
 !
 ! SECTION: Subscriptions - Regular rules
 !
+indiaglitz.com##.gboxnews
+kotaku.com##.js_qz_newsletter_signup_placeholder
 society19.com##.thb_widget_subscribe
 tatar-inform.ru##.main__icons__dzen
 realnoevremya.ru##article > noindex:has(> div.centeredText > p > a[href="https://t.me/realnoevremya"])
