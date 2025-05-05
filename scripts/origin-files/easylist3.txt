@@ -683,6 +683,7 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 !
 ! NOTE: Specific rules
 !
+monogatary.com##.story-section__social
 weshare.is##.file-details-item:has(> .file-details-item-text > .socials)
 focus.de##.Article-Date-Socials-Container .Share-Link:not([href^="mailto"])
 academia.edu##button[data-signup-modal*="share-button"]
@@ -693,7 +694,7 @@ realnoevremya.ru##.wrap-social-share
 travelweekly.co.uk##.aos-Article-ShareLinks
 ehatv.com##.ind-social-ul
 entrepreneur.com###nativeshare
-arcticwolf.com##.zDocsTopicShare
+trellix.com,arcticwolf.com##.zDocsTopicShare
 nimbusweb.me##.betterdocs-social-share
 stroki.mts.ru##.sharing-btn
 stroki.mts.ru##.sharing-position
