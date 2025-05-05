@@ -683,6 +683,7 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 !
 ! NOTE: Specific rules
 !
+weshare.is##.file-details-item:has(> .file-details-item-text > .socials)
 focus.de##.Article-Date-Socials-Container .Share-Link:not([href^="mailto"])
 academia.edu##button[data-signup-modal*="share-button"]
 gocomics.com##button[aria-label^="Open the sharing"]
@@ -6788,7 +6789,7 @@ cwtv.com###sharetools
 yablor.ru##.minishare
 nefisyemektarifleri.com##.pinit-button
 republicworld.com,teleprogramma.pro,nefisyemektarifleri.com##.youtube-subscribe
-realsound.jp,insight.co.kr##.fixed-share
+perito.media,realsound.jp,insight.co.kr##.fixed-share
 4travel.jp,symbolab.com##.shareIcon
 filmtipo.com,rutrailer.com,bestsimilar.com##.subscribe-c
 tse.jus.br###compartilhar-conteudo
