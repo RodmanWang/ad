@@ -153,6 +153,7 @@
 ||startup.mobile.webvisor.com^
 ||startup-mobile.ap.yandex-net.ru^
 !
+||rainmaker.production-public.tubi.io^
 ||configure.rayjump.com^
 ||v.kidoz.net^
 ||sdk-api.kidoz.net^
@@ -2743,6 +2744,7 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
+alfalfalfa.com##aside.section-box:has(> div.plugin-extra > script)
 gunes.com##.orjHeaderBottom
 wco.tv###sidebar_today > div[style^="float:right;"]
 free-codecs.com##.mobile-header-ad
