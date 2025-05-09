@@ -683,6 +683,7 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 !
 ! NOTE: Specific rules
 !
+helloclue.com##a[href*="://www.linkedin.com/shareArticle"]
 timeout.com##div[data-component="sharing-links"]
 online.metro-cc.ru##.product-page-social__button
 9to5linux.com##article > div[class^="9to5-linux-social bm-social-top"]
@@ -15099,8 +15100,6 @@ bomb01.com#$#.modal-open { overflow: visible!important; }
 ! Bad:  @@||example.org^$stealth (should be in AdGuard Base - allowlist_stealth.txt)
 !
 !
-! https://github.com/AdguardTeam/AdguardFilters/issues/204849
-scrapbox.io#@#a[href*="//b.hatena.ne.jp/entry/"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/204861
 nationalgeographic.pt#@#.socialmedia
 ! https://github.com/AdguardTeam/AdguardFilters/issues/204699
