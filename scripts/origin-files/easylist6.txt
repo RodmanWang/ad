@@ -12255,6 +12255,8 @@ adguard.info,adguard.com,adguard.app#$#.hello_from_adguard_advanced_protection_i
 !
 ! SECTION: Popups - Allowlist
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/204882
+@@||tennislegend.fr/wp-content/plugins/thrive-leads/js/frontend.min.js$domain=tennislegend.fr
 ! https://github.com/AdguardTeam/AdguardFilters/issues/202059
 tb.pro,thundermail.com#@##mc_embed_signup
 ! https://github.com/uBlockOrigin/uAssets/issues/26606
