@@ -2023,6 +2023,8 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 ! NOTE: Specific rules
 !
+totalwar.doorblog.jp##div[class^="article-body"] div.t_b[style^="line-height"]:has(> span[style="color: rgb(0, 0, 205);"] b > a[target="_blank"])
+totalwar.doorblog.jp##div[class^="article-body"] div.t_h:has(+ .t_b[style^="line-height"] > span[style="color: rgb(0, 0, 205);"] b > a[target="_blank"])
 fc2db.com###livestream
 fc2db.com#?#.section__title-wrapper:has(> div.section__title > h2:contains(Live Cams))
 ||blove.jp/images/bnr_multipost_small.jpeg
@@ -9751,8 +9753,7 @@ alc.co.jp###container > div[style^="width:1100px; "]
 ||aacdn.jp/js/aa/matome/ad.js
 news.allabout.co.jp##.layout_sidebar > div.obtain-height
 allabout.co.jp###fourm_video
-allabout.co.jp##div[data-tracking-zone^="parts-common-adFirst"]
-allabout.co.jp##div[id^="sys_aa_pc_placement"]
+allabout.co.jp##div[id^="sys"][data-tracking-zone*="-ad"]
 allabout.co.jp##.aa_content-side > div[data-tracking-zone] > div.obtain-height
 allabout.co.jp##.sys-aa_placement
 allabout.co.jp##.docomo_custom_alliance
@@ -9760,7 +9761,6 @@ allabout.co.jp##.aa_ad-home-thumb-small
 allabout.co.jp##.aa_area-content-top
 allabout.co.jp##.fixed_bottom_aa_ad
 allabout.co.jp##.ec-site-box.sys-ga-event-affiliate
-allabout.co.jp###sys-article-upper-afc
 allabout.co.jp##.aa_rec-box
 ||atwiki.jp/common/dist/js/amazon_flux.js
 atwiki.jp###google_relate_ads
