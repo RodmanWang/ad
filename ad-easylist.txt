@@ -1,4 +1,4 @@
-Version: 20250512102143
+Version: 20250512115508
 !Total lines: 91580
 @@||ads.taboola.com^
 @@||adshnk.com^
@@ -88,6 +88,7 @@ Version: 20250512102143
 @@||ads.privacy.qq.com^
 @@||future.biz.weibo.com^
 @@||ad-putting.gw.zt-express.com^
+@@||api.onedrive.com^
 @@||files.1drv.com^
 @@||skyapi.live.net^
 @@||adm.crowdicity.com^
@@ -165,7 +166,6 @@ Version: 20250512102143
 @@||widget.weibo.com^
 /^(\S+\.)?(webstats?|swebstats?|mywebstats?)\./
 /^(\S+\.)?track(ing)?\./
-@@||track.ukrposhta.ua^
 @@||tracking.epicgames.com^
 @@||track.sendcloud.org^
 /^(\S+\.)?toolbar\./
