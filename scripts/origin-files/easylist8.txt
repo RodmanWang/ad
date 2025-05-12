@@ -1310,6 +1310,7 @@ digitalvidya.com###text-13
 digitalvidya.com###text-8
 digitalvidya.com###text-21
 ! "Foreign agents" / "Иностранные агенты"
+thebell.io##.subscription__inoagent
 podpisnie.ru##.foreign_agents
 music.yandex.ru##.page-artist__agent
 kavkaz-uzel.eu##.inoagenty
@@ -3520,6 +3521,7 @@ www.kinopoisk.ru##div[class^="trailer-promo"]
 !
 ! SECTION: Self-promo - Regular rules
 !
+gameflare.com##.game-promo > .own-game-promo
 apollo-news.net###article-content-container .payment-nav
 gamestar.de###home-plus-banner-top
 gamestar.de##div:has(> .content-item-medium:only-child > a[href*="campaign"]:only-child)

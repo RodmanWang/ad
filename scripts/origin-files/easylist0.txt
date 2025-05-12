@@ -5923,7 +5923,8 @@ mail.yandex.*##.DirectLine
 !
 ! Yandex.Raspisanie
 rasp.yandex.*##.Direct
-rasp.yandex.ru##.ThreadLayout__topDirect
+rasp.yandex.*##.ThreadLayout__topDirect
+rasp.yandex.*##.Personal__vtbPromoBadge
 !
 ! Yandex.TV
 ! the rule also relates to Afisha, Realty, Video
@@ -8023,6 +8024,7 @@ chehov-vid.ru,161.ru,prufy.ru,ysia.ru,5koleso.ru,ngs.ru,i38.ru,chita.ru,lenta.ru
 !
 !
 !
+video.matchtv.ru##a[href*="utm_campaign=otklyuchenie_reklamy"]
 pornososalka.org##.footer-margin
 news.rambler.ru##div[id^="rambler-currency-converter-container"] + div[class]:has(> div[class]:only-child > div:empty)
 ||podarkus.ru/bnrs/
