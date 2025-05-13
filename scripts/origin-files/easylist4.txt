@@ -932,7 +932,8 @@ crefan.jp#%#//scriptlet('prevent-setTimeout', 'objDef.resolve')
 @@||googlesyndication.com/pagead/show_ads.js$domain=crefan.jp
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=crefan.jp
 !#endif
-! nihongo-pro.com anti-adb
+! https://github.com/AdguardTeam/AdguardFilters/issues/205064
+nihongo-pro.com#%#//scriptlet('prevent-element-src-loading', 'script', 'pagead2.googlesyndication.com')
 ||googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,important,domain=nihongo-pro.com
 @@||googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=nihongo-pro.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67394
@@ -1723,6 +1724,7 @@ kuruma-news.jp,magmix.jp,trafficnews.jp$$div[data-history="photo_extra"]
 /wp-content/uploads/2024/09/fanza_ad$image
 !
 ! Malware/Phishing
+.icu/redirect.php?token=$document
 ://mastercard-*.cn/features-benefits/$document
 .shop/iclouds/|$document
 ://sb1-*.com/ETGate/accountData^$document
@@ -1786,7 +1788,6 @@ _co_jp.*.php$document,domain=cc|com
 .top/index2.html|$document
 ||z13.web.core.windows.net/*-*-*-*-*-*-*/index.html$document
 .co.jp.*.cn/t_$document
-://ac*.top/t_*?token=$document
 ||z13.web.core.windows.net/index.html^$document
 .life/shopping/item/m*/$document
 .php?nbVVVsa^$document
@@ -2023,8 +2024,7 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 ! NOTE: Specific rules
 !
-yourei.jp##.list-group > li.sentence:has(> ins.adsbygoogle)
-mdpr.jp##.pg-articleDetail__adMovieFrame
+yourei.jp##.list-group > li.sentence:not([class*="source-title"]):has(> ins.adsbygoogle)
 totalwar.doorblog.jp##div[class^="article-body"] div.t_b[style^="line-height"]:has(> span[style="color: rgb(0, 0, 205);"] b > a[target="_blank"])
 totalwar.doorblog.jp##div[class^="article-body"] div.t_h:has(+ .t_b[style^="line-height"] > span[style="color: rgb(0, 0, 205);"] b > a[target="_blank"])
 fc2db.com###livestream
@@ -7258,9 +7258,8 @@ mycaddie.jp###inc_yahoo_shopping
 zyuken.net,syosetu.org,erogamescape.org,erogamescape.dyndns.org,golfdigest.co.jp,nosweb.jp,freefielder.jp,finance.yahoo.co.jp,mycaddie.jp##div[id^="ad_"]
 woman.excite.co.jp###header_bnr
 woman.excite.co.jp##.Lymain div[style$="width:610px;"]
-mdpr.jp##.pg-photo__adMovieFrame
+mdpr.jp##div[class$="_adMovieFrame"]
 mdpr.jp##.p-tverRanking
-mdpr.jp##.pg-articleHeadline__adMovieFrame
 mdpr.jp##.p-topArticleList__item--ad
 mdpr.jp##.c-adBanner
 mdpr.jp##.c-adDisplay
@@ -10338,8 +10337,6 @@ supersolenoid.blog.fc2.com,supersolenoid.jp#?#.menuBlock:has(div.plugin-freearea
 with2.net#?##rank li > iframe[src^="/ad_frame."]:upward(li)
 wackwack.net#?#.archive-entry > ins.adsbygoogle:upward(1)
 blog.skeg.jp#?#.pt-10 > ins.adsbygoogle:upward(1)
-yourei.jp#?#.clickable-sentence iframe[src^="https://rcm-fe."]:upward(.clickable-sentence)
-yourei.jp#?#.side-component a[href^="https://www.amazon.co.jp/"]:upward(.side-component)
 fx-koryaku.com#?##sidebar > div.widget_custom_html:has(center > a[rel^="nofollow"] > img)
 nurse-senka.jp#?##side > div.mb-4.p-3 div.global-ad-info:upward(.p-3)
 yoheim.net#?#.box-onetag-rec:upward(1)
