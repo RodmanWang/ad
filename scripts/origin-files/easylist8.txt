@@ -3521,6 +3521,9 @@ www.kinopoisk.ru##div[class^="trailer-promo"]
 !
 ! SECTION: Self-promo - Regular rules
 !
+zimbra.aliceadsl.fr###partenaires
+zimbra.aliceadsl.fr###offrealice
+sourcegraph.com##.section_cta-main
 terabox.com##.premium-guide-box
 pan.quark.cn##.share-right-side-content > img
 gameflare.com##.game-promo > .own-game-promo
@@ -8659,6 +8662,8 @@ newsweek.com##iframe[src="http://sns.europe.newsweek.com/newsletter?popup=1"]
 !##############################
 ! SECTION: Tweaks - JS
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/205047
+5wip-file.ru#%#//scriptlet('adjust-setInterval', '.df-wrap')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/204557
 datanodes.to#%#//scriptlet('adjust-setTimeout', '/downloadForm|seconds--/', '*', '0.001')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/204724
