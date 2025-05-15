@@ -59,6 +59,8 @@ alfastrah.ru,turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,ra
 !
 !
 !
+10minutesemail.net##main.tm-drax-content > div[style^="display:"]
+temporary-mail.net###mobile-app-banner
 terabox.com##.video-btn-download
 scheels.com#?#.font-bold:contains(Download Our App)
 scheels.com##a[href*="/app"]
@@ -3676,6 +3678,7 @@ m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
 ! causes some issues: https://github.com/AdguardTeam/AdguardForMac/issues/550
 ~vert.sh,~search.brave.com,~status.im,~lafenice.io,~kurer-sreda.ru,~chorki.com,~zattoo.com,~zaycev.net,~hitta.se,~mail.ru,~facebook.com,~instagram.com,~drive.google.com$$link[rel="manifest"]
 !
+vnexpress.net##.installvneapp
 online.otpbank.ru#%#//scriptlet('set-cookie', 'redirect_app', 'false')
 altema.jp##.link-fixed
 [$path=/pogoda]yandex.*##div[class^="AppLeftPanelLinksClient_"]
