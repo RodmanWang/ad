@@ -76,7 +76,7 @@ startpage.com##.privacy-extension-and-app-widget
 uslugi.yandex.ru#%#//scriptlet('trusted-click-element', 'button.MobAppDistributionSlidingPanel-Close')
 tokopedia.com#$#body > div:has(> div[data-unify="Overlay"] + div > article[data-unify="Modal"] img[src^="https://p16-assets-sg.tokopedia-static.net/"][src$="/zeus/kratos/a79a26a0.png"]) { display: none !important; }
 tokopedia.com#$#body { overflow: auto !important; }
-books.yandex.ru##.app-offer-banner_container__RUE5E
+books.yandex.ru##div[class^="app-offer-banner_container"]
 autotrader.com###hpSmartBanner
 autotrader.com##.app-store-bar
 vivo.com##.vep-head-download
@@ -3679,6 +3679,7 @@ m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
 ! causes some issues: https://github.com/AdguardTeam/AdguardForMac/issues/550
 ~vert.sh,~search.brave.com,~status.im,~lafenice.io,~kurer-sreda.ru,~chorki.com,~zattoo.com,~zaycev.net,~hitta.se,~mail.ru,~facebook.com,~instagram.com,~drive.google.com$$link[rel="manifest"]
 !
+doctoranytime.gr##.mobile-app-promo-banner
 vnexpress.net##.installvneapp
 online.otpbank.ru#%#//scriptlet('set-cookie', 'redirect_app', 'false')
 altema.jp##.link-fixed
