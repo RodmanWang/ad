@@ -45,7 +45,6 @@
 ||adx-*.dbankedge.cn^
 ||adx-*.op.dbankcloud.com.edgekey.net^
 ||ali-bj-pcdn-*.biliapi.net^
-||alishop*.ru^$third-party
 ||ana*.inews24.com^
 ||analytics*.carambo.la^
 ||analytics*.clickdimensions.com^
@@ -71,7 +70,6 @@
 ||at*.doubanio.com^
 ||auth-*.hismarttv.com^
 ||ax.*.ifeng.com^
-||banner*.kinogo.by^
 ||banner.*.tccapis.com^
 ||bar*.shinobi.jp^$third-party
 ||batchlogging*-eu.truecaller.com^
@@ -83,13 +81,11 @@
 ||bi-eventtracker-*.amazonaws.com^
 ||bjsvp*.space^
 ||block.s*block.com^$third-party
-||broredir*s.site^
 ||browser-intake-*-datadoghq.com^
 ||btn.createsend*.com^$third-party
 ||c*hit.zerkalo.io^
 ||cas.*.criteo.com^
 ||cdn*.pdmntn.com^$third-party
-||cdn*.swaxis.com^$third-party
 ||cdn-adn-*.rayjump.com^
 ||ce-global-track-*.amazonaws.com^
 ||chat*-ce.chatdealer.jp^
@@ -122,7 +118,6 @@
 ||discovery-ios-*.ertelecom.ru^
 ||dm*.yxlady.com^
 ||dn*.ixinwei.com^
-||dw-informer-*.newsru.com^
 ||eclog*-*.cafe24.com^$third-party
 ||eum*.instana.io^
 ||event.*.shoplive.cloud^
@@ -141,7 +136,6 @@
 ||geoloc*.geo20120530.com^
 ||geoloc*.geostats.ovh^
 ||geoloc*.geovisite.ovh^
-||gonews*.net^$third-party
 ||gscounters.*.gigya.com^
 ||hn-ping*.hashnode.com^
 ||host*.carl-ras.dk^
@@ -198,7 +192,6 @@
 ||metric*.rediff.com^
 ||metrics*.fitanalytics.com^$third-party
 ||mf*.advantage.as^$third-party
-||minitds-*.info^$third-party
 ||mkto-*.com^$third-party
 ||mob*.novanewsapp.com^
 ||mobiadvert*.livesportmedia.eu^
@@ -212,7 +205,6 @@
 ||ms*.applvn.com^
 ||mssdk*.capcutapi.com^
 ||mssdk*.zijieapi.com^
-||orbit*.lun.ua^$third-party
 ||parkdomainreal*.site^$third-party
 ||pijama.*.elasticbeanstalk.com^
 ||pixel*.production-public.tubi.io^
@@ -228,12 +220,9 @@
 ||putrr*.com^$third-party
 ||px*.mediahills.ru^
 ||pxl-*.ozone.ru^
-||q*-publick.club^$third-party
 ||qpb*.sohu.com^
 ||query*.petametrics.com^
-||rb*.design.ru^
 ||reachableads-av.*.amazonaws.com^
-||real*traf.ru^$third-party
 ||report*.appmetrica.webvisor.com^
 ||report.*.gbqofs.io^
 ||report.*.qq.com^
@@ -254,7 +243,6 @@
 ||sock*-goguardian.pusher.com^
 ||sonar*.xy.fbcdn.net^
 ||srmdata-*.com^$third-party
-||srv*.*tuplay.ru^$script
 ||ssh.*.com^*!$script,third-party
 ||ssp*.rtb.beeline.ru^
 ||st-*.dynamicyield.com^
@@ -264,7 +252,6 @@
 ||static*.365inews.com^
 ||stats*.videonow.ru^
 ||stlog*-local.kakao.com^
-||subnewss*.net^$third-party
 ||suite*.linximpulse.net^$third-party
 ||t*.playdigo.live^
 ||t*.zcvh.net^
@@ -284,7 +271,6 @@
 ||trk*.vidible.tv^
 ||tupian888.*.bcebos.com^
 ||tw*.netcore.co.in^
-||u*.takru.com^
 ||ubacollect-*.cloud.dbankcloud.cn^
 ||uc*.atobo.com^
 ||ulog*.gifshow.com^
@@ -300,11 +286,7 @@
 ||v*-ad.video.yximgs.com^
 ||v*.sitecounter.site^$third-party
 ||v*.zopim.com^$domain=ltbjeans.com
-||v.*.pw^$domain=pics-money.ru
-||v.newsportal*.ru^$third-party
-||v.tzbox*.xyz^$third-party
 ||vns86.oss-*.aliyuncs.com^
-||w*statistics.info^$third-party
 ||widget-v*.tidiochat.com^$third-party
 ||widgets.*.webengage.com^
 ||www.fuze-hill*.xyz^$popup
