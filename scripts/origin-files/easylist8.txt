@@ -3525,6 +3525,7 @@ www.kinopoisk.ru##div[class^="trailer-promo"]
 !
 ! SECTION: Self-promo - Regular rules
 !
+carparts.com##section[data-testid="membership-notif-bar"]
 rusi.org##section div[class*="MemberPromoCtaBlockParagraph"]
 app.tuta.com###modal:has( > div[class]:only-child > div[class]:only-child > div[class]:only-child > div[class]:only-child > .dialog-buttons > button[data-testid*="upgradeReminderCancel"])
 andina.nasuacasa.coca-cola.com.br#$#.wheel-modal { display: none !important; }
@@ -8669,7 +8670,8 @@ newsweek.com##iframe[src="http://sns.europe.newsweek.com/newsletter?popup=1"]
 !######### JS tweaks ##########
 !##############################
 ! SECTION: Tweaks - JS
-!
+! https://github.com/AdguardTeam/AdguardFilters/issues/205718
+briefly.co.za#%#//scriptlet('prevent-addEventListener', 'copy', '.concat')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/205512
 fileink.com#%#//scriptlet('adjust-setInterval', 'generateDownloadLink', '*', '0.001')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/205047
