@@ -182,6 +182,7 @@
 ||log*.byteoversea.com^
 ||log*.vietnamplus.vn^
 ||log*.zijieapi.com^
+||log-va*.capcutapi.com^
 ||logger-*.dailymotion.com^
 ||logs*.smithsonian.museum^$third-party
 ||logservice-*.platform.dbankcloud.cn^
@@ -209,6 +210,7 @@
 ||mon-*.lemon8-app.com^
 ||mon-*.lemon8-app.us^
 ||mon-*.tiktokv.com^
+||mon-va*.capcutapi.com^
 ||ms*.applvn.com^
 ||mssdk*.capcutapi.com^
 ||mssdk*.zijieapi.com^
@@ -274,6 +276,7 @@
 ||thothd.*^$replace=/(protect_block:[\s\S]*?')[\s\S]*?'/\$1'/,document
 ||tnc*.tiktokv.us^
 ||tnc*.zijieapi.com^
+||tnc-va*.capcutapi.com^
 ||tnc16-*.byteoversea.com^
 ||tnc16-*.hypic.com^
 ||track.*.roku.com^
