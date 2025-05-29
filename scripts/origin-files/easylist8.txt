@@ -35,6 +35,9 @@ instagram.com##._aagw:empty
 ! End: Instagram.com
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/206140
+||elements.video/player.js$domain=forbes.com
+forbes.com##div[class][style="top: 25px;"]:has(+ div[data-testid="fbs-ad - rightRail"])
 ! https://github.com/AdguardTeam/AdguardFilters/issues/206453
 pinion.jp##.wiki-style-right-side > div.poll-container
 ! https://github.com/AdguardTeam/AdguardFilters/issues/206304
@@ -3533,6 +3536,7 @@ www.kinopoisk.ru##div[class^="trailer-promo"]
 !
 ! SECTION: Self-promo - Regular rules
 !
+draculatheme.com##.card-promo-banner
 sky.pro##div[class^="prof-test"]
 any.run##.slot-banner
 lol-times.com###pickup_banner
