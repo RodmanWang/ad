@@ -4887,6 +4887,8 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+stackexchange.com###ch-popover
+groupon.com##div[data-hydrate="AlertBarWrapper"]
 nur.kz##div[class^="bookmark-add-button-module__tooltipContainer"]
 stackedit.io#%#//scriptlet('set-local-storage-item', 'installPrompted', 'true')
 testfile.org##.elementor-popup-modal:has(a[href^="https://testfile.org/review-"])
@@ -13765,6 +13767,7 @@ gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,n
 !
 ! SECTION: Subscriptions - Regular rules
 !
+groupon.com#%#//scriptlet('trusted-set-cookie', 'exit_modal_opened_timestamp', '$currentISODate$')
 pinion.jp#%#//scriptlet('set-cookie', 'newsletter-dismissed', 'yes')
 pinion.jp##.wiki-style-right-side > div.nl-box
 thecourier.co.uk##.content-hook > div.tp-container-inner
