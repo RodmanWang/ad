@@ -4887,6 +4887,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+cuprum.media##.taro-wrapper
 nifty.com##div[class^="LoginGuidePopup_area_"]
 stackexchange.com###ch-popover
 groupon.com##div[data-hydrate="AlertBarWrapper"]
@@ -13768,6 +13769,7 @@ gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,n
 !
 ! SECTION: Subscriptions - Regular rules
 !
+deti.mail.ru##div[data-logger="subscribeWidgets"]
 ||hellointerior.jp/note/wp-content/plugins/wordpress-popup/assets/hustle-ui/js/hustle-ui.min.js
 groupon.com#%#//scriptlet('trusted-set-cookie', 'exit_modal_opened_timestamp', '$currentISODate$')
 pinion.jp#%#//scriptlet('set-cookie', 'newsletter-dismissed', 'yes')
@@ -16271,7 +16273,6 @@ pnas.org##.signup-alert-ad
 sciencenews.org##.wp-block-follow-us
 rcnradio.com##.field--name-call-action-google-news
 vseinstrumenti.ru##div[data-qa="subscribe-main-container"]
-revistacromos.com.co##.Button_google
 wallhere.com##.hub-newsletter
 plannedparenthood.org##div[data-module-name="Sign Up for Email Alerts"]
 j-town.net###magazine_induction
@@ -18917,7 +18918,7 @@ weraveyou.com,r-bloggers.com##.snp-fb
 freekaamaal.com##.telepulse_link
 naftemporiki.gr,displaydb.com,freekaamaal.com##.subscription-container
 javarevisited.blogspot.com###HTML15
-groovypost.com,sexualalpha.com,nextpit.de,twominutebooks.com,nextpit.com,javarevisited.blogspot.com##.seva-form
+radanskoric.com,groovypost.com,sexualalpha.com,nextpit.de,twominutebooks.com,nextpit.com,javarevisited.blogspot.com##.seva-form
 anti-malware.ru##.telegram_sub
 motor.ru,passion.ru,wmj.ru,ferra.ru##.zalipuha
 robbreport.com,globo.com##.newsletter-link

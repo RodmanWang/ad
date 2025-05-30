@@ -6002,6 +6002,9 @@ yandex.*#?#div[class^="layout__top"] > div[class^="layout_"]:has(> div[style] > 
 ! Yandex Browser start page
 ||yandex.ru/portal/ntp/banner$redirect=nooptext
 !
+! Edadeal
+edadeal.ru##div[class*="ads"]
+!
 ! Kinopoisk
 /kinopoisk\.ru\/\w+\/[a-zA-Z0-9_-]+\/[a-zA-Z0-9_-]{100,}/$replace=/"attributes"/""/,script,domain=www.kinopoisk.ru
 www.kinopoisk.ru##.underheader-superbanner-wrapper
@@ -18879,6 +18882,8 @@ mail.ru##div[slot="main-column"] > div.tgb-wrapper
 auto.mail.ru##.daynews__inner > tbody > tr > td.daynews__spring
 auto.mail.ru##.sharelist + div.box_block
 !
+cloud.mail.ru##a[href*="disable_ads_public"]
+cloud.mail.ru##div[class^="ErrorPage__advDesktop--"]
 cloud.mail.ru###sidebar-banner
 cloud.mail.ru###topBanner
 cloud.mail.ru##.public__content__noads
