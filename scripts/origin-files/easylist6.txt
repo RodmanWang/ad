@@ -12212,6 +12212,7 @@ kurashiru.com#$#html.dly-modal-active { overflow: auto !important; }
 ! SECTION: Popups - Mobile sites only
 !#if (adguard_app_android || adguard_app_ios || adguard_ext_android_cb || ext_ublock)
 !
+lootbar.gg##.c-nav-install
 news.yahoo.com###add-shortcut
 sp.netkeiba.com###colorbox:has(section#inline-content > a#ModalLink > img[src^="https://cdn.netkeiba.com/img.sp/banner_image.php?type=modal_banner"])
 navikuru.jp##.floatingBannerWrap.notConfirmForm
@@ -12867,6 +12868,8 @@ macwelt.de,pcwelt.de#%#//scriptlet("set-constant", "firebase.messaging", "noopFu
 !
 ! SECTION: Push notifications - Regular rules
 !
+buienradar.nl#$#body { overflow: auto !important; }
+buienradar.nl#$#div[class^="onboard-"] { display: none !important; }
 ||sueddeutsche.de/szde-assets/webpush/
 sportmail.ru##body > div[style="top: 8px; left: 120px;"]
 ||iobit.com/tpl/js/push/push-notification.js
