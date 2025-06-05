@@ -53,7 +53,7 @@ return [
         "tmeadbak.y.qq.com", // #847
         "ugcup.music.qq.com", // #847
         "ipv6.kg.qq.com", // #847
-        "tmeadbak.y.qq.com", // #847
+        "log.node.minigame.qq.com", // #1012
     ],
     "openstorage.cn" => ["iflyad.bjb.openstorage.cn"],
     "analysys.cn" => ["analysys.cn"],
@@ -67,7 +67,11 @@ return [
     "adview.cn" => ["adview.cn"],
     "wrating.com" => ["wrating.com"],
     "umengcloud.com" => ["umengcloud.com", "ulogs.umengcloud.com"],
-    "umeng.com" => ["umeng.com", "alogs.umeng.com"],
+    "umeng.com" => [
+        "umeng.com",
+        "alogs.umeng.com",
+        "utoken.umeng.com", // #1006
+    ],
     "umeng.co" => ["umeng.co"],
     "dftoutiao.com" => ["dftoutiao.com"],
     "miaozhen.com" => ["miaozhen.com"],
@@ -261,7 +265,12 @@ return [
     ],
 
     "kingsoft-office-service.com" => ["abroad-ad.kingsoft-office-service.com"],
-    "amap.com" => ["logs.amap.com", "dualstack-logs.amap.com", "v6-adashx.ut.amap.com"],
+    "amap.com" => [
+        "logs.amap.com",
+        "dualstack-logs.amap.com",
+        "v6-adashx.ut.amap.com",
+        "h-adashx.ut.amap.com", // #1026
+    ],
     "tt114.net" => ["tt114.net"], //例如http://www.tt114.net/html/tlink.html
     "taobao.com" => [
         "ip.taobao.com",
@@ -355,10 +364,9 @@ return [
         "h5.vivo.com.cn", // #847
         "browser.vivo.com.cn", // #847
         "zhan.vivo.com.cn", // #847
-        "onewsvod.com", // #847
-        "yidianzixun.com", // #847
         "ads-marketing-vivofs.vivo.com.cn", // #847
     ],
+    "onewsvod.com" => ["onewsvod.com"], // #847
     "vnet.cn" => ["vnet.cn"], //互联星空
     "wannaplay.cn" => ["h5.wannaplay.cn"], //游戏广告
     "waps.cn" => ["waps.cn"], //广告商
@@ -687,7 +695,7 @@ return [
     "pubghio.fun" => [
         "pubghio.fun", // #212, https://pubghio.fun/login?agency=200
     ],
-    "xladapi.izuiyou.com" => [
+    "izuiyou.com" => [
         // 手机迅雷广告
         "xladapi.izuiyou.com",
         "xlstat.izuiyou.com",
@@ -1544,7 +1552,7 @@ return [
     "birdgesdk.com" => [
         "aa.birdgesdk.com", // #989
     ],
-    "mssdk-bu.bytedance.com" => [
+    "bytedance.com" => [
         "mssdk-bu.bytedance.com", // #989
     ],
     "pinduoduo.com" => [
@@ -1561,6 +1569,38 @@ return [
     ],
     "brg0.com" => [
         "brg0.com", // #970
+    ],
+    "doglobal.net" => [
+        // #1006
+        "doglobal.net",
+        "api-es.doglobal.net",
+    ],
+    "yfanads.cn" => [
+        "yfanads.cn", // #1006
+    ],
+    "yfanads.com" => [
+        // #1006
+        "yfanads.com",
+        "adx-data.yfanads.com",
+        "api.yfanads.com",
+        "tracker.yfanads.com",
+    ],
+    "adanxing.com" => [
+        // #1015
+        "adanxing.com",
+        "statics.adanxing.com",
+    ],
+    "kuaishou.com" => [
+        "promotion-partner.kuaishou.com", // #1015
+    ],
+    "qttunion.com" => [
+        "api.qttunion.com", // #1015
+    ],
+    "qm989.com" => [
+        // #1045
+        "a6-remad.qm989.com",
+        "a-qmad.qm989.com",
+        "t-remad.qm989.com",
     ],
 
     "2mdn-cn.net" => ["2mdn-cn.net"],
@@ -2157,6 +2197,10 @@ return [
         "applogios.uc.cn", // uc log
         "gjapplog.uc.cn", // #442
         "applog.ucdns.uc.cn", // #442
+        "applog-perf.uc.cn", // #1026
+        "adashx.ut.uc.cn", // #1026
+        "h-adashx.ut.uc.cn", // #1026
+        "s-adashx.ut.uc.cn", // #1026
     ],
     "sm.cn" => [
         // dns日志提取
