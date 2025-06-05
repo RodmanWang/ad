@@ -5,7 +5,6 @@ source /etc/profile
 cd $(cd "$(dirname "$0")";pwd)
 
 easylist=(
-  "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_1_Russian/filter.txt"
   "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt"
   "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt"
   "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_4_Social/filter.txt"
@@ -16,11 +15,10 @@ easylist=(
   "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_21_Annoyances_Other/filter.txt"
   "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_22_Annoyances_Widgets/filter.txt"
   "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt"
-  "https://raw.githubusercontent.com/List-KR/List-KR/master/filters-share/3rd_domains.txt"
 )
 
 hosts=(
-  "https://raw.githubusercontent.com/RodmanWang/ad/master/scripts/origin-files/ad-hosts.txt"
+  "https://gitea.goota.top/RodmanWang/ad/raw/branch/master/scripts/origin-files/ad-hosts.txt"
   "https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-hosts-online.txt"
   "https://pgl.yoyo.org/adservers/serverlist.php?showintro=0;hostformat=hosts&useip=0.0.0.0"
 )
