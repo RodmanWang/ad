@@ -210,6 +210,7 @@ return [
     "mazu.3g.qq.com" => 0, // #340
     "umiwi.com" => 0, // #341
     "xmpush.xiaomi.com" => 0, // #343
+    "app.chat.xiaomi.net" => 0, // https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/1726
     "doublecklick.net" => 1, // 拼写错误的域名，https://github.com/privacy-protection-tools/anti-AD/pull/347/files
     "issuecdn.baidupcs.com" => 0, // #350
     "duiba.com.cn" => 0, // #352
@@ -444,6 +445,10 @@ return [
     "c.paypal.com" => 0, // #965
     "cc.map.qq.com" => 0, // #974
     "xp.apple.com" => 0, // #991, #972
+    "pkoplink.com" => 0, // #998
+    "r.stripe.com" => 0, // #1033
+    "data.vod.itc.cn" => 0, // #1038
+    "similarweb.com" => 0, // #1039
 
     "iflow.uczzd.cn" => 0, // uc搞笑段子
     "m.uczzd.cn" => 0, // uc搞笑段子
