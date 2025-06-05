@@ -18,7 +18,7 @@ easylist=(
 )
 
 hosts=(
-  "https://gitea.goota.top/RodmanWang/ad/raw/branch/master/scripts/origin-files/ad-hosts.txt"
+  "https://raw.githubusercontent.com/RodmanWang/ad/refs/heads/master/scripts/origin-files/ad-hosts.txt"
   "https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-hosts-online.txt"
   "https://pgl.yoyo.org/adservers/serverlist.php?showintro=0;hostformat=hosts&useip=0.0.0.0"
 )
