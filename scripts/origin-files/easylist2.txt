@@ -681,6 +681,7 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 !
 ! NOTE: Specific rules
 !
+net.hr##.se-article--share
 pocketcasts.com##button[label="share"]
 pocketcasts.com##div[data-testid="img-btn-share"]
 pocketcasts.com##span[role="button"][aria-label="Share Episode"]
@@ -1703,7 +1704,6 @@ homes.panasonic.com##.phg-share-sns
 amanofoods.jp##.c-postShare
 tennisuptodate.com##.flex:has(> button[title="shareOnWhatsap"])
 ici.radio-canada.ca##.jo-endpage__sharing-bar
-diziplus.co,dizifast.net##.post-like > a.vote-it ~ a[style][class^="ui"][class$="icon button"]
 thebanker.com##div[data-trackable-section="social-networks-widget"]
 linktr.ee##div[data-testid="ShareModal-ShareList"]
 allboxing.ru##.c-box-header-right > ul.c-box-header-menu > li.c-box-hidden + li[class]
@@ -3063,7 +3063,8 @@ thelocal.*##.article-single__social button.copy
 earth.jp##.snsContainer
 volleybox.net##a[onclick^="getShareDialog("]
 kyivindependent.com##.c-share__wrapper
-kp.ru##div[data-gtm="share"]
+kp.ru,kp.by,kp.kg,kp.kz##div[data-name] ~ div:has(> div:only-child > div[data-gtm="share"])
+kp.ru,kp.by,kp.kg,kp.kz##div[data-gtm="share"]
 kommersant.ru##.iconbox__item--share
 barefootuniverse.com##.cb-post-share
 esportsdriven.com##div[class^="SocialShare_"]
@@ -14959,7 +14960,6 @@ dailylviv.com###followdaily
 gamerconfig.eu###fb_wrapper
 kepeztv.az##body > #overlay
 kepeztv.az##body > #frame
-onpress.info##.modalParent
 ogo.ua###aPopup
 seattletimes.com##.facebook-modal
 ||kinosklad.net/templates/kinosklad/js/jquery.arcticmodal.min.js
