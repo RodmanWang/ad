@@ -2043,7 +2043,9 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 ! NOTE: Specific rules
 !
-freepdfcomic.com##div[style^="overflow:"].wrap
+play.ponta.jp##.bnr-header
+play.ponta.jp#$#.p-header-wrap { padding-top: 0 !important; }
+freepdfcomic.com###myIframe
 roboin.io##main > article > div[class]:has(> div > ins.adsbygoogle)
 japannewsnavi.com##.douga-ads
 ske48matoeme.com##.article-body-more b > span[style="font-size: x-small;"]
