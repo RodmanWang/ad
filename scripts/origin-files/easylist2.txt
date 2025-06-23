@@ -680,6 +680,7 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 !
 ! NOTE: Specific rules
 !
+centralasia.media##.share-aki-btns
 sport24.gr##.single_article_social
 pap.pl##.youTube
 movielinkbd.*##img[alt="Join Facebook Group"]
@@ -2711,7 +2712,6 @@ watabe-wedding.co.jp###SnsShare
 iprimo.jp##.detail_column_sns
 horimiya-anime.com##.p-nav__snslist
 nippon.com##div[name="addthis_tools"]
-freepdfcomic.com##.snssharer
 glassalmanac.com,karanpc.com,mrmad.com.tw##.ns-buttons
 food.ru##div[class^="shareRateMaterial_"] > div[class^="shareRateMaterial_contentItem"]:last-child
 iodonna.it##.eltdf-woo-social-share-holder
@@ -9659,7 +9659,7 @@ e-klase.lv##.reactions-item.tw
 e-klase.lv##.reactions-item.fb
 e-klase.lv##.reactions-item.dr
 yafud.pl###fbBOX
-m.dcinside.com,kindou.info##.sp-share
+sme.it,m.dcinside.com,kindou.info##.sp-share
 wiwo.de##.c-socialshare
 handelsblatt.com##.vhb-share-button
 speakingtree.in##.share.verticalC
