@@ -3506,6 +3506,7 @@ www.kinopoisk.ru##div[class^="trailer-promo"]
 !
 ! SECTION: Self-promo - Regular rules
 !
+||creatives-promo.telegraaf.nl^
 atptour.com##.atp_article > p:has(> a[href^="https://www.atptour.com/"][href$="/news/it-all-adds-up-hub"])
 atptour.com##.atp_article > p:has(> a[href^="https://www.atptour.com/"][href$="/news/atp-number-one-club"])
 polyhaven.com##div[class^="Grid_"] > div[class^="NewsCard_wrapper_"]
@@ -8678,6 +8679,8 @@ newsweek.com##iframe[src="http://sns.europe.newsweek.com/newsletter?popup=1"]
 !##############################
 ! SECTION: Tweaks - JS
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/208960
+windowsxlite.com#%#//scriptlet('set-constant', 'disableRightClick', 'false')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/208730
 asiaon.top#%#//scriptlet('href-sanitizer', 'a[href^="https://link.asiaon.top/full?api="][href*="&url=aHR0c"]', '?url', 'base64decode')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/208570
