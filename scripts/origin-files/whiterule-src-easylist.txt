@@ -61,14 +61,10 @@
 @@||abczdrowie.pl^$generichide
 @@||aboluowang.com^$generichide
 @@||acapellas.eu^$generichide
-@@||account-cdn.myunidays.com^$elemhide,jsinject
 @@||accounts.ea.com^$stealth
 @@||accounts.google.com^$generichide
-@@||accounts.google.com^$jsinject,generichide
 @@||accounts.google.com^$popup
 @@||accounts.login.idm.telekom.com^$stealth
-@@||acea.it^$extension
-@@||acea.it^$jsinject
 @@||acid2.acidtests.org^$document
 @@||acid3.acidtests.org^$document
 @@||acidcow.com^$generichide
@@ -82,8 +78,6 @@
 @@||ad.kazakinfo.com^
 @@||ad.ourgame.com^
 @@||ad.vivo.com.cn^$~third-party
-@@||adamas.ru^$jsinject,elemhide
-@@||adamas.ru^$jsinject,elemhide,extension
 @@||adblock.adguard.com^
 @@||adblockplus.org^$generichide
 @@||adcdn.pingan.com^
@@ -481,7 +475,6 @@
 @@||chimica-online.it^$generichide
 @@||chinamobile.com^$generichide
 @@||chineseanime.vip^$generichide
-@@||chromeweblab.com^$jsinject,elemhide
 @@||chuangkit.com^$generichide
 @@||chuppito.fr^$generichide
 @@||cintateknologi.com^$generichide
@@ -900,7 +893,6 @@
 @@||filmedonstage.com^$generichide
 @@||filmes-torrent-baixar.blogspot.com^$generichide
 @@||filmibeat.com^$generichide
-@@||films.imhonet.ru^$jsinject
 @@||filmweb.pl^$elemhide,important
 @@||filmweb.pl^$generichide
 @@||filmweb.pl^$generichide,badfilter
@@ -1333,7 +1325,6 @@
 @@||katmirror.info^$generichide
 @@||kblognext.com^$generichide
 @@||kecapku.com^$generichide
-@@||keep.google.com^$jsinject
 @@||keepkoding.com^$generichide
 @@||keizai.biz^$generichide
 @@||kejilion.pro^$generichide
@@ -1683,7 +1674,6 @@
 @@||muzlan.top^$generichide
 @@||mvcat.com^$generichide
 @@||mx-sh.net^$generichide
-@@||my.bmi.ir^$elemhide,jsinject
 @@||my.westfieldinsurance.com^$document
 @@||my0nio.seesaa.net^$generichide
 @@||myaccount.google.com^$generichide
@@ -1728,12 +1718,10 @@
 @@||nensaysubs.net^$generichide
 @@||neowin.net^$generichide
 @@||nerdmaldito.com^$generichide
-@@||netbk.co.jp^$jsinject
 @@||netcine.*^$generichide
 @@||netflav.com^$generichide
 @@||netflix.com^$generichide
 @@||nevcoins.club^$generichide
-@@||new.livestream.com^$jsinject
 @@||news-tech.xyz^$generichide
 @@||news.bg^$generichide
 @@||news.goo.ne.jp^$generichide
@@ -1808,7 +1796,6 @@
 @@||oldskool.vip^$generichide
 @@||olgame.tw^$generichide
 @@||olodesi.com^$generichide
-@@||omegle.com^$jsinject
 @@||omgexploits.com^$generichide
 @@||omglyrics.com^$generichide
 @@||omutulove.blog.fc2.com^$generichide
@@ -1826,7 +1813,6 @@
 @@||online-mic-test.com^$generichide
 @@||online-screen-recorder.com^$generichide
 @@||online.cosmosbank.in^$document
-@@||online.tivo.com^$elemhide,jsinject
 @@||onlinemschool.com^$generichide
 @@||onlinetutorium.com^$generichide
 @@||onlinevideoconverter.com^$generichide
@@ -1926,7 +1912,6 @@
 @@||piratedhub.com^$generichide
 @@||pitbullofficial.com^$generichide
 @@||pixelpassion.info^$generichide
-@@||pixlr.com^$content,jsinject
 @@||pkfnpo.ru^$generichide
 @@||pkstep.com^$generichide
 @@||planet-streaming1.com^$generichide
@@ -2289,7 +2274,6 @@
 @@||star-telegram.com^$generichide
 @@||starfaucet.net^$generichide
 @@||stars24.cz^$generichide
-@@||static.softlayer.com^
 @@||steamid.uk^$generichide
 @@||steampiay.cc^$stealth
 @@||stemplay.*^$stealth
@@ -2341,14 +2325,12 @@
 @@||taimanin-rpg.wikiru.jp^$generichide
 @@||tainhanhvn.com^$generichide
 @@||tajemnice-swiata.pl^$generichide
-@@||talkgadget.google.com^$jsinject
 @@||tamilyogi.vip^$generichide
 @@||tangsanbooks.com^$generichide
 @@||tapewithadblock.org^$generichide
 @@||target.my.com^$~third-party,document
 @@||tatuajestatu.com^$generichide
 @@||tboost.xyz^$generichide
-@@||teabox.com^$jsinject,elemhide
 @@||teachertube.com^$generichide
 @@||teachios.com^$generichide
 @@||team-octavi.com^$generichide
