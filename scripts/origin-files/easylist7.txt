@@ -3506,6 +3506,8 @@ www.kinopoisk.ru##div[class^="trailer-promo"]
 !
 ! SECTION: Self-promo - Regular rules
 !
+git-tower.com##.download-tower-framed
+git-tower.com##.sidebar-cta
 fshare.vn###month_promp_voucher_pp
 ||qitano.com/wp-content/uploads/LEGOOLmovie/
 ||qitano.com/wp-content/uploads/*.gif1
@@ -8276,6 +8278,7 @@ surinenglish.com#$#div[data-voc-adbd-layer] > div[class]  { margin-bottom: 0px !
 blog.springsfern.in#%#//scriptlet('trusted-click-element', '#generateLinkBtn')
 blog.springsfern.in#$##generateLinkBtn { display: block !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/187649
+3dsfree.org#$##waittime { display: none !important; }
 3dsfree.org#$#.download_dem { display: block !important; }
 ! chip.de - show download button without waiting
 chip.de#$#.dl-btn-countdown { display: none !important; }
