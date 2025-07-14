@@ -2009,8 +2009,6 @@ shutterstock.com##div[class][style^="transition-duration:"] > div[class] > div[c
 naver.com###whale_promotion_banner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/42258
 ceneo.pl##.js_widget.widget-mobile.js_analytics-smallWidget[style]
-! https://github.com/AdguardTeam/AdguardFilters/issues/42202
-85tube.com##.images > .private + .message
 ! https://github.com/AdguardTeam/AdguardFilters/issues/41998
 dobreprogramy.pl##.wppwidget > #Player0.FloatingPlayer.floating
 ! https://github.com/AdguardTeam/AdguardFilters/issues/52501#issuecomment-606636283
@@ -6277,7 +6275,7 @@ music.youtube.com##ytmusic-mealbar-promo-renderer
 youtube.com###ticker-content
 ||banner.consultant.ru^
 toto.rakuten.co.jp#?#.login-section2 > div.login-none-inner:has(> div.campaign)
-curseforge.com,toto.rakuten.co.jp,themeforest.net##.banner
+incehesap.com,curseforge.com,toto.rakuten.co.jp,themeforest.net##.banner
 alba.co.kr###MainBanner
 albamon.com##.stickyBestalba
 thinkster.io###carbonhold

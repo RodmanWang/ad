@@ -675,6 +675,9 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 !
 ! NOTE: Specific rules
 !
+sakh.online##div[class^="SakhHome_header"]:contains(Социальные сети)
+sakh.online##div.swiper-container:has(> div.swiper-wrapper div#ok_group_widget_feed)
+sakh.online##div[class^="Share_share"]
 research.google##.quicklinks__item--share
 funda.nl##button[title="Delen"]
 shh-town-board.com##.vcex-social-share
@@ -5511,7 +5514,7 @@ swissinfo.ch##.si-page__utility-container
 data.wingarc.com##.new-entry-social
 gqjapan.jp##div[class^="NativeShareIconWrapper-"]
 gqjapan.jp##button[class^="BaseButton-"][data-event-click='{"pattern":"NativeShareButton"}']
-bestporn4free.com,camcam.cc###show-sharing-buttons
+camcam.cc###show-sharing-buttons
 finders.me##.__post-share
 semnasem.org##.article__footer-column-social-share
 busan.com##.btns > li[onclick^="cosmosfarm_share_"][class]
