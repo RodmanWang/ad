@@ -2968,8 +2968,8 @@ warezcrack.net#$#.onp-sl-content > [data-lock-id^="onpLock"] { display: block!im
 cgtips.org#$#div[class][data-locker-id] { display: block !important; }
 cgtips.org#$#.mts-cl[id^="content-locker-"] { display: none !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/68286
-3dmodelshare.org,3dzip.org#$#.mts-cl[id^="content-locker-"] { display: none !important; }
-3dmodelshare.org,3dzip.org#$#div[class][data-locker-id] { display: block !important; }
+3dzip.org#$#.mts-cl[id^="content-locker-"] { display: none !important; }
+3dzip.org#$#div[class][data-locker-id] { display: block !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/57802
 labkom.co.id#$#.fca-lockercat-wrapper { display: none!important; }
 labkom.co.id#$#.fca-lockercat-content { display: block!important; }
@@ -3510,6 +3510,8 @@ www.kinopoisk.ru##div[class^="trailer-promo"]
 !
 ! SECTION: Self-promo - Regular rules
 !
+keibana.com##.home__movie__banner-inner
+keibana.com##.c-side__section__news__item:has(> a.c-side__section__news__link[onclick^="gtag"])
 news.tennis365.net##.newsdetailcontent_body a[href^="https://bit.ly/"]
 keirin.netkeiba.com###cboxOverlay
 keirin.netkeiba.com##.ModalBanner
@@ -8633,8 +8635,8 @@ lnk.news#$##skip_form { display: block!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/48741
 ixbt.com#$#.b-footer > div.block__describe { height: 100px!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/47483
-dl.3dmodelshare.org,download.3dzip.org#$#.download_dem { display: block!important; }
-dl.3dmodelshare.org,download.3dzip.org#$##waittime { display: none!important; }
+download.3dzip.org#$#.download_dem { display: block!important; }
+download.3dzip.org#$##waittime { display: none!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/47357
 1ink.cc#$##countingbtn { display: block!important; }
 1ink.cc#$##countingsec { display: none!important; }
