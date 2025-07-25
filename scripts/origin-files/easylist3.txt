@@ -2035,6 +2035,8 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 ! NOTE: Specific rules
 !
+japanmetaldaily.com##.m-bnr
+[$path=/marketplace/item]facebook.com##a[aria-label="広告主によるリンク"]
 futabanet.jp##.gtm-banner
 tvfan.kyodo.co.jp###side_menu > div.widget_text
 tvfan.kyodo.co.jp###side_menu > div.widget_text + div.boxsh
@@ -4570,6 +4572,7 @@ numan.tokyo,news.denfaminicogamer.jp##.rectangle-bn
 city.isehara.kanagawa.jp##div[id^="bnAdvertisement"]
 ||city.isehara.kanagawa.jp/banner/
 city.fukaya.saitama.jp##.bannerRMod
+asahi.com##.p-ad__container
 asahi.com###ytplayer1-ad
 asahi.com##.p-ad-area
 etude000.com##.ps-widget > div.top-ad:has(.img_container2)
