@@ -61755,6 +61755,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||iws2.io.naver.com^
 ||clog.tanshudata.com^
 ||gw.stape.fr^
 ||analytics-ipv6.tiktokw.us^
@@ -106157,6 +106158,7 @@ $cookie=_awl;maxAge=30,domain=nypost.com|al.com|9news.com
 !
 ! NOTE: Specific rules
 !
+||games-sdk.yandex.ru/games/api/sdk/v1/player/stats^
 s.response.jp##.aside-box-relation-arti
 ||shueisha.online/op/analytics.js
 ||tof.perfectworld.com/public/js/stat-tof-perfectworld-
