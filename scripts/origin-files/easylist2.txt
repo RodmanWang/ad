@@ -675,6 +675,7 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 !
 ! NOTE: Specific rules
 !
+ohga.it##div[class*="share-bar"]
 rtl.be,lesoir.be##.r-menu--share-link[aria-label]
 lesoir.be##.r-menu--share-link[onclick*="bluesky"]
 altchar.com##.js-share-article
@@ -2793,7 +2794,7 @@ tuoitre.vn##.socical
 web.ultra-soccer.jp##.newsdetail-sns
 irisplaza.co.jp##.shosai-share-button
 motivation-up.com##.snsb
-designevo.com###share-tools-root
+flexclip.com,designevo.com###share-tools-root
 so.city##.article-share-div
 relevantmagazine.com##.share_screen
 ipsen.com##.side-panel-social-media
