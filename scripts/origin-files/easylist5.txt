@@ -13671,6 +13671,9 @@ gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,n
 !
 ! SECTION: Subscriptions - Regular rules
 !
+rtl.be##box-newsletters
+lesoir.be###block_marketing_imu_nextgen
+lesoir.be##.r-mini-panel--section:has(.r-froomle--anonyme > .r-froomle--register)
 pbs.org##.newsletter-inline
 pobreflixtv.*,vizertv.*##.ipsAlert
 pobreflixtv.*,vizertv.*##.ipsModal
@@ -19201,8 +19204,8 @@ russianemirates.com#$#body { overflow: auto !important; padding-right: 0 !import
 russianemirates.com#$##popWindow { display: none !important; }
 russianemirates.com#$##popWindow ~ div.modal-backdrop { display: none !important; }
 russianemirates.com##.news-lat
-quiztudy.com,meanjin.com.au,lalanguefrancaise.com,graphicux.com#$#.hustle-popup { display: none !important; }
-quiztudy.com,meanjin.com.au,lalanguefrancaise.com,graphicux.com#$#html[class].hustle-no-scroll { overflow: auto !important; }
+stuff.tv,quiztudy.com,meanjin.com.au,lalanguefrancaise.com,graphicux.com#$#.hustle-popup { display: none !important; }
+stuff.tv,quiztudy.com,meanjin.com.au,lalanguefrancaise.com,graphicux.com#$#html[class].hustle-no-scroll { overflow: auto !important; }
 forum.finance.ua##.subscribe-news-widget
 gothamist.com##div[data-pym-src^="https://apps.nypr.org/newsletter-signup/"]
 gothamist.com##.c-newsletter-form
