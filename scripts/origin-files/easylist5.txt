@@ -4872,6 +4872,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+rutube.ru###communicationBanner
 behance.net##div[class*="Project-followsAppreciationsOverlay"]
 1full4movies.beer###floating-bookmark-wrap
 nodejs.cn##body > .mymn-full
@@ -12360,6 +12361,7 @@ labs.google.com#@##google-hats-survey
 !
 ! SECTION: Push notifications - Generic rules
 !
+###webpushr-prompt-wrapper
 ##body div.notificationPopupBlock
 ##.daftplugPublic
 ##div[data-cypress="soft-push-notification-modal"]
@@ -13090,7 +13092,6 @@ sme.sk##.js-notification-window
 sondakika.com###web_push_notif_perm
 sadeceon.com##.notifyjs-corner
 ||design-homes.ru/sp-push-worker-fb.js
-androidacy.com###webpushr-prompt-wrapper
 echo.msk.ru#%#//scriptlet("set-constant", "Object.prototype.PushSubscription", "")
 buhonline.ru###modals-react-app
 ||s-cdn.phonearena.com/js/*/widgets/survey.js
@@ -13675,6 +13676,7 @@ gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,n
 !
 ! SECTION: Subscriptions - Regular rules
 !
+buzzfeed.com##div[class^="subscriptionButton_emailSubscription__"]
 latina.pe##.sn-button
 wapa.pe##.channel-whatsapp__button
 larepublica.pe##.channel-whatsapp__container
