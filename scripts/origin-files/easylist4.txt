@@ -153,6 +153,10 @@
 ||startup.mobile.webvisor.com^
 ||startup-mobile.ap.yandex-net.ru^
 !
+||jybsb9oyss.com^
+||vniddlg.xyz^
+||tiu6ij9yqn.com^
+||drbbzzs.xyz^
 ||ads-segment-profile-noneu.truecaller.com^
 ||ad.intools.dev^
 ||mp-api.afafb.com^
@@ -2690,6 +2694,7 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
+borsaningundemi.com##.akAds
 beauty.oricon.co.jp##.ttl-kjbox + section:has(> ul.kjbox)
 sci.rambler.ru##div[id^="rambler-info-banner"]
 sci.rambler.ru#?##summary ~ div:contains(Продолжение истории после рекламы)
