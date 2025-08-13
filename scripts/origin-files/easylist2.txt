@@ -680,6 +680,7 @@ antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogamesc
 !
 ! NOTE: Specific rules
 !
+locationjapan.net##.single_news_sns
 muchohentai.com###custom_html-33
 gunhaber.com.tr##div[style*="50px"]:has( > div > div > a[href^="https://www.facebook.com/sharer/"])
 fikriyat.com##.social-media > ul > .facebook
@@ -2365,6 +2366,7 @@ tkj.jp###book-info-sns
 pococha.com##div[class^="news_share"]
 shop-list.com##.p-columnlp_sns
 travel.yahoo.co.jp###sns-share-buttons
+weathernews.jp##.sns-share-buttons
 projectdesign.jp##.c-list-snsBtns
 projectdesign.jp##.c-sns__links
 ohk.co.jp##.common-sharebox
@@ -6142,7 +6144,7 @@ japan.cnet.com##.leaf_sbm_button_space_note
 japan.cnet.com##.leaf_sbm_button_space_twitter
 toonippo.co.jp##.ad-billbaord
 munesada.com##.sns-bottom-frame
-nrm.jp,mtame.jp,currymeshi.com,wear.jp,banei-keiba.or.jp###sns_share
+wjsm.co.jp,nrm.jp,mtame.jp,currymeshi.com,wear.jp,banei-keiba.or.jp###sns_share
 bunshun.jp##.share_beginning_button
 pen-online.jp##.p-article__intro-sns
 logsign.com##.share-horizontal-title
