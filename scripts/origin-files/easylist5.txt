@@ -3315,7 +3315,6 @@ my.bidvert.com#@#[id^="div-gpt-ad"]
 my.bidvert.com#@#.ad-wrapper
 myshows.me#@#.adblock
 @@||myshows.me^$generichide
-@@||101soundboards.com^$generichide
 @@||imasdk.googleapis.com^$xmlhttprequest,domain=nanifile.com
 @@||adskeeper.co.uk^$domain=bravedown.com
 @@||s.nitropay.com/n.svg$domain=maxroll.gg
@@ -3518,6 +3517,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+msn.com##.showDialog[data-t*="WeatherPwaPopup"]
 news.bitcoin.com#%#//scriptlet('remove-class', 'fixed', '#youtube-card > div[class^="sc-"]')
 news.bitcoin.com#%#//scriptlet('trusted-click-element', '#youtube-player + img[alt="close"]')
 iqos.ru$$script:contains(new PopupAuth)
@@ -11417,6 +11417,9 @@ macwelt.de,pcwelt.de#%#//scriptlet("set-constant", "firebase.messaging", "noopFu
 !
 ! SECTION: Push notifications - Regular rules
 !
+dexerto.com#$?#div[class*="animate-slideInUp"]:has(> div[class] > span.text-display-4:contains(Stay Updated)) { display: none !important; }
+dexerto.com#%#//scriptlet('remove-class', 'fixed', '.fixed[class*="animate-"]')
+dexerto.com##div[class]:has(> button[aria-label="Get Notifications for Twitch News"])
 fan.books.rakuten.co.jp##.fixed.bottom-0:has(> img[alt="osh-icon"])
 ||cdn.loyalty.pobuca.com/*/pobuca-websites.js$domain=mymarket.gr
 viciados.net##.ntfm-subscribe-floating-btn
@@ -12331,6 +12334,8 @@ gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,n
 !
 ! SECTION: Subscriptions - Regular rules
 !
+dexerto.com##aside > div.mb-16:has(> div[class] > form[action="/register/"])
+sporx.com###newsshare2
 businessinsider.com##.newsletter-dynamic
 jptrade.ru##.header-info__holder
 tennislegend.fr##div[tcb-template-name^="Opt-in Form"]
