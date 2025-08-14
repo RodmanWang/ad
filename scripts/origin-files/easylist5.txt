@@ -246,13 +246,15 @@ dzen.ru#%#//scriptlet('json-prune', 'ssrData.exportResponse.feedData.adItems')
 dzen.ru#%#//scriptlet('set-constant', 'Object.prototype.ssrBanner', 'undefined')
 dzen.ru#%#//scriptlet('abort-on-stack-trace', 'Promise', 'initContext')
 dzen.ru#$?##LayoutTopMicroRoot div[style^="padding-top:"][style*="position: relative; height: 0;"] { remove: true; }
-! Sportsdzen
-sportsdzen.ru##div[class*="sports-button-ad"]
-sportsdzen.ru##div[class*="sport-match-rectangle-card__bookmakerOdds"]
 ! https://m.dzen.ru/articles
 m.dzen.ru##div[class^="desktop2--redesign-feed__"] div:has(> article[class*="--card-rtb__"])
 ! Ads in the feed
+dzen.ru##div[class^="dzen-desktop--"][class*="__topContent-"] > div[class^="dzen-desktop--top-sidebar-desktop-"] > article[style]
+dzen.ru##div[class^="dzen-desktop--feed__itemWrap-"] div[class^="dzen-desktop--"][class*="__cardWrapper-"] ~ article:has([class*="__adBox-"])
 m.dzen.ru##div[aria-label="Лента Дзена"] div + article[class*="--card-rtb__"]
+! Sportsdzen
+sportsdzen.ru##div[class*="sports-button-ad"]
+sportsdzen.ru##div[class*="sport-match-rectangle-card__bookmakerOdds"]
 !
 ! Interview popup
 dzen.ru##div[class^="float-interview__float-"]
@@ -12334,6 +12336,7 @@ gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,n
 !
 ! SECTION: Subscriptions - Regular rules
 !
+gamedrive.org##.entry-content a[href="https://gamedrive.org/join"]
 dexerto.com##aside > div.mb-16:has(> div[class] > form[action="/register/"])
 sporx.com###newsshare2
 businessinsider.com##.newsletter-dynamic
@@ -12738,9 +12741,9 @@ rawstory.com#$#.preloaded_lightbox { display: none !important; }
 rawstory.com#$#.fb_lightbox-overlay { display: none !important; }
 rawstory.com#$?#.fb_lightbox-lock { overflow: auto !important; }
 rawstory.com#$?#.fb_lightbox-lock body { overflow: auto !important; overflow-y: auto !important; }
-bianet.org#$#.swg-dialog { display: none !important; }
-bianet.org#$#swg-popup-background { display: none !important; }
-bianet.org#$?#.swg-disable-scroll { overflow: auto !important; }
+autoevolution.com,bianet.org#$#.swg-dialog { display: none !important; }
+autoevolution.com,bianet.org#$#swg-popup-background { display: none !important; }
+autoevolution.com,bianet.org#$?#.swg-disable-scroll { overflow: auto !important; }
 radio1.ru##.main_dzen
 fastcompany.com##.bottomBannerContainer
 hvost.news##a[href^="/bitrix/rk.php?id="]
