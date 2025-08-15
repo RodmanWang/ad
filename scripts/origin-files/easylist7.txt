@@ -35,6 +35,8 @@ instagram.com##._aagw:empty
 ! End: Instagram.com
 !
 !
+! https://uzaymanga.com/
+uzaymanga.com##.fancy-announcement-bar
 ! https://github.com/AdguardTeam/AdguardFilters/issues/210602
 lifehacker.com##[data-ga-element="openweb_scroll"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/210615
@@ -3519,6 +3521,7 @@ www.kinopoisk.ru##div[class^="trailer-promo"]
 !
 ! SECTION: Self-promo - Regular rules
 !
+brazzers.com##div[data-cy="catfish"]
 denik.cz##.moje-predplatne
 123rf.com#$#body { overflow: auto !important; }
 123rf.com#$#div[class^="MainLayout_firstPurchasePromo__"] { display: none !important; }
@@ -3877,7 +3880,6 @@ puck.news###h-join-puck
 puck.news###h-join-puck + div.flex:has(form[action="/join/"])
 pixiv.net##section:has(> div > div.gtm-toppage-premium-close)
 bbs.itying.com##div[style="margin-bottom:20px;margin-bottom:10px"]
-bbs.itying.com##.ads
 jinxxy.com##.grid > .relative:has(.block[href^="https://"])
 health.eonet.jp##.pbNested
 nexusmods.com##.from-primary-subdued
@@ -5833,7 +5835,7 @@ kinogo.*##.kreativ
 lemonde.fr##.message--register
 edureka.co##div[class^="myMock-interview-banner-"]
 ozon.ru##div[data-widget="skuAdvSearchShelf"]
-roskvartal.ru##.ads
+startech.com.bd,bbs.itying.com,roskvartal.ru##.ads
 qobuz.com,telegraph.co.uk##.subscribe-banner
 m.lenta.ru###okko-top-mobile
 reverb.com#?#.sortable-tiles > li.sortable-tile:has(> div.grid-card div.bump-tag)
@@ -9078,7 +9080,8 @@ antonimos.de#%#//scriptlet('set-constant', 'waitTime', '0')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/160334
 mcafee-com.com#%#//scriptlet('set-constant', 'count', '0')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/159577
-1fichier.com#%#//scriptlet('adjust-setTimeout', 'show()', '*', '0.001')
+! https://github.com/AdguardTeam/AdguardFilters/issues/211359
+1fichier.com#%#//scriptlet('adjust-setTimeout', 'ctt()', '1000', '0.001')
 ! https://github.com/uBlockOrigin/uAssets/issues/19422
 nicekkk.com#%#//scriptlet('prevent-setInterval', 'debugger;')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/159121
