@@ -3519,6 +3519,8 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+asahi.com##.chakra-portal:has(> div > div > a[href$="_floating"])
+bebesetmamans.20minutes.fr###banner-chatbot
 msn.com##.showDialog[data-t*="WeatherPwaPopup"]
 news.bitcoin.com#%#//scriptlet('remove-class', 'fixed', '#youtube-card > div[class^="sc-"]')
 news.bitcoin.com#%#//scriptlet('trusted-click-element', '#youtube-player + img[alt="close"]')
@@ -12336,6 +12338,8 @@ gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,n
 !
 ! SECTION: Subscriptions - Regular rules
 !
+shogakukan.co.jp###main > div.mailmagazine_area
+tbrnewsmedia.com##a[href="http://eepurl.com/bitGab"]
 goal.com#?#div[class^="article-body"] span:has(> table td > strong:contains(WhatsApp))
 ||campaign.services.forecast.sirius.press^$domain=lemonde.fr
 zdnet.fr##.cnzd__newsletter
