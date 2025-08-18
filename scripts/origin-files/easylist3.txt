@@ -2053,6 +2053,9 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 ! NOTE: Specific rules
 !
+||seinenbu.tokyo-shoten.or.jp/ad*.php
+seinenbu.tokyo-shoten.or.jp##table[class=".hpb-subh01"] .hpb-subh01-cell1_4 + td[rowspan="4"]
+seinenbu.tokyo-shoten.or.jp###ad_string
 cancam.jp###home-feature
 cancam.jp##.todays-topics article:has(> div[id^="logly"])
 tuberecipe.com##.amazon-AffiliateBanner
@@ -3661,7 +3664,7 @@ ske48matome.net##.adbox2
 ske48matome.net##div[class^="article-body-"] > div[class^="article-body"] > div:not([class]):has(> div[align="center"] > ins.widget-banner)
 ske48matome.net##.plugin-memo:has(> div.side > div.cstmreba)
 hadakanonude.com##.main-inner > center
-erogazou.gallery,sougomatomechannel.livedoor.blog,hadakanonude.com###onlineBanner
+av-wiki.tokyo,erogazou.gallery,sougomatomechannel.livedoor.blog,hadakanonude.com###onlineBanner
 kintore-style.com##div[id^="kinto-"]
 naitter.hippy.jp###secondary > .widget_sp_image
 btnmaker.me##.ads-banner-fixed
@@ -7494,7 +7497,7 @@ mdpr.jp##.c-adBottomOverlay
 sqool.net##.stickyunit
 animatetimes.com##.c-banner-common
 animatetimes.com##.c-banner-lg-site-jack
-onlinegamer.jp,mymo-ibank.com##div[class^="c-ad"]
+medley.life,onlinegamer.jp,mymo-ibank.com##div[class^="c-ad"]
 mag.japaaan.com##.area_a
 mag.japaaan.com##.after_go_next
 dekiru.net##.module-article-list-ad

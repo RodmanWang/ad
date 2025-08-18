@@ -554,6 +554,9 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 !
 !
 !
+||collects.lightinthebox.com^
+||rtg.rubiconredirect.com^
+||beacon.gtv-pub.com^
 ||analytics-api.gemcommerce.com^
 ||slgnt.eu^
 ||slgnt.us^
@@ -64108,6 +64111,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||count.shein.com^
 ||analytics.cosmopolitanmag.com.tr^
 ||clck.edadeal.ru^
 ||analytics-cdn.levante-emv.com^
@@ -103331,6 +103335,8 @@ $cookie=_awl;maxAge=30,domain=nypost.com|al.com|9news.com
 !
 ! NOTE: Specific rules
 !
+||scripts.rubiconredirect.com/scripts/vk_lightinthebox.js
+||gateway.shein.com/events/
 ||solarwinds.com/ra-$script
 ||data.qiota.com/api/event
 ||20minutes.fr/js/piano-*.js
@@ -111613,6 +111619,9 @@ d4?appid*type*
 !@@||mc.yandex.ru/metrika/watch.js$domain=
 !#endif
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/211344
+@@||cdn.clerk.io/clerk.js$domain=fjellandhandel.no
+@@||api.clerk.io/v*/log/click?$domain=fjellandhandel.no
 ! https://github.com/AdguardTeam/AdguardFilters/issues/210994
 !+ PLATFORM(ios, ext_safari)
 @@||rd.bizrate.com/rd2?t=
@@ -111647,7 +111656,10 @@ trendyol-milla.com#%#//scriptlet('set-constant', 'process.env', '')
 bitdefender.com#$#body[style="opacity: 0;"] { opacity: 1 !important; }
 ||sstats.bitdefender.com^$xmlhttprequest,redirect=nooptext,~third-party,important
 @@||sstats.bitdefender.com^$~third-party
+! https://github.com/AdguardTeam/AdguardFilters/issues/211553
 ! https://github.com/AdguardTeam/AdguardFilters/issues/209573
+sports.yahoo.com#%#//scriptlet('set-constant', 'rapidInstance.isModuleTracked', 'falseFunc')
+sports.yahoo.com#%#//scriptlet('set-constant', 'rapidInstance.addModulesWithViewability', 'noopFunc')
 sports.yahoo.com#%#//scriptlet('set-constant', 'YAHOO.i13n', 'emptyObj')
 sports.yahoo.com#%#//scriptlet('set-constant', 'YAHOO.i13n.Rapid', 'noopFunc')
 !#if (adguard_ext_android_cb || adguard_app_ios || adguard_ext_safari)
