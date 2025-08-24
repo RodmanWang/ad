@@ -268,6 +268,7 @@
 ||t*.zcvh.net^
 ||tag-based.s3.*.amazonaws.com^$third-party
 ||telemetry*.transcend.io^
+||telemetry.*.pvp.net^
 ||teleriumads-*.netdna-ssl.com^$third-party
 ||thothd.*^$replace=/(protect_block:[\s\S]*?')[\s\S]*?'/\$1'/,document
 ||tnc*.tiktokv.us^
