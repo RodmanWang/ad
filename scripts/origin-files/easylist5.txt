@@ -3519,6 +3519,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+bookwalker.jp##.c-c-floating-coupon
 filmcave.net#%#//scriptlet('set-local-storage-item', 'filmcave-hide-community-popup', 'true')
 avito.ru##body > div[style*="--zIndexPassiveFeedbackIcon:"]
 avito.ru#%#//scriptlet('trusted-click-element', 'div[data-marker="portals-container"] button > span > span[class^="styles-module-text-zspc_ styles-"]', 'containsText:Хорошо')
@@ -12358,6 +12359,10 @@ gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,n
 !
 ! SECTION: Subscriptions - Regular rules
 !
+dgl.ru##.sub-form-block
+dgl.ru##.main-sub-wrap
+universidadenlinea.umov.mx#$#div[id^="om-holder-campaign"] { display: none !important; }
+universidadenlinea.umov.mx#$#html, body { overflow: auto !important; }
 motorcycle.com#$##cms-popup { display: none !important; }
 motorcycle.com#$#.lbHtmlFix body { overflow: auto !important; }
 kayiprihtim.com##.entry-content > p:has(> a[href^="https://news.google.com/publications/"])
@@ -12589,7 +12594,7 @@ gdh.digital##.publish-bar-sticky ~ div.w-full > div.my-4 > div.overflow-visible 
 news.itsfoss.com##.kg-cta-card
 bhol.co.il###share_sectoin
 xn--h1alcedd.xn--d1aqf.xn--p1ai###telegram-block
-urban-media.ru##.social-subscribe
+kulturologia.ru,urban-media.ru##.social-subscribe
 urban-media.ru##.main-soc
 urban-media.ru##.detail-article__article-part > p:has(> a[href^="https://t.me/"])
 3dvf.com##div[data-id="4c98a5f"]
