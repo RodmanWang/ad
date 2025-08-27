@@ -50,8 +50,8 @@ music.yandex.*##.notify > div.deco-tooltip_notify.notify_shown
 ! Yandex.Pogoda
 [$path=/pogoda]dzen.ru#%#//scriptlet('abort-on-property-read', 'Object.prototype.renderData')
 [$path=/pogoda]dzen.ru##.adv-ecom
-[$path=/pogoda]yandex.*#%#//scriptlet('prevent-eval-if', 'Id":"R-I')
-[$path=/pogoda]yandex.*#%#//scriptlet('json-prune', 'rtb')
+[$path=/pogoda|hava/]yandex.*#%#//scriptlet('prevent-eval-if', 'Id":"R-I')
+[$path=/pogoda|hava/]yandex.*#%#//scriptlet('json-prune', 'rtb')
 ! TODO: remove after releasing new AdGuard 2.0 for Safari
 ! Breaks Yandex Mail in Safari due to a bug
 !+ NOT_PLATFORM(ext_safari)
@@ -650,6 +650,7 @@ armidaleexpress.com.au,bendigoadvertiser.com.au,canberratimes.com.au,centralwest
 ! Do not forget about '!#safari_cb_affinity' section for exclusions:
 ! LINK: AnnoyancesFilter/Popups/sections/antiadblock.txt#general
 !
+rutube.ru#?#div[class^="footer"] > div#notifier:has(> div.message-container-module__messageItem span.message-module__description:contains(Блокировщик рекламы))
 myesports.gg##.adblock-banner
 anizone.to##main .overflow-hidden:has(> .relative:only-child > .border-dashed)
 feedwatcher.net###wrapper > div.feed-block > div:has(> div#blocker-warning)
@@ -3517,6 +3518,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+rgshows.me###event-popup
 fntv.watch#%#//scriptlet('set-local-storage-item', 'popupBlockerEnabled', 'false')
 fntv.watch#%#//scriptlet('set-local-storage-item', 'newVersion', 'true')
 trip.com##.oh-pwa
@@ -3672,7 +3674,7 @@ academia.edu##.ds-signup-banner
 filecr.com#$#body { overflow: auto !important; padding-right: 0 !important; }
 filecr.com#$#body > #modal:has(> div[class^="modal_wrap_"] > div[class^="modal_content_"] > div[class^="dp_body_"] > a[href*="/extension/install"][target="_blank"]) { display: none !important; }
 mqihuan.bookresource.qq.com##.fixed.bottom-48px
-mqihuan.bookresource.qq.com##.fixed.inset-0
+altair.mollusk.top,mqihuan.bookresource.qq.com##.fixed.inset-0
 pcloud.com#%#//scriptlet('set-cookie', 'openedExitIntentRegistrationModal', 'true')
 rp-online.de###personalLocationToolTip
 hostadvice.com#%#//scriptlet('set-cookie', 'popup_exit_intent_1', '1')
@@ -12362,6 +12364,9 @@ gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,n
 !
 ! SECTION: Subscriptions - Regular rules
 !
+beincrypto.com##section[data-el="bic-block-highlighted-paragraph"]
+beincrypto.com##.want-to-know-more-block
+beincrypto.com##a[href^="https://t.me/beincrypto_trading"]
 timesnownews.com##div[id^="progressBarContainer"] > div[class] > div[class]:has(> a[aria-label="googlenews"])
 timesnownews.com##div[id^="progressBarContainer"] > div[class] > div[class] > div[class]:has(> a[aria-label="googlenews"])
 labmuffin.com##.popupally-overlay-gfcr-1
