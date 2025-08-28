@@ -3539,6 +3539,7 @@ www.kinopoisk.ru##div[class^="trailer-promo"]
 !
 ! SECTION: Self-promo - Regular rules
 !
+oppai.stream##.htok-early
 abw.by##.a100-widget
 abw.by##.article-banner
 abw.by##._overlay_1bx70_1
@@ -8849,6 +8850,9 @@ newsweek.com##iframe[src="http://sns.europe.newsweek.com/newsletter?popup=1"]
 !##############################
 ! SECTION: Tweaks - JS
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/212284
+servicemassar.ma#%#//scriptlet('adjust-setInterval', 'seconds', '*', '0.001')
+servicemassar.ma#%#//scriptlet('adjust-setTimeout', 'document.getElementById', '*', '0.001')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/212056
 remiz.co.kr#%#//scriptlet('adjust-setInterval', 'clearInterval(gda.countdownTimer)', '*', '0.001')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/211950
