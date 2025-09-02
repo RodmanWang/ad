@@ -554,6 +554,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 !
 !
 !
+||app.optibase.io^$third-party
 ||abtshield.com^$third-party
 ||track.fusionmedia.io^
 ||sync.clearnview.com^
@@ -102815,6 +102816,8 @@ $cookie=_awl;maxAge=30,domain=nypost.com|al.com|9news.com
 !
 ! NOTE: Specific rules
 !
+||bookwalker.jp/ex/browser-viewer/unitag_bv.js
+||c.bookwalker.jp/v/louis/*/tracks.js
 ||hopper.com/api/v0/tracking/event
 hopper.com#%#//scriptlet('set-local-storage-item', 'ld:$anonUserId', '$remove$')
 ||yupp.ai/monitoring/?o=*&p=*&r=
