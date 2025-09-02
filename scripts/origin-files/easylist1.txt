@@ -66166,6 +66166,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||cvt1.sibnet.ru^
 ||analytics.egdata.app^
 ||analytics.shutterstock.com^
 ||plw6buurmlxhrlkm6wy3uk7cia0mprkq.lambda-url.ap-south-1.on.aws^
@@ -102816,6 +102817,7 @@ $cookie=_awl;maxAge=30,domain=nypost.com|al.com|9news.com
 !
 ! NOTE: Specific rules
 !
+||rtp.pt/common/js/convivaAppTracker.js
 ||bookwalker.jp/ex/browser-viewer/unitag_bv.js
 ||c.bookwalker.jp/v/louis/*/tracks.js
 ||hopper.com/api/v0/tracking/event
