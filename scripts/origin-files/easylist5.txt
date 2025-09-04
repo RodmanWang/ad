@@ -80,6 +80,7 @@ mail.yandex.*#%#//scriptlet('json-prune', 'seatbid rtb')
 ! Yandex.Search
 ! Main page under the search bar
 ya.ru##aside[class="informers3"] ~ div[class][style]:has(> div > div[style] > div[style^="background-image"] ~ a[target="_blank"])
+yandex.ru##.main__block-banner iframe[src]
 ! the ad is on the right side, which is mostly non-reproducible
 [$path=/search]ya.ru,yandex.*#%#//scriptlet('remove-node-text', 'script', '/^window\.Ya.*pcodeParams.*renderTo/')
 !
@@ -669,7 +670,7 @@ asobicreate.net##div[class^="popup"][class$="wrap"]
 aram.zone#%#//scriptlet('prevent-element-src-loading', 'img', 'nitropay.com')
 aram.zone#%#//scriptlet('abort-on-stack-trace', 'CanvasRenderingContext2D.prototype.drawImage', '.onload')
 yuuki.me##div[id^="yuukips-ad-block-notification-banner"]
-#%#//scriptlet('prevent-eval-if', 'js_var_adBaitAnimation')
+dongknows.com#%#//scriptlet('prevent-eval-if', 'js_var_adBaitAnimation')
 ||pmur.org/scripts/LeParisien_abChoice.js
 ashemaletube.com##.adblock.tac
 madarascans.com#@#.ad-slot
@@ -3519,6 +3520,7 @@ sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
 !
 ! SECTION: Popups - Regular rules
 !
+news.cgtn.com#%#//scriptlet('trusted-click-element', '.turnToAppStore .doubleArrow')
 unwire.hk#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'vimeo-frame')
 streamscharts.com#%#//scriptlet('set-session-storage-item', 'guest-pro', 'true')
 bcs-express.ru##footer > div[data-id="alert-stack"] + div:has(> div > picture > img[src*="onboarding-present"])
