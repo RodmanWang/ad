@@ -22,7 +22,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
 # last updated:   Thu, 21 Aug 2025 10:33:04 GMT
-# entries:        3420
+# entries:        3418
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?showintro=0;hostformat=hosts&useip=0.0.0.0
@@ -32,6 +32,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 #
 # start date:    Fri, 06 Jun 2003 00:00:00
 0.0.0.0 101com.com
+0.0.0.0 180hits.de
 0.0.0.0 180searchassistant.com
 0.0.0.0 1rx.io
 0.0.0.0 2020mustang.com
@@ -336,7 +337,6 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 0.0.0.0 adpushup.com
 0.0.0.0 adrazzi.com
 0.0.0.0 adreactor.com
-0.0.0.0 adreclaim.com
 0.0.0.0 adrecover.com
 0.0.0.0 adrecreate.com
 0.0.0.0 adremedy.com
@@ -422,6 +422,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 0.0.0.0 ads.digital-digest.com
 0.0.0.0 ads.digitalmedianet.com
 0.0.0.0 ads.digitalpoint.com
+0.0.0.0 ads.directionsmag.com
 0.0.0.0 ads.doit.com.cn
 0.0.0.0 ads.domeus.com
 0.0.0.0 ads.dtpnetwork.biz
@@ -1801,7 +1802,6 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 0.0.0.0 helpcollar.com
 0.0.0.0 hentaicounter.com
 0.0.0.0 herbalaffiliateprogram.com
-0.0.0.0 hexcan.com
 0.0.0.0 hexusads.fluent.ltd.uk
 0.0.0.0 heyos.com
 0.0.0.0 hf5rbejvpwds.com
@@ -2002,7 +2002,6 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 0.0.0.0 leadclick.com
 0.0.0.0 leadinfo.net
 0.0.0.0 leadingedgecash.com
-0.0.0.0 leadplace.fr
 0.0.0.0 leadspace.com
 0.0.0.0 leadzupc.com
 0.0.0.0 leaplunchroom.com
@@ -3091,7 +3090,6 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 0.0.0.0 ticksel.com
 0.0.0.0 tics.techdirt.com
 0.0.0.0 tidaltv.com
-0.0.0.0 tidint.pro
 0.0.0.0 tinybar.com
 0.0.0.0 tinytendency.com
 0.0.0.0 tiresomethunder.com
