@@ -797,11 +797,11 @@ return [
         "ubibibi.com",
         "www.ubibibi.com",
     ],
-    "uc123.com" => [
-        // #234
+    /*"uc123.com" => [
+        // #234, #1059
         "uc123.com",
         "www.uc123.com",
-    ],
+    ],*/
     "ucdesk.cn" => [
         // #234
         "ucdesk.cn",
@@ -1372,28 +1372,38 @@ return [
         "ulog-sdk.gifshow.com",
     ],
     "adukwai.com" => [
-        // #768
-        "adukwai.com",
+        // #768 #1063
+        //"adukwai.com",
+        "p1-ad.adukwai.com",
         "p1-jx.adukwai.com",
-        "p1-lm.adukwai.com",
+        //"p1-lm.adukwai.com",
+        "p2-ad.adukwai.com",
         "p2-jx.adukwai.com",
         "p2-lm.adukwai.com",
+        "p3-ad.adukwai.com",
+        "p4-ad.adukwai.com",
+        "p5-ad.adukwai.com",
         "v1-lm.adukwai.com",
         "v2-lm.adukwai.com",
         "v4-lm.adukwai.com",
     ],
     "diwodiwo.xyz" => [
-        // #775
-        "ad-display.diwodiwo.xyz",
-        "ad-channel.diwodiwo.xyz",
+        "ad-display.diwodiwo.xyz", // #775
+        "ad-channel.diwodiwo.xyz", // #775
+        "pica-ad-api.diwodiwo.xyz", // #1056
     ],
     "126.net" => [
         "ads.music.126.net", // #784
         "iadmusicmat.music.126.net", // #847
     ],
     "xhscdn.com" => [
+        "ads-i1.xhscdn.com",
+        "ads-i2.xhscdn.com",
+        "ads-i3.xhscdn.com",
+        "ads-i4.xhscdn.com",
         "ads-img-al.xhscdn.com", // #784
         "ads-img-qc.xhscdn.com", // #793
+        "ads-static.xhscdn.com",
         "ads-video-al.xhscdn.com", // #793
         "ads-video-qc.xhscdn.com", // #793
     ],
