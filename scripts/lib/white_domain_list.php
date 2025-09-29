@@ -15,7 +15,7 @@ return [
     "gss0.bdstatic.com" => 0, //百度贴吧头像
     "googleadapis.l.google.com" => 0, //解决google字体下载异常
     "gstaticadssl.l.google.com" => 0, //解决google字体下载异常
-    "gvt2.com" => 1, //gvt2，安卓系统相关
+    //"gvt2.com" => 1, //gvt2，安卓系统相关, #558
     "wangbase.com" => 1, //阮一峰同志的博客图片显示
     "l.qq.com" => 0, //解决腾讯视频无法播放
     "dldir1.qq.com" => 0, //qq下载安装包路径
@@ -452,6 +452,7 @@ return [
     //"zynga.com" => 0, // #1060
     //"zyngaplayersupport.com" => 0, // #1060
     "adukwai.com" => 0, // #1063
+    "snowflake.qq.com" => 0, // #1068
 
     // upstream-white-easylist 中选取的一些应放行域名
     "a1.itc.cn" => 0,
