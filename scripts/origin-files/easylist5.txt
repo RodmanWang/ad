@@ -12334,6 +12334,7 @@ aol.com#$#.banner-active { margin-top: 0 !important; }
 ! Genegic rules
 ! SECTION: Subscriptions - Generic
 !
+##form[aria-label="Sign up for newsletter: Daily Briefing"]
 ##.breadcrumb__google-news
 ##.footer-cta
 ##.post-end-cta-full
@@ -12441,6 +12442,7 @@ gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,n
 !
 ! SECTION: Subscriptions - Regular rules
 !
+lordserial.*##.vkinfo
 bartek.com.pl##.exponea-banner-backdrop
 bartek.com.pl##.exponea-subscription-dialog
 anthropic.com##div[class^="NewsletterEngineering"]
@@ -16818,7 +16820,7 @@ informpskov.ru###telegramButton
 informpskov.ru###telegramButton ~ br
 dhnet.be###selligent-newsletters
 dailymail.co.uk##div[data-track-module="newsletter-sign-up"]
-sotoguide.ru###button_tg
+lordserial.*,sotoguide.ru###button_tg
 trans.info##.newsletter-subscribe-popup
 publico.pt##.outter-box_paywall
 publico.pt##.site-message--subscription-promo.paywall_camp_verao
@@ -18278,7 +18280,6 @@ motherjones.com##.mj-house-subscription-promo-widget
 kimchimari.com##.fd-form-popup
 magazine.skyeng.ru#?#.stk-grid-col > p.stk-reset:contains(Полезные фразы для общения и особенности британской культуры два раза в неделю у вас в почте)
 zr.ru##.subscribe > div.sp-form-outer
-delmarvanow.com,phillyburbs.com,indystar.com##.gnt_m_nls
 eastasiaforum.org###eaf_subscribe_sidebar-2
 blog.irdeto.com#?#.et_pb_extra_column_sidebar > div[id^="custom_html-"] > .widgettitle:contains(Subscribe to the Blog):upward(1)
 wikijob.co.uk#?#div[class^="ResumeWidget-"]:has(> form[name="cvreview"] > input[name="email"])
