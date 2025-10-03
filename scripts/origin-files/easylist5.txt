@@ -652,7 +652,7 @@ armidaleexpress.com.au,bendigoadvertiser.com.au,canberratimes.com.au,centralwest
 ! Do not forget about '!#safari_cb_affinity' section for exclusions:
 ! LINK: AnnoyancesFilter/Popups/sections/antiadblock.txt#general
 !
-afyonturkeligazetesi.com##div[x-data^="adblockBanner"]
+antalyahurses.com,haberantalya.com,afyonturkeligazetesi.com##div[x-data^="adblockBanner"]
 neoseeker.com###right_content > div[style^="height:250px;width:290px;"]
 neoseeker.com##div[style="max-width:900px;margin-left:auto;margin-right:auto;padding-top: 15px;"]
 neoseeker.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', '.offsetHeight === 0')
@@ -7638,7 +7638,7 @@ europosters.de#$#.modal-backdrop { display: none!important; }
 europosters.de#$#body { overflow: visible!important; }
 europosters.de#$##main { filter: none!important; }
 tokopedia.com##div[aria-label="unf-overlay"]
-tokopedia.com##div[aria-label="unf-overlay"] + div[data-unify="Dialog"]
+tokopedia.com##div[aria-label="unf-overlay"] + div:has(> a[class*="unf-modal"])
 luxaa.de##div[id^="dmws-popup"]
 schmuckrausch.de##div[id^="nltk_popup_"]
 schmuckrausch.de#$?#body > div.fancybox-overlay:has(> div.fancybox-wrap > div.fancybox-skin > div.fancybox-outer > div.fancybox-inner > div.newsletter) { display: none!important; }
