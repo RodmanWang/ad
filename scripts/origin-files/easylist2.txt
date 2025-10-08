@@ -325,7 +325,6 @@ finance.rambler.ru#%#//scriptlet('hide-in-shadow-dom', '.social--top')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/13064
 forbes.com#%#//scriptlet('remove-attr', 'href', '.article-body .tweet_quote > a[href^="https://twitter.com/intent/"]')
 !
-~yandex.ru,~wetter.com,~milli-firka.org,~assassinscreed.com,~surfingbird.ru,~samsung.com,~imgur.com,~rockstargames.com#%#var addthis = { init: function() {}, addEventListener: function() {}, button: function() {}, counter: function() {}, update: function() {}, toolbox: function() {}, layers: function() {} };
 hopesandfears.com#%#twttr={events: { bind: function() {} }};
 !
 !-------------------
@@ -705,7 +704,7 @@ elperiodicomediterraneo.com##button[data-target="modalRrrssShare"]
 thecity.m24.ru##.b-material-share-button
 web.nhk#?#p + div[class]:has(> button[class][style]:contains(シェアする))
 somoskudasai.com##aside > .flex:has(> a[href^="https://whatsapp.com/channel/"])
-somoskudasai.com##.auto-rows-max > .sticky:has(> button[onclick*="/sharer.php"])
+somoskudasai.com#$#.auto-rows-max > .sticky:has(> button[onclick*="/sharer.php"]) { visibility: hidden !important; }
 pointmedia.io#?#footer > div:contains(Поделиться)
 ramenparados.com###post-social-wrap
 ramenparados.com##.read-share-overlay
