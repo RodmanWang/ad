@@ -11537,6 +11537,7 @@ macwelt.de,pcwelt.de#%#//scriptlet("set-constant", "firebase.messaging", "noopFu
 !
 ! SECTION: Push notifications - Regular rules
 !
+vision360.bo###pushSubscriptionModal
 duda-cars.pl###yl__prompt
 bartek.com.pl##.weblayer--box-web-push-subscription
 medicalxpress.com###subscribeToWebPush
@@ -12465,6 +12466,8 @@ gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,n
 !
 ! SECTION: Subscriptions - Regular rules
 !
+phys.org##.ads
+vision360.bo###bannerZocalo
 logitechg.com#%#//scriptlet('prevent-addEventListener', 'click', '', 'elements', 'a[class^="btn-"][data-analytics-title^="download-g-hub"]')
 searchenginejournal.com##.sej-in-cont-subs
 electrive.com##.newsletter-bar
@@ -12980,7 +12983,7 @@ deti.mail.ru##div[data-logger="subscribeWidgets"]
 groupon.com#%#//scriptlet('trusted-set-cookie', 'exit_modal_opened_timestamp', '$currentISODate$')
 pinion.jp#%#//scriptlet('set-cookie', 'newsletter-dismissed', 'yes')
 pinion.jp##.wiki-style-right-side > div.nl-box
-thecourier.co.uk##.content-hook > div.tp-container-inner
+pressandjournal.co.uk,thecourier.co.uk##.content-hook > div.tp-container-inner
 12punto.com.tr##.box > form:has(> div > input#txtEmail)
 dday.it##.channel-box
 tecnoandroid.it###google-news-banner
