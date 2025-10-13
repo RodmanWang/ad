@@ -101,6 +101,7 @@
 ||client.rum.*.amazonaws.com^
 ||clk.rtpdn*.com^$all
 ||clog*.yuanfudao.com^
+||cognito-identity.*.amazonaws.com^$domain=qr.finedinemenu.com
 ||collect-elb-*.amazonaws.com^
 ||collect-v*.51.la^
 ||collector*.ex.co^
