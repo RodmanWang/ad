@@ -71523,6 +71523,8 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||stats.avito.ru^
+||nr-beacon.movingimage.com^
 ||analytics.monetha.io^
 ||uac.kyeongin.com^
 ||clogger.nocutnews.co.kr^
@@ -110041,6 +110043,7 @@ $cookie=_awl;maxAge=30,domain=nypost.com|al.com|9news.com
 !
 ! NOTE: Specific rules
 !
+||fafvertizing.crazygames.com/*-prebid-
 ||bookitnow.lt/gtm/
 ||geradovana.lt/gtm/
 ||lieliskadavana.lv/gtm/
