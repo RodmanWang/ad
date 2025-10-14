@@ -47,6 +47,9 @@ ya.ru,yandex.*#$?#div[class^="ImagesViewer-"][style^="height:"] { remove: true; 
 music.yandex.*##.notify > div.deco-tooltip_notify.notify_shown
 !
 ! Yandex.Pogoda
+[$path=/pogoda|hava/]yandex.*##div[class^="MainPage_topBlockWithMoney_"]
+[$path=/pogoda|hava/]yandex.*##li[class^="AppForecastMoney_wrap_"]
+[$path=/pogoda|hava/]yandex.*##article[class^="AppMoney_wrap_"]
 [$path=/pogoda|hava/]yandex.*#%#//scriptlet('abort-on-property-write', 'ctxScript')
 [$path=/pogoda]dzen.ru###money-ecom
 [$path=/pogoda]dzen.ru#%#//scriptlet('abort-on-property-read', 'Object.prototype.renderData')
@@ -3551,7 +3554,7 @@ americanexpress.com###floating-nav-section
 lejournaldelamaison.fr##.viously-sticked-bottom-left
 searchenginejournal.com###sej-hello-bar
 branc.jp#%#//scriptlet('set-cookie', 'inc_optin_never_see_again-popup-1', '1')
-bsky.app#%#//scriptlet('trusted-click-element', 'div[aria-modal="true"] button[aria-label="Close welcome modal"]')
+bsky.app#%#//scriptlet('set-session-storage-item', 'welcomeModalClosed', 'true')
 libertycity.net#%#//scriptlet('set-cookie', 'soc_fullscr', '1')
 libertycity.net#%#//scriptlet('set-cookie', 'soc_fullscr_cnt', '1')
 100.com.tw#$#.van-overflow-hidden { overflow: auto !important; }
@@ -11398,7 +11401,7 @@ labs.google.com#@##google-hats-survey
 ||prospertinum.com^$third-party
 ||psh.one^$third-party
 ||puscomosca.com^$third-party
-||push-ad.com^$third-party
+||push-ad.com^$third-party,domain=~wapteka.pl
 ||push-free.com^$third-party
 ||push.akket.com^
 ||push.anews.one^$third-party
