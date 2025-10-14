@@ -681,6 +681,7 @@ antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogamesc
 !
 ! NOTE: Specific rules
 !
+downloadpirate.com##.cs-entry__metabar-share
 every.org##button[data-tname="nonprofitShareButton"]
 guru3d.com##.tab-content > article ~ h6
 guru3d.com##.tab-content > article ~ .ct-print
@@ -14920,6 +14921,7 @@ designboom.com,livescience.com,pbtech.co.nz,peoplesworld.org,space.com##.fa-face
 ||mailget.net^$third-party
 ||my.hellobar.com^$third-party
 !
+sai-zen-sen.jp##.iikamo-modal-dialog
 libertycity.net#%#//scriptlet('set-cookie', 'soc_fullscr', '1')
 libertycity.net#%#//scriptlet('set-cookie', 'soc_fullscr_cnt', '1')
 newizv.ru##.tg-banner_mobile
