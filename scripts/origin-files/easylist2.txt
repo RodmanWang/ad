@@ -1569,7 +1569,7 @@ noataque.com.br##.noticia-share
 em.com.br##.edm-bottom-social
 substack.com##.share-dialog a.pencraft[id^="trigger"][aria-label="View more"]
 thegamebusiness.com,nicolasbustamante.com,blog.bytebytego.com,thecoder.cafe##.pencraft + div:has(> a[role="button"].post-ufi-button > div.label)
-thegamebusiness.com,architecture-weekly.com,substack.com#?#.pencraft:has(> div[class*="font-text-"]:contains(/Facebook|Bluesky|LinkedIn|Reddit|Pinterest|Hacker News|X \(Twitter\)|Share to /))
+thegamebusiness.com,architecture-weekly.com,substack.com#?#.pencraft:has(> div[class*="font-text-"]:contains(/Facebook|Bluesky|LinkedIn|Reddit|Pinterest|Hacker News|X \(Twitter\)|Share to |Start at/))
 lesfrontaliers.lu##.sticky-share
 record.com.mx##.post-social-icons
 qodo.ai#?#.blog-article-sidebar-title:has(> strong:only-child:contains(Share))
@@ -8165,7 +8165,7 @@ ligazakon.net##.actualsinglepage_socials
 theguardian.com##.js-sharecount
 citrus.ua##.quest-social
 inoprosport.ru##.news__block_social_wrap
-trannylime.com,znews.vn,m.news.nate.com,zingnews.vn,pornomovies.com,babestube.com,submityourflicks.com,chubbyporn.com,milliyet.com.tr##.btnShare
+benz-sport.de,trannylime.com,znews.vn,m.news.nate.com,zingnews.vn,pornomovies.com,babestube.com,submityourflicks.com,chubbyporn.com,milliyet.com.tr##.btnShare
 nintendolife.com,pushsquare.com##.ui-share-page
 globalnews.kz,eteknix.com,texnogid.biz.ua,infocul.pt,nnews.com.ua,vyatka-grad.ru,playua.net,hypeandstuff.com,cryptohamster.org,ultratoon4you.com##.s_stk
 lachainemeteo.com##.socialNetworksBar
