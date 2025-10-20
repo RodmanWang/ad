@@ -110060,6 +110060,8 @@ $cookie=_awl;maxAge=30,domain=nypost.com|al.com|9news.com
 !
 ! NOTE: Specific rules
 !
+||storm.mg/api/logs/
+||storm.mg/avivid.js
 ||api.thefantazy.com/web-vitals
 ||shop-apotheke.com/conversational-api/analytics
 ||static.shop-apotheke.com/media/js/shopmonitor3.js
@@ -118821,6 +118823,10 @@ d4?appid*type*
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/215786
+@@||googletagmanager.com/gtm.js$domain=sferis.pl
+! https://github.com/AdguardTeam/AdguardFilters/issues/215834
+@@||googletagmanager.com/gtm.js$domain=tauron.pl
 ! https://github.com/AdguardTeam/AdguardFilters/issues/215550
 @@||play.*.com/vendor/VisitorAPI.js$domain=play.aetv.com|play.mylifetime.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/214804
