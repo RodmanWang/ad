@@ -110208,6 +110208,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ! Cloudflare permormance monitoring
 /cdn-cgi/rum?
 !
+/tr/lp/intg.js
 /op/analytics.js?domain=
 /send_ga4_params?
 &sst.sw_exp=
@@ -119552,6 +119553,8 @@ d4?appid*type*
 !
 !
 !
+! dominos.jp blank page
+@@||dev.visualwebsiteoptimizer.com/j.php$domain=dominos.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/215786
 @@||googletagmanager.com/gtm.js$domain=sferis.pl
 ! https://github.com/AdguardTeam/AdguardFilters/issues/215834
