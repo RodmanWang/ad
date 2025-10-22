@@ -35,6 +35,8 @@ instagram.com##._aagw:empty
 ! End: Instagram.com
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/215569
+nypost.com#%#//scriptlet('abort-on-stack-trace', 'Object.keys', 'canEnterFloating')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/215404
 24saatgazetesi.com##.post-flash
 ! https://github.com/AdguardTeam/AdguardFilters/issues/214203
@@ -108,9 +110,6 @@ heise.de##.article-content > .inread-cls-reduc
 travelandleisure.com##.mm-video-medianet-bytes
 ! https://github.com/AdguardTeam/AdguardFilters/issues/204920
 nbcnews.com##div[data-testid="marqueeBreaking"]
-! https://github.com/AdguardTeam/AdguardFilters/issues/204770
-m.ura.news##.right-main-news
-m.ura.news##.sideBar
 ! https://github.com/AdguardTeam/AdguardFilters/issues/204597
 gqjapan.jp##header[data-testid^="StackedNavigationHeader"] > section#link-banner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/204592
@@ -10241,7 +10240,7 @@ t24.com.tr#%#//scriptlet('set-constant', 'Object.prototype.autoplay', '0')
 /wp-content/plugins/disable-right-click/*
 /wp-content/plugins/right-click-disable-orignal/*
 !
-||cdn.jsdelivr.net/npm/disable-devtool$domain=rgshows.me|1shows.ru|abflix.*|2embed.*|rivestream.*|brocoflix.*|vidsrc.*|superflixapi.*|nontongo.*|mocine.cam|vercel.app|maxflix.*
+||cdn.jsdelivr.net/npm/disable-devtool$domain=rgshows.me|1shows.ru|abflix.*|2embed.*|rivestream.*|brocoflix.*|vidsrc.*|superflixapi.*|nontongo.*|mocine.cam|vercel.app|maxflix.*|fmovies-net.com
 ||gazetasp.com.br/application/themes/gazetasp.com.br/js/noticia.js
 ||klmanga.app/js/script.js
 ||mangarawjp.tv/js/script.js
