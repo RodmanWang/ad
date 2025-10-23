@@ -6663,6 +6663,7 @@ pikabu.ru#%#//scriptlet('remove-class', 'promo-banner-sticky_visible', '.app')
 metaratings.ru,metaratings.by,metarating.com.ua,meta-ratings.kz##div[class*="SportHome_bonusesCarousel__"]
 telecomasia.net,meta.reviews##.main-bonuses
 ! IObit
+iobit.com##div[class$="promotion_index"]:has([onclick*="gtag"])
 iobit.com##div[class^="pagebanner"] > *:has([onclick*="gtag"])
 iobit.com##.anvy__index
 iobit.com##div[class*="bottom"]:has([onclick*="gtag"])
@@ -9005,6 +9006,9 @@ newsweek.com##iframe[src="http://sns.europe.newsweek.com/newsletter?popup=1"]
 !##############################
 ! SECTION: Tweaks - JS
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/216028
+3isk.icu,3isk.info#%#//scriptlet('adjust-setTimeout', 'secondsWait', '*', '0.001')
+3isk.icu,3isk.info#%#//scriptlet('adjust-setInterval', 'secondsWait', '*', '0.001')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/214632
 okpeliz.com#%#//scriptlet('adjust-setTimeout', '/countdown|progressLine/', '*', '0.001')
 okpeliz.com#%#//scriptlet('adjust-setInterval', '/countdown|progressLine/', '*', '0.001')
