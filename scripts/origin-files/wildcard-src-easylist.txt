@@ -283,6 +283,7 @@
 ||telemetry.*.pvp.net^
 ||teleriumads-*.netdna-ssl.com^$third-party
 ||thothd.*^$replace=/(protect_block:[\s\S]*?')[\s\S]*?'/\$1'/,document
+||tnc*.tiktokv.com^
 ||tnc*.tiktokv.us^
 ||tnc*.zijieapi.com^
 ||tnc-va*.capcutapi.com^
