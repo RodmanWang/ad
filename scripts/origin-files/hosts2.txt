@@ -21,8 +21,8 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Wed, 12 Nov 2025 07:09:35 GMT
-# entries:        3477
+# last updated:   Wed, 12 Nov 2025 19:49:16 GMT
+# entries:        3478
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?showintro=0;hostformat=hosts&useip=0.0.0.0
@@ -1692,6 +1692,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 0.0.0.0 fpctraffic.com
 0.0.0.0 fpjs.io
 0.0.0.0 fqtag.com
+0.0.0.0 fraysystems.com
 0.0.0.0 free-counter.co.uk
 0.0.0.0 freebanner.com
 0.0.0.0 freecounterstat.com
