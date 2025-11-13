@@ -76182,6 +76182,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||darnuid.netflix.com^
 ||analytics.thekrazycouponlady.com^
 ||usage.trackjs.com^
 ||coll.lovense.com^
@@ -119646,7 +119647,6 @@ colliers.com#%#//scriptlet('set-local-storage-item', 'visitorId', '$remove$')
 ||cbsivideo.com/cb-measurements/
 ||scv.band.us/jackpotlog/*/logs|$xmlhttprequest
 ||epicgames.com/id/api/analytics
-||app.launchdarkly.com/sdk/evalx/*/contexts/$domain=epicgames.com
 ||doppler.hulu.com/doppler/*/ingest?source=client-reporting-HTML
 ||terabox.app/sse/events?
 ||widget2.vreview.tv/js/amplitude.js
@@ -119676,7 +119676,6 @@ threads.net#%#//scriptlet('href-sanitizer', 'a[href*="?xmt="]', '[href]', 'remov
 ://cnstrc.com/js/
 ||freyr.futurecdn.net/freyr.js
 ||meta.com/*/fl?*comet_req=*&__user=
-||clientstream.launchdarkly.com/eval/
 ||app.cybba.solutions/event/*/pageview?
 ||script.gmarket.co.kr/js/mobile/main/common/montelena.js
 ||hmr.mrgcdn.ru/assets/js/logger.min.js
@@ -125605,6 +125604,9 @@ $cookie=bf_visit
 ! Bad:  ||monerominer.rocks^$third-party (should be in adservers.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/217766
+||epicgames.com^$cookie=visitor-uuid
+||epicgames.com^$cookie=EPIC_DEVICE
 ! thekrazycouponlady.com
 ||thekrazycouponlady.com^$cookie=/^ab\.storage\./
 ! lovense.com
@@ -126592,6 +126594,12 @@ dlsdk.appsflyer.com^
 !
 ! NOTE: Regular rules
 !
+||mossturbo.com^
+||collect.wehearfm.com^
+||itracking.ikameglobal.com^
+||client-events-ingress.bookbub.com^
+||sdk.fra-*.braze.eu^
+||sdk.out.usbla.net^
 ||xz.fbcdn.net^
 ||xy.fbcdn.net^
 ||data.eu.pendo.io^
