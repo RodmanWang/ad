@@ -679,6 +679,7 @@ echofm.online,antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.
 !
 ! NOTE: Specific rules
 !
+news18.com##.artshrwpr
 noticiascaracol.com##ps-share-button
 technopat.net##.widget_jnews_social
 chocolatecoveredkatie.com##.top-hat--has-socials
@@ -5693,7 +5694,6 @@ radiotalk.jp##.share-modules
 careerindex.jp##.lineBanner
 fastseries.jp##.header__nav-share-list
 city.toyonaka.osaka.jp###sns_btn_in
-cc-rashinban.com,fx-rashinban.com##.shareLinkBtn
 global.canon###sns-box > div
 pronews.jp##.footer-social > div.footer-social-box:first-child
 pronews.jp##.articleShare-item:not(.is-copyURL):not(.is-bookmark)
