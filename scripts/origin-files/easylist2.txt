@@ -679,6 +679,9 @@ echofm.online,antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.
 !
 ! NOTE: Specific rules
 !
+pikuco.ru##.sharing-wrap
+pikuco.ru#?#h3:has(> span:contains(Поделиться:))
+aniworld.to##iframe[src^="https://platform.twitter.com/widgets/tweet_button.html"]
 ilacy.jp##.lastBoxSnsTtl
 qiita.com##[class^="style-"] > [class^="style-"] > div[class^="style-"]:has(> button[aria-label][title][aria-describedby] + p[id][role="tooltip"])
 tech.eu##.share-m-title
@@ -15030,6 +15033,7 @@ designboom.com,livescience.com,pbtech.co.nz,peoplesworld.org,space.com##.fa-face
 ||mailget.net^$third-party
 ||my.hellobar.com^$third-party
 !
+aether.mom#%#//scriptlet('set-local-storage-item', 'modal-promotional-dismissed', 'true')
 xiaomiupdate.com###elementor-popup-modal-5336
 tmovie.tv##button[aria-label="Share"]
 anime4up.rest###tme-alert
