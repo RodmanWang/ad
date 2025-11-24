@@ -80096,7 +80096,8 @@ d4?appid*type*
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@||tags.tiqcdn.com/utag/cbsi/webplex-intl/prod/utag.js$domain=southpark.de|southpark.lat|southparkstudios.com.br|southparkstudios.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/216829
-@@||canadiantire.tt.omtrdc.net/rest/$domain=canadiantire.ca
+! https://github.com/AdguardTeam/AdguardFilters/issues/218478
+@@||canadiantire.tt.omtrdc.net/rest/$domain=marks.com|partycity.ca|sportchek.ca|lequipeur.com|canadiantire.ca
 ! https://github.com/AdguardTeam/AdguardFilters/issues/217897
 @@||googletagmanager.com/gtag/js$domain=mond.how
 @@||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=mond.how
@@ -84758,6 +84759,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||alloutdubstep.com^
 ||alltypo.com^
 ||alluringbucket.com^
+||almondbuns.com^
 ||almostsugar.com^
 ||alohamiles.com^
 ||aloofmetal.com^
@@ -85844,6 +85846,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||opulentsylvan.com^
 ||orangebirdie.com^
 ||orientedargument.com^
+||originblocks.com^
 ||orionember.com^
 ||ourblogthing.com^
 ||outdoorsoil.com^
