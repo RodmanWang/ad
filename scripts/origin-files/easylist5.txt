@@ -3610,6 +3610,8 @@ inews.co.uk,pinterest.com#%#//scriptlet('set-constant', 'google.accounts.id.prom
 !
 ! SECTION: Popups - Regular rules
 !
+theintelligence.com##div[class*="has_text_color promo-"]
+theintelligence.com##.home-banner
 aether.mom#%#//scriptlet('set-local-storage-item', 'modal-promotional-dismissed', 'true')
 ozon.ru#?#div[class="vue-portal-target"] > div[style^="z-index"]:has(div:contains(Оцените ваши покупки))
 apkmoddone.com###notif-widget
@@ -19001,7 +19003,7 @@ southeastasiabackpacker.com##.backpacker-sign-up
 influencermarketinghub.com###cta_popup
 meijer.com###MyMeijerIntro_signup
 cnbc.com##.ArticleBody-subtitle ~ * div[data-test="WildCardEmbed"]
-cryptonews.com,howstuffworks.com,liujo.com###newsletter-modal
+joshuaweissman.com,cryptonews.com,howstuffworks.com,liujo.com###newsletter-modal
 computer.org##.landingHeaderActions > a[href*="/subscribe-digital"]
 computer.org##.generalContent p[style^="text-align: center; color:"] > a[href^="https://www.computer.org/resources/newsletters/"]
 computer.org#?#.landingHeaderActions > a[href*="/subscribe-digital"]:only-child:upward(1)
