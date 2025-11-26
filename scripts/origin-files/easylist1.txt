@@ -50068,6 +50068,8 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||y194.asics.com^
+||analytics.cosmicstack.org^
 ||mgs.instacart.com^
 ||c.ypcdn.com^
 ||ac2.tnaflix.com^
@@ -71176,6 +71178,7 @@ $cookie=_awl;maxAge=30,domain=nypost.com|al.com|9news.com
 !
 ! NOTE: Specific rules
 !
+||cdn.calibermind.com/a.js
 ||emma-matratze.de/metrics/
 ||ypcdn.com/ypu/js/compiled/srp_adsense.js
 ||ypcdn.com/ypu/vendor/VisitorAPI.js
@@ -80102,6 +80105,8 @@ d4?appid*type*
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/218820
+@@||googletagservices.com/tag/js/gpt.js$xmlhttprequest,script,redirect=googletagservices-gpt,domain=cava.tw
 ! https://github.com/AdguardTeam/AdguardFilters/issues/218742
 @@||integrations.fitanalytics.com/shop/modivo/pdp.js$domain=modivo.*
 @@||widget.fitanalytics.com/widget_pdp.js$domain=modivo.*
