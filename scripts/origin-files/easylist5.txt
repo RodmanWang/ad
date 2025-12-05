@@ -3617,6 +3617,7 @@ inews.co.uk,pinterest.com#%#//scriptlet('set-constant', 'google.accounts.id.prom
 !
 ! SECTION: Popups - Regular rules
 !
+zozo.jp###karte-c
 corriere.it##a[sticky-mode="on"]
 qiita.com##div[data-testid="popup-qiita-careers"]
 yomuno.jp##.end_article_modal_overray
@@ -4051,7 +4052,7 @@ m.ok.ru##.invite-banner
 azbooka.ru##._1wDzjU2f
 oblikbudget.com.ua##.id3-login-root
 m.coupang.com###MWEB_PRODUCT_DETAIL_SPLASH_BOTTOM_SHEET
-medonet.pl##.ods-c-exit-intent__wrapper
+medonet.pl##div[class^="ods-"][class*="-exit-intent__wrapper"]
 cs.money#$#body { overflow: auto !important; }
 cs.money#$#.current.blocker.jquery-modal:has(> div#modal_see_also) { display: none !important; }
 book-ye.com.ua##.free-del-wrapper
@@ -12659,6 +12660,7 @@ gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,n
 !
 ! SECTION: Subscriptions - Regular rules
 !
+istat.it##.newsletter_container
 vokrug.tv##.article-buttons__item.tg
 vokrug.tv##.article-buttons__item.ya-dzen
 producthunt.com##section:has(> svg:first-child + div:last-child > a[href^="/newsletters"])
