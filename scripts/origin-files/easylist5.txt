@@ -7778,6 +7778,7 @@ skyscrapercity.com,avsforum.com,watchuseek.com###welcome_back
 web.de,gmx.*#$#.dialogOverlay[data-type="welcomelayer"] { display: none !important; }
 web.de,gmx.*#$#.hideScrolling { overflow: visible !important; }
 web.de,gmx.*#$#section[data-name="inactivityDialog"] { display: none !important; }
+web.de,gmx.*#$#nav-inactivity-layer { display: none !important; }
 web.de,gmx.*#$#body[data-inactivity-layer] { overflow: auto !important; }
 pcgroup.ru#$#body { overflow: auto !important; }
 pcgroup.ru#$##ck-popup-vacancy { display: none !important; }
@@ -12660,6 +12661,7 @@ gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,n
 !
 ! SECTION: Subscriptions - Regular rules
 !
+bild.de##article:has(> a:only-child > figure > img[alt*="Newsletter"])
 onlyoffice.com##.wrap > div[class^="sc-"]:has(> div.docspace_block_wrapper)
 onlyoffice.com#%#//scriptlet('set-local-storage-item', 'modalClosed', 'true')
 istat.it##.newsletter_container
