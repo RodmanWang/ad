@@ -680,6 +680,7 @@ echofm.online,antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.
 !
 ! NOTE: Specific rules
 !
+yazargazetesi.com##.enews-entry-share
 anamall.ana.co.jp##.block-goods-share-btn
 up-4ever.net##.row > div.col-12:has(> div.card > div.card-body i.ph-share-network)
 yomiuri.co.jp##.p-sns
@@ -6383,7 +6384,7 @@ exkavator.ru##.social__wrap
 cyberlink.com##.news_nav > :not([class="backUrl"])
 gamesatis.com##.product-detail-info-footer > a[href^="/share?url="]
 cardu.com.tw###fb_message
-s.gamespark.jp,s.resemom.jp,s.inside-games.jp##.arti-share
+gamebusiness.jp,s.gamespark.jp,s.resemom.jp,s.inside-games.jp##.arti-share
 colopl.co.jp###sec_twitter
 wired.com,vanityfair.com##.social-icons__list-item--email
 wacul-ai.com###content__sns
