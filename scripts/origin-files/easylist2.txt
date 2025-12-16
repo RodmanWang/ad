@@ -680,6 +680,7 @@ echofm.online,antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.
 !
 ! NOTE: Specific rules
 !
+vkvideo.ru##div[data-testid="video_modal_share_button"]
 goodnovel.com##.sc_share
 zexy.net##.shareOn
 mr-7.ru###article-body div:not([class]) > div[class]:has(span[class] > img[alt="share"])
@@ -8193,7 +8194,7 @@ drugs.com##a[data-ga-category="social"]
 china-review.com.ua##div[class="butn  pull-left"]
 webtekno.com,teknotalk.com,edumap.az,emlakkulisi.com,mundoconectado.com.br##.share-items
 stylebook.de,fitbook.de,techbook.de##body .shariff
-sxspy.com,porngem.com,thebussybandit.com##a[href="#tab_share"]
+xasiat.com,sxspy.com,porngem.com,thebussybandit.com##a[href="#tab_share"]
 borkenerzeitung.de##.StoryShowShare
 cosmo.com.ua##.pinterest1
 tproger.ru##.quiz_share_wrapper
