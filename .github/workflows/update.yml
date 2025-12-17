@@ -11,12 +11,16 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    # 确保 workflow 始终在 master 上执行
+    if: github.ref == 'refs/heads/master'
+    
     steps:
       # 1. 检出 master
       - name: Checkout repository
         uses: actions/checkout@v4
-
+        with:
+          ref: master   # 明确指定 master 分支
+          
       # 2. 运行生成脚本（在 master 上生成文件）
       - name: Run start-ci.sh
         run: |
