@@ -49,27 +49,30 @@ jobs:
           git rm -rf . >/dev/null 2>&1 || true
           git clean -fdx >/dev/null 2>&1
 
-          # 只从 master 检出需要的文件
+          # 从 master 检出存在的白名单文件
+          FILES_TO_ADD=()
           for f in "${KEEP_FILES[@]}"; do
             if git show "$SRC_COMMIT:$f" >/dev/null 2>&1; then
               git checkout "$SRC_COMMIT" -- "$f"
+              FILES_TO_ADD+=("$f")
             fi
           done
 
           # 强制删除 md5 文件
           find . -type f -name "*.md5" -delete
 
-          # 提交
-          git add .
-          git commit -m "ad rules snapshot : $(TZ=UTC-8 date '+%Y-%m-%d %H:%M:%S')"
+          # 只有存在文件才提交
+          if [ ${#FILES_TO_ADD[@]} -gt 0 ]; then
+            git add .
+            git commit -m "ad rules snapshot : $(TZ=UTC-8 date '+%Y-%m-%d %H:%M:%S')"
+          else
+            echo "No files to commit, skipping commit."
+          fi
 
-      # 4. 强制推送 ad 分支
+      # 4. 强制推送 ad 分支（即使没有提交也会保持分支存在）
       - name: Push ad branch
-        uses: ad-m/github-push-action@v0.8.0
-        with:
-          github_token: ${{ secrets.PERSON_TOKEN }}
-          branch: ad
-          force: true
+        run: |
+          git push -f origin ad || echo "No changes to push"
 
       # 5. 清理旧的 workflow runs（仅 GitHub 有效）
       - name: Delete old workflow runs
