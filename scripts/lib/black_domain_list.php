@@ -421,16 +421,6 @@ return [
         "186078.com", //行为追踪，在https://etc.jiguangzhuisu.com/701f41a599cdbf67cea081ed9abda6ee.js
     ],
 
-    "iask.cn" => [
-        "iask.cn", //广告服务商
-        "pic.iask.cn",
-    ],
-
-    "iask.com.cn" => [
-        "iask.com.cn", //广告服务商
-        "dw.iask.com.cn",
-    ],
-
     "dushu.io" => [
         "advertising.dushu.io", //广告域名
     ],
@@ -1518,9 +1508,11 @@ return [
         "www.staticfile.org", // #938
     ],
     "anythinktech.com" => [
+        "anythinktech.com",
         "adx-os.anythinktech.com", // #958
         "cn-api.anythinktech.com", // #989
         "datk.anythinktech.com", // #989
+        "apiv4.anythinktech.com", // #1078
     ],
     "bhbapp.cn" => [
         "sentry.bhbapp.cn", // #966
@@ -1616,6 +1608,48 @@ return [
     ],
     "alibabachengdun.com" => [
         "mum.alibabachengdun.com", // #1073
+    ],
+    "adfunlink.com" => [
+        "adfunlink.com", // #1080
+    ],
+    "adintl.cn" => [
+        "adintl.cn", // #1080
+    ],
+    "bidtoolads.com" => [
+        "bidtoolads.com", // #1080
+    ],
+    "hanlanad.com" => [
+        "hanlanad.com", // #1080
+    ],
+    "takuad.com" => [
+        "takuad.com", // #1080
+    ],
+    "tobidad.com" => [
+        "tobidad.com", // #1080
+    ],
+    "toponad.com" => [
+        "toponad.com", // #1080
+    ],
+    "uyunad.com" => [
+        "uyunad.com", // #1080
+    ],
+    "qidianad.com" => [
+        "qidianad.com", // #1080
+    ],
+    "shenshiads.com" => [
+        "shenshiads.com", // #1080
+    ],
+    "tradplusad.com" => [
+        "tradplusad.com", // #1080
+    ],
+    "juphaufaigna.net" => [
+        "juphaufaigna.net", // #1082
+    ],
+    "thirairtoaboats.net" => [
+        "thirairtoaboats.net", // #1082
+    ],
+    "wichoaltaisheel.net" => [
+        "wichoaltaisheel.net", // #1082
     ],
 
     "2mdn-cn.net" => ["2mdn-cn.net"],
