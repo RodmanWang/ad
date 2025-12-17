@@ -109,7 +109,6 @@ return [
     "acs.m.taobao.com" => 0, // #92
     "perfops.net" => 0, // #96
     "msg.video.qiyi.com" => 0, // #93
-    "img.zuoyebang.cc" => 0, // 作业帮拍照搜题
     "data.video.iqiyi.com" => 0, // 爱奇艺电视投屏
     "cp81.ott.cibntv.net" => 0, // CIBN云视听异常 #107
     "sj.uukanshu.com" => 0, // 误杀 #110
@@ -211,7 +210,6 @@ return [
     "umiwi.com" => 0, // #341
     "xmpush.xiaomi.com" => 0, // #343
     "app.chat.xiaomi.net" => 0, // https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/1726
-    "doublecklick.net" => 1, // 拼写错误的域名，https://github.com/privacy-protection-tools/anti-AD/pull/347/files
     "issuecdn.baidupcs.com" => 0, // #350
     "duiba.com.cn" => 0, // #352
     "trib.al" => 0, // #357
@@ -277,7 +275,6 @@ return [
     "appdownload.alicdn.com" => 0, // #491
     "zconfig.alibabausercontent.com" => 0, // #495
     "proofpoint.com" => 0, // #497
-    "mini.eastday.com" => 0, // #500
     "dftoutiao.com" => 0, // #500
     "dcms.1688.com" => 0, // #499
     "da.mmarket.com" => 0, // #501
@@ -320,7 +317,8 @@ return [
     "pic.imgdb.cn" => 0, #565
     "ip-tracker.org" => 0, #578
     "is.snssdk.com" => 0, #579
-    "down.360safe.com" => 0, #577
+    "down.360safe.com" => 0, #169, #577
+    "update.360safe.com" => 0, #169
     "soup.v.qq.com" => 0, #576
     "live-trace.bilibili.com" => 0, #561, #517
     "live800.com" => 0, #573
@@ -387,14 +385,6 @@ return [
     "qiyukf.com" => 0, #754
     "amdc.m.taobao.com" => 0, #778
     "jiagu.360.cn" => 0, #788
-    "mairuan.com" => 0, #772
-    "www.mairuan.com" => 0, #772
-    "mairuan.com.cn" => 0, #772
-    "www.mairuan.com.cn" => 0, #772
-    "mairuan.cn" => 0, #772
-    "www.mairuan.cn" => 0, #772
-    "mairuan.net" => 0, #772
-    "www.mairuan.net" => 0, #772
     "ldmnq.com" => 0, #787
     "heytapimage.com" => 0, #779, #780
     "fexclick.baidu.com" => 0, #790
@@ -457,6 +447,8 @@ return [
     "ac.dun.163.com" => 0, // #1014
     "ac.dun.163yun.com" => 0, // #1014
     "scarf.sh" => 0, // #957, #993, #1076
+    "dig.lianjia.com" => 0, // #1088
+    "systeme.io" => 0, // #1089
 
     // upstream-white-easylist 中选取的一些应放行域名
     "a1.itc.cn" => 0,
@@ -465,7 +457,7 @@ return [
     "ecma.bdimg.com" => 0,
     "gk.sina.cn" => 0,
     "pv.sohu.com" => 0, // #493
-    "sax.sina.com.cn" => 0,
+    "sax.sina.com.cn" => 0, // #155
     "statcounter.com" => 0,
     "www.statcounter.com" => 0,
     "tf.360.cn" => 0,
