@@ -1,35 +1,86 @@
+# 工作流名称
 name: Auto update rule
+
 on:
   workflow_dispatch:
+
   schedule:
-    - cron:  '25 0/3 * * *' 
+    - cron: '35 1/6 * * *'
+
   push:
     branches:
       - master
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v4
-    - name: Run start-ci.sh
-      run: |
-        /bin/bash ./scripts/start-ci.sh
-        
-    - name: Commit files
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add *
-        git commit -m "update : $(TZ=UTC-8 date "+%Y-%m-%d %H:%M:%S")"
-        
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.PERSON_TOKEN }}
-        branch: 'master'
 
-    - name: Delete workflow
-      uses: Mattraks/delete-workflow-runs@v2
-      with:
-        retain_days: 1
-        keep_minimum_runs: 3
+    # 防止 CI 自触发
+    if: gitea.event_name == 'schedule' ||
+        gitea.event_name == 'workflow_dispatch' ||
+        (gitea.event_name == 'push' && gitea.actor != 'RodmanWang')
+
+    steps:
+      # 1. 检出代码（必须完整历史）
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # 2. 运行你原有的生成脚本（完全不改）
+      - name: Run update script
+        run: |
+          /bin/bash ./scripts/start-ci.sh
+
+      # 3. 生成并重建 ad 分支
+      - name: Build ad branch snapshot
+        run: |
+          set -e
+
+          git config --local user.email "action@your-gitea-instance.com"
+          git config --local user.name "Gitea Action Bot"
+
+          # ===== 只允许进入 ad 分支的文件 =====
+          KEEP_FILES=(
+            "ad.yaml"
+            "ad-easylist.txt"
+            "ad-smartdns.conf"
+            "ad.list"
+            "ad.conf"
+          )
+
+          # 记录生成结果所在提交（master）
+          SRC_COMMIT=$(git rev-parse HEAD)
+
+          # 创建孤立 ad 分支（不继承任何历史）
+          git checkout --orphan ad
+
+          # 清空工作区
+          git rm -rf . >/dev/null 2>&1 || true
+
+          # 仅从生成结果中拷贝白名单文件
+          for f in "${KEEP_FILES[@]}"; do
+            if git show "$SRC_COMMIT:$f" >/dev/null 2>&1; then
+              git checkout "$SRC_COMMIT" -- "$f"
+            fi
+          done
+
+          # ===== 保险：强制删除所有 .md5 文件 =====
+          find . -type f -name "*.md5" -delete
+
+          # 提交（ad 分支唯一提交）
+          git add .
+          git commit -m "ad rules snapshot : $(TZ=UTC-8 date "+%Y-%m-%d %H:%M:%S")"
+
+      # 4. 强制推送 ad 分支
+      - name: Push ad branch
+        uses: ad-m/github-push-action@v0.8.0
+        with:
+          github_token: ${{ secrets.PERSON_TOKEN }}
+          branch: ad
+
+      - name: Delete workflow
+        uses: Mattraks/delete-workflow-runs@v2
+        with:
+          retain_days: 1
+          keep_minimum_runs: 3
