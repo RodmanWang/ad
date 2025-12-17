@@ -3,7 +3,7 @@ name: Auto update rule
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 0/3 * * *'
+    - cron: '25 0/3 * * *'   # 每3小时25分执行一次
   push:
     branches:
       - master
@@ -30,7 +30,7 @@ jobs:
           git config --local user.email "action@your-gitea-instance.com"
           git config --local user.name "Gitea Action Bot"
 
-          # 仅允许进入 ad 分支的文件
+          # 文件白名单
           KEEP_FILES=(
             "ad.yaml"
             "ad-easylist.txt"
@@ -39,26 +39,27 @@ jobs:
             "ad.conf"
           )
 
-          # 记录 master 当前提交
+          # 当前 master commit
           SRC_COMMIT=$(git rev-parse HEAD)
 
-          # 创建孤立 ad 分支（不继承任何历史）
+          # 创建孤立分支
           git checkout --orphan ad
 
-          # 清空工作区
+          # 删除所有文件，包括未跟踪和隐藏文件
           git rm -rf . >/dev/null 2>&1 || true
+          git clean -fdx >/dev/null 2>&1
 
-          # 只从 master 拷贝白名单文件
+          # 只从 master 检出需要的文件
           for f in "${KEEP_FILES[@]}"; do
             if git show "$SRC_COMMIT:$f" >/dev/null 2>&1; then
               git checkout "$SRC_COMMIT" -- "$f"
             fi
           done
 
-          # 强制删除所有 md5 文件
+          # 强制删除 md5 文件
           find . -type f -name "*.md5" -delete
 
-          # ad 分支唯一提交
+          # 提交
           git add .
           git commit -m "ad rules snapshot : $(TZ=UTC-8 date '+%Y-%m-%d %H:%M:%S')"
 
