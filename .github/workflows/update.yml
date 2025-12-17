@@ -70,7 +70,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No files to commit, skipping commit."
           else
-            git commit -m "ad rules snapshot : $(TZ=UTC-8 date '+%Y-%m-%d %H:%M:%S')"
+            git commit -m "update : $(TZ=UTC-8 date "+%Y-%m-%d %H:%M:%S")"
           fi
 
       # 4. 强制推送 ad 分支
