@@ -39,8 +39,18 @@ jobs:
             "ad.conf"
           )
 
-          # 当前 master commit
-          SRC_COMMIT=$(git rev-parse HEAD)
+          # 创建临时目录存放白名单文件
+          TMP_DIR=$(mktemp -d)
+          echo "Copying files to temporary directory: $TMP_DIR"
+
+          for f in "${KEEP_FILES[@]}"; do
+            if [ -f "$f" ]; then
+              mkdir -p "$TMP_DIR/$(dirname "$f")"
+              cp "$f" "$TMP_DIR/$f"
+            else
+              echo "File not found in master: $f"
+            fi
+          done
 
           # 创建孤立分支
           git checkout --orphan ad
@@ -49,27 +59,21 @@ jobs:
           git rm -rf . >/dev/null 2>&1 || true
           git clean -fdx >/dev/null 2>&1
 
-          # 从 master 检出存在的白名单文件
-          FILES_TO_ADD=()
-          for f in "${KEEP_FILES[@]}"; do
-            if git show "$SRC_COMMIT:$f" >/dev/null 2>&1; then
-              git checkout "$SRC_COMMIT" -- "$f"
-              FILES_TO_ADD+=("$f")
-            fi
-          done
+          # 拷贝临时目录文件回工作区
+          cp -r "$TMP_DIR/." .
 
           # 强制删除 md5 文件
           find . -type f -name "*.md5" -delete
 
-          # 只有存在文件才提交
-          if [ ${#FILES_TO_ADD[@]} -gt 0 ]; then
-            git add .
-            git commit -m "ad rules snapshot : $(TZ=UTC-8 date '+%Y-%m-%d %H:%M:%S')"
-          else
+          # 提交
+          git add .
+          if git diff --cached --quiet; then
             echo "No files to commit, skipping commit."
+          else
+            git commit -m "ad rules snapshot : $(TZ=UTC-8 date '+%Y-%m-%d %H:%M:%S')"
           fi
 
-      # 4. 强制推送 ad 分支（即使没有提交也会保持分支存在）
+      # 4. 强制推送 ad 分支
       - name: Push ad branch
         run: |
           git push -f origin ad || echo "No changes to push"
