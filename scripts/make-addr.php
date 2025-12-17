@@ -33,8 +33,8 @@ define(
     'https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/refs/heads/adlist-maker/scripts/lib/white_domain_list.php'
 );
 
-// 本地缓存目录 & 文件
-define('LIST_CACHE_DIR', ROOT_DIR . 'cache/');
+// 临时缓存目录 & 文件（不污染 git）
+define('LIST_CACHE_DIR', sys_get_temp_dir() . '/ad_list_cache/');
 define('LOCAL_BLACKLIST_CACHE', LIST_CACHE_DIR . 'black_domain_list.php');
 define('LOCAL_WHITELIST_CACHE', LIST_CACHE_DIR . 'white_domain_list.php');
 
@@ -44,7 +44,7 @@ if (!is_dir(LIST_CACHE_DIR)) {
 }
 
 /**
- * 从远程加载 PHP 数组（return [...]），并缓存到本地
+ * 从远程加载 PHP 数组（return [...]），并缓存到本地临时目录
  *
  * @param string $remoteUrl
  * @param string $localCache
@@ -70,7 +70,7 @@ function load_remote_php_list($remoteUrl, $localCache, $ttl = 21600)
 }
 
 /* =========================
- * 加载黑白名单（远程）
+ * 加载黑白名单（远程 + 临时缓存）
  * ========================= */
 
 $ARR_BLACKLIST = load_remote_php_list(
