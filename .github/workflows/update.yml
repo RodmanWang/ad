@@ -1,21 +1,25 @@
 name: Auto update rule
+
 on:
   workflow_dispatch:
   schedule:
-    - cron:  '25 0/3 * * *' 
+    - cron: '25 0/3 * * *'
   push:
     branches:
       - master
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-    - uses: actions/checkout@v4
-    - name: Run start-ci.sh
-      run: |
-        /bin/bash ./scripts/start-ci.sh
-        
- # 3. 生成并重建 ad 分支
+      - uses: actions/checkout@v4
+
+      - name: Run start-ci.sh
+        run: |
+          /bin/bash ./scripts/start-ci.sh
+
+      # 3. 生成并重建 ad 分支
       - name: Build ad branch snapshot
         run: |
           set -e
@@ -62,9 +66,8 @@ jobs:
           github_token: ${{ secrets.PERSON_TOKEN }}
           branch: ad
 
-    - name: Delete workflow
-      uses: Mattraks/delete-workflow-runs@v2
-      with:
-        retain_days: 1
-        keep_minimum_runs: 3
-        
+      - name: Delete workflow
+        uses: Mattraks/delete-workflow-runs@v2
+        with:
+          retain_days: 1
+          keep_minimum_runs: 3
