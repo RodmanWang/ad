@@ -12,24 +12,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    # ===== 防止 CI 自触发 =====
-    # 允许：
-    # - 手动触发
-    # - 定时触发
-    # - 非 Bot 用户 push 到 master
-    if: >
-      github.event_name == 'workflow_dispatch' ||
-      github.event_name == 'schedule' ||
-      (github.event_name == 'push' && github.actor != 'Gitea Action Bot')
-
     steps:
-      - uses: actions/checkout@v4
+      # 1. 检出 master
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
+      # 2. 运行生成脚本（在 master 上生成文件）
       - name: Run start-ci.sh
         run: |
           /bin/bash ./scripts/start-ci.sh
 
-      # 3. 生成并重建 ad 分支
+      # 3. 生成 ad 分支（孤立分支，只保留指定文件）
       - name: Build ad branch snapshot
         run: |
           set -e
@@ -37,7 +30,7 @@ jobs:
           git config --local user.email "action@your-gitea-instance.com"
           git config --local user.name "Gitea Action Bot"
 
-          # ===== 只允许进入 ad 分支的文件 =====
+          # 仅允许进入 ad 分支的文件
           KEEP_FILES=(
             "ad.yaml"
             "ad-easylist.txt"
@@ -46,30 +39,39 @@ jobs:
             "ad.conf"
           )
 
+          # 记录 master 当前提交
           SRC_COMMIT=$(git rev-parse HEAD)
 
+          # 创建孤立 ad 分支（不继承任何历史）
           git checkout --orphan ad
+
+          # 清空工作区
           git rm -rf . >/dev/null 2>&1 || true
 
+          # 只从 master 拷贝白名单文件
           for f in "${KEEP_FILES[@]}"; do
             if git show "$SRC_COMMIT:$f" >/dev/null 2>&1; then
               git checkout "$SRC_COMMIT" -- "$f"
             fi
           done
 
+          # 强制删除所有 md5 文件
           find . -type f -name "*.md5" -delete
 
+          # ad 分支唯一提交
           git add .
-          git commit -m "ad rules snapshot : $(TZ=UTC-8 date "+%Y-%m-%d %H:%M:%S")"
+          git commit -m "ad rules snapshot : $(TZ=UTC-8 date '+%Y-%m-%d %H:%M:%S')"
 
-      # 4. 推送 ad 分支
+      # 4. 强制推送 ad 分支
       - name: Push ad branch
         uses: ad-m/github-push-action@v0.8.0
         with:
           github_token: ${{ secrets.PERSON_TOKEN }}
           branch: ad
+          force: true
 
-      - name: Delete workflow
+      # 5. 清理旧的 workflow runs（仅 GitHub 有效）
+      - name: Delete old workflow runs
         uses: Mattraks/delete-workflow-runs@v2
         with:
           retain_days: 1
