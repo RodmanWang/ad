@@ -12,6 +12,16 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    # ===== 防止 CI 自触发 =====
+    # 允许：
+    # - 手动触发
+    # - 定时触发
+    # - 非 Bot 用户 push 到 master
+    if: >
+      github.event_name == 'workflow_dispatch' ||
+      github.event_name == 'schedule' ||
+      (github.event_name == 'push' && github.actor != 'Gitea Action Bot')
+
     steps:
       - uses: actions/checkout@v4
 
@@ -36,30 +46,23 @@ jobs:
             "ad.conf"
           )
 
-          # 记录生成结果所在提交（master）
           SRC_COMMIT=$(git rev-parse HEAD)
 
-          # 创建孤立 ad 分支（不继承任何历史）
           git checkout --orphan ad
-
-          # 清空工作区
           git rm -rf . >/dev/null 2>&1 || true
 
-          # 仅从生成结果中拷贝白名单文件
           for f in "${KEEP_FILES[@]}"; do
             if git show "$SRC_COMMIT:$f" >/dev/null 2>&1; then
               git checkout "$SRC_COMMIT" -- "$f"
             fi
           done
 
-          # ===== 保险：强制删除所有 .md5 文件 =====
           find . -type f -name "*.md5" -delete
 
-          # 提交（ad 分支唯一提交）
           git add .
           git commit -m "ad rules snapshot : $(TZ=UTC-8 date "+%Y-%m-%d %H:%M:%S")"
 
-      # 4. 强制推送 ad 分支
+      # 4. 推送 ad 分支
       - name: Push ad branch
         uses: ad-m/github-push-action@v0.8.0
         with:
