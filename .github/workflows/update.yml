@@ -27,8 +27,8 @@ jobs:
         run: |
           set -e
 
-          git config --local user.email "action@your-gitea-instance.com"
-          git config --local user.name "Gitea Action Bot"
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
 
           # 文件白名单
           KEEP_FILES=(
