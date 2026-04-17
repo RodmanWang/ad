@@ -10,16 +10,18 @@ easylist=(
   "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/refs/heads/main/filters/general/filter_59_DnsPopupsFilter/filter.txt"
   "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/refs/heads/main/filters/regional/filter_25_KOR_List-KR/filter.txt"
   "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/refs/heads/main/filters/regional/filter_29_CHN_AdRules/filter.txt"
+  "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/refs/heads/main/filters/other/filter_7_SmartTVBlocklist/filter.txt"
+  "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_7_Japanese/filter.txt"
 )
 
 hosts=(
-  "https://raw.githubusercontent.com/RodmanWang/ad/refs/heads/master/scripts/origin-files/ad-hosts.txt"
+  "https://gitea.goota.top/RodmanWang/ad/raw/branch/master/scripts/origin-files/ad-hosts.txt"
   "https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-hosts-online.txt"
   "https://pgl.yoyo.org/adservers/serverlist.php?showintro=0;hostformat=hosts&useip=0.0.0.0"
 )
 
 strict_hosts=(
-  "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt"
+  "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/refs/heads/main/filters/security/filter_8_NoCoin/filter.txt"
 )
 
 dead_hosts=(
