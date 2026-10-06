@@ -1,0 +1,86 @@
+name: Auto update rule
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 0/3 * * *'   # 每3小时25分执行一次
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. 检出 master
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. 运行生成脚本（在 master 上生成文件）
+      - name: Run start-ci.sh
+        run: |
+          /bin/bash ./scripts/start-ci.sh
+
+      # 3. 生成 ad 分支（孤立分支，只保留指定文件）
+      - name: Build ad branch snapshot
+        run: |
+          set -e
+
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+          # 文件白名单
+          KEEP_FILES=(
+            "ad.yaml"
+            "ad-easylist.txt"
+            "ad-smartdns.conf"
+            "ad.list"
+            "ad.conf"
+          )
+
+          # 创建临时目录存放白名单文件
+          TMP_DIR=$(mktemp -d)
+          echo "Copying files to temporary directory: $TMP_DIR"
+
+          for f in "${KEEP_FILES[@]}"; do
+            if [ -f "$f" ]; then
+              mkdir -p "$TMP_DIR/$(dirname "$f")"
+              cp "$f" "$TMP_DIR/$f"
+            else
+              echo "File not found in master: $f"
+            fi
+          done
+
+          # 创建孤立分支
+          git checkout --orphan ad
+
+          # 删除所有文件，包括未跟踪和隐藏文件
+          git rm -rf . >/dev/null 2>&1 || true
+          git clean -fdx >/dev/null 2>&1
+
+          # 拷贝临时目录文件回工作区
+          cp -r "$TMP_DIR/." .
+
+          # 强制删除 md5 文件
+          find . -type f -name "*.md5" -delete
+
+          # 提交
+          git add .
+          if git diff --cached --quiet; then
+            echo "No files to commit, skipping commit."
+          else
+            git commit -m "update : $(TZ=UTC-8 date "+%Y-%m-%d %H:%M:%S")"
+          fi
+
+      # 4. 强制推送 ad 分支
+      - name: Push ad branch
+        run: |
+          git push -f origin ad || echo "No changes to push"
+
+      # 5. 清理旧的 workflow runs（仅 GitHub 有效）
+      - name: Delete old workflow runs
+        uses: Mattraks/delete-workflow-runs@v2
+        with:
+          retain_days: 7
+          keep_minimum_runs: 7
