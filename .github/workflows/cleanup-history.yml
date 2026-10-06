@@ -5,120 +5,54 @@ on:
 
   schedule:
     # 每月1号 UTC 02:00 执行
-    # 北京时间为当天10:00
     - cron: '0 2 1 * *'
 
-# GitHub Actions 写权限
-permissions:
-  contents: write
-
-# 防止重复运行
-# 新任务启动时取消旧任务
 concurrency:
   group: cleanup-ad-git-history
   cancel-in-progress: true
 
 jobs:
   cleanup:
-    name: Compress old ad history
+    name: Keep recent git history
     runs-on: ubuntu-latest
     timeout-minutes: 30
 
     steps:
-
-      # 拉取完整 master 历史
       - name: Checkout master history
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
           ref: master
 
-      # 安装工具
       - name: Install tools
         run: |
           sudo apt update
           sudo apt install -y git-filter-repo
 
-      # 清理旧提交
-      #
-      # 保留最近365天提交
-      # 删除更早历史
-      #
       - name: Cleanup old commits
         run: |
           set -e
 
-          KEEP_DAYS=365
+          KEEP_DAYS=180
 
-          echo "Keep history days:"
-          echo "$KEEP_DAYS"
+          echo "Keep days: $KEEP_DAYS"
 
           CUTOFF=$(date -d "$KEEP_DAYS days ago" +%s)
 
-          echo "Cutoff:"
-          date -d "@$CUTOFF"
+          echo "Cutoff: $CUTOFF"
 
-          mkdir -p /tmp/git-clean
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "GitHub Actions Bot"
 
-          # 获取提交记录
-          # 格式: commit hash + 时间戳
-          git log \
-            --format="%H %ct" \
-            --reverse \
-            > /tmp/git-clean/commits.txt
+          git filter-repo \
+            --force \
+            --commit-callback "if int(commit.author_date.split()[0]) < $CUTOFF: commit.skip()"
 
-          FIRST_KEEP=""
-
-          # 查找第一个需要保留的提交
-          while read HASH TIME
-          do
-            if [ "$TIME" -ge "$CUTOFF" ]; then
-              FIRST_KEEP="$HASH"
-              break
-            fi
-          done < /tmp/git-clean/commits.txt
-
-          # 没有旧历史，直接结束
-          if [ -z "$FIRST_KEEP" ]; then
-            echo "No old history found"
-            exit 0
-          fi
-
-          echo "First commit to keep:"
-          echo "$FIRST_KEEP"
-
-          git config user.email "action@github.com"
-          git config user.name "GitHub Action Bot"
-
-          # 创建新的历史
-          git checkout --orphan history-clean
-
-          # 删除旧索引
-          git rm -rf . >/dev/null 2>&1 || true
-
-          # 恢复当前文件
-          git checkout master -- .
-
-          git add .
-
-          # 创建新的历史起点
-          git commit \
-            -m "Snapshot before $(date '+%Y-%m-%d %H:%M:%S')"
-
-          # 恢复保留范围内提交
-          git cherry-pick "$FIRST_KEEP"..master || true
-
-          # 替换 master
-          git branch -D master
-          git branch -m master
-
-      # 清理无引用对象
       - name: Cleanup repository
         run: |
           git reflog expire --expire=now --all
           git gc --prune=now
 
-      # 检查结果
       - name: Check result
         run: |
           echo "Current commits:"
@@ -129,7 +63,6 @@ jobs:
           echo "Repository size:"
           du -sh .git
 
-      # 强制推送新的 master
       - name: Push cleaned history
         uses: ad-m/github-push-action@master
         with:
