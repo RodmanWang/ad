@@ -4,7 +4,6 @@ on:
   workflow_dispatch:
 
   schedule:
-    # 每月1号 UTC 02:00 执行
     - cron: '0 2 1 * *'
 
 concurrency:
@@ -13,7 +12,7 @@ concurrency:
 
 jobs:
   cleanup:
-    name: Keep recent git history
+    name: Compress old ad history
     runs-on: ubuntu-latest
     timeout-minutes: 30
 
@@ -24,48 +23,131 @@ jobs:
           fetch-depth: 0
           ref: master
 
-      - name: Install tools
-        run: |
-          sudo apt update
-          sudo apt install -y git-filter-repo
-
-      - name: Cleanup old commits
+      - name: Find cutoff commit
         run: |
           set -e
 
           KEEP_DAYS=180
 
-          echo "Keep days: $KEEP_DAYS"
-
           CUTOFF=$(date -d "$KEEP_DAYS days ago" +%s)
 
-          echo "Cutoff: $CUTOFF"
+          echo "Keep days:"
+          echo "$KEEP_DAYS"
+
+          echo "Cutoff:"
+          date -d "@$CUTOFF"
+
+          FIRST_KEEP=""
+
+          while read COMMIT
+          do
+            TIME=$(git show -s --format=%ct "$COMMIT")
+
+            if [ "$TIME" -ge "$CUTOFF" ]; then
+              FIRST_KEEP="$COMMIT"
+              break
+            fi
+
+          done < <(git rev-list --reverse HEAD)
+
+          if [ -z "$FIRST_KEEP" ]; then
+            echo "No cleanup required"
+            exit 0
+          fi
+
+          echo "$FIRST_KEEP" > /tmp/first_keep
+
+          echo "First commit kept:"
+          git show -s --format="%h %ad %s" --date=short "$FIRST_KEEP"
+
+
+      - name: Rebuild clean history
+        run: |
+          set -e
 
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git config user.name "GitHub Actions Bot"
 
-          git filter-repo \
-            --force \
-            --commit-callback "if int(commit.author_date.split()[0]) < $CUTOFF: commit.skip()"
+          FIRST_KEEP=$(cat /tmp/first_keep)
 
-      - name: Cleanup repository
+          OLD_HEAD=$(git rev-parse HEAD)
+
+          echo "Save current source"
+
+          mkdir -p /tmp/current-source
+
+          git archive "$OLD_HEAD" | tar -x -C /tmp/current-source
+
+
+          echo "Create clean master"
+
+          git checkout --orphan clean-master
+
+          git rm -rf . >/dev/null 2>&1 || true
+
+          cp -a /tmp/current-source/. .
+
+          git add .
+
+          git commit \
+            -m "Initial history snapshot"
+
+
+          echo "Apply recent commits"
+
+          git cherry-pick "$FIRST_KEEP".."$OLD_HEAD" || true
+
+
+          while git rev-parse --verify CHERRY_PICK_HEAD >/dev/null 2>&1
+          do
+            echo "Resolve conflict"
+
+            git checkout --theirs .
+
+            git add .
+
+            git cherry-pick --continue || git cherry-pick --skip || true
+          done
+
+
+          echo "Rename branch"
+
+          git branch -M master
+
+
+      - name: Cleanup git objects
         run: |
+          set -e
+
           git reflog expire --expire=now --all
+
           git gc --prune=now
 
-      - name: Check result
+
+      - name: Verify result
         run: |
-          echo "Current commits:"
-          git log --oneline -10
+          set -e
+
+          echo "===================="
+
+          echo "Commit count:"
+          git rev-list --count HEAD
+
+          echo ""
+
+          echo "Latest commits:"
+          git log --oneline -30
 
           echo ""
 
           echo "Repository size:"
           du -sh .git
 
+
       - name: Push cleaned history
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.PERSON_TOKEN }}
-          branch: master
-          force: true
+        run: |
+          set -e
+
+          echo "Force push cleaned master"
+
+          git push origin master --force
