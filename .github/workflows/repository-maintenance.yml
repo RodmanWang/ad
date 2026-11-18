@@ -1,3 +1,4 @@
+
 name: Repository Maintenance
 
 # GITHUB_TOKEN 只保留读取权限。
@@ -8,32 +9,27 @@ permissions:
 on:
   workflow_dispatch:
     inputs:
-      workflow_runs_keep_days:
-        description: "Workflow Runs retention (days)"
-        required: false
-        default: 7 # RETENTION_DEFAULT_RUNS
+      保留天数:
+        description: "保留天数（同时应用于 Actions 运行记录和 master 提交）"
+        required: true
+        default: 30
         type: number
 
-      commits_keep_days:
-        description: "Master Commits retention (days)"
-        required: false
-        default: 30 # RETENTION_DEFAULT_COMMITS
+      保留数量:
+        description: "保留数量（同时应用于 Actions 运行记录和 master 提交）"
+        required: true
+        default: 100
         type: number
 
-      update_interval_hours:
-        description: "Automatic rule update interval (hours)"
-        required: false
-        default: 3 # RETENTION_DEFAULT_INTERVAL
-        type: number
-
-  # GitHub schedule 不支持动态变量。
-  # 每 15 分钟检查一次，达到设定间隔后才执行更新。
+  # 每天北京时间 03:30（UTC 19:30）
   schedule:
-  - cron: '7,22,37,52 * * * *'
+    - cron: '30 19 * * *'
 
   push:
     branches:
       - master
+    paths-ignore:
+      - '.github/workflows/repository-maintenance.yml'
 
 concurrency:
   group: repository-maintenance
@@ -49,9 +45,8 @@ jobs:
       GH_TOKEN: ${{ secrets.PERSON_TOKEN }}
       GH_REPO: ${{ github.repository }}
 
-      DEFAULT_RUNS_DAYS: "7" # RETENTION_DEFAULT_RUNS
-      DEFAULT_COMMITS_DAYS: "30" # RETENTION_DEFAULT_COMMITS
-      DEFAULT_UPDATE_INTERVAL: "3" # RETENTION_DEFAULT_INTERVAL
+      DEFAULT_KEEP_DAYS: "30"
+      DEFAULT_KEEP_COUNT: "100"
 
     steps:
       # 0. 检查 PERSON_TOKEN
@@ -69,7 +64,7 @@ jobs:
 
           echo "PERSON_TOKEN is configured."
 
-      # 1. Checkout master，使用 PERSON_TOKEN 保存 Git 凭据
+      # 1. Checkout master
       - name: Checkout repository
         uses: actions/checkout@v5
         with:
@@ -80,73 +75,63 @@ jobs:
 
       # 2. Configure Git
       - name: Configure Git
-        run: |
-          set -euo pipefail
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git config user.name "GitHub Actions Bot"
-
-      # 3. Resolve retention and update interval
-      - name: Set maintenance settings
-        id: settings
-        env:
-          INPUT_RUNS_DAYS: ${{ inputs.workflow_runs_keep_days }}
-          INPUT_COMMITS_DAYS: ${{ inputs.commits_keep_days }}
-          INPUT_UPDATE_INTERVAL: ${{ inputs.update_interval_hours }}
         shell: bash
         run: |
           set -euo pipefail
 
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "GitHub Actions Bot"
+
+      # 3. Resolve retention settings
+      - name: Set maintenance settings
+        id: settings
+        shell: bash
+        env:
+          INPUT_KEEP_DAYS: ${{ github.event.inputs['保留天数'] }}
+          INPUT_KEEP_COUNT: ${{ github.event.inputs['保留数量'] }}
+        run: |
+          set -euo pipefail
+
           if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ]; then
-            RUNS_DAYS="${INPUT_RUNS_DAYS:-$DEFAULT_RUNS_DAYS}"
-            COMMITS_DAYS="${INPUT_COMMITS_DAYS:-$DEFAULT_COMMITS_DAYS}"
-            UPDATE_INTERVAL="${INPUT_UPDATE_INTERVAL:-$DEFAULT_UPDATE_INTERVAL}"
+            KEEP_DAYS="${INPUT_KEEP_DAYS:-$DEFAULT_KEEP_DAYS}"
+            KEEP_COUNT="${INPUT_KEEP_COUNT:-$DEFAULT_KEEP_COUNT}"
           else
-            RUNS_DAYS="$DEFAULT_RUNS_DAYS"
-            COMMITS_DAYS="$DEFAULT_COMMITS_DAYS"
-            UPDATE_INTERVAL="$DEFAULT_UPDATE_INTERVAL"
+            KEEP_DAYS="$DEFAULT_KEEP_DAYS"
+            KEEP_COUNT="$DEFAULT_KEEP_COUNT"
           fi
 
-          if ! [[ "$RUNS_DAYS" =~ ^[1-9][0-9]*$ ]]; then
-            echo "::error::Workflow Runs retention must be a positive integer."
+          if ! [[ "$KEEP_DAYS" =~ ^[1-9][0-9]*$ ]]; then
+            echo "::error::Retention days must be a positive integer."
             exit 1
           fi
 
-          if ! [[ "$COMMITS_DAYS" =~ ^[1-9][0-9]*$ ]]; then
-            echo "::error::Master Commits retention must be a positive integer."
+          if ! [[ "$KEEP_COUNT" =~ ^[1-9][0-9]*$ ]]; then
+            echo "::error::Retention count must be a positive integer."
             exit 1
           fi
 
-          if ! [[ "$UPDATE_INTERVAL" =~ ^[1-9][0-9]*$ ]]; then
-            echo "::error::Update interval must be a positive integer."
-            exit 1
-          fi
-
-          echo "runs_days=$RUNS_DAYS" >> "$GITHUB_OUTPUT"
-          echo "commits_days=$COMMITS_DAYS" >> "$GITHUB_OUTPUT"
-          echo "update_interval=$UPDATE_INTERVAL" >> "$GITHUB_OUTPUT"
+          echo "keep_days=$KEEP_DAYS" >> "$GITHUB_OUTPUT"
+          echo "keep_count=$KEEP_COUNT" >> "$GITHUB_OUTPUT"
 
           echo "================================"
-          echo "Workflow Runs retention: $RUNS_DAYS days"
-          echo "Master Commits retention: $COMMITS_DAYS days"
-          echo "Automatic update interval: $UPDATE_INTERVAL hours"
+          echo "Retention days: $KEEP_DAYS"
+          echo "Retention count: $KEEP_COUNT"
           echo "================================"
 
           {
             echo "## Maintenance Settings"
             echo ""
-            echo "- Workflow Runs retention: **$RUNS_DAYS days**"
-            echo "- Master Commits retention: **$COMMITS_DAYS days**"
-            echo "- Automatic update interval: **$UPDATE_INTERVAL hours**"
+            echo "- Retention days: **$KEEP_DAYS**"
+            echo "- Retention count: **$KEEP_COUNT**"
             echo ""
           } >> "$GITHUB_STEP_SUMMARY"
 
-      # 4. Remember manual settings in this workflow file
+      # 4. Remember manual settings in workflow file
       - name: Remember manual settings
         if: ${{ github.event_name == 'workflow_dispatch' }}
         env:
-          NEW_RUNS_DAYS: ${{ steps.settings.outputs.runs_days }}
-          NEW_COMMITS_DAYS: ${{ steps.settings.outputs.commits_days }}
-          NEW_UPDATE_INTERVAL: ${{ steps.settings.outputs.update_interval }}
+          NEW_KEEP_DAYS: ${{ steps.settings.outputs.keep_days }}
+          NEW_KEEP_COUNT: ${{ steps.settings.outputs.keep_count }}
         shell: bash
         run: |
           set -euo pipefail
@@ -162,61 +147,53 @@ jobs:
           content = path.read_text()
 
           values = [
-              ("RETENTION_DEFAULT_RUNS", os.environ["NEW_RUNS_DAYS"]),
-              ("RETENTION_DEFAULT_COMMITS", os.environ["NEW_COMMITS_DAYS"]),
-              ("RETENTION_DEFAULT_INTERVAL", os.environ["NEW_UPDATE_INTERVAL"]),
+              ("保留天数", os.environ["NEW_KEEP_DAYS"]),
+              ("保留数量", os.environ["NEW_KEEP_COUNT"]),
           ]
 
-          for marker, value in values:
+          for input_name, value in values:
               pattern = (
-                  r'(?m)^(\s*default:\s*)\d+(\s+# '
-                  + re.escape(marker)
-                  + r')$'
+                  r'(?m)^('
+                  + re.escape("      " + input_name + ":")
+                  + r'\n(?:[ \t]+[^\n]*\n)*?[ \t]+default:\s*)\d+'
               )
 
               content, count = re.subn(
                   pattern,
-                  lambda m: m.group(1) + value + m.group(2),
+                  lambda m: m.group(1) + value,
                   content
               )
 
               if count != 1:
                   raise SystemExit(
-                      f"Could not update input default: {marker}"
+                      f"Could not update input default: {input_name}"
                   )
 
-              if marker == "RETENTION_DEFAULT_RUNS":
-                  env_pattern = (
-                      r'(?m)^(\s*DEFAULT_RUNS_DAYS:\s*)"\d+"(\s+# '
-                      + re.escape(marker)
-                      + r')$'
-                  )
-              elif marker == "RETENTION_DEFAULT_COMMITS":
-                  env_pattern = (
-                      r'(?m)^(\s*DEFAULT_COMMITS_DAYS:\s*)"\d+"(\s+# '
-                      + re.escape(marker)
-                      + r')$'
-                  )
-              else:
-                  env_pattern = (
-                      r'(?m)^(\s*DEFAULT_UPDATE_INTERVAL:\s*)"\d+"(\s+# '
-                      + re.escape(marker)
-                      + r')$'
-                  )
+          env_values = [
+              ("DEFAULT_KEEP_DAYS", os.environ["NEW_KEEP_DAYS"]),
+              ("DEFAULT_KEEP_COUNT", os.environ["NEW_KEEP_COUNT"]),
+          ]
+
+          for name, value in env_values:
+              pattern = (
+                  r'(?m)^([ \t]*'
+                  + re.escape(name)
+                  + r':\s*)"[^"]*"'
+              )
 
               content, count = re.subn(
-                  env_pattern,
-                  lambda m: m.group(1) + '"' + value + '"' + m.group(2),
+                  pattern,
+                  lambda m: m.group(1) + '"' + value + '"',
                   content
               )
 
               if count != 1:
                   raise SystemExit(
-                      f"Could not update environment default: {marker}"
+                      f"Could not update environment default: {name}"
                   )
 
           path.write_text(content)
-          print("All manual settings saved.")
+          print("Manual settings saved to workflow file.")
           PY
 
           git add "$WORKFLOW_FILE"
@@ -224,83 +201,46 @@ jobs:
           if git diff --cached --quiet; then
             echo "Settings unchanged. No commit required."
           else
-            git commit -m "chore: update maintenance defaults"
+            git commit -m "chore: update maintenance defaults [skip ci]"
             git push origin HEAD:master
             echo "New defaults saved to master."
           fi
 
-      # 5. Decide whether scheduled maintenance is due
-      - name: Check automatic update interval
+      # 5. Decide whether maintenance should run
+      - name: Check maintenance trigger
         id: gate
         env:
-          UPDATE_INTERVAL: ${{ steps.settings.outputs.update_interval }}
           PUSH_AUTHOR_NAME: ${{ github.event.head_commit.author.name }}
           PUSH_AUTHOR_EMAIL: ${{ github.event.head_commit.author.email }}
         shell: bash
         run: |
           set -euo pipefail
 
-          SHOULD_RUN=false
-          NOW=$(date -u +%s)
+          SHOULD_RUN=true
 
-          if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ]; then
-            SHOULD_RUN=true
-            echo "Manual trigger: run maintenance immediately."
-
-          elif [ "$GITHUB_EVENT_NAME" = "push" ]; then
-            # 忽略本 Workflow 自己通过 PERSON_TOKEN 推送的维护提交，
-            # 防止保存默认值或时间戳后再次触发维护任务。
+          if [ "$GITHUB_EVENT_NAME" = "push" ]; then
+            # 忽略本 Workflow 自己推送的维护提交，防止递归执行。
             if [ "$PUSH_AUTHOR_NAME" = "GitHub Actions Bot" ] ||
                [ "$PUSH_AUTHOR_EMAIL" = "github-actions[bot]@users.noreply.github.com" ]; then
               SHOULD_RUN=false
-              echo "Bot commit detected. Skip recursive maintenance."
+              echo "Bot commit detected. Skip maintenance."
             else
-              SHOULD_RUN=true
               echo "Repository push detected. Run maintenance."
             fi
-
+          elif [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ]; then
+            echo "Manual trigger. Run maintenance."
           else
-            STATE_FILE=".github/maintenance-state.json"
-
-            if [ -f "$STATE_FILE" ]; then
-              LAST_UPDATE=$(python3 -c \
-                'import json; print(json.load(open(".github/maintenance-state.json")).get("last_update_epoch", 0))')
-            else
-              LAST_UPDATE=0
-            fi
-
-            if ! [[ "$LAST_UPDATE" =~ ^[0-9]+$ ]]; then
-              LAST_UPDATE=0
-            fi
-
-            INTERVAL_SECONDS=$((UPDATE_INTERVAL * 3600))
-            ELAPSED=$((NOW - LAST_UPDATE))
-
-            echo "Last update: $LAST_UPDATE"
-            echo "Elapsed seconds: $ELAPSED"
-            echo "Required seconds: $INTERVAL_SECONDS"
-
-            if [ "$LAST_UPDATE" -eq 0 ] ||
-               [ "$ELAPSED" -ge "$INTERVAL_SECONDS" ]; then
-              SHOULD_RUN=true
-              echo "Update interval reached."
-            else
-              REMAINING=$((INTERVAL_SECONDS - ELAPSED))
-              echo "Not yet due. Remaining seconds: $REMAINING"
-            fi
+            echo "Scheduled trigger. Run maintenance."
           fi
 
           echo "run_maintenance=$SHOULD_RUN" >> "$GITHUB_OUTPUT"
-
-          if [ "$SHOULD_RUN" = "false" ]; then
-            echo "Maintenance skipped."
-          fi
 
       # 6. Delete old Workflow Runs
       - name: Delete old Workflow Runs
         if: ${{ steps.gate.outputs.run_maintenance == 'true' }}
         env:
-          KEEP_DAYS: ${{ steps.settings.outputs.runs_days }}
+          KEEP_DAYS: ${{ steps.settings.outputs.keep_days }}
+          KEEP_COUNT: ${{ steps.settings.outputs.keep_count }}
           CURRENT_RUN_ID: ${{ github.run_id }}
         shell: bash
         run: |
@@ -309,35 +249,50 @@ jobs:
           CUTOFF=$(date -u -d "$KEEP_DAYS days ago" +%s)
 
           echo "Workflow Runs retention: $KEEP_DAYS days"
+          echo "Workflow Runs maximum count: $KEEP_COUNT"
 
           gh api --paginate \
             "repos/$GH_REPO/actions/runs?per_page=100" \
             --jq '.workflow_runs[] | select(.status == "completed") | [.id, .created_at] | @tsv' \
             > /tmp/actions-runs.tsv
 
+          # 按创建时间从新到旧排序。
+          sort -t $'\t' -k2,2r /tmp/actions-runs.tsv \
+            -o /tmp/actions-runs.tsv
+
           DELETED=0
           KEPT=0
 
-          while IFS=$'\t' read -r run_id created_at; do
-            [ -z "${run_id:-}" ] && continue
+          while IFS=$'\t' read -r RUN_ID CREATED_AT; do
+            [ -z "${RUN_ID:-}" ] && continue
 
-            if [ "$run_id" = "$CURRENT_RUN_ID" ]; then
-              echo "KEEP current run: $run_id"
+            if [ "$RUN_ID" = "$CURRENT_RUN_ID" ]; then
+              echo "KEEP current run: $RUN_ID"
               continue
             fi
 
-            CREATED=$(date -u -d "$created_at" +%s)
+            CREATED=$(date -u -d "$CREATED_AT" +%s)
 
+            # 先按保留天数筛选，再按保留数量限制。
             if [ "$CREATED" -lt "$CUTOFF" ]; then
-              echo "DELETE: $run_id ($created_at)"
+              SHOULD_DELETE=true
+            elif [ "$KEPT" -lt "$KEEP_COUNT" ]; then
+              SHOULD_DELETE=false
+              KEPT=$((KEPT + 1))
+            else
+              SHOULD_DELETE=true
+            fi
+
+            if [ "$SHOULD_DELETE" = "true" ]; then
+              echo "DELETE: $RUN_ID ($CREATED_AT)"
 
               gh api \
                 --method DELETE \
-                "repos/$GH_REPO/actions/runs/$run_id"
+                "repos/$GH_REPO/actions/runs/$RUN_ID"
 
               DELETED=$((DELETED + 1))
             else
-              KEPT=$((KEPT + 1))
+              echo "KEEP: $RUN_ID ($CREATED_AT)"
             fi
           done < /tmp/actions-runs.tsv
 
@@ -347,7 +302,8 @@ jobs:
           {
             echo "## Workflow Runs Cleanup"
             echo ""
-            echo "- Retention: $KEEP_DAYS days"
+            echo "- Retention days: $KEEP_DAYS"
+            echo "- Maximum retained runs: $KEEP_COUNT"
             echo "- Deleted: $DELETED"
             echo "- Kept: $KEPT"
             echo ""
@@ -356,6 +312,7 @@ jobs:
       # 7. Run automatic rule update
       - name: Run start-ci.sh
         if: ${{ steps.gate.outputs.run_maintenance == 'true' }}
+        shell: bash
         run: |
           set -euo pipefail
           /bin/bash ./scripts/start-ci.sh
@@ -380,13 +337,13 @@ jobs:
 
           echo "Copying ad files..."
 
-          for f in "${KEEP_FILES[@]}"; do
-            if [ -f "$f" ]; then
-              mkdir -p "$TMP_DIR/$(dirname "$f")"
-              cp "$f" "$TMP_DIR/$f"
-              echo "KEEP: $f"
+          for FILE in "${KEEP_FILES[@]}"; do
+            if [ -f "$FILE" ]; then
+              mkdir -p "$TMP_DIR/$(dirname "$FILE")"
+              cp "$FILE" "$TMP_DIR/$FILE"
+              echo "KEEP: $FILE"
             else
-              echo "WARNING: File not found: $f"
+              echo "WARNING: File not found: $FILE"
             fi
           done
 
@@ -404,97 +361,92 @@ jobs:
           git add -A
 
           git commit --allow-empty \
-            -m "update: $(TZ=UTC-8 date "+%Y-%m-%d %H:%M:%S")"
+            -m "update: $(TZ=Asia/Shanghai date "+%Y-%m-%d %H:%M:%S")"
 
           echo "ad snapshot created."
 
-      # 9. Push ad branch
+      # 9. Publish ad branch
+      # ad 是发布分支，只更新最新快照，不参与 master 历史清理。
       - name: Push ad branch
         if: ${{ steps.gate.outputs.run_maintenance == 'true' }}
+        shell: bash
         run: |
           set -euo pipefail
 
           git push --force origin HEAD:refs/heads/ad
 
-          echo "ad branch updated successfully."
+          echo "ad release branch updated successfully."
 
-      # 10. Save automatic update timestamp
-      - name: Save automatic update timestamp
-        if: ${{ steps.gate.outputs.run_maintenance == 'true' }}
-        shell: bash
-        run: |
-          set -euo pipefail
-
-          git fetch origin master
-          git checkout -B master origin/master
-
-          mkdir -p .github
-
-          python3 - <<'PY'
-          import json
-          import time
-          from pathlib import Path
-
-          state = {
-              "last_update_epoch": int(time.time())
-          }
-
-          Path(".github/maintenance-state.json").write_text(
-              json.dumps(state, indent=2) + "\n"
-          )
-          PY
-
-          git add .github/maintenance-state.json
-
-          if ! git diff --cached --quiet; then
-            git commit -m "chore: record automatic update timestamp"
-            git push origin HEAD:master
-          fi
-
-          echo "Automatic update timestamp saved."
-
-      # 11. Prepare master history cleanup
+      # 10. Prepare master history cleanup
       - name: Prepare master history cleanup
         if: ${{ steps.gate.outputs.run_maintenance == 'true' }}
+        id: history
         env:
-          KEEP_DAYS: ${{ steps.settings.outputs.commits_days }}
+          KEEP_DAYS: ${{ steps.settings.outputs.keep_days }}
+          KEEP_COUNT: ${{ steps.settings.outputs.keep_count }}
         shell: bash
         run: |
           set -euo pipefail
 
           echo "Master history retention: $KEEP_DAYS days"
+          echo "Master history maximum count: $KEEP_COUNT"
 
+          # 明确只获取和处理 master。
+          # 不获取、不遍历、不修改 ad 分支。
           git fetch origin master
           git checkout --detach refs/remotes/origin/master
 
           OLD_HEAD=$(git rev-parse HEAD)
+          OLD_TREE=$(git rev-parse "$OLD_HEAD^{tree}")
           CUTOFF=$(date -u -d "$KEEP_DAYS days ago" +%s)
 
-          FIRST_COMMIT=""
+          mapfile -t FIRST_PARENT_COMMITS < <(
+            git rev-list --reverse --first-parent "$OLD_HEAD"
+          )
+
+          ELIGIBLE=()
+
+          # 第一步：按保留天数筛选 master 第一父链提交。
+          for COMMIT in "${FIRST_PARENT_COMMITS[@]}"; do
+            COMMIT_TIME=$(git show -s --format=%ct "$COMMIT")
+
+            if [ "$COMMIT_TIME" -ge "$CUTOFF" ]; then
+              ELIGIBLE+=("$COMMIT")
+            fi
+          done
+
           FIRST_KEEP=""
 
-          while IFS= read -r COMMIT; do
-            [ -z "$COMMIT" ] && continue
+          # 第二步：在符合日期条件的提交中，只保留最近 KEEP_COUNT 个。
+          if [ "${#ELIGIBLE[@]}" -gt 0 ]; then
+            ELIGIBLE_COUNT="${#ELIGIBLE[@]}"
 
-            if [ -z "$FIRST_COMMIT" ]; then
-              FIRST_COMMIT="$COMMIT"
+            if [ "$ELIGIBLE_COUNT" -gt "$KEEP_COUNT" ]; then
+              KEEP_INDEX=$((ELIGIBLE_COUNT - KEEP_COUNT))
+            else
+              KEEP_INDEX=0
             fi
 
-            TIME=$(git show -s --format=%ct "$COMMIT")
+            FIRST_KEEP="${ELIGIBLE[$KEEP_INDEX]}"
+          fi
 
-            if [ "$TIME" -ge "$CUTOFF" ]; then
-              FIRST_KEEP="$COMMIT"
-              break
-            fi
-          done < <(git rev-list --reverse --first-parent "$OLD_HEAD")
+          echo "Master first-parent commits: ${#FIRST_PARENT_COMMITS[@]}"
+          echo "Eligible commits by date: ${#ELIGIBLE[@]}"
 
-          if [ "$FIRST_KEEP" = "$FIRST_COMMIT" ]; then
+          # 第一个提交已经是保留起点，无须重写。
+          if [ -n "$FIRST_KEEP" ] &&
+             [ "$FIRST_KEEP" = "${FIRST_PARENT_COMMITS[0]}" ]; then
+
             echo "No old master history to clean."
+
+            echo "new_head=" >> "$GITHUB_OUTPUT"
+            echo "old_head=$OLD_HEAD" >> "$GITHUB_OUTPUT"
 
             {
               echo "## Master Commit Cleanup"
               echo ""
-              echo "- Retention: $KEEP_DAYS days"
+              echo "- Retention days: $KEEP_DAYS"
+              echo "- Maximum retained commits: $KEEP_COUNT"
               echo "- No history rewrite required."
               echo ""
             } >> "$GITHUB_STEP_SUMMARY"
@@ -502,59 +454,98 @@ jobs:
             exit 0
           fi
 
+          TEMP_BRANCH="cleanup-rewrite-${GITHUB_RUN_ID}"
+
+          git branch -f "$TEMP_BRANCH" "$OLD_HEAD"
+
           if [ -n "$FIRST_KEEP" ]; then
-            echo "First retained commit:"
+            echo "First retained master commit:"
             git show -s --format="%h %ad %s" --date=short "$FIRST_KEEP"
-          else
-            echo "All commits are older than retention."
-            echo "Keeping current file snapshot only."
-          fi
 
-          git branch -f cleanup-rewrite "$OLD_HEAD"
+            # 使用第一个保留提交的第一父提交文件树作为新根。
+            # 然后从该父提交之后开始重放，确保 FIRST_KEEP 本身也被重放。
+            FIRST_PARENT=$(git rev-parse "$FIRST_KEEP^1")
+            ROOT_TREE=$(git rev-parse "$FIRST_PARENT^{tree}")
 
-          if [ -n "$FIRST_KEEP" ]; then
-            ROOT_TREE=$(git rev-parse "$FIRST_KEEP^{tree}")
-          else
-            ROOT_TREE=$(git rev-parse "$OLD_HEAD^{tree}")
-          fi
+            NEW_ROOT=$(
+              printf '%s\n' "Initial history snapshot" \
+                | git commit-tree "$ROOT_TREE"
+            )
 
-          NEW_ROOT=$(
-            printf '%s\n' "Initial history snapshot" \
-              | git commit-tree "$ROOT_TREE"
-          )
+            echo "New root: $NEW_ROOT"
 
-          echo "New root: $NEW_ROOT"
-
-          if [ -n "$FIRST_KEEP" ]; then
             git rebase \
               --rebase-merges \
               --onto "$NEW_ROOT" \
-              "$FIRST_KEEP" \
-              cleanup-rewrite
+              "$FIRST_PARENT" \
+              "$TEMP_BRANCH"
           else
-            git branch -f cleanup-rewrite "$NEW_ROOT"
+            echo "No commits meet the retention date."
+            echo "Keeping the current master file snapshot only."
+
+            NEW_ROOT=$(
+              printf '%s\n' "Initial history snapshot" \
+                | git commit-tree "$OLD_TREE"
+            )
+
+            git branch -f "$TEMP_BRANCH" "$NEW_ROOT"
           fi
 
-          NEW_HEAD=$(git rev-parse cleanup-rewrite)
+          NEW_HEAD=$(git rev-parse "$TEMP_BRANCH")
+          NEW_TREE=$(git rev-parse "$NEW_HEAD^{tree}")
 
-          # Verify latest files remain identical
-          if ! git diff --quiet "$OLD_HEAD" "$NEW_HEAD" --; then
-            echo "::error::Final file snapshot differs from original master."
+          # 必须确保重写前后文件树对象完全相同。
+          if [ "$OLD_TREE" != "$NEW_TREE" ]; then
+            echo "::error::Master file tree changed during history rewrite."
+            echo "Old tree: $OLD_TREE"
+            echo "New tree: $NEW_TREE"
             exit 1
           fi
 
-          echo "Old commits: $(git rev-list --count "$OLD_HEAD")"
-          echo "New commits: $(git rev-list --count "$NEW_HEAD")"
+          echo "File tree verification passed."
 
-          echo "OLD_HEAD=$OLD_HEAD" >> "$GITHUB_ENV"
-          echo "NEW_HEAD=$NEW_HEAD" >> "$GITHUB_ENV"
+          OLD_COUNT=$(git rev-list --count --first-parent "$OLD_HEAD")
+          NEW_COUNT=$(git rev-list --count --first-parent "$NEW_HEAD")
 
-      # 12. Push cleaned master history
+          echo "Old first-parent commits: $OLD_COUNT"
+          echo "New first-parent commits: $NEW_COUNT"
+
+          echo "old_head=$OLD_HEAD" >> "$GITHUB_OUTPUT"
+          echo "new_head=$NEW_HEAD" >> "$GITHUB_OUTPUT"
+
+          {
+            echo "## Master Commit Cleanup"
+            echo ""
+            echo "- Retention days: $KEEP_DAYS"
+            echo "- Maximum retained commits: $KEEP_COUNT"
+            echo "- Old first-parent commits: $OLD_COUNT"
+            echo "- New first-parent commits: $NEW_COUNT"
+            echo "- File tree verification: passed"
+            echo ""
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      # 11. Push cleaned master history
       - name: Push cleaned master history
-        if: ${{ steps.gate.outputs.run_maintenance == 'true' && env.NEW_HEAD != '' }}
+        if: >-
+          ${{
+            steps.gate.outputs.run_maintenance == 'true' &&
+            steps.history.outputs.new_head != ''
+          }}
+        env:
+          OLD_HEAD: ${{ steps.history.outputs.old_head }}
+          NEW_HEAD: ${{ steps.history.outputs.new_head }}
         shell: bash
         run: |
           set -euo pipefail
+
+          # 推送前再次验证文件树。
+          OLD_TREE=$(git rev-parse "$OLD_HEAD^{tree}")
+          NEW_TREE=$(git rev-parse "$NEW_HEAD^{tree}")
+
+          if [ "$OLD_TREE" != "$NEW_TREE" ]; then
+            echo "::error::File tree verification failed before push."
+            exit 1
+          fi
 
           git push \
             --force-with-lease="refs/heads/master:$OLD_HEAD" \
@@ -563,18 +554,10 @@ jobs:
 
           echo "Master history updated successfully."
 
-          {
-            echo "## Master Commit Cleanup"
-            echo ""
-            echo "- Retention: ${{ steps.settings.outputs.commits_days }} days"
-            echo "- Old HEAD: \`$OLD_HEAD\`"
-            echo "- New HEAD: \`$NEW_HEAD\`"
-            echo ""
-          } >> "$GITHUB_STEP_SUMMARY"
-
-      # 13. Final summary
+      # 12. Final summary
       - name: Maintenance summary
         if: always()
+        shell: bash
         run: |
           echo "================================"
           echo "Repository Maintenance"
@@ -583,8 +566,9 @@ jobs:
           {
             echo "## Maintenance Result"
             echo ""
-            echo "- Workflow Runs retention: ${{ steps.settings.outputs.runs_days }} days"
-            echo "- Master Commits retention: ${{ steps.settings.outputs.commits_days }} days"
-            echo "- Automatic update interval: ${{ steps.settings.outputs.update_interval }} hours"
+            echo "- Retention days: ${{ steps.settings.outputs.keep_days }}"
+            echo "- Retention count: ${{ steps.settings.outputs.keep_count }}"
             echo "- Maintenance executed: ${{ steps.gate.outputs.run_maintenance }}"
+            echo "- ad branch: release snapshot only; excluded from history cleanup"
+            echo "- master branch: retention cleanup target"
           } >> "$GITHUB_STEP_SUMMARY"
