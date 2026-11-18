@@ -1,8 +1,8 @@
 
-name: Repository Maintenance
+name: 仓库维护
 
 # GITHUB_TOKEN 只保留读取权限。
-# 实际的 Git 操作和 GitHub API 操作使用 secrets.PERSON_TOKEN。
+# Git 操作和 GitHub API 操作使用 secrets.PERSON_TOKEN。
 permissions:
   contents: read
 
@@ -12,19 +12,20 @@ on:
       保留天数:
         description: "保留天数（同时应用于 Actions 运行记录和 master 提交）"
         required: true
-        default: 3
+        default: 30
         type: number
 
       保留数量:
         description: "保留数量（同时应用于 Actions 运行记录和 master 提交）"
         required: true
-        default: 7
+        default: 100
         type: number
 
-  # 每天北京时间 03:30（UTC 19:30）
+  # 每天北京时间 03:30 执行。
   schedule:
     - cron: '30 19 * * *'
 
+  # master 分支发生普通推送时执行。
   push:
     branches:
       - master
@@ -37,7 +38,7 @@ concurrency:
 
 jobs:
   maintenance:
-    name: Update Rules and Cleanup
+    name: 更新规则与清理历史
     runs-on: ubuntu-24.04
     timeout-minutes: 45
 
@@ -45,12 +46,12 @@ jobs:
       GH_TOKEN: ${{ secrets.PERSON_TOKEN }}
       GH_REPO: ${{ github.repository }}
 
-      DEFAULT_KEEP_DAYS: "3"
-      DEFAULT_KEEP_COUNT: "7"
+      DEFAULT_KEEP_DAYS: "30"
+      DEFAULT_KEEP_COUNT: "100"
 
     steps:
       # 0. 检查 PERSON_TOKEN
-      - name: Validate PERSON_TOKEN
+      - name: 检查 PERSON_TOKEN
         shell: bash
         env:
           PERSON_TOKEN: ${{ secrets.PERSON_TOKEN }}
@@ -58,14 +59,14 @@ jobs:
           set -euo pipefail
 
           if [ -z "$PERSON_TOKEN" ]; then
-            echo "::error::Repository secret PERSON_TOKEN is missing."
+            echo "::error::仓库密钥 PERSON_TOKEN 尚未配置。"
             exit 1
           fi
 
-          echo "PERSON_TOKEN is configured."
+          echo "PERSON_TOKEN 已配置。"
 
-      # 1. Checkout master
-      - name: Checkout repository
+      # 1. 检出 master
+      - name: 检出仓库代码
         uses: actions/checkout@v5
         with:
           ref: master
@@ -73,8 +74,8 @@ jobs:
           token: ${{ secrets.PERSON_TOKEN }}
           persist-credentials: true
 
-      # 2. Configure Git
-      - name: Configure Git
+      # 2. 配置 Git
+      - name: 配置 Git
         shell: bash
         run: |
           set -euo pipefail
@@ -82,8 +83,10 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git config user.name "GitHub Actions Bot"
 
-      # 3. Resolve retention settings
-      - name: Set maintenance settings
+          echo "Git 用户信息配置完成。"
+
+      # 3. 读取保留设置
+      - name: 设置保留规则
         id: settings
         shell: bash
         env:
@@ -101,12 +104,12 @@ jobs:
           fi
 
           if ! [[ "$KEEP_DAYS" =~ ^[1-9][0-9]*$ ]]; then
-            echo "::error::Retention days must be a positive integer."
+            echo "::error::保留天数必须是大于零的整数。"
             exit 1
           fi
 
           if ! [[ "$KEEP_COUNT" =~ ^[1-9][0-9]*$ ]]; then
-            echo "::error::Retention count must be a positive integer."
+            echo "::error::保留数量必须是大于零的整数。"
             exit 1
           fi
 
@@ -114,20 +117,20 @@ jobs:
           echo "keep_count=$KEEP_COUNT" >> "$GITHUB_OUTPUT"
 
           echo "================================"
-          echo "Retention days: $KEEP_DAYS"
-          echo "Retention count: $KEEP_COUNT"
+          echo "保留天数：$KEEP_DAYS 天"
+          echo "保留数量：$KEEP_COUNT 条"
           echo "================================"
 
           {
-            echo "## Maintenance Settings"
+            echo "## 维护设置"
             echo ""
-            echo "- Retention days: **$KEEP_DAYS**"
-            echo "- Retention count: **$KEEP_COUNT**"
+            echo "- 保留天数：**$KEEP_DAYS 天**"
+            echo "- 保留数量：**$KEEP_COUNT 条**"
             echo ""
           } >> "$GITHUB_STEP_SUMMARY"
 
-      # 4. Remember manual settings in workflow file
-      - name: Remember manual settings
+      # 4. 将手动设置保存为下一次默认值
+      - name: 保存手动设置
         if: ${{ github.event_name == 'workflow_dispatch' }}
         env:
           NEW_KEEP_DAYS: ${{ steps.settings.outputs.keep_days }}
@@ -151,6 +154,7 @@ jobs:
               ("保留数量", os.environ["NEW_KEEP_COUNT"]),
           ]
 
+          # 更新 workflow_dispatch 中的两个默认值。
           for input_name, value in values:
               pattern = (
                   r'(?m)^('
@@ -166,9 +170,10 @@ jobs:
 
               if count != 1:
                   raise SystemExit(
-                      f"Could not update input default: {input_name}"
+                      f"无法更新手动输入默认值：{input_name}"
                   )
 
+          # 同步更新定时任务使用的环境变量默认值。
           env_values = [
               ("DEFAULT_KEEP_DAYS", os.environ["NEW_KEEP_DAYS"]),
               ("DEFAULT_KEEP_COUNT", os.environ["NEW_KEEP_COUNT"]),
@@ -189,25 +194,25 @@ jobs:
 
               if count != 1:
                   raise SystemExit(
-                      f"Could not update environment default: {name}"
+                      f"无法更新环境变量默认值：{name}"
                   )
 
           path.write_text(content)
-          print("Manual settings saved to workflow file.")
+          print("手动设置已保存。")
           PY
 
           git add "$WORKFLOW_FILE"
 
           if git diff --cached --quiet; then
-            echo "Settings unchanged. No commit required."
+            echo "设置没有变化，无须提交。"
           else
-            git commit -m "chore: update maintenance defaults [skip ci]"
+            git commit -m "维护：更新保留规则 [skip ci]"
             git push origin HEAD:master
-            echo "New defaults saved to master."
+            echo "新的默认设置已保存到 master。"
           fi
 
-      # 5. Decide whether maintenance should run
-      - name: Check maintenance trigger
+      # 5. 判断是否执行维护
+      - name: 检查维护触发条件
         id: gate
         env:
           PUSH_AUTHOR_NAME: ${{ github.event.head_commit.author.name }}
@@ -219,24 +224,26 @@ jobs:
           SHOULD_RUN=true
 
           if [ "$GITHUB_EVENT_NAME" = "push" ]; then
-            # 忽略本 Workflow 自己推送的维护提交，防止递归执行。
+            # 忽略本工作流自己推送的维护提交，避免重复触发。
             if [ "$PUSH_AUTHOR_NAME" = "GitHub Actions Bot" ] ||
                [ "$PUSH_AUTHOR_EMAIL" = "github-actions[bot]@users.noreply.github.com" ]; then
               SHOULD_RUN=false
-              echo "Bot commit detected. Skip maintenance."
+              echo "检测到机器人提交，跳过本次维护。"
             else
-              echo "Repository push detected. Run maintenance."
+              echo "检测到仓库推送，开始执行维护。"
             fi
+
           elif [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ]; then
-            echo "Manual trigger. Run maintenance."
+            echo "检测到手动触发，立即执行维护。"
+
           else
-            echo "Scheduled trigger. Run maintenance."
+            echo "检测到定时触发，开始执行维护。"
           fi
 
           echo "run_maintenance=$SHOULD_RUN" >> "$GITHUB_OUTPUT"
 
-      # 6. Delete old Workflow Runs
-      - name: Delete old Workflow Runs
+      # 6. 清理 Actions 运行记录
+      - name: 清理 Actions 运行记录
         if: ${{ steps.gate.outputs.run_maintenance == 'true' }}
         env:
           KEEP_DAYS: ${{ steps.settings.outputs.keep_days }}
@@ -248,8 +255,8 @@ jobs:
 
           CUTOFF=$(date -u -d "$KEEP_DAYS days ago" +%s)
 
-          echo "Workflow Runs retention: $KEEP_DAYS days"
-          echo "Workflow Runs maximum count: $KEEP_COUNT"
+          echo "运行记录保留天数：$KEEP_DAYS 天"
+          echo "运行记录保留数量：$KEEP_COUNT 条"
 
           gh api --paginate \
             "repos/$GH_REPO/actions/runs?per_page=100" \
@@ -267,7 +274,7 @@ jobs:
             [ -z "${RUN_ID:-}" ] && continue
 
             if [ "$RUN_ID" = "$CURRENT_RUN_ID" ]; then
-              echo "KEEP current run: $RUN_ID"
+              echo "保留当前运行记录：$RUN_ID"
               continue
             fi
 
@@ -284,7 +291,7 @@ jobs:
             fi
 
             if [ "$SHOULD_DELETE" = "true" ]; then
-              echo "DELETE: $RUN_ID ($CREATED_AT)"
+              echo "删除运行记录：$RUN_ID（$CREATED_AT）"
 
               gh api \
                 --method DELETE \
@@ -292,33 +299,36 @@ jobs:
 
               DELETED=$((DELETED + 1))
             else
-              echo "KEEP: $RUN_ID ($CREATED_AT)"
+              echo "保留运行记录：$RUN_ID（$CREATED_AT）"
             fi
           done < /tmp/actions-runs.tsv
 
-          echo "Deleted: $DELETED"
-          echo "Kept: $KEPT"
+          echo "已删除：$DELETED 条"
+          echo "已保留：$KEPT 条"
 
           {
-            echo "## Workflow Runs Cleanup"
+            echo "## Actions 运行记录清理"
             echo ""
-            echo "- Retention days: $KEEP_DAYS"
-            echo "- Maximum retained runs: $KEEP_COUNT"
-            echo "- Deleted: $DELETED"
-            echo "- Kept: $KEPT"
+            echo "- 保留天数：$KEEP_DAYS 天"
+            echo "- 最多保留数量：$KEEP_COUNT 条"
+            echo "- 已删除：$DELETED 条"
+            echo "- 已保留：$KEPT 条"
             echo ""
           } >> "$GITHUB_STEP_SUMMARY"
 
-      # 7. Run automatic rule update
-      - name: Run start-ci.sh
+      # 7. 更新广告规则
+      - name: 执行广告规则更新脚本
         if: ${{ steps.gate.outputs.run_maintenance == 'true' }}
         shell: bash
         run: |
           set -euo pipefail
-          /bin/bash ./scripts/start-ci.sh
 
-      # 8. Build ad branch snapshot
-      - name: Build ad branch snapshot
+          echo "开始执行广告规则更新脚本。"
+          /bin/bash ./scripts/start-ci.sh
+          echo "广告规则更新完成。"
+
+      # 8. 构建 ad 发布分支快照
+      - name: 构建 ad 发布分支快照
         if: ${{ steps.gate.outputs.run_maintenance == 'true' }}
         shell: bash
         run: |
@@ -335,15 +345,15 @@ jobs:
           TMP_DIR=$(mktemp -d)
           trap 'rm -rf "$TMP_DIR"' EXIT
 
-          echo "Copying ad files..."
+          echo "开始复制广告发布文件。"
 
           for FILE in "${KEEP_FILES[@]}"; do
             if [ -f "$FILE" ]; then
               mkdir -p "$TMP_DIR/$(dirname "$FILE")"
               cp "$FILE" "$TMP_DIR/$FILE"
-              echo "KEEP: $FILE"
+              echo "保留文件：$FILE"
             else
-              echo "WARNING: File not found: $FILE"
+              echo "::warning::未找到文件：$FILE"
             fi
           done
 
@@ -361,13 +371,13 @@ jobs:
           git add -A
 
           git commit --allow-empty \
-            -m "update: $(TZ=Asia/Shanghai date "+%Y-%m-%d %H:%M:%S")"
+            -m "更新广告规则：$(TZ=Asia/Shanghai date "+%Y-%m-%d %H:%M:%S")"
 
-          echo "ad snapshot created."
+          echo "ad 发布快照构建完成。"
 
-      # 9. Publish ad branch
-      # ad 是发布分支，只更新最新快照，不参与 master 历史清理。
-      - name: Push ad branch
+      # 9. 发布 ad 分支
+      # ad 是发布分支，只更新最新快照，不参与历史清理。
+      - name: 发布 ad 分支
         if: ${{ steps.gate.outputs.run_maintenance == 'true' }}
         shell: bash
         run: |
@@ -375,10 +385,10 @@ jobs:
 
           git push --force origin HEAD:refs/heads/ad
 
-          echo "ad release branch updated successfully."
+          echo "ad 发布分支已成功更新。"
 
-      # 10. Prepare master history cleanup
-      - name: Prepare master history cleanup
+      # 10. 清理 master 提交历史
+      - name: 清理 master 提交历史
         if: ${{ steps.gate.outputs.run_maintenance == 'true' }}
         id: history
         env:
@@ -388,11 +398,10 @@ jobs:
         run: |
           set -euo pipefail
 
-          echo "Master history retention: $KEEP_DAYS days"
-          echo "Master history maximum count: $KEEP_COUNT"
+          echo "master 提交保留天数：$KEEP_DAYS 天"
+          echo "master 提交保留数量：$KEEP_COUNT 条"
 
-          # 明确只获取和处理 master。
-          # 不获取、不遍历、不修改 ad 分支。
+          # 只获取 master，不处理 ad 发布分支。
           git fetch origin master
           git checkout --detach refs/remotes/origin/master
 
@@ -417,7 +426,7 @@ jobs:
 
           FIRST_KEEP=""
 
-          # 第二步：在符合日期条件的提交中，只保留最近 KEEP_COUNT 个。
+          # 第二步：在符合日期条件的提交中保留最近 KEEP_COUNT 条。
           if [ "${#ELIGIBLE[@]}" -gt 0 ]; then
             ELIGIBLE_COUNT="${#ELIGIBLE[@]}"
 
@@ -430,24 +439,24 @@ jobs:
             FIRST_KEEP="${ELIGIBLE[$KEEP_INDEX]}"
           fi
 
-          echo "Master first-parent commits: ${#FIRST_PARENT_COMMITS[@]}"
-          echo "Eligible commits by date: ${#ELIGIBLE[@]}"
+          echo "master 第一父链提交总数：${#FIRST_PARENT_COMMITS[@]}"
+          echo "符合日期条件的提交数：${#ELIGIBLE[@]}"
 
-          # 第一个提交已经是保留起点，无须重写。
+          # 如果第一条主线提交已经符合保留条件，则无需重写。
           if [ -n "$FIRST_KEEP" ] &&
              [ "$FIRST_KEEP" = "${FIRST_PARENT_COMMITS[0]}" ]; then
 
-            echo "No old master history to clean."
+            echo "master 历史无需清理。"
 
             echo "new_head=" >> "$GITHUB_OUTPUT"
             echo "old_head=$OLD_HEAD" >> "$GITHUB_OUTPUT"
 
             {
-              echo "## Master Commit Cleanup"
+              echo "## master 提交历史清理"
               echo ""
-              echo "- Retention days: $KEEP_DAYS"
-              echo "- Maximum retained commits: $KEEP_COUNT"
-              echo "- No history rewrite required."
+              echo "- 保留天数：$KEEP_DAYS 天"
+              echo "- 保留数量：$KEEP_COUNT 条"
+              echo "- 无须重写提交历史。"
               echo ""
             } >> "$GITHUB_STEP_SUMMARY"
 
@@ -459,32 +468,35 @@ jobs:
           git branch -f "$TEMP_BRANCH" "$OLD_HEAD"
 
           if [ -n "$FIRST_KEEP" ]; then
-            echo "First retained master commit:"
+            echo "第一条保留提交："
             git show -s --format="%h %ad %s" --date=short "$FIRST_KEEP"
 
-            # 使用第一个保留提交的第一父提交文件树作为新根。
-            # 然后从该父提交之后开始重放，确保 FIRST_KEEP 本身也被重放。
+            # 取第一条保留提交的第一父提交。
             FIRST_PARENT=$(git rev-parse "$FIRST_KEEP^1")
+
+            # 新根提交使用第一条保留提交的父提交文件树。
             ROOT_TREE=$(git rev-parse "$FIRST_PARENT^{tree}")
 
             NEW_ROOT=$(
-              printf '%s\n' "Initial history snapshot" \
+              printf '%s\n' "初始历史快照" \
                 | git commit-tree "$ROOT_TREE"
             )
 
-            echo "New root: $NEW_ROOT"
+            echo "新历史根提交：$NEW_ROOT"
 
+            # 从第一条保留提交的父提交之后开始重放。
             git rebase \
               --rebase-merges \
               --onto "$NEW_ROOT" \
               "$FIRST_PARENT" \
               "$TEMP_BRANCH"
+
           else
-            echo "No commits meet the retention date."
-            echo "Keeping the current master file snapshot only."
+            echo "没有提交符合保留日期条件。"
+            echo "仅保留当前 master 文件快照。"
 
             NEW_ROOT=$(
-              printf '%s\n' "Initial history snapshot" \
+              printf '%s\n' "初始历史快照" \
                 | git commit-tree "$OLD_TREE"
             )
 
@@ -494,43 +506,39 @@ jobs:
           NEW_HEAD=$(git rev-parse "$TEMP_BRANCH")
           NEW_TREE=$(git rev-parse "$NEW_HEAD^{tree}")
 
-          # 必须确保重写前后文件树对象完全相同。
+          # 验证重写前后完整文件树完全一致。
           if [ "$OLD_TREE" != "$NEW_TREE" ]; then
-            echo "::error::Master file tree changed during history rewrite."
-            echo "Old tree: $OLD_TREE"
-            echo "New tree: $NEW_TREE"
+            echo "::error::master 历史重写后文件树发生变化，停止推送。"
+            echo "原文件树：$OLD_TREE"
+            echo "新文件树：$NEW_TREE"
             exit 1
           fi
 
-          echo "File tree verification passed."
+          echo "文件树验证通过。"
 
           OLD_COUNT=$(git rev-list --count --first-parent "$OLD_HEAD")
           NEW_COUNT=$(git rev-list --count --first-parent "$NEW_HEAD")
 
-          echo "Old first-parent commits: $OLD_COUNT"
-          echo "New first-parent commits: $NEW_COUNT"
+          echo "重写前主线提交数：$OLD_COUNT"
+          echo "重写后主线提交数：$NEW_COUNT"
 
           echo "old_head=$OLD_HEAD" >> "$GITHUB_OUTPUT"
           echo "new_head=$NEW_HEAD" >> "$GITHUB_OUTPUT"
 
           {
-            echo "## Master Commit Cleanup"
+            echo "## master 提交历史清理"
             echo ""
-            echo "- Retention days: $KEEP_DAYS"
-            echo "- Maximum retained commits: $KEEP_COUNT"
-            echo "- Old first-parent commits: $OLD_COUNT"
-            echo "- New first-parent commits: $NEW_COUNT"
-            echo "- File tree verification: passed"
+            echo "- 保留天数：$KEEP_DAYS 天"
+            echo "- 保留数量：$KEEP_COUNT 条"
+            echo "- 重写前主线提交数：$OLD_COUNT"
+            echo "- 重写后主线提交数：$NEW_COUNT"
+            echo "- 完整文件树验证：通过"
             echo ""
           } >> "$GITHUB_STEP_SUMMARY"
 
-      # 11. Push cleaned master history
-      - name: Push cleaned master history
-        if: >-
-          ${{
-            steps.gate.outputs.run_maintenance == 'true' &&
-            steps.history.outputs.new_head != ''
-          }}
+      # 11. 推送清理后的 master 历史
+      - name: 推送清理后的 master 历史
+        if: ${{ steps.gate.outputs.run_maintenance == 'true' && steps.history.outputs.new_head != '' }}
         env:
           OLD_HEAD: ${{ steps.history.outputs.old_head }}
           NEW_HEAD: ${{ steps.history.outputs.new_head }}
@@ -543,32 +551,45 @@ jobs:
           NEW_TREE=$(git rev-parse "$NEW_HEAD^{tree}")
 
           if [ "$OLD_TREE" != "$NEW_TREE" ]; then
-            echo "::error::File tree verification failed before push."
+            echo "::error::推送前文件树验证失败，拒绝推送。"
             exit 1
           fi
+
+          echo "推送前文件树验证通过。"
 
           git push \
             --force-with-lease="refs/heads/master:$OLD_HEAD" \
             origin \
             "$NEW_HEAD:refs/heads/master"
 
-          echo "Master history updated successfully."
+          echo "master 提交历史已成功更新。"
 
-      # 12. Final summary
-      - name: Maintenance summary
+          {
+            echo "## master 历史推送结果"
+            echo ""
+            echo "- 原提交：$OLD_HEAD"
+            echo "- 新提交：$NEW_HEAD"
+            echo "- 文件树验证：通过"
+            echo "- 推送结果：成功"
+            echo ""
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      # 12. 输出维护结果
+      - name: 输出维护结果
         if: always()
         shell: bash
         run: |
           echo "================================"
-          echo "Repository Maintenance"
+          echo "仓库维护执行结果"
           echo "================================"
 
           {
-            echo "## Maintenance Result"
+            echo "## 仓库维护结果"
             echo ""
-            echo "- Retention days: ${{ steps.settings.outputs.keep_days }}"
-            echo "- Retention count: ${{ steps.settings.outputs.keep_count }}"
-            echo "- Maintenance executed: ${{ steps.gate.outputs.run_maintenance }}"
-            echo "- ad branch: release snapshot only; excluded from history cleanup"
-            echo "- master branch: retention cleanup target"
+            echo "- 保留天数：${{ steps.settings.outputs.keep_days }} 天"
+            echo "- 保留数量：${{ steps.settings.outputs.keep_count }} 条"
+            echo "- 是否执行维护：${{ steps.gate.outputs.run_maintenance }}"
+            echo "- ad 分支：仅发布最新广告文件快照，不参与历史清理"
+            echo "- master 分支：按保留规则清理提交历史"
+            echo ""
           } >> "$GITHUB_STEP_SUMMARY"
