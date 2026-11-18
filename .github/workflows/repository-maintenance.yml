@@ -12,13 +12,13 @@ on:
       保留天数:
         description: "保留天数（同时应用于 Actions 运行记录和 master 提交）"
         required: true
-        default: 3
+        default: 7
         type: number
 
       保留数量:
         description: "保留数量（同时应用于 Actions 运行记录和 master 提交）"
         required: true
-        default: 7
+        default: 30
         type: number
 
   # 每天北京时间 03:30 执行。
