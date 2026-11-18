@@ -12,13 +12,13 @@ on:
       保留天数:
         description: "保留天数（同时应用于 Actions 运行记录和 master 提交）"
         required: true
-        default: 30
+        default: 3
         type: number
 
       保留数量:
         description: "保留数量（同时应用于 Actions 运行记录和 master 提交）"
         required: true
-        default: 100
+        default: 7
         type: number
 
   # 每天北京时间 03:30 执行。
@@ -46,8 +46,8 @@ jobs:
       GH_TOKEN: ${{ secrets.PERSON_TOKEN }}
       GH_REPO: ${{ github.repository }}
 
-      DEFAULT_KEEP_DAYS: "30"
-      DEFAULT_KEEP_COUNT: "100"
+      DEFAULT_KEEP_DAYS: "3"
+      DEFAULT_KEEP_COUNT: "7"
 
     steps:
       # 0. 检查 PERSON_TOKEN
