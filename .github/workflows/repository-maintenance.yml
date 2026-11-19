@@ -46,8 +46,8 @@ jobs:
       GH_TOKEN: ${{ secrets.PERSON_TOKEN }}
       GH_REPO: ${{ github.repository }}
 
-      DEFAULT_KEEP_DAYS: "3"
-      DEFAULT_KEEP_COUNT: "7"
+      DEFAULT_KEEP_DAYS: "7"
+      DEFAULT_KEEP_COUNT: "30"
 
     steps:
       # 0. 检查 PERSON_TOKEN
