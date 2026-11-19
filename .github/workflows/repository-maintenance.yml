@@ -21,7 +21,6 @@ on:
         default: 30
         type: number
 
-  # 每天北京时间 03:30 执行。
   schedule:
     - cron: '30 */3 * * *'
 
