@@ -22,7 +22,7 @@ on:
         type: number
 
   schedule:
-    - cron: '30 */3 * * *'
+    - cron: 30 */3 * * *
 
   # master 分支发生普通推送时执行。
   push:
