@@ -22,8 +22,8 @@ on:
         type: number
 
   schedule:
-    - cron: '30 3,9,15,21 * * *'
-    
+    - cron: 30 3,9,15,21 * * *
+      timezone: Asia/Shanghai
   # master 分支发生普通推送时执行。
   push:
     branches:
